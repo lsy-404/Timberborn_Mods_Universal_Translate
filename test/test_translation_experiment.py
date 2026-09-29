@@ -37,6 +37,18 @@ class TranslationExperimentTests(unittest.TestCase):
     def test_localized_decimal_does_not_change_value(self):
         self.assertEqual(experiment.numbers('0.75 means 75% faster'), experiment.numbers('0,75 bedeutet 75% schneller'))
         self.assertNotEqual(experiment.numbers('0.75 means 75% faster'), experiment.numbers('0.5 means 50% faster'))
+        self.assertEqual(experiment.numbers('0.75 means 75% faster'), experiment.numbers('0,75 bedeutet 75 % schneller'))
+        self.assertNotEqual(experiment.numbers('0.75'), experiment.numbers('-0.75'))
+
+    def test_spelled_one_can_become_a_digit(self):
+        self.assertNotIn('numbers_changed', experiment.format_issues('Generate 2,000 hp in a single network.',
+                                                                     '1つのネットワークで2,000 hpを発電する。'))
+        self.assertIn('numbers_changed', experiment.format_issues('Generate 2,000 hp in a single network.',
+                                                                  '2つのネットワークで2,000 hpを発電する。'))
+
+    def test_detects_added_curly_quotes(self):
+        self.assertIn('added_outer_quotes', experiment.format_issues('A great invention.', '“伟大的发明。”'))
+        self.assertNotIn('added_outer_quotes', experiment.format_issues('"A great invention."', '“伟大的发明。”'))
 
     def test_background_is_cacheable_and_stays_before_dynamic_context(self):
         cases, config, glossary = experiment.prepare_cases()
