@@ -1,0 +1,14 @@
+[
+  {"id": "liquid_tank", "file": "3281653061.toml", "key": "Lapantouflemagic.SCoveredtank.DisplayName"},
+  {"id": "update_count", "file": "3286370025.toml", "key": "Mods.UpdateAllLabel"},
+  {"id": "incompatible_mods", "file": "3468642084.toml", "key": "LV.T4Mods.IssueIncomp"},
+  {"id": "colored_storage_description", "file": "3281653061.toml", "key": "Lapantouflemagic.GigargantuanStorage.Description"},
+  {"id": "pump_warning", "file": "3285720709.toml", "key": "Knatte.PipeU.Description"},
+  {"id": "drought_flow_control", "file": "3324234282.toml", "key": "IgorZ.Automation.Tool.tmpl.DroughtOpenFlowControl.Description"},
+  {"id": "updated_swimming_speed", "file": "3421130054.toml", "key": "LV.FUM.SwimmingBonusDesc", "new_text": "The bonus speed for beavers moving in water. 0.75 means 75% faster than walking on land."},
+  {"id": "power_achievement", "file": "3613175039.toml", "key": "LV.MTA.AchDesc_GENERATE_POWER_WITH_POWER_WHEELS_ONLY"},
+  {"id": "faction_food", "file": "3295782631.toml", "key": "Bentos.Good.FolktailsBento.DisplayName"},
+  {"id": "engine_flavor", "file": "3346318229.toml", "key": "Building.SmallEngine.FlavorDescription"},
+  {"id": "watertight_power_shaft", "file": "3716257577.toml", "key": "Building.Ygo.WatertightPowerShaft.Description"},
+  {"id": "unlock_progress", "file": "3613175039.toml", "key": "LV.MTA.GroupTitle"}
+]

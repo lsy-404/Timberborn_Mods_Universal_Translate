@@ -1,0 +1,59 @@
+name: Translation Model Experiment
+
+on:
+  workflow_dispatch:
+    inputs:
+      sample_limit:
+        description: Number of source entries per language
+        type: number
+        default: 12
+      max_cost_usd:
+        description: Maximum reported API cost in USD
+        type: number
+        default: 0.25
+
+permissions:
+  contents: read
+
+concurrency:
+  group: translation-model-experiment
+  cancel-in-progress: false
+
+jobs:
+  compare:
+    if: contains(fromJSON(vars.WORKFLOWS_ALLOWLIST || '[]'), github.actor)
+    environment: automations
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install experiment dependencies
+        run: pip install -r .github/scripts/requirements.txt tiktoken==0.14.0
+      - name: Check experiment accounting and samples
+        run: python -m unittest discover -s test -p 'test_translation_experiment.py' -v
+      - name: Compare translations
+        env:
+          LLM_TOKEN: ${{ secrets.LLM_TOKEN }}
+          SAMPLE_LIMIT: ${{ inputs.sample_limit }}
+          MAX_COST_USD: ${{ inputs.max_cost_usd }}
+        run: |
+          python test/compare_translation_models.py \
+            --sample-limit "$SAMPLE_LIMIT" \
+            --max-cost-usd "$MAX_COST_USD" \
+            --output-dir test/results
+      - name: Publish comparison summary
+        if: always()
+        run: |
+          if [ -f test/results/summary.md ]; then
+            cat test/results/summary.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Upload comparison results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: translation-model-comparison-${{ github.run_number }}
+          path: test/results/
+          retention-days: 7
