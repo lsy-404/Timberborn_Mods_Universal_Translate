@@ -82,7 +82,7 @@ def prepare_cases():
                 glossary_hints=hints,
             )
             cases.append({**sample, 'language': language, 'repeat_index': 0,
-                          'source': source, 'reference': '', 'system_prompt': system, 'user_prompt': user})
+                          'source': source, 'glossary_hints': hints, 'reference': '', 'system_prompt': system, 'user_prompt': user})
     cases.extend({**case, 'repeat_index': 1} for case in list(cases) if case['repeat'])
     return cases, config
 
@@ -112,7 +112,12 @@ def request_body(variant, case, packs, run_key):
     if variant.startswith('luna_compact'):
         system = [{'type': 'text', 'text': part, 'prompt_cache_breakpoint': {'mode': 'explicit'}}
                   for part in packs[variant][case['language']]['parts']]
-        user = f"Mod: {case['mod_name']}\n{case['user_prompt']}"
+        context = {'mod': case['mod_name'], 'key': case['key'],
+                   'field_hint': case.get('meta_prompt'), 'specific_note': case.get('specific_prompt'),
+                   'glossary_references': case.get('glossary_hints', [])}
+        if 'new_text' in case:
+            context.update(old_source_text=case['raw'], current_translation=case.get('references', {}).get(case['language']))
+        user = json.dumps({'source_text': case['source'], 'context': context}, ensure_ascii=False)
     else:
         system, user = case['system_prompt'], case['user_prompt']
     source_tokens = len(core.ENCODING.encode(case['source']))
@@ -238,7 +243,7 @@ def judge_result(row):
                      for label in ('A', 'B')}
 
 
-def grading_jobs(records, terms):
+def grading_jobs(records, terms, reverse_all=False):
     first = {(r['id'], r['language'], r['variant']): r for r in records if r['repeat_index'] == 0 and 'text' in r}
     cases = [r for r in records if r['variant'] == 'original' and r['repeat_index'] == 0 and 'text' in r]
     selected = []
@@ -263,7 +268,8 @@ def grading_jobs(records, terms):
                    'variant': variant, 'labels': labels, 'kind': 'comparison'}
             jobs.append({'row': row, 'body': judge_request(case, candidates['A'], candidates['B'], vocabulary), 'prices': JUDGE_PRICES})
     reverse = []
-    for job in sorted(jobs, key=lambda j: digest('reverse:' + j['row']['id'] + j['row']['language'] + j['row']['variant']))[:24]:
+    reverse_jobs = sorted(jobs, key=lambda j: digest('reverse:' + j['row']['id'] + j['row']['language'] + j['row']['variant']))
+    for job in reverse_jobs if reverse_all else reverse_jobs[:24]:
         evidence = json.loads(job['body']['messages'][1]['content'])
         evidence['A'], evidence['B'] = evidence['B'], evidence['A']
         body = {**job['body'], 'messages': [job['body']['messages'][0], {'role': 'user', 'content': json.dumps(evidence, ensure_ascii=False)}]}
@@ -309,6 +315,30 @@ def bootstrap_interval(rows):
     return [estimates[24], estimates[974]]
 
 
+def paired_summaries(judges):
+    reversed_rows = {(r['id'], r['language'], r['variant']): r for r in judges
+                     if r.get('kind') == 'reversed' and 'grade' in r}
+    paired = []
+    for row in judges:
+        if row.get('kind') != 'comparison' or 'grade' not in row:
+            continue
+        other = reversed_rows.get((row['id'], row['language'], row['variant']))
+        if other is None:
+            continue
+        scores = {v: (score + other['scores'][v]) / 2 for v, score in row['scores'].items()}
+        preferred = row['preferred_variant'] if row['preferred_variant'] == other['preferred_variant'] else 'inconclusive'
+        paired.append({**row, 'scores': scores, 'preferred_variant': preferred})
+    result = {}
+    for variant in list(VARIANTS)[1:]:
+        group = [r for r in paired if r['variant'] == variant]
+        outcomes = Counter('win' if r['preferred_variant'] == variant else 'loss' if r['preferred_variant'] == 'original'
+                           else r['preferred_variant'] for r in group)
+        result[variant] = {'pairs': len(group), 'outcomes': dict(outcomes),
+                           'mean_score_delta': statistics.mean(r['scores'][variant] - r['scores']['original'] for r in group) if group else None,
+                           'cluster_bootstrap_95_interval': bootstrap_interval(group)}
+    return result
+
+
 def save_reports(directory, records, judges, metadata, budget):
     core.write_reports(directory, records, metadata, VARIANTS)
     quality = {}
@@ -330,7 +360,7 @@ def save_reports(directory, records, judges, metadata, budget):
                     'position_consistent': stable, 'position_comparisons': len(reversed_rows),
                     'translation_cost_usd': translation_cost, 'grading_cost_usd': judge_cost,
                     'budget_spent_or_reserved_for_unknown_usd': budget.spent, 'unknown_cost_requests': budget.unknown,
-                    'records': judges}
+                    'paired_summaries': paired_summaries(judges), 'records': judges}
     (directory / 'quality.json').write_text(json.dumps(grade_report, ensure_ascii=False, indent=2) + '\n')
     lines = ['', '## Blind model grading', '', 'These are model-judge proxies, not human accuracy percentages.',
              f'Calibration: {cal_pass}/{len(calibrated)}; position reversal consistency: {stable}/{len(reversed_rows)}.', '',
@@ -348,9 +378,59 @@ def save_reports(directory, records, judges, metadata, budget):
     lines.extend(['', f'Translations: ${translation_cost:.6f}; independent grading: ${judge_cost:.6f}.',
                   'Calibration/reversal failures limit confidence in grader results. No candidate model names were shown to the judge.',
                   'The sample deliberately balances categories and does not reproduce the daily workload distribution.'])
+    if metadata.get('replay_source_run_id'):
+        lines.extend(['', '## Both candidate orders', '',
+                      'Disagreement between the two orders is inconclusive, not counted as a win.', '',
+                      '| Variant | Paired tasks | Consistent wins | Consistent ties | Consistent losses | Inconclusive | Mean score difference | 95% interval |',
+                      '| --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |'])
+        for variant, s in grade_report['paired_summaries'].items():
+            o = s['outcomes']
+            lines.append(f"| {variant} | {s['pairs']} | {o.get('win', 0)} | {o.get('tie', 0)} | {o.get('loss', 0)} | {o.get('inconclusive', 0)} | {s['mean_score_delta']} | {s['cluster_bootstrap_95_interval']} |")
+        lines.extend(['', f"Historical API spend: ${metadata['historical_spend_usd']:.6f}; additional spend: ${budget.spent - metadata['historical_spend_usd']:.6f}; combined budget ledger: ${budget.spent:.6f}.",
+                      'Original and short-Luna outputs were reused. Only compressed-context translations were regenerated with explicit source/context boundaries.'])
     with (directory / 'summary.md').open('a') as handle:
         handle.write('\n'.join(lines) + '\n')
     return grade_report
+
+
+def replay_experiment(source_dir, args, token, config, cases, packs):
+    paths = list(source_dir.rglob('results.json'))
+    if len(paths) != 1:
+        raise ValueError('Replay directory must contain exactly one experiment results.json')
+    data = json.loads(paths[0].read_text())
+    previous = json.loads((paths[0].parent / 'quality.json').read_text())
+    budget = Budget(args.max_cost_usd)
+    budget.spent = previous['budget_spent_or_reserved_for_unknown_usd']
+    budget.unknown = previous['unknown_cost_requests']
+    if budget.unknown or previous['calibration_pass'] < 7:
+        raise ValueError('Replay requires known accounting and a calibrated judge')
+    metadata = {**data['metadata'], 'replay_source_run_id': os.environ.get('SOURCE_RUN_ID'),
+                'historical_spend_usd': budget.spent, 'replay_commit': os.environ.get('GITHUB_SHA'),
+                'background_tokens_estimate': len(core.ENCODING.encode(packs['luna_compact_terms']['zhCN']['parts'][0])),
+                'context_tokens_estimate': {v: {l: p['visible_tokens_estimate'] for l, p in langs.items()} for v, langs in packs.items()}}
+    records = [r for r in data['records'] if not r['variant'].startswith('luna_compact')]
+    judges = [r for r in previous['records'] if r.get('kind') == 'calibration' or r.get('variant') == 'luna_none']
+    run_key = 'compact-replay-' + os.environ.get('GITHUB_RUN_ID', 'local')
+    for variant in ('luna_compact_terms', 'luna_compact_examples'):
+        jobs = [{'row': {**{k: v for k, v in c.items() if k not in ('system_prompt', 'user_prompt')}, 'variant': variant},
+                 'body': request_body(variant, c, packs, run_key), 'prices': VARIANTS[variant]} for c in cases]
+        records.extend(process_jobs(jobs[:6], 1, budget, token, config['llm']['api_url'], translation_result))
+        if not any('error' in r for r in records):
+            records.extend(process_jobs(jobs[6:], args.workers, budget, token, config['llm']['api_url'], translation_result))
+        core.write_reports(args.output_dir, records, metadata, VARIANTS)
+        print(f'Retested {variant}; cumulative budget ${budget.spent:.6f}', flush=True)
+        if any('error' in r for r in records):
+            break
+    if not any('error' in r for r in records):
+        terms = json.loads((ROOT / 'test/translation_reference_terms.json').read_text())['terms']
+        jobs = grading_jobs(records, terms, reverse_all=True)
+        existing = {(r['kind'], r['id'], r['language'], r.get('variant')) for r in judges}
+        jobs = [j for j in jobs if (j['row']['kind'], j['row']['id'], j['row']['language'], j['row']['variant']) not in existing]
+        def snapshot(new_rows):
+            (args.output_dir / 'grading-progress.json').write_text(json.dumps(judges + new_rows, ensure_ascii=False, indent=2))
+        judges.extend(process_jobs(jobs, min(6, args.workers), budget, token, config['llm']['api_url'], judge_result, snapshot))
+    save_reports(args.output_dir, records, judges, metadata, budget)
+    return 1 if any('error' in r for r in records + judges) else 0
 
 
 def main():
@@ -358,6 +438,7 @@ def main():
     parser.add_argument('--workers', type=int, default=8)
     parser.add_argument('--max-cost-usd', type=float, default=2)
     parser.add_argument('--output-dir', type=Path, default=ROOT / 'test/scale-results')
+    parser.add_argument('--replay-dir', type=Path)
     args = parser.parse_args()
     if not 1 <= args.workers <= 12 or not 0 < args.max_cost_usd <= 5:
         parser.error('workers must be 1–12 and max-cost-usd must be greater than 0 and at most 5')
@@ -366,6 +447,8 @@ def main():
         parser.error('CI API credential required')
     cases, config = prepare_cases()
     packs = contexts(config)
+    if args.replay_dir:
+        return replay_experiment(args.replay_dir, args, token, config, cases, packs)
     budget = Budget(args.max_cost_usd)
     run_key = 'compact-eval-' + os.environ.get('GITHUB_RUN_ID', 'local')
     metadata = {'languages': LANGUAGES, 'prices_per_million': VARIANTS, 'commit': os.environ.get('GITHUB_SHA'),
