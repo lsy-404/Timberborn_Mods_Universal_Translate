@@ -1,0 +1,95 @@
+{
+  "terms": [
+    {
+      "source": "Badwater",
+      "targets": {"zhCN": "恶水"},
+      "provenance": "data/3284067782.toml Building.SkyBadwaterSource.DisplayName",
+      "confidence": "project"
+    },
+    {
+      "source": "Timberborn",
+      "targets": {
+        "zhCN": "海狸浮生记",
+        "zhTW": "海狸浮生記",
+        "jaJP": "Timberborn",
+        "deDE": "Timberborn",
+        "frFR": "Timberborn",
+        "ruRU": "Timberborn"
+      },
+      "provenance": "Steam localized store pages; zhCN/zhTW also data/_glossary.toml[Timberborn]",
+      "confidence": "project"
+    },
+    {
+      "source": "Folktails",
+      "targets": {
+        "zhCN": "神尾",
+        "zhTW": "神尾",
+        "jaJP": "フォークテイル",
+        "deDE": "Rustikalruten",
+        "frFR": "Rustiqueues",
+        "ruRU": "Хвосты мира"
+      },
+      "provenance": "Steam localized store pages; zhCN/zhTW also data/_glossary.toml[Folktails]",
+      "confidence": "verified"
+    },
+    {
+      "source": "Iron Teeth",
+      "targets": {
+        "zhCN": "铁牙",
+        "zhTW": "鐵牙",
+        "jaJP": "アイアン・ティース",
+        "deDE": "Eisenzähne",
+        "frFR": "Dents de fer",
+        "ruRU": "Железные зубы"
+      },
+      "provenance": "Steam localized store pages; zhCN/zhTW also data/_glossary.toml[IronTeeth]",
+      "confidence": "verified"
+    },
+    {
+      "source": "Water physics",
+      "targets": {
+        "zhCN": "水物理",
+        "zhTW": "水物理",
+        "jaJP": "水の物理システム",
+        "deDE": "Wasserphysik",
+        "frFR": "physique de l'eau",
+        "ruRU": "физика воды"
+      },
+      "provenance": "Steam localized store pages (official game descriptions)",
+      "confidence": "verified"
+    },
+    {
+      "source": "Dam",
+      "targets": {
+        "zhCN": "堤坝",
+        "zhTW": "水壩",
+        "jaJP": "ダム",
+        "deDE": "Damm",
+        "frFR": "barrage",
+        "ruRU": "плотина"
+      },
+      "provenance": "Steam localized store pages (official game descriptions)",
+      "confidence": "verified"
+    },
+    {
+      "source": "Energy network",
+      "targets": {
+        "zhCN": "能量网",
+        "zhTW": "動能網",
+        "jaJP": "電力網",
+        "deDE": "Stromnetz",
+        "frFR": "réseau énergétique",
+        "ruRU": "система энергоснабжения"
+      },
+      "provenance": "Steam localized store pages (official vertical architecture descriptions)",
+      "confidence": "verified"
+    }
+  ],
+  "notes": [
+    "Steam provenance: https://store.steampowered.com/app/1062090/Timberborn/?l= with locale values schinese, tchinese, japanese, german, french, russian.",
+    "The project zhTW title 海狸浮生記 differs from the Steam listing 河狸浮生記; this file follows the project glossary.",
+    "No direct official localized equivalent for Badwater was confirmed. Its zhCN project term comes from a separate mod title, not a complete evaluation translation.",
+    "Publisher description phrases are evidence for reference wording, not a full official in-game localization catalog.",
+    "Faction names are normalized to standalone form; Russian Steam copy inflects them in sentence context."
+  ]
+}
