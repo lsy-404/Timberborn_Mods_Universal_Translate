@@ -126,7 +126,8 @@ def parse_usage(usage, prices):
 
 def numbers(text):
     text = TAG.sub('', PLACEHOLDER.sub('', text)).replace('％', '%')
-    found = re.findall(r'\d+(?:[.,]\d+)*%?', text)
+    text = re.sub(r'(\d)\s+%', r'\1%', text)
+    found = re.findall(r'[+-]?\d+(?:[.,]\d+)*%?', text)
     normalized = []
     for value in found:
         if re.fullmatch(r'\d{1,3}(?:[,.]\d{3})+%?', value):
@@ -147,8 +148,18 @@ def format_issues(source, output):
         issues.append('markup_changed')
     if source.count('\n') != output.count('\n') or source.count('\\n') != output.count('\\n'):
         issues.append('line_breaks_changed')
-    if numbers(source) != numbers(output):
+    expected, actual = numbers(source), numbers(output)
+    added = actual - expected
+    spelled_ones = len(re.findall(r'\b(?:one|single)\b', source, re.IGNORECASE))
+    if added.get('1', 0) <= spelled_ones:
+        added.pop('1', None)
+    if expected - actual or added:
         issues.append('numbers_changed')
+    quote_pairs = (('"', '"'), ("'", "'"), ('“', '”'), ('‘', '’'),
+                   ('「', '」'), ('『', '』'), ('«', '»'), ('„', '“'))
+    source_quoted = any(source.startswith(a) and source.endswith(b) for a, b in quote_pairs)
+    if not source_quoted and any(output.startswith(a) and output.endswith(b) for a, b in quote_pairs):
+        issues.append('added_outer_quotes')
     if re.match(r'(?i)^(translation|result|translated text)\s*:', output):
         issues.append('added_prefix')
     if output.strip() == source.strip():
@@ -187,7 +198,7 @@ def write_reports(directory, records, metadata):
     (directory / 'results.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     lines = [
         '# Translation model comparison', '',
-        '| Variant | Completed / requests | Format checks | Input | Cache reads | Cache writes | Output | Reasoning | Cost USD | Median seconds |',
+        '| Variant | Completed / requests | Output checks | Input | Cache reads | Cache writes | Output | Reasoning | Cost USD | Median seconds |',
         '| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |',
     ]
     for variant, s in summaries.items():
@@ -197,10 +208,13 @@ def write_reports(directory, records, metadata):
     lines.extend([
         '', f"Shared background: approximately {metadata['background_tokens_estimate']} visible tokens (o200k_base).",
         'The first cache write and every failed or uncached request remain part of the experiment.',
-        'Format checks cover placeholders, tags, line breaks and numbers; they do not establish translation accuracy.',
+        'Output checks cover placeholders, tags, line breaks, numbers and added quotes; they do not establish translation accuracy.',
+        'An unchanged source is flagged for review; proper names can legitimately remain unchanged.',
         'Existing repository translations are comparison references, not certified answers.',
         'Costs use reported usage and Standard API rates. Missing cache-write fields make the Luna estimate incomplete.',
     ])
+    if metadata.get('replay_run_id'):
+        lines.extend(['', f"Format checks were recomputed locally from the unchanged outputs of Actions run {metadata['replay_run_id']}. No additional API requests were made."])
     for variant, s in summaries.items():
         lines.append(f"- {variant}: token cache-hit rate {s['cache_hit_rate']:.1%}; input cost saved versus the same uncached prompt ${s['input_cost_without_cache_usd'] - s['input_cost_usd']:.6f}.")
     for record in records:
