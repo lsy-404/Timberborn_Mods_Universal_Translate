@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   compare:
-    if: contains(fromJSON(vars.WORKFLOWS_ALLOWLIST || '[]'), github.actor)
+    if: github.ref == 'refs/heads/main' && (github.actor == github.repository_owner || contains(fromJSON(vars.WORKFLOWS_ALLOWLIST || '[]'), github.actor))
     environment: automations
     runs-on: ubuntu-latest
     timeout-minutes: 20
