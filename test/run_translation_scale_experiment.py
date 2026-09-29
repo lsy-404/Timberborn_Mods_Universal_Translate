@@ -193,6 +193,7 @@ def process_jobs(jobs, workers, budget, token, endpoint, transform, on_batch=Non
 
 def translation_result(row):
     row['text'] = core.translate_mods.strip_extra_quotes(row['raw_text'].strip(), row['source'])
+    row['text'] = core.restore_source_line_breaks(row['source'], row['text'])
     row['format_issues'] = core.format_issues(row['source'], row['text'])
     if row['finish_reason'] != 'stop':
         row['format_issues'].append('incomplete_generation')

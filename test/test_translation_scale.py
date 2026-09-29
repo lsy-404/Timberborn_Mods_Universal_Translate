@@ -88,6 +88,11 @@ class TranslationScaleTests(unittest.TestCase):
         self.assertNotIn('numbers_changed', core.format_issues('Wait for two days.', '2日間待ちます。'))
         self.assertIn('numbers_changed', core.format_issues('Wait for two days.', '3日間待ちます。'))
 
+    def test_json_line_break_representation_is_restored_without_changing_literals(self):
+        self.assertEqual(core.restore_source_line_breaks('First\nSecond', '第一行\\n第二行'), '第一行\n第二行')
+        self.assertEqual(core.restore_source_line_breaks('Use \\n literally', '保留 \\n'), '保留 \\n')
+        self.assertEqual(core.restore_source_line_breaks('First\nSecond', '第一行\\n多余\\n第二行'), '第一行\\n多余\\n第二行')
+
 
 if __name__ == '__main__':
     unittest.main()
