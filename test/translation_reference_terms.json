@@ -1,6 +1,12 @@
 {
   "terms": [
     {
+      "source": "Badwater",
+      "targets": {"zhCN": "恶水"},
+      "provenance": "data/3284067782.toml Building.SkyBadwaterSource.DisplayName",
+      "confidence": "project"
+    },
+    {
       "source": "Timberborn",
       "targets": {
         "zhCN": "海狸浮生记",
@@ -82,7 +88,8 @@
   "notes": [
     "Steam provenance: https://store.steampowered.com/app/1062090/Timberborn/?l= with locale values schinese, tchinese, japanese, german, french, russian.",
     "The project zhTW title 海狸浮生記 differs from the Steam listing 河狸浮生記; this file follows the project glossary.",
-    "No direct official localized equivalent for Badwater was confirmed; store copy uses broader toxic-waste wording, so it is omitted.",
+    "No direct official localized equivalent for Badwater was confirmed. Its zhCN project term comes from a separate mod title, not a complete evaluation translation.",
+    "Publisher description phrases are evidence for reference wording, not a full official in-game localization catalog.",
     "Faction names are normalized to standalone form; Russian Steam copy inflects them in sentence context."
   ]
 }

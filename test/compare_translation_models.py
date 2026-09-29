@@ -127,6 +127,7 @@ def parse_usage(usage, prices):
 def numbers(text):
     text = TAG.sub('', PLACEHOLDER.sub('', text)).replace('％', '%')
     text = re.sub(r'(\d)\s+%', r'\1%', text)
+    text = re.sub(r'(?<=\d)[ \u00a0\u202f](?=\d{3}(?:\D|$))', '', text)
     found = re.findall(r'[+-]?\d+(?:[.,]\d+)*%?', text)
     normalized = []
     for value in found:
@@ -150,9 +151,16 @@ def format_issues(source, output):
         issues.append('line_breaks_changed')
     expected, actual = numbers(source), numbers(output)
     added = actual - expected
-    spelled_ones = len(re.findall(r'\b(?:one|single)\b', source, re.IGNORECASE))
-    if added.get('1', 0) <= spelled_ones:
-        added.pop('1', None)
+    word_numbers = {'0': 'zero', '1': 'one|single|first', '2': 'two|both|twice|second',
+                    '3': 'three|third', '4': 'four|fourth', '5': 'five|fifth',
+                    '6': 'six|sixth', '7': 'seven|seventh', '8': 'eight|eighth',
+                    '9': 'nine|ninth', '10': 'ten|tenth'}
+    for value, words in word_numbers.items():
+        allowance = len(re.findall(r'\b(?:' + words + r')\b', source, re.IGNORECASE))
+        if value == '1':
+            allowance += len(re.findall(r'\bper (?:hour|day|minute|second)\b', source, re.IGNORECASE))
+        if added.get(value, 0) <= allowance:
+            added.pop(value, None)
     if expected - actual or added:
         issues.append('numbers_changed')
     quote_pairs = (('"', '"'), ("'", "'"), ('“', '”'), ('‘', '’'),
@@ -167,9 +175,10 @@ def format_issues(source, output):
     return issues
 
 
-def aggregate(records):
+def aggregate(records, variants=None):
+    variants = VARIANTS if variants is None else variants
     summaries = {}
-    for variant in VARIANTS:
+    for variant in variants:
         rows = [r for r in records if r['variant'] == variant]
         billed = [r for r in rows if 'usage' in r]
         completed = [r for r in billed if 'text' in r]
@@ -191,9 +200,9 @@ def aggregate(records):
     return summaries
 
 
-def write_reports(directory, records, metadata):
+def write_reports(directory, records, metadata, variants=None):
     directory.mkdir(parents=True, exist_ok=True)
-    summaries = aggregate(records)
+    summaries = aggregate(records, variants)
     report = {'metadata': metadata, 'summaries': summaries, 'records': records}
     (directory / 'results.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     lines = [

@@ -1,0 +1,53 @@
+name: Compressed Translation Context Experiment
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_cost_usd:
+        description: Total API budget including independent grading
+        type: number
+        default: 2
+
+permissions:
+  contents: read
+
+concurrency:
+  group: translation-scale-experiment
+  cancel-in-progress: false
+
+jobs:
+  compare:
+    if: github.ref == 'refs/heads/main' && (github.actor == github.repository_owner || contains(fromJSON(vars.WORKFLOWS_ALLOWLIST || '[]'), github.actor))
+    environment: automations
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install experiment dependencies
+        run: pip install -r .github/scripts/requirements.txt tiktoken==0.14.0
+      - name: Verify samples, contexts and budget accounting
+        run: python -m unittest discover -s test -p 'test_translation*.py' -v
+      - name: Compare and grade translations
+        env:
+          LLM_TOKEN: ${{ secrets.LLM_TOKEN }}
+          MAX_COST_USD: ${{ inputs.max_cost_usd }}
+        run: |
+          python test/run_translation_scale_experiment.py \
+            --max-cost-usd "$MAX_COST_USD" \
+            --output-dir test/scale-results
+      - name: Publish experiment summary
+        if: always()
+        run: |
+          if [ -f test/scale-results/summary.md ]; then
+            cat test/scale-results/summary.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Upload complete results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: compressed-translation-context-${{ github.run_number }}
+          path: test/scale-results/
+          retention-days: 30

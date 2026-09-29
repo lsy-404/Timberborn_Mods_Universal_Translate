@@ -1,0 +1,5 @@
+[
+  {"source":"Power output: {0} hp", "targets":{"zhCN":"动力输出：{0} hp","zhTW":"動力輸出：{0} hp","jaJP":"出力：{0} hp","deDE":"Leistung: {0} hp","frFR":"Puissance : {0} hp","ruRU":"Мощность: {0} hp"}},
+  {"source":"Do not build above the output pipe.\nIt will crash the game!", "targets":{"zhCN":"不要在输出管道上方建造。\n否则会导致游戏崩溃！","zhTW":"不要在輸出管道上方建造。\n否則會導致遊戲崩潰！","jaJP":"出力パイプの上には建設しないでください。\nゲームがクラッシュします！","deDE":"Baue nicht über dem Auslassrohr.\nDas führt zu einem Spielabsturz!","frFR":"Ne construisez pas au-dessus du tuyau de sortie.\nCela fera planter le jeu !","ruRU":"Не стройте над выходной трубой.\nЭто приведёт к сбою игры!"}},
+  {"source":"They probably copied our design.","targets":{"zhCN":"他们大概是照抄了我们的设计。","zhTW":"他們大概是照抄了我們的設計。","jaJP":"おそらく私たちの設計を真似したのだろう。","deDE":"Sie haben wahrscheinlich unseren Entwurf kopiert.","frFR":"Ils ont probablement copié notre conception.","ruRU":"Вероятно, они скопировали нашу конструкцию."}}
+]
