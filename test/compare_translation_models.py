@@ -175,6 +175,14 @@ def format_issues(source, output):
     return issues
 
 
+def restore_source_line_breaks(source, output):
+    expected = source.count('\n')
+    escaped = output.count('\\n')
+    if expected and '\r' not in source and '\\r' not in output and not source.count('\\n') and escaped and output.count('\n') + escaped == expected:
+        return output.replace('\\n', '\n')
+    return output
+
+
 def aggregate(records, variants=None):
     variants = VARIANTS if variants is None else variants
     summaries = {}
@@ -305,6 +313,7 @@ def main():
                     row['finish_reason'] = choice['finish_reason']
                     row['raw_text'] = choice['message']['content'] or ''
                     row['text'] = translate_mods.strip_extra_quotes(row['raw_text'].strip(), case['source'])
+                    row['text'] = restore_source_line_breaks(case['source'], row['text'])
                     row['format_issues'] = format_issues(case['source'], row['text'])
                     if row['finish_reason'] != 'stop':
                         row['format_issues'].append('incomplete_generation')
