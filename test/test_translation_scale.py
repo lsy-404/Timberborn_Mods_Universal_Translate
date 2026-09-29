@@ -20,6 +20,25 @@ class TranslationScaleTests(unittest.TestCase):
         self.assertEqual(packs['luna_compact_terms']['zhCN']['parts'][0],
                          packs['luna_compact_examples']['ruRU']['parts'][0])
 
+    def test_source_and_reference_metadata_have_explicit_boundaries(self):
+        cases, config = scale.prepare_cases()
+        body = scale.request_body('luna_compact_terms', cases[0], scale.contexts(config), 'test-run')
+        user = json.loads(body['messages'][1]['content'])
+        self.assertEqual(user['source_text'], cases[0]['source'])
+        self.assertEqual(user['context']['mod'], cases[0]['mod_name'])
+        self.assertNotIn('mod', user['source_text'].lower())
+
+    def test_opposite_order_disagreement_is_inconclusive(self):
+        rows = []
+        for kind, preferred in [('comparison', 'luna_none'), ('reversed', 'original')]:
+            rows.append({'id': 'sample', 'language': 'zhCN', 'variant': 'luna_none', 'kind': kind,
+                         'grade': {}, 'preferred_variant': preferred,
+                         'scores': {'luna_none': 90 if kind == 'comparison' else 70,
+                                    'original': 70 if kind == 'comparison' else 90}})
+        summary = scale.paired_summaries(rows)['luna_none']
+        self.assertEqual(summary['outcomes'], {'inconclusive': 1})
+        self.assertEqual(summary['mean_score_delta'], 0)
+
     def test_stratified_samples_are_separate_from_examples(self):
         cases, _ = scale.prepare_cases()
         self.assertEqual(len(cases), 432)

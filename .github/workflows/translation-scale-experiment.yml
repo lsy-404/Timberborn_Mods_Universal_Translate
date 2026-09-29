@@ -7,9 +7,14 @@ on:
         description: Total API budget including independent grading
         type: number
         default: 2
+      replay_run_id:
+        description: Prior experiment run for compressed-context retest and both-order grading
+        type: string
+        default: ''
 
 permissions:
   contents: read
+  actions: read
 
 concurrency:
   group: translation-scale-experiment
@@ -30,14 +35,29 @@ jobs:
         run: pip install -r .github/scripts/requirements.txt tiktoken==0.14.0
       - name: Verify samples, contexts and budget accounting
         run: python -m unittest discover -s test -p 'test_translation*.py' -v
+      - name: Fetch prior immutable results
+        if: inputs.replay_run_id != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SOURCE_RUN_ID: ${{ inputs.replay_run_id }}
+        run: |
+          if [[ ! "$SOURCE_RUN_ID" =~ ^[0-9]+$ ]]; then exit 1; fi
+          gh run download "$SOURCE_RUN_ID" --repo "$GITHUB_REPOSITORY" \
+            --pattern 'compressed-translation-context-*' --dir test/replay-input
       - name: Compare and grade translations
         env:
           LLM_TOKEN: ${{ secrets.LLM_TOKEN }}
           MAX_COST_USD: ${{ inputs.max_cost_usd }}
+          SOURCE_RUN_ID: ${{ inputs.replay_run_id }}
         run: |
-          python test/run_translation_scale_experiment.py \
-            --max-cost-usd "$MAX_COST_USD" \
-            --output-dir test/scale-results
+          if [ -n "$SOURCE_RUN_ID" ]; then
+            python test/run_translation_scale_experiment.py \
+              --max-cost-usd "$MAX_COST_USD" --replay-dir test/replay-input \
+              --output-dir test/scale-results
+          else
+            python test/run_translation_scale_experiment.py \
+              --max-cost-usd "$MAX_COST_USD" --output-dir test/scale-results
+          fi
       - name: Publish experiment summary
         if: always()
         run: |
