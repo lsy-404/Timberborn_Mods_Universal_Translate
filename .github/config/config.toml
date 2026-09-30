@@ -49,7 +49,8 @@ cost_warning_threshold = 5.0
 
 [llm]
 # LLM model to use for translation
-model = "gpt-4o-mini"
+model = "gpt-6-luna"
+reasoning_effort = "none"
 
 # API endpoint (OpenAI-compatible)
 api_url = "https://api.openai.com/v1/chat/completions"

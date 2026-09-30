@@ -74,7 +74,7 @@ def prepare_cases():
                 merged = core.translate_mods.merge_glossaries(glossary, sample.get('local_glossary', {}))
                 source, hints = core.translate_mods.generate_glossary_hints(
                     source, language, merged, config['languages']['supported'])
-            system, user = core.translate_mods.build_translation_prompt(
+            system, user = core.original_prompt(
                 sample['key'], source, sample['mod_name'], language,
                 raw=sample['raw'] if 'new_text' in sample else None,
                 current_translation=sample.get('references', {}).get(language),
@@ -88,19 +88,13 @@ def prepare_cases():
 
 
 def contexts(config):
-    common = (ROOT / 'test/translation_compact_background.txt').read_text().strip()
-    terms = json.loads((ROOT / 'test/translation_reference_terms.json').read_text())['terms']
-    examples = json.loads((ROOT / 'test/translation_style_examples.json').read_text())
     result = {}
     for variant in ('luna_compact_terms', 'luna_compact_examples'):
         result[variant] = {}
         for language in LANGUAGES:
-            localized = {term['source']: term['targets'][language] for term in terms if language in term['targets']}
-            local = f"Target locale: {config['languages']['locale_names'][language]}. Use this locale's script.\nAccepted reference wording (adapt grammatical forms): " + json.dumps(localized, ensure_ascii=False, separators=(',', ':'))
-            parts = [common, local]
-            if variant == 'luna_compact_examples':
-                pairs = [{'source': e['source'], 'translation': e['targets'][language]} for e in examples]
-                parts.append('Independent style examples:\n' + json.dumps(pairs, ensure_ascii=False, separators=(',', ':')))
+            parts = list(core.translate_mods.system_prompt_parts(
+                language, config['languages']['locale_names'][language],
+                include_examples=variant == 'luna_compact_examples'))
             tokens = sum(len(core.ENCODING.encode(part)) for part in parts)
             if not 1024 <= tokens <= 1480:
                 raise ValueError(f'{variant}/{language} context outside token bounds: {tokens}')
@@ -423,7 +417,7 @@ def replay_experiment(source_dir, args, token, config, cases, packs):
         if any('error' in r for r in records):
             break
     if not any('error' in r for r in records):
-        terms = json.loads((ROOT / 'test/translation_reference_terms.json').read_text())['terms']
+        terms = json.loads((ROOT / '.github/config/translation/reference_terms.json').read_text())['terms']
         jobs = grading_jobs(records, terms, reverse_all=True)
         existing = {(r['kind'], r['id'], r['language'], r.get('variant')) for r in judges}
         jobs = [j for j in jobs if (j['row']['kind'], j['row']['id'], j['row']['language'], j['row']['variant']) not in existing]
@@ -475,7 +469,7 @@ def main():
             break
     if not any('error' in r for r in records) and len(records) == len(cases) * len(VARIANTS):
         judges.extend(process_jobs(calibration_jobs(), 4, budget, token, config['llm']['api_url'], judge_result))
-        terms = json.loads((ROOT / 'test/translation_reference_terms.json').read_text())['terms']
+        terms = json.loads((ROOT / '.github/config/translation/reference_terms.json').read_text())['terms']
         jobs = grading_jobs(records, terms)
         def grade_snapshot(new_rows):
             (args.output_dir / 'grading-progress.json').write_text(json.dumps(judges + new_rows, ensure_ascii=False, indent=2))

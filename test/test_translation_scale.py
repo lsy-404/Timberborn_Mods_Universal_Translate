@@ -43,7 +43,7 @@ class TranslationScaleTests(unittest.TestCase):
         cases, _ = scale.prepare_cases()
         self.assertEqual(len(cases), 432)
         self.assertEqual(len({c['id'] for c in cases}), 64)
-        examples = json.loads((scale.ROOT / 'test/translation_style_examples.json').read_text())
+        examples = json.loads((scale.ROOT / '.github/config/translation/style_examples.json').read_text())
         sources = {c['raw'].strip().lower() for c in cases}
         self.assertTrue(all(e['source'].strip().lower() not in sources for e in examples))
         self.assertEqual(len({c['id'] for c in cases if c['repeat_index'] == 1}), 8)

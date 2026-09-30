@@ -11,6 +11,7 @@ import re
 import statistics
 import sys
 import time
+from typing import List, Optional, Tuple
 
 import requests
 import tiktoken
@@ -19,6 +20,7 @@ import toml
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / '.github/scripts'))
 import translate_mods
+from translation_prompt import restore_source_line_breaks
 
 LANGUAGES = ('zhCN', 'zhTW', 'jaJP', 'deDE')
 VARIANTS = {
@@ -29,6 +31,36 @@ VARIANTS = {
 ENCODING = tiktoken.get_encoding('o200k_base')
 PLACEHOLDER = re.compile(r'\{[^{}\n]+\}')
 TAG = re.compile(r'</?[A-Za-z][^>\n]*>')
+
+
+def original_prompt(key: str, new_text: str, mod_name: str, target_language: str, raw: Optional[str]=None, current_translation: Optional[str]=None, prompt: Optional[str]=None, specific_prompt: Optional[str]=None, glossary_hints: Optional[List[str]]=None) -> Tuple[str, str]:
+    """
+    Build system and user prompts for translation
+
+    Args:
+        glossary_hints: Optional list of glossary hints to include in prompt
+
+    Returns:
+        Tuple of (system_prompt, user_prompt)
+    """
+    lang_name = translate_mods.LANGUAGE_NAMES.get(target_language, target_language)
+    system_prompt = f'You are a professional game localization translator specializing in the game "Timberborn" and its mod "{mod_name}". Task: Translate the given text into {lang_name}Output rules (STRICT) Output ONLY the translated text. Do NOT add explanations, comments, notes, quotes, keep original formatting. Do NOT repeat the source text. Do NOT add prefixes such as "Translation:", "Result:", or similar. If the input is empty, output an empty string.'
+    prompt_parts = [f'Key name: {key}']
+    if new_text:
+        prompt_parts.append(f'New Text to Translate: "{new_text}"')
+    if raw:
+        prompt_parts.append(f'Original Text (Old): "{raw}"')
+    if current_translation:
+        prompt_parts.append(f'Current Translation: "{current_translation}"')
+    if prompt:
+        prompt_parts.append(f'Field Hint: {prompt}')
+    if specific_prompt:
+        prompt_parts.append(f'Specific Note: {specific_prompt}')
+    if glossary_hints:
+        for hint in glossary_hints:
+            prompt_parts.append(f'Glossary Reference: {hint}')
+    user_prompt = ' - '.join(prompt_parts)
+    return (system_prompt, user_prompt)
 
 
 def prepare_cases(sample_limit=12):
@@ -50,7 +82,7 @@ def prepare_cases(sample_limit=12):
                 source, hints = translate_mods.generate_glossary_hints(
                     source, language, merged, config['languages']['supported']
                 )
-            system, user = translate_mods.build_translation_prompt(
+            system, user = original_prompt(
                 key=sample['key'], new_text=source, mod_name=mod_name,
                 target_language=language,
                 raw=entry['raw'] if 'new_text' in sample else None,
@@ -174,13 +206,6 @@ def format_issues(source, output):
         issues.append('unchanged_source')
     return issues
 
-
-def restore_source_line_breaks(source, output):
-    expected = source.count('\n')
-    escaped = output.count('\\n')
-    if expected and '\r' not in source and '\\r' not in output and not source.count('\\n') and escaped and output.count('\n') + escaped == expected:
-        return output.replace('\\n', '\n')
-    return output
 
 
 def aggregate(records, variants=None):
