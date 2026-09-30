@@ -13,318 +13,221 @@ import json
 import logging
 import threading
 import requests
-from typing import Optional
+from typing import List, Optional
+
+from translation_prompt import protected_format_issues, restore_source_line_breaks
 
 
 class TranslatorLLM:
-    """
-    OPENAI-STYLED LLM API Translator with rate limiting and cost tracking
-    """
-    
-    # OpenAI pricing per 1K tokens (as of 2024, update as needed)
-    MODEL_PRICES = {
-        "gpt-5-nano": {"input": 0.000025, "output": 0.00005},
-        "gpt-4o-mini": {"input": 0.00015, "output": 0.0006},
-        "gpt-4o": {"input": 0.005, "output": 0.0015},
-        "gpt-4-turbo": {"input": 0.01, "output": 0.03},
-    }
-    
+    """Luna localization with rate limiting and cache-aware budget accounting."""
+
+    PRICES_PER_MILLION = {"input": 0.10, "cached": 0.01, "write": 0.125, "output": 0.50}
+    MAX_COMPLETION_TOKENS = 8192
+
     def __init__(
         self,
         api_token: str,
-        model: str = "gpt-5-nano",
+        model: str = "gpt-6-luna",
         api_url: str = "https://api.openai.com/v1/chat/completions",
         min_length: int = 1,
         max_length: int = 5000,
         rate_limit: str = "10/m",
         max_cost: float = 0.0,
-        cost_warning_threshold: float = 1.0
+        cost_warning_threshold: float = 1.0,
+        reasoning_effort: str = "none",
     ):
-        """
-        Initialize the LLM translator
-        
-        Args:
-            api_token: API token for authentication
-            model: LLM model to use (default: gpt-5-nano)
-            api_url: API endpoint URL
-            min_length: Minimum text length to translate
-            max_length: Maximum text length to translate
-            rate_limit: Rate limit in format "num/unit" (e.g., "10/m" for 10 per minute)
-        """
+        if model != "gpt-6-luna" or reasoning_effort != "none":
+            raise ValueError("Production localization requires gpt-6-luna with reasoning_effort=none")
         self.api_token = api_token
         self.model = model
+        self.reasoning_effort = reasoning_effort
         self.api_url = api_url
         self.min_length = min_length
         self.max_length = max_length
         self.rate_limit = rate_limit
         self.request_history = []
         self._rate_limit_lock = threading.Lock()
+        self._warmup_lock = threading.Lock()
+        self._cache_warmed = False
         self.logger = logging.getLogger(self.__class__.__name__)
         self._parse_rate_limit()
-        
-        # Cost tracking and control
         self._cost_lock = threading.Lock()
-        self.total_tokens = {"input": 0, "output": 0, "total": 0}
+        self.total_tokens = dict.fromkeys(("input", "ordinary", "cached", "write", "output", "reasoning", "total"), 0)
         self.total_cost = 0.0
+        self.reserved_cost = 0.0
         self.request_count = 0
         self.success_count = 0
         self.fail_count = 0
+        self.unknown_cost_requests = 0
+        self.returned_models = set()
         self.max_cost = max_cost
         self.cost_warning_threshold = cost_warning_threshold
         self._warning_shown = False
-        
+
     def _parse_rate_limit(self) -> None:
-        """Parse the rate limit string into number and unit"""
-        if self.rate_limit:
-            num, unit = self.rate_limit.split('/')
-            self.rate_limit_num = int(num)
-            if unit == 's':
-                self.rate_limit_seconds = 1
-            elif unit == 'm':
-                self.rate_limit_seconds = 60
-            elif unit == 'h':
-                self.rate_limit_seconds = 3600
-            else:
-                raise ValueError(f"Unsupported rate limit unit: {unit}")
-        else:
+        if not self.rate_limit:
             self.rate_limit_num = None
             self.rate_limit_seconds = None
-            
+            return
+        num, unit = self.rate_limit.split('/')
+        self.rate_limit_num = int(num)
+        self.rate_limit_seconds = {'s': 1, 'm': 60, 'h': 3600}[unit]
+
     def _check_rate_limit(self) -> None:
-        """Check if the rate limit is exceeded and wait if necessary (thread-safe)."""
         if not self.rate_limit_num:
             return
-
         while True:
             with self._rate_limit_lock:
                 current_time = time.time()
-                # Remove old requests outside the time window
-                self.request_history = [
-                    t for t in self.request_history
-                    if current_time - t < self.rate_limit_seconds
-                ]
-
+                self.request_history = [t for t in self.request_history if current_time - t < self.rate_limit_seconds]
                 if len(self.request_history) < self.rate_limit_num:
                     self.request_history.append(current_time)
                     return
+                delay = self.rate_limit_seconds - (current_time - self.request_history[0]) + 0.1
+            time.sleep(max(0.05, delay))
 
-                sleep_time = self.rate_limit_seconds - (current_time - self.request_history[0]) + 0.1
-                queue_depth = len(self.request_history)
+    def _reserve_cost(self, messages):
+        # UTF-8 bytes bound the text token count without an extra runtime dependency.
+        input_bound = len(json.dumps(messages, ensure_ascii=False).encode('utf-8')) + 128
+        prices = self.PRICES_PER_MILLION
+        maximum = (input_bound * max(prices['input'], prices['write'])
+                   + self.MAX_COMPLETION_TOKENS * prices['output']) / 1e6
+        with self._cost_lock:
+            if self.unknown_cost_requests or (self.max_cost > 0 and self.total_cost + self.reserved_cost + maximum > self.max_cost):
+                self.logger.warning("Translation paused: insufficient budget or incomplete usage accounting")
+                return None
+            self.reserved_cost += maximum
+        return maximum
 
-            if sleep_time > 0:
-                self.logger.info(
-                    f"Rate limit queue wait: depth={queue_depth}, sleep={sleep_time:.2f}s"
-                )
-                time.sleep(sleep_time)
-            else:
-                # Avoid busy loop caused by timing precision at window boundary.
-                time.sleep(0.05)
-    
-    def translate(
-        self,
-        text: str,
-        target_language: str,
-        system_prompt: str,
-        user_prompt: str
-    ) -> Optional[str]:
-        """
-        Translate text to target language using LLM
-        
-        Args:
-            text: Text to translate
-            target_language: Target language code
-            system_prompt: System prompt for the LLM
-            user_prompt: User prompt with context
-            
-        Returns:
-            Translated text or None if translation fails
-        """
+    @classmethod
+    def usage_metrics(cls, usage):
+        details = usage['prompt_tokens_details']
+        metrics = {
+            'input': usage['prompt_tokens'], 'output': usage['completion_tokens'],
+            'cached': details['cached_tokens'], 'write': details['cache_write_tokens'],
+            'reasoning': usage['completion_tokens_details']['reasoning_tokens'],
+        }
+        if any(type(value) is not int or value < 0 for value in metrics.values()):
+            raise ValueError('Invalid token usage')
+        metrics['ordinary'] = metrics['input'] - metrics['cached'] - metrics['write']
+        if metrics['ordinary'] < 0 or metrics['reasoning'] > metrics['output']:
+            raise ValueError('Inconsistent token usage')
+        metrics['total'] = metrics['input'] + metrics['output']
+        prices = cls.PRICES_PER_MILLION
+        cost = (metrics['ordinary'] * prices['input'] + metrics['cached'] * prices['cached']
+                + metrics['write'] * prices['write'] + metrics['output'] * prices['output']) / 1e6
+        return metrics, cost
+
+    def translate(self, text: str, target_language: str, system_prompt: List[dict], user_prompt: str) -> Optional[str]:
         if not self.api_token:
-            raise ValueError("API token is required")
-            
-        # Check if translation should proceed (includes empty text check and cost limit)
+            raise ValueError('API token is required')
+        if not text or not text.strip():
+            return text
         if not self.should_translate(text):
-            if not text or len(text.strip()) == 0:
-                self.logger.debug("Empty text, skipping translation")
-            return text
-        
-        # Check text length
+            return None
         if len(text) < self.min_length:
-            self.logger.debug(f"Text too short ({len(text)} < {self.min_length}), returning as-is")
             return text
-            
         if len(text) > self.max_length:
-            self.logger.warning(f"Text too long ({len(text)} > {self.max_length}), truncating")
-            text = text[:self.max_length]
-        
-        # Check rate limit before making request
+            self.logger.error(f'Source exceeds maximum length for {target_language}; preserving the pending entry')
+            return None
+        if not self._cache_warmed:
+            with self._warmup_lock:
+                if not self._cache_warmed:
+                    result = self._request(text, system_prompt, user_prompt)
+                    self._cache_warmed = bool(self.total_tokens['cached'] or self.total_tokens['write'])
+                    return result
+        return self._request(text, system_prompt, user_prompt)
+
+    def _request(self, text, system_prompt, user_prompt):
+        messages = [{'role': 'system', 'content': system_prompt}, {'role': 'user', 'content': user_prompt}]
         self._check_rate_limit()
-        
-        # Prepare API request
-        headers = {
-            "Content-Type": "application/json",
-            "Authorization": f"Bearer {self.api_token}"
-        }
-        
+        reservation = self._reserve_cost(messages)
+        if reservation is None:
+            return None
         data = {
-            "model": self.model,
-            "messages": [
-                {
-                    "role": "system",
-                    "content": system_prompt
-                },
-                {
-                    "role": "user",
-                    "content": user_prompt
-                }
-            ]
+            'model': self.model, 'reasoning_effort': self.reasoning_effort,
+            'service_tier': 'default', 'max_completion_tokens': self.MAX_COMPLETION_TOKENS,
+            'prompt_cache_options': {'mode': 'explicit', 'ttl': '30m'}, 'messages': messages,
         }
-        
+        actual_cost = None
+        metrics = None
+        succeeded = False
+        with self._cost_lock:
+            self.request_count += 1
         try:
-            self.logger.debug(f"Translating to {target_language}: {text[:50]}...")
             response = requests.post(
                 self.api_url,
-                headers=headers,
-                data=json.dumps(data),
-                timeout=30
+                headers={'Content-Type': 'application/json', 'Authorization': f'Bearer {self.api_token}'},
+                json=data, timeout=(10, 120),
             )
-            
-            # Track request count
-            with self._cost_lock:
-                self.request_count += 1
-            
-            if response.status_code == 200:
-                response_data = response.json()
-                translated_text = response_data['choices'][0]['message']['content'].strip()
-                
-                # Track token usage and cost
-                usage = response_data.get('usage', {})
-                if usage:
-                    input_tokens = usage.get('prompt_tokens', 0)
-                    output_tokens = usage.get('completion_tokens', 0)
-                    total_tokens = usage.get('total_tokens', input_tokens + output_tokens)
-                    
-                    with self._cost_lock:
-                        self.total_tokens['input'] += input_tokens
-                        self.total_tokens['output'] += output_tokens
-                        self.total_tokens['total'] += total_tokens
-                        self.success_count += 1
-                        
-                        # Calculate cost
-                        price = self.MODEL_PRICES.get(self.model, {"input": 0, "output": 0})
-                        cost = (input_tokens * price['input'] + output_tokens * price['output']) / 1000
-                        self.total_cost += cost
-                        
-                        self.logger.info(
-                            f"Token usage: input={input_tokens}, output={output_tokens}, "
-                            f"total={total_tokens}, cost=${cost:.6f}"
-                        )
-                else:
-                    # No usage data in response, log warning
-                    with self._cost_lock:
-                        self.success_count += 1
-                    self.logger.warning("No usage data in API response, cannot track tokens")
-                
-                self.logger.debug(f"Translation successful: {text[:30]}... -> {translated_text[:30]}...")
-                return translated_text
-            else:
-                with self._cost_lock:
-                    self.fail_count += 1
-                self.logger.error(
-                    f"Translation failed with status {response.status_code}: {response.text}"
-                )
+            if response.status_code != 200:
+                actual_cost = 0.0
+                self.logger.error(f'Translation failed: HTTP {response.status_code}: {response.text.replace(self.api_token, "[redacted]")}')
                 return None
-                
-        except requests.RequestException as e:
+            payload = response.json()
+            metrics, actual_cost = self.usage_metrics(payload['usage'])
+            returned_model = payload['model']
             with self._cost_lock:
-                self.fail_count += 1
-            self.logger.error(f"Request failed: {e}")
+                self.returned_models.add(returned_model)
+            choice = payload['choices'][0]
+            if not returned_model.startswith(self.model) or metrics['reasoning'] != 0 or choice['finish_reason'] != 'stop':
+                self.logger.error(f'Rejected completion: model={returned_model}, reasoning={metrics["reasoning"]}, finish={choice["finish_reason"]}')
+                return None
+            translated = choice['message']['content']
+            if not isinstance(translated, str) or not translated.strip():
+                self.logger.error('Rejected empty or malformed completion')
+                return None
+            translated = restore_source_line_breaks(text, translated.strip(' \t'))
+            issues = protected_format_issues(text, translated)
+            if issues:
+                self.logger.error(f'Rejected protected formatting changes: {issues}')
+                return None
+            succeeded = True
+            return translated
+        except (requests.RequestException, KeyError, IndexError, TypeError, ValueError) as error:
+            self.logger.error(f'Translation request failed: {str(error).replace(self.api_token, "[redacted]")}')
             return None
-        except (KeyError, IndexError) as e:
+        finally:
             with self._cost_lock:
-                self.fail_count += 1
-            self.logger.error(f"Failed to parse response: {e}")
-            return None
-    
-    def get_cost_summary(self) -> str:
-        """Return a human-readable cost summary"""
-        with self._cost_lock:
-            return (
-                f"\n{'='*60}\n"
-                f"TRANSLATION COST SUMMARY\n"
-                f"{'='*60}\n"
-                f"Model: {self.model}\n"
-                f"Total Requests: {self.request_count}\n"
-                f"Successful: {self.success_count}\n"
-                f"Failed: {self.fail_count}\n"
-                f"Success Rate: {self.success_count/max(1,self.request_count)*100:.1f}%\n"
-                f"\nToken Usage:\n"
-                f"  Input tokens:  {self.total_tokens['input']:,}\n"
-                f"  Output tokens: {self.total_tokens['output']:,}\n"
-                f"  Total tokens:  {self.total_tokens['total']:,}\n"
-                f"\nEstimated Cost: ${self.total_cost:.4f} USD\n"
-                f"{'='*60}\n"
-            )
-    
+                self.reserved_cost = max(0.0, self.reserved_cost - reservation)
+                self.total_cost += reservation if actual_cost is None else actual_cost
+                self.unknown_cost_requests += actual_cost is None
+                if metrics is not None:
+                    for key, value in metrics.items():
+                        self.total_tokens[key] += value
+                self.success_count += succeeded
+                self.fail_count += not succeeded
+                if not self._warning_shown and self.total_cost > self.cost_warning_threshold:
+                    self.logger.warning(f'Cost warning: current ${self.total_cost:.6f} exceeds ${self.cost_warning_threshold:.2f}')
+                    self._warning_shown = True
+                if actual_cost is None:
+                    self.logger.error('Usage accounting incomplete; reserved the maximum cost and stopped new requests')
+            if metrics is not None:
+                self.logger.info(f'Token usage: input={metrics["input"]}, cached={metrics["cached"]}, write={metrics["write"]}, output={metrics["output"]}, reasoning={metrics["reasoning"]}, cost=${actual_cost:.8f}')
+
     def get_cost_summary_dict(self) -> dict:
-        """Return cost summary as dictionary for programmatic access"""
         with self._cost_lock:
             return {
-                "model": self.model,
-                "request_count": self.request_count,
-                "success_count": self.success_count,
-                "fail_count": self.fail_count,
-                "success_rate": self.success_count/max(1,self.request_count)*100,
-                "input_tokens": self.total_tokens['input'],
-                "output_tokens": self.total_tokens['output'],
-                "total_tokens": self.total_tokens['total'],
-                "estimated_cost_usd": self.total_cost,
+                'model': self.model, 'reasoning_effort': self.reasoning_effort,
+                'returned_models': sorted(self.returned_models),
+                'request_count': self.request_count, 'success_count': self.success_count, 'fail_count': self.fail_count,
+                'success_rate': self.success_count / max(1, self.request_count) * 100,
+                'input_tokens': self.total_tokens['input'], 'ordinary_input_tokens': self.total_tokens['ordinary'],
+                'cached_tokens': self.total_tokens['cached'], 'cache_write_tokens': self.total_tokens['write'],
+                'output_tokens': self.total_tokens['output'], 'reasoning_tokens': self.total_tokens['reasoning'],
+                'total_tokens': self.total_tokens['total'],
+                'cache_hit_rate': self.total_tokens['cached'] / max(1, self.total_tokens['input']),
+                'estimated_cost_usd': self.total_cost, 'reserved_cost_usd': self.reserved_cost,
+                'unknown_cost_requests': self.unknown_cost_requests,
+                'cost_tracking_complete': self.unknown_cost_requests == 0,
             }
-    
+
+    def get_cost_summary(self) -> str:
+        return '\nTRANSLATION COST SUMMARY\n' + json.dumps(self.get_cost_summary_dict(), indent=2)
+
     def check_cost_limit(self) -> bool:
-        """
-        Check if cost limit is exceeded.
-        
-        Returns:
-            True if within limits, False if exceeded
-        """
-        if self.max_cost <= 0:
-            return True  # No limit set
-        
         with self._cost_lock:
-            if self.total_cost > self.max_cost:
-                self.logger.error(
-                    f"Cost limit exceeded! Current: ${self.total_cost:.4f}, "
-                    f"Limit: ${self.max_cost:.2f}"
-                )
-                return False
-            
-            # Check warning threshold
-            if not self._warning_shown and self.total_cost > self.cost_warning_threshold:
-                self.logger.warning(
-                    f"⚠️ Cost warning: Current cost ${self.total_cost:.4f} "
-                    f"exceeds threshold ${self.cost_warning_threshold:.2f}"
-                )
-                self._warning_shown = True
-            
-            return True
-    
+            return not self.unknown_cost_requests and (self.max_cost <= 0 or self.total_cost + self.reserved_cost < self.max_cost)
+
     def should_translate(self, text: str) -> bool:
-        """
-        Check if translation should proceed based on cost limits.
-        
-        Args:
-            text: Text to be translated
-            
-        Returns:
-            True if translation can proceed, False otherwise
-        """
-        # Skip empty text
-        if not text or len(text.strip()) == 0:
-            return False
-        
-        # Check cost limit before making API call
-        if not self.check_cost_limit():
-            return False
-        
-        return True
+        return bool(text and text.strip()) and self.check_cost_limit()

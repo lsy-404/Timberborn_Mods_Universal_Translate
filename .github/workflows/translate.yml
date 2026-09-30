@@ -5,13 +5,18 @@ permissions:
 
 on:
   workflow_dispatch:
+    inputs:
+      verify_only:
+        description: Verify production translation on isolated samples
+        type: boolean
+        default: false
   schedule:
     # Run daily at 07:00 UTC to process new translations
     - cron: '0 7 * * *'
 
 jobs:
   translate:
-    if: github.event_name == 'schedule' || contains(fromJSON(vars.WORKFLOWS_ALLOWLIST || '[]'), github.actor)
+    if: github.event_name == 'schedule' || github.actor == github.repository_owner || contains(fromJSON(vars.WORKFLOWS_ALLOWLIST || '[]'), github.actor)
     runs-on: ubuntu-latest
     environment: automations
     
@@ -31,9 +36,19 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install -r .github/scripts/requirements.txt
+          pip install -r .github/scripts/requirements.txt tiktoken==0.14.0
       
+      - name: Check production translation contracts
+        run: python -m unittest discover -s test -p 'test_translation_production.py'
+
+      - name: Verify production translation on isolated samples
+        if: inputs.verify_only == true
+        env:
+          LLM_TOKEN: ${{ secrets.LLM_TOKEN }}
+        run: python test/verify_production_translation.py
+
       - name: Sync ingame TOML files from raw sources
+        if: inputs.verify_only != true
         run: |
           python .github/scripts/sync_ingame.py \
             --config .github/config/config.toml \
@@ -41,6 +56,7 @@ jobs:
             --data-dir data
 
       - name: Run translation
+        if: inputs.verify_only != true
         id: translate
         env:
           LLM_TOKEN: ${{ secrets.LLM_TOKEN }}
@@ -73,10 +89,12 @@ jobs:
           echo "Working on temporary branch: $TEMP_BRANCH"
 
           # Export variables for use in merge step
-          echo "TEMP_BRANCH=${TEMP_BRANCH}" >> $GITHUB_ENV
-          echo "TARGET_BRANCH=${TARGET_BRANCH}" >> $GITHUB_ENV
-          echo "ORIGIN_SHA=${ORIGIN_SHA}" >> $GITHUB_ENV
-          echo "FIRST_COMMIT_DONE=${FIRST_COMMIT_DONE}" >> $GITHUB_ENV
+          {
+            echo "TEMP_BRANCH=${TEMP_BRANCH}"
+            echo "TARGET_BRANCH=${TARGET_BRANCH}"
+            echo "ORIGIN_SHA=${ORIGIN_SHA}"
+            echo "FIRST_COMMIT_DONE=${FIRST_COMMIT_DONE}"
+          } >> "$GITHUB_ENV"
 
           # ----------------------------------------------------------------
           # commit_and_push_changes
@@ -178,7 +196,7 @@ jobs:
             commit_and_push_changes || true
             # Mark that we have commits to merge (for merge step to handle)
             FIRST_COMMIT_DONE=true
-            echo "FIRST_COMMIT_DONE=true" >> $GITHUB_ENV
+            echo "FIRST_COMMIT_DONE=true" >> "$GITHUB_ENV"
             exit 130
           }
 
@@ -220,18 +238,18 @@ jobs:
           if [ "${EXIT_CODE:-0}" -ne 0 ]; then
             echo "Translation failed with exit code $EXIT_CODE"
             echo "Partial results left on $TEMP_BRANCH for manual review"
-            echo "failed=true" >> $GITHUB_OUTPUT
+            echo "failed=true" >> "$GITHUB_OUTPUT"
             # Still set FIRST_COMMIT_DONE so merge step will attempt merge
             FIRST_COMMIT_DONE=true
-            echo "FIRST_COMMIT_DONE=true" >> $GITHUB_ENV
+            echo "FIRST_COMMIT_DONE=true" >> "$GITHUB_ENV"
             exit 1
           fi
 
           # Translation succeeded: mark for merge
           FIRST_COMMIT_DONE=true
-          echo "FIRST_COMMIT_DONE=true" >> $GITHUB_ENV
+          echo "FIRST_COMMIT_DONE=true" >> "$GITHUB_ENV"
           echo "Translation completed, ready for merge"
-          echo "completed=true" >> $GITHUB_OUTPUT
+          echo "completed=true" >> "$GITHUB_OUTPUT"
       
       - name: Merge translation results to target branch
         id: merge
@@ -256,17 +274,8 @@ jobs:
           
           # ----------------------------------------------------------------
           # merge_to_target
-          # Translation is the highest-priority write to the target branch.
-          #
-          # If nobody pushed to the target branch while we ran: fast-forward.
-          #
-          # If the target branch has new commits, first attempt a clean rebase.
-          # If rebase succeeds without conflicts: push normally (no displacement).
-          #
-          # Only if rebase has conflicts (automation cannot resolve them):
-          #   1. Preserve those commits on a side branch so they are not lost.
-          #   2. Force-push the translation result onto the target branch,
-          #      overriding the conflicting commits.
+          # Fetch and rebase onto the current target before publishing.
+          # A conflict leaves the translation branch available for review.
           # ----------------------------------------------------------------
           merge_to_target() {
             if [ "$FIRST_COMMIT_DONE" != "true" ]; then
@@ -301,23 +310,9 @@ jobs:
                 echo "Successfully merged translation into $TARGET_BRANCH (rebased)"
                 cleanup_temp_branch
               else
-                # Rebase hit conflicts that automation cannot resolve.
-                # Abort rebase to restore clean temp-branch state.
                 git rebase --abort 2>/dev/null || true
-                
-                # Preserve the foreign commits so they are not lost, then
-                # force-push the translation result onto the target branch.
-                DISPLACED_BRANCH="preserved/displaced-$(date -u '+%Y%m%d')-${GITHUB_RUN_ID}"
-                echo "Rebase conflict detected; automation cannot resolve conflicts"
-                echo "Preserving displaced commits on $DISPLACED_BRANCH..."
-                git push origin "${CURRENT_TARGET_SHA}:refs/heads/${DISPLACED_BRANCH}"
-                echo "Displaced commits saved to $DISPLACED_BRANCH"
-                
-                echo "Force-pushing translation result onto $TARGET_BRANCH..."
-                git push --force origin "HEAD:${TARGET_BRANCH}"
-                echo "Successfully applied translation to $TARGET_BRANCH"
-                echo "Note: commits that were on $TARGET_BRANCH during the run are preserved on $DISPLACED_BRANCH"
-                cleanup_temp_branch
+                echo "Rebase conflict; translation progress remains on $TEMP_BRANCH"
+                exit 1
               fi
             fi
           }
@@ -342,43 +337,34 @@ jobs:
             .github/log/translation.log
             .github/log/thread_work.log
             .github/log/cost_report.json
+            test/results/production-smoke/
           retention-days: 30
           include-hidden-files: false
       
       - name: Generate Cost Summary
         if: always()
         run: |
-          COST_REPORT=".github/log/cost_report.json"
-          if [ -f "$COST_REPORT" ]; then
-            echo "## 💰 Translation Cost Report" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
+          {
+            echo "## Translation Cost Report"
+            python3 .github/scripts/cost_summary.py
+          } >> "$GITHUB_STEP_SUMMARY"
 
-            # Parse JSON and display summary
-            python3 .github/scripts/cost_summary.py >> $GITHUB_STEP_SUMMARY
-          else
-            echo "⚠️ Cost report not found" >> $GITHUB_STEP_SUMMARY
-          fi
-      
       - name: Generate Action Summary
         if: always()
+        env:
+          TRANSLATION_STATUS: ${{ job.status }}
         run: |
           LOG_FILE=".github/log/translation.log"
-          if [ -f "$LOG_FILE" ]; then
-            echo "## 🔄 Translation Summary" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "📊 **Process Status:** $([ "${EXIT_CODE:-0}" -eq 0 ] && echo "✅ Success" || echo "❌ Failed")" >> $GITHUB_STEP_SUMMARY
-            echo "📅 **Run Time:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            
-            # Show log tail (last 20 lines)
-            echo "### 📋 Recent Log Entries" >> $GITHUB_STEP_SUMMARY
-            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-            tail -n 20 "$LOG_FILE" >> $GITHUB_STEP_SUMMARY
-            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "💾 Full log is available in the [Artifacts section](#artifacts) of this workflow run." >> $GITHUB_STEP_SUMMARY
-          else
-            echo "## ⚠️ Translation Log Not Found" >> $GITHUB_STEP_SUMMARY
-            echo "The translation log file was not generated." >> $GITHUB_STEP_SUMMARY
-          fi
-      
+          {
+            echo "## Translation Summary"
+            echo "Status: $TRANSLATION_STATUS"
+            if [ -f "$LOG_FILE" ]; then
+              echo "### Recent Log Entries"
+              echo '```'
+              tail -n 20 "$LOG_FILE"
+              echo '```'
+              echo "Full logs and verification outputs are available in the run artifacts."
+            else
+              echo "Translation log not found."
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"

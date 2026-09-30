@@ -17,6 +17,7 @@ import toml
 import time
 import logging
 import argparse
+import json
 import re
 import threading
 from pathlib import Path
@@ -26,6 +27,7 @@ from typing import Callable, Dict, List, Optional, Set, Tuple, Union
 # Add util to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'util'))
 from translator import TranslatorLLM
+from translation_prompt import system_prompt_parts
 
 
 # Global variable to store language names loaded from config
@@ -806,50 +808,16 @@ def build_translation_prompt(
     prompt: Optional[str] = None,
     specific_prompt: Optional[str] = None,
     glossary_hints: Optional[List[str]] = None
-) -> Tuple[str, str]:
-    """
-    Build system and user prompts for translation
-    
-    Args:
-        glossary_hints: Optional list of glossary hints to include in prompt
-    
-    Returns:
-        Tuple of (system_prompt, user_prompt)
-    """
-    # System prompt
-    lang_name = LANGUAGE_NAMES.get(target_language, target_language)
-    system_prompt = (
-        f'You are a professional game localization translator specializing in the game "Timberborn" and its mod "{mod_name}". '
-        f'Task: Translate the given text into {lang_name}'
-        f'Output rules (STRICT) Output ONLY the translated text. Do NOT add explanations, comments, notes, quotes, keep original formatting. Do NOT repeat the source text. Do NOT add prefixes such as "Translation:", "Result:", or similar. If the input is empty, output an empty string.'
-    )
-    
-    # User prompt - build dynamically based on available information
-    prompt_parts = [f"Key name: {key}"]
-    
-    if new_text:
-        prompt_parts.append(f'New Text to Translate: "{new_text}"')
-    
-    if raw:
-        prompt_parts.append(f'Original Text (Old): "{raw}"')
-    
-    if current_translation:
-        prompt_parts.append(f'Current Translation: "{current_translation}"')
-    
-    if prompt:
-        prompt_parts.append(f'Field Hint: {prompt}')
-    
-    if specific_prompt:
-        prompt_parts.append(f'Specific Note: {specific_prompt}')
-    
-    # Add glossary hints if available
-    if glossary_hints:
-        for hint in glossary_hints:
-            prompt_parts.append(f'Glossary Reference: {hint}')
-    
-    user_prompt = " - ".join(prompt_parts)
-    
-    return system_prompt, user_prompt
+) -> Tuple[List[Dict], str]:
+    """Keep reusable references separate from entry-specific source and context."""
+    parts = system_prompt_parts(target_language, LANGUAGE_NAMES.get(target_language, target_language))
+    system = [{'type': 'text', 'text': part, 'prompt_cache_breakpoint': {'mode': 'explicit'}}
+              for part in parts]
+    context = {'mod': mod_name, 'key': key, 'field_hint': prompt,
+               'specific_note': specific_prompt, 'glossary_references': glossary_hints or []}
+    if raw is not None:
+        context.update(old_source_text=raw, current_translation=current_translation)
+    return system, json.dumps({'source_text': new_text, 'context': context}, ensure_ascii=False)
 
 
 def strip_extra_quotes(text: str, reference_text: str) -> str:
@@ -997,14 +965,16 @@ def translate_entry(
     # Validate translation result
     # Empty translation is only valid if the original raw text is also empty
     if translation is not None:
-        if not translation and raw and raw.strip():
+        if not translation and text_to_translate.strip():
             # Translation is empty but original text is not - invalid result
             logger.warning(f"Translation returned empty for non-empty original text in {key}")
             return None
         
         # Strip extra quotes if present and not in original
-        reference_text = raw if raw else text_to_translate
-        translation = strip_extra_quotes(translation, reference_text)
+        translation = strip_extra_quotes(translation, text_to_translate)
+        if not translation.strip() and text_to_translate.strip():
+            logger.warning(f"Translation became empty after removing wrappers in {key}")
+            return None
         
         logger.info(f"[{key}] [{target_lang}] {text_to_translate!r} -> {translation!r}")
     
@@ -1166,7 +1136,7 @@ def process_toml_file(
 
         # --- critical section: mutate shared ``data`` and persist --- #
         with save_lock:
-            if has_new_field:
+            if has_new_field and all_translations_successful:
                 entry["raw"] = entry["new"]
 
             for lang, translation in new_translations.items():
@@ -1662,7 +1632,8 @@ def main():
         
         translator = TranslatorLLM(
             api_token=api_token,
-            model=llm_config.get("model", "gpt-4o-mini"),
+            model=llm_config.get("model", "gpt-6-luna"),
+            reasoning_effort=llm_config.get("reasoning_effort", "none"),
             api_url=llm_config.get("api_url", "https://api.openai.com/v1/chat/completions"),
             min_length=llm_config.get("min_length", 1),
             max_length=llm_config.get("max_length", 5000),
@@ -1697,15 +1668,16 @@ def main():
         
         # Write cost report to file for GitHub Actions summary
         cost_report_path = os.path.join(os.path.dirname(args.log_file) or '.', 'cost_report.json')
+        cost_data = translator.get_cost_summary_dict()
         try:
-            import json
-            cost_data = translator.get_cost_summary_dict()
             with open(cost_report_path, 'w', encoding='utf-8') as f:
                 json.dump(cost_data, f, indent=2)
             logger.info(f"Cost report written to {cost_report_path}")
         except Exception as e:
             logger.error(f"Failed to write cost report: {e}")
         
+        if cost_data["fail_count"] or not cost_data["cost_tracking_complete"]:
+            raise RuntimeError("Translation requests failed; pending entries and partial progress have been preserved")
         logger.info("All done!")
         
     except Exception as e:
