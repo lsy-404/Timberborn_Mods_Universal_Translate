@@ -55,6 +55,7 @@ class TranslatorLLM:
         self.total_tokens = dict.fromkeys(("input", "ordinary", "cached", "write", "output", "reasoning", "total"), 0)
         self.total_cost = 0.0
         self.reserved_cost = 0.0
+        self._in_flight_requests = 0
         self.request_count = 0
         self.success_count = 0
         self.fail_count = 0
@@ -97,6 +98,7 @@ class TranslatorLLM:
                 self.logger.warning("Translation paused: insufficient budget or incomplete usage accounting")
                 return None
             self.reserved_cost += maximum
+            self._in_flight_requests += 1
         return maximum
 
     @classmethod
@@ -189,7 +191,8 @@ class TranslatorLLM:
             return None
         finally:
             with self._cost_lock:
-                self.reserved_cost = max(0.0, self.reserved_cost - reservation)
+                self._in_flight_requests -= 1
+                self.reserved_cost = max(0.0, self.reserved_cost - reservation) if self._in_flight_requests else 0.0
                 self.total_cost += reservation if actual_cost is None else actual_cost
                 self.unknown_cost_requests += actual_cost is None
                 if metrics is not None:

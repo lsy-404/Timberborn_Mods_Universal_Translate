@@ -57,6 +57,9 @@ class ProductionTranslationTests(unittest.TestCase):
             self.assertGreaterEqual(count, 1024, language)
             self.assertLessEqual(count, 1480, language)
         self.assertEqual(len(system_prompt_parts('plPL', 'Polish')), 2)
+        for language, wording in {'plPL': 'Folkogonów', 'ptBR': 'Caudas-do-mato',
+                                  'koKR': '나무꼬리', 'trTR': 'Köykuyruklar'}.items():
+            self.assertIn(wording, system_prompt_parts(language, translate_mods.LANGUAGE_NAMES[language])[1])
 
     def test_static_prefix_and_structured_source_boundary(self):
         first, user = self.prompts()
@@ -223,6 +226,20 @@ class ProductionTranslationTests(unittest.TestCase):
         payload['prompt_tokens'] = 10
         with self.assertRaises(ValueError):
             TranslatorLLM.usage_metrics(payload)
+
+    @patch('translator.requests.post')
+    def test_concurrent_settlement_leaves_no_budget_reservation(self, post):
+        post.return_value = response()
+        translator = self.translator()
+        system, user = self.prompts()
+        source = json.loads(user)['source_text']
+        with ThreadPoolExecutor(max_workers=10) as pool:
+            outputs = list(pool.map(lambda _: translator.translate(source, 'zhCN', system, user), range(37)))
+        self.assertTrue(all(output is not None for output in outputs))
+        report = translator.get_cost_summary_dict()
+        self.assertEqual(report['request_count'], 37)
+        self.assertEqual(report['reserved_cost_usd'], 0)
+        self.assertAlmostEqual(report['estimated_cost_usd'], 37 * 0.0001495)
 
     @patch('translator.requests.post')
     def test_boundary_line_breaks_are_preserved(self, post):

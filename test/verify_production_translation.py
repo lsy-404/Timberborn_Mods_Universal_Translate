@@ -73,6 +73,9 @@ def main():
             if not source:
                 assert translated == '', (key, language)
     assert '神尾' in document['Building.Pump.DisplayName']['zhCN']
+    for language, stem in {'plPL': 'folkogon', 'ptBR': 'caudas-do-mato',
+                           'koKR': '나무꼬리', 'trTR': 'köykuyruk'}.items():
+        assert stem in document['Building.Pump.DisplayName'][language].casefold(), language
     cost_path = log_dir / 'cost_report.json'
     report = json.loads(cost_path.read_text())
     expected = 3 * len(languages) - 2
