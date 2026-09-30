@@ -2,7 +2,9 @@
   "terms": [
     {
       "source": "Badwater",
-      "targets": {"zhCN": "恶水"},
+      "targets": {
+        "zhCN": "恶水"
+      },
       "provenance": "data/3284067782.toml Building.SkyBadwaterSource.DisplayName",
       "confidence": "project"
     },
@@ -27,10 +29,20 @@
         "jaJP": "フォークテイル",
         "deDE": "Rustikalruten",
         "frFR": "Rustiqueues",
-        "ruRU": "Хвосты мира"
+        "ruRU": "Хвосты мира",
+        "plPL": "Folkogonów",
+        "ptBR": "Caudas-do-mato",
+        "koKR": "나무꼬리",
+        "trTR": "Köykuyruklar"
       },
       "provenance": "Steam localized store pages; zhCN/zhTW also data/_glossary.toml[Folktails]",
-      "confidence": "verified"
+      "confidence": "verified",
+      "locale_sources": {
+        "plPL": "https://store.steampowered.com/api/appdetails?appids=1062090&l=polish",
+        "ptBR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=brazilian",
+        "koKR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=koreana",
+        "trTR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=turkish"
+      }
     },
     {
       "source": "Iron Teeth",
@@ -40,10 +52,20 @@
         "jaJP": "アイアン・ティース",
         "deDE": "Eisenzähne",
         "frFR": "Dents de fer",
-        "ruRU": "Железные зубы"
+        "ruRU": "Железные зубы",
+        "plPL": "Żelazozębnych",
+        "ptBR": "Dentes de Ferro",
+        "koKR": "강철 이빨",
+        "trTR": "Demir Dişler"
       },
       "provenance": "Steam localized store pages; zhCN/zhTW also data/_glossary.toml[IronTeeth]",
-      "confidence": "verified"
+      "confidence": "verified",
+      "locale_sources": {
+        "plPL": "https://store.steampowered.com/api/appdetails?appids=1062090&l=polish",
+        "ptBR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=brazilian",
+        "koKR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=koreana",
+        "trTR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=turkish"
+      }
     },
     {
       "source": "Water physics",
