@@ -1,0 +1,158 @@
+[_meta]
+name = "Teleporter Station"
+
+["Building.Teleporter.DisplayName"]
+new = "Wormhole Station"
+status = "normal"
+
+["Building.Teleporter.Description"]
+new = "Allows instant travel between any two points on the map."
+status = "normal"
+
+["Building.Teleporter.FlavorDescription"]
+new = "Mind the puddle. It's deeper than it looks."
+status = "normal"
+
+["Teleporter.Transits"]
+new = "Transits"
+status = "normal"
+
+["Teleporter.Source.Enable"]
+new = "Enable wormhole siphon"
+status = "normal"
+
+["Teleporter.Source.Disable"]
+new = "Disable wormhole siphon"
+status = "normal"
+
+["Teleporter.Status.OutOfExtract"]
+new = "Out of extract. Deliver extract to refill it."
+status = "normal"
+
+["Teleporter.Status.OutOfExtract.Haulers"]
+new = "Out of extract. Requires haulers to function."
+status = "normal"
+
+["Teleporter.Status.OutOfExtract.Short"]
+new = "Teleporter out of extract"
+status = "normal"
+
+["Teleporter.Status.OutOfExtract.Remote.NoSource"]
+new = "Out of extract. Only a wormhole siphon can restart this teleporter, but no teleporter on the district's paths is set as an extract source."
+status = "normal"
+
+["Teleporter.Status.OutOfExtract.Remote.NoneStocked"]
+new = "Out of extract. Only a wormhole siphon can restart this teleporter, but no source has extract to spare."
+status = "normal"
+
+["Teleporter.NetworkCount"]
+new = "Teleporters on this network: {0}"
+status = "normal"
+
+["Teleporter.Status.Conflict"]
+new = "Teleporters stand on the paths of more than one district. Demolish every teleporter of one district to bring the network back."
+status = "normal"
+
+["Teleporter.Status.Conflict.Short"]
+new = "Teleporters on several districts"
+status = "normal"
+
+["Teleporter.Status.NetworkOffline"]
+new = "No path-connected teleporter is charged. Refill one to restore the network."
+status = "normal"
+
+["Teleporter.Status.NetworkOffline.Short"]
+new = "Teleporter network offline"
+status = "normal"
+
+["Building.TeleporterRing.DisplayName"]
+new = "Ring Station"
+status = "normal"
+
+["Building.TeleporterRing.Description"]
+new = "A short-range teleporter that allows direct travel between two points."
+status = "normal"
+
+["Building.TeleporterRing.FlavorDescription"]
+new = "Where does it go? Wherever its other half is standing."
+status = "normal"
+
+["Ring.Requirements"]
+new = "Once built, its pair can be placed anywhere within range."
+status = "normal"
+
+["Ring.Panel.PlaceRemote"]
+new = "Place remote ring"
+status = "normal"
+
+["Ring.Panel.Unpaired"]
+new = "No remote yet. Place this ring's remote to open the route."
+status = "normal"
+
+["Ring.Status.OutOfExtract"]
+new = "Out of extract. Deliver extract to a ring on your district paths."
+status = "normal"
+
+["Ring.Status.OutOfExtract.Short"]
+new = "Ring out of extract"
+status = "normal"
+
+["Ring.Status.Unpaired.Master.Build"]
+new = "Build this ring. Fuel it, then place its remote."
+status = "normal"
+
+["Ring.Status.Unpaired.Master.Fuel"]
+new = "Deliver extract to this ring. Its remote can be placed once it holds fuel."
+status = "normal"
+
+["Ring.Status.Unpaired.Master"]
+new = "This ring stands alone. Place its remote to open the route."
+status = "normal"
+
+["Ring.Status.Unpaired.Master.Short"]
+new = "Ring has no remote"
+status = "normal"
+
+["Ring.Status.Unpaired.Remote"]
+new = "This ring stands alone. Build a Ring Station within range."
+status = "normal"
+
+["Ring.Status.Unpaired.Remote.Short"]
+new = "Remote has no partner"
+status = "normal"
+
+["Building.TeleporterRingRemote.DisplayName"]
+new = "Remote Ring Station"
+status = "normal"
+
+["Building.TeleporterRingRemote.Description"]
+new = "The far end of a ring route. Goes where the paths do not."
+status = "normal"
+
+["Building.TeleporterRingRemote.FlavorDescription"]
+new = "One ring to move them all."
+status = "normal"
+
+["Ring.Placement.OutOfRange"]
+new = "Ring platforms must be placed within range of each other."
+status = "normal"
+
+["Ring.Placement.NeedBuilt"]
+new = "Remote rings are placed as partners of a built ring."
+status = "normal"
+
+["Ring.Placement.NeedReady"]
+new = "The built ring must be finished and fueled before its remote is placed."
+status = "normal"
+
+["Ring.Panel.NeedFuel"]
+new = "Deliver extract to this ring to place its remote."
+status = "normal"
+
+["Ring.Panel.Unpaired.Remote"]
+new = "No partner yet. Build a Ring Station within range to reopen the route."
+status = "normal"
+
+["Ring.Panel.LinkBuilt"]
+new = "Link a built ring"
+status = "normal"

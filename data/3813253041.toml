@@ -1,0 +1,50 @@
+[_meta]
+name = "Burrow Circuit"
+
+["Barbara.BurrowCircuit.DisplayName"]
+new = "Burrow Circuit"
+status = "normal"
+
+["Barbara.BurrowCircuit.Description"]
+new = "A compact ground-level wooden circuit for a gentle little ride."
+status = "normal"
+
+["Barbara.BurrowCircuit.Flavor"]
+new = "Two seats - one loop - no support beam."
+status = "normal"
+
+["Barbara.BurrowCircuit.Need.Joy.DisplayName"]
+new = "Little outing"
+status = "normal"
+
+["Barbara.BurrowCircuitTicketBooth.DisplayName"]
+new = "Burrow Circuit Ticket Booth"
+status = "normal"
+
+["Barbara.BurrowCircuitTicketBooth.Description"]
+new = "Structural prototype with a front counter and a side service entrance."
+status = "normal"
+
+["Barbara.BurrowCircuitTicketBooth.Flavor"]
+new = "A counter low enough to keep the ticket clerk in sight."
+status = "normal"
+
+["Good.BurrowCircuitTicket.DisplayName"]
+new = "Burrow Circuit Ticket"
+status = "normal"
+
+["Good.BurrowCircuitTicket.PluralDisplayName"]
+new = "Burrow Circuit Tickets"
+status = "normal"
+
+["BurrowCircuitTicketRecipe.Folktails.Name"]
+new = "Burrow Circuit paper tickets"
+status = "normal"
+
+["BurrowCircuitTicketRecipe.IronTeeth.Name"]
+new = "Burrow Circuit wooden ticket tokens"
+status = "normal"
+
+["Barbara.BurrowCircuit.ToolGroup"]
+new = "Burrow Circuit"
+status = "normal"

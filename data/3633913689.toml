@@ -4809,6 +4809,54 @@ csCZ = "Ovládací prvky budov používají <YellowHighlight>globální</YellowH
 viVN = "Các điều khiển xây dựng đang sử dụng <YellowHighlight>kho toàn cục</YellowHighlight>."
 trTR = "Bina kontrolleri <YellowHighlight>global</YellowHighlight> envanteri kullanıyor."
 
+["UI.TW.SimpleWorkshopControl.UnlockLabel"]
+new = "Unlock workshop controls for {0} scinece"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UnlockButton"]
+new = "Unlock"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UnlockFailHeader"]
+new = "Cannot unlock"
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.UnlockFailMessage"]
+new = "Cannot unlock workshop controls; not enough science points."
+status = "normal"
+
+["UI.TW.SimpleWorkshopControl.PromptForUnlockHeader"]
+new = "Unlock?"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.SectionUnlocking"]
+new = "<b><YellowHighlight>Optional science cost:</YellowHighlight><b>"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.RequireUnlock"]
+new = "Require unlock"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.RequireUnlockDesc"]
+new = "Each building type will require science points to unlock workshop controls."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UnlockCost"]
+new = "Cost Multiplier"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.UnlockCostDesc"]
+new = "Unlocking workshop controls will cost this fraction of the building type's initial research cost."
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.MinUnlockCost"]
+new = "Min cost"
+status = "normal"
+
+["ModSetting.TWSimpleWorkshopControl.MinUnlockCostDesc"]
+new = "Unlocking a building type will always cost at least this much"
+status = "normal"
+
 ["ModSetting.TWSimpleWorkshopControl.SectionPower"]
 raw = "<b><YellowHighlight>Power:</YellowHighlight><b>"
 status = "normal"

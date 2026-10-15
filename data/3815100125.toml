@@ -1,0 +1,94 @@
+[_meta]
+name = "Deepfurs"
+
+["Faction.Deepfurs.DisplayName"]
+new = "Deepfurs"
+status = "normal"
+
+["Faction.Deepfurs.Description"]
+new = "Sleek-furred divers who thrive beneath the surface. Deepfurs are happiest soaked to the bone — dry land dampens their spirits and slows their work — while their loyal bots refuse to touch water at all."
+status = "normal"
+
+["Building.Deepfurs.TidalTurbine.DisplayName"]
+new = "Tidal Turbine"
+status = "normal"
+
+["Building.Deepfurs.TidalTurbine.Description"]
+new = "Generates power from flowing water. Output rises with the speed of the current and with how deeply the turbine is submerged, reaching full power once fully underwater. Can be built dry — it simply waits for the water to arrive."
+status = "normal"
+
+["Building.Deepfurs.TidalTurbine.FlavorDescription"]
+new = "No sails, no spokes above the surface — just a hum in the deep and a shaft that never freezes over."
+status = "normal"
+
+["NaturalResource.Deepfurs.WeepingWillow.DisplayName"]
+new = "Weeping willow"
+status = "normal"
+
+["NaturalResource.Deepfurs.WeepingWillow.FlavorDescription"]
+new = "Roots drink straight from the channel; the branches trail in it until the water goes."
+status = "normal"
+
+["Manufactory.Recipe.BiofuelCanolaOil"]
+new = "Biofuel from canola oil"
+status = "normal"
+
+["Deepfurs.Bot.HybridWorkRefusalWarning"]
+new = "Stops working only if both charge and fuel run out."
+status = "normal"
+
+["Deepfurs.Bot.OutOfPowerAndFuel"]
+new = "Out of charge and fuel. Hybrid bots run on either supply alone, but this one has neither and has stopped working."
+status = "normal"
+
+["Deepfurs.Bot.OutOfPowerAndFuel.Short"]
+new = "Out of charge and fuel"
+status = "normal"
+
+["Deepfurs.Breeding.Dry.Water"]
+new = "Dry — needs extra water per cycle. Submerge it and it needs no water at all."
+status = "normal"
+
+["Deepfurs.Breeding.Submerged.Water"]
+new = "Submerged — no water needed. Berries alone grow the babies."
+status = "normal"
+
+["Deepfurs.Breeding.Dry.Extract"]
+new = "Dry — needs extra extract per cycle. Submerge it to halve the cost."
+status = "normal"
+
+["Deepfurs.Breeding.Submerged.Extract"]
+new = "Submerged — extract cost halved."
+status = "normal"
+
+["Building.CompactMechanicalPump.Deepfurs.Description"]
+new = "Draws water or badwater in from one side and discharges it on the other. In reverse mode the pump opens into a free-flowing pipe and the current spins it, generating 135 hp for every 0.25 cms passing through."
+status = "normal"
+
+["Deepfurs.ReversiblePump.Toggle"]
+new = "Reverse mode"
+status = "normal"
+
+["Deepfurs.ReversiblePump.Hint.Pumping"]
+new = "Pumping. Switch on reverse mode to open the pump into a pipe and generate power from the water flowing through it."
+status = "normal"
+
+["Deepfurs.ReversiblePump.Hint.Reversed"]
+new = "Open pipe. Current {0:F2} cms, generating {1} hp (135 hp per 0.25 cms)."
+status = "normal"
+
+["Building.Deepfurs.FuelGatheringDepot.DisplayName"]
+new = "Fuel Gathering Depot"
+status = "normal"
+
+["Building.Deepfurs.FuelGatheringDepot.Description"]
+new = "Holds 80 units of liquid; fill it with biofuel. Idle bots gather around it instead of the District Center and top up from it when they run low. Dry ground only, and one per district."
+status = "normal"
+
+["Building.Deepfurs.FuelGatheringDepot.FlavorDescription"]
+new = "The centre is a lake now. The bots needed somewhere to stand, so they chose the tank that feeds them."
+status = "normal"
+
+["Deepfurs.FuelGatheringDepot.OnePerDistrict"]
+new = "This district already has a Fuel Gathering Depot."
+status = "normal"

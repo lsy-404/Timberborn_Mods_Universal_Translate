@@ -1,0 +1,18 @@
+[_meta]
+name = "RollerCoaster"
+
+["Barbara.RollerCoaster.P1.DisplayName"]
+new = "Roller Coaster — Grand Circuit"
+status = "normal"
+
+["Barbara.RollerCoaster.P1.Description"]
+new = "Two-beaver attraction with a long prefabricated track and two laps per ride."
+status = "normal"
+
+["Barbara.RollerCoaster.P1.Flavor"]
+new = "Tuck in your tail and hold on tight!"
+status = "normal"
+
+["Barbara.RollerCoaster.Need.Joy.DisplayName"]
+new = "Roller coaster thrill"
+status = "normal"

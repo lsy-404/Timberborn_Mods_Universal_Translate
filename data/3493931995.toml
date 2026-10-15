@@ -1,5 +1,5 @@
 [_meta]
-name = "Honey Time"
+name = "Honey Time Reworked"
 
 ["Good.Honey.DisplayName"]
 raw = "Honey"
@@ -374,3 +374,107 @@ koKR = "비버가 취했습니다"
 csCZ = "Bobr je opilý"
 viVN = "Hải ly say rượu"
 trTR = "Samur sarhoş"
+
+["Building.BeekeepersShack.DisplayName"]
+new = "Beekeeper's Shack"
+status = "normal"
+
+["Building.BeekeepersShack.Description"]
+new = "Turns Honey Comb into Honey, Wax and Propolis."
+status = "normal"
+
+["Building.BeekeepersShack.FlavorDescription"]
+new = "\"Sticky work, sweet reward.\" —Folktails saying"
+status = "normal"
+
+["Good.HoneyComb.DisplayName"]
+new = "Honey Comb"
+status = "normal"
+
+["Good.HoneyComb.PluralDisplayName"]
+new = "Honey Combs"
+status = "normal"
+
+["Good.Wax.DisplayName"]
+new = "Wax"
+status = "normal"
+
+["Good.Wax.PluralDisplayName"]
+new = "Wax"
+status = "normal"
+
+["Good.Propolis.DisplayName"]
+new = "Propolis"
+status = "normal"
+
+["Good.Propolis.PluralDisplayName"]
+new = "Propolis"
+status = "normal"
+
+["Good.HoneyTea.DisplayName"]
+new = "Honey Tea"
+status = "normal"
+
+["Good.HoneyTea.PluralDisplayName"]
+new = "Honey Tea"
+status = "normal"
+
+["Good.WaxCandle.DisplayName"]
+new = "Wax Candle"
+status = "normal"
+
+["Good.WaxCandle.PluralDisplayName"]
+new = "Wax Candles"
+status = "normal"
+
+["Good.BeekeeperProcessing.PluralDisplayName"]
+new = "Bee goodies manufacturing"
+status = "normal"
+
+["Building.WaxLantern.DisplayName"]
+new = "Wax Lantern"
+status = "normal"
+
+["Building.WaxLantern.Description"]
+new = "A decorative lantern that lights up at night, burning Wax Candles."
+status = "normal"
+
+["Building.WaxLantern.FlavorDescription"]
+new = "A warm glow for cold nights."
+status = "normal"
+
+["Good.WaxSealant.DisplayName"]
+new = "Wax Sealant"
+status = "normal"
+
+["Good.WaxSealant.PluralDisplayName"]
+new = "Wax Sealant"
+status = "normal"
+
+["Building.MixingFacility.DisplayName"]
+new = "Mixing Facility"
+status = "normal"
+
+["Building.MixingFacility.Description"]
+new = "Mixes Wax Sealant for bots and Ointment for beavers."
+status = "normal"
+
+["Building.MixingFacility.FlavorDescription"]
+new = "Stir it, seal it, heal it."
+status = "normal"
+
+["Recipe.TreatedPlankWax.DisplayName"]
+new = "Treated Planks (Wax)"
+status = "normal"
+
+["Recipe.BeekeeperHoneyWax.DisplayName"]
+new = "Honey & Wax"
+status = "normal"
+
+["Recipe.BeekeeperHoneyPropolis.DisplayName"]
+new = "Honey & Propolis"
+status = "normal"
+
+["Recipe.BeekeeperWaxPropolis.DisplayName"]
+new = "Wax & Propolis"
+status = "normal"

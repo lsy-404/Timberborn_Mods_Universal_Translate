@@ -1,0 +1,14 @@
+[_meta]
+name = "Unknown"
+
+["MoistureOnlyPlanting.Title"]
+new = "Moisture-only planting"
+status = "normal"
+
+["MoistureOnlyPlanting.DescriptionOn"]
+new = "ON: dragging a planting area only marks moist, green ground. Click to turn off. Succulents are not affected."
+status = "normal"
+
+["MoistureOnlyPlanting.DescriptionOff"]
+new = "OFF: planting works as normal, dry ground included. Click to turn on."
+status = "normal"

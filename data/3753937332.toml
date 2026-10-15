@@ -1,9 +1,65 @@
 [_meta]
 name = "Academic's Miners Of Mountains"
 
+["academicunwinds.MOM.Good.Pickax.DisplayName"]
+new = "Pickaxe"
+status = "normal"
+
+["academicunwinds.MOM.Good.Pickax.PluralDisplayName"]
+new = "Pickaxes"
+status = "normal"
+
+["academicunwinds.MOM.Good.AdvancedPickax.DisplayName"]
+new = "Advanced Pickaxe"
+status = "normal"
+
+["academicunwinds.MOM.Good.AdvancedPickax.PluralDisplayName"]
+new = "Advanced Pickaxes"
+status = "normal"
+
+["academicunwinds.MOM.Building.ExcavationFlag.DisplayName"]
+new = "Excavation Flag"
+status = "normal"
+
+["academicunwinds.MOM.Building.ExcavationFlag.Description"]
+new = "Mark a terrain block for removal. A builder hauls a pickaxe over and digs the block out. The pickaxe is consumed by the dig and the tile is clear once it finishes."
+status = "normal"
+
+["academicunwinds.MOM.Settings.DirtPerBlock"]
+new = "Dirt Per Block"
+status = "normal"
+
+["academicunwinds.MOM.Settings.DirtPerBlock.Tooltip"]
+new = "How much Dirt each finished dig drops next to the hole for builders to collect. Builders collect it the same way as demolition leftovers."
+status = "normal"
+
+["academicunwinds.MOM.Settings.KeepTerrainBlock"]
+new = "Keep Terrain Block"
+status = "normal"
+
+["academicunwinds.MOM.Settings.KeepTerrainBlock.Tooltip"]
+new = "Keep the terrain block instead of removing it; the block is never removed and the flag re-arms itself after every dig, so with this on you may dig under paths and buildings safely."
+status = "normal"
+
+["academicunwinds.MOM.Settings.DigHoursFolktails"]
+new = "Folktails Dig Time (Hours)"
+status = "normal"
+
+["academicunwinds.MOM.Settings.DigHoursFolktails.Tooltip"]
+new = "How many work hours a Folktails builder needs to dig one block out."
+status = "normal"
+
+["academicunwinds.MOM.Settings.DigHoursIronTeeth"]
+new = "IronTeeth Dig Time (Hours)"
+status = "normal"
+
+["academicunwinds.MOM.Settings.DigHoursIronTeeth.Tooltip"]
+new = "How many work hours an IronTeeth builder needs to dig one block out."
+status = "normal"
+
 ["academicunwinds.Rainborn.Good.Pickax.DisplayName"]
 raw = "Pickaxe"
-status = "normal"
+status = "abandoned"
 enUS = "Pickaxe"
 zhCN = "镐"
 zhTW = "斧頭"
@@ -20,7 +76,7 @@ trTR = "Kazma"
 
 ["academicunwinds.Rainborn.Good.Pickax.PluralDisplayName"]
 raw = "Pickaxes"
-status = "normal"
+status = "abandoned"
 enUS = "Pickaxes"
 zhCN = "镐"
 zhTW = "鎬"
@@ -37,7 +93,7 @@ trTR = "Keserler"
 
 ["academicunwinds.Rainborn.Good.AdvancedPickax.DisplayName"]
 raw = "Advanced Pickaxe"
-status = "normal"
+status = "abandoned"
 enUS = "Advanced Pickaxe"
 zhCN = "高级镐"
 zhTW = "高級鎬"
@@ -54,7 +110,7 @@ trTR = "Gelişmiş Kazma"
 
 ["academicunwinds.Rainborn.Good.AdvancedPickax.PluralDisplayName"]
 raw = "Advanced Pickaxes"
-status = "normal"
+status = "abandoned"
 enUS = "Advanced Pickaxes"
 zhCN = "先进的镐"
 zhTW = "高級鐵鎚"
@@ -71,7 +127,7 @@ trTR = "Gelişmiş Maden Kılıçları"
 
 ["academicunwinds.Rainborn.Building.ExcavationFlag.DisplayName"]
 raw = "Excavation Flag"
-status = "normal"
+status = "abandoned"
 enUS = "Excavation Flag"
 zhCN = "excavator flag"
 zhTW = "挖掘旗幟"
@@ -88,7 +144,7 @@ trTR = "Kazı Bayrağı"
 
 ["academicunwinds.Rainborn.Building.ExcavationFlag.Description"]
 raw = "Mark a terrain block for removal. A builder hauls a pickaxe over and digs the block out. The pickaxe is consumed by the dig and the tile is clear once it finishes."
-status = "normal"
+status = "abandoned"
 enUS = "Mark a terrain block for removal. A builder hauls a pickaxe over and digs the block out. The pickaxe is consumed by the dig and the tile is clear once it finishes."
 zhCN = "“标记一个地形块以便移除。一名建造者会拖着一把镐走过来并挖出这个地块。镐在挖掘过程中会被消耗，完成后地面会清理干净。”"
 zhTW = "標記地形區塊以供移除。一名建築工人拿著鐵鎬，將區塊挖出。鐵鎬在挖掘過程中被消耗，完成後該磚塊將清空。"

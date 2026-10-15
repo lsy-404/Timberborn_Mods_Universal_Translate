@@ -1,5 +1,5 @@
 [_meta]
-name = "Whitepaws Faction 1.0"
+name = "Whitepaws Faction 1.1"
 
 ["Good.Stew.PluralDisplayName"]
 raw = "Stew"
@@ -18292,6 +18292,30 @@ koKR = "\"우리는 입에 음식이 가득 차 있을 때 이야기하지 않�
 csCZ = "\"Nemluvíme s plnou pusou!\""
 viVN = "Chúng tôi không nói khi miệng còn đầy!"
 trTR = "Ağzımız doluyken konuşmayız!"
+
+["Lapantouflemagic.SmallCookery.Whitepaws.DisplayName"]
+new = "Small Cuisine"
+status = "normal"
+
+["Lapantouflemagic.SmallCookery.Whitepaws.Description"]
+new = "Cooks basic recipes.\n<color=#FFA500>Small Tower</color>, <color=#FF6EC7>Can support upgrades</color>\n<color=#00FFFF>Works as a Levee</color>"
+status = "normal"
+
+["Lapantouflemagic.SmallCookery.Whitepaws.FlavorDescription"]
+new = "\"Despite her insanity, Mathilda’s cooking is unmatched.\"\n-Mathilda the insane cook."
+status = "normal"
+
+["Lapantouflemagic.ZiplineUpgradeArm.DisplayName"]
+new = "Zipline Add-on Arm (Tree Nursery)"
+status = "normal"
+
+["Lapantouflemagic.ZiplineUpgradeArm.Description"]
+new = "An arm providing access to the zipline network to <color=green>Tree Nurseries</color>.\n<color=green>Connections: 1</color>\n<color=#FF6EC7>To be placed on the back side of the building.</color>"
+status = "normal"
+
+["Lapantouflemagic.ZiplineUpgradeArm.FlavorDescription"]
+new = "\"Tremble, mortals! Now the whole world is my backyardxa0!\"\n-An overly enthusiastic tree nursery intern"
+status = "normal"
 
 [TUTORIAL]
 raw = "TUTORIAL"

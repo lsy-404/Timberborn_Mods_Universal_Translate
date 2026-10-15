@@ -1,0 +1,138 @@
+[_meta]
+name = "Unknown"
+
+["ZOS.Section.Zoom"]
+new = "Zoom"
+status = "normal"
+
+["ZOS.Section.Buildings"]
+new = "Buildings"
+status = "normal"
+
+["ZOS.Section.Power"]
+new = "Power"
+status = "normal"
+
+["ZOS.Section.Events"]
+new = "Events"
+status = "normal"
+
+["ZOS.Section.Nature"]
+new = "Nature"
+status = "normal"
+
+["ZOS.BuildingReach"]
+new = "Building sound reach"
+status = "normal"
+
+["ZOS.BuildingReachTooltip"]
+new = "How far the camera can be from the ground before building sounds fade to silence. Game default is 60, which goes silent a little past the starting zoom. Full zoom-out is about 155 (about 440 with unlocked zoom)."
+status = "normal"
+
+["ZOS.AmbientZoomedOut"]
+new = "Ambient volume zoomed out (%)"
+status = "normal"
+
+["ZOS.AmbientZoomedOutTooltip"]
+new = "Volume of background sounds (day and night ambience, water, sleeping beavers) at full zoom-out, as a percent of the close-up volume. Game default is 0."
+status = "normal"
+
+["ZOS.HearingRadius"]
+new = "Hearing radius (tiles)"
+status = "normal"
+
+["ZOS.HearingRadiusTooltip"]
+new = "How far from the centre of the screen sounds can be heard. Game default is 10. Higher lets you hear more of the view when zoomed out."
+status = "normal"
+
+["ZOS.All.Buildings"]
+new = "All buildings (%)"
+status = "normal"
+
+["ZOS.All.Power"]
+new = "All power (%)"
+status = "normal"
+
+["ZOS.All.Events"]
+new = "All events (%)"
+status = "normal"
+
+["ZOS.All.Nature"]
+new = "All nature (%)"
+status = "normal"
+
+["ZOS.AllTooltip"]
+new = "Turns every sound in this section up or down together. The sliders below fine-tune each one. 100 is the game's normal volume."
+status = "normal"
+
+["ZOS.Heading.Industry"]
+new = "Industry"
+status = "normal"
+
+["ZOS.Heading.Food"]
+new = "Food"
+status = "normal"
+
+["ZOS.Heading.Water"]
+new = "Water"
+status = "normal"
+
+["ZOS.Heading.Leisure"]
+new = "Leisure"
+status = "normal"
+
+["ZOS.Heading.WaterWheels"]
+new = "Water wheels"
+status = "normal"
+
+["ZOS.Heading.WindTurbines"]
+new = "Wind turbines"
+status = "normal"
+
+["ZOS.Heading.Engines"]
+new = "Engines"
+status = "normal"
+
+["ZOS.Sound.PowerShafts"]
+new = "Power shafts"
+status = "normal"
+
+["ZOS.Sound.Fire"]
+new = "Fire"
+status = "normal"
+
+["ZOS.Sound.Bell"]
+new = "Working hours bell"
+status = "normal"
+
+["ZOS.Sound.Dynamite"]
+new = "Dynamite"
+status = "normal"
+
+["ZOS.Sound.Fireworks"]
+new = "Fireworks"
+status = "normal"
+
+["ZOS.Sound.Speakers"]
+new = "Speakers"
+status = "normal"
+
+["ZOS.Sound.Wind"]
+new = "Wind"
+status = "normal"
+
+["ZOS.Sound.Day"]
+new = "Daytime ambience"
+status = "normal"
+
+["ZOS.Sound.Night"]
+new = "Night-time ambience"
+status = "normal"
+
+["ZOS.Sound.Water"]
+new = "Water"
+status = "normal"
+
+["ZOS.Sound.Sleeping"]
+new = "Sleeping beavers"
+status = "normal"

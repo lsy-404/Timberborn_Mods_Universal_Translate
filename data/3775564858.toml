@@ -1,6 +1,10 @@
 [_meta]
 name = "Sate-a-Mole"
 
+["Need.PlantMurderer.DisplayName"]
+new = "Plant Killer"
+status = "normal"
+
 [HR]
 raw = "======================================================================"
 status = "normal"

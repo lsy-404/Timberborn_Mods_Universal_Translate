@@ -1,5 +1,5 @@
 [_meta]
-name = "Goods Tracing (v1x Compatibility Fork)"
+name = "Goods Tracing (v1.x Compatibility Fork)"
 
 ["sp1um.GoodTracing.InputBatchControlTabName"]
 raw = "Good consumption"

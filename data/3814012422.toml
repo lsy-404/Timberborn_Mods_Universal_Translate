@@ -1,0 +1,2246 @@
+[_meta]
+name = "Timber Empires"
+
+["TimberEmpires.Settings.SciencePerPlayer"]
+new = "Science per player"
+status = "normal"
+
+["TimberEmpires.Settings.SciencePerPlayer.Tooltip"]
+new = "Each player has their own science points. Districts earn science for their owner, and whoever unlocks something pays for it. Districts with no owner earn science for everyone."
+status = "normal"
+
+["TimberEmpires.Districts.Owner"]
+new = "Owned by"
+status = "normal"
+
+["TimberEmpires.Districts.NoOwner"]
+new = "Nobody"
+status = "normal"
+
+["TimberEmpires.Settings.TopBarShowsOwnDistricts"]
+new = "Private top bar"
+status = "normal"
+
+["TimberEmpires.Settings.TopBarShowsOwnDistricts.Tooltip"]
+new = "With no district selected, the top bar, the well-being panel and the population graphs only count the districts you own. If you own none, they count the whole settlement."
+status = "normal"
+
+["TimberEmpires.Settings.ShowOwnerColors"]
+new = "Show District Owner Colors"
+status = "normal"
+
+["TimberEmpires.Settings.ShowOwnerColors.Tooltip"]
+new = "Tints each District Center and its paths faintly in its owner's ping color."
+status = "normal"
+
+["TimberEmpires.Settings.FogOfWar"]
+new = "Fog of war"
+status = "normal"
+
+["TimberEmpires.Settings.FogOfWar.Tooltip"]
+new = "You only see the land around your land claims, buildings, beavers and bots. Outside it, other players' buildings, beavers, bots and cursors are hidden."
+status = "normal"
+
+["TimberEmpires.Settings.SoloEmpire"]
+new = "Play as an empire"
+status = "normal"
+
+["TimberEmpires.Settings.SoloEmpire.Tooltip"]
+new = "Your districts are yours, and fog of war and land claims work as they do against other players."
+status = "normal"
+
+["TimberEmpires.Ownership.ToolGroup"]
+new = "Ownership"
+status = "normal"
+
+["TimberEmpires.Ownership.MakeShared"]
+new = "Make shared"
+status = "normal"
+
+["TimberEmpires.Ownership.MakeShared.Description"]
+new = "Click or drag over buildings you placed to let any district build them."
+status = "normal"
+
+["TimberEmpires.Ownership.MakeMine"]
+new = "Make mine"
+status = "normal"
+
+["TimberEmpires.Ownership.MakeMine.Description"]
+new = "Click or drag over shared buildings so only your districts build them."
+status = "normal"
+
+["TimberEmpires.Specializations.Label"]
+new = "Specialization"
+status = "normal"
+
+["TimberEmpires.Specializations.None"]
+new = "None"
+status = "normal"
+
+["TimberEmpires.Specializations.Hint"]
+new = "Workplaces in this category work {0}% faster, other production workplaces in this district {1}% slower. Can be changed once per cycle."
+status = "normal"
+
+["TimberEmpires.Specializations.Cooldown"]
+new = "Already changed this cycle."
+status = "normal"
+
+["TimberEmpires.Specializations.OnlyOwner"]
+new = "Only this district's owner can change its specialization."
+status = "normal"
+
+["TimberEmpires.Settings.DistrictSpecializations"]
+new = "District specializations"
+status = "normal"
+
+["TimberEmpires.Settings.DistrictSpecializations.Tooltip"]
+new = "Each district can pick a production focus. Its workplaces of that kind work faster, and its other production workplaces slower."
+status = "normal"
+
+["TimberEmpires.BorderProtection.Blocked"]
+new = "This belongs to {0}'s district."
+status = "normal"
+
+["TimberEmpires.Settings.BorderProtection"]
+new = "Border protection"
+status = "normal"
+
+["TimberEmpires.Settings.BorderProtection.Tooltip"]
+new = "Players can't demolish, pause or change the settings of buildings and beavers in districts owned by someone else."
+status = "normal"
+
+["TimberEmpires.Settings.MixedFactions"]
+new = "Mixed factions"
+status = "normal"
+
+["TimberEmpires.Settings.MixedFactions.Tooltip"]
+new = "Both factions are in the game, and each player builds with their own."
+status = "normal"
+
+["TimberEmpires.Settings.MyFaction"]
+new = "My Faction"
+status = "normal"
+
+["TimberEmpires.Settings.MyFaction.Tooltip"]
+new = "The faction you build with in a mixed-factions game. If your faction isn't on the map yet, your first District Center is a free start. Takes effect when the game loads."
+status = "normal"
+
+["TimberEmpires.Settings.MyFaction.Host"]
+new = "Host's faction"
+status = "normal"
+
+["Building.TimberEmpires.ClaimFlag.DisplayName"]
+new = "Watchtower"
+status = "normal"
+
+["Building.TimberEmpires.ClaimFlag.Description"]
+new = "Claims the land around it while its brazier burns, so other players can't build there. Reaches further from high ground. Sends an automation signal while enemy troops are on its land."
+status = "normal"
+
+["Building.TimberEmpires.ClaimFlag.FlavorDescription"]
+new = "From up here, it all looks like ours."
+status = "normal"
+
+["TimberEmpires.Claims.Blocked"]
+new = "This land is claimed by {0}."
+status = "normal"
+
+["Building.TimberEmpires.Barracks.DisplayName"]
+new = "Barracks"
+status = "normal"
+
+["Building.TimberEmpires.Barracks.Description"]
+new = "Trains its workers as troops: warriors, spearmen, or the faction's own kind."
+status = "normal"
+
+["Building.TimberEmpires.Barracks.FlavorDescription"]
+new = "Beavers were made for chewing, not fighting. These ones chew angrily."
+status = "normal"
+
+["TimberEmpires.PvP.ToolGroup"]
+new = "PvP"
+status = "normal"
+
+["TimberEmpires.PvP.Walls"]
+new = "Walls"
+status = "normal"
+
+["TimberEmpires.Combat.Killed"]
+new = "{0} was killed in battle."
+status = "normal"
+
+["Building.TimberEmpires.BanditCamp.DisplayName"]
+new = "Bandit Camp"
+status = "normal"
+
+["Building.TimberEmpires.BanditCamp.Description"]
+new = "Houses bandits who attack any beaver that comes near and guard their loot."
+status = "normal"
+
+["Building.TimberEmpires.BanditCamp.FlavorDescription"]
+new = "Finders keepers."
+status = "normal"
+
+["TimberEmpires.Bandits.Subtitle"]
+new = "Bandit"
+status = "normal"
+
+["TimberEmpires.Bandits.Description"]
+new = "A bandit guarding its camp. It belongs to no colony and attacks any beaver that comes near."
+status = "normal"
+
+["TimberEmpires.Bandits.Alive"]
+new = "Bandits left at its camp: {0}"
+status = "normal"
+
+["TimberEmpires.Bandits.Flavor"]
+new = "No food, no water, no mercy."
+status = "normal"
+
+["TimberEmpires.Bandits.CampGuarded"]
+new = "Bandits guard this camp. Defeat them before building a road to it."
+status = "normal"
+
+["TimberEmpires.Bandits.Power.1"]
+new = "Bandit hideout"
+status = "normal"
+
+["TimberEmpires.Bandits.Power.2"]
+new = "Bandit camp"
+status = "normal"
+
+["TimberEmpires.Bandits.Power.3"]
+new = "Bandit stronghold"
+status = "normal"
+
+["TimberEmpires.Bandits.Power.4"]
+new = "Warlord's camp"
+status = "normal"
+
+["TimberEmpires.Bandits.Left"]
+new = "Still here: {0}"
+status = "normal"
+
+["TimberEmpires.Bandits.SubtitleKind"]
+new = "Bandit {0}"
+status = "normal"
+
+["TimberEmpires.Raids.Coming"]
+new = "Bandits are gathering. They'll raid your settlement within a day."
+status = "normal"
+
+["TimberEmpires.Raids.Started"]
+new = "Bandits are raiding your settlement."
+status = "normal"
+
+["TimberEmpires.Raids.Over"]
+new = "The bandits have gone back to their camp."
+status = "normal"
+
+["TimberEmpires.Raids.Razed"]
+new = "The bandits brought down your District Center and are heading back to their camp."
+status = "normal"
+
+["TimberEmpires.Raids.Plundered"]
+new = "The bandits are heading back to their camp with goods from your storage."
+status = "normal"
+
+["TimberEmpires.Raids.Recap.Repelled"]
+new = "Raid fought off. None of the bandits made it back to their camp."
+status = "normal"
+
+["TimberEmpires.Raids.Recap.Razed"]
+new = "The bandits brought down your District Center and went back to their camp."
+status = "normal"
+
+["TimberEmpires.Raids.Recap.Plundered"]
+new = "The bandits held out and went back to their camp with goods from your storage."
+status = "normal"
+
+["TimberEmpires.Raids.Recap.GaveUp"]
+new = "The bandits never reached your District Center and went back to their camp."
+status = "normal"
+
+["TimberEmpires.Raids.Recap.LeftEmptyHanded"]
+new = "The bandits held out but found nothing to take and went back to their camp."
+status = "normal"
+
+["TimberEmpires.Raids.Recap.BanditsKilled"]
+new = "Bandits killed: {0} of {1}"
+status = "normal"
+
+["TimberEmpires.Raids.Recap.TroopsKilled"]
+new = "Troops lost: {0}"
+status = "normal"
+
+["TimberEmpires.Raids.Recap.BeaversKilled"]
+new = "Other beavers lost: {0}"
+status = "normal"
+
+["TimberEmpires.Raids.Recap.Stolen"]
+new = "Stolen: {0}"
+status = "normal"
+
+["TimberEmpires.Raids.Recap.NothingStolen"]
+new = "Nothing was stolen."
+status = "normal"
+
+["Building.TimberEmpires.Palisade.DisplayName"]
+new = "Palisade"
+status = "normal"
+
+["Building.TimberEmpires.Palisade.Description"]
+new = "A wall of sharpened logs that blocks the way for everyone."
+status = "normal"
+
+["Building.TimberEmpires.Palisade.FlavorDescription"]
+new = "Good fences make good neighbours."
+status = "normal"
+
+["Building.TimberEmpires.Gatehouse.DisplayName"]
+new = "Gatehouse"
+status = "normal"
+
+["Building.TimberEmpires.Gatehouse.Description"]
+new = "A fortified gate with stairs up to the wall walk. Shuts when enemies or bandits come near."
+status = "normal"
+
+["Building.TimberEmpires.Gatehouse.FlavorDescription"]
+new = "Grand enough to welcome guests, sturdy enough not to."
+status = "normal"
+
+["Building.TimberEmpires.WallTower.DisplayName"]
+new = "Wall Tower"
+status = "normal"
+
+["Building.TimberEmpires.WallTower.Description"]
+new = "Joins walls on any side and leads up to the wall walk. Sees far through the fog, further from high ground."
+status = "normal"
+
+["Building.TimberEmpires.WallTower.FlavorDescription"]
+new = "The best view in the district, mostly of trouble."
+status = "normal"
+
+["Building.TimberEmpires.RoundTower.DisplayName"]
+new = "Round Tower"
+status = "normal"
+
+["Building.TimberEmpires.RoundTower.Description"]
+new = "Taller than a wall tower, with an open top for a catapult, ballista or trebuchet. With a crew aboard, the machine on it shoots the nearest enemy in reach on its own."
+status = "normal"
+
+["Building.TimberEmpires.RoundTower.FlavorDescription"]
+new = "No roof. Plenty of rocks."
+status = "normal"
+
+["Building.TimberEmpires.BatteringRam.DisplayName"]
+new = "Battering Ram"
+status = "normal"
+
+["Building.TimberEmpires.BatteringRam.Description"]
+new = "Batters the wall, gate or dam in front of it, faster with more warriors aboard."
+status = "normal"
+
+["Building.TimberEmpires.BatteringRam.FlavorDescription"]
+new = "\"Knock knock.\" \"Who's there?\" \"Not your gate anymore.\""
+status = "normal"
+
+["Building.TimberEmpires.SiegeTower.DisplayName"]
+new = "Siege Tower"
+status = "normal"
+
+["Building.TimberEmpires.SiegeTower.Description"]
+new = "Rolls up to a wall and lets the warriors aboard out onto its walk."
+status = "normal"
+
+["Building.TimberEmpires.SiegeTower.FlavorDescription"]
+new = "Stairs took beavers to the next level. Siege towers take them to someone else's."
+status = "normal"
+
+["Building.TimberEmpires.SiegeTrebuchet.DisplayName"]
+new = "Trebuchet"
+status = "normal"
+
+["Building.TimberEmpires.SiegeTrebuchet.Description"]
+new = "Hurls siege stones at a chosen target, hurting enemies and battering walls, gates and siege engines. Needs warriors aboard to turn and throw."
+status = "normal"
+
+["Building.TimberEmpires.SiegeTrebuchet.FlavorDescription"]
+new = "What goes up must come down. Preferably on them."
+status = "normal"
+
+["TimberEmpires.Siege.Idle"]
+new = "No target. Select it and click a target in its range."
+status = "normal"
+
+["TimberEmpires.Siege.Stop"]
+new = "Stop attacking"
+status = "normal"
+
+["TimberEmpires.Siege.Firing"]
+new = "Throwing at its target."
+status = "normal"
+
+["TimberEmpires.Siege.OutOfReach"]
+new = "Its target is too close or too far."
+status = "normal"
+
+["TimberEmpires.Siege.WaitingCrew"]
+new = "Needs a crew aboard to turn or throw."
+status = "normal"
+
+["TimberEmpires.Siege.Turning"]
+new = "The crew is turning it."
+status = "normal"
+
+["TimberEmpires.Siege.NoHorde"]
+new = "Waiting for the horde to come into reach."
+status = "normal"
+
+["TimberEmpires.Siege.Burning"]
+new = "Burning the horde."
+status = "normal"
+
+["Building.TimberEmpires.WagonYard.DisplayName"]
+new = "Wagon Yard"
+status = "normal"
+
+["Building.TimberEmpires.WagonYard.Description"]
+new = "Sends supply carts to the front so warriors can eat, drink and build siege engines off the roads."
+status = "normal"
+
+["Building.TimberEmpires.WagonYard.FlavorDescription"]
+new = "An army marches on its stomach."
+status = "normal"
+
+["TimberEmpires.Supply.CartEmpty"]
+new = "The cart is empty. Call the carter back to the yard to load it."
+status = "normal"
+
+["TimberEmpires.Supply.CartHolds"]
+new = "The cart holds {0} goods:"
+status = "normal"
+
+["TimberEmpires.Supply.CartParked"]
+new = "Resting. The cart stays where it was parked, and troops nearby can still eat from it."
+status = "normal"
+
+["TimberEmpires.Supply.OffDuty"]
+new = "Resting. The cart is at the yard."
+status = "normal"
+
+["TimberEmpires.Supply.CartFetching"]
+new = "Heading back to hitch up the cart."
+status = "normal"
+
+["TimberEmpires.Supply.Accepts"]
+new = "Supplies to take in"
+status = "normal"
+
+["TimberEmpires.Supply.Accepted"]
+new = "Carts take {0}. Click to refuse."
+status = "normal"
+
+["TimberEmpires.Supply.Refused"]
+new = "Carts don't take {0}. Click to accept."
+status = "normal"
+
+["Building.TimberEmpires.SiegeLadder.DisplayName"]
+new = "Field Ladder"
+status = "normal"
+
+["Building.TimberEmpires.SiegeLadder.Description"]
+new = "Lets your warriors and carters climb a one-level step. Only warriors can build it."
+status = "normal"
+
+["Building.TimberEmpires.SiegeLadder.FlavorDescription"]
+new = "\"Who needs stairs anyway?\" —Pina"
+status = "normal"
+
+["Building.TimberEmpires.BanditLadder.DisplayName"]
+new = "Bandit Ladder"
+status = "normal"
+
+["Building.TimberEmpires.BanditLadder.Description"]
+new = "Put up by raiding bandits to get over a cliff. They take it down when they leave."
+status = "normal"
+
+["Building.TimberEmpires.BanditLadder.FlavorDescription"]
+new = "Stairs are for beavers with nowhere to be."
+status = "normal"
+
+["TimberEmpires.Dam.Pressure"]
+new = "Water pressure: {0}% of its limit"
+status = "normal"
+
+["TimberEmpires.Dam.Damage"]
+new = "Damage: {0}%. It gives way at 100%."
+status = "normal"
+
+["TimberEmpires.Settings.BuiltExpansion"]
+new = "Costly expansion"
+status = "normal"
+
+["TimberEmpires.Settings.BuiltExpansion.Tooltip"]
+new = "Builders lay roads at no material cost, and build every District Center after the first, for materials and science."
+status = "normal"
+
+["TimberEmpires.Settings.DamPressure"]
+new = "Dam pressure"
+status = "normal"
+
+["TimberEmpires.Settings.DamPressure.Tooltip"]
+new = "Water pushes on dams, levees and floodgates. Thin, tall or unbraced ones, or ones hit by strong currents, take damage and can give way."
+status = "normal"
+
+["TimberEmpires.Settings.BanditCamps"]
+new = "Bandit camps"
+status = "normal"
+
+["TimberEmpires.Settings.BanditCamps.Tooltip"]
+new = "On a map without bandit camps, camps are placed away from player starts and out of the water, clearing trees from their spots. The further from a start, the stronger the camp and the richer its loot."
+status = "normal"
+
+["TimberEmpires.Settings.BanditRaids"]
+new = "Bandit raids"
+status = "normal"
+
+["TimberEmpires.Settings.BanditRaids.Tooltip"]
+new = "From the cycle picked below, bandit camps raid players now and then, more often as the game goes on. Raiders put up ladders over cliffs and take them down when they leave. Camps left alone gain a bandit every cycle."
+status = "normal"
+
+["TimberEmpires.Settings.FirstRaid"]
+new = "First raid"
+status = "normal"
+
+["TimberEmpires.Settings.FirstRaid.Tooltip"]
+new = "The cycle bandit raids can start in."
+status = "normal"
+
+["TimberEmpires.Settings.FirstRaid.3"]
+new = "Cycle 3"
+status = "normal"
+
+["TimberEmpires.Settings.FirstRaid.5"]
+new = "Cycle 5"
+status = "normal"
+
+["TimberEmpires.Settings.FirstRaid.7"]
+new = "Cycle 7"
+status = "normal"
+
+["TimberEmpires.Settings.FirstRaid.10"]
+new = "Cycle 10"
+status = "normal"
+
+["TimberEmpires.Settings.FirstRaid.15"]
+new = "Cycle 15"
+status = "normal"
+
+["Building.TimberEmpires.MineLauncher.DisplayName"]
+new = "Mine Slipway"
+status = "normal"
+
+["Building.TimberEmpires.MineLauncher.Description"]
+new = "Releases floating mines that drift with the current and explode against the first building they hit."
+status = "normal"
+
+["Building.TimberEmpires.MineLauncher.FlavorDescription"]
+new = "Rivers have always carried gifts downstream. Not always nice ones."
+status = "normal"
+
+["Building.TimberEmpires.MineWorkshop.DisplayName"]
+new = "Mine Workshop"
+status = "normal"
+
+["Building.TimberEmpires.MineWorkshop.Description"]
+new = "Makes water mines from explosives and metal blocks."
+status = "normal"
+
+["Building.TimberEmpires.MineWorkshop.FlavorDescription"]
+new = "Workers here are paid extra and asked to sneeze outside."
+status = "normal"
+
+["Good.WaterMine.DisplayName"]
+new = "Water mine"
+status = "normal"
+
+["Good.WaterMine.PluralDisplayName"]
+new = "Water mines"
+status = "normal"
+
+["Building.TimberEmpires.MooredMine.DisplayName"]
+new = "Moored Mine"
+status = "normal"
+
+["Building.TimberEmpires.MooredMine.Description"]
+new = "A mine anchored in the water. Goes off when a boat or a drifting mine comes close."
+status = "normal"
+
+["Building.TimberEmpires.MooredMine.FlavorDescription"]
+new = "Out of sight, out of mind, out of boat."
+status = "normal"
+
+["Building.TimberEmpires.MineNet.DisplayName"]
+new = "Mine Net"
+status = "normal"
+
+["Building.TimberEmpires.MineNet.Description"]
+new = "Floats in the river and catches drifting mines. Lay several end to end to make a barrier."
+status = "normal"
+
+["Building.TimberEmpires.MineNet.FlavorDescription"]
+new = "The catch of the day, handled very gently."
+status = "normal"
+
+["Building.TimberEmpires.MineNetWinch.DisplayName"]
+new = "Net Winch"
+status = "normal"
+
+["Building.TimberEmpires.MineNetWinch.Description"]
+new = "Its worker rows out to the linked nets and brings back caught mines for reuse."
+status = "normal"
+
+["Building.TimberEmpires.MineNetWinch.FlavorDescription"]
+new = "Waste not, explode later."
+status = "normal"
+
+["Building.TimberEmpires.BoatDock.DisplayName"]
+new = "Fireship Dock"
+status = "normal"
+
+["Building.TimberEmpires.BoatDock.Description"]
+new = "Launches boats packed with explosives that sail up the river and blow up against the first building or mine they hit."
+status = "normal"
+
+["Building.TimberEmpires.BoatDock.FlavorDescription"]
+new = "\"Technically, it's still a boat.\" —Suli"
+status = "normal"
+
+["TimberEmpires.Mines.NeedsWater"]
+new = "Needs water at least 0.2 m deep behind it."
+status = "normal"
+
+["TimberEmpires.Mines.NeedsOpenWater"]
+new = "Needs open water."
+status = "normal"
+
+["TimberEmpires.Mines.MooredWaiting"]
+new = "Waiting for a mine slipway's boat."
+status = "normal"
+
+["TimberEmpires.Mines.MooredArmed"]
+new = "Armed."
+status = "normal"
+
+["TimberEmpires.Mines.Release"]
+new = "Release mine"
+status = "normal"
+
+["TimberEmpires.Mines.NoWorker"]
+new = "Needs a worker."
+status = "normal"
+
+["TimberEmpires.Mines.NetHolds"]
+new = "Caught mines: {0}/{1}."
+status = "normal"
+
+["TimberEmpires.Mines.WinchWaiting"]
+new = "Mines waiting in {1} linked nets: {0}."
+status = "normal"
+
+["TimberEmpires.Mines.LaunchBoat"]
+new = "Launch boat"
+status = "normal"
+
+["TimberEmpires.Field.Owner"]
+new = "Belongs to {0}"
+status = "normal"
+
+["TimberEmpires.Field.Boat"]
+new = "Fireship"
+status = "normal"
+
+["TimberEmpires.Field.MineDrifting"]
+new = "Drifting with the current. It blows up on the first building, boat or mine it runs into."
+status = "normal"
+
+["TimberEmpires.Field.BoatUpstream"]
+new = "Sailing upstream on its own. It blows up on the first building or mine it reaches."
+status = "normal"
+
+["TimberEmpires.Field.BoatDownstream"]
+new = "Sailing downstream on its own. It blows up on the first building or mine it reaches."
+status = "normal"
+
+["TimberEmpires.Field.ParkedCart"]
+new = "Supply cart"
+status = "normal"
+
+["TimberEmpires.Field.CartLeft"]
+new = "Parked. Troops nearby can eat from it and build with it."
+status = "normal"
+
+["TimberEmpires.Field.CartClaimed"]
+new = "Parked. Its carter is coming back for it."
+status = "normal"
+
+["TimberEmpires.Field.Arming"]
+new = "Arming."
+status = "normal"
+
+["TimberEmpires.Field.MineFlavor"]
+new = "Wherever the river goes, trouble follows."
+status = "normal"
+
+["TimberEmpires.Crew.Status"]
+new = "Crew: {0}/{1}"
+status = "normal"
+
+["TimberEmpires.Crew.NeedsCrew"]
+new = "Needs {0} warriors aboard. Select warriors and click the machine to send them in."
+status = "normal"
+
+["TimberEmpires.Crew.UnloadShort"]
+new = "Unload"
+status = "normal"
+
+["Building.TimberEmpires.Catapult.DisplayName"]
+new = "Catapult"
+status = "normal"
+
+["Building.TimberEmpires.Catapult.Description"]
+new = "Hurls stones at a chosen target, hurting enemies and battering walls and siege engines. Its crew moves and aims it."
+status = "normal"
+
+["Building.TimberEmpires.Catapult.FlavorDescription"]
+new = "\"Took them long enough.\" —Ma' Ngonel"
+status = "normal"
+
+["Building.TimberEmpires.Ballista.DisplayName"]
+new = "Ballista"
+status = "normal"
+
+["Building.TimberEmpires.Ballista.Description"]
+new = "Shoots heavy bolts flat and far: deadly to enemies, weak against walls. Its crew moves and aims it."
+status = "normal"
+
+["Building.TimberEmpires.Ballista.FlavorDescription"]
+new = "One bolt, one problem solved."
+status = "normal"
+
+["Building.TimberEmpires.Flamethrower.DisplayName"]
+new = "Flamethrower"
+status = "normal"
+
+["Building.TimberEmpires.Flamethrower.Description"]
+new = "Burns the horde in a cone in front of it, using up extract as it fires. Short range, deadly to zombies. Its crew moves and aims it, on the ground or on a tower."
+status = "normal"
+
+["Building.TimberEmpires.Flamethrower.FlavorDescription"]
+new = "Extract in, ashes out."
+status = "normal"
+
+["Building.TimberEmpires.FieldInfirmary.DisplayName"]
+new = "Field Infirmary"
+status = "normal"
+
+["Building.TimberEmpires.FieldInfirmary.Description"]
+new = "A healing tub on wheels for after a battle. Once no enemy is in sight, wounded troops take turns lying in it and heal fast while its doses last. A dose is 1 extract and 2 berries. Its crew only moves it."
+status = "normal"
+
+["Building.TimberEmpires.FieldInfirmary.FlavorDescription"]
+new = "The tub's warm. Don't ask what's in it."
+status = "normal"
+
+["TimberEmpires.Supply.KitEmpty"]
+new = "The kit is empty. It's filled from the district's stores."
+status = "normal"
+
+["TimberEmpires.Supply.KitHolds"]
+new = "The kit holds {0} goods:"
+status = "normal"
+
+["Building.TimberEmpires.LogHoarding.DisplayName"]
+new = "Log Hoarding"
+status = "normal"
+
+["Building.TimberEmpires.LogHoarding.Description"]
+new = "A gallery on the wall where warriors roll logs down at enemies, knocking over everyone in their path."
+status = "normal"
+
+["Building.TimberEmpires.LogHoarding.FlavorDescription"]
+new = "\"Timber!\" is shouted out of courtesy, usually too late."
+status = "normal"
+
+["Building.TimberEmpires.OilHoarding.DisplayName"]
+new = "Oil Hoarding"
+status = "normal"
+
+["Building.TimberEmpires.OilHoarding.Description"]
+new = "A gallery on the wall where warriors pour boiling canola oil on enemies below."
+status = "normal"
+
+["Building.TimberEmpires.OilHoarding.FlavorDescription"]
+new = "Hot off the press."
+status = "normal"
+
+["TimberEmpires.Hoarding.NeedsCrew"]
+new = "Needs a warrior aboard to work."
+status = "normal"
+
+["TimberEmpires.Hoarding.Reloading"]
+new = "Getting the next one ready."
+status = "normal"
+
+["TimberEmpires.Hoarding.Roll"]
+new = "Roll logs"
+status = "normal"
+
+["TimberEmpires.Hoarding.Pour"]
+new = "Pour oil"
+status = "normal"
+
+["TimberEmpires.Hoarding.Recharging"]
+new = "Ready in {0}s"
+status = "normal"
+
+["Building.TimberEmpires.SiegeRamp.DisplayName"]
+new = "Field Ramp"
+status = "normal"
+
+["Building.TimberEmpires.SiegeRamp.Description"]
+new = "A long timber ramp up a one-level step for warriors, carters and siege machines. Only warriors can build it."
+status = "normal"
+
+["Building.TimberEmpires.SiegeRamp.FlavorDescription"]
+new = "Ladders are for beavers. Battering rams need something gentler."
+status = "normal"
+
+["TimberEmpires.Fog.PlacementBlocked"]
+new = "Your planned {0} can't be built. An enemy building stands there."
+status = "normal"
+
+["Building.TimberEmpires.ArcheryRange.DisplayName"]
+new = "Archery Range"
+status = "normal"
+
+["Building.TimberEmpires.ArcheryRange.Description"]
+new = "Trains its workers to shoot from a distance: archers, or the faction's own kind."
+status = "normal"
+
+["Building.TimberEmpires.ArcheryRange.FlavorDescription"]
+new = "A beaver with a bow is still a beaver. A beaver with a bow and a grudge is an archer."
+status = "normal"
+
+["TimberEmpires.Troops.Selected"]
+new = "Warriors: {0}"
+status = "normal"
+
+["TimberEmpires.Troops.SelectedArchers"]
+new = "Archers: {0}"
+status = "normal"
+
+["TimberEmpires.Troops.SelectedBoth"]
+new = "Warriors: {0}, archers: {1}"
+status = "normal"
+
+["TimberEmpires.Troops.Stance.Aggressive"]
+new = "Aggressive"
+status = "normal"
+
+["TimberEmpires.Troops.Stance.Defensive"]
+new = "Defensive"
+status = "normal"
+
+["TimberEmpires.Troops.Stance.Hold"]
+new = "Hold position"
+status = "normal"
+
+["TimberEmpires.Troops.Formation.Block"]
+new = "Block formation"
+status = "normal"
+
+["TimberEmpires.Troops.Formation.Line"]
+new = "Line formation"
+status = "normal"
+
+["TimberEmpires.Troops.Formation.Column"]
+new = "Column formation"
+status = "normal"
+
+["TimberEmpires.Troops.Formation.Wedge"]
+new = "Wedge formation"
+status = "normal"
+
+["TimberEmpires.Troops.Formation.Loose"]
+new = "Loose formation"
+status = "normal"
+
+["TimberEmpires.Troops.Home"]
+new = "Go home"
+status = "normal"
+
+["TimberEmpires.Troops.Patrol"]
+new = "Patrol to the next spot you click (or Alt-click)"
+status = "normal"
+
+["TimberEmpires.Troops.Stop"]
+new = "Stop"
+status = "normal"
+
+["TimberEmpires.Troops.CombatBar"]
+new = "Army bar: commands for your troops and the list of all of them"
+status = "normal"
+
+["TimberEmpires.Troops.BackToBuilding"]
+new = "Back to building"
+status = "normal"
+
+["TimberEmpires.TroopList.Open"]
+new = "All your troops"
+status = "normal"
+
+["TimberEmpires.TroopList.Title"]
+new = "Your troops: {0}"
+status = "normal"
+
+["TimberEmpires.TroopList.Empty"]
+new = "No troops yet. Barracks train them."
+status = "normal"
+
+["TimberEmpires.TroopList.Status.Training"]
+new = "In training"
+status = "normal"
+
+["TimberEmpires.TroopList.Status.Aboard"]
+new = "Aboard a machine"
+status = "normal"
+
+["TimberEmpires.TroopList.Status.Fighting"]
+new = "Fighting"
+status = "normal"
+
+["TimberEmpires.TroopList.Status.Home"]
+new = "At home"
+status = "normal"
+
+["TimberEmpires.TroopList.Status.Patrolling"]
+new = "On patrol"
+status = "normal"
+
+["TimberEmpires.TroopList.Status.Guarding"]
+new = "On guard"
+status = "normal"
+
+["TimberEmpires.TroopList.Status.Marching"]
+new = "Marching"
+status = "normal"
+
+["TimberEmpires.TroopList.Status.Holding"]
+new = "Holding a position"
+status = "normal"
+
+["TimberEmpires.TroopList.Machine.OnTower"]
+new = "On a tower"
+status = "normal"
+
+["TimberEmpires.TroopList.Machine.Rolling"]
+new = "Rolling"
+status = "normal"
+
+["TimberEmpires.TroopList.Machine.Firing"]
+new = "Firing"
+status = "normal"
+
+["TimberEmpires.TroopList.Machine.Ready"]
+new = "Ready"
+status = "normal"
+
+["TimberEmpires.Troops.Raid"]
+new = "Raid: click an enemy building to carry off its goods"
+status = "normal"
+
+["TimberEmpires.Troops.RaidNothing"]
+new = "Pick an enemy building with goods in it."
+status = "normal"
+
+["TimberEmpires.Rally.Title"]
+new = "Rally point"
+status = "normal"
+
+["TimberEmpires.Rally.Set"]
+new = "Set rally point"
+status = "normal"
+
+["TimberEmpires.Rally.Clear"]
+new = "Clear rally point"
+status = "normal"
+
+["TimberEmpires.Gate.AutoOpen"]
+new = "Auto open"
+status = "normal"
+
+["TimberEmpires.Gate.AutoOpen.Tooltip"]
+new = "Auto open: lets your side through, shuts when enemies or bandits come near"
+status = "normal"
+
+["TimberEmpires.Gate.ForceOpen"]
+new = "Force open"
+status = "normal"
+
+["TimberEmpires.Gate.ForceOpen.Tooltip"]
+new = "Force open: lets everyone through, enemies included"
+status = "normal"
+
+["TimberEmpires.UnderAttack.Status"]
+new = "Under attack"
+status = "normal"
+
+["TimberEmpires.UnderAttack.Alert"]
+new = "Under attack"
+status = "normal"
+
+["TimberEmpires.UnderAttack.Notification"]
+new = "{0} is under attack"
+status = "normal"
+
+["TimberEmpires.Fog.PlacementLost"]
+new = "Your {0} site is gone. Another player got there first."
+status = "normal"
+
+["TimberEmpires.Settings.Victory"]
+new = "Victory"
+status = "normal"
+
+["TimberEmpires.Settings.Victory.Tooltip"]
+new = "How a game is won. Once someone wins, everyone can keep playing."
+status = "normal"
+
+["TimberEmpires.Settings.Victory.Beavers"]
+new = "Kill all the beavers"
+status = "normal"
+
+["TimberEmpires.Settings.Victory.DistrictCenters"]
+new = "Destroy the District Centers"
+status = "normal"
+
+["TimberEmpires.Settings.Victory.Wonder"]
+new = "Build the wonder first"
+status = "normal"
+
+["TimberEmpires.Settings.AIOpponents"]
+new = "AI opponents"
+status = "normal"
+
+["TimberEmpires.Settings.AIOpponent"]
+new = "Opponent {0}"
+status = "normal"
+
+["TimberEmpires.Settings.AIOpponent.Tooltip"]
+new = "Players run by the game, each at the difficulty picked for it. They have the same fog of war as you and build with what they gather."
+status = "normal"
+
+["TimberEmpires.Settings.AIOpponents.Note"]
+new = "AI opponents are still in beta: they can slow the game down, more so with several of them."
+status = "normal"
+
+["TimberEmpires.Settings.AIOpponent.easy"]
+new = "Easy"
+status = "normal"
+
+["TimberEmpires.Settings.AIOpponent.normal"]
+new = "Normal"
+status = "normal"
+
+["TimberEmpires.Settings.AIOpponent.hard"]
+new = "Hard"
+status = "normal"
+
+["TimberEmpires.Victory.Victory"]
+new = "Victory"
+status = "normal"
+
+["TimberEmpires.Victory.Defeat"]
+new = "Defeat"
+status = "normal"
+
+["TimberEmpires.Victory.GameOver"]
+new = "Game over"
+status = "normal"
+
+["TimberEmpires.Victory.Won.Beavers"]
+new = "Not a single enemy beaver is left. The valley is yours."
+status = "normal"
+
+["TimberEmpires.Victory.Won.DistrictCenters"]
+new = "Every enemy District Center has fallen. The valley is yours."
+status = "normal"
+
+["TimberEmpires.Victory.Won.Wonder"]
+new = "Your wonder was the first to rise. The valley is yours."
+status = "normal"
+
+["TimberEmpires.Victory.Lost.Beavers"]
+new = "{0} wins. None of your beavers are left."
+status = "normal"
+
+["TimberEmpires.Victory.Lost.DistrictCenters"]
+new = "{0} wins. Your last District Center has fallen."
+status = "normal"
+
+["TimberEmpires.Victory.Lost.Wonder"]
+new = "{0} wins. Their wonder rose first."
+status = "normal"
+
+["TimberEmpires.Victory.Out.Beavers"]
+new = "None of your beavers are left. The others fight on without you."
+status = "normal"
+
+["TimberEmpires.Victory.Out.DistrictCenters"]
+new = "Your last District Center has fallen. The others fight on without you."
+status = "normal"
+
+["TimberEmpires.Troops.OnlyWarriors"]
+new = "Only warriors"
+status = "normal"
+
+["TimberEmpires.Troops.OnlyArchers"]
+new = "Only archers"
+status = "normal"
+
+["TimberEmpires.Troops.NoWall"]
+new = "No wall of yours nearby."
+status = "normal"
+
+["TimberEmpires.Troops.SelectedCarters"]
+new = "Carters: {0}"
+status = "normal"
+
+["TimberEmpires.Troops.Carters"]
+new = "Carters"
+status = "normal"
+
+["TimberEmpires.Troops.Army"]
+new = "Show the army by kind"
+status = "normal"
+
+["TimberEmpires.Health"]
+new = "Health"
+status = "normal"
+
+["TimberEmpires.Veterancy.Recruit"]
+new = "Recruit"
+status = "normal"
+
+["TimberEmpires.Veterancy.Veteran"]
+new = "Veteran"
+status = "normal"
+
+["TimberEmpires.Veterancy.Elite"]
+new = "Elite"
+status = "normal"
+
+["TimberEmpires.Veterancy.Hero"]
+new = "Hero"
+status = "normal"
+
+["TimberEmpires.Troops.One.Warrior"]
+new = "Warrior"
+status = "normal"
+
+["TimberEmpires.Troops.One.Archer"]
+new = "Archer"
+status = "normal"
+
+["TimberEmpires.Troops.One.Spearman"]
+new = "Spearman"
+status = "normal"
+
+["TimberEmpires.Troops.One.Herbalist"]
+new = "Herbalist"
+status = "normal"
+
+["TimberEmpires.Troops.One.Sapper"]
+new = "Sapper"
+status = "normal"
+
+["TimberEmpires.Troops.One.Carter"]
+new = "Carter"
+status = "normal"
+
+["TimberEmpires.Troops.InTraining"]
+new = "Recruit in training: {0}%"
+status = "normal"
+
+["TimberEmpires.KeyBindings.TroopsGroup"]
+new = "Timber Empires troops"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.SelectArmy"]
+new = "Select all troops"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.Aggressive"]
+new = "Aggressive stance"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.Defensive"]
+new = "Defensive stance"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.Hold"]
+new = "Hold position"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.ManWall"]
+new = "Man the nearest wall"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.Home"]
+new = "Send home"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.Stop"]
+new = "Stop"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.SetGroup1"]
+new = "Set control group 1"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.SetGroup2"]
+new = "Set control group 2"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.SetGroup3"]
+new = "Set control group 3"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.SetGroup4"]
+new = "Set control group 4"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.SetGroup5"]
+new = "Set control group 5"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.SetGroup6"]
+new = "Set control group 6"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.SetGroup7"]
+new = "Set control group 7"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.SetGroup8"]
+new = "Set control group 8"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.SetGroup9"]
+new = "Set control group 9"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.Group1"]
+new = "Select control group 1"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.Group2"]
+new = "Select control group 2"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.Group3"]
+new = "Select control group 3"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.Group4"]
+new = "Select control group 4"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.Group5"]
+new = "Select control group 5"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.Group6"]
+new = "Select control group 6"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.Group7"]
+new = "Select control group 7"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.Group8"]
+new = "Select control group 8"
+status = "normal"
+
+["TimberEmpires.KeyBindings.Troops.Group9"]
+new = "Select control group 9"
+status = "normal"
+
+["TimberEmpires.Troops.Kind.Warrior"]
+new = "Warriors"
+status = "normal"
+
+["TimberEmpires.Troops.Kind.Archer"]
+new = "Archers"
+status = "normal"
+
+["TimberEmpires.Troops.Kind.Spearman"]
+new = "Spearmen"
+status = "normal"
+
+["TimberEmpires.Troops.Kind.Herbalist"]
+new = "Herbalists"
+status = "normal"
+
+["TimberEmpires.Troops.Kind.Sapper"]
+new = "Sappers"
+status = "normal"
+
+["TimberEmpires.Troops.Count.Warrior"]
+new = "Warriors: {0}"
+status = "normal"
+
+["TimberEmpires.Troops.Count.Archer"]
+new = "Archers: {0}"
+status = "normal"
+
+["TimberEmpires.Troops.Count.Spearman"]
+new = "Spearmen: {0}"
+status = "normal"
+
+["TimberEmpires.Troops.Count.Herbalist"]
+new = "Herbalists: {0}"
+status = "normal"
+
+["TimberEmpires.Troops.Count.Sapper"]
+new = "Sappers: {0}"
+status = "normal"
+
+["TimberEmpires.Troops.Only"]
+new = "Keep only: {0}"
+status = "normal"
+
+["TimberEmpires.Troops.Trains"]
+new = "Trains"
+status = "normal"
+
+["TimberEmpires.Troops.TrainsHint"]
+new = "Changing it lets its troops go. New recruits walk here and train as the new kind."
+status = "normal"
+
+["TimberEmpires.Troops.Training"]
+new = "In training: {0}. Next one ready in {1} h."
+status = "normal"
+
+["TimberEmpires.Troops.AllTrained"]
+new = "All troops trained."
+status = "normal"
+
+["Good.Sword.DisplayName"]
+new = "Sword"
+status = "normal"
+
+["Good.Sword.PluralDisplayName"]
+new = "Swords"
+status = "normal"
+
+["Good.Spear.DisplayName"]
+new = "Spear"
+status = "normal"
+
+["Good.Spear.PluralDisplayName"]
+new = "Spears"
+status = "normal"
+
+["Good.Bow.DisplayName"]
+new = "Bow"
+status = "normal"
+
+["Good.Bow.PluralDisplayName"]
+new = "Bows"
+status = "normal"
+
+["Good.HerbalKit.DisplayName"]
+new = "Herbal Kit"
+status = "normal"
+
+["Good.HerbalKit.PluralDisplayName"]
+new = "Herbal Kits"
+status = "normal"
+
+["Good.Pumpkin.DisplayName"]
+new = "Pumpkin"
+status = "normal"
+
+["Good.Pumpkin.PluralDisplayName"]
+new = "Pumpkins"
+status = "normal"
+
+["NaturalResource.Pumpkin.DisplayName"]
+new = "Pumpkin"
+status = "normal"
+
+["NaturalResource.Pumpkin.FlavorDescription"]
+new = "Carved, it lights up the night. Eaten raw, it cures the badwater sickness from an undead raccoon's bite."
+status = "normal"
+
+["Good.BlastingCharge.DisplayName"]
+new = "Blasting Charge"
+status = "normal"
+
+["Good.BlastingCharge.PluralDisplayName"]
+new = "Blasting Charges"
+status = "normal"
+
+["Building.TimberEmpires.Forge.DisplayName"]
+new = "Weaponsmith"
+status = "normal"
+
+["Building.TimberEmpires.Forge.Description"]
+new = "Makes spears, bows, shields and ballista bolts, plus swords for the Iron Teeth and slings for the Folktails."
+status = "normal"
+
+["Building.TimberEmpires.Forge.FlavorDescription"]
+new = "Every beaver can chew. Only a few can temper steel."
+status = "normal"
+
+["TimberEmpires.Troops.NeedWeapons"]
+new = "{0} waiting for {1}."
+status = "normal"
+
+["TimberEmpires.Troops.NeedScience"]
+new = "{0} waiting for {1} science each."
+status = "normal"
+
+["Good.Arquebus.DisplayName"]
+new = "Arquebus"
+status = "normal"
+
+["Good.Arquebus.PluralDisplayName"]
+new = "Arquebuses"
+status = "normal"
+
+["Good.Sling.DisplayName"]
+new = "Sling"
+status = "normal"
+
+["Good.Sling.PluralDisplayName"]
+new = "Slings"
+status = "normal"
+
+["Good.BattleAxe.DisplayName"]
+new = "Battle axe"
+status = "normal"
+
+["Good.BattleAxe.PluralDisplayName"]
+new = "Battle axes"
+status = "normal"
+
+["TimberEmpires.Troops.One.Arquebusier"]
+new = "Arquebusier"
+status = "normal"
+
+["TimberEmpires.Troops.Kind.Arquebusier"]
+new = "Arquebusiers"
+status = "normal"
+
+["TimberEmpires.Troops.Count.Arquebusier"]
+new = "Arquebusiers: {0}"
+status = "normal"
+
+["TimberEmpires.Troops.One.Slinger"]
+new = "Slinger"
+status = "normal"
+
+["TimberEmpires.Troops.Kind.Slinger"]
+new = "Slingers"
+status = "normal"
+
+["TimberEmpires.Troops.Count.Slinger"]
+new = "Slingers: {0}"
+status = "normal"
+
+["TimberEmpires.Troops.One.Berserker"]
+new = "Berserker"
+status = "normal"
+
+["TimberEmpires.Troops.Kind.Berserker"]
+new = "Berserkers"
+status = "normal"
+
+["TimberEmpires.Troops.Kind.Bandit"]
+new = "Bandits"
+status = "normal"
+
+["TimberEmpires.Troops.Count.Berserker"]
+new = "Berserkers: {0}"
+status = "normal"
+
+["TimberEmpires.Troops.Unlock"]
+new = "Unlock {0}"
+status = "normal"
+
+["Tip.TimberEmpires.Supply"]
+new = "Troops eat and drink from their packs. Keep a supply cart near the front so they don't have to walk home."
+status = "normal"
+
+["Tip.TimberEmpires.ManWalls"]
+new = "Select troops and click one of your walls. They line up along it there and hold it."
+status = "normal"
+
+["Tip.TimberEmpires.Crew"]
+new = "Siege machines and towers only work with troops aboard. Select warriors and click the machine to send them in."
+status = "normal"
+
+["Tip.TimberEmpires.Waypoints"]
+new = "Shift-click to queue waypoints for your troops, Alt-click to have them patrol between them."
+status = "normal"
+
+["Tip.TimberEmpires.AttackMove"]
+new = "Ctrl-click the ground to attack-move. Your troops fight whatever they meet on the way."
+status = "normal"
+
+["Tip.TimberEmpires.EnemyLine"]
+new = "Moving troops ignore enemies, but they can't walk through an enemy line. They stop and fight their way past."
+status = "normal"
+
+["Tip.TimberEmpires.Healing"]
+new = "Folktails herbalists heal troops mid-fight. Iron Teeth troops heal fast in a field infirmary once the fighting stops."
+status = "normal"
+
+["Tip.TimberEmpires.Unlocks"]
+new = "Unlock new kinds of troops with science, right from the barracks' panel."
+status = "normal"
+
+["Tip.TimberEmpires.Mines"]
+new = "Mines drift with the current and blow up whatever they hit. A net across the river catches them."
+status = "normal"
+
+["Tip.TimberEmpires.Repairs"]
+new = "Between jobs, builders repair damaged walls and buildings that are no longer under attack."
+status = "normal"
+
+["Building.TimberEmpires.IronWall.DisplayName"]
+new = "Wall"
+status = "normal"
+
+["Building.TimberEmpires.IronWall.Description"]
+new = "A solid wall of iron-banded planks that blocks the way for everyone."
+status = "normal"
+
+["Building.TimberEmpires.IronWall.FlavorDescription"]
+new = "Fences are for neighbours. Walls are for everyone else."
+status = "normal"
+
+["Building.TimberEmpires.StonePress.DisplayName"]
+new = "Stone Press"
+status = "normal"
+
+["Building.TimberEmpires.StonePress.Description"]
+new = "Presses scrap metal and logs into siege stones for catapults and trebuchets."
+status = "normal"
+
+["Building.TimberEmpires.StonePress.FlavorDescription"]
+new = "Mind the ram."
+status = "normal"
+
+["Good.SiegeStone.DisplayName"]
+new = "Siege stone"
+status = "normal"
+
+["Good.SiegeStone.PluralDisplayName"]
+new = "Siege stones"
+status = "normal"
+
+["TimberEmpires.Ammo.Out"]
+new = "Out of {0}"
+status = "normal"
+
+["TimberEmpires.Ammo.OutOwn"]
+new = ""
+status = "normal"
+
+["TimberEmpires.Lang.LowercaseGoods"]
+new = "true"
+status = "normal"
+
+["TimberEmpires.Ammo.Refill"]
+new = "Its crew fetches more from a store or supply cart within {0} tiles. Haulers also bring it when it's within {1} tiles of your roads."
+status = "normal"
+
+["TimberEmpires.Crew.Fetching"]
+new = "Fetching {1} ({0} of the crew)"
+status = "normal"
+
+["TimberEmpires.Troops.NoHaulers"]
+new = "Recruits are waiting for weapons in storage, but no hauler is free to bring them."
+status = "normal"
+
+["TimberEmpires.Troops.NoHaulers.Short"]
+new = "No haulers for weapons"
+status = "normal"
+
+["TimberEmpires.Troops.NoWeapons"]
+new = "Recruits are waiting for weapons, but the district has none. Make some at a smithy."
+status = "normal"
+
+["TimberEmpires.Troops.NoWeapons.Short"]
+new = "No weapons"
+status = "normal"
+
+["Good.Shield.DisplayName"]
+new = "Shield"
+status = "normal"
+
+["Good.Shield.PluralDisplayName"]
+new = "Shields"
+status = "normal"
+
+["Building.TimberEmpires.Armory.DisplayName"]
+new = "Bladesmith"
+status = "normal"
+
+["Building.TimberEmpires.Armory.Description"]
+new = "Makes swords for warriors and battle axes for berserkers."
+status = "normal"
+
+["Building.TimberEmpires.Armory.FlavorDescription"]
+new = "Sharpen twice, swing once."
+status = "normal"
+
+["Building.TimberEmpires.Gunsmith.DisplayName"]
+new = "Gunsmith"
+status = "normal"
+
+["Building.TimberEmpires.Gunsmith.Description"]
+new = "Makes arquebuses and blasting charges."
+status = "normal"
+
+["Building.TimberEmpires.Gunsmith.FlavorDescription"]
+new = "Measure the powder twice. Then step back."
+status = "normal"
+
+["Building.TimberEmpires.TroopsCounter.DisplayName"]
+new = "Troops Counter"
+status = "normal"
+
+["Building.TimberEmpires.TroopsCounter.Description"]
+new = "Counts your troops that are ready, in training, deployed, fighting or wounded. In district mode, it counts the troops of the district's barracks and ranges, wherever they are."
+status = "normal"
+
+["TimberEmpires.TroopsCounter.AllKinds"]
+new = "All troops"
+status = "normal"
+
+["TimberEmpires.TroopsCounter.Mode.Total"]
+new = "Total troops"
+status = "normal"
+
+["TimberEmpires.TroopsCounter.Mode.Ready"]
+new = "Ready"
+status = "normal"
+
+["TimberEmpires.TroopsCounter.Mode.InTraining"]
+new = "In training"
+status = "normal"
+
+["TimberEmpires.TroopsCounter.Mode.AtHome"]
+new = "At home"
+status = "normal"
+
+["TimberEmpires.TroopsCounter.Mode.Deployed"]
+new = "Deployed"
+status = "normal"
+
+["TimberEmpires.TroopsCounter.Mode.Fighting"]
+new = "Fighting"
+status = "normal"
+
+["TimberEmpires.TroopsCounter.Mode.Wounded"]
+new = "Wounded"
+status = "normal"
+
+["Building.TimberEmpires.TripWire.DisplayName"]
+new = "Trip Wire"
+status = "normal"
+
+["Building.TimberEmpires.TripWire.Description"]
+new = "Build two and join them with a wire. Sends a pulse when someone crosses it: enemies, allies, only yours, or anybody. Both ends send it."
+status = "normal"
+
+["Building.TimberEmpires.TripWire.FlavorDescription"]
+new = "Nobody sees it. Everybody finds it."
+status = "normal"
+
+["TimberEmpires.TripWire.Mode.Enemies"]
+new = "Enemies"
+status = "normal"
+
+["TimberEmpires.TripWire.Mode.Allies"]
+new = "Allies and yours"
+status = "normal"
+
+["TimberEmpires.TripWire.Mode.Mine"]
+new = "Yours only"
+status = "normal"
+
+["TimberEmpires.TripWire.Mode.Anybody"]
+new = "Anybody"
+status = "normal"
+
+["Building.TimberEmpires.ResinIgniter.DisplayName"]
+new = "Resin Igniter"
+status = "normal"
+
+["Building.TimberEmpires.ResinIgniter.Description"]
+new = "Built on a resin puddle. Sets the puddle alight when its input turns on."
+status = "normal"
+
+["Building.TimberEmpires.ResinIgniter.FlavorDescription"]
+new = "Press once. Regret briefly."
+status = "normal"
+
+["TimberEmpires.Settings.Licenses"]
+new = "Licenses and credits"
+status = "normal"
+
+["TimberEmpires.Settings.Licenses.Tooltip"]
+new = "Opens the file with Timber Empires' license, the mods it builds on and its sound credits."
+status = "normal"
+
+["TimberEmpires.Settings.BattleMusic"]
+new = "Battle Music"
+status = "normal"
+
+["TimberEmpires.Settings.BattleMusic.Tooltip"]
+new = "Plays battle music while your troops or beavers are fighting, then goes back to the game's music."
+status = "normal"
+
+["TimberEmpires.Settings.FogQuality"]
+new = "Fog quality"
+status = "normal"
+
+["TimberEmpires.Settings.FogQuality.Tooltip"]
+new = "Darkening costs next to nothing. Static fog only draws the mist again when the camera moves or what you see changes. Moving fog draws it every frame."
+status = "normal"
+
+["TimberEmpires.Settings.FogQuality.Darkening"]
+new = "Darkening"
+status = "normal"
+
+["TimberEmpires.Settings.FogQuality.Static"]
+new = "Static fog"
+status = "normal"
+
+["TimberEmpires.Settings.FogQuality.Moving"]
+new = "Moving fog"
+status = "normal"
+
+["TimberEmpires.Settings.MuteWarHorns"]
+new = "Mute War Horns"
+status = "normal"
+
+["TimberEmpires.Settings.MuteWarHorns.Tooltip"]
+new = "Silences the horn that sounds when your things come under attack, and the one that ends a game."
+status = "normal"
+
+["TimberEmpires.NeedsCoOpPvPEdition"]
+new = "Timber Empires needs BeaverBuddies Co-Op/PvP Edition, but the original BeaverBuddies is running. Disable it and subscribe to the Co-Op/PvP Edition, or multiplayer games will go out of sync."
+status = "normal"
+
+["TimberEmpires.NeedsCoOpPvPEdition.Open"]
+new = "Open in the Workshop"
+status = "normal"
+
+["TimberEmpires.NeedsCoOpPvPEdition.Close"]
+new = "Close"
+status = "normal"
+
+["TimberEmpires.Founding.Prompt"]
+new = "Place your District Center anywhere to found your settlement. It's built at once, with beavers, food and water to start."
+status = "normal"
+
+["TimberEmpires.Players.You"]
+new = "{0} (you)"
+status = "normal"
+
+["TimberEmpires.Players.Placing"]
+new = "No District Center yet"
+status = "normal"
+
+["TimberEmpires.Players.NoDistrictCenter"]
+new = "No District Center"
+status = "normal"
+
+["TimberEmpires.Players.Online"]
+new = "In the game"
+status = "normal"
+
+["TimberEmpires.Players.Offline"]
+new = "Not in the game"
+status = "normal"
+
+["TimberEmpires.Players.Ready"]
+new = "District Center placed"
+status = "normal"
+
+["TimberEmpires.Players.Placed"]
+new = "{0} placed their District Center."
+status = "normal"
+
+["TimberEmpires.Players.AllPlaced"]
+new = "Everyone has placed their District Center."
+status = "normal"
+
+["TimberEmpires.Players.NotPlaced"]
+new = "Not everyone has placed their District Center yet: {0}."
+status = "normal"
+
+["Building.TimberEmpires.Monastery.DisplayName"]
+new = "Monastery"
+status = "normal"
+
+["Building.TimberEmpires.Monastery.Description"]
+new = "Trains monks. Instead of fighting, they convert enemy troops and siege machines to your side, then wait for their faith to return."
+status = "normal"
+
+["Building.TimberEmpires.Monastery.FlavorDescription"]
+new = "Wololo."
+status = "normal"
+
+["TimberEmpires.Troops.One.Monk"]
+new = "Monk"
+status = "normal"
+
+["TimberEmpires.Troops.Kind.Monk"]
+new = "Monks"
+status = "normal"
+
+["TimberEmpires.Troops.Count.Monk"]
+new = "Monks: {0}"
+status = "normal"
+
+["TimberEmpires.Monk.ConvertedTheirs"]
+new = "Your monk converted an enemy {0}."
+status = "normal"
+
+["TimberEmpires.Monk.ConvertedOurs"]
+new = "An enemy monk converted your {0}."
+status = "normal"
+
+["TimberEmpires.Monk.Carter"]
+new = "carter"
+status = "normal"
+
+["TimberEmpires.Monk.Faith"]
+new = "Faith: {0}%"
+status = "normal"
+
+["TimberEmpires.Alliances.Tab"]
+new = "Alliances"
+status = "normal"
+
+["TimberEmpires.Troops.Tab"]
+new = "Troops"
+status = "normal"
+
+["TimberEmpires.Alliances.Players"]
+new = "Players"
+status = "normal"
+
+["TimberEmpires.Alliances.NoPlayers"]
+new = "Alliances are between players in a multiplayer game."
+status = "normal"
+
+["TimberEmpires.Alliances.All"]
+new = "All alliances"
+status = "normal"
+
+["TimberEmpires.Alliances.None"]
+new = "No alliances yet."
+status = "normal"
+
+["TimberEmpires.Alliances.Pair"]
+new = "{0} and {1}"
+status = "normal"
+
+["TimberEmpires.Alliances.Allied"]
+new = "Allied"
+status = "normal"
+
+["TimberEmpires.Alliances.EndsIn"]
+new = "Alliance ends in {0} h"
+status = "normal"
+
+["TimberEmpires.Alliances.TheyPropose"]
+new = "Proposes an alliance"
+status = "normal"
+
+["TimberEmpires.Alliances.YouProposed"]
+new = "Waiting for an answer"
+status = "normal"
+
+["TimberEmpires.Alliances.Enemy"]
+new = "Not allied"
+status = "normal"
+
+["TimberEmpires.Alliances.Propose"]
+new = "Propose alliance"
+status = "normal"
+
+["TimberEmpires.Alliances.Accept"]
+new = "Accept"
+status = "normal"
+
+["TimberEmpires.Alliances.Decline"]
+new = "Decline"
+status = "normal"
+
+["TimberEmpires.Alliances.Withdraw"]
+new = "Withdraw"
+status = "normal"
+
+["TimberEmpires.Alliances.Break"]
+new = "Break alliance"
+status = "normal"
+
+["TimberEmpires.Alliances.Proposed"]
+new = "{0} proposes an alliance. Answer in the Alliances tab."
+status = "normal"
+
+["TimberEmpires.Alliances.Accepted"]
+new = "{0} accepted your alliance."
+status = "normal"
+
+["TimberEmpires.Alliances.Formed"]
+new = "You're now allied with {0}."
+status = "normal"
+
+["TimberEmpires.Alliances.Declined"]
+new = "{0} declined your alliance."
+status = "normal"
+
+["TimberEmpires.Alliances.Breaking"]
+new = "{0} broke your alliance. It ends in 12 hours."
+status = "normal"
+
+["TimberEmpires.Alliances.Ended"]
+new = "Your alliance with {0} has ended."
+status = "normal"
+
+["TimberEmpires.KeyBindings.AlliancesTab"]
+new = "Open Alliances tab"
+status = "normal"
+
+["TimberEmpires.KeyBindings.TroopsTab"]
+new = "Open Troops tab"
+status = "normal"
+
+["TimberEmpires.GameMode.PvE"]
+new = "PvE"
+status = "normal"
+
+["TimberEmpires.GameMode.PvP"]
+new = "PvP"
+status = "normal"
+
+["TimberEmpires.Alliances.PvE"]
+new = "In PvE every player is everyone's ally, against the bandits."
+status = "normal"
+
+["TimberEmpires.Alliances.CoOp"]
+new = "In Co-op everyone builds one settlement together: there are no sides."
+status = "normal"
+
+["TimberEmpires.Victory.Won.Bandits"]
+new = "Every bandit camp has been cleared. The valley is safe."
+status = "normal"
+
+["TimberEmpires.Victory.Lost.Bandits"]
+new = "{0} cleared every bandit camp. The valley is safe."
+status = "normal"
+
+["TimberEmpires.GameMode.PvE.Description"]
+new = "Every player is allied against the bandits. Clear every camp to win."
+status = "normal"
+
+["TimberEmpires.GameMode.PvP.Description"]
+new = "Everyone for themselves. Ally, besiege, and win by the Victory setting."
+status = "normal"
+
+["TimberEmpires.GameSettings"]
+new = "Timber Empires"
+status = "normal"
+
+["Good.BallistaBolt.DisplayName"]
+new = "Ballista bolt"
+status = "normal"
+
+["Good.BallistaBolt.PluralDisplayName"]
+new = "Ballista bolts"
+status = "normal"
+
+["Building.TimberEmpires.SmallArmory.DisplayName"]
+new = "Small Armory"
+status = "normal"
+
+["Building.TimberEmpires.SmallArmory.Description"]
+new = "Stores weapons and ammunition."
+status = "normal"
+
+["Building.TimberEmpires.SmallArmory.FlavorDescription"]
+new = "Spears go point up. Someone learned that the hard way."
+status = "normal"
+
+["Building.TimberEmpires.MediumArmory.DisplayName"]
+new = "Medium Armory"
+status = "normal"
+
+["Building.TimberEmpires.MediumArmory.Description"]
+new = "Stores weapons and ammunition."
+status = "normal"
+
+["Building.TimberEmpires.MediumArmory.FlavorDescription"]
+new = "Half of any war is knowing where the swords are."
+status = "normal"
+
+["Building.TimberEmpires.WallBrazier.DisplayName"]
+new = "Blazer"
+status = "normal"
+
+["Building.TimberEmpires.WallBrazier.Description"]
+new = "A fire basket on a wall, burning pine resin. Archers on the wall within two pieces of it shoot fire arrows at resin puddles. Now and then one gets burned."
+status = "normal"
+
+["Building.TimberEmpires.WallBrazier.FlavorDescription"]
+new = "Keep your tail clear."
+status = "normal"
+
+["Building.TimberEmpires.ResinPuddle.DisplayName"]
+new = "Resin Puddle"
+status = "normal"
+
+["Building.TimberEmpires.ResinPuddle.Description"]
+new = "Pine resin poured on the ground or a road. Archers by a lit Blazer set it alight with fire arrows. It burns for 6 hours and hurts everyone in it, your own too."
+status = "normal"
+
+["Building.TimberEmpires.ResinPuddle.FlavorDescription"]
+new = "Sticky now, worse later."
+status = "normal"
+
+["Building.TimberEmpires.WallFoundation.DisplayName"]
+new = "Wall Foundation"
+status = "normal"
+
+["Building.TimberEmpires.WallFoundation.Description"]
+new = "Lifts walls, gatehouses, towers and hoardings over uneven ground, and stacks for a bigger rise. Can't be hit while something stands on it."
+status = "normal"
+
+["Building.TimberEmpires.WallFoundation.FlavorDescription"]
+new = "Even a wall needs a leg up."
+status = "normal"
+
+["Building.TimberEmpires.GatehouseDrawbridge.DisplayName"]
+new = "Drawbridge Gatehouse"
+status = "normal"
+
+["Building.TimberEmpires.GatehouseDrawbridge.Description"]
+new = "A gatehouse on a foundation, with a bridge two tiles out from its passage. The bridge raises when the gate shuts. Needs open space under the bridge."
+status = "normal"
+
+["Building.TimberEmpires.GatehouseDrawbridge.FlavorDescription"]
+new = "The welcome mat rolls up at night."
+status = "normal"
+
+["TimberEmpires.Menu.Wiki"]
+new = "Timber Empires wiki"
+status = "normal"
+
+["TimberEmpires.GameMode.Horde"]
+new = "Horde"
+status = "normal"
+
+["TimberEmpires.GameMode.Horde.Description"]
+new = "The undead raccoons rise from the ruins every few nights, more each time, and in a great swarm when the badtide comes. Stand together, hold out till dawn, and seal every ruin to end it."
+status = "normal"
+
+["TimberEmpires.Alliances.Horde"]
+new = "Against the horde there are no rivals. Every colony stands with the others."
+status = "normal"
+
+["TimberEmpires.Victory.Won.Ruins"]
+new = "The last ruin is sealed. The nights are quiet again."
+status = "normal"
+
+["TimberEmpires.Victory.Lost.Ruins"]
+new = "{0} sealed the last ruin. The nights are quiet again."
+status = "normal"
+
+["TimberEmpires.Settings.HordeFirstCycle"]
+new = "First undead night"
+status = "normal"
+
+["TimberEmpires.Settings.HordeFirstCycle.Tooltip"]
+new = "The cycle the undead raccoons first climb out of the ruins."
+status = "normal"
+
+["TimberEmpires.Settings.HordeFirstCycle.2"]
+new = "Cycle 2"
+status = "normal"
+
+["TimberEmpires.Settings.HordeFirstCycle.3"]
+new = "Cycle 3"
+status = "normal"
+
+["TimberEmpires.Settings.HordeFirstCycle.4"]
+new = "Cycle 4"
+status = "normal"
+
+["TimberEmpires.Settings.HordeFirstCycle.5"]
+new = "Cycle 5"
+status = "normal"
+
+["TimberEmpires.Horde.NightSurvived"]
+new = "Night {0} survived. {3} undead raccoons down."
+status = "normal"
+
+["TimberEmpires.Horde.GreatHorde"]
+new = "The badtide stirs the ruins. A super horde rises tonight."
+status = "normal"
+
+["TimberEmpires.Horde.Tonight"]
+new = "The ruins are stirring. The horde comes out tonight."
+status = "normal"
+
+["TimberEmpires.Horde.Tally.Slain"]
+new = "Undead raccoons cut down: {0}"
+status = "normal"
+
+["TimberEmpires.Horde.Tally.Lost"]
+new = "Beavers lost to the horde: {0}"
+status = "normal"
+
+["TimberEmpires.Horde.Tally.Nights"]
+new = "Nights survived: {0}"
+status = "normal"
+
+["TimberEmpires.Horde.Raccoon"]
+new = "Undead raccoon"
+status = "normal"
+
+["TimberEmpires.Horde.Raccoon.Hunting"]
+new = "Hunting for beavers."
+status = "normal"
+
+["TimberEmpires.Horde.Raccoon.Burning"]
+new = "Burning in the sun."
+status = "normal"
+
+["TimberEmpires.Horde.Raccoon.Crowd"]
+new = "{0} in this crowd."
+status = "normal"
+
+["TimberEmpires.Horde.Raccoon.Flavor"]
+new = "It used to wash its food first."
+status = "normal"
+
+["TimberEmpires.Settings.HordeSize"]
+new = "Horde size"
+status = "normal"
+
+["TimberEmpires.Settings.HordeSize.Tooltip"]
+new = "How many come out in each horde, and in the super hordes."
+status = "normal"
+
+["TimberEmpires.Settings.HordeSize.Fewer"]
+new = "Fewer"
+status = "normal"
+
+["TimberEmpires.Settings.HordeSize.Normal"]
+new = "Normal"
+status = "normal"
+
+["TimberEmpires.Settings.HordeSize.More"]
+new = "More"
+status = "normal"
+
+["TimberEmpires.Settings.HordeSize.Overwhelming"]
+new = "Overwhelming"
+status = "normal"
+
+["TimberEmpires.Settings.HordeFirstCycle.Value"]
+new = "Cycle {0}"
+status = "normal"
+
+["TimberEmpires.Settings.HordeSize.Value"]
+new = "{0}%"
+status = "normal"
+
+["TimberEmpires.Settings.HordeDayLength"]
+new = "Day and night length"
+status = "normal"
+
+["TimberEmpires.Settings.HordeDayLength.Tooltip"]
+new = "Longer days to get ready, longer nights to hold out."
+status = "normal"
+
+["TimberEmpires.Settings.HordeDayLength.Value"]
+new = "{0}×"
+status = "normal"
+
+["TimberEmpires.Settings.HordeEvery"]
+new = "Nights per horde"
+status = "normal"
+
+["TimberEmpires.Settings.HordeEvery.Tooltip"]
+new = "How many nights apart the hordes come. The longer the wait, the bigger each horde and the more each sunrise brings. A badtide's first night always brings a super horde."
+status = "normal"
+
+["TimberEmpires.Settings.HordeEvery.Value"]
+new = "{0}"
+status = "normal"
+
+["TimberEmpires.Settings.SharedColony"]
+new = "Shared colony"
+status = "normal"
+
+["TimberEmpires.Settings.SharedColony.Tooltip"]
+new = "Everyone builds one colony together, with the same goods and science. Off, each player starts their own."
+status = "normal"
+
+["TimberEmpires.GameSettings.Horde"]
+new = "The Horde"
+status = "normal"
+
+["TimberEmpires.Settings.FirstRaid.Value"]
+new = "Cycle {0}"
+status = "normal"
+
+["TimberEmpires.Settings.Raids.Tooltip"]
+new = "The cycle bandit camps start raiding players in, more often as the game goes on. All the way to the left, they never raid."
+status = "normal"
+
+["TimberEmpires.Settings.FirstRaid.Value.Min"]
+new = "No raids"
+status = "normal"
+
+["TimberEmpires.CandyChest.DisplayName"]
+new = "Candy Bucket"
+status = "normal"
+
+["TimberEmpires.CandyChest.Description"]
+new = "Demolish it for science."
+status = "normal"
+
+["TimberEmpires.CandyChest.FlavorDescription"]
+new = "Someone's trick-or-treat haul. Nobody came back for it."
+status = "normal"
+
+["NaturalResource.WillOWisp.DisplayName"]
+new = "Will-o'-the-Wisp"
+status = "normal"
+
+["NaturalResource.WillOWisp.FlavorDescription"]
+new = "A pale flame drifting over the ruins."
+status = "normal"

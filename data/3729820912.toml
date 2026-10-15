@@ -1,0 +1,118 @@
+[_meta]
+name = "Raining Cloud Simulation [ModContest1]"
+
+["RainCloudsSim.Settings.Header"]
+new = "Rain Clouds"
+status = "normal"
+
+["RainCloudsSim.Settings.RainQuality"]
+new = "Rain particle quality"
+status = "normal"
+
+["RainCloudsSim.Settings.HideWhenLayerLowered"]
+new = "Hide clouds when a layer is hidden"
+status = "normal"
+
+["RainCloudsSim.Settings.HideWhenWaterHidden"]
+new = "Hide clouds when water is hidden"
+status = "normal"
+
+["RainCloudsSim.NewGame.Header"]
+new = "Rain Clouds"
+status = "normal"
+
+["RainCloudsSim.NewGame.Preset"]
+new = "Copy a preset into the rows below"
+status = "normal"
+
+["RainCloudsSim.Preset.Easy"]
+new = "Easy"
+status = "normal"
+
+["RainCloudsSim.Preset.Normal"]
+new = "Normal"
+status = "normal"
+
+["RainCloudsSim.Preset.Hard"]
+new = "Hard"
+status = "normal"
+
+["RainCloudsSim.Preset.Stormy"]
+new = "Stormy"
+status = "normal"
+
+["RainCloudsSim.Preset.Toxic"]
+new = "Toxic"
+status = "normal"
+
+["RainCloudsSim.Difficulty.MinCycleForCloudMoving"]
+new = "Moving clouds: first cycle"
+status = "normal"
+
+["RainCloudsSim.Difficulty.MaxCycleForCloudMoving"]
+new = "Moving clouds: full chance at cycle"
+status = "normal"
+
+["RainCloudsSim.Difficulty.ProbabilityOfCloudMoving"]
+new = "Moving clouds: chance"
+status = "normal"
+
+["RainCloudsSim.Difficulty.ProbabilityOfCloudMovingContaminationModifier"]
+new = "Moving clouds: contamination modifier"
+status = "normal"
+
+["RainCloudsSim.Difficulty.ProbabilityToMoveOnDistrictCenter"]
+new = "Target weight: district center"
+status = "normal"
+
+["RainCloudsSim.Difficulty.ProbabilityToMoveOnDwelling"]
+new = "Target weight: dwelling"
+status = "normal"
+
+["RainCloudsSim.Difficulty.ProbabilityToMoveOnFarm"]
+new = "Target weight: farm"
+status = "normal"
+
+["RainCloudsSim.Difficulty.ProbabilityToMoveInRandomDirection"]
+new = "Target weight: random heading"
+status = "normal"
+
+["RainCloudsSim.Difficulty.MinCycleForMonsoon"]
+new = "Monsoons: first cycle"
+status = "normal"
+
+["RainCloudsSim.Difficulty.MinCycleForContaminatedMonsoon"]
+new = "Monsoons: first cycle when polluted"
+status = "normal"
+
+["RainCloudsSim.Difficulty.MaxCycleForMonsoon"]
+new = "Monsoons: full chance at cycle"
+status = "normal"
+
+["RainCloudsSim.Difficulty.ProbabilityOfMonsoon"]
+new = "Monsoons: chance"
+status = "normal"
+
+["RainCloudsSim.Difficulty.ProbabilityOfMonsoonContaminationModifier"]
+new = "Monsoons: contamination modifier"
+status = "normal"
+
+["RainCloudsSim.Difficulty.CycleForMinContaminationGrowthBegin"]
+new = "Sources: throttle until cycle"
+status = "normal"
+
+["RainCloudsSim.Difficulty.CycleForMinContaminationGrowthEnd"]
+new = "Sources: throttle eases by cycle"
+status = "normal"
+
+["RainCloudsSim.Difficulty.StrengthMinFactorForContaminatedCloudSourceAtBegin"]
+new = "Sources: polluted throttle floor"
+status = "normal"
+
+["RainCloudsSim.Difficulty.StrengthModForContaminatedSourceCloud"]
+new = "Sources: polluted growth"
+status = "normal"
+
+["RainCloudsSim.Difficulty.StrengthModForNormalSourceCloud"]
+new = "Sources: clean growth"
+status = "normal"

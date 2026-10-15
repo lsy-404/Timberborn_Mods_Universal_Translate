@@ -1,0 +1,10 @@
+[_meta]
+name = "Unknown"
+
+["Building.ZiplineStation.Tiny.DisplayName"]
+new = "Tiny Zipline Station"
+status = "normal"
+
+["Building.ZiplineStation.Tiny.Description"]
+new = "A one-tile Zipline Station. Tubeways can connect to its sides and bottom."
+status = "normal"

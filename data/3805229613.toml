@@ -1,0 +1,34 @@
+[_meta]
+name = "Toolbar Hotkey"
+
+["TBH.Group"]
+new = "Toolbar Hotkeys"
+status = "normal"
+
+["TBH.Leader"]
+new = "Toolbar leader key (then group key, then tool number or key)"
+status = "normal"
+
+["TBH.HintGroups"]
+new = "Group key, then tool number  |  Tab: change group keys  |  Esc: cancel"
+status = "normal"
+
+["TBH.AssignPick"]
+new = "Press the current key of a group to change it  |  Shift+Delete: reset all  |  Esc: done"
+status = "normal"
+
+["TBH.AssignKey"]
+new = "Press the new key for {0}  |  Delete: reset  |  Backspace: back"
+status = "normal"
+
+["TBH.HintTools"]
+new = "Tool number or its key  |  Tab: change tool keys  |  Backspace: back  |  Esc: cancel"
+status = "normal"
+
+["TBH.AssignToolPick"]
+new = "Press the number or key of a tool to give it a key  |  Shift+Delete: reset group  |  Esc: done"
+status = "normal"
+
+["TBH.AssignToolKey"]
+new = "Press a letter for {0}  |  Delete: reset  |  Backspace: back"
+status = "normal"

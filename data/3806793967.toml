@@ -1,0 +1,62 @@
+[_meta]
+name = "Power Overdrive"
+
+["LV.PO.Item1.Name"]
+new = "Basic Overdriver"
+status = "normal"
+
+["LV.PO.Item1.PluralName"]
+new = "Basic Overdrivers"
+status = "normal"
+
+["LV.PO.Item2.Name"]
+new = "Superior Overdriver"
+status = "normal"
+
+["LV.PO.Item2.PluralName"]
+new = "Superior Overdrivers"
+status = "normal"
+
+["LV.PO.Item3.Name"]
+new = "Ultimate Overdriver"
+status = "normal"
+
+["LV.PO.Item3.PluralName"]
+new = "Ultimate Overdrivers"
+status = "normal"
+
+["LV.PO.SuperiorForBasic"]
+new = "Superior for Basic Overdriver"
+status = "normal"
+
+["LV.PO.UltimateForBasic"]
+new = "Ultimate for Basic Overdriver"
+status = "normal"
+
+["LV.PO.UltimateForSuperior"]
+new = "Ultimate for Superior Overdriver"
+status = "normal"
+
+["LV.PO.Title"]
+new = "Power Overdrive"
+status = "normal"
+
+["LV.PO.Effect"]
+new = "Power Overdrive"
+status = "normal"
+
+["LV.PO.EffectDesc"]
+new = "+{0} work speed, +{1} power usage"
+status = "normal"
+
+["LV.PO.NoEffect"]
+new = "No overdrive."
+status = "normal"
+
+["LV.PO.NeedItems"]
+new = "You need {0}."
+status = "normal"
+
+[Name_PowerOverdriveFragment]
+new = "Power Overdrive"
+status = "normal"

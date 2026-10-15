@@ -2517,6 +2517,10 @@ csCZ = "pokrok v chovu"
 viVN = "tiến độ sinh sản"
 trTR = "üreme ilerlemesi"
 
+["IgorZ.Automation.Scriptable.Collectable.Action.SetPriority"]
+new = "prioritize gathering: {0}"
+status = "normal"
+
 ["IgorZ.Automation.Scriptable.Collectable.Signal.CollectableReady"]
 raw = "ready for collection"
 status = "normal"
@@ -2533,6 +2537,10 @@ koKR = "수집 준비 완료"
 csCZ = "připraveno k vyzvednutí"
 viVN = "Sẵn sàng thu thập"
 trTR = "toplama için hazır"
+
+["IgorZ.Automation.Scriptable.Collectable.Signal.GoodReady"]
+new = "ready for collection: {0}"
+status = "normal"
 
 ["IgorZ.Automation.Scriptable.Constructable.Signal.Progress"]
 raw = "construction progress"
@@ -2822,6 +2830,10 @@ koKR = "참여"
 csCZ = "zapnout"
 viVN = "kích hoạt"
 trTR = "katıl"
+
+["IgorZ.Automation.Scriptable.FarmHouse.Action.SetMode"]
+new = "set farm priority: {0}"
+status = "normal"
 
 ["IgorZ.Automation.Scriptable.FillValve.Action.Close"]
 raw = "close"
@@ -3299,6 +3311,10 @@ csCZ = "pokračovat ve stavbě"
 viVN = "tiếp tục xây dựng"
 trTR = "binalamaya devam et"
 
+["IgorZ.Automation.Scriptable.Plantable.Action.SetPriority"]
+new = "prioritize resource: {0}"
+status = "normal"
+
 ["IgorZ.Automation.Scriptable.Plantable.Signal.SpotsReady"]
 raw = "ready to plant"
 status = "normal"
@@ -3315,6 +3331,10 @@ koKR = "심을 준비 완료"
 csCZ = "připraveno k výsadbě"
 viVN = "Sẵn sàng trồng"
 trTR = "ekim için hazır"
+
+["IgorZ.Automation.Scriptable.Plantable.Signal.ResourceReady"]
+new = "ready to plant: {0}"
+status = "normal"
 
 ["IgorZ.Automation.Scriptable.Power.Signal.BatteryCapacity"]
 raw = "battery capacity"

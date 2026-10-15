@@ -137,6 +137,10 @@ csCZ = "Výška: {0}"
 viVN = "Chiều cao: {0}"
 trTR = "Yükseklik: {0}"
 
+["LV.Cr.Range"]
+new = "Range: {0}"
+status = "normal"
+
 ["LV.Cr.HeightPending"]
 raw = "Height: {0} / {1}"
 status = "normal"
@@ -187,6 +191,10 @@ koKR = "이 크레인 위에 크레인 섹션을 놓을 수 없습니다."
 csCZ = "Není možné umístit sekci jeřábu na tento jeřáb."
 viVN = "Không thể đặt một phần Cần cẩu lên trên Cần cẩu này."
 trTR = "Bu Crane'ın üstüne bir Crane Bölümü yerleştirilemez."
+
+["LV.Cr.MustPlaceSectionOnCrane"]
+new = "Must be placed on a Crane."
+status = "normal"
 
 ["LV.Cr.JobPriority"]
 raw = "Priority"

@@ -24075,7 +24075,7 @@ trTR = "Seçilen Renk"
 
 ["Calloatti.AutoTweaks.Relay.ReplicateInputColors"]
 raw = "Replicate Input Colors"
-status = "normal"
+status = "abandoned"
 enUS = "Replicate Input Colors"
 zhCN = "复制输入颜色"
 zhTW = "複製輸入顏色"

@@ -1,0 +1,58 @@
+[_meta]
+name = "TimberLoop"
+
+["Barbara.TimberLoop.P1.DisplayName"]
+new = "TimberLoop — Grand Circuit"
+status = "normal"
+
+["Barbara.TimberLoop.P1.Description"]
+new = "A six-beaver attraction with a prefabricated circuit and two laps per ride. Requires its own linked operating TimberLoop Ticket Booth."
+status = "normal"
+
+["Barbara.TimberLoop.P1.Flavor"]
+new = "Tuck in your tail and hold on tight!"
+status = "normal"
+
+["Barbara.TimberLoop.Need.Joy.DisplayName"]
+new = "TimberLoop thrill"
+status = "normal"
+
+["Barbara.TimberLoop.ToolGroup"]
+new = "TimberLoop"
+status = "normal"
+
+["Barbara.TimberLoopTicketBooth.DisplayName"]
+new = "TimberLoop Ticket Booth"
+status = "normal"
+
+["Barbara.TimberLoopTicketBooth.Description"]
+new = "Produces TimberLoop Tickets for a manually linked TimberLoop. Not compatible with the original RollerCoaster."
+status = "normal"
+
+["Barbara.TimberLoopTicketBooth.Flavor"]
+new = "One ticket per passenger. Six tickets start two laps."
+status = "normal"
+
+["Barbara.TimberLoopTicket.DisplayName"]
+new = "TimberLoop Ticket"
+status = "normal"
+
+["Barbara.TimberLoopTicket.Description"]
+new = "Valid for one TimberLoop passenger only."
+status = "normal"
+
+["Good.TimberLoopTicket.DisplayName"]
+new = "TimberLoop Ticket"
+status = "normal"
+
+["Good.TimberLoopTicket.PluralDisplayName"]
+new = "TimberLoop Tickets"
+status = "normal"
+
+["TimberLoopTicketRecipe.Folktails.Name"]
+new = "TimberLoop Tickets"
+status = "normal"
+
+["TimberLoopTicketRecipe.IronTeeth.Name"]
+new = "TimberLoop Tickets"
+status = "normal"

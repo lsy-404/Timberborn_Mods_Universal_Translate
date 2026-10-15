@@ -1,0 +1,6 @@
+[_meta]
+name = "Honey Time Reworked for Emberpelts [unofficial]"
+
+["Recipe.LubricantWax.DisplayName"]
+new = "Lubricant (Wax)"
+status = "normal"

@@ -1,0 +1,22 @@
+[_meta]
+name = "Northforge - Solar Panel"
+
+["Building.SolarPanel.DisplayName"]
+new = "Solar Panel"
+status = "normal"
+
+["Building.SolarPanel.Description"]
+new = "Produces up to 100 hp during daylight."
+status = "normal"
+
+["Building.SolarPanel.FlavorDescription"]
+new = "Sunshine finally required. Engineering still mandatory."
+status = "normal"
+
+["SolarPanel.Weather.Notification"]
+new = "Max solar output: {0}%"
+status = "normal"
+
+["SolarPanel.Weather.TopBarTooltip"]
+new = "Maximum solar output"
+status = "normal"

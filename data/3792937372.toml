@@ -12343,56 +12343,17 @@ csCZ = "<YellowHighlight>Pevný:</YellowHighlight> Na jeho vrchu mohou být post
 viVN = "<YellowHighlight>Vững chắc:</YellowHighlight> Các công trình khác có thể được xây dựng trên đỉnh của nó."
 trTR = "<YellowHighlight>Sağlam:</YellowHighlight> Diğer binalar üstüne inşa edilebilir."
 
-["Cadre.Ladder.Name"]
-raw = "Zxuiji's Ladder"
+["Cadre.LogLadder.Name"]
+new = "Log Ladder"
 status = "normal"
-enUS = "Zxuiji's Ladder"
-zhCN = "Zxuiji的梯子"
-zhTW = "Zxuiji 的梯子"
-ruRU = "Лестница Зуи"
-jaJP = "「ズイクイジのはしご」"
-frFR = "L'escalier de Zxuiji"
-deDE = "Zxuijis Leiter"
-plPL = "Drabina Zxuijiego"
-ptBR = "Escada do Zxuiji"
-koKR = "주이즈의 사다리"
-csCZ = "Zxuijiho žebřík"
-viVN = "Cái thang của Zxuiji"
-trTR = "Zxuiji'nin Merdiveni"
 
-["Cadre.Ladder.Desc"]
-raw = "Ladder that fits the faction theme"
+["Cadre.LogLadder.Desc"]
+new = "Unidirectional ladder"
 status = "normal"
-enUS = "Ladder that fits the faction theme"
-zhCN = "“符合派系主题的梯子”"
-zhTW = "與派系主題相符的梯子"
-ruRU = "Лестница, соответствующая тематике фракции"
-jaJP = "「派閥のテーマに合ったはしご」"
-frFR = "Échelle qui s'inscrit dans le thème de la faction"
-deDE = "Leiter, die zum Fraktionsthema passt"
-plPL = "Drabina pasująca do motywu frakcji"
-ptBR = "Escada que se encaixa no tema da facção"
-koKR = "파벌 테마에 맞는 사다리"
-csCZ = "Žebřík, který odpovídá tématu frakce"
-viVN = "Cái thang phù hợp với chủ đề của phái"
-trTR = "Fraksiyon temasına uyan merdiven"
 
-["Cadre.Ladder.Cite"]
-raw = "Well that's a dam sight to behold :D"
+["Cadre.LogLadder.Cite"]
+new = "Youch! I got a splinter in my gum while knawing out this ladder!"
 status = "normal"
-enUS = "Well that's a dam sight to behold :D"
-zhCN = "这真是一道让人赞叹的风景 :D"
-zhTW = "哦，真是壯觀的水壩啊 :D"
-ruRU = "Что ж, это действительно зрелище :D"
-jaJP = "「まあ、それは目を見張るダムだね :D」"
-frFR = "Eh bien, c'est un sacré spectacle à admirer :D"
-deDE = "Nun, das ist ein Damm, den man sehen muss :D"
-plPL = "Cóż, to widok, na który warto spojrzeć :D"
-ptBR = "Bem, isso é uma vista e tanto de se ver :D"
-koKR = "그건 정말 볼만한 댐이군요 :D"
-csCZ = "No tak to je pohled na hráz :D"
-viVN = "Chà, đó là một cảnh tuyệt vời để chiêm ngưỡng :D"
-trTR = "Eh, bu görülmeye değer bir baraj :D"
 
 ["Cadre.StonePath.Name"]
 raw = "Stone Path"
@@ -12495,6 +12456,42 @@ koKR = "성가신 수직 샤프트를 덮기에 좋습니다 :D"
 csCZ = "„Dobré na zakrytí těch otravných vertikálních šachet :D“"
 viVN = "Tốt cho việc che phủ những cái ống đứng phiền phức đó :D"
 trTR = "Bu can sıkıcı dikey bacaları kaplamak için iyi :D"
+
+["Cadre.Unmite.Name"]
+new = "Unmite"
+status = "normal"
+
+["Cadre.Unmite.Desc"]
+new = "Blows up land down to depth 1"
+status = "normal"
+
+["Cadre.Unmite.Cite"]
+new = "Nice! Now the battery can go an extra layer deep :D"
+status = "normal"
+
+["Cadre.Doumite.Name"]
+new = "Doumite"
+status = "normal"
+
+["Cadre.Doumite.Desc"]
+new = "Blows up land down to depth 2"
+status = "normal"
+
+["Cadre.Doumite.Cite"]
+new = "Nice! Now the battery can go 2 layers deep :D"
+status = "normal"
+
+["Cadre.Tremite.Name"]
+new = "Tremite"
+status = "normal"
+
+["Cadre.Tremite.Desc"]
+new = "Blows up land down to depth 3"
+status = "normal"
+
+["Cadre.Tremite.Cite"]
+new = "Nice! Now the battery can go 3 layers deep :D"
+status = "normal"
 
 ["Cadre.Quadramite.Name"]
 raw = "Quadramite"
@@ -13158,6 +13155,54 @@ koKR = "좋아요! 이제 배터리가 16층 깊이로 들어갈 수 있습니�
 csCZ = "Fajn! Teď může baterie jít 16 vrstev hluboko :D"
 viVN = "Tuyệt vời! Giờ đây, pin có thể đi sâu 16 lớp :D"
 trTR = "Harika! Artık batarya 16 kat derinliğe gidebilir :D"
+
+["Cadre.DemonCore.Name"]
+new = "Demon Core"
+status = "normal"
+
+["Cadre.DemonCore.Desc"]
+new = "Blows up land when removed or detonated"
+status = "normal"
+
+["Cadre.DemonCore.Cite"]
+new = "The crater this leaves will make a nice lake :D"
+status = "normal"
+
+["Cadre.DemonHive.Name"]
+new = "Demon Hive"
+status = "normal"
+
+["Cadre.DemonHive.Desc"]
+new = "Aids crop growth until it blows up"
+status = "normal"
+
+["Cadre.DemonHive.Cite"]
+new = "The crater this leaves will make a nice pond :D"
+status = "normal"
+
+["Cadre.Gyser.Name"]
+new = "Gyser"
+status = "normal"
+
+["Cadre.Gyser.Desc"]
+new = "Pipe shoved deep enough to reach an untained underground river"
+status = "normal"
+
+["Cadre.Gyser.Cite"]
+new = "Finally no more pumping our logs!...Why are you laughing?"
+status = "normal"
+
+["Cadre.BadGyser.Name"]
+new = "Bad Gyser"
+status = "normal"
+
+["Cadre.BadGyser.Desc"]
+new = "Pipe shoved deep enough to reach a tainted underground river"
+status = "normal"
+
+["Cadre.BadGyser.Cite"]
+new = "Now we can use those shallow vile water streams for power only :D"
+status = "normal"
 
 ["Cadre.TriteDepo.Name"]
 raw = "Trite Depo"
@@ -14348,3 +14393,54 @@ koKR = "연못과 도랑에 설치하기 좋음 :D"
 csCZ = "Dobré pro šplíchání do rybníků a příkopů :D"
 viVN = "Tốt cho việc chà xát trong hồ và rãnh :D"
 trTR = "Göllere ve hendeğe dalmak için iyidir :D"
+
+["Cadre.Ladder.Name"]
+raw = "Zxuiji's Ladder"
+status = "abandoned"
+enUS = "Zxuiji's Ladder"
+zhCN = "Zxuiji的梯子"
+zhTW = "Zxuiji 的梯子"
+ruRU = "Лестница Зуи"
+jaJP = "「ズイクイジのはしご」"
+frFR = "L'escalier de Zxuiji"
+deDE = "Zxuijis Leiter"
+plPL = "Drabina Zxuijiego"
+ptBR = "Escada do Zxuiji"
+koKR = "주이즈의 사다리"
+csCZ = "Zxuijiho žebřík"
+viVN = "Cái thang của Zxuiji"
+trTR = "Zxuiji'nin Merdiveni"
+
+["Cadre.Ladder.Desc"]
+raw = "Ladder that fits the faction theme"
+status = "abandoned"
+enUS = "Ladder that fits the faction theme"
+zhCN = "“符合派系主题的梯子”"
+zhTW = "與派系主題相符的梯子"
+ruRU = "Лестница, соответствующая тематике фракции"
+jaJP = "「派閥のテーマに合ったはしご」"
+frFR = "Échelle qui s'inscrit dans le thème de la faction"
+deDE = "Leiter, die zum Fraktionsthema passt"
+plPL = "Drabina pasująca do motywu frakcji"
+ptBR = "Escada que se encaixa no tema da facção"
+koKR = "파벌 테마에 맞는 사다리"
+csCZ = "Žebřík, který odpovídá tématu frakce"
+viVN = "Cái thang phù hợp với chủ đề của phái"
+trTR = "Fraksiyon temasına uyan merdiven"
+
+["Cadre.Ladder.Cite"]
+raw = "Well that's a dam sight to behold :D"
+status = "abandoned"
+enUS = "Well that's a dam sight to behold :D"
+zhCN = "这真是一道让人赞叹的风景 :D"
+zhTW = "哦，真是壯觀的水壩啊 :D"
+ruRU = "Что ж, это действительно зрелище :D"
+jaJP = "「まあ、それは目を見張るダムだね :D」"
+frFR = "Eh bien, c'est un sacré spectacle à admirer :D"
+deDE = "Nun, das ist ein Damm, den man sehen muss :D"
+plPL = "Cóż, to widok, na który warto spojrzeć :D"
+ptBR = "Bem, isso é uma vista e tanto de se ver :D"
+koKR = "그건 정말 볼만한 댐이군요 :D"
+csCZ = "No tak to je pohled na hráz :D"
+viVN = "Chà, đó là một cảnh tuyệt vời để chiêm ngưỡng :D"
+trTR = "Eh, bu görülmeye değer bir baraj :D"

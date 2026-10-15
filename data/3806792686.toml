@@ -1,0 +1,46 @@
+[_meta]
+name = "Global Inventory"
+
+["LV.GI.GroupName"]
+new = "Global"
+status = "normal"
+
+["LV.GI.Nothing"]
+new = "Nothing"
+status = "normal"
+
+["LV.GI.Min"]
+new = "Min: {0}"
+status = "normal"
+
+["LV.GI.Dev.Title"]
+new = "Modify Global Inventory"
+status = "normal"
+
+["LV.GI.Dev.Amount"]
+new = "Amount"
+status = "normal"
+
+["LV.GI.Dev.Add"]
+new = "Add"
+status = "normal"
+
+["LV.GI.Dev.Remove"]
+new = "Remove"
+status = "normal"
+
+["LV.GI.Dev.Clear"]
+new = "Clear"
+status = "normal"
+
+["LV.GI.Dev.Fill"]
+new = "Fill"
+status = "normal"
+
+["LV.GI.Dev.SetMin"]
+new = "Set to Min"
+status = "normal"
+
+["LV.GI.Dev.Current"]
+new = "Current: {0}"
+status = "normal"

@@ -1,0 +1,274 @@
+[_meta]
+name = "Timber Pipes"
+
+["LV.TPi.EqualizeK"]
+new = "Flow equalization rate (EqualizeK)"
+status = "normal"
+
+["LV.TPi.EqualizeKDesc"]
+new = "How quickly connected pipes even out. Higher values move liquid faster. Default 0.8."
+status = "normal"
+
+["LV.TPi.GroupName"]
+new = "Pipes"
+status = "normal"
+
+["LV.TPi.HorizontalPipeName"]
+new = "Pipe"
+status = "normal"
+
+["LV.TPi.HorizontalPipeDesc"]
+new = "Carries fluid in a straight line."
+status = "normal"
+
+["LV.TPi.HorizontalPipeFlavor"]
+new = "The committee voted for a canal. The budget voted for a pipe."
+status = "normal"
+
+["LV.TPi.ElbowPipeName"]
+new = "Elbow"
+status = "normal"
+
+["LV.TPi.ElbowPipeDesc"]
+new = "Turns a pipe run 90°."
+status = "normal"
+
+["LV.TPi.ElbowPipeFlavor"]
+new = "Every good plan meets a wall. This is how you keep the plan."
+status = "normal"
+
+["LV.TPi.CrossPipeName"]
+new = "Cross"
+status = "normal"
+
+["LV.TPi.CrossPipeDesc"]
+new = "Joins up to four horizontal pipes."
+status = "normal"
+
+["LV.TPi.CrossPipeFlavor"]
+new = "Everyone groans when Bramble starts the “four pipes walk into a [i]bar[/i]” joke again."
+status = "normal"
+
+["LV.TPi.TPipeName"]
+new = "T Junction"
+status = "normal"
+
+["LV.TPi.TPipeDesc"]
+new = "Joins up to three horizontal pipes."
+status = "normal"
+
+["LV.TPi.TPipeFlavor"]
+new = "The fourth direction is for when the foreman changes their mind."
+status = "normal"
+
+["LV.TPi.VerticalCrossPipeName"]
+new = "Vertical Cross"
+status = "normal"
+
+["LV.TPi.VerticalCrossPipeDesc"]
+new = "Connects vertical and horizontal pipes."
+status = "normal"
+
+["LV.TPi.VerticalCrossPipeFlavor"]
+new = "'What an outstanding piece of work.' — Foreman Halberg"
+status = "normal"
+
+["LV.TPi.VerticalTPipeName"]
+new = "Vertical T Junction"
+status = "normal"
+
+["LV.TPi.VerticalTPipeDesc"]
+new = "Connects a vertical pipe to one horizontal pipe."
+status = "normal"
+
+["LV.TPi.VerticalTPipeFlavor"]
+new = "A cross that learned to make do with less."
+status = "normal"
+
+["LV.TPi.ImpermeableVerticalCrossPipeName"]
+new = "Impermeable Vertical Cross"
+status = "normal"
+
+["LV.TPi.ImpermeableVerticalCrossPipeDesc"]
+new = "Connects vertical and horizontal pipes. Blocks water."
+status = "normal"
+
+["LV.TPi.ImpermeableVerticalCrossPipeFlavor"]
+new = "Halberg was appalled when the request came in: a piece that carries water and also blocks it."
+status = "normal"
+
+["LV.TPi.VerticalPipeName"]
+new = "Riser"
+status = "normal"
+
+["LV.TPi.VerticalPipeDesc"]
+new = "Carries fluid vertically."
+status = "normal"
+
+["LV.TPi.VerticalPipeFlavor"]
+new = "We measured a kit. Then we shrank the bore so it would not become a tubeway."
+status = "normal"
+
+["LV.TPi.HorizontalPipeValveName"]
+new = "One-way Valve"
+status = "normal"
+
+["LV.TPi.HorizontalPipeValveDesc"]
+new = "A one-way straight pipe. Can be closed both ways when paused. Point a directed end at a building to pour into it or draw from it. Select the valve and opt in Fill or Extract."
+status = "normal"
+
+["LV.TPi.HorizontalPipeValveFlavor"]
+new = "They added the arrow after the last guy flooded the berry warehouse."
+status = "normal"
+
+["LV.TPi.HorizontalPipeThrottleName"]
+new = "Throttle Valve Pipe"
+status = "normal"
+
+["LV.TPi.HorizontalPipeThrottleDesc"]
+new = "A one-way straight pipe. Pause to close both ways. Shows outflow and can cap that hourly flow."
+status = "normal"
+
+["LV.TPi.HorizontalPipeThrottleFlavor"]
+new = "When asked why it costs so much when it looks exactly like a One-way Valve, they said R&D isn't cheap."
+status = "normal"
+
+["LV.TPi.OutfallPipeName"]
+new = "Outfall Pipe"
+status = "normal"
+
+["LV.TPi.OutfallPipeDesc"]
+new = "A one-way pipe that dumps Water or Badwater onto the ground. Any other liquid entering this pipe contaminates the pipe network."
+status = "normal"
+
+["LV.TPi.OutfallPipeFlavor"]
+new = "The inventor took “Drain you dry” literally."
+status = "normal"
+
+["LV.TPi.HorizontalPipePumpName"]
+new = "Pipe Pump"
+status = "normal"
+
+["LV.TPi.HorizontalPipePumpDesc"]
+new = "A one-way straight pipe. When powered, pushes liquid into the next pipe with extra headlift."
+status = "normal"
+
+["LV.TPi.HorizontalPipePumpFlavor"]
+new = "Very energy efficient. Kits will run it all day just to watch the water splash."
+status = "normal"
+
+["LV.TPi.VerticalPipePumpName"]
+new = "Riser Pipe Pump"
+status = "normal"
+
+["LV.TPi.VerticalPipePumpDesc"]
+new = "A one-way vertical pipe. When powered, pushes liquid into the pipe above with extra headlift."
+status = "normal"
+
+["LV.TPi.VerticalPipePumpFlavor"]
+new = "This thing [i]pushed the bar[/i] so high the reservoir asked for a raise."
+status = "normal"
+
+["LV.TPi.PipeFill"]
+new = "{0:0.00} / {1:0.00} m³"
+status = "normal"
+
+["LV.TPi.TankLevel"]
+new = "{0:0.00} / {1:0.00}m"
+status = "normal"
+
+["LV.TPi.Headlift"]
+new = "Headlift: {0:0.00}m"
+status = "normal"
+
+["LV.TPi.Contaminated"]
+new = "Contaminated"
+status = "normal"
+
+["LV.TPi.ContaminatedMix"]
+new = "Mixed {0} and {1}."
+status = "normal"
+
+["LV.TPi.ContaminatedStatus"]
+new = "These pipes mixed different liquids. Flush them to clear."
+status = "normal"
+
+["LV.TPi.ContaminatedStatusShort"]
+new = "Contaminated pipes"
+status = "normal"
+
+["LV.TPi.Flush"]
+new = "Flush"
+status = "normal"
+
+["LV.TPi.FlushConfirm"]
+new = "This empties every pipe in this network and clears contamination. Continue?"
+status = "normal"
+
+["LV.MT.BldSet.ValvePipe"]
+new = "One-way Valve"
+status = "normal"
+
+["LV.TPi.BldSet.Desc"]
+new = "Fill: {0}, Extract: {1}"
+status = "normal"
+
+["LV.TPi.ValveInlet"]
+new = "Fill"
+status = "normal"
+
+["LV.TPi.ValveOutlet"]
+new = "Extract"
+status = "normal"
+
+["LV.TPi.ValveInletBuilding"]
+new = "Fill: {0}"
+status = "normal"
+
+["LV.TPi.ValveOutletBuilding"]
+new = "Extract from: {0}"
+status = "normal"
+
+["LV.TPi.OutflowTick"]
+new = "Current: {0:0.00} m³"
+status = "normal"
+
+["LV.TPi.OutflowHour"]
+new = "Last hour: {0:0.00} m³ (avg. {1:0.00} m³/s)"
+status = "normal"
+
+["LV.TPi.HourlyLimit"]
+new = "Hourly limit: {0}"
+status = "normal"
+
+["LV.TPi.HourlyLimitValue"]
+new = "{0:0.00} m³/h ({1:0.00} m³/s)"
+status = "normal"
+
+["LV.TPi.Unlimited"]
+new = "Unlimited"
+status = "normal"
+
+["LV.TPi.ProvideHeadlift"]
+new = "● <YellowHighlight>Provides headlift:</YellowHighlight> {0:0.0}m"
+status = "normal"
+
+["LV.TPi.ModUpdate113000"]
+new = "v11.3.0:\n- Added Horizontal and Vertical T Junctions. Thanks to the contribution of idmytro.\n- Fixed Tank panel showing up during construction and show the wrong 'liquid' (visual bug).\n- Fixed hitboxes for pipes.\n- Vertical pieces should now occupy Bottom and Path slot."
+status = "normal"
+
+[Name_TransportPipeFragment]
+new = "Pipe"
+status = "normal"
+
+[Name_ValvePipeFragment]
+new = "Valve"
+status = "normal"
+
+[Name_OutflowCounterFragment]
+new = "Outflow"
+status = "normal"
+
+[Name_PipeTankFragment]
+new = "Tank"
+status = "normal"

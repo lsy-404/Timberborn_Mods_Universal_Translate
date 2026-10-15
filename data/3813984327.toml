@@ -1,0 +1,986 @@
+[_meta]
+name = "BeaverBuddies Co-Op/PvP Edition"
+
+["BeaverBuddies.Menu.JoinCoopGame"]
+new = "Join co-op game"
+status = "normal"
+
+["BeaverBuddies.Menu.Multiplayer"]
+new = "Multiplayer"
+status = "normal"
+
+["BeaverBuddies.Menu.HostNewGame"]
+new = "Host new game"
+status = "normal"
+
+["BeaverBuddies.Menu.HostSavedGame"]
+new = "Host saved game"
+status = "normal"
+
+["BeaverBuddies.Menu.JoinGame"]
+new = "Join game"
+status = "normal"
+
+["BeaverBuddies.Menu.Back"]
+new = "Back"
+status = "normal"
+
+["BeaverBuddies.Menu.HostGame"]
+new = "Host game"
+status = "normal"
+
+["BeaverBuddies.Menu.HostFailed"]
+new = "Couldn't host the new game."
+status = "normal"
+
+["BeaverBuddies.JoinCoopGame.EnterIp"]
+new = "Enter the global IP address or domain name of the Host:"
+status = "normal"
+
+["BeaverBuddies.FirstTimer.Message"]
+new = "It looks like this is your first time using BeaverBuddies. We recommend taking a quick look through our guide to make sure you are set up to play. Would you like to do that now?"
+status = "normal"
+
+["BeaverBuddies.JoinCoopGame.ConnectionFailedMessageWithError"]
+new = "Joining failed with error:\n{0}\nWould you like to open the troubleshooting guide?"
+status = "normal"
+
+["BeaverBuddies.JoinCoopGame.ConnectionFailedMessage"]
+new = "Failed to connect to Host. Would you like to open the troubleshooting guide?"
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.Resyncing"]
+new = "A player fell out of sync. The Host is reloading the game for everyone; it will carry on in a moment."
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.Resynced"]
+new = "A player fell out of sync, so the game was reloaded from the Host's save for everyone. The Host can press play to carry on."
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.ResyncFailed"]
+new = "The game fell out of sync and couldn't be reloaded for everyone. Save it, then host it again."
+status = "normal"
+
+["BeaverBuddies.Editor.StartingLocation1"]
+new = "Starting Location - Player 1"
+status = "normal"
+
+["BeaverBuddies.Editor.StartingLocation2"]
+new = "Starting Location - Player 2"
+status = "normal"
+
+["BeaverBuddies.Editor.StartingLocation3"]
+new = "Starting Location - Player 3"
+status = "normal"
+
+["BeaverBuddies.Editor.StartingLocation4"]
+new = "Starting Location - Player 4"
+status = "normal"
+
+["BeaverBuddies.NewGame.MaxStartingLocations"]
+new = "Max Starting Locations"
+status = "normal"
+
+["BeaverBuddies.NewGame.MaxStartingLocations.Tooltip"]
+new = "On a map with several starting locations, how many of them get a District Center and starting beavers, in player order. A map with one start ignores it."
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.TracingEnabled"]
+new = "Enabled"
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.ReportOnDiscord"]
+new = "Report on Discord"
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.TraceSaved"]
+new = "Trace saved next to Player.log"
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.EnableTracing"]
+new = "Enable Logging"
+status = "normal"
+
+["BeaverBuddies.ClientDesynced.NeedToEnableTracing"]
+new = "To report this desync, *all players* must first enable more detailed logging by pressing Enable Logging, below. If another desync occurs, you can then report it on our Discord with the detailed log. Logging mode may cause some lag, but it will only be active until you restart the game."
+status = "normal"
+
+["BeaverBuddies.Settings.ClientConnectionAddress"]
+new = "Client Connection Address"
+status = "normal"
+
+["BeaverBuddies.Settings.ClientConnectionAddress.Tooltip"]
+new = "Default IP address used when connecting to a Host."
+status = "normal"
+
+["BeaverBuddies.Settings.Port"]
+new = "Port"
+status = "normal"
+
+["BeaverBuddies.Settings.Port.Tooltip"]
+new = "Port used when hosting or joining a game. This should match a forwaded port for the host."
+status = "normal"
+
+["BeaverBuddies.Settings.SilenceLogging"]
+new = "Silence Logging"
+status = "normal"
+
+["BeaverBuddies.Settings.SilenceLogging.Tooltip"]
+new = "Prevent this mod from logging to the player log file (except warnings and errors).\nThis setting is indended for developers."
+status = "normal"
+
+["BeaverBuddies.Settings.ShowFirstTimerMessage"]
+new = "Show First Timer Message"
+status = "normal"
+
+["BeaverBuddies.Settings.AlwaysTrace"]
+new = "Always Use Detailed Logging"
+status = "normal"
+
+["BeaverBuddies.Settings.AlwaysTrace.Tooltip"]
+new = "When enabled, the game will always use detailed logging, which enables you to submit desync reports on the first occurrence without manually enabling detailed logging.\nNote that all players must have the setting enabled.\nThis setting will cause some lag and is not recommended for most players."
+status = "normal"
+
+["BeaverBuddies.Settings.EnableSteamConnection"]
+new = "Enable Steam Networking"
+status = "normal"
+
+["BeaverBuddies.Settings.EnableSteamConnection.Tooltip"]
+new = "Allows players to join your games via Steam's peer-to-peer networking.\nPlayers will still be able to join via port forwarding.\nNote: This feature may not work if your network does not support peer-to-peer connections.\nAdditionally, peer-to-peer connections may be slower than direct connections."
+status = "normal"
+
+["BeaverBuddies.Settings.FriendsCanJoinSteamGame"]
+new = "Allow Friends to Join Directly via Steam"
+status = "normal"
+
+["BeaverBuddies.Settings.FriendsCanJoinSteamGame.Tooltip"]
+new = "When enabled, your friends can join your game directly via Steam without you inviting them, and it's listed in Open matches for anyone."
+status = "normal"
+
+["BeaverBuddies.Settings.PauseReduction"]
+new = "Reduce the number of forced pauses"
+status = "normal"
+
+["BeaverBuddies.Settings.PauseReduction.Tooltip"]
+new = "For an optimal experience, all players should set it to the same value.\n\nOff - Default behaviour\nMenu only - Auto-pause only when opening the menu (not for deconstructions)\nNever auto-pause - The game will never auto-pause, including when opening the menu. This can lead to save corruptions if you don't pause the game before saving."
+status = "normal"
+
+["BeaverBuddies.Settings.PauseReduction.Off"]
+new = "Off"
+status = "normal"
+
+["BeaverBuddies.Settings.PauseReduction.LowRisk"]
+new = "Menu only"
+status = "normal"
+
+["BeaverBuddies.Settings.PauseReduction.HighRisk"]
+new = "Never auto-pause"
+status = "normal"
+
+["BeaverBuddies.Host.ConnectedClients"]
+new = "Wait for clients to connect...\nCurrently connected clients:"
+status = "normal"
+
+["BeaverBuddies.Host.DirectConnectClient"]
+new = "Direct Connect Client"
+status = "normal"
+
+["BeaverBuddies.Host.StartGame"]
+new = "Start Game"
+status = "normal"
+
+["BeaverBuddies.Host.InviteFriends"]
+new = "Invite Friends"
+status = "normal"
+
+["BeaverBuddies.JoinCoopGame.Success"]
+new = "Joined! Receiving map..."
+status = "normal"
+
+["BeaverBuddies.JoinCoopGame.Error.InvalidFormat"]
+new = "Invalid address format. Could not parse port."
+status = "normal"
+
+["BeaverBuddies.JoinCoopGame.Error.InvalidAddress"]
+new = "Address was not a valid IP address.\nAttempted to resolve it as a host name, but it did not resolve to an IP address."
+status = "normal"
+
+["BeaverBuddies.JoinCoopGame.Error.Incompatible"]
+new = "The host plays with other mods, or another build of BeaverBuddies. Install the same ones from the same place, then join again."
+status = "normal"
+
+["BeaverBuddies.JoinCoopGame.Error.CouldNotConnect"]
+new = "Could not connect to Host. Please check the address and port, and make sure the Host is hosting and has port forwarded if needed. Error details:"
+status = "normal"
+
+["BeaverBuddies.KeyBindings.Group"]
+new = "BeaverBuddies"
+status = "normal"
+
+["BeaverBuddies.KeyBindings.Ping"]
+new = "Ping Location"
+status = "normal"
+
+["BeaverBuddies.Settings.PingPlayerName"]
+new = "Ping Display Name"
+status = "normal"
+
+["BeaverBuddies.Settings.PingPlayerName.Tooltip"]
+new = "The name shown to other players next to your pings."
+status = "normal"
+
+["BeaverBuddies.Settings.PingColor"]
+new = "Ping Color"
+status = "normal"
+
+["BeaverBuddies.Settings.PingColor.Tooltip"]
+new = "The color used to draw your pings on every player's screen."
+status = "normal"
+
+["BeaverBuddies.Settings.AllowDevTools"]
+new = "Dev tools"
+status = "normal"
+
+["BeaverBuddies.Settings.AllowDevTools.Tooltip"]
+new = "Lets every player use the dev tools. Changes made with them are synced. Dev tools that can't be synced are always blocked in co-op."
+status = "normal"
+
+["BeaverBuddies.DevTools.DisabledByHost"]
+new = "The host has disabled dev tools for this game."
+status = "normal"
+
+["BeaverBuddies.DevTools.NotSynced"]
+new = "This dev tool can't be used in co-op because it can't be synced."
+status = "normal"
+
+["BeaverBuddies.Settings.ShowPlayerCursors"]
+new = "Show Player Cursors"
+status = "normal"
+
+["BeaverBuddies.Settings.ShowPlayerCursors.Tooltip"]
+new = "Show where the other players are pointing and share your own cursor with them. Uses your ping color."
+status = "normal"
+
+["BeaverBuddies.Match.FindMatch"]
+new = "Quick match"
+status = "normal"
+
+["BeaverBuddies.Match.LookingExact"]
+new = "Looking for an opponent who picked {0}, {1}."
+status = "normal"
+
+["BeaverBuddies.Match.LookingSameMap"]
+new = "Looking for an opponent who picked {0}, any difficulty."
+status = "normal"
+
+["BeaverBuddies.Match.LookingAnyone"]
+new = "Looking for any opponent."
+status = "normal"
+
+["BeaverBuddies.Match.Waited"]
+new = "Waiting: {0} s"
+status = "normal"
+
+["BeaverBuddies.Match.Found"]
+new = "Found {0}! Settling the match..."
+status = "normal"
+
+["BeaverBuddies.Match.Against"]
+new = "Playing against {0}"
+status = "normal"
+
+["BeaverBuddies.Match.Map"]
+new = "Map: {0}"
+status = "normal"
+
+["BeaverBuddies.Match.Difficulty"]
+new = "Difficulty: {0}"
+status = "normal"
+
+["BeaverBuddies.Match.Factions"]
+new = "You play {0}, {1} plays {2}"
+status = "normal"
+
+["BeaverBuddies.Match.CoinFlip"]
+new = "(coin flip)"
+status = "normal"
+
+["BeaverBuddies.Match.StartingGame"]
+new = "Starting the game..."
+status = "normal"
+
+["BeaverBuddies.Match.WaitingForHost"]
+new = "{0} is starting the game..."
+status = "normal"
+
+["BeaverBuddies.Match.Joining"]
+new = "Joining {0}'s game..."
+status = "normal"
+
+["BeaverBuddies.Match.OpponentLeft"]
+new = "Your opponent left."
+status = "normal"
+
+["BeaverBuddies.Match.HostTimedOut"]
+new = "{0} couldn't start the game."
+status = "normal"
+
+["BeaverBuddies.Match.HostFailed"]
+new = "Couldn't host the match's game."
+status = "normal"
+
+["BeaverBuddies.Match.SteamFailed"]
+new = "Steam couldn't set up the match."
+status = "normal"
+
+["BeaverBuddies.Match.OpponentUpdating"]
+new = "{0} is getting this match's mods from the Steam Workshop and restarting. Waiting for them..."
+status = "normal"
+
+["BeaverBuddies.Match.Updating"]
+new = "{0} plays with mods you don't have. Getting them from the Steam Workshop ({1}/{2})... The game restarts by itself and goes back into the match."
+status = "normal"
+
+["BeaverBuddies.Match.Restarting"]
+new = "Restarting with the match's mods..."
+status = "normal"
+
+["BeaverBuddies.Match.ModsDiffer"]
+new = "Skipped an opponent whose mods differ from yours in a way the Steam Workshop can't fix."
+status = "normal"
+
+["BeaverBuddies.Match.ModsStillDiffer"]
+new = "Your mods still differ from your opponent's after the restart. Looking for someone else."
+status = "normal"
+
+["BeaverBuddies.Match.DownloadFailed"]
+new = "Steam couldn't download the match's mods."
+status = "normal"
+
+["BeaverBuddies.Match.RestartFailed"]
+new = "The game couldn't restart by itself. Restart it to play the match."
+status = "normal"
+
+["BeaverBuddies.Match.OpenMatches"]
+new = "Open matches"
+status = "normal"
+
+["BeaverBuddies.Match.ListLoading"]
+new = "Looking for open matches..."
+status = "normal"
+
+["BeaverBuddies.Match.ListEmpty"]
+new = "Nobody is waiting for an opponent right now. Refresh in a bit, or start a Quick match to wait for one yourself."
+status = "normal"
+
+["BeaverBuddies.Match.Refresh"]
+new = "Refresh"
+status = "normal"
+
+["BeaverBuddies.Match.GetsMods"]
+new = "(gets their mods first)"
+status = "normal"
+
+["BeaverBuddies.Match.Gone"]
+new = "That match isn't open anymore."
+status = "normal"
+
+["BeaverBuddies.Match.JoiningOpen"]
+new = "Joining {0}'s match..."
+status = "normal"
+
+["BeaverBuddies.Match.ModsTitle"]
+new = "Mods:"
+status = "normal"
+
+["BeaverBuddies.Match.ModMissing"]
+new = "(you don't have it)"
+status = "normal"
+
+["BeaverBuddies.Match.ModOtherVersion"]
+new = "(you have {0})"
+status = "normal"
+
+["BeaverBuddies.Match.ModsUnknown"]
+new = "Their mods aren't listed."
+status = "normal"
+
+["BeaverBuddies.Match.HostsTitle"]
+new = "Hosts"
+status = "normal"
+
+["BeaverBuddies.Match.DetailsTitle"]
+new = "Match"
+status = "normal"
+
+["BeaverBuddies.Match.Join"]
+new = "Join"
+status = "normal"
+
+["BeaverBuddies.Match.Host"]
+new = "Host: {0}"
+status = "normal"
+
+["BeaverBuddies.Match.HostFaction"]
+new = "Plays: {0}"
+status = "normal"
+
+["BeaverBuddies.Match.JoinByAddress"]
+new = "Join by address ►"
+status = "normal"
+
+["BeaverBuddies.Match.ListIntro"]
+new = "Pick a host to see their match. Choose your faction below, then Join: you play their map and difficulty."
+status = "normal"
+
+["BeaverBuddies.Match.FactionLabel"]
+new = "Your faction"
+status = "normal"
+
+["BeaverBuddies.Host.PickFriend"]
+new = "Pick a friend to invite. The invite shows up in their Steam chat."
+status = "normal"
+
+["BeaverBuddies.Host.NoFriendsOnline"]
+new = "None of your Steam friends are online."
+status = "normal"
+
+["BeaverBuddies.Host.PlayingThis"]
+new = "{0} (playing Timberborn)"
+status = "normal"
+
+["BeaverBuddies.Host.Invited"]
+new = "{0}: invited"
+status = "normal"
+
+["BeaverBuddies.Host.InviteFailed"]
+new = "{0}: Steam didn't send the invite"
+status = "normal"
+
+["BeaverBuddies.Menu.Discord"]
+new = "Join the mod's Discord: help, bug reports and players to team up with."
+status = "normal"
+
+["BeaverBuddies.Match.ShowIncompatible"]
+new = "Show incompatible matches"
+status = "normal"
+
+["BeaverBuddies.Match.Incompatible"]
+new = "(can't play together)"
+status = "normal"
+
+["BeaverBuddies.Match.IncompatibleTitle"]
+new = "You can't play this match:"
+status = "normal"
+
+["BeaverBuddies.Match.Incompatible.Game"]
+new = "They have Timberborn {0}, you have {1}. You both need the same version of the game."
+status = "normal"
+
+["BeaverBuddies.Match.Incompatible.LoggingTheirs"]
+new = "They have detailed logging on and you don't. Turn on \"Always Use Detailed Logging\" in the BeaverBuddies settings, or ask them to turn it off."
+status = "normal"
+
+["BeaverBuddies.Match.Incompatible.LoggingMine"]
+new = "You have detailed logging on and they don't. Turn off \"Always Use Detailed Logging\" in the BeaverBuddies settings, or ask them to turn it on."
+status = "normal"
+
+["BeaverBuddies.Match.Incompatible.Protocol"]
+new = "Their BeaverBuddies looks for matches differently from yours. Whoever has the older version needs to update."
+status = "normal"
+
+["BeaverBuddies.Match.Incompatible.Mods"]
+new = "Their game uses other mods, or other versions of them. To join a hosted game you need exactly the same ones."
+status = "normal"
+
+["BeaverBuddies.Match.Incompatible.OldMod"]
+new = "Their BeaverBuddies is too old to say what's different. Whoever has the older version needs to update."
+status = "normal"
+
+["BeaverBuddies.Match.ListEmptyHint"]
+new = "Players you can't play with are hidden. Tick \"Show incompatible matches\" under the list to see them, and why."
+status = "normal"
+
+["BeaverBuddies.Match.GameMode"]
+new = "Multiplayer mode"
+status = "normal"
+
+["BeaverBuddies.Match.GameMode.CoOp"]
+new = "Co-op"
+status = "normal"
+
+["BeaverBuddies.Match.GameMode.CoOp.Description"]
+new = "Everyone builds one settlement together."
+status = "normal"
+
+["BeaverBuddies.GameSettings.None"]
+new = "None"
+status = "normal"
+
+["BeaverBuddies.GameSettings.On"]
+new = "On"
+status = "normal"
+
+["BeaverBuddies.GameSettings.Off"]
+new = "Off"
+status = "normal"
+
+["BeaverBuddies.GameSettings.Defaults"]
+new = "Game settings: the defaults"
+status = "normal"
+
+["BeaverBuddies.GameSettings.Changed"]
+new = "Game settings: {0}"
+status = "normal"
+
+["BeaverBuddies.GameSettings.Heading"]
+new = "Game settings:"
+status = "normal"
+
+["BeaverBuddies.Menu.HostNewGame.Tooltip"]
+new = "Start a new game you host. You pick the map, multiplayer mode and game settings, and friends join from a Steam invite or your address."
+status = "normal"
+
+["BeaverBuddies.Menu.HostSavedGame.Tooltip"]
+new = "Host one of your saves. Friends join from a Steam invite or your address, and the game keeps the settings it was created with."
+status = "normal"
+
+["BeaverBuddies.Menu.JoinGame.Tooltip"]
+new = "Join a game by its host's address. On Steam, a friend's invite works too."
+status = "normal"
+
+["BeaverBuddies.Match.FindMatch.Tooltip"]
+new = "A 1v1 against another player over Steam who picked the same multiplayer mode. Players with the same map, difficulty and game settings are tried first. Where your picks differ, a coin flip decides, and whoever's map it is hosts."
+status = "normal"
+
+["BeaverBuddies.Match.OpenMatches.Tooltip"]
+new = "Players waiting for a quick match right now. Join one to play on their map, difficulty and settings."
+status = "normal"
+
+["BeaverBuddies.JoinInProgress.FailedToReload"]
+new = "The game couldn't be saved for the player joining it, so they weren't let in. Try again, or save and Host again."
+status = "normal"
+
+["Building.BeaverBuddies.TradingPost.DisplayName"]
+new = "Trading Post"
+status = "normal"
+
+["Building.BeaverBuddies.TradingPost.Description"]
+new = "Trades goods with the district across the border at a fixed rate."
+status = "normal"
+
+["Building.BeaverBuddies.TradingPost.FlavorDescription"]
+new = "A fair price is whatever both sides of the river agree on."
+status = "normal"
+
+["BeaverBuddies.Trading.Amount"]
+new = "Amount"
+status = "normal"
+
+["BeaverBuddies.Trading.Nothing"]
+new = "Nothing"
+status = "normal"
+
+["BeaverBuddies.Trading.Status.NotConfigured"]
+new = "Pick what this district gives and what it gets back."
+status = "normal"
+
+["BeaverBuddies.Trading.Status.NotConnected"]
+new = "Needs a different district on each side."
+status = "normal"
+
+["BeaverBuddies.Trading.Status.MissingGoodsHere"]
+new = "Waiting for this side's workers to bring the goods."
+status = "normal"
+
+["BeaverBuddies.Trading.Status.MissingGoodsThere"]
+new = "Waiting for the other side's workers to bring the goods."
+status = "normal"
+
+["BeaverBuddies.Trading.Status.NoSpaceHere"]
+new = "This side's half is full. Waiting for its workers to carry the goods away."
+status = "normal"
+
+["BeaverBuddies.Trading.Status.NoSpaceThere"]
+new = "The other side's half is full. Waiting for its workers to carry the goods away."
+status = "normal"
+
+["BeaverBuddies.Trading.Status.Traded"]
+new = "Trading."
+status = "normal"
+
+["BeaverBuddies.Trading.YouGive"]
+new = "You give"
+status = "normal"
+
+["BeaverBuddies.Trading.YouGet"]
+new = "You get"
+status = "normal"
+
+["BeaverBuddies.Trading.AddDeal"]
+new = "Add deal"
+status = "normal"
+
+["BeaverBuddies.Trading.Approve"]
+new = "Approve"
+status = "normal"
+
+["BeaverBuddies.Trading.Remove"]
+new = "Remove"
+status = "normal"
+
+["BeaverBuddies.Trading.ApprovedBy"]
+new = "{0} approved"
+status = "normal"
+
+["BeaverBuddies.Trading.WaitingFor"]
+new = "Waiting for {0}"
+status = "normal"
+
+["BeaverBuddies.Trading.UnknownDistrict"]
+new = "Other district"
+status = "normal"
+
+["BeaverBuddies.Trading.Status.AwaitingApproval"]
+new = "Waiting for both sides to approve."
+status = "normal"
+
+["BeaverBuddies.Trading.OnlyOwnerCanEdit"]
+new = "Only {0} can change this district's deals."
+status = "normal"
+
+["Building.BeaverBuddies.PowerExchange.DisplayName"]
+new = "Power Exchange"
+status = "normal"
+
+["Building.BeaverBuddies.PowerExchange.Description"]
+new = "Sells power from one district's network to the district across the border."
+status = "normal"
+
+["Building.BeaverBuddies.PowerExchange.FlavorDescription"]
+new = "Every gear has its price."
+status = "normal"
+
+["BeaverBuddies.PowerExchange.StartSelling"]
+new = "Sell from this side"
+status = "normal"
+
+["BeaverBuddies.PowerExchange.StopSelling"]
+new = "Stop selling"
+status = "normal"
+
+["BeaverBuddies.PowerExchange.Selling"]
+new = "This side sells power to the other."
+status = "normal"
+
+["BeaverBuddies.PowerExchange.Buying"]
+new = "This side buys power. Prices per hour:"
+status = "normal"
+
+["BeaverBuddies.PowerExchange.NotSelling"]
+new = "Neither side sells power yet."
+status = "normal"
+
+["BeaverBuddies.PowerExchange.MaxPower"]
+new = "Max power"
+status = "normal"
+
+["BeaverBuddies.PowerExchange.Power"]
+new = "Power"
+status = "normal"
+
+["BeaverBuddies.PowerExchange.Good"]
+new = "Paid with"
+status = "normal"
+
+["BeaverBuddies.PowerExchange.Amount"]
+new = "Amount"
+status = "normal"
+
+["BeaverBuddies.PowerExchange.AddPrice"]
+new = "Add price"
+status = "normal"
+
+["BeaverBuddies.PowerExchange.RemovePrice"]
+new = "Remove"
+status = "normal"
+
+["BeaverBuddies.PowerExchange.PriceLine"]
+new = "{0} hp for {1} {2}"
+status = "normal"
+
+["BeaverBuddies.PowerExchange.NoPrices"]
+new = "No prices set yet."
+status = "normal"
+
+["BeaverBuddies.PowerExchange.Hp"]
+new = "{0} hp"
+status = "normal"
+
+["BeaverBuddies.PowerExchange.Status.NotConnected"]
+new = "Needs another Power Exchange half behind it, across the district border."
+status = "normal"
+
+["BeaverBuddies.PowerExchange.Status.NoShaft"]
+new = "Connect a power shaft to each half."
+status = "normal"
+
+["BeaverBuddies.PowerExchange.Status.NoPrices"]
+new = "Set at least one price."
+status = "normal"
+
+["BeaverBuddies.PowerExchange.Status.NotNeeded"]
+new = "The buying side doesn't need power right now."
+status = "normal"
+
+["BeaverBuddies.PowerExchange.Status.NoSurplus"]
+new = "The selling side has no power to spare."
+status = "normal"
+
+["BeaverBuddies.PowerExchange.Status.WaitingForPayment"]
+new = "Waiting for the buyer's workers to bring the payment."
+status = "normal"
+
+["BeaverBuddies.PowerExchange.Status.SellerFull"]
+new = "The seller's half is full. Waiting for its workers to unload the payments."
+status = "normal"
+
+["BeaverBuddies.PowerExchange.Status.Sending"]
+new = "Sending {0} hp (max {1} hp)."
+status = "normal"
+
+["BeaverBuddies.Trades.Tab"]
+new = "Trades"
+status = "normal"
+
+["BeaverBuddies.Trades.TradingPostHeader"]
+new = "Trading Post: {0} ⇄ {1}"
+status = "normal"
+
+["BeaverBuddies.Trades.PowerExchangeHeader"]
+new = "Power Exchange: {0} ⇄ {1}"
+status = "normal"
+
+["BeaverBuddies.Trades.SellFrom"]
+new = "Neither side sells power. {0} can start selling."
+status = "normal"
+
+["BeaverBuddies.Trades.SellsTo"]
+new = "{0} sells power to {1}"
+status = "normal"
+
+["BeaverBuddies.Trades.Deals"]
+new = "Deals"
+status = "normal"
+
+["BeaverBuddies.Trades.PowerPrices"]
+new = "Power exchange"
+status = "normal"
+
+["BeaverBuddies.Trades.ManageTrades"]
+new = "Manage trades"
+status = "normal"
+
+["BeaverBuddies.Trades.DealLine"]
+new = "{0} {1} for {2} {3} ({4})"
+status = "normal"
+
+["BeaverBuddies.Trades.DealState.Active"]
+new = "active"
+status = "normal"
+
+["BeaverBuddies.Trades.DealState.Pending"]
+new = "waiting for approval"
+status = "normal"
+
+["BeaverBuddies.Trades.NoDeals"]
+new = "No deals yet."
+status = "normal"
+
+["BeaverBuddies.KeyBindings.TradesTab"]
+new = "Open Trades tab"
+status = "normal"
+
+["Building.BeaverBuddies.TollStation.DisplayName"]
+new = "Toll Station"
+status = "normal"
+
+["Building.BeaverBuddies.TollStation.Description"]
+new = "Lets your beavers ride another district's ziplines for a toll."
+status = "normal"
+
+["Building.BeaverBuddies.TollStation.FlavorDescription"]
+new = "Mind the gap, pay the beaver."
+status = "normal"
+
+["BeaverBuddies.Toll.Header"]
+new = "Toll"
+status = "normal"
+
+["BeaverBuddies.Toll.NamedHeader"]
+new = "{0}: {1} on {2}'s ziplines"
+status = "normal"
+
+["BeaverBuddies.Toll.DefaultName"]
+new = "{0} Toll"
+status = "normal"
+
+["BeaverBuddies.Toll.NotSet"]
+new = "No toll set"
+status = "normal"
+
+["BeaverBuddies.Toll.Free"]
+new = "Free"
+status = "normal"
+
+["BeaverBuddies.Toll.PerRide"]
+new = "{0} {1} per ride"
+status = "normal"
+
+["BeaverBuddies.Toll.Good"]
+new = "Toll"
+status = "normal"
+
+["BeaverBuddies.Toll.Amount"]
+new = "Amount"
+status = "normal"
+
+["BeaverBuddies.Toll.Close"]
+new = "Close"
+status = "normal"
+
+["BeaverBuddies.Toll.Open"]
+new = "Open"
+status = "normal"
+
+["BeaverBuddies.Toll.Status.NotConnected"]
+new = "Connect it to a zipline tower."
+status = "normal"
+
+["BeaverBuddies.Toll.Status.OwnNetwork"]
+new = "Connected to its own district's ziplines."
+status = "normal"
+
+["BeaverBuddies.Toll.Status.NoToll"]
+new = "Waiting for {0} to set a toll."
+status = "normal"
+
+["BeaverBuddies.Toll.Status.Closed"]
+new = "Closed by {0}."
+status = "normal"
+
+["BeaverBuddies.Toll.Status.Paused"]
+new = "Paused."
+status = "normal"
+
+["BeaverBuddies.Toll.Status.OutOfGoods"]
+new = "Out of toll goods. Waiting for workers to bring more."
+status = "normal"
+
+["BeaverBuddies.Toll.Status.NoSpace"]
+new = "Toll storage is full. Waiting for {0}'s haulers to collect the tolls."
+status = "normal"
+
+["BeaverBuddies.Toll.Status.NetworkBusy"]
+new = "Another district already rides {0}'s ziplines."
+status = "normal"
+
+["BeaverBuddies.Toll.Status.Open"]
+new = "Open. Beavers can ride {0}'s ziplines."
+status = "normal"
+
+["BeaverBuddies.Toll.Problem.NotConnected"]
+new = "Its roads don't reach any district. It opens once another toll station on this network is open."
+status = "normal"
+
+["BeaverBuddies.Toll.Problem.NotConnected.Short"]
+new = "Toll station waiting for a district"
+status = "normal"
+
+["BeaverBuddies.Toll.Problem.NoToll"]
+new = "Waiting for the network's owner to set a toll."
+status = "normal"
+
+["BeaverBuddies.Toll.Problem.NoToll.Short"]
+new = "Toll not set"
+status = "normal"
+
+["BeaverBuddies.Toll.Problem.Closed"]
+new = "Closed by the network's owner."
+status = "normal"
+
+["BeaverBuddies.Toll.Problem.Closed.Short"]
+new = "Toll station closed"
+status = "normal"
+
+["BeaverBuddies.Toll.Problem.NetworkBusy"]
+new = "Another district already rides this network."
+status = "normal"
+
+["BeaverBuddies.Toll.Problem.NetworkBusy.Short"]
+new = "Zipline network in use"
+status = "normal"
+
+["BeaverBuddies.Toll.Problem.OutOfGoods"]
+new = "Out of toll goods. Beavers can get off here but not on until workers bring more."
+status = "normal"
+
+["BeaverBuddies.Toll.Problem.OutOfGoods.Short"]
+new = "No toll goods"
+status = "normal"
+
+["BeaverBuddies.Toll.Problem.NoSpace"]
+new = "Toll storage is full. Beavers can get off here but not on until the network owner's haulers collect the tolls."
+status = "normal"
+
+["BeaverBuddies.Toll.Problem.NoSpace.Short"]
+new = "Toll storage full"
+status = "normal"
+
+["Building.BeaverBuddies.TollTubeStation.DisplayName"]
+new = "Toll Tube Station"
+status = "normal"
+
+["Building.BeaverBuddies.TollTubeStation.Description"]
+new = "Lets your beavers ride another district's tubeway for a toll."
+status = "normal"
+
+["Building.BeaverBuddies.TollTubeStation.FlavorDescription"]
+new = "Claustrophobic beavers pay double."
+status = "normal"
+
+["BeaverBuddies.Toll.Status.NotConnected.Tube"]
+new = "Place it next to another district's tubeway."
+status = "normal"
+
+["BeaverBuddies.Toll.Status.OwnNetwork.Tube"]
+new = "Connected to its own district's tubeways."
+status = "normal"
+
+["BeaverBuddies.Toll.Status.NetworkBusy.Tube"]
+new = "Another district already rides {0}'s tubeways."
+status = "normal"
+
+["BeaverBuddies.Toll.Status.Open.Tube"]
+new = "Open. Beavers can ride {0}'s tubeways."
+status = "normal"
+
+["BeaverBuddies.Toll.NamedHeader.Tube"]
+new = "{0}: {1} on {2}'s tubeways"
+status = "normal"
+
+["BeaverBuddies.Toll.Problem.NetworkBusy.Short.Tube"]
+new = "Tubeway network in use"
+status = "normal"
+
+["BeaverBuddies.Toll.Collected"]
+new = "Tolls waiting for pickup: {0}"
+status = "normal"
+
+["BeaverBuddies.Trading.Problem.Pending"]
+new = "A trade deal is waiting for your approval. Open the Trades tab to accept it."
+status = "normal"
+
+["BeaverBuddies.Trading.Problem.Pending.Short"]
+new = "Trade deal to approve"
+status = "normal"

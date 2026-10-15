@@ -68,3 +68,7 @@ koKR = "재료가 부족하지 않습니다. 모든 건설 현장이 완전히 �
 csCZ = "Žádné materiály nechybí. Každé staveniště je plně zásobeno."
 viVN = "Không thiếu vật liệu nào. Mọi công trường đều được cung cấp đầy đủ."
 trTR = "Hiçbir malzeme eksik değil. Her inşaat alanı tamamen stoklu."
+
+["AcademicsTodoList.PinHint"]
+new = "Click a good to keep it on the bar. Click it again to go back to the biggest shortage."
+status = "normal"

@@ -54,6 +54,7 @@ trTR = "Oynama verilerinizi paylaşın"
 
 ["AnalyticsConsent.Info"]
 raw = "Hãy giúp chúng tôi phát triển trò chơi dựa trên dữ liệu về cách mà bạn chơi Timberborn.\n\nNếu bạn đồng ý, chúng tôi sẽ tự động thu thập các thông tin liên quan đến lối chơi của bạn trong các phiên chơi game.\n\nBất kỳ lúc nào, bạn có thể đi tới phần Cài đặt để thu hồi sự đồng ý và xóa dữ liệu của bạn. Để biết thêm thông tin, hãy tham khảo <link><u>privacy policy</u></link>.\n\nXin cảm ơn!"
+new = "Hãy giúp chúng tôi phát triển trò chơi dựa trên dữ liệu về cách mà bạn chơi Timberborn. Nếu bạn đồng ý, chúng tôi sẽ tự động thu thập các thông tin liên quan đến lối chơi của bạn trong các phiên chơi game. Bất kỳ lúc nào, bạn có thể đi tới phần Cài đặt để thu hồi sự đồng ý và xóa dữ liệu của bạn. Để biết thêm thông tin, hãy tham khảo privacy policy. Xin cảm ơn!"
 status = "normal"
 enUS = "Help us improve the game based on data about how you play Timberborn.\n\nIf you agree, we will automatically collect information related to your gameplay during gaming sessions.\n\nAt any time, you can go to the Settings section to withdraw your consent and delete your data. For more information, please refer to the <link><u>privacy policy</u></link>.\n\nThank you!"
 zhCN = "请帮助我们根据您在 Timberborn 中的游戏方式发展游戏。\n\n如果您同意，我们将自动收集与您的游戏会话相关的信息。\n\n您可以随时前往设置部分撤回同意并删除您的数据。有关更多信息，请参考 <link><u>隐私政策</u></link>。\n\n感谢您的支持！"
@@ -341,6 +342,30 @@ csCZ = "B"
 viVN = "B"
 trTR = "B"
 
+["Automation.Input.C"]
+new = "C"
+status = "normal"
+
+["Automation.Input.D"]
+new = "D"
+status = "normal"
+
+["Automation.Input.E"]
+new = "E"
+status = "normal"
+
+["Automation.Input.F"]
+new = "F"
+status = "normal"
+
+["Automation.Input.G"]
+new = "G"
+status = "normal"
+
+["Automation.Input.H"]
+new = "H"
+status = "normal"
+
 ["Automation.Input.Reset"]
 raw = "RST"
 status = "normal"
@@ -477,6 +502,10 @@ csCZ = "Zafixováno pouze při zapnutí"
 viVN = "Chỉ ghim khi bật"
 trTR = "Açıkken sadece sabitle"
 
+["Automation.RemoveRow"]
+new = "Xóa hàng"
+status = "normal"
+
 ["Automation.ResetButton"]
 raw = "Reset"
 status = "normal"
@@ -513,6 +542,7 @@ trTR = "Devreyi sıfırla"
 
 ["Automation.ResetsWhenResetInput"]
 raw = "Đặt lại khi <YellowHighlight>{0}</YellowHighlight>."
+new = "Đặt lại khi {0}."
 status = "normal"
 enUS = "Reset when <YellowHighlight>{0}</YellowHighlight>."
 zhCN = "当<YellowHighlight>{0}</YellowHighlight>时重置。"
@@ -715,6 +745,30 @@ csCZ = "Distribuce"
 viVN = "Phân bổ"
 trTR = "Dağıtım"
 
+["BatchControl.GoodStatistics"]
+new = "Thống kê Hàng hóa"
+status = "normal"
+
+["BatchControl.GoodStatisticsType.Consumption"]
+new = "Tiêu thụ"
+status = "normal"
+
+["BatchControl.GoodStatisticsType.Export"]
+new = "Xuất"
+status = "normal"
+
+["BatchControl.GoodStatisticsType.Import"]
+new = "Nhập"
+status = "normal"
+
+["BatchControl.GoodStatisticsType.Production"]
+new = "Sản xuất"
+status = "normal"
+
+["BatchControl.GoodStatisticsType.Stock"]
+new = "Tồn kho"
+status = "normal"
+
 ["BatchControl.Housing"]
 raw = "Nhà ở"
 status = "normal"
@@ -800,6 +854,42 @@ csCZ = "Populace"
 viVN = "Dân cư"
 trTR = "Nüfus"
 
+["BatchControl.PopulationStatistics"]
+new = "Thống kê Dân số"
+status = "normal"
+
+["BatchControl.PopulationStatistics.BeaverEmployment"]
+new = "Việc làm của Hải ly"
+status = "normal"
+
+["BatchControl.PopulationStatistics.Births"]
+new = "Sinh"
+status = "normal"
+
+["BatchControl.PopulationStatistics.BotCreations"]
+new = "Robot được tạo"
+status = "normal"
+
+["BatchControl.PopulationStatistics.BotDestructions"]
+new = "Robot bị hỏng"
+status = "normal"
+
+["BatchControl.PopulationStatistics.BotEmployment"]
+new = "Việc làm của Robot"
+status = "normal"
+
+["BatchControl.PopulationStatistics.Deaths"]
+new = "Chết"
+status = "normal"
+
+["BatchControl.PopulationStatistics.PopulationAverage"]
+new = "Trung bình dân số"
+status = "normal"
+
+["BatchControl.PopulationStatistics.PopulationTurnover"]
+new = "Biến động dân số"
+status = "normal"
+
 ["BatchControl.ShowInfo"]
 raw = "Quản lý khu"
 status = "normal"
@@ -833,6 +923,14 @@ koKR = "저장소"
 csCZ = "Sklad"
 viVN = "Kho"
 trTR = "Depo"
+
+["BatchControl.TimeRange.AllTime"]
+new = "Từ trước đến nay"
+status = "normal"
+
+["BatchControl.TimeRange.Days"]
+new = "Ngày"
+status = "normal"
 
 ["BatchControl.Workplaces"]
 raw = "Nơi làm việc"
@@ -1312,6 +1410,7 @@ trTR = "Çalışma Hızı"
 
 ["Bot.BeaversPerished"]
 raw = "Đừng nhắc về lũ Hải ly.\nChúng từng có tất cả. Không khí trong lành. Nước sạch.\nGiờ tất cả chỉ còn là ký ức mơ hồ. "
+new = "Đừng nhắc về lũ Hải ly. Chúng từng có tất cả. Không khí trong lành. Nước sạch. Giờ tất cả chỉ còn là ký ức mơ hồ."
 status = "normal"
 enUS = "Don't mention the beavers. They once had it all. Fresh air. Clean water. Now, all that remains is a vague memory."
 zhCN = "“别提河狸了。\n它们曾经拥有一切。清新的空气。洁净的水。\n现在一切只剩下模糊的记忆。”"
@@ -1650,6 +1749,18 @@ csCZ = "Když se rozsvítí modrá lampa, je to znamení pro Dřevorubce, aby se
 viVN = "Khi đèn hiệu màu xanh được thắp sáng, đó là dấu hiệu để các Đuôi Mộc tụ tập lại."
 trTR = "Mavi sinyal ışığı yandığında, bu Ahşap Kuyrukların toplanması için bir işarettir."
 
+["Building.Airlock.Description"]
+new = "Ngăn nước chảy, nhưng cho phép Hải ly đi qua."
+status = "normal"
+
+["Building.Airlock.DisplayName"]
+new = "Cửa ngăn nước"
+status = "normal"
+
+["Building.Airlock.FlavorDescription"]
+new = "Cỏ bên kia đôi khi cũng xanh hơn."
+status = "normal"
+
 ["Building.AncientAquiferDrill.DisplayName"]
 raw = "Máy Khoan Mạch Nước Ngầm Cổ Đại"
 status = "normal"
@@ -1684,8 +1795,17 @@ csCZ = "Poslední snaha lidstva o obnovení toho, co bylo ztraceno."
 viVN = "Nỗ lực cuối cùng của loài người nhằm khôi phục những gì đã mất."
 trTR = "İnsanoğlunun kaybettiklerini geri kazanma konusundaki son çabası."
 
+["Building.ArchOfProgress.DisplayName"]
+new = "Khải Hoàn Môn Tiến Bộ"
+status = "normal"
+
+["Building.ArchOfProgress.FlavorDescription"]
+new = "Câu châm ngôn được khắc lên: “Ta đến, ta thấy, ta xây.”"
+status = "normal"
+
 ["Building.AquaticFarmhouse.Description"]
 raw = "Tuyển dụng nông dân chuyên phụ trách để trồng và thu hoạch cây trồng <YellowHighlight>Thủy sinh</YellowHighlight>."
+new = "Tuyển dụng nông dân chuyên phụ trách để trồng và thu hoạch cây trồng Thủy sinh."
 status = "normal"
 enUS = "Recruit a farmer specifically responsible for planting and harvesting <YellowHighlight>Aquatic</YellowHighlight> crops."
 zhCN = "招聘专门负责种植和收获<YellowHighlight>水生</YellowHighlight>作物的农民。"
@@ -1888,57 +2008,6 @@ csCZ = "„Hooman používá trubku, aby tohle udělal? Ẹ.“ —Pina"
 viVN = "“Người dùng ống để làm việc này á? Ẹ.” —Pina"
 trTR = "“İnsan bunun için boru mu kullanıyor? Ẹ.” —Pina"
 
-["Building.BadwaterDischarge.Description"]
-raw = "Bịt kín Nguồn Nước Độc. Có thể đóng hoặc mở. Khi mở, Nước Độc vẫn chảy ngay cả trong thời kỳ Hạn Hán."
-status = "normal"
-enUS = "Seal the Poison Water Source. Can be closed or opened. When opened, Poison Water continues to flow even during drought."
-zhCN = "封闭有毒水源。可以开启或关闭。当开启时，即使在干旱期，有毒水仍会流动。"
-zhTW = "封閉有毒水源。可以打開或關閉。當打開時，即使在乾旱期間，有毒水仍會流出。"
-ruRU = "Закрытие Источника Ядовитой Воды. Может быть выключено или включено. При включении ядовитая вода продолжает течь даже в период засухи."
-jaJP = "「有害水源を密閉します。開閉が可能です。開いているときは、干ばつの間も有害な水が流れ続けます。」"
-frFR = "Fermez la Source d'Eau Contaminée. Peut être ouvert ou fermé. Lorsqu'il est ouvert, l'Eau Contaminée continue de s'écouler même en période de sécheresse."
-deDE = "Versiegelte Giftquelle. Kann geschlossen oder geöffnet werden. Bei offenem Zustand fließt das Giftwasser auch während der Dürrezeit."
-plPL = "Zablokuj źródło wody toksycznej. Można zamknąć lub otworzyć. Po otwarciu woda toksyczna nadal płynie nawet w okresie suszy."
-ptBR = "Vedar Fonte de Água Tóxica. Pode ser fechado ou aberto. Quando aberto, a Água Tóxica ainda flui mesmo durante períodos de Secas."
-koKR = "독성 수원 차단. 열거나 닫을 수 있습니다. 열었을 때, 가뭄 기간에도 독성 물이 계속 흐릅니다."
-csCZ = "Uzavřít zdroj toxické vody. Lze uzavřít nebo otevřít. Při otevření toxická voda stále teče i v období sucha."
-viVN = "Bịt kín Nguồn Nước Độc. Có thể đóng hoặc mở. Khi mở, Nước Độc vẫn chảy ngay cả trong thời kỳ Hạn Hán."
-trTR = "Kirletic Su Kaynağını Kapat. Açık veya kapalı olabilir. Açık olduğunda, Kirletic Su Döneminde bile akar."
-
-["Building.BadwaterDischarge.DisplayName"]
-raw = "Van Xả Nước Độc"
-status = "normal"
-enUS = "Pollution Discharge Valve"
-zhCN = "毒水排放口"
-zhTW = "毒水排放口"
-ruRU = "Сброс Токсичных Вод"
-jaJP = "毒水排出装置"
-frFR = "Vidange des eaux usées"
-deDE = "Schmutzwasserableitung"
-plPL = "Wypust Wody Toksycznej"
-ptBR = "Válvula de Esgoto"
-koKR = "독성 배수구"
-csCZ = "Vypouštění jedovaté vody"
-viVN = "Van Xả Nước Độc"
-trTR = "Zehirli Su Deşarjı Vanası"
-
-["Building.BadwaterDischarge.FlavorDescription"]
-raw = "Chỉ kỹ sư “xịn” mới được lại gần."
-status = "normal"
-enUS = "Only the 'elite' engineers are allowed to come close."
-zhCN = "只有“高级”工程师才能靠近。"
-zhTW = "只有真正的工程師才能靠近。"
-ruRU = "Только «крутым» инженерам разрешено подходить близко."
-jaJP = "優れたエンジニアだけが近くに寄ることができます。"
-frFR = "Seuls les ingénieurs 'débutants' peuvent s'approcher."
-deDE = "Nur „echte“ Ingenieure dürfen sich nähern."
-plPL = "Tylko prawdziwi inżynierowie mogą się zbliżyć."
-ptBR = "Apenas engenheiros 'top' podem chegar perto."
-koKR = "오직 '진짜' 엔지니어만 가까이 다가갈 수 있습니다."
-csCZ = "Jen kvalitní inženýři se mohou přiblížit."
-viVN = "Only elite engineers are allowed nearby."
-trTR = "Sadece 'özel' mühendisler yakına yaklaşabilir."
-
 ["Building.BadwaterDome.Description"]
 raw = "Bịt kín Nguồn Nước Độc. Có thể mở hoặc đóng tùy ý."
 status = "normal"
@@ -1975,6 +2044,7 @@ trTR = "Zehirli Su Kubbesi"
 
 ["Building.BadwaterDome.FlavorDescription"]
 raw = "Không có Nước Độc, chẳng cần buồn."
+new = "Không Nước Độc, chẳng có gì phải lo."
 status = "normal"
 enUS = "No toxic water, no need to worry."
 zhCN = "没有污染水，没必要忧虑。"
@@ -1989,6 +2059,18 @@ koKR = "독성이 없는 물, 슬퍼할 필요 없어."
 csCZ = "Žádná jedovatá voda, žádné starosti."
 viVN = "Không có Nước Độc, chẳng cần buồn."
 trTR = "Kirli Su Yok, hiç üzülmeye gerek yok."
+
+["Building.BadwaterPressurizer.Description"]
+new = "Bịt kín một Nguồn Nước độc. Có thể mở hoặc đóng. Khi mở, nước độc vẫn chảy ngay cả trong mùa hạn."
+status = "normal"
+
+["Building.BadwaterPressurizer.DisplayName"]
+new = "Bộ Điều Áp Nước Độc"
+status = "normal"
+
+["Building.BadwaterPressurizer.FlavorDescription"]
+new = "Chỉ kỹ sư xây dựng đích thực mới được phép lại gần."
+status = "normal"
 
 ["Building.BadwaterPump.Description"]
 raw = "Máy bơm gia cố có thể hút Nước Độc. Khi mức ô nhiễm thấp, tốc độ bơm sẽ giảm."
@@ -2264,6 +2346,7 @@ trTR = "Kışla"
 
 ["Building.Barrack.FlavorDescription"]
 raw = "\"Nguyên team Đuôi Mộc đi vào bar...rack (doanh trại)!\" - Trò đùa của Nanh Sắt. "
+new = "\"Nguyên team Đuôi Mộc đi vào bar...rack (doanh trại)!\" - Trò đùa của Nanh Sắt."
 status = "normal"
 enUS = "\"The Wood Tail team walks into the bar...rack (barracks)!\" - A joke by Iron Fang."
 zhCN = "“木头队的队伍走进了兵营…rack (营地)！” - 钢牙的玩笑。"
@@ -2400,6 +2483,7 @@ trTR = "Verimli bir yıl boyunca gururlanmanıza, ... ya da zayıf bir yılda a�
 
 ["Building.BeaverStatue.FlavorDescription.IronTeeth"]
 raw = "Thiết kế ban đầu có cả liềm, nhưng đi cùng với búa thì giống lũ Đuôi Mộc quá. "
+new = "Thiết kế ban đầu có cả liềm, nhưng đi cùng với búa thì giống lũ Đuôi Mộc quá."
 status = "normal"
 enUS = "The original design included a sickle, but with the hammer it looks too much like the Wood Tail gang."
 zhCN = "最初的设计包含了镰刀，但与锤子一起看起来太像树獾了。"
@@ -3384,6 +3468,18 @@ csCZ = "Kdyby nebylo omezení spotřeby, Ráďák by nikdy nespal."
 viVN = "Without consumption limits, Iron Tooth would probably never sleep."
 trTR = "Şayet tüketim sınırlaması olmasaydı, Kesik Diş asla uyumazdı."
 
+["Building.CompactMechanicalPump.Description"]
+new = "Hút nước hoặc nước độc từ một phía và xả sang phía bên kia."
+status = "normal"
+
+["Building.CompactMechanicalPump.DisplayName"]
+new = "Máy bơm Cơ khí Nhỏ gọn"
+status = "normal"
+
+["Building.CompactMechanicalPump.FlavorDescription"]
+new = "Suốt ngày hút với hít."
+status = "normal"
+
 ["Building.CompactWaterWheel.Description"]
 raw = "Cỗ máy nhỏ gọn biến dòng chảy thành năng lượng."
 status = "normal"
@@ -3724,6 +3820,18 @@ csCZ = "„Náhodou, nestůj tam jako nudní Oceloví Chlapci!“ —Suli"
 viVN = "“Nào, đừng đứng đó như mấy tên Nanh Sắt chán ngắt nữa!” —Suli"
 trTR = "“Hadi, orada sıkıcı Demir Dişler gibi durma artık!” —Suli"
 
+["Building.DancePit.Description"]
+new = "Một hố bùn nơi hải ly có thể nhảy nhót để xả stress."
+status = "normal"
+
+["Building.DancePit.DisplayName"]
+new = "Hố Nhảy"
+status = "normal"
+
+["Building.DancePit.FlavorDescription"]
+new = "Nơi để đến sau khi hoàn thành chỉ tiêu. Mà không hoàn thành thì vẫn đến."
+status = "normal"
+
 ["Building.DecontaminationPod.Description"]
 raw = "Bể tắm giúp hải ly hồi phục sau khi tiếp xúc với Nước Độc."
 status = "normal"
@@ -3860,22 +3968,9 @@ csCZ = "Dlouhá trubka zajišťuje zpracování jak výškového rozdílu, tak z
 viVN = "Ống dẫn dài hơn giúp xử lý cả chênh lệch độ cao lẫn mùi hôi."
 trTR = "Daha uzun bir boru, hem yükseklik farkını hem de kötü kokuları işlemeye yardımcı olur."
 
-["Building.DeepMechanicalFluidPump.DisplayName"]
-raw = "Máy Bơm Chất Lỏng Cơ Khí Sâu"
+["Building.DeepMechanicalPump.DisplayName"]
+new = "Máy Bơm Cơ Khí Sâu"
 status = "normal"
-enUS = "Deep Mechanical Fluid Pump"
-zhCN = "深层机械液体泵"
-zhTW = "深層機械液體泵"
-ruRU = "Глубокий механический насос жидкости"
-jaJP = "深部機械液体ポンプ"
-frFR = "Pompe à Fluide Mécanique Profonde"
-deDE = "Tiefenmechanische Flüssigkeitspumpe"
-plPL = "Pompa Głębokich Cieczy Mechanicznych"
-ptBR = "Bomba de Fluido Mecânico Profunda"
-koKR = "깊은 기계 액체 펌프"
-csCZ = "Hloubkový mechanický čerpadlo na kapaliny"
-viVN = "Máy Bơm Chất Lỏng Cơ Khí Sâu"
-trTR = "Derin Mekanik Sıvı Pompası"
 
 ["Building.DeepWaterPump.Description"]
 raw = "Bơm và lọc nước cho hải ly uống. Ô nhiễm Nước Độc làm giảm tốc độ bơm."
@@ -4115,6 +4210,14 @@ csCZ = "To není vrtná mašina!"
 viVN = " Đây không phải là máy khoan!"
 trTR = "Bu bir delici değil!"
 
+["Building.Discharge.Description"]
+new = "Xả nước hoặc nước độc."
+status = "normal"
+
+["Building.Discharge.DisplayName"]
+new = "Cửa Xả"
+status = "normal"
+
 ["Building.Discharge.FlavorDescription"]
 raw = "“Cho ta đủ xô, ta sẽ dời cả hồ nước.” —Ol' Kazko"
 status = "normal"
@@ -4132,8 +4235,13 @@ csCZ = "„Když nám dáte dost kbelíků, přestěhujeme celé jezero.“ —O
 viVN = "“Cho ta đủ xô, ta sẽ dời cả hồ nước.” —Ol' Kazko"
 trTR = "“Bize yeterince kova verin, gölü bile taşırız.” —Ol' Kazko"
 
+["Building.Discharge.ToggleLabel"]
+new = "Chất lỏng"
+status = "normal"
+
 ["Building.DistrictCenter.Description"]
 raw = "Thiết lập một khu vực với dân số, hàng hóa và mạng lưới đường riêng biệt.\nĐặc biệt: Tuyển thợ xây."
+new = "Thiết lập một khu vực với dân số, hàng hóa và mạng lưới đường riêng biệt. Đặc biệt: Tuyển thợ xây."
 status = "normal"
 enUS = "Establish a district with a separate population, goods, and road network. Special: Hire builders."
 zhCN = "设置一个拥有独立人口、商品和道路网络的区域。  \n特别：招募建筑工。"
@@ -4250,6 +4358,18 @@ koKR = "왜 비버가 구역을 가로지르는 걸까? (cross a road)"
 csCZ = "Proč by bobr přecházel přes čtvrť? (přejít silnici)"
 viVN = "Vì sao một con hải ly lại băng qua khu? (băng qua một con đường)"
 trTR = "Bir kunduz neden bir bölgeden geçiyor? (bir yolu geçmek)"
+
+["Building.DomedGarden.Description"]
+new = "Một nơi bình yên để thư giãn, trải nghiệm thiên nhiên."
+status = "normal"
+
+["Building.DomedGarden.DisplayName"]
+new = "Vườn Mái vòm"
+status = "normal"
+
+["Building.DomedGarden.FlavorDescription"]
+new = "Một nơi để ngắm thiên nhiên... hoặc con đập gần đó."
+status = "normal"
 
 ["Building.DoubleDynamite.DisplayName"]
 raw = "Thuốc Nổ Kép"
@@ -4661,6 +4781,7 @@ trTR = "Yerküre Yeniden Yerleştirme Cihazı"
 
 ["Building.EarthRepopulator.IronTeeth.FlavorDescription"]
 raw = "Sau một vài lần phóng thử với máy bắn đá, thiết kế này được chọn. "
+new = "Sau một vài lần phóng thử với máy bắn đá, thiết kế này được chọn."
 status = "normal"
 enUS = "After several test launches with the catapult, this design was chosen."
 zhCN = "在几次用投石机的试射后，选择了这个设计。"
@@ -4678,6 +4799,7 @@ trTR = "Birkaç taş fırlatıcı denemesinden sonra bu tasarım seçildi."
 
 ["Building.EfficientFarmhouse.Description"]
 raw = "Tuyển nông dân trồng và thu hoạch cây trồng. \n\nThiết kế mở rộng của Đuôi Mộc chứa được nhiều nông dân hơn."
+new = "Tuyển nông dân trồng và thu hoạch cây trồng. Thiết kế mở rộng của Đuôi Mộc chứa được nhiều nông dân hơn."
 status = "normal"
 enUS = "Recruit farmers to plant and harvest crops.\n\nThe expanded design of the Lumber Tail can accommodate more farmers."
 zhCN = "“招募农民种植和收获作物。\n\n扩展设计的木尾能够容纳更多农民。”"
@@ -5356,57 +5478,6 @@ csCZ = "Snímač Průtoku"
 viVN = "Cảm Biến Dòng Chảy"
 trTR = "Akış Sensörü"
 
-["Building.FluidDump.Description"]
-raw = "Xả Nước hoặc Nước Độc."
-status = "normal"
-enUS = "Drain Water or Polluted Water."
-zhCN = "排水或有毒水。"
-zhTW = "排水或毒水。"
-ruRU = "Скидывать воду или токсичные жидкости."
-jaJP = "水か毒水を排出する。"
-frFR = "Décharge d'eau ou eau toxique."
-deDE = "Abwasser oder Giftwasser ablassen."
-plPL = "Wypuść wodę lub wodę toksyczną."
-ptBR = "Descarregar Água ou Água Tóxica."
-koKR = "물 또는 독물 배출."
-csCZ = "Vyprázdnit vodu nebo znečištěnou vodu."
-viVN = "Xả Nước hoặc Nước Độc."
-trTR = "Su veya Toksik Su Boşaltımı."
-
-["Building.FluidDump.DisplayName"]
-raw = "Cửa Xả Chất Lỏng"
-status = "normal"
-enUS = "Fluid Dump"
-zhCN = "液体排放口"
-zhTW = "液體排放口"
-ruRU = "Слив жидкости"
-jaJP = "液体排出口"
-frFR = "Décharge de Liquide"
-deDE = "Flüssigkeitsauslass"
-plPL = "Wylot Płynów"
-ptBR = "Carga de Fluido"
-koKR = "액체 방출구"
-csCZ = "Vypouštění kapaliny"
-viVN = "Cửa Xả Chất Lỏng"
-trTR = "Sıvı Boşaltma Kapısı"
-
-["Building.FluidDump.ToggleLabel"]
-raw = "Loại nước"
-status = "normal"
-enUS = "Water Type"
-zhCN = "水类型"
-zhTW = "水類型"
-ruRU = "Тип воды"
-jaJP = "水の種類"
-frFR = "Type d'eau"
-deDE = "Wasserart"
-plPL = "Typ wody"
-ptBR = "Tipo de água"
-koKR = "물 종류"
-csCZ = "Typ vody"
-viVN = "Loại nước"
-trTR = "Su türü"
-
 ["Building.FoodFactory.Description"]
 raw = "Chế biến nguyên liệu thành khẩu phần ăn."
 status = "normal"
@@ -5985,6 +6056,14 @@ csCZ = "Větší rafinovanost v chuti vedla k vynikajícím pokrmům."
 viVN = "Khẩu vị tinh tế hơn đã tạo ra những món ăn tinh tế hơn."
 trTR = "Daha ince bir damak tadı daha ince yemekler yarattı."
 
+["Building.HallOfAbundance.DisplayName"]
+new = "Đại sảnh Sung túc"
+status = "normal"
+
+["Building.HallOfAbundance.FlavorDescription"]
+new = "“Cái này đâu phải xây để mong cầu sung túc, mà để khoe rằng chúng ta đã có thừa rồi.” —Suli"
+status = "normal"
+
 ["Building.Hammock.Description"]
 raw = "Chiếc võng đung đưa để nghỉ ngơi."
 status = "normal"
@@ -6511,6 +6590,30 @@ koKR = "모든 것은 한 비버가 지붕이 새는 모습을 견디지 못하�
 csCZ = "Všechno začíná, když bobr nemůže snést, že mu střechou zatéká."
 viVN = "Mọi thứ bắt đầu khi một con hải ly không chịu được cảnh mái nhà bị dột."
 trTR = "Her şey, bir kunduzun damın sızıntısından bıkmasıyla başladı."
+
+["Building.ImpermeablePowerShaft.Description"]
+new = "Truyền động năng. Ngăn nước."
+status = "normal"
+
+["Building.ImpermeablePowerShaft.DisplayName"]
+new = "Trục Truyền Động Chống Thấm"
+status = "normal"
+
+["Building.ImpermeablePowerShaft.FlavorDescription"]
+new = "“Không thấy máy móc đâu cả, thật khiến tôi phát bực!” —Pina"
+status = "normal"
+
+["Building.ImpermeableTubeway.Description"]
+new = "Một phương tiện vận chuyển Hải ly nhanh chóng, dù hơi chật chội. Ngăn nước."
+status = "normal"
+
+["Building.ImpermeableTubeway.DisplayName"]
+new = "Đường Ống Chống Thấm"
+status = "normal"
+
+["Building.ImpermeableTubeway.FlavorDescription"]
+new = "Giấc mơ đường ống đã thành hiện thực."
+status = "normal"
 
 ["Building.Indicator.Description"]
 raw = "Có khả năng phát cảnh báo khi nhận tín hiệu."
@@ -7126,6 +7229,7 @@ trTR = "Büyük Su Pompası"
 
 ["Building.LargeWaterPump.FlavorDescription"]
 raw = "“Với nguồn nước dồi dào, chúng ta có thể uống mỗi ngày.” —\"The Shores of Beaver Bay\" "
+new = "“Với nguồn nước dồi dào, chúng ta có thể uống mỗi ngày.” —\"The Shores of Beaver Bay\""
 status = "normal"
 enUS = "With a plentiful water source, we can drink every day.\" —\"The Shores of Beaver Bay"
 zhCN = "“有了丰富的水源，我们可以每天饮水。” —“海狸湾岸”"
@@ -7583,56 +7687,29 @@ csCZ = "„Jsou to dřevorubci, a to je pravda — spí celou noc, pracují cel�
 viVN = "“ họ là tiều phu, và đúng là như thế — ngủ cả đêm, làm cả ngày!” —Bài hát hải ly nổi tiếng"
 trTR = "“Onlar bir oduncudur ve gerçekten öyle — bütün gece uyur, bütün gün çalışırlar!” —Ünlü kunduz şarkısı"
 
-["Building.MechanicalFluidPump.Description"]
-raw = "Bơm Nước hoặc Nước Độc từ một phía và xả ra phía còn lại. Hiệu quả hơn máy bơm thông thường."
+["Building.Massager.Description"]
+new = "Mát-xa lành mạnh."
 status = "normal"
-enUS = "Pumps water or toxic fluid from one side and discharges it on the other side. More efficient than a regular pump."
-zhCN = "“从一侧抽取水或有毒水，并从另一侧排出。比普通泵更有效。”"
-zhTW = "從一側抽取水或毒水，並在另一側排出。比普通泵更有效。"
-ruRU = "Насос для воды или отравляющей жидкости, который закачивает из одной стороны и сбрасывает с другой. Эффективнее обычного насоса."
-jaJP = "「水または毒水を一方から吸い上げ、反対側に排出します。従来のポンプよりも効率的です。」"
-frFR = "Pompe à eau ou à fluide toxique d'un côté et évacuation de l'autre. Plus efficace qu'une pompe ordinaire."
-deDE = "Wasser- oder Giftpumpe von einer Seite und gibt es auf der anderen Seite ab. Effektiver als eine herkömmliche Pumpe."
-plPL = "Pompuje wodę lub substancje toksyczne z jednej strony i wypuszcza je z drugiej. Skuteczniejsza niż tradycyjne pompy."
-ptBR = "Bomba de Água ou Líquido Tóxico de um lado e despeja do outro. Mais eficiente que uma bomba comum."
-koKR = "한쪽에서 물 또는 독성 물질을 흡입하고 반대쪽으로 배출합니다. 일반적인 펌프보다 효율적입니다."
-csCZ = "Přečerpávač vody nebo jedovaté vody z jedné strany a vypouští na druhé. Efektivnější než běžné čerpadlo."
-viVN = "Bơm Nước hoặc Nước Độc từ một phía và xả ra phía còn lại. Hiệu quả hơn máy bơm thông thường."
-trTR = "Bir taraftan su veya zehirli suyu pompalayıp diğer tarafa boşaltır. Normal pompalardan daha etkilidir."
 
-["Building.MechanicalFluidPump.DisplayName"]
-raw = "Máy Bơm Chất Lỏng Cơ Khí"
+["Building.Massager.DisplayName"]
+new = "Máy Mát-xa"
 status = "normal"
-enUS = "Mechanical Fluid Pump"
-zhCN = "机械液体泵"
-zhTW = "機械流體泵"
-ruRU = "Механический насос жидкости"
-jaJP = "機械式液体ポンプ"
-frFR = "Pompe de Fluide Mécanique"
-deDE = "Mechanische Flüssigkeitspumpe"
-plPL = "Pompa Cieczy Mechanicznej"
-ptBR = "Máquina de Bomba de Fluido Mecânico"
-koKR = "기계 유체 펌프"
-csCZ = "Mechanická čerpadlo na kapaliny"
-viVN = "Máy Bơm Chất Lỏng Cơ Khí"
-trTR = "Mekanik Sıvı Pompası"
 
-["Building.MechanicalFluidPump.FlavorDescription"]
-raw = "Thà để nước tự chảy còn hơn là phải dùng xô."
+["Building.Massager.FlavorDescription"]
+new = "Đau đơn hôm nay, động lực ngày mai."
 status = "normal"
-enUS = "Better to let the water flow on its own than to use a bucket."
-zhCN = "宁愿让水自流，也不愿费力用桶。"
-zhTW = "寧可讓水自然流動，也不願使用水桶。"
-ruRU = "Лучше позволить воде течь, чем использовать ведро."
-jaJP = "「バケツを使うよりも、水が自然に流れる方がましだ。」"
-frFR = "Mieux vaut laisser l'eau s'écouler plutôt que d'utiliser un seau."
-deDE = "Es ist besser, das Wasser fließen zu lassen, als einen Eimer zu benutzen."
-plPL = "Lepiej niech woda płynie sama niż używać wiadra."
-ptBR = "Melhor deixar a água fluir do que ter que usar um balde."
-koKR = "물통을 사용하기보다는 물이 자연스럽게 흐르도록 놔두는 것이 낫다."
-csCZ = "Lépe nechat vodu téct než jezdit s vědrem."
-viVN = "Thà để nước tự chảy còn hơn là phải dùng xô."
-trTR = "Kova kullanmaktansa suyun kendiliğinden akmasını tercih ederim."
+
+["Building.MechanicalPump.Description"]
+new = "Bơm nước hoặc nước độc lên ở một phía và xả sang phía bên kia."
+status = "normal"
+
+["Building.MechanicalPump.DisplayName"]
+new = "Máy Bơm Cơ Khí"
+status = "normal"
+
+["Building.MechanicalPump.FlavorDescription"]
+new = "Không cần phải tự xách nước nữa, quá đã!"
+status = "normal"
 
 ["Building.MedicalBed.Description"]
 raw = "Hải ly bị thương nằm đây để nghỉ ngơi và hồi phục."
@@ -8180,6 +8257,7 @@ trTR = "Maden"
 
 ["Building.Mine.FlavorDescription"]
 raw = "Không được đào quá sâu và quá tham lam. "
+new = "Không được đào quá sâu và quá tham lam."
 status = "normal"
 enUS = "Do not dig too deep and too greedily."
 zhCN = "“不要挖得太深，也不要太贪心。”"
@@ -9795,6 +9873,7 @@ trTR = "VE"
 
 ["Building.Relay.Mode.And.Description"]
 raw = "<YellowHighlight>Bật</YellowHighlight> nếu tất cả tín hiệu đầu vào đều <YellowHighlight>Bật</YellowHighlight>."
+new = "Bật nếu tất cả tín hiệu đầu vào đều Bật."
 status = "normal"
 enUS = "<YellowHighlight>Turn On</YellowHighlight> if all input signals are <YellowHighlight>On</YellowHighlight>."
 zhCN = "如果所有输入信号都<YellowHighlight>启用</YellowHighlight>，请<YellowHighlight>启用</YellowHighlight>。"
@@ -9829,6 +9908,7 @@ trTR = "DEĞİL"
 
 ["Building.Relay.Mode.Not.Description"]
 raw = "<YellowHighlight>Bật</YellowHighlight> nếu tín hiệu đầu vào là <YellowHighlight>Tắt</YellowHighlight>."
+new = "Bật nếu tín hiệu đầu vào là Tắt."
 status = "normal"
 enUS = "<YellowHighlight>Turn On</YellowHighlight> if the input signal is <YellowHighlight>Off</YellowHighlight>."
 zhCN = "<YellowHighlight>开启</YellowHighlight> 如果输入信号为 <YellowHighlight>关闭</YellowHighlight>。"
@@ -9863,6 +9943,7 @@ trTR = "VEYA"
 
 ["Building.Relay.Mode.Or.Description"]
 raw = "<YellowHighlight>Bật</YellowHighlight> nếu bất kỳ tín hiệu đầu vào nào <YellowHighlight>Bật</YellowHighlight>."
+new = "Bật nếu bất kỳ tín hiệu đầu vào nào Bật."
 status = "normal"
 enUS = "<YellowHighlight>Turn on</YellowHighlight> if any input signal is <YellowHighlight>on</YellowHighlight>."
 zhCN = "<YellowHighlight>开启</YellowHighlight>如果任何输入信号<YellowHighlight>开启</YellowHighlight>。"
@@ -9897,6 +9978,7 @@ trTR = "Geçirgen"
 
 ["Building.Relay.Mode.Passthrough.Description"]
 raw = "<YellowHighlight>Bật</YellowHighlight> nếu tín hiệu đầu vào là <YellowHighlight>Bật</YellowHighlight>."
+new = "Bật nếu tín hiệu đầu vào là Bật."
 status = "normal"
 enUS = "<YellowHighlight>Turn On</YellowHighlight> if the input signal is <YellowHighlight>On</YellowHighlight>."
 zhCN = "<YellowHighlight>开启</YellowHighlight>如果输入信号为<YellowHighlight>开启</YellowHighlight>。"
@@ -9931,6 +10013,7 @@ trTR = "XOR"
 
 ["Building.Relay.Mode.Xor.Description"]
 raw = "<YellowHighlight>Bật</YellowHighlight> nếu một tín hiệu đầu vào là <YellowHighlight>Bật</YellowHighlight>."
+new = "Bật nếu một tín hiệu đầu vào là Bật."
 status = "normal"
 enUS = "<YellowHighlight>Turned On</YellowHighlight> if one input signal is <YellowHighlight>Turned On</YellowHighlight>."
 zhCN = "<YellowHighlight>开启</YellowHighlight> 如果一个输入信号是 <YellowHighlight>开启</YellowHighlight>。"
@@ -10439,6 +10522,18 @@ csCZ = "Rozptýlené po celém místě, zbytky lidstva přinášejí bobrům ně
 viVN = "Rải rác khắp nơi, tàn tích của loài người mang đến cho hải ly thứ không tưởng — một vật liệu vượt trội hơn gỗ."
 trTR = "Her yerde dağınık olan insan kalıntıları, kunduzlara hayal edemeyecekleri bir şey getiriyor - ahşaptan üstün bir malzeme."
 
+["Building.Sauna.Description"]
+new = "Một phòng xông hơi lộ thiên, nơi hải ly có thể đổ mồ hôi để xua tan âu lo."
+status = "normal"
+
+["Building.Sauna.DisplayName"]
+new = "Phòng Xông Hơi"
+status = "normal"
+
+["Building.Sauna.FlavorDescription"]
+new = "“Cái lò này chắc là nướng được khoai nhỉ?” —Ma' Ngonel"
+status = "normal"
+
 ["Building.Scarecrow.Description"]
 raw = "Từng dùng để đuổi chim ở động ruộng, nay còn mua vui cho cả già lẫn trẻ."
 status = "normal"
@@ -10744,244 +10839,6 @@ koKR = "이 계단을 만든 사람에게 감사합니다. 무한한 공덕입�
 csCZ = "Děkuji tomu, kdo postavil tyto schody. Nevyčíslitelné zásluhy."
 viVN = "Biết ơn ai đó đã xây những cái bậc này. Công đức vô lượng."
 trTR = "Bu basamakları inşa edenlere müteşekkiriz. Sayısız erdem."
-
-["Building.Sluice.AboveContaminationToggle"]
-raw = "Đóng khi ô nhiễm vượt mức: {0}"
-status = "normal"
-enUS = "Close when contamination exceeds: {0}"
-zhCN = "“污染超过限值时关闭: {0}”"
-zhTW = "當污染超過限值時關閉: {0}"
-ruRU = "Закрыть, когда уровень загрязнения превышает: {0}"
-jaJP = "汚染が基準を超えた場合は閉じる: {0}"
-frFR = "Fermé lorsque la contamination dépasse le seuil : {0}"
-deDE = "Schließen, wenn die Kontamination den Grenzwert überschreitet: {0}"
-plPL = "Zamknij, gdy zanieczyszczenie przekracza poziom: {0}"
-ptBR = "Fechar quando a contaminação excede o limite: {0}"
-koKR = "오염 수준 초과 시 닫기: {0}"
-csCZ = "Zavřít, když znečištění překročí: {0}"
-viVN = "Đóng khi ô nhiễm vượt mức: {0}"
-trTR = "Kirlenme eşiği aşıldığında kapat: {0}"
-
-["Building.Sluice.BelowContaminationToggle"]
-raw = "Đóng khi ô nhiễm dưới mức: {0}"
-status = "normal"
-enUS = "Close when contamination is below: {0}"
-zhCN = "当污染低于阈值时关闭: {0}"
-zhTW = "在污染水平以下時關閉: {0}"
-ruRU = "Закрыть при загрязнении ниже уровня: {0}"
-jaJP = "汚染レベルが以下の時に閉じる: {0}"
-frFR = "Fermer lorsque la contamination est en dessous du niveau : {0}"
-deDE = "Schließen, wenn Kontamination unterhalb des Wertes: {0}"
-plPL = "Zamykaj, gdy zanieczyszczenie poniżej poziomu: {0}"
-ptBR = "Fechado quando a contaminação estiver abaixo do nível: {0}"
-koKR = "오염 수준 이하일 때 닫기: {0}"
-csCZ = "Zavřít, když je znečištění pod úrovní: {0}"
-viVN = "Đóng khi ô nhiễm dưới mức: {0}"
-trTR = "Kirlenme seviyesi altında kapalı: {0}"
-
-["Building.Sluice.Contamination"]
-raw = "Ô nhiễm: {0}"
-status = "normal"
-enUS = "Contamination: {0}"
-zhCN = "污染: {0}"
-zhTW = "污染: {0}"
-ruRU = "Загрязнение: {0}"
-jaJP = "汚染: {0}"
-frFR = "Contamination : {0}"
-deDE = "Verschmutzung: {0}"
-plPL = "Zanieczyszczenie: {0}"
-ptBR = "Contaminação: {0}"
-koKR = "오염: {0}"
-csCZ = "Znečištění: {0}"
-viVN = "Ô nhiễm: {0}"
-trTR = "Kirlilik: {0}"
-
-["Building.Sluice.Description"]
-raw = "Công trình xả nước một chiều, tự động."
-status = "normal"
-enUS = "One-way water discharge structure, automatic."
-zhCN = "单向排水设施，自动。"
-zhTW = "單向排水工事，自動運行。"
-ruRU = "Однонаправленный, автоматический водослив."
-jaJP = "一方向に水を排出する自動設備です。"
-frFR = "Construction de décharge d'eau unidirectionnelle, automatique."
-deDE = "Einbahn-Wasserablassbauwerk, automatisch."
-plPL = "Jednokierunkowa budowla do odprowadzania wody, automatyczna."
-ptBR = "Obra de drenagem unidirecional, automática."
-koKR = "일방향 배수 구조물, 자동입니다."
-csCZ = "Jednosměrná vodní propusť, automatická."
-viVN = "Công trình xả nước một chiều, tự động."
-trTR = "Tek yönlü, otomatik su boşaltma yapısı."
-
-["Building.Sluice.DisplayName"]
-raw = "Cửa Cống"
-status = "normal"
-enUS = "Sluice Gate"
-zhCN = "闸门"
-zhTW = "閘門"
-ruRU = "Задвижка"
-jaJP = "水門"
-frFR = "Vanne"
-deDE = "Schleuse"
-plPL = "Cegła"
-ptBR = "Cura Cống"
-koKR = "수문"
-csCZ = "Corsa Cống"
-viVN = "Cửa Cống"
-trTR = "Kapak Kapak"
-
-["Building.Sluice.DownstreamDepth"]
-raw = "Độ sâu hạ lưu: {0}"
-status = "normal"
-enUS = "Downstream Depth: {0}"
-zhCN = "下游深度: {0}"
-zhTW = "下游深度: {0}"
-ruRU = "Глубина ниже по течению: {0}"
-jaJP = "下流の深さ: {0}"
-frFR = "Profondeur en aval : {0}"
-deDE = "Ufervertiefung: {0}"
-plPL = "Duża głębokość w dół rzeki: {0}"
-ptBR = "Profundidade a jusante: {0}"
-koKR = "하류 깊이: {0}"
-csCZ = "Hloubka pod jezem: {0}"
-viVN = "Độ sâu hạ lưu: {0}"
-trTR = "Aşağı akım derinliği: {0}"
-
-["Building.Sluice.FlavorDescription"]
-raw = "\"Suli, cậu lại quên xả Nước Độc rồi à?\" —Ma' Ngonel"
-status = "normal"
-enUS = "\"Suli, did you forget to drain the Toxic Water again?\" —Ma' Ngonel"
-zhCN = "“苏里，你又忘了放毒水了吗？” — 玛·恩戈内尔"
-zhTW = "「Suli，你又忘了放水毒了嗎？」—馬·恩戈內爾"
-ruRU = "\"Сули, ты снова забыл сбросить Отравленную Воду?\" —Ма' Нгонел"
-jaJP = "「スリ、また毒水を排水するのを忘れたのか？」— マ・ゴネール"
-frFR = "\"Suli, tu as encore oublié de vider l'Eau Toxique ?\" —Ma' Ngonel"
-deDE = "Suli, hast du wieder vergessen, das Giftwasser abzuleiten?\" —Ma' Ngonel"
-plPL = "\"Suli, czy znowu zapomniałeś o spuszczeniu Złej Wody?\" —Ma' Ngonel"
-ptBR = "\"Suli, você esqueceu de drenar a Água Tóxica novamente?\" —Ma' Ngonel"
-koKR = "\"수리, 너 또 독성을 해소하는 걸 잊었니?\" —마' 농엘"
-csCZ = "\"Suli, zase jsi zapomněl vypustit Znečištěnou Vodu?\" —Ma' Ngonel"
-viVN = "\"Suli, cậu lại quên xả Nước Độc rồi à?\" —Ma' Ngonel"
-trTR = "\"Suli, suyu boşaltmayı unuttun mu?\" —Ma' Ngonel"
-
-["Building.Sluice.MaximumDepthToggle"]
-raw = "Đóng khi độ sâu hạ lưu vượt: {0}"
-status = "normal"
-enUS = "Close when downstream depth exceeds: {0}"
-zhCN = "当下游深度超过时关闭: {0}"
-zhTW = "當下游深度超過時關閉: {0}"
-ruRU = "Закрыть, когда глубина ниже: {0}"
-jaJP = "下流の深さが超えた時に閉じる: {0}"
-frFR = "Fermé lorsque la profondeur en aval dépasse : {0}"
-deDE = "Schließen, wenn die Tiefe unterhalb überschreitet: {0}"
-plPL = "Zamknij, gdy głębokość poniżej przekracza: {0}"
-ptBR = "Fechar quando a profundidade a jusante ultrapassar: {0}"
-koKR = "다운스트림 깊이가 초과 시 닫기: {0}"
-csCZ = "Zavřít, když hloubka pod vodou přesáhne: {0}"
-viVN = "Đóng khi độ sâu hạ lưu vượt: {0}"
-trTR = "Aşağı akış derinliği aşıldığında kapat: {0}"
-
-["Building.Sluice.Mode.Auto"]
-raw = "Tự Động"
-status = "normal"
-enUS = "Automatic"
-zhCN = "自动"
-zhTW = "自動"
-ruRU = "Авто"
-jaJP = "自動"
-frFR = "Automatique"
-deDE = "Automatisch"
-plPL = "Automatyczny"
-ptBR = "Automático"
-koKR = "자동"
-csCZ = "Automaticky"
-viVN = "Tự Động"
-trTR = "Otomatik"
-
-["Building.Sluice.Mode.AutoClosed"]
-raw = "Tự Động: Đóng"
-status = "normal"
-enUS = "Automatic: Closed"
-zhCN = "自动：关闭"
-zhTW = "自動：關閉"
-ruRU = "Автоматически: Закрыто"
-jaJP = "自動: 閉じる"
-frFR = "Automatique : Fermer"
-deDE = "Automatisch: Geschlossen"
-plPL = "Automatyczne: Zamknij"
-ptBR = "Automático: Fechar"
-koKR = "자동: 닫기"
-csCZ = "Automatické: Zavřeno"
-viVN = "Tự Động: Đóng"
-trTR = "Otomatik: Kapalı"
-
-["Building.Sluice.Mode.AutoOpen"]
-raw = "Tự Động: Mở"
-status = "normal"
-enUS = "Automatic: Open"
-zhCN = "自动：开启"
-zhTW = "自動: 開啟"
-ruRU = "Автоматически: Открыть"
-jaJP = "自動：オープン"
-frFR = "Automatique : Ouvrir"
-deDE = "Automatisch: Öffnen"
-plPL = "Automatycznie: Otwórz"
-ptBR = "Automático: Abrir"
-koKR = "자동: 열기"
-csCZ = "Automaticky: Otevřít"
-viVN = "Tự Động: Mở"
-trTR = "Otomat: Aç"
-
-["Building.Sluice.Mode.Closed"]
-raw = "Đóng"
-status = "normal"
-enUS = "Closed"
-zhCN = "关闭"
-zhTW = "關閉"
-ruRU = "Закрыто"
-jaJP = "閉じる"
-frFR = "Fermé"
-deDE = "Geschlossen"
-plPL = "Zamknięte"
-ptBR = "Fechado"
-koKR = "닫힘"
-csCZ = "Uzavřeno"
-viVN = "Đóng"
-trTR = "Kapat"
-
-["Building.Sluice.Mode.Open"]
-raw = "Mở"
-status = "normal"
-enUS = "Open"
-zhCN = "打开"
-zhTW = "打開"
-ruRU = "Открыть"
-jaJP = "開く"
-frFR = "Ouvrir"
-deDE = "Öffnen"
-plPL = "Otwórz"
-ptBR = "Abrir"
-koKR = "열기"
-csCZ = "Otevřít"
-viVN = "Mở"
-trTR = "Açık"
-
-["Building.Sluice.Synchronize"]
-raw = "Đồng bộ với các cống liền kề"
-status = "normal"
-enUS = "Synchronize with adjacent sluices"
-zhCN = "与相邻闸门同步"
-zhTW = "與相鄰水閘同步"
-ruRU = "Синхронизировать с соседними шлюзами"
-jaJP = "近接する水門と同期する"
-frFR = "Synchroniser avec les écluses adjacentes"
-deDE = "Mit benachbarten Schleusen synchronisieren"
-plPL = "Synchronizuj z sąsiednimi śluzami"
-ptBR = "Sincronizar com os comportas adjacentes"
-koKR = "인접한 배수구와 동기화"
-csCZ = "Synchronizovat s okolními zátkami"
-viVN = "Đồng bộ với các cống liền kề"
-trTR = "Komşu barajlarla senkronize et"
 
 ["Building.SmallIndustrialPile.DisplayName"]
 raw = "Bãi Chứa Công Nghiệp Nhỏ"
@@ -12209,6 +12066,7 @@ trTR = "Toplayıcı sayım"
 
 ["Building.Timer.Mode.Accumulator.Description"]
 raw = "Bật nếu <YellowHighlight>{0}</YellowHighlight> Bật đủ tổng thời gian <YellowHighlight>{1}</YellowHighlight>."
+new = "Bật nếu {0} Bật đủ tổng thời gian {1}."
 status = "normal"
 enUS = "Enable if <YellowHighlight>{0}</YellowHighlight> has exceeded the total time <YellowHighlight>{1}</YellowHighlight>."
 zhCN = "开启如果<YellowHighlight>{0}</YellowHighlight>足够的总时间<YellowHighlight>{1}</YellowHighlight>。"
@@ -12243,6 +12101,7 @@ trTR = "Gecikme"
 
 ["Building.Timer.Mode.Delay.Description"]
 raw = "Bật <YellowHighlight>{0}</YellowHighlight> trễ <YellowHighlight>{1}</YellowHighlight>, Tắt trễ <YellowHighlight>{2}</YellowHighlight>."
+new = "Bật {0} trễ {1}, Tắt trễ {2}."
 status = "normal"
 enUS = "Turn on <YellowHighlight>{0}</YellowHighlight> delay <YellowHighlight>{1}</YellowHighlight>, Turn off delay <YellowHighlight>{2}</YellowHighlight>."
 zhCN = "开启<YellowHighlight>{0}</YellowHighlight>延迟<YellowHighlight>{1}</YellowHighlight>，关闭延迟<YellowHighlight>{2}</YellowHighlight>。"
@@ -12277,6 +12136,7 @@ trTR = "Osilatör"
 
 ["Building.Timer.Mode.Oscillator.Description"]
 raw = "Luân phiên Bật và Tắt khi <YellowHighlight>{0}</YellowHighlight> đang bật."
+new = "Luân phiên Bật và Tắt khi {0} đang bật."
 status = "normal"
 enUS = "Alternates On and Off when <YellowHighlight>{0}</YellowHighlight> is On."
 zhCN = "在<YellowHighlight>{0}</YellowHighlight>开启时轮流打开和关闭。"
@@ -12311,6 +12171,7 @@ trTR = "Darbe"
 
 ["Building.Timer.Mode.Pulse.Description"]
 raw = "Bật trong <YellowHighlight>{1}</YellowHighlight> sau khi <YellowHighlight>{0}</YellowHighlight> bật lên."
+new = "Bật trong {1} sau khi {0} bật lên."
 status = "normal"
 enUS = "Turns on in <YellowHighlight>{1}</YellowHighlight> after <YellowHighlight>{0}</YellowHighlight> turns on."
 zhCN = "在<YellowHighlight>{1}</YellowHighlight>之后，当<YellowHighlight>{0}</YellowHighlight>开启时启用。"
@@ -12345,6 +12206,7 @@ trTR = "Rastgele"
 
 ["Building.Timer.Mode.Random.Description"]
 raw = "Bật/Tắt ngẫu nhiên mỗi <YellowHighlight>{1}</YellowHighlight> khi <YellowHighlight>{0}</YellowHighlight> được Bật."
+new = "Bật/Tắt ngẫu nhiên mỗi {1} khi {0} được Bật."
 status = "normal"
 enUS = "Toggle randomly every <YellowHighlight>{1}</YellowHighlight> when <YellowHighlight>{0}</YellowHighlight> is On."
 zhCN = "每当<YellowHighlight>{0}</YellowHighlight>被启用时，每<YellowHighlight>{1}</YellowHighlight>随机开启/关闭。"
@@ -12853,158 +12715,41 @@ csCZ = "Bum, Suli, bum!!"
 viVN = "Bùm, Suli, bùm!!"
 trTR = "Boom, Suli, boom!!"
 
-["Building.Valve.Description"]
-raw = "Cửa xả nước một chiều có thể điều chỉnh lưu lượng."
+["Building.ThrottlingValve.Description"]
+new = "Cửa xả nước một chiều với lưu lượng có thể điều chỉnh."
 status = "normal"
-enUS = "Adjustable one-way water outlet."
-zhCN = "可调流量的单向排水阀。"
-zhTW = "可調流量的單向排水閥。"
-ruRU = "Регулируемый односторонний выпуск воды."
-jaJP = "一方向からの水を排出する調整可能なバルブです。"
-frFR = "Vanne à débit réglable pour l'évacuation d'eau unidirectionnelle."
-deDE = "Einweg-Wasserablassventil mit einstellbarem Durchfluss."
-plPL = "Zawór odpływowy jednokierunkowy z regulacją przepływu."
-ptBR = "Válvula unidirecional ajustável."
-koKR = "수조의 흐름을 조절할 수 있는 일방향 배수 밸브입니다."
-csCZ = "Odpouštěcí ventil s možností regulace průtoku."
-viVN = "Cửa xả nước một chiều có thể điều chỉnh lưu lượng."
-trTR = "Debi ayarına sahip tek yönlü su tahliye vanası."
 
-["Building.Valve.DisplayName"]
-raw = "Van Điều Tiết"
+["Building.ThrottlingValve.DisplayName"]
+new = "Van Điều Tiết"
 status = "normal"
-enUS = "Control Valve"
-zhCN = "阀门"
-zhTW = "閥門"
-ruRU = "Клапан регулировки"
-jaJP = "バルブ"
-frFR = "Vanne de régulation"
-deDE = "Ventil"
-plPL = "Zawór Regulacyjny"
-ptBR = "Válvula"
-koKR = "밸브 조절기"
-csCZ = "Ventil"
-viVN = "Van Điều Tiết"
-trTR = "Vana"
 
-["Building.Valve.OutflowLimit"]
-raw = "Giới hạn lưu lượng: {0}"
+["Building.ThrottlingValve.OutflowLimit"]
+new = "Giới hạn lưu lượng: {0}"
 status = "normal"
-enUS = "Flow limit: {0}"
-zhCN = "流量限制：{0}"
-zhTW = "流量限制: {0}"
-ruRU = "Лимит расхода: {0}"
-jaJP = "流量制限: {0}"
-frFR = "Limite de débit : {0}"
-deDE = "Durchflussbegrenzung: {0}"
-plPL = "Limit przepływu: {0}"
-ptBR = "Limite de fluxo: {0}"
-koKR = "유량 제한: {0}"
-csCZ = "Limit průtoku: {0}"
-viVN = "Giới hạn lưu lượng: {0}"
-trTR = "Akış sınırı: {0}"
 
-["Building.Valve.OutflowUnlimited"]
-raw = "Lưu lượng không giới hạn"
+["Building.ThrottlingValve.OutflowUnlimited"]
+new = "Không giới hạn lưu lượng"
 status = "normal"
-enUS = "Unlimited flow"
-zhCN = "无限流量"
-zhTW = "流量無限制"
-ruRU = "Неограниченный поток"
-jaJP = "無制限の流量"
-frFR = "L'écoulement illimité"
-deDE = "Unbegrenzter Durchfluss"
-plPL = "Nielimitowany przepływ"
-ptBR = "Liberar fluxo ilimitado"
-koKR = "유량 무제한"
-csCZ = "Nekonečný průtok"
-viVN = "Lưu lượng không giới hạn"
-trTR = "Sınırsız akış"
 
-["Building.Valve.ReactionSpeed"]
-raw = "Tốc độ phản ứng: {0}"
+["Building.ThrottlingValve.ReactionSpeed"]
+new = "Tốc độ phản hồi: {0}"
 status = "normal"
-enUS = "Reaction Speed: {0}"
-zhCN = "反应速度: {0}"
-zhTW = "反應速度: {0}"
-ruRU = "Скорость реакции: {0}"
-jaJP = "反応速度: {0}"
-frFR = "Vitesse de réaction : {0}"
-deDE = "Reaktionsgeschwindigkeit: {0}"
-plPL = "Prędkość reakcji: {0}"
-ptBR = "Velocidade de reação: {0}"
-koKR = "반응 속도: {0}"
-csCZ = "Rychlost reakce: {0}"
-viVN = "Tốc độ phản ứng: {0}"
-trTR = "Reaksiyon Hızı: {0}"
 
-["Building.Valve.State.Closing"]
-raw = "Đang Đóng"
+["Building.ThrottlingValve.State.Closing"]
+new = "Đang đóng"
 status = "normal"
-enUS = "Closing"
-zhCN = "正在关闭"
-zhTW = "正在關閉"
-ruRU = "Закрывается"
-jaJP = "閉じています"
-frFR = "En train de fermer"
-deDE = "Schließt"
-plPL = "Zamykanie"
-ptBR = "Fechando"
-koKR = "닫는 중"
-csCZ = "Ukončení"
-viVN = "Đang Đóng"
-trTR = "Kapanıyor"
 
-["Building.Valve.State.Idle"]
-raw = "Đang Chờ"
+["Building.ThrottlingValve.State.Idle"]
+new = "Đang chờ"
 status = "normal"
-enUS = "Waiting"
-zhCN = "等待中"
-zhTW = "待機中"
-ruRU = "Ожидание"
-jaJP = "待機中"
-frFR = "En Attente"
-deDE = "Warten"
-plPL = "Wieczór Czekania"
-ptBR = "Aguardando"
-koKR = "대기 중"
-csCZ = "Čekání"
-viVN = "Đang Chờ"
-trTR = "Beklemede"
 
-["Building.Valve.State.Opening"]
-raw = "Đang Mở"
+["Building.ThrottlingValve.State.Opening"]
+new = "Đang mở"
 status = "normal"
-enUS = "Opening"
-zhCN = "“正在打开”"
-zhTW = "正在開啟"
-ruRU = "Открывается"
-jaJP = "開いている"
-frFR = "Ouverture"
-deDE = "Öffnen"
-plPL = "Otwarcie"
-ptBR = "Abertura"
-koKR = "열림"
-csCZ = "Pro otevření"
-viVN = "Đang Mở"
-trTR = "Açılıyor"
 
-["Building.Valve.Synchronize"]
-raw = "Đồng bộ với các van điều tiết liền kề"
+["Building.ThrottlingValve.Synchronize"]
+new = "Đồng bộ với các Van Điều Tiết liền kề"
 status = "normal"
-enUS = "Synchronize with adjacent control valves"
-zhCN = "与相邻的调节阀同步"
-zhTW = "與鄰近的調節閥同步"
-ruRU = "Синхронизировать с соседними регулирующими клапанами"
-jaJP = "隣接する調整バルブと同期"
-frFR = "Synchroniser avec les vannes de régulation adjacentes"
-deDE = "Synchronisieren mit benachbarten Regelventilen"
-plPL = "Synchronize with adjacent control valves"
-ptBR = "Sincronizar com as válvulas de controle adjacentes"
-koKR = "인접한 조절 밸브와 동기화"
-csCZ = "Synchronizovat s přilehlými ventily"
-viVN = "Đồng bộ với các van điều tiết liền kề"
-trTR = "Komşu vanalarla senkronize et"
 
 ["Building.VerticalPowerShaft.Description"]
 raw = "Truyền động năng. Kết nối theo chiều dọc."
@@ -13858,6 +13603,7 @@ trTR = "{0}'ı açmak istediğinizden emin misiniz? {1} Bilim Puanı harcayacaks
 
 ["Buildings.AboveGround"]
 raw = "<YellowHighlight>Không đặt trên đất:</YellowHighlight> Phải được đặt trên công trình khác."
+new = "Không đặt trên đất: Phải được đặt trên công trình khác."
 status = "normal"
 enUS = "<YellowHighlight>Cannot be placed on ground:</YellowHighlight> Must be placed on another structure."
 zhCN = "<YellowHighlight>不能放在地面上：</YellowHighlight> 必须放在其他建筑物上。"
@@ -13875,6 +13621,7 @@ trTR = "<YellowHighlight>Yere yerleştirilemez:</YellowHighlight> Diğer bir yap
 
 ["Buildings.BadwaterAccess"]
 raw = "<YellowHighlight>Yêu cầu Nước Độc:</YellowHighlight> Cần tiếp cận nguồn Nước Độc."
+new = "Yêu cầu Nước Độc: Cần tiếp cận nguồn Nước Độc."
 status = "normal"
 enUS = "<YellowHighlight>Poison Water Requirement:</YellowHighlight> Need access to a Poison Water source."
 zhCN = "<YellowHighlight>对有毒水的要求：</YellowHighlight> 需要接触有毒水源。"
@@ -13960,6 +13707,7 @@ trTR = "Giriş engellendi."
 
 ["Buildings.GroundOnly"]
 raw = "<YellowHighlight>Trên đất:</YellowHighlight> Phải được đặt trên mặt đất."
+new = "Trên đất: Phải được đặt trên mặt đất."
 status = "normal"
 enUS = "<YellowHighlight>On the ground:</YellowHighlight> Must be placed on the ground."
 zhCN = "<YellowHighlight>在地面上：</YellowHighlight> 必须放置在地面上。"
@@ -14008,6 +13756,10 @@ koKR = "맵 바닥에 건설할 수 없습니다."
 csCZ = "Není možné stavět na dně mapy."
 viVN = "Không thể xây ở đáy bản đồ."
 trTR = "Harita tabanında inşa edilemez."
+
+["Buildings.MechanicalPump.FlowRate"]
+new = "Lưu lượng: {0}"
+status = "normal"
 
 ["Buildings.MissingGroundBelow"]
 raw = "Thiếu nền bên dưới."
@@ -14062,6 +13814,7 @@ trTR = "Bina su basmış."
 
 ["Buildings.Sequential"]
 raw = "<YellowHighlight>Tuần tự:</YellowHighlight> Cập nhật từng tick."
+new = "Tuần tự: Cập nhật từng tick."
 status = "normal"
 enUS = "<YellowHighlight>Sequential:</YellowHighlight> Update every tick."
 zhCN = "<YellowHighlight>顺序:</YellowHighlight> 每个滴答更新。"
@@ -14079,6 +13832,7 @@ trTR = "<YellowHighlight>Sıralı:</YellowHighlight> Her tick'te güncelleyiniz.
 
 ["Buildings.Solid"]
 raw = "<YellowHighlight>Phẳng:</YellowHighlight> Có thể xây công trình khác lên trên."
+new = "Phẳng: Có thể xây công trình khác lên trên."
 status = "normal"
 enUS = "<YellowHighlight>Flat:</YellowHighlight> Other buildings can be constructed on top."
 zhCN = "<YellowHighlight>平坦：</YellowHighlight> 可在其上建造其他建筑。"
@@ -14093,6 +13847,14 @@ koKR = "<YellowHighlight>평평한:</YellowHighlight> 위에 다른 건물을 �
 csCZ = "<YellowHighlight>Rovný:</YellowHighlight> Lze na něj stavět další budovy."
 viVN = "<YellowHighlight>Phẳng:</YellowHighlight> Có thể xây công trình khác lên trên."
 trTR = "<YellowHighlight>Düz:</YellowHighlight> Üstüne başka yapılar inşa edilebilir."
+
+["Buildings.Wonder.Description"]
+new = "<GreenHighlight>Đạt trạng thái làm chủ bản đồ và mở khóa chức năng Khởi đầu linh hoạt cho các lượt chơi sau.</GreenHighlight>"
+status = "normal"
+
+["Buildings.Wonder.DescriptionCompleted"]
+new = "<GreyHighlight>(Hoàn thành) Đạt trạng thái làm chủ bản đồ và mở khóa chức năng Khởi đầu linh hoạt cho các lượt chơi sau.</GreyHighlight>"
+status = "normal"
 
 ["BuildingSound.PlaySound"]
 raw = "Bật âm thanh công trình"
@@ -14130,6 +13892,7 @@ trTR = "Bu yükseklikte inşa edilemez."
 
 ["Buildings.UndergroundDepth"]
 raw = "<YellowHighlight>Chiếm dụng lòng đất:</YellowHighlight> {0} khối."
+new = "Chiếm dụng lòng đất: {0} khối."
 status = "normal"
 enUS = "<YellowHighlight>Underground Occupancy:</YellowHighlight> {0} blocks."
 zhCN = "<YellowHighlight>占用地下空间：</YellowHighlight> {0} 立方。"
@@ -14164,6 +13927,7 @@ trTR = "Bu bina {0} üzerinde inşa edilmelidir."
 
 ["Buildings.WaterAccess"]
 raw = "<YellowHighlight>Yêu cầu Nước:</YellowHighlight> Cần tiếp cận nguồn nước."
+new = "Yêu cầu Nước: Cần tiếp cận nguồn nước."
 status = "normal"
 enUS = "<YellowHighlight>Water Requirement:</YellowHighlight> Need access to a water source."
 zhCN = "<YellowHighlight>水源要求：</YellowHighlight> 需要接触水源。"
@@ -14181,6 +13945,7 @@ trTR = "<YellowHighlight>Su Gereksinimi:</YellowHighlight> Su kaynağına erişi
 
 ["Buildings.Wonder"]
 raw = "<YellowHighlight>Kỳ Quan:</YellowHighlight> Đỉnh cao kỹ nghệ của hải ly."
+new = "Kỳ Quan: Đỉnh cao kỹ nghệ của hải ly."
 status = "normal"
 enUS = "<YellowHighlight>Wonder:</YellowHighlight> The pinnacle of beaver craftsmanship."
 zhCN = "<YellowHighlight>奇观：</YellowHighlight> 海狸工艺的巅峰。"
@@ -15097,56 +14862,9 @@ csCZ = "Na vrcholu je stavba."
 viVN = "Có công trình phía trên."
 trTR = "Üstte bir yapı var."
 
-["DeletionBlocker.Prefix"]
-raw = "Không thể xóa."
+["DeletionBlocker.StockpileNotEmpty"]
+new = "Không thể phá dỡ công trình này cho đến khi kho được dọn trống."
 status = "normal"
-enUS = "Cannot delete."
-zhCN = "无法删除。"
-zhTW = "無法刪除。"
-ruRU = "Не могу удалить."
-jaJP = "削除できません。"
-frFR = "Impossible de supprimer."
-deDE = "Kann nicht gelöscht werden."
-plPL = "Nie można usunąć."
-ptBR = "Não é possível excluir."
-koKR = "삭제할 수 없습니다."
-csCZ = "Není možné smazat."
-viVN = "Không thể xóa."
-trTR = "Silinemez."
-
-["DeletionBlocker.Stockpile.NotEmpty"]
-raw = "Vẫn còn hàng hóa bên trong."
-status = "normal"
-enUS = "There are still goods inside."
-zhCN = "货物仍在内部。"
-zhTW = "仍然有貨物在內。"
-ruRU = "Внутри все еще есть товары."
-jaJP = "まだ内部に商品があります。"
-frFR = "Il reste des marchandises à l'intérieur."
-deDE = "Es befinden sich noch Waren darin."
-plPL = "Wciąż są towary w środku."
-ptBR = "Ainda há itens dentro."
-koKR = "아직 재고가 남아 있습니다."
-csCZ = "V úložišti stále zůstávají položky."
-viVN = "Vẫn còn hàng hóa bên trong."
-trTR = "İçeride hala malzeme var."
-
-["DeletionBlocker.TerrainPhysics"]
-raw = "Công trình vẫn đang đỡ cho địa hình"
-status = "normal"
-enUS = "The structure is still supporting the terrain."
-zhCN = "建筑仍在支撑地形"
-zhTW = "「建築物仍在支撐地形」"
-ruRU = "Строение все еще поддерживает местность"
-jaJP = "「建物はまだ地形を支えています」"
-frFR = "La structure soutient toujours le terrain"
-deDE = "Das Gebäude unterstützt immer noch das Terrain."
-plPL = "Obiekt wciąż wspiera teren."
-ptBR = "A construção ainda está sustentando o terreno"
-koKR = "구조물이 여전히 지형을 지탱하고 있습니다."
-csCZ = "Stavba stále podpírá terén"
-viVN = "Công trình vẫn đang đỡ cho địa hình"
-trTR = "Yapı hala araziyi tutuyor"
 
 ["DeletionTool.Description.Buildings"]
 raw = "Dùng công cụ này để phá dỡ công trình. Một phần vật liệu xây dựng và toàn bộ hàng hóa lưu trữ sẽ trở thành Đống Đổ Nát có thể thu hồi."
@@ -16204,6 +15922,7 @@ trTR = "Deneme Modu Bilgisi"
 
 ["Experimental.WelcomeText"]
 raw = "Phiên bản này của Timberborn cho phép bạn truy cập các tính năng thử nghiệm, chưa hoàn thiện. Vì vậy, khả năng cao sẽ có lỗi nghiêm trọng. Bạn đúng là một hải ly dũng cảm.\n\nCác bản lưu ở chế độ thử nghiệm được lưu riêng với bản chính. Các bản cập nhật có thể làm mất khả năng tương thích của bản lưu.\n\nTrong chế độ thử nghiệm này, <RedHighlight>nhiều phần của trò chơi chưa được dịch và sẽ hiển thị bằng tiếng Anh</RedHighlight>, bất kể bạn chọn ngôn ngữ nào. Điều này giúp chúng tôi thêm nội dung mới và thay đổi nhanh mà không phải chờ dịch.\n\nChúng tôi khuyến khích bạn tham gia Discord chính thức và góp ý về nội dung mới."
+new = "Phiên bản này của Timberborn cho phép bạn truy cập các tính năng thử nghiệm, chưa hoàn thiện. Vì vậy, khả năng cao sẽ có lỗi nghiêm trọng. Bạn đúng là một hải ly dũng cảm. Các bản lưu ở chế độ thử nghiệm được lưu riêng với bản chính. Các bản cập nhật có thể làm mất khả năng tương thích của bản lưu. Trong chế độ thử nghiệm này, nhiều phần của trò chơi chưa được dịch và sẽ hiển thị bằng tiếng Anh, bất kể bạn chọn ngôn ngữ nào. Điều này giúp chúng tôi thêm nội dung mới và thay đổi nhanh mà không phải chờ dịch. Chúng tôi khuyến khích bạn tham gia Discord chính thức và góp ý về nội dung mới."
 status = "normal"
 enUS = "This version of Timberborn allows you to access experimental, unfinished features. Therefore, there is a high possibility of encountering serious bugs. You are indeed a brave beaver.\n\nSaves in experimental mode are stored separately from the main version. Updates may break compatibility with saved games.\n\nIn this experimental mode, <RedHighlight>many parts of the game have not been translated and will be displayed in English</RedHighlight>, regardless of your selected language. This helps us to add new content and make changes quickly without having to wait for translations.\n\nWe encourage you to join the official Discord and provide feedback on the new content."
 zhCN = "此版本的 Timberborn 允许您访问未完成的实验性功能。因此，很可能会出现严重错误。您确实是一只勇敢的海狸。\n\n实验模式下的存档与主存档是独立的。更新可能会导致存档不兼容。\n\n在此实验模式中，<RedHighlight>游戏的许多部分尚未翻译，将以英语显示</RedHighlight>，无论您选择了哪种语言。这使我们能够快速添加新内容和更改，而不必等待翻译。\n\n我们鼓励您加入官方 Discord 并对新内容提出反馈。"
@@ -16238,6 +15957,7 @@ trTR = "{0} patlatıldı."
 
 ["Faction.Folktails.Description"]
 raw = "Ưa thoải mái nhưng cũng rất chăm chỉ, Đuôi Mộc là các nông dân lão luyện. Họ tôn trọng thiên nhiên và được thiên nhiên đền đáp bằng những mùa màng bội thu.\nPhương châm: <i>Thoải mái, đủ ăn và gỗ xịn.</i>"
+new = "Ưa thoải mái nhưng cũng rất chăm chỉ, Đuôi Mộc là các nông dân lão luyện. Họ tôn trọng thiên nhiên và được thiên nhiên đền đáp bằng những mùa màng bội thu. Phương châm: Thoải mái, đủ ăn và gỗ xịn."
 status = "normal"
 enUS = "Comfortable yet hardworking, the Folktails are skilled farmers. They respect nature and are rewarded with bountiful harvests.  \nMotto: <i>Comfortable, well-fed, and fine wood.</i>"
 zhCN = "舒适但也非常勤奋的木尾人是一群经验丰富的农民。他们尊重自然，自然则以丰收来回报他们。\n信条：<i>舒适、充足的食物和优质的木材。</i>"
@@ -16340,6 +16060,7 @@ trTR = "Tebrikler! Doğayla iç içe yaşam tarzını benimseyip haritadaki kayn
 
 ["Faction.IronTeeth.Description"]
 raw = "Rời bỏ thói quen sử dụng gỗ truyền thống, Nanh Sắt làm chủ kim loại và khoa học để xây dựng máy móc tiên tiến.\nHọ đạt được tiến bộ nhờ sự sáng tạo, hiệu quả. Tuy nhiên họ khá thờ ơ với môi trường.\nPhương châm: <i>Làm việc chăm chỉ. Làm việc chăm chỉ.</i>"
+new = "Rời bỏ thói quen sử dụng gỗ truyền thống, Nanh Sắt làm chủ kim loại và khoa học để xây dựng máy móc tiên tiến. Họ đạt được tiến bộ nhờ sự sáng tạo, hiệu quả. Tuy nhiên họ khá thờ ơ với môi trường. Phương châm: Làm việc chăm chỉ. Làm việc chăm chỉ."
 status = "normal"
 enUS = "Abandoning the traditional use of wood, the Iron Teeth master metal and science to build advanced machinery. They achieve progress through creativity and efficiency. However, they are quite indifferent to the environment. Motto: <i>Work hard. Work hard.</i>"
 zhCN = "抛弃传统的木材使用习惯，铁齿掌控金属和科学，建立先进的机械。\n他们通过创造力和高效取得了进步。然而，他们对环境相当漠不关心。\n座右铭：<i>努力工作，努力工作。</i>"
@@ -16898,6 +16619,10 @@ koKR = "시작 위치 선택"
 csCZ = "Vyberte výchozí umístění"
 viVN = "Chọn vị trí khởi đầu"
 trTR = "Başlangıç konumunu seç"
+
+["FlexibleStart.Needed"]
+new = "Hoàn thành một Kỳ quan để mở khóa Khởi đầu linh hoạt trên bản đồ này."
+status = "normal"
 
 ["FlexibleStart.Relocate"]
 raw = "Đổi vị trí khởi đầu"
@@ -19281,6 +19006,7 @@ trTR = "Un"
 
 ["GoodConsuming.NeedsHaulers"]
 raw = "<YellowHighlight>Cần người vận chuyển.</YellowHighlight>"
+new = "Cần người vận chuyển."
 status = "normal"
 enUS = "<YellowHighlight>Needs haulers.</YellowHighlight>"
 zhCN = "<YellowHighlight>需要搬运工。</YellowHighlight>"
@@ -19397,6 +19123,26 @@ koKR = "저장 위치:"
 csCZ = "Skladováno v:"
 viVN = "Lưu trữ trong:"
 trTR = "Depoda:"
+
+["GoodsStatistics.Consumption"]
+new = "Tiêu thụ: {0}"
+status = "normal"
+
+["GoodsStatistics.Export"]
+new = "Xuất: {0}"
+status = "normal"
+
+["GoodsStatistics.Import"]
+new = "Nhập: {0}"
+status = "normal"
+
+["GoodsStatistics.Production"]
+new = "Sản xuất: {0}"
+status = "normal"
+
+["GoodsStatistics.Stock"]
+new = "Tồn kho: {0}"
+status = "normal"
 
 ["GridRendering.Visibility.Hide"]
 raw = "Ẩn hướng dẫn xây dựng"
@@ -20061,6 +19807,10 @@ csCZ = "Létat"
 viVN = "Lật"
 trTR = "L çevirmek"
 
+["KeyBinding.GoodStatisticsTab"]
+new = "Mở tab Thống kê hàng hóa"
+status = "normal"
+
 ["KeyBinding.Hold"]
 raw = "Giữ:"
 status = "normal"
@@ -20638,6 +20388,10 @@ koKR = "핀 레버 10"
 csCZ = "Připnuté Páky 10"
 viVN = "Ghim Cần Gạt 10"
 trTR = "10'lu Sabitleme Levyesi"
+
+["KeyBinding.PopulationStatisticsTab"]
+new = "Mở tab Thống kê dân số"
+status = "normal"
 
 ["KeyBinding.PreviousDistrict"]
 raw = "Chọn khu vực trước đó"
@@ -21474,6 +21228,7 @@ trTR = "Bağlantıyı Sil"
 
 ["KeyBindingBox.DuplicatedBinding"]
 raw = "Tổ hợp phím đã được gán cho:\n\n{0}\n\nBạn vẫn muốn gán chứ?"
+new = "Tổ hợp phím đã được gán cho: {0} Bạn vẫn muốn gán chứ?"
 status = "normal"
 enUS = "The key combination has already been assigned to:\n\n{0}\n\nDo you still want to assign it?"
 zhCN = "按键组合已被分配给：\n\n{0}\n\n您仍然想要分配吗？"
@@ -21865,6 +21620,7 @@ trTR = "Ayrıntılar:"
 
 ["LoadingIssue.MapIssuesWarning"]
 raw = "Nguyên nhân có thể do thiếu mod hoặc phiên bản game mới hơn.\n\nBạn vẫn có thể tiếp tục chơi nhưng bản đồ có thể không đầy đủ."
+new = "Nguyên nhân có thể do thiếu mod hoặc phiên bản game mới hơn. Bạn vẫn có thể tiếp tục chơi nhưng bản đồ có thể không đầy đủ."
 status = "normal"
 enUS = "The cause may be due to a missing mod or a newer version of the game.\n\nYou can still continue to play, but the map may not be complete."
 zhCN = "可能是由于缺少模组或游戏版本较新所致。\n\n您仍然可以继续游戏，但地图可能不完整。"
@@ -21933,6 +21689,7 @@ trTR = "Performans düşüşü."
 
 ["MainMenu.SteamUpdateInfoText"]
 raw = "• Các đối tượng mới trên bảo đồ, có thể tương tác\n• Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,...\n• Bản đồ mới: Ốc đảo, Pressure, Spillage,...\n• Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner\n• Cập nhật quy trình modding\n• Cải tiến đồ họa, hướng dẫn và công cụ nhân bản\n• Thành tựu Steam"
+new = "• Các đối tượng mới trên bảo đồ, có thể tương tác • Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,... • Bản đồ mới: Ốc đảo, Pressure, Spillage,... • Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner • Cập nhật quy trình modding • Cải tiến đồ họa, hướng dẫn và công cụ nhân bản • Thành tựu Steam"
 status = "normal"
 enUS = "• New objects on the map, can interact\n• Automation: Sensors, Relays, Timers,...\n• New maps: Oasis, Pressure, Spillage,...\n• Spiral Staircase, Gate, Clutch, Banner\n• Updated modding process\n• Graphic improvements, tutorials, and cloning tools\n• Steam achievements"
 zhCN = "• 地图上新的可交互对象\n• 自动化：传感器，继电器，定时器，…\n• 新地图：绿洲，压力，溢出，…\n• 螺旋楼梯，门，离合器，横幅\n• 更新修改流程\n• 图形改进，指南和复制工具\n• Steam成就"
@@ -21984,6 +21741,7 @@ trTR = "1.0 Güncellemesi - Deneysel"
 
 ["MainMenu.UpdateInfoLink"]
 raw = "<u>Tìm hiểu thêm</u>"
+new = "Tìm hiểu thêm"
 status = "normal"
 enUS = "<u>Learn more</u>"
 zhCN = "<u>了解更多</u>"
@@ -22001,6 +21759,7 @@ trTR = "<u>Daha fazla bilgi edinin</u>"
 
 ["MainMenu.UpdateInfoText"]
 raw = "• Các đối tượng mới trên bảo đồ, có thể tương tác\n• Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,...\n• Bản đồ mới: Ốc đảo, Pressure, Spillage,...\n• Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner\n• Cập nhật quy trình modding\n• Cải tiến đồ họa, hướng dẫn và công cụ nhân bản"
+new = "• Các đối tượng mới trên bảo đồ, có thể tương tác • Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,... • Bản đồ mới: Ốc đảo, Pressure, Spillage,... • Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner • Cập nhật quy trình modding • Cải tiến đồ họa, hướng dẫn và công cụ nhân bản"
 status = "normal"
 enUS = "• New items on the map, which can be interacted with  \n• Automation: Sensors, Relays, Timers,...  \n• New maps: Oasis, Pressure, Spillage,...  \n• Spiral Staircase, Gate, Clutch, Banner  \n• Updating the modding process  \n• Graphic improvements, guides, and asset tools"
 zhCN = "• 地图上新的可交互对象\n• 自动化：传感器、继电器、定时器等\n• 新地图：绿洲、压力、溢出等\n• 螺旋楼梯、大门、离合器、横幅\n• 更新修改流程\n• 图形、指导和复制作工具的改进"
@@ -22630,6 +22389,7 @@ trTR = "Uyumsuz harita sürümü."
 
 ["MapEditor.NonCompatibleMapVersion.Tooltip"]
 raw = "Phiên bản bản đồ này ({0}) không tương thích với phiên bản game hiện tại ({1}).\nHãy lưu lại bản đồ để tương thích."
+new = "Phiên bản bản đồ này ({0}) không tương thích với phiên bản game hiện tại ({1}). Hãy lưu lại bản đồ để tương thích."
 status = "normal"
 enUS = "This map version ({0}) is not compatible with the current game version ({1}). Please save the map for compatibility."
 zhCN = "此地图版本 ({0}) 与当前游戏版本 ({1}) 不兼容。\n请保存地图以便兼容。"
@@ -23157,6 +22917,7 @@ trTR = "Maketi"
 
 ["MapMetadata.HelixMountain.Description"]
 raw = "Dù điều kiện lòng sông có vẻ không thuận lợi, hải ly vẫn tự tin rằng kỹ thuật kiểm soát dòng nước của họ vượt trội hơn loài người. "
+new = "Dù điều kiện lòng sông có vẻ không thuận lợi, hải ly vẫn tự tin rằng kỹ thuật kiểm soát dòng nước của họ vượt trội hơn loài người."
 status = "normal"
 enUS = "Although the river conditions may seem unfavorable, the beavers are confident that their water control techniques are superior to those of humans."
 zhCN = "尽管河流的环境看起来不太理想，但海狸仍然自信他们的水流控制技术优于人类。"
@@ -23225,6 +22986,7 @@ trTR = "Çukur Bölge"
 
 ["MapMetadata.Lakes.Description"]
 raw = "Ngày nay, khu vực có nhiều sông hồ còn khá hiếm.\nHãy tận dụng những vùng đất như thế này. Trái Đất vẫn còn hy vọng."
+new = "Ngày nay, khu vực có nhiều sông hồ còn khá hiếm. Hãy tận dụng những vùng đất như thế này. Trái Đất vẫn còn hy vọng."
 status = "normal"
 enUS = "Nowadays, areas with many rivers and lakes are quite rare. Make use of such lands. Earth still has hope."
 zhCN = "如今，有许多河流湖泊的地区仍然相当稀缺。  \n要好好利用这样的土地。地球仍然充满希望。"
@@ -23259,6 +23021,7 @@ trTR = "Göl"
 
 ["MapMetadata.Meander.Description"]
 raw = "Các kỹ sư hải ly muốn tận dụng độ uốn cong tự nhiên của dòng sông. \nNhược điểm là phải quy hoạch trong một không gian hạn chế."
+new = "Các kỹ sư hải ly muốn tận dụng độ uốn cong tự nhiên của dòng sông. Nhược điểm là phải quy hoạch trong một không gian hạn chế."
 status = "normal"
 enUS = "The beaver engineers want to take advantage of the river's natural bend. \nThe downside is having to plan in a limited space."
 zhCN = "海狸工程师希望利用河流的自然弯曲。缺点是必须在有限的空间内进行规划。"
@@ -23325,8 +23088,17 @@ csCZ = "Dohory"
 viVN = "Dãy núi"
 trTR = "Dağ Sırası"
 
+["MapMetadata.Nomads.Description"]
+new = "Một thử thách dành cho những hải ly dày dạn kinh nghiệm, nơi mỗi chu kỳ đều định hình lại dòng nước và việc định cư lâu dài không bao giờ là một lựa chọn."
+status = "normal"
+
+["MapMetadata.Nomads.Name"]
+new = "Nomads"
+status = "normal"
+
 ["MapMetadata.NotUpdatedDescription"]
 raw = "<RedHighlight>Bản đồ này chưa tương thích với nhánh thử nghiệm!</RedHighlight>"
+new = "Bản đồ này chưa tương thích với nhánh thử nghiệm!"
 status = "normal"
 enUS = "<RedHighlight>This map is not compatible with the experimental branch!</RedHighlight>"
 zhCN = "<RedHighlight>该地图尚未与测试版兼容！</RedHighlight>"
@@ -23376,8 +23148,17 @@ csCZ = "Oáza"
 viVN = "Ốc đảo"
 trTR = "Vaha"
 
+["MapMetadata.Pillars.Description"]
+new = "Những cao nguyên sừng sững bảo vệ Hải ly khỏi dòng Nước Độc bên dưới. Tuy nhiên, để khu định cư tồn tại và mở rộng, bạn sẽ cần quản lý tài nguyên cẩn thận cùng không ít sự khéo léo."
+status = "normal"
+
+["MapMetadata.Pillars.Name"]
+new = "Pillars"
+status = "normal"
+
 ["MapMetadata.Plains.Description"]
 raw = "Với địa hình rộng, phẳng như đuôi hải ly.\nĐây là môi trường lý tưởng để các kỹ sư trẻ thử nghiệm và rèn luyện."
+new = "Với địa hình rộng, phẳng như đuôi hải ly. Đây là môi trường lý tưởng để các kỹ sư trẻ thử nghiệm và rèn luyện."
 status = "normal"
 enUS = "With wide, flat terrain like a beaver's tail.  \nThis is the ideal environment for young engineers to experiment and hone their skills."
 zhCN = "拥有宽广、平坦的地形，如同海狸的尾巴。这里是年轻工程师进行实验和锻炼的理想环境。"
@@ -23548,6 +23329,7 @@ trTR = "Binbaşı"
 
 ["MapMetadata.Waterfalls.Description"]
 raw = "Mẹo dạy hải ly con: bảo chúng rằng thác nước chỉ là “cống xả khổng lồ”.\nVà rồi lũ nhỏ sẽ mất hàng tuần để đi tìm chiếc cần gạt trong tưởng tượng."
+new = "Mẹo dạy hải ly con: bảo chúng rằng thác nước chỉ là “cống xả khổng lồ”. Và rồi lũ nhỏ sẽ mất hàng tuần để đi tìm chiếc cần gạt trong tưởng tượng."
 status = "normal"
 enUS = "Tip for teaching a young beaver: tell them that waterfalls are just 'giant outflow pipes.'  \nAnd then the little ones will spend weeks searching for the lever in their imagination."
 zhCN = "教导小海狸的技巧：告诉它们瀑布只是一个“大型排水口”。然后小家伙们会花上好几周的时间去寻找想象中的杠杆。"
@@ -23735,6 +23517,7 @@ trTR = "Yeni başlayanlar için uygun"
 
 ["MapSelection.SemiCompatibleMapVersion"]
 raw = "Phiên bản bản đồ ({0}) không tương thích với phiên bản game hiện tại ({1}). Khởi chạy bản đồ này có thể gây crash, phát sinh lỗi nghiêm trọng và thiếu một số tài nguyên quan trọng. Chúng tôi khuyến nghị cập nhật bản đồ để trải nghiệm đầy đủ tính năng mới.\n\nBạn có chắc muốn bắt đầu game?"
+new = "Phiên bản bản đồ ({0}) không tương thích với phiên bản game hiện tại ({1}). Khởi chạy bản đồ này có thể gây crash, phát sinh lỗi nghiêm trọng và thiếu một số tài nguyên quan trọng. Chúng tôi khuyến nghị cập nhật bản đồ để trải nghiệm đầy đủ tính năng mới. Bạn có chắc muốn bắt đầu game?"
 status = "normal"
 enUS = "Map version ({0}) is not compatible with the current game version ({1}). Running this map may cause crashes, result in serious errors, and miss some important resources. We recommend updating the map for a full experience of the new features.\n\nAre you sure you want to start the game?"
 zhCN = "地图版本 ({0}) 与当前游戏版本 ({1}) 不兼容。运行此地图可能导致崩溃、产生严重错误以及缺少一些重要资源。我们建议更新地图以完全体验新功能。\n\n您确定要开始游戏吗？"
@@ -24602,6 +24385,7 @@ trTR = "Mod eksik."
 
 ["Modding.ModCreatedMessage"]
 raw = "Mod của bạn đã được tạo tại thư mục:\n<link><b>{0}</b></link>\n\nHãy khởi động lại game để chạy mod."
+new = "Mod của bạn đã được tạo tại thư mục: {0} Hãy khởi động lại game để chạy mod."
 status = "normal"
 enUS = "Your mod has been created in the folder:\n<link><b>{0}</b></link>\n\nPlease restart the game to run the mod."
 zhCN = "您的模组已在以下目录创建：\n<link><b>{0}</b></link>\n\n请重新启动游戏以运行模组。"
@@ -25620,23 +25404,6 @@ csCZ = "\"Brambory mají nespočet způsobů přípravy.\" —Přísloví bobra"
 viVN = "\"Khoai tây có vô số cách chế biến.\" —Tục ngữ hải ly"
 trTR = "\"Patatesin sayısız hazırlama yöntemi vardır.\" —Kunduz atasözü"
 
-["NaturalResources.Seedling"]
-raw = "(cây non)"
-status = "normal"
-enUS = "(seedling)"
-zhCN = "（幼苗）"
-zhTW = "(幼苗)"
-ruRU = "(сажаец)"
-jaJP = "(苗木)"
-frFR = "(cép)"
-deDE = "(Setzling)"
-plPL = "(sadzonka)"
-ptBR = "(caia nova)"
-koKR = "(어린 나무)"
-csCZ = "(sazenice)"
-viVN = "(cây non)"
-trTR = "(cücük)"
-
 ["NaturalResource.Soybean.DisplayName"]
 raw = "Đậu Nành"
 status = "normal"
@@ -25704,6 +25471,14 @@ koKR = "자연은 잎의 형태를 통해 메시지를 전합니다."
 csCZ = "Příroda posílá poselství skrze tvar listu."
 viVN = "Thiên nhiên gửi gắm thông điệp qua hình dạng của chiếc lá."
 trTR = "Doğa, yaprağın şekli aracılığıyla bir mesaj gönderiyor."
+
+["NaturalResource.Succulent.DisplayName"]
+new = "Xương Rồng"
+status = "normal"
+
+["NaturalResource.Succulent.FlavorDescription"]
+new = "“Cắn, hay không cắn.” —Nỗi trăn trở của một Hải ly khát nước."
+status = "normal"
 
 ["NaturalResource.Sunflower.DisplayName"]
 raw = "Hoa Hướng Dương"
@@ -25775,6 +25550,7 @@ trTR = "\"Altın tarlaların ortasında kaybolduğunuzda parlayan güneşi unuta
 
 ["NaturalResources.Aquatic"]
 raw = "<YellowHighlight>Thủy sinh</YellowHighlight>: phải được ngập nước một phần."
+new = "Thủy sinh: phải được ngập nước một phần."
 status = "normal"
 enUS = "<YellowHighlight>Aquatic</YellowHighlight>: must be partially submerged."
 zhCN = "<YellowHighlight>水生</YellowHighlight>: 必须部分淹没在水中。"
@@ -25789,6 +25565,10 @@ koKR = "<YellowHighlight>수생</YellowHighlight>: 일부 물에 잠겨 있어�
 csCZ = "<YellowHighlight>Vodní</YellowHighlight>: musí být částečně zaplaveno."
 viVN = "<YellowHighlight>Thủy sinh</YellowHighlight>: phải được ngập nước một phần."
 trTR = "<YellowHighlight>Su altı</YellowHighlight>: kısmen suyla dolu olmalıdır."
+
+["NaturalResources.Arid"]
+new = "<YellowHighlight>Ưa hạn: Chỉ có thể đặt trên địa hình khô hạn."
+status = "normal"
 
 ["NaturalResources.DaysToDie"]
 raw = "Sẽ chết sau: {0} ngày"
@@ -25925,6 +25705,31 @@ koKR = "풍성하고 건강하다."
 csCZ = "Zdravé a silné."
 viVN = "Tươi tốt và khỏe mạnh."
 trTR = "Canlı ve sağlıklı."
+
+["NaturalResources.Overwatered"]
+new = "Úng nước."
+status = "normal"
+
+["NaturalResources.OverwateringResistance"]
+new = "Khả năng chịu úng nước: {0} ngày"
+status = "normal"
+
+["NaturalResources.Seedling"]
+raw = "(cây non)"
+status = "normal"
+enUS = "(seedling)"
+zhCN = "（幼苗）"
+zhTW = "(幼苗)"
+ruRU = "(сажаец)"
+jaJP = "(苗木)"
+frFR = "(cép)"
+deDE = "(Setzling)"
+plPL = "(sadzonka)"
+ptBR = "(caia nova)"
+koKR = "(어린 나무)"
+csCZ = "(sazenice)"
+viVN = "(cây non)"
+trTR = "(cücük)"
 
 ["NaturalResources.Visibility.Hide"]
 raw = "Ẩn tài nguyên tự nhiên"
@@ -26642,6 +26447,7 @@ trTR = "Kolay"
 
 ["NewGameConfigurationPanel.EasyModeDescription"]
 raw = "Bạn vẫn đang học chơi hoặc muốn trải nghiệm xây dựng thư giãn.\n\nKhu định cư bắt đầu với nguồn tài nguyên dồi dào.\n\nHải ly tiêu thụ ít thức ăn và nước hơn.\n\nHạn Hán và Thủy Triều Đỏ hiếm khi xảy ra và nhanh kết thúc."
+new = "Bạn vẫn đang học chơi hoặc muốn trải nghiệm xây dựng thư giãn. Khu định cư bắt đầu với nguồn tài nguyên dồi dào. Hải ly tiêu thụ ít thức ăn và nước hơn. Hạn Hán và Thủy Triều Đỏ hiếm khi xảy ra và nhanh kết thúc."
 status = "normal"
 enUS = "You are still learning to play or want to experience relaxing building.\n\nThe settlement starts with abundant resources.\n\nBeavers consume less food and water.\n\nDroughts and Red Tides rarely occur and end quickly."
 zhCN = "您仍在学习游戏或想要体验轻松的建设。\n\n定居点开始时资源丰富。\n\n海狸消耗的食物和水更少。\n\n干旱和红潮很少发生，并且很快结束。"
@@ -26744,6 +26550,7 @@ trTR = "Zor"
 
 ["NewGameConfigurationPanel.HardModeDescription"]
 raw = "Con người đã không sống sót, và hải ly cũng có nguy cơ tương tự.\n\nKhu định cư bắt đầu với tài nguyên khan hiếm.\n\nHạn Hán và Thủy Triều Đỏ khắc nghiệt, tình trạng còn tồi tệ hơn theo thời gian.\n\nHãy chuẩn bị kỹ càng."
+new = "Con người đã không sống sót, và hải ly cũng có nguy cơ tương tự. Khu định cư bắt đầu với tài nguyên khan hiếm. Hạn Hán và Thủy Triều Đỏ khắc nghiệt, tình trạng còn tồi tệ hơn theo thời gian. Hãy chuẩn bị kỹ càng."
 status = "normal"
 enUS = "Humans did not survive, and beavers are at similar risk.\n\nThe settlement starts with scarce resources.\n\nDroughts and Red Tide are harsh, conditions worsen over time.\n\nPrepare carefully."
 zhCN = "人类未能生存下来，海狸也面临着同样的危险。\n\n定居点开始时资源匮乏。\n\n干旱和红潮极为严酷，情况会随着时间的推移而恶化。\n\n请做好充分准备。"
@@ -26795,6 +26602,7 @@ trTR = "Normal"
 
 ["NewGameConfigurationPanel.NormalModeDescription"]
 raw = "Một thử thách vừa phải.\n\nKhu định cư bắt đầu với lượng tài nguyên trung bình.\n\nHạn Hán và Thủy Triều Đỏ ban đầu nhẹ nhưng sẽ tăng dần theo thời gian."
+new = "Một thử thách vừa phải. Khu định cư bắt đầu với lượng tài nguyên trung bình. Hạn Hán và Thủy Triều Đỏ ban đầu nhẹ nhưng sẽ tăng dần theo thời gian."
 status = "normal"
 enUS = "A moderate challenge.\n\nThe settlement starts with an average amount of resources.\n\nDrought and Red Tide are initially mild but will gradually increase over time."
 zhCN = "适度的挑战。\n\n定居点以中等资源开始。\n\n干旱和红潮初期轻微，但会随着时间推移逐渐加重。"
@@ -27118,6 +26926,7 @@ trTR = "Gerekli bina: {0}"
 
 ["PlayerData.CorruptedDataInfo.CorruptedFilePresent"]
 raw = "Bạn có thể xem bản sao của tệp dữ liệu người chơi bị lỗi tại <link><b>thư mục tài liệu game</b></link>."
+new = "Bạn có thể xem bản sao của tệp dữ liệu người chơi bị lỗi tại thư mục tài liệu game."
 status = "normal"
 enUS = "You can view a copy of the corrupted player data file in the <link><b>game documents folder</b></link>."
 zhCN = "“您可以在<link><b>游戏文档文件夹</b></link>查看损坏的玩家数据文件的副本。”"
@@ -27152,6 +26961,7 @@ trTR = " Oyuncu verilerini okurken bir hata oluştu. Yerel yedekten geri yükled
 
 ["Population.AllPerished"]
 raw = "Và dù tất cả hải ly đã diệt vong, dòng sông vẫn chảy trôi,\nsự tồn tại ngắn ngủi của chúng chỉ như hạt bụi gỗ."
+new = "Và dù tất cả hải ly đã diệt vong, dòng sông vẫn chảy trôi, sự tồn tại ngắn ngủi của chúng chỉ như hạt bụi gỗ."
 status = "normal"
 enUS = "And even though all the beavers have perished, the river still flows, their brief existence is like a speck of dust on wood."
 zhCN = "“尽管所有海狸都已灭亡，河流仍在流淌，  \n它们短暂的存在只是木屑中的尘埃。”"
@@ -27526,6 +27336,7 @@ trTR = "Kayıt başarısız! Geçersiz karakterlerden kaçının ve yeterli depo
 
 ["Saving.InvalidFile"]
 raw = "Bản lưu bạn đang tải đã bị lỗi!\n\nKhu định cư: {0}\nBản lưu: {1}"
+new = "Bản lưu bạn đang tải đã bị lỗi! Khu định cư: {0} Bản lưu: {1}"
 status = "normal"
 enUS = "The save you are trying to load is corrupted!\n\nSettlement: {0}\nSave: {1}"
 zhCN = "Bản存您正在加载已损坏！\n\n定居点：{0}\n存档：{1}"
@@ -27611,6 +27422,7 @@ trTR = "Yerleşim yerine ne isim vermek istersiniz?"
 
 ["Saving.NonCompatibleSaveVersion"]
 raw = "Bản lưu này không tương thích với phiên bản hiện tại.\nChúng tôi sẽ cố gắng khắc phục. Bạn hãy bắt đầu game mới để trải nghiệm đầy đủ các tính năng mới."
+new = "Bản lưu này không tương thích với phiên bản hiện tại. Chúng tôi sẽ cố gắng khắc phục. Bạn hãy bắt đầu game mới để trải nghiệm đầy đủ các tính năng mới."
 status = "normal"
 enUS = "This save is not compatible with the current version. We will try to fix it. Please start a new game to fully experience the new features."
 zhCN = "此存档与当前版本不兼容。我们将努力修复。请开始新的游戏以充分体验新功能。"
@@ -27679,6 +27491,7 @@ trTR = "Kayıt"
 
 ["Saving.SemiCompatibleSaveVersion"]
 raw = "Phiên bản bản lưu ({0}) không tương thích với phiên bản hiện tại ({1}). Việc khởi chạy có thể gây crash và lỗi nghiêm trọng. Chúng tôi khuyến nghị bắt đầu game mới để trải nghiệm đầy đủ các tính năng mới.\n\nBạn có chắc chắn muốn tiếp tục với bản lưu này không?"
+new = "Phiên bản bản lưu ({0}) không tương thích với phiên bản hiện tại ({1}). Việc khởi chạy có thể gây crash và lỗi nghiêm trọng. Chúng tôi khuyến nghị bắt đầu game mới để trải nghiệm đầy đủ các tính năng mới. Bạn có chắc chắn muốn tiếp tục với bản lưu này không?"
 status = "normal"
 enUS = "The save version ({0}) is not compatible with the current version ({1}). Running it may cause crashes and serious errors. We recommend starting a new game to fully experience the new features.\n\nAre you sure you want to continue with this save?"
 zhCN = "存档版本 ({0}) 与当前版本 ({1}) 不兼容。启动可能会导致崩溃和严重错误。我们建议您开始一个新游戏以充分体验新功能。\n\n您确定要继续使用此存档吗？"
@@ -27713,6 +27526,7 @@ trTR = "Kent"
 
 ["Saving.SteamCompatibilityMessage"]
 raw = "<RedHighlight><i>Bạn có thể chơi phiên bản cũ hơn bằng cách chuyển sang nhánh tùy chỉnh trong Steam.</i></RedHighlight>"
+new = "Bạn có thể chơi phiên bản cũ hơn bằng cách chuyển sang nhánh tùy chỉnh trong Steam."
 status = "normal"
 enUS = "<RedHighlight><i>You can play an older version by switching to the custom branch in Steam.</i></RedHighlight>"
 zhCN = "<RedHighlight><i>您可以通过切换到 Steam 的自定义分支来玩旧版本。</i></RedHighlight>"
@@ -27764,6 +27578,7 @@ trTR = "Bilim Puanı"
 
 ["Science.UnlockableOnce"]
 raw = "<YellowHighlight>Mở khóa một lần cho tất cả khu định cư.</YellowHighlight>"
+new = "Mở khóa một lần cho tất cả khu định cư."
 status = "normal"
 enUS = "<YellowHighlight>Unlock once for all settlements.</YellowHighlight>"
 zhCN = "<YellowHighlight>一次解锁所有定居点。</YellowHighlight>"
@@ -29275,22 +29090,17 @@ csCZ = "Bobři nejsou zdraví"
 viVN = "Hải ly không khỏe"
 trTR = "Beaver sağlıklı değil"
 
-["Status.Beaver.Dead"]
-raw = "Đã chết"
+["Status.Beaver.DiedOldAge"]
+new = "Chết vì tuổi già."
 status = "normal"
-enUS = "Dead"
-zhCN = "已死"
-zhTW = "已死"
-ruRU = "Мёртв"
-jaJP = "死んだ"
-frFR = "Mort"
-deDE = "Tot"
-plPL = "Zmarł"
-ptBR = "Morreu"
-koKR = "죽음"
-csCZ = "Zemřel"
-viVN = "Đã chết"
-trTR = "Öldü"
+
+["Status.Beaver.DiedTragically"]
+new = "Chết thảm."
+status = "normal"
+
+["Status.Beaver.DiedTragicallyShort"]
+new = "Hải ly chết thảm"
+status = "normal"
 
 ["Status.BombActivationWarning"]
 raw = "Sắp phát nổ."
@@ -29325,6 +29135,10 @@ koKR = "파괴되었습니다."
 csCZ = "Byl zničen."
 viVN = "Đã bị phá hủy."
 trTR = "Yıkıldı."
+
+["Status.Bot.DeadShort"]
+new = "Bot đã bị phá hủy"
+status = "normal"
 
 ["Status.Breeding.ProgressHalted"]
 raw = "Tạm dừng sinh sản, chờ thêm dinh dưỡng"
@@ -29362,6 +29176,7 @@ trTR = "Üreme duraklatıldı"
 
 ["Status.Buildings.BlockedByContamination"]
 raw = "Công trình bị đình trệ bởi ô nhiễm. "
+new = "Công trình bị đình trệ bởi ô nhiễm."
 status = "normal"
 enUS = "Construction is stalled due to contamination."
 zhCN = "建筑因污染而被阻碍。"
@@ -29972,6 +29787,10 @@ csCZ = "Není dostatek vody."
 viVN = "Không có nguồn nước."
 trTR = "Yeterli su yok."
 
+["Status.NaturalResources.Overwatered"]
+new = "Bị úng nước."
+status = "normal"
+
 ["Status.NaturalResources.TooMuchWater"]
 raw = "Bị úng nước."
 status = "normal"
@@ -30484,6 +30303,7 @@ trTR = "Açıklama"
 
 ["SteamWorkshop.LegalAgreement"]
 raw = "Bằng cách gửi mục này, bạn đồng ý với <link><u>điều khoản dịch vụ Workshop</u></link>."
+new = "Bằng cách gửi mục này, bạn đồng ý với điều khoản dịch vụ Workshop."
 status = "normal"
 enUS = "By submitting this item, you agree to the <link><u>Workshop Terms of Service</u></link>."
 zhCN = "通过提交此项目，您同意 <link><u>工作坊服务条款</u></link>。"
@@ -31113,6 +30933,7 @@ trTR = "İpucu: Kısayol tuşlarını kullanarak silme veya yapı çoğaltma gib
 
 ["Tip.Common.LayerTool"]
 raw = "Mẹo: Dùng <YellowHighlight>Công cụ Lớp</YellowHighlight> để quan sát bên dưới địa hình và công trình."
+new = "Mẹo: Dùng Công cụ Lớp để quan sát bên dưới địa hình và công trình."
 status = "normal"
 enUS = "Tip: Use the <YellowHighlight>Layer Tool</YellowHighlight> to observe beneath the terrain and structures."
 zhCN = "提示：使用<YellowHighlight>层工具</YellowHighlight>观察地形和建筑物下方。"
@@ -31130,6 +30951,7 @@ trTR = "İpucu: <YellowHighlight>Kata Aracı</YellowHighlight>'nı kullanarak ar
 
 ["Tip.Game.Duplicate"]
 raw = "Mẹo: Dùng <YellowHighlight>Nhân bản</YellowHighlight> và <YellowHighlight>Sao chép Cài đặt</YellowHighlight> để nhanh chóng tạo ra công trình giống hệt."
+new = "Mẹo: Dùng Nhân bản và Sao chép Cài đặt để nhanh chóng tạo ra công trình giống hệt."
 status = "normal"
 enUS = "Tip: Use <YellowHighlight>Duplicate</YellowHighlight> and <YellowHighlight>Copy Settings</YellowHighlight> to quickly create identical structures."
 zhCN = "提示：使用<YellowHighlight>复制</YellowHighlight>和<YellowHighlight>复制设置</YellowHighlight>快速创建相同的建筑。"
@@ -31147,6 +30969,7 @@ trTR = "İpucu: <YellowHighlight>Yinelenme</YellowHighlight> ve <YellowHighlight
 
 ["Tip.Game.Flip"]
 raw = "Mẹo: Dùng <YellowHighlight>Lật</YellowHighlight> để đảo chiều công trình trước khi đặt."
+new = "Mẹo: Dùng Lật để đảo chiều công trình trước khi đặt."
 status = "normal"
 enUS = "Tip: Use <YellowHighlight>Flip</YellowHighlight> to reverse the structure before placing."
 zhCN = "提示：使用<YellowHighlight>翻转</YellowHighlight>来在放置之前改变建筑的方向。"
@@ -31164,6 +30987,7 @@ trTR = "İpucu: <YellowHighlight>Çevir</YellowHighlight> özelliğini kullanara
 
 ["Tip.Game.Solid"]
 raw = "Mẹo: Nếu công trình được đánh dấu <YellowHighlight>Phẳng</YellowHighlight>, như Nhà Tổ hoặc Nhà Kho, bạn có thể xây công trình khác lên mái của chúng."
+new = "Mẹo: Nếu công trình được đánh dấu Phẳng, như Nhà Tổ hoặc Nhà Kho, bạn có thể xây công trình khác lên mái của chúng."
 status = "normal"
 enUS = "Tip: If the construction is marked <YellowHighlight>Flat</YellowHighlight>, like a Lodge or Warehouse, you can build another structure on top of it."
 zhCN = "提示：如果建筑被标记为<YellowHighlight>平坦</YellowHighlight>，例如房屋或仓库，则可以在其屋顶上建造其他建筑。"
@@ -31181,6 +31005,7 @@ trTR = "İpucu: Eğer yapı <YellowHighlight>Düz</YellowHighlight> olarak işar
 
 ["Tip.MapEditor.Undo"]
 raw = "Mẹo: Dùng <YellowHighlight>Hoàn tác (Undo)</YellowHighlight> và <YellowHighlight>Làm lại (Redo)</YellowHighlight> để sửa lỗi nhanh."
+new = "Mẹo: Dùng Hoàn tác (Undo) và Làm lại (Redo) để sửa lỗi nhanh."
 status = "normal"
 enUS = "Tip: Use <YellowHighlight>Undo</YellowHighlight> and <YellowHighlight>Redo</YellowHighlight> to quickly fix mistakes."
 zhCN = "提示：使用<YellowHighlight>撤销 (Undo)</YellowHighlight>和<YellowHighlight>重做 (Redo)</YellowHighlight>快速修复错误。"
@@ -32048,6 +31873,7 @@ trTR = "Kırmızı Gelgit"
 
 ["Tutorial.Badtides.Description"]
 raw = "Khu định cư của bạn đã vượt qua đợt Thủy Triều Đỏ đầu tiên.\n\nGiống như Hạn Hán, Thủy Triều Đỏ là một phần của chu kỳ mùa.\n\nNhững đợt sau sẽ không dễ dàng như vậy, hãy luôn cảnh giác."
+new = "Khu định cư của bạn đã vượt qua đợt Thủy Triều Đỏ đầu tiên. Giống như Hạn Hán, Thủy Triều Đỏ là một phần của chu kỳ mùa. Những đợt sau sẽ không dễ dàng như vậy, hãy luôn cảnh giác."
 status = "normal"
 enUS = "Your settlement has survived the first Red Tide.\n\nLike Drought, Red Tide is part of the seasonal cycle.\n\nSubsequent waves will not be as easy, stay vigilant."
 zhCN = "您的定居点已经度过了第一次红潮。\n\n与干旱一样，红潮是季节周期的一部分。\n\n后面的潮汐将不会如此轻松，请保持警惕。"
@@ -32456,6 +32282,7 @@ trTR = "Baraj"
 
 ["Tutorial.Dams.BuildDam"]
 raw = "Trữ nước trong bồn giúp hải ly không bị khát, nhưng để sống lâu dài, bạn cần kiểm soát dòng chảy.\n\nHãy xây một hàng Đập nước chắn ngang con sông gần nhất, từ bờ này sang bờ kia, và quan sát điều xảy ra."
+new = "Trữ nước trong bồn giúp hải ly không bị khát, nhưng để sống lâu dài, bạn cần kiểm soát dòng chảy. Hãy xây một hàng Đập nước chắn ngang con sông gần nhất, từ bờ này sang bờ kia, và quan sát điều xảy ra."
 status = "normal"
 enUS = "Storing water in a basin helps beavers avoid thirst, but to survive long-term, you need to manage the flow.\n\nBuild a dam across the nearest river, from one bank to the other, and observe what happens."
 zhCN = "在水库中储存水可以防止海狸口渴，但为了长久生存，您需要控制水流。\n\n请在离您最近的河流上建造一排坝，从这一岸到另一岸，并观察发生了什么。"
@@ -32507,6 +32334,7 @@ trTR = "Tutorial.Devre Dışı Bırak"
 
 ["Tutorial.DisablePrompt"]
 raw = "Bạn có chắc muốn tắt hướng dẫn?\nBạn có thể bật lại trong cài đặt."
+new = "Bạn có chắc muốn tắt hướng dẫn? Bạn có thể bật lại trong cài đặt."
 status = "normal"
 enUS = "Are you sure you want to disable the tutorial? You can turn it back on in the settings."
 zhCN = "您确定要禁用教程吗？\n您可以在设置中重新启用。"
@@ -32541,6 +32369,7 @@ trTR = "Kıtlık"
 
 ["Tutorial.Droughts.Description"]
 raw = "Chúc mừng! Khu định cư của bạn đã sống sót qua đợt hạn hán đầu tiên.\n\nHạn Hán là một phần của chu kỳ mùa. Chúng sẽ quay lại và kéo dài hơn theo thời gian.\n\nHãy bắt đầu chuẩn bị cho lần tiếp theo bằng cách xây đập."
+new = "Chúc mừng! Khu định cư của bạn đã sống sót qua đợt hạn hán đầu tiên. Hạn Hán là một phần của chu kỳ mùa. Chúng sẽ quay lại và kéo dài hơn theo thời gian. Hãy bắt đầu chuẩn bị cho lần tiếp theo bằng cách xây đập."
 status = "normal"
 enUS = "Congratulations! Your settlement has survived the first drought.\n\nDroughts are part of the seasonal cycle. They will return and last longer over time.\n\nStart preparing for the next one by building a dam."
 zhCN = "恭喜！你的定居点已经度过了第一次干旱。\n\n干旱是季节周期的一部分。它们会重新出现，并随着时间的推移而持续更久。\n\n开始通过建造大坝来为下一次干旱做准备吧。"
@@ -32575,6 +32404,7 @@ trTR = "Ormancılık"
 
 ["Tutorial.Forestry.Forester"]
 raw = "Hải ly cần nguồn Gỗ ổn định. Điều đó là hiển nhiên.\n\nDùng Điểm Khoa Học từ Xưởng Phát Minh để mở khóa Trạm Lâm Nghiệp, rồi xây nó ở khu vực bạn muốn trồng cây."
+new = "Hải ly cần nguồn Gỗ ổn định. Điều đó là hiển nhiên. Dùng Điểm Khoa Học từ Xưởng Phát Minh để mở khóa Trạm Lâm Nghiệp, rồi xây nó ở khu vực bạn muốn trồng cây."
 status = "normal"
 enUS = "Beavers need a stable Wood supply. That is obvious.\n\nUse Science Points from the Invention Workshop to unlock the Forestry Station, then build it in the area where you want to plant trees."
 zhCN = "海狸需要稳定的木材供应。这显而易见。\n\n使用从发明工坊获得的科学点数解锁林业站，然后在您想要种树的区域建造它。"
@@ -32592,6 +32422,7 @@ trTR = "Samur, istikrarlı bir Odun kaynağına ihtiyaç duyar. Bu açıktır.\n
 
 ["Tutorial.Forestry.MarkBirchesForPlanting"]
 raw = "Dùng công cụ \"Trồng cây và bụi\" để trồng Bạch Dương. Chúng phát triển nhanh, phù hợp cho giai đoạn đầu.\n\nGiống như cây nông nghiệp, cây gỗ chỉ phát triển trên vùng đất tươi tốt.\n\nNhớ chỉ định khu vực để chặt cây."
+new = "Dùng công cụ \"Trồng cây và bụi\" để trồng Bạch Dương. Chúng phát triển nhanh, phù hợp cho giai đoạn đầu. Giống như cây nông nghiệp, cây gỗ chỉ phát triển trên vùng đất tươi tốt. Nhớ chỉ định khu vực để chặt cây."
 status = "normal"
 enUS = "Use the 'Plant Trees and Bushes' tool to plant Birch trees. They grow quickly, making them suitable for the early stages.\n\nLike agricultural crops, trees only grow on fertile land.\n\nRemember to designate an area for cutting down trees."
 zhCN = "使用“种植树木和灌木”工具来种植白桦树。它们生长迅速，适合早期阶段。\n\n与农作物一样，木材树木只在肥沃的土地上生长。\n\n记得指定砍树区域。"
@@ -32626,6 +32457,7 @@ trTR = "Taşımacılık ve iş gücü"
 
 ["Tutorial.HaulersAndWorkforce.BuildHaulingPost"]
 raw = "Khi khu định cư phát triển, lượng hàng hóa tăng lên. Việc vận chuyển chiếm nhiều thời gian của các nhân công.\n\nNgười vận chuyển giúp giải quyết việc này. Họ vận chuyển hàng hóa trong khu vực theo yêu cầu.\n\nHãy xây một Trạm Vận Chuyển."
+new = "Khi khu định cư phát triển, lượng hàng hóa tăng lên. Việc vận chuyển chiếm nhiều thời gian của các nhân công. Người vận chuyển giúp giải quyết việc này. Họ vận chuyển hàng hóa trong khu vực theo yêu cầu. Hãy xây một Trạm Vận Chuyển."
 status = "normal"
 enUS = "As the settlement grows, the amount of goods increases. Transporting takes a lot of time for the workers.\n\nHaulers help to solve this issue. They transport goods in the area as needed.\n\nBuild a Hauling Post."
 zhCN = "当定居点发展时，货物数量增加。运输占用了劳工的大量时间。\n\n搬运工可以帮助解决这个问题。他们根据需要在区域内运输货物。\n\n请建造一个搬运站。"
@@ -32643,6 +32475,7 @@ trTR = "Yerleşim geliştiğinde, mal miktarı artar. Taşınma süreci, işçil
 
 ["Tutorial.HaulersAndWorkforce.ChangeWorkforce"]
 raw = "Một số công trình như Trạm Vận Chuyển không tự động lấp đầy toàn bộ vị trí lao động. Bạn có thể tự phân công lao động trong bảng điều khiển.\n\nNgoài ra, bạn hãy thử phân công lao động bằng mức ưu tiên. Ví dụ, Trạm Vận Chuyển thường được đặt mức ưu tiên thấp.\n\nHãy thử ngay!"
+new = "Một số công trình như Trạm Vận Chuyển không tự động lấp đầy toàn bộ vị trí lao động. Bạn có thể tự phân công lao động trong bảng điều khiển. Ngoài ra, bạn hãy thử phân công lao động bằng mức ưu tiên. Ví dụ, Trạm Vận Chuyển thường được đặt mức ưu tiên thấp. Hãy thử ngay!"
 status = "normal"
 enUS = "Some constructions like the Transport Station do not automatically fill all worker positions. You can manually assign labor in the panel.\n\nAdditionally, try assigning labor by priority. For example, the Transport Station is usually set to a low priority.\n\nGive it a try!"
 zhCN = "一些建筑如运输站不会自动填满所有的工作位置。您可以在面板中手动分配劳动力。\n\n此外，您可以尝试通过优先级分配劳动力。例如，运输站通常设置较低的优先级。\n\n现在就试试吧！"
@@ -32660,6 +32493,7 @@ trTR = "Yeni Texti Çevir: 'Bazı yapılar, Taşınma İstasyonu gibi, tüm iş 
 
 ["Tutorial.HaulersAndWorkforce.PauseHaulingPost"]
 raw = "Bạn có thể tạm dừng công trình và công trường để kiểm soát hành động của hải ly tốt hơn.\n\nCông trình bị tạm dừng sẽ tự động giải phóng nhân công để họ chuyển sang nơi khác.\n\nChọn Trạm Vận Chuyển và bấm nút \"Tạm dừng\" trong bảng điều khiển."
+new = "Bạn có thể tạm dừng công trình và công trường để kiểm soát hành động của hải ly tốt hơn. Công trình bị tạm dừng sẽ tự động giải phóng nhân công để họ chuyển sang nơi khác. Chọn Trạm Vận Chuyển và bấm nút \"Tạm dừng\" trong bảng điều khiển."
 status = "normal"
 enUS = "You can pause the construction and work sites to better control the actions of the beavers.\n\nPaused buildings will automatically free up labor so they can move elsewhere.\n\nSelect the Transport Station and click the \"Pause\" button in the control panel."
 zhCN = "您可以暂停建筑和工地，以更好地控制海狸的行动。\n\n被暂停的建筑会自动释放工人，以便他们转移到其他地方。\n\n选择运输站，然后在控制面板中按下“暂停”按钮。"
@@ -32694,6 +32528,7 @@ trTR = "Konaklama"
 
 ["Tutorial.Housing.Lodges"]
 raw = "Hai hải ly thì luôn tốt hơn một! Nhà ở giúp cải thiện đời sống và cho phép dân số Đuôi Mộc tăng trưởng.\n\nHải ly sẽ tự động vào các chỗ ở còn trống."
+new = "Hai hải ly thì luôn tốt hơn một! Nhà ở giúp cải thiện đời sống và cho phép dân số Đuôi Mộc tăng trưởng. Hải ly sẽ tự động vào các chỗ ở còn trống."
 status = "normal"
 enUS = "Two beavers are always better than one! Housing improves living standards and allows the Tail Wood population to grow.\n\nBeavers will automatically enter available housing."
 zhCN = "两只海狸总比一只好！住房能改善生活，并允许木头尾人口增长。\n\n海狸会自动进入空闲的住房。"
@@ -32728,6 +32563,7 @@ trTR = "İhtiyaç duyulan işçi sayısını artır: {0}"
 
 ["Tutorial.Introduction.Description"]
 raw = "Chào mừng đến với Timberborn! Hướng dẫn này sẽ giúp bạn có một khởi đầu thuận lợi tại vùng đất hoang.\n\nBạn sẽ học cách sử dụng các công cụ để xây dựng một cộng đồng hải ly phát triển.\n\nTrong các bước tiếp theo, mẹo sẽ hiển thị tại đây."
+new = "Chào mừng đến với Timberborn! Hướng dẫn này sẽ giúp bạn có một khởi đầu thuận lợi tại vùng đất hoang. Bạn sẽ học cách sử dụng các công cụ để xây dựng một cộng đồng hải ly phát triển. Trong các bước tiếp theo, mẹo sẽ hiển thị tại đây."
 status = "normal"
 enUS = "Welcome to Timberborn! This tutorial will help you get a good start in the wilderness.\n\nYou will learn how to use the tools to build a thriving beaver community.\n\nIn the next steps, tips will be displayed here."
 zhCN = "欢迎来到Timberborn！本教程将帮助您在荒野中顺利开局。\n\n您将学习如何使用工具来建设一个繁荣的海狸社区。\n\n在接下来的步骤中，提示将显示在此处。"
@@ -32745,6 +32581,7 @@ trTR = "Timberborn'a hoş geldiniz! Bu kılavuz, size vahşi topraklarda başar�
 
 ["Tutorial.LayerTool.ChangeUsingMouse"]
 raw = "Bạn có thể điều chỉnh lớp hiển thị bằng các phím tắt, giúp tối ưu thời gian.\n\nNhiều thao tác khác cũng có phím tắt. Xem trong tooltip hoặc phần Cài đặt."
+new = "Bạn có thể điều chỉnh lớp hiển thị bằng các phím tắt, giúp tối ưu thời gian. Nhiều thao tác khác cũng có phím tắt. Xem trong tooltip hoặc phần Cài đặt."
 status = "normal"
 enUS = "You can adjust the display layer using shortcuts, optimizing your time.\n\nMany other actions also have shortcuts. See in the tooltip or the Settings section."
 zhCN = "您可以通过快捷键调整显示图层，以优化时间。\n\n还有许多其他操作也有快捷键。请查看工具提示或设置部分。"
@@ -32762,6 +32599,7 @@ trTR = "Katman görünümünü kısayollarla ayarlayabilirsiniz, böylece zaman�
 
 ["Tutorial.LayerTool.ChangeUsingUI"]
 raw = "Khi khu định cư có thêm nhiều công trình cao tầng, có thể bạn sẽ gặp khó khăn khi tương tác với chúng.\n\nCông cụ Lớp sẽ hỗ trợ bằng cách ẩn đi mọi thứ phía trên lớp đã chọn.\n\nHãy thay đổi lớp hiển thị bằng các nút được đánh dấu."
+new = "Khi khu định cư có thêm nhiều công trình cao tầng, có thể bạn sẽ gặp khó khăn khi tương tác với chúng. Công cụ Lớp sẽ hỗ trợ bằng cách ẩn đi mọi thứ phía trên lớp đã chọn. Hãy thay đổi lớp hiển thị bằng các nút được đánh dấu."
 status = "normal"
 enUS = "When the settlement has more tall buildings, you may find it difficult to interact with them.\n\nThe Layer Tool will help by hiding everything above the selected layer.\n\nChange the display layer using the marked buttons."
 zhCN = "“当定居点有更多高层建筑时，您可能会在与它们互动时遇到困难。\n\n层工具将通过隐藏所选层上方的所有内容来提供支持。\n\n请通过标记的按钮更改显示层。”"
@@ -32915,6 +32753,7 @@ trTR = "Doğum"
 
 ["Tutorial.MoreBeavers.GrowPopulation"]
 raw = "Hải ly sẽ không sinh sản nếu không còn chỗ ở trống. \n\nĐuôi Mộc cần hai cá thể trưởng thành và một chỗ ở trống để sinh con.\n\nGợi ý: Con của hải ly được gọi là Hải ly con."
+new = "Hải ly sẽ không sinh sản nếu không còn chỗ ở trống. Đuôi Mộc cần hai cá thể trưởng thành và một chỗ ở trống để sinh con. Gợi ý: Con của hải ly được gọi là Hải ly con."
 status = "normal"
 enUS = "Beavers will not reproduce if there is no available housing.\n\nA log tail requires two adult individuals and one available housing to give birth.\n\nTip: A baby beaver is called a kit."
 zhCN = "海狸没有空余住所就不会繁殖。\n\n木尾需要两个成年个体和一个空余住所才能繁殖。\n\n提示：海狸的幼崽被称为海狸仔。"
@@ -32983,6 +32822,7 @@ trTR = "Güç ve Ahşap Levhalar"
 
 ["Tutorial.PowerAndPlanks.LumberMill"]
 raw = "Đã đến lúc sản xuất Ván Gỗ!\n\nXây Xưởng Gỗ ngay cạnh Bánh Xe Nước. Bạn cũng có thể xây xa hơn và nối bằng Trục Truyền Động.\n\nGợi ý: Nhiều công trình như Xưởng Gỗ và Nhà Tổ có thể truyền năng lượng trực tiếp khi đặt sát nhau, không cần Trục Truyền Động."
+new = "Đã đến lúc sản xuất Ván Gỗ! Xây Xưởng Gỗ ngay cạnh Bánh Xe Nước. Bạn cũng có thể xây xa hơn và nối bằng Trục Truyền Động. Gợi ý: Nhiều công trình như Xưởng Gỗ và Nhà Tổ có thể truyền năng lượng trực tiếp khi đặt sát nhau, không cần Trục Truyền Động."
 status = "normal"
 enUS = "It's time to produce Planks!\n\nBuild a Lumber Mill right next to the Water Wheel. You can also build it further away and connect it with a Gear.\n\nTip: Many buildings like the Lumber Mill and the Storage House can transfer power directly when placed next to each other, without needing a Gear."
 zhCN = "是时候生产木板了！\n\n在水轮旁边建造木材厂。你也可以建得更远并通过传动轴连接。\n\n提示：许多建筑物，如木材厂和储藏室，放置在一起时可以直接传递能量，无需传动轴。"
@@ -33000,6 +32840,7 @@ trTR = "Ahşap Levha Üretme Zamanı Geldi!\n\nSu Çarkı'nın hemen yanına Bir
 
 ["Tutorial.PowerAndPlanks.WaterWheel"]
 raw = "Các công trình nâng cao yêu cầu năng lượng, và hải ly thường lấy năng lượng từ dòng sông.\n\nĐặt Bánh Xe Nước vào dòng chảy ven sông."
+new = "Các công trình nâng cao yêu cầu năng lượng, và hải ly thường lấy năng lượng từ dòng sông. Đặt Bánh Xe Nước vào dòng chảy ven sông."
 status = "normal"
 enUS = "Advanced buildings require power, and beavers often obtain energy from the river.\n\nPlace the Water Wheel in the river flow."
 zhCN = "高级建筑需要能量，而海狸通常从河流中获取能量。\n\n将水车放入河流的水流中。"
@@ -33085,6 +32926,7 @@ trTR = "Biriktirme: Bilim puanı ({0}/{1})"
 
 ["Tutorial.Science.Inventor"]
 raw = "Hải ly là những kỹ sư của thế giới động vật. Đã đến lúc biến ý tưởng “lumberpunk” của chúng thành hiện thực.\n\nXây Xưởng Phát Minh để tạo Điểm Khoa Học."
+new = "Hải ly là những kỹ sư của thế giới động vật. Đã đến lúc biến ý tưởng “lumberpunk” của chúng thành hiện thực. Xây Xưởng Phát Minh để tạo Điểm Khoa Học."
 status = "normal"
 enUS = "The beavers are the engineers of the animal kingdom. It's time to bring their 'lumberpunk' ideas to life.\n\nBuild the Inventor's Workshop to generate Science Points."
 zhCN = "“海狸是动物世界中的工程师。是时候将它们的“木材朋克”理念变为现实了。\n\n建造发明车间以获得科学点。”"
@@ -33102,6 +32944,7 @@ trTR = "Kayalar, hayvanlar alemindeki mühendislerdir. Onların 'lumberpunk' fik
 
 ["Tutorial.Science.SciencePoints"]
 raw = "Tạm thời, hãy để Xưởng Phát Minh làm việc.\n\nKhi tích lũy đủ Điểm Khoa Học, bạn có thể dùng chúng để mở khóa công trình cao cấp hơn."
+new = "Tạm thời, hãy để Xưởng Phát Minh làm việc. Khi tích lũy đủ Điểm Khoa Học, bạn có thể dùng chúng để mở khóa công trình cao cấp hơn."
 status = "normal"
 enUS = "For now, let the Invention Workshop work.\n\nWhen you accumulate enough Science Points, you can use them to unlock advanced buildings."
 zhCN = "暂时，让发明工坊工作。\n\n当积累足够的科学点数时，您可以用它们来解锁更高级的建筑。"
@@ -33187,6 +33030,7 @@ trTR = "Depo"
 
 ["Tutorial.Storage.Pile"]
 raw = "Nhiều công trình đang làm việc có sẵn kho chứa hàng hóa, nhưng rất hạn chế.\n\nXây Bãi Chứa Lớn để chứa thêm Khúc Gỗ.\n\nMỗi kho chỉ chứa một loại hàng. Bạn có thể chọn loại hàng khi bấm vào công trình."
+new = "Nhiều công trình đang làm việc có sẵn kho chứa hàng hóa, nhưng rất hạn chế. Xây Bãi Chứa Lớn để chứa thêm Khúc Gỗ. Mỗi kho chỉ chứa một loại hàng. Bạn có thể chọn loại hàng khi bấm vào công trình."
 status = "normal"
 enUS = "Many buildings that are working have storage for goods, but it is very limited.\n\nBuild a Large Storage to hold more Logs.\n\nEach storage can only hold one type of item. You can select the type of item by clicking on the building."
 zhCN = "许多正在运作的建筑都有可用的货物存储，但非常有限。\n\n建造大型储存区以存放更多木材。\n\n每个库只能存放一种物品。您可以通过单击建筑选择物品类型。"
@@ -33221,6 +33065,7 @@ trTR = "Tüm sıvılar, suyunuzu pompaladığınız gibi, Tanklar içinde saklan
 
 ["Tutorial.Storage.Warehouses"]
 raw = "Cuối cùng, hãy chuẩn bị kho chứa Việt Quất, và sẵn sàng cho vụ thu hoạch Cà Rốt sắp tới.\n\nThực phẩm, cũng như nhiều loại hàng hóa đóng hộp khác - cần được lưu trữ trong Nhà Kho."
+new = "Cuối cùng, hãy chuẩn bị kho chứa Việt Quất, và sẵn sàng cho vụ thu hoạch Cà Rốt sắp tới. Thực phẩm, cũng như nhiều loại hàng hóa đóng hộp khác - cần được lưu trữ trong Nhà Kho."
 status = "normal"
 enUS = "Finally, prepare the Blueberry storage, and get ready for the upcoming Carrot harvest.\n\nFood, as well as many other types of canned goods - needs to be stored in the Warehouse."
 zhCN = "最后，准备蓝莓仓库，并为即将到来的胡萝卜收成做好准备。\n\n食物以及其他许多罐装商品 - 需要储存在仓库中。"
@@ -33289,6 +33134,7 @@ trTR = "Dikey Mimari"
 
 ["Tutorial.VerticalArchitecture.BuildRooftopTerrace"]
 raw = "Trong vùng đất hoang, việc tối ưu không gian là rất quan trọng. Hải ly làm điều đó bằng cách xây dựng ngày càng lên cao.\n\nMột số công trình như Nhà Tổ có mái phẳng, có thể xây thêm công trình khác lên trên.\n\nHãy xây một Sân Thượng trên mái. Bạn sẽ cần Cầu Thang để kết nối nó với đường đi bên dưới."
+new = "Trong vùng đất hoang, việc tối ưu không gian là rất quan trọng. Hải ly làm điều đó bằng cách xây dựng ngày càng lên cao. Một số công trình như Nhà Tổ có mái phẳng, có thể xây thêm công trình khác lên trên. Hãy xây một Sân Thượng trên mái. Bạn sẽ cần Cầu Thang để kết nối nó với đường đi bên dưới."
 status = "normal"
 enUS = "In the wasteland, space optimization is very important. Beavers do this by building higher and higher.\n\nSome buildings like the Lodge have flat roofs, which can support additional structures on top.\n\nBuild a Rooftop Terrace on the roof. You'll need a Stairway to connect it to the path below."
 zhCN = "在荒野中，优化空间是非常重要的。海狸通过不断向上建设来做到这一点。\n\n一些建筑，如平顶房屋，可以在上面建造其他建筑。\n\n请在屋顶上建一个阳台。你需要一个楼梯将它与下面的道路连接起来。"
@@ -33323,6 +33169,7 @@ trTR = "Su ve gıda"
 
 ["Tutorial.WaterAndFood.Farmhouse"]
 raw = "Về lâu dài, bạn cần nguồn thực phẩm bổ dưỡng hơn. Hãy xây Nông Trại để trồng và thu hoạch cây trồng.\n\nGiống như các cột cờ, Nông Trại có phạm vi hoạt động giới hạn.\n\nGợi ý: Nếu thiếu lao động, bạn có thể tạm dừng một số công trình khác bằng nút Tạm dừng (ở bảng điều khiển của công trình đó). "
+new = "Về lâu dài, bạn cần nguồn thực phẩm bổ dưỡng hơn. Hãy xây Nông Trại để trồng và thu hoạch cây trồng. Giống như các cột cờ, Nông Trại có phạm vi hoạt động giới hạn. Gợi ý: Nếu thiếu lao động, bạn có thể tạm dừng một số công trình khác bằng nút Tạm dừng (ở bảng điều khiển của công trình đó)."
 status = "normal"
 enUS = "In the long run, you need a more nutritious food source. Build a Farmhouse to grow and harvest crops. \n\nLike flagpoles, the Farmhouse has a limited range of operation.\n\nTip: If you are short on labor, you can temporarily pause some other constructions using the Pause button (in the building's control panel)."
 zhCN = "从长远来看，你需要更有营养的食物来源。建造农场以种植和收获作物。\n\n和旗杆一样，农场的活动范围有限。\n\n提示：如果劳动力不足，你可以通过该建筑的控制面板上的暂停按钮暂停其他一些建筑。"
@@ -33340,6 +33187,7 @@ trTR = "Uzun vadede, daha besleyici bir gıda kaynağına ihtiyacınız var. Tar
 
 ["Tutorial.WaterAndFood.Gatherer"]
 raw = "Ngoài nước, hải ly còn cần thức ăn.\n\nNhân viên hái lượm sẽ tự động thu hoạch Việt Quất trong phạm vi của Cột Thu Hoạch. Bạn có thể xem phạm vi khi đặt cột.\n\nHãy xây một Cột Thu Hoạch gần các bụi Việt Quất."
+new = "Ngoài nước, hải ly còn cần thức ăn. Nhân viên hái lượm sẽ tự động thu hoạch Việt Quất trong phạm vi của Cột Thu Hoạch. Bạn có thể xem phạm vi khi đặt cột. Hãy xây một Cột Thu Hoạch gần các bụi Việt Quất."
 status = "normal"
 enUS = "Besides water, beavers also need food. \n\nThe gatherer will automatically harvest blueberries within the range of the Gatherer Post. You can see the range when placing the post.\n\nBuild a Gatherer Post near the blueberry bushes."
 zhCN = "除了水，海狸还需要食物。\n\n采集员将会自动在采集柱的范围内收集蓝莓。你可以在放置采集柱时查看范围。\n\n请在蓝莓灌木附近建造一根采集柱。"
@@ -33357,6 +33205,7 @@ trTR = "Su dışında, kunduzların yiyeceğe de ihtiyacı var.\n\nToplayıcı, 
 
 ["Tutorial.WaterAndFood.MarkCarrots"]
 raw = "Nông dân sẽ không bắt đầu làm việc cho đến khi bạn chỉ định trồng gì và ở đâu.\n\nDùng công cụ Làm Nông để tạo ruộng Cà Rốt.\n\nCây trồng cần có đất tươi tốt (màu xanh). Nếu không, chúng sẽ khô và chết."
+new = "Nông dân sẽ không bắt đầu làm việc cho đến khi bạn chỉ định trồng gì và ở đâu. Dùng công cụ Làm Nông để tạo ruộng Cà Rốt. Cây trồng cần có đất tươi tốt (màu xanh). Nếu không, chúng sẽ khô và chết."
 status = "normal"
 enUS = "Farmers will not start working until you designate what and where to plant.\n\nUse the Farming tool to create a Carrot field.\n\nCrops need fertile soil (green) to grow. Otherwise, they will dry out and die."
 zhCN = "农民在你指派种植什么和在哪里之前不会开始工作。\n\n使用农业工具创建胡萝卜田。\n\n作物需要肥沃的土地（绿色）。如果没有，它们会干枯并死亡。"
@@ -33374,6 +33223,7 @@ trTR = "Çiftçiler, neyi ve nerede ekeceğinizi belirleyene kadar çalışmaya 
 
 ["Tutorial.WaterAndFood.WaterPump"]
 raw = "Hải ly cần nước để sống.\n\nHãy xây Máy Bơm Nước để đảm bảo nguồn nước uống liên tục. Đừng quên nối với Trung Tâm Khu Vực."
+new = "Hải ly cần nước để sống. Hãy xây Máy Bơm Nước để đảm bảo nguồn nước uống liên tục. Đừng quên nối với Trung Tâm Khu Vực."
 status = "normal"
 enUS = "Beavers need water to survive.\n\nBuild a Water Pump to ensure a continuous drinking water supply. Don't forget to connect it to the District Center."
 zhCN = "海狸需要水来生存。\n\n请建造水泵以确保持续的饮用水供应。别忘了连接到区域中心。"
@@ -33408,6 +33258,7 @@ trTR = "Refah"
 
 ["Tutorial.Wellbeing.Beaver"]
 raw = "Các quyết định của bạn có ảnh hưởng đến hải ly.\n\nChọn một hải ly để xem thông tin chi tiết: phúc lợi, chỉ số và nhu cầu.\n\nMột số nhu cầu có thể xuống mức âm, gây hậu quả nặng nề (thậm chí là cái chết)."
+new = "Các quyết định của bạn có ảnh hưởng đến hải ly. Chọn một hải ly để xem thông tin chi tiết: phúc lợi, chỉ số và nhu cầu. Một số nhu cầu có thể xuống mức âm, gây hậu quả nặng nề (thậm chí là cái chết)."
 status = "normal"
 enUS = "Your decisions impact the beaver.\n\nSelect a beaver to see detailed information: welfare, stats, and needs.\n\nSome needs can drop to negative levels, leading to severe consequences (even death)."
 zhCN = "你的决策会影响海狸。\n\n选择一只海狸查看详细信息：福利、指标和需求。\n\n一些需求可能会降至负值，导致严重后果（甚至死亡）。"
@@ -33425,6 +33276,7 @@ trTR = "Kararlarınız hatıra etkiler.\n\nDetaylı bilgi için bir huni seçin:
 
 ["Tutorial.Wellbeing.Campfire"]
 raw = "Phúc lợi thể hiện mức độ hài lòng của hải ly. Nó ảnh hưởng đến: tốc độ làm việc, tốc độ di chuyển và tuổi thọ.\n\nMột cách hiệu quả để tăng phúc lợi là xây công trình giải trí—nơi hải ly ghé khi không làm việc."
+new = "Phúc lợi thể hiện mức độ hài lòng của hải ly. Nó ảnh hưởng đến: tốc độ làm việc, tốc độ di chuyển và tuổi thọ. Một cách hiệu quả để tăng phúc lợi là xây công trình giải trí—nơi hải ly ghé khi không làm việc."
 status = "normal"
 enUS = "Wellbeing reflects the satisfaction level of the beavers. It affects: work speed, movement speed, and lifespan.\n\nAn effective way to increase wellbeing is to build recreational facilities—places where beavers gather when not working."
 zhCN = "福祉反映了海狸的满意度。它影响到：工作速度、移动速度和寿命。\n\n提高福祉的有效方法是建造娱乐场所——海狸在不工作时会去的地方。"
@@ -33476,6 +33328,7 @@ trTR = "Bir kunduz seçin ve ihtiyaçlarını görün"
 
 ["Tutorial.Wellbeing.SetWorkingHours"]
 raw = "Hải ly cần thời gian rảnh để ăn, uống, nghỉ ngơi và hoạt động giải trí.\n\nĐể tối ưu hiệu suất, bạn cần cân bằng giữa phúc lợi và giờ làm việc.\n\nHiện tại, hãy đưa giờ làm về mức mặc định."
+new = "Hải ly cần thời gian rảnh để ăn, uống, nghỉ ngơi và hoạt động giải trí. Để tối ưu hiệu suất, bạn cần cân bằng giữa phúc lợi và giờ làm việc. Hiện tại, hãy đưa giờ làm về mức mặc định."
 status = "normal"
 enUS = "Beavers need free time to eat, drink, rest, and engage in leisure activities.\n\nTo optimize performance, you need to balance wellbeing and working hours.\n\nFor now, set the working hours back to default."
 zhCN = "海狸需要空闲时间来吃、喝、休息和娱乐。\n\n为了优化绩效，您需要平衡福利和工作时间。\n\n目前，请将工作时间恢复到默认设置。"
@@ -33493,6 +33346,7 @@ trTR = "Kunduzların yemek, içmek, dinlenmek ve eğlenceli aktiviteler için bo
 
 ["Tutorial.Wellbeing.Shrub"]
 raw = "Phúc lợi cũng tăng nhờ vẻ đẹp của đồ trang trí. \n\nHải ly không chủ động tìm đến, nên bạn hãy đặt gần nơi chúng sinh hoạt.\n\nBụi cây là vật trang trí đơn giản nhất."
+new = "Phúc lợi cũng tăng nhờ vẻ đẹp của đồ trang trí. Hải ly không chủ động tìm đến, nên bạn hãy đặt gần nơi chúng sinh hoạt. Bụi cây là vật trang trí đơn giản nhất."
 status = "normal"
 enUS = "Wellbeing also increases due to the beauty of decorations.\n\nBeavers do not actively seek them out, so place them near where they gather.\n\nShrubs are the simplest decoration."
 zhCN = "“福祉也因装饰品的美丽而增加。\n\n海狸不会主动寻找，因此请将其放置在它们活动的附近。\n\n灌木是最简单的装饰品。”"
@@ -33510,6 +33364,7 @@ trTR = "Refah, dekorasyonun güzelliği sayesinde artar. \n\nSincaplar aktif ola
 
 ["Tutorial.Wellbeing.WellbeingPanel"]
 raw = "Phúc lợi là một chỉ số tổng quát. Bạn có thể thấy mức Phúc lợi trung bình ở góc trên bên trái.\n\nNhấn vào để xem mức độ đáp ứng các nhu cầu. Có nhiều cách để cải thiện đời sống hải ly."
+new = "Phúc lợi là một chỉ số tổng quát. Bạn có thể thấy mức Phúc lợi trung bình ở góc trên bên trái. Nhấn vào để xem mức độ đáp ứng các nhu cầu. Có nhiều cách để cải thiện đời sống hải ly."
 status = "normal"
 enUS = "Wellbeing is a general metric. You can see the average Wellbeing level in the top left corner.\n\nClick to view the fulfillment levels of the needs. There are many ways to improve the beaver's quality of life."
 zhCN = "福利是一个综合指标。您可以在左上角看到平均福利水平。\n\n点击查看满足需求的程度。有多种方式可以改善海狸的生活。"
@@ -33544,6 +33399,7 @@ trTR = "Ahşap"
 
 ["Tutorial.Wood.ConnectLumberjacks"]
 raw = "Mọi công trình có lối vào phải nối với Trung Tâm Khu Vực bằng Đường Đi. \n\nXây Đường Đi để nối Cột Đốn Gỗ với Trung Tâm Khu Vực. \n\nLối vào của công trình được đánh dấu bằng mũi tên."
+new = "Mọi công trình có lối vào phải nối với Trung Tâm Khu Vực bằng Đường Đi. Xây Đường Đi để nối Cột Đốn Gỗ với Trung Tâm Khu Vực. Lối vào của công trình được đánh dấu bằng mũi tên."
 status = "normal"
 enUS = "All structures with an entrance must be connected to the District Center by a Path.\n\nBuild a Path to connect the Lumberjack Posts to the District Center.\n\nThe entrance of the structure is marked with an arrow."
 zhCN = "所有有入口的建筑必须通过小路与区域中心相连。\n\n建造小路将伐木柱与区域中心连接起来。\n\n建筑物的入口用箭头标记。"
@@ -33561,6 +33417,7 @@ trTR = "Her yapının bir girişi olmalı ve Bölge Merkezi'ne Yol ile bağlı o
 
 ["Tutorial.Wood.FinishLumberjacks"]
 raw = "Cột sẽ không được xây nếu nằm ngoài phạm vi xây dựng của khu vực.\n\nChọn Trung Tâm Khu Vực để xem phạm vi. Bạn có thể mở rộng bằng cách nối thêm Đường Đi."
+new = "Cột sẽ không được xây nếu nằm ngoài phạm vi xây dựng của khu vực. Chọn Trung Tâm Khu Vực để xem phạm vi. Bạn có thể mở rộng bằng cách nối thêm Đường Đi."
 status = "normal"
 enUS = "The column cannot be built if it is outside the construction range of the area.\n\nSelect Zone Center to view the range. You can expand it by adding more Path."
 zhCN = "“柱子将无法建造，如果超出区域的建筑范围。\n\n选择区域中心以查看范围。您可以通过连接更多通道来扩展。”"
@@ -33578,6 +33435,7 @@ trTR = "Direk, bölgenin inşa alanının dışındaysa inşa edilemeyecek.\n\nA
 
 ["Tutorial.Wood.MarkTrees"]
 raw = "Tiều phu chỉ chặt cây trong vùng bạn chỉ định.\n\nCây đồng thời cũng phải nằm trong phạm vi của Cột Đốn Gỗ.\n\nDùng công cụ \"Chỉ định chặt cây\". Giữ chuột và kéo để chọn nhiều cây cùng lúc."
+new = "Tiều phu chỉ chặt cây trong vùng bạn chỉ định. Cây đồng thời cũng phải nằm trong phạm vi của Cột Đốn Gỗ. Dùng công cụ \"Chỉ định chặt cây\". Giữ chuột và kéo để chọn nhiều cây cùng lúc."
 status = "normal"
 enUS = "The lumberjack will only cut trees in the area you designate.\n\nThe trees must also be within the range of the Wood Cutting Post.\n\nUse the 'Designate Cut Trees' tool. Click and drag to select multiple trees at once."
 zhCN = "伐木工只在您指定的区域内砍伐树木。\n\n树木同时必须位于木材砍伐柱的范围内。\n\n使用“指定砍树”工具。按住鼠标并拖动以同时选择多棵树。"
@@ -33595,6 +33453,7 @@ trTR = "Oduncu yalnızca belirttiğiniz alandaki ağaçları keser.\n\nAğaç ay
 
 ["Tutorial.Wood.PlaceLumberjacks"]
 raw = "Mọi khu định cư hải ly đều cần Gỗ—rất nhiều Gỗ. \n\nChỉ hải ly tiều phu mới chặt cây. Hãy đặt Cột Đốn Gỗ gần khu rừng."
+new = "Mọi khu định cư hải ly đều cần Gỗ—rất nhiều Gỗ. Chỉ hải ly tiều phu mới chặt cây. Hãy đặt Cột Đốn Gỗ gần khu rừng."
 status = "normal"
 enUS = "Every beaver settlement needs Wood—lots of Wood. \n\nOnly beaver lumberjacks can chop down trees. Place a Lumberjack Post near the forest."
 zhCN = "所有海狸定居点都需要木材——非常多的木材。\n\n只有海狸伐木工才能砍树。请在森林附近放置伐木柱。"
@@ -33629,6 +33488,7 @@ trTR = "Çalışma Saatleri"
 
 ["Tutorial.WorkingHours.SetWorkingHours"]
 raw = "Điều chỉnh giờ làm là một cách quản lý khu định cư.\n\nGiờ làm việc dài hơn giúp phát triển nhanh hơn. Nhưng hải ly cũng cần nghỉ ngơi mỗi ngày.\n\nTrước mắt, hãy tăng nhẹ giờ làm."
+new = "Điều chỉnh giờ làm là một cách quản lý khu định cư. Giờ làm việc dài hơn giúp phát triển nhanh hơn. Nhưng hải ly cũng cần nghỉ ngơi mỗi ngày. Trước mắt, hãy tăng nhẹ giờ làm."
 status = "normal"
 enUS = "Adjusting working hours is a way to manage the settlement.\n\nLonger working hours help to develop faster. But beavers also need to rest every day.\n\nFor now, slightly increase the working hours."
 zhCN = "“调整工作时间是管理定居点的一种方式。\n\n更长的工作时间有助于更快发展。但海狸每天也需要休息。\n\n现在，轻微增加工作时间。”"
@@ -34836,6 +34696,7 @@ trTR = "Kenti tamamlandı: {0}"
 
 ["Work.BeaverOnly"]
 raw = "<YellowHighlight>Chỉ hải ly:</YellowHighlight> Chỉ hải ly được làm việc tại đây."
+new = "Chỉ hải ly: Chỉ hải ly được làm việc tại đây."
 status = "normal"
 enUS = "<YellowHighlight>Beaver Only:</YellowHighlight> Only beavers can work here."
 zhCN = "<YellowHighlight>仅限海狸:</YellowHighlight> 仅海狸可以在这里工作。"
@@ -34853,6 +34714,7 @@ trTR = "<YellowHighlight>Sadece kunduzlar:</YellowHighlight> Sadece kunduzlar bu
 
 ["Work.BotOnly"]
 raw = "<YellowHighlight>Chỉ robot:</YellowHighlight> Chỉ robot được làm việc tại đây."
+new = "Chỉ robot: Chỉ robot được làm việc tại đây."
 status = "normal"
 enUS = "<YellowHighlight>Bot Only:</YellowHighlight> Only robots can work here."
 zhCN = "<YellowHighlight>仅机器人：</YellowHighlight> 这里只有机器人可以工作。"
@@ -34989,6 +34851,7 @@ trTR = "Maksimum İşçi Sayısı: {0}"
 
 ["Work.PriorityTitle"]
 raw = "Ưu tiên nơi làm việc "
+new = "Ưu tiên nơi làm việc"
 status = "normal"
 enUS = "Work Priority"
 zhCN = "工作优先级标题"
@@ -35394,3 +35257,632 @@ koKR = "연결이 너무 많습니다!"
 csCZ = "Too many connections!"
 viVN = "Quá nhiều kết nối!"
 trTR = "Çok fazla bağlantı!"
+
+["Building.BadwaterDischarge.Description"]
+raw = "Bịt kín Nguồn Nước Độc. Có thể đóng hoặc mở. Khi mở, Nước Độc vẫn chảy ngay cả trong thời kỳ Hạn Hán."
+status = "abandoned"
+enUS = "Seal the Poison Water Source. Can be closed or opened. When opened, Poison Water continues to flow even during drought."
+zhCN = "封闭有毒水源。可以开启或关闭。当开启时，即使在干旱期，有毒水仍会流动。"
+zhTW = "封閉有毒水源。可以打開或關閉。當打開時，即使在乾旱期間，有毒水仍會流出。"
+ruRU = "Закрытие Источника Ядовитой Воды. Может быть выключено или включено. При включении ядовитая вода продолжает течь даже в период засухи."
+jaJP = "「有害水源を密閉します。開閉が可能です。開いているときは、干ばつの間も有害な水が流れ続けます。」"
+frFR = "Fermez la Source d'Eau Contaminée. Peut être ouvert ou fermé. Lorsqu'il est ouvert, l'Eau Contaminée continue de s'écouler même en période de sécheresse."
+deDE = "Versiegelte Giftquelle. Kann geschlossen oder geöffnet werden. Bei offenem Zustand fließt das Giftwasser auch während der Dürrezeit."
+plPL = "Zablokuj źródło wody toksycznej. Można zamknąć lub otworzyć. Po otwarciu woda toksyczna nadal płynie nawet w okresie suszy."
+ptBR = "Vedar Fonte de Água Tóxica. Pode ser fechado ou aberto. Quando aberto, a Água Tóxica ainda flui mesmo durante períodos de Secas."
+koKR = "독성 수원 차단. 열거나 닫을 수 있습니다. 열었을 때, 가뭄 기간에도 독성 물이 계속 흐릅니다."
+csCZ = "Uzavřít zdroj toxické vody. Lze uzavřít nebo otevřít. Při otevření toxická voda stále teče i v období sucha."
+viVN = "Bịt kín Nguồn Nước Độc. Có thể đóng hoặc mở. Khi mở, Nước Độc vẫn chảy ngay cả trong thời kỳ Hạn Hán."
+trTR = "Kirletic Su Kaynağını Kapat. Açık veya kapalı olabilir. Açık olduğunda, Kirletic Su Döneminde bile akar."
+
+["Building.BadwaterDischarge.DisplayName"]
+raw = "Van Xả Nước Độc"
+status = "abandoned"
+enUS = "Pollution Discharge Valve"
+zhCN = "毒水排放口"
+zhTW = "毒水排放口"
+ruRU = "Сброс Токсичных Вод"
+jaJP = "毒水排出装置"
+frFR = "Vidange des eaux usées"
+deDE = "Schmutzwasserableitung"
+plPL = "Wypust Wody Toksycznej"
+ptBR = "Válvula de Esgoto"
+koKR = "독성 배수구"
+csCZ = "Vypouštění jedovaté vody"
+viVN = "Van Xả Nước Độc"
+trTR = "Zehirli Su Deşarjı Vanası"
+
+["Building.BadwaterDischarge.FlavorDescription"]
+raw = "Chỉ kỹ sư “xịn” mới được lại gần."
+status = "abandoned"
+enUS = "Only the 'elite' engineers are allowed to come close."
+zhCN = "只有“高级”工程师才能靠近。"
+zhTW = "只有真正的工程師才能靠近。"
+ruRU = "Только «крутым» инженерам разрешено подходить близко."
+jaJP = "優れたエンジニアだけが近くに寄ることができます。"
+frFR = "Seuls les ingénieurs 'débutants' peuvent s'approcher."
+deDE = "Nur „echte“ Ingenieure dürfen sich nähern."
+plPL = "Tylko prawdziwi inżynierowie mogą się zbliżyć."
+ptBR = "Apenas engenheiros 'top' podem chegar perto."
+koKR = "오직 '진짜' 엔지니어만 가까이 다가갈 수 있습니다."
+csCZ = "Jen kvalitní inženýři se mohou přiblížit."
+viVN = "Only elite engineers are allowed nearby."
+trTR = "Sadece 'özel' mühendisler yakına yaklaşabilir."
+
+["Building.DeepMechanicalFluidPump.DisplayName"]
+raw = "Máy Bơm Chất Lỏng Cơ Khí Sâu"
+status = "abandoned"
+enUS = "Deep Mechanical Fluid Pump"
+zhCN = "深层机械液体泵"
+zhTW = "深層機械液體泵"
+ruRU = "Глубокий механический насос жидкости"
+jaJP = "深部機械液体ポンプ"
+frFR = "Pompe à Fluide Mécanique Profonde"
+deDE = "Tiefenmechanische Flüssigkeitspumpe"
+plPL = "Pompa Głębokich Cieczy Mechanicznych"
+ptBR = "Bomba de Fluido Mecânico Profunda"
+koKR = "깊은 기계 액체 펌프"
+csCZ = "Hloubkový mechanický čerpadlo na kapaliny"
+viVN = "Máy Bơm Chất Lỏng Cơ Khí Sâu"
+trTR = "Derin Mekanik Sıvı Pompası"
+
+["Building.FluidDump.Description"]
+raw = "Xả Nước hoặc Nước Độc."
+status = "abandoned"
+enUS = "Drain Water or Polluted Water."
+zhCN = "排水或有毒水。"
+zhTW = "排水或毒水。"
+ruRU = "Скидывать воду или токсичные жидкости."
+jaJP = "水か毒水を排出する。"
+frFR = "Décharge d'eau ou eau toxique."
+deDE = "Abwasser oder Giftwasser ablassen."
+plPL = "Wypuść wodę lub wodę toksyczną."
+ptBR = "Descarregar Água ou Água Tóxica."
+koKR = "물 또는 독물 배출."
+csCZ = "Vyprázdnit vodu nebo znečištěnou vodu."
+viVN = "Xả Nước hoặc Nước Độc."
+trTR = "Su veya Toksik Su Boşaltımı."
+
+["Building.FluidDump.DisplayName"]
+raw = "Cửa Xả Chất Lỏng"
+status = "abandoned"
+enUS = "Fluid Dump"
+zhCN = "液体排放口"
+zhTW = "液體排放口"
+ruRU = "Слив жидкости"
+jaJP = "液体排出口"
+frFR = "Décharge de Liquide"
+deDE = "Flüssigkeitsauslass"
+plPL = "Wylot Płynów"
+ptBR = "Carga de Fluido"
+koKR = "액체 방출구"
+csCZ = "Vypouštění kapaliny"
+viVN = "Cửa Xả Chất Lỏng"
+trTR = "Sıvı Boşaltma Kapısı"
+
+["Building.FluidDump.ToggleLabel"]
+raw = "Loại nước"
+status = "abandoned"
+enUS = "Water Type"
+zhCN = "水类型"
+zhTW = "水類型"
+ruRU = "Тип воды"
+jaJP = "水の種類"
+frFR = "Type d'eau"
+deDE = "Wasserart"
+plPL = "Typ wody"
+ptBR = "Tipo de água"
+koKR = "물 종류"
+csCZ = "Typ vody"
+viVN = "Loại nước"
+trTR = "Su türü"
+
+["Building.MechanicalFluidPump.Description"]
+raw = "Bơm Nước hoặc Nước Độc từ một phía và xả ra phía còn lại. Hiệu quả hơn máy bơm thông thường."
+status = "abandoned"
+enUS = "Pumps water or toxic fluid from one side and discharges it on the other side. More efficient than a regular pump."
+zhCN = "“从一侧抽取水或有毒水，并从另一侧排出。比普通泵更有效。”"
+zhTW = "從一側抽取水或毒水，並在另一側排出。比普通泵更有效。"
+ruRU = "Насос для воды или отравляющей жидкости, который закачивает из одной стороны и сбрасывает с другой. Эффективнее обычного насоса."
+jaJP = "「水または毒水を一方から吸い上げ、反対側に排出します。従来のポンプよりも効率的です。」"
+frFR = "Pompe à eau ou à fluide toxique d'un côté et évacuation de l'autre. Plus efficace qu'une pompe ordinaire."
+deDE = "Wasser- oder Giftpumpe von einer Seite und gibt es auf der anderen Seite ab. Effektiver als eine herkömmliche Pumpe."
+plPL = "Pompuje wodę lub substancje toksyczne z jednej strony i wypuszcza je z drugiej. Skuteczniejsza niż tradycyjne pompy."
+ptBR = "Bomba de Água ou Líquido Tóxico de um lado e despeja do outro. Mais eficiente que uma bomba comum."
+koKR = "한쪽에서 물 또는 독성 물질을 흡입하고 반대쪽으로 배출합니다. 일반적인 펌프보다 효율적입니다."
+csCZ = "Přečerpávač vody nebo jedovaté vody z jedné strany a vypouští na druhé. Efektivnější než běžné čerpadlo."
+viVN = "Bơm Nước hoặc Nước Độc từ một phía và xả ra phía còn lại. Hiệu quả hơn máy bơm thông thường."
+trTR = "Bir taraftan su veya zehirli suyu pompalayıp diğer tarafa boşaltır. Normal pompalardan daha etkilidir."
+
+["Building.MechanicalFluidPump.DisplayName"]
+raw = "Máy Bơm Chất Lỏng Cơ Khí"
+status = "abandoned"
+enUS = "Mechanical Fluid Pump"
+zhCN = "机械液体泵"
+zhTW = "機械流體泵"
+ruRU = "Механический насос жидкости"
+jaJP = "機械式液体ポンプ"
+frFR = "Pompe de Fluide Mécanique"
+deDE = "Mechanische Flüssigkeitspumpe"
+plPL = "Pompa Cieczy Mechanicznej"
+ptBR = "Máquina de Bomba de Fluido Mecânico"
+koKR = "기계 유체 펌프"
+csCZ = "Mechanická čerpadlo na kapaliny"
+viVN = "Máy Bơm Chất Lỏng Cơ Khí"
+trTR = "Mekanik Sıvı Pompası"
+
+["Building.MechanicalFluidPump.FlavorDescription"]
+raw = "Thà để nước tự chảy còn hơn là phải dùng xô."
+status = "abandoned"
+enUS = "Better to let the water flow on its own than to use a bucket."
+zhCN = "宁愿让水自流，也不愿费力用桶。"
+zhTW = "寧可讓水自然流動，也不願使用水桶。"
+ruRU = "Лучше позволить воде течь, чем использовать ведро."
+jaJP = "「バケツを使うよりも、水が自然に流れる方がましだ。」"
+frFR = "Mieux vaut laisser l'eau s'écouler plutôt que d'utiliser un seau."
+deDE = "Es ist besser, das Wasser fließen zu lassen, als einen Eimer zu benutzen."
+plPL = "Lepiej niech woda płynie sama niż używać wiadra."
+ptBR = "Melhor deixar a água fluir do que ter que usar um balde."
+koKR = "물통을 사용하기보다는 물이 자연스럽게 흐르도록 놔두는 것이 낫다."
+csCZ = "Lépe nechat vodu téct než jezdit s vědrem."
+viVN = "Thà để nước tự chảy còn hơn là phải dùng xô."
+trTR = "Kova kullanmaktansa suyun kendiliğinden akmasını tercih ederim."
+
+["Building.Sluice.AboveContaminationToggle"]
+raw = "Đóng khi ô nhiễm vượt mức: {0}"
+status = "abandoned"
+enUS = "Close when contamination exceeds: {0}"
+zhCN = "“污染超过限值时关闭: {0}”"
+zhTW = "當污染超過限值時關閉: {0}"
+ruRU = "Закрыть, когда уровень загрязнения превышает: {0}"
+jaJP = "汚染が基準を超えた場合は閉じる: {0}"
+frFR = "Fermé lorsque la contamination dépasse le seuil : {0}"
+deDE = "Schließen, wenn die Kontamination den Grenzwert überschreitet: {0}"
+plPL = "Zamknij, gdy zanieczyszczenie przekracza poziom: {0}"
+ptBR = "Fechar quando a contaminação excede o limite: {0}"
+koKR = "오염 수준 초과 시 닫기: {0}"
+csCZ = "Zavřít, když znečištění překročí: {0}"
+viVN = "Đóng khi ô nhiễm vượt mức: {0}"
+trTR = "Kirlenme eşiği aşıldığında kapat: {0}"
+
+["Building.Sluice.BelowContaminationToggle"]
+raw = "Đóng khi ô nhiễm dưới mức: {0}"
+status = "abandoned"
+enUS = "Close when contamination is below: {0}"
+zhCN = "当污染低于阈值时关闭: {0}"
+zhTW = "在污染水平以下時關閉: {0}"
+ruRU = "Закрыть при загрязнении ниже уровня: {0}"
+jaJP = "汚染レベルが以下の時に閉じる: {0}"
+frFR = "Fermer lorsque la contamination est en dessous du niveau : {0}"
+deDE = "Schließen, wenn Kontamination unterhalb des Wertes: {0}"
+plPL = "Zamykaj, gdy zanieczyszczenie poniżej poziomu: {0}"
+ptBR = "Fechado quando a contaminação estiver abaixo do nível: {0}"
+koKR = "오염 수준 이하일 때 닫기: {0}"
+csCZ = "Zavřít, když je znečištění pod úrovní: {0}"
+viVN = "Đóng khi ô nhiễm dưới mức: {0}"
+trTR = "Kirlenme seviyesi altında kapalı: {0}"
+
+["Building.Sluice.Contamination"]
+raw = "Ô nhiễm: {0}"
+status = "abandoned"
+enUS = "Contamination: {0}"
+zhCN = "污染: {0}"
+zhTW = "污染: {0}"
+ruRU = "Загрязнение: {0}"
+jaJP = "汚染: {0}"
+frFR = "Contamination : {0}"
+deDE = "Verschmutzung: {0}"
+plPL = "Zanieczyszczenie: {0}"
+ptBR = "Contaminação: {0}"
+koKR = "오염: {0}"
+csCZ = "Znečištění: {0}"
+viVN = "Ô nhiễm: {0}"
+trTR = "Kirlilik: {0}"
+
+["Building.Sluice.Description"]
+raw = "Công trình xả nước một chiều, tự động."
+status = "abandoned"
+enUS = "One-way water discharge structure, automatic."
+zhCN = "单向排水设施，自动。"
+zhTW = "單向排水工事，自動運行。"
+ruRU = "Однонаправленный, автоматический водослив."
+jaJP = "一方向に水を排出する自動設備です。"
+frFR = "Construction de décharge d'eau unidirectionnelle, automatique."
+deDE = "Einbahn-Wasserablassbauwerk, automatisch."
+plPL = "Jednokierunkowa budowla do odprowadzania wody, automatyczna."
+ptBR = "Obra de drenagem unidirecional, automática."
+koKR = "일방향 배수 구조물, 자동입니다."
+csCZ = "Jednosměrná vodní propusť, automatická."
+viVN = "Công trình xả nước một chiều, tự động."
+trTR = "Tek yönlü, otomatik su boşaltma yapısı."
+
+["Building.Sluice.DisplayName"]
+raw = "Cửa Cống"
+status = "abandoned"
+enUS = "Sluice Gate"
+zhCN = "闸门"
+zhTW = "閘門"
+ruRU = "Задвижка"
+jaJP = "水門"
+frFR = "Vanne"
+deDE = "Schleuse"
+plPL = "Cegła"
+ptBR = "Cura Cống"
+koKR = "수문"
+csCZ = "Corsa Cống"
+viVN = "Cửa Cống"
+trTR = "Kapak Kapak"
+
+["Building.Sluice.DownstreamDepth"]
+raw = "Độ sâu hạ lưu: {0}"
+status = "abandoned"
+enUS = "Downstream Depth: {0}"
+zhCN = "下游深度: {0}"
+zhTW = "下游深度: {0}"
+ruRU = "Глубина ниже по течению: {0}"
+jaJP = "下流の深さ: {0}"
+frFR = "Profondeur en aval : {0}"
+deDE = "Ufervertiefung: {0}"
+plPL = "Duża głębokość w dół rzeki: {0}"
+ptBR = "Profundidade a jusante: {0}"
+koKR = "하류 깊이: {0}"
+csCZ = "Hloubka pod jezem: {0}"
+viVN = "Độ sâu hạ lưu: {0}"
+trTR = "Aşağı akım derinliği: {0}"
+
+["Building.Sluice.FlavorDescription"]
+raw = "\"Suli, cậu lại quên xả Nước Độc rồi à?\" —Ma' Ngonel"
+status = "abandoned"
+enUS = "\"Suli, did you forget to drain the Toxic Water again?\" —Ma' Ngonel"
+zhCN = "“苏里，你又忘了放毒水了吗？” — 玛·恩戈内尔"
+zhTW = "「Suli，你又忘了放水毒了嗎？」—馬·恩戈內爾"
+ruRU = "\"Сули, ты снова забыл сбросить Отравленную Воду?\" —Ма' Нгонел"
+jaJP = "「スリ、また毒水を排水するのを忘れたのか？」— マ・ゴネール"
+frFR = "\"Suli, tu as encore oublié de vider l'Eau Toxique ?\" —Ma' Ngonel"
+deDE = "Suli, hast du wieder vergessen, das Giftwasser abzuleiten?\" —Ma' Ngonel"
+plPL = "\"Suli, czy znowu zapomniałeś o spuszczeniu Złej Wody?\" —Ma' Ngonel"
+ptBR = "\"Suli, você esqueceu de drenar a Água Tóxica novamente?\" —Ma' Ngonel"
+koKR = "\"수리, 너 또 독성을 해소하는 걸 잊었니?\" —마' 농엘"
+csCZ = "\"Suli, zase jsi zapomněl vypustit Znečištěnou Vodu?\" —Ma' Ngonel"
+viVN = "\"Suli, cậu lại quên xả Nước Độc rồi à?\" —Ma' Ngonel"
+trTR = "\"Suli, suyu boşaltmayı unuttun mu?\" —Ma' Ngonel"
+
+["Building.Sluice.MaximumDepthToggle"]
+raw = "Đóng khi độ sâu hạ lưu vượt: {0}"
+status = "abandoned"
+enUS = "Close when downstream depth exceeds: {0}"
+zhCN = "当下游深度超过时关闭: {0}"
+zhTW = "當下游深度超過時關閉: {0}"
+ruRU = "Закрыть, когда глубина ниже: {0}"
+jaJP = "下流の深さが超えた時に閉じる: {0}"
+frFR = "Fermé lorsque la profondeur en aval dépasse : {0}"
+deDE = "Schließen, wenn die Tiefe unterhalb überschreitet: {0}"
+plPL = "Zamknij, gdy głębokość poniżej przekracza: {0}"
+ptBR = "Fechar quando a profundidade a jusante ultrapassar: {0}"
+koKR = "다운스트림 깊이가 초과 시 닫기: {0}"
+csCZ = "Zavřít, když hloubka pod vodou přesáhne: {0}"
+viVN = "Đóng khi độ sâu hạ lưu vượt: {0}"
+trTR = "Aşağı akış derinliği aşıldığında kapat: {0}"
+
+["Building.Sluice.Mode.Auto"]
+raw = "Tự Động"
+status = "abandoned"
+enUS = "Automatic"
+zhCN = "自动"
+zhTW = "自動"
+ruRU = "Авто"
+jaJP = "自動"
+frFR = "Automatique"
+deDE = "Automatisch"
+plPL = "Automatyczny"
+ptBR = "Automático"
+koKR = "자동"
+csCZ = "Automaticky"
+viVN = "Tự Động"
+trTR = "Otomatik"
+
+["Building.Sluice.Mode.AutoClosed"]
+raw = "Tự Động: Đóng"
+status = "abandoned"
+enUS = "Automatic: Closed"
+zhCN = "自动：关闭"
+zhTW = "自動：關閉"
+ruRU = "Автоматически: Закрыто"
+jaJP = "自動: 閉じる"
+frFR = "Automatique : Fermer"
+deDE = "Automatisch: Geschlossen"
+plPL = "Automatyczne: Zamknij"
+ptBR = "Automático: Fechar"
+koKR = "자동: 닫기"
+csCZ = "Automatické: Zavřeno"
+viVN = "Tự Động: Đóng"
+trTR = "Otomatik: Kapalı"
+
+["Building.Sluice.Mode.AutoOpen"]
+raw = "Tự Động: Mở"
+status = "abandoned"
+enUS = "Automatic: Open"
+zhCN = "自动：开启"
+zhTW = "自動: 開啟"
+ruRU = "Автоматически: Открыть"
+jaJP = "自動：オープン"
+frFR = "Automatique : Ouvrir"
+deDE = "Automatisch: Öffnen"
+plPL = "Automatycznie: Otwórz"
+ptBR = "Automático: Abrir"
+koKR = "자동: 열기"
+csCZ = "Automaticky: Otevřít"
+viVN = "Tự Động: Mở"
+trTR = "Otomat: Aç"
+
+["Building.Sluice.Mode.Closed"]
+raw = "Đóng"
+status = "abandoned"
+enUS = "Closed"
+zhCN = "关闭"
+zhTW = "關閉"
+ruRU = "Закрыто"
+jaJP = "閉じる"
+frFR = "Fermé"
+deDE = "Geschlossen"
+plPL = "Zamknięte"
+ptBR = "Fechado"
+koKR = "닫힘"
+csCZ = "Uzavřeno"
+viVN = "Đóng"
+trTR = "Kapat"
+
+["Building.Sluice.Mode.Open"]
+raw = "Mở"
+status = "abandoned"
+enUS = "Open"
+zhCN = "打开"
+zhTW = "打開"
+ruRU = "Открыть"
+jaJP = "開く"
+frFR = "Ouvrir"
+deDE = "Öffnen"
+plPL = "Otwórz"
+ptBR = "Abrir"
+koKR = "열기"
+csCZ = "Otevřít"
+viVN = "Mở"
+trTR = "Açık"
+
+["Building.Sluice.Synchronize"]
+raw = "Đồng bộ với các cống liền kề"
+status = "abandoned"
+enUS = "Synchronize with adjacent sluices"
+zhCN = "与相邻闸门同步"
+zhTW = "與相鄰水閘同步"
+ruRU = "Синхронизировать с соседними шлюзами"
+jaJP = "近接する水門と同期する"
+frFR = "Synchroniser avec les écluses adjacentes"
+deDE = "Mit benachbarten Schleusen synchronisieren"
+plPL = "Synchronizuj z sąsiednimi śluzami"
+ptBR = "Sincronizar com os comportas adjacentes"
+koKR = "인접한 배수구와 동기화"
+csCZ = "Synchronizovat s okolními zátkami"
+viVN = "Đồng bộ với các cống liền kề"
+trTR = "Komşu barajlarla senkronize et"
+
+["Building.Valve.Description"]
+raw = "Cửa xả nước một chiều có thể điều chỉnh lưu lượng."
+status = "abandoned"
+enUS = "Adjustable one-way water outlet."
+zhCN = "可调流量的单向排水阀。"
+zhTW = "可調流量的單向排水閥。"
+ruRU = "Регулируемый односторонний выпуск воды."
+jaJP = "一方向からの水を排出する調整可能なバルブです。"
+frFR = "Vanne à débit réglable pour l'évacuation d'eau unidirectionnelle."
+deDE = "Einweg-Wasserablassventil mit einstellbarem Durchfluss."
+plPL = "Zawór odpływowy jednokierunkowy z regulacją przepływu."
+ptBR = "Válvula unidirecional ajustável."
+koKR = "수조의 흐름을 조절할 수 있는 일방향 배수 밸브입니다."
+csCZ = "Odpouštěcí ventil s možností regulace průtoku."
+viVN = "Cửa xả nước một chiều có thể điều chỉnh lưu lượng."
+trTR = "Debi ayarına sahip tek yönlü su tahliye vanası."
+
+["Building.Valve.DisplayName"]
+raw = "Van Điều Tiết"
+status = "abandoned"
+enUS = "Control Valve"
+zhCN = "阀门"
+zhTW = "閥門"
+ruRU = "Клапан регулировки"
+jaJP = "バルブ"
+frFR = "Vanne de régulation"
+deDE = "Ventil"
+plPL = "Zawór Regulacyjny"
+ptBR = "Válvula"
+koKR = "밸브 조절기"
+csCZ = "Ventil"
+viVN = "Van Điều Tiết"
+trTR = "Vana"
+
+["Building.Valve.OutflowLimit"]
+raw = "Giới hạn lưu lượng: {0}"
+status = "abandoned"
+enUS = "Flow limit: {0}"
+zhCN = "流量限制：{0}"
+zhTW = "流量限制: {0}"
+ruRU = "Лимит расхода: {0}"
+jaJP = "流量制限: {0}"
+frFR = "Limite de débit : {0}"
+deDE = "Durchflussbegrenzung: {0}"
+plPL = "Limit przepływu: {0}"
+ptBR = "Limite de fluxo: {0}"
+koKR = "유량 제한: {0}"
+csCZ = "Limit průtoku: {0}"
+viVN = "Giới hạn lưu lượng: {0}"
+trTR = "Akış sınırı: {0}"
+
+["Building.Valve.OutflowUnlimited"]
+raw = "Lưu lượng không giới hạn"
+status = "abandoned"
+enUS = "Unlimited flow"
+zhCN = "无限流量"
+zhTW = "流量無限制"
+ruRU = "Неограниченный поток"
+jaJP = "無制限の流量"
+frFR = "L'écoulement illimité"
+deDE = "Unbegrenzter Durchfluss"
+plPL = "Nielimitowany przepływ"
+ptBR = "Liberar fluxo ilimitado"
+koKR = "유량 무제한"
+csCZ = "Nekonečný průtok"
+viVN = "Lưu lượng không giới hạn"
+trTR = "Sınırsız akış"
+
+["Building.Valve.ReactionSpeed"]
+raw = "Tốc độ phản ứng: {0}"
+status = "abandoned"
+enUS = "Reaction Speed: {0}"
+zhCN = "反应速度: {0}"
+zhTW = "反應速度: {0}"
+ruRU = "Скорость реакции: {0}"
+jaJP = "反応速度: {0}"
+frFR = "Vitesse de réaction : {0}"
+deDE = "Reaktionsgeschwindigkeit: {0}"
+plPL = "Prędkość reakcji: {0}"
+ptBR = "Velocidade de reação: {0}"
+koKR = "반응 속도: {0}"
+csCZ = "Rychlost reakce: {0}"
+viVN = "Tốc độ phản ứng: {0}"
+trTR = "Reaksiyon Hızı: {0}"
+
+["Building.Valve.State.Closing"]
+raw = "Đang Đóng"
+status = "abandoned"
+enUS = "Closing"
+zhCN = "正在关闭"
+zhTW = "正在關閉"
+ruRU = "Закрывается"
+jaJP = "閉じています"
+frFR = "En train de fermer"
+deDE = "Schließt"
+plPL = "Zamykanie"
+ptBR = "Fechando"
+koKR = "닫는 중"
+csCZ = "Ukončení"
+viVN = "Đang Đóng"
+trTR = "Kapanıyor"
+
+["Building.Valve.State.Idle"]
+raw = "Đang Chờ"
+status = "abandoned"
+enUS = "Waiting"
+zhCN = "等待中"
+zhTW = "待機中"
+ruRU = "Ожидание"
+jaJP = "待機中"
+frFR = "En Attente"
+deDE = "Warten"
+plPL = "Wieczór Czekania"
+ptBR = "Aguardando"
+koKR = "대기 중"
+csCZ = "Čekání"
+viVN = "Đang Chờ"
+trTR = "Beklemede"
+
+["Building.Valve.State.Opening"]
+raw = "Đang Mở"
+status = "abandoned"
+enUS = "Opening"
+zhCN = "“正在打开”"
+zhTW = "正在開啟"
+ruRU = "Открывается"
+jaJP = "開いている"
+frFR = "Ouverture"
+deDE = "Öffnen"
+plPL = "Otwarcie"
+ptBR = "Abertura"
+koKR = "열림"
+csCZ = "Pro otevření"
+viVN = "Đang Mở"
+trTR = "Açılıyor"
+
+["Building.Valve.Synchronize"]
+raw = "Đồng bộ với các van điều tiết liền kề"
+status = "abandoned"
+enUS = "Synchronize with adjacent control valves"
+zhCN = "与相邻的调节阀同步"
+zhTW = "與鄰近的調節閥同步"
+ruRU = "Синхронизировать с соседними регулирующими клапанами"
+jaJP = "隣接する調整バルブと同期"
+frFR = "Synchroniser avec les vannes de régulation adjacentes"
+deDE = "Synchronisieren mit benachbarten Regelventilen"
+plPL = "Synchronize with adjacent control valves"
+ptBR = "Sincronizar com as válvulas de controle adjacentes"
+koKR = "인접한 조절 밸브와 동기화"
+csCZ = "Synchronizovat s přilehlými ventily"
+viVN = "Đồng bộ với các van điều tiết liền kề"
+trTR = "Komşu vanalarla senkronize et"
+
+["DeletionBlocker.Prefix"]
+raw = "Không thể xóa."
+status = "abandoned"
+enUS = "Cannot delete."
+zhCN = "无法删除。"
+zhTW = "無法刪除。"
+ruRU = "Не могу удалить."
+jaJP = "削除できません。"
+frFR = "Impossible de supprimer."
+deDE = "Kann nicht gelöscht werden."
+plPL = "Nie można usunąć."
+ptBR = "Não é possível excluir."
+koKR = "삭제할 수 없습니다."
+csCZ = "Není možné smazat."
+viVN = "Không thể xóa."
+trTR = "Silinemez."
+
+["DeletionBlocker.Stockpile.NotEmpty"]
+raw = "Vẫn còn hàng hóa bên trong."
+status = "abandoned"
+enUS = "There are still goods inside."
+zhCN = "货物仍在内部。"
+zhTW = "仍然有貨物在內。"
+ruRU = "Внутри все еще есть товары."
+jaJP = "まだ内部に商品があります。"
+frFR = "Il reste des marchandises à l'intérieur."
+deDE = "Es befinden sich noch Waren darin."
+plPL = "Wciąż są towary w środku."
+ptBR = "Ainda há itens dentro."
+koKR = "아직 재고가 남아 있습니다."
+csCZ = "V úložišti stále zůstávají položky."
+viVN = "Vẫn còn hàng hóa bên trong."
+trTR = "İçeride hala malzeme var."
+
+["DeletionBlocker.TerrainPhysics"]
+raw = "Công trình vẫn đang đỡ cho địa hình"
+status = "abandoned"
+enUS = "The structure is still supporting the terrain."
+zhCN = "建筑仍在支撑地形"
+zhTW = "「建築物仍在支撐地形」"
+ruRU = "Строение все еще поддерживает местность"
+jaJP = "「建物はまだ地形を支えています」"
+frFR = "La structure soutient toujours le terrain"
+deDE = "Das Gebäude unterstützt immer noch das Terrain."
+plPL = "Obiekt wciąż wspiera teren."
+ptBR = "A construção ainda está sustentando o terreno"
+koKR = "구조물이 여전히 지형을 지탱하고 있습니다."
+csCZ = "Stavba stále podpírá terén"
+viVN = "Công trình vẫn đang đỡ cho địa hình"
+trTR = "Yapı hala araziyi tutuyor"
+
+["Status.Beaver.Dead"]
+raw = "Đã chết"
+status = "abandoned"
+enUS = "Dead"
+zhCN = "已死"
+zhTW = "已死"
+ruRU = "Мёртв"
+jaJP = "死んだ"
+frFR = "Mort"
+deDE = "Tot"
+plPL = "Zmarł"
+ptBR = "Morreu"
+koKR = "죽음"
+csCZ = "Zemřel"
+viVN = "Đã chết"
+trTR = "Öldü"

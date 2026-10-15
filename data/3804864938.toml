@@ -1,0 +1,58 @@
+[_meta]
+name = "Folktails Playground"
+
+["Barbara.FolktailsPlayground.WoodenSwing.DisplayName"]
+new = "Wooden Swing"
+status = "normal"
+
+["Barbara.FolktailsPlayground.WoodenSwing.Description"]
+new = "A sturdy decorative swing built entirely from wood."
+status = "normal"
+
+["Barbara.FolktailsPlayground.WoodenSwing.Flavor"]
+new = "Back and forth until sunset."
+status = "normal"
+
+["Barbara.FolktailsPlayground.WoodenSeesaw.DisplayName"]
+new = "Wooden Seesaw"
+status = "normal"
+
+["Barbara.FolktailsPlayground.WoodenSeesaw.Description"]
+new = "A decorative seesaw built entirely from wood."
+status = "normal"
+
+["Barbara.FolktailsPlayground.WoodenSeesaw.Flavor"]
+new = "The trick is finding the right-sized beaver."
+status = "normal"
+
+["Barbara.FolktailsPlayground.WoodenPlayTower.DisplayName"]
+new = "Wooden Play Tower"
+status = "normal"
+
+["Barbara.FolktailsPlayground.WoodenPlayTower.Description"]
+new = "Open play tower without seats. Two side wings integrate with native Platforms: build a 1×1 Platform west and east; then place paths and furniture on top."
+status = "normal"
+
+["Barbara.FolktailsPlayground.WoodenPlayTower.Flavor"]
+new = "Every district looks like a toy from up here."
+status = "normal"
+
+["Barbara.FolktailsPlayground.Need.Play.DisplayName"]
+new = "Play"
+status = "normal"
+
+["Barbara.FolktailsPlayground.WoodenRoundabout.DisplayName"]
+new = "Wooden Roundabout"
+status = "normal"
+
+["Barbara.FolktailsPlayground.WoodenRoundabout.Description"]
+new = "A dark wooden roundabout with four colorful benches."
+status = "normal"
+
+["Barbara.FolktailsPlayground.WoodenRoundabout.Flavor"]
+new = "Hold tight: tails make excellent streamers!"
+status = "normal"
+
+["Barbara.FolktailsPlayground.ToolGroup.DisplayName"]
+new = "Folktails Playground"
+status = "normal"

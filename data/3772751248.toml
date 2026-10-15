@@ -18,6 +18,10 @@ csCZ = "Sauna"
 viVN = "Xông hơi"
 trTR = "Suna"
 
+["Building.GeothermalSauna.DisplayName"]
+new = "Geothermal Sauna"
+status = "normal"
+
 ["Building.Sauna.Description"]
 raw = "An open roof sauna where beavers can sweat out their worries."
 status = "normal"

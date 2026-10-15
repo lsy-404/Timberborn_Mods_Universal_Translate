@@ -307,6 +307,50 @@ csCZ = "Rozbalit vše"
 viVN = "Mở rộng tất cả"
 trTR = "Tümünü Genişlet"
 
+["TaskPriorities.ExpandBlock"]
+new = "Expand this task block"
+status = "normal"
+
+["TaskPriorities.CollapseBlock"]
+new = "Collapse this task block"
+status = "normal"
+
+["TaskPriorities.ShowBlockedTooltip"]
+new = "Show {0} blocked tasks"
+status = "normal"
+
+["TaskPriorities.HideBlockedTooltip"]
+new = "Hide {0} blocked tasks"
+status = "normal"
+
+["TaskPriorities.MaterialShort"]
+new = "M"
+status = "normal"
+
+["TaskPriorities.BuildShort"]
+new = "B"
+status = "normal"
+
+["TaskPriorities.ProgressTooltip"]
+new = "Materials: {0}% · Build: {1}%"
+status = "normal"
+
+["TaskPriorities.ChangeTaskPriority"]
+new = "Set {0} to {1} priority"
+status = "normal"
+
+["TaskPriorities.ChangeBlockPriority"]
+new = "Set all {1} {0} tasks to {2} priority"
+status = "normal"
+
+["TaskPriorities.FocusTask"]
+new = "Select and focus {0}"
+status = "normal"
+
+["TaskPriorities.SetOverlayScale"]
+new = "Set overlay scale to {0}%"
+status = "normal"
+
 ["TaskPriorities.TaskLabel"]
 raw = "{0} ({1}% mat, {2}% build)"
 status = "normal"

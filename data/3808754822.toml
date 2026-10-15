@@ -1,0 +1,166 @@
+[_meta]
+name = "Timberbar"
+
+["DelightsWorkshop.DisplayName"]
+new = "Delights Workshop"
+status = "normal"
+
+["DelightsWorkshop.Flavor"]
+new = "A cozy workshop for hearty treats."
+status = "normal"
+
+["Timberbar.Menu.DisplayName"]
+new = "Timberbar"
+status = "normal"
+
+["Timberbar.FurnitureGroup.DisplayName"]
+new = "Timberbar Furniture"
+status = "normal"
+
+["Timberbar.Set1.DisplayName"]
+new = "Set 1"
+status = "normal"
+
+["Timberbar.Set1.Description"]
+new = "A 1x1 table set with two resting seats."
+status = "normal"
+
+["Timberbar.Set1.FlavorDescription"]
+new = "A flexible little corner for a shared break."
+status = "normal"
+
+["Timberbar.LargeBench.DisplayName"]
+new = "Large Bench"
+status = "normal"
+
+["Timberbar.LargeBench.Description"]
+new = "A large bench with two resting seats."
+status = "normal"
+
+["Timberbar.LargeBench.FlavorDescription"]
+new = "A place to sit together."
+status = "normal"
+
+["Timberbar.Set2.DisplayName"]
+new = "Set 2"
+status = "normal"
+
+["Timberbar.Set2.Description"]
+new = "A 1x1 table set with two resting seats."
+status = "normal"
+
+["Timberbar.Set2.FlavorDescription"]
+new = "A flexible little corner for a shared break."
+status = "normal"
+
+["Timberbar.Chair.DisplayName"]
+new = "Small Chair"
+status = "normal"
+
+["Timberbar.Chair.Description"]
+new = "A compact chair with one resting seat."
+status = "normal"
+
+["Timberbar.Chair.FlavorDescription"]
+new = "A small place to sit."
+status = "normal"
+
+["Timberbar.Set3.DisplayName"]
+new = "Set 3"
+status = "normal"
+
+["Timberbar.Set3.Description"]
+new = "A 1x1 table set with two resting seats."
+status = "normal"
+
+["Timberbar.Set3.FlavorDescription"]
+new = "A flexible little corner for a shared break."
+status = "normal"
+
+["Timberbar.Set4.DisplayName"]
+new = "Set 4"
+status = "normal"
+
+["Timberbar.Set4.Description"]
+new = "A 1x1 table set with two resting seats."
+status = "normal"
+
+["Timberbar.Set4.FlavorDescription"]
+new = "A flexible little corner for a shared break."
+status = "normal"
+
+["Timberbar.Set5.DisplayName"]
+new = "Set 5"
+status = "normal"
+
+["Timberbar.Set5.Description"]
+new = "A 1x1 table set with two resting seats."
+status = "normal"
+
+["Timberbar.Set5.FlavorDescription"]
+new = "A flexible little corner for a shared break."
+status = "normal"
+
+["TartWorkshop.DisplayName"]
+new = "Tart Workshop"
+status = "normal"
+
+["TartWorkshop.Description"]
+new = "One beaver prepares chestnut tarts."
+status = "normal"
+
+["TartWorkshop.Flavor"]
+new = "A compact counter workshop for chestnut tarts."
+status = "normal"
+
+["DelightsWorkshop.Description"]
+new = "Two beavers prepare glazed chestnut cakes."
+status = "normal"
+
+["GlazedChestnutTartRecipe.Name"]
+new = "Glazed Chestnut Cake"
+status = "normal"
+
+["Good.GlazedChestnutTart.DisplayName"]
+new = "Glazed Chestnut Cake"
+status = "normal"
+
+["Good.GlazedChestnutTart.PluralDisplayName"]
+new = "Glazed Chestnut Cakes"
+status = "normal"
+
+["ChestnutTartRecipe.Name"]
+new = "Chestnut Tarts"
+status = "normal"
+
+["Good.ChestnutTart.DisplayName"]
+new = "Chestnut Tart"
+status = "normal"
+
+["Good.ChestnutTart.PluralDisplayName"]
+new = "Chestnut Tarts"
+status = "normal"
+
+["MangroveTartRecipe.Name"]
+new = "Mangrove Tart"
+status = "normal"
+
+["Good.MangroveTart.DisplayName"]
+new = "Mangrove Tart"
+status = "normal"
+
+["Good.MangroveTart.PluralDisplayName"]
+new = "Mangrove Tarts"
+status = "normal"
+
+["KohlrabiTartRecipe.Name"]
+new = "Kohlrabi Tart"
+status = "normal"
+
+["Good.KohlrabiTart.DisplayName"]
+new = "Kohlrabi Tart"
+status = "normal"
+
+["Good.KohlrabiTart.PluralDisplayName"]
+new = "Kohlrabi Tarts"
+status = "normal"

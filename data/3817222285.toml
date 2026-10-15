@@ -1,0 +1,130 @@
+[_meta]
+name = "Beaver Controller"
+
+["LV.BC.Move"]
+new = "Move to"
+status = "normal"
+
+["LV.BC.CurrentAction"]
+new = "Current action"
+status = "normal"
+
+["LV.BC.NoAction"]
+new = "None"
+status = "normal"
+
+["LV.BC.Stop"]
+new = "Stop current action"
+status = "normal"
+
+["LV.BC.Use"]
+new = "Use building"
+status = "normal"
+
+["LV.BC.PickUse"]
+new = "Pick a building to use"
+status = "normal"
+
+["LV.BC.ErrNoUse"]
+new = "That building can't be used right now"
+status = "normal"
+
+["LV.BC.Keep"]
+new = "Keep them there after moving"
+status = "normal"
+
+["LV.BC.Release"]
+new = "Release"
+status = "normal"
+
+["LV.BC.PickDestination"]
+new = "Select a destination"
+status = "normal"
+
+["LV.BC.Idle"]
+new = "Idle"
+status = "normal"
+
+["LV.BC.Moving"]
+new = "On the way"
+status = "normal"
+
+["LV.BC.MovingTo"]
+new = "On the way: {0}"
+status = "normal"
+
+["LV.BC.Using"]
+new = "Using the building"
+status = "normal"
+
+["LV.BC.Waiting"]
+new = "Waiting for the current action to finish"
+status = "normal"
+
+["LV.BC.Held"]
+new = "Staying put"
+status = "normal"
+
+["LV.BC.Unreachable"]
+new = "Cannot reach that spot"
+status = "normal"
+
+["LV.BC.AssignDistrict"]
+new = "Assign district"
+status = "normal"
+
+["LV.BC.AssignWorkplace"]
+new = "Assign workplace"
+status = "normal"
+
+["LV.BC.AssignHousing"]
+new = "Assign housing"
+status = "normal"
+
+["LV.BC.UnassignHousing"]
+new = "Unassign housing"
+status = "normal"
+
+["LV.BC.UnassignWorkplace"]
+new = "Unassign workplace"
+status = "normal"
+
+["LV.BC.PickDistrict"]
+new = "Pick a district center"
+status = "normal"
+
+["LV.BC.PickWorkplace"]
+new = "Pick a workplace"
+status = "normal"
+
+["LV.BC.PickDwelling"]
+new = "Pick a house"
+status = "normal"
+
+["LV.BC.ErrNoDistrict"]
+new = "The selected building does not belong to a district"
+status = "normal"
+
+["LV.BC.ErrNoHouse"]
+new = "That house cannot take this beaver"
+status = "normal"
+
+["LV.BC.ErrNoWorkplace"]
+new = "That workplace is not accepting workers"
+status = "normal"
+
+["LV.BC.ErrWrongWorker"]
+new = "That workplace wants a different worker"
+status = "normal"
+
+["LV.BC.Teleport"]
+new = "Teleport (Cheat)"
+status = "normal"
+
+["LV.BC.TeleportHere"]
+new = "Teleport to"
+status = "normal"
+
+[Name_CharacterControllerFragment]
+new = "Character Control"
+status = "normal"

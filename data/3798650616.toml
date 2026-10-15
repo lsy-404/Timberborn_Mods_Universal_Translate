@@ -1,0 +1,170 @@
+[_meta]
+name = "Map Transformer"
+
+["LV.MTr.TransformMap"]
+new = "Transform Map"
+status = "normal"
+
+["LV.MTr.Mode"]
+new = "Operation"
+status = "normal"
+
+["LV.MTr.ModeResizeXy"]
+new = "Resize Map Size"
+status = "normal"
+
+["LV.MTr.ModeResizeHeight"]
+new = "Resize Map Height"
+status = "normal"
+
+["LV.MTr.ModeAddHeight"]
+new = "Add Bottom Dirt"
+status = "normal"
+
+["LV.MTr.ModeRotate"]
+new = "Rotate"
+status = "normal"
+
+["LV.MTr.ModeFlip"]
+new = "Flip"
+status = "normal"
+
+["LV.MTr.SizeX"]
+new = "Width (X)"
+status = "normal"
+
+["LV.MTr.SizeY"]
+new = "Breadth (Y)"
+status = "normal"
+
+["LV.MTr.SizeZ"]
+new = "Terrain Height"
+status = "normal"
+
+["LV.MTr.SizeTotal"]
+new = "Total Height"
+status = "normal"
+
+["LV.MTr.PivotX"]
+new = "Pivot X"
+status = "normal"
+
+["LV.MTr.PivotY"]
+new = "Pivot Y"
+status = "normal"
+
+["LV.MTr.PivotHint"]
+new = "0, 0 keeps the min corner. Current width and height keep the max corner."
+status = "normal"
+
+["LV.MTr.Fill"]
+new = "New cells"
+status = "normal"
+
+["LV.MTr.FillEmpty"]
+new = "Empty"
+status = "normal"
+
+["LV.MTr.FillCopyEdge"]
+new = "Copy edge"
+status = "normal"
+
+["LV.MTr.FillMirror"]
+new = "Mirror"
+status = "normal"
+
+["LV.MTr.AddLayers"]
+new = "Dirt layers to insert at Z = 0"
+status = "normal"
+
+["LV.MTr.IncreaseTerrainHeight"]
+new = "Increase terrain height"
+status = "normal"
+
+["LV.MTr.Rotate"]
+new = "Rotation"
+status = "normal"
+
+["LV.MTr.Rotate90"]
+new = "90° clockwise"
+status = "normal"
+
+["LV.MTr.Rotate180"]
+new = "180°"
+status = "normal"
+
+["LV.MTr.Rotate270"]
+new = "270° clockwise"
+status = "normal"
+
+["LV.MTr.FlipAxis"]
+new = "Axis"
+status = "normal"
+
+["LV.MTr.FlipX"]
+new = "Flip X"
+status = "normal"
+
+["LV.MTr.FlipY"]
+new = "Flip Y"
+status = "normal"
+
+["LV.MTr.FlipBoth"]
+new = "Flip X and Y"
+status = "normal"
+
+["LV.MTr.Scope"]
+new = "Target"
+status = "normal"
+
+["LV.MTr.ScopeWhole"]
+new = "Whole map"
+status = "normal"
+
+["LV.MTr.ScopeArea"]
+new = "Square area"
+status = "normal"
+
+["LV.MTr.AreaX"]
+new = "Area X"
+status = "normal"
+
+["LV.MTr.AreaY"]
+new = "Area Y"
+status = "normal"
+
+["LV.MTr.AreaSize"]
+new = "Area size"
+status = "normal"
+
+["LV.MTr.AreaExceedsMap"]
+new = "That square is outside the map. Change X, Y, or Size so the area stays fully on the map."
+status = "normal"
+
+["LV.MTr.Apply"]
+new = "Transform"
+status = "normal"
+
+["LV.MTr.SaveWarning"]
+new = "<RedHighlight>Pause and save first. This writes a new save and this session will likely crash if you keep playing it.</RedHighlight>"
+status = "normal"
+
+["LV.MTr.GameDisclaimer"]
+new = "<RedHighlight>Beavers and buildings are moved. Some operations besides basic resize may make objects behave strangely and there is no guarantee.</RedHighlight>"
+status = "normal"
+
+["LV.MTr.OfferToLoad"]
+new = "Transformed map saved. Load it now? Continuing this session will likely crash anyway."
+status = "normal"
+
+["LV.MTr.InvalidObj"]
+new = "Some objects would be outside the map. Remove them first, then transform again."
+status = "normal"
+
+["LV.MTr.SeeInvalidObj"]
+new = "See invalid object"
+status = "normal"
+
+["LV.MTr.AutoRemove"]
+new = "Remove them all"
+status = "normal"

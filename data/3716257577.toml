@@ -153,3 +153,27 @@ koKR = "사용하지 않는 출구는 안전을 위해 봉인됩니다. 사용�
 csCZ = "Nepoužívané výstupy jsou zapečetěny pro bezpečnost. Používané výstupy jsou zapečetěny, dokud si někdo nevzpomene na opak."
 viVN = "Các lối ra không sử dụng được niêm phong để đảm bảo an toàn. Các lối ra đã sử dụng được niêm phong cho đến khi có ai đó nhớ khác."
 trTR = "Kullanılmayan çıkışlar güvenlik için kapatılmıştır. Kullanılan çıkışlar, başka birisi hatırlayana kadar kapalıdır."
+
+["ModSetting.Ygo.WatertightUtilities.PassageVisibility"]
+new = "Passage buildings"
+status = "normal"
+
+["ModSetting.Ygo.WatertightUtilities.PowerShaftVisibility"]
+new = "Power shaft buildings"
+status = "normal"
+
+["ModSetting.Ygo.WatertightUtilities.TubewayVisibility"]
+new = "Tubeway buildings"
+status = "normal"
+
+["ModSetting.Ygo.WatertightUtilities.Visibility.Both"]
+new = "Both"
+status = "normal"
+
+["ModSetting.Ygo.WatertightUtilities.Visibility.ModOnly"]
+new = "Watertight Utilities only"
+status = "normal"
+
+["ModSetting.Ygo.WatertightUtilities.Visibility.VanillaOnly"]
+new = "Vanilla only"
+status = "normal"

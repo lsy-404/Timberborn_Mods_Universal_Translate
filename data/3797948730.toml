@@ -1,0 +1,30 @@
+[_meta]
+name = "Builders' Hut Plus"
+
+["BuildersHutPlus.Title"]
+new = "Builders' Hut Plus"
+status = "normal"
+
+["BuildersHutPlus.Desired"]
+new = "Desired workers"
+status = "normal"
+
+["BuildersHutPlus.Status"]
+new = "Assigned: {0} · Desired: {1} · Capacity: {2}"
+status = "normal"
+
+["BuildersHutPlus.Preview"]
+new = "Release to apply: {0}"
+status = "normal"
+
+["BuildersHutPlus.Hint"]
+new = "Release the slider or press Enter to apply. The 4 button restores default staffing."
+status = "normal"
+
+["BuildersHutPlus.StaffingHint"]
+new = "Actual staffing depends on available workers and workplace priority. Worker portraits are replaced with this summary."
+status = "normal"
+
+["BuildersHutPlus.CapacityWarning"]
+new = "Capacity is not 99. Check mod load order and other workplace mods."
+status = "normal"

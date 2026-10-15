@@ -1,0 +1,18 @@
+[_meta]
+name = "Unknown"
+
+["ClearHaulPriority.Button"]
+new = "Clear all ({0})"
+status = "normal"
+
+["ClearHaulPriority.ConfirmOne"]
+new = "Stop prioritizing 1 building for haulers?"
+status = "normal"
+
+["ClearHaulPriority.ConfirmMany"]
+new = "Stop prioritizing {0} buildings for haulers?"
+status = "normal"
+
+["ClearHaulPriority.ClickHint"]
+new = "Click a building to go to it."
+status = "normal"

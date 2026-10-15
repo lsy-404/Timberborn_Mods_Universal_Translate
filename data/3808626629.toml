@@ -1,0 +1,238 @@
+[_meta]
+name = "Alternative Weather System"
+
+["AlternativeWeatherSystem.PanelTitle"]
+new = "Weather"
+status = "normal"
+
+["AlternativeWeatherSystem.Preview.Title"]
+new = "First cycles:"
+status = "normal"
+
+["AlternativeWeatherSystem.Mode.Easy.Description"]
+new = "Long fair spells and short hazards. Badtides start after five cycles and stay rare."
+status = "normal"
+
+["AlternativeWeatherSystem.Mode.Normal.Description"]
+new = "Cycles lengthen as the settlement grows, and the water sources pick up a little contamination late on."
+status = "normal"
+
+["AlternativeWeatherSystem.Mode.Hard.Description"]
+new = "Short fair spells, long and wildly variable hazards, and water that grows steadily fouler."
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.DurationAverage"]
+new = "Length in days (average)"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.DurationDeviation"]
+new = "Length in days (spread)"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.SourceStrength"]
+new = "Water source strength"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.Contamination"]
+new = "Source contamination"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.BadwaterContamination"]
+new = "Badwater source contamination"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.DurationNotice"]
+new = "Warning of how long is left (days)"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.NextWeatherNotice"]
+new = "Warning of what comes next (days)"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.BadwaterSourceStrength"]
+new = "Badwater source strength (share)"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.EruptionPeriod"]
+new = "Days per eruption"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.EruptionStrength"]
+new = "Eruption strength"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.SeepsIgnoreDepth"]
+new = "Seeps ignore water depth"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.DrainsIgnoreWeather"]
+new = "Drains run in this weather too"
+status = "normal"
+
+["AlternativeWeatherSystem.Transition.Label"]
+new = "leads to {0}"
+status = "normal"
+
+["AlternativeWeatherSystem.Notice.Approaching"]
+new = "{0} approaching"
+status = "normal"
+
+["AlternativeWeatherSystem.Bar.ChangeFrom"]
+new = "Change from {0} approaches"
+status = "normal"
+
+["AlternativeWeatherSystem.Notice.Started"]
+new = "{0} started"
+status = "normal"
+
+["AlternativeWeatherSystem.Notice.Lengthening"]
+new = "{0} lengthening"
+status = "normal"
+
+["AlternativeWeatherSystem.Notice.CycleAndSeason"]
+new = "Cycle {0}, season {1}"
+status = "normal"
+
+["AlternativeWeatherSystem.Building.WeatherSensor.Name"]
+new = "Weather Sensor"
+status = "normal"
+
+["AlternativeWeatherSystem.Building.WeatherSensor.Description"]
+new = "Sends a signal while the weather you choose is running, and can send it early so the gates are already open when that weather arrives."
+status = "normal"
+
+["AlternativeWeatherSystem.Matrix.Title"]
+new = "Transitions"
+status = "normal"
+
+["AlternativeWeatherSystem.Matrix.Row"]
+new = "What may follow {0}"
+status = "normal"
+
+["AlternativeWeatherSystem.Matrix.Column"]
+new = "{0}"
+status = "normal"
+
+["AlternativeWeatherSystem.Matrix.Explanation"]
+new = "Each row is the weather that is running; each column is what may follow it."
+status = "normal"
+
+["AlternativeWeatherSystem.Matrix.Corner"]
+new = "running ↓ / next →"
+status = "normal"
+
+["AlternativeWeatherSystem.OwnParameters.Title"]
+new = "Weather-specific settings"
+status = "normal"
+
+["AlternativeWeatherSystem.Bar.InProgress"]
+new = "{0} in progress"
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Flood"]
+new = "Flood"
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Eruption"]
+new = "Eruption"
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Heatwave"]
+new = "Heatwave"
+status = "normal"
+
+["AlternativeWeatherSystem.Need.Heatstroke.DisplayName"]
+new = "Heatstroke"
+status = "normal"
+
+["AlternativeWeatherSystem.Need.Heatstroke.Status"]
+new = "Overheating."
+status = "normal"
+
+["AlternativeWeatherSystem.Need.Heatstroke.StatusShort"]
+new = "Beaver overheating"
+status = "normal"
+
+["AlternativeWeatherSystem.Need.Heatstroke.DeathMessage"]
+new = "succumbed to the heat."
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.HeatstrokeDays"]
+new = "Days of dry fur before death"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.FurDryingRate"]
+new = "Fur drying multiplier"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.DryGroundContaminates"]
+new = "Dry ground poisons plants"
+status = "normal"
+
+["AlternativeWeatherSystem.Bar.Detail"]
+new = "{0}: {1}"
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Fair.Flavour"]
+new = "Sources run clean, badtide drains are inactive. Beavers' favourite season."
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Fair.FlavourMostlyClean"]
+new = "Sources run mostly clean, badtide drains are inactive. Beavers' favourite season."
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Drought.Flavour"]
+new = "Everything runs dry, remember to make your dams!"
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Badtide.Flavour"]
+new = "All water is contaminated, and badtide drains activated. Water was our friend, it is no longer."
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Flood.Flavour"]
+new = "Every source activates with clean water. Sounds great? Turns out you can have too much of a good thing."
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Flood.FlavourMostlyClean"]
+new = "Every source activates with mostly clean water. Sounds great? Turns out you can have too much of a good thing."
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Eruption.Flavour"]
+new = "Something is brewing underneath the ground. Clean sources erupt with huge strength in between dry spells. Catch the water while you can."
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Eruption.FlavourAllSources"]
+new = "Something is brewing underneath the ground. All sources erupt with huge strength in between dry spells. Catch the water while you can."
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Heatwave.FlavourPlantsBurn"]
+new = "Sources run dry and things that aren't wet burn, including plants and beavers. Humans disbelieved in global warming, we won't make such mistakes."
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Heatwave.Flavour"]
+new = "Sources run dry and things that aren't wet burn, including beavers. Humans disbelieved in global warming, we won't make such mistakes."
+status = "normal"
+
+["AlternativeWeatherSystem.Import.Title"]
+new = "Import this settlement into Alternative Weather System"
+status = "normal"
+
+["AlternativeWeatherSystem.Import.Explanation"]
+new = "This settlement was saved without Alternative Weather System. Choose how its weather goes on: keep the game's own weather settings, pick a weather difficulty, or customise one. The cycle under way finishes as it began."
+status = "normal"
+
+["AlternativeWeatherSystem.Import.Matches"]
+new = "Closest to this settlement's own game difficulty."
+status = "normal"
+
+["AlternativeWeatherSystem.Import.Keep"]
+new = "Keep the game's weather settings"
+status = "normal"
+
+["AlternativeWeatherSystem.Import.Keep.Description"]
+new = "Only the game's own weathers, with the lengths, handicaps and badtide chances this settlement already had."
+status = "normal"
+
+["AlternativeWeatherSystem.Import.Confirm"]
+new = "Import"
+status = "normal"

@@ -1,0 +1,50 @@
+[_meta]
+name = "Science Shop"
+
+["LV.ScS.Building.DisplayName"]
+new = "Science Shop"
+status = "normal"
+
+["LV.ScS.Building.Description"]
+new = "A workshop that produces special goods with Science."
+status = "normal"
+
+["LV.ScS.Building.FlavorDescription"]
+new = "The ink-stained and the grease-stained finally shook paws."
+status = "normal"
+
+["LV.ScS.CurrentProduction"]
+new = "Current production"
+status = "normal"
+
+["LV.ScS.CurrentQueue"]
+new = "Current queue"
+status = "normal"
+
+["LV.ScS.None"]
+new = "None"
+status = "normal"
+
+["LV.ScS.Indefinite"]
+new = "Indefinitely"
+status = "normal"
+
+["LV.ScS.Quantity"]
+new = "Amount"
+status = "normal"
+
+["LV.ScS.ClearQueue"]
+new = "Clear"
+status = "normal"
+
+["LV.ScS.StatusNotEnoughScience"]
+new = "Not enough Science Points to produce."
+status = "normal"
+
+["LV.ScS.StatusNotEnoughScience.Short"]
+new = "Needs Science Points"
+status = "normal"
+
+[Name_ScienceShopQueueFragment]
+new = "Science Shop"
+status = "normal"

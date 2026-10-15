@@ -1,0 +1,26 @@
+[_meta]
+name = "Wind Turbines"
+
+["LV.WTB.WindmillBatteryName"]
+new = "Large Wind Turbine w. Battery"
+status = "normal"
+
+["LV.WTB.WindmillBatteryDesc"]
+new = "Generates power proportional to wind speed and direction. Also stores power surplus and gives it back when its network is underpowered"
+status = "normal"
+
+["LV.WTB.WindmillBatteryFlavor"]
+new = "Here's what you can do when you invent your own laws of mods."
+status = "normal"
+
+["LV.WTB.GeneratorWindStr"]
+new = "Wind Strength: {0:0%} → {1:0.0}hp"
+status = "normal"
+
+["LV.WTB.GeneratorWindStrDirection"]
+new = "Wind Direction: {0:0}° / {1:0}° → {2:0.0}hp ({3:0%})"
+status = "normal"
+
+[Name_LimitedWindTurbineFragment]
+new = "Wind Turbine"
+status = "normal"

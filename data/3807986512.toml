@@ -1,0 +1,50 @@
+[_meta]
+name = "Beaver Name List"
+
+["BeaverNameList.OpenButton"]
+new = "Names"
+status = "normal"
+
+["BeaverNameList.Title"]
+new = "Beaver names"
+status = "normal"
+
+["BeaverNameList.ShowNameTags"]
+new = "Show names above beavers"
+status = "normal"
+
+["BeaverNameList.Summary"]
+new = "{0} names, {1} characters max per name"
+status = "normal"
+
+["BeaverNameList.FileLocation"]
+new = "Saved in {0}"
+status = "normal"
+
+["BeaverNameList.NewName"]
+new = "New name"
+status = "normal"
+
+["BeaverNameList.Add"]
+new = "Add"
+status = "normal"
+
+["BeaverNameList.Free"]
+new = "Free"
+status = "normal"
+
+["BeaverNameList.BorneBy"]
+new = "Borne by {0}"
+status = "normal"
+
+["BeaverNameList.Error.Empty"]
+new = "The name is empty."
+status = "normal"
+
+["BeaverNameList.Error.TooLong"]
+new = "The name exceeds {0} characters."
+status = "normal"
+
+["BeaverNameList.Error.Duplicate"]
+new = "This name is already in the list."
+status = "normal"

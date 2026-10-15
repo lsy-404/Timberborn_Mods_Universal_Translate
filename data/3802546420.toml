@@ -1,0 +1,14 @@
+[_meta]
+name = "Work Schedule"
+
+["Yakovenko.WorkSchedule.FairWeather"]
+new = "Works in fair weather"
+status = "normal"
+
+["Yakovenko.WorkSchedule.Drought"]
+new = "Works during drought"
+status = "normal"
+
+["Yakovenko.WorkSchedule.Badtide"]
+new = "Works during badtide"
+status = "normal"

@@ -1,5 +1,5 @@
 [_meta]
-name = "[ModContest1] Genders"
+name = "Genders"
 
 ["UI.BeaverGender"]
 raw = "Gender: {0}"

@@ -1,0 +1,22 @@
+[_meta]
+name = "Mod Settings"
+
+["ModSettingsBox.GameNotChangeable"]
+new = "Can't be changed during the game."
+status = "normal"
+
+["ModSettingsBox.MainMenuNotChangeable"]
+new = "Can't be changed in main menu."
+status = "normal"
+
+["ModSettingsBox.MapEditorNotChangeable"]
+new = "Can't be changed in the map editor."
+status = "normal"
+
+["ModSettingsBox.ResetMessage"]
+new = "Do you want to reset all settings to default?"
+status = "normal"
+
+["ModSettingsBox.ResetToDefault"]
+new = "Reset to default"
+status = "normal"

@@ -1,6 +1,10 @@
 [_meta]
 name = "Conveyor Belts"
 
+["LV.CBlt.GroupName"]
+new = "Conveyor Belts"
+status = "normal"
+
 ["LV.CBlt.ConveyorBeltName"]
 raw = "Conveyor Belt"
 status = "normal"
@@ -561,6 +565,10 @@ koKR = "분할기 추가. 모드 설정에 전원 없음 옵션 추가."
 csCZ = "Přidán rozdělovací prvek. Přidána možnost Bez napájení v nastavení módu."
 viVN = "Thêm Bộ chia. Thêm tùy chọn Không có điện trong cài đặt mod."
 trTR = "Splitter eklendi. Mod ayarlarında Güç Yok seçeneği eklendi."
+
+["LV.CBlt.Update120"]
+new = "- This mod now requires Moddable Tool Groups. Moved conveyor buildings into their own group under Storage.\n- Belts can no longer transport liquids for either faction. Use Timber Pipe for liquids transportation.\n- Improved the processing code to match Timber Pipe, which should improve performance and support more buildings."
+status = "normal"
 
 [Name_ConveyorBeltDebugFragment]
 raw = "Conveyor Belt Debug"

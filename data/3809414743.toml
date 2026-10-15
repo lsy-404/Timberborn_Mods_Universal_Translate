@@ -1,0 +1,62 @@
+[_meta]
+name = "Forest Mushrooms"
+
+["ForestMushrooms.Settings.Help"]
+new = "Times use simulation days unless marked hours. Age and moisture thresholds apply immediately. Already sampled countdowns stay unchanged; new waits use the new settings. Picking time applies when the next picking job starts. Settings apply across settlements."
+status = "normal"
+
+["ForestMushrooms.Settings.MinimumAge"]
+new = "Minimum tree age (days)"
+status = "normal"
+
+["ForestMushrooms.Settings.MinimumAge.Help"]
+new = "Age since creation or cutting before mushrooms can grow. Default 40. Range 0-10000."
+status = "normal"
+
+["ForestMushrooms.Settings.WetDays"]
+new = "Consecutive moist days"
+status = "normal"
+
+["ForestMushrooms.Settings.WetDays.Help"]
+new = "Uninterrupted irrigation required for growth. Default 8. Range 0-10000. Dry soil removes mushrooms on living trees."
+status = "normal"
+
+["ForestMushrooms.Settings.InitialMean"]
+new = "Average initial spawn delay (days)"
+status = "normal"
+
+["ForestMushrooms.Settings.InitialMean.Help"]
+new = "Mean exponential wait after eligibility. Default 16. Zero removes this random wait. Range 0-10000. Existing countdowns are preserved."
+status = "normal"
+
+["ForestMushrooms.Settings.RegrowthMin"]
+new = "Minimum regrowth delay (days)"
+status = "normal"
+
+["ForestMushrooms.Settings.RegrowthMin.Help"]
+new = "Lower bound for a new random regrowth wait. Default 12. Range 0-10000. Raising this above the maximum also raises the maximum."
+status = "normal"
+
+["ForestMushrooms.Settings.RegrowthMax"]
+new = "Maximum regrowth delay (days)"
+status = "normal"
+
+["ForestMushrooms.Settings.RegrowthMax.Help"]
+new = "Upper bound for a new random regrowth wait. Default 20. Range 0-10000. Lowering this below the minimum also lowers the minimum. Equal bounds give a fixed delay."
+status = "normal"
+
+["ForestMushrooms.Settings.PickingHours"]
+new = "Picking time (working hours)"
+status = "normal"
+
+["ForestMushrooms.Settings.PickingHours.Help"]
+new = "Time spent picking one mushroom crop. Default 0.5 hours. Range 0.01-240. Takes effect on the next picking job."
+status = "normal"
+
+["ForestMushrooms.Settings.DeadTreeDays"]
+new = "Dead-tree mushroom lifetime (days)"
+status = "normal"
+
+["ForestMushrooms.Settings.DeadTreeDays.Help"]
+new = "Time an existing crop stays pickable after its tree dies. Default 2. Zero removes it immediately. Cutting always removes the crop. Changing this applies to existing dead trees."
+status = "normal"

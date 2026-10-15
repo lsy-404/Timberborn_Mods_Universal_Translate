@@ -1,0 +1,30 @@
+[_meta]
+name = "achderbahn"
+
+["Building.JamStove.DisplayName"]
+new = "Jam Stove"
+status = "normal"
+
+["Building.JamStove.Description"]
+new = "Boils berries into jam for further processing."
+status = "normal"
+
+["Building.JamStove.FlavorDescription"]
+new = "The pot had to be closed up after too many sweet-toothed beavers have been tempted by the delicious jam."
+status = "normal"
+
+["Good.BerryBun.DisplayName"]
+new = "Berry buns"
+status = "normal"
+
+["Good.BerryBun.PluralDisplayName"]
+new = "Berry buns"
+status = "normal"
+
+["Good.BerryJam.DisplayName"]
+new = "Berry jam"
+status = "normal"
+
+["Good.BerryJam.PluralDisplayName"]
+new = "Berry jam"
+status = "normal"

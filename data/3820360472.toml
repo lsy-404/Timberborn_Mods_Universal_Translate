@@ -1,0 +1,94 @@
+[_meta]
+name = "Unknown"
+
+["Building.FloatValveDischarge.DisplayName"]
+new = "Float Valve Discharge"
+status = "normal"
+
+["Building.FloatValveDischarge.Description"]
+new = "Haulers fill its tank with water. Like a cistern, it pours into the tile in front until the water there reaches the target depth, then stops by itself. No workers needed."
+status = "normal"
+
+["Building.FloatValveDischarge.FlavorDescription"]
+new = "\"The float rises, the tap closes. Simple.\""
+status = "normal"
+
+["Building.ArtesianWell.DisplayName"]
+new = "Artesian Well"
+status = "normal"
+
+["Building.ArtesianWell.Description"]
+new = "Drilled deep into a confined aquifer. The pressure underground pushes clean water up by itself: no power, no workers, no refilling. Keeps both tiles in front at the target depth, up to a daily limit."
+status = "normal"
+
+["Building.ArtesianWell.FlavorDescription"]
+new = "\"After everything we gave, the ground finally gave back.\""
+status = "normal"
+
+["Waterworks.TargetDepth"]
+new = "Target depth: {0}"
+status = "normal"
+
+["Waterworks.CurrentDepth"]
+new = "Now: {0}"
+status = "normal"
+
+["Waterworks.TankStatus"]
+new = "Tank: {0}"
+status = "normal"
+
+["Waterworks.WellStatus"]
+new = "Water today: {0}"
+status = "normal"
+
+["Waterworks.State.Pouring"]
+new = "Pouring"
+status = "normal"
+
+["Waterworks.State.AtTarget"]
+new = "At target depth"
+status = "normal"
+
+["Waterworks.State.Empty"]
+new = "Tank empty"
+status = "normal"
+
+["Waterworks.State.Idle"]
+new = "Waiting"
+status = "normal"
+
+["Waterworks.State.Capped"]
+new = "Daily limit reached"
+status = "normal"
+
+["Waterworks.State.Paused"]
+new = "Paused"
+status = "normal"
+
+["Waterworks.Settings.Header"]
+new = "Self-Filling Ponds"
+status = "normal"
+
+["Waterworks.Settings.ValveCapacity"]
+new = "Float valve tank size (water)"
+status = "normal"
+
+["Waterworks.Settings.ValveRate"]
+new = "Float valve pour rate (water per hour)"
+status = "normal"
+
+["Waterworks.Settings.WellFlow"]
+new = "Artesian well flow (water per hour)"
+status = "normal"
+
+["Waterworks.Settings.WellDailyCap"]
+new = "Artesian well daily limit (water)"
+status = "normal"
+
+["Waterworks.Settings.WellDailyCapTooltip"]
+new = "Water units per day, counted like hauled water. Applies from the next game load."
+status = "normal"
+
+["Waterworks.Settings.WellScience"]
+new = "Artesian well science cost"
+status = "normal"

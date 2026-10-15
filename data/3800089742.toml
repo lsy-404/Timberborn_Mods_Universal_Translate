@@ -1,0 +1,30 @@
+[_meta]
+name = "Supply Alert"
+
+["CaseBacon.SupplyAlert.LowFoodWarning"]
+new = "Low Food: approximately {0} days remaining."
+status = "normal"
+
+["CaseBacon.SupplyAlert.LowWaterWarning"]
+new = "Low Water: approximately {0} days remaining."
+status = "normal"
+
+["CaseBacon.SupplyAlert.Settings.Header"]
+new = "Supply Alert"
+status = "normal"
+
+["CaseBacon.SupplyAlert.Settings.FoodAlertsEnabled"]
+new = "Enable food alerts"
+status = "normal"
+
+["CaseBacon.SupplyAlert.Settings.WaterAlertsEnabled"]
+new = "Enable water alerts"
+status = "normal"
+
+["CaseBacon.SupplyAlert.Settings.FoodThresholdDays"]
+new = "Food threshold (days)"
+status = "normal"
+
+["CaseBacon.SupplyAlert.Settings.WaterThresholdDays"]
+new = "Water threshold (days)"
+status = "normal"

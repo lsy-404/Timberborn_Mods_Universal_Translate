@@ -1,0 +1,22 @@
+[_meta]
+name = "Unknown"
+
+["Building.PowerMonitor.Description"]
+new = "Monitors power network parameters and sends an automation signal based on low and high thresholds."
+status = "normal"
+
+["Building.PowerMonitor.DisplayName"]
+new = "Power Monitor"
+status = "normal"
+
+["Building.PowerMonitor.FlavorDescription"]
+new = "Now you can neurotically check your power grid every 5 seconds"
+status = "normal"
+
+["Building.PowerMonitor.TurnOffIf"]
+new = "Turn OFF if ≥"
+status = "normal"
+
+["Building.PowerMonitor.TurnOnIf"]
+new = "Turn ON if ≤"
+status = "normal"

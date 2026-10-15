@@ -1,0 +1,26 @@
+[_meta]
+name = "Bad Things"
+
+["Building.BadThorns.DisplayName"]
+new = "BadThorns"
+status = "normal"
+
+["Building.BadThorns.Description"]
+new = "A Thorns that contaminates"
+status = "normal"
+
+["Building.BadThorns.FlavorDescription"]
+new = "Flavourtext thorn contamination"
+status = "normal"
+
+["Building.BadThingBlkBarrel.DisplayName"]
+new = "BARREL of BAD"
+status = "normal"
+
+["Building.BadThingBlkBarrel.Description"]
+new = "A BARREL that contaminates"
+status = "normal"
+
+["Building.BadThingBlkBarrel.FlavorDescription"]
+new = "Flavourtext BARREL contamination"
+status = "normal"

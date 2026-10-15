@@ -528,6 +528,10 @@ csCZ = "<b>Platba:</b>"
 viVN = "<b>Tiền lương:</b>"
 trTR = "<b>Ödeme:</b>"
 
+["ModSetting.TWMoreMines.DirtclawsSectionHeaderPaySub"]
+new = "Once adult population is greater than the minimum, beavers will receive pay.\nBase pay is a flat amount, set here. Three bonus are added to it:\nPopulation bonus increases as population climbs.\nTime bonus increases each day.\nProfit-share is based on total credits in your account."
+status = "normal"
+
 ["ModSetting.TWMoreMines.DirtclawsSectionHeaderPlants"]
 raw = "<b>Plant Growth:</b>"
 status = "normal"
@@ -4440,6 +4444,7 @@ trTR = "Her bir yetişkin için, günde ödeme"
 
 ["ModSetting.TWMoreMines.PayScale"]
 raw = "Bonus pay"
+new = "Population bonus pay"
 status = "normal"
 enUS = "Bonus pay"
 zhCN = "奖金支付"
@@ -4471,6 +4476,94 @@ koKR = "인구가 증가함에 따라 비버에게 더 많은 급여를 지급�
 csCZ = "Vyplácí bobrům více peněz, jak roste populace. To se násobí počtem dospělých nad minimální populaci a poté se přičítá k výplatě."
 viVN = "Trả lương cho loài rái cá nhiều hơn khi dân số tăng. Điều này được nhân với số lượng người lớn vượt quá Dân Số Tối Thiểu, sau đó được cộng vào Lương."
 trTR = "Popülasyon arttıkça kunduzlara daha fazla ödeme yapar. Bu, Min Popülasyondaki yetişkin sayısından fazlası için olan yetişkin sayısı ile çarpılır, ardından Ödeme'ye eklenir."
+
+["ModSetting.TWMoreMines.PayTimeScaleStart"]
+new = "Time bonus start day"
+status = "normal"
+
+["ModSetting.TWMoreMines.PayTimeScaleStartDesc"]
+new = "Time-driven pay bonus starts this day"
+status = "normal"
+
+["ModSetting.TWMoreMines.PayTimeCountAll"]
+new = "Time bonus every day"
+status = "normal"
+
+["ModSetting.TWMoreMines.PayTimeCountAllDesc"]
+new = "When checked, time-driven bonus will increase each day. When unchecked, it only increases on days when adult population is above the pay minimum."
+status = "normal"
+
+["ModSetting.TWMoreMines.PayTimeScaleCap"]
+new = "Time bonus cap"
+status = "normal"
+
+["ModSetting.TWMoreMines.PayTimeScaleCapDesc"]
+new = "Maximum time-driven bonus, per beaver."
+status = "normal"
+
+["ModSetting.TWMoreMines.PayTimeScaleIncrementPerBeaver"]
+new = "Time bonus increment"
+status = "normal"
+
+["ModSetting.TWMoreMines.PayTimeScaleIncrementPerBeaverDesc"]
+new = "The time-driven bonus will increase this much per day, per beaver."
+status = "normal"
+
+["ModSetting.TWMoreMines.PayProfitShareFloor"]
+new = "Profit-share minimum"
+status = "normal"
+
+["ModSetting.TWMoreMines.PayProfitShareFloorDesc"]
+new = "Profit-share bonus is only active when total credits are above this number."
+status = "normal"
+
+["ModSetting.TWMoreMines.PayProfitSharePercent"]
+new = "Profit-share percent"
+status = "normal"
+
+["ModSetting.TWMoreMines.PayProfitSharePercentDesc"]
+new = "This percent of total credits will be deducted from the colony account each day (if total is above minimum)."
+status = "normal"
+
+["UI.TW.PayShowDetails"]
+new = "Show pay details"
+status = "normal"
+
+["UI.TW.Pay.PaySuspendedInfo"]
+new = "<b><RedHighlight>NOTE:</RedHighlight></b> Pay is suspended due to low population or low credits. Info below is what would happen if pay was active."
+status = "normal"
+
+["UI.TW.Pay.BasePayIs"]
+new = "Base pay per beaver: {0}"
+status = "normal"
+
+["UI.TW.Pay.PopulationBonusIs"]
+new = "Population bonus per beaver: Adult population above min ({0}) * Bonus rate ({1}) = {2}"
+status = "normal"
+
+["UI.TW.Pay.TimeInflationDetails"]
+new = "Time Bonus per beaver: Daily increase ({0}) * valid days passed ({1}) = {2}"
+status = "normal"
+
+["UI.TW.Pay.TimeCountAllInfo"]
+new = "Valid days are all days after day {0}"
+status = "normal"
+
+["UI.TW.Pay.PerBeaverTotalInfo"]
+new = "Total pay per beaver is {1}. Colony total is: adult population ({0}) * pay ({1}) = {2}"
+status = "normal"
+
+["UI.TW.Pay.ProfitShareBonusIs"]
+new = "Profit sharing:\nAlso, {0} percent of colony credits above {1} will be divided among the beavers. Today, that will be {2} credits."
+status = "normal"
+
+["UI.TW.Pay.TotalPayIs"]
+new = "Today's total pay, including profit-share: {0}"
+status = "normal"
+
+["UI.TW.Pay.SettingsInfo"]
+new = "You can change many of these settings. Go to main menu -> mods -> gear icon after mod name."
+status = "normal"
 
 ["UI.TW.MoreMines.PayOfficeNoCreditsStatus"]
 raw = "Too few credits for pay"
@@ -4505,6 +4598,10 @@ koKR = "성인 당 지불: {0}"
 csCZ = "Platba za dospělého: {0}"
 viVN = "Trả tiền mỗi người trưởng thành: {0}"
 trTR = "Yetişkin başına ödeme: {0}"
+
+["UI.TW.ProfitSharePerBeaver"]
+new = "Profit-share per adult: {0}"
+status = "normal"
 
 ["UI.TW.PayPerDay"]
 raw = "Total per day: {0}"

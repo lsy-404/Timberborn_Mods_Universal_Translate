@@ -1,0 +1,182 @@
+[_meta]
+name = "Climate Progression"
+
+["ClimateProgression.Header"]
+new = "Climate Progression"
+status = "normal"
+
+["ClimateProgression.Enabled"]
+new = "Enable escalation"
+status = "normal"
+
+["ClimateProgression.Enabled.Tooltip"]
+new = "Off means strictly vanilla weather: your configured durations stop growing once the early-game warm-up ends, as in the base game."
+status = "normal"
+
+["ClimateProgression.StartCycle"]
+new = "Escalation starts at cycle"
+status = "normal"
+
+["ClimateProgression.StartCycle.Tooltip"]
+new = "Up to this cycle nothing changes: droughts and badtides last exactly what you configured in the game setup. Escalation only begins afterwards."
+status = "normal"
+
+["ClimateProgression.FullCycle"]
+new = "Escalation complete at cycle"
+status = "normal"
+
+["ClimateProgression.FullCycle.Tooltip"]
+new = "Cycle at which the settings below are fully applied. Past this point difficulty stops rising: the curve holds a plateau instead of growing forever. Cannot sit before the start of the escalation; moving either slider pushes the other."
+status = "normal"
+
+["ClimateProgression.DroughtIntensity"]
+new = "Drought lengthening"
+status = "normal"
+
+["ClimateProgression.DroughtIntensity.Tooltip"]
+new = "How much longer droughts get once escalation is complete, compared to the duration you configured when starting the game. The chart below shows the result."
+status = "normal"
+
+["ClimateProgression.BadtideIntensity"]
+new = "Badtide lengthening"
+status = "normal"
+
+["ClimateProgression.BadtideIntensity.Tooltip"]
+new = "How much longer badtides get at the plateau. Kept lower than droughts by default: a long badtide is harsher, since pumped water is badwater and soil degrades."
+status = "normal"
+
+["ClimateProgression.TemperateIntensity"]
+new = "Temperate weather shortening"
+status = "normal"
+
+["ClimateProgression.TemperateIntensity.Tooltip"]
+new = "How much shorter the good season gets at the plateau. Careful: shortening production time while lengthening hazards compounds, so difficulty rises much faster than the two settings suggest."
+status = "normal"
+
+["ClimateProgression.TemperateFloorDays"]
+new = "Minimum temperate days"
+status = "normal"
+
+["ClimateProgression.TemperateFloorDays.Tooltip"]
+new = "Hard floor the good season never goes under, whatever the multiplier. This is what keeps the late game playable rather than unwinnable."
+status = "normal"
+
+["ClimateProgression.Preview"]
+new = "Result of your settings"
+status = "normal"
+
+["ClimateProgression.Preview.SourceGame"]
+new = "Based on the durations of the game you are playing."
+status = "normal"
+
+["ClimateProgression.Preview.SourceDefault"]
+new = "Based on the default game mode. Your own setup may use other durations; hazard warm-up is estimated from the chance for a badtide."
+status = "normal"
+
+["ClimateProgression.Preview.Cycle"]
+new = "Cycle"
+status = "normal"
+
+["ClimateProgression.Preview.Temperate"]
+new = "Temperate weather"
+status = "normal"
+
+["ClimateProgression.Preview.Drought"]
+new = "Drought"
+status = "normal"
+
+["ClimateProgression.Preview.Badtide"]
+new = "Badtide"
+status = "normal"
+
+["ClimateProgression.Preview.Ratio"]
+new = "Temperate days per hazard day"
+status = "normal"
+
+["ClimateProgression.Preview.Plateau"]
+new = "Plateau"
+status = "normal"
+
+["ClimateProgression.Preview.Disabled"]
+new = "Escalation is off: weather behaves exactly as in the base game."
+status = "normal"
+
+["ClimateProgression.Preview.WarnRatio"]
+new = "Warning: at the plateau there is less than one temperate day for five hazard days. A settlement is unlikely to survive that without very large reserves."
+status = "normal"
+
+["ClimateProgression.Preview.WarnFloor"]
+new = "Warning: the good season is pinned to its floor. Lower the temperate multiplier further and nothing will change; raise the floor to soften the late game."
+status = "normal"
+
+["ClimateProgression.Intensity.Longer.None"]
+new = "Unchanged"
+status = "normal"
+
+["ClimateProgression.Intensity.Longer.Slight"]
+new = "Slightly longer"
+status = "normal"
+
+["ClimateProgression.Intensity.Longer.Moderate"]
+new = "Moderately longer"
+status = "normal"
+
+["ClimateProgression.Intensity.Longer.Strong"]
+new = "Notably longer"
+status = "normal"
+
+["ClimateProgression.Intensity.Longer.Severe"]
+new = "Much longer"
+status = "normal"
+
+["ClimateProgression.Intensity.Longer.Extreme"]
+new = "Extremely long"
+status = "normal"
+
+["ClimateProgression.Intensity.Longer.Punishing"]
+new = "Punishingly long"
+status = "normal"
+
+["ClimateProgression.Intensity.Longer.Format"]
+new = "{0} (+{1}%)"
+status = "normal"
+
+["ClimateProgression.Intensity.Shorter.None"]
+new = "Unchanged"
+status = "normal"
+
+["ClimateProgression.Intensity.Shorter.Slight"]
+new = "Slightly shorter"
+status = "normal"
+
+["ClimateProgression.Intensity.Shorter.Moderate"]
+new = "Moderately shorter"
+status = "normal"
+
+["ClimateProgression.Intensity.Shorter.Strong"]
+new = "Notably shorter"
+status = "normal"
+
+["ClimateProgression.Intensity.Shorter.Severe"]
+new = "Much shorter"
+status = "normal"
+
+["ClimateProgression.Intensity.Shorter.Extreme"]
+new = "Extremely short"
+status = "normal"
+
+["ClimateProgression.Intensity.Shorter.Format"]
+new = "{0} (−{1}%)"
+status = "normal"
+
+["ClimateProgression.Intensity.Longer.Value"]
+new = "+{0}%"
+status = "normal"
+
+["ClimateProgression.Intensity.Shorter.Value"]
+new = "−{0}%"
+status = "normal"
+
+["ClimateProgression.Preview.SummaryLine"]
+new = "{0}: {1}"
+status = "normal"

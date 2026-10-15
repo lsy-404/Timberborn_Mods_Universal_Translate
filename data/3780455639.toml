@@ -3485,3 +3485,499 @@ koKR = "발효 된 밤 음료"
 csCZ = "Fermentovaný kaštanový nápoj"
 viVN = "Nước ngâm hạt dẻ"
 trTR = "Mayalanmış Kestane İçeceği"
+
+["Good.CornSoup.DisplayName"]
+new = "Corn Soup"
+status = "normal"
+
+["Good.CornSoup.PluralDisplayName"]
+new = "Corn Soup"
+status = "normal"
+
+["Good.CassavaSoup.DisplayName"]
+new = "Cassava Soup"
+status = "normal"
+
+["Good.CassavaSoup.PluralDisplayName"]
+new = "Cassava Soup"
+status = "normal"
+
+["Good.EggplantSoup.DisplayName"]
+new = "Eggplant Soup"
+status = "normal"
+
+["Good.EggplantSoup.PluralDisplayName"]
+new = "Eggplant Soup"
+status = "normal"
+
+["Good.KohlrabiSoup.DisplayName"]
+new = "Kohlrabi Soup"
+status = "normal"
+
+["Good.KohlrabiSoup.PluralDisplayName"]
+new = "Kohlrabi Soup"
+status = "normal"
+
+["Good.MushroomSoup.DisplayName"]
+new = "Mushroom Soup"
+status = "normal"
+
+["Good.MushroomSoup.PluralDisplayName"]
+new = "Mushroom Soup"
+status = "normal"
+
+["Good.SoybeanSoup.DisplayName"]
+new = "Soybean Soup"
+status = "normal"
+
+["Good.SoybeanSoup.PluralDisplayName"]
+new = "Soybean Soup"
+status = "normal"
+
+["Good.AlgaeSoup.DisplayName"]
+new = "Algae Soup"
+status = "normal"
+
+["Good.AlgaeSoup.PluralDisplayName"]
+new = "Algae Soup"
+status = "normal"
+
+["Good.MangroveSoup.DisplayName"]
+new = "Mangrove Fruit Soup"
+status = "normal"
+
+["Good.MangroveSoup.PluralDisplayName"]
+new = "Mangrove Fruit Soup"
+status = "normal"
+
+["Good.CornCassavaSoup.DisplayName"]
+new = "Corn Cassava Soup"
+status = "normal"
+
+["Good.CornCassavaSoup.PluralDisplayName"]
+new = "Corn Cassava Soup"
+status = "normal"
+
+["Good.CornMushroomSoup.DisplayName"]
+new = "Corn Mushroom Soup"
+status = "normal"
+
+["Good.CornMushroomSoup.PluralDisplayName"]
+new = "Corn Mushroom Soup"
+status = "normal"
+
+["Good.CassavaMushroomSoup.DisplayName"]
+new = "Cassava Mushroom Soup"
+status = "normal"
+
+["Good.CassavaMushroomSoup.PluralDisplayName"]
+new = "Cassava Mushroom Soup"
+status = "normal"
+
+["Good.SoybeanMushroomSoup.DisplayName"]
+new = "Soybean Mushroom Soup"
+status = "normal"
+
+["Good.SoybeanMushroomSoup.PluralDisplayName"]
+new = "Soybean Mushroom Soup"
+status = "normal"
+
+["Good.EggplantKohlrabiSoup.DisplayName"]
+new = "Eggplant Kohlrabi Soup"
+status = "normal"
+
+["Good.EggplantKohlrabiSoup.PluralDisplayName"]
+new = "Eggplant Kohlrabi Soup"
+status = "normal"
+
+["Good.CornSoybeanSoup.DisplayName"]
+new = "Corn Soybean Soup"
+status = "normal"
+
+["Good.CornSoybeanSoup.PluralDisplayName"]
+new = "Corn Soybean Soup"
+status = "normal"
+
+["Good.CornBerrySoup.DisplayName"]
+new = "Corn Berry Soup"
+status = "normal"
+
+["Good.CornBerrySoup.PluralDisplayName"]
+new = "Corn Berry Soup"
+status = "normal"
+
+["Good.CassavaBerrySoup.DisplayName"]
+new = "Cassava Berry Soup"
+status = "normal"
+
+["Good.CassavaBerrySoup.PluralDisplayName"]
+new = "Cassava Berry Soup"
+status = "normal"
+
+["Good.SoybeanBerrySoup.DisplayName"]
+new = "Soybean Berry Soup"
+status = "normal"
+
+["Good.SoybeanBerrySoup.PluralDisplayName"]
+new = "Soybean Berry Soup"
+status = "normal"
+
+["Good.CornDrink.DisplayName"]
+new = "Corn Drink"
+status = "normal"
+
+["Good.CornDrink.PluralDisplayName"]
+new = "Corn Drink"
+status = "normal"
+
+["Good.CassavaJuice.DisplayName"]
+new = "Cassava Juice"
+status = "normal"
+
+["Good.CassavaJuice.PluralDisplayName"]
+new = "Cassava Juice"
+status = "normal"
+
+["Good.EggplantJuice.DisplayName"]
+new = "Eggplant Juice"
+status = "normal"
+
+["Good.EggplantJuice.PluralDisplayName"]
+new = "Eggplant Juice"
+status = "normal"
+
+["Good.KohlrabiJuice.DisplayName"]
+new = "Kohlrabi Juice"
+status = "normal"
+
+["Good.KohlrabiJuice.PluralDisplayName"]
+new = "Kohlrabi Juice"
+status = "normal"
+
+["Good.MangroveJuice.DisplayName"]
+new = "Mangrove Fruit Juice"
+status = "normal"
+
+["Good.MangroveJuice.PluralDisplayName"]
+new = "Mangrove Fruit Juice"
+status = "normal"
+
+["Good.SoyDrink.DisplayName"]
+new = "Soy Drink"
+status = "normal"
+
+["Good.SoyDrink.PluralDisplayName"]
+new = "Soy Drink"
+status = "normal"
+
+["Good.BerryMangroveDrink.DisplayName"]
+new = "Berry Mangrove Drink"
+status = "normal"
+
+["Good.BerryMangroveDrink.PluralDisplayName"]
+new = "Berry Mangrove Drink"
+status = "normal"
+
+["Good.CornBerryDrink.DisplayName"]
+new = "Corn Berry Drink"
+status = "normal"
+
+["Good.CornBerryDrink.PluralDisplayName"]
+new = "Corn Berry Drink"
+status = "normal"
+
+["Good.CassavaBerryDrink.DisplayName"]
+new = "Cassava Berry Drink"
+status = "normal"
+
+["Good.CassavaBerryDrink.PluralDisplayName"]
+new = "Cassava Berry Drink"
+status = "normal"
+
+["Good.SoybeanBerryDrink.DisplayName"]
+new = "Soybean Berry Drink"
+status = "normal"
+
+["Good.SoybeanBerryDrink.PluralDisplayName"]
+new = "Soybean Berry Drink"
+status = "normal"
+
+["Good.CoffeeBerryDrink.DisplayName"]
+new = "Coffee Berry Drink"
+status = "normal"
+
+["Good.CoffeeBerryDrink.PluralDisplayName"]
+new = "Coffee Berry Drink"
+status = "normal"
+
+["Good.CornTea.DisplayName"]
+new = "Corn Tea"
+status = "normal"
+
+["Good.CornTea.PluralDisplayName"]
+new = "Corn Tea"
+status = "normal"
+
+["Good.CassavaTea.DisplayName"]
+new = "Cassava Tea"
+status = "normal"
+
+["Good.CassavaTea.PluralDisplayName"]
+new = "Cassava Tea"
+status = "normal"
+
+["Good.MushroomTea.DisplayName"]
+new = "Mushroom Tea"
+status = "normal"
+
+["Good.MushroomTea.PluralDisplayName"]
+new = "Mushroom Tea"
+status = "normal"
+
+["Good.SoyTea.DisplayName"]
+new = "Soy Tea"
+status = "normal"
+
+["Good.SoyTea.PluralDisplayName"]
+new = "Soy Tea"
+status = "normal"
+
+["Good.MangroveTea.DisplayName"]
+new = "Mangrove Fruit Tea"
+status = "normal"
+
+["Good.MangroveTea.PluralDisplayName"]
+new = "Mangrove Fruit Tea"
+status = "normal"
+
+["Good.CanolaTea.DisplayName"]
+new = "Canola Tea"
+status = "normal"
+
+["Good.CanolaTea.PluralDisplayName"]
+new = "Canola Tea"
+status = "normal"
+
+["Good.CornBeer.DisplayName"]
+new = "Corn Beer"
+status = "normal"
+
+["Good.CornBeer.PluralDisplayName"]
+new = "Corn Beer"
+status = "normal"
+
+["Good.CornAle.DisplayName"]
+new = "Corn Ale"
+status = "normal"
+
+["Good.CornAle.PluralDisplayName"]
+new = "Corn Ale"
+status = "normal"
+
+["Good.CassavaBeer.DisplayName"]
+new = "Cassava Beer"
+status = "normal"
+
+["Good.CassavaBeer.PluralDisplayName"]
+new = "Cassava Beer"
+status = "normal"
+
+["Good.CassavaAle.DisplayName"]
+new = "Cassava Ale"
+status = "normal"
+
+["Good.CassavaAle.PluralDisplayName"]
+new = "Cassava Ale"
+status = "normal"
+
+["Good.SoyBeer.DisplayName"]
+new = "Soy Beer"
+status = "normal"
+
+["Good.SoyBeer.PluralDisplayName"]
+new = "Soy Beer"
+status = "normal"
+
+["Good.BerryBeer.DisplayName"]
+new = "Berry Beer"
+status = "normal"
+
+["Good.BerryBeer.PluralDisplayName"]
+new = "Berry Beer"
+status = "normal"
+
+["Good.BerryBerryAle.DisplayName"]
+new = "Berry Berry Ale"
+status = "normal"
+
+["Good.BerryBerryAle.PluralDisplayName"]
+new = "Berry Berry Ale"
+status = "normal"
+
+["Good.MangroveBeer.DisplayName"]
+new = "Mangrove Fruit Beer"
+status = "normal"
+
+["Good.MangroveBeer.PluralDisplayName"]
+new = "Mangrove Fruit Beer"
+status = "normal"
+
+["Good.MushroomAle.DisplayName"]
+new = "Mushroom Ale"
+status = "normal"
+
+["Good.MushroomAle.PluralDisplayName"]
+new = "Mushroom Ale"
+status = "normal"
+
+["Good.CornBerryBeer.DisplayName"]
+new = "Corn Berry Beer"
+status = "normal"
+
+["Good.CornBerryBeer.PluralDisplayName"]
+new = "Corn Berry Beer"
+status = "normal"
+
+["Good.CornWine.DisplayName"]
+new = "Corn Wine"
+status = "normal"
+
+["Good.CornWine.PluralDisplayName"]
+new = "Corn Wine"
+status = "normal"
+
+["Good.CassavaWine.DisplayName"]
+new = "Cassava Wine"
+status = "normal"
+
+["Good.CassavaWine.PluralDisplayName"]
+new = "Cassava Wine"
+status = "normal"
+
+["Good.MangroveWine.DisplayName"]
+new = "Mangrove Fruit Wine"
+status = "normal"
+
+["Good.MangroveWine.PluralDisplayName"]
+new = "Mangrove Fruit Wine"
+status = "normal"
+
+["Good.SoyWine.DisplayName"]
+new = "Soy Wine"
+status = "normal"
+
+["Good.SoyWine.PluralDisplayName"]
+new = "Soy Wine"
+status = "normal"
+
+["Good.MangroveLiqueur.DisplayName"]
+new = "Mangrove Liqueur"
+status = "normal"
+
+["Good.MangroveLiqueur.PluralDisplayName"]
+new = "Mangrove Liqueur"
+status = "normal"
+
+["Good.CornSpirits.DisplayName"]
+new = "Corn Spirits"
+status = "normal"
+
+["Good.CornSpirits.PluralDisplayName"]
+new = "Corn Spirits"
+status = "normal"
+
+["Good.CassavaSpirits.DisplayName"]
+new = "Cassava Spirits"
+status = "normal"
+
+["Good.CassavaSpirits.PluralDisplayName"]
+new = "Cassava Spirits"
+status = "normal"
+
+["Good.FermentedCornDrink.DisplayName"]
+new = "Fermented Corn Drink"
+status = "normal"
+
+["Good.FermentedCornDrink.PluralDisplayName"]
+new = "Fermented Corn Drink"
+status = "normal"
+
+["Good.FermentedCassavaDrink.DisplayName"]
+new = "Fermented Cassava Drink"
+status = "normal"
+
+["Good.FermentedCassavaDrink.PluralDisplayName"]
+new = "Fermented Cassava Drink"
+status = "normal"
+
+["Good.FermentedSoyDrink.DisplayName"]
+new = "Fermented Soy Drink"
+status = "normal"
+
+["Good.FermentedSoyDrink.PluralDisplayName"]
+new = "Fermented Soy Drink"
+status = "normal"
+
+["Good.FermentedMangroveDrink.DisplayName"]
+new = "Fermented Mangrove Drink"
+status = "normal"
+
+["Good.FermentedMangroveDrink.PluralDisplayName"]
+new = "Fermented Mangrove Drink"
+status = "normal"
+
+["Good.CornKvass.DisplayName"]
+new = "Corn Kvass"
+status = "normal"
+
+["Good.CornKvass.PluralDisplayName"]
+new = "Corn Kvass"
+status = "normal"
+
+["Good.CassavaKvass.DisplayName"]
+new = "Cassava Kvass"
+status = "normal"
+
+["Good.CassavaKvass.PluralDisplayName"]
+new = "Cassava Kvass"
+status = "normal"
+
+["Good.SoyKvass.DisplayName"]
+new = "Soy Kvass"
+status = "normal"
+
+["Good.SoyKvass.PluralDisplayName"]
+new = "Soy Kvass"
+status = "normal"
+
+["Good.MangroveKvass.DisplayName"]
+new = "Mangrove Kvass"
+status = "normal"
+
+["Good.MangroveKvass.PluralDisplayName"]
+new = "Mangrove Kvass"
+status = "normal"
+
+["Good.FermentedMushroomDrink.DisplayName"]
+new = "Fermented Mushroom Drink"
+status = "normal"
+
+["Good.FermentedMushroomDrink.PluralDisplayName"]
+new = "Fermented Mushroom Drink"
+status = "normal"
+
+["Good.FermentedCanolaDrink.DisplayName"]
+new = "Fermented Canola Drink"
+status = "normal"
+
+["Good.FermentedCanolaDrink.PluralDisplayName"]
+new = "Fermented Canola Drink"
+status = "normal"
+
+["Good.AlgaeTea.DisplayName"]
+new = "Algae Tea"
+status = "normal"
+
+["Good.AlgaeTea.PluralDisplayName"]
+new = "Algae Tea"
+status = "normal"

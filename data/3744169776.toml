@@ -343,6 +343,7 @@ trTR = "Eşyaları yeniden işlenebilir şekilde daha verimli bir şekilde işle
 
 ["Building.Recicler.FlavorDescription"]
 raw = "Somethong the Hoomans didnt do, so they died."
+new = "Somethong the Hoomans didnt do, now they're dead."
 status = "normal"
 enUS = "Something the Humans didn't do, so they died."
 zhCN = "“人类没做的事情，所以他们死了。”"
@@ -445,6 +446,7 @@ trTR = "Her boyutta dişli bulunduruyoruz!"
 
 ["Manufactory.Recipe.MetalBlockEfficient"]
 raw = "Efficient MetalBlocks"
+new = "Efficient Metal Blocks"
 status = "normal"
 enUS = "Efficient MetalBlocks"
 zhCN = "高效金属块"
@@ -697,3 +699,131 @@ koKR = "액체"
 csCZ = "Tekutiny"
 viVN = "Chất lỏng"
 trTR = "Sıvılar"
+
+["Need.Oily.DisplayName"]
+new = "Oily"
+status = "normal"
+
+["Status.Need.Oily"]
+new = "Beaver has Oily fur"
+status = "normal"
+
+["Need.Cough.DisplayName"]
+new = "Cough"
+status = "normal"
+
+["Status.Need.Cough"]
+new = "Beaver has a Cough"
+status = "normal"
+
+["Good.TeaHerbs.DisplayName"]
+new = "Tea Herbs"
+status = "normal"
+
+["Good.Tea.DisplayName"]
+new = "Tea"
+status = "normal"
+
+["NaturalResource.Tea.DisplayName"]
+new = "Tea"
+status = "normal"
+
+["NaturalResource.Tea.FlavorDescription"]
+new = "Those are some British Beavers!"
+status = "normal"
+
+["Building.Brewery.DisplayName"]
+new = "Brewery"
+status = "normal"
+
+["Building.Brewery.Description"]
+new = "Brew tea for Beaver with a cough."
+status = "normal"
+
+["Building.Brewery.FlavorDescription"]
+new = "the Hoomans probably had to cough a lot, when they've conquered half the world for it."
+status = "normal"
+
+["Good.Pipe.DisplayName"]
+new = "Pipe"
+status = "normal"
+
+["Good.Pipe.PluralDisplayName"]
+new = "Pipes"
+status = "normal"
+
+["Good.Charcoal.DisplayName"]
+new = "Charcoal"
+status = "normal"
+
+["Good.Charcoal.PluralDisplayName"]
+new = "Charcoal"
+status = "normal"
+
+["Good.Steel.DisplayName"]
+new = "Steel"
+status = "normal"
+
+["Good.Steel.PluralDisplayName"]
+new = "Steel"
+status = "normal"
+
+["Building.Smoker.DisplayName"]
+new = "Smoker"
+status = "normal"
+
+["Building.Smoker.Description"]
+new = "Converts wood into Charcoal"
+status = "normal"
+
+["Building.Smoker.FlavorDescription"]
+new = "I think it should have a higher chimney."
+status = "normal"
+
+["Good.SteelPlates.DisplayName"]
+new = "Steel plate"
+status = "normal"
+
+["Good.SteelPlates.PluralDisplayName"]
+new = "Steel plates"
+status = "normal"
+
+["Building.EfficeintSmelter.DisplayName"]
+new = "Efficient Smelter"
+status = "normal"
+
+["Building.EfficeintSmelter.Description"]
+new = "Can create more advanced materials and other more efficiently."
+status = "normal"
+
+["Building.EfficeintSmelter.FlavorDescription"]
+new = "Not sure how you would upgrade a Smelter."
+status = "normal"
+
+["Good.MetalBeam.PluralDisplayName.Efficient"]
+new = "Efficient Metal Beams"
+status = "normal"
+
+["Good.ReinforcedMetalBeam.PluralDisplayName.Efficient"]
+new = "Efficient Reinforced Metal Beams"
+status = "normal"
+
+["Good.ReinforcedMetalBlock.PluralDisplayName.Efficient"]
+new = "Efficient Reinforced Metal Blocks"
+status = "normal"
+
+["Good.Steel.PluralDisplayName.Efficient"]
+new = "Efficient Steel"
+status = "normal"
+
+["Building.Refinery.DisplayName"]
+new = "Refinery"
+status = "normal"
+
+["Building.Refinery.Description"]
+new = "Turns Plastics into Oil"
+status = "normal"
+
+["Building.Refinery.FlavorDescription"]
+new = "The Hoomans called it Black Gold, I dont know what this has to do with gold, it just sticks to your fur!"
+status = "normal"

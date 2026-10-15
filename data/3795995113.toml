@@ -1,0 +1,158 @@
+[_meta]
+name = "Flywheels  fix"
+
+["Battery.Flywheels.SmallFlywheel.DisplayName"]
+new = "Small Flywheel"
+status = "normal"
+
+["Battery.Flywheels.SmallFlywheel.Description"]
+new = "A small and low-capacity flywheel built inline with a shaft. Platforms can be built over them similar to shafts."
+status = "normal"
+
+["Battery.Flywheels.SmallFlywheel.FlavorDescription"]
+new = "\"It's absolutely genius!\" - STHedgehog"
+status = "normal"
+
+["Battery.Flywheels.SmallHorizontalFramedFlywheel.DisplayName"]
+new = "Small Horizontal Framed Flywheel"
+status = "normal"
+
+["Battery.Flywheels.SmallHorizontalFramedFlywheel.Description"]
+new = "A small flywheel built into a frame."
+status = "normal"
+
+["Battery.Flywheels.SmallHorizontalFramedFlywheel.FlavorDescription"]
+new = "\"This is going to be a game-changer\" - JC The Beard"
+status = "normal"
+
+["Battery.Flywheels.SmallVerticalFramedFlywheel.DisplayName"]
+new = "Small Vertical Framed Flywheel"
+status = "normal"
+
+["Battery.Flywheels.SmallVerticalFramedFlywheel.Description"]
+new = "A small flywheel built into a frame."
+status = "normal"
+
+["Battery.Flywheels.SmallVerticalFramedFlywheel.FlavorDescription"]
+new = "\"This is going to be a game-changer\" - JC The Beard"
+status = "normal"
+
+["Battery.Flywheels.MediumFlywheel.DisplayName"]
+new = "Medium Flywheel"
+status = "normal"
+
+["Battery.Flywheels.MediumFlywheel.Description"]
+new = "A medium flywheel with moderate capacity."
+status = "normal"
+
+["Battery.Flywheels.MediumFlywheel.FlavorDescription"]
+new = "The magnum opus of Ol' Kazko"
+status = "normal"
+
+["Battery.Flywheels.MediumHorizontalFramedFlywheel.DisplayName"]
+new = "Medium Horizontal Framed Flywheel"
+status = "normal"
+
+["Battery.Flywheels.MediumHorizontalFramedFlywheel.Description"]
+new = "A medium sized flywheel built into a frame."
+status = "normal"
+
+["Battery.Flywheels.MediumHorizontalFramedFlywheel.FlavorDescription"]
+new = "\"What if we put the gears inside the flywheel?\" - Ol' Kazko"
+status = "normal"
+
+["Battery.Flywheels.MediumVerticalFramedFlywheel.DisplayName"]
+new = "Medium Vertical Framed Flywheel"
+status = "normal"
+
+["Battery.Flywheels.MediumVerticalFramedFlywheel.Description"]
+new = "A medium sized flywheel built into a frame."
+status = "normal"
+
+["Battery.Flywheels.MediumVerticalFramedFlywheel.FlavorDescription"]
+new = "\"What if we put the gears inside the flywheel?\" - Ol' Kazko"
+status = "normal"
+
+["Battery.Flywheels.LargeFlywheel.DisplayName"]
+new = "Large Flywheel"
+status = "normal"
+
+["Battery.Flywheels.LargeFlywheel.Description"]
+new = "A large and higher-capacity flywheel."
+status = "normal"
+
+["Battery.Flywheels.LargeFlywheel.FlavorDescription"]
+new = "The magnum opus of Ol' Kazko"
+status = "normal"
+
+["Battery.Flywheels.LargeHorizontalFramedFlywheel.DisplayName"]
+new = "Large Horizontal Framed Flywheel"
+status = "normal"
+
+["Battery.Flywheels.LargeHorizontalFramedFlywheel.Description"]
+new = "The largest flywheel constructed in a sturdy frame."
+status = "normal"
+
+["Battery.Flywheels.LargeHorizontalFramedFlywheel.FlavorDescription"]
+new = "The pinnacle of flywheel technology"
+status = "normal"
+
+["Battery.Flywheels.LargeVerticalFramedFlywheel.DisplayName"]
+new = "Large Vertical Framed Flywheel"
+status = "normal"
+
+["Battery.Flywheels.LargeVerticalFramedFlywheel.Description"]
+new = "The largest flywheel constructed in a sturdy frame."
+status = "normal"
+
+["Battery.Flywheels.LargeVerticalFramedFlywheel.FlavorDescription"]
+new = "The pinnacle of flywheel technology"
+status = "normal"
+
+["Battery.Flywheels.MediumVerticalJunction.DisplayName"]
+new = "Medium Flywheel Junction"
+status = "normal"
+
+["Battery.Flywheels.MediumVerticalJunction.Description"]
+new = "A medium frame that can be used to aid in the connection of stacked Medium Framed Flywheels."
+status = "normal"
+
+["Battery.Flywheels.MediumVerticalJunction.FlavorDescription"]
+new = "The sky is the limit!"
+status = "normal"
+
+["Battery.Flywheels.LargeVerticalJunction.DisplayName"]
+new = "Large Flywheel Junction"
+status = "normal"
+
+["Battery.Flywheels.LargeVerticalJunction.Description"]
+new = "A large sturdy frame that can be used to aid in the connection of stacked Large Framed Flywheels."
+status = "normal"
+
+["Battery.Flywheels.LargeVerticalJunction.FlavorDescription"]
+new = "The sky is the limit!"
+status = "normal"
+
+["Battery.Flywheels.ToolGroups.Flywheels.DisplayName"]
+new = "Flywheels"
+status = "normal"
+
+["Battery.Flywheels.ToolGroups.Junctions.DisplayName"]
+new = "Junctions"
+status = "normal"
+
+["Battery.Flywheels.UI.PowerDecayLabel"]
+new = "Power Loss"
+status = "normal"
+
+["Battery.Flywheels.UI.CapacityLabel"]
+new = "Capacity"
+status = "normal"
+
+["Battery.Flywheels.UI.MoreInfoText.SelfStackable"]
+new = "Ground / Self-stackable"
+status = "normal"
+
+["Battery.Flywheels.UI.MoreInfoText.SelfStackableText"]
+new = "Can be built either on ground or another"
+status = "normal"

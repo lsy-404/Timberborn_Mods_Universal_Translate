@@ -1,0 +1,18 @@
+[_meta]
+name = "Airlock Tunnels"
+
+["ToolGroups.Subgroup_Airlocks"]
+new = "Airlocks"
+status = "normal"
+
+["Building.AirlockBlock.DisplayName"]
+new = "Airlock Block"
+status = "normal"
+
+["Building.AirlockEntrance.DisplayName"]
+new = "Airlock Entrance"
+status = "normal"
+
+["LongAirlock.Warning.DoorOntoWatertightTile"]
+new = "A building's door can't open onto a watertight airlock tile. Use an Airlock Entrance."
+status = "normal"

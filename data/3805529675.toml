@@ -1,0 +1,18 @@
+[_meta]
+name = "Meadow Loop Ride"
+
+["Barbara.MeadowLoopRide.DisplayName"]
+new = "Meadow Loop Ride"
+status = "normal"
+
+["Barbara.MeadowLoopRide.Description"]
+new = "A compact ground-level wooden circuit for a gentle little ride."
+status = "normal"
+
+["Barbara.MeadowLoopRide.Flavor"]
+new = "Two seats - one loop - no support beam."
+status = "normal"
+
+["Barbara.MeadowLoopRide.Need.Joy.DisplayName"]
+new = "Little outing"
+status = "normal"

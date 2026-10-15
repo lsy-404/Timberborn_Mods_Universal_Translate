@@ -545,6 +545,14 @@ csCZ = "Výběr barvy"
 viVN = "Bảng chọn màu"
 trTR = "Renk Seçici"
 
+["LV.T4UI.MoveBottomRightUp"]
+new = "Move Bottom Right Up"
+status = "normal"
+
+["LV.T4UI.MoveBottomRightUpDesc"]
+new = "Sometimes the bottom bar may be too long and the bottom-right elements (like a Mini Map mod) may be covered.\nThis option add some space at the bottom"
+status = "normal"
+
 ["LV.T4UI.Update7_10_2"]
 raw = "This update adds collapsible groups to the management panel (F1 -> F5, like Population, Workplaces, etc.). You can also enable auto-collapse in the mod settings."
 status = "abandoned"

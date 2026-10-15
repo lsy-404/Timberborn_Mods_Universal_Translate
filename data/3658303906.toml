@@ -52,6 +52,10 @@ csCZ = "Filtr:"
 viVN = "Bộ lọc:"
 trTR = "Filtre:"
 
+["LV.MDG.SelectAll"]
+new = "Select all"
+status = "normal"
+
 ["LV.MDG.Type.Tails"]
 raw = "Tails"
 status = "normal"

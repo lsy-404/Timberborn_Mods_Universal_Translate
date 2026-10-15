@@ -1,0 +1,82 @@
+[_meta]
+name = "Unknown"
+
+["Building.Anemometer.DisplayName"]
+new = "Anemometer"
+status = "normal"
+
+["Building.Anemometer.Description"]
+new = "Measures wind strength and direction, sends an automation signal based on a configurable threshold."
+status = "normal"
+
+["Anemometer.WindStrength"]
+new = "Wind strength: {0}%"
+status = "normal"
+
+["Anemometer.WindDirection"]
+new = "Wind direction: {0}° ({1})"
+status = "normal"
+
+["Anemometer.Direction.N"]
+new = "N"
+status = "normal"
+
+["Anemometer.Direction.NNE"]
+new = "NNE"
+status = "normal"
+
+["Anemometer.Direction.NE"]
+new = "NE"
+status = "normal"
+
+["Anemometer.Direction.ENE"]
+new = "ENE"
+status = "normal"
+
+["Anemometer.Direction.E"]
+new = "E"
+status = "normal"
+
+["Anemometer.Direction.ESE"]
+new = "ESE"
+status = "normal"
+
+["Anemometer.Direction.SE"]
+new = "SE"
+status = "normal"
+
+["Anemometer.Direction.SSE"]
+new = "SSE"
+status = "normal"
+
+["Anemometer.Direction.S"]
+new = "S"
+status = "normal"
+
+["Anemometer.Direction.SSW"]
+new = "SSW"
+status = "normal"
+
+["Anemometer.Direction.SW"]
+new = "SW"
+status = "normal"
+
+["Anemometer.Direction.WSW"]
+new = "WSW"
+status = "normal"
+
+["Anemometer.Direction.W"]
+new = "W"
+status = "normal"
+
+["Anemometer.Direction.WNW"]
+new = "WNW"
+status = "normal"
+
+["Anemometer.Direction.NW"]
+new = "NW"
+status = "normal"
+
+["Anemometer.Direction.NNW"]
+new = "NNW"
+status = "normal"

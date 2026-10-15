@@ -1,0 +1,62 @@
+[_meta]
+name = "Unknown"
+
+["Calloatti.NRS.Column.Dead"]
+new = "Dead"
+status = "normal"
+
+["Calloatti.NRS.Column.Dying"]
+new = "Dying"
+status = "normal"
+
+["Calloatti.NRS.Column.Healthy"]
+new = "Healthy"
+status = "normal"
+
+["Calloatti.NRS.Column.Mature"]
+new = "Mature"
+status = "normal"
+
+["Calloatti.NRS.Column.Plots"]
+new = "Plots"
+status = "normal"
+
+["Calloatti.NRS.Column.Total"]
+new = "Total"
+status = "normal"
+
+["Calloatti.NRS.Filter"]
+new = "Filter:"
+status = "normal"
+
+["Calloatti.NRS.Filter.All"]
+new = "All"
+status = "normal"
+
+["Calloatti.NRS.Filter.Planted"]
+new = "Planted"
+status = "normal"
+
+["Calloatti.NRS.Filter.Plots"]
+new = "Plots"
+status = "normal"
+
+["Calloatti.NRS.Filter.Wild"]
+new = "Wild"
+status = "normal"
+
+["Calloatti.NRS.Header"]
+new = "Species"
+status = "normal"
+
+["Calloatti.NRS.KeyBind"]
+new = "Open Natural Resources Statistics Tab"
+status = "normal"
+
+["Calloatti.NRS.Tab"]
+new = "Natural Resources Statistics"
+status = "normal"
+
+["KeyBindingGroup.Calloatti.NRS"]
+new = "Natural Resources Statistics"
+status = "normal"

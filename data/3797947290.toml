@@ -1,0 +1,30 @@
+[_meta]
+name = "Hauling Post Plus"
+
+["HaulingPostPlus.Title"]
+new = "Hauling Post Plus"
+status = "normal"
+
+["HaulingPostPlus.Desired"]
+new = "Desired workers"
+status = "normal"
+
+["HaulingPostPlus.Status"]
+new = "Assigned: {0} · Desired: {1} · Capacity: {2}"
+status = "normal"
+
+["HaulingPostPlus.Preview"]
+new = "Release to apply: {0}"
+status = "normal"
+
+["HaulingPostPlus.Hint"]
+new = "Drag and release to apply. Type a number and press Enter for precision."
+status = "normal"
+
+["HaulingPostPlus.StaffingHint"]
+new = "Actual staffing depends on available workers and workplace priority. Worker portraits are replaced with this summary."
+status = "normal"
+
+["HaulingPostPlus.CapacityWarning"]
+new = "Capacity is not 1000. Check mod load order and other workplace mods."
+status = "normal"

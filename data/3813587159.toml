@@ -1,0 +1,14 @@
+[_meta]
+name = "The Barkimedes Screw"
+
+["Building.BarkimedesScrew.DisplayName"]
+new = "Barkimedes Screw"
+status = "normal"
+
+["Building.BarkimedesScrew.Description"]
+new = "Lifts water or badwater two levels up a slope. Needs mechanical power. The intake must sit in water."
+status = "normal"
+
+["Building.BarkimedesScrew.FlavorDescription"]
+new = "For us natural science is the Archimedes' screw that alone can turn the world to face the sun of reason. - Maxim Gorky"
+status = "normal"

@@ -292,6 +292,7 @@ trTR = "Su üretim süresi çarpanı"
 
 ["LV.SPE.WaterProdTimeMultiplierDesc"]
 raw = "The multiplier for water production time (higher is harder). Game default 1x = 0.33 hour for 1 Water for Water Pumps. Setting this to 0.5 will make it produce 1 water in 0.165 hour while setting it to 2 will make it produce 1 water in 0.66 hour."
+new = "The multiplier for water production time (higher is harder).\nGame default 1x = 0.33 hour for 1 Water for Water Pumps.\nSetting this to 0.5 will make it produce 1 water in 0.165 hour while setting it to 2 will make it produce 1 water in 0.66 hour."
 status = "normal"
 enUS = "The multiplier for water production time (higher is harder). The game default is 1x = 0.33 hours for 1 Water from Water Pumps. Setting this to 0.5 will make it produce 1 water in 0.165 hours, while setting it to 2 will make it produce 1 water in 0.66 hours."
 zhCN = "水生产时间的倍数（倍数越高，难度越大）。游戏默认1倍 = 0.33小时产生1单位水，设置为0.5将使其在0.165小时内产生1单位水，设置为2将使其在0.66小时内产生1单位水。"

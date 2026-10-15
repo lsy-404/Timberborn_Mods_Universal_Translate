@@ -1,0 +1,222 @@
+[_meta]
+name = "Automatic Automation Names"
+
+["AutoNames.AlmostEmpty"]
+new = "{0} almost empty"
+status = "normal"
+
+["AutoNames.Low"]
+new = "{0} low"
+status = "normal"
+
+["AutoNames.AlmostFull"]
+new = "{0} almost full"
+status = "normal"
+
+["AutoNames.High"]
+new = "{0} high"
+status = "normal"
+
+["AutoNames.NotFull"]
+new = "{0} not full"
+status = "normal"
+
+["AutoNames.NotEmpty"]
+new = "{0} not empty"
+status = "normal"
+
+["AutoNames.BelowPercent"]
+new = "{0} below {1}%"
+status = "normal"
+
+["AutoNames.AbovePercent"]
+new = "{0} above {1}%"
+status = "normal"
+
+["AutoNames.AtPercent"]
+new = "{0} at {1}%"
+status = "normal"
+
+["AutoNames.NotAtPercent"]
+new = "{0} not at {1}%"
+status = "normal"
+
+["AutoNames.Below"]
+new = "{0} below {1}"
+status = "normal"
+
+["AutoNames.Above"]
+new = "{0} above {1}"
+status = "normal"
+
+["AutoNames.AtMost"]
+new = "{0} at most {1}"
+status = "normal"
+
+["AutoNames.AtLeast"]
+new = "{0} at least {1}"
+status = "normal"
+
+["AutoNames.Exactly"]
+new = "{0} exactly {1}"
+status = "normal"
+
+["AutoNames.Not"]
+new = "{0} not {1}"
+status = "normal"
+
+["AutoNames.NoneOf"]
+new = "No {0}"
+status = "normal"
+
+["AutoNames.AnyOf"]
+new = "Any {0}"
+status = "normal"
+
+["AutoNames.NotSignal"]
+new = "Not {0}"
+status = "normal"
+
+["AutoNames.AndJoin"]
+new = "{0} and {1}"
+status = "normal"
+
+["AutoNames.OrJoin"]
+new = "{0} or {1}"
+status = "normal"
+
+["AutoNames.XorJoin"]
+new = "{0} xor {1}"
+status = "normal"
+
+["AutoNames.RelayPassthrough"]
+new = "{0} (relay)"
+status = "normal"
+
+["AutoNames.MemoryUntil"]
+new = "{0} until {1}"
+status = "normal"
+
+["AutoNames.MemoryLatched"]
+new = "{0} (latched)"
+status = "normal"
+
+["AutoNames.MemoryToggle"]
+new = "Toggle on {0}"
+status = "normal"
+
+["AutoNames.MemoryWhile"]
+new = "{0} while {1}"
+status = "normal"
+
+["AutoNames.MemoryAt"]
+new = "{0} at {1}"
+status = "normal"
+
+["AutoNames.GateOpensOn"]
+new = "Opens on {0}"
+status = "normal"
+
+["AutoNames.SpeakerOn"]
+new = "{0} on {1}"
+status = "normal"
+
+["AutoNames.DetonateOn"]
+new = "Detonate on {0}"
+status = "normal"
+
+["AutoNames.TimerDelayed"]
+new = "{0} delayed {1}"
+status = "normal"
+
+["AutoNames.TimerDelayedOnOff"]
+new = "{0} delayed {1}/{2}"
+status = "normal"
+
+["AutoNames.TimerPulse"]
+new = "{1} pulse on {0}"
+status = "normal"
+
+["AutoNames.TimerOscillator"]
+new = "{1} on, {2} off while {0}"
+status = "normal"
+
+["AutoNames.TimerOscillatorEqual"]
+new = "On/off every {1} while {0}"
+status = "normal"
+
+["AutoNames.TimerAccumulator"]
+new = "{0} for {1} total"
+status = "normal"
+
+["AutoNames.TimerRandom"]
+new = "Random every {1} while {0}"
+status = "normal"
+
+["AutoNames.IntervalTicks"]
+new = "{0} ticks"
+status = "normal"
+
+["AutoNames.IntervalHours"]
+new = "{0}h"
+status = "normal"
+
+["AutoNames.IntervalDays"]
+new = "{0}d"
+status = "normal"
+
+["AutoNames.Warning"]
+new = "{0} warning"
+status = "normal"
+
+["AutoNames.EarlyBy"]
+new = "{0} ({1}h early)"
+status = "normal"
+
+["AutoNames.TimeRange"]
+new = "{0}–{1}"
+status = "normal"
+
+["AutoNames.Batteries"]
+new = "Batteries"
+status = "normal"
+
+["AutoNames.Contamination"]
+new = "Contamination"
+status = "normal"
+
+["AutoNames.AnyContamination"]
+new = "Any contamination"
+status = "normal"
+
+["AutoNames.WaterClean"]
+new = "Water clean"
+status = "normal"
+
+["AutoNames.Depth"]
+new = "Depth"
+status = "normal"
+
+["AutoNames.Flow"]
+new = "Flow"
+status = "normal"
+
+["AutoNames.ValueHp"]
+new = "{0} hp"
+status = "normal"
+
+["AutoNames.Settings.AutoAutomateAlmostFull"]
+new = "Auto-Automate Buildings when creating Resource Almost Full automations"
+status = "normal"
+
+["AutoNames.Settings.AutoAutomateAlmostFull.Tooltip"]
+new = "Also wires producers to the counter. When you set a resource counter to a fill rate below a threshold (e.g. \"Planks not full\"), every building in its district that makes that good and has no automation input yet is connected to it, so it pauses while the stores are full. Counters set to a fill rate above a threshold (\"almost full\") are only on when full and are not used. Buildings placed later are not wired."
+status = "normal"
+
+["AutoNames.Settings.AutoAutomateCompleted"]
+new = "Auto-Automate completed buildings (and every building on reset) using an existing 'Resource Not Full' automation in their district"
+status = "normal"
+
+["AutoNames.Settings.AutoAutomateCompleted.Tooltip"]
+new = "When a building finishes construction, and for every building on reset (when a save is loaded), the mod looks in the building's district for resource counters set to a fill rate below a threshold (e.g. \"Planks not full\") for a good the building produces. If there is exactly one such counter and the building has no automation input yet, the building is connected to it, so it pauses while the stores are full. With two or more matching counters nothing happens. Buildings that already have an input are never changed, and nothing is ever disconnected."
+status = "normal"

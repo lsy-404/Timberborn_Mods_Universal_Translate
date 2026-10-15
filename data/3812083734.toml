@@ -1,0 +1,54 @@
+[_meta]
+name = "Unknown"
+
+["DailyNet.PerDay"]
+new = "{0}/day"
+status = "normal"
+
+["DailyNet.NoData"]
+new = "no data yet"
+status = "normal"
+
+["DailyNet.Empty"]
+new = "empty!"
+status = "normal"
+
+["DailyNet.UnderOneDayLeft"]
+new = "under 1 day left"
+status = "normal"
+
+["DailyNet.OneDayLeft"]
+new = "1 day left"
+status = "normal"
+
+["DailyNet.DaysLeft"]
+new = "{0} days left"
+status = "normal"
+
+["DailyNet.StorageFull"]
+new = "storage full"
+status = "normal"
+
+["DailyNet.FullInOneDay"]
+new = "full in 1 day"
+status = "normal"
+
+["DailyNet.FullInDays"]
+new = "full in {0} days"
+status = "normal"
+
+["DailyNet.Steady"]
+new = "steady"
+status = "normal"
+
+["DailyNet.Tooltip"]
+new = "Average over the last {0} days: made {1} a day, used {2} a day."
+status = "normal"
+
+["DailyNet.TooltipAllTypes"]
+new = "All types added together."
+status = "normal"
+
+["DailyNet.TooltipNoData"]
+new = "The daily net appears after the first dawn."
+status = "normal"

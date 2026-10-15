@@ -1,0 +1,18 @@
+[_meta]
+name = "Irregular Lodges"
+
+["Building.IrregularLodge1.Description"]
+new = "A differently shaped lodge."
+status = "normal"
+
+["Building.IrregularLodge1.DisplayName"]
+new = "Irregular Lodge 1"
+status = "normal"
+
+["Building.IrregularLodge2.Description"]
+new = "A differently shaped lodge."
+status = "normal"
+
+["Building.IrregularLodge2.DisplayName"]
+new = "Irregular Lodge 2"
+status = "normal"

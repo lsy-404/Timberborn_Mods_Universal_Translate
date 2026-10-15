@@ -1,0 +1,18 @@
+[_meta]
+name = "Dirt JSON Mod"
+
+["Good.Dust.DisplayName"]
+new = "Dirt"
+status = "normal"
+
+["Good.Dust.PluralDisplayName"]
+new = "Dirt"
+status = "normal"
+
+["Good.PlankandDirt.DisplayName"]
+new = "Plank and Dirt"
+status = "normal"
+
+["Good.PlankandDirt.PluralDisplayName"]
+new = "Planks and Dirt"
+status = "normal"

@@ -1,0 +1,14 @@
+[_meta]
+name = "Honey Time Reworked for Leaf Coats [unofficial]"
+
+["Good.GlazedFruit.DisplayName"]
+new = "Glazed Fruit"
+status = "normal"
+
+["Good.GlazedFruit.PluralDisplayName"]
+new = "Glazed Fruit"
+status = "normal"
+
+["Need.GlazedFruit.PluralDisplayName"]
+new = "Glazed Fruit"
+status = "normal"

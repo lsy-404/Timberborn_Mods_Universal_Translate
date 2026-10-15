@@ -1,0 +1,170 @@
+[_meta]
+name = "Restaurants Pack"
+
+["RestaurantsPack.Good.Fries.DisplayName"]
+new = "Fries"
+status = "normal"
+
+["RestaurantsPack.Good.Fries.PluralDisplayName"]
+new = "Fries"
+status = "normal"
+
+["RestaurantsPack.Good.GourmetPlate.DisplayName"]
+new = "Gourmet plate"
+status = "normal"
+
+["RestaurantsPack.Good.GourmetPlate.PluralDisplayName"]
+new = "Gourmet plates"
+status = "normal"
+
+["RestaurantsPack.Good.Lemonade.DisplayName"]
+new = "Lemonade"
+status = "normal"
+
+["RestaurantsPack.Good.Lemonade.PluralDisplayName"]
+new = "Lemonade"
+status = "normal"
+
+["RestaurantsPack.Good.RoastedChestnut.DisplayName"]
+new = "Roasted chestnut"
+status = "normal"
+
+["RestaurantsPack.Good.RoastedChestnut.PluralDisplayName"]
+new = "Roasted chestnuts"
+status = "normal"
+
+["RestaurantsPack.Need.Restauration.DisplayName"]
+new = "Eating out"
+status = "normal"
+
+["RestaurantsPack.Building.Friterie.DisplayName"]
+new = "Fry Shack"
+status = "normal"
+
+["RestaurantsPack.Building.Friterie.Description"]
+new = "Turns 3 potatoes into 6 fries. One tile, one beaver, one drum of oil."
+status = "normal"
+
+["RestaurantsPack.Building.Friterie.FlavorDescription"]
+new = "One fry to lure them all."
+status = "normal"
+
+["RestaurantsPack.Building.FrenchRestaurant.DisplayName"]
+new = "French Restaurant"
+status = "normal"
+
+["RestaurantsPack.Building.FrenchRestaurant.Description"]
+new = "2 wheat, 2 potatoes and 2 chestnuts make 2 plates. Three beavers, two hours."
+status = "normal"
+
+["RestaurantsPack.Building.FrenchRestaurant.FlavorDescription"]
+new = "The Chef is said to be the finest in the District!"
+status = "normal"
+
+["RestaurantsPack.Building.Buvette.DisplayName"]
+new = "Refreshment Stand"
+status = "normal"
+
+["RestaurantsPack.Building.Buvette.Description"]
+new = "1 maple syrup and 2 water make 6 lemonades. Quenches thirst, which no dish does."
+status = "normal"
+
+["RestaurantsPack.Building.Buvette.FlavorDescription"]
+new = "Water, but with an opinion."
+status = "normal"
+
+["RestaurantsPack.Building.ChestnutCart.DisplayName"]
+new = "Chestnut Cart"
+status = "normal"
+
+["RestaurantsPack.Building.ChestnutCart.Description"]
+new = "2 chestnuts make 5 roasted chestnuts. One tile, one cart, one beaver who says nothing."
+status = "normal"
+
+["RestaurantsPack.Building.ChestnutCart.FlavorDescription"]
+new = "Hot chestnuts! Get them hot!"
+status = "normal"
+
+["RestaurantsPack.Good.HotTray.DisplayName"]
+new = "Hot tray"
+status = "normal"
+
+["RestaurantsPack.Good.HotTray.PluralDisplayName"]
+new = "Hot trays"
+status = "normal"
+
+["RestaurantsPack.Good.Fritters.DisplayName"]
+new = "Fritter"
+status = "normal"
+
+["RestaurantsPack.Good.Fritters.PluralDisplayName"]
+new = "Fritters"
+status = "normal"
+
+["RestaurantsPack.Good.BubbleTea.DisplayName"]
+new = "Bubble tea"
+status = "normal"
+
+["RestaurantsPack.Good.BubbleTea.PluralDisplayName"]
+new = "Bubble tea"
+status = "normal"
+
+["RestaurantsPack.Good.MealTray.DisplayName"]
+new = "Meal tray"
+status = "normal"
+
+["RestaurantsPack.Good.MealTray.PluralDisplayName"]
+new = "Meal trays"
+status = "normal"
+
+["RestaurantsPack.Need.PauseRepas.DisplayName"]
+new = "Meal break"
+status = "normal"
+
+["RestaurantsPack.Building.Automat.DisplayName"]
+new = "Automat"
+status = "normal"
+
+["RestaurantsPack.Building.Automat.Description"]
+new = "3 corn rations and 1 canola oil make 8 hot trays. Runs on a bot and mechanical power: no beaver is assigned to it."
+status = "normal"
+
+["RestaurantsPack.Building.Automat.FlavorDescription"]
+new = "No beaver works here. That is a feature."
+status = "normal"
+
+["RestaurantsPack.Building.IndustrialFryer.DisplayName"]
+new = "Industrial Fryer"
+status = "normal"
+
+["RestaurantsPack.Building.IndustrialFryer.Description"]
+new = "3 kohlrabi and 1 canola oil make 6 fritters. Frying with actual fat."
+status = "normal"
+
+["RestaurantsPack.Building.IndustrialFryer.FlavorDescription"]
+new = "Conversion efficiency: 82%. Flavour is not measured."
+status = "normal"
+
+["RestaurantsPack.Building.TapiocaBar.DisplayName"]
+new = "Tapioca Bar"
+status = "normal"
+
+["RestaurantsPack.Building.TapiocaBar.Description"]
+new = "2 cassava, 2 water and 1 coffee make 6 bubble teas. Quenches thirst."
+status = "normal"
+
+["RestaurantsPack.Building.TapiocaBar.FlavorDescription"]
+new = "Not in the five-year plan. Tolerated."
+status = "normal"
+
+["RestaurantsPack.Building.FactoryCanteen.DisplayName"]
+new = "Factory Canteen"
+status = "normal"
+
+["RestaurantsPack.Building.FactoryCanteen.Description"]
+new = "2 eggplant rations, 2 algae rations and 1 oil make 2 meal trays. Three beavers, two sittings."
+status = "normal"
+
+["RestaurantsPack.Building.FactoryCanteen.FlavorDescription"]
+new = "Two sittings. Twenty minutes. No menu choice."
+status = "normal"

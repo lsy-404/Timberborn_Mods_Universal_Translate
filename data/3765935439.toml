@@ -103,6 +103,14 @@ csCZ = "Směr 2"
 viVN = "Hướng 2"
 trTR = "Yön 2"
 
+["Tobbert.TrackOneWay.Chain.Off"]
+new = "Signal: standard"
+status = "normal"
+
+["Tobbert.TrackOneWay.Chain.On"]
+new = "Signal: chain"
+status = "normal"
+
 ["Tobbert.TrainYard.DisplayName"]
 raw = "Train Yard"
 status = "normal"
@@ -292,6 +300,7 @@ trTR = "Mal İstasyonu"
 
 ["Tobbert.GoodsStation.Description"]
 raw = "Loads and unloads goods carried by trains."
+new = "Loads and unloads goods carried by trains. Set, good by good, what the station sends and what it receives; workers take from and drop off at it directly, while haulers shuttle goods to and from the district's storage."
 status = "normal"
 enUS = "Loads and unloads goods carried by trains."
 zhCN = "“装卸火车运输的货物。”"
@@ -323,6 +332,46 @@ koKR = "모든 훌륭한 철도는 화물을 내려놓을 장소가 필요하다
 csCZ = "Každá skvělá železnice potřebuje místo k vykládce nákladu."
 viVN = "Mọi đường sắt vĩ đại đều cần một nơi để giao hàng hóa."
 trTR = "Her büyük demiryolunun yükü bırakacağı bir yere ihtiyacı vardır."
+
+["Tobbert.ExchangeStation.DisplayName"]
+new = "District Crossing Station"
+status = "normal"
+
+["Tobbert.ExchangeStation.Description"]
+new = "Balances goods between districts connected by rail, following their distribution settings. Beavers also use it to migrate from one district to another."
+status = "normal"
+
+["Tobbert.ExchangeStation.FlavorDescription"]
+new = "What one district has in excess another is waiting for."
+status = "normal"
+
+["Tobbert.ExchangeStation.Outgoing.Header"]
+new = "Shipments (waiting/carried)"
+status = "normal"
+
+["Tobbert.ExchangeStation.Outgoing.Line"]
+new = "{0} → {1}: {2}/{3}"
+status = "normal"
+
+["Tobbert.ExchangeStation.Incoming.Line"]
+new = "{0}: {1} inbound"
+status = "normal"
+
+["Tobbert.ExchangeStation.Idle"]
+new = "No exchange in progress"
+status = "normal"
+
+["Tobbert.ExchangeStation.Passengers.Header"]
+new = "Passengers"
+status = "normal"
+
+["Tobbert.ExchangeStation.Passengers.Line"]
+new = "{0} waiting for {1}"
+status = "normal"
+
+["Tobbert.ExchangeStation.Passengers.LineWithWalking"]
+new = "{0} waiting for {1} ({2} on the way)"
+status = "normal"
 
 ["Tobbert.GoodsStationWarehouse.AssociatedStation.Header"]
 raw = "Associated station"
@@ -394,6 +443,7 @@ trTR = "Küçük Depo"
 
 ["Tobbert.GoodsStationWarehouseSmall.Description"]
 raw = "A warehouse placed against or below a Goods Station to expand its storage capacity. Stores nothing on its own."
+new = "A warehouse placed against a Goods Station, or under it, to grant it extra goods slots — each slot lets the station stock one more kind of goods. Holds no goods of its own."
 status = "normal"
 enUS = "A warehouse placed against or below a Goods Station to expand its storage capacity. Stores nothing on its own."
 zhCN = "一个放置在货物站旁边或下面的仓库，以扩展其存储容量。自身不储存任何物品。"
@@ -445,6 +495,7 @@ trTR = "Orta Depo"
 
 ["Tobbert.GoodsStationWarehouseMedium.Description"]
 raw = "A warehouse placed against or below a Goods Station to expand its storage capacity. Stores nothing on its own."
+new = "A warehouse placed against a Goods Station, or under it, to grant it extra goods slots — each slot lets the station stock one more kind of goods. Holds no goods of its own."
 status = "normal"
 enUS = "A warehouse placed against or below a Goods Station to expand its storage capacity. Stores nothing on its own."
 zhCN = "一个放置在货物站旁边或下面的仓库，用于扩展其存储容量。自身不存储任何物品。"
@@ -496,6 +547,7 @@ trTR = "Büyük Depo"
 
 ["Tobbert.GoodsStationWarehouseLarge.Description"]
 raw = "A warehouse placed against or below a Goods Station to expand its storage capacity. Stores nothing on its own."
+new = "A warehouse placed against a Goods Station, or under it, to grant it extra goods slots — each slot lets the station stock one more kind of goods. Holds no goods of its own."
 status = "normal"
 enUS = "A warehouse placed against or below a Goods Station to expand its storage capacity. Stores nothing on its own."
 zhCN = "“一个放置在货物站旁边或下方的仓库，以扩大其存储容量。自身不存储任何物品。”"
@@ -547,6 +599,7 @@ trTR = "Küçük Silolar"
 
 ["Tobbert.GoodsStationSiloSmall.Description"]
 raw = "A silo placed against a Goods Station to expand its storage capacity. Stores nothing on its own."
+new = "A silo placed against a Goods Station to grant it extra goods slots — each slot lets the station stock one more kind of goods. Holds no goods of its own."
 status = "normal"
 enUS = "A silo placed against a Goods Station to expand its storage capacity. Stores nothing on its own."
 zhCN = "一个放置在货物站旁边的小型筒仓，以扩展其存储容量。单独不存储任何东西。"
@@ -598,6 +651,7 @@ trTR = "Orta Silo"
 
 ["Tobbert.GoodsStationSiloMedium.Description"]
 raw = "A silo placed against a Goods Station to expand its storage capacity. Stores nothing on its own."
+new = "A silo placed against a Goods Station to grant it extra goods slots — each slot lets the station stock one more kind of goods. Holds no goods of its own."
 status = "normal"
 enUS = "A silo placed against a Goods Station to expand its storage capacity. Stores nothing on its own."
 zhCN = "一个放置在货物站旁边的筒仓，用于扩展其存储容量。自己不存储任何东西。"
@@ -697,6 +751,10 @@ koKR = "화물"
 csCZ = "Náklad"
 viVN = "Hàng hóa"
 trTR = "Kargo"
+
+["Tobbert.Train.PassengersAboard"]
+new = "{0} travellers aboard"
+status = "normal"
 
 ["Tobbert.Cargo.AddGood"]
 raw = "Add good"
@@ -884,6 +942,14 @@ koKR = "목적지로 가는 경로가 없습니다"
 csCZ = "Žádná cesta k cíli"
 viVN = "Không có đường đến đích"
 trTR = "Varış noktasına giden yol yok"
+
+["Tobbert.Train.Status.Blocked"]
+new = "Waiting for the track ahead"
+status = "normal"
+
+["Tobbert.Train.Status.Isolated"]
+new = "No Waiting Station or Train Yard can be reached from here — lay a connecting track, or a turnaround loop if the way back is behind it"
+status = "normal"
 
 ["Tobbert.TrackLineTool.Prompt"]
 raw = "Drag to lay a line of one-way track. Turn once to add a junction. Press R or Shift+R to cycle the junction piece (corner / T / crossing)."
@@ -2092,6 +2158,10 @@ csCZ = "Nečinný — k dispozici"
 viVN = "Nhàn rỗi - có sẵn"
 trTR = "Boşta — mevcut"
 
+["Tobbert.Train.Activity.Isolated"]
+new = "Trapped — cannot get back to a depot"
+status = "normal"
+
 ["Tobbert.Train.Activity.NoConductor"]
 raw = "No conductor — waiting to board one"
 status = "normal"
@@ -2278,3 +2348,43 @@ koKR = "빈 공간에서 오른쪽 클릭: 종료  •  <b>Enter</b>: 건설"
 csCZ = "Klikněte pravým tlačítkem myši na prázdné místo: ukončit  •  <b>Enter</b>: stavět"
 viVN = "Nhấp chuột phải vào vùng trống: thoát  •  <b>Enter</b>: xây dựng"
 trTR = "Boş alana sağ tıklayın: çıkış  •  <b>Enter</b>: inşa et"
+
+["Tobbert.Train.Alert.Hungry"]
+new = "Hungry conductor"
+status = "normal"
+
+["Tobbert.Train.Alert.Thirsty"]
+new = "Thirsty conductor"
+status = "normal"
+
+["Tobbert.Train.Alert.NoPath"]
+new = "Train with no route"
+status = "normal"
+
+["Tobbert.Train.Alert.Blocked"]
+new = "Train blocked on the track"
+status = "normal"
+
+["Tobbert.Train.Alert.Isolated"]
+new = "Train cannot get back to a depot"
+status = "normal"
+
+["Tobbert.Train.Alert.OutOfFuel"]
+new = "Train out of fuel"
+status = "normal"
+
+["Tobbert.Navigation.ReachabilityOverlay.Tooltip"]
+new = "Show reachable track"
+status = "normal"
+
+["Tobbert.StorageBasin.Overlay.Tooltip"]
+new = "Show the storage it serves"
+status = "normal"
+
+["Tobbert.BatchControl.Trains"]
+new = "Trains"
+status = "normal"
+
+["Tobbert.ChooChoo.KeyBinding.TrainListTab"]
+new = "Trains tab"
+status = "normal"

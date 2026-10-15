@@ -1,0 +1,14 @@
+[_meta]
+name = "Rainborn Acid Chance Cap"
+
+["Shay.RainbornAcidChanceCap.Settings.Header"]
+new = "Rainborn acid-rain cap"
+status = "normal"
+
+["Shay.RainbornAcidChanceCap.Settings.MaxChance"]
+new = "Acid rain max chance (%)"
+status = "normal"
+
+["Shay.RainbornAcidChanceCap.Settings.MaxChance.Tooltip"]
+new = "Replaces Rainborn's hard-coded 50% maximum acid-rain probability. The configured Acid rain escalation events value still controls how many clean rains are needed to reach this maximum. 0 disables scheduled acid-rain rolls, 50 matches Rainborn's original behavior, and 100 allows the chance to reach 100%."
+status = "normal"

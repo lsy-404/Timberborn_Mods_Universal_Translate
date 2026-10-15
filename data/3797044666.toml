@@ -1,0 +1,30 @@
+[_meta]
+name = "Badwater Purification Centrifuge"
+
+["Building.archkns.BadwaterPurificationCentrifuge.DisplayName"]
+new = "Badwater Purification Centrifuge"
+status = "normal"
+
+["Building.archkns.BadwaterPurificationCentrifuge.Description"]
+new = "Heavy-duty machinery transforming dangerous badwater into clean water."
+status = "normal"
+
+["Building.archkns.BadwaterPurificationCentrifuge.FlavorDescription"]
+new = "Spin the poison out. Try not to spin the operators."
+status = "normal"
+
+["Recipe.archkns.PurifyBadwater.DisplayName"]
+new = "Purify badwater"
+status = "normal"
+
+["Building.archkns.CompactBadwaterPurifier.DisplayName"]
+new = "Compact Badwater Purifier"
+status = "normal"
+
+["Building.archkns.CompactBadwaterPurifier.Description"]
+new = "An automatic high-power pump that purifies badwater into clean water."
+status = "normal"
+
+["Building.archkns.CompactBadwaterPurifier.FlavorDescription"]
+new = "Small pump. Huge appetite. Surprisingly clean results."
+status = "normal"

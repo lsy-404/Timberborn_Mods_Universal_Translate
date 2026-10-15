@@ -88,6 +88,7 @@ trTR = "Yanan Toprak"
 
 ["acalc79.ExtremeDifficulties.ScorchedEarthDescription"]
 raw = "Hard temperate duration, expected duration of hazardous is 10-20x cycle number. Not recommended without the fluid dump."
+new = "Hard temperate duration, expected duration of hazardous is 10-20x cycle number. Not recommended without the discharge."
 status = "normal"
 enUS = "Hard temperate duration, with an expected duration of hazards being 10-20 times the cycle number. Not recommended without the fluid dump."
 zhCN = "困难温带持续时间，危险持续时间预期为10-20倍的周期数。不建议在没有液体倾倒的情况下进行。"
@@ -102,3 +103,15 @@ koKR = "어려운 온대 기간, 위험한 기간의 예상 시간은 사이클 
 csCZ = "Obtížná teplá doba, očekávaná doba nebezpečné je 10-20x počet cyklů. Nedoporučuje se bez vypuštění tekutin."
 viVN = "Thời gian khó khăn ở miền ôn đới, thời gian dự kiến của tình trạng nguy hiểm là 10-20 lần số chu kỳ. Không nên thực hiện nếu không có bể chứa chất lỏng."
 trTR = "Zor ılıman süre, tehlikeli süre için beklenen süre döngü sayısının 10-20 katıdır. Sıvı boşaltma olmadan önerilmez."
+
+["acalc79.ExtremeDifficulties.UltraHardWeatherDescription"]
+new = "Fair weather always lasts only 3 days, by cycle 38 it has average contamination of 15% with peaks at 30%. Eruption and flood reach average 10, drought and badtide 50."
+status = "normal"
+
+["acalc79.ExtremeDifficulties.DroughtIsComingWeatherDescription"]
+new = "Fair weather always lasts only 3 days, but their strength increases to keep up with length of hazards. By cycle 68 it has average contamination of 30% with peaks at 60%. Eruption and flood reach average 15, drought and badtide average 5 times the cycle number without limit."
+status = "normal"
+
+["acalc79.ExtremeDifficulties.ScorchedEarthWeatherDescription"]
+new = "Hazards average 15 times the cycle number. Hard's fair weather with source strength scaling to keep up with hazards."
+status = "normal"

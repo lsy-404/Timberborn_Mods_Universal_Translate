@@ -1,0 +1,26 @@
+[_meta]
+name = "Cargo Ziplines"
+
+["Building.CargoZiplineStation.DisplayName"]
+new = "Cargo Zipline Station"
+status = "normal"
+
+["Building.CargoZiplineStation.Description"]
+new = "Hangs goods on zipline cables and sends them down the line to a Cargo Receiver. Needs one worker to load, plus haulers to fill its stockpile."
+status = "normal"
+
+["Building.CargoZiplineStation.FlavorDescription"]
+new = "Who needs a backpack when the cable does the walking?"
+status = "normal"
+
+["Building.CargoZiplineReceiver.DisplayName"]
+new = "Cargo Receiver"
+status = "normal"
+
+["Building.CargoZiplineReceiver.Description"]
+new = "Build it touching a warehouse and every bundle that arrives down the cable goes straight into that warehouse. No worker, no storage of its own, nothing to set up."
+status = "normal"
+
+["Building.CargoZiplineReceiver.FlavorDescription"]
+new = "Gears mesh. So do cables, if you put the hook in the right place."
+status = "normal"

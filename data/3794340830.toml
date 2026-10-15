@@ -1,0 +1,226 @@
+[_meta]
+name = "Crane Heads"
+
+["LV.CrH.GroupName"]
+new = "Crane Heads"
+status = "normal"
+
+["LV.CrH.JibName"]
+new = "Jib"
+status = "normal"
+
+["LV.CrH.JibDesc"]
+new = "A Crane Head that extends a Crane's working area from 3×3 to 5×5. Place it on top of a Crane Section."
+status = "normal"
+
+["LV.CrH.JibFlavor"]
+new = "Whoever designed this insisted the extra reach was for efficiency. The extra spinning was the real fun."
+status = "normal"
+
+["LV.CrH.HeadRangeBonus"]
+new = "● <YellowHighlight>Extra range</YellowHighlight>: {0}"
+status = "normal"
+
+["LV.CrH.MustPlaceHeadOnCraneSection"]
+new = "Must be placed on a Crane Section."
+status = "normal"
+
+["LV.CrH.TrebuchetName"]
+new = "Trebuchet"
+status = "normal"
+
+["LV.CrH.TrebuchetDesc"]
+new = "A Crane Head that launches goods along a curved path. Range equals the number of Crane Sections."
+status = "normal"
+
+["LV.CrH.TrebuchetFlavor"]
+new = "Hooman used it to launch 90 kg projectiles over 300 meters."
+status = "normal"
+
+["LV.CrH.WindmillName"]
+new = "Cranetop Windmill"
+status = "normal"
+
+["LV.CrH.WindmillDesc"]
+new = "A Crane Head that turns the Crane into a wind-powered generator. Taller masts produce more HP."
+status = "normal"
+
+["LV.CrH.WindmillFlavor"]
+new = "Whoever designed this insisted the extra height was for efficiency. The extra spinning was, once again, the real fun."
+status = "normal"
+
+["LV.CrH.WindmillHeightBonus"]
+new = "● <YellowHighlight>Power per section</YellowHighlight>: +{0}%"
+status = "normal"
+
+["LV.CrH.WindmillOutput"]
+new = "<b>Output: {0} hp</b>\n- From Wind: {1} hp x {2}% = {3} hp\n- From Height: {4} hp x {5}% = {6} hp"
+status = "normal"
+
+[Name_WindmillFragment]
+new = "Cranetop Windmill"
+status = "normal"
+
+["LV.CrH.HeadLabel"]
+new = "Crane Head: "
+status = "normal"
+
+["LV.CrH.JobLaunch"]
+new = "Launch"
+status = "normal"
+
+["LV.CrH.Payload"]
+new = "Payload"
+status = "normal"
+
+["LV.CrH.Goods"]
+new = "Goods"
+status = "normal"
+
+["LV.CrH.Amount"]
+new = "Amount"
+status = "normal"
+
+["LV.CrH.Weight"]
+new = "Weight: {0} / {1}"
+status = "normal"
+
+["LV.CrH.Cost"]
+new = "Cost:"
+status = "normal"
+
+["LV.CrH.LaunchCost"]
+new = "Launch cost"
+status = "normal"
+
+["LV.CrH.NoCost"]
+new = "None"
+status = "normal"
+
+["LV.CrH.NoPayloadStock"]
+new = "No payload selected."
+status = "normal"
+
+["LV.CrH.ChooseTarget"]
+new = "Choose target"
+status = "normal"
+
+["LV.CrH.ChangeTarget"]
+new = "Change target ({0}, {1}, {2})"
+status = "normal"
+
+["LV.CrH.LaunchMode"]
+new = "Launch"
+status = "normal"
+
+["LV.CrH.LaunchNone"]
+new = "None"
+status = "normal"
+
+["LV.CrH.LaunchOnce"]
+new = "One time"
+status = "normal"
+
+["LV.CrH.LaunchRepeat"]
+new = "Repeat"
+status = "normal"
+
+["LV.CrH.Fire"]
+new = "Fire"
+status = "normal"
+
+["LV.CrH.NextLaunch"]
+new = "Next launch in {0:0.0} hours"
+status = "normal"
+
+["LV.CrH.AddGood"]
+new = "Add"
+status = "normal"
+
+["LV.CrH.NoGood"]
+new = "—"
+status = "normal"
+
+["LV.CrH.PickTarget"]
+new = "Pick a landing tile for the Trebuchet"
+status = "normal"
+
+["LV.CrH.TrebuchetRange"]
+new = "Range: {0} tiles"
+status = "normal"
+
+["LV.CrH.TrebuchetNeedPayload"]
+new = "Add goods to launch."
+status = "normal"
+
+["LV.CrH.TrebuchetNeedTarget"]
+new = "Choose a target."
+status = "normal"
+
+["LV.CrH.TrebuchetOutOfRange"]
+new = "Target is out of range."
+status = "normal"
+
+["LV.CrH.TrebuchetTooHigh"]
+new = "Target is higher than the shot can reach."
+status = "normal"
+
+["LV.CrH.TrebuchetBadLanding"]
+new = "Landing must be on an unoccupied ground or solid building's top."
+status = "normal"
+
+["LV.CrH.TrebuchetSameTile"]
+new = "Pick a different tile."
+status = "normal"
+
+["LV.CrH.TrebuchetBlocked"]
+new = "The path is blocked."
+status = "normal"
+
+["LV.CrH.TrebuchetOverweight"]
+new = "Weight is over the limit. The Trebuchet will not launch or accept goods."
+status = "normal"
+
+["LV.CrH.StatusOverweightShort"]
+new = "Overweight"
+status = "normal"
+
+["LV.CrH.StatusNeedPayloadShort"]
+new = "No payload"
+status = "normal"
+
+["LV.CrH.StatusNeedTargetShort"]
+new = "No target"
+status = "normal"
+
+["LV.CrH.StatusBlockedShort"]
+new = "Path blocked"
+status = "normal"
+
+["LV.CrH.StatusOutOfRangeShort"]
+new = "Out of range"
+status = "normal"
+
+["LV.CrH.StatusTooHighShort"]
+new = "Target too high"
+status = "normal"
+
+["LV.CrH.StatusBadLandingShort"]
+new = "Invalid landing"
+status = "normal"
+
+["LV.CrH.StatusSameTileShort"]
+new = "Invalid target"
+status = "normal"
+
+["LV.CrH.PreviewRange"]
+new = "{0} / {1}"
+status = "normal"
+
+[Name_TrebuchetFragment]
+new = "Trebuchet"
+status = "normal"
+
+[Name_TrebuchetInventoryFragment]
+new = "Trebuchet Inventory"
+status = "normal"

@@ -2636,6 +2636,10 @@ csCZ = "Taneční nejprve. Mysli později. Je to přirozený řád."
 viVN = "Nhảy múa trước. Nghĩ sau. Đó là trật tự tự nhiên."
 trTR = "Önce dans et. Sonra düşün. Bu doğal bir düzen."
 
+["Building.AirlockTunnel.DisplayName"]
+new = "Airlock Tunnel"
+status = "normal"
+
 ["Building.Roof.Dynamic.DisplayName"]
 raw = "Dynamic Leafy Roof"
 status = "normal"
@@ -2754,6 +2758,26 @@ koKR = "측면 지붕 블록"
 csCZ = "Boční střešní blok"
 viVN = "Bảng Mái Bên"
 trTR = "Yan Çatı Bloğu"
+
+["Building.Hospital.DisplayName"]
+new = "Hospital"
+status = "normal"
+
+["Building.Hospital.Description"]
+new = "A place for Sick and Injured Beavers to heal."
+status = "normal"
+
+["Building.Hospital.FlavorDescription"]
+new = "Get well soon!"
+status = "normal"
+
+["Good.Medicine.DisplayName"]
+new = "Medicine"
+status = "normal"
+
+["Good.Medicine.PluralDisplayName"]
+new = "Medicine"
+status = "normal"
 
 ["Building.Airlock.Description"]
 raw = "Allows beavers to pass through while blocking off water."

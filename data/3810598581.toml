@@ -1,0 +1,62 @@
+[_meta]
+name = "Creative Mode"
+
+["CreativeMode.ToolGroup"]
+new = "Creative mode"
+status = "normal"
+
+["CreativeMode.Flatten.Title"]
+new = "Flatten terrain"
+status = "normal"
+
+["CreativeMode.Flatten.Description"]
+new = "Click and drag over an area to flatten it to the height of the first tile you click. Green tiles will be raised, red tiles lowered. Buildings, plants and overhangs in the way are removed."
+status = "normal"
+
+["CreativeMode.Raise.Title"]
+new = "Raise terrain"
+status = "normal"
+
+["CreativeMode.Raise.Description"]
+new = "Click and drag over an area to raise every tile by the selected number of levels. Anything standing in the way is removed."
+status = "normal"
+
+["CreativeMode.Lower.Title"]
+new = "Lower terrain"
+status = "normal"
+
+["CreativeMode.Lower.Description"]
+new = "Click and drag over an area to lower every tile by the selected number of levels. Anything standing on the removed terrain is removed."
+status = "normal"
+
+["CreativeMode.InstantBuild.Title"]
+new = "Instant build"
+status = "normal"
+
+["CreativeMode.InstantBuild.On"]
+new = "ON – new buildings are placed already finished, with no materials or builders needed. Click to turn off."
+status = "normal"
+
+["CreativeMode.InstantBuild.Off"]
+new = "OFF – new buildings are placed as normal construction sites. Click to turn on."
+status = "normal"
+
+["CreativeMode.FreeUnlock.Title"]
+new = "Free unlocks"
+status = "normal"
+
+["CreativeMode.FreeUnlock.On"]
+new = "ON – every building is available without spending science. Click to turn off."
+status = "normal"
+
+["CreativeMode.FreeUnlock.Off"]
+new = "OFF – buildings must be unlocked with science as usual. Click to turn on."
+status = "normal"
+
+["CreativeMode.FinishAll.Title"]
+new = "Finish all construction"
+status = "normal"
+
+["CreativeMode.FinishAll.Description"]
+new = "Instantly completes every construction site on the map."
+status = "normal"

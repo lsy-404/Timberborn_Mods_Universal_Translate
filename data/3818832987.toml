@@ -1,0 +1,10 @@
+[_meta]
+name = "Emergency Priority [ModContest1] - Timberborn 1.1 Standalone Compatibility"
+
+["grantemsley.EmergencyPriority.Emergency"]
+new = "Emergency"
+status = "normal"
+
+["grantemsley.EmergencyPriority.EmergencyTooltip"]
+new = "Emergency: builders work this job before everything else, ignoring their schedule and skipping sleep until critically tired."
+status = "normal"

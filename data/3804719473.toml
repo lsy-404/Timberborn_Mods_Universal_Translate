@@ -1,0 +1,106 @@
+[_meta]
+name = "Hardcore Settings"
+
+["acalc79.HardcoreSettings.SectionTitle"]
+new = "Hardcore settings"
+status = "normal"
+
+["acalc79.HardcoreSettings.DestructiveWaterPressure"]
+new = "Destructive water pressure"
+status = "normal"
+
+["acalc79.HardcoreSettings.NaturalWaterways"]
+new = "Natural waterways"
+status = "normal"
+
+["acalc79.HardcoreSettings.NaturalWaterways.Prompt"]
+new = "Restrict this map to natural waterways? Water will only be able to leave the map at the low points of its edges; everywhere else is sealed permanently. This changes the map itself and cannot be undone."
+status = "normal"
+
+["acalc79.HardcoreSettings.TerrainBlockCost"]
+new = "Terrain block cost"
+status = "normal"
+
+["acalc79.HardcoreSettings.TerrainBlockCost.Unit"]
+new = "dirt"
+status = "normal"
+
+["acalc79.HardcoreSettings.AdvancedDynamite"]
+new = "Advanced dynamite"
+status = "normal"
+
+["acalc79.HardcoreSettings.AdvancedDynamiteCost"]
+new = "Dynamite cost"
+status = "normal"
+
+["acalc79.HardcoreSettings.AdvancedDynamiteCost.Unit"]
+new = "×{0}"
+status = "normal"
+
+["acalc79.HardcoreSettings.Good.AdvancedDynamite.DisplayName"]
+new = "Dynamite"
+status = "normal"
+
+["acalc79.HardcoreSettings.Good.AdvancedDynamite.PluralDisplayName"]
+new = "Dynamite"
+status = "normal"
+
+["acalc79.HardcoreSettings.NoDischarges"]
+new = "Allow discharges"
+status = "normal"
+
+["acalc79.HardcoreSettings.SingleDistrict"]
+new = "Allow multiple districts"
+status = "normal"
+
+["acalc79.HardcoreSettings.SingleDistrict.Reason"]
+new = "This settlement is limited to a single district."
+status = "normal"
+
+["acalc79.HardcoreSettings.UniqueScienceBuildings"]
+new = "Unique science buildings"
+status = "normal"
+
+["acalc79.HardcoreSettings.UniqueScienceBuildings.AlreadyExists"]
+new = "A {0} already exists! Only one building of this type can be built."
+status = "normal"
+
+["acalc79.HardcoreSettings.BotsNeedRepairs"]
+new = "Bots need repairs"
+status = "normal"
+
+["acalc79.HardcoreSettings.RepairEfficiency"]
+new = "Repair efficiency"
+status = "normal"
+
+["acalc79.HardcoreSettings.RepairEfficiency.Unit"]
+new = "%"
+status = "normal"
+
+["acalc79.HardcoreSettings.Recipe.BotRepairs.DisplayName"]
+new = "Repairs"
+status = "normal"
+
+["acalc79.HardcoreSettings.BotAssembler.ToggleLabel"]
+new = "Mode"
+status = "normal"
+
+["acalc79.HardcoreSettings.Need.Repairs.DisplayName"]
+new = "Repairs"
+status = "normal"
+
+["acalc79.HardcoreSettings.Need.Repairs.Status"]
+new = "This bot is worn out and will not work until it has been repaired at a Bot Assembler."
+status = "normal"
+
+["acalc79.HardcoreSettings.Need.Repairs.StatusShort"]
+new = "Needs repairs"
+status = "normal"
+
+["acalc79.HardcoreSettings.WaterPressure.Status"]
+new = "Will give way to the water pressure"
+status = "normal"
+
+["acalc79.HardcoreSettings.WaterPressure.Alert"]
+new = "Water pressure is breaking buildings"
+status = "normal"

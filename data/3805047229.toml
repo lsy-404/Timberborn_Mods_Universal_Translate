@@ -1,0 +1,98 @@
+[_meta]
+name = "DecoMore 1.1 fixed"
+
+["Decoration.PlantsPot.DisplayName"]
+new = "Potted Plant"
+status = "normal"
+
+["Decoration.PlantsPot.Description"]
+new = "A decorative potted plant."
+status = "normal"
+
+["Decoration.PlantsPot.FlavorDescription"]
+new = "Need a little more greenery?"
+status = "normal"
+
+["Decoration.MiniBonfire.DisplayName"]
+new = "Mini Bonfire"
+status = "normal"
+
+["Decoration.MiniBonfire.Description"]
+new = "Light a fire on dark nights."
+status = "normal"
+
+["Decoration.MiniBonfire.FlavorDescription"]
+new = "Fire is wisdom."
+status = "normal"
+
+["Decoration.GuardFence.DisplayName"]
+new = "Guard Fence"
+status = "normal"
+
+["Decoration.GuardFence.Description"]
+new = "No passing beyond this point."
+status = "normal"
+
+["Decoration.GuardFence.FlavorDescription"]
+new = "Construction area ahead."
+status = "normal"
+
+["Decoration.Ground01.DisplayName"]
+new = "Ground"
+status = "normal"
+
+["Decoration.Ground01.Description"]
+new = "Decorate the ground beneath your feet."
+status = "normal"
+
+["Decoration.Ground01.FlavorDescription"]
+new = "For some reason, it glows at night now."
+status = "normal"
+
+["Decoration.Ground02.DisplayName"]
+new = "Flowers"
+status = "normal"
+
+["Decoration.Ground02.Description"]
+new = "Flowers blooming on the ground."
+status = "normal"
+
+["Decoration.Ground02.FlavorDescription"]
+new = "Beautiful flowers always feel special."
+status = "normal"
+
+["Decoration.Bench01.DisplayName"]
+new = "Cozy Bench"
+status = "normal"
+
+["Decoration.Bench01.Description"]
+new = "Comes with a handy side table."
+status = "normal"
+
+["Decoration.Bench01.FlavorDescription"]
+new = "How about taking a short break?"
+status = "normal"
+
+["Decoration.MiniCarousel.DisplayName"]
+new = "Pinwheel"
+status = "normal"
+
+["Decoration.MiniCarousel.Description"]
+new = "Watching it spin makes you dizzy."
+status = "normal"
+
+["Decoration.MiniCarousel.FlavorDescription"]
+new = "Round and round it goes..."
+status = "normal"
+
+["Decoration.Painting.DisplayName"]
+new = "Painting"
+status = "normal"
+
+["Decoration.Painting.Description"]
+new = "Someone is busy painting here."
+status = "normal"
+
+["Decoration.Painting.FlavorDescription"]
+new = "This artist really loves blueberries."
+status = "normal"

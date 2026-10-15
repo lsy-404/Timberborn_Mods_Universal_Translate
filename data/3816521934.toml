@@ -1,0 +1,70 @@
+[_meta]
+name = "Air Logistics Center"
+
+["Building.AirLogisticsHub.DisplayName"]
+new = "Air Logistics Center"
+status = "normal"
+
+["Building.AirLogisticsHub.Description"]
+new = "Stores up to 1200 of every boxed good. A beaver helicopter rests on the roof helipad."
+status = "normal"
+
+["Building.AirLogisticsHub.FlavorDescription"]
+new = "The rotor is carved from a single plank and smells faintly of moss. Nobody has seen it fly yet, but the beavers keep polishing it."
+status = "normal"
+
+["AirLogistics.Panel.Destinations"]
+new = "Destinations (green = serve, click a name to view)"
+status = "normal"
+
+["AirLogistics.Panel.Goods"]
+new = "Goods accepted here (green = accept)"
+status = "normal"
+
+["AirLogistics.Panel.All"]
+new = "All"
+status = "normal"
+
+["AirLogistics.Panel.None"]
+new = "None"
+status = "normal"
+
+["AirLogistics.Panel.Filter"]
+new = "filter"
+status = "normal"
+
+["AirLogistics.Panel.Reserve"]
+new = "Keep at least"
+status = "normal"
+
+["AirLogistics.Panel.NoCrew"]
+new = "! Crew {0}/{1} - will not fly"
+status = "normal"
+
+["AirLogistics.Panel.NoFuel"]
+new = "! No {0} - tick {0} in the goods list + tick a tank holding it"
+status = "normal"
+
+["AirLogistics.Panel.NoDestination"]
+new = "! No destination ticked - will not fly"
+status = "normal"
+
+["AirLogistics.Panel.Night"]
+new = "! Off duty - outside working hours"
+status = "normal"
+
+["AirLogistics.Panel.Status"]
+new = "Crew {0}/{1} - Fuel {2} - selected {3}"
+status = "normal"
+
+["AirLogistics.Panel.OtherGroup"]
+new = "Other"
+status = "normal"
+
+["AirLogistics.Panel.Building"]
+new = "Building"
+status = "normal"
+
+["AirLogistics.Panel.DestFull"]
+new = "full"
+status = "normal"

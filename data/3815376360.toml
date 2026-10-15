@@ -1,0 +1,290 @@
+[_meta]
+name = "Conveyor Belts v2"
+
+["LV.CBlt.Animation"]
+new = "Animation"
+status = "normal"
+
+["LV.CBlt.AnimationDesc"]
+new = "Move belt surfaces.\nTurn this off if a large belt network costs too much frame time."
+status = "normal"
+
+["LV.CBlt.ShowArrows"]
+new = "Show arrows"
+status = "normal"
+
+["LV.CBlt.AlwaysShowArrows"]
+new = "Always show arrows"
+status = "normal"
+
+["LV.CBlt.AlwaysShowArrowsDesc"]
+new = "Show direction arrows even when a belt building is not selected."
+status = "normal"
+
+["LV.CBlt.GroupName"]
+new = "Conveyor Belts"
+status = "normal"
+
+["LV.CBlt.GroupSp1"]
+new = "Sp1"
+status = "normal"
+
+["LV.CBlt.GroupSp2"]
+new = "Sp2"
+status = "normal"
+
+["LV.CBlt.GroupSp3"]
+new = "Sp3"
+status = "normal"
+
+["LV.CBlt.GroupSp4"]
+new = "Sp4"
+status = "normal"
+
+["LV.CBlt.BeltSp1Name"]
+new = "Sp1 Belt"
+status = "normal"
+
+["LV.CBlt.BeltSp2Name"]
+new = "Sp2 Belt"
+status = "normal"
+
+["LV.CBlt.BeltSp3Name"]
+new = "Sp3 Belt"
+status = "normal"
+
+["LV.CBlt.BeltSp4Name"]
+new = "Sp4 Belt"
+status = "normal"
+
+["LV.CBlt.BeltDesc"]
+new = "A straight belt."
+status = "normal"
+
+["LV.CBlt.BeltFlavor"]
+new = "Folktail engineers say it was inspired by watching logs roll downhill."
+status = "normal"
+
+["LV.CBlt.CornerSp1Name"]
+new = "Sp1 Corner Belt"
+status = "normal"
+
+["LV.CBlt.CornerSp2Name"]
+new = "Sp2 Corner Belt"
+status = "normal"
+
+["LV.CBlt.CornerSp3Name"]
+new = "Sp3 Corner Belt"
+status = "normal"
+
+["LV.CBlt.CornerSp4Name"]
+new = "Sp4 Corner Belt"
+status = "normal"
+
+["LV.CBlt.CornerDesc"]
+new = "Turns a belt 90°."
+status = "normal"
+
+["LV.CBlt.CornerFlavor"]
+new = "Every good plan meets a wall. This is how you keep the plan."
+status = "normal"
+
+["LV.CBlt.ImpermeableName"]
+new = "Impermeable Belt"
+status = "normal"
+
+["LV.CBlt.ImpermeableDesc"]
+new = "A straight belt that blocks water."
+status = "normal"
+
+["LV.CBlt.ImpermeableFlavor"]
+new = "The boxes come off a bit sticky. Everyone agrees this is fine."
+status = "normal"
+
+["LV.CBlt.MergerName"]
+new = "Merger"
+status = "normal"
+
+["LV.CBlt.MergerDesc"]
+new = "Merge up to three belts into a single belt."
+status = "normal"
+
+["LV.CBlt.MergerFlavor"]
+new = "A peaceful solution to having too many directions."
+status = "normal"
+
+["LV.CBlt.SplitterName"]
+new = "Splitter"
+status = "normal"
+
+["LV.CBlt.SplitterDesc"]
+new = "Split the input belt into up to three belts."
+status = "normal"
+
+["LV.CBlt.SplitterFlavor"]
+new = "'My brother Orville's Smart Splitter violates DRY in so many ways.' —xa0Wilburxa0Wreave"
+status = "normal"
+
+["LV.CBlt.SmartName"]
+new = "Smart Splitter"
+status = "normal"
+
+["LV.CBlt.SmartDesc"]
+new = "A splitter that can filter the good or overflow output."
+status = "normal"
+
+["LV.CBlt.SmartFlavor"]
+new = "'My brother Wilbur's Splitter repeats the same mistake three times.' —xa0Orvillexa0Wreave"
+status = "normal"
+
+["LV.CBlt.LiftInName"]
+new = "Lift In"
+status = "normal"
+
+["LV.CBlt.LiftInDesc"]
+new = "Takes goods from the belt and sends them up or down."
+status = "normal"
+
+["LV.CBlt.LiftInFlavor"]
+new = "Attached with a big warning sign saying: NO KITS ALLOWED."
+status = "normal"
+
+["LV.CBlt.LiftOutName"]
+new = "Lift Out"
+status = "normal"
+
+["LV.CBlt.LiftOutDesc"]
+new = "Takes goods from above and below and sends them out on one belt."
+status = "normal"
+
+["LV.CBlt.LiftOutFlavor"]
+new = "Attached with a big warning sign saying: NO KITS ALLOWED."
+status = "normal"
+
+["LV.CBlt.RiserSp1UpName"]
+new = "Sp1 Riser Up"
+status = "normal"
+
+["LV.CBlt.RiserSp2UpName"]
+new = "Sp2 Riser Up"
+status = "normal"
+
+["LV.CBlt.RiserSp3UpName"]
+new = "Sp3 Riser Up"
+status = "normal"
+
+["LV.CBlt.RiserSp4UpName"]
+new = "Sp4 Riser Up"
+status = "normal"
+
+["LV.CBlt.RiserUpDesc"]
+new = "A vertical belt that carries goods upward. Place it on a building, a lift, or another riser."
+status = "normal"
+
+["LV.CBlt.RiserUpFlavor"]
+new = "For an Iron Teeth invention, it's surprisingly <i>uplifting</i>."
+status = "normal"
+
+["LV.CBlt.RiserSp1DownName"]
+new = "Sp1 Riser Down"
+status = "normal"
+
+["LV.CBlt.RiserSp2DownName"]
+new = "Sp2 Riser Down"
+status = "normal"
+
+["LV.CBlt.RiserSp3DownName"]
+new = "Sp3 Riser Down"
+status = "normal"
+
+["LV.CBlt.RiserSp4DownName"]
+new = "Sp4 Riser Down"
+status = "normal"
+
+["LV.CBlt.RiserDownDesc"]
+new = "A vertical belt that carries goods downward. Place it on a building, a lift, or another riser."
+status = "normal"
+
+["LV.CBlt.RiserDownFlavor"]
+new = "'Shouldn't this thing produce power instead of consuming it?'"
+status = "normal"
+
+["LV.CBlt.WarnStuck"]
+new = "Warn when stuck"
+status = "normal"
+
+["LV.CBlt.Eject"]
+new = "Eject content"
+status = "normal"
+
+["LV.CBlt.Empty"]
+new = "Nothing on the belt."
+status = "normal"
+
+["LV.CBlt.Carrying"]
+new = "Carrying: {0}"
+status = "normal"
+
+["LV.CBlt.Stuck"]
+new = "Belt is holding a good it cannot pass on."
+status = "normal"
+
+["LV.CBlt.StuckShort"]
+new = "Belt stuck"
+status = "normal"
+
+["LV.CBlt.Rate"]
+new = "Throughput: {0} items/hour"
+status = "normal"
+
+["LV.CBlt.CanTransferBuildings"]
+new = "Can transfer goods in and out of buildings."
+status = "normal"
+
+["LV.CBlt.BeltFloodable"]
+new = "<RedHighlight>Floodable Belt</RedHighlight>: continue to work but lose all its content when flooded."
+status = "normal"
+
+["LV.CBlt.BeltFloodedShort"]
+new = "Belt Flooded"
+status = "normal"
+
+["LV.CBlt.None"]
+new = "None"
+status = "normal"
+
+["LV.CBlt.Any"]
+new = "Any"
+status = "normal"
+
+["LV.CBlt.Overflow"]
+new = "Overflow only"
+status = "normal"
+
+["LV.CBlt.Left"]
+new = "Left"
+status = "normal"
+
+["LV.CBlt.Center"]
+new = "Center"
+status = "normal"
+
+["LV.CBlt.Right"]
+new = "Right"
+status = "normal"
+
+["LV.CBlt.ModUpdate113000"]
+new = "There was a big update that completely revamp this mod. Please see the Steam page for details."
+status = "normal"
+
+[Name_BeltArrowFragment]
+new = "[DO_NOT_COLLAPSE]"
+status = "normal"
+
+[Name_BeltFragment]
+new = "Conveyor Belt"
+status = "normal"
+
+[Name_SmartSplitterFragment]
+new = "Smart Splitter"
+status = "normal"

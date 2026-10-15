@@ -69,6 +69,10 @@ csCZ = "Emberpelt"
 viVN = "Emberpelt"
 trTR = "Emberpelt"
 
+["Group.CharcoalBeavers"]
+new = "Charcoal Beavers"
+status = "normal"
+
 ["Group.LeafCoats"]
 raw = "LeafCoat"
 status = "normal"

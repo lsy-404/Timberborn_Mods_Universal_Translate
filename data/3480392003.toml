@@ -37,6 +37,7 @@ trTR = "Öne Çıkan Set"
 
 ["Buildings.UnsuitableMiddleBuilding"]
 raw = "This building needs to be built under one of {0}"
+new = "This building needs to be built under one of an object occupying Top or Corners spaces"
 status = "normal"
 enUS = "This building needs to be built under one of {0}"
 zhCN = "该建筑需要建在{0}之下"
