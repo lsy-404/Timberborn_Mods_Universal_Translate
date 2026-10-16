@@ -39,7 +39,9 @@ jobs:
           pip install -r .github/scripts/requirements.txt tiktoken==0.14.0
       
       - name: Check production translation contracts
-        run: python -m unittest discover -s test -p 'test_translation_production.py'
+        run: |
+          python -m unittest discover -s test -p 'test_translation_production.py'
+          python -m unittest discover -s test -p 'test_translation_artifact.py'
 
       - name: Verify production translation on isolated samples
         if: inputs.verify_only == true
@@ -283,6 +285,25 @@ jobs:
           merge_to_target
           echo "Merge step completed"
       
+      - name: Stage translation data for upload
+        id: stage_translation_data
+        if: always()
+        env:
+          ARTIFACT_STAGING_PARENT: ${{ runner.temp }}
+        run: |
+          python .github/scripts/stage_translation_artifact.py \
+            --data-dir data --staging-parent "$ARTIFACT_STAGING_PARENT"
+
+      - name: Upload translation data as artifact
+        if: always() && steps.stage_translation_data.outcome == 'success' && steps.stage_translation_data.outputs.path != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: translation-data-${{ github.run_number }}
+          path: ${{ steps.stage_translation_data.outputs.path }}/
+          if-no-files-found: error
+          retention-days: 30
+          include-hidden-files: false
+
       - name: Upload translation logs as artifact
         if: always()
         uses: actions/upload-artifact@v4
@@ -292,7 +313,6 @@ jobs:
             .github/log/translation.log
             .github/log/thread_work.log
             .github/log/cost_report.json
-            data/*.toml
             test/results/production-smoke/
           retention-days: 30
           include-hidden-files: false
