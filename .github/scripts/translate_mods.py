@@ -19,6 +19,8 @@ import logging
 import argparse
 import json
 import re
+import stat
+import tempfile
 import threading
 from pathlib import Path
 from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, as_completed, wait as fut_wait
@@ -1005,7 +1007,7 @@ def process_toml_file(
             up from 1 to 10 entry-threads automatically).  When > 1, multiple
             entries are translated in parallel, with each entry still
             parallelising its own languages internally.  A threading lock
-            serialises all writes so checkpoint saves remain atomic.
+            serialises updates before atomically replacing the file.
 
     Returns:
         Tuple of (translations_made, entries_processed)
@@ -1048,15 +1050,28 @@ def process_toml_file(
 
     def save_current_state() -> None:
         """Write the current in-memory data back to disk immediately."""
+        temporary_path = None
         try:
             toml_text = toml.dumps(data)
             toml_text = reorder_glossary_blocks(toml_text)
             toml_text = reorder_language_fields(toml_text, target_languages)
-            with open(toml_path, 'w', encoding='utf-8', newline='') as f:
+            with tempfile.NamedTemporaryFile(
+                mode='w', encoding='utf-8', newline='',
+                dir=os.path.dirname(toml_path) or '.',
+                prefix=f'.{filename}.', suffix='.tmp', delete=False,
+            ) as f:
+                temporary_path = f.name
                 f.write(toml_text)
+            os.chmod(temporary_path, stat.S_IMODE(os.stat(toml_path).st_mode))
+            # Git may still be reading the previous file during a checkpoint.
+            os.replace(temporary_path, toml_path)
             logger.debug(f"Checkpoint save: {filename}")
         except Exception as e:
             logger.error(f"Failed checkpoint save of {filename}: {e}")
+            raise
+        finally:
+            if temporary_path and os.path.exists(temporary_path):
+                os.unlink(temporary_path)
 
     translations_made = 0
     entries_processed = 0
