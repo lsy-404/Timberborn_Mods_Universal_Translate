@@ -1,0 +1,25 @@
+name: Translation artifact safety
+
+on:
+  pull_request:
+    paths:
+      - '.github/scripts/stage_translation_artifact.py'
+      - '.github/workflows/translate.yml'
+      - '.github/workflows/translation-artifact-tests.yml'
+      - 'test/test_translation_artifact.py'
+
+permissions:
+  contents: read
+
+jobs:
+  artifact-safety:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Test artifact staging and workflow guards
+        run: python -m unittest discover -s test -p 'test_translation_artifact.py' -v
