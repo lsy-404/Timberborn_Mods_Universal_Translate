@@ -37,6 +37,18 @@ status = "normal"
 new = "Every good plan meets a wall. This is how you keep the plan."
 status = "normal"
 
+["LV.TPi.ElbowPipeValveName"]
+new = "One-way Elbow"
+status = "normal"
+
+["LV.TPi.ElbowPipeValveDesc"]
+new = "A one-way 90° pipe. Can be closed both ways when paused. Point a directed end at a building to pour into it or draw from it. Select the valve and opt in Fill or Extract."
+status = "normal"
+
+["LV.TPi.ElbowPipeValveFlavor"]
+new = "The engineer bent to the will of the popular making this piece."
+status = "normal"
+
 ["LV.TPi.CrossPipeName"]
 new = "Cross"
 status = "normal"
@@ -253,8 +265,8 @@ status = "normal"
 new = "● <YellowHighlight>Provides headlift:</YellowHighlight> {0:0.0}m"
 status = "normal"
 
-["LV.TPi.ModUpdate113000"]
-new = "v11.3.0:\n- Added Horizontal and Vertical T Junctions. Thanks to the contribution of idmytro.\n- Fixed Tank panel showing up during construction and show the wrong 'liquid' (visual bug).\n- Fixed hitboxes for pipes.\n- Vertical pieces should now occupy Bottom and Path slot."
+["LV.TPi.ModUpdate114000"]
+new = "Added One-way Elbow."
 status = "normal"
 
 [Name_TransportPipeFragment]
@@ -272,3 +284,7 @@ status = "normal"
 [Name_PipeTankFragment]
 new = "Tank"
 status = "normal"
+
+["LV.TPi.ModUpdate113000"]
+new = "v11.3.0:\n- Added Horizontal and Vertical T Junctions. Thanks to the contribution of idmytro.\n- Fixed Tank panel showing up during construction and show the wrong 'liquid' (visual bug).\n- Fixed hitboxes for pipes.\n- Vertical pieces should now occupy Bottom and Path slot."
+status = "abandoned"

@@ -89,6 +89,86 @@ status = "normal"
 new = "Every good plan meets a wall. This is how you keep the plan."
 status = "normal"
 
+["LV.CBlt.ElbowInSp1UpName"]
+new = "Sp1 In Up"
+status = "normal"
+
+["LV.CBlt.ElbowInSp2UpName"]
+new = "Sp2 In Up"
+status = "normal"
+
+["LV.CBlt.ElbowInSp3UpName"]
+new = "Sp3 In Up"
+status = "normal"
+
+["LV.CBlt.ElbowInSp4UpName"]
+new = "Sp4 In Up"
+status = "normal"
+
+["LV.CBlt.ElbowInSp1DownName"]
+new = "Sp1 In Down"
+status = "normal"
+
+["LV.CBlt.ElbowInSp2DownName"]
+new = "Sp2 In Down"
+status = "normal"
+
+["LV.CBlt.ElbowInSp3DownName"]
+new = "Sp3 In Down"
+status = "normal"
+
+["LV.CBlt.ElbowInSp4DownName"]
+new = "Sp4 In Down"
+status = "normal"
+
+["LV.CBlt.ElbowOutSp1UpName"]
+new = "Sp1 Out Up"
+status = "normal"
+
+["LV.CBlt.ElbowOutSp2UpName"]
+new = "Sp2 Out Up"
+status = "normal"
+
+["LV.CBlt.ElbowOutSp3UpName"]
+new = "Sp3 Out Up"
+status = "normal"
+
+["LV.CBlt.ElbowOutSp4UpName"]
+new = "Sp4 Out Up"
+status = "normal"
+
+["LV.CBlt.ElbowOutSp1DownName"]
+new = "Sp1 Out Down"
+status = "normal"
+
+["LV.CBlt.ElbowOutSp2DownName"]
+new = "Sp2 Out Down"
+status = "normal"
+
+["LV.CBlt.ElbowOutSp3DownName"]
+new = "Sp3 Out Down"
+status = "normal"
+
+["LV.CBlt.ElbowOutSp4DownName"]
+new = "Sp4 Out Down"
+status = "normal"
+
+["LV.CBlt.ElbowInUpDesc"]
+new = "Turns a horizontal belt upward."
+status = "normal"
+
+["LV.CBlt.ElbowInDownDesc"]
+new = "Turns a horizontal belt downward."
+status = "normal"
+
+["LV.CBlt.ElbowOutUpDesc"]
+new = "Turns an upward belt horizontal."
+status = "normal"
+
+["LV.CBlt.ElbowOutDownDesc"]
+new = "Turns a downward belt horizontal."
+status = "normal"
+
 ["LV.CBlt.ImpermeableName"]
 new = "Impermeable Belt"
 status = "normal"
@@ -273,8 +353,8 @@ status = "normal"
 new = "Right"
 status = "normal"
 
-["LV.CBlt.ModUpdate113000"]
-new = "There was a big update that completely revamp this mod. Please see the Steam page for details."
+["LV.CBlt.ModUpdate114000"]
+new = "v11.4.0:\n- Added 4 vertical belt pieces for each speed that can transfer goods in and out of buildings.\n- Remodeled Lift in and Lift out."
 status = "normal"
 
 [Name_BeltArrowFragment]
@@ -288,3 +368,7 @@ status = "normal"
 [Name_SmartSplitterFragment]
 new = "Smart Splitter"
 status = "normal"
+
+["LV.CBlt.ModUpdate113000"]
+new = "There was a big update that completely revamp this mod. Please see the Steam page for details."
+status = "abandoned"

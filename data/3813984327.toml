@@ -229,12 +229,52 @@ status = "normal"
 new = "The name shown to other players next to your pings."
 status = "normal"
 
-["BeaverBuddies.Settings.PingColor"]
-new = "Ping Color"
+["BeaverBuddies.Settings.PreferredColor"]
+new = "Preferred Color"
 status = "normal"
 
-["BeaverBuddies.Settings.PingColor.Tooltip"]
-new = "The color used to draw your pings on every player's screen."
+["BeaverBuddies.Settings.PreferredColor.Tooltip"]
+new = "Your color in a match. If another player already has it, you get a free one."
+status = "normal"
+
+["BeaverBuddies.Settings.PreferredColor.Yellow"]
+new = "Yellow"
+status = "normal"
+
+["BeaverBuddies.Settings.PreferredColor.Red"]
+new = "Red"
+status = "normal"
+
+["BeaverBuddies.Settings.PreferredColor.Blue"]
+new = "Blue"
+status = "normal"
+
+["BeaverBuddies.Settings.PreferredColor.Green"]
+new = "Green"
+status = "normal"
+
+["BeaverBuddies.Settings.PreferredColor.Orange"]
+new = "Orange"
+status = "normal"
+
+["BeaverBuddies.Settings.PreferredColor.Purple"]
+new = "Purple"
+status = "normal"
+
+["BeaverBuddies.Settings.PreferredColor.Cyan"]
+new = "Cyan"
+status = "normal"
+
+["BeaverBuddies.Settings.PreferredColor.Pink"]
+new = "Pink"
+status = "normal"
+
+["BeaverBuddies.Settings.PreferredColor.White"]
+new = "White"
+status = "normal"
+
+["BeaverBuddies.Settings.PreferredColor.Brown"]
+new = "Brown"
 status = "normal"
 
 ["BeaverBuddies.Settings.AllowDevTools"]
@@ -463,6 +503,14 @@ status = "normal"
 
 ["BeaverBuddies.Match.ShowIncompatible"]
 new = "Show incompatible matches"
+status = "normal"
+
+["BeaverBuddies.Match.FriendsOnly"]
+new = "Steam friends only"
+status = "normal"
+
+["BeaverBuddies.Match.FriendsOnly.Tooltip"]
+new = "Keeps the game off the list of open matches. Only your Steam friends and the players you invite can join."
 status = "normal"
 
 ["BeaverBuddies.Match.Incompatible"]
@@ -984,3 +1032,11 @@ status = "normal"
 ["BeaverBuddies.Trading.Problem.Pending.Short"]
 new = "Trade deal to approve"
 status = "normal"
+
+["BeaverBuddies.Settings.PingColor"]
+new = "Ping Color"
+status = "abandoned"
+
+["BeaverBuddies.Settings.PingColor.Tooltip"]
+new = "The color used to draw your pings on every player's screen."
+status = "abandoned"

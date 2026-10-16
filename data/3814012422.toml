@@ -2244,3 +2244,43 @@ status = "normal"
 ["NaturalResource.WillOWisp.FlavorDescription"]
 new = "A pale flame drifting over the ruins."
 status = "normal"
+
+["TimberEmpires.Rewards.ToolGroup"]
+new = "Rewards"
+status = "normal"
+
+["TimberEmpires.Rewards.Title"]
+new = "Pick a reward"
+status = "normal"
+
+["TimberEmpires.Rewards.Later"]
+new = "Pick later"
+status = "normal"
+
+["TimberEmpires.Rewards.Free"]
+new = "Built on the spot, free"
+status = "normal"
+
+["TimberEmpires.Rewards.GoodAbout"]
+new = "Spare gear for your troops."
+status = "normal"
+
+["TimberEmpires.Rewards.Delivered"]
+new = "Sent to your District Center"
+status = "normal"
+
+["TimberEmpires.Rewards.Science"]
+new = "Science"
+status = "normal"
+
+["TimberEmpires.Rewards.ScienceAbout"]
+new = "Research points to unlock more buildings."
+status = "normal"
+
+["TimberEmpires.Rewards.Instant"]
+new = "Added right away"
+status = "normal"
+
+["TimberEmpires.Rewards.FoodAbout"]
+new = "Food for your beavers."
+status = "normal"
