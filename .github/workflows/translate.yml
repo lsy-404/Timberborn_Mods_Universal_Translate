@@ -64,157 +64,133 @@ jobs:
           LOG_FILE=".github/log/translation.log"
           THREAD_LOG_FILE=".github/log/thread_work.log"
           TARGET_BRANCH="${GITHUB_REF_NAME:-main}"
-          # Temporary branch that holds translation commits during this run.
-          # Using run ID keeps it unique even for concurrent manual triggers.
           TEMP_BRANCH="translate/auto-$(date -u '+%Y%m%d')-${GITHUB_RUN_ID}"
           CHECKPOINT_INTERVAL=60
           CHECKPOINT_PID=""
           TRANSLATE_PID=""
-          EXIT_CODE=0
-          # Track whether the first checkpoint commit has been made this run.
-          FIRST_COMMIT_DONE=false
-          # Guard flag: prevents the EXIT trap from running a second time.
-          FINAL_COMMIT_DONE=false
+          CHECKPOINT_STOP_FILE="$(git rev-parse --git-path translation-checkpoint.stop)"
+          ORIGIN_SHA=$(git rev-parse HEAD)
 
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-
-          # Remember the exact commit that was checked out so we can detect
-          # whether anyone pushed to the target branch while we were running.
-          ORIGIN_SHA=$(git rev-parse HEAD)
-          echo "Starting from commit $ORIGIN_SHA on $TARGET_BRANCH"
-
-          # Create and switch to the temporary working branch.
           git checkout -b "$TEMP_BRANCH"
-          echo "Working on temporary branch: $TEMP_BRANCH"
+          rm -f -- "$CHECKPOINT_STOP_FILE"
 
-          # Export variables for use in merge step
           {
             echo "TEMP_BRANCH=${TEMP_BRANCH}"
             echo "TARGET_BRANCH=${TARGET_BRANCH}"
             echo "ORIGIN_SHA=${ORIGIN_SHA}"
-            echo "FIRST_COMMIT_DONE=${FIRST_COMMIT_DONE}"
+            echo "FIRST_COMMIT_DONE=false"
           } >> "$GITHUB_ENV"
 
-          # ----------------------------------------------------------------
-          # commit_and_push_changes
-          # Commits any dirty data/ files to the temp branch, then
-          # force-pushes the temp branch to origin (safe: no one else uses it).
-          # ----------------------------------------------------------------
           commit_and_push_changes() {
-            if git diff --quiet data/ && git diff --cached --quiet data/; then
-              echo "No changes detected in data/, nothing to commit"
+            local index_lock checkpoint_head retry
+            index_lock=$(git rev-parse --git-path index.lock) || return 1
+            if [ -e "$index_lock" ]; then
+              echo "::error::Git index is locked; translation data will be retained in the run artifacts"
+              return 1
+            fi
+
+            # Temporary files must never enter a checkpoint commit.
+            git add -- ':(glob)data/*.toml' || return 1
+            if ! git diff --cached --quiet -- ':(glob)data/*.toml'; then
+              checkpoint_head=$(git rev-parse HEAD) || return 1
+              if [ "$checkpoint_head" = "$ORIGIN_SHA" ]; then
+                git commit -m "chore: Auto-translate mod entries [skip ci]" || return 1
+              else
+                git commit --amend --no-edit || return 1
+              fi
+            fi
+
+            checkpoint_head=$(git rev-parse HEAD) || return 1
+            if [ "$checkpoint_head" = "$ORIGIN_SHA" ]; then
+              echo "No translation changes to checkpoint"
               return 0
             fi
 
-            git add data/
-            if git diff --cached --quiet; then
-              echo "No staged changes, skipping commit"
-              return 0
-            fi
-
-            if [ "$FIRST_COMMIT_DONE" = false ]; then
-              git commit -m "chore: Auto-translate mod entries [skip ci]"
-              FIRST_COMMIT_DONE=true
-              echo "Created initial checkpoint commit on $TEMP_BRANCH"
-            else
-              # Amend to keep a single tidy commit on the temp branch.
-              git commit --amend --no-edit
-              echo "Amended checkpoint commit on $TEMP_BRANCH"
-            fi
-
-            MAX_RETRIES=3
-            RETRY_COUNT=0
-            while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
-              # Force-push is safe here because TEMP_BRANCH is exclusively
-              # owned by this workflow run.
-              if git push --force origin "HEAD:${TEMP_BRANCH}"; then
-                echo "Pushed temp branch $TEMP_BRANCH"
+            # A clean index may still contain a commit whose previous push failed.
+            for retry in 1 2 3; do
+              if git push --force-with-lease origin "HEAD:${TEMP_BRANCH}"; then
+                echo "Saved translation progress to $TEMP_BRANCH"
                 return 0
               fi
-              RETRY_COUNT=$((RETRY_COUNT + 1))
-              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
-                echo "Push failed, retrying ($RETRY_COUNT/$MAX_RETRIES)..."
-                git status --short || true
+              echo "Checkpoint push failed (attempt $retry/3)"
+              if [ "$retry" -lt 3 ]; then
                 sleep 2
               fi
             done
-
-            echo "Warning: failed to push $TEMP_BRANCH after $MAX_RETRIES attempts"
-            git remote -v || true
-            git status --short || true
             return 1
           }
 
           checkpoint_loop() {
-            while true; do
-              sleep "$CHECKPOINT_INTERVAL"
-              echo "Checkpoint tick: trying to persist translation progress"
-              commit_and_push_changes || true
+            local elapsed
+            while [ ! -e "$CHECKPOINT_STOP_FILE" ]; do
+              for ((elapsed = 0; elapsed < CHECKPOINT_INTERVAL; elapsed++)); do
+                sleep 1
+                if [ -e "$CHECKPOINT_STOP_FILE" ]; then
+                  return 0
+                fi
+              done
+              if ! commit_and_push_changes; then
+                echo "::warning::Checkpoint failed; finalization will retry after translation stops"
+              fi
             done
           }
 
+          # shellcheck disable=SC2329
           stop_checkpoint_loop() {
-            if [ -n "$CHECKPOINT_PID" ] && kill -0 "$CHECKPOINT_PID" >/dev/null 2>&1; then
-              kill "$CHECKPOINT_PID" >/dev/null 2>&1 || true
-              wait "$CHECKPOINT_PID" 2>/dev/null || true
+            touch "$CHECKPOINT_STOP_FILE" || return 1
+            if [ -n "$CHECKPOINT_PID" ]; then
+              # Let an active Git command finish before the final checkpoint.
+              wait "$CHECKPOINT_PID" || return 1
               CHECKPOINT_PID=""
             fi
           }
 
+          # shellcheck disable=SC2329
           on_exit() {
-            # Last-resort safety net: runs on every exit path.
-            # If the normal completion block or on_cancel already handled
-            # everything, this is a no-op thanks to the FINAL_COMMIT_DONE guard.
-            if [ "$FINAL_COMMIT_DONE" = false ]; then
-              FINAL_COMMIT_DONE=true
-              stop_checkpoint_loop
-              if [ -n "$TRANSLATE_PID" ] && kill -0 "$TRANSLATE_PID" >/dev/null 2>&1; then
-                kill -TERM "$TRANSLATE_PID" >/dev/null 2>&1 || true
-                wait "$TRANSLATE_PID" 2>/dev/null || true
-                TRANSLATE_PID=""
-              fi
-              # Save whatever progress Python wrote to disk
-              commit_and_push_changes || true
-              echo "Partial translation results saved to $TEMP_BRANCH"
-            fi
-          }
+            local exit_code=$? final_head
+            trap - EXIT
+            trap '' TERM INT
 
-          on_cancel() {
-            echo "Cancellation signal received, saving translation progress"
-            FINAL_COMMIT_DONE=true
-            stop_checkpoint_loop
-
-            if [ -n "$TRANSLATE_PID" ] && kill -0 "$TRANSLATE_PID" >/dev/null 2>&1; then
-              echo "Stopping translation subprocess $TRANSLATE_PID"
-              kill -TERM "$TRANSLATE_PID" >/dev/null 2>&1 || true
+            if [ -n "$TRANSLATE_PID" ]; then
+              kill -TERM "$TRANSLATE_PID" 2>/dev/null || true
               wait "$TRANSLATE_PID" 2>/dev/null || true
               TRANSLATE_PID=""
             fi
+            if ! stop_checkpoint_loop; then
+              echo "::error::Could not join the checkpoint process; refusing concurrent Git operations"
+              exit 1
+            fi
 
-            # Commit whatever Python saved
-            commit_and_push_changes || true
-            # Mark that we have commits to merge (for merge step to handle)
-            FIRST_COMMIT_DONE=true
-            echo "FIRST_COMMIT_DONE=true" >> "$GITHUB_ENV"
-            exit 130
+            if commit_and_push_changes; then
+              final_head=$(git rev-parse HEAD) || exit_code=1
+              if [ -n "$final_head" ] && [ "$final_head" != "$ORIGIN_SHA" ]; then
+                echo "FIRST_COMMIT_DONE=true" >> "$GITHUB_ENV" || exit_code=1
+              fi
+            else
+              echo "::error::Final checkpoint failed; skipping merge and preserving the data artifact"
+              exit_code=1
+            fi
+
+            if [ "$exit_code" -eq 0 ]; then
+              echo "completed=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "failed=true" >> "$GITHUB_OUTPUT"
+            fi
+            exit "$exit_code"
           }
 
-          trap on_exit EXIT
-          trap on_cancel TERM INT
+          trap 'on_exit' EXIT
+          trap 'exit 143' TERM
+          trap 'exit 130' INT
 
-          # Create log directory if it doesn't exist
           mkdir -p "$(dirname "$LOG_FILE")"
-
-          # Remove old log if exists
           rm -f "$LOG_FILE"
 
-          # Start periodic checkpoint commits to reduce cancellation loss window.
           checkpoint_loop &
           CHECKPOINT_PID=$!
-          echo "Started checkpoint loop with PID $CHECKPOINT_PID (interval ${CHECKPOINT_INTERVAL}s)"
 
-          # Run translation in background so the shell can handle cancellation signals.
           python .github/scripts/translate_mods.py \
             --config .github/config/config.toml \
             --data-dir data \
@@ -222,34 +198,11 @@ jobs:
             --log-file "$LOG_FILE" \
             --thread-log-file "$THREAD_LOG_FILE" &
           TRANSLATE_PID=$!
-          echo "Started translation subprocess with PID $TRANSLATE_PID"
 
+          EXIT_CODE=0
           wait "$TRANSLATE_PID" || EXIT_CODE=$?
           TRANSLATE_PID=""
-
-          # Normal completion path: mark done so EXIT trap is a no-op.
-          FINAL_COMMIT_DONE=true
-          stop_checkpoint_loop
-
-          # Commit any final progress.
-          commit_and_push_changes || true
-
-          # Check exit code
-          if [ "${EXIT_CODE:-0}" -ne 0 ]; then
-            echo "Translation failed with exit code $EXIT_CODE"
-            echo "Partial results left on $TEMP_BRANCH for manual review"
-            echo "failed=true" >> "$GITHUB_OUTPUT"
-            # Still set FIRST_COMMIT_DONE so merge step will attempt merge
-            FIRST_COMMIT_DONE=true
-            echo "FIRST_COMMIT_DONE=true" >> "$GITHUB_ENV"
-            exit 1
-          fi
-
-          # Translation succeeded: mark for merge
-          FIRST_COMMIT_DONE=true
-          echo "FIRST_COMMIT_DONE=true" >> "$GITHUB_ENV"
-          echo "Translation completed, ready for merge"
-          echo "completed=true" >> "$GITHUB_OUTPUT"
+          exit "$EXIT_CODE"
       
       - name: Merge translation results to target branch
         id: merge
@@ -317,8 +270,10 @@ jobs:
             fi
           }
           
-          # Remove stale lock file left by the translation step's cleanup
-          rm -f .git/index.lock
+          if ! git diff --quiet -- data/ || ! git diff --cached --quiet -- data/; then
+            echo "::error::Translation data has unsaved changes; refusing to merge"
+            exit 1
+          fi
 
           # Checkout the temp branch to merge
           git checkout "$TEMP_BRANCH"
@@ -337,6 +292,7 @@ jobs:
             .github/log/translation.log
             .github/log/thread_work.log
             .github/log/cost_report.json
+            data/*.toml
             test/results/production-smoke/
           retention-days: 30
           include-hidden-files: false
