@@ -2,8 +2,21 @@
 name = "Conveyor Belts"
 
 ["LV.CBlt.GroupName"]
-new = "Conveyor Belts"
 status = "normal"
+raw = "Conveyor Belts"
+enUS = "Conveyor Belts"
+zhCN = "传送带"
+zhTW = "輸送帶"
+ruRU = "Конвейерные ленты"
+jaJP = "コンベアベルト"
+frFR = "Convoyeurs"
+deDE = "Förderbänder"
+plPL = "Taśmociągi"
+ptBR = "Esteiras transportadoras"
+koKR = "컨베이어 벨트"
+csCZ = "Dopravní pásy"
+viVN = "Băng chuyền"
+trTR = "Konveyör Bantları"
 
 ["LV.CBlt.ConveyorBeltName"]
 raw = "Conveyor Belt"
@@ -567,8 +580,21 @@ viVN = "Thêm Bộ chia. Thêm tùy chọn Không có điện trong cài đặt 
 trTR = "Splitter eklendi. Mod ayarlarında Güç Yok seçeneği eklendi."
 
 ["LV.CBlt.Update120"]
-new = "- This mod now requires Moddable Tool Groups. Moved conveyor buildings into their own group under Storage.\n- Belts can no longer transport liquids for either faction. Use Timber Pipe for liquids transportation.\n- Improved the processing code to match Timber Pipe, which should improve performance and support more buildings."
 status = "normal"
+raw = "- This mod now requires Moddable Tool Groups. Moved conveyor buildings into their own group under Storage.\n- Belts can no longer transport liquids for either faction. Use Timber Pipe for liquids transportation.\n- Improved the processing code to match Timber Pipe, which should improve performance and support more buildings."
+enUS = "- This mod now requires Moddable Tool Groups. Conveyor buildings have been moved into their own group under Storage.\n- Belts can no longer transport liquids for either faction. Use Timber Pipe to transport liquids.\n- Improved the processing code to match Timber Pipe, which should improve performance and support more buildings."
+zhCN = "- 此模组现在需要 Moddable Tool Groups。已将输送带建筑移入「储存」下的独立分组。\n- 两个派系的输送带都不再能运输液体。请使用 Timber Pipe 运输液体。\n- 已改进处理代码，使其与 Timber Pipe 保持一致，这应该能提升性能并支持更多建筑。"
+zhTW = "- 此模組現在需要 Moddable Tool Groups。已將輸送帶建築移至「儲存」下方的獨立群組。\n- 兩個派系的輸送帶都不再能運輸液體。液體運輸請使用 Timber Pipe。\n- 已改進處理程式碼，使其與 Timber Pipe 一致；這應能提升效能並支援更多建築。"
+ruRU = "- Теперь для этого мода требуется Moddable Tool Groups. Здания с конвейерами перемещены в отдельную группу в разделе «Хранилища».\n- Конвейеры больше не могут транспортировать жидкости ни у одной из фракций. Используйте Timber Pipe для транспортировки жидкостей.\n- Код обработки улучшен и теперь соответствует Timber Pipe, что должно повысить производительность и обеспечить поддержку большего числа зданий."
+jaJP = "- このModを使用するには、Moddable Tool Groupsが必要になりました。コンベアの建物を「保管」の下に独立したグループとして移動しました。\n- どちらの陣営でも、ベルトで液体を輸送できなくなりました。液体の輸送にはTimber Pipeを使用してください。\n- Timber Pipeに合わせて処理コードを改善しました。これにより、パフォーマンスが向上し、より多くの建物に対応できるはずです。"
+frFR = "- Ce mod nécessite désormais Moddable Tool Groups. Les bâtiments de convoyage ont été regroupés dans un groupe dédié sous Stockage.\n- Les tapis ne peuvent plus transporter de liquides pour aucune des deux factions. Utilisez Timber Pipe pour le transport des liquides.\n- Le code de traitement a été amélioré pour correspondre à celui de Timber Pipe, ce qui devrait améliorer les performances et prendre en charge davantage de bâtiments."
+deDE = "- Diese Mod erfordert jetzt Moddable Tool Groups. Die Förderbandgebäude wurden in eine eigene Gruppe unter „Lagerung“ verschoben.\n- Förderbänder können für keine der beiden Fraktionen mehr Flüssigkeiten transportieren. Verwende Timber Pipe für den Flüssigkeitstransport.\n- Der Verarbeitungscode wurde an Timber Pipe angepasst, was die Leistung verbessern und mehr Gebäude unterstützen sollte."
+plPL = "- Ten mod wymaga teraz moda Moddable Tool Groups. Budynki z przenośnikami trafiły do własnej grupy w kategorii Magazyny.\n- Taśmy nie mogą już transportować cieczy dla żadnej z frakcji. Do transportu cieczy używaj moda Timber Pipe.\n- Ulepszono kod przetwarzania, aby działał tak jak w Timber Pipe. Powinno to poprawić wydajność i umożliwić obsługę większej liczby budynków."
+ptBR = "- Este mod agora requer Moddable Tool Groups. Os edifícios de esteira transportadora foram movidos para um grupo próprio em Armazenamento.\n- As esteiras não podem mais transportar líquidos para nenhuma das facções. Use Timber Pipe para transportar líquidos.\n- O código de processamento foi aprimorado para se adequar ao Timber Pipe, o que deve melhorar o desempenho e permitir o suporte a mais edifícios."
+koKR = "- 이 모드에는 이제 Moddable Tool Groups가 필요합니다. 컨베이어 건물을 Storage 아래의 별도 그룹으로 옮겼습니다.\n- 어느 세력에서도 벨트로 액체를 운반할 수 없습니다. 액체 운반에는 Timber Pipe를 사용하세요.\n- 처리 코드를 Timber Pipe에 맞게 개선했습니다. 이에 따라 성능이 향상되고 더 많은 건물을 지원할 수 있습니다."
+csCZ = "- Tento mod nyní vyžaduje Moddable Tool Groups. Budovy s dopravníky byly přesunuty do vlastní skupiny v kategorii Skladování.\n- Dopravní pásy už nemohou přepravovat kapaliny u žádné z frakcí. K přepravě kapalin použijte Timber Pipe.\n- Kód zpracování byl vylepšen, aby odpovídal modu Timber Pipe, což by mělo zvýšit výkon a umožnit podporu více budov."
+viVN = "- Bản mod này hiện yêu cầu Moddable Tool Groups. Các công trình băng chuyền đã được chuyển vào nhóm riêng dưới mục Storage.\n- Băng chuyền không còn vận chuyển chất lỏng cho cả hai phe. Hãy dùng Timber Pipe để vận chuyển chất lỏng.\n- Đã cải thiện mã xử lý để tương thích với Timber Pipe, giúp tăng hiệu năng và hỗ trợ nhiều công trình hơn."
+trTR = "- Bu mod artık Moddable Tool Groups gerektiriyor. Konveyör binaları, Depolama altında kendi gruplarına taşındı.\n- Bantlar artık hiçbir fraksiyon için sıvı taşıyamıyor. Sıvı taşımak için Timber Pipe kullanın.\n- İşleme kodu, Timber Pipe ile uyumlu olacak şekilde geliştirildi. Bu, performansı artırmalı ve daha fazla binayı desteklemeli."
 
 [Name_ConveyorBeltDebugFragment]
 raw = "Conveyor Belt Debug"

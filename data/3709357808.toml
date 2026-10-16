@@ -2,12 +2,37 @@
 name = "Беларуская мова"
 
 ["MainMenu.RosettaOn"]
-new = "Rosetta: ON."
 status = "normal"
+raw = "Rosetta: ON."
+enUS = "Rosetta: ON."
+zhCN = "Rosetta：开启。"
+zhTW = "Rosetta：開啟。"
+ruRU = "Розетта: ВКЛ."
+jaJP = "Rosetta：オン。"
+frFR = "Rosetta : activée."
+deDE = "Rosetta: AN."
+plPL = "Rosetta: WŁ."
+ptBR = "Rosetta: ATIVADA."
+koKR = "Rosetta: 켜짐."
+csCZ = "Rosetta: ZAPNUTO."
+viVN = "Rosetta: BẬT."
+trTR = "Rosetta: AÇIK."
 
 ["Settings.Language.Name"]
 new = "Беларуская (Belarusian)"
 status = "normal"
+enUS = "Belarusian (Belarusian)"
+zhCN = "白俄罗斯语 (Belarusian)"
+zhTW = "白俄羅斯語（Belarusian）"
+ruRU = "Беларуская (белорусский)"
+jaJP = "ベラルーシ語 (Belarusian)"
+frFR = "Biélorusse (belaruski)"
+deDE = "Belarussisch (Belarusian)"
+plPL = "Białoruski (język białoruski)"
+ptBR = "Bielorrusso (Belarusian)"
+koKR = "벨라루스어 (벨라루스어)"
+viVN = "Tiếng Belarus (Belarusian)"
+trTR = "Belarusça (Belarusça)"
 
 ["AnalyticsConsent.Agree"]
 raw = "Так, згаджаюся"

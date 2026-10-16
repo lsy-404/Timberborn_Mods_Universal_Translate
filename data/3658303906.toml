@@ -53,8 +53,21 @@ viVN = "Bộ lọc:"
 trTR = "Filtre:"
 
 ["LV.MDG.SelectAll"]
-new = "Select all"
 status = "normal"
+raw = "Select all"
+enUS = "Select all"
+zhCN = "全选"
+zhTW = "全選"
+ruRU = "Выбрать всё"
+jaJP = "すべて選択"
+frFR = "Tout sélectionner"
+deDE = "Alle auswählen"
+plPL = "Zaznacz wszystko"
+ptBR = "Selecionar tudo"
+koKR = "모두 선택"
+csCZ = "Vybrat vše"
+viVN = "Chọn tất cả"
+trTR = "Tümünü seç"
 
 ["LV.MDG.Type.Tails"]
 raw = "Tails"

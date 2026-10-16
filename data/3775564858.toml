@@ -2,8 +2,21 @@
 name = "Sate-a-Mole"
 
 ["Need.PlantMurderer.DisplayName"]
-new = "Plant Killer"
 status = "normal"
+raw = "Plant Killer"
+enUS = "Plant Killer"
+zhCN = "植物杀手"
+zhTW = "植物殺手"
+ruRU = "Убийца растений"
+jaJP = "植物キラー"
+frFR = "Tueur de plantes"
+deDE = "Pflanzenvernichter"
+plPL = "Roślinobójca"
+ptBR = "Matador de Plantas"
+koKR = "식물 킬러"
+csCZ = "Ničitel rostlin"
+viVN = "Kẻ diệt thực vật"
+trTR = "Bitki Katili"
 
 [HR]
 raw = "======================================================================"

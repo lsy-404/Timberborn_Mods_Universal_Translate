@@ -138,8 +138,21 @@ viVN = "Chiều cao: {0}"
 trTR = "Yükseklik: {0}"
 
 ["LV.Cr.Range"]
-new = "Range: {0}"
 status = "normal"
+raw = "Range: {0}"
+enUS = "Range: {0}"
+zhCN = "范围：{0}"
+zhTW = "範圍：{0}"
+ruRU = "Дальность: {0}"
+jaJP = "範囲：{0}"
+frFR = "Portée : {0}"
+deDE = "Reichweite: {0}"
+plPL = "Zasięg: {0}"
+ptBR = "Alcance: {0}"
+koKR = "범위: {0}"
+csCZ = "Dosah: {0}"
+viVN = "Tầm hoạt động: {0}"
+trTR = "Menzil: {0}"
 
 ["LV.Cr.HeightPending"]
 raw = "Height: {0} / {1}"
@@ -193,8 +206,21 @@ viVN = "Không thể đặt một phần Cần cẩu lên trên Cần cẩu này
 trTR = "Bu Crane'ın üstüne bir Crane Bölümü yerleştirilemez."
 
 ["LV.Cr.MustPlaceSectionOnCrane"]
-new = "Must be placed on a Crane."
 status = "normal"
+raw = "Must be placed on a Crane."
+enUS = "Must be placed on a crane."
+zhCN = "必须放置在起重机上。"
+zhTW = "必須放置在起重機上。"
+ruRU = "Необходимо разместить на кране."
+jaJP = "クレーンの上に配置する必要があります。"
+frFR = "Doit être placé sur une grue."
+deDE = "Muss auf einem Kran platziert werden."
+plPL = "Należy umieścić na dźwigu."
+ptBR = "Deve ser colocado em um Guindaste."
+koKR = "크레인 위에 배치해야 합니다."
+csCZ = "Musí být umístěno na jeřábu."
+viVN = "Phải được đặt trên Cần cẩu."
+trTR = "Vinç üzerine yerleştirilmelidir."
 
 ["LV.Cr.JobPriority"]
 raw = "Priority"

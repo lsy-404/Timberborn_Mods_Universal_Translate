@@ -19,8 +19,21 @@ viVN = "Xông hơi"
 trTR = "Suna"
 
 ["Building.GeothermalSauna.DisplayName"]
-new = "Geothermal Sauna"
 status = "normal"
+raw = "Geothermal Sauna"
+enUS = "Geothermal Sauna"
+zhCN = "地热桑拿房"
+zhTW = "地熱桑拿房"
+ruRU = "Геотермальная сауна"
+jaJP = "地熱サウナ"
+frFR = "Sauna géothermique"
+deDE = "Geothermale Sauna"
+plPL = "Geotermalna sauna"
+ptBR = "Sauna Geotérmica"
+koKR = "지열 사우나"
+csCZ = "Geotermální sauna"
+viVN = "Phòng xông hơi địa nhiệt"
+trTR = "Jeotermal Sauna"
 
 ["Building.Sauna.Description"]
 raw = "An open roof sauna where beavers can sweat out their worries."
