@@ -126,12 +126,15 @@ class TranslatorLLM:
                 + metrics['write'] * prices['write'] + metrics['output'] * prices['output']) / 1e6
         return metrics, cost
 
-    def translate(self, text: str, target_language: str, system_prompt: List[dict], user_prompt: str) -> Optional[str]:
+    def translate(self, text: str, target_language: str, system_prompt: List[dict], user_prompt: str,
+                  preserve_line_entries: bool = False) -> Optional[str]:
         if not self.api_token:
             raise ValueError('API token is required')
         if not text or not text.strip():
             return text
         if not self.should_translate(text):
+            with self._cost_lock:
+                self.unresolved_translation_count += 1
             return None
         if len(text) < self.min_length:
             return text
@@ -143,16 +146,17 @@ class TranslatorLLM:
         if not self._cache_warmed:
             with self._warmup_lock:
                 if not self._cache_warmed:
-                    result = self._request(text, system_prompt, user_prompt)
+                    result = self._request(text, system_prompt, user_prompt, preserve_line_entries)
                     self._cache_warmed = bool(self.total_tokens['cached'] or self.total_tokens['write'])
                     return result
-        return self._request(text, system_prompt, user_prompt)
+        return self._request(text, system_prompt, user_prompt, preserve_line_entries)
 
-    def _request(self, text, system_prompt, user_prompt):
+    def _request(self, text, system_prompt, user_prompt, preserve_line_entries=False):
         """Allow one recovery attempt while accounting for every actual request."""
         feedback = None
         for attempt in range(self.MAX_ATTEMPTS):
-            translated, retry_reason = self._request_once(text, system_prompt, user_prompt, feedback)
+            translated, retry_reason = self._request_once(
+                text, system_prompt, user_prompt, feedback, preserve_line_entries)
             if translated is not None:
                 with self._cost_lock:
                     self.recovered_fail_count += attempt
@@ -167,14 +171,15 @@ class TranslatorLLM:
                     f'The previous response failed validation: {retry_reason}. '
                     'Translate the same source_text again. Return only the complete localized string. '
                     'Preserve every source placeholder and rich-text tag exactly, and retain all '
-                    'source line breaks and literal backslash sequences. Do not add commentary.'
+                    'source line breaks and literal backslash sequences. Keep every line entry '
+                    'in order, including empty entries. Do not add commentary.'
                 )
             time.sleep(1)
         with self._cost_lock:
             self.unresolved_translation_count += 1
         return None
 
-    def _request_once(self, text, system_prompt, user_prompt, feedback=None):
+    def _request_once(self, text, system_prompt, user_prompt, feedback=None, preserve_line_entries=False):
         """Return (translation, safe retry reason) and settle this attempt alone."""
         messages = [{'role': 'system', 'content': system_prompt}, {'role': 'user', 'content': user_prompt}]
         if feedback:
@@ -225,7 +230,7 @@ class TranslatorLLM:
             translated = restore_source_line_breaks(text, translated)
             translated = restore_source_boundary_whitespace(text, translated)
             translated = restore_source_line_breaks(text, translated)
-            issues = protected_format_issues(text, translated)
+            issues = protected_format_issues(text, translated, preserve_line_entries)
             if issues:
                 self.logger.error(f'Rejected protected formatting changes: {issues}')
                 return None, ', '.join(issues)

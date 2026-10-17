@@ -134,7 +134,7 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.post.assert_called_once()
         report = client.get_cost_summary_dict()
         self.assertEqual(report['unknown_cost_requests'], 1)
-        self.assertEqual(report['unresolved_translation_count'], 1)
+        self.assertEqual(report['unresolved_translation_count'], 2)
         self.assertFalse(report['cost_tracking_complete'])
         self.assertGreater(report['estimated_cost_usd'], 0)
 
@@ -148,7 +148,7 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertEqual(self.post.call_count, 2)
         report = client.get_cost_summary_dict()
         self.assertEqual(report['unknown_cost_requests'], 1)
-        self.assertEqual(report['unresolved_translation_count'], 1)
+        self.assertEqual(report['unresolved_translation_count'], 2)
         self.assertEqual(report['recovered_fail_count'], 0)
         self.assertFalse(report['cost_tracking_complete'])
         self.assertGreater(report['estimated_cost_usd'], 0.0001495)
@@ -191,6 +191,29 @@ class TranslationRecoveryTests(unittest.TestCase):
         report = client.get_cost_summary_dict()
         self.assertLessEqual(report['estimated_cost_usd'], 0.00425)
         self.assertEqual(report['reserved_cost_usd'], 0)
+        self.assertEqual(report['unresolved_translation_count'], 1)
+
+    def test_exhausted_budget_skip_is_recorded_without_an_api_call(self):
+        client = self.translator(max_cost=1)
+        # Earlier entries in the same run have already consumed the budget.
+        client.total_cost = 1
+        self.assertIsNone(self.translate(client))
+        self.post.assert_not_called()
+        report = client.get_cost_summary_dict()
+        self.assertEqual(report['unresolved_translation_count'], 1)
+        self.assertEqual(report['estimated_cost_usd'], 1)
+        self.assertEqual(report['reserved_cost_usd'], 0)
+
+    def test_budget_skip_after_recovered_attempt_remains_unresolved(self):
+        self.post.side_effect = [completion('值'), completion()]
+        client = self.translator(max_cost=1)
+        self.assertEqual(self.translate(client), '值 {0}')
+        # Other parallel entries then consume the rest of the run budget.
+        client.total_cost = 1
+        self.assertIsNone(self.translate(client, 'Another pending entry'))
+        self.assertEqual(self.post.call_count, 2)
+        report = client.get_cost_summary_dict()
+        self.assertEqual(report['recovered_fail_count'], 1)
         self.assertEqual(report['unresolved_translation_count'], 1)
 
     def test_internal_line_loss_and_tag_changes_stay_rejected(self):
@@ -312,6 +335,18 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertEqual(result.exception.code, 1)
         self.assertEqual(report['recovered_fail_count'], 0)
         self.assertEqual(report['unresolved_translation_count'], 1)
+
+    def test_cli_fails_for_work_skipped_after_budget_exhaustion(self):
+        client = self.translator(max_cost=1)
+        client.total_cost = 1
+        with tempfile.TemporaryDirectory() as directory:
+            with patch.object(translate_mods, 'TranslatorLLM', return_value=client):
+                with self.assertRaises(SystemExit) as result:
+                    self.run_main(directory)
+            report = json.loads((Path(directory) / 'cost_report.json').read_text())
+        self.assertEqual(result.exception.code, 1)
+        self.assertEqual(report['unresolved_translation_count'], 1)
+        self.post.assert_not_called()
 
 
 if __name__ == '__main__':

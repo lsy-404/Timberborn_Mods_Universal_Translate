@@ -69,7 +69,25 @@ def strip_extra_quotes(text, reference_text):
     return text
 
 
-def protected_format_issues(source, output):
+def split_name_pool_source(source, max_length):
+    """Group complete LF-delimited records; joining chunks with LF is lossless."""
+    records = source.split('\n')
+    if max_length < 1 or any(len(record) > max_length for record in records):
+        raise ValueError('A name-pool record exceeds the request length limit')
+    chunks, current = [], []
+    length = 0
+    for record in records:
+        added = len(record) + bool(current)
+        if current and length + added > max_length:
+            chunks.append('\n'.join(current))
+            current, length = [], 0
+        length += len(record) + bool(current)
+        current.append(record)
+    chunks.append('\n'.join(current))
+    return chunks
+
+
+def protected_format_issues(source, output, preserve_line_entries=False):
     issues = []
     if Counter(PLACEHOLDER.findall(source)) != Counter(PLACEHOLDER.findall(output)):
         issues.append('placeholder_changed')
@@ -77,4 +95,7 @@ def protected_format_issues(source, output):
         issues.append('markup_changed')
     if any(source.count(token) != output.count(token) for token in ('\n', '\r', '\\n', '\\r')):
         issues.append('line_breaks_changed')
+    if preserve_line_entries and ([bool(line.strip()) for line in source.split('\n')]
+                                  != [bool(line.strip()) for line in output.split('\n')]):
+        issues.append('line_entries_changed')
     return issues
