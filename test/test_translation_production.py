@@ -159,8 +159,10 @@ class ProductionTranslationTests(unittest.TestCase):
 
     @patch('translator.requests.post')
     def test_overlong_source_is_not_silently_truncated(self, post):
-        self.assertIsNone(self.translator(max_length=2).translate('Long text', 'zhCN', [], '{}'))
+        translator = self.translator(max_length=2)
+        self.assertIsNone(translator.translate('Long text', 'zhCN', [], '{}'))
         post.assert_not_called()
+        self.assertEqual(translator.get_cost_summary_dict()['unresolved_translation_count'], 1)
 
     @patch('translator.requests.post')
     def test_lost_placeholders_are_billed_and_rejected(self, post):
@@ -168,8 +170,11 @@ class ProductionTranslationTests(unittest.TestCase):
         translator = self.translator()
         system, user = self.prompts()
         self.assertIsNone(translator.translate(json.loads(user)['source_text'], 'zhCN', system, user))
-        self.assertEqual(translator.get_cost_summary_dict()['fail_count'], 1)
-        self.assertGreater(translator.get_cost_summary_dict()['estimated_cost_usd'], 0)
+        self.assertEqual(post.call_count, 2)
+        report = translator.get_cost_summary_dict()
+        self.assertEqual(report['fail_count'], 2)
+        self.assertEqual(report['unresolved_translation_count'], 1)
+        self.assertAlmostEqual(report['estimated_cost_usd'], 0.000299)
 
     @patch('translator.requests.post')
     def test_newline_representation_is_restored_before_validation(self, post):

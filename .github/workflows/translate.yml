@@ -42,6 +42,7 @@ jobs:
         run: |
           python -m unittest discover -s test -p 'test_translation_production.py'
           python -m unittest discover -s test -p 'test_translation_artifact.py'
+          python -m unittest discover -s test -p 'test_translation_recovery.py'
 
       - name: Verify production translation on isolated samples
         if: inputs.verify_only == true

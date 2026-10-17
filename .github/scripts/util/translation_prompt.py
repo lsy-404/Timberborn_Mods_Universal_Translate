@@ -47,6 +47,28 @@ def restore_source_line_breaks(source, output):
     return output
 
 
+def restore_source_boundary_whitespace(source, output):
+    """Use source-owned boundary whitespace without changing interior layout."""
+    whitespace = ' \t\r\n'
+    if not source.strip(whitespace):
+        return source
+    leading = len(source) - len(source.lstrip(whitespace))
+    trailing = len(source.rstrip(whitespace))
+    return source[:leading] + output.strip(whitespace) + source[trailing:]
+
+
+def strip_extra_quotes(text, reference_text):
+    """Remove model-added quote wrappers, preserving source-owned quotation."""
+    if not text or not reference_text:
+        return text
+    reference = reference_text.strip(' \t\r\n')
+    if reference.startswith('"') and reference.endswith('"'):
+        return text
+    while len(text) >= 2 and text.startswith('"') and text.endswith('"'):
+        text = text[1:-1].strip(' \t\r\n')
+    return text
+
+
 def protected_format_issues(source, output):
     issues = []
     if Counter(PLACEHOLDER.findall(source)) != Counter(PLACEHOLDER.findall(output)):

@@ -15,7 +15,10 @@ import threading
 import requests
 from typing import List, Optional
 
-from translation_prompt import protected_format_issues, restore_source_line_breaks
+from translation_prompt import (
+    protected_format_issues, restore_source_boundary_whitespace, restore_source_line_breaks,
+    strip_extra_quotes,
+)
 
 
 class TranslatorLLM:
@@ -23,6 +26,7 @@ class TranslatorLLM:
 
     PRICES_PER_MILLION = {"input": 0.10, "cached": 0.01, "write": 0.125, "output": 0.50}
     MAX_COMPLETION_TOKENS = 8192
+    MAX_ATTEMPTS = 2
 
     def __init__(
         self,
@@ -59,6 +63,8 @@ class TranslatorLLM:
         self.request_count = 0
         self.success_count = 0
         self.fail_count = 0
+        self.recovered_fail_count = 0
+        self.unresolved_translation_count = 0
         self.unknown_cost_requests = 0
         self.returned_models = set()
         self.max_cost = max_cost
@@ -131,6 +137,8 @@ class TranslatorLLM:
             return text
         if len(text) > self.max_length:
             self.logger.error(f'Source exceeds maximum length for {target_language}; preserving the pending entry')
+            with self._cost_lock:
+                self.unresolved_translation_count += 1
             return None
         if not self._cache_warmed:
             with self._warmup_lock:
@@ -141,11 +149,40 @@ class TranslatorLLM:
         return self._request(text, system_prompt, user_prompt)
 
     def _request(self, text, system_prompt, user_prompt):
+        """Allow one recovery attempt while accounting for every actual request."""
+        feedback = None
+        for attempt in range(self.MAX_ATTEMPTS):
+            translated, retry_reason = self._request_once(text, system_prompt, user_prompt, feedback)
+            if translated is not None:
+                with self._cost_lock:
+                    self.recovered_fail_count += attempt
+                return translated
+            if (attempt + 1 == self.MAX_ATTEMPTS or retry_reason is None
+                    or not self.check_cost_limit()):
+                break
+            self.logger.warning('Retrying translation after %s (attempt %s/%s)',
+                                retry_reason, attempt + 2, self.MAX_ATTEMPTS)
+            if not retry_reason.startswith('HTTP '):
+                feedback = (
+                    f'The previous response failed validation: {retry_reason}. '
+                    'Translate the same source_text again. Return only the complete localized string. '
+                    'Preserve every source placeholder and rich-text tag exactly, and retain all '
+                    'source line breaks and literal backslash sequences. Do not add commentary.'
+                )
+            time.sleep(1)
+        with self._cost_lock:
+            self.unresolved_translation_count += 1
+        return None
+
+    def _request_once(self, text, system_prompt, user_prompt, feedback=None):
+        """Return (translation, safe retry reason) and settle this attempt alone."""
         messages = [{'role': 'system', 'content': system_prompt}, {'role': 'user', 'content': user_prompt}]
+        if feedback:
+            messages.append({'role': 'user', 'content': feedback})
         self._check_rate_limit()
         reservation = self._reserve_cost(messages)
         if reservation is None:
-            return None
+            return None, None
         data = {
             'model': self.model, 'reasoning_effort': self.reasoning_effort,
             'service_tier': 'default', 'max_completion_tokens': self.MAX_COMPLETION_TOKENS,
@@ -165,7 +202,8 @@ class TranslatorLLM:
             if response.status_code != 200:
                 actual_cost = 0.0
                 self.logger.error(f'Translation failed: HTTP {response.status_code}: {response.text.replace(self.api_token, "[redacted]")}')
-                return None
+                retry = f'HTTP {response.status_code}' if response.status_code in (500, 502, 503, 504) else None
+                return None, retry
             payload = response.json()
             metrics, actual_cost = self.usage_metrics(payload['usage'])
             returned_model = payload['model']
@@ -174,21 +212,28 @@ class TranslatorLLM:
             choice = payload['choices'][0]
             if not returned_model.startswith(self.model) or metrics['reasoning'] != 0 or choice['finish_reason'] != 'stop':
                 self.logger.error(f'Rejected completion: model={returned_model}, reasoning={metrics["reasoning"]}, finish={choice["finish_reason"]}')
-                return None
+                return None, None
             translated = choice['message']['content']
             if not isinstance(translated, str) or not translated.strip():
                 self.logger.error('Rejected empty or malformed completion')
-                return None
-            translated = restore_source_line_breaks(text, translated.strip(' \t'))
+                return None, 'empty_completion'
+            translated = strip_extra_quotes(translated.strip(' \t\r\n'), text)
+            if (not translated.strip()
+                    or (text.strip(' \t\r\n"') and not translated.strip(' \t\r\n"'))):
+                self.logger.error('Rejected empty completion after removing quote wrappers')
+                return None, 'empty_completion'
+            translated = restore_source_line_breaks(text, translated)
+            translated = restore_source_boundary_whitespace(text, translated)
+            translated = restore_source_line_breaks(text, translated)
             issues = protected_format_issues(text, translated)
             if issues:
                 self.logger.error(f'Rejected protected formatting changes: {issues}')
-                return None
+                return None, ', '.join(issues)
             succeeded = True
-            return translated
+            return translated, None
         except (requests.RequestException, KeyError, IndexError, TypeError, ValueError) as error:
             self.logger.error(f'Translation request failed: {str(error).replace(self.api_token, "[redacted]")}')
-            return None
+            return None, None
         finally:
             with self._cost_lock:
                 self._in_flight_requests -= 1
@@ -214,6 +259,8 @@ class TranslatorLLM:
                 'model': self.model, 'reasoning_effort': self.reasoning_effort,
                 'returned_models': sorted(self.returned_models),
                 'request_count': self.request_count, 'success_count': self.success_count, 'fail_count': self.fail_count,
+                'recovered_fail_count': self.recovered_fail_count,
+                'unresolved_translation_count': self.unresolved_translation_count,
                 'success_rate': self.success_count / max(1, self.request_count) * 100,
                 'input_tokens': self.total_tokens['input'], 'ordinary_input_tokens': self.total_tokens['ordinary'],
                 'cached_tokens': self.total_tokens['cached'], 'cache_write_tokens': self.total_tokens['write'],

@@ -29,7 +29,7 @@ from typing import Callable, Dict, List, Optional, Set, Tuple, Union
 # Add util to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'util'))
 from translator import TranslatorLLM
-from translation_prompt import system_prompt_parts
+from translation_prompt import strip_extra_quotes, system_prompt_parts
 
 
 # Global variable to store language names loaded from config
@@ -822,34 +822,6 @@ def build_translation_prompt(
     return system, json.dumps({'source_text': new_text, 'context': context}, ensure_ascii=False)
 
 
-def strip_extra_quotes(text: str, reference_text: str) -> str:
-    """
-    Strip extra quotes from translated text if the reference doesn't have them.
-    
-    This handles cases where LLM adds extra quotes like:
-    - raw: "Mostly helpful billboards" -> zhTW: '"大多數有幫助的廣告牌"'
-    
-    Args:
-        text: Translated text that might have extra quotes
-        reference_text: Reference text (usually raw field) to check quote pattern
-        
-    Returns:
-        Text with extra quotes removed if appropriate
-    """
-    if not text or not reference_text:
-        return text
-    
-    # Check if reference text starts and ends with quotes
-    ref_has_quotes = reference_text.startswith('"') and reference_text.endswith('"')
-    
-    # If translation has quotes but reference doesn't, remove them
-    if not ref_has_quotes and text.startswith('"') and text.endswith('"') and len(text) > 2:
-        # Remove leading and trailing quotes
-        text = text[1:-1]
-    
-    return text
-
-
 def translate_entry(
     translator: TranslatorLLM,
     key: str,
@@ -973,7 +945,7 @@ def translate_entry(
             return None
         
         # Strip extra quotes if present and not in original
-        translation = strip_extra_quotes(translation, text_to_translate)
+        translation = strip_extra_quotes(translation, preprocessed_text)
         if not translation.strip() and text_to_translate.strip():
             logger.warning(f"Translation became empty after removing wrappers in {key}")
             return None
@@ -1691,7 +1663,7 @@ def main():
         except Exception as e:
             logger.error(f"Failed to write cost report: {e}")
         
-        if cost_data["fail_count"] or not cost_data["cost_tracking_complete"]:
+        if cost_data["unresolved_translation_count"] or not cost_data["cost_tracking_complete"]:
             raise RuntimeError("Translation requests failed; pending entries and partial progress have been preserved")
         logger.info("All done!")
         
