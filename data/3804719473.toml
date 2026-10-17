@@ -2,8 +2,8 @@
 name = "Hardcore Settings"
 
 ["acalc79.HardcoreSettings.SectionTitle"]
-status = "normal"
 raw = "Hardcore settings"
+status = "normal"
 enUS = "Hardcore Settings"
 zhCN = "硬核设置"
 zhTW = "硬核設定"
@@ -19,8 +19,8 @@ viVN = "Cài đặt chế độ khắc nghiệt"
 trTR = "Zorlu Mod Ayarları"
 
 ["acalc79.HardcoreSettings.DestructiveWaterPressure"]
-status = "normal"
 raw = "Destructive water pressure"
+status = "normal"
 enUS = "Destructive water pressure"
 zhCN = "破坏性水压"
 zhTW = "破壞性水壓"
@@ -52,8 +52,8 @@ viVN = "Đường thủy tự nhiên"
 trTR = "Doğal su yolları"
 
 ["acalc79.HardcoreSettings.NaturalWaterways.Prompt"]
-status = "normal"
 raw = "Restrict this map to natural waterways? Water will only be able to leave the map at the low points of its edges; everywhere else is sealed permanently. This changes the map itself and cannot be undone."
+status = "normal"
 enUS = "Restrict this map to natural waterways? Water will only be able to leave the map at the low points along its edges; everywhere else will be permanently sealed. This changes the map itself and cannot be undone."
 zhCN = "将此地图限制为天然水道？水只能从地图边缘的低处流出；其他地方将永久封闭。此操作会更改地图本身，且无法撤销。"
 zhTW = "要將此地圖限制為天然水道嗎？水只能從地圖邊緣的低處流出；其他地方都會永久封閉。這會改變地圖本身，且無法復原。"
@@ -69,8 +69,8 @@ viVN = "Giới hạn bản đồ này vào các dòng chảy tự nhiên? Nướ
 trTR = "Bu haritayı doğal su yollarıyla mı sınırlandıralım? Su, haritadan yalnızca kenarlarının alçak noktalarından çıkabilecek; diğer tüm noktalar kalıcı olarak kapatılacak. Bu, haritanın kendisini değiştirir ve geri alınamaz."
 
 ["acalc79.HardcoreSettings.TerrainBlockCost"]
-status = "normal"
 raw = "Terrain block cost"
+status = "normal"
 enUS = "Terrain Block Cost"
 zhCN = "地形方块成本"
 zhTW = "地形方塊成本"
@@ -101,8 +101,8 @@ viVN = "đất bẩn"
 trTR = "toprak"
 
 ["acalc79.HardcoreSettings.AdvancedDynamite"]
-status = "normal"
 raw = "Advanced dynamite"
+status = "normal"
 enUS = "Advanced dynamite"
 zhCN = "高级炸药"
 zhTW = "進階炸藥"
@@ -118,8 +118,8 @@ viVN = "Thuốc nổ nâng cao"
 trTR = "Gelişmiş dinamit"
 
 ["acalc79.HardcoreSettings.AdvancedDynamiteCost"]
-status = "normal"
 raw = "Dynamite cost"
+status = "normal"
 enUS = "Dynamite cost"
 zhCN = "炸药成本"
 zhTW = "炸藥成本"
@@ -135,8 +135,8 @@ viVN = "Chi phí thuốc nổ"
 trTR = "Dinamit maliyeti"
 
 ["acalc79.HardcoreSettings.AdvancedDynamiteCost.Unit"]
-status = "normal"
 raw = "×{0}"
+status = "normal"
 enUS = "×{0}"
 zhCN = "×{0}"
 zhTW = "×{0}"
@@ -152,8 +152,8 @@ viVN = "×{0}"
 trTR = "×{0}"
 
 ["acalc79.HardcoreSettings.Good.AdvancedDynamite.DisplayName"]
-status = "normal"
 raw = "Dynamite"
+status = "normal"
 enUS = "Dynamite"
 zhCN = "炸药"
 zhTW = "炸藥"
@@ -183,8 +183,8 @@ viVN = "Thuốc nổ"
 trTR = "Dinamitler"
 
 ["acalc79.HardcoreSettings.NoDischarges"]
-status = "normal"
 raw = "Allow discharges"
+status = "normal"
 enUS = "Allow discharges"
 zhCN = "允许排放"
 zhTW = "允許排放"
@@ -215,8 +215,8 @@ viVN = "Cho phép nhiều khu vực quản lý района"
 trTR = "Birden fazla bölgeye izin ver"
 
 ["acalc79.HardcoreSettings.SingleDistrict.Reason"]
-status = "normal"
 raw = "This settlement is limited to a single district."
+status = "normal"
 enUS = "This settlement is limited to a single district."
 zhCN = "此聚居地仅限一个区。"
 zhTW = "此聚落僅限於單一區域。"
@@ -232,8 +232,8 @@ viVN = "Khu định cư này chỉ được giới hạn trong một khu vực q
 trTR = "Bu yerleşim tek bir bölgeyle sınırlıdır."
 
 ["acalc79.HardcoreSettings.UniqueScienceBuildings"]
-status = "normal"
 raw = "Unique science buildings"
+status = "normal"
 enUS = "Unique science buildings"
 zhCN = "独特的科研建筑"
 zhTW = "獨特的科學建築"
@@ -249,8 +249,8 @@ viVN = "Các công trình khoa học độc nhất"
 trTR = "Benzersiz bilim binaları"
 
 ["acalc79.HardcoreSettings.UniqueScienceBuildings.AlreadyExists"]
-status = "normal"
 raw = "A {0} already exists! Only one building of this type can be built."
+status = "normal"
 enUS = "A {0} already exists! Only one building of this type can be built."
 zhCN = "{0}已存在！此类型的建筑只能建造一座。"
 zhTW = "已經有一座 {0} 了！此類建築只能建造一座。"
@@ -266,8 +266,8 @@ viVN = "Đã có một {0}! Chỉ có thể xây dựng một công trình thu�
 trTR = "Bir {0} zaten mevcut! Bu türden yalnızca bir bina inşa edilebilir."
 
 ["acalc79.HardcoreSettings.BotsNeedRepairs"]
-status = "normal"
 raw = "Bots need repairs"
+status = "normal"
 enUS = "Bots need repairs"
 zhCN = "机器人需要维修"
 zhTW = "機器人需要維修"
@@ -283,8 +283,8 @@ viVN = "Bot cần được sửa chữa"
 trTR = "Botların onarılması gerekir"
 
 ["acalc79.HardcoreSettings.RepairEfficiency"]
-status = "normal"
 raw = "Repair efficiency"
+status = "normal"
 enUS = "Repair Efficiency"
 zhCN = "维修效率"
 zhTW = "修理效率"
@@ -300,8 +300,8 @@ viVN = "Hiệu suất sửa chữa"
 trTR = "Onarım verimliliği"
 
 ["acalc79.HardcoreSettings.RepairEfficiency.Unit"]
-status = "normal"
 raw = "%"
+status = "normal"
 enUS = "%"
 zhCN = "%"
 zhTW = "%"
@@ -362,8 +362,8 @@ viVN = "Sửa chữa"
 trTR = "Onarımlar"
 
 ["acalc79.HardcoreSettings.Need.Repairs.Status"]
-status = "normal"
 raw = "This bot is worn out and will not work until it has been repaired at a Bot Assembler."
+status = "normal"
 enUS = "This bot is worn out and won't work until it has been repaired at a Bot Assembler."
 zhCN = "这台机器人已经磨损，必须在机器人组装器中修理后才能工作。"
 zhTW = "這台機器人已經耗損，必須在機器人組裝器中修理後才能工作。"
@@ -395,8 +395,8 @@ csCZ = "Vyžaduje opravu"
 trTR = "Onarım gerekiyor"
 
 ["acalc79.HardcoreSettings.WaterPressure.Status"]
-status = "normal"
 raw = "Will give way to the water pressure"
+status = "normal"
 enUS = "Will give way under the water pressure"
 zhCN = "会在水压作用下崩塌"
 zhTW = "會因水壓而讓步"

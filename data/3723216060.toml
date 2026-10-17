@@ -529,8 +529,8 @@ viVN = "<b>Tiền lương:</b>"
 trTR = "<b>Ödeme:</b>"
 
 ["ModSetting.TWMoreMines.DirtclawsSectionHeaderPaySub"]
-status = "normal"
 raw = "Once adult population is greater than the minimum, beavers will receive pay.\nBase pay is a flat amount, set here. Three bonus are added to it:\nPopulation bonus increases as population climbs.\nTime bonus increases each day.\nProfit-share is based on total credits in your account."
+status = "normal"
 enUS = "Once the adult population exceeds the minimum, beavers will receive pay.\nBase pay is a flat amount set here. Three bonuses are added to it:\nPopulation bonus increases as the population grows.\nTime bonus increases each day.\nProfit share is based on the total credits in your account."
 zhCN = "成年海狸人口超过最低要求后，海狸便会获得报酬。\n基本工资为固定金额，可在此设置。另有三项奖金：\n人口奖金随人口增长而增加。\n时间奖金每天都会增加。\n利润分成根据账户中的总积分计算。"
 zhTW = "成年海狸人口超過最低人數後，海狸便會領取薪資。\n基本薪資是固定金額，可在此設定。另會加上三種獎金：\n人口獎金會隨人口增加而提高。\n時間獎金每天都會增加。\n利潤分紅則依據你帳戶中的總信用點數計算。"
@@ -4490,8 +4490,8 @@ viVN = "Trả lương cho loài rái cá nhiều hơn khi dân số tăng. Đi�
 trTR = "Popülasyon arttıkça kunduzlara daha fazla ödeme yapar. Bu, Min Popülasyondaki yetişkin sayısından fazlası için olan yetişkin sayısı ile çarpılır, ardından Ödeme'ye eklenir."
 
 ["ModSetting.TWMoreMines.PayTimeScaleStart"]
-status = "normal"
 raw = "Time bonus start day"
+status = "normal"
 enUS = "Time bonus start day"
 zhCN = "时间奖励起始天数"
 zhTW = "時間加成開始日"
@@ -4521,8 +4521,8 @@ csCZ = "Časový bonus k výplatě začíná tento den"
 viVN = "Tiền thưởng lương theo thời gian bắt đầu từ ngày này"
 
 ["ModSetting.TWMoreMines.PayTimeCountAll"]
-status = "normal"
 raw = "Time bonus every day"
+status = "normal"
 enUS = "Daily time bonus"
 zhCN = "每日时间奖励"
 zhTW = "每日時間獎勵"
@@ -4538,8 +4538,8 @@ viVN = "Thưởng thời gian mỗi ngày"
 trTR = "Her gün süre bonusu"
 
 ["ModSetting.TWMoreMines.PayTimeCountAllDesc"]
-status = "normal"
 raw = "When checked, time-driven bonus will increase each day. When unchecked, it only increases on days when adult population is above the pay minimum."
+status = "normal"
 enUS = "When checked, the time-driven bonus will increase each day. When unchecked, it will increase only on days when the adult population is above the pay minimum."
 zhCN = "勾选后，随时间增长的奖金每天都会增加。取消勾选后，只有成年人口高于最低支付人数的日子，奖金才会增加。"
 zhTW = "勾選時，按時間計算的獎勵每天都會增加。未勾選時，只有成年人口超過最低薪資門檻的日子才會增加。"
@@ -4555,8 +4555,8 @@ viVN = "Khi được chọn, tiền thưởng dựa trên thời gian sẽ tăng
 trTR = "İşaretlendiğinde, zamana bağlı bonus her gün artar. İşaretlenmediğinde ise yalnızca yetişkin nüfus ödeme alt sınırının üzerindeyken artar."
 
 ["ModSetting.TWMoreMines.PayTimeScaleCap"]
-status = "normal"
 raw = "Time bonus cap"
+status = "normal"
 enUS = "Time Bonus Cap"
 zhCN = "时间奖励上限"
 zhTW = "時間獎勵上限"
@@ -4572,8 +4572,8 @@ viVN = "Giới hạn tiền thưởng thời gian"
 trTR = "Süre bonusu üst sınırı"
 
 ["ModSetting.TWMoreMines.PayTimeScaleCapDesc"]
-status = "normal"
 raw = "Maximum time-driven bonus, per beaver."
+status = "normal"
 enUS = "Maximum time-driven bonus per beaver."
 zhCN = "每只海狸的时间驱动加成上限。"
 zhTW = "每隻海狸的時間加成上限。"
@@ -4589,8 +4589,8 @@ viVN = "Mức thưởng tối đa theo thời gian, tính trên mỗi hải ly."
 trTR = "Kunduz başına zamana bağlı azami bonus."
 
 ["ModSetting.TWMoreMines.PayTimeScaleIncrementPerBeaver"]
-status = "normal"
 raw = "Time bonus increment"
+status = "normal"
 enUS = "Time bonus increment"
 zhCN = "时间奖励增量"
 zhTW = "時間獎勵增量"
@@ -4606,8 +4606,8 @@ viVN = "Mức tăng tiền thưởng theo thời gian"
 trTR = "Zaman bonusu artışı"
 
 ["ModSetting.TWMoreMines.PayTimeScaleIncrementPerBeaverDesc"]
-status = "normal"
 raw = "The time-driven bonus will increase this much per day, per beaver."
+status = "normal"
 enUS = "The time-driven bonus will increase by this amount per day, per beaver."
 zhCN = "时间驱动的奖励每天会为每只海狸增加这么多。"
 zhTW = "這項依時間計算的獎勵每天會為每隻海狸增加這麼多。"
@@ -4639,8 +4639,8 @@ viVN = "Mức chia lợi nhuận tối thiểu"
 trTR = "Kâr payı alt sınırı"
 
 ["ModSetting.TWMoreMines.PayProfitShareFloorDesc"]
-status = "normal"
 raw = "Profit-share bonus is only active when total credits are above this number."
+status = "normal"
 enUS = "Profit-share bonus is active only when total credits are above this number."
 zhCN = "只有当总积分高于此数值时，利润分成奖金才会生效。"
 zhTW = "只有在總信用額高於此數值時，利潤分成獎金才會生效。"
@@ -4688,8 +4688,8 @@ viVN = "Mỗi ngày, tỷ lệ phần trăm này của tổng số tín dụng s
 trTR = "Toplam kredi asgari miktarın üzerindeyse, bu yüzde her gün koloni hesabından düşülür."
 
 ["UI.TW.PayShowDetails"]
-status = "normal"
 raw = "Show pay details"
+status = "normal"
 enUS = "Show pay details"
 zhCN = "显示工资详情"
 zhTW = "顯示薪資詳情"
@@ -4705,8 +4705,8 @@ viVN = "Hiển thị chi tiết tiền công"
 trTR = "Ücret ayrıntılarını göster"
 
 ["UI.TW.Pay.PaySuspendedInfo"]
-status = "normal"
 raw = "<b><RedHighlight>NOTE:</RedHighlight></b> Pay is suspended due to low population or low credits. Info below is what would happen if pay was active."
+status = "normal"
 enUS = "<b><RedHighlight>NOTE:</RedHighlight></b> Pay is suspended due to low population or insufficient credits. The information below describes what would happen if pay were active."
 zhCN = "<b><RedHighlight>注意：</RedHighlight></b>由于人口过少或信用点不足，薪酬已暂停。以下信息说明薪酬启用时会发生什么。"
 zhTW = "<b><RedHighlight>注意：</RedHighlight></b>由於人口不足或點數不足，薪資已暫停發放。以下資訊說明薪資生效時會發生的情況。"
@@ -4722,8 +4722,8 @@ viVN = "<b><RedHighlight>LƯU Ý:</RedHighlight></b> Tiền lương bị tạm n
 trTR = "<b><RedHighlight>NOT:</RedHighlight></b> Nüfusun veya kredilerin düşük olması nedeniyle ücret ödemesi askıya alındı. Aşağıdaki bilgiler, ücret ödemesi etkin olsaydı ne olacağını gösterir."
 
 ["UI.TW.Pay.BasePayIs"]
-status = "normal"
 raw = "Base pay per beaver: {0}"
+status = "normal"
 enUS = "Base pay per beaver: {0}"
 zhCN = "每只海狸的基本工资：{0}"
 zhTW = "每隻海狸的基本薪資：{0}"
@@ -4739,8 +4739,8 @@ viVN = "Lương cơ bản cho mỗi hải ly: {0}"
 trTR = "Kunduz başına temel ücret: {0}"
 
 ["UI.TW.Pay.PopulationBonusIs"]
-status = "normal"
 raw = "Population bonus per beaver: Adult population above min ({0}) * Bonus rate ({1}) = {2}"
+status = "normal"
 enUS = "Population bonus per beaver: Adult population above minimum ({0}) * Bonus rate ({1}) = {2}"
 zhCN = "每只海狸的人口加成：成年人口超过最低值（{0}）的部分 × 加成率（{1}）= {2}"
 zhTW = "每隻海狸的人口加成：高於最低值（{0}）的成年海狸人口 × 加成率（{1}） = {2}"
@@ -4756,8 +4756,8 @@ viVN = "Thưởng dân số mỗi hải ly: Dân số trưởng thành vượt m
 trTR = "Kunduz başına nüfus bonusu: Minimumun üzerindeki yetişkin nüfusu ({0}) * Bonus oranı ({1}) = {2}"
 
 ["UI.TW.Pay.TimeInflationDetails"]
-status = "normal"
 raw = "Time Bonus per beaver: Daily increase ({0}) * valid days passed ({1}) = {2}"
+status = "normal"
 enUS = "Time Bonus per beaver: Daily increase ({0}) * valid days passed ({1}) = {2}"
 zhCN = "每只海狸的时间奖励：每日增幅（{0}）* 已过有效天数（{1}）= {2}"
 zhTW = "每隻海狸的時間獎勵：每日增加量（{0}）* 已經過的有效天數（{1}）= {2}"
@@ -4773,8 +4773,8 @@ viVN = "Tiền thưởng theo thời gian cho mỗi hải ly: Mức tăng hằng
 trTR = "Kunduz başına süre bonusu: Günlük artış ({0}) * geçen geçerli gün sayısı ({1}) = {2}"
 
 ["UI.TW.Pay.TimeCountAllInfo"]
-status = "normal"
 raw = "Valid days are all days after day {0}"
+status = "normal"
 enUS = "Valid days are all days after day {0}"
 zhCN = "有效天数为第 {0} 天之后的所有天数。"
 zhTW = "有效日期為第 {0} 天之後的所有日期。"
@@ -4790,8 +4790,8 @@ viVN = "Các ngày hợp lệ là tất cả các ngày sau ngày {0}"
 trTR = "Geçerli günler, {0}. günden sonraki tüm günlerdir"
 
 ["UI.TW.Pay.PerBeaverTotalInfo"]
-status = "normal"
 raw = "Total pay per beaver is {1}. Colony total is: adult population ({0}) * pay ({1}) = {2}"
+status = "normal"
 enUS = "Total pay per beaver is {1}. Colony total is: adult population ({0}) * pay ({1}) = {2}"
 zhCN = "每只海狸的总工资为 {1}。殖民地总工资为：成年海狸数量（{0}）* 工资（{1}）= {2}"
 zhTW = "每隻海狸的總薪資為 {1}。殖民地總額為：成年人口（{0}）* 薪資（{1}）= {2}"
@@ -4807,8 +4807,8 @@ viVN = "Tổng tiền công mỗi hải ly là {1}. Tổng tiền công của th
 trTR = "Kunduz başına toplam ödeme {1}. Koloni toplamı: yetişkin nüfusu ({0}) * ödeme ({1}) = {2}"
 
 ["UI.TW.Pay.ProfitShareBonusIs"]
-status = "normal"
 raw = "Profit sharing:\nAlso, {0} percent of colony credits above {1} will be divided among the beavers. Today, that will be {2} credits."
+status = "normal"
 enUS = "Profit sharing:\nAlso, {0} percent of colony credits above {1} will be divided among the beavers. Today, that will be {2} credits."
 zhCN = "利润分红：\n此外，超过 {1} 的殖民地信用点中，有 {0} percent 将分给海狸。今天分得的金额为 {2} 信用点。"
 zhTW = "利潤分配：\n此外，超過 {1} 的殖民地點數中，有 {0} percent 將分配給海狸居民。今天將分配 {2} 點數。"
@@ -4824,8 +4824,8 @@ viVN = "Chia lợi nhuận:\nNgoài ra, {0} phần trăm số tín dụng của 
 trTR = "Kâr paylaşımı:\nAyrıca, {1} üzerindeki koloni kredilerinin {0} yüzdesi kunduzlar arasında paylaştırılacak. Bugün bu miktar {2} kredi olacak."
 
 ["UI.TW.Pay.TotalPayIs"]
-status = "normal"
 raw = "Today's total pay, including profit-share: {0}"
+status = "normal"
 enUS = "Today's total pay, including profit share: {0}"
 zhCN = "今日总薪酬（含利润分成）：{0}"
 zhTW = "今日總薪酬（含利潤分成）：{0}"
@@ -4841,8 +4841,8 @@ viVN = "Tổng tiền công hôm nay, bao gồm cả phần chia lợi nhuận: 
 trTR = "Kâr payı dâhil bugünkü toplam ücret: {0}"
 
 ["UI.TW.Pay.SettingsInfo"]
-status = "normal"
 raw = "You can change many of these settings. Go to main menu -> mods -> gear icon after mod name."
+status = "normal"
 enUS = "You can change many of these settings. Go to Main Menu -> Mods -> the gear icon next to the mod name."
 zhCN = "你可以更改其中许多设置。前往主菜单 -> 模组 -> 点击模组名称旁的齿轮图标。"
 zhTW = "你可以變更許多這類設定。前往主選單 -> 模組 -> 模組名稱旁的齒輪圖示。"
@@ -4892,8 +4892,8 @@ viVN = "Trả tiền mỗi người trưởng thành: {0}"
 trTR = "Yetişkin başına ödeme: {0}"
 
 ["UI.TW.ProfitSharePerBeaver"]
-status = "normal"
 raw = "Profit-share per adult: {0}"
+status = "normal"
 enUS = "Profit share per adult: {0}"
 zhCN = "每名成年海狸的利润分成：{0}"
 zhTW = "每位成年海狸的利潤分成：{0}"

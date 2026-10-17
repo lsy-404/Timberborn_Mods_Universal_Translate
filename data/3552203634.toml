@@ -2637,8 +2637,8 @@ viVN = "Nhảy múa trước. Nghĩ sau. Đó là trật tự tự nhiên."
 trTR = "Önce dans et. Sonra düşün. Bu doğal bir düzen."
 
 ["Building.AirlockTunnel.DisplayName"]
-status = "normal"
 raw = "Airlock Tunnel"
+status = "normal"
 enUS = "Airlock Tunnel"
 zhCN = "气闸隧道"
 zhTW = "氣閘隧道"
@@ -2773,8 +2773,8 @@ viVN = "Bảng Mái Bên"
 trTR = "Yan Çatı Bloğu"
 
 ["Building.Hospital.DisplayName"]
-status = "normal"
 raw = "Hospital"
+status = "normal"
 enUS = "Hospital"
 zhCN = "医院"
 zhTW = "醫院"
@@ -2790,8 +2790,8 @@ viVN = "Bệnh viện"
 trTR = "Hastane"
 
 ["Building.Hospital.Description"]
-status = "normal"
 raw = "A place for Sick and Injured Beavers to heal."
+status = "normal"
 enUS = "A place for sick and injured Beavers to heal."
 zhCN = "供生病和受伤的海狸疗养的地方。"
 zhTW = "供生病和受傷的海狸療養之處。"
@@ -2807,8 +2807,8 @@ viVN = "Nơi để Hải ly bị ốm và bị thương hồi phục."
 trTR = "Hasta ve yaralı kunduzların iyileşmesi için bir yer."
 
 ["Building.Hospital.FlavorDescription"]
-status = "normal"
 raw = "Get well soon!"
+status = "normal"
 enUS = "Get well soon!"
 zhCN = "祝你早日康复！"
 zhTW = "祝你早日康復！"
@@ -2840,8 +2840,8 @@ viVN = "Thuốc men"
 trTR = "İlaç"
 
 ["Good.Medicine.PluralDisplayName"]
-status = "normal"
 raw = "Medicine"
+status = "normal"
 enUS = "Medicine"
 zhCN = "药品"
 zhTW = "藥品"

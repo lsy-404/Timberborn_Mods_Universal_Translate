@@ -2,8 +2,8 @@
 name = "Flywheels - Reloaded"
 
 ["Battery.Flywheels.SmallFlywheel.DisplayName"]
-status = "normal"
 raw = "Small Flywheel"
+status = "normal"
 enUS = "Small Flywheel"
 zhCN = "小型飞轮"
 zhTW = "小型飛輪"
@@ -19,8 +19,8 @@ viVN = "Bánh đà nhỏ"
 trTR = "Küçük Volan"
 
 ["Battery.Flywheels.SmallFlywheel.Description"]
-status = "normal"
 raw = "A small and low-capacity flywheel built inline with a shaft. Platforms can be built over them similar to shafts."
+status = "normal"
 enUS = "A small, low-capacity flywheel built inline with a shaft. Platforms can be built over them, just like shafts."
 zhCN = "一种与轴内联建造的小型低容量飞轮。可以像轴一样在其上方建造平台。"
 zhTW = "一種小型、低容量的飛輪，與軸輪建成一線。和軸輪一樣，可以在其上方建造平台。"
@@ -36,8 +36,8 @@ viVN = "Bánh đà nhỏ, dung lượng thấp, được lắp thẳng hàng v�
 trTR = "Bir mile doğrusal olarak yerleştirilen, küçük ve düşük kapasiteli bir volan. Üzerlerine, millerde olduğu gibi platformlar inşa edilebilir."
 
 ["Battery.Flywheels.SmallFlywheel.FlavorDescription"]
-status = "normal"
 raw = "\"It's absolutely genius!\" - STHedgehog"
+status = "normal"
 enUS = "\"It's absolutely genius!\" - STHedgehog"
 zhCN = "“这简直是天才之作！”——STHedgehog"
 zhTW = "「這簡直是天才之作！」——STHedgehog"
@@ -53,8 +53,8 @@ viVN = "“Thật sự thiên tài!” - STHedgehog"
 trTR = "“Bu kesinlikle dâhiyane!” - STHedgehog"
 
 ["Battery.Flywheels.SmallHorizontalFramedFlywheel.DisplayName"]
-status = "normal"
 raw = "Small Horizontal Framed Flywheel"
+status = "normal"
 enUS = "Small Horizontal Framed Flywheel"
 zhCN = "小型卧式框架飞轮"
 zhTW = "小型水平框架飛輪"
@@ -70,8 +70,8 @@ viVN = "Bánh đà khung ngang nhỏ"
 trTR = "Küçük Yatay Çerçeveli Volan"
 
 ["Battery.Flywheels.SmallHorizontalFramedFlywheel.Description"]
-status = "normal"
 raw = "A small flywheel built into a frame."
+status = "normal"
 enUS = "A small flywheel built into a frame."
 zhCN = "内置于框架中的小型飞轮。"
 zhTW = "裝在框架中的小型飛輪。"
@@ -87,8 +87,8 @@ viVN = "Một bánh đà nhỏ được lắp trong khung."
 trTR = "Bir çerçeveye yerleştirilmiş küçük bir volan."
 
 ["Battery.Flywheels.SmallHorizontalFramedFlywheel.FlavorDescription"]
-status = "normal"
 raw = "\"This is going to be a game-changer\" - JC The Beard"
+status = "normal"
 enUS = "\"This is going to be a game-changer\" - JC The Beard"
 zhCN = "“这将彻底改变游戏规则”——JC The Beard"
 zhTW = "「這將徹底改變遊戲規則」——JC The Beard"
@@ -104,8 +104,8 @@ viVN = "“Thứ này sẽ thay đổi cuộc chơi” - JC The Beard"
 trTR = "“Bu, oyunun gidişatını değiştirecek” - JC The Beard"
 
 ["Battery.Flywheels.SmallVerticalFramedFlywheel.DisplayName"]
-status = "normal"
 raw = "Small Vertical Framed Flywheel"
+status = "normal"
 enUS = "Small Vertical Framed Flywheel"
 zhCN = "小型立式框架飞轮"
 zhTW = "小型垂直框架式飛輪"
@@ -121,8 +121,8 @@ viVN = "Bánh đà khung đứng nhỏ"
 trTR = "Küçük Dikey Çerçeveli Volan"
 
 ["Battery.Flywheels.SmallVerticalFramedFlywheel.Description"]
-status = "normal"
 raw = "A small flywheel built into a frame."
+status = "normal"
 enUS = "A small flywheel built into a frame."
 zhCN = "内置于框架中的小型飞轮。"
 zhTW = "內嵌於框架中的小型飛輪。"
@@ -138,8 +138,8 @@ viVN = "Một bánh đà nhỏ được lắp vào khung."
 trTR = "Bir çerçeveye yerleştirilmiş küçük bir volan."
 
 ["Battery.Flywheels.SmallVerticalFramedFlywheel.FlavorDescription"]
-status = "normal"
 raw = "\"This is going to be a game-changer\" - JC The Beard"
+status = "normal"
 enUS = "\"This is going to be a game-changer\" - JC The Beard"
 zhCN = "“这将彻底改变游戏规则”——JC The Beard"
 zhTW = "「這將徹底改變遊戲規則」——JC The Beard"
@@ -155,8 +155,8 @@ viVN = "“Cái này sẽ thay đổi cuộc chơi đấy” - JC The Beard"
 trTR = "“Bu, oyunun kurallarını değiştirecek.” - JC The Beard"
 
 ["Battery.Flywheels.MediumFlywheel.DisplayName"]
-status = "normal"
 raw = "Medium Flywheel"
+status = "normal"
 enUS = "Medium Flywheel"
 zhCN = "中型飞轮"
 zhTW = "中型飛輪"
@@ -172,8 +172,8 @@ viVN = "Bánh đà cỡ trung"
 trTR = "Orta Volan"
 
 ["Battery.Flywheels.MediumFlywheel.Description"]
-status = "normal"
 raw = "A medium flywheel with moderate capacity."
+status = "normal"
 enUS = "A medium flywheel with moderate capacity."
 zhCN = "中型飞轮，容量适中。"
 zhTW = "中型飛輪，儲能容量適中。"
@@ -189,8 +189,8 @@ viVN = "Một bánh đà cỡ trung với sức chứa vừa phải."
 trTR = "Orta kapasiteye sahip orta boy bir volan."
 
 ["Battery.Flywheels.MediumFlywheel.FlavorDescription"]
-status = "normal"
 raw = "The magnum opus of Ol' Kazko"
+status = "normal"
 enUS = "The magnum opus of Ol' Kazko"
 zhCN = "老卡兹科的杰作"
 zhTW = "老卡茲科的傑作"
@@ -206,8 +206,8 @@ viVN = "Kiệt tác vĩ đại nhất của lão Kazko"
 trTR = "Yaşlı Kazko’nun başyapıtı"
 
 ["Battery.Flywheels.MediumHorizontalFramedFlywheel.DisplayName"]
-status = "normal"
 raw = "Medium Horizontal Framed Flywheel"
+status = "normal"
 enUS = "Medium Horizontal Framed Flywheel"
 zhCN = "中型卧式框架飞轮"
 zhTW = "中型橫向框架飛輪"
@@ -223,8 +223,8 @@ viVN = "Bánh đà khung ngang cỡ vừa"
 trTR = "Orta Yatay Çerçeveli Volan"
 
 ["Battery.Flywheels.MediumHorizontalFramedFlywheel.Description"]
-status = "normal"
 raw = "A medium sized flywheel built into a frame."
+status = "normal"
 enUS = "A medium-sized flywheel built into a frame."
 zhCN = "嵌入框架中的中型飞轮。"
 zhTW = "內嵌於框架中的中型飛輪。"
@@ -240,8 +240,8 @@ viVN = "Một bánh đà cỡ vừa được lắp vào khung."
 trTR = "Bir çerçeveye yerleştirilmiş orta boy bir volan."
 
 ["Battery.Flywheels.MediumHorizontalFramedFlywheel.FlavorDescription"]
-status = "normal"
 raw = "\"What if we put the gears inside the flywheel?\" - Ol' Kazko"
+status = "normal"
 enUS = "\"What if we put the gears inside the flywheel?\" - Ol' Kazko"
 zhCN = "“要是我们把齿轮装进飞轮里呢？”——老卡兹科"
 zhTW = "「如果我們把齒輪裝進飛輪裡呢？」——老卡茲科"
@@ -257,8 +257,8 @@ viVN = "“Hay là ta đặt bánh răng bên trong bánh đà thì sao?” - Ol
 trTR = "“Dişli çarkları volanın içine koysak nasıl olur?” - Ol' Kazko"
 
 ["Battery.Flywheels.MediumVerticalFramedFlywheel.DisplayName"]
-status = "normal"
 raw = "Medium Vertical Framed Flywheel"
+status = "normal"
 enUS = "Medium Vertical Framed Flywheel"
 zhCN = "中型立式框架飞轮"
 zhTW = "中型垂直框架飛輪"
@@ -274,8 +274,8 @@ viVN = "Bánh đà khung đứng cỡ trung"
 trTR = "Orta Boy Dikey Çerçeveli Volan"
 
 ["Battery.Flywheels.MediumVerticalFramedFlywheel.Description"]
-status = "normal"
 raw = "A medium sized flywheel built into a frame."
+status = "normal"
 enUS = "A medium-sized flywheel built into a frame."
 zhCN = "安装在框架中的中型飞轮。"
 zhTW = "內建於框架中的中型飛輪。"
@@ -291,8 +291,8 @@ viVN = "Bánh đà cỡ trung được lắp trong một khung."
 trTR = "Bir çerçeveye yerleştirilmiş orta boy bir volan."
 
 ["Battery.Flywheels.MediumVerticalFramedFlywheel.FlavorDescription"]
-status = "normal"
 raw = "\"What if we put the gears inside the flywheel?\" - Ol' Kazko"
+status = "normal"
 enUS = "\"What if we put the gears inside the flywheel?\" - Ol' Kazko"
 zhCN = "“要是我们把齿轮装进飞轮里呢？”——老卡兹科"
 zhTW = "「如果我們把齒輪裝進飛輪裡呢？」——老卡茲科"
@@ -308,8 +308,8 @@ viVN = "“Nếu chúng ta đặt bánh răng bên trong bánh đà thì sao?”
 trTR = "“Ya dişlileri volanın içine koyarsak?” - Ol' Kazko"
 
 ["Battery.Flywheels.LargeFlywheel.DisplayName"]
-status = "normal"
 raw = "Large Flywheel"
+status = "normal"
 enUS = "Large Flywheel"
 zhCN = "大型飞轮"
 zhTW = "大型飛輪"
@@ -325,8 +325,8 @@ viVN = "Bánh đà lớn"
 trTR = "Büyük Volan"
 
 ["Battery.Flywheels.LargeFlywheel.Description"]
-status = "normal"
 raw = "A large and higher-capacity flywheel."
+status = "normal"
 enUS = "A larger flywheel with greater capacity."
 zhCN = "更大、容量更高的飞轮。"
 zhTW = "大型且容量更高的飛輪。"
@@ -342,8 +342,8 @@ viVN = "Một bánh đà lớn hơn và có dung lượng cao hơn."
 trTR = "Daha büyük ve daha yüksek kapasiteli bir volan."
 
 ["Battery.Flywheels.LargeFlywheel.FlavorDescription"]
-status = "normal"
 raw = "The magnum opus of Ol' Kazko"
+status = "normal"
 enUS = "The magnum opus of Ol' Kazko"
 zhCN = "老卡兹科的毕生杰作"
 zhTW = "老卡茲科的傑作"
@@ -359,8 +359,8 @@ viVN = "Tác phẩm để đời của lão Kazko"
 trTR = "İhtiyar Kazko'nun başyapıtı"
 
 ["Battery.Flywheels.LargeHorizontalFramedFlywheel.DisplayName"]
-status = "normal"
 raw = "Large Horizontal Framed Flywheel"
+status = "normal"
 enUS = "Large Horizontal Framed Flywheel"
 zhCN = "大型卧式框架飞轮"
 zhTW = "大型水平框架式飛輪"
@@ -376,8 +376,8 @@ viVN = "Bánh đà khung nằm ngang cỡ lớn"
 trTR = "Büyük Yatay Çerçeveli Volan"
 
 ["Battery.Flywheels.LargeHorizontalFramedFlywheel.Description"]
-status = "normal"
 raw = "The largest flywheel constructed in a sturdy frame."
+status = "normal"
 enUS = "The largest flywheel built into a sturdy frame."
 zhCN = "安装在坚固框架中的大型飞轮。"
 zhTW = "以堅固框架建造的最大型飛輪。"
@@ -393,8 +393,8 @@ viVN = "Bánh đà lớn nhất được lắp trong một khung chắc chắn."
 trTR = "Sağlam bir çerçeveye yerleştirilmiş en büyük volan."
 
 ["Battery.Flywheels.LargeHorizontalFramedFlywheel.FlavorDescription"]
-status = "normal"
 raw = "The pinnacle of flywheel technology"
+status = "normal"
 enUS = "The pinnacle of flywheel technology"
 zhCN = "飞轮技术的巅峰"
 zhTW = "飛輪技術的巔峰糊塗了"
@@ -410,8 +410,8 @@ viVN = "Đỉnh cao của công nghệ bánh đà"
 trTR = "Volan teknolojisinin zirvesi"
 
 ["Battery.Flywheels.LargeVerticalFramedFlywheel.DisplayName"]
-status = "normal"
 raw = "Large Vertical Framed Flywheel"
+status = "normal"
 enUS = "Large Vertical Framed Flywheel"
 zhCN = "大型垂直框架飞轮"
 zhTW = "大型垂直框架飛輪"
@@ -427,8 +427,8 @@ viVN = "Bánh đà khung đứng lớn"
 trTR = "Büyük Dikey Çerçeveli Volan"
 
 ["Battery.Flywheels.LargeVerticalFramedFlywheel.Description"]
-status = "normal"
 raw = "The largest flywheel constructed in a sturdy frame."
+status = "normal"
 enUS = "The largest flywheel, built in a sturdy frame."
 zhCN = "安装在坚固框架中的最大型飞轮。"
 zhTW = "以堅固框架建造的最大型飛輪。"
@@ -444,8 +444,8 @@ viVN = "Bánh đà lớn nhất được lắp trong khung chắc chắn."
 trTR = "Sağlam bir çerçeve içine yerleştirilmiş en büyük volan."
 
 ["Battery.Flywheels.LargeVerticalFramedFlywheel.FlavorDescription"]
-status = "normal"
 raw = "The pinnacle of flywheel technology"
+status = "normal"
 enUS = "The pinnacle of flywheel technology"
 zhCN = "飞轮技术的巅峰"
 zhTW = "飛輪技術的巔峰"
@@ -477,8 +477,8 @@ viVN = "Khớp bánh đà cỡ vừa"
 trTR = "Orta Boy Volan Kavşağı"
 
 ["Battery.Flywheels.MediumVerticalJunction.Description"]
-status = "normal"
 raw = "A medium frame that can be used to aid in the connection of stacked Medium Framed Flywheels."
+status = "normal"
 enUS = "A medium frame that can be used to help connect stacked Medium Framed Flywheels."
 zhCN = "一种中型框架，可用于连接堆叠的中型框架飞轮。"
 zhTW = "可用來輔助連接堆疊式中型框架飛輪的中型框架。"
@@ -494,8 +494,8 @@ viVN = "Một khung cỡ vừa có thể được dùng để hỗ trợ kết n
 trTR = "Üst üste yerleştirilmiş Orta Çerçeveli Volanları birbirine bağlamaya yardımcı olmak için kullanılabilen orta boy bir çerçeve."
 
 ["Battery.Flywheels.MediumVerticalJunction.FlavorDescription"]
-status = "normal"
 raw = "The sky is the limit!"
+status = "normal"
 enUS = "The sky is the limit!"
 zhCN = "天空才是极限！"
 zhTW = "天空才是極限！"
@@ -527,8 +527,8 @@ viVN = "Nút giao bánh đà lớn"
 trTR = "Büyük Volan Kavşağı"
 
 ["Battery.Flywheels.LargeVerticalJunction.Description"]
-status = "normal"
 raw = "A large sturdy frame that can be used to aid in the connection of stacked Large Framed Flywheels."
+status = "normal"
 enUS = "A large, sturdy frame that can help connect stacked Large Framed Flywheels."
 zhCN = "坚固的大型框架，可用于辅助连接堆叠的大型框架飞轮。"
 zhTW = "大型堅固的框架，可用於連接堆疊的大型框架飛輪。"
@@ -544,8 +544,8 @@ viVN = "Một khung lớn chắc chắn có thể dùng để hỗ trợ kết n
 trTR = "Üst üste yerleştirilmiş Büyük Çerçeveli Volanları birbirine bağlamaya yardımcı olmak için kullanılabilen büyük ve sağlam bir çerçeve."
 
 ["Battery.Flywheels.LargeVerticalJunction.FlavorDescription"]
-status = "normal"
 raw = "The sky is the limit!"
+status = "normal"
 enUS = "The sky is the limit!"
 zhCN = "天高任鸟飞！"
 zhTW = "天高任鳥飛！"
@@ -561,8 +561,8 @@ viVN = "Bầu trời là giới hạn duy nhất!"
 trTR = "Gökyüzü sınır değil!"
 
 ["Battery.Flywheels.ToolGroups.Flywheels.DisplayName"]
-status = "normal"
 raw = "Flywheels"
+status = "normal"
 enUS = "Flywheels"
 zhCN = "飞轮"
 zhTW = "飛輪"
@@ -608,8 +608,8 @@ viVN = "Bánh xe"
 trTR = "Çark"
 
 ["Battery.Flywheels.UI.PowerDecayLabel"]
-status = "normal"
 raw = "Power Loss"
+status = "normal"
 enUS = "Power Loss"
 zhCN = "动力损耗"
 zhTW = "動力損耗"
@@ -625,8 +625,8 @@ viVN = "Suy giảm năng lượng cơ học"
 trTR = "Güç Kaybı"
 
 ["Battery.Flywheels.UI.CapacityLabel"]
-status = "normal"
 raw = "Capacity"
+status = "normal"
 enUS = "Capacity"
 zhCN = "容量"
 zhTW = "容量"
@@ -658,8 +658,8 @@ csCZ = "Položení na zem / Lze skládat na sebe"
 trTR = "Zemin / Üst üste yerleştirilebilir"
 
 ["Battery.Flywheels.UI.MoreInfoText.SelfStackableText"]
-status = "normal"
 raw = "Can be built either on ground or another"
+status = "normal"
 enUS = "Can be built either on the ground or on another one."
 zhCN = "可建造在地面或其他同类建筑上方"
 zhTW = "可建造在地面或另一個同類建築上"

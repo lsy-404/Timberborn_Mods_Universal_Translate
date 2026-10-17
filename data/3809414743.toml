@@ -2,8 +2,8 @@
 name = "Forest Mushrooms"
 
 ["ForestMushrooms.Settings.Help"]
-status = "normal"
 raw = "Times use simulation days unless marked hours. Age and moisture thresholds apply immediately. Already sampled countdowns stay unchanged; new waits use the new settings. Picking time applies when the next picking job starts. Settings apply across settlements."
+status = "normal"
 enUS = "Times use simulation days unless marked hours. Age and moisture thresholds apply immediately. Already sampled countdowns stay unchanged; new waits use the new settings. Picking time applies when the next picking job starts. Settings apply across settlements."
 zhCN = "时间单位为模拟日，除非标明小时。年龄和湿度阈值立即生效。已开始计时的倒计时保持不变；新的等待将使用新设置。采摘时间设置将在下一项采摘任务开始时生效。设置适用于所有定居点。"
 zhTW = "時間以模擬日計算，除非標示為小時。年齡與濕度門檻會立即生效。已開始計時的倒數不變；新的等待時間則使用新設定。採摘時間會在下一項採摘工作開始時生效。設定適用於所有殖民地。"
@@ -19,8 +19,8 @@ viVN = "Thời gian được tính theo ngày mô phỏng, trừ khi ghi rõ là
 trTR = "Saatler, saat olarak belirtilmedikçe simülasyon günlerini ifade eder. Yaş ve nem eşikleri hemen uygulanır. Halihazırda örneklenmiş geri sayımlar değişmeden kalır; yeni bekleme sürelerinde yeni ayarlar kullanılır. Toplama süresi, bir sonraki toplama işi başladığında uygulanır. Ayarlar tüm yerleşim yerlerinde geçerlidir."
 
 ["ForestMushrooms.Settings.MinimumAge"]
-status = "normal"
 raw = "Minimum tree age (days)"
+status = "normal"
 enUS = "Minimum tree age (days)"
 zhCN = "树木最小年龄（天）"
 zhTW = "樹木最低樹齡（天）"
@@ -36,8 +36,8 @@ viVN = "Độ tuổi tối thiểu của cây (ngày)"
 trTR = "Asgari ağaç yaşı (gün)"
 
 ["ForestMushrooms.Settings.MinimumAge.Help"]
-status = "normal"
 raw = "Age since creation or cutting before mushrooms can grow. Default 40. Range 0-10000."
+status = "normal"
 enUS = "Age since creation or cutting before mushrooms can grow. Default: 40. Range: 0–10000."
 zhCN = "蘑菇生长前，自创建或砍伐以来需经过的时间。默认值 40。范围 0-10000。"
 zhTW = "自生成或砍伐後，蘑菇生長前所需的時間。預設值 40。範圍 0-10000。"
@@ -53,8 +53,8 @@ viVN = "Tuổi kể từ khi được tạo ra hoặc bị chặt để nấm c�
 trTR = "Mantarların büyüyebilmesi için oluşturulmalarından veya kesilmelerinden bu yana geçmesi gereken süre. Varsayılan: 40. Aralık: 0-10000."
 
 ["ForestMushrooms.Settings.WetDays"]
-status = "normal"
 raw = "Consecutive moist days"
+status = "normal"
 enUS = "Consecutive moist days"
 zhCN = "连续潮湿天数"
 zhTW = "連續潮濕天數"
@@ -70,8 +70,8 @@ viVN = "Số ngày ẩm ướt liên tiếp"
 trTR = "Ardışık nemli günler"
 
 ["ForestMushrooms.Settings.WetDays.Help"]
-status = "normal"
 raw = "Uninterrupted irrigation required for growth. Default 8. Range 0-10000. Dry soil removes mushrooms on living trees."
+status = "normal"
 enUS = "Uninterrupted irrigation required for growth. Default: 8. Range: 0–10000. Dry soil removes mushrooms from living trees."
 zhCN = "生长需要持续灌溉。默认值为 8。范围：0-10000。土壤干燥会使活树上的蘑菇消失。"
 zhTW = "生長需要持續灌溉。預設值為 8。範圍：0-10000。土壤乾燥時，會移除活樹上的蘑菇。"
@@ -87,8 +87,8 @@ viVN = "Cần tưới liên tục để nấm phát triển. Mặc định là 8
 trTR = "Büyüme için kesintisiz sulama gerekir. Varsayılan: 8. Aralık: 0-10000. Kuru toprak, yaşayan ağaçlardaki mantarları yok eder."
 
 ["ForestMushrooms.Settings.InitialMean"]
-status = "normal"
 raw = "Average initial spawn delay (days)"
+status = "normal"
 enUS = "Average initial spawn delay (days)"
 zhCN = "平均初始生成延迟（天）"
 zhTW = "平均初始生成延遲（天）"
@@ -104,8 +104,8 @@ viVN = "Độ trễ trung bình trước khi xuất hiện lần đầu (ngày)"
 trTR = "Ortalama ilk ortaya çıkma gecikmesi (gün)"
 
 ["ForestMushrooms.Settings.InitialMean.Help"]
-status = "normal"
 raw = "Mean exponential wait after eligibility. Default 16. Zero removes this random wait. Range 0-10000. Existing countdowns are preserved."
+status = "normal"
 enUS = "Mean exponential wait after eligibility. Default: 16. Zero removes this random wait. Range: 0–10000. Existing countdowns are preserved."
 zhCN = "符合条件后的平均指数等待时间。默认值为 16。设为 0 可取消此随机等待。范围：0-10000。现有倒计时会保留。"
 zhTW = "符合條件後的平均指數等待時間。預設值為 16。設為 0 可移除此隨機等待時間。範圍為 0-10000。現有倒數計時會保留。"
@@ -121,8 +121,8 @@ viVN = "Thời gian chờ trung bình theo phân phối hàm mũ sau khi đủ �
 trTR = "Uygun hâle geldikten sonraki ortalama üstel bekleme süresi. Varsayılan: 16. Sıfır, bu rastgele beklemeyi kaldırır. Aralık: 0-10000. Mevcut geri sayımlar korunur."
 
 ["ForestMushrooms.Settings.RegrowthMin"]
-status = "normal"
 raw = "Minimum regrowth delay (days)"
+status = "normal"
 enUS = "Minimum regrowth delay (days)"
 zhCN = "最短再生延迟（天）"
 zhTW = "最短再生延遲（天數）"
@@ -138,8 +138,8 @@ viVN = "Thời gian chờ tái sinh tối thiểu (ngày)"
 trTR = "Asgari yeniden büyüme gecikmesi (gün)"
 
 ["ForestMushrooms.Settings.RegrowthMin.Help"]
-status = "normal"
 raw = "Lower bound for a new random regrowth wait. Default 12. Range 0-10000. Raising this above the maximum also raises the maximum."
+status = "normal"
 enUS = "Lower bound for a new random regrowth wait. Default 12. Range 0–10000. Raising this above the maximum also raises the maximum."
 zhCN = "新随机再生等待时间的下限。默认值为 12。范围：0-10000。将此值调高至超过上限时，上限也会随之提高。"
 zhTW = "新隨機再生等待時間的下限。預設值為 12。範圍：0-10000。將此值調高至超過上限時，也會調高上限。"
@@ -155,8 +155,8 @@ viVN = "Giới hạn dưới của thời gian chờ tái sinh ngẫu nhiên m�
 trTR = "Yeni bir rastgele yeniden büyüme bekleme süresinin alt sınırı. Varsayılan: 12. Aralık: 0-10000. Bu değerin maksimumun üzerine çıkarılması maksimumu da yükseltir."
 
 ["ForestMushrooms.Settings.RegrowthMax"]
-status = "normal"
 raw = "Maximum regrowth delay (days)"
+status = "normal"
 enUS = "Maximum regrowth delay (days)"
 zhCN = "最长再生延迟（天）"
 zhTW = "最大再生延遲（天）"
@@ -172,8 +172,8 @@ viVN = "Độ trễ tái sinh tối đa (ngày)"
 trTR = "Maksimum yeniden büyüme gecikmesi (gün)"
 
 ["ForestMushrooms.Settings.RegrowthMax.Help"]
-status = "normal"
 raw = "Upper bound for a new random regrowth wait. Default 20. Range 0-10000. Lowering this below the minimum also lowers the minimum. Equal bounds give a fixed delay."
+status = "normal"
 enUS = "Upper bound for the new random regrowth wait. Default: 20. Range: 0–10000. Lowering this below the minimum also lowers the minimum. Equal bounds give a fixed delay."
 zhCN = "新随机再生等待时间的上限。默认值为 20。范围：0-10000。将此值调低至低于下限时，下限也会随之降低。上下限相等时，延迟时间固定。"
 zhTW = "新隨機再生等待時間的上限。預設值為 20。範圍：0-10000。將此值調低至低於下限時，下限也會隨之降低。上下限相同時，延遲時間固定。"
@@ -189,8 +189,8 @@ viVN = "Giới hạn trên của thời gian chờ tái sinh ngẫu nhiên mới
 trTR = "Yeni rastgele yeniden büyüme bekleme süresi için üst sınır. Varsayılan: 20. Aralık: 0-10000. Bu değeri minimumun altına düşürmek minimumu da düşürür. Sınırlar eşitse bekleme süresi sabit olur."
 
 ["ForestMushrooms.Settings.PickingHours"]
-status = "normal"
 raw = "Picking time (working hours)"
+status = "normal"
 enUS = "Picking time (working hours)"
 zhCN = "采摘时间（工作时段）"
 zhTW = "採收時間（工作時段）"
@@ -206,8 +206,8 @@ viVN = "Thời gian hái (giờ làm việc)"
 trTR = "Toplama zamanı (çalışma saatleri)"
 
 ["ForestMushrooms.Settings.PickingHours.Help"]
-status = "normal"
 raw = "Time spent picking one mushroom crop. Default 0.5 hours. Range 0.01-240. Takes effect on the next picking job."
+status = "normal"
 enUS = "Time spent picking a mushroom crop. Default: 0.5 hours. Range: 0.01–240. Takes effect on the next picking job."
 zhCN = "采摘一株蘑菇作物所需的时间。默认值为 0.5 小时。范围：0.01-240。将在下一项采摘工作中生效。"
 zhTW = "採摘一株蘑菇作物所需時間。預設為 0.5 小時。範圍：0.01-240。下次採摘工作時生效。"
@@ -223,8 +223,8 @@ viVN = "Thời gian dành cho việc thu hoạch một vụ nấm. Mặc định
 trTR = "Bir mantar mahsulünü toplamak için harcanan süre. Varsayılan: 0.5 saat. Aralık: 0.01-240. Bir sonraki toplama işinde geçerli olur."
 
 ["ForestMushrooms.Settings.DeadTreeDays"]
-status = "normal"
 raw = "Dead-tree mushroom lifetime (days)"
+status = "normal"
 enUS = "Dead-tree mushroom lifespan (days)"
 zhCN = "枯树蘑菇存活时间（天）"
 zhTW = "枯樹蘑菇存活時間（天）"
@@ -240,8 +240,8 @@ viVN = "Tuổi thọ của nấm trên cây chết (ngày)"
 trTR = "Ölü ağaç mantarının ömrü (gün)"
 
 ["ForestMushrooms.Settings.DeadTreeDays.Help"]
-status = "normal"
 raw = "Time an existing crop stays pickable after its tree dies. Default 2. Zero removes it immediately. Cutting always removes the crop. Changing this applies to existing dead trees."
+status = "normal"
 enUS = "Time an existing crop remains pickable after its tree dies. Default: 2. Zero removes it immediately. Cutting always removes the crop. Changing this setting affects existing dead trees."
 zhCN = "树木死亡后，其作物仍可采摘的时长。默认值为 2。设为 0 会立即移除作物。砍伐树木总会移除作物。更改此设置会影响现有的枯树。"
 zhTW = "樹木死亡後，現有作物仍可採摘的時間。預設值為 2。設為 0 會立即移除作物。砍伐樹木一定會移除作物。變更此設定也會套用至現有的枯死樹木。"

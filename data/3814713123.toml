@@ -2,8 +2,8 @@
 name = "Honey Time Reworked for Leaf Coats [unofficial]"
 
 ["Good.GlazedFruit.DisplayName"]
-status = "normal"
 raw = "Glazed Fruit"
+status = "normal"
 enUS = "Glazed Fruit"
 zhCN = "糖霜水果"
 zhTW = "蜜漬水果"
@@ -19,8 +19,8 @@ viVN = "Trái cây tráng men"
 trTR = "Şekerlemeli Meyve"
 
 ["Good.GlazedFruit.PluralDisplayName"]
-status = "normal"
 raw = "Glazed Fruit"
+status = "normal"
 enUS = "Glazed Fruit"
 zhCN = "糖霜水果"
 zhTW = "蜜漬水果"
@@ -36,8 +36,8 @@ viVN = "Trái cây phủ men đường"
 trTR = "Şekerlemeli Meyveler"
 
 ["Need.GlazedFruit.PluralDisplayName"]
-status = "normal"
 raw = "Glazed Fruit"
+status = "normal"
 enUS = "Glazed Fruit"
 zhCN = "蜜渍水果"
 zhTW = "蜜漬水果"

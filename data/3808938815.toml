@@ -2,8 +2,8 @@
 name = "UI Tweaks"
 
 ["UITweaks.Need.Value"]
-status = "normal"
 raw = "Value: {0} out of {1}"
+status = "normal"
 enUS = "Value: {0} out of {1}"
 zhCN = "数值：{0}/{1}"
 zhTW = "數值：{0}／{1}"
@@ -19,8 +19,8 @@ viVN = "Giá trị: {0} trên {1}"
 trTR = "Değer: {0} / {1}"
 
 ["UITweaks.Need.Change"]
-status = "normal"
 raw = "Change: {0} per day"
+status = "normal"
 enUS = "Change: {0} per day"
 zhCN = "变化：每天 {0}"
 zhTW = "變化：每天 {0}"
@@ -36,8 +36,8 @@ viVN = "Thay đổi: {0} mỗi ngày"
 trTR = "Değişim: günde {0}"
 
 ["UITweaks.Avatar.RecentActivities"]
-status = "normal"
 raw = "Recent activities:"
+status = "normal"
 enUS = "Recent activities:"
 zhCN = "最近活动："
 zhTW = "近期活動："
@@ -53,8 +53,8 @@ viVN = "Hoạt động gần đây:"
 trTR = "Son etkinlikler:"
 
 ["UITweaks.Avatar.Activity"]
-status = "normal"
 raw = "{0}: {1}"
+status = "normal"
 enUS = "{0}: {1}"
 zhCN = "{0}：{1}"
 zhTW = "{0}：{1}"
@@ -70,8 +70,8 @@ viVN = "{0}: {1}"
 trTR = "{0}: {1}"
 
 ["UITweaks.Avatar.Ongoing"]
-status = "normal"
 raw = "{0} so far"
+status = "normal"
 enUS = "{0} so far"
 zhCN = "目前为止：{0}"
 zhTW = "目前為止：{0}"
@@ -87,8 +87,8 @@ viVN = "{0} đến nay"
 trTR = "Şu ana kadar {0}"
 
 ["UITweaks.WaterSource.Strength"]
-status = "normal"
 raw = "Strength: {0}"
+status = "normal"
 enUS = "Strength: {0}"
 zhCN = "强度：{0}"
 zhTW = "強度：{0}"
@@ -104,8 +104,8 @@ viVN = "Độ mạnh: {0}"
 trTR = "Güç: {0}"
 
 ["UITweaks.WaterSource.CurrentStrength"]
-status = "normal"
 raw = "Current strength: {0}"
+status = "normal"
 enUS = "Current strength: {0}"
 zhCN = "当前水流强度：{0}"
 zhTW = "目前水流強度：{0}"
@@ -121,8 +121,8 @@ viVN = "Cường độ hiện tại: {0}"
 trTR = "Mevcut akış gücü: {0}"
 
 ["UITweaks.WaterSource.Contamination"]
-status = "normal"
 raw = "Contamination: {0}"
+status = "normal"
 enUS = "Contamination: {0}"
 zhCN = "污染程度：{0}"
 zhTW = "污染程度：{0}"
@@ -138,8 +138,8 @@ viVN = "Mức độ ô nhiễm: {0}"
 trTR = "Kirlenme: {0}"
 
 ["UITweaks.Behavior.AttractionNeedBehavior"]
-status = "normal"
 raw = "Visiting an attraction"
+status = "normal"
 enUS = "Visiting an attraction"
 zhCN = "参观景点"
 zhTW = "正在參觀景點"
@@ -155,8 +155,8 @@ viVN = "Tham quan một điểm du lịch"
 trTR = "Bir cazibe merkezini ziyaret ediyor"
 
 ["UITweaks.Behavior.BringNutrientBehavior"]
-status = "normal"
 raw = "Bringing nutrients"
+status = "normal"
 enUS = "Bringing nutrients"
 zhCN = "运送养分"
 zhTW = "正在運送營養物質"
@@ -219,8 +219,8 @@ viVN = "Nhiệm vụ của thợ xây"
 trTR = "İnşaatçının görevleri"
 
 ["UITweaks.Behavior.CarryRootBehavior"]
-status = "normal"
 raw = "Carrying goods"
+status = "normal"
 enUS = "Carrying goods"
 zhCN = "搬运货物"
 zhTW = "搬運貨物"
@@ -236,8 +236,8 @@ viVN = "Đang vận chuyển hàng hóa"
 trTR = "Eşya taşıma"
 
 ["UITweaks.Behavior.CharacterControlRootBehavior"]
-status = "normal"
 raw = "Following orders"
+status = "normal"
 enUS = "Following orders"
 zhCN = "正在执行命令"
 zhTW = "正在遵從指令"
@@ -285,8 +285,8 @@ viVN = "Đang mắc bệnh"
 trTR = "Hastalanıyor"
 
 ["UITweaks.Behavior.CriticalNeederRootBehavior"]
-status = "normal"
 raw = "Tending an urgent need"
+status = "normal"
 enUS = "Tending an urgent need"
 zhCN = "处理紧急需求"
 zhTW = "處理緊急需求"
@@ -317,8 +317,8 @@ viVN = "Đã chết"
 trTR = "Ölü"
 
 ["UITweaks.Behavior.DemolishBehavior"]
-status = "normal"
 raw = "Demolishing"
+status = "normal"
 enUS = "Demolishing"
 zhCN = "拆除中"
 zhTW = "拆除中"
@@ -334,8 +334,8 @@ viVN = "Đang phá dỡ"
 trTR = "Yıkım"
 
 ["UITweaks.Behavior.DieRootBehavior"]
-status = "normal"
 raw = "Dying"
+status = "normal"
 enUS = "Dying"
 zhCN = "死亡"
 zhTW = "死亡中的"
@@ -367,8 +367,8 @@ csCZ = "Přesouvání zboží mezi okrsky"
 trTR = "İlçeler arasında eşya taşıma"
 
 ["UITweaks.Behavior.EmptyInventoriesLaborBehavior"]
-status = "normal"
 raw = "Emptying storage"
+status = "normal"
 enUS = "Emptying storage"
 zhCN = "清空储存空间"
 zhTW = "清空儲存空間"
@@ -446,8 +446,8 @@ viVN = "Canh tác"
 trTR = "Tarım"
 
 ["UITweaks.Behavior.FillInputWorkplaceBehavior"]
-status = "normal"
 raw = "Bringing supplies to work"
+status = "normal"
 enUS = "Bringing supplies to work"
 zhCN = "将物资带到工作地点"
 zhTW = "將補給品送往工作場所"
@@ -479,8 +479,8 @@ viVN = "Thu lượm"
 trTR = "Toplama"
 
 ["UITweaks.Behavior.GoodStackRetrieverBehavior"]
-status = "normal"
 raw = "Collecting goods"
+status = "normal"
 enUS = "Collecting goods"
 zhCN = "收集物品"
 zhTW = "收集貨物"
@@ -510,8 +510,8 @@ viVN = "Vận chuyển hàng hóa"
 trTR = "Taşıma işi"
 
 ["UITweaks.Behavior.InventoryNeedBehavior"]
-status = "normal"
 raw = "Eating or drinking"
+status = "normal"
 enUS = "Eating or drinking"
 zhCN = "进食或饮水"
 zhTW = "飲食中"
@@ -556,8 +556,8 @@ csCZ = "Kácení stromů"
 viVN = "Đốn cây"
 
 ["UITweaks.Behavior.NeederRootBehavior"]
-status = "normal"
 raw = "Seeing to its needs"
+status = "normal"
 enUS = "Tending to its needs"
 zhCN = "满足其需求"
 zhTW = "滿足其需求"
@@ -573,8 +573,8 @@ viVN = "Đáp ứng nhu cầu của nó"
 trTR = "İhtiyaçlarını karşılama"
 
 ["UITweaks.Behavior.ObtainGoodWorkplaceBehavior"]
-status = "normal"
 raw = "Fetching goods"
+status = "normal"
 enUS = "Fetching goods"
 zhCN = "正在取货"
 zhTW = "正在取貨的地點"
@@ -606,8 +606,8 @@ viVN = "Trồng cây"
 trTR = "Ekim"
 
 ["UITweaks.Behavior.PlanterWorkplaceBehavior"]
-status = "normal"
 raw = "Planting trees"
+status = "normal"
 enUS = "Planting trees"
 zhCN = "植树工坊工作行为"
 zhTW = "種植樹木"
@@ -623,8 +623,8 @@ viVN = "Trồng cây gỗ"
 trTR = "Ağaç dikimi"
 
 ["UITweaks.Behavior.ProduceWorkplaceBehavior"]
-status = "normal"
 raw = "Producing goods"
+status = "normal"
 enUS = "Producing goods"
 zhCN = "生产商品"
 zhTW = "生產貨物"
@@ -701,8 +701,8 @@ viVN = "Thu nhặt phế liệu"
 trTR = "İşe yarar malzeme toplama"
 
 ["UITweaks.Behavior.SleepNeedBehavior"]
-status = "normal"
 raw = "Sleeping"
+status = "normal"
 enUS = "Sleeping"
 zhCN = "睡觉中"
 zhTW = "睡覺中"
@@ -734,8 +734,8 @@ viVN = "Bị mắc kẹt"
 trTR = "Mahsur Kalmış"
 
 ["UITweaks.Behavior.SupplyGoodWorkplaceBehavior"]
-status = "normal"
 raw = "Supplying goods"
+status = "normal"
 enUS = "Supplying goods"
 zhCN = "供应货物"
 zhTW = "供應物資"
@@ -844,8 +844,8 @@ csCZ = "Sklizeň"
 viVN = "Thu hoạch"
 
 ["UITweaks.DistrictOrigin.Choose"]
-status = "normal"
 raw = "Choose district origin"
+status = "normal"
 enUS = "Choose district origin"
 zhCN = "选择区划起点"
 zhTW = "選擇區域起點"
@@ -861,8 +861,8 @@ viVN = "Chọn điểm khởi đầu của quận"
 trTR = "Bölge başlangıç noktasını seçin"
 
 ["UITweaks.DistrictOrigin.Reset"]
-status = "normal"
 raw = "Use the district center"
+status = "normal"
 enUS = "Use the district center"
 zhCN = "使用区中心"
 zhTW = "使用區域中心"
@@ -878,8 +878,8 @@ viVN = "Sử dụng trung tâm quận@endsection"
 trTR = "Bölge merkezini kullan"
 
 ["UITweaks.DistrictOrigin.Current"]
-status = "normal"
 raw = "Path distances measured from: {0}"
+status = "normal"
 enUS = "Path distances measured from: {0}"
 zhCN = "路径距离测量起点：{0}"
 zhTW = "路徑距離測量起點：{0}"
@@ -895,8 +895,8 @@ viVN = "Khoảng cách đường đi được đo từ: {0}"
 trTR = "Yol mesafelerinin ölçüldüğü nokta: {0}"
 
 ["UITweaks.DistrictOrigin.PickerDescription"]
-status = "normal"
 raw = "Click a building or path in this district to measure path distances from it. Clicking the district center measures from it again."
+status = "normal"
 enUS = "Click a building or path in this district to measure path distances from it. Click the district center to measure from it again."
 zhCN = "点击此区内的建筑或道路，可测量其路径距离。点击区中心则可重新从该处测量。"
 zhTW = "點擊此區域中的建築或道路，即可測量從該處起算的道路距離。再次點擊區域中心，即可改為從中心起算。"
@@ -912,8 +912,8 @@ viVN = "Nhấp vào một công trình hoặc con đường trong khu này để
 trTR = "Yol mesafelerini ölçmek için bu bölgedeki bir binaya veya yola tıklayın. Bölge merkezine tıklarsanız ölçüm yeniden merkezden yapılır."
 
 ["UITweaks.DistrictOrigin.Distance"]
-status = "normal"
 raw = "Distance to district origin: {0}"
+status = "normal"
 enUS = "Distance to district origin: {0}"
 zhCN = "距区划中心的距离：{0}"
 zhTW = "距離區域起點：{0}"
@@ -945,8 +945,8 @@ csCZ = "Barva výchozí čtvrti"
 trTR = "Bölge kaynak rengi"
 
 ["UITweaks.Settings.OriginColorTooltip"]
-status = "normal"
 raw = "The color the district origin is highlighted in while path distances are shown."
+status = "normal"
 enUS = "The color used to highlight the district origin when path distances are shown."
 zhCN = "显示路径距离时，区划起点的高亮颜色。"
 zhTW = "顯示路徑距離時，行政區起點會以此顏色標示。"
@@ -962,8 +962,8 @@ viVN = "Màu dùng để làm nổi bật điểm xuất phát của khu khi hi�
 trTR = "Yol mesafeleri gösterilirken bölge başlangıç noktasının vurgulandığı renk."
 
 ["UITweaks.Status.ContaminatedIn"]
-status = "normal"
 raw = "Contaminated in {0}"
+status = "normal"
 enUS = "Contaminated in {0}"
 zhCN = "将在 {0} 后受污染"
 zhTW = "將於 {0} 後受污染"
@@ -979,8 +979,8 @@ viVN = "Bị ô nhiễm trong {0}"
 trTR = "{0} içinde kirlenmiş"
 
 ["UITweaks.Unit.CubicMeterPerHour.NumberAndUnit"]
-status = "normal"
 raw = "{0} m³/h"
+status = "normal"
 enUS = "{0} m³/h"
 zhCN = "{0} m³/h"
 zhTW = "{0} m³/h"
@@ -996,8 +996,8 @@ viVN = "{0} m³/h"
 trTR = "{0} m³/sa"
 
 ["UITweaks.Settings.FlowPerHour"]
-status = "normal"
 raw = "Water flow per hour"
+status = "normal"
 enUS = "Water flow per hour"
 zhCN = "每小时水流量"
 zhTW = "每小時水流量"
@@ -1013,8 +1013,8 @@ viVN = "Lưu lượng nước mỗi giờ"
 trTR = "Saat başına su akışı"
 
 ["UITweaks.Settings.FlowPerHourTooltip"]
-status = "normal"
 raw = "Show water flows in m³ per in-game hour instead of per second. 1 m³/s is 19.2 m³/h."
+status = "normal"
 enUS = "Show water flows in m³ per in-game hour instead of per second. 1 m³/s is 19.2 m³/h."
 zhCN = "将水流量显示为每游戏小时的立方米数（m³），而非每秒的立方米数。1 m³/s 等于 19.2 m³/h。"
 zhTW = "將水流量顯示為每遊戲小時的 m³，而非每秒的 m³。1 m³/s 等於 19.2 m³/h。"
@@ -1030,8 +1030,8 @@ viVN = "Hiển thị lưu lượng nước theo m³ mỗi giờ trong trò chơi
 trTR = "Su akışını saniye başına değil, oyun içi saat başına m³ cinsinden göster. 1 m³/s, 19.2 m³/h değerine eşittir."
 
 ["UITweaks.Attraction.Rate"]
-status = "normal"
 raw = "{0}/h"
+status = "normal"
 enUS = "{0}/h"
 zhCN = "{0}/小时"
 zhTW = "{0}/小時"

@@ -2518,8 +2518,8 @@ viVN = "tiến độ sinh sản"
 trTR = "üreme ilerlemesi"
 
 ["IgorZ.Automation.Scriptable.Collectable.Action.SetPriority"]
-status = "normal"
 raw = "prioritize gathering: {0}"
+status = "normal"
 enUS = "prioritize gathering: {0}"
 zhCN = "优先收集：{0}"
 zhTW = "優先採集：{0}"
@@ -2552,8 +2552,8 @@ viVN = "Sẵn sàng thu thập"
 trTR = "toplama için hazır"
 
 ["IgorZ.Automation.Scriptable.Collectable.Signal.GoodReady"]
-status = "normal"
 raw = "ready for collection: {0}"
+status = "normal"
 enUS = "Ready for collection: {0}"
 zhCN = "可供收集：{0}"
 zhTW = "可供收集：{0}"
@@ -2858,8 +2858,8 @@ viVN = "kích hoạt"
 trTR = "katıl"
 
 ["IgorZ.Automation.Scriptable.FarmHouse.Action.SetMode"]
-status = "normal"
 raw = "set farm priority: {0}"
+status = "normal"
 enUS = "Set farm priority: {0}"
 zhCN = "设置农场优先级：{0}"
 zhTW = "設定農場優先順序：{0}"
@@ -3351,8 +3351,8 @@ viVN = "tiếp tục xây dựng"
 trTR = "binalamaya devam et"
 
 ["IgorZ.Automation.Scriptable.Plantable.Action.SetPriority"]
-status = "normal"
 raw = "prioritize resource: {0}"
+status = "normal"
 enUS = "Prioritize resource: {0}"
 zhCN = "优先处理资源：{0}"
 zhTW = "優先處理資源：{0}"
@@ -3385,8 +3385,8 @@ viVN = "Sẵn sàng trồng"
 trTR = "ekim için hazır"
 
 ["IgorZ.Automation.Scriptable.Plantable.Signal.ResourceReady"]
-status = "normal"
 raw = "ready to plant: {0}"
+status = "normal"
 enUS = "ready to plant: {0}"
 zhCN = "可供种植：{0}"
 zhTW = "可種植：{0}"

@@ -2,8 +2,8 @@
 name = "Irregular Lodges"
 
 ["Building.IrregularLodge1.Description"]
-status = "normal"
 raw = "A differently shaped lodge."
+status = "normal"
 enUS = "A lodge with a different shape."
 zhCN = "形状不同的海狸窝。"
 zhTW = "形狀不同的棲身屋。"
@@ -19,8 +19,8 @@ viVN = "Một căn nhà hải ly có hình dáng khác biệt."
 trTR = "Farklı şekilli bir kulübe."
 
 ["Building.IrregularLodge1.DisplayName"]
-status = "normal"
 raw = "Irregular Lodge 1"
+status = "normal"
 enUS = "Irregular Lodge 1"
 zhCN = "不规则居所 1"
 zhTW = "不規則小屋 1"
@@ -36,8 +36,8 @@ viVN = "Nhà nghỉ Irregular 1"
 trTR = "Düzensiz Barınak 1"
 
 ["Building.IrregularLodge2.Description"]
-status = "normal"
 raw = "A differently shaped lodge."
+status = "normal"
 enUS = "A differently shaped lodge."
 zhCN = "形状不同的栖居所。"
 zhTW = "外形不同的海狸窩。"
@@ -53,8 +53,8 @@ viVN = "Một căn nhà trú có hình dạng khác."
 trTR = "Farklı şekilli bir kulübe."
 
 ["Building.IrregularLodge2.DisplayName"]
-status = "normal"
 raw = "Irregular Lodge 2"
+status = "normal"
 enUS = "Irregular Lodge 2"
 zhCN = "不规则小屋 2"
 zhTW = "不規則小屋 2"

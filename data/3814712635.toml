@@ -2,8 +2,8 @@
 name = "Honey Time Reworked for Emberpelts [unofficial]"
 
 ["Recipe.LubricantWax.DisplayName"]
-status = "normal"
 raw = "Lubricant (Wax)"
+status = "normal"
 enUS = "Lubricant (Wax)"
 zhCN = "润滑剂（蜡）"
 zhTW = "潤滑劑（蠟）"

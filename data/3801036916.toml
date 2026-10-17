@@ -2,8 +2,8 @@
 name = "Northforge - Solar Panel"
 
 ["Building.SolarPanel.DisplayName"]
-status = "normal"
 raw = "Solar Panel"
+status = "normal"
 enUS = "Solar Panel"
 zhCN = "太阳能板"
 zhTW = "太陽能板"
@@ -19,8 +19,8 @@ viVN = "Tấm pin mặt trời"
 trTR = "Güneş Paneli"
 
 ["Building.SolarPanel.Description"]
-status = "normal"
 raw = "Produces up to 100 hp during daylight."
+status = "normal"
 enUS = "Produces up to 100 hp during daylight."
 zhCN = "日照期间最多可产生 100 hp。"
 zhTW = "日照期間最多可產生 100 hp。"
@@ -36,8 +36,8 @@ viVN = "Sản xuất tối đa 100 hp vào ban ngày."
 trTR = "Gün ışığında 100 hp'ye kadar güç üretir."
 
 ["Building.SolarPanel.FlavorDescription"]
-status = "normal"
 raw = "Sunshine finally required. Engineering still mandatory."
+status = "normal"
 enUS = "Sunshine finally required. Engineering still mandatory."
 zhCN = "终于需要阳光了。工程技术依然必不可少。"
 zhTW = "終於需要陽光了。工程仍是必要條件。"
@@ -53,8 +53,8 @@ viVN = "Cuối cùng cũng cần có ánh nắng. Kỹ thuật vẫn là bắt b
 trTR = "Nihayet güneş ışığı gerekiyor. Mühendislik hâlâ zorunlu."
 
 ["SolarPanel.Weather.Notification"]
-status = "normal"
 raw = "Max solar output: {0}%"
+status = "normal"
 enUS = "Max solar output: {0}%"
 zhCN = "最大太阳能输出：{0}%"
 zhTW = "最大太陽能輸出：{0}%"
@@ -70,8 +70,8 @@ viVN = "Công suất mặt trời tối đa: {0}%"
 trTR = "Maksimum güneş enerjisi çıkışı: {0}%"
 
 ["SolarPanel.Weather.TopBarTooltip"]
-status = "normal"
 raw = "Maximum solar output"
+status = "normal"
 enUS = "Maximum solar output"
 zhCN = "最大太阳能输出量"
 zhTW = "最大太陽能輸出量"

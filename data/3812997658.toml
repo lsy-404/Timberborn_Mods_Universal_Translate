@@ -2,8 +2,8 @@
 name = "Unknown"
 
 ["ClearHaulPriority.Button"]
-status = "normal"
 raw = "Clear all ({0})"
+status = "normal"
 enUS = "Clear all ({0})"
 zhCN = "全部清除（{0}）"
 zhTW = "全部清除（{0}）"

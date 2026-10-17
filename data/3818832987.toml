@@ -17,8 +17,8 @@ viVN = "Khẩn cấp"
 trTR = "Acil durum"
 
 ["grantemsley.EmergencyPriority.EmergencyTooltip"]
-status = "normal"
 raw = "Emergency: builders work this job before everything else, ignoring their schedule and skipping sleep until critically tired."
+status = "normal"
 enUS = "Emergency: Builders work on this job before everything else, ignoring their schedule and skipping sleep until critically tired."
 zhCN = "紧急：建造者会优先处理这项工作，忽略日程安排并放弃睡眠，直到疲劳程度达到危险水平。"
 zhTW = "緊急狀況：建造者會優先處理這項工作，無視作息並跳過睡眠，直到疲累不堪為止。"

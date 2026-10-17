@@ -2,8 +2,8 @@
 name = "Sate-a-Mole"
 
 ["Need.PlantMurderer.DisplayName"]
-status = "normal"
 raw = "Plant Killer"
+status = "normal"
 enUS = "Plant Killer"
 zhCN = "植物杀手"
 zhTW = "植物殺手"

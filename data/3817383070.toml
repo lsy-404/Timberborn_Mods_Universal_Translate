@@ -17,8 +17,8 @@ viVN = "Khoang khóa khí"
 trTR = "Hava kilitleri"
 
 ["Building.AirlockBlock.DisplayName"]
-status = "normal"
 raw = "Airlock Block"
+status = "normal"
 enUS = "Airlock Block"
 zhCN = "气闸方块"
 zhTW = "氣閘磚"
@@ -34,8 +34,8 @@ viVN = "Khối khoang khí nén"
 trTR = "Hava Kilidi Bloğu"
 
 ["Building.AirlockEntrance.DisplayName"]
-status = "normal"
 raw = "Airlock Entrance"
+status = "normal"
 enUS = "Airlock Entrance"
 zhCN = "气闸入口"
 zhTW = "氣閘入口"
@@ -51,8 +51,8 @@ viVN = "Lối vào buồng khóa khí"
 trTR = "Hava Kilidi Girişi"
 
 ["LongAirlock.Warning.DoorOntoWatertightTile"]
-status = "normal"
 raw = "A building's door can't open onto a watertight airlock tile. Use an Airlock Entrance."
+status = "normal"
 enUS = "A building's door can't open onto a watertight airlock tile. Use an Airlock Entrance."
 zhCN = "建筑的门无法开在水密气闸砖块上。请使用气闸入口。"
 zhTW = "建築物的門無法開向防水氣閘地磚。請使用氣閘入口。"

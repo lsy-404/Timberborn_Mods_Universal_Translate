@@ -2,8 +2,8 @@
 name = "The Barkimedes Screw"
 
 ["Building.BarkimedesScrew.DisplayName"]
-status = "normal"
 raw = "Barkimedes Screw"
+status = "normal"
 enUS = "Barkimedes Screw"
 zhCN = "巴基米德螺旋扬水器"
 zhTW = "巴基米德螺旋揚水器"
@@ -19,8 +19,8 @@ viVN = "Vít Archimedes bằng vỏ cây"
 trTR = "Barkimedes Vidası"
 
 ["Building.BarkimedesScrew.Description"]
-status = "normal"
 raw = "Lifts water or badwater two levels up a slope. Needs mechanical power. The intake must sit in water."
+status = "normal"
 enUS = "Lifts water or badwater up a slope by two levels. Requires mechanical power. The intake must be submerged."
 zhCN = "将水或恶水提升至上坡两层高处。需要机械动力。进水口必须位于水中。"
 zhTW = "將水或污水沿斜坡提升兩個高度。需要機械動力。進水口必須位於水中。"
@@ -36,8 +36,8 @@ viVN = "Nâng nước hoặc nước ô nhiễm lên cao hơn hai tầng trên m
 trTR = "Suyu veya kirli suyu bir yokuşta iki seviye yukarı taşır. Mekanik güç gerektirir. Su girişi suyun içinde olmalıdır."
 
 ["Building.BarkimedesScrew.FlavorDescription"]
-status = "normal"
 raw = "For us natural science is the Archimedes' screw that alone can turn the world to face the sun of reason. - Maxim Gorky"
+status = "normal"
 enUS = "For us, natural science is the Archimedes’ screw that alone can turn the world to face the sun of reason. - Maxim Gorky"
 zhCN = "对我们来说，自然科学就是阿基米德螺旋，唯有它能让世界转向理性的太阳。——马克西姆·高尔基"
 zhTW = "對我們而言，自然科學就是阿基米德螺旋，唯有它能讓世界轉向理性的太陽。——馬克西姆·高爾基"

@@ -12344,8 +12344,8 @@ viVN = "<YellowHighlight>Vững chắc:</YellowHighlight> Các công trình khá
 trTR = "<YellowHighlight>Sağlam:</YellowHighlight> Diğer binalar üstüne inşa edilebilir."
 
 ["Cadre.LogLadder.Name"]
-status = "normal"
 raw = "Log Ladder"
+status = "normal"
 enUS = "Log Ladder"
 zhCN = "原木梯子"
 zhTW = "原木梯子"
@@ -12361,8 +12361,8 @@ viVN = "Thang gỗ tròn"
 trTR = "Kütük Merdiven"
 
 ["Cadre.LogLadder.Desc"]
-status = "normal"
 raw = "Unidirectional ladder"
+status = "normal"
 enUS = "One-way ladder"
 zhCN = "单向梯子"
 zhTW = "單向梯子"
@@ -12378,8 +12378,8 @@ viVN = "Thang một chiều"
 trTR = "Tek yönlü merdiven"
 
 ["Cadre.LogLadder.Cite"]
-status = "normal"
 raw = "Youch! I got a splinter in my gum while knawing out this ladder!"
+status = "normal"
 enUS = "Youch! I got a splinter in my gum while gnawing on this ladder!"
 zhCN = "哎哟！我啃这架梯子的时候，木刺扎进牙龈里了！"
 zhTW = "哎唷！我啃這把梯子時，牙齦裡扎進了一根木刺！"
@@ -12527,8 +12527,8 @@ csCZ = "Odpálí terén až do hloubky 1."
 trTR = "Araziyi 1 derinliğe kadar havaya uçurur"
 
 ["Cadre.Unmite.Cite"]
-status = "normal"
 raw = "Nice! Now the battery can go an extra layer deep :D"
+status = "normal"
 enUS = "Nice! Now the battery can go one layer deeper :D"
 zhCN = "太棒了！现在电池可以再向下延伸一层 :D"
 zhTW = "太好了！現在電池可以再往下挖一層了 :D"
@@ -12575,8 +12575,8 @@ csCZ = "Vyhazuje do povětří terén až do hloubky 2 m"
 viVN = "Phá nổ địa hình xuống độ sâu 2."
 
 ["Cadre.Doumite.Cite"]
-status = "normal"
 raw = "Nice! Now the battery can go 2 layers deep :D"
+status = "normal"
 enUS = "Nice! Now the battery can go 2 layers deep :D"
 zhCN = "太棒了！现在电池可以深入 2 层啦 :D"
 zhTW = "太棒了！現在電池可以深入 2 層了 :D"
@@ -12622,8 +12622,8 @@ csCZ = "Vyhazuje do vzduchu půdu až do hloubky 3 metrů"
 trTR = "Arazinin 3 derinliğe kadar olan kısmını havaya uçurur"
 
 ["Cadre.Tremite.Cite"]
-status = "normal"
 raw = "Nice! Now the battery can go 3 layers deep :D"
+status = "normal"
 enUS = "Nice! Now the battery can go 3 layers deep :D"
 zhCN = "太棒了！现在电池可以向下延伸 3 层 :D"
 zhTW = "太棒了！現在這個電池可以建到 3 層深 :D"
@@ -13318,8 +13318,8 @@ csCZ = "Démonické jádro"
 trTR = "Şeytan Çekirdeği"
 
 ["Cadre.DemonCore.Desc"]
-status = "normal"
 raw = "Blows up land when removed or detonated"
+status = "normal"
 enUS = "Blows up the land when removed or detonated"
 zhCN = "移除或引爆时会炸毁地形"
 zhTW = "移除或引爆時會炸開地面"
@@ -13335,8 +13335,8 @@ viVN = "Phá tung đất khi bị tháo dỡ hoặc kích nổ"
 trTR = "Kaldırıldığında veya patlatıldığında araziyi havaya uçurur"
 
 ["Cadre.DemonCore.Cite"]
-status = "normal"
 raw = "The crater this leaves will make a nice lake :D"
+status = "normal"
 enUS = "The crater this leaves will make a nice lake :D"
 zhCN = "它留下的陨坑会变成一座美丽的湖泊 :D"
 zhTW = "這會留下個火山口，正好可以當湖泊 :D"
@@ -13368,8 +13368,8 @@ viVN = "Tổ Quỷ"
 trTR = "İblis Kovanı"
 
 ["Cadre.DemonHive.Desc"]
-status = "normal"
 raw = "Aids crop growth until it blows up"
+status = "normal"
 enUS = "Aids crop growth until it blows up"
 zhCN = "促进作物生长，直到它爆炸。"
 zhTW = "促進作物生長，直到它爆炸為止"
@@ -13385,8 +13385,8 @@ viVN = "Giúp cây trồng phát triển cho đến khi nó phát nổ"
 trTR = "Patlayana kadar mahsulün büyümesine yardımcı olur"
 
 ["Cadre.DemonHive.Cite"]
-status = "normal"
 raw = "The crater this leaves will make a nice pond :D"
+status = "normal"
 enUS = "The crater this leaves will make a nice pond :D"
 zhCN = "它留下的弹坑会变成一个不错的小池塘 :D"
 zhTW = "這會留下個不錯的池塘坑洞 :D"
@@ -13402,8 +13402,8 @@ viVN = "Cái hố nó để lại sẽ thành một cái ao đẹp đấy :D"
 trTR = "Bunun geride bırakacağı krater güzel bir gölet olacak :D"
 
 ["Cadre.Gyser.Name"]
-status = "normal"
 raw = "Gyser"
+status = "normal"
 enUS = "Geyser"
 zhCN = "间歇泉"
 zhTW = "間歇泉"
@@ -13451,8 +13451,8 @@ viVN = "Cuối cùng cũng không còn phải bơm khúc gỗ của chúng ta n�
 trTR = "Sonunda kütüklerimizi pompalamak zorunda kalmayacağız!... Neden gülüyorsun?"
 
 ["Cadre.BadGyser.Name"]
-status = "normal"
 raw = "Bad Gyser"
+status = "normal"
 enUS = "Bad Geyser"
 zhCN = "恶水间歇泉"
 zhTW = "毒泉噴口"
@@ -13484,8 +13484,8 @@ csCZ = "Potrubí zaražené dostatečně hluboko, aby dosáhlo na znečištěnou
 trTR = "Kirlenmiş yeraltı nehrine ulaşacak kadar derine itilmiş boru"
 
 ["Cadre.BadGyser.Cite"]
-status = "normal"
 raw = "Now we can use those shallow vile water streams for power only :D"
+status = "normal"
 enUS = "Now we can use those shallow vile water streams for power only :D"
 zhCN = "现在我们终于能只用那些浅浅的恶水水流来发电了 :D"
 zhTW = "現在我們終於能只用那些淺淺的污水流來發電了 :D"

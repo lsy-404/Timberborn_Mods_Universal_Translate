@@ -2,8 +2,8 @@
 name = "Беларуская мова"
 
 ["MainMenu.RosettaOn"]
-status = "normal"
 raw = "Rosetta: ON."
+status = "normal"
 enUS = "Rosetta: ON."
 zhCN = "罗塞塔：开启。"
 zhTW = "Rosetta：開啟。"
@@ -19,8 +19,8 @@ viVN = "Rosetta: BẬT."
 trTR = "Rosetta: AÇIK."
 
 ["Settings.Language.Name"]
-status = "normal"
 raw = "Беларуская (Belarusian)"
+status = "normal"
 enUS = "Belarusian (Belarusian)"
 zhCN = "白俄罗斯语（Belarusian）"
 zhTW = "白俄羅斯語 (Belarusian)"

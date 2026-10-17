@@ -155,8 +155,8 @@ viVN = "Các lối ra không sử dụng được niêm phong để đảm bảo
 trTR = "Kullanılmayan çıkışlar güvenlik için kapatılmıştır. Kullanılan çıkışlar, başka birisi hatırlayana kadar kapalıdır."
 
 ["ModSetting.Ygo.WatertightUtilities.PassageVisibility"]
-status = "normal"
 raw = "Passage buildings"
+status = "normal"
 enUS = "Passage buildings"
 zhCN = "通道建筑可见性"
 zhTW = "通道建築物"
@@ -172,8 +172,8 @@ viVN = "Các công trình lối đi"
 trTR = "Geçit binaları"
 
 ["ModSetting.Ygo.WatertightUtilities.PowerShaftVisibility"]
-status = "normal"
 raw = "Power shaft buildings"
+status = "normal"
 enUS = "Power shaft buildings"
 zhCN = "动力轴建筑"
 zhTW = "動力軸建築物"

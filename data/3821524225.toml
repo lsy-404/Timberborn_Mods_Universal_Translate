@@ -1,0 +1,10 @@
+[_meta]
+name = "Time in Map Editor"
+
+["TimeInMapEditor.Cycle"]
+new = "Cycle"
+status = "normal"
+
+["TimeInMapEditor.Day"]
+new = "Day"
+status = "normal"

@@ -18,8 +18,8 @@ viVN = "Tàu lượn siêu tốc — Đường đua lớn"
 trTR = "Hız Treni — Büyük Pist"
 
 ["Barbara.RollerCoaster.P1.Description"]
-status = "normal"
 raw = "Two-beaver attraction with a long prefabricated track and two laps per ride."
+status = "normal"
 enUS = "Attraction for two beavers, with a long prefabricated track and two laps per ride."
 zhCN = "可容纳两只海狸的游乐设施，配有一条预制长轨道，每次乘坐绕行两圈。"
 zhTW = "可供兩隻海狸遊玩的遊樂設施，配有一條長型預製軌道，每次乘坐繞行兩圈。"
@@ -35,8 +35,8 @@ viVN = "Trò chơi thu hút hai hải ly, với đường ray lắp ghép dài v
 trTR = "Uzun, önceden üretilmiş bir ray hattına ve her sürüşte iki tura sahip, iki kunduzluk bir eğlence treni."
 
 ["Barbara.RollerCoaster.P1.Flavor"]
-status = "normal"
 raw = "Tuck in your tail and hold on tight!"
+status = "normal"
 enUS = "Tuck in your tail and hold on tight!"
 zhCN = "夹紧尾巴，抓牢了！"
 zhTW = "夾緊尾巴，抓緊囉！"
@@ -52,8 +52,8 @@ viVN = "Cụp đuôi lại và bám thật chắc!"
 trTR = "Kuyruğunu kıstır ve sıkı tutun!"
 
 ["Barbara.RollerCoaster.Need.Joy.DisplayName"]
-status = "normal"
 raw = "Roller coaster thrill"
+status = "normal"
 enUS = "Roller coaster thrill"
 zhCN = "过山车刺激感"
 zhTW = "雲霄飛車刺激感"

@@ -2,8 +2,8 @@
 name = "Power Overdrive"
 
 ["LV.PO.Item1.Name"]
-status = "normal"
 raw = "Basic Overdriver"
+status = "normal"
 enUS = "Basic Overdriver"
 zhCN = "基础超频器"
 zhTW = "基礎超速器"
@@ -19,8 +19,8 @@ viVN = "Bộ tăng tốc quá tải cơ bản"
 trTR = "Temel Aşırı Güçlendirici"
 
 ["LV.PO.Item1.PluralName"]
-status = "normal"
 raw = "Basic Overdrivers"
+status = "normal"
 enUS = "Basic Overdrivers"
 zhCN = "基础超速器"
 zhTW = "基本超載裝置"
@@ -36,8 +36,8 @@ viVN = "Bộ tăng tốc cơ bản"
 trTR = "Temel Aşırı Yükleyiciler"
 
 ["LV.PO.Item2.Name"]
-status = "normal"
 raw = "Superior Overdriver"
+status = "normal"
 enUS = "Superior Overdriver"
 zhCN = "高级超频装置"
 zhTW = "高級超載器"
@@ -53,8 +53,8 @@ viVN = "Bộ tăng tốc vượt trội"
 trTR = "Üstün Aşırı Güçlendirici"
 
 ["LV.PO.Item2.PluralName"]
-status = "normal"
 raw = "Superior Overdrivers"
+status = "normal"
 enUS = "Superior Overdrivers"
 zhCN = "高级超速驱动器"
 zhTW = "高級超頻器"
@@ -86,8 +86,8 @@ viVN = "Bộ tăng tốc công suất tối thượng"
 trTR = "Nihai Aşırı Yükleyici"
 
 ["LV.PO.Item3.PluralName"]
-status = "normal"
 raw = "Ultimate Overdrivers"
+status = "normal"
 enUS = "Ultimate Overdrivers"
 zhCN = "终极超速器"
 zhTW = "終極超速器"
@@ -103,8 +103,8 @@ viVN = "Bộ tăng tốc quá tải tối thượng"
 trTR = "Üstün Aşırı Hızlandırıcılar"
 
 ["LV.PO.SuperiorForBasic"]
-status = "normal"
 raw = "Superior for Basic Overdriver"
+status = "normal"
 enUS = "Superior for Basic Overdriver"
 zhCN = "基础超频器的上级版本"
 zhTW = "優於基本超頻器"
@@ -150,8 +150,8 @@ csCZ = "Ultimátní vylepšení pro vylepšený overdrive"
 viVN = "Tối thượng dành cho Bộ tăng tốc cao cấp"
 
 ["LV.PO.Title"]
-status = "normal"
 raw = "Power Overdrive"
+status = "normal"
 enUS = "Power Overdrive"
 zhCN = "动力超载"
 zhTW = "動力超載"
@@ -167,8 +167,8 @@ viVN = "Tăng tốc năng lượng"
 trTR = "Güç Aşırı Yüklemesi"
 
 ["LV.PO.Effect"]
-status = "normal"
 raw = "Power Overdrive"
+status = "normal"
 enUS = "Power Overdrive"
 zhCN = "动力超载"
 zhTW = "動力超頻"
@@ -200,8 +200,8 @@ viVN = "+{0} tốc độ làm việc, +{1} mức tiêu thụ năng lượng"
 trTR = "+{0} iş hızı, +{1} güç tüketimi"
 
 ["LV.PO.NoEffect"]
-status = "normal"
 raw = "No overdrive."
+status = "normal"
 enUS = "No overdrive."
 zhCN = "无超速运行。"
 zhTW = "無超速運轉。"
@@ -217,8 +217,8 @@ viVN = "Không có chế độ tăng tốc quá mức."
 trTR = "Aşırı güçlendirme yok."
 
 ["LV.PO.NeedItems"]
-status = "normal"
 raw = "You need {0}."
+status = "normal"
 enUS = "You need {0}."
 zhCN = "你需要 {0}。"
 zhTW = "你需要 {0}。"

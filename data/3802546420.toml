@@ -2,8 +2,8 @@
 name = "Work Schedule"
 
 ["Yakovenko.WorkSchedule.FairWeather"]
-status = "normal"
 raw = "Works in fair weather"
+status = "normal"
 enUS = "Works in fair weather"
 zhCN = "晴天时工作"
 zhTW = "晴天時運作"

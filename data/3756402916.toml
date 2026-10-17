@@ -308,8 +308,8 @@ viVN = "Mở rộng tất cả"
 trTR = "Tümünü Genişlet"
 
 ["TaskPriorities.ExpandBlock"]
-status = "normal"
 raw = "Expand this task block"
+status = "normal"
 enUS = "Expand this task block"
 zhCN = "展开此任务块"
 zhTW = "展開此任務區塊"
@@ -325,8 +325,8 @@ viVN = "Mở rộng khối tác vụ này"
 trTR = "Bu görev bloğunu genişlet"
 
 ["TaskPriorities.CollapseBlock"]
-status = "normal"
 raw = "Collapse this task block"
+status = "normal"
 enUS = "Collapse this task block"
 zhCN = "折叠此任务区块"
 zhTW = "摺疊此任務區塊"
@@ -358,8 +358,8 @@ csCZ = "Zobrazit {0} zablokovaných úkolů"
 viVN = "Hiện {0} nhiệm vụ bị chặn"
 
 ["TaskPriorities.HideBlockedTooltip"]
-status = "normal"
 raw = "Hide {0} blocked tasks"
+status = "normal"
 enUS = "Hide {0} blocked tasks"
 zhCN = "隐藏 {0} 项受阻任务"
 zhTW = "隱藏 {0} 個受阻任務"
@@ -375,8 +375,8 @@ viVN = "Ẩn {0} nhiệm vụ bị chặn"
 trTR = "Engellenen {0} görevlerini gizle"
 
 ["TaskPriorities.MaterialShort"]
-status = "normal"
 raw = "M"
+status = "normal"
 enUS = "M"
 zhCN = "M"
 zhTW = "M"
@@ -407,8 +407,8 @@ viVN = "B"
 trTR = "B"
 
 ["TaskPriorities.ProgressTooltip"]
-status = "normal"
 raw = "Materials: {0}% · Build: {1}%"
+status = "normal"
 enUS = "Materials: {0}% · Build: {1}%"
 zhCN = "材料：{0}% · 建造：{1}%"
 zhTW = "材料：{0}% · 建造：{1}%"
@@ -424,8 +424,8 @@ viVN = "Vật liệu: {0}% · Xây dựng: {1}%"
 trTR = "Malzemeler: {0}% · İnşaat: {1}%"
 
 ["TaskPriorities.ChangeTaskPriority"]
-status = "normal"
 raw = "Set {0} to {1} priority"
+status = "normal"
 enUS = "Set {0} to {1} priority"
 zhCN = "将{0}的优先级设为{1}"
 zhTW = "將 {0} 的優先級設為 {1}"
@@ -473,8 +473,8 @@ csCZ = "Vybrat a zaměřit {0}"
 viVN = "Chọn và tập trung vào {0}"
 
 ["TaskPriorities.SetOverlayScale"]
-status = "normal"
 raw = "Set overlay scale to {0}%"
+status = "normal"
 enUS = "Set overlay scale to {0}%"
 zhCN = "将叠加层缩放比例设为 {0}%"
 zhTW = "將覆蓋層比例設為 {0}%"

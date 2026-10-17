@@ -392,8 +392,8 @@ csCZ = "Včelařská chata"
 trTR = "Arıcı Kulübesi"
 
 ["Building.BeekeepersShack.Description"]
-status = "normal"
 raw = "Turns Honey Comb into Honey, Wax and Propolis."
+status = "normal"
 enUS = "Turns Honeycomb into honey, wax, and propolis."
 zhCN = "将蜂巢加工成蜂蜜、蜂蜡和蜂胶。"
 zhTW = "將蜂巢轉化為蜂蜜、蜂蠟和蜂膠。"
@@ -409,8 +409,8 @@ viVN = "Chế biến Tổ ong thành Mật ong, Sáp và Keo ong."
 trTR = "Petekleri Bala, Balmumuna ve Propolise dönüştürür."
 
 ["Building.BeekeepersShack.FlavorDescription"]
-status = "normal"
 raw = "\"Sticky work, sweet reward.\" —Folktails saying"
+status = "normal"
 enUS = "\"Sticky work, sweet reward.\" —Folktails saying"
 zhCN = "“活儿黏糊糊，回报甜滋滋。”——神尾谚语"
 zhTW = "「辛勤耕耘，甜蜜收穫。」——神尾諺語"
@@ -454,8 +454,8 @@ viVN = "Bánh tổ ong mật ong"
 trTR = "Petekler"
 
 ["Good.Wax.DisplayName"]
-status = "normal"
 raw = "Wax"
+status = "normal"
 enUS = "Wax"
 zhCN = "蜂蜡"
 zhTW = "蠟"
@@ -487,8 +487,8 @@ viVN = "Sáp ong"
 trTR = "Balmumu"
 
 ["Good.Propolis.DisplayName"]
-status = "normal"
 raw = "Propolis"
+status = "normal"
 enUS = "Propolis"
 zhCN = "蜂胶"
 zhTW = "蜂膠"
@@ -519,8 +519,8 @@ viVN = "Keo ong"
 trTR = "Propolisler"
 
 ["Good.HoneyTea.DisplayName"]
-status = "normal"
 raw = "Honey Tea"
+status = "normal"
 enUS = "Honey Tea"
 zhCN = "蜂蜜茶"
 zhTW = "蜂蜜茶"
@@ -536,8 +536,8 @@ viVN = "Trà mật ong"
 trTR = "Ballı Çay"
 
 ["Good.HoneyTea.PluralDisplayName"]
-status = "normal"
 raw = "Honey Tea"
+status = "normal"
 enUS = "Honey Tea"
 zhCN = "蜂蜜茶"
 zhTW = "蜂蜜茶"
@@ -569,8 +569,8 @@ csCZ = "Vosková svíčka"
 viVN = "Nến sáp ong"
 
 ["Good.WaxCandle.PluralDisplayName"]
-status = "normal"
 raw = "Wax Candles"
+status = "normal"
 enUS = "Wax Candles"
 zhCN = "蜂蜡蜡烛"
 zhTW = "蜂蠟蠟燭"
@@ -586,8 +586,8 @@ viVN = "Nến sáp ong"
 trTR = "Balmumu Mumlar"
 
 ["Good.BeekeeperProcessing.PluralDisplayName"]
-status = "normal"
 raw = "Bee goodies manufacturing"
+status = "normal"
 enUS = "Bee Goods Manufacturing"
 zhCN = "蜜蜂制品生产"
 zhTW = "蜂蜜製品生產"
@@ -603,8 +603,8 @@ viVN = "Sản xuất các sản phẩm từ ong"
 trTR = "Arı ürünleri üretimi"
 
 ["Building.WaxLantern.DisplayName"]
-status = "normal"
 raw = "Wax Lantern"
+status = "normal"
 enUS = "Wax Lantern"
 zhCN = "蜡烛灯笼"
 zhTW = "蠟燭燈籠"
@@ -620,8 +620,8 @@ viVN = "Đèn lồng sáp"
 trTR = "Mum Feneri"
 
 ["Building.WaxLantern.Description"]
-status = "normal"
 raw = "A decorative lantern that lights up at night, burning Wax Candles."
+status = "normal"
 enUS = "A decorative lantern that lights up at night, burning wax candles."
 zhCN = "一盏装饰性灯笼，夜间会点亮，消耗蜡烛。"
 zhTW = "一盞裝飾用燈籠，夜晚會點亮，並消耗蠟燭。"
@@ -637,8 +637,8 @@ viVN = "Một chiếc đèn lồng trang trí phát sáng vào ban đêm, đốt
 trTR = "Geceleri Balmumu Mumları yakarak ışık veren dekoratif bir fener."
 
 ["Building.WaxLantern.FlavorDescription"]
-status = "normal"
 raw = "A warm glow for cold nights."
+status = "normal"
 enUS = "A warm glow for cold nights."
 zhCN = "为寒冷的夜晚增添一抹温暖的光。"
 zhTW = "寒夜裡的一抹暖光。"
@@ -654,8 +654,8 @@ viVN = "Ánh sáng ấm áp cho những đêm lạnh giá."
 trTR = "Soğuk geceler için sıcak bir parıltı."
 
 ["Good.WaxSealant.DisplayName"]
-status = "normal"
 raw = "Wax Sealant"
+status = "normal"
 enUS = "Wax Sealant"
 zhCN = "蜡封剂"
 zhTW = "蜂蠟密封劑"
@@ -671,8 +671,8 @@ viVN = "Chất trám sáp"
 trTR = "Mum Sızdırmazlık Maddesi"
 
 ["Good.WaxSealant.PluralDisplayName"]
-status = "normal"
 raw = "Wax Sealant"
+status = "normal"
 enUS = "Wax Sealants"
 zhCN = "蜡封剂"
 zhTW = "蜂蠟密封劑"
@@ -688,8 +688,8 @@ viVN = "Chất trám sáp ong"
 trTR = "Mum Sızdırmazlık Malzemesi"
 
 ["Building.MixingFacility.DisplayName"]
-status = "normal"
 raw = "Mixing Facility"
+status = "normal"
 enUS = "Mixing Facility"
 zhCN = "混合设施"
 zhTW = "混合設施"
@@ -705,8 +705,8 @@ viVN = "Cơ sở Pha trộn"
 trTR = "Karıştırma Tesisi"
 
 ["Building.MixingFacility.Description"]
-status = "normal"
 raw = "Mixes Wax Sealant for bots and Ointment for beavers."
+status = "normal"
 enUS = "Mixes Wax Sealant for bots and Ointment for beavers."
 zhCN = "为机器人调配蜡封剂，为海狸调配药膏。"
 zhTW = "調製供機器人使用的封蠟，以及供海狸使用的藥膏。"
@@ -722,8 +722,8 @@ viVN = "Pha chế Chất bịt kín sáp cho robot và Thuốc mỡ cho hải ly
 trTR = "Botlar için Balmumu Sızdırmazlık Maddesi, kunduzlar için Merhem üretir."
 
 ["Building.MixingFacility.FlavorDescription"]
-status = "normal"
 raw = "Stir it, seal it, heal it."
+status = "normal"
 enUS = "Stir it, seal it, heal it."
 zhCN = "搅一搅，封一封，疗一疗。"
 zhTW = "攪拌、封存、療癒。"
@@ -739,8 +739,8 @@ viVN = "Khuấy lên, niêm kín, chữa lành."
 trTR = "Karıştır, mühürle, iyileştir."
 
 ["Recipe.TreatedPlankWax.DisplayName"]
-status = "normal"
 raw = "Treated Planks (Wax)"
+status = "normal"
 enUS = "Treated Planks (Wax)"
 zhCN = "蜡处理木板"
 zhTW = "防水木板（蠟）"
@@ -756,8 +756,8 @@ viVN = "Ván gỗ xử lý (sáp)"
 trTR = "İşlenmiş Kalaslar (Balmumu)"
 
 ["Recipe.BeekeeperHoneyWax.DisplayName"]
-status = "normal"
 raw = "Honey & Wax"
+status = "normal"
 enUS = "Honey & Wax"
 zhCN = "蜂蜜与蜂蜡"
 zhTW = "蜂蜜與蜂蠟"
@@ -773,8 +773,8 @@ viVN = "Mật ong & sáp ong"
 trTR = "Bal ve Balmumu"
 
 ["Recipe.BeekeeperHoneyPropolis.DisplayName"]
-status = "normal"
 raw = "Honey & Propolis"
+status = "normal"
 enUS = "Honey & Propolis"
 zhCN = "蜂蜜与蜂胶"
 zhTW = "蜂蜜與蜂膠"
@@ -790,8 +790,8 @@ viVN = "Mật ong & keo ong"
 trTR = "Bal ve Propolis"
 
 ["Recipe.BeekeeperWaxPropolis.DisplayName"]
-status = "normal"
 raw = "Wax & Propolis"
+status = "normal"
 enUS = "Wax & Propolis"
 zhCN = "蜂蜡与蜂胶"
 zhTW = "蜂蠟與蜂膠"

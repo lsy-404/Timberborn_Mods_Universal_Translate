@@ -138,8 +138,8 @@ viVN = "Chiều cao: {0}"
 trTR = "Yükseklik: {0}"
 
 ["LV.Cr.Range"]
-status = "normal"
 raw = "Range: {0}"
+status = "normal"
 enUS = "Range: {0}"
 zhCN = "范围：{0}"
 zhTW = "範圍：{0}"
@@ -206,8 +206,8 @@ viVN = "Không thể đặt một phần Cần cẩu lên trên Cần cẩu này
 trTR = "Bu Crane'ın üstüne bir Crane Bölümü yerleştirilemez."
 
 ["LV.Cr.MustPlaceSectionOnCrane"]
-status = "normal"
 raw = "Must be placed on a Crane."
+status = "normal"
 enUS = "Must be placed on a Crane."
 zhCN = "必须放置在起重机上。"
 zhTW = "必須放置在起重機上。"

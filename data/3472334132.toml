@@ -562,8 +562,8 @@ viVN = "Di chuyển góc dưới bên phải lên trên"
 trTR = "Alt Sağı Yukarı Taşı"
 
 ["LV.T4UI.MoveBottomRightUpDesc"]
-status = "normal"
 raw = "Sometimes the bottom bar may be too long and the bottom-right elements (like a Mini Map mod) may be covered.\nThis option add some space at the bottom"
+status = "normal"
 enUS = "Sometimes the bottom bar may be too long, causing the bottom-right elements (like a Mini Map mod) to be covered.\nThis option adds some space at the bottom."
 zhCN = "有时底部栏可能太长，导致右下角的元素（如迷你地图模组）被遮挡。\n此选项会在底部增加一些空间。"
 zhTW = "有時底部工具列可能太長，導致右下角的元素（例如小地圖模組）被遮住。\n此選項會在底部增加一些空間。"

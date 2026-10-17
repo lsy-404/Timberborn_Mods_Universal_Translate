@@ -2,8 +2,8 @@
 name = "Restaurants Pack"
 
 ["RestaurantsPack.Good.Fries.DisplayName"]
-status = "normal"
 raw = "Fries"
+status = "normal"
 enUS = "Fries"
 zhCN = "薯条"
 zhTW = "薯條"
@@ -19,8 +19,8 @@ viVN = "Khoai tây chiên"
 trTR = "Patates kızartması"
 
 ["RestaurantsPack.Good.Fries.PluralDisplayName"]
-status = "normal"
 raw = "Fries"
+status = "normal"
 enUS = "Fries"
 zhCN = "炸薯条"
 zhTW = "薯條"
@@ -52,8 +52,8 @@ viVN = "Đĩa ăn cao cấp"
 trTR = "Gurme tabak"
 
 ["RestaurantsPack.Good.GourmetPlate.PluralDisplayName"]
-status = "normal"
 raw = "Gourmet plates"
+status = "normal"
 enUS = "Gourmet plates"
 zhCN = "美食餐盘"
 zhTW = "美食餐盤"
@@ -69,8 +69,8 @@ viVN = "Đĩa cao cấp"
 trTR = "Gurme tabaklar"
 
 ["RestaurantsPack.Good.Lemonade.DisplayName"]
-status = "normal"
 raw = "Lemonade"
+status = "normal"
 enUS = "Lemonade"
 zhCN = "柠檬水"
 zhTW = "檸檬水"
@@ -86,8 +86,8 @@ viVN = "Nước chanh tươi"
 trTR = "Limonata"
 
 ["RestaurantsPack.Good.Lemonade.PluralDisplayName"]
-status = "normal"
 raw = "Lemonade"
+status = "normal"
 enUS = "Lemonades"
 zhCN = "柠檬水"
 zhTW = "檸檬水"
@@ -103,8 +103,8 @@ viVN = "Nước chanh\tdao"
 trTR = "Limonatalar"
 
 ["RestaurantsPack.Good.RoastedChestnut.DisplayName"]
-status = "normal"
 raw = "Roasted chestnut"
+status = "normal"
 enUS = "Roasted chestnut"
 zhCN = "烤栗子"
 zhTW = "烤栗子"
@@ -120,8 +120,8 @@ viVN = "Hạt dẻ rang"
 trTR = "Közlenmiş kestane"
 
 ["RestaurantsPack.Good.RoastedChestnut.PluralDisplayName"]
-status = "normal"
 raw = "Roasted chestnuts"
+status = "normal"
 enUS = "Roasted chestnuts"
 zhCN = "烤栗子"
 zhTW = "烤栗子"
@@ -137,8 +137,8 @@ viVN = "Hạt dẻ rang"
 trTR = "Kavrulmuş kestaneler"
 
 ["RestaurantsPack.Need.Restauration.DisplayName"]
-status = "normal"
 raw = "Eating out"
+status = "normal"
 enUS = "Eating out"
 zhCN = "外出就餐"
 zhTW = "外出用餐"
@@ -154,8 +154,8 @@ viVN = "Ăn uống bên ngoài"
 trTR = "Dışarıda yemek yiyebilme"
 
 ["RestaurantsPack.Building.Friterie.DisplayName"]
-status = "normal"
 raw = "Fry Shack"
+status = "normal"
 enUS = "Fry Shack"
 zhCN = "炸薯条摊"
 zhTW = "炸薯條小屋"
@@ -171,8 +171,8 @@ viVN = "Quán đồ chiên giòn"
 trTR = "Kızartma Dükkanı"
 
 ["RestaurantsPack.Building.Friterie.Description"]
-status = "normal"
 raw = "Turns 3 potatoes into 6 fries. One tile, one beaver, one drum of oil."
+status = "normal"
 enUS = "Turns 3 potatoes into 6 fries. One tile, one beaver, one drum of oil."
 zhCN = "将 3 个土豆变成 6 份薯条。占地 1 格，需要 1 只海狸和 1 桶油。"
 zhTW = "將 3 個馬鈴薯製成 6 份薯條。一格、一隻海狸、一桶油。"
@@ -188,8 +188,8 @@ viVN = "Chế biến 3 củ khoai tây thành 6 phần khoai tây chiên. Một 
 trTR = "3 patatesi 6 patates kızartmasına dönüştürür. Bir kare, bir kunduz, bir varil yağ."
 
 ["RestaurantsPack.Building.Friterie.FlavorDescription"]
-status = "normal"
 raw = "One fry to lure them all."
+status = "normal"
 enUS = "One fry to lure them all."
 zhCN = "一根薯条，引来所有人。"
 zhTW = "一份炸魚，引來所有人。"
@@ -205,8 +205,8 @@ viVN = "Một miếng cá chiên để dụ tất cả chúng."
 trTR = "Hepsini cezbetmek için tek bir balık yavrusu."
 
 ["RestaurantsPack.Building.FrenchRestaurant.DisplayName"]
-status = "normal"
 raw = "French Restaurant"
+status = "normal"
 enUS = "French Restaurant"
 zhCN = "法式餐厅"
 zhTW = "法式餐廳"
@@ -222,8 +222,8 @@ viVN = "Nhà hàng Pháp"
 trTR = "Fransız Restoranı"
 
 ["RestaurantsPack.Building.FrenchRestaurant.Description"]
-status = "normal"
 raw = "2 wheat, 2 potatoes and 2 chestnuts make 2 plates. Three beavers, two hours."
+status = "normal"
 enUS = "2 wheat, 2 potatoes, and 2 chestnuts make 2 plates. Three beavers, two hours."
 zhCN = "2 份小麦、2 份土豆和 2 份栗子可制作 2 份餐点。需要 3 只海狸，耗时 2 小时。"
 zhTW = "2 個小麥、2 個馬鈴薯和 2 個栗子可製成 2 盤餐點。3 隻海狸，2 小時。"
@@ -271,8 +271,8 @@ viVN = "Quầy giải khát"
 trTR = "Serinletici İçecek Standı"
 
 ["RestaurantsPack.Building.Buvette.Description"]
-status = "normal"
 raw = "1 maple syrup and 2 water make 6 lemonades. Quenches thirst, which no dish does."
+status = "normal"
 enUS = "1 maple syrup and 2 water make 6 lemonades. Quenches thirst, which no dish does."
 zhCN = "1 份枫糖浆和 2 份水可制成 6 杯柠檬水。解渴，这是其他菜肴都做不到的。"
 zhTW = "1 份楓糖漿和 2 份水可製作 6 份檸檬水。可解渴，其他菜餚都做不到。"
@@ -288,8 +288,8 @@ viVN = "1 si-rô phong và 2 nước tạo ra 6 ly nước chanh. Giải khát, 
 trTR = "1 akçaağaç şurubu ve 2 su ile 6 limonata yapılır. Susuzluğu giderir; hiçbir yemek bunu yapmaz."
 
 ["RestaurantsPack.Building.Buvette.FlavorDescription"]
-status = "normal"
 raw = "Water, but with an opinion."
+status = "normal"
 enUS = "Water, but with an opinion."
 zhCN = "有主见的水。"
 zhTW = "有主見的水。"
@@ -305,8 +305,8 @@ viVN = "Nước, nhưng có chính kiến."
 trTR = "Su, ama bir fikri var."
 
 ["RestaurantsPack.Building.ChestnutCart.DisplayName"]
-status = "normal"
 raw = "Chestnut Cart"
+status = "normal"
 enUS = "Chestnut Cart"
 zhCN = "栗子餐车"
 zhTW = "栗子餐車"
@@ -322,8 +322,8 @@ viVN = "Xe hạt dẻ"
 trTR = "Kestane Arabası"
 
 ["RestaurantsPack.Building.ChestnutCart.Description"]
-status = "normal"
 raw = "2 chestnuts make 5 roasted chestnuts. One tile, one cart, one beaver who says nothing."
+status = "normal"
 enUS = "2 chestnuts make 5 roasted chestnuts. One tile, one cart, one beaver who says nothing."
 zhCN = "2 颗栗子可制成 5 颗烤栗子。占地 1 格，配 1 辆手推车，还有 1 只一言不发的海狸。"
 zhTW = "2 顆栗子可製作 5 顆烤栗子。佔地 1 格、需要 1 輛推車，還有 1 隻不發一語的海狸。"
@@ -339,8 +339,8 @@ viVN = "2 hạt dẻ tạo ra 5 hạt dẻ rang. Một ô, một xe đẩy, mộ
 trTR = "2 kestaneden 5 kavrulmuş kestane elde edilir. Bir karo, bir araba, tek kelime etmeyen bir kunduz."
 
 ["RestaurantsPack.Building.ChestnutCart.FlavorDescription"]
-status = "normal"
 raw = "Hot chestnuts! Get them hot!"
+status = "normal"
 enUS = "Hot chestnuts! Get them while they're hot!"
 zhCN = "热乎乎的栗子！快来买热乎的栗子！"
 zhTW = "熱騰騰的栗子！趁熱吃！"
@@ -356,8 +356,8 @@ viVN = "Hạt dẻ nóng hổi! Mua ngay khi còn nóng!"
 trTR = "Sıcak kestaneler! Sıcak sıcak alın!"
 
 ["RestaurantsPack.Good.HotTray.DisplayName"]
-status = "normal"
 raw = "Hot tray"
+status = "normal"
 enUS = "Hot tray"
 zhCN = "热餐托盘"
 zhTW = "保溫托盤"
@@ -373,8 +373,8 @@ viVN = "Khay nóng"
 trTR = "Sıcak tepsi"
 
 ["RestaurantsPack.Good.HotTray.PluralDisplayName"]
-status = "normal"
 raw = "Hot trays"
+status = "normal"
 enUS = "Hot Trays"
 zhCN = "热餐盘"
 zhTW = "熱餐盤"
@@ -422,8 +422,8 @@ viVN = "Bánh rán giòn"
 trTR = "Kızarmış hamur parçaları"
 
 ["RestaurantsPack.Good.BubbleTea.DisplayName"]
-status = "normal"
 raw = "Bubble tea"
+status = "normal"
 enUS = "Bubble tea"
 zhCN = "珍珠奶茶"
 zhTW = "珍珠奶茶"
@@ -455,8 +455,8 @@ viVN = "Trà sữa trân châu"
 trTR = "Bubble çayı"
 
 ["RestaurantsPack.Good.MealTray.DisplayName"]
-status = "normal"
 raw = "Meal tray"
+status = "normal"
 enUS = "Meal Tray"
 zhCN = "餐盘"
 zhTW = "餐盤"
@@ -472,8 +472,8 @@ viVN = "Khay thức ăn"
 trTR = "Yemek tepsisi"
 
 ["RestaurantsPack.Good.MealTray.PluralDisplayName"]
-status = "normal"
 raw = "Meal trays"
+status = "normal"
 enUS = "Meal trays"
 zhCN = "餐盘"
 zhTW = "餐盤"
@@ -489,8 +489,8 @@ viVN = "Khay thức ăn"
 trTR = "Yemek tepsileri"
 
 ["RestaurantsPack.Need.PauseRepas.DisplayName"]
-status = "normal"
 raw = "Meal break"
+status = "normal"
 enUS = "Meal break"
 zhCN = "用餐休息"
 zhTW = "用餐休息時段"
@@ -506,8 +506,8 @@ viVN = "Giờ ăn trưa"
 trTR = "Yemek molası"
 
 ["RestaurantsPack.Building.Automat.DisplayName"]
-status = "normal"
 raw = "Automat"
+status = "normal"
 enUS = "Vending Machine"
 zhCN = "自动售货机"
 zhTW = "自動販賣機"
@@ -523,8 +523,8 @@ viVN = "Máy bán hàng tự động"
 trTR = "Otomat"
 
 ["RestaurantsPack.Building.Automat.Description"]
-status = "normal"
 raw = "3 corn rations and 1 canola oil make 8 hot trays. Runs on a bot and mechanical power: no beaver is assigned to it."
+status = "normal"
 enUS = "3 corn rations and 1 canola oil make 8 hot trays. Runs on a bot and mechanical power: no beaver is assigned to it."
 zhCN = "3份玉米口粮和1份菜籽油可制作8份热餐。由机器人和机械动力驱动：无需分配海狸。"
 zhTW = "3 份玉米口糧和 1 份油菜籽油可製作 8 份熱餐。由機器人和機械動力運作：不會指派海狸到此處工作。"
@@ -540,8 +540,8 @@ viVN = "3 khẩu phần ngô và 1 dầu cải dầu tạo ra 8 khay thức ăn 
 trTR = "3 mısır tayını ve 1 kanola yağı, 8 sıcak tepsi üretir. Bir otomat ve mekanik güçle çalışır: buraya hiçbir kunduz atanmaz."
 
 ["RestaurantsPack.Building.Automat.FlavorDescription"]
-status = "normal"
 raw = "No beaver works here. That is a feature."
+status = "normal"
 enUS = "No beaver works here. That is a feature."
 zhCN = "这里没有海狸工作。这是个特色。"
 zhTW = "這裡沒有海狸工作。這是特色。"
@@ -557,8 +557,8 @@ viVN = "Không có hải ly nào làm việc ở đây. Đó là một tính nă
 trTR = "Burada hiçbir kunduz çalışmıyor. Bu bir özellik."
 
 ["RestaurantsPack.Building.IndustrialFryer.DisplayName"]
-status = "normal"
 raw = "Industrial Fryer"
+status = "normal"
 enUS = "Industrial Fryer"
 zhCN = "工业炸锅"
 zhTW = "工業油炸鍋"
@@ -574,8 +574,8 @@ viVN = "Máy chiên công nghiệp"
 trTR = "Endüstriyel Fritöz"
 
 ["RestaurantsPack.Building.IndustrialFryer.Description"]
-status = "normal"
 raw = "3 kohlrabi and 1 canola oil make 6 fritters. Frying with actual fat."
+status = "normal"
 enUS = "3 kohlrabi and 1 canola oil make 6 fritters. Frying with actual fat."
 zhCN = "3 份苤蓝和 1 份菜籽油可制作 6 份油炸饼。用真正的油脂来油炸。"
 zhTW = "3 個大頭菜和 1 份芥花油可製作 6 個炸餅。用真正的油脂油炸。"
@@ -591,8 +591,8 @@ viVN = "3 su hào và 1 dầu cải dầu tạo ra 6 bánh chiên. Chiên bằng
 trTR = "3 alabaş ve 1 kanola yağı 6 mücver yapar. Gerçek yağla kızartma."
 
 ["RestaurantsPack.Building.IndustrialFryer.FlavorDescription"]
-status = "normal"
 raw = "Conversion efficiency: 82%. Flavour is not measured."
+status = "normal"
 enUS = "Conversion efficiency: 82%. Flavor is not measured."
 zhCN = "转化效率：82%。风味无法量化。"
 zhTW = "轉換效率：82%。風味無法測量。"
@@ -608,8 +608,8 @@ viVN = "Hiệu suất chuyển đổi: 82%. Hương vị không thể đo lườ
 trTR = "Dönüşüm verimliliği: %82. Lezzet ölçülemez."
 
 ["RestaurantsPack.Building.TapiocaBar.DisplayName"]
-status = "normal"
 raw = "Tapioca Bar"
+status = "normal"
 enUS = "Tapioca Bar"
 zhCN = "木薯酒吧"
 zhTW = "珍珠飲料吧"
@@ -625,8 +625,8 @@ viVN = "Quầy trà sữa tapioca"
 trTR = "Tapyoka Barı"
 
 ["RestaurantsPack.Building.TapiocaBar.Description"]
-status = "normal"
 raw = "2 cassava, 2 water and 1 coffee make 6 bubble teas. Quenches thirst."
+status = "normal"
 enUS = "2 cassava, 2 water, and 1 coffee make 6 bubble teas. Quenches thirst."
 zhCN = "2 个木薯、2 份水和 1 份咖啡可制作出 6 杯珍珠奶茶。解渴。"
 zhTW = "2 個樹薯、2 份水和 1 份咖啡可製作出 6 杯珍珠奶茶。解渴。"
@@ -642,8 +642,8 @@ viVN = "2 sắn, 2 nước và 1 cà phê tạo ra 6 trà sữa trân châu. Gi�
 trTR = "2 manyok, 2 su ve 1 kahveyle 6 bubble tea yapılır. Susuzluğu giderir."
 
 ["RestaurantsPack.Building.TapiocaBar.FlavorDescription"]
-status = "normal"
 raw = "Not in the five-year plan. Tolerated."
+status = "normal"
 enUS = "Not in the five-year plan. Tolerated."
 zhCN = "不在五年计划之内。姑且容忍。"
 zhTW = "不在五年計畫內。姑且容忍。"
@@ -659,8 +659,8 @@ viVN = "Không nằm trong kế hoạch 5 năm. Được chấp nhận."
 trTR = "Beş yıllık planda yok. Hoşgörüyle karşılanıyor."
 
 ["RestaurantsPack.Building.FactoryCanteen.DisplayName"]
-status = "normal"
 raw = "Factory Canteen"
+status = "normal"
 enUS = "Factory Canteen"
 zhCN = "工厂食堂"
 zhTW = "工廠餐廳"
@@ -676,8 +676,8 @@ viVN = "Nhà ăn nhà máy"
 trTR = "Fabrika Yemekhanesi"
 
 ["RestaurantsPack.Building.FactoryCanteen.Description"]
-status = "normal"
 raw = "2 eggplant rations, 2 algae rations and 1 oil make 2 meal trays. Three beavers, two sittings."
+status = "normal"
 enUS = "2 eggplant rations, 2 algae rations, and 1 oil make 2 meal trays. Three beavers, two sittings."
 zhCN = "2份茄子口粮、2份藻类口粮和1份油可制作2份餐盘。供3只海狸分两批用餐。"
 zhTW = "2 份茄子配給、2 份藻類配給和 1 份油可製成 2 份餐盤。三隻海狸，分兩輪用餐。"
@@ -693,8 +693,8 @@ viVN = "2 khẩu phần cà tím, 2 khẩu phần tảo và 1 dầu tạo ra 2 k
 trTR = "2 patlıcan tayını, 2 yosun tayını ve 1 yağ, 2 yemek tepsisi üretir. Üç kunduz, iki oturum."
 
 ["RestaurantsPack.Building.FactoryCanteen.FlavorDescription"]
-status = "normal"
 raw = "Two sittings. Twenty minutes. No menu choice."
+status = "normal"
 enUS = "Two sittings. Twenty minutes. No menu choice."
 zhCN = "两轮用餐。二十分钟。没有菜单可选。"
 zhTW = "分兩輪用餐。二十分鐘。沒有菜單可選。"

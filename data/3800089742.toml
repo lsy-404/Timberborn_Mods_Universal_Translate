@@ -2,8 +2,8 @@
 name = "Supply Alert"
 
 ["CaseBacon.SupplyAlert.LowFoodWarning"]
-status = "normal"
 raw = "Low Food: approximately {0} days remaining."
+status = "normal"
 enUS = "Low Food: approximately {0} days remaining."
 zhCN = "食物不足：约剩余 {0} 天。"
 zhTW = "食物不足：大約還能維持 {0} 天。"
@@ -19,8 +19,8 @@ viVN = "Thực phẩm sắp cạn: còn khoảng {0} ngày."
 trTR = "Yiyecek Az: yaklaşık {0} gün kaldı."
 
 ["CaseBacon.SupplyAlert.LowWaterWarning"]
-status = "normal"
 raw = "Low Water: approximately {0} days remaining."
+status = "normal"
 enUS = "Low Water: approximately {0} days remaining."
 zhCN = "低水位：约剩余 {0} 天。"
 zhTW = "低水位：大約還剩 {0} 天。"
@@ -36,8 +36,8 @@ viVN = "Mực nước thấp: còn khoảng {0} ngày."
 trTR = "Düşük Su: yaklaşık {0} gün kaldı."
 
 ["CaseBacon.SupplyAlert.Settings.Header"]
-status = "normal"
 raw = "Supply Alert"
+status = "normal"
 enUS = "Supply Alert"
 zhCN = "补给警报"
 zhTW = "補給警報"
@@ -53,8 +53,8 @@ viVN = "Cảnh báo tiếp tế"
 trTR = "İkmal Uyarısı"
 
 ["CaseBacon.SupplyAlert.Settings.FoodAlertsEnabled"]
-status = "normal"
 raw = "Enable food alerts"
+status = "normal"
 enUS = "Enable food alerts"
 zhCN = "启用食物警报"
 zhTW = "啟用食物警示"
@@ -70,8 +70,8 @@ viVN = "Bật cảnh báo thực phẩm"
 trTR = "Yiyecek uyarılarını etkinleştir"
 
 ["CaseBacon.SupplyAlert.Settings.WaterAlertsEnabled"]
-status = "normal"
 raw = "Enable water alerts"
+status = "normal"
 enUS = "Enable water alerts"
 zhCN = "启用水情提醒"
 zhTW = "啟用水量警示"
@@ -87,8 +87,8 @@ viVN = "Bật cảnh báo nước"
 trTR = "Su uyarılarını etkinleştir"
 
 ["CaseBacon.SupplyAlert.Settings.FoodThresholdDays"]
-status = "normal"
 raw = "Food threshold (days)"
+status = "normal"
 enUS = "Food threshold (days)"
 zhCN = "食物阈值（天）"
 zhTW = "食物門檻（天）"
@@ -104,8 +104,8 @@ viVN = "Ngưỡng lương thực (ngày)"
 trTR = "Yiyecek eşiği (gün)"
 
 ["CaseBacon.SupplyAlert.Settings.WaterThresholdDays"]
-status = "normal"
 raw = "Water threshold (days)"
+status = "normal"
 enUS = "Water threshold (days)"
 zhCN = "水量阈值（天）"
 zhTW = "水量門檻（天）"

@@ -2,8 +2,8 @@
 name = "Rainborn Acid Chance Cap"
 
 ["Shay.RainbornAcidChanceCap.Settings.Header"]
-status = "normal"
 raw = "Rainborn acid-rain cap"
+status = "normal"
 enUS = "Rainborn Acid Rain Cap"
 zhCN = "雨生酸雨概率上限"
 zhTW = "雨生酸雨機率上限"
@@ -19,8 +19,8 @@ viVN = "Giới hạn mưa axit của Rainborn"
 trTR = "Yağmurdoğumlular için asit yağmuru üst sınırı"
 
 ["Shay.RainbornAcidChanceCap.Settings.MaxChance"]
-status = "normal"
 raw = "Acid rain max chance (%)"
+status = "normal"
 enUS = "Acid Rain Max Chance (%)"
 zhCN = "酸雨最大概率（%）"
 zhTW = "酸雨最高機率（%）"
@@ -36,8 +36,8 @@ viVN = "Xác suất tối đa có mưa axit (%)"
 trTR = "Asit yağmuru azami olasılığı (%)"
 
 ["Shay.RainbornAcidChanceCap.Settings.MaxChance.Tooltip"]
-status = "normal"
 raw = "Replaces Rainborn's hard-coded 50% maximum acid-rain probability. The configured Acid rain escalation events value still controls how many clean rains are needed to reach this maximum. 0 disables scheduled acid-rain rolls, 50 matches Rainborn's original behavior, and 100 allows the chance to reach 100%."
+status = "normal"
 enUS = "Replaces Rainborn's hard-coded 50% maximum acid-rain probability. The configured Acid rain escalation events value still controls how many clean rains are needed to reach this maximum. 0 disables scheduled acid-rain rolls, 50 matches Rainborn's original behavior, and 100 allows the chance to reach 100%."
 zhCN = "替换 Rainborn 硬编码的 50% 酸雨概率上限。配置的“酸雨升级事件”值仍决定达到此上限需要经历多少次无污染降雨。0 会禁用定时酸雨判定，50 与 Rainborn 的原始行为一致，100 则允许概率达到 100%。"
 zhTW = "取代 Rainborn 硬編碼的 50% 酸雨機率上限。已設定的「酸雨升級事件」值仍會控制需要經過多少次無酸雨，才能達到此上限。0 會停用排定的酸雨機率判定，50 與 Rainborn 原本的行為相同，100 則允許機率達到 100%。"

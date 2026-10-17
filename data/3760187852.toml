@@ -138,8 +138,8 @@ viVN = "Hiển thị phiên bản trò chơi tối thiểu yêu cầu bởi bi�
 trTR = "Mod manifestinin gerektirdiği minimum oyun sürümünü göster."
 
 ["Calloatti.Config.SyncModsPro.SkipExperimentalDialog.Label"]
-status = "normal"
 raw = "Skip experimental dialog"
+status = "normal"
 enUS = "Skip experimental dialog"
 zhCN = "跳过实验性对话框"
 zhTW = "略過實驗性對話框"
@@ -155,8 +155,8 @@ viVN = "Bỏ qua hộp thoại thử nghiệm"
 trTR = "Deneysel iletişim kutusunu atla"
 
 ["Calloatti.Config.SyncModsPro.SkipExperimentalDialog.Tooltip"]
-status = "normal"
 raw = "Skip the experimental branch warning dialog on startup."
+status = "normal"
 enUS = "Skip the experimental branch warning dialog on startup."
 zhCN = "启动时跳过实验分支警告对话框。"
 zhTW = "啟動時略過實驗分支警告對話框。"
@@ -1039,8 +1039,8 @@ viVN = "Khởi động lại trò chơi và tự động tải tệp lưu này k
 trTR = "Oyunu yeniden başlatın ve oyun açıldığında bu belirli kayıt dosyasını otomatik olarak yükleyin."
 
 ["Calloatti.SyncModsPro.Tooltip.RestartShiftClick"]
-status = "normal"
 raw = "Restart the game immediately. Hold SHIFT while clicking to skip the mod manager dialog."
+status = "normal"
 enUS = "Restart the game immediately. Hold SHIFT while clicking to skip the mod manager dialog."
 zhCN = "立即重启游戏。按住 SHIFT 并点击即可跳过模组管理器对话框。"
 zhTW = "立即重新啟動遊戲。按住 SHIFT 並點擊即可略過模組管理器對話框。"

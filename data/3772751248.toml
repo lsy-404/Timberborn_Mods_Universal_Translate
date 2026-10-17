@@ -19,8 +19,8 @@ viVN = "Xông hơi"
 trTR = "Suna"
 
 ["Building.GeothermalSauna.DisplayName"]
-status = "normal"
 raw = "Geothermal Sauna"
+status = "normal"
 enUS = "Geothermal Sauna"
 zhCN = "地热桑拿房"
 zhTW = "地熱桑拿房"

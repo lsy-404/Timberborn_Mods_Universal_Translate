@@ -4826,8 +4826,8 @@ viVN = "Mở khóa điều khiển xưởng với {0} khoa học"
 trTR = "{0} bilim karşılığında atölye kontrollerinin kilidini açar"
 
 ["UI.TW.SimpleWorkshopControl.UnlockButton"]
-status = "normal"
 raw = "Unlock"
+status = "normal"
 enUS = "Unlock"
 zhCN = "解锁"
 zhTW = "解鎖"
@@ -4843,8 +4843,8 @@ viVN = "Mở khóa"
 trTR = "Kilidi Aç"
 
 ["UI.TW.SimpleWorkshopControl.UnlockFailHeader"]
-status = "normal"
 raw = "Cannot unlock"
+status = "normal"
 enUS = "Cannot unlock"
 zhCN = "无法解锁"
 zhTW = "無法解鎖"
@@ -4860,8 +4860,8 @@ viVN = "Không thể mở khóa"
 trTR = "Kilidi açılamıyor"
 
 ["UI.TW.SimpleWorkshopControl.UnlockFailMessage"]
-status = "normal"
 raw = "Cannot unlock workshop controls; not enough science points."
+status = "normal"
 enUS = "Cannot unlock workshop controls; not enough science points."
 zhCN = "无法解锁工坊控制功能；科学点数不足。"
 zhTW = "無法解鎖工作坊控制功能；科學點數不足。"
@@ -4893,8 +4893,8 @@ viVN = "Mở khóa?"
 trTR = "Kilidi açılsın mı?"
 
 ["ModSetting.TWSimpleWorkshopControl.SectionUnlocking"]
-status = "normal"
 raw = "<b><YellowHighlight>Optional science cost:</YellowHighlight><b>"
+status = "normal"
 enUS = "<b><YellowHighlight>Optional science cost:</YellowHighlight><b>"
 zhCN = "<b><YellowHighlight>可选的科学点数花费：</YellowHighlight><b>"
 zhTW = "<b><YellowHighlight>選用的科學點數成本：</YellowHighlight><b>"
@@ -4926,8 +4926,8 @@ csCZ = "Vyžadovat odemčení"
 viVN = "Yêu cầu mở khóa"
 
 ["ModSetting.TWSimpleWorkshopControl.RequireUnlockDesc"]
-status = "normal"
 raw = "Each building type will require science points to unlock workshop controls."
+status = "normal"
 enUS = "Each building type requires science points to unlock its workshop controls."
 zhCN = "解锁每种建筑类型都需要消耗科学点数。"
 zhTW = "每種建築類型都需要花費科研點數，才能解鎖工坊控制項。"
@@ -4958,8 +4958,8 @@ viVN = "Hệ số nhân chi phí"
 trTR = "Maliyet Çarpanı"
 
 ["ModSetting.TWSimpleWorkshopControl.UnlockCostDesc"]
-status = "normal"
 raw = "Unlocking workshop controls will cost this fraction of the building type's initial research cost."
+status = "normal"
 enUS = "Unlocking workshop controls will cost this fraction of the building type's initial research cost."
 zhCN = "解锁工坊控制功能将花费相当于该建筑类型初始研究成本这一比例的费用。"
 zhTW = "解鎖工作坊控制項的花費，將是該建築類型初始研究成本的這個比例。"

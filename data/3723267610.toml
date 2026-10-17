@@ -342,8 +342,8 @@ viVN = "B"
 trTR = "B"
 
 ["Automation.Input.C"]
-status = "normal"
 raw = "C"
+status = "normal"
 enUS = "C"
 zhCN = "C"
 zhTW = "C"
@@ -359,8 +359,8 @@ viVN = "C"
 trTR = "C"
 
 ["Automation.Input.D"]
-status = "normal"
 raw = "D"
+status = "normal"
 enUS = "D"
 zhCN = "D"
 zhTW = "D"
@@ -392,8 +392,8 @@ viVN = "E"
 trTR = "E"
 
 ["Automation.Input.F"]
-status = "normal"
 raw = "F"
+status = "normal"
 enUS = "F"
 zhCN = "F"
 zhTW = "F"
@@ -409,8 +409,8 @@ viVN = "F"
 trTR = "F"
 
 ["Automation.Input.G"]
-status = "normal"
 raw = "G"
+status = "normal"
 enUS = "G"
 zhCN = "G"
 zhTW = "G"
@@ -577,8 +577,8 @@ viVN = "Chỉ ghim khi bật"
 trTR = "Açıkken sadece sabitle"
 
 ["Automation.RemoveRow"]
-status = "normal"
 raw = "Xóa hàng"
+status = "normal"
 enUS = "Delete row"
 zhCN = "删除行"
 zhTW = "刪除列"
@@ -832,8 +832,8 @@ viVN = "Phân bổ"
 trTR = "Dağıtım"
 
 ["BatchControl.GoodStatistics"]
-status = "normal"
 raw = "Thống kê Hàng hóa"
+status = "normal"
 enUS = "Goods Statistics"
 zhCN = "货物统计"
 zhTW = "貨物統計"
@@ -849,8 +849,8 @@ viVN = "Thống kê hàng hóa"
 trTR = "Mal İstatistikleri"
 
 ["BatchControl.GoodStatisticsType.Consumption"]
-status = "normal"
 raw = "Tiêu thụ"
+status = "normal"
 enUS = "Consumption"
 zhCN = "消耗"
 zhTW = "消耗量"
@@ -898,8 +898,8 @@ viVN = "Nhập"
 trTR = "İçe aktar"
 
 ["BatchControl.GoodStatisticsType.Production"]
-status = "normal"
 raw = "Sản xuất"
+status = "normal"
 enUS = "Production"
 zhCN = "生产量"
 zhTW = "生產"
@@ -1048,8 +1048,8 @@ viVN = "Việc làm của Hải ly"
 trTR = "Kunduzların İstihdamı"
 
 ["BatchControl.PopulationStatistics.Births"]
-status = "normal"
 raw = "Sinh"
+status = "normal"
 enUS = "Births"
 zhCN = "出生数"
 zhTW = "出生數"
@@ -1065,8 +1065,8 @@ viVN = "Sinh sản"
 trTR = "Doğumlar"
 
 ["BatchControl.PopulationStatistics.BotCreations"]
-status = "normal"
 raw = "Robot được tạo"
+status = "normal"
 enUS = "Robots created"
 zhCN = "已创建的机器人"
 zhTW = "機器人已建造"
@@ -1082,8 +1082,8 @@ viVN = "Robot được tạo ra"
 trTR = "Robot üretildi"
 
 ["BatchControl.PopulationStatistics.BotDestructions"]
-status = "normal"
 raw = "Robot bị hỏng"
+status = "normal"
 enUS = "Robot destroyed"
 zhCN = "机器人损毁数"
 zhTW = "機器人損毀數量"
@@ -1115,8 +1115,8 @@ viVN = "Việc làm của robot"
 trTR = "Robot İstihdamı"
 
 ["BatchControl.PopulationStatistics.Deaths"]
-status = "normal"
 raw = "Chết"
+status = "normal"
 enUS = "Deaths"
 zhCN = "死亡"
 zhTW = "死亡人數"
@@ -1148,8 +1148,8 @@ viVN = "Dân số trung bình"
 trTR = "Ortalama nüfus"
 
 ["BatchControl.PopulationStatistics.PopulationTurnover"]
-status = "normal"
 raw = "Biến động dân số"
+status = "normal"
 enUS = "Population Turnover"
 zhCN = "人口变动"
 zhTW = "人口變動幅度"
@@ -2048,8 +2048,8 @@ viVN = "Khi đèn hiệu màu xanh được thắp sáng, đó là dấu hiệu 
 trTR = "Mavi sinyal ışığı yandığında, bu Ahşap Kuyrukların toplanması için bir işarettir."
 
 ["Building.Airlock.Description"]
-status = "normal"
 raw = "Ngăn nước chảy, nhưng cho phép Hải ly đi qua."
+status = "normal"
 enUS = "Blocks water flow, but allows beavers to pass through."
 zhCN = "阻挡水流，但允许海狸通过。"
 zhTW = "阻止水流通過，但允許海狸通行。"
@@ -2081,8 +2081,8 @@ viVN = "Cửa khóa nước"
 trTR = "Su Geçirmez Kapı"
 
 ["Building.Airlock.FlavorDescription"]
-status = "normal"
 raw = "Cỏ bên kia đôi khi cũng xanh hơn."
+status = "normal"
 enUS = "The grass is sometimes greener on the other side."
 zhCN = "那边的草有时也更绿。"
 zhTW = "有時候，另一邊的草也比較綠。"
@@ -2132,8 +2132,8 @@ viVN = "Nỗ lực cuối cùng của loài người nhằm khôi phục những
 trTR = "İnsanoğlunun kaybettiklerini geri kazanma konusundaki son çabası."
 
 ["Building.ArchOfProgress.DisplayName"]
-status = "normal"
 raw = "Khải Hoàn Môn Tiến Bộ"
+status = "normal"
 enUS = "Arch of Progress"
 zhCN = "进步凯旋门"
 zhTW = "進步凱旋門"
@@ -2149,8 +2149,8 @@ viVN = "Khải Hoàn Môn Tiến Bộ"
 trTR = "İlerleme Takı Kemeri"
 
 ["Building.ArchOfProgress.FlavorDescription"]
-status = "normal"
 raw = "Câu châm ngôn được khắc lên: “Ta đến, ta thấy, ta xây.”"
+status = "normal"
 enUS = "The motto carved into it: “I came, I saw, I built.”"
 zhCN = "上面刻着一句格言：“我来了，我看见了，我建造了。”"
 zhTW = "上面刻著一句格言：「我來，我見，我建。」"
@@ -2421,8 +2421,8 @@ viVN = "Không Nước Độc, chẳng có gì phải lo."
 trTR = "Zehirli Su yoksa endişelenecek bir şey de yok."
 
 ["Building.BadwaterPressurizer.Description"]
-status = "normal"
 raw = "Bịt kín một Nguồn Nước độc. Có thể mở hoặc đóng. Khi mở, nước độc vẫn chảy ngay cả trong mùa hạn."
+status = "normal"
 enUS = "Seals off a Badwater Source. Can be opened or closed. When open, badwater continues flowing even during droughts."
 zhCN = "封闭一个恶水源。可以开启或关闭。开启时，即使在旱季，恶水仍会流动。"
 zhTW = "封住一個毒水源。可以開啟或關閉。開啟時，即使在旱季，毒水仍會流動。"
@@ -2438,8 +2438,8 @@ viVN = "Bịt kín một Nguồn Nước độc. Có thể mở hoặc đóng. K
 trTR = "Zehirli Su Kaynağını kapatır. Açılıp kapatılabilir. Açıkken, kurak mevsimde bile zehirli su akmaya devam eder."
 
 ["Building.BadwaterPressurizer.DisplayName"]
-status = "normal"
 raw = "Bộ Điều Áp Nước Độc"
+status = "normal"
 enUS = "Badwater Pressurizer"
 zhCN = "恶水增压器"
 zhTW = "毒水加壓器"
@@ -2455,8 +2455,8 @@ viVN = "Bộ điều áp nước độc"
 trTR = "Zehirli Su Basınçlandırıcısı"
 
 ["Building.BadwaterPressurizer.FlavorDescription"]
-status = "normal"
 raw = "Chỉ kỹ sư xây dựng đích thực mới được phép lại gần."
+status = "normal"
 enUS = "Only true construction engineers are allowed near it."
 zhCN = "只有真正的建筑工程师才获准靠近。"
 zhTW = "只有真正的建築工程師才准靠近。"
@@ -3866,8 +3866,8 @@ viVN = "Without consumption limits, Iron Tooth would probably never sleep."
 trTR = "Şayet tüketim sınırlaması olmasaydı, Kesik Diş asla uyumazdı."
 
 ["Building.CompactMechanicalPump.Description"]
-status = "normal"
 raw = "Hút nước hoặc nước độc từ một phía và xả sang phía bên kia."
+status = "normal"
 enUS = "Pumps water or badwater from one side and discharges it on the other."
 zhCN = "从一侧抽取水或恶水，并从另一侧排出。"
 zhTW = "從一側抽取水或毒水，並排放至另一側。"
@@ -3883,8 +3883,8 @@ viVN = "Hút nước hoặc nước độc từ một phía và xả sang phía 
 trTR = "Bir taraftan su veya zehirli suyu çekip diğer taraftan dışarı verir."
 
 ["Building.CompactMechanicalPump.DisplayName"]
-status = "normal"
 raw = "Máy bơm Cơ khí Nhỏ gọn"
+status = "normal"
 enUS = "Compact Mechanical Pump"
 zhCN = "紧凑型机械水泵"
 zhTW = "緊湊型機械幫浦"
@@ -3900,8 +3900,8 @@ viVN = "Máy bơm cơ khí nhỏ gọn"
 trTR = "Kompakt Mekanik Pompa"
 
 ["Building.CompactMechanicalPump.FlavorDescription"]
-status = "normal"
 raw = "Suốt ngày hút với hít."
+status = "normal"
 enUS = "Huffing and puffing all day long."
 zhCN = "整天吸来吸去。"
 zhTW = "整天吸來吸去。"
@@ -4257,8 +4257,8 @@ viVN = "“Nào, đừng đứng đó như mấy tên Nanh Sắt chán ngắt n�
 trTR = "“Hadi, orada sıkıcı Demir Dişler gibi durma artık!” —Suli"
 
 ["Building.DancePit.Description"]
-status = "normal"
 raw = "Một hố bùn nơi hải ly có thể nhảy nhót để xả stress."
+status = "normal"
 enUS = "A mud pit where beavers can dance around to relieve stress."
 zhCN = "海狸可以在泥坑里蹦蹦跳跳，释放压力。"
 zhTW = "一個泥坑，海狸可以在裡面跳舞紓解壓力。"
@@ -4274,8 +4274,8 @@ viVN = "Một hố bùn nơi hải ly có thể nhảy nhót để xả stress."
 trTR = "Kunduzların stres atmak için hoplayıp zıplayabileceği bir çamur çukuru."
 
 ["Building.DancePit.DisplayName"]
-status = "normal"
 raw = "Hố Nhảy"
+status = "normal"
 enUS = "Dance Pit"
 zhCN = "舞池"
 zhTW = "舞池"
@@ -4291,8 +4291,8 @@ viVN = "Hố nhảy múa"
 trTR = "Dans Alanı"
 
 ["Building.DancePit.FlavorDescription"]
-status = "normal"
 raw = "Nơi để đến sau khi hoàn thành chỉ tiêu. Mà không hoàn thành thì vẫn đến."
+status = "normal"
 enUS = "A place to go after meeting your quota. Though you go there even if you don't meet it."
 zhCN = "完成指标后去的地方。没完成也照样得去。"
 zhTW = "達成指標後要去的地方。沒達成也還是會去。"
@@ -4444,8 +4444,8 @@ viVN = "Ống dẫn dài hơn giúp xử lý cả chênh lệch độ cao lẫn 
 trTR = "Daha uzun bir boru, hem yükseklik farkını hem de kötü kokuları işlemeye yardımcı olur."
 
 ["Building.DeepMechanicalPump.DisplayName"]
-status = "normal"
 raw = "Máy Bơm Cơ Khí Sâu"
+status = "normal"
 enUS = "Deep Mechanical Pump"
 zhCN = "深层机械泵"
 zhTW = "深層機械幫浦"
@@ -4699,8 +4699,8 @@ viVN = " Đây không phải là máy khoan!"
 trTR = "Bu bir delici değil!"
 
 ["Building.Discharge.Description"]
-status = "normal"
 raw = "Xả nước hoặc nước độc."
+status = "normal"
 enUS = "Discharge water or badwater."
 zhCN = "排放水或恶水。"
 zhTW = "排放水或毒水。"
@@ -4749,8 +4749,8 @@ viVN = "“Cho ta đủ xô, ta sẽ dời cả hồ nước.” —Ol' Kazko"
 trTR = "“Bize yeterince kova verin, gölü bile taşırız.” —Ol' Kazko"
 
 ["Building.Discharge.ToggleLabel"]
-status = "normal"
 raw = "Chất lỏng"
+status = "normal"
 enUS = "Liquid"
 zhCN = "液体"
 zhTW = "液體"
@@ -4886,8 +4886,8 @@ viVN = "Vì sao một con hải ly lại băng qua khu? (băng qua một con đ�
 trTR = "Bir kunduz neden bir bölgeden geçiyor? (bir yolu geçmek)"
 
 ["Building.DomedGarden.Description"]
-status = "normal"
 raw = "Một nơi bình yên để thư giãn, trải nghiệm thiên nhiên."
+status = "normal"
 enUS = "A peaceful place to relax and experience nature."
 zhCN = "一个让人放松、感受大自然的宁静之所。"
 zhTW = "一處可放鬆身心、感受大自然的寧靜之地。"
@@ -4903,8 +4903,8 @@ viVN = "Một nơi yên bình để thư giãn và hòa mình vào thiên nhiên
 trTR = "Doğanın tadını çıkarıp dinlenebileceğiniz huzurlu bir yer."
 
 ["Building.DomedGarden.DisplayName"]
-status = "normal"
 raw = "Vườn Mái vòm"
+status = "normal"
 enUS = "Dome Garden"
 zhCN = "穹顶花园"
 zhTW = "穹頂花園"
@@ -4920,8 +4920,8 @@ viVN = "Vườn mái vòm"
 trTR = "Kubbe Bahçesi"
 
 ["Building.DomedGarden.FlavorDescription"]
-status = "normal"
 raw = "Một nơi để ngắm thiên nhiên... hoặc con đập gần đó."
+status = "normal"
 enUS = "A place to admire nature... or the nearby dam."
 zhCN = "一个欣赏自然风光的好地方……或者欣赏附近水坝的好地方。"
 zhTW = "一處欣賞大自然的好地方……或者欣賞附近水壩的好地方。"
@@ -6620,8 +6620,8 @@ viVN = "Khẩu vị tinh tế hơn đã tạo ra những món ăn tinh tế hơn
 trTR = "Daha ince bir damak tadı daha ince yemekler yarattı."
 
 ["Building.HallOfAbundance.DisplayName"]
-status = "normal"
 raw = "Đại sảnh Sung túc"
+status = "normal"
 enUS = "Abundance Hall"
 zhCN = "丰饶大厅"
 zhTW = "豐饒大廳"
@@ -6637,8 +6637,8 @@ viVN = "Đại sảnh Sung túc"
 trTR = "Bolluk Salonu"
 
 ["Building.HallOfAbundance.FlavorDescription"]
-status = "normal"
 raw = "“Cái này đâu phải xây để mong cầu sung túc, mà để khoe rằng chúng ta đã có thừa rồi.” —Suli"
+status = "normal"
 enUS = "“This wasn’t built to bring us prosperity, but to show off that we already have more than enough.” —Suli"
 zhCN = "“这可不是为了祈求富足而建的，而是为了炫耀我们已经绰绰有余。”——Suli"
 zhTW = "「這並不是為了祈求富足而建的，而是要炫耀我們已經富足有餘了。」——Suli"
@@ -7181,8 +7181,8 @@ viVN = "Mọi thứ bắt đầu khi một con hải ly không chịu được c
 trTR = "Her şey, bir kunduzun damın sızıntısından bıkmasıyla başladı."
 
 ["Building.ImpermeablePowerShaft.Description"]
-status = "normal"
 raw = "Truyền động năng. Ngăn nước."
+status = "normal"
 enUS = "Transmits power. Blocks water."
 zhCN = "传输动力。阻挡水流。"
 zhTW = "傳遞動力。阻擋水流。"
@@ -7198,8 +7198,8 @@ viVN = "Truyền động năng. Ngăn nước."
 trTR = "Gücü iletir. Suyu engeller."
 
 ["Building.ImpermeablePowerShaft.DisplayName"]
-status = "normal"
 raw = "Trục Truyền Động Chống Thấm"
+status = "normal"
 enUS = "Waterproof Power Shaft"
 zhCN = "防水动力轴蓟"
 zhTW = "防水動力軸蓵"
@@ -7215,8 +7215,8 @@ viVN = "Trục Truyền Động Chống Thấm"
 trTR = "Su Geçirmez Güç Mili"
 
 ["Building.ImpermeablePowerShaft.FlavorDescription"]
-status = "normal"
 raw = "“Không thấy máy móc đâu cả, thật khiến tôi phát bực!” —Pina"
+status = "normal"
 enUS = "“I can’t find the machinery anywhere. It’s really getting on my nerves!” —Pina"
 zhCN = "“完全看不到机械装置，真让我火大！”——Pina"
 zhTW = "「根本看不到任何機械，真讓我火大！」——Pina"
@@ -7232,8 +7232,8 @@ viVN = "“Không thấy máy móc đâu cả, thật khiến tôi phát bực!�
 trTR = "“Hiçbir yerde makine yok, gerçekten sinirimi bozuyor!” —Pina"
 
 ["Building.ImpermeableTubeway.Description"]
-status = "normal"
 raw = "Một phương tiện vận chuyển Hải ly nhanh chóng, dù hơi chật chội. Ngăn nước."
+status = "normal"
 enUS = "A fast, if somewhat cramped, way to transport Beavers. Blocks water."
 zhCN = "一种快速的海狸运输工具，虽然有点拥挤。阻挡水流。"
 zhTW = "一種能快速運送海狸、但有點擁擠的交通工具。阻擋水流。"
@@ -7265,8 +7265,8 @@ viVN = "Đường ống chống thấm"
 trTR = "Su Geçirmez Boru Tüneli"
 
 ["Building.ImpermeableTubeway.FlavorDescription"]
-status = "normal"
 raw = "Giấc mơ đường ống đã thành hiện thực."
+status = "normal"
 enUS = "The pipe dream has come true."
 zhCN = "管道之梦终于成真了。"
 zhTW = "管道之夢終於成真。"
@@ -8353,8 +8353,8 @@ viVN = "“ họ là tiều phu, và đúng là như thế — ngủ cả đêm,
 trTR = "“Onlar bir oduncudur ve gerçekten öyle — bütün gece uyur, bütün gün çalışırlar!” —Ünlü kunduz şarkısı"
 
 ["Building.Massager.Description"]
-status = "normal"
 raw = "Mát-xa lành mạnh."
+status = "normal"
 enUS = "Healthy massage."
 zhCN = "健康按摩。"
 zhTW = "健康按摩。"
@@ -8386,8 +8386,8 @@ viVN = "Máy mát-xa"
 trTR = "Masaj Makinesi"
 
 ["Building.Massager.FlavorDescription"]
-status = "normal"
 raw = "Đau đơn hôm nay, động lực ngày mai."
+status = "normal"
 enUS = "Pain today, motivation tomorrow."
 zhCN = "今日的疼痛，明日的动力。"
 zhTW = "今天的疼痛，是明天的動力。"
@@ -8403,8 +8403,8 @@ viVN = "Pain today, motivation tomorrow."
 trTR = "Bugünün acısı, yarının motivasyonu."
 
 ["Building.MechanicalPump.Description"]
-status = "normal"
 raw = "Bơm nước hoặc nước độc lên ở một phía và xả sang phía bên kia."
+status = "normal"
 enUS = "Pumps water or badwater up on one side and discharges it on the other."
 zhCN = "将水或恶水从一侧抽上来，再从另一侧排出。"
 zhTW = "將水或毒水從一側抽上來，再排到另一側。"
@@ -8420,8 +8420,8 @@ viVN = "Bơm nước hoặc nước độc lên ở một phía và xả sang ph
 trTR = "Bir taraftan su veya zehirli suyu pompalayıp diğer taraftan dışarı atar."
 
 ["Building.MechanicalPump.DisplayName"]
-status = "normal"
 raw = "Máy Bơm Cơ Khí"
+status = "normal"
 enUS = "Mechanical Pump"
 zhCN = "机械泵"
 zhTW = "機械幫浦"
@@ -11262,8 +11262,8 @@ viVN = "Rải rác khắp nơi, tàn tích của loài người mang đến cho 
 trTR = "Her yerde dağınık olan insan kalıntıları, kunduzlara hayal edemeyecekleri bir şey getiriyor - ahşaptan üstün bir malzeme."
 
 ["Building.Sauna.Description"]
-status = "normal"
 raw = "Một phòng xông hơi lộ thiên, nơi hải ly có thể đổ mồ hôi để xua tan âu lo."
+status = "normal"
 enUS = "An open-air sauna where beavers can sweat away their worries."
 zhCN = "露天桑拿房，海狸可以在这里尽情出汗，消除烦忧。"
 zhTW = "一間露天桑拿房，海狸可以在此流汗，消除煩憂。"
@@ -11295,8 +11295,8 @@ viVN = "Phòng Xông Hơi"
 trTR = "Sauna"
 
 ["Building.Sauna.FlavorDescription"]
-status = "normal"
 raw = "“Cái lò này chắc là nướng được khoai nhỉ?” —Ma' Ngonel"
+status = "normal"
 enUS = "“This oven can probably roast potatoes, right?” —Ma' Ngonel"
 zhCN = "“这个炉子应该能烤土豆吧？”——Ma' Ngonel"
 zhTW = "「這座爐子應該能烤馬鈴薯吧？」——Ma' Ngonel"
@@ -13489,8 +13489,8 @@ viVN = "Bùm, Suli, bùm!!"
 trTR = "Boom, Suli, boom!!"
 
 ["Building.ThrottlingValve.Description"]
-status = "normal"
 raw = "Cửa xả nước một chiều với lưu lượng có thể điều chỉnh."
+status = "normal"
 enUS = "One-way water outlet with adjustable flow rate."
 zhCN = "可调节流量的单向排水阀。"
 zhTW = "可調整流量的單向排水口。"
@@ -13506,8 +13506,8 @@ viVN = "Cửa xả nước một chiều với lưu lượng có thể điều c
 trTR = "Ayarlanabilir debili tek yönlü su tahliye vanası."
 
 ["Building.ThrottlingValve.DisplayName"]
-status = "normal"
 raw = "Van Điều Tiết"
+status = "normal"
 enUS = "Throttle Valve"
 zhCN = "节流阀"
 zhTW = "節流閥"
@@ -13523,8 +13523,8 @@ viVN = "Van tiết lưu"
 trTR = "Kısma Vanası"
 
 ["Building.ThrottlingValve.OutflowLimit"]
-status = "normal"
 raw = "Giới hạn lưu lượng: {0}"
+status = "normal"
 enUS = "Flow limit: {0}"
 zhCN = "流量限制：{0}"
 zhTW = "流量限制：{0}"
@@ -13540,8 +13540,8 @@ viVN = "Giới hạn lưu lượng đầu ra: {0}"
 trTR = "Çıkış akış sınırı: {0}"
 
 ["Building.ThrottlingValve.OutflowUnlimited"]
-status = "normal"
 raw = "Không giới hạn lưu lượng"
+status = "normal"
 enUS = "Unlimited flow rate"
 zhCN = "流量不受限制"
 zhTW = "無流量限制"
@@ -13557,8 +13557,8 @@ viVN = "Không giới hạn lưu lượng"
 trTR = "Sınırsız akış hızı"
 
 ["Building.ThrottlingValve.ReactionSpeed"]
-status = "normal"
 raw = "Tốc độ phản hồi: {0}"
+status = "normal"
 enUS = "Reaction speed: {0}"
 zhCN = "响应速度：{0}"
 zhTW = "反應速度：{0}"
@@ -13574,8 +13574,8 @@ viVN = "Tốc độ phản hồi: {0}"
 trTR = "Tepki hızı: {0}"
 
 ["Building.ThrottlingValve.State.Closing"]
-status = "normal"
 raw = "Đang đóng"
+status = "normal"
 enUS = "Closing"
 zhCN = "正在关闭"
 zhTW = "正在關閉"
@@ -13591,8 +13591,8 @@ viVN = "Đang đóng"
 trTR = "Kapanıyor"
 
 ["Building.ThrottlingValve.State.Idle"]
-status = "normal"
 raw = "Đang chờ"
+status = "normal"
 enUS = "Waiting"
 zhCN = "等待中"
 zhTW = "等待中"
@@ -13624,8 +13624,8 @@ viVN = "Đang mở"
 trTR = "Açılıyor"
 
 ["Building.ThrottlingValve.Synchronize"]
-status = "normal"
 raw = "Đồng bộ với các Van Điều Tiết liền kề"
+status = "normal"
 enUS = "Synchronize with adjacent Throttling Valves"
 zhCN = "与相邻的节流阀同步"
 zhTW = "與相鄰的節流閥同步"
@@ -14647,8 +14647,8 @@ viVN = "Không thể xây ở đáy bản đồ."
 trTR = "Harita tabanında inşa edilemez."
 
 ["Buildings.MechanicalPump.FlowRate"]
-status = "normal"
 raw = "Lưu lượng: {0}"
+status = "normal"
 enUS = "Flow rate: {0}"
 zhCN = "流量：{0}"
 zhTW = "流量：{0}"
@@ -14751,8 +14751,8 @@ viVN = "Phẳng: Có thể xây công trình khác lên trên."
 trTR = "<YellowHighlight>Düz:</YellowHighlight> Üstüne başka yapılar inşa edilebilir."
 
 ["Buildings.Wonder.Description"]
-status = "normal"
 raw = "<GreenHighlight>Đạt trạng thái làm chủ bản đồ và mở khóa chức năng Khởi đầu linh hoạt cho các lượt chơi sau.</GreenHighlight>"
+status = "normal"
 enUS = "<GreenHighlight>Achieve map mastery and unlock the Flexible Start feature for future playthroughs.</GreenHighlight>"
 zhCN = "<GreenHighlight>达成地图掌控状态，并为后续游戏解锁灵活开局功能。</GreenHighlight>"
 zhTW = "<GreenHighlight>達成地圖掌控狀態，並為之後的遊戲解鎖「彈性開局」功能。</GreenHighlight>"
@@ -14768,8 +14768,8 @@ viVN = "<GreenHighlight>Đạt trạng thái làm chủ bản đồ và mở kh�
 trTR = "<GreenHighlight>Haritaya hâkim olma durumuna ulaşın ve sonraki oyunlarda Esnek Başlangıç işlevinin kilidini açın.</GreenHighlight>"
 
 ["Buildings.Wonder.DescriptionCompleted"]
-status = "normal"
 raw = "<GreyHighlight>(Hoàn thành) Đạt trạng thái làm chủ bản đồ và mở khóa chức năng Khởi đầu linh hoạt cho các lượt chơi sau.</GreyHighlight>"
+status = "normal"
 enUS = "<GreyHighlight>(Completed) Achieve map mastery and unlock the Flexible Start feature for future playthroughs.</GreyHighlight>"
 zhCN = "<GreyHighlight>（已完成）达到地图精通状态，并为后续游玩解锁灵活开局功能。</GreyHighlight>"
 zhTW = "<GreyHighlight>（已完成）達成地圖精通狀態，並為後續遊戲解鎖彈性開局功能。</GreyHighlight>"
@@ -15791,8 +15791,8 @@ viVN = "Có công trình phía trên."
 trTR = "Üstte bir yapı var."
 
 ["DeletionBlocker.StockpileNotEmpty"]
-status = "normal"
 raw = "Không thể phá dỡ công trình này cho đến khi kho được dọn trống."
+status = "normal"
 enUS = "This structure cannot be demolished until the stockpile is emptied."
 zhCN = "仓库清空前无法拆除此建筑。"
 zhTW = "必須先清空倉庫，才能拆除這座建築。"
@@ -17561,8 +17561,8 @@ viVN = "Chọn vị trí khởi đầu"
 trTR = "Başlangıç konumunu seç"
 
 ["FlexibleStart.Needed"]
-status = "normal"
 raw = "Hoàn thành một Kỳ quan để mở khóa Khởi đầu linh hoạt trên bản đồ này."
+status = "normal"
 enUS = "Complete a Wonder to unlock Flexible Start on this map."
 zhCN = "在这张地图上完成一项奇观，即可解锁灵活开局。"
 zhTW = "完成一座奇觀，即可在此地圖解鎖彈性開局。"
@@ -20078,8 +20078,8 @@ viVN = "Lưu trữ trong:"
 trTR = "Depoda:"
 
 ["GoodsStatistics.Consumption"]
-status = "normal"
 raw = "Tiêu thụ: {0}"
+status = "normal"
 enUS = "Consumption: {0}"
 zhCN = "消耗：{0}"
 zhTW = "消耗量：{0}"
@@ -20095,8 +20095,8 @@ viVN = "Tiêu thụ: {0}"
 trTR = "Tüketim: {0}"
 
 ["GoodsStatistics.Export"]
-status = "normal"
 raw = "Xuất: {0}"
+status = "normal"
 enUS = "Export: {0}"
 zhCN = "出口：{0}"
 zhTW = "出口：{0}"
@@ -20112,8 +20112,8 @@ viVN = "Xuất: {0}"
 trTR = "Dışa aktar: {0}"
 
 ["GoodsStatistics.Import"]
-status = "normal"
 raw = "Nhập: {0}"
+status = "normal"
 enUS = "Input: {0}"
 zhCN = "输入：{0}"
 zhTW = "輸入：{0}"
@@ -20129,8 +20129,8 @@ viVN = "Nhập: {0}"
 trTR = "Giriş: {0}"
 
 ["GoodsStatistics.Production"]
-status = "normal"
 raw = "Sản xuất: {0}"
+status = "normal"
 enUS = "Production: {0}"
 zhCN = "产量：{0}"
 zhTW = "生產：{0}"
@@ -20146,8 +20146,8 @@ viVN = "Sản xuất: {0}"
 trTR = "Üretim: {0}"
 
 ["GoodsStatistics.Stock"]
-status = "normal"
 raw = "Tồn kho: {0}"
+status = "normal"
 enUS = "Stock: {0}"
 zhCN = "库存：{0}"
 zhTW = "庫存：{0}"
@@ -20826,8 +20826,8 @@ viVN = "Lật"
 trTR = "L çevirmek"
 
 ["KeyBinding.GoodStatisticsTab"]
-status = "normal"
 raw = "Mở tab Thống kê hàng hóa"
+status = "normal"
 enUS = "Open the Goods Statistics tab"
 zhCN = "打开货物统计选项卡"
 zhTW = "開啟貨物統計分頁"
@@ -21421,8 +21421,8 @@ viVN = "Ghim Cần Gạt 10"
 trTR = "10'lu Sabitleme Levyesi"
 
 ["KeyBinding.PopulationStatisticsTab"]
-status = "normal"
 raw = "Mở tab Thống kê dân số"
+status = "normal"
 enUS = "Open the Population Statistics tab"
 zhCN = "打开人口统计标签页"
 zhTW = "開啟「人口統計」分頁"
@@ -24126,8 +24126,8 @@ viVN = "Dãy núi"
 trTR = "Dağ Sırası"
 
 ["MapMetadata.Nomads.Description"]
-status = "normal"
 raw = "Một thử thách dành cho những hải ly dày dạn kinh nghiệm, nơi mỗi chu kỳ đều định hình lại dòng nước và việc định cư lâu dài không bao giờ là một lựa chọn."
+status = "normal"
 enUS = "A challenge for seasoned beavers, where each cycle reshapes the flow of water and settling down for good is never an option."
 zhCN = "一项专为经验丰富的海狸准备的挑战，每个周期都会重塑水流，而长期定居从来都不是一种选择。"
 zhTW = "一項專為經驗豐富的海狸設計的挑戰，每個週期都會重新塑造水流，而長期定居永遠不是選項。"
@@ -24143,8 +24143,8 @@ viVN = "Một thử thách dành cho những hải ly dày dạn kinh nghiệm, 
 trTR = "Her döngünün su akışını yeniden şekillendirdiği ve kalıcı yerleşimin asla bir seçenek olmadığı, deneyimli kunduzlara yönelik bir meydan okuma."
 
 ["MapMetadata.Nomads.Name"]
-status = "normal"
 raw = "Nomads"
+status = "normal"
 enUS = "Nomads"
 zhCN = "游牧者"
 zhTW = "遊牧者"
@@ -24211,8 +24211,8 @@ viVN = "Ốc đảo"
 trTR = "Vaha"
 
 ["MapMetadata.Pillars.Description"]
-status = "normal"
 raw = "Những cao nguyên sừng sững bảo vệ Hải ly khỏi dòng Nước Độc bên dưới. Tuy nhiên, để khu định cư tồn tại và mở rộng, bạn sẽ cần quản lý tài nguyên cẩn thận cùng không ít sự khéo léo."
+status = "normal"
 enUS = "The towering plateaus protect Beavers from the Badwater below. However, for the settlement to survive and expand, you’ll need to manage resources carefully and use no small amount of ingenuity."
 zhCN = "高耸的高原保护海狸免受下方恶水的侵袭。然而，要让定居点生存并发展壮大，你需要谨慎管理资源，也需要不少巧思。"
 zhTW = "高聳的高原保護海狸免受下方毒水的侵襲。然而，若要讓殖民地存續並擴張，你就得謹慎管理資源，還得有不少巧思。"
@@ -26573,8 +26573,8 @@ viVN = "Xương Rồng"
 trTR = "Kaktüs"
 
 ["NaturalResource.Succulent.FlavorDescription"]
-status = "normal"
 raw = "“Cắn, hay không cắn.” —Nỗi trăn trở của một Hải ly khát nước."
+status = "normal"
 enUS = "“To bite, or not to bite.” —The quandary of a thirsty Beaver."
 zhCN = "“咬，还是不咬。”——一只口渴海狸的烦恼。"
 zhTW = "「咬，還是不咬。」——一隻口渴海狸的煩惱。"
@@ -26676,8 +26676,8 @@ viVN = "Thủy sinh: phải được ngập nước một phần."
 trTR = "<YellowHighlight>Su altı</YellowHighlight>: kısmen suyla dolu olmalıdır."
 
 ["NaturalResources.Arid"]
-status = "normal"
 raw = "<YellowHighlight>Ưa hạn: Chỉ có thể đặt trên địa hình khô hạn."
+status = "normal"
 enUS = "<YellowHighlight>Drought-loving: Can only be placed on arid terrain."
 zhCN = "<YellowHighlight>喜旱：只能放置在干旱地形上。"
 zhTW = "<YellowHighlight>耐旱：只能放置在乾旱地形上。"
@@ -26829,8 +26829,8 @@ viVN = "Tươi tốt và khỏe mạnh."
 trTR = "Canlı ve sağlıklı."
 
 ["NaturalResources.Overwatered"]
-status = "normal"
 raw = "Úng nước."
+status = "normal"
 enUS = "Waterlogged."
 zhCN = "水涝。"
 zhTW = "積水。"
@@ -26846,8 +26846,8 @@ viVN = "Úng nước."
 trTR = "Aşırı sulanmış."
 
 ["NaturalResources.OverwateringResistance"]
-status = "normal"
 raw = "Khả năng chịu úng nước: {0} ngày"
+status = "normal"
 enUS = "Waterlogging resistance: {0} days"
 zhCN = "耐涝能力：{0} 天"
 zhTW = "耐水淹能力：{0} 天"
@@ -30247,8 +30247,8 @@ viVN = "Chết vì tuổi già."
 trTR = "Yaşlılıktan öldü."
 
 ["Status.Beaver.DiedTragically"]
-status = "normal"
 raw = "Chết thảm."
+status = "normal"
 enUS = "Died tragically."
 zhCN = "惨死。"
 zhTW = "慘死。"
@@ -30264,8 +30264,8 @@ viVN = "Chết thảm."
 trTR = "Trajik bir ölüm."
 
 ["Status.Beaver.DiedTragicallyShort"]
-status = "normal"
 raw = "Hải ly chết thảm"
+status = "normal"
 enUS = "Beaver died tragically"
 zhCN = "海狸惨死"
 zhTW = "海狸慘死"
@@ -30315,8 +30315,8 @@ viVN = "Đã bị phá hủy."
 trTR = "Yıkıldı."
 
 ["Status.Bot.DeadShort"]
-status = "normal"
 raw = "Bot đã bị phá hủy"
+status = "normal"
 enUS = "Bot destroyed"
 zhCN = "机器人已被摧毁"
 zhTW = "機器人已遭摧毀"
@@ -30978,8 +30978,8 @@ viVN = "Không có nguồn nước."
 trTR = "Yeterli su yok."
 
 ["Status.NaturalResources.Overwatered"]
-status = "normal"
 raw = "Bị úng nước."
+status = "normal"
 enUS = "Waterlogged."
 zhCN = "水涝了。"
 zhTW = "水分過多。"

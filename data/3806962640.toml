@@ -2,8 +2,8 @@
 name = "Climate Progression"
 
 ["ClimateProgression.Header"]
-status = "normal"
 raw = "Climate Progression"
+status = "normal"
 enUS = "Climate Progression"
 zhCN = "气候进程"
 zhTW = "氣候進程"
@@ -19,8 +19,8 @@ viVN = "Tiến trình khí hậu"
 trTR = "İklim İlerlemesi"
 
 ["ClimateProgression.Enabled"]
-status = "normal"
 raw = "Enable escalation"
+status = "normal"
 enUS = "Enable escalation"
 zhCN = "启用升级机制"
 zhTW = "啟用升級效果"
@@ -36,8 +36,8 @@ viVN = "Bật mức độ khắc nghiệt tăng dần"
 trTR = "Tırmanmayı etkinleştir"
 
 ["ClimateProgression.Enabled.Tooltip"]
-status = "normal"
 raw = "Off means strictly vanilla weather: your configured durations stop growing once the early-game warm-up ends, as in the base game."
+status = "normal"
 enUS = "Off means strictly vanilla weather: your configured durations stop increasing once the early-game warm-up ends, just as in the base game."
 zhCN = "关闭表示严格采用原版天气：早期游戏的预热阶段结束后，你设置的持续时间不再增长，与基础游戏一致。"
 zhTW = "關閉代表嚴格採用原版天氣：早期遊戲的暖身期結束後，你設定的持續時間便不再增加，與原版遊戲相同。"
@@ -66,8 +66,8 @@ koKR = "단계 상승 시작 주기"
 trTR = "Tırmanışın başladığı döngü"
 
 ["ClimateProgression.StartCycle.Tooltip"]
-status = "normal"
 raw = "Up to this cycle nothing changes: droughts and badtides last exactly what you configured in the game setup. Escalation only begins afterwards."
+status = "normal"
 enUS = "Up to this cycle, nothing changes: droughts and badtides last exactly as long as you configured in the game setup. Escalation only begins afterward."
 zhCN = "直到这个周期为止，一切都不会改变：干旱和恶水潮持续时间完全按照你在游戏设置中配置的时长。之后才会开始逐步升级。"
 zhTW = "在這個週期之前，一切都不會改變：乾旱和毒潮的持續時間完全按照你在遊戲設定中配置的時間。之後才會開始逐步升級。"
@@ -99,8 +99,8 @@ viVN = "Quá trình leo thang hoàn tất ở chu kỳ"
 trTR = "Döngüde tırmanış tamamlandı"
 
 ["ClimateProgression.FullCycle.Tooltip"]
-status = "normal"
 raw = "Cycle at which the settings below are fully applied. Past this point difficulty stops rising: the curve holds a plateau instead of growing forever. Cannot sit before the start of the escalation; moving either slider pushes the other."
+status = "normal"
 enUS = "Cycle at which the settings below are fully applied. After this point, difficulty stops rising: the curve plateaus instead of growing forever. Cannot be set before the start of the escalation; moving either slider moves the other."
 zhCN = "以下设置完全生效的周期。超过此周期后，难度不再上升：曲线会保持平稳，而不是无限增长。不能设在难度开始升级之前；移动任一滑块都会带动另一个滑块。"
 zhTW = "下方設定完全套用的週期。超過此週期後，難度便不再上升：曲線會維持平臺，而非無止境地增長。不能設在難度開始升高之前；移動任一滑桿都會帶動另一個滑桿。"
@@ -116,8 +116,8 @@ viVN = "Chu kỳ mà các thiết lập bên dưới được áp dụng đầy 
 trTR = "Aşağıdaki ayarların tamamen uygulandığı döngü. Bu noktadan sonra zorluk artışı durur: eğri sonsuza kadar yükselmek yerine sabit kalır. Zorluk artışının başlangıcından önce olamaz; kaydırıcılardan birini hareket ettirmek diğerini de hareket ettirir."
 
 ["ClimateProgression.DroughtIntensity"]
-status = "normal"
 raw = "Drought lengthening"
+status = "normal"
 enUS = "Drought lengthening"
 zhCN = "干旱期延长"
 zhTW = "乾旱期延長"
@@ -133,8 +133,8 @@ viVN = "Thời gian hạn hán kéo dài hơn"
 trTR = "Kuraklık süresinin uzaması"
 
 ["ClimateProgression.DroughtIntensity.Tooltip"]
-status = "normal"
 raw = "How much longer droughts get once escalation is complete, compared to the duration you configured when starting the game. The chart below shows the result."
+status = "normal"
 enUS = "How much longer droughts last after escalation is complete, compared to the duration you configured when starting the game. The chart below shows the result."
 zhCN = "升级完成后，干旱时长会比你开始游戏时设置的时长延长多少。下方图表显示了结果。"
 zhTW = "升級完成後，乾旱時間會比你開始遊戲時設定的時間延長多少。下方圖表會顯示結果。"
@@ -166,8 +166,8 @@ viVN = "Kéo dài đợt nước ô nhiễm"
 trTR = "Kötü su dönemi uzaması"
 
 ["ClimateProgression.BadtideIntensity.Tooltip"]
-status = "normal"
 raw = "How much longer badtides get at the plateau. Kept lower than droughts by default: a long badtide is harsher, since pumped water is badwater and soil degrades."
+status = "normal"
 enUS = "How much longer badtides last on the plateau. Lower than droughts by default: a long badtide is harsher because pumped water is badwater and soil degrades."
 zhCN = "高原上的恶潮会持续多久。默认设置下，其时长低于干旱：恶潮持续越久，影响越严重，因为抽取的水是恶水，土壤也会退化。"
 zhTW = "高原上的毒水潮會延長多少時間。預設比乾旱短：毒水潮持續越久，影響越嚴重，因為抽取的水是毒水，而且土壤會退化。"
@@ -183,8 +183,8 @@ viVN = "Badtide kéo dài thêm bao lâu khi tiến triển. Mặc định thờ
 trTR = "Yayladaki zehirli gelgitlerin ne kadar daha uzun süreceği. Varsayılan olarak kuraklıklardan daha kısa tutulur: Uzun bir zehirli gelgit daha zorludur; çünkü pompalanan su zehirli sudur ve toprak bozulur."
 
 ["ClimateProgression.TemperateIntensity"]
-status = "normal"
 raw = "Temperate weather shortening"
+status = "normal"
 enUS = "Temperate weather duration reduction"
 zhCN = "温和天气持续时间缩短"
 zhTW = "溫帶天氣持續時間縮短"
@@ -200,8 +200,8 @@ viVN = "Rút ngắn thời tiết ôn hòa"
 trTR = "Ilıman hava süresinin kısaltılması"
 
 ["ClimateProgression.TemperateIntensity.Tooltip"]
-status = "normal"
 raw = "How much shorter the good season gets at the plateau. Careful: shortening production time while lengthening hazards compounds, so difficulty rises much faster than the two settings suggest."
+status = "normal"
 enUS = "How much shorter the good season gets at the plateau. Careful: shortening production time while lengthening hazards compounds, so difficulty rises much faster than the two settings suggest."
 zhCN = "到达高原期后，良好季节会缩短多少。注意：缩短生产时间的同时延长灾害持续时间，两者会叠加，使难度上升得远比这两个设置所显示的更快。"
 zhTW = "到達高原時，豐水期會縮短多少。請注意：縮短生產時間的同時拉長災害時間，兩者會相互疊加，因此難度上升的速度遠比這兩項設定所暗示的快。"
@@ -217,8 +217,8 @@ viVN = "Mùa thuận lợi ngắn đi bao nhiêu khi lên cao nguyên. Hãy cẩ
 trTR = "Yayladaki iyi mevsim ne kadar kısalıyor. Dikkat: tehlikeler uzarken üretim süresinin kısalması etkileri katlar; bu yüzden zorluk, iki ayarın düşündürdüğünden çok daha hızlı artar."
 
 ["ClimateProgression.TemperateFloorDays"]
-status = "normal"
 raw = "Minimum temperate days"
+status = "normal"
 enUS = "Minimum temperate days"
 zhCN = "最低温和天气天数"
 zhTW = "最低溫和天數"
@@ -234,8 +234,8 @@ viVN = "Số ngày ôn hòa tối thiểu"
 trTR = "En az ılıman gün sayısı"
 
 ["ClimateProgression.TemperateFloorDays.Tooltip"]
-status = "normal"
 raw = "Hard floor the good season never goes under, whatever the multiplier. This is what keeps the late game playable rather than unwinnable."
+status = "normal"
 enUS = "The good season never goes below this hard floor, regardless of the multiplier. This is what keeps the late game playable rather than unwinnable."
 zhCN = "丰水季的天数有硬性下限，不会因任何倍率而低于此值。正是这一点让游戏后期仍然可玩，而不至于变得无法取胜。"
 zhTW = "良好季節的天數有固定下限，不會因任何倍率而低於此下限。這能讓遊戲後期仍可遊玩，而不至於變得無法取勝。"
@@ -251,8 +251,8 @@ viVN = "Số ngày mùa tốt tối thiểu luôn được giữ nguyên, bất 
 trTR = "İyi mevsimin süresi, çarpan ne olursa olsun hiçbir zaman bu sabit taban sürenin altına düşmez. Oyunun son aşamasını kazanılamaz kılmak yerine oynanabilir tutan şey budur."
 
 ["ClimateProgression.Preview"]
-status = "normal"
 raw = "Result of your settings"
+status = "normal"
 enUS = "Result of your settings"
 zhCN = "设置结果"
 zhTW = "設定結果"
@@ -268,8 +268,8 @@ viVN = "Kết quả cài đặt của bạn"
 trTR = "Ayarlarınızın sonucu"
 
 ["ClimateProgression.Preview.SourceGame"]
-status = "normal"
 raw = "Based on the durations of the game you are playing."
+status = "normal"
 enUS = "Based on the duration of the game you’re playing."
 zhCN = "基于你正在游玩的游戏时长。"
 zhTW = "根據你目前遊玩的遊戲時長。"
@@ -285,8 +285,8 @@ viVN = "Dựa trên thời lượng của trò chơi bạn đang chơi."
 trTR = "Oynadığınız oyunun süresine göre."
 
 ["ClimateProgression.Preview.SourceDefault"]
-status = "normal"
 raw = "Based on the default game mode. Your own setup may use other durations; hazard warm-up is estimated from the chance for a badtide."
+status = "normal"
 enUS = "Based on the default game mode. Your setup may use different durations; hazard warm-up is estimated from the chance of a badtide."
 zhCN = "基于默认游戏模式。你的设置可能采用不同的持续时间；灾害预热时间根据恶潮出现的概率估算。"
 zhTW = "以預設遊戲模式為基準。你自己的設定可能採用其他持續時間；危害暖機時間是根據壞潮發生機率估算的。"
@@ -302,8 +302,8 @@ viVN = "Dựa trên chế độ chơi mặc định. Thiết lập của bạn c
 trTR = "Varsayılan oyun moduna dayanır. Kendi kurulumunuzda farklı süreler kullanılabilir; tehlike ön hazırlık süresi, zehirli gelgit olasılığına göre tahmin edilir."
 
 ["ClimateProgression.Preview.Cycle"]
-status = "normal"
 raw = "Cycle"
+status = "normal"
 enUS = "Cycle"
 zhCN = "周期"
 zhTW = "週期"
@@ -319,8 +319,8 @@ viVN = "Chu kỳ"
 trTR = "Döngü"
 
 ["ClimateProgression.Preview.Temperate"]
-status = "normal"
 raw = "Temperate weather"
+status = "normal"
 enUS = "Temperate weather"
 zhCN = "温带天气"
 zhTW = "溫帶氣候"
@@ -352,8 +352,8 @@ viVN = "Hạn hán"
 trTR = "Kuraklık"
 
 ["ClimateProgression.Preview.Badtide"]
-status = "normal"
 raw = "Badtide"
+status = "normal"
 enUS = "Badtide"
 zhCN = "恶水潮"
 zhTW = "毒水潮"
@@ -369,8 +369,8 @@ viVN = "Triều nước ô nhiễm"
 trTR = "Kötü Su Dönemi"
 
 ["ClimateProgression.Preview.Ratio"]
-status = "normal"
 raw = "Temperate days per hazard day"
+status = "normal"
 enUS = "Temperate days per hazard day"
 zhCN = "每个灾害日对应的温和天气日数"
 zhTW = "每個災害日對應的溫和日數"
@@ -402,8 +402,8 @@ csCZ = "Plošina"
 viVN = "Cao nguyên"
 
 ["ClimateProgression.Preview.Disabled"]
-status = "normal"
 raw = "Escalation is off: weather behaves exactly as in the base game."
+status = "normal"
 enUS = "Escalation is off: weather behaves exactly as in the base game."
 zhCN = "升级机制已关闭：天气表现与原版游戏完全一致。"
 zhTW = "升級機制已關閉：天氣狀況與原版遊戲完全相同。"
@@ -419,8 +419,8 @@ viVN = "Tình trạng leo thang đã tắt: thời tiết diễn biến chính x
 trTR = "Tırmanış kapalı: Hava durumu temel oyundakiyle tamamen aynı şekilde işler."
 
 ["ClimateProgression.Preview.WarnRatio"]
-status = "normal"
 raw = "Warning: at the plateau there is less than one temperate day for five hazard days. A settlement is unlikely to survive that without very large reserves."
+status = "normal"
 enUS = "Warning: At the plateau, there is less than one temperate day for every five hazard days. A settlement is unlikely to survive that without very large reserves."
 zhCN = "警告：在高原，5个灾害日中温和天气不足1天。没有非常充足的储备，定居点很难撑过这段时期。"
 zhTW = "警告：高原的每五個危害日中，溫和天氣日不到一天。沒有非常大量的儲備，殖民地恐怕難以存活。"
@@ -436,8 +436,8 @@ viVN = "Cảnh báo: trên cao nguyên, cứ mỗi năm ngày hiểm họa lại
 trTR = "Uyarı: Yaylada beş tehlike günü başına bir ılıman günden az süre var. Çok büyük rezervler olmadan bir yerleşimin hayatta kalması pek olası değil."
 
 ["ClimateProgression.Preview.WarnFloor"]
-status = "normal"
 raw = "Warning: the good season is pinned to its floor. Lower the temperate multiplier further and nothing will change; raise the floor to soften the late game."
+status = "normal"
 enUS = "Warning: the good season is pinned to its floor. Lower the temperate multiplier further and nothing will change; raise the floor to soften the late game."
 zhCN = "警告：丰水期已固定在其下限。进一步降低温和季节倍率不会有任何变化；提高下限可以缓和游戏后期难度。"
 zhTW = "警告：豐水季已被鎖定在最低值。再降低溫和季節倍率也不會有任何變化；提高最低值可讓遊戲後期沒那麼艱難。"
@@ -453,8 +453,8 @@ viVN = "Cảnh báo: mùa thuận lợi bị ghim ở mức sàn. Giảm thêm h
 trTR = "Uyarı: İyi mevsim alt sınırına sabitlenmiş. Ilıman mevsim çarpanını daha da düşürürsen hiçbir şey değişmez; oyun sonunu yumuşatmak için alt sınırı yükselt."
 
 ["ClimateProgression.Intensity.Longer.None"]
-status = "normal"
 raw = "Unchanged"
+status = "normal"
 enUS = "Unchanged"
 zhCN = "不变"
 zhTW = "未變更"
@@ -518,8 +518,8 @@ viVN = "Dài hơn đáng kể"
 trTR = "Belirgin ölçüde daha uzun"
 
 ["ClimateProgression.Intensity.Longer.Severe"]
-status = "normal"
 raw = "Much longer"
+status = "normal"
 enUS = "Much longer"
 zhCN = "长得多"
 zhTW = "長得多"
@@ -582,8 +582,8 @@ viVN = "{0} (+{1}%)"
 trTR = "{0} (+{1}%)"
 
 ["ClimateProgression.Intensity.Shorter.None"]
-status = "normal"
 raw = "Unchanged"
+status = "normal"
 enUS = "Unchanged"
 zhCN = "不变"
 zhTW = "未變更"
@@ -599,8 +599,8 @@ viVN = "Không thay đổi"
 trTR = "Değişmedi"
 
 ["ClimateProgression.Intensity.Shorter.Slight"]
-status = "normal"
 raw = "Slightly shorter"
+status = "normal"
 enUS = "Slightly shorter"
 zhCN = "略短一点"
 zhTW = "稍微短一些"
@@ -631,8 +631,8 @@ viVN = "Ngắn hơn ở mức vừa phải"
 trTR = "Orta derecede daha kısa"
 
 ["ClimateProgression.Intensity.Shorter.Strong"]
-status = "normal"
 raw = "Notably shorter"
+status = "normal"
 enUS = "Notably shorter"
 zhCN = "明显更短"
 zhTW = "明顯較短"
@@ -663,8 +663,8 @@ csCZ = "Výrazně kratší"
 viVN = "Ngắn hơn nhiều"
 
 ["ClimateProgression.Intensity.Shorter.Extreme"]
-status = "normal"
 raw = "Extremely short"
+status = "normal"
 enUS = "Extremely short"
 zhCN = "极短"
 zhTW = "極短"
@@ -680,8 +680,8 @@ viVN = "Cực kỳ ngắn"
 trTR = "Son derece kısa"
 
 ["ClimateProgression.Intensity.Shorter.Format"]
-status = "normal"
 raw = "{0} (−{1}%)"
+status = "normal"
 enUS = "{0} (−{1}%)"
 zhCN = "{0}（−{1}%）"
 zhTW = "{0}（−{1}%）"
@@ -697,8 +697,8 @@ viVN = "{0} (−{1}%)"
 trTR = "{0} (−{1}%)"
 
 ["ClimateProgression.Intensity.Longer.Value"]
-status = "normal"
 raw = "+{0}%"
+status = "normal"
 enUS = "+{0}%"
 zhCN = "+{0}%"
 zhTW = "+{0}%"
@@ -714,8 +714,8 @@ viVN = "+{0}%"
 trTR = "+{0}%"
 
 ["ClimateProgression.Intensity.Shorter.Value"]
-status = "normal"
 raw = "−{0}%"
+status = "normal"
 enUS = "−{0}%"
 zhCN = "−{0}%"
 zhTW = "−{0}%"
@@ -731,8 +731,8 @@ viVN = "−{0}%"
 trTR = "−{0}%"
 
 ["ClimateProgression.Preview.SummaryLine"]
-status = "normal"
 raw = "{0}: {1}"
+status = "normal"
 enUS = "{0}: {1}"
 zhCN = "{0}：{1}"
 zhTW = "{0}：{1}"

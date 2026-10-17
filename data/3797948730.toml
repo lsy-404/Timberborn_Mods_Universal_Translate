@@ -2,8 +2,8 @@
 name = "Builders' Hut Plus"
 
 ["BuildersHutPlus.Title"]
-status = "normal"
 raw = "Builders' Hut Plus"
+status = "normal"
 enUS = "Builders' Hut Plus"
 zhCN = "建造者小屋 Plus"
 zhTW = "建築工小屋 Plus"
@@ -19,8 +19,8 @@ viVN = "Lều thợ xây Plus"
 trTR = "Gelişmiş İnşaatçı Kulübesi"
 
 ["BuildersHutPlus.Desired"]
-status = "normal"
 raw = "Desired workers"
+status = "normal"
 enUS = "Desired workers"
 zhCN = "期望工人数"
 zhTW = "預期工人數量"
@@ -36,8 +36,8 @@ viVN = "Số công nhân mong muốn"
 trTR = "İstenen işçi sayısı"
 
 ["BuildersHutPlus.Status"]
-status = "normal"
 raw = "Assigned: {0} · Desired: {1} · Capacity: {2}"
+status = "normal"
 enUS = "Assigned: {0} · Desired: {1} · Capacity: {2}"
 zhCN = "已分配：{0} · 目标：{1} · 容量：{2}"
 zhTW = "已指派：{0} · 期望：{1} · 容量：{2}"
@@ -53,8 +53,8 @@ viVN = "Đã phân công: {0} · Mong muốn: {1} · Sức chứa: {2}"
 trTR = "Atanan: {0} · İstenen: {1} · Kapasite: {2}"
 
 ["BuildersHutPlus.Preview"]
-status = "normal"
 raw = "Release to apply: {0}"
+status = "normal"
 enUS = "Release to apply: {0}"
 zhCN = "松开以应用：{0}"
 zhTW = "放開以套用：{0}"
@@ -70,8 +70,8 @@ viVN = "Thả ra để áp dụng: {0}"
 trTR = "Uygulamak için bırak: {0}"
 
 ["BuildersHutPlus.Hint"]
-status = "normal"
 raw = "Release the slider or press Enter to apply. The 4 button restores default staffing."
+status = "normal"
 enUS = "Release the slider or press Enter to apply. The 4 button restores default staffing."
 zhCN = "松开滑块或按 Enter 键以应用设置。4 按钮可恢复默认人员配置。"
 zhTW = "放開滑桿或按 Enter 套用。按下 4 按鈕可還原預設人力配置。"
@@ -87,8 +87,8 @@ viVN = "Thả thanh trượt hoặc nhấn Enter để áp dụng. Nút 4 khôi 
 trTR = "Uygulamak için kaydırma çubuğunu bırakın veya Enter tuşuna basın. 4 düğmesi varsayılan personel sayısını geri yükler."
 
 ["BuildersHutPlus.StaffingHint"]
-status = "normal"
 raw = "Actual staffing depends on available workers and workplace priority. Worker portraits are replaced with this summary."
+status = "normal"
 enUS = "Actual staffing depends on available workers and workplace priority. Worker portraits are replaced with this summary."
 zhCN = "实际员工人数取决于可用工人数量和工作场所优先级。工人肖像将替换为此摘要。"
 zhTW = "實際人力配置取決於可用工人和工作場所優先級。工人肖像會替換為此摘要。"
@@ -104,8 +104,8 @@ viVN = "Nhân sự thực tế phụ thuộc vào số công nhân hiện có v�
 trTR = "Gerçek çalışan sayısı, mevcut işçilere ve iş yeri önceliğine bağlıdır. İşçi portrelerinin yerine bu özet gösterilir."
 
 ["BuildersHutPlus.CapacityWarning"]
-status = "normal"
 raw = "Capacity is not 99. Check mod load order and other workplace mods."
+status = "normal"
 enUS = "Capacity is not 99. Check the mod load order and other workplace mods."
 zhCN = "容量并非 99。请检查模组加载顺序和其他工作场所模组。"
 zhTW = "容量不是 99。請檢查模組載入順序及其他工作場所模組。"

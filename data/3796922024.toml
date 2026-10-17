@@ -2,8 +2,8 @@
 name = "Unknown"
 
 ["Building.PowerMonitor.Description"]
-status = "normal"
 raw = "Monitors power network parameters and sends an automation signal based on low and high thresholds."
+status = "normal"
 enUS = "Monitors power network parameters and sends an automation signal based on low and high thresholds."
 zhCN = "监测能量网参数，并根据低阈值和高阈值发送自动化信号。"
 zhTW = "監控動能網參數，並根據低、高閾值傳送自動化訊號。"
@@ -35,8 +35,8 @@ viVN = "Bộ theo dõi điện năng"
 trTR = "Güç Monitörü"
 
 ["Building.PowerMonitor.FlavorDescription"]
-status = "normal"
 raw = "Now you can neurotically check your power grid every 5 seconds"
+status = "normal"
 enUS = "Now you can neurotically check your power grid every 5 seconds"
 zhCN = "现在你可以每隔 5 秒神经质地检查一次能量网了。"
 zhTW = "現在你可以每 5 秒就神經質地檢查一次動能網了"
@@ -52,8 +52,8 @@ viVN = "Giờ đây bạn có thể kiểm tra lưới điện của mình một
 trTR = "Artık güç şebekenizi her 5 saniyede bir takıntılı bir şekilde kontrol edebilirsiniz."
 
 ["Building.PowerMonitor.TurnOffIf"]
-status = "normal"
 raw = "Turn OFF if ≥"
+status = "normal"
 enUS = "Turn OFF if ≥"
 zhCN = "若 ≥ 则关闭"
 zhTW = "若 ≥ 則關閉"

@@ -2,8 +2,8 @@
 name = "Unknown"
 
 ["Building.ZiplineStation.Tiny.DisplayName"]
-status = "normal"
 raw = "Tiny Zipline Station"
+status = "normal"
 enUS = "Tiny Zipline Station"
 zhCN = "小型滑索站"
 zhTW = "迷你滑索站"
@@ -19,8 +19,8 @@ viVN = "Trạm Zipline nhỏ gọn"
 trTR = "Minik Zipline İstasyonu"
 
 ["Building.ZiplineStation.Tiny.Description"]
-status = "normal"
 raw = "A one-tile Zipline Station. Tubeways can connect to its sides and bottom."
+status = "normal"
 enUS = "A one-tile Zipline Station. Tubeways can connect to its sides and bottom."
 zhCN = "占地一格的滑索站。管道交通可连接其侧面和底部。"
 zhTW = "佔用一格的滑索站。管道可以連接至其側面和底部。"

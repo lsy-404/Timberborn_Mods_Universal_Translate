@@ -2,8 +2,8 @@
 name = "Unknown"
 
 ["DailyNet.PerDay"]
-status = "normal"
 raw = "{0}/day"
+status = "normal"
 enUS = "{0}/day"
 zhCN = "{0}/天"
 zhTW = "{0}/天"
@@ -50,8 +50,8 @@ viVN = "trống!"
 trTR = "boş!"
 
 ["DailyNet.UnderOneDayLeft"]
-status = "normal"
 raw = "under 1 day left"
+status = "normal"
 enUS = "Less than 1 day left"
 zhCN = "剩余时间不足1天"
 zhTW = "剩不到 1 天"
@@ -67,8 +67,8 @@ viVN = "còn chưa đến 1 ngày"
 trTR = "1 günden az kaldı"
 
 ["DailyNet.OneDayLeft"]
-status = "normal"
 raw = "1 day left"
+status = "normal"
 enUS = "1 day left"
 zhCN = "剩余1天"
 zhTW = "還剩 1 天"
@@ -84,8 +84,8 @@ viVN = "Còn 1 ngày"
 trTR = "1 gün kaldı"
 
 ["DailyNet.DaysLeft"]
-status = "normal"
 raw = "{0} days left"
+status = "normal"
 enUS = "{0} days left"
 zhCN = "还剩 {0} 天"
 zhTW = "還剩 {0} 天"
@@ -101,8 +101,8 @@ viVN = "Còn {0} ngày"
 trTR = "{0} gün kaldı"
 
 ["DailyNet.StorageFull"]
-status = "normal"
 raw = "storage full"
+status = "normal"
 enUS = "Storage full"
 zhCN = "存储已满"
 zhTW = "儲存空間已滿"
@@ -118,8 +118,8 @@ viVN = "kho lưu trữ đã đầy"
 trTR = "Depo dolu"
 
 ["DailyNet.FullInOneDay"]
-status = "normal"
 raw = "full in 1 day"
+status = "normal"
 enUS = "Full in 1 day"
 zhCN = "1天后装满"
 zhTW = "1 天後裝滿"
@@ -135,8 +135,8 @@ viVN = "đầy trong 1 ngày"
 trTR = "1 günde doluyor"
 
 ["DailyNet.FullInDays"]
-status = "normal"
 raw = "full in {0} days"
+status = "normal"
 enUS = "full in {0} days"
 zhCN = "{0}天后蓄满"
 zhTW = "{0} 天後裝滿"
@@ -152,8 +152,8 @@ viVN = "đầy sau {0} ngày"
 trTR = "{0} gün içinde dolu"
 
 ["DailyNet.Steady"]
-status = "normal"
 raw = "steady"
+status = "normal"
 enUS = "steady"
 zhCN = "稳定的"
 zhTW = "穩定"
@@ -169,8 +169,8 @@ viVN = "ổn định"
 trTR = "istikrarlı"
 
 ["DailyNet.Tooltip"]
-status = "normal"
 raw = "Average over the last {0} days: made {1} a day, used {2} a day."
+status = "normal"
 enUS = "Average over the last {0} days: made {1} per day, used {2} per day."
 zhCN = "过去 {0} 天的平均值：每天生产 {1}，每天消耗 {2}。"
 zhTW = "過去 {0} 天的平均值：每日生產 {1}，每日消耗 {2}。"
@@ -186,8 +186,8 @@ viVN = "Trung bình trong {0} ngày qua: sản xuất {1} mỗi ngày, sử dụ
 trTR = "Son {0} günün ortalaması: günde {1} üretildi, günde {2} kullanıldı."
 
 ["DailyNet.TooltipAllTypes"]
-status = "normal"
 raw = "All types added together."
+status = "normal"
 enUS = "All types added together."
 zhCN = "所有类型的总和。"
 zhTW = "所有類型加總。"
@@ -203,8 +203,8 @@ viVN = "Tổng tất cả các loại."
 trTR = "Tüm türler birlikte toplandı."
 
 ["DailyNet.TooltipNoData"]
-status = "normal"
 raw = "The daily net appears after the first dawn."
+status = "normal"
 enUS = "The daily net appears after the first dawn."
 zhCN = "每日净值将在第一个黎明后显示。"
 zhTW = "每日淨值會在第一個黎明後顯示。"

@@ -2,8 +2,8 @@
 name = "Toolbar Hotkey"
 
 ["TBH.Group"]
-status = "normal"
 raw = "Toolbar Hotkeys"
+status = "normal"
 enUS = "Toolbar Hotkeys"
 zhCN = "工具栏快捷键"
 zhTW = "工具列快捷鍵"
@@ -19,8 +19,8 @@ viVN = "Phím tắt trên thanh công cụ"
 trTR = "Araç Çubuğu Kısayol Tuşları"
 
 ["TBH.Leader"]
-status = "normal"
 raw = "Toolbar leader key (then group key, then tool number or key)"
+status = "normal"
 enUS = "Toolbar leader key (then group key, then tool number or key)"
 zhCN = "工具栏前导键（接着按组键，再按工具编号或按键）"
 zhTW = "工具列首領按鍵（接著是群組按鍵，再接著是工具編號或按鍵）"
@@ -36,8 +36,8 @@ viVN = "Phím thủ lĩnh thanh công cụ (sau đó là phím nhóm, rồi số
 trTR = "Araç çubuğu lider tuşu (ardından grup tuşu, sonra araç numarası veya tuşu)"
 
 ["TBH.HintGroups"]
-status = "normal"
 raw = "Group key, then tool number  |  Tab: change group keys  |  Esc: cancel"
+status = "normal"
 enUS = "Group key, then tool number  |  Tab: change group keys  |  Esc: cancel"
 zhCN = "组键，然后是工具编号  |  Tab：更改组键  |  Esc：取消"
 zhTW = "群組按鍵，再按工具編號  |  Tab：變更群組按鍵  |  Esc：取消"
@@ -53,8 +53,8 @@ viVN = "Nhấn tổ hợp phím nhóm, rồi đến số công cụ  |  Tab: đ�
 trTR = "Önce grup tuşu, ardından araç numarası  |  Tab: grup tuşlarını değiştir  |  Esc: iptal"
 
 ["TBH.AssignPick"]
-status = "normal"
 raw = "Press the current key of a group to change it  |  Shift+Delete: reset all  |  Esc: done"
+status = "normal"
 enUS = "Press the current key of a group to change it  |  Shift+Delete: reset all  |  Esc: done"
 zhCN = "按下组的当前按键可更改该组  |  Shift+Delete：全部重置  |  Esc：完成"
 zhTW = "按下群組目前使用的按鍵即可變更  |  Shift+Delete：全部重設  |  Esc：完成"
@@ -86,8 +86,8 @@ viVN = "Nhấn phím mới cho {0}  |  Delete: đặt lại  |  Backspace: quay 
 trTR = "{0} için yeni tuşa bas  |  Delete: sıfırla  |  Backspace: geri dön"
 
 ["TBH.HintTools"]
-status = "normal"
 raw = "Tool number or its key  |  Tab: change tool keys  |  Backspace: back  |  Esc: cancel"
+status = "normal"
 enUS = "Tool number or its key  |  Tab: change tool keys  |  Backspace: back  |  Esc: cancel"
 zhCN = "工具编号或对应按键  |  Tab：更改工具按键  |  Backspace：返回  |  Esc：取消"
 zhTW = "工具編號或其按鍵  |  Tab：變更工具按鍵  |  Backspace：返回  |  Esc：取消"
@@ -103,8 +103,8 @@ viVN = "Số công cụ hoặc phím tắt của công cụ  |  Tab: đổi phí
 trTR = "Araç numarası veya tuşu  |  Sekme: araç tuşlarını değiştir  |  Geri al: geri dön  |  Esc: iptal"
 
 ["TBH.AssignToolPick"]
-status = "normal"
 raw = "Press the number or key of a tool to give it a key  |  Shift+Delete: reset group  |  Esc: done"
+status = "normal"
 enUS = "Press the number or key of a tool to assign it a key  |  Shift+Delete: reset group  |  Esc: done"
 zhCN = "按下工具对应的数字或按键即可为其设置快捷键  |  Shift+Delete：重置分组  |  Esc：完成"
 zhTW = "按下工具對應的數字或按鍵來設定快捷鍵  |  Shift+Delete：重設群組  |  Esc：完成"

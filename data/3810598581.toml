@@ -2,8 +2,8 @@
 name = "Creative Mode"
 
 ["CreativeMode.ToolGroup"]
-status = "normal"
 raw = "Creative mode"
+status = "normal"
 enUS = "Creative Mode"
 zhCN = "创意模式"
 zhTW = "創意模式"
@@ -19,8 +19,8 @@ viVN = "Chế độ sáng tạo"
 trTR = "Yaratıcı Mod"
 
 ["CreativeMode.Flatten.Title"]
-status = "normal"
 raw = "Flatten terrain"
+status = "normal"
 enUS = "Flatten terrain"
 zhCN = "平整地形"
 zhTW = "整平地形"
@@ -36,8 +36,8 @@ viVN = "San phẳng địa hình"
 trTR = "Araziyi düzleştir"
 
 ["CreativeMode.Flatten.Description"]
-status = "normal"
 raw = "Click and drag over an area to flatten it to the height of the first tile you click. Green tiles will be raised, red tiles lowered. Buildings, plants and overhangs in the way are removed."
+status = "normal"
 enUS = "Click and drag over an area to flatten it to the height of the first tile you click. Green tiles will be raised, red tiles lowered. Buildings, plants, and overhangs in the way are removed."
 zhCN = "点击并拖动一片区域，将其夷平至你点击的第一个地块的高度。绿色地块会被抬高，红色地块会被降低。挡路的建筑、植物和悬空结构都会被移除。"
 zhTW = "在一個區域上按住並拖曳，將該區域整平至你點擊的第一個地塊高度。綠色地塊會升高，紅色地塊會降低。擋路的建築、植物和懸垂物都會被移除。"
@@ -69,8 +69,8 @@ csCZ = "Zvýšit terén"
 viVN = "Nâng địa hình"
 
 ["CreativeMode.Raise.Description"]
-status = "normal"
 raw = "Click and drag over an area to raise every tile by the selected number of levels. Anything standing in the way is removed."
+status = "normal"
 enUS = "Click and drag over an area to raise every tile by the selected number of levels. Anything standing in the way is removed."
 zhCN = "点击并拖动一个区域，将其中每个地块抬高所选的级数。挡路的任何物体都会被移除。"
 zhTW = "在一個區域上按住並拖曳，即可將其中每個地塊升高所選的層數。任何擋路的物件都會被移除。"
@@ -102,8 +102,8 @@ csCZ = "Snížit terén"
 viVN = "Hạ thấp địa hình"
 
 ["CreativeMode.Lower.Description"]
-status = "normal"
 raw = "Click and drag over an area to lower every tile by the selected number of levels. Anything standing on the removed terrain is removed."
+status = "normal"
 enUS = "Click and drag over an area to lower every tile by the selected number of levels. Anything standing on the removed terrain is removed."
 zhCN = "在一片区域上点击并拖动，可将其中每个地块降低所选的层数。被移除地形上方的所有物体也会被移除。"
 zhTW = "在一片區域上按住並拖曳，將其中每個地磚降低所選的層數。被移除地形上的所有物體也會一併移除。"
@@ -119,8 +119,8 @@ viVN = "Nhấp và kéo trên một khu vực để hạ mọi ô xuống số c
 trTR = "Seçilen sayıda seviye alçaltmak için bir alanın üzerinde tıklayıp sürükleyin. Kaldırılan arazinin üzerinde bulunan her şey de kaldırılır."
 
 ["CreativeMode.InstantBuild.Title"]
-status = "normal"
 raw = "Instant build"
+status = "normal"
 enUS = "Instant Build"
 zhCN = "即时建造"
 zhTW = "立即建造"
@@ -136,8 +136,8 @@ viVN = "Xây dựng tức thì"
 trTR = "Anında inşa et"
 
 ["CreativeMode.InstantBuild.On"]
-status = "normal"
 raw = "ON – new buildings are placed already finished, with no materials or builders needed. Click to turn off."
+status = "normal"
 enUS = "ON – new buildings are placed already finished, with no materials or builders needed. Click to turn off."
 zhCN = "开启——新建筑放置后即已建成，无需材料或建造者。点击以关闭。"
 zhTW = "開啟 – 新建築放置後即完工，不需要材料或建築工人。點擊以關閉。"
@@ -153,8 +153,8 @@ viVN = "BẬT – công trình mới được đặt xuống sẽ hoàn thành n
 trTR = "AÇIK – yeni binalar, malzeme veya inşaatçı gerekmeksizin tamamlanmış hâlde yerleştirilir. Kapatmak için tıklayın."
 
 ["CreativeMode.InstantBuild.Off"]
-status = "normal"
 raw = "OFF – new buildings are placed as normal construction sites. Click to turn on."
+status = "normal"
 enUS = "OFF – new buildings are placed as normal construction sites. Click to turn on."
 zhCN = "关闭——新建筑将像普通建筑一样放置为施工地点。点击以开启。"
 zhTW = "關閉 – 新建築會照常放置為施工現場。點擊以開啟。"
@@ -170,8 +170,8 @@ viVN = "TẮT – các công trình mới được đặt xuống như công tr�
 trTR = "KAPALI – yeni binalar normal inşaat alanları olarak yerleştirilir. Açmak için tıklayın."
 
 ["CreativeMode.FreeUnlock.Title"]
-status = "normal"
 raw = "Free unlocks"
+status = "normal"
 enUS = "Free unlocks"
 zhCN = "免费解锁"
 zhTW = "免費解鎖"
@@ -187,8 +187,8 @@ viVN = "Mở khóa miễn phí"
 trTR = "Ücretsiz kilit açmalar"
 
 ["CreativeMode.FreeUnlock.On"]
-status = "normal"
 raw = "ON – every building is available without spending science. Click to turn off."
+status = "normal"
 enUS = "ON – every building is available without spending science. Click to turn off."
 zhCN = "开启——无需消耗科学点即可使用所有建筑。点击关闭。"
 zhTW = "開啟－無需花費科學即可使用所有建築。點擊以關閉。"
@@ -204,8 +204,8 @@ viVN = "BẬT – mọi công trình đều có thể sử dụng mà không c�
 trTR = "AÇIK – tüm binalar bilim puanı harcamadan kullanılabilir. Kapatmak için tıklayın."
 
 ["CreativeMode.FreeUnlock.Off"]
-status = "normal"
 raw = "OFF – buildings must be unlocked with science as usual. Click to turn on."
+status = "normal"
 enUS = "OFF – buildings must be unlocked with science as usual. Click to turn on."
 zhCN = "关闭——建筑仍需像往常一样使用科学点数解锁。点击以开启。"
 zhTW = "關閉－建築必須照常使用科學點數解鎖。點擊以開啟。"
@@ -221,8 +221,8 @@ viVN = "TẮT – như thường lệ, phải mở khóa công trình bằng đi
 trTR = "KAPALI – binaların kilidi her zamanki gibi bilim puanlarıyla açılmalıdır. Açmak için tıklayın."
 
 ["CreativeMode.FinishAll.Title"]
-status = "normal"
 raw = "Finish all construction"
+status = "normal"
 enUS = "Finish All Construction"
 zhCN = "完成所有建造工作"
 zhTW = "完成所有建造工作"
@@ -238,8 +238,8 @@ viVN = "Hoàn tất mọi công trình"
 trTR = "Tüm inşaatı tamamla"
 
 ["CreativeMode.FinishAll.Description"]
-status = "normal"
 raw = "Instantly completes every construction site on the map."
+status = "normal"
 enUS = "Instantly completes every construction site on the map."
 zhCN = "立即完成地图上的所有施工现场。"
 zhTW = "立即完成地圖上的所有建築工地。"

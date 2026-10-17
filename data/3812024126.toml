@@ -17,8 +17,8 @@ viVN = "Thu phóng"
 trTR = "Yakınlaştırma"
 
 ["ZOS.Section.Buildings"]
-status = "normal"
 raw = "Buildings"
+status = "normal"
 enUS = "Buildings"
 zhCN = "建筑物"
 zhTW = "建築物"
@@ -34,8 +34,8 @@ viVN = "Công trình"
 trTR = "Binalar"
 
 ["ZOS.Section.Power"]
-status = "normal"
 raw = "Power"
+status = "normal"
 enUS = "Power"
 zhCN = "动力"
 zhTW = "動力"
@@ -51,8 +51,8 @@ viVN = "Điện năng"
 trTR = "Güç"
 
 ["ZOS.Section.Events"]
-status = "normal"
 raw = "Events"
+status = "normal"
 enUS = "Events"
 zhCN = "事件"
 zhTW = "事件"
@@ -84,8 +84,8 @@ viVN = "Thiên nhiên"
 trTR = "Doğa"
 
 ["ZOS.BuildingReach"]
-status = "normal"
 raw = "Building sound reach"
+status = "normal"
 enUS = "Building sound range"
 zhCN = "建筑声音范围"
 zhTW = "建築音效範圍"
@@ -101,8 +101,8 @@ viVN = "Phạm vi âm thanh của công trình"
 trTR = "Bina ses erişimi"
 
 ["ZOS.BuildingReachTooltip"]
-status = "normal"
 raw = "How far the camera can be from the ground before building sounds fade to silence. Game default is 60, which goes silent a little past the starting zoom. Full zoom-out is about 155 (about 440 with unlocked zoom)."
+status = "normal"
 enUS = "How far the camera can be from the ground before building sounds fade to silence. The game default is 60, which goes silent a little past the starting zoom. Full zoom-out is about 155 (about 440 with unlocked zoom)."
 zhCN = "镜头距离地面多远时，建造音效会逐渐减弱直至无声。游戏默认值为 60，稍微超过初始缩放距离时，音效就会完全消失。最大缩放距离约为 155（解锁缩放后约为 440）。"
 zhTW = "鏡頭距離地面多遠時，建築聲音會逐漸淡出至無聲。遊戲預設值為 60，稍微超出初始縮放範圍後就會完全無聲。完全縮至最遠時約為 155（解鎖縮放後約為 440）。"
@@ -134,8 +134,8 @@ viVN = "Âm lượng môi trường khi thu nhỏ (%)"
 trTR = "Uzaklaştırılmış görünümde ortam sesi düzeyi (%)"
 
 ["ZOS.AmbientZoomedOutTooltip"]
-status = "normal"
 raw = "Volume of background sounds (day and night ambience, water, sleeping beavers) at full zoom-out, as a percent of the close-up volume. Game default is 0."
+status = "normal"
 enUS = "Volume of background sounds (day and night ambience, water, sleeping beavers) at full zoom-out, as a percentage of the close-up volume. The game default is 0."
 zhCN = "完全缩至最远视角时背景音（昼夜环境音、水声、睡觉的海狸）的音量，相对于近景音量的百分比。游戏默认值为 0。"
 zhTW = "背景音效（白天與夜晚的環境音、水聲、睡覺的海狸）在縮放至最遠時的音量，以近距離音量的百分比表示。遊戲預設值為 0。"
@@ -151,8 +151,8 @@ viVN = "Âm lượng âm thanh nền (âm thanh ban ngày và ban đêm, tiếng
 trTR = "En uzaklaştırılmış yakınlaştırma düzeyinde arka plan seslerinin (gündüz ve gece ambiyansı, su, uyuyan kunduzlar) ses düzeyi; yakından duyulan ses düzeyinin yüzdesi olarak. Oyunun varsayılan değeri 0'dır."
 
 ["ZOS.HearingRadius"]
-status = "normal"
 raw = "Hearing radius (tiles)"
+status = "normal"
 enUS = "Hearing radius (tiles)"
 zhCN = "聆听范围（格）"
 zhTW = "聽力範圍（格）"
@@ -168,8 +168,8 @@ viVN = "Bán kính nghe (ô)"
 trTR = "İşitme menzili (kare)"
 
 ["ZOS.HearingRadiusTooltip"]
-status = "normal"
 raw = "How far from the centre of the screen sounds can be heard. Game default is 10. Higher lets you hear more of the view when zoomed out."
+status = "normal"
 enUS = "The distance from the center of the screen at which sounds can be heard. The game default is 10. A higher value lets you hear more of the view when zoomed out."
 zhCN = "声音可从屏幕中心多远处被听见。游戏默认值为 10。数值越高，缩小视角时能听到的画面范围越大。"
 zhTW = "從螢幕中心算起，聲音可以被聽見的距離。遊戲預設值為 10。數值越高，縮小畫面時就能聽見視野中更多地方的聲音。"
@@ -200,8 +200,8 @@ csCZ = "Všechny budovy (%)"
 trTR = "Tüm binalar (%)"
 
 ["ZOS.All.Power"]
-status = "normal"
 raw = "All power (%)"
+status = "normal"
 enUS = "All power (%)"
 zhCN = "全部动力（%）"
 zhTW = "總動力（%）"
@@ -217,8 +217,8 @@ viVN = "Tổng công suất (%)"
 trTR = "Toplam güç (%)"
 
 ["ZOS.All.Events"]
-status = "normal"
 raw = "All events (%)"
+status = "normal"
 enUS = "All events (%)"
 zhCN = "所有事件（%）"
 zhTW = "所有事件 (%)"
@@ -234,8 +234,8 @@ viVN = "Tất cả sự kiện (%)"
 trTR = "Tüm etkinlikler (%)"
 
 ["ZOS.All.Nature"]
-status = "normal"
 raw = "All nature (%)"
+status = "normal"
 enUS = "All nature (%)"
 zhCN = "全部自然（%）"
 zhTW = "所有自然（%）"
@@ -251,8 +251,8 @@ viVN = "Toàn bộ thiên nhiên (%)"
 trTR = "Tüm doğa (%)"
 
 ["ZOS.AllTooltip"]
-status = "normal"
 raw = "Turns every sound in this section up or down together. The sliders below fine-tune each one. 100 is the game's normal volume."
+status = "normal"
 enUS = "Turns every sound in this section up or down together. The sliders below fine-tune each one. 100 is the game's normal volume."
 zhCN = "同时调高或调低此部分中的所有声音。下方的滑块可分别微调每种声音。100 是游戏的正常音量。"
 zhTW = "將此區段中的所有音效一同調高或調低。下方的滑桿可微調個別音效。100 是遊戲的正常音量。"
@@ -268,8 +268,8 @@ viVN = "Tăng hoặc giảm đồng thời âm lượng của mọi âm thanh tr
 trTR = "Bu bölümdeki tüm seslerin seviyesini birlikte artırır veya azaltır. Aşağıdaki kaydırıcılar her birini ayrı ayrı ayarlar. 100, oyunun normal ses seviyesidir."
 
 ["ZOS.Heading.Industry"]
-status = "normal"
 raw = "Industry"
+status = "normal"
 enUS = "Industry"
 zhCN = "工业"
 zhTW = "工業"
@@ -285,8 +285,8 @@ viVN = "Công nghiệp"
 trTR = "Sanayi"
 
 ["ZOS.Heading.Food"]
-status = "normal"
 raw = "Food"
+status = "normal"
 enUS = "Food"
 zhCN = "食物"
 zhTW = "食物"
@@ -302,8 +302,8 @@ viVN = "Thức ăn"
 trTR = "Yiyecek"
 
 ["ZOS.Heading.Water"]
-status = "normal"
 raw = "Water"
+status = "normal"
 enUS = "Water"
 zhCN = "水"
 zhTW = "水"
@@ -319,8 +319,8 @@ viVN = "Nước"
 trTR = "Su"
 
 ["ZOS.Heading.Leisure"]
-status = "normal"
 raw = "Leisure"
+status = "normal"
 enUS = "Leisure"
 zhCN = "休闲"
 zhTW = "休閒"
@@ -352,8 +352,8 @@ viVN = "Bánh xe nước"
 trTR = "Su çarkları"
 
 ["ZOS.Heading.WindTurbines"]
-status = "normal"
 raw = "Wind turbines"
+status = "normal"
 enUS = "Wind turbines"
 zhCN = "风力涡轮机"
 zhTW = "風力渦輪機"
@@ -369,8 +369,8 @@ viVN = "Tuabin gió"
 trTR = "Rüzgâr türbinleri"
 
 ["ZOS.Heading.Engines"]
-status = "normal"
 raw = "Engines"
+status = "normal"
 enUS = "Engines"
 zhCN = "引擎"
 zhTW = "引擎"
@@ -434,8 +434,8 @@ viVN = "Chuông giờ làm việc"
 trTR = "Çalışma saatleri zili"
 
 ["ZOS.Sound.Dynamite"]
-status = "normal"
 raw = "Dynamite"
+status = "normal"
 enUS = "Dynamite"
 zhCN = "炸药"
 zhTW = "炸藥"
@@ -451,8 +451,8 @@ viVN = "Thuốc nổ TNT"
 trTR = "Dinamit"
 
 ["ZOS.Sound.Fireworks"]
-status = "normal"
 raw = "Fireworks"
+status = "normal"
 enUS = "Fireworks"
 zhCN = "烟花"
 zhTW = "煙火"
@@ -468,8 +468,8 @@ viVN = "Pháo hoa"
 trTR = "Havai fişekler"
 
 ["ZOS.Sound.Speakers"]
-status = "normal"
 raw = "Speakers"
+status = "normal"
 enUS = "Speakers"
 zhCN = "扬声器"
 zhTW = "揚聲器"
@@ -485,8 +485,8 @@ viVN = "Loa"
 trTR = "Hoparlörler"
 
 ["ZOS.Sound.Wind"]
-status = "normal"
 raw = "Wind"
+status = "normal"
 enUS = "Wind"
 zhCN = "风"
 zhTW = "風"
@@ -502,8 +502,8 @@ viVN = "Gió"
 trTR = "Rüzgâr"
 
 ["ZOS.Sound.Day"]
-status = "normal"
 raw = "Daytime ambience"
+status = "normal"
 enUS = "Daytime ambience"
 zhCN = "白天环境音"
 zhTW = "白天環境音"
@@ -534,8 +534,8 @@ viVN = "Âm thanh môi trường ban đêm"
 trTR = "Gece ambiyansı"
 
 ["ZOS.Sound.Water"]
-status = "normal"
 raw = "Water"
+status = "normal"
 enUS = "Water"
 zhCN = "水"
 zhTW = "水"
@@ -551,8 +551,8 @@ viVN = "Nước"
 trTR = "Su"
 
 ["ZOS.Sound.Sleeping"]
-status = "normal"
 raw = "Sleeping beavers"
+status = "normal"
 enUS = "Sleeping beavers"
 zhCN = "睡觉的海狸"
 zhTW = "睡覺中的海狸"

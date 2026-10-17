@@ -1,0 +1,10 @@
+[_meta]
+name = "Sans Bigger Map"
+
+["Sans.BiggerMap.DisplayName"]
+new = "Sans Bigger Map"
+status = "normal"
+
+["Sans.BiggerMap.AIDisclosure"]
+new = "AI-assisted development and AI-generated code."
+status = "normal"

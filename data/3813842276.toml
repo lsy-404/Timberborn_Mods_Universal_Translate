@@ -18,8 +18,8 @@ csCZ = "Stanice červí díry"
 trTR = "Solucan Deliği İstasyonu"
 
 ["Building.Teleporter.Description"]
-status = "normal"
 raw = "Allows instant travel between any two points on the map."
+status = "normal"
 enUS = "Allows instant travel between any two points on the map."
 zhCN = "允许在地图上的任意两点之间瞬间传送。"
 zhTW = "可在地圖上的任意兩點之間瞬間移動。"
@@ -35,8 +35,8 @@ viVN = "Cho phép dịch chuyển tức thời giữa bất kỳ hai điểm nà
 trTR = "Haritadaki herhangi iki nokta arasında anında seyahat etmeyi sağlar."
 
 ["Building.Teleporter.FlavorDescription"]
-status = "normal"
 raw = "Mind the puddle. It's deeper than it looks."
+status = "normal"
 enUS = "Mind the puddle. It's deeper than it looks."
 zhCN = "小心水洼。它比看起来要深。"
 zhTW = "小心那灘水。它比看起來還要深。"
@@ -52,8 +52,8 @@ viVN = "Cẩn thận vũng nước. Nó sâu hơn vẻ ngoài đấy."
 trTR = "Su birikintisine dikkat et. Göründüğünden daha derin."
 
 ["Teleporter.Transits"]
-status = "normal"
 raw = "Transits"
+status = "normal"
 enUS = "Transits"
 zhCN = "传送次数"
 zhTW = "傳送次數"
@@ -101,8 +101,8 @@ csCZ = "Deaktivovat odsávání z červí díry"
 trTR = "Solucan deliği sifonunu devre dışı bırak"
 
 ["Teleporter.Status.OutOfExtract"]
-status = "normal"
 raw = "Out of extract. Deliver extract to refill it."
+status = "normal"
 enUS = "Out of extract. Deliver extract to refill it."
 zhCN = "提取物不足。运送提取物以补充库存。"
 zhTW = "萃取物用盡。運送萃取物來補充。"
@@ -118,8 +118,8 @@ viVN = "Đã hết dịch chiết. Hãy giao dịch chiết để nạp lại."
 trTR = "Özü kalmadı. Yeniden doldurmak için özüt getirin."
 
 ["Teleporter.Status.OutOfExtract.Haulers"]
-status = "normal"
 raw = "Out of extract. Requires haulers to function."
+status = "normal"
 enUS = "Out of extract. Requires haulers to function."
 zhCN = "提取物耗尽。需要搬运工才能运行。"
 zhTW = "超出萃取範圍。需要搬運工才能運作。"
@@ -135,8 +135,8 @@ viVN = "Đã hết nguyên liệu khai thác. Cần nhân công vận chuyển �
 trTR = "Çıkarılacak kaynak kalmadı. Çalışması için taşıyıcılar gerekir."
 
 ["Teleporter.Status.OutOfExtract.Short"]
-status = "normal"
 raw = "Teleporter out of extract"
+status = "normal"
 enUS = "Teleporter out of extract"
 zhCN = "传送器缺少提取物"
 zhTW = "傳送器的萃取物耗盡"
@@ -152,8 +152,8 @@ viVN = "Dịch chuyển ra ngoài khu khai thác"
 trTR = "Çıkarma kaynağı dışında kaldı"
 
 ["Teleporter.Status.OutOfExtract.Remote.NoSource"]
-status = "normal"
 raw = "Out of extract. Only a wormhole siphon can restart this teleporter, but no teleporter on the district's paths is set as an extract source."
+status = "normal"
 enUS = "Out of extract. Only a wormhole siphon can restart this teleporter, but no teleporter on the district's paths is set as an extract source."
 zhCN = "提取物耗尽。只有虫洞虹吸器能重新启动这台传送器，但该区路径上的传送器都没有设为提取源。"
 zhTW = "抽取物已耗盡。只有蟲洞虹吸器能重新啟動這座傳送器，但此區域道路上的傳送器都未設為抽取源。"
@@ -169,8 +169,8 @@ viVN = "Đã hết nguồn khai thác. Chỉ có ống hút lỗ sâu mới có 
 trTR = "Çekim kaynağı yok. Bu ışınlayıcıyı yalnızca bir solucan deliği sifonu yeniden başlatabilir, ancak bölgenin yollarındaki hiçbir ışınlayıcı çekim kaynağı olarak ayarlanmamış."
 
 ["Teleporter.Status.OutOfExtract.Remote.NoneStocked"]
-status = "normal"
 raw = "Out of extract. Only a wormhole siphon can restart this teleporter, but no source has extract to spare."
+status = "normal"
 enUS = "Out of extract. Only a wormhole siphon can restart this teleporter, but no source has any extract to spare."
 zhCN = "提取物耗尽。只有虫洞虹吸器才能重启这台传送器，但没有任何来源有多余的提取物。"
 zhTW = "提取物已耗盡。只有蟲洞虹吸器能重新啟動這座傳送器，但沒有任何來源有多餘的提取物。"
@@ -186,8 +186,8 @@ viVN = "Đã hết dịch chiết. Chỉ có ống hút lỗ sâu mới có th�
 trTR = "Özüt kalmadı. Bu ışınlayıcıyı yalnızca bir solucan deliği sifonu yeniden başlatabilir, ancak hiçbir kaynakta artan özüt yok."
 
 ["Teleporter.NetworkCount"]
-status = "normal"
 raw = "Teleporters on this network: {0}"
+status = "normal"
 enUS = "Teleporters on this network: {0}"
 zhCN = "此网络中的传送器：{0}"
 zhTW = "此網路上的傳送器：{0}"
@@ -203,8 +203,8 @@ viVN = "Số cổng dịch chuyển trong mạng này: {0}"
 trTR = "Bu ağdaki ışınlayıcılar: {0}"
 
 ["Teleporter.Status.Conflict"]
-status = "normal"
 raw = "Teleporters stand on the paths of more than one district. Demolish every teleporter of one district to bring the network back."
+status = "normal"
 enUS = "Teleporters are located on the paths of more than one district. Demolish all teleporters in one district to restore the network."
 zhCN = "传送器位于多个区的道路上。拆除其中一个区的所有传送器，即可恢复网络。"
 zhTW = "傳送器位於多個區域的道路上。拆除其中一個區域的所有傳送器，即可讓網路恢復正常。"
@@ -236,8 +236,8 @@ csCZ = "Teleportéry ve více distriktech"
 viVN = "Máy dịch chuyển tức thời ở nhiều khu dân cư"
 
 ["Teleporter.Status.NetworkOffline"]
-status = "normal"
 raw = "No path-connected teleporter is charged. Refill one to restore the network."
+status = "normal"
 enUS = "No path-connected teleporter is charged. Refill one to restore the network."
 zhCN = "没有已充能且路径连通的传送器。为其中一个充能即可恢复网络。"
 zhTW = "沒有已充能且路徑相連的傳送器。為其中一座充能即可恢復網路。"
@@ -269,8 +269,8 @@ viVN = "Mạng lưới dịch chuyển tức thời đang ngoại tuyến"
 trTR = "Işınlayıcı ağı çevrim dışı"
 
 ["Building.TeleporterRing.DisplayName"]
-status = "normal"
 raw = "Ring Station"
+status = "normal"
 enUS = "Ring Station"
 zhCN = "环形传送站"
 zhTW = "環形傳送站"
@@ -286,8 +286,8 @@ viVN = "Trạm vòng dịch chuyển"
 trTR = "Halka İstasyonu"
 
 ["Building.TeleporterRing.Description"]
-status = "normal"
 raw = "A short-range teleporter that allows direct travel between two points."
+status = "normal"
 enUS = "A short-range teleporter that allows direct travel between two points."
 zhCN = "一种短程传送器，可在两点之间直接传送。"
 zhTW = "可在兩個地點之間直接傳送的短程傳送器。"
@@ -303,8 +303,8 @@ viVN = "Máy dịch chuyển tầm ngắn cho phép di chuyển trực tiếp gi
 trTR = "İki nokta arasında doğrudan yolculuk etmeyi sağlayan kısa menzilli bir ışınlayıcı."
 
 ["Building.TeleporterRing.FlavorDescription"]
-status = "normal"
 raw = "Where does it go? Wherever its other half is standing."
+status = "normal"
 enUS = "Where does it go? Wherever its other half is standing."
 zhCN = "它会通往哪里？通往它另一半所在的地方。"
 zhTW = "它會通往哪裡？它的另一半站在哪裡，就通往哪裡。"
@@ -320,8 +320,8 @@ viVN = "Nó đi đâu? Đến bất cứ nơi nào nửa còn lại của nó đ
 trTR = "Nereye gider? Diğer yarısı neredeyse oraya."
 
 ["Ring.Requirements"]
-status = "normal"
 raw = "Once built, its pair can be placed anywhere within range."
+status = "normal"
 enUS = "Once built, its pair can be placed anywhere within range."
 zhCN = "建成后，其配对建筑可放置在范围内的任意位置。"
 zhTW = "建造完成後，其配對站可放置在範圍內的任何位置。"
@@ -350,8 +350,8 @@ viVN = "Đặt vòng từ xa"
 trTR = "Uzaktaki halkayı yerleştir"
 
 ["Ring.Panel.Unpaired"]
-status = "normal"
 raw = "No remote yet. Place this ring's remote to open the route."
+status = "normal"
 enUS = "No remote yet. Place this ring's remote to open the route."
 zhCN = "尚未连接远程装置。放置此环的远程装置以开启路线。"
 zhTW = "尚未設定遠端裝置。放置此環的遠端裝置以開啟路線。"
@@ -367,8 +367,8 @@ viVN = "Chưa có bộ điều khiển từ xa. Hãy đặt bộ điều khiển
 trTR = "Henüz uzaktan kumanda yok. Rotayı açmak için bu halkanın uzaktan kumandasını yerleştirin."
 
 ["Ring.Status.OutOfExtract"]
-status = "normal"
 raw = "Out of extract. Deliver extract to a ring on your district paths."
+status = "normal"
 enUS = "Out of extract. Deliver extract to a ring on your district paths."
 zhCN = "提取物不足。将提取物运送到你所在区的路径上的环。"
 zhTW = "萃取物不足。請將萃取物運送到區域道路上的圓環。"
@@ -398,8 +398,8 @@ koKR = "추출 범위 밖입니다"
 csCZ = "Těžba v dosahu prstence vyčerpána"
 
 ["Ring.Status.Unpaired.Master.Build"]
-status = "normal"
 raw = "Build this ring. Fuel it, then place its remote."
+status = "normal"
 enUS = "Build this ring. Fuel it, then place its remote."
 zhCN = "建造这个环。为其添加燃料，然后放置它的远程装置。"
 zhTW = "建造這個環。為它加燃料，然後放置它的遠端裝置。"
@@ -415,8 +415,8 @@ viVN = "Xây dựng vòng này. Nạp nhiên liệu cho nó, rồi đặt thiế
 trTR = "Bu halkayı inşa edin. Yakıtını doldurun, ardından uzaktan kumandasını yerleştirin."
 
 ["Ring.Status.Unpaired.Master.Fuel"]
-status = "normal"
 raw = "Deliver extract to this ring. Its remote can be placed once it holds fuel."
+status = "normal"
 enUS = "Deliver extract to this ring. Its remote can be placed once it holds fuel."
 zhCN = "将提取物运送至此环。环内有燃料后，即可放置其遥控器。"
 zhTW = "將萃取物運送至此環。環內有燃料後，即可放置其遙控器。"
@@ -432,8 +432,8 @@ viVN = "Giao chiết xuất đến chiếc vòng này. Có thể đặt bộ đi
 trTR = "Özütü bu halkaya teslim edin. Yakıt içerdiğinde uzaktan kumandası yerleştirilebilir."
 
 ["Ring.Status.Unpaired.Master"]
-status = "normal"
 raw = "This ring stands alone. Place its remote to open the route."
+status = "normal"
 enUS = "This ring stands alone. Place its remote to open the route."
 zhCN = "这个环尚未配对。放置它的远程端以开启传送路线。"
 zhTW = "這個環形裝置尚未配對。放置它的遠端裝置即可開啟路線。"
@@ -464,8 +464,8 @@ csCZ = "Kruh nemá protějšek na dálku"
 viVN = "Vòng chưa được kết nối với thiết bị từ xa"
 
 ["Ring.Status.Unpaired.Remote"]
-status = "normal"
 raw = "This ring stands alone. Build a Ring Station within range."
+status = "normal"
 enUS = "This ring stands alone. Build a Ring Station within range."
 zhCN = "此环尚未配对。请在其范围内建造一座环形站。"
 zhTW = "這個環形裝置尚未配對。請在範圍內建造環形站。"
@@ -497,8 +497,8 @@ csCZ = "Vzdálené zařízení nemá partnera"
 viVN = "Thiết bị từ xa chưa được ghép đôi"
 
 ["Building.TeleporterRingRemote.DisplayName"]
-status = "normal"
 raw = "Remote Ring Station"
+status = "normal"
 enUS = "Remote Ring Station"
 zhCN = "远程传送环站"
 zhTW = "遠端環形傳送站"
@@ -514,8 +514,8 @@ viVN = "Trạm Vòng Dịch Chuyển Từ Xa"
 trTR = "Uzak Halka İstasyonu"
 
 ["Building.TeleporterRingRemote.Description"]
-status = "normal"
 raw = "The far end of a ring route. Goes where the paths do not."
+status = "normal"
 enUS = "The far end of a ring route. Goes where the paths do not."
 zhCN = "环形路线的远端。通往路径无法到达的地方。"
 zhTW = "環形路線的遠端終點。通往道路到不了的地方。"
@@ -531,8 +531,8 @@ viVN = "Đầu xa của tuyến vòng. Đưa đến nơi mà các lối đi khô
 trTR = "Halka güzergâhının uzak ucu. Yolların ulaşmadığı yerlere gider."
 
 ["Building.TeleporterRingRemote.FlavorDescription"]
-status = "normal"
 raw = "One ring to move them all."
+status = "normal"
 enUS = "One ring to move them all."
 zhCN = "一枚圆环，传送万物。"
 zhTW = "一枚戒指，傳送所有海狸。"
@@ -548,8 +548,8 @@ viVN = "Một chiếc nhẫn để dịch chuyển tất cả."
 trTR = "Hepsini taşımak için tek bir halka."
 
 ["Ring.Placement.OutOfRange"]
-status = "normal"
 raw = "Ring platforms must be placed within range of each other."
+status = "normal"
 enUS = "Ring platforms must be placed within range of each other."
 zhCN = "环形平台必须放置在彼此的作用范围内。"
 zhTW = "環形平台必須放置在彼此的範圍內。"
@@ -565,8 +565,8 @@ viVN = "Các bệ vòng phải được đặt trong phạm vi của nhau."
 trTR = "Halka platformlar birbirlerinin menzili içine yerleştirilmelidir."
 
 ["Ring.Placement.NeedBuilt"]
-status = "normal"
 raw = "Remote rings are placed as partners of a built ring."
+status = "normal"
 enUS = "Remote rings must be placed as partners of a built ring."
 zhCN = "远程环需与已建造的环配对放置。"
 zhTW = "遠端環必須配對已建成的環。"
@@ -582,8 +582,8 @@ viVN = "Các vòng dịch chuyển từ xa được đặt làm cặp với mộ
 trTR = "Uzak halkalar, inşa edilmiş bir halkanın eşi olarak yerleştirilir."
 
 ["Ring.Placement.NeedReady"]
-status = "normal"
 raw = "The built ring must be finished and fueled before its remote is placed."
+status = "normal"
 enUS = "The built ring must be completed and fueled before its remote is placed."
 zhCN = "已建造的传送环必须先建成并加满燃料，才能放置其远程装置。"
 zhTW = "建好的環形裝置必須完工並加滿燃料，才能放置其遙控器。"
@@ -599,8 +599,8 @@ viVN = "Vòng dịch chuyển đã xây dựng phải được hoàn thành và 
 trTR = "İnşa edilen halka tamamlanmış ve yakıtı doldurulmuş olmalı; uzaktan kumandası ancak bundan sonra yerleştirilebilir."
 
 ["Ring.Panel.NeedFuel"]
-status = "normal"
 raw = "Deliver extract to this ring to place its remote."
+status = "normal"
 enUS = "Deliver extract to this ring to place its remote."
 zhCN = "将提取物运送到此环，即可放置其遥控器。"
 zhTW = "將萃取物運送至此環，即可放置其遙控器。"
@@ -616,8 +616,8 @@ viVN = "Giao chiết xuất đến vòng này để đặt thiết bị điều 
 trTR = "Uzaktan kumandasını yerleştirmek için bu halkaya özüt teslim edin."
 
 ["Ring.Panel.Unpaired.Remote"]
-status = "normal"
 raw = "No partner yet. Build a Ring Station within range to reopen the route."
+status = "normal"
 enUS = "No partner yet. Build a Ring Station within range to reopen the route."
 zhCN = "尚未连接伙伴。在范围内建造一个环形站即可重新开启路线。"
 zhTW = "尚未配對。請在範圍內建造一座環形站，以重新開通路線。"
@@ -633,8 +633,8 @@ viVN = "Chưa có đối tác. Hãy xây dựng một Trạm Vòng trong phạm 
 trTR = "Henüz eşleşmiş bir istasyon yok. Rotayı yeniden açmak için menzil içinde bir Halka İstasyonu inşa edin."
 
 ["Ring.Panel.LinkBuilt"]
-status = "normal"
 raw = "Link a built ring"
+status = "normal"
 enUS = "Link a built ring"
 zhCN = "连接已建造的环形传送门"
 zhTW = "連結已建造的環形傳送門"

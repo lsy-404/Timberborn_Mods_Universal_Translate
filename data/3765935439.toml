@@ -185,6 +185,62 @@ csCZ = "Tady se rodí vlaky."
 viVN = "Đây là nơi những chiếc tàu được sinh ra."
 trTR = "Trenlerin doğduğu yerdir."
 
+["Tobbert.ConstructionYard.DisplayName"]
+new = "Construction Yard"
+status = "normal"
+
+["Tobbert.ConstructionYard.Description"]
+new = "Home base of the construction train. Stock it with building materials and it keeps the train loaded and charged."
+status = "normal"
+
+["Tobbert.ConstructionYard.FlavorDescription"]
+new = "Where the tracks end, the work begins."
+status = "normal"
+
+["Tobbert.ConstructionYard.BuildTrain"]
+new = "Build construction train"
+status = "normal"
+
+["Tobbert.ConstructionYard.TrainBuilt"]
+new = "Construction train built"
+status = "normal"
+
+["Tobbert.ConstructionYard.EligibleSites"]
+new = "Reachable sites: {0}"
+status = "normal"
+
+["Tobbert.ConstructionYard.MaterialsHeader"]
+new = "Materials in store"
+status = "normal"
+
+["Tobbert.ConstructionTrain.DisplayName"]
+new = "Construction Train"
+status = "normal"
+
+["Tobbert.ConstructionTrain.Description"]
+new = "A works train that builds on its own. It carries its materials and raises anything within two tiles of a rail."
+status = "normal"
+
+["Tobbert.ConstructionTrain.FlavorDescription"]
+new = "It lays the line it travels on."
+status = "normal"
+
+["Tobbert.ConstructionTrain.CargoHeader"]
+new = "Materials on board"
+status = "normal"
+
+["Tobbert.ConstructionTrain.EmergencyStop.Button"]
+new = "Emergency stop"
+status = "normal"
+
+["Tobbert.ConstructionTrain.EmergencyStop.Resume"]
+new = "Back to work"
+status = "normal"
+
+["Tobbert.ConstructionTrain.EmergencyStop.Description"]
+new = "Finishes the site it is on, returns to a construction yard and stays there. Press again to send it back to work."
+status = "normal"
+
 ["Tobbert.TrainYard.CostOfTrain"]
 raw = "Cost of 1 train:"
 status = "normal"
@@ -356,8 +412,8 @@ viVN = "Mọi đường sắt vĩ đại đều cần một nơi để giao hàn
 trTR = "Her büyük demiryolunun yükü bırakacağı bir yere ihtiyacı vardır."
 
 ["Tobbert.ExchangeStation.DisplayName"]
-status = "normal"
 raw = "District Crossing Station"
+status = "normal"
 enUS = "District Crossing Station"
 zhCN = "区划交叉站"
 zhTW = "區域交會站"
@@ -373,8 +429,8 @@ viVN = "Trạm trung chuyển giữa các khu vực人人操"
 trTR = "Bölge Geçiş İstasyonu"
 
 ["Tobbert.ExchangeStation.Description"]
-status = "normal"
 raw = "Balances goods between districts connected by rail, following their distribution settings. Beavers also use it to migrate from one district to another."
+status = "normal"
 enUS = "Balances goods between districts connected by rail according to their distribution settings. Beavers also use it to migrate from one district to another."
 zhCN = "在通过铁路连接的区之间，按照各区的分配设置平衡物资。海狸也会通过它从一个区迁移到另一个区。"
 zhTW = "依照分配設定，在以鐵路相連的區域之間平衡物資。海狸也會利用它從一個區域遷移到另一個區域。"
@@ -390,8 +446,8 @@ viVN = "Cân bằng hàng hóa giữa các khu được kết nối bằng đư�
 trTR = "Demiryoluyla birbirine bağlı bölgeler arasında, dağıtım ayarlarına göre malların dengesini sağlar. Kunduzlar ayrıca bir bölgeden diğerine göç etmek için de bunu kullanır."
 
 ["Tobbert.ExchangeStation.FlavorDescription"]
-status = "normal"
 raw = "What one district has in excess another is waiting for."
+status = "normal"
 enUS = "What one district has in excess, another is waiting for."
 zhCN = "一个区过剩的东西，另一个区正等着要呢。"
 zhTW = "一個區域有多餘的東西，另一個區域正等著要呢。"
@@ -407,8 +463,8 @@ viVN = "Thứ mà một khu dân cư có thừa thì khu khác đang cần."
 trTR = "Bir bölgenin fazlası, başka bir bölgenin beklediğidir."
 
 ["Tobbert.ExchangeStation.Outgoing.Header"]
-status = "normal"
 raw = "Shipments (waiting/carried)"
+status = "normal"
 enUS = "Shipments (waiting/carried)"
 zhCN = "货运量（待运/运送中）"
 zhTW = "運送量（等待中／運送中）"
@@ -424,8 +480,8 @@ viVN = "Lô hàng (đang chờ/đang vận chuyển)"
 trTR = "Sevkiyatlar (bekleyen/taşınan)"
 
 ["Tobbert.ExchangeStation.Outgoing.Line"]
-status = "normal"
 raw = "{0} → {1}: {2}/{3}"
+status = "normal"
 enUS = "{0} → {1}: {2}/{3}"
 zhCN = "{0} → {1}：{2}/{3}"
 zhTW = "{0} → {1}：{2}/{3}"
@@ -472,8 +528,8 @@ viVN = "Không có hoạt động trao đổi nào đang diễn ra"
 trTR = "Devam eden takas yok"
 
 ["Tobbert.ExchangeStation.Passengers.Header"]
-status = "normal"
 raw = "Passengers"
+status = "normal"
 enUS = "Passengers"
 zhCN = "乘客"
 zhTW = "乘客"
@@ -489,8 +545,8 @@ viVN = "Hành khách"
 trTR = "Yolcular"
 
 ["Tobbert.ExchangeStation.Passengers.Line"]
-status = "normal"
 raw = "{0} waiting for {1}"
+status = "normal"
 enUS = "{0} waiting for {1}"
 zhCN = "{0}正在等待{1}"
 zhTW = "{0} 正在等候 {1}"
@@ -506,8 +562,8 @@ viVN = "{0} đang chờ {1}"
 trTR = "{0}, {1} için bekliyor"
 
 ["Tobbert.ExchangeStation.Passengers.LineWithWalking"]
-status = "normal"
 raw = "{0} waiting for {1} ({2} on the way)"
+status = "normal"
 enUS = "{0} waiting for {1} ({2} on the way)"
 zhCN = "{0}正在等候{1}（{2}人正在途中）"
 zhTW = "{0} 等待 {1}（{2} 正在前往途中）"
@@ -897,8 +953,8 @@ viVN = "Hàng hóa"
 trTR = "Kargo"
 
 ["Tobbert.Train.PassengersAboard"]
-status = "normal"
 raw = "{0} travellers aboard"
+status = "normal"
 enUS = "{0} travelers aboard"
 zhCN = "车上有 {0} 名乘客"
 zhTW = "車上有 {0} 位旅客"
@@ -1101,8 +1157,8 @@ viVN = "Không có đường đến đích"
 trTR = "Varış noktasına giden yol yok"
 
 ["Tobbert.Train.Status.Blocked"]
-status = "normal"
 raw = "Waiting for the track ahead"
+status = "normal"
 enUS = "Waiting for the track ahead"
 zhCN = "正在等待前方轨道畅通"
 zhTW = "正在等待前方軌道暢通"
@@ -1118,8 +1174,8 @@ viVN = "Đang chờ đoạn đường ray phía trước thông thoáng"
 trTR = "Öndeki rayın açılması bekleniyor"
 
 ["Tobbert.Train.Status.Isolated"]
-status = "normal"
 raw = "No Waiting Station or Train Yard can be reached from here — lay a connecting track, or a turnaround loop if the way back is behind it"
+status = "normal"
 enUS = "No Waiting Station or Train Yard can be reached from here — lay a connecting track, or a turnaround loop if the way back is behind it"
 zhCN = "从这里无法到达任何候车站或列车场——铺设一段连接轨道；如果返程方向在其后方，则铺设一个掉头环线。"
 zhTW = "從這裡無法抵達任何等候站或列車調車場——請鋪設連接軌道；如果回程路線在前方，則鋪設一條迴轉環形軌道。"
@@ -2545,8 +2601,8 @@ viVN = "Nhấp chuột phải vào vùng trống: thoát  •  <b>Enter</b>: xâ
 trTR = "Boş alana sağ tıklayın: çıkış  •  <b>Enter</b>: inşa et"
 
 ["Tobbert.Train.Alert.Hungry"]
-status = "normal"
 raw = "Hungry conductor"
+status = "normal"
 enUS = "Hungry conductor"
 zhCN = "饥饿的列车长"
 zhTW = "飢餓的列車長"
@@ -2562,8 +2618,8 @@ viVN = "Người điều khiển tàu đói bụng"
 trTR = "Aç kondüktör"
 
 ["Tobbert.Train.Alert.Thirsty"]
-status = "normal"
 raw = "Thirsty conductor"
+status = "normal"
 enUS = "Thirsty conductor"
 zhCN = "缺水的列车员"
 zhTW = "口渴的列車員"
@@ -2594,8 +2650,8 @@ csCZ = "Vlak bez trasy"
 trTR = "Rotasız tren"
 
 ["Tobbert.Train.Alert.Blocked"]
-status = "normal"
 raw = "Train blocked on the track"
+status = "normal"
 enUS = "Train blocked on the track"
 zhCN = "列车在轨道上受阻"
 zhTW = "列車受阻，無法通行"
@@ -2627,8 +2683,8 @@ viVN = "Tàu không thể quay về ga đề-pô"
 trTR = "Tren depoya geri dönemiyor"
 
 ["Tobbert.Train.Alert.OutOfFuel"]
-status = "normal"
 raw = "Train out of fuel"
+status = "normal"
 enUS = "Train out of fuel"
 zhCN = "列车燃料耗尽"
 zhTW = "火車燃料耗盡"
@@ -2644,8 +2700,8 @@ viVN = "Tàu đã hết nhiên liệu"
 trTR = "Trenin yakıtı bitti"
 
 ["Tobbert.Navigation.ReachabilityOverlay.Tooltip"]
-status = "normal"
 raw = "Show reachable track"
+status = "normal"
 enUS = "Show reachable track"
 zhCN = "显示可通行轨道"
 zhTW = "顯示可通行的軌道"
@@ -2692,8 +2748,8 @@ viVN = "Tàu hỏa"
 trTR = "Trenler"
 
 ["Tobbert.ChooChoo.KeyBinding.TrainListTab"]
-status = "normal"
 raw = "Trains tab"
+status = "normal"
 enUS = "Trains tab"
 zhCN = "列车标签页"
 zhTW = "列車分頁"
@@ -2707,3 +2763,67 @@ koKR = "열차 탭"
 csCZ = "Karta vlaků"
 viVN = "Tab Tàu hỏa"
 trTR = "Trenler sekmesi"
+
+["Tobbert.SwingFloodgate.DisplayName"]
+new = "Hinge Gate"
+status = "normal"
+
+["Tobbert.SwingFloodgate.Description"]
+new = "A dam on a hinge. Closed, it holds the water back and bars the way; open, it swings aside and lets the river run."
+status = "normal"
+
+["Tobbert.SwingFloodgate.FlavorDescription"]
+new = "Warning! Do not put your paws on the gate, you risk getting pinched very hard."
+status = "normal"
+
+["Tobbert.RailSwingFloodgate.DisplayName"]
+new = "Rail Hinge Gate"
+status = "normal"
+
+["Tobbert.RailSwingFloodgate.Description"]
+new = "A dam on a hinge. Closed, it holds the water back and bars the track; open, it swings aside and lets the river and the trains through."
+status = "normal"
+
+["Tobbert.RailSwingFloodgate.FlavorDescription"]
+new = "Warning! Do not put your paws on the gate, you risk getting pinched very hard."
+status = "normal"
+
+["Tobbert.SwingFloodgate.Mode.Open"]
+new = "Open"
+status = "normal"
+
+["Tobbert.SwingFloodgate.Mode.Closed"]
+new = "Closed"
+status = "normal"
+
+["Tobbert.SwingFloodgate.State.Open"]
+new = "Currently open"
+status = "normal"
+
+["Tobbert.SwingFloodgate.State.Closed"]
+new = "Currently closed"
+status = "normal"
+
+["Tobbert.SwingFloodgate.Synchronize"]
+new = "Synchronize with the gates above and below"
+status = "normal"
+
+["Tobbert.SwingFloodgate.Conflict"]
+new = "Cannot open: it would join two different districts."
+status = "normal"
+
+["Tobbert.SwingFloodgate.Waiting.Train"]
+new = "Waiting for the train to clear the track."
+status = "normal"
+
+["Tobbert.SwingFloodgate.Waiting.Network"]
+new = "Waiting for the rail network to settle."
+status = "normal"
+
+["Tobbert.SwingFloodgate.Status.Waiting"]
+new = "The hinge gate is waiting before it moves."
+status = "normal"
+
+["Tobbert.SwingFloodgate.Status.Waiting.Short"]
+new = "Waiting"
+status = "normal"

@@ -2,8 +2,8 @@
 name = "Raining Cloud Simulation [ModContest1]"
 
 ["RainCloudsSim.Settings.Header"]
-status = "normal"
 raw = "Rain Clouds"
+status = "normal"
 enUS = "Rain Clouds"
 zhCN = "降雨云层"
 zhTW = "雨雲"
@@ -19,8 +19,8 @@ viVN = "Mây mưa"
 trTR = "Yağmur Bulutları"
 
 ["RainCloudsSim.Settings.RainQuality"]
-status = "normal"
 raw = "Rain particle quality"
+status = "normal"
 enUS = "Rain particle quality"
 zhCN = "雨滴粒子质量"
 zhTW = "雨滴粒子品質"
@@ -36,8 +36,8 @@ viVN = "Chất lượng hạt mưa"
 trTR = "Yağmur parçacıklarının kalitesi"
 
 ["RainCloudsSim.Settings.HideWhenLayerLowered"]
-status = "normal"
 raw = "Hide clouds when a layer is hidden"
+status = "normal"
 enUS = "Hide clouds when a layer is hidden"
 zhCN = "隐藏图层时隐藏云朵"
 zhTW = "隱藏圖層時隱藏雲朵"
@@ -113,8 +113,8 @@ csCZ = "Snadné"
 trTR = "Kolay"
 
 ["RainCloudsSim.Preset.Normal"]
-status = "normal"
 raw = "Normal"
+status = "normal"
 enUS = "Normal"
 zhCN = "普通"
 zhTW = "普通"
@@ -130,8 +130,8 @@ viVN = "Bình thường"
 trTR = "Normal"
 
 ["RainCloudsSim.Preset.Hard"]
-status = "normal"
 raw = "Hard"
+status = "normal"
 enUS = "Hard"
 zhCN = "困难"
 zhTW = "困難"
@@ -162,8 +162,8 @@ viVN = "Có bão"
 trTR = "Fırtınalı"
 
 ["RainCloudsSim.Preset.Toxic"]
-status = "normal"
 raw = "Toxic"
+status = "normal"
 enUS = "Toxic"
 zhCN = "有毒"
 zhTW = "有毒"
@@ -179,8 +179,8 @@ viVN = "Độc hại"
 trTR = "Zehirli"
 
 ["RainCloudsSim.Difficulty.MinCycleForCloudMoving"]
-status = "normal"
 raw = "Moving clouds: first cycle"
+status = "normal"
 enUS = "Moving Clouds: First Cycle"
 zhCN = "云层移动：第一个周期"
 zhTW = "移動雲層：第一個週期"
@@ -211,8 +211,8 @@ viVN = "Mây di chuyển: xác suất tối đa mỗi chu kỳ"
 trTR = "Hareketli bulutlar: döngü başına tam olasılık"
 
 ["RainCloudsSim.Difficulty.ProbabilityOfCloudMoving"]
-status = "normal"
 raw = "Moving clouds: chance"
+status = "normal"
 enUS = "Moving clouds: chance"
 zhCN = "移动云层：概率"
 zhTW = "移動雲朵的機率"
@@ -260,8 +260,8 @@ viVN = "Trọng số mục tiêu: trung tâm khu vực cai quản"
 trTR = "Hedef ağırlık: bölge merkezi"
 
 ["RainCloudsSim.Difficulty.ProbabilityToMoveOnDwelling"]
-status = "normal"
 raw = "Target weight: dwelling"
+status = "normal"
 enUS = "Target weight: dwelling"
 zhCN = "目标权重：住宅"
 zhTW = "目標權重：住宅"
@@ -277,8 +277,8 @@ viVN = "Trọng số mục tiêu: nơi ở"
 trTR = "Hedef ağırlık: konut"
 
 ["RainCloudsSim.Difficulty.ProbabilityToMoveOnFarm"]
-status = "normal"
 raw = "Target weight: farm"
+status = "normal"
 enUS = "Target weight: farm"
 zhCN = "目标权重：农场"
 zhTW = "目標權重：農場"
@@ -307,8 +307,8 @@ viVN = "Trọng lượng mục tiêu: hướng di chuyển ngẫu nhiên"
 trTR = "Hedef ağırlık: rastgele yön_heading"
 
 ["RainCloudsSim.Difficulty.MinCycleForMonsoon"]
-status = "normal"
 raw = "Monsoons: first cycle"
+status = "normal"
 enUS = "Monsoons: first cycle"
 zhCN = "季风：首个周期"
 zhTW = "季風：首次發生週期"
@@ -340,8 +340,8 @@ viVN = "Gió mùa: chu kỳ đầu tiên có mưa ô nhiễm"
 trTR = "Musonlar: kirliliğin ilk görüldüğü döngü"
 
 ["RainCloudsSim.Difficulty.MaxCycleForMonsoon"]
-status = "normal"
 raw = "Monsoons: full chance at cycle"
+status = "normal"
 enUS = "Monsoons: full chance each cycle"
 zhCN = "季风：周期内的最高概率"
 zhTW = "季風：每個週期都有機會出現"
@@ -357,8 +357,8 @@ viVN = "Mùa mưa: xác suất tối đa mỗi chu kỳ"
 trTR = "Musonlar: döngü başına tam olasılık"
 
 ["RainCloudsSim.Difficulty.ProbabilityOfMonsoon"]
-status = "normal"
 raw = "Monsoons: chance"
+status = "normal"
 enUS = "Monsoon chance"
 zhCN = "季风：概率"
 zhTW = "季風：機率"
@@ -374,8 +374,8 @@ viVN = "Mùa mưa: xác suất"
 trTR = "Musonlar: olasılık"
 
 ["RainCloudsSim.Difficulty.ProbabilityOfMonsoonContaminationModifier"]
-status = "normal"
 raw = "Monsoons: contamination modifier"
+status = "normal"
 enUS = "Monsoons: Contamination Modifier"
 zhCN = "季风：污染修正系数"
 zhTW = "季風：污染修正係數"
@@ -406,8 +406,8 @@ viVN = "Nguồn: giảm lưu lượng cho đến khi bắt đầu chu kỳ tăng
 trTR = "Kaynaklar: döngüye kadar kısma"
 
 ["RainCloudsSim.Difficulty.CycleForMinContaminationGrowthEnd"]
-status = "normal"
 raw = "Sources: throttle eases by cycle"
+status = "normal"
 enUS = "Sources: throttle eases by cycle"
 zhCN = "来源：节流量随周期逐渐降低"
 zhTW = "來源：每個週期逐漸降低節流程度"
@@ -451,8 +451,8 @@ csCZ = "Zdroje: znečištěný růst"
 viVN = "Nguồn: tăng trưởng ô nhiễm"
 
 ["RainCloudsSim.Difficulty.StrengthModForNormalSourceCloud"]
-status = "normal"
 raw = "Sources: clean growth"
+status = "normal"
 enUS = "Sources: clean growth"
 zhCN = "来源：洁净水源生成量"
 zhTW = "來源：潔淨生長"

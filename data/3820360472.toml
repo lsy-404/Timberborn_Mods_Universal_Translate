@@ -2,8 +2,8 @@
 name = "Unknown"
 
 ["Building.FloatValveDischarge.DisplayName"]
-status = "normal"
 raw = "Float Valve Discharge"
+status = "normal"
 enUS = "Float Valve Discharge"
 zhCN = "浮球阀排水口"
 zhTW = "浮球閥排放口"
@@ -19,8 +19,8 @@ viVN = "Cửa xả van phao"
 trTR = "Şamandıralı Vana Tahliyesi"
 
 ["Building.FloatValveDischarge.Description"]
-status = "normal"
 raw = "Haulers fill its tank with water. Like a cistern, it pours into the tile in front until the water there reaches the target depth, then stops by itself. No workers needed."
+status = "normal"
 enUS = "Haulers fill its tank with water. Like a cistern, it pours water onto the tile in front until the water there reaches the target depth, then stops on its own. No workers needed."
 zhCN = "搬运工会将水装入其水箱。与蓄水池一样，它会将水排入前方的格子，直到那里的水达到目标深度，然后自动停止。无需工人。"
 zhTW = "搬運工會將水裝入其水槽。和蓄水池一樣，它會將水注入前方的地格，直到那裡的水位達到目標深度，然後自動停止。無需工人。"
@@ -36,8 +36,8 @@ viVN = "Nhân công vận chuyển đổ đầy nước vào bể chứa của n
 trTR = "Taşıyıcılar tankını suyla doldurur. Bir sarnıç gibi, önündeki karo hedef derinliğe ulaşana kadar su boşaltır, ardından kendiliğinden durur. İşçi gerekmez."
 
 ["Building.FloatValveDischarge.FlavorDescription"]
-status = "normal"
 raw = "\"The float rises, the tap closes. Simple.\""
+status = "normal"
 enUS = "\"The float rises, the tap closes. Simple.\""
 zhCN = "“浮子升起，阀门关闭。就这么简单。”"
 zhTW = "「浮子升起，水龍頭關閉。很簡單。」"
@@ -69,8 +69,8 @@ viVN = "Giếng phun tự nhiên"
 trTR = "Artezyen Kuyusu"
 
 ["Building.ArtesianWell.Description"]
-status = "normal"
 raw = "Drilled deep into a confined aquifer. The pressure underground pushes clean water up by itself: no power, no workers, no refilling. Keeps both tiles in front at the target depth, up to a daily limit."
+status = "normal"
 enUS = "Drilled deep into a confined aquifer. Underground pressure pushes clean water up by itself: no power, no workers, no refilling. Keeps both tiles in front at the target depth, up to a daily limit."
 zhCN = "深入钻探至承压含水层。地下压力会自行将清水推上来：无需动力、无需工人，也无需补充水源。可将前方两格的水位维持在目标深度，但每天有上限。"
 zhTW = "深入鑽入封閉含水層。地下壓力會自行將乾淨水推送上來：不需動力、工人，也不需補水。會在目標深度維持前方兩格的水位，每日抽水量有上限。"
@@ -86,8 +86,8 @@ viVN = "Được khoan sâu vào tầng chứa nước ngầm bị giới hạn.
 trTR = "Basınçlı bir yeraltı suyu akiferine kadar derinlemesine delinmiştir. Yeraltındaki basınç temiz suyu kendiliğinden yukarı iter: güç gerekmez, işçi gerekmez, yeniden doldurmak gerekmez. Önündeki iki kareyi hedef derinlikte, günlük sınıra kadar suyla dolu tutar."
 
 ["Building.ArtesianWell.FlavorDescription"]
-status = "normal"
 raw = "\"After everything we gave, the ground finally gave back.\""
+status = "normal"
 enUS = "\"After everything we gave, the ground finally gave back.\""
 zhCN = "“在我们付出一切之后，大地终于回馈了我们。”"
 zhTW = "「在我們付出一切之後，大地終於回饋了我們。」"
@@ -103,8 +103,8 @@ viVN = "“Sau tất cả những gì chúng ta đã trao đi, cuối cùng đ�
 trTR = "“Bunca şey verdikten sonra, toprak sonunda karşılığını verdi.”"
 
 ["Waterworks.TargetDepth"]
-status = "normal"
 raw = "Target depth: {0}"
+status = "normal"
 enUS = "Target depth: {0}"
 zhCN = "目标深度：{0}"
 zhTW = "目標深度：{0}"
@@ -120,8 +120,8 @@ viVN = "Độ sâu mục tiêu: {0}"
 trTR = "Hedef derinlik: {0}"
 
 ["Waterworks.CurrentDepth"]
-status = "normal"
 raw = "Now: {0}"
+status = "normal"
 enUS = "Now: {0}"
 zhCN = "当前：{0}"
 zhTW = "目前：{0}"
@@ -137,8 +137,8 @@ viVN = "Hiện tại: {0}"
 trTR = "Şimdi: {0}"
 
 ["Waterworks.TankStatus"]
-status = "normal"
 raw = "Tank: {0}"
+status = "normal"
 enUS = "Tank: {0}"
 zhCN = "储液罐：{0}"
 zhTW = "水槽：{0}"
@@ -154,8 +154,8 @@ viVN = "Bể chứa: {0}"
 trTR = "Depo: {0}"
 
 ["Waterworks.WellStatus"]
-status = "normal"
 raw = "Water today: {0}"
+status = "normal"
 enUS = "Water today: {0}"
 zhCN = "今日水量：{0}"
 zhTW = "今日水量：{0}"
@@ -187,8 +187,8 @@ csCZ = "Nalévání"
 viVN = "Đang đổ nước"
 
 ["Waterworks.State.AtTarget"]
-status = "normal"
 raw = "At target depth"
+status = "normal"
 enUS = "At target depth"
 zhCN = "达到目标深度时"
 zhTW = "達到目標深度時"
@@ -220,8 +220,8 @@ csCZ = "Nádrž je prázdná"
 viVN = "Bể chứa trống"
 
 ["Waterworks.State.Idle"]
-status = "normal"
 raw = "Waiting"
+status = "normal"
 enUS = "Waiting"
 zhCN = "等待"
 zhTW = "等待中"
@@ -237,8 +237,8 @@ viVN = "Đang chờ"
 trTR = "Bekliyor"
 
 ["Waterworks.State.Capped"]
-status = "normal"
 raw = "Daily limit reached"
+status = "normal"
 enUS = "Daily limit reached"
 zhCN = "已达到每日上限"
 zhTW = "已達每日上限"
@@ -254,8 +254,8 @@ viVN = "Đã đạt giới hạn hằng ngày"
 trTR = "Günlük sınıra ulaşıldı"
 
 ["Waterworks.State.Paused"]
-status = "normal"
 raw = "Paused"
+status = "normal"
 enUS = "Paused"
 zhCN = "已暂停"
 zhTW = "已暫停"
@@ -271,8 +271,8 @@ viVN = "Đã tạm dừng"
 trTR = "Duraklatıldı"
 
 ["Waterworks.Settings.Header"]
-status = "normal"
 raw = "Self-Filling Ponds"
+status = "normal"
 enUS = "Self-Filling Ponds"
 zhCN = "自动蓄水池"
 zhTW = "自動注水池塘"
@@ -288,8 +288,8 @@ viVN = "Ao tự đầy nước"
 trTR = "Kendiliğinden Dolan Göletler"
 
 ["Waterworks.Settings.ValveCapacity"]
-status = "normal"
 raw = "Float valve tank size (water)"
+status = "normal"
 enUS = "Float valve tank capacity (water)"
 zhCN = "浮阀水箱容量（清水）"
 zhTW = "浮閥水槽容量（清水）"
@@ -305,8 +305,8 @@ viVN = "Dung tích bể van phao (nước)"
 trTR = "Şamandıralı vana tank kapasitesi (su)"
 
 ["Waterworks.Settings.ValveRate"]
-status = "normal"
 raw = "Float valve pour rate (water per hour)"
+status = "normal"
 enUS = "Float valve pour rate (water per hour)"
 zhCN = "浮阀每小时注水量（单位：水）"
 zhTW = "浮筒閥門倒水速率（每小時水量）"
@@ -354,8 +354,8 @@ viVN = "Giới hạn nước hằng ngày của giếng phun trào"
 trTR = "Artezyen kuyusu günlük limiti (su)"
 
 ["Waterworks.Settings.WellDailyCapTooltip"]
-status = "normal"
 raw = "Water units per day, counted like hauled water. Applies from the next game load."
+status = "normal"
 enUS = "Water units per day, counted like hauled water. Applies from the next game load."
 zhCN = "每日水量单位，按运输的水量计数。从下次加载游戏起生效。"
 zhTW = "每日水量單位，計算方式與搬運水相同。下次載入遊戲時生效。"
@@ -371,8 +371,8 @@ viVN = "Số đơn vị nước mỗi ngày, được tính như nước vận c
 trTR = "Günlük su birimi; taşınan su gibi sayılır. Bir sonraki oyun yüklemesinden itibaren geçerlidir."
 
 ["Waterworks.Settings.WellScience"]
-status = "normal"
 raw = "Artesian well science cost"
+status = "normal"
 enUS = "Artesian well science cost"
 zhCN = "自流井科研点数成本"
 zhTW = "自流井科技成本"

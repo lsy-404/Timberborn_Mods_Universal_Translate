@@ -2,8 +2,8 @@
 name = "TimberLoop"
 
 ["Barbara.TimberLoop.P1.DisplayName"]
-status = "normal"
 raw = "TimberLoop — Grand Circuit"
+status = "normal"
 enUS = "TimberLoop — Grand Circuit"
 zhCN = "海狸浮生记——宏伟环路"
 zhTW = "海狸浮生記——宏偉迴路"
@@ -19,8 +19,8 @@ viVN = "TimberLoop — Vòng Đua Lớn"
 trTR = "TimberLoop — Büyük Pist"
 
 ["Barbara.TimberLoop.P1.Description"]
-status = "normal"
 raw = "A six-beaver attraction with a prefabricated circuit and two laps per ride. Requires its own linked operating TimberLoop Ticket Booth."
+status = "normal"
 enUS = "An attraction for six beavers, with a prefabricated circuit and two laps per ride. Requires its own linked, operating TimberLoop Ticket Booth."
 zhCN = "可供 6 只海狸游玩的景点，配有预设赛道，每次乘坐绕行两圈。需要连接一座专属的 TimberLoop 售票亭并投入运营。"
 zhTW = "可供 6 隻海狸乘坐的遊樂設施，設有預先規劃好的賽道，每次遊玩跑兩圈。需要連接專屬的 TimberLoop 售票亭才能運作。"
@@ -52,8 +52,8 @@ viVN = "Cụp đuôi lại và bám thật chặt!"
 trTR = "Kuyruğunu kıstır ve sıkı tutun!"
 
 ["Barbara.TimberLoop.Need.Joy.DisplayName"]
-status = "normal"
 raw = "TimberLoop thrill"
+status = "normal"
 enUS = "TimberLoop thrill"
 zhCN = "TimberLoop乐趣"
 zhTW = "TimberLoop 樂趣"
@@ -69,8 +69,8 @@ viVN = "Cảm giác phấn khích của TimberLoop"
 trTR = "TimberLoop heyecanı"
 
 ["Barbara.TimberLoop.ToolGroup"]
-status = "normal"
 raw = "TimberLoop"
+status = "normal"
 enUS = "TimberLoop"
 zhCN = "TimberLoop"
 zhTW = "TimberLoop"
@@ -86,8 +86,8 @@ viVN = "TimberLoop"
 trTR = "TimberLoop"
 
 ["Barbara.TimberLoopTicketBooth.DisplayName"]
-status = "normal"
 raw = "TimberLoop Ticket Booth"
+status = "normal"
 enUS = "TimberLoop Ticket Booth"
 zhCN = "海狸浮生记环线售票亭"
 zhTW = "TimberLoop 售票亭"
@@ -103,8 +103,8 @@ viVN = "Quầy bán vé TimberLoop"
 trTR = "TimberLoop Bilet Gişesi"
 
 ["Barbara.TimberLoopTicketBooth.Description"]
-status = "normal"
 raw = "Produces TimberLoop Tickets for a manually linked TimberLoop. Not compatible with the original RollerCoaster."
+status = "normal"
 enUS = "Produces TimberLoop Tickets for a manually linked TimberLoop. Not compatible with the original RollerCoaster."
 zhCN = "为手动连接的 TimberLoop 生产 TimberLoop 门票。与原版 RollerCoaster 不兼容。"
 zhTW = "為手動連結的 TimberLoop 生產 TimberLoop 門票。與原版 RollerCoaster 不相容。"
@@ -120,8 +120,8 @@ viVN = "Sản xuất Vé TimberLoop cho một TimberLoop được liên kết th
 trTR = "Manuel olarak bağlanan bir TimberLoop için TimberLoop Biletleri üretir. Orijinal RollerCoaster ile uyumlu değildir."
 
 ["Barbara.TimberLoopTicketBooth.Flavor"]
-status = "normal"
 raw = "One ticket per passenger. Six tickets start two laps."
+status = "normal"
 enUS = "One ticket per passenger. Six tickets start two laps."
 zhCN = "每位乘客一张票。六张票起步，绕两圈。"
 zhTW = "每位乘客一張票。六張票才能開始兩圈賽程。"
@@ -137,8 +137,8 @@ viVN = "Mỗi hành khách cần một vé. Sáu vé giúp bắt đầu hai vòn
 trTR = "Yolcu başına bir bilet. Altı bilet iki tur başlatır."
 
 ["Barbara.TimberLoopTicket.DisplayName"]
-status = "normal"
 raw = "TimberLoop Ticket"
+status = "normal"
 enUS = "TimberLoop Ticket"
 zhCN = "TimberLoop车票"
 zhTW = "TimberLoop 車票"
@@ -154,8 +154,8 @@ viVN = "Vé TimberLoop"
 trTR = "TimberLoop Bileti"
 
 ["Barbara.TimberLoopTicket.Description"]
-status = "normal"
 raw = "Valid for one TimberLoop passenger only."
+status = "normal"
 enUS = "Valid for one TimberLoop passenger only."
 zhCN = "仅对一名 TimberLoop 乘客有效。"
 zhTW = "僅適用於一位 TimberLoop 乘客。"
@@ -171,8 +171,8 @@ viVN = "Chỉ có hiệu lực cho một hành khách TimberLoop."
 trTR = "Yalnızca bir TimberLoop yolcusu için geçerlidir."
 
 ["Good.TimberLoopTicket.DisplayName"]
-status = "normal"
 raw = "TimberLoop Ticket"
+status = "normal"
 enUS = "TimberLoop Ticket"
 zhCN = "TimberLoop车票"
 zhTW = "TimberLoop 票券"
@@ -188,8 +188,8 @@ viVN = "Vé TimberLoop"
 trTR = "TimberLoop Bileti"
 
 ["Good.TimberLoopTicket.PluralDisplayName"]
-status = "normal"
 raw = "TimberLoop Tickets"
+status = "normal"
 enUS = "TimberLoop Tickets"
 zhCN = "TimberLoop票券"
 zhTW = "TimberLoop 車票"
@@ -205,8 +205,8 @@ viVN = "Vé TimberLoop"
 trTR = "TimberLoop Biletleri"
 
 ["TimberLoopTicketRecipe.Folktails.Name"]
-status = "normal"
 raw = "TimberLoop Tickets"
+status = "normal"
 enUS = "TimberLoop Tickets"
 zhCN = "TimberLoop门票"
 zhTW = "TimberLoop 車票"
@@ -222,8 +222,8 @@ viVN = "Vé TimberLoop"
 trTR = "TimberLoop Biletleri"
 
 ["TimberLoopTicketRecipe.IronTeeth.Name"]
-status = "normal"
 raw = "TimberLoop Tickets"
+status = "normal"
 enUS = "TimberLoop Tickets"
 zhCN = "TimberLoop车票"
 zhTW = "TimberLoop 票券"

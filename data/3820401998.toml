@@ -2,8 +2,8 @@
 name = "Mod Settings"
 
 ["ModSettingsBox.GameNotChangeable"]
-status = "normal"
 raw = "Can't be changed during the game."
+status = "normal"
 enUS = "Can't be changed during the game."
 zhCN = "游戏过程中无法更改。"
 zhTW = "遊戲進行期間無法變更。"
@@ -19,8 +19,8 @@ viVN = "Không thể thay đổi trong khi chơi."
 trTR = "Oyun sırasında değiştirilemez."
 
 ["ModSettingsBox.MainMenuNotChangeable"]
-status = "normal"
 raw = "Can't be changed in main menu."
+status = "normal"
 enUS = "Can't be changed in the main menu."
 zhCN = "无法在主菜单中更改。"
 zhTW = "無法在主選單中變更。"
@@ -36,8 +36,8 @@ viVN = "Không thể thay đổi trong menu chính."
 trTR = "Ana menüde değiştirilemez."
 
 ["ModSettingsBox.MapEditorNotChangeable"]
-status = "normal"
 raw = "Can't be changed in the map editor."
+status = "normal"
 enUS = "Can't be changed in the map editor."
 zhCN = "无法在地图编辑器中更改。"
 zhTW = "無法在地圖編輯器中更改。"
@@ -53,8 +53,8 @@ viVN = "Không thể thay đổi trong trình chỉnh sửa bản đồ."
 trTR = "Harita düzenleyicisinde değiştirilemez."
 
 ["ModSettingsBox.ResetMessage"]
-status = "normal"
 raw = "Do you want to reset all settings to default?"
+status = "normal"
 enUS = "Do you want to reset all settings to their defaults?"
 zhCN = "要将所有设置重置为默认值吗？"
 zhTW = "確定要將所有設定重設為預設值嗎？"
@@ -70,8 +70,8 @@ viVN = "Bạn có muốn đặt lại tất cả cài đặt về mặc định 
 trTR = "Tüm ayarları varsayılan değerlerine sıfırlamak istiyor musunuz?"
 
 ["ModSettingsBox.ResetToDefault"]
-status = "normal"
 raw = "Reset to default"
+status = "normal"
 enUS = "Reset to default"
 zhCN = "重置为默认值"
 zhTW = "重設為預設值"

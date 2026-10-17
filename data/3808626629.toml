@@ -2,8 +2,8 @@
 name = "Alternative Weather System"
 
 ["AlternativeWeatherSystem.PanelTitle"]
-status = "normal"
 raw = "Weather"
+status = "normal"
 enUS = "Weather"
 zhCN = "天气"
 zhTW = "天氣"
@@ -19,8 +19,8 @@ viVN = "Thời tiết"
 trTR = "Hava Durumu"
 
 ["AlternativeWeatherSystem.Preview.Title"]
-status = "normal"
 raw = "First cycles:"
+status = "normal"
 enUS = "First cycles:"
 zhCN = "前几个周期："
 zhTW = "前幾個週期："
@@ -36,8 +36,8 @@ viVN = "Các chu kỳ đầu tiên:"
 trTR = "İlk döngüler:"
 
 ["AlternativeWeatherSystem.Mode.Easy.Description"]
-status = "normal"
 raw = "Long fair spells and short hazards. Badtides start after five cycles and stay rare."
+status = "normal"
 enUS = "Long wet seasons and short droughts. Badtides start after five cycles and remain rare."
 zhCN = "漫长的晴好时段，短暂的灾害。恶水潮在五个周期后开始出现，且很少发生。"
 zhTW = "漫長的晴朗時期與短暫的危險期。五個週期後開始出現壞水潮，且仍然罕見。"
@@ -53,8 +53,8 @@ viVN = "Các đợt thời tiết thuận lợi kéo dài và hiểm họa ngắ
 trTR = "Uzun süreli güzel hava ve kısa süreli tehlikeler. Kötü gelgitler beş döngü sonra başlar ve nadir görülür."
 
 ["AlternativeWeatherSystem.Mode.Normal.Description"]
-status = "normal"
 raw = "Cycles lengthen as the settlement grows, and the water sources pick up a little contamination late on."
+status = "normal"
 enUS = "Cycles lengthen as the settlement grows, and the water sources pick up a little contamination late on."
 zhCN = "随着定居点发展，周期会变长，水源在后期也会受到少量污染。"
 zhTW = "隨著聚落發展，週期會變長，水源也會在後期受到少許污染。"
@@ -70,8 +70,8 @@ viVN = "Các chu kỳ kéo dài hơn khi khu định cư phát triển, và các
 trTR = "Yerleşim büyüdükçe döngüler uzar ve su kaynakları döngünün sonlarına doğru biraz kirlenir."
 
 ["AlternativeWeatherSystem.Mode.Hard.Description"]
-status = "normal"
 raw = "Short fair spells, long and wildly variable hazards, and water that grows steadily fouler."
+status = "normal"
 enUS = "Short fair spells, long and wildly variable hazards, and water that grows steadily fouler."
 zhCN = "晴好天气较短，危险期漫长且变化无常，水质也会持续变得更加污浊。"
 zhTW = "晴朗期短暫，危險期漫長且變化莫測，水也會逐漸變得更加污濁。"
@@ -87,8 +87,8 @@ viVN = "Những đợt thời tiết thuận lợi ngắn, những hiểm họa 
 trTR = "Kısa yağışlı dönemler, uzun ve büyük ölçüde değişken tehlikeler ve giderek daha kirli hâle gelen su."
 
 ["AlternativeWeatherSystem.Parameter.DurationAverage"]
-status = "normal"
 raw = "Length in days (average)"
+status = "normal"
 enUS = "Length in days (average)"
 zhCN = "天数长度（平均值）"
 zhTW = "長度（平均天數）"
@@ -104,8 +104,8 @@ viVN = "Độ dài tính theo ngày (trung bình)"
 trTR = "Gün cinsinden süre (ortalama)"
 
 ["AlternativeWeatherSystem.Parameter.DurationDeviation"]
-status = "normal"
 raw = "Length in days (spread)"
+status = "normal"
 enUS = "Length in days (spread)"
 zhCN = "天数长度（分布范围）"
 zhTW = "天數長度（分布）"
@@ -121,8 +121,8 @@ viVN = "Độ dài tính theo ngày (độ phân tán)"
 trTR = "Gün cinsinden süre (aralık)"
 
 ["AlternativeWeatherSystem.Parameter.SourceStrength"]
-status = "normal"
 raw = "Water source strength"
+status = "normal"
 enUS = "Water source strength"
 zhCN = "水源强度"
 zhTW = "水源強度"
@@ -138,8 +138,8 @@ viVN = "Cường độ nguồn nước"
 trTR = "Su kaynağı gücü"
 
 ["AlternativeWeatherSystem.Parameter.Contamination"]
-status = "normal"
 raw = "Source contamination"
+status = "normal"
 enUS = "Source contamination"
 zhCN = "水源污染"
 zhTW = "水源污染"
@@ -155,8 +155,8 @@ viVN = "Ô nhiễm nguồn nước"
 trTR = "Kaynak kirliliği"
 
 ["AlternativeWeatherSystem.Parameter.BadwaterContamination"]
-status = "normal"
 raw = "Badwater source contamination"
+status = "normal"
 enUS = "Badwater source contamination"
 zhCN = "恶水源污染"
 zhTW = "污水源污染"
@@ -186,8 +186,8 @@ csCZ = "Upozornění na zbývající dobu (dny)"
 trTR = "Ne kadar süre kaldığını (gün olarak) bildirme uyarısı"
 
 ["AlternativeWeatherSystem.Parameter.NextWeatherNotice"]
-status = "normal"
 raw = "Warning of what comes next (days)"
+status = "normal"
 enUS = "Warning of what comes next (days)"
 zhCN = "后续天气预警（天数）"
 zhTW = "距離下一個天氣事件的預警時間（天數）"
@@ -203,8 +203,8 @@ viVN = "Cảnh báo về thời tiết sắp tới (ngày)"
 trTR = "Sonraki hava olayına kaç gün kaldığını gösteren uyarı"
 
 ["AlternativeWeatherSystem.Parameter.BadwaterSourceStrength"]
-status = "normal"
 raw = "Badwater source strength (share)"
+status = "normal"
 enUS = "Badwater source strength (share)"
 zhCN = "恶水源强度（份额）"
 zhTW = "壞水源強度（比例）"
@@ -220,8 +220,8 @@ viVN = "Cường độ nguồn nước ô nhiễm (tỷ lệ)"
 trTR = "Kirli su kaynağı gücü (pay)"
 
 ["AlternativeWeatherSystem.Parameter.EruptionPeriod"]
-status = "normal"
 raw = "Days per eruption"
+status = "normal"
 enUS = "Days per eruption"
 zhCN = "每次喷发间隔天数"
 zhTW = "每次噴發間隔天數"
@@ -237,8 +237,8 @@ viVN = "Số ngày giữa các lần phun trào"
 trTR = "Patlamalar arasındaki gün sayısı"
 
 ["AlternativeWeatherSystem.Parameter.EruptionStrength"]
-status = "normal"
 raw = "Eruption strength"
+status = "normal"
 enUS = "Eruption strength"
 zhCN = "喷发强度"
 zhTW = "噴發強度"
@@ -285,8 +285,8 @@ viVN = "Các cống thoát nước vẫn hoạt động trong thời tiết này
 trTR = "Drenajlar bu hava koşullarında da çalışır"
 
 ["AlternativeWeatherSystem.Transition.Label"]
-status = "normal"
 raw = "leads to {0}"
+status = "normal"
 enUS = "leads to {0}"
 zhCN = "通向 {0}"
 zhTW = "通往 {0}"
@@ -302,8 +302,8 @@ viVN = "dẫn đến {0}"
 trTR = "{0} noktasına çıkar"
 
 ["AlternativeWeatherSystem.Notice.Approaching"]
-status = "normal"
 raw = "{0} approaching"
+status = "normal"
 enUS = "{0} approaching"
 zhCN = "{0}即将到来"
 zhTW = "{0} 即將到來"
@@ -335,8 +335,8 @@ viVN = "Thay đổi từ các lần tiếp cận {0}"
 trTR = "{0} yaklaşırken değiştir"
 
 ["AlternativeWeatherSystem.Notice.Started"]
-status = "normal"
 raw = "{0} started"
+status = "normal"
 enUS = "{0} started"
 zhCN = "{0}已开始"
 zhTW = "{0} 已開始"
@@ -368,8 +368,8 @@ csCZ = "{0} prodlužování"
 viVN = "Kéo dài {0}、】【"
 
 ["AlternativeWeatherSystem.Notice.CycleAndSeason"]
-status = "normal"
 raw = "Cycle {0}, season {1}"
+status = "normal"
 enUS = "Cycle {0}, season {1}"
 zhCN = "周期 {0}，季节 {1}"
 zhTW = "週期 {0}，季節 {1}"
@@ -385,8 +385,8 @@ viVN = "Chu kỳ {0}, mùa {1}"
 trTR = "Döngü {0}, mevsim {1}"
 
 ["AlternativeWeatherSystem.Building.WeatherSensor.Name"]
-status = "normal"
 raw = "Weather Sensor"
+status = "normal"
 enUS = "Weather Sensor"
 zhCN = "天气传感器"
 zhTW = "氣象感測器"
@@ -402,8 +402,8 @@ viVN = "Cảm biến thời tiết"
 trTR = "Hava Durumu Sensörü"
 
 ["AlternativeWeatherSystem.Building.WeatherSensor.Description"]
-status = "normal"
 raw = "Sends a signal while the weather you choose is running, and can send it early so the gates are already open when that weather arrives."
+status = "normal"
 enUS = "Sends a signal while the weather you choose is active, and can send it early so the gates are already open when that weather arrives."
 zhCN = "在你选择的天气期间发送信号，也可以提前发送信号，以便该天气到来时闸门已经开启。"
 zhTW = "在你選擇的天氣期間傳送訊號，也可以提前傳送，讓閘門在該天氣到來時已經開啟。"
@@ -449,8 +449,8 @@ viVN = "Điều gì có thể xảy ra tiếp theo {0}"
 trTR = "{0} sonrasında ne olabilir?"
 
 ["AlternativeWeatherSystem.Matrix.Column"]
-status = "normal"
 raw = "{0}"
+status = "normal"
 enUS = "{0}"
 zhCN = "{0}"
 zhTW = "{0}"
@@ -466,8 +466,8 @@ viVN = "{0}"
 trTR = "{0}"
 
 ["AlternativeWeatherSystem.Matrix.Explanation"]
-status = "normal"
 raw = "Each row is the weather that is running; each column is what may follow it."
+status = "normal"
 enUS = "Each row is the weather that is currently occurring; each column is what may follow it."
 zhCN = "每一行表示当前正在经历的天气；每一列表示接下来可能出现的天气。"
 zhTW = "每一列代表目前的天氣；每一欄代表接下來可能出現的天氣。"
@@ -499,8 +499,8 @@ viVN = "đang chạy ↓ / tiếp theo →"
 trTR = "çalışıyor ↓ / sonraki →"
 
 ["AlternativeWeatherSystem.OwnParameters.Title"]
-status = "normal"
 raw = "Weather-specific settings"
+status = "normal"
 enUS = "Weather-Specific Settings"
 zhCN = "特定天气设置"
 zhTW = "天氣專屬設定"
@@ -548,8 +548,8 @@ csCZ = "Povodeň"
 viVN = "Lũ lụt"
 
 ["AlternativeWeatherSystem.Weather.Eruption"]
-status = "normal"
 raw = "Eruption"
+status = "normal"
 enUS = "Eruption"
 zhCN = "喷发"
 zhTW = "火山爆發"
@@ -565,8 +565,8 @@ viVN = "Phun trào"
 trTR = "Patlama"
 
 ["AlternativeWeatherSystem.Weather.Heatwave"]
-status = "normal"
 raw = "Heatwave"
+status = "normal"
 enUS = "Heatwave"
 zhCN = "热浪"
 zhTW = "熱浪"
@@ -582,8 +582,8 @@ viVN = "Đợt nắng nóng"
 trTR = "Sıcak hava dalgası"
 
 ["AlternativeWeatherSystem.Need.Heatstroke.DisplayName"]
-status = "normal"
 raw = "Heatstroke"
+status = "normal"
 enUS = "Heatstroke"
 zhCN = "中暑"
 zhTW = "中暑"
@@ -599,8 +599,8 @@ viVN = "Say nắng"
 trTR = "Sıcak çarpması"
 
 ["AlternativeWeatherSystem.Need.Heatstroke.Status"]
-status = "normal"
 raw = "Overheating."
+status = "normal"
 enUS = "Overheating."
 zhCN = "过热。"
 zhTW = "過熱。"
@@ -616,8 +616,8 @@ viVN = "Quá nóng."
 trTR = "Aşırı ısınma."
 
 ["AlternativeWeatherSystem.Need.Heatstroke.StatusShort"]
-status = "normal"
 raw = "Beaver overheating"
+status = "normal"
 enUS = "Beaver overheating"
 zhCN = "海狸过热"
 zhTW = "海狸過熱"
@@ -633,8 +633,8 @@ viVN = "Hải ly bị quá nóng"
 trTR = "Kunduz aşırı ısınması"
 
 ["AlternativeWeatherSystem.Need.Heatstroke.DeathMessage"]
-status = "normal"
 raw = "succumbed to the heat."
+status = "normal"
 enUS = "succumbed to the heat."
 zhCN = "死于中暑。"
 zhTW = "不敵酷熱而死。"
@@ -650,8 +650,8 @@ viVN = "đã gục ngã vì nóng."
 trTR = "sıcağa yenik düştü."
 
 ["AlternativeWeatherSystem.Parameter.HeatstrokeDays"]
-status = "normal"
 raw = "Days of dry fur before death"
+status = "normal"
 enUS = "Days of dry fur before death"
 zhCN = "死亡前的干燥毛皮天数"
 zhTW = "死亡前毛皮乾燥的天數"
@@ -667,8 +667,8 @@ viVN = "Số ngày khô lông trước khi chết"
 trTR = "Ölümden önceki kuru kürk günleri"
 
 ["AlternativeWeatherSystem.Parameter.FurDryingRate"]
-status = "normal"
 raw = "Fur drying multiplier"
+status = "normal"
 enUS = "Fur drying multiplier"
 zhCN = "毛皮干燥倍率"
 zhTW = "毛皮乾燥倍率"
@@ -699,8 +699,8 @@ csCZ = "Suchá půda otravuje rostliny"
 trTR = "Kuru zemin bitkileri zehirler"
 
 ["AlternativeWeatherSystem.Bar.Detail"]
-status = "normal"
 raw = "{0}: {1}"
+status = "normal"
 enUS = "{0}: {1}"
 zhCN = "{0}：{1}"
 zhTW = "{0}：{1}"
@@ -716,8 +716,8 @@ viVN = "{0}: {1}"
 trTR = "{0}: {1}"
 
 ["AlternativeWeatherSystem.Weather.Fair.Flavour"]
-status = "normal"
 raw = "Sources run clean, badtide drains are inactive. Beavers' favourite season."
+status = "normal"
 enUS = "Sources run clean, badtide drains are inactive. Beavers' favorite season."
 zhCN = "水源保持清洁，恶水排水口不活动。海狸最喜欢的季节。"
 zhTW = "水源乾淨，壞潮排水溝沒有啟用。海狸最愛的季節。"
@@ -733,8 +733,8 @@ viVN = "Nguồn nước chảy sạch, các cống thoát nước triều độc
 trTR = "Kaynaklar temiz akar, zehirli gelgit tahliyeleri devre dışıdır. Kunduzların en sevdiği mevsim."
 
 ["AlternativeWeatherSystem.Weather.Fair.FlavourMostlyClean"]
-status = "normal"
 raw = "Sources run mostly clean, badtide drains are inactive. Beavers' favourite season."
+status = "normal"
 enUS = "Sources run mostly clean; badtide drains are inactive. Beavers' favorite season."
 zhCN = "水源基本上都很干净，恶潮排水口处于停用状态。海狸们最喜欢的季节。"
 zhTW = "水源大多乾淨，惡潮排水道不會運作。海狸最喜愛的季節。"
@@ -766,8 +766,8 @@ viVN = "Mọi thứ đều cạn khô, nhớ xây đập nhé!"
 trTR = "Her yer kuruyor, barajlarınızı yapmayı unutmayın!"
 
 ["AlternativeWeatherSystem.Weather.Badtide.Flavour"]
-status = "normal"
 raw = "All water is contaminated, and badtide drains activated. Water was our friend, it is no longer."
+status = "normal"
 enUS = "All water is contaminated, and badtide drains are activated. Water was our friend; it is no longer."
 zhCN = "所有水都已受到污染，恶潮排水口已启动。水曾是我们的朋友，如今却不再是了。"
 zhTW = "所有水都受到了污染，而且劇毒潮汐排水口已啟動。水曾是我們的朋友，如今不再是了。"
@@ -783,8 +783,8 @@ viVN = "Toàn bộ nước đều bị ô nhiễm, và các cống xả triều 
 trTR = "Tüm sular kirlenmiş durumda ve kötü gelgit giderleri etkinleşti. Su dostumuzdu; artık değil."
 
 ["AlternativeWeatherSystem.Weather.Flood.Flavour"]
-status = "normal"
 raw = "Every source activates with clean water. Sounds great? Turns out you can have too much of a good thing."
+status = "normal"
 enUS = "Every source activates with clean water. Sounds great? Turns out you can have too much of a good thing."
 zhCN = "每个水源都会喷出干净的水。听起来不错？但好事也可能过犹不及。"
 zhTW = "每個水源都會在有乾淨水時啟動。聽起來很棒？結果好事也可能過猶不及。"
@@ -800,8 +800,8 @@ viVN = "Mọi nguồn nước đều kích hoạt khi có nước sạch. Nghe t
 trTR = "Her kaynak temiz suyla etkinleşir. Kulağa harika mı geliyor? Meğer iyi şeyin de fazlası olabiliyormuş."
 
 ["AlternativeWeatherSystem.Weather.Flood.FlavourMostlyClean"]
-status = "normal"
 raw = "Every source activates with mostly clean water. Sounds great? Turns out you can have too much of a good thing."
+status = "normal"
 enUS = "Every source activates with mostly clean water. Sounds great? Turns out you can have too much of a good thing."
 zhCN = "每个水源启动时都会放出大部分为清水的水。听起来很不错？结果证明，好事也可能多得过头。"
 zhTW = "每個水源啟動時都會流出大部分乾淨的水。聽起來很棒？結果好事也可能過猶不及。"
@@ -817,8 +817,8 @@ viVN = "Mọi nguồn nước đều hoạt động với phần lớn là nư�
 trTR = "Her kaynak çoğunlukla temiz suyla etkinleşir. Kulağa harika mı geliyor? Meğer iyi şeyin fazlası da olabiliyormuş."
 
 ["AlternativeWeatherSystem.Weather.Eruption.Flavour"]
-status = "normal"
 raw = "Something is brewing underneath the ground. Clean sources erupt with huge strength in between dry spells. Catch the water while you can."
+status = "normal"
 enUS = "Something is brewing beneath the ground. Clean water sources erupt with tremendous force between dry spells. Catch the water while you can."
 zhCN = "地底下似乎有什么正在酝酿。洁净水源会在旱季间隙以惊人的力量喷涌而出。趁现在能接水时，赶紧接吧。"
 zhTW = "地底下有什麼東西正在醞釀。乾旱期間，潔淨水源會以驚人的力道噴湧而出。趁現在還能取水，趕緊把握機會。"
@@ -834,8 +834,8 @@ viVN = "Có thứ gì đó đang sôi sục dưới lòng đất. Những mạch
 trTR = "Yerin altında bir şeyler kaynıyor. Kurak dönemlerin arasında temiz su kaynakları büyük bir güçle fışkırıyor. Fırsatın varken suyu yakala."
 
 ["AlternativeWeatherSystem.Weather.Eruption.FlavourAllSources"]
-status = "normal"
 raw = "Something is brewing underneath the ground. All sources erupt with huge strength in between dry spells. Catch the water while you can."
+status = "normal"
 enUS = "Something is brewing underground. All sources erupt with tremendous force between dry spells. Catch the water while you can."
 zhCN = "地下似乎有什么东西正在酝酿。在干旱间歇期，所有水源都会以惊人的力量喷涌而出。趁现在能接多少水就接多少吧。"
 zhTW = "地底下似乎有什麼正在醞釀。乾旱間歇期間，所有水源都會以驚人的力量噴湧而出。趁現在還能取水，趕快把握機會。"
@@ -851,8 +851,8 @@ viVN = "Có thứ gì đó đang sôi sục dưới lòng đất. Tất cả cá
 trTR = "Yeraltında bir şeyler demleniyor. Kuraklık dönemleri arasında tüm kaynaklar büyük bir güçle fışkırıyor. Fırsat varken suyu yakalayın."
 
 ["AlternativeWeatherSystem.Weather.Heatwave.FlavourPlantsBurn"]
-status = "normal"
 raw = "Sources run dry and things that aren't wet burn, including plants and beavers. Humans disbelieved in global warming, we won't make such mistakes."
+status = "normal"
 enUS = "Sources run dry, and things that aren't wet burn, including plants and beavers. Humans disbelieved in global warming; we won't make the same mistake."
 zhCN = "水源会干涸，所有不潮湿的东西都会燃烧，包括植物和海狸。人类曾不相信全球变暖，我们可不会重蹈覆辙。"
 zhTW = "水源會乾涸，沒濕的東西都會燃燒，包括植物和海狸。人類曾不相信全球暖化，我們可不會重蹈覆轍。"
@@ -868,8 +868,8 @@ viVN = "Các nguồn nước cạn khô, và những thứ không ướt sẽ b�
 trTR = "Kaynaklar kurur ve ıslak olmayan her şey yanar; bitkiler ve kunduzlar da buna dahil. İnsanlar küresel ısınmaya inanmadı, biz aynı hatayı yapmayacağız."
 
 ["AlternativeWeatherSystem.Weather.Heatwave.Flavour"]
-status = "normal"
 raw = "Sources run dry and things that aren't wet burn, including beavers. Humans disbelieved in global warming, we won't make such mistakes."
+status = "normal"
 enUS = "Sources run dry, and things that aren’t wet burn—including beavers. Humans disbelieved in global warming; we won’t make that mistake."
 zhCN = "水源会干涸，所有不湿的东西都会燃烧，包括海狸。人类曾不相信全球变暖，我们可不会犯这种错。"
 zhTW = "水源乾涸，所有不濕的東西都會燃燒，包括海狸。人類曾不相信全球暖化，我們可不會重蹈覆轍。"
@@ -901,8 +901,8 @@ viVN = "Nhập khu định cư này vào Alternative Weather System"
 trTR = "Bu yerleşimi Alternative Weather System'e aktar"
 
 ["AlternativeWeatherSystem.Import.Explanation"]
-status = "normal"
 raw = "This settlement was saved without Alternative Weather System. Choose how its weather goes on: keep the game's own weather settings, pick a weather difficulty, or customise one. The cycle under way finishes as it began."
+status = "normal"
 enUS = "This settlement was saved without Alternative Weather System. Choose how its weather goes on: keep the game's own weather settings, pick a weather difficulty, or customize one. The cycle underway finishes as it began."
 zhCN = "这个定居点保存时未启用 Alternative Weather System。请选择后续天气设置：保留游戏原有的天气设置、选择一种天气难度，或自定义天气。当前正在进行的周期会按原定方式结束。"
 zhTW = "這個聚落是在未安裝「Alternative Weather System」的情況下儲存的。請選擇接下來的天氣設定：沿用遊戲內建設定、選擇天氣難度，或自訂設定。目前進行中的週期會依照原本的設定完成。"
@@ -918,8 +918,8 @@ viVN = "Khu định cư này đã được lưu khi không có Alternative Weath
 trTR = "Bu yerleşim Alternatif Hava Sistemi olmadan kaydedildi. Havanın nasıl devam edeceğini seçin: oyunun kendi hava durumu ayarlarını koruyun, bir hava durumu zorluğu seçin ya da bir ayarı özelleştirin. Devam eden döngü başladığı gibi tamamlanacak."
 
 ["AlternativeWeatherSystem.Import.Matches"]
-status = "normal"
 raw = "Closest to this settlement's own game difficulty."
+status = "normal"
 enUS = "Closest to this settlement’s own game difficulty."
 zhCN = "最接近此聚居地自身的游戏难度。"
 zhTW = "最接近此聚落自身遊戲難度的選項。"
@@ -935,8 +935,8 @@ viVN = "Gần nhất với độ khó trò chơi của khu định cư này."
 trTR = "Bu yerleşimin kendi oyun zorluğuna en yakın."
 
 ["AlternativeWeatherSystem.Import.Keep"]
-status = "normal"
 raw = "Keep the game's weather settings"
+status = "normal"
 enUS = "Keep the game's weather settings"
 zhCN = "保留游戏的天气设置"
 zhTW = "保留遊戲的天氣設定"
@@ -952,8 +952,8 @@ viVN = "Giữ nguyên cài đặt thời tiết của trò chơi"
 trTR = "Oyunun hava durumu ayarlarını koru"
 
 ["AlternativeWeatherSystem.Import.Keep.Description"]
-status = "normal"
 raw = "Only the game's own weathers, with the lengths, handicaps and badtide chances this settlement already had."
+status = "normal"
 enUS = "Only the game's own weather, with the durations, handicaps, and badtide chances this settlement already had."
 zhCN = "仅保留游戏自带的天气，以及该定居点原有的持续时间、负面效果和恶潮概率。"
 zhTW = "僅保留遊戲原有的天氣，以及此聚落原本的天氣長度、負面效果和壞潮機率。"

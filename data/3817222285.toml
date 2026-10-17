@@ -2,8 +2,8 @@
 name = "Beaver Controller"
 
 ["LV.BC.Move"]
-status = "normal"
 raw = "Move to"
+status = "normal"
 enUS = "Move to"
 zhCN = "移动至"
 zhTW = "移動至"
@@ -19,8 +19,8 @@ viVN = "Di chuyển đến"
 trTR = "Şuraya git"
 
 ["LV.BC.CurrentAction"]
-status = "normal"
 raw = "Current action"
+status = "normal"
 enUS = "Current action"
 zhCN = "当前行动"
 zhTW = "目前動作"
@@ -36,8 +36,8 @@ viVN = "Hành động hiện tại"
 trTR = "Mevcut eylem"
 
 ["LV.BC.NoAction"]
-status = "normal"
 raw = "None"
+status = "normal"
 enUS = "None"
 zhCN = "无"
 zhTW = "無動作"
@@ -69,8 +69,8 @@ csCZ = "Zastavit aktuální akci"
 viVN = "Dừng hành động hiện tại"
 
 ["LV.BC.Use"]
-status = "normal"
 raw = "Use building"
+status = "normal"
 enUS = "Use building"
 zhCN = "使用建筑"
 zhTW = "使用建築物"
@@ -86,8 +86,8 @@ viVN = "Sử dụng công trình"
 trTR = "Binayı kullan"
 
 ["LV.BC.PickUse"]
-status = "normal"
 raw = "Pick a building to use"
+status = "normal"
 enUS = "Pick a building to use"
 zhCN = "选择要使用的建筑"
 zhTW = "選擇要使用的建築物"
@@ -151,8 +151,8 @@ csCZ = "Uvolnit"
 viVN = "Thả ra"
 
 ["LV.BC.PickDestination"]
-status = "normal"
 raw = "Select a destination"
+status = "normal"
 enUS = "Select a destination"
 zhCN = "选择一个目的地"
 zhTW = "選擇目的地"
@@ -168,8 +168,8 @@ viVN = "Chọn điểm đến"
 trTR = "Bir hedef seçin"
 
 ["LV.BC.Idle"]
-status = "normal"
 raw = "Idle"
+status = "normal"
 enUS = "Idle"
 zhCN = "空闲"
 zhTW = "閒置"
@@ -185,8 +185,8 @@ viVN = "Không hoạt động"
 trTR = "Boşta"
 
 ["LV.BC.Moving"]
-status = "normal"
 raw = "On the way"
+status = "normal"
 enUS = "On the way"
 zhCN = "正在前往"
 zhTW = "途中"
@@ -202,8 +202,8 @@ viVN = "Đang trên đường"
 trTR = "Yolda"
 
 ["LV.BC.MovingTo"]
-status = "normal"
 raw = "On the way: {0}"
+status = "normal"
 enUS = "On the way: {0}"
 zhCN = "前往：{0}"
 zhTW = "前往途中：{0}"
@@ -219,8 +219,8 @@ viVN = "Đang trên đường: {0}"
 trTR = "Yolda: {0}"
 
 ["LV.BC.Using"]
-status = "normal"
 raw = "Using the building"
+status = "normal"
 enUS = "Using the building"
 zhCN = "使用该建筑"
 zhTW = "使用中的建築"
@@ -236,8 +236,8 @@ viVN = "Đang sử dụng công trình"
 trTR = "Binayı kullanma"
 
 ["LV.BC.Waiting"]
-status = "normal"
 raw = "Waiting for the current action to finish"
+status = "normal"
 enUS = "Waiting for the current action to finish"
 zhCN = "正在等待当前操作完成"
 zhTW = "正在等待目前的動作完成"
@@ -253,8 +253,8 @@ viVN = "Đang chờ hành động hiện tại hoàn tất"
 trTR = "Mevcut eylemin tamamlanması bekleniyor"
 
 ["LV.BC.Held"]
-status = "normal"
 raw = "Staying put"
+status = "normal"
 enUS = "Staying put"
 zhCN = "原地不动"
 zhTW = "原地不動"
@@ -285,8 +285,8 @@ koKR = "그 위치에 도달할 수 없습니다"
 csCZ = "Na toto místo nelze dosáhnout"
 
 ["LV.BC.AssignDistrict"]
-status = "normal"
 raw = "Assign district"
+status = "normal"
 enUS = "Assign district"
 zhCN = "分配区划"
 zhTW = "指派區域"
@@ -302,8 +302,8 @@ viVN = "Chỉ định khu vực quản lý thuộc địa"
 trTR = "Bölge ata"
 
 ["LV.BC.AssignWorkplace"]
-status = "normal"
 raw = "Assign workplace"
+status = "normal"
 enUS = "Assign workplace"
 zhCN = "分配工作场所"
 zhTW = "指派工作場所"
@@ -335,8 +335,8 @@ csCZ = "Přiřadit bydlení"
 trTR = "Konut ata"
 
 ["LV.BC.UnassignHousing"]
-status = "normal"
 raw = "Unassign housing"
+status = "normal"
 enUS = "Unassign housing"
 zhCN = "取消分配住房"
 zhTW = "取消指派住房"
@@ -352,8 +352,8 @@ viVN = "Bỏ chỉ định nhà ở"
 trTR = "Konutu atamayı kaldır"
 
 ["LV.BC.UnassignWorkplace"]
-status = "normal"
 raw = "Unassign workplace"
+status = "normal"
 enUS = "Unassign workplace"
 zhCN = "取消分配工作场所"
 zhTW = "取消指派工作場所"
@@ -369,8 +369,8 @@ viVN = "Bỏ phân công nơi làm việc"
 trTR = "İş yerinden atamayı kaldır"
 
 ["LV.BC.PickDistrict"]
-status = "normal"
 raw = "Pick a district center"
+status = "normal"
 enUS = "Pick a district center"
 zhCN = "选择一个区中心"
 zhTW = "選擇一個區域中心"
@@ -386,8 +386,8 @@ viVN = "Chọn trung tâm khu dân cư"
 trTR = "Bir bölge merkezi seç"
 
 ["LV.BC.PickWorkplace"]
-status = "normal"
 raw = "Pick a workplace"
+status = "normal"
 enUS = "Pick a workplace"
 zhCN = "选择工作场所"
 zhTW = "選擇工作場所"
@@ -482,8 +482,8 @@ csCZ = "Toto pracoviště potřebuje jiného pracovníka"
 viVN = "Nơi làm việc đó cần một công nhân khác"
 
 ["LV.BC.Teleport"]
-status = "normal"
 raw = "Teleport (Cheat)"
+status = "normal"
 enUS = "Teleport (Cheat)"
 zhCN = "传送（作弊）"
 zhTW = "傳送（作弊）"

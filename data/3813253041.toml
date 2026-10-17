@@ -2,8 +2,8 @@
 name = "Burrow Circuit"
 
 ["Barbara.BurrowCircuit.DisplayName"]
-status = "normal"
 raw = "Burrow Circuit"
+status = "normal"
 enUS = "Burrow Circuit"
 zhCN = "地洞回路"
 zhTW = "地穴電路"
@@ -19,8 +19,8 @@ viVN = "Mạch Đào Hang"
 trTR = "Yuva Devresi"
 
 ["Barbara.BurrowCircuit.Description"]
-status = "normal"
 raw = "A compact ground-level wooden circuit for a gentle little ride."
+status = "normal"
 enUS = "A compact wooden track at ground level for a gentle little ride."
 zhCN = "一条紧凑的地面木制环形赛道，适合悠闲地骑行。"
 zhTW = "一條緊湊、貼地的木製賽道，適合輕鬆繞行。"
@@ -36,8 +36,8 @@ viVN = "Một đường đua gỗ nhỏ gọn trên mặt đất, cho một chuy
 trTR = "Keyifli, kısa bir gezinti için tasarlanmış, zemin seviyesinde kompakt bir ahşap pist."
 
 ["Barbara.BurrowCircuit.Flavor"]
-status = "normal"
 raw = "Two seats - one loop - no support beam."
+status = "normal"
 enUS = "Two seats - one loop - no support beam."
 zhCN = "两个座位——一个环路——无需支撑梁。"
 zhTW = "兩個座位——一個迴圈——沒有支撐樑。"
@@ -53,8 +53,8 @@ viVN = "Hai chỗ ngồi - một vòng lặp - không cần dầm đỡ."
 trTR = "İki koltuk - tek döngü - destek kirişi yok."
 
 ["Barbara.BurrowCircuit.Need.Joy.DisplayName"]
-status = "normal"
 raw = "Little outing"
+status = "normal"
 enUS = "Little outing"
 zhCN = "小小出游"
 zhTW = "小小出遊"
@@ -70,8 +70,8 @@ viVN = "Chuyến dạo chơi ngắn"
 trTR = "Küçük bir gezinti"
 
 ["Barbara.BurrowCircuitTicketBooth.DisplayName"]
-status = "normal"
 raw = "Burrow Circuit Ticket Booth"
+status = "normal"
 enUS = "Burrow Circuit Ticket Booth"
 zhCN = "地穴赛道售票亭"
 zhTW = "地洞賽車場售票亭"
@@ -87,8 +87,8 @@ viVN = "Quầy vé Đường đua Hang Động"
 trTR = "Burrow Circuit Bilet Gişesi"
 
 ["Barbara.BurrowCircuitTicketBooth.Description"]
-status = "normal"
 raw = "Structural prototype with a front counter and a side service entrance."
+status = "normal"
 enUS = "Structural prototype with a front counter and a side service entrance."
 zhCN = "带有前台柜台和侧面服务入口的结构原型。"
 zhTW = "具有前方櫃檯和側邊服務入口的結構原型。"
@@ -104,8 +104,8 @@ viVN = "Mẫu cấu trúc với quầy phía trước và lối vào phục vụ
 trTR = "Ön gişesi ve yandan servis girişi bulunan yapısal prototip."
 
 ["Barbara.BurrowCircuitTicketBooth.Flavor"]
-status = "normal"
 raw = "A counter low enough to keep the ticket clerk in sight."
+status = "normal"
 enUS = "A counter low enough to keep the ticket clerk in sight."
 zhCN = "柜台足够低，能让售票员保持在视线范围内。"
 zhTW = "櫃檯夠低，才能看得到售票員。"
@@ -121,8 +121,8 @@ viVN = "Một quầy thấp vừa đủ để vẫn nhìn thấy nhân viên bá
 trTR = "Bilet gişecisini gözden kaybetmeyecek kadar alçak bir banko."
 
 ["Good.BurrowCircuitTicket.DisplayName"]
-status = "normal"
 raw = "Burrow Circuit Ticket"
+status = "normal"
 enUS = "Burrow Circuit Ticket"
 zhCN = "地穴赛道门票"
 zhTW = "地洞賽道門票"
@@ -138,8 +138,8 @@ viVN = "Vé Đường đua Hang Hốc"
 trTR = "Tünel Pisti Bileti"
 
 ["Good.BurrowCircuitTicket.PluralDisplayName"]
-status = "normal"
 raw = "Burrow Circuit Tickets"
+status = "normal"
 enUS = "Burrow Circuit Tickets"
 zhCN = "地洞环线门票"
 zhTW = "穴居賽道門票"
@@ -155,8 +155,8 @@ viVN = "Vé Burrow Circuit"
 trTR = "Yuva Pisti Biletleri"
 
 ["BurrowCircuitTicketRecipe.Folktails.Name"]
-status = "normal"
 raw = "Burrow Circuit paper tickets"
+status = "normal"
 enUS = "Burrow Circuit paper tickets"
 zhCN = "地穴回路纸质票据"
 zhTW = "地穴迴路紙券"
@@ -172,8 +172,8 @@ viVN = "Vé giấy Burrow Circuit"
 trTR = "Burrow Circuit kâğıt biletleri"
 
 ["BurrowCircuitTicketRecipe.IronTeeth.Name"]
-status = "normal"
 raw = "Burrow Circuit wooden ticket tokens"
+status = "normal"
 enUS = "Burrow Circuit wooden ticket tokens"
 zhCN = "地洞回路木制票券\ttoken"
 zhTW = "地底迴路木製票券代幣"

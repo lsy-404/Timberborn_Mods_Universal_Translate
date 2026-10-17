@@ -2,8 +2,8 @@
 name = "Air Logistics Center"
 
 ["Building.AirLogisticsHub.DisplayName"]
-status = "normal"
 raw = "Air Logistics Center"
+status = "normal"
 enUS = "Air Logistics Center"
 zhCN = "空运中心"
 zhTW = "空運物流中心"
@@ -19,8 +19,8 @@ viVN = "Trung tâm Hậu cần Hàng không"
 trTR = "Hava Lojistik Merkezi"
 
 ["Building.AirLogisticsHub.Description"]
-status = "normal"
 raw = "Stores up to 1200 of every boxed good. A beaver helicopter rests on the roof helipad."
+status = "normal"
 enUS = "Stores up to 1200 of each boxed good. A beaver helicopter rests on the rooftop helipad."
 zhCN = "每种装箱货物最多可储存 1200 件。屋顶停机坪可供海狸直升机停靠。"
 zhTW = "每種裝箱貨物最多可儲存 1200 個。屋頂停機坪可供海狸直升機停放。"
@@ -36,8 +36,8 @@ viVN = "Lưu trữ tối đa 1200 đơn vị mỗi loại hàng đóng hộp. M�
 trTR = "Kutulanmış her tür üründen en fazla 1200 depolar. Çatısındaki helikopter pistine bir kunduz helikopteri iner."
 
 ["Building.AirLogisticsHub.FlavorDescription"]
-status = "normal"
 raw = "The rotor is carved from a single plank and smells faintly of moss. Nobody has seen it fly yet, but the beavers keep polishing it."
+status = "normal"
 enUS = "The rotor is carved from a single plank and smells faintly of moss. Nobody has seen it fly yet, but the beavers keep polishing it."
 zhCN = "转子由一整块木板雕刻而成，隐约散发着苔藓的气味。还没人见过它飞起来，不过海狸们一直在给它擦亮。"
 zhTW = "這個轉子是用一整塊木板雕成的，隱約散發著苔蘚的氣味。還沒有人看過它飛起來，但海狸們仍不斷把它擦亮。"
@@ -53,8 +53,8 @@ viVN = "Cánh quạt được đẽo từ một tấm ván duy nhất và thoang
 trTR = "Rotor tek bir kalas oyularak yapılmış ve hafifçe yosun kokuyor. Henüz uçtuğunu gören olmadı ama kunduzlar onu cilalamaya devam ediyor."
 
 ["AirLogistics.Panel.Destinations"]
-status = "normal"
 raw = "Destinations (green = serve, click a name to view)"
+status = "normal"
 enUS = "Destinations (green = served; click a name to view)"
 zhCN = "目的地（绿色 = 服务中，点击名称查看）"
 zhTW = "目的地（綠色＝服務中，點擊名稱以查看）"
@@ -70,8 +70,8 @@ viVN = "Điểm đến (màu xanh lá = đang phục vụ, nhấp vào tên đ�
 trTR = "Varış noktaları (yeşil = hizmet veriyor, görüntülemek için bir ada tıklayın)"
 
 ["AirLogistics.Panel.Goods"]
-status = "normal"
 raw = "Goods accepted here (green = accept)"
+status = "normal"
 enUS = "Goods accepted here (green = accepted)"
 zhCN = "此处接收的货物（绿色 = 接收）"
 zhTW = "此處接收的貨物（綠色 = 接收）"
@@ -117,8 +117,8 @@ viVN = "Không có"
 trTR = "Yok"
 
 ["AirLogistics.Panel.Filter"]
-status = "normal"
 raw = "filter"
+status = "normal"
 enUS = "filter"
 zhCN = "筛选"
 zhTW = "篩選器"
@@ -163,8 +163,8 @@ viVN = "! Phi hành đoàn {0}/{1} - sẽ không bay"
 trTR = "! Mürettebat {0}/{1} - uçamaz"
 
 ["AirLogistics.Panel.NoFuel"]
-status = "normal"
 raw = "! No {0} - tick {0} in the goods list + tick a tank holding it"
+status = "normal"
 enUS = "! No {0} — check {0} in the goods list and check a tank holding it"
 zhCN = "! 没有{0}——在货物列表中勾选{0}，并勾选一个装有它的储罐"
 zhTW = "！沒有 {0}－請在貨物清單中勾選 {0}，並勾選一個存有該物品的儲槽"
@@ -212,8 +212,8 @@ viVN = "! Hết giờ làm việc - ngoài giờ làm việc"
 trTR = "! Görev dışı - çalışma saatleri dışında"
 
 ["AirLogistics.Panel.Status"]
-status = "normal"
 raw = "Crew {0}/{1} - Fuel {2} - selected {3}"
+status = "normal"
 enUS = "Crew {0}/{1} - Fuel {2} - selected {3}"
 zhCN = "机组人员 {0}/{1} - 燃料 {2} - 已选 {3}"
 zhTW = "機組人員 {0}/{1} - 燃料 {2} - 已選取 {3}"
@@ -229,8 +229,8 @@ viVN = "Phi hành đoàn {0}/{1} - Nhiên liệu {2} - đã chọn {3}"
 trTR = "Mürettebat {0}/{1} - Yakıt {2} - seçilen {3}"
 
 ["AirLogistics.Panel.OtherGroup"]
-status = "normal"
 raw = "Other"
+status = "normal"
 enUS = "Other"
 zhCN = "其他"
 zhTW = "其他"
@@ -246,8 +246,8 @@ viVN = "Khác"
 trTR = "Diğer"
 
 ["AirLogistics.Panel.Building"]
-status = "normal"
 raw = "Building"
+status = "normal"
 enUS = "Building"
 zhCN = "建筑"
 zhTW = "建築物"

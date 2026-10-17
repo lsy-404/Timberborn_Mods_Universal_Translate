@@ -2,8 +2,8 @@
 name = "Map Transformer"
 
 ["LV.MTr.TransformMap"]
-status = "normal"
 raw = "Transform Map"
+status = "normal"
 enUS = "Transform Map"
 zhCN = "变换地图"
 zhTW = "轉換地圖"
@@ -19,8 +19,8 @@ viVN = "Biến đổi bản đồ"
 trTR = "Haritayı Dönüştür"
 
 ["LV.MTr.Mode"]
-status = "normal"
 raw = "Operation"
+status = "normal"
 enUS = "Operation"
 zhCN = "操作"
 zhTW = "運作方式"
@@ -36,8 +36,8 @@ viVN = "Chế độ hoạt động"
 trTR = "İşlem"
 
 ["LV.MTr.ModeResizeXy"]
-status = "normal"
 raw = "Resize Map Size"
+status = "normal"
 enUS = "Resize Map Size"
 zhCN = "调整地图尺寸"
 zhTW = "調整地圖大小"
@@ -69,8 +69,8 @@ viVN = "Thay đổi chiều cao bản đồ"
 trTR = "Harita Yüksekliğini Yeniden Boyutlandır"
 
 ["LV.MTr.ModeAddHeight"]
-status = "normal"
 raw = "Add Bottom Dirt"
+status = "normal"
 enUS = "Add Bottom Dirt"
 zhCN = "添加底部泥土"
 zhTW = "新增底部土壤"
@@ -115,8 +115,8 @@ koKR = "뒤집기"
 csCZ = "Překlopit"
 
 ["LV.MTr.SizeX"]
-status = "normal"
 raw = "Width (X)"
+status = "normal"
 enUS = "Width (X)"
 zhCN = "宽度（X）"
 zhTW = "寬度（X）"
@@ -132,8 +132,8 @@ viVN = "Chiều rộng (X)"
 trTR = "Genişlik (X)"
 
 ["LV.MTr.SizeY"]
-status = "normal"
 raw = "Breadth (Y)"
+status = "normal"
 enUS = "Breadth (Y)"
 zhCN = "宽度（Y）"
 zhTW = "寬度（Y）"
@@ -149,8 +149,8 @@ viVN = "Chiều rộng (Y)"
 trTR = "Genişlik (Y)"
 
 ["LV.MTr.SizeZ"]
-status = "normal"
 raw = "Terrain Height"
+status = "normal"
 enUS = "Terrain Height"
 zhCN = "地形高度"
 zhTW = "地形高度"
@@ -166,8 +166,8 @@ viVN = "Độ cao địa hình"
 trTR = "Arazi Yüksekliği"
 
 ["LV.MTr.SizeTotal"]
-status = "normal"
 raw = "Total Height"
+status = "normal"
 enUS = "Total Height"
 zhCN = "总高度"
 zhTW = "總高度"
@@ -198,8 +198,8 @@ viVN = "Trục xoay X"
 trTR = "X Ekseninde Döndürme Noktası"
 
 ["LV.MTr.PivotY"]
-status = "normal"
 raw = "Pivot Y"
+status = "normal"
 enUS = "Pivot Y"
 zhCN = "枢轴 Y 坐标"
 zhTW = "樞軸 Y 值"
@@ -215,8 +215,8 @@ viVN = "Trục xoay Y"
 trTR = "Y Ekseni Dönme Noktası"
 
 ["LV.MTr.PivotHint"]
-status = "normal"
 raw = "0, 0 keeps the min corner. Current width and height keep the max corner."
+status = "normal"
 enUS = "0, 0 keeps the minimum corner. Current width and height keep the maximum corner."
 zhCN = "0, 0 保持最小角不变。当前宽度和高度保持最大角不变。"
 zhTW = "0, 0 保持最小角點。目前的寬度和高度保持最大角點。"
@@ -232,8 +232,8 @@ viVN = "0, 0 giữ nguyên góc tối thiểu. Chiều rộng và chiều cao hi
 trTR = "0, 0 minimum köşeyi sabit tutar. Geçerli genişlik ve yükseklik maksimum köşeyi sabit tutar."
 
 ["LV.MTr.Fill"]
-status = "normal"
 raw = "New cells"
+status = "normal"
 enUS = "New cells"
 zhCN = "新单元格"
 zhTW = "新儲存格"
@@ -295,8 +295,8 @@ viVN = "Phản chiếu"
 trTR = "Yansıtma"
 
 ["LV.MTr.AddLayers"]
-status = "normal"
 raw = "Dirt layers to insert at Z = 0"
+status = "normal"
 enUS = "Dirt layers to insert at Z = 0"
 zhCN = "要插入到 Z = 0 的泥土层"
 zhTW = "要在 Z = 0 插入的泥土層"
@@ -343,8 +343,8 @@ csCZ = "Rotace"
 trTR = "Döndürme"
 
 ["LV.MTr.Rotate90"]
-status = "normal"
 raw = "90° clockwise"
+status = "normal"
 enUS = "90° clockwise"
 zhCN = "顺时针旋转 90°"
 zhTW = "順時針旋轉 90°"
@@ -360,8 +360,8 @@ viVN = "90° theo chiều kim đồng hồ"
 trTR = "90° saat yönünde"
 
 ["LV.MTr.Rotate180"]
-status = "normal"
 raw = "180°"
+status = "normal"
 enUS = "180°"
 zhCN = "180°"
 zhTW = "180°"
@@ -377,8 +377,8 @@ viVN = "180°"
 trTR = "180°"
 
 ["LV.MTr.Rotate270"]
-status = "normal"
 raw = "270° clockwise"
+status = "normal"
 enUS = "270° clockwise"
 zhCN = "顺时针旋转 270°"
 zhTW = "順時針旋轉 270°"
@@ -410,8 +410,8 @@ viVN = "Trục"
 trTR = "Eksen"
 
 ["LV.MTr.FlipX"]
-status = "normal"
 raw = "Flip X"
+status = "normal"
 enUS = "Flip X"
 zhCN = "水平翻转"
 zhTW = "水平翻轉"
@@ -474,8 +474,8 @@ viVN = "Mục tiêu"
 trTR = "Hedef"
 
 ["LV.MTr.ScopeWhole"]
-status = "normal"
 raw = "Whole map"
+status = "normal"
 enUS = "Whole map"
 zhCN = "整张地图"
 zhTW = "整張地圖"
@@ -491,8 +491,8 @@ viVN = "Toàn bộ bản đồ"
 trTR = "Tüm harita"
 
 ["LV.MTr.ScopeArea"]
-status = "normal"
 raw = "Square area"
+status = "normal"
 enUS = "Square area"
 zhCN = "正方形区域"
 zhTW = "正方形區域"
@@ -508,8 +508,8 @@ viVN = "Khu vực hình vuông"
 trTR = "Kare alan"
 
 ["LV.MTr.AreaX"]
-status = "normal"
 raw = "Area X"
+status = "normal"
 enUS = "Area X"
 zhCN = "区域 X"
 zhTW = "區域 X"
@@ -525,8 +525,8 @@ viVN = "Khu vực X"
 trTR = "X Alanı"
 
 ["LV.MTr.AreaY"]
-status = "normal"
 raw = "Area Y"
+status = "normal"
 enUS = "Area Y"
 zhCN = "Y 区域"
 zhTW = "Y 區域"
@@ -542,8 +542,8 @@ viVN = "Khu vực Y"
 trTR = "Y Alanı"
 
 ["LV.MTr.AreaSize"]
-status = "normal"
 raw = "Area size"
+status = "normal"
 enUS = "Area size"
 zhCN = "区域大小"
 zhTW = "區域大小"
@@ -559,8 +559,8 @@ viVN = "Kích thước khu vực"
 trTR = "Alan boyutu"
 
 ["LV.MTr.AreaExceedsMap"]
-status = "normal"
 raw = "That square is outside the map. Change X, Y, or Size so the area stays fully on the map."
+status = "normal"
 enUS = "That square is outside the map. Change X, Y, or Size so the area stays fully on the map."
 zhCN = "该方块超出地图范围。请调整 X、Y 或尺寸，使该区域完全位于地图内。"
 zhTW = "該方格位於地圖之外。請調整 X、Y 或大小，讓整個區域都位於地圖內。"
@@ -576,8 +576,8 @@ viVN = "Ô vuông đó nằm ngoài bản đồ. Hãy thay đổi X, Y hoặc K�
 trTR = "Bu kare haritanın dışında. Alanın tamamen harita içinde kalması için X, Y veya Boyut değerini değiştir."
 
 ["LV.MTr.Apply"]
-status = "normal"
 raw = "Transform"
+status = "normal"
 enUS = "Transform"
 zhCN = "变换"
 zhTW = "轉換"
@@ -593,8 +593,8 @@ viVN = "Biến đổi"
 trTR = "Dönüştür"
 
 ["LV.MTr.SaveWarning"]
-status = "normal"
 raw = "<RedHighlight>Pause and save first. This writes a new save and this session will likely crash if you keep playing it.</RedHighlight>"
+status = "normal"
 enUS = "<RedHighlight>Pause and save first. This writes a new save, and this session will likely crash if you keep playing.</RedHighlight>"
 zhCN = "<RedHighlight>请先暂停并保存。这会创建一个新的存档；如果继续使用当前会话，游戏很可能会崩溃。</RedHighlight>"
 zhTW = "<RedHighlight>請先暫停並儲存。這會建立一個新的存檔；如果繼續遊玩，這個工作階段很可能會崩潰。</RedHighlight>"
@@ -610,8 +610,8 @@ viVN = "<RedHighlight>Trước tiên hãy tạm dừng và lưu trò chơi. Thao
 trTR = "<RedHighlight>Önce oyunu duraklatıp kaydedin. Bu işlem yeni bir kayıt oluşturur; oynamaya devam ederseniz bu oturum büyük olasılıkla çökecektir.</RedHighlight>"
 
 ["LV.MTr.GameDisclaimer"]
-status = "normal"
 raw = "<RedHighlight>Beavers and buildings are moved. Some operations besides basic resize may make objects behave strangely and there is no guarantee.</RedHighlight>"
+status = "normal"
 enUS = "<RedHighlight>Beavers and buildings are moved. Some operations beyond basic resizing may make objects behave strangely, and there is no guarantee.</RedHighlight>"
 zhCN = "<RedHighlight>海狸和建筑物会被移动。除基本调整大小外，某些操作可能会导致对象行为异常，且不作任何保证。</RedHighlight>"
 zhTW = "<RedHighlight>海狸和建築物都會被移動。除了基本調整大小以外，某些操作可能會導致物件行為異常，且不保證一切正常。</RedHighlight>"
@@ -627,8 +627,8 @@ viVN = "<RedHighlight>Hải ly và công trình sẽ được di chuyển. Một
 trTR = "<RedHighlight>Kunduzlar ve binalar taşınır. Temel boyutlandırma dışında bazı işlemler nesnelerin tuhaf davranmasına yol açabilir ve hiçbir garanti verilmez.</RedHighlight>"
 
 ["LV.MTr.OfferToLoad"]
-status = "normal"
 raw = "Transformed map saved. Load it now? Continuing this session will likely crash anyway."
+status = "normal"
 enUS = "Transformed map saved. Load it now? Continuing this session will likely crash anyway."
 zhCN = "转换后的地图已保存。现在加载吗？继续此会话很可能还是会导致游戏崩溃。"
 zhTW = "轉換後的地圖已儲存。現在載入嗎？繼續此工作階段很可能還是會導致遊戲崩潰。"
@@ -644,8 +644,8 @@ viVN = "Bản đồ đã chuyển đổi đã được lưu. Tải ngay? Dù sao
 trTR = "Dönüştürülen harita kaydedildi. Şimdi yüklensin mi? Bu oturuma devam etmek büyük olasılıkla yine de çökmeye yol açacak."
 
 ["LV.MTr.InvalidObj"]
-status = "normal"
 raw = "Some objects would be outside the map. Remove them first, then transform again."
+status = "normal"
 enUS = "Some objects would be outside the map. Remove them first, then transform again."
 zhCN = "部分物体将会超出地图范围。请先移除它们，然后再进行变换。"
 zhTW = "有些物件會超出地圖範圍。請先移除它們，再重新轉換。"
@@ -677,8 +677,8 @@ csCZ = "Zobrazit neplatný objekt"
 viVN = "Xem đối tượng không hợp lệ"
 
 ["LV.MTr.AutoRemove"]
-status = "normal"
 raw = "Remove them all"
+status = "normal"
 enUS = "Remove them all"
 zhCN = "全部移除它们"
 zhTW = "全部移除"

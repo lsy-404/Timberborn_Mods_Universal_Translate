@@ -1,0 +1,314 @@
+[_meta]
+name = "Advanced Transport System"
+
+["Mod.AdvancedPumps.Name"]
+new = "Advanced Transport System"
+status = "normal"
+
+["ToolGroups.AdvancedPumps"]
+new = "Advanced Transport"
+status = "normal"
+
+["Building.AdvancedPumps.PipeSegment.DisplayName"]
+new = "Conduit"
+status = "normal"
+
+["Building.AdvancedPumps.PipeSegment.Description"]
+new = "A 1x1 water pipe. Auto-connects to neighbouring conduits, tanks and pumps and switches shape like a beaver tube."
+status = "normal"
+
+["Building.AdvancedPumps.PipeSegment.FlavorDescription"]
+new = "Water should not need to walk."
+status = "normal"
+
+["Building.AdvancedPumps.Outlet.DisplayName"]
+new = "Outlet"
+status = "normal"
+
+["Building.AdvancedPumps.Outlet.Description"]
+new = "Legacy outlet retained for existing saves. New networks release surplus water automatically at open pipe ends."
+status = "normal"
+
+["Building.AdvancedPumps.Outlet.FlavorDescription"]
+new = "Where the water finally gets to go."
+status = "normal"
+
+["Building.AdvancedPumps.PipeSegmentGlass.DisplayName"]
+new = "Glass Conduit"
+status = "normal"
+
+["Building.AdvancedPumps.PipeSegmentGlass.Description"]
+new = "Same as the Conduit, but with a transparent shell so the water shows while it flows (shows murky if a pump is drawing contaminated water)."
+status = "normal"
+
+["Building.AdvancedPumps.PipeSegmentGlass.FlavorDescription"]
+new = "Nothing to hide."
+status = "normal"
+
+["Building.AdvancedPumps.ItemPipe.DisplayName"]
+new = "Item Conduit"
+status = "normal"
+
+["Building.AdvancedPumps.ItemPipe.Description"]
+new = "A 1x1 cargo pipe. Auto-connects to neighbouring item conduits and stations and carries packed goods between them."
+status = "normal"
+
+["Building.AdvancedPumps.ItemPipe.FlavorDescription"]
+new = "Cargo, not currents."
+status = "normal"
+
+["Building.AdvancedPumps.ItemPipeGlass.DisplayName"]
+new = "Glass Item Conduit"
+status = "normal"
+
+["Building.AdvancedPumps.ItemPipeGlass.Description"]
+new = "Same as the Item Conduit, but with a transparent shell so the cargo shows while it moves."
+status = "normal"
+
+["Building.AdvancedPumps.ItemPipeGlass.FlavorDescription"]
+new = "Watch it travel."
+status = "normal"
+
+["Building.AdvancedPumps.ItemStation.DisplayName"]
+new = "Item Loading Station"
+status = "normal"
+
+["Building.AdvancedPumps.ItemStation.Description"]
+new = "Pick one packed good. Haulers fill this station and the item network ships the good to connected Delivery Stations; it never lets haulers carry it back out. If every delivery is full it stockpiles here until room frees. Stands against a warehouse or workshop output to pull straight from it, no hauler trip."
+status = "normal"
+
+["Building.AdvancedPumps.ItemStation.FlavorDescription"]
+new = "Load it and forget it."
+status = "normal"
+
+["Building.AdvancedPumps.ItemDepot.DisplayName"]
+new = "Item Delivery Station"
+status = "normal"
+
+["Building.AdvancedPumps.ItemDepot.Description"]
+new = "Pick one packed good. Only the item network fills this station - haulers never drop goods in, they only carry them onward. Stands against a warehouse to push straight into it when there is room."
+status = "normal"
+
+["Building.AdvancedPumps.ItemDepot.FlavorDescription"]
+new = "The other end of the pipe."
+status = "normal"
+
+["Building.AdvancedPumps.BeaverTube.DisplayName"]
+new = "Beaver Tube"
+status = "normal"
+
+["Building.AdvancedPumps.BeaverTube.Description"]
+new = "A walkable pneumatic tube on the same network beavers already travel through. Glass-walled so you can watch them pass."
+status = "normal"
+
+["Building.AdvancedPumps.BeaverTube.FlavorDescription"]
+new = "Zip on through."
+status = "normal"
+
+["Building.AdvancedPumps.Valve.DisplayName"]
+new = "Valve"
+status = "normal"
+
+["Building.AdvancedPumps.Valve.Description"]
+new = "Splits the water network here. Use the Open / Close button in its panel."
+status = "normal"
+
+["Building.AdvancedPumps.Valve.FlavorDescription"]
+new = "Shut it if you dare."
+status = "normal"
+
+["Building.AdvancedPumps.Valve.ClosedStatus"]
+new = "Valve closed - water cannot pass"
+status = "normal"
+
+["Building.AdvancedPumps.Valve.OpenAction"]
+new = "Open valve"
+status = "normal"
+
+["Building.AdvancedPumps.Valve.CloseAction"]
+new = "Close valve"
+status = "normal"
+
+["Building.AdvancedPumps.VerticalPipe.DisplayName"]
+new = "Vertical Water Riser"
+status = "normal"
+
+["Building.AdvancedPumps.VerticalPipe.Description"]
+new = "A stackable vertical water pipe. Stack them into a column to carry water up or down levels; connects to horizontal conduits at every level."
+status = "normal"
+
+["Building.AdvancedPumps.VerticalPipe.FlavorDescription"]
+new = "Water goes up now too."
+status = "normal"
+
+["Building.AdvancedPumps.VerticalPipeGlass.DisplayName"]
+new = "Glass Vertical Water Riser"
+status = "normal"
+
+["Building.AdvancedPumps.VerticalPipeGlass.Description"]
+new = "Same as the Vertical Water Riser, but with a transparent shell."
+status = "normal"
+
+["Building.AdvancedPumps.VerticalPipeGlass.FlavorDescription"]
+new = "See it climb."
+status = "normal"
+
+["Building.AdvancedPumps.VerticalItemPipe.DisplayName"]
+new = "Vertical Item Riser"
+status = "normal"
+
+["Building.AdvancedPumps.VerticalItemPipe.Description"]
+new = "A stackable vertical cargo pipe. Stack them to move goods up or down levels; connects to horizontal item conduits at every level."
+status = "normal"
+
+["Building.AdvancedPumps.VerticalItemPipe.FlavorDescription"]
+new = "Cargo goes up now too."
+status = "normal"
+
+["Building.AdvancedPumps.VerticalItemPipeGlass.DisplayName"]
+new = "Glass Vertical Item Riser"
+status = "normal"
+
+["Building.AdvancedPumps.VerticalItemPipeGlass.Description"]
+new = "Same as the Vertical Item Riser, but with a transparent shell."
+status = "normal"
+
+["Building.AdvancedPumps.VerticalItemPipeGlass.FlavorDescription"]
+new = "Watch the cargo climb."
+status = "normal"
+
+["Building.AdvancedPumps.VerticalBeaverTube.DisplayName"]
+new = "Vertical Beaver Tube"
+status = "normal"
+
+["Building.AdvancedPumps.VerticalBeaverTube.Description"]
+new = "A stackable vertical beaver tube. Stack them into a shaft beavers travel up and down. Glass-walled."
+status = "normal"
+
+["Building.AdvancedPumps.VerticalBeaverTube.FlavorDescription"]
+new = "Straight up."
+status = "normal"
+
+["Building.AdvancedPumps.WaterPump.DisplayName"]
+new = "Water Pump"
+status = "normal"
+
+["Building.AdvancedPumps.WaterPump.Description"]
+new = "Draws water through an automatically extending intake pipe and feeds connected water pipes. Set output from 0–10 in the building panel; power use scales with output from 0–450 hp. Surplus water leaves at open pipe ends after connected tanks are filled."
+status = "normal"
+
+["Building.AdvancedPumps.WaterPump.FlavorDescription"]
+new = "One pump to rule the pipes."
+status = "normal"
+
+["Building.AdvancedPumps.WaterPump.Strength"]
+new = "Pump output"
+status = "normal"
+
+["Building.AdvancedPumps.WaterTank.DisplayName"]
+new = "Water Tank"
+status = "normal"
+
+["Building.AdvancedPumps.WaterTank.Description"]
+new = "Storage at the receiving end of the water network. Only connected pumps fill it, through the pipes; beavers draw water out into their barrels. Pick \"Water\" in its panel."
+status = "normal"
+
+["Building.AdvancedPumps.WaterTank.FlavorDescription"]
+new = "Where the water waits."
+status = "normal"
+
+["Building.AdvancedPumps.WaterTankMedium.DisplayName"]
+new = "Medium Water Tank"
+status = "normal"
+
+["Building.AdvancedPumps.WaterTankMedium.Description"]
+new = "A taller water tank - more storage at the receiving end of the water network. Pick \"Water\" in its panel."
+status = "normal"
+
+["Building.AdvancedPumps.WaterTankMedium.FlavorDescription"]
+new = "More room for the reserve."
+status = "normal"
+
+["Building.AdvancedPumps.WaterTankLarge.DisplayName"]
+new = "Large Water Tank"
+status = "normal"
+
+["Building.AdvancedPumps.WaterTankLarge.Description"]
+new = "A 2x2 water tank - the biggest reserve for a powered pump to fill. Pick \"Water\" in its panel."
+status = "normal"
+
+["Building.AdvancedPumps.WaterTankLarge.FlavorDescription"]
+new = "The big reserve."
+status = "normal"
+
+["Building.AdvancedPumps.Elevator.DisplayName"]
+new = "Elevator shaft 1x1 (1 beaver)"
+status = "normal"
+
+["Building.AdvancedPumps.Elevator.Description"]
+new = "Independent shaft without path access. Build a landing of the same size on each floor. Nearby lifts stay separate. One beaver per trip. 80 hp."
+status = "normal"
+
+["Building.AdvancedPumps.Elevator.FlavorDescription"]
+new = "Strictly up and down."
+status = "normal"
+
+["Building.AdvancedPumps.ElevatorStop.DisplayName"]
+new = "Elevator landing 1x1 (1 beaver)"
+status = "normal"
+
+["Building.AdvancedPumps.ElevatorStop.Description"]
+new = "Landing for the 1x1 elevator. One fixed, rotatable path entrance. Beavers call the car and wait in assigned spaces."
+status = "normal"
+
+["Building.AdvancedPumps.ElevatorStop.FlavorDescription"]
+new = "Please wait behind the line."
+status = "normal"
+
+["Building.AdvancedPumps.Elevator2x2.DisplayName"]
+new = "Elevator shaft 2x2 (4 beavers)"
+status = "normal"
+
+["Building.AdvancedPumps.Elevator2x2.Description"]
+new = "Independent shaft for 4 beavers. Build a landing of the same size on each floor. Does not connect to nearby lifts. Requires 320 hp."
+status = "normal"
+
+["Building.AdvancedPumps.Elevator2x2.FlavorDescription"]
+new = "A larger car, the same dispatch logic."
+status = "normal"
+
+["Building.AdvancedPumps.Elevator2x2Stop.DisplayName"]
+new = "Elevator landing 2x2 (4 beavers)"
+status = "normal"
+
+["Building.AdvancedPumps.Elevator2x2Stop.Description"]
+new = "One fixed, rotatable path entrance. Beavers call the car and wait in assigned spaces."
+status = "normal"
+
+["Building.AdvancedPumps.Elevator2x2Stop.FlavorDescription"]
+new = "Board in order, please."
+status = "normal"
+
+["Building.AdvancedPumps.Elevator3x3.DisplayName"]
+new = "Elevator shaft 3x3 (9 beavers)"
+status = "normal"
+
+["Building.AdvancedPumps.Elevator3x3.Description"]
+new = "Independent shaft for 9 beavers. Build a landing of the same size on each floor. Does not connect to nearby lifts. Requires 720 hp."
+status = "normal"
+
+["Building.AdvancedPumps.Elevator3x3.FlavorDescription"]
+new = "A larger car, the same dispatch logic."
+status = "normal"
+
+["Building.AdvancedPumps.Elevator3x3Stop.DisplayName"]
+new = "Elevator landing 3x3 (9 beavers)"
+status = "normal"
+
+["Building.AdvancedPumps.Elevator3x3Stop.Description"]
+new = "One fixed, rotatable path entrance. Beavers call the car and wait in assigned spaces."
+status = "normal"
+
+["Building.AdvancedPumps.Elevator3x3Stop.FlavorDescription"]
+new = "Board in order, please."
+status = "normal"

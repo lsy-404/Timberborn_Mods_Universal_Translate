@@ -2,8 +2,8 @@
 name = "Unknown"
 
 ["Building.Anemometer.DisplayName"]
-status = "normal"
 raw = "Anemometer"
+status = "normal"
 enUS = "Anemometer"
 zhCN = "风速计"
 zhTW = "風速計"
@@ -19,8 +19,8 @@ viVN = "Phong vũ biểu"
 trTR = "Anemometre"
 
 ["Building.Anemometer.Description"]
-status = "normal"
 raw = "Measures wind strength and direction, sends an automation signal based on a configurable threshold."
+status = "normal"
 enUS = "Measures wind strength and direction, and sends an automation signal based on a configurable threshold."
 zhCN = "测量风力和风向，并根据可配置的阈值发送自动化信号。"
 zhTW = "測量風力和風向，並根據可調整的閾值發送自動化訊號。"
@@ -36,8 +36,8 @@ viVN = "Đo cường độ và hướng gió, gửi tín hiệu tự động hó
 trTR = "Rüzgârın şiddetini ve yönünü ölçer, ayarlanabilir bir eşiğe göre otomasyon sinyali gönderir."
 
 ["Anemometer.WindStrength"]
-status = "normal"
 raw = "Wind strength: {0}%"
+status = "normal"
 enUS = "Wind strength: {0}%"
 zhCN = "风力强度：{0}%"
 zhTW = "風力強度：{0}%"
@@ -53,8 +53,8 @@ viVN = "Cường độ gió: {0}%"
 trTR = "Rüzgâr şiddeti: {0}%"
 
 ["Anemometer.WindDirection"]
-status = "normal"
 raw = "Wind direction: {0}° ({1})"
+status = "normal"
 enUS = "Wind direction: {0}° ({1})"
 zhCN = "风向：{0}°（{1}）"
 zhTW = "風向：{0}°（{1}）"
@@ -83,8 +83,8 @@ koKR = "북쪽"
 viVN = "Bắc"
 
 ["Anemometer.Direction.NNE"]
-status = "normal"
 raw = "NNE"
+status = "normal"
 enUS = "NNE"
 zhCN = "东北偏北"
 zhTW = "北北東"
@@ -115,8 +115,8 @@ viVN = "ĐB"
 trTR = "KD"
 
 ["Anemometer.Direction.ENE"]
-status = "normal"
 raw = "ENE"
+status = "normal"
 enUS = "ENE"
 zhCN = "东北偏东"
 zhTW = "東北東"
@@ -147,8 +147,8 @@ viVN = "Đông"
 trTR = "Doğu"
 
 ["Anemometer.Direction.ESE"]
-status = "normal"
 raw = "ESE"
+status = "normal"
 enUS = "ESE"
 zhCN = "东南偏东"
 zhTW = "東南偏東"
@@ -241,8 +241,8 @@ viVN = "Tây Nam"
 trTR = "Güneybatı"
 
 ["Anemometer.Direction.WSW"]
-status = "normal"
 raw = "WSW"
+status = "normal"
 enUS = "WSW"
 zhCN = "西南偏西"
 zhTW = "西南偏西"
@@ -270,8 +270,8 @@ viVN = "Tây"
 trTR = "B batı"
 
 ["Anemometer.Direction.WNW"]
-status = "normal"
 raw = "WNW"
+status = "normal"
 enUS = "WNW"
 zhCN = "西北偏西"
 zhTW = "西北西"
@@ -302,8 +302,8 @@ viVN = "Tây Bắc"
 trTR = "KB"
 
 ["Anemometer.Direction.NNW"]
-status = "normal"
 raw = "NNW"
+status = "normal"
 enUS = "NNW"
 zhCN = "西北偏北"
 zhTW = "北北西"

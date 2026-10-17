@@ -2,8 +2,8 @@
 name = "Science Shop"
 
 ["LV.ScS.Building.DisplayName"]
-status = "normal"
 raw = "Science Shop"
+status = "normal"
 enUS = "Science Shop"
 zhCN = "科学商店"
 zhTW = "科學商店"
@@ -19,8 +19,8 @@ viVN = "Cửa hàng Khoa học"
 trTR = "Bilim Dükkânı"
 
 ["LV.ScS.Building.Description"]
-status = "normal"
 raw = "A workshop that produces special goods with Science."
+status = "normal"
 enUS = "A workshop that produces special goods using Science."
 zhCN = "一间消耗科学点数生产特殊商品的工坊。"
 zhTW = "使用科學生產特殊商品的工坊。"
@@ -36,8 +36,8 @@ viVN = "Một xưởng chế tạo hàng hóa đặc biệt bằng Khoa học."
 trTR = "Bilim kullanarak özel ürünler üreten bir atölye."
 
 ["LV.ScS.Building.FlavorDescription"]
-status = "normal"
 raw = "The ink-stained and the grease-stained finally shook paws."
+status = "normal"
 enUS = "The ink-stained and the grease-stained finally shook paws."
 zhCN = "沾满墨水的和沾满油污的终于握了握爪。"
 zhTW = "沾滿墨水的和沾滿油污的終於握了握爪。"
@@ -53,8 +53,8 @@ viVN = "Kẻ dính đầy mực và kẻ dính đầy dầu mỡ cuối cùng c�
 trTR = "Mürekkep lekeli olanla gres lekeli olan sonunda pati patiye tokalaştı."
 
 ["LV.ScS.CurrentProduction"]
-status = "normal"
 raw = "Current production"
+status = "normal"
 enUS = "Current production"
 zhCN = "当前产量"
 zhTW = "目前產量"
@@ -70,8 +70,8 @@ viVN = "Sản lượng hiện tại"
 trTR = "Mevcut üretim"
 
 ["LV.ScS.CurrentQueue"]
-status = "normal"
 raw = "Current queue"
+status = "normal"
 enUS = "Current queue"
 zhCN = "当前队列"
 zhTW = "目前佇列"
@@ -117,8 +117,8 @@ viVN = "Vô thời hạn"
 trTR = "Süresiz olarak"
 
 ["LV.ScS.Quantity"]
-status = "normal"
 raw = "Amount"
+status = "normal"
 enUS = "Amount"
 zhCN = "数量"
 zhTW = "數量"
@@ -134,8 +134,8 @@ viVN = "Số lượng"
 trTR = "Miktar"
 
 ["LV.ScS.ClearQueue"]
-status = "normal"
 raw = "Clear"
+status = "normal"
 enUS = "Clear"
 zhCN = "清空"
 zhTW = "清除"
@@ -151,8 +151,8 @@ viVN = "Xóa sạch"
 trTR = "Temizle"
 
 ["LV.ScS.StatusNotEnoughScience"]
-status = "normal"
 raw = "Not enough Science Points to produce."
+status = "normal"
 enUS = "Not enough Science Points to produce."
 zhCN = "科学点数不足，无法生产。"
 zhTW = "科學點數不足，無法生產。"
@@ -168,8 +168,8 @@ viVN = "Không đủ Điểm Khoa học để sản xuất."
 trTR = "Üretim için yeterli Bilim Puanı yok."
 
 ["LV.ScS.StatusNotEnoughScience.Short"]
-status = "normal"
 raw = "Needs Science Points"
+status = "normal"
 enUS = "Requires Science Points"
 zhCN = "需要科学点数"
 zhTW = "需要科學點數"
@@ -185,8 +185,8 @@ viVN = "Cần Điểm Khoa học"
 trTR = "Bilim Puanı Gerekiyor"
 
 [Name_ScienceShopQueueFragment]
-status = "normal"
 raw = "Science Shop"
+status = "normal"
 enUS = "Science Shop"
 zhCN = "科学商店"
 zhTW = "科學商店"

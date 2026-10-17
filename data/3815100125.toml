@@ -2,8 +2,8 @@
 name = "Deepfurs"
 
 ["Faction.Deepfurs.DisplayName"]
-status = "normal"
 raw = "Deepfurs"
+status = "normal"
 enUS = "Deepfurs"
 zhCN = "深毛族"
 zhTW = "深毛族"
@@ -19,8 +19,8 @@ viVN = "Deepfurs"
 trTR = "Derinkürkler"
 
 ["Faction.Deepfurs.Description"]
-status = "normal"
 raw = "Sleek-furred divers who thrive beneath the surface. Deepfurs are happiest soaked to the bone — dry land dampens their spirits and slows their work — while their loyal bots refuse to touch water at all."
+status = "normal"
 enUS = "Sleek-furred divers who thrive beneath the surface. Deepfurs are happiest soaked to the bone—dry land dampens their spirits and slows their work—while their loyal bots refuse to touch water at all."
 zhCN = "皮毛光滑、擅长潜水，在水下如鱼得水。深毛族全身湿透时最快乐——干燥的陆地会令他们情绪低落、工作变慢；而他们忠诚的机器人则完全不碰水。"
 zhTW = "毛皮光滑、擅長潛水，能在水下自在生活。深潛族全身濕透時最開心——乾燥的陸地會讓他們情緒低落、工作變慢——而他們忠心的機器人卻完全不碰水。"
@@ -36,8 +36,8 @@ viVN = "Những thợ lặn có bộ lông mượt mà, phát triển mạnh dư
 trTR = "Yüzeyin altında gelişen, parlak kürklü dalgıçlar. Derinkürklüler iliklerine kadar ıslanmışken en mutlu hâllerindedir — kuru toprak morallerini bozar ve işlerini yavaşlatır — sadık botları ise suya asla dokunmaz."
 
 ["Building.Deepfurs.TidalTurbine.DisplayName"]
-status = "normal"
 raw = "Tidal Turbine"
+status = "normal"
 enUS = "Tidal Turbine"
 zhCN = "潮汐涡轮机"
 zhTW = "潮汐渦輪機"
@@ -53,8 +53,8 @@ viVN = "Tuabin thủy triều"
 trTR = "Gelgit Türbini"
 
 ["Building.Deepfurs.TidalTurbine.Description"]
-status = "normal"
 raw = "Generates power from flowing water. Output rises with the speed of the current and with how deeply the turbine is submerged, reaching full power once fully underwater. Can be built dry — it simply waits for the water to arrive."
+status = "normal"
 enUS = "Generates power from flowing water. Output increases with the speed of the current and how deeply the turbine is submerged, reaching full power once it is fully underwater. Can be built dry—it simply waits for the water to arrive."
 zhCN = "利用流动的水产生动力。动力输出会随水流速度和涡轮机的浸没深度增加，并在完全浸没时达到满功率。可以在干燥处建造——它只需等待水流到来。"
 zhTW = "利用流動的水產生動力。輸出會隨著水流速度及渦輪機的浸水深度增加；完全淹沒時即可達到全功率。可以在乾燥處建造——它只會等待水流到來。"
@@ -70,8 +70,8 @@ viVN = "Tạo ra năng lượng từ dòng nước chảy. Công suất tăng th
 trTR = "Akan sudan güç üretir. Çıkış gücü, akıntının hızı ve türbinin ne kadar derine batırıldığı arttıkça yükselir; tamamen su altında kaldığında tam güce ulaşır. Kuru alana inşa edilebilir — suyun gelmesini bekler."
 
 ["Building.Deepfurs.TidalTurbine.FlavorDescription"]
-status = "normal"
 raw = "No sails, no spokes above the surface — just a hum in the deep and a shaft that never freezes over."
+status = "normal"
 enUS = "No sails, no spokes above the surface—just a hum in the deep and a shaft that never freezes over."
 zhCN = "没有帆，也没有露出水面的辐条——只有深处的嗡鸣，以及一根永远不会结冰的轴。"
 zhTW = "沒有帆，水面上也沒有葉片——只有深處的嗡鳴，以及永不結冰的軸。"
@@ -103,8 +103,8 @@ viVN = "Liễu rủ"
 trTR = "Ağlayan söğüt"
 
 ["NaturalResource.Deepfurs.WeepingWillow.FlavorDescription"]
-status = "normal"
 raw = "Roots drink straight from the channel; the branches trail in it until the water goes."
+status = "normal"
 enUS = "Roots drink straight from the channel; the branches trail in it until the water goes."
 zhCN = "树根直接从水渠中汲水；树枝垂入水中，直到水流消失。"
 zhTW = "根部直接從水道中吸水；枝條垂入水中，直到水流消失。"
@@ -136,8 +136,8 @@ csCZ = "Biopalivo z řepkového oleje"
 trTR = "Kanola yağından biyoyakıt"
 
 ["Deepfurs.Bot.HybridWorkRefusalWarning"]
-status = "normal"
 raw = "Stops working only if both charge and fuel run out."
+status = "normal"
 enUS = "Stops working only if both the charge and the fuel run out."
 zhCN = "只有在电量和燃料都耗尽时才会停止工作。"
 zhTW = "只有在電量和燃料都耗盡時才會停止運作。"
@@ -153,8 +153,8 @@ viVN = "Chỉ ngừng hoạt động khi cả điện tích và nhiên liệu đ
 trTR = "Yalnızca hem şarjı hem de yakıtı biterse çalışmayı durdurur."
 
 ["Deepfurs.Bot.OutOfPowerAndFuel"]
-status = "normal"
 raw = "Out of charge and fuel. Hybrid bots run on either supply alone, but this one has neither and has stopped working."
+status = "normal"
 enUS = "Out of charge and fuel. Hybrid bots can run on either supply alone, but this one has neither and has stopped working."
 zhCN = "电量和燃料耗尽。混合机器人只需其中一种供应即可运行，但这台两者都没有，已经停止工作。"
 zhTW = "電量和燃料都耗盡了。混合型機器人只靠其中一種供應也能運作，但這台兩者都沒有，因此已停止運作。"
@@ -186,8 +186,8 @@ csCZ = "Došla energie a palivo"
 viVN = "Hết năng lượng và nhiên liệu"
 
 ["Deepfurs.Breeding.Dry.Water"]
-status = "normal"
 raw = "Dry — needs extra water per cycle. Submerge it and it needs no water at all."
+status = "normal"
 enUS = "Dry — requires extra water per cycle. Submerge it, and it requires no water at all."
 zhCN = "干燥时——每个周期需要额外的水。将其浸没后，它就完全不需要水了。"
 zhTW = "乾燥時——每個週期需要額外的水。將它淹沒後，完全不需要水。"
@@ -203,8 +203,8 @@ viVN = "Khô — cần thêm nước mỗi chu kỳ. Ngập hoàn toàn thì kh�
 trTR = "Kuru — her döngüde ekstra su gerekir. Suya batırılırsa hiç su gerekmez."
 
 ["Deepfurs.Breeding.Submerged.Water"]
-status = "normal"
 raw = "Submerged — no water needed. Berries alone grow the babies."
+status = "normal"
 enUS = "Submerged — no water needed. Berries alone grow the babies."
 zhCN = "浸没——无需水。仅靠浆果就能养育幼崽。"
 zhTW = "淹沒——不需要水。寶寶只靠莓果就能長大。"
@@ -220,8 +220,8 @@ viVN = "Ngập dưới nước — không cần nước. Chỉ quả mọng mớ
 trTR = "Su altında — su gerekmez. Yavruları yalnızca yemişler büyütür."
 
 ["Deepfurs.Breeding.Dry.Extract"]
-status = "normal"
 raw = "Dry — needs extra extract per cycle. Submerge it to halve the cost."
+status = "normal"
 enUS = "Dry — requires extra extract per cycle. Submerge it to halve the cost."
 zhCN = "干燥——每轮需要额外的萃取物。将其浸入水中可使成本减半。"
 zhTW = "乾燥時——每個週期需要額外的萃取物。將其浸入水中可使消耗減半。"
@@ -237,8 +237,8 @@ viVN = "Khô — cần thêm dịch chiết cho mỗi chu kỳ. Ngâm nó để 
 trTR = "Kuru — döngü başına fazladan özüt gerekir. Maliyeti yarıya indirmek için suya batırın."
 
 ["Deepfurs.Breeding.Submerged.Extract"]
-status = "normal"
 raw = "Submerged — extract cost halved."
+status = "normal"
 enUS = "Submerged — extract cost halved."
 zhCN = "浸没时——提取成本减半。"
 zhTW = "淹沒時—提取成本減半。"
@@ -254,8 +254,8 @@ viVN = "Ngập nước — chi phí khai thác giảm một nửa."
 trTR = "Su Altında — çıkarma maliyeti yarıya iner."
 
 ["Building.CompactMechanicalPump.Deepfurs.Description"]
-status = "normal"
 raw = "Draws water or badwater in from one side and discharges it on the other. In reverse mode the pump opens into a free-flowing pipe and the current spins it, generating 135 hp for every 0.25 cms passing through."
+status = "normal"
 enUS = "Draws water or badwater in from one side and discharges it on the other. In reverse mode, the pump opens into a free-flowing pipe, and the current spins it, generating 135 hp for every 0.25 cms passing through."
 zhCN = "从一侧抽入水或恶水，再从另一侧排出。反向模式下，泵会接入一段自由流动的管道，水流会带动泵旋转；每通过 0.25 cms 的水流，可产生 135 hp 的动力。"
 zhTW = "從一側抽入水或毒水，再從另一側排出。反向模式下，幫浦會接入自由流動的管道，水流會帶動幫浦旋轉；每有 0.25 cms 的水流通過，就會產生 135 hp。"
@@ -271,8 +271,8 @@ viVN = "Hút nước hoặc nước ô nhiễm từ một phía và xả ra phí
 trTR = "Bir taraftan su veya kötü su çeker ve diğer taraftan boşaltır. Ters modda pompa, serbest akışlı bir boruya açılır; akıntı pompayı döndürerek içinden geçen her 0.25 cms için 135 hp güç üretir."
 
 ["Deepfurs.ReversiblePump.Toggle"]
-status = "normal"
 raw = "Reverse mode"
+status = "normal"
 enUS = "Reverse mode"
 zhCN = "反向模式"
 zhTW = "反向模式"
@@ -288,8 +288,8 @@ viVN = "Chế độ đảo chiều"
 trTR = "Ters mod"
 
 ["Deepfurs.ReversiblePump.Hint.Pumping"]
-status = "normal"
 raw = "Pumping. Switch on reverse mode to open the pump into a pipe and generate power from the water flowing through it."
+status = "normal"
 enUS = "Pumping. Switch on reverse mode to open the pump into a pipe and generate power from the water flowing through it."
 zhCN = "抽水。开启反向模式，将水泵接入管道，并利用流经其中的水产生动力。"
 zhTW = "抽水中。開啟反向模式，讓水泵連接管道，並利用流經管道的水產生動力。"
@@ -305,8 +305,8 @@ viVN = "Bơm. Bật chế độ đảo chiều để mở máy bơm vào đườ
 trTR = "Pompalama. Pompayı bir boruya açmak ve içinden akan sudan güç üretmek için ters modu açın."
 
 ["Deepfurs.ReversiblePump.Hint.Reversed"]
-status = "normal"
 raw = "Open pipe. Current {0:F2} cms, generating {1} hp (135 hp per 0.25 cms)."
+status = "normal"
 enUS = "Open pipe. Current {0:F2} cms, generating {1} hp (135 hp per 0.25 cms)."
 zhCN = "管道已打开。当前流量为 {0:F2} cms，产生 {1} hp（每 0.25 cms 产生 135 hp）。"
 zhTW = "開啟的管道。目前流量 {0:F2} cms，產生 {1} hp（每 0.25 cms 產生 135 hp）。"
@@ -322,8 +322,8 @@ viVN = "Ống mở. Lưu lượng hiện tại {0:F2} cms, tạo ra {1} hp (135 
 trTR = "Açık boru. Mevcut akış {0:F2} cms, {1} hp üretiyor (0.25 cms başına 135 hp)."
 
 ["Building.Deepfurs.FuelGatheringDepot.DisplayName"]
-status = "normal"
 raw = "Fuel Gathering Depot"
+status = "normal"
 enUS = "Fuel Gathering Depot"
 zhCN = "燃料采集站"
 zhTW = "燃料採集站"
@@ -339,8 +339,8 @@ viVN = "Trạm Thu Gom Nhiên Liệu"
 trTR = "Yakıt Toplama Deposu"
 
 ["Building.Deepfurs.FuelGatheringDepot.Description"]
-status = "normal"
 raw = "Holds 80 units of liquid; fill it with biofuel. Idle bots gather around it instead of the District Center and top up from it when they run low. Dry ground only, and one per district."
+status = "normal"
 enUS = "Holds 80 units of liquid; fill it with biofuel. Idle bots gather around it instead of the District Center and top up from it when they run low. Dry ground only, and one per district."
 zhCN = "可储存 80 单位液体；请装入生物燃料。闲置机器人会聚集在这里，而不是区中心，并在燃料不足时从这里补充。只能建在干燥地面上，每个区仅限建造一个。"
 zhTW = "可容納 80 單位的液體；請裝入生質燃料。閒置機器人會聚集在此處，而非區域中心，燃料不足時會在此補充。只能建在乾燥地面上，每個區域限建一座。"
@@ -356,8 +356,8 @@ viVN = "Chứa 80 đơn vị chất lỏng; hãy đổ nhiên liệu sinh học 
 trTR = "80 birim sıvı depolar; biyoyakıtla doldurun. Boştaki botlar Bölge Merkezi yerine burada toplanır ve yakıtları azaldığında depodan doldurur. Yalnızca kuru zemine yerleştirilebilir ve her bölgede bir tane bulunabilir."
 
 ["Building.Deepfurs.FuelGatheringDepot.FlavorDescription"]
-status = "normal"
 raw = "The centre is a lake now. The bots needed somewhere to stand, so they chose the tank that feeds them."
+status = "normal"
 enUS = "The center is a lake now. The bots needed somewhere to stand, so they chose the tank that feeds them."
 zhCN = "中心现在变成了一片湖。机器人需要一个能站的地方，于是它们选了给自己供水的水箱。"
 zhTW = "中心現在變成湖了。機器人需要一個站立的地方，所以牠們選了供應燃料給牠們的儲槽。"
@@ -373,8 +373,8 @@ viVN = "Giờ trung tâm là một cái hồ. Các bot cần chỗ để đứng
 trTR = "Merkez artık bir göl. Botların duracak bir yere ihtiyacı vardı, onlar da kendilerini besleyen tankı seçtiler."
 
 ["Deepfurs.FuelGatheringDepot.OnePerDistrict"]
-status = "normal"
 raw = "This district already has a Fuel Gathering Depot."
+status = "normal"
 enUS = "This district already has a Fuel Gathering Depot."
 zhCN = "该区已经有一个燃料收集站。"
 zhTW = "此區域已經有燃料採集站。"

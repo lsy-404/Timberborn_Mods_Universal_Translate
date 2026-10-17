@@ -2,8 +2,8 @@
 name = "Academic's Miners Of Mountains"
 
 ["academicunwinds.MOM.Good.Pickax.DisplayName"]
-status = "normal"
 raw = "Pickaxe"
+status = "normal"
 enUS = "Pickaxe"
 zhCN = "十字镐"
 zhTW = "十字鎬"
@@ -35,8 +35,8 @@ viVN = "Cuốc chim"
 trTR = "Kazmalar"
 
 ["academicunwinds.MOM.Good.AdvancedPickax.DisplayName"]
-status = "normal"
 raw = "Advanced Pickaxe"
+status = "normal"
 enUS = "Advanced Pickaxe"
 zhCN = "高级镐子"
 zhTW = "進階鎬具"
@@ -52,8 +52,8 @@ viVN = "Cuốc chim nâng cao"
 trTR = "Gelişmiş Kazma"
 
 ["academicunwinds.MOM.Good.AdvancedPickax.PluralDisplayName"]
-status = "normal"
 raw = "Advanced Pickaxes"
+status = "normal"
 enUS = "Advanced Pickaxes"
 zhCN = "高级镐具"
 zhTW = "進階鎬子"
@@ -85,8 +85,8 @@ viVN = "Cờ đào đất"
 trTR = "Kazı İşareti"
 
 ["academicunwinds.MOM.Building.ExcavationFlag.Description"]
-status = "normal"
 raw = "Mark a terrain block for removal. A builder hauls a pickaxe over and digs the block out. The pickaxe is consumed by the dig and the tile is clear once it finishes."
+status = "normal"
 enUS = "Mark a terrain block for removal. A builder brings a pickaxe and digs out the block. The pickaxe is consumed by the digging, and the tile is clear when the work is done."
 zhCN = "标记一个地形方块以便移除。建筑工会带着镐前来挖掉该方块。挖掘时会消耗这把镐，挖掘完成后，该地块便会清空。"
 zhTW = "標記要移除的地形方塊。建造者會帶著十字鎬前來，挖除該方塊。挖掘時會消耗十字鎬，完成後該地塊便會清空。"
@@ -118,8 +118,8 @@ viVN = "Đất cho mỗi khối"
 trTR = "Blok Başına Toprak"
 
 ["academicunwinds.MOM.Settings.DirtPerBlock.Tooltip"]
-status = "normal"
 raw = "How much Dirt each finished dig drops next to the hole for builders to collect. Builders collect it the same way as demolition leftovers."
+status = "normal"
 enUS = "How much Dirt each completed dig drops next to the hole for builders to collect. Builders collect it the same way as demolition leftovers."
 zhCN = "每次挖掘完成后，会在坑洞旁留下多少泥土供建造者收集。建造者收集泥土的方式与收集拆除遗留物相同。"
 zhTW = "每完成一次挖掘，會在洞旁留下多少泥土供建築工收集。建築工收集泥土的方式與收集拆除後的剩餘物相同。"
@@ -135,8 +135,8 @@ viVN = "Mỗi lần đào xong, thợ đào để lại bao nhiêu Đất cạnh
 trTR = "Her tamamlanan kazının, inşaatçıların toplaması için çukurun yanına ne kadar Toprak bıraktığı. İnşaatçılar bunu yıkım artıklarını topladıkları şekilde toplar."
 
 ["academicunwinds.MOM.Settings.KeepTerrainBlock"]
-status = "normal"
 raw = "Keep Terrain Block"
+status = "normal"
 enUS = "Keep Terrain Block"
 zhCN = "保留地形方块"
 zhTW = "保留地形方塊"
@@ -152,8 +152,8 @@ viVN = "Giữ Khối Địa hình"
 trTR = "Arazi Bloğunu Koru"
 
 ["academicunwinds.MOM.Settings.KeepTerrainBlock.Tooltip"]
-status = "normal"
 raw = "Keep the terrain block instead of removing it; the block is never removed and the flag re-arms itself after every dig, so with this on you may dig under paths and buildings safely."
+status = "normal"
 enUS = "Keep the terrain block instead of removing it. The block is never removed, and the flag re-arms itself after every dig, so with this enabled, you can safely dig under paths and buildings."
 zhCN = "保留地形方块，不将其移除；该方块永远不会被移除，而且每次挖掘后标记都会自动重新启用，因此开启此选项后，可以安全地在道路和建筑下方挖掘。"
 zhTW = "保留地形方塊，不要將其移除；方塊永遠不會被移除，而且每次挖掘後旗標都會自動重新啟用，因此開啟此選項後，你可以放心在道路和建築物下方挖掘。"
@@ -169,8 +169,8 @@ viVN = "Giữ lại khối địa hình thay vì xóa nó; khối này không ba
 trTR = "Arazi bloğunu kaldırmak yerine yerinde tutar; blok hiçbir zaman kaldırılmaz ve her kazıdan sonra bayrak kendini yeniden etkinleştirir. Bu seçenek açıkken yolların ve binaların altını güvenle kazabilirsiniz."
 
 ["academicunwinds.MOM.Settings.DigHoursFolktails"]
-status = "normal"
 raw = "Folktails Dig Time (Hours)"
+status = "normal"
 enUS = "Folktails Dig Time (Hours)"
 zhCN = "神尾挖掘时间（小时）"
 zhTW = "神尾挖掘時間（小時）"
@@ -186,8 +186,8 @@ viVN = "Thời gian đào của Folktails (giờ)"
 trTR = "Köykuyruklar Kazma Süresi (Saat)"
 
 ["academicunwinds.MOM.Settings.DigHoursFolktails.Tooltip"]
-status = "normal"
 raw = "How many work hours a Folktails builder needs to dig one block out."
+status = "normal"
 enUS = "How many work hours a Folktails builder needs to dig out one block."
 zhCN = "神尾建造者挖出一个方块所需的工时。"
 zhTW = "神尾建築工挖出一個方塊所需的工作時數。"
@@ -203,8 +203,8 @@ viVN = "Số giờ làm việc mà một thợ xây Folktails cần để đào 
 trTR = "Bir Köykuyruk inşaatçının bir bloğu kazması için gereken çalışma saati sayısı."
 
 ["academicunwinds.MOM.Settings.DigHoursIronTeeth"]
-status = "normal"
 raw = "IronTeeth Dig Time (Hours)"
+status = "normal"
 enUS = "Iron Teeth Dig Time (Hours)"
 zhCN = "铁牙挖掘时间（小时）"
 zhTW = "鐵牙挖掘時間（小時）"
@@ -220,8 +220,8 @@ viVN = "Thời gian đào của Răng Sắt (giờ)"
 trTR = "Demir Dişler Kazı Süresi (Saat)"
 
 ["academicunwinds.MOM.Settings.DigHoursIronTeeth.Tooltip"]
-status = "normal"
 raw = "How many work hours an IronTeeth builder needs to dig one block out."
+status = "normal"
 enUS = "How many work hours an Iron Teeth builder needs to dig out one block."
 zhCN = "铁牙建造者挖出一个方块所需的工作时长。"
 zhTW = "鐵牙建造者挖除一個方塊所需的工作時數。"

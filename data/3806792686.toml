@@ -31,8 +31,8 @@ viVN = "Không có gì"
 trTR = "Hiçbir şey"
 
 ["LV.GI.Min"]
-status = "normal"
 raw = "Min: {0}"
+status = "normal"
 enUS = "Min: {0}"
 zhCN = "最小值：{0}"
 zhTW = "最低：{0}"
@@ -48,8 +48,8 @@ viVN = "Tối thiểu: {0}"
 trTR = "En az: {0}"
 
 ["LV.GI.Dev.Title"]
-status = "normal"
 raw = "Modify Global Inventory"
+status = "normal"
 enUS = "Modify Global Inventory"
 zhCN = "修改全局库存"
 zhTW = "修改全域庫存"
@@ -65,8 +65,8 @@ viVN = "Chỉnh sửa Kho đồ Toàn cục"
 trTR = "Küresel Envanteri Düzenle"
 
 ["LV.GI.Dev.Amount"]
-status = "normal"
 raw = "Amount"
+status = "normal"
 enUS = "Amount"
 zhCN = "数量"
 zhTW = "數量"
@@ -82,8 +82,8 @@ viVN = "Số lượng"
 trTR = "Miktar"
 
 ["LV.GI.Dev.Add"]
-status = "normal"
 raw = "Add"
+status = "normal"
 enUS = "Add"
 zhCN = "添加"
 zhTW = "新增"
@@ -115,8 +115,8 @@ viVN = "Xóa"
 trTR = "Kaldır"
 
 ["LV.GI.Dev.Clear"]
-status = "normal"
 raw = "Clear"
+status = "normal"
 enUS = "Clear"
 zhCN = "清除"
 zhTW = "清除"
@@ -132,8 +132,8 @@ viVN = "Xóa sạch"
 trTR = "Temizle"
 
 ["LV.GI.Dev.Fill"]
-status = "normal"
 raw = "Fill"
+status = "normal"
 enUS = "Fill"
 zhCN = "填充"
 zhTW = "填滿"
@@ -149,8 +149,8 @@ viVN = "Đổ đầy"
 trTR = "Doldur"
 
 ["LV.GI.Dev.SetMin"]
-status = "normal"
 raw = "Set to Min"
+status = "normal"
 enUS = "Set to Min"
 zhCN = "设为最小值"
 zhTW = "設為最小值"
@@ -166,8 +166,8 @@ viVN = "Đặt thành mức tối thiểu"
 trTR = "Minimuma ayarla"
 
 ["LV.GI.Dev.Current"]
-status = "normal"
 raw = "Current: {0}"
+status = "normal"
 enUS = "Current: {0}"
 zhCN = "当前：{0}"
 zhTW = "目前：{0}"

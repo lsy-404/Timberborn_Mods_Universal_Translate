@@ -53,8 +53,8 @@ viVN = "Bộ lọc:"
 trTR = "Filtre:"
 
 ["LV.MDG.SelectAll"]
-status = "normal"
 raw = "Select all"
+status = "normal"
 enUS = "Select all"
 zhCN = "全选"
 zhTW = "全選"

@@ -33,8 +33,8 @@ viVN = "Đang chết"
 trTR = "Ölmek üzere olan"
 
 ["Calloatti.NRS.Column.Healthy"]
-status = "normal"
 raw = "Healthy"
+status = "normal"
 enUS = "Healthy"
 zhCN = "健康"
 zhTW = "健康的"
@@ -50,8 +50,8 @@ viVN = "Khỏe mạnh"
 trTR = "Sağlıklı"
 
 ["Calloatti.NRS.Column.Mature"]
-status = "normal"
 raw = "Mature"
+status = "normal"
 enUS = "Mature"
 zhCN = "成熟的"
 zhTW = "成熟的"
@@ -67,8 +67,8 @@ viVN = "Trưởng thành"
 trTR = "Olgun"
 
 ["Calloatti.NRS.Column.Plots"]
-status = "normal"
 raw = "Plots"
+status = "normal"
 enUS = "Plots"
 zhCN = "地块"
 zhTW = "地塊"
@@ -84,8 +84,8 @@ viVN = "Ô trồng trọt"
 trTR = "Tarlalar"
 
 ["Calloatti.NRS.Column.Total"]
-status = "normal"
 raw = "Total"
+status = "normal"
 enUS = "Total"
 zhCN = "总计"
 zhTW = "總計"
@@ -101,8 +101,8 @@ viVN = "Tổng cộng"
 trTR = "Toplam"
 
 ["Calloatti.NRS.Filter"]
-status = "normal"
 raw = "Filter:"
+status = "normal"
 enUS = "Filter:"
 zhCN = "筛选："
 zhTW = "篩選："
@@ -133,8 +133,8 @@ viVN = "Tất cả"
 trTR = "Tümü"
 
 ["Calloatti.NRS.Filter.Planted"]
-status = "normal"
 raw = "Planted"
+status = "normal"
 enUS = "Planted"
 zhCN = "已种植"
 zhTW = "已種植"
@@ -150,8 +150,8 @@ viVN = "Đã trồng"
 trTR = "Dikilmiş"
 
 ["Calloatti.NRS.Filter.Plots"]
-status = "normal"
 raw = "Plots"
+status = "normal"
 enUS = "Plots"
 zhCN = "地块"
 zhTW = "地塊"
@@ -199,8 +199,8 @@ viVN = "Loài"
 trTR = "Türler"
 
 ["Calloatti.NRS.KeyBind"]
-status = "normal"
 raw = "Open Natural Resources Statistics Tab"
+status = "normal"
 enUS = "Open Natural Resources Statistics Tab"
 zhCN = "打开自然资源统计选项卡"
 zhTW = "開啟自然資源統計分頁"
@@ -232,8 +232,8 @@ viVN = "Thống kê tài nguyên thiên nhiên"
 trTR = "Doğal Kaynak İstatistikleri"
 
 ["KeyBindingGroup.Calloatti.NRS"]
-status = "normal"
 raw = "Natural Resources Statistics"
+status = "normal"
 enUS = "Natural Resources Statistics"
 zhCN = "自然资源统计"
 zhTW = "自然資源統計項目"

@@ -2,8 +2,8 @@
 name = "DecoMore 1.1 fixed"
 
 ["Decoration.PlantsPot.DisplayName"]
-status = "normal"
 raw = "Potted Plant"
+status = "normal"
 enUS = "Potted Plant"
 zhCN = "盆栽植物"
 zhTW = "盆栽植物"
@@ -19,8 +19,8 @@ viVN = "Cây trồng trong chậu"
 trTR = "Saksı Bitkisi"
 
 ["Decoration.PlantsPot.Description"]
-status = "normal"
 raw = "A decorative potted plant."
+status = "normal"
 enUS = "A decorative potted plant."
 zhCN = "一株装饰用盆栽。"
 zhTW = "裝飾用盆栽。"
@@ -36,8 +36,8 @@ viVN = "Một chậu cây trang trí."
 trTR = "Dekoratif saksı bitkisi."
 
 ["Decoration.PlantsPot.FlavorDescription"]
-status = "normal"
 raw = "Need a little more greenery?"
+status = "normal"
 enUS = "Need a little more greenery?"
 zhCN = "还想要多一点绿意吗？"
 zhTW = "還想要多一點綠意嗎？"
@@ -53,8 +53,8 @@ viVN = "Muốn thêm chút cây xanh không?"
 trTR = "Biraz daha yeşillik ister misin?"
 
 ["Decoration.MiniBonfire.DisplayName"]
-status = "normal"
 raw = "Mini Bonfire"
+status = "normal"
 enUS = "Mini Bonfire"
 zhCN = "迷你篝火"
 zhTW = "迷你營火"
@@ -70,8 +70,8 @@ viVN = "Đống lửa nhỏ mini"
 trTR = "Mini Kamp Ateşi"
 
 ["Decoration.MiniBonfire.Description"]
-status = "normal"
 raw = "Light a fire on dark nights."
+status = "normal"
 enUS = "Light a fire on dark nights."
 zhCN = "在漆黑的夜晚点燃篝火。"
 zhTW = "在漆黑的夜晚點起火來。"
@@ -87,8 +87,8 @@ viVN = "Đốt lửa vào những đêm tối."
 trTR = "Karanlık gecelerde ateş yak."
 
 ["Decoration.MiniBonfire.FlavorDescription"]
-status = "normal"
 raw = "Fire is wisdom."
+status = "normal"
 enUS = "Fire is wisdom."
 zhCN = "火焰即智慧。"
 zhTW = "火焰即智慧。"
@@ -104,8 +104,8 @@ viVN = "Lửa là trí tuệ."
 trTR = "Ateş bilgeliktir."
 
 ["Decoration.GuardFence.DisplayName"]
-status = "normal"
 raw = "Guard Fence"
+status = "normal"
 enUS = "Guard Fence"
 zhCN = "护栏"
 zhTW = "護欄"
@@ -121,8 +121,8 @@ viVN = "Hàng rào bảo vệ"
 trTR = "Muhafız Çiti"
 
 ["Decoration.GuardFence.Description"]
-status = "normal"
 raw = "No passing beyond this point."
+status = "normal"
 enUS = "No passing beyond this point."
 zhCN = "禁止越过此处。"
 zhTW = "禁止通過此處。"
@@ -138,8 +138,8 @@ viVN = "Không được đi qua khỏi điểm này."
 trTR = "Bu noktadan öteye geçiş yok."
 
 ["Decoration.GuardFence.FlavorDescription"]
-status = "normal"
 raw = "Construction area ahead."
+status = "normal"
 enUS = "Construction area ahead."
 zhCN = "前方施工区域。"
 zhTW = "前方施工區。"
@@ -171,8 +171,8 @@ viVN = "Mặt đất"
 trTR = "Zemin"
 
 ["Decoration.Ground01.Description"]
-status = "normal"
 raw = "Decorate the ground beneath your feet."
+status = "normal"
 enUS = "Decorate the ground beneath your feet."
 zhCN = "装饰你脚下的地面。"
 zhTW = "裝飾腳下的地面。"
@@ -188,8 +188,8 @@ viVN = "Trang trí mặt đất dưới chân bạn."
 trTR = "Ayaklarınızın altındaki zemini süsleyin."
 
 ["Decoration.Ground01.FlavorDescription"]
-status = "normal"
 raw = "For some reason, it glows at night now."
+status = "normal"
 enUS = "For some reason, it glows at night now."
 zhCN = "不知为何，它现在会在夜间发光。"
 zhTW = "不知為何，現在它到了晚上會發光。"
@@ -205,8 +205,8 @@ viVN = "Vì lý do nào đó, giờ đây nó phát sáng vào ban đêm."
 trTR = "Nedense artık geceleri parlıyor."
 
 ["Decoration.Ground02.DisplayName"]
-status = "normal"
 raw = "Flowers"
+status = "normal"
 enUS = "Flowers"
 zhCN = "花卉"
 zhTW = "花朵"
@@ -222,8 +222,8 @@ viVN = "Hoa nở"
 trTR = "Çiçekler"
 
 ["Decoration.Ground02.Description"]
-status = "normal"
 raw = "Flowers blooming on the ground."
+status = "normal"
 enUS = "Flowers blooming on the ground."
 zhCN = "地面上盛开的鲜花。"
 zhTW = "在地面上盛開的花朵。"
@@ -239,8 +239,8 @@ viVN = "Những bông hoa nở trên mặt đất."
 trTR = "Yerde açan çiçekler."
 
 ["Decoration.Ground02.FlavorDescription"]
-status = "normal"
 raw = "Beautiful flowers always feel special."
+status = "normal"
 enUS = "Beautiful flowers always feel special."
 zhCN = "美丽的花朵总是让人觉得特别。"
 zhTW = "美麗的花朵總是讓人感覺特別。"
@@ -272,8 +272,8 @@ csCZ = "Útulná lavička"
 viVN = "Ghế băng ấm cúng"
 
 ["Decoration.Bench01.Description"]
-status = "normal"
 raw = "Comes with a handy side table."
+status = "normal"
 enUS = "Comes with a handy side table."
 zhCN = "附带一张实用的边桌。"
 zhTW = "附帶一張方便的小邊桌。"
@@ -305,8 +305,8 @@ viVN = "Hay là nghỉ giải lao một chút?"
 trTR = "Kısa bir mola vermeye ne dersin?"
 
 ["Decoration.MiniCarousel.DisplayName"]
-status = "normal"
 raw = "Pinwheel"
+status = "normal"
 enUS = "Pinwheel"
 zhCN = "旋转木马"
 zhTW = "風車旋轉木馬"
@@ -322,8 +322,8 @@ viVN = "Chong chóng gió"
 trTR = "Fırıldak"
 
 ["Decoration.MiniCarousel.Description"]
-status = "normal"
 raw = "Watching it spin makes you dizzy."
+status = "normal"
 enUS = "Watching it spin makes you dizzy."
 zhCN = "看着它转圈会让你头晕。"
 zhTW = "看著它旋轉會讓你頭暈。"
@@ -339,8 +339,8 @@ viVN = "Nhìn nó quay khiến bạn chóng mặt."
 trTR = "Dönüşünü izlemek başınızı döndürüyor."
 
 ["Decoration.MiniCarousel.FlavorDescription"]
-status = "normal"
 raw = "Round and round it goes..."
+status = "normal"
 enUS = "Round and round it goes..."
 zhCN = "转啊转啊，转个不停……"
 zhTW = "它不停地轉啊轉……"
@@ -371,8 +371,8 @@ viVN = "Tranh vẽ"
 trTR = "Tablo"
 
 ["Decoration.Painting.Description"]
-status = "normal"
 raw = "Someone is busy painting here."
+status = "normal"
 enUS = "Someone is busy painting here."
 zhCN = "有人正在这里忙着绘画。"
 zhTW = "有人正忙著在這裡作畫。"
@@ -388,8 +388,8 @@ viVN = "Có người đang bận vẽ tranh ở đây."
 trTR = "Burada biri resim yapmakla meşgul."
 
 ["Decoration.Painting.FlavorDescription"]
-status = "normal"
 raw = "This artist really loves blueberries."
+status = "normal"
 enUS = "This artist really loves blueberries."
 zhCN = "这位艺术家真的很喜欢蓝莓。"
 zhTW = "這位藝術家真的很喜歡藍莓。"

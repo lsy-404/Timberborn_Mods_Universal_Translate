@@ -2,8 +2,8 @@
 name = "Beaver Name List"
 
 ["BeaverNameList.OpenButton"]
-status = "normal"
 raw = "Names"
+status = "normal"
 enUS = "Names"
 zhCN = "姓名"
 zhTW = "名稱"
@@ -19,8 +19,8 @@ viVN = "Tên"
 trTR = "İsimler"
 
 ["BeaverNameList.Title"]
-status = "normal"
 raw = "Beaver names"
+status = "normal"
 enUS = "Beaver Names"
 zhCN = "海狸姓名名单"
 zhTW = "海狸名稱"
@@ -36,8 +36,8 @@ viVN = "Tên hải ly"
 trTR = "Kunduz adları"
 
 ["BeaverNameList.ShowNameTags"]
-status = "normal"
 raw = "Show names above beavers"
+status = "normal"
 enUS = "Show names above beavers"
 zhCN = "在海狸头顶显示名字"
 zhTW = "在海狸上方顯示名稱"
@@ -53,8 +53,8 @@ viVN = "Hiển thị tên phía trên các hải ly"
 trTR = "Kunduzların üstünde adları göster"
 
 ["BeaverNameList.Summary"]
-status = "normal"
 raw = "{0} names, {1} characters max per name"
+status = "normal"
 enUS = "{0} names, up to {1} characters per name"
 zhCN = "{0} 个名字，每个名字最多 {1} 个字符"
 zhTW = "{0} 個名字，每個名字最多 {1} 個字元"
@@ -70,8 +70,8 @@ viVN = "{0} tên, tối đa {1} ký tự mỗi tên"
 trTR = "{0} ad, her ad en fazla {1} karakter"
 
 ["BeaverNameList.FileLocation"]
-status = "normal"
 raw = "Saved in {0}"
+status = "normal"
 enUS = "Saved in {0}"
 zhCN = "已保存至 {0}"
 zhTW = "已儲存至 {0}"
@@ -87,8 +87,8 @@ viVN = "Đã lưu tại {0}"
 trTR = "{0} konumuna kaydedildi"
 
 ["BeaverNameList.NewName"]
-status = "normal"
 raw = "New name"
+status = "normal"
 enUS = "New name"
 zhCN = "新名字"
 zhTW = "新名稱"
@@ -104,8 +104,8 @@ viVN = "Tên mới"
 trTR = "Yeni ad"
 
 ["BeaverNameList.Add"]
-status = "normal"
 raw = "Add"
+status = "normal"
 enUS = "Add"
 zhCN = "添加"
 zhTW = "新增"
@@ -137,8 +137,8 @@ viVN = "Tự do"
 trTR = "Özgür"
 
 ["BeaverNameList.BorneBy"]
-status = "normal"
 raw = "Borne by {0}"
+status = "normal"
 enUS = "Borne by {0}"
 zhCN = "由 {0} 诞生"
 zhTW = "由 {0} 搬運"
@@ -154,8 +154,8 @@ viVN = "Được sinh ra bởi {0}"
 trTR = "{0} tarafından taşınır"
 
 ["BeaverNameList.Error.Empty"]
-status = "normal"
 raw = "The name is empty."
+status = "normal"
 enUS = "The name is empty."
 zhCN = "名称为空。"
 zhTW = "名稱為空。"
@@ -171,8 +171,8 @@ viVN = "Tên đang để trống."
 trTR = "İsim boş."
 
 ["BeaverNameList.Error.TooLong"]
-status = "normal"
 raw = "The name exceeds {0} characters."
+status = "normal"
 enUS = "The name exceeds {0} characters."
 zhCN = "名称超过 {0} 个字符。"
 zhTW = "名稱超過 {0} 個字元。"
@@ -188,8 +188,8 @@ viVN = "Tên vượt quá {0} ký tự."
 trTR = "İsim {0} karakteri aşıyor."
 
 ["BeaverNameList.Error.Duplicate"]
-status = "normal"
 raw = "This name is already in the list."
+status = "normal"
 enUS = "This name is already in the list."
 zhCN = "此名称已在列表中。"
 zhTW = "此名稱已在清單中。"

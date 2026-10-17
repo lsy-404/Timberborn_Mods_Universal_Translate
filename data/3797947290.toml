@@ -2,8 +2,8 @@
 name = "Hauling Post Plus"
 
 ["HaulingPostPlus.Title"]
-status = "normal"
 raw = "Hauling Post Plus"
+status = "normal"
 enUS = "Hauling Post Plus"
 zhCN = "增强型搬运站"
 zhTW = "搬運站 Plus"
@@ -19,8 +19,8 @@ viVN = "Bưu điểm vận chuyển hàng Plus"
 trTR = "Gelişmiş Taşıma Merkezi"
 
 ["HaulingPostPlus.Desired"]
-status = "normal"
 raw = "Desired workers"
+status = "normal"
 enUS = "Desired workers"
 zhCN = "期望工人数"
 zhTW = "期望工人數量"
@@ -36,8 +36,8 @@ viVN = "Số nhân công mong muốn"
 trTR = "İstenen işçi sayısı"
 
 ["HaulingPostPlus.Status"]
-status = "normal"
 raw = "Assigned: {0} · Desired: {1} · Capacity: {2}"
+status = "normal"
 enUS = "Assigned: {0} · Desired: {1} · Capacity: {2}"
 zhCN = "已分配：{0} · 期望：{1} · 容量：{2}"
 zhTW = "已指派：{0} · 期望：{1} · 容量：{2}"
@@ -53,8 +53,8 @@ viVN = "Được phân công: {0} · Mong muốn: {1} · Sức chứa: {2}"
 trTR = "Atanan: {0} · İstenen: {1} · Kapasite: {2}"
 
 ["HaulingPostPlus.Preview"]
-status = "normal"
 raw = "Release to apply: {0}"
+status = "normal"
 enUS = "Release to apply: {0}"
 zhCN = "松开以应用：{0}"
 zhTW = "放開以套用：{0}"
@@ -70,8 +70,8 @@ viVN = "Thả ra để áp dụng: {0}"
 trTR = "Uygulamak için bırakın: {0}"
 
 ["HaulingPostPlus.Hint"]
-status = "normal"
 raw = "Drag and release to apply. Type a number and press Enter for precision."
+status = "normal"
 enUS = "Drag and release to apply. Type a number and press Enter for precision."
 zhCN = "拖动并松开以应用。输入数字并按 Enter 以精确调整。"
 zhTW = "拖曳後放開以套用。輸入數字並按下 Enter 鍵以精確設定。"
@@ -87,8 +87,8 @@ viVN = "Kéo rồi thả để áp dụng. Nhập một số rồi nhấn Enter 
 trTR = "Uygulamak için sürükleyip bırakın. Hassas ayar için bir sayı girip Enter'a basın."
 
 ["HaulingPostPlus.StaffingHint"]
-status = "normal"
 raw = "Actual staffing depends on available workers and workplace priority. Worker portraits are replaced with this summary."
+status = "normal"
 enUS = "Actual staffing depends on available workers and workplace priority. Worker portraits are replaced with this summary."
 zhCN = "实际员工人数取决于可用工人和工作场所优先级。工人头像会被此摘要替代。"
 zhTW = "實際人手取決於可用的工人和工作場所優先級。工人肖像會替換為此摘要。"
@@ -104,8 +104,8 @@ viVN = "Nhân sự thực tế phụ thuộc vào số công nhân sẵn có và
 trTR = "Gerçek personel sayısı, mevcut işçilere ve iş yeri önceliğine bağlıdır. İşçi portrelerinin yerine bu özet gösterilir."
 
 ["HaulingPostPlus.CapacityWarning"]
-status = "normal"
 raw = "Capacity is not 1000. Check mod load order and other workplace mods."
+status = "normal"
 enUS = "Capacity is not 1000. Check the mod load order and other workplace mods."
 zhCN = "容量不是 1000。请检查模组加载顺序和其他工作场所模组。"
 zhTW = "容量不是 1000。請檢查模組載入順序及其他工作場所模組。"

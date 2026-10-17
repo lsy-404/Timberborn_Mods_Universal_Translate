@@ -2,8 +2,8 @@
 name = "Folktails Playground"
 
 ["Barbara.FolktailsPlayground.WoodenSwing.DisplayName"]
-status = "normal"
 raw = "Wooden Swing"
+status = "normal"
 enUS = "Wooden Swing"
 zhCN = "木制秋千"
 zhTW = "木製鞦韆"
@@ -19,8 +19,8 @@ viVN = "Xích đu gỗ"
 trTR = "Ahşap Salıncak"
 
 ["Barbara.FolktailsPlayground.WoodenSwing.Description"]
-status = "normal"
 raw = "A sturdy decorative swing built entirely from wood."
+status = "normal"
 enUS = "A sturdy decorative swing built entirely from wood."
 zhCN = "一架结实的装饰性秋千，完全由木材制成。"
 zhTW = "完全以木材建造的堅固裝飾性鞦韆。"
@@ -36,8 +36,8 @@ viVN = "Một chiếc xích đu trang trí chắc chắn, được làm hoàn to
 trTR = "Tamamen ahşaptan yapılmış sağlam ve dekoratif bir salıncak."
 
 ["Barbara.FolktailsPlayground.WoodenSwing.Flavor"]
-status = "normal"
 raw = "Back and forth until sunset."
+status = "normal"
 enUS = "Back and forth until sunset."
 zhCN = "日落前来回荡悠。"
 zhTW = "來來回回，直到日落。"
@@ -53,8 +53,8 @@ viVN = "Đung đưa qua lại cho đến khi mặt trời lặn."
 trTR = "Gün batana kadar ileri geri."
 
 ["Barbara.FolktailsPlayground.WoodenSeesaw.DisplayName"]
-status = "normal"
 raw = "Wooden Seesaw"
+status = "normal"
 enUS = "Wooden Seesaw"
 zhCN = "木制跷跷板"
 zhTW = "木製蹺蹺板"
@@ -70,8 +70,8 @@ viVN = "Bập bênh gỗ"
 trTR = "Ahşap Tahterevalli"
 
 ["Barbara.FolktailsPlayground.WoodenSeesaw.Description"]
-status = "normal"
 raw = "A decorative seesaw built entirely from wood."
+status = "normal"
 enUS = "A decorative seesaw built entirely from wood."
 zhCN = "完全由木材建造的装饰性跷跷板。"
 zhTW = "完全以木材製成的裝飾性蹺蹺板。"
@@ -87,8 +87,8 @@ viVN = "Một bập bênh trang trí hoàn toàn bằng gỗ."
 trTR = "Tamamen ahşaptan yapılmış dekoratif bir tahterevalli."
 
 ["Barbara.FolktailsPlayground.WoodenSeesaw.Flavor"]
-status = "normal"
 raw = "The trick is finding the right-sized beaver."
+status = "normal"
 enUS = "The trick is finding the right-sized beaver."
 zhCN = "诀窍在于找到大小合适的海狸。"
 zhTW = "訣竅在於找到體型剛好的海狸。"
@@ -104,8 +104,8 @@ viVN = "Mấu chốt là tìm được chú hải ly có kích cỡ phù hợp."
 trTR = "İşin püf noktası, doğru boyda bir kunduz bulmak."
 
 ["Barbara.FolktailsPlayground.WoodenPlayTower.DisplayName"]
-status = "normal"
 raw = "Wooden Play Tower"
+status = "normal"
 enUS = "Wooden Play Tower"
 zhCN = "木制游乐塔"
 zhTW = "木製遊樂塔"
@@ -121,8 +121,8 @@ viVN = "Tháp vui chơi bằng gỗ"
 trTR = "Ahşap Oyun Kulesi"
 
 ["Barbara.FolktailsPlayground.WoodenPlayTower.Description"]
-status = "normal"
 raw = "Open play tower without seats. Two side wings integrate with native Platforms: build a 1×1 Platform west and east; then place paths and furniture on top."
+status = "normal"
 enUS = "Open play tower without seats. Two side wings integrate with native Platforms: build a 1×1 Platform west and east; then place paths and furniture on top."
 zhCN = "无座开放式游乐塔。两侧翼与原生平台兼容：在西侧和东侧各建造一个 1×1 平台，然后在上方放置道路和家具。"
 zhTW = "無座位的開放式遊樂塔。兩側翼與原生平台相連：在西側和東側各建造一個 1×1 平台；接著在上方放置道路和家具。"
@@ -138,8 +138,8 @@ viVN = "Tháp vui chơi thoáng, không có ghế ngồi. Hai cánh bên kết h
 trTR = "Oturma yeri olmayan açık oyun kulesi. İki yan kanadı yerel Platformlarla bütünleşir: batı ve doğuya 1×1 Platform inşa edin; ardından üstüne yollar ve mobilyalar yerleştirin."
 
 ["Barbara.FolktailsPlayground.WoodenPlayTower.Flavor"]
-status = "normal"
 raw = "Every district looks like a toy from up here."
+status = "normal"
 enUS = "Every district looks like a toy from up here."
 zhCN = "从这里往下看，每个区都像玩具一样。"
 zhTW = "從這裡往下看，每個區域都像玩具一樣。"
@@ -171,8 +171,8 @@ viVN = "Chơi"
 trTR = "Oyna"
 
 ["Barbara.FolktailsPlayground.WoodenRoundabout.DisplayName"]
-status = "normal"
 raw = "Wooden Roundabout"
+status = "normal"
 enUS = "Wooden Roundabout"
 zhCN = "木制旋转木马"
 zhTW = "木製旋轉木馬"
@@ -188,8 +188,8 @@ viVN = "Vòng quay gỗ"
 trTR = "Ahşap Dönme Dolap"
 
 ["Barbara.FolktailsPlayground.WoodenRoundabout.Description"]
-status = "normal"
 raw = "A dark wooden roundabout with four colorful benches."
+status = "normal"
 enUS = "A dark wooden roundabout with four colorful benches."
 zhCN = "一个深色木制旋转木马，配有四张色彩鲜艳的长椅。"
 zhTW = "深色木製旋轉木馬，配有四張色彩繽紛的長椅。"
@@ -205,8 +205,8 @@ viVN = "Một vòng quay bằng gỗ sẫm màu với bốn chiếc ghế băng 
 trTR = "Dört renkli bankı olan koyu renkli ahşap bir dönme dolap."
 
 ["Barbara.FolktailsPlayground.WoodenRoundabout.Flavor"]
-status = "normal"
 raw = "Hold tight: tails make excellent streamers!"
+status = "normal"
 enUS = "Hold tight: tails make excellent streamers!"
 zhCN = "抓紧了：尾巴可是绝佳的飘带！"
 zhTW = "抓緊囉：尾巴可是絕佳的彩帶！"
@@ -222,8 +222,8 @@ viVN = "Bám chặt nhé: đuôi làm dây trang trí bay phấp phới tuyệt 
 trTR = "Sıkı tutunun: Kuyruklar harika flamalar olur!"
 
 ["Barbara.FolktailsPlayground.ToolGroup.DisplayName"]
-status = "normal"
 raw = "Folktails Playground"
+status = "normal"
 enUS = "Folktails Playground"
 zhCN = "神尾游乐场"
 zhTW = "神尾遊樂場"

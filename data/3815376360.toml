@@ -2,8 +2,8 @@
 name = "Conveyor Belts v2"
 
 ["LV.CBlt.Animation"]
-status = "normal"
 raw = "Animation"
+status = "normal"
 enUS = "Animation"
 zhCN = "动画"
 zhTW = "動畫"
@@ -19,8 +19,8 @@ viVN = "Hoạt ảnh"
 trTR = "Animasyon"
 
 ["LV.CBlt.AnimationDesc"]
-status = "normal"
 raw = "Move belt surfaces.\nTurn this off if a large belt network costs too much frame time."
+status = "normal"
 enUS = "Move belt surfaces.\nTurn this off if a large belt network costs too much frame time."
 zhCN = "移动传送带表面。\n如果大型传送带网络占用过多帧时间，请关闭此选项。"
 zhTW = "移動輸送帶表面。\n如果大型輸送帶網路太耗效能，請關閉此選項。"
@@ -36,8 +36,8 @@ viVN = "Di chuyển các băng chuyền.\nTắt tùy chọn này nếu mạng l�
 trTR = "Bant yüzeylerini hareket ettirir.\nBüyük bir bant ağı kare hızını fazla düşürüyorsa bunu kapatın."
 
 ["LV.CBlt.ShowArrows"]
-status = "normal"
 raw = "Show arrows"
+status = "normal"
 enUS = "Show arrows"
 zhCN = "显示箭头"
 zhTW = "顯示箭頭"
@@ -53,8 +53,8 @@ viVN = "Hiển thị mũi tên"
 trTR = "Okları göster"
 
 ["LV.CBlt.AlwaysShowArrows"]
-status = "normal"
 raw = "Always show arrows"
+status = "normal"
 enUS = "Always show arrows"
 zhCN = "始终显示箭头"
 zhTW = "永遠顯示箭頭"
@@ -70,8 +70,8 @@ viVN = "Luôn hiển thị mũi tên"
 trTR = "Okları her zaman göster"
 
 ["LV.CBlt.AlwaysShowArrowsDesc"]
-status = "normal"
 raw = "Show direction arrows even when a belt building is not selected."
+status = "normal"
 enUS = "Show direction arrows even when a belt building is not selected."
 zhCN = "即使未选中传送带建筑，也显示方向箭头。"
 zhTW = "即使未選取輸送帶建築，也顯示方向箭頭。"
@@ -103,8 +103,8 @@ viVN = "Băng chuyền"
 trTR = "Konveyör Bantları"
 
 ["LV.CBlt.GroupSp1"]
-status = "normal"
 raw = "Sp1"
+status = "normal"
 enUS = "Sp1"
 zhCN = "Sp1"
 zhTW = "Sp1"
@@ -120,8 +120,8 @@ viVN = "Sp1"
 trTR = "Sp1"
 
 ["LV.CBlt.GroupSp2"]
-status = "normal"
 raw = "Sp2"
+status = "normal"
 enUS = "Sp2"
 zhCN = "Sp2"
 zhTW = "Sp2"
@@ -137,8 +137,8 @@ viVN = "Sp2"
 trTR = "Sp2"
 
 ["LV.CBlt.GroupSp3"]
-status = "normal"
 raw = "Sp3"
+status = "normal"
 enUS = "Sp3"
 zhCN = "Sp3"
 zhTW = "Sp3"
@@ -154,8 +154,8 @@ viVN = "Sp3"
 trTR = "Sp3"
 
 ["LV.CBlt.GroupSp4"]
-status = "normal"
 raw = "Sp4"
+status = "normal"
 enUS = "Sp4"
 zhCN = "Sp4"
 zhTW = "Sp4"
@@ -171,8 +171,8 @@ viVN = "Sp4"
 trTR = "Sp4"
 
 ["LV.CBlt.BeltSp1Name"]
-status = "normal"
 raw = "Sp1 Belt"
+status = "normal"
 enUS = "Sp1 Belt"
 zhCN = "Sp1 输送带"
 zhTW = "Sp1 輸送帶"
@@ -188,8 +188,8 @@ viVN = "Băng chuyền Sp1"
 trTR = "Sp1 Konveyör Bandı"
 
 ["LV.CBlt.BeltSp2Name"]
-status = "normal"
 raw = "Sp2 Belt"
+status = "normal"
 enUS = "Sp2 Belt"
 zhCN = "Sp2 输送带"
 zhTW = "Sp2 輸送帶"
@@ -205,8 +205,8 @@ viVN = "Băng chuyền Sp2"
 trTR = "Sp2 Bandı"
 
 ["LV.CBlt.BeltSp3Name"]
-status = "normal"
 raw = "Sp3 Belt"
+status = "normal"
 enUS = "Sp3 Belt"
 zhCN = "Sp3 传送带"
 zhTW = "Sp3 輸送帶"
@@ -222,8 +222,8 @@ viVN = "Băng chuyền Sp3"
 trTR = "Sp3 Bant"
 
 ["LV.CBlt.BeltSp4Name"]
-status = "normal"
 raw = "Sp4 Belt"
+status = "normal"
 enUS = "Sp4 Belt"
 zhCN = "Sp4 传送带"
 zhTW = "Sp4 輸送帶"
@@ -239,8 +239,8 @@ viVN = "Băng chuyền Sp4"
 trTR = "Sp4 Bandı"
 
 ["LV.CBlt.BeltDesc"]
-status = "normal"
 raw = "A straight belt."
+status = "normal"
 enUS = "A straight belt."
 zhCN = "一条直线传送带。"
 zhTW = "直線輸送帶。"
@@ -256,8 +256,8 @@ viVN = "Một băng chuyền thẳng."
 trTR = "Düz bir taşıma bandı."
 
 ["LV.CBlt.BeltFlavor"]
-status = "normal"
 raw = "Folktail engineers say it was inspired by watching logs roll downhill."
+status = "normal"
 enUS = "Folktail engineers say it was inspired by watching logs roll downhill."
 zhCN = "神尾工程师说，这个设计的灵感来自观察原木滚下山坡。"
 zhTW = "神尾工程師說，這是受到觀察木頭滾下坡的啟發。"
@@ -273,8 +273,8 @@ viVN = "Các kỹ sư Folktails nói rằng họ lấy cảm hứng từ việc 
 trTR = "Köykuyruk mühendisler, bu fikrin kütüklerin yokuş aşağı yuvarlanmasını izlemekten geldiğini söylüyor."
 
 ["LV.CBlt.CornerSp1Name"]
-status = "normal"
 raw = "Sp1 Corner Belt"
+status = "normal"
 enUS = "Sp1 Corner Belt"
 zhCN = "Sp1 转角传送带"
 zhTW = "Sp1 轉角輸送帶"
@@ -290,8 +290,8 @@ viVN = "Băng chuyền góc Sp1"
 trTR = "Sp1 Köşe Bandı"
 
 ["LV.CBlt.CornerSp2Name"]
-status = "normal"
 raw = "Sp2 Corner Belt"
+status = "normal"
 enUS = "Sp2 Corner Belt"
 zhCN = "Sp2 转角传送带"
 zhTW = "Sp2 轉角輸送帶"
@@ -323,8 +323,8 @@ viVN = "Băng chuyền góc Sp3"
 trTR = "Sp3 Köşe Bandı"
 
 ["LV.CBlt.CornerSp4Name"]
-status = "normal"
 raw = "Sp4 Corner Belt"
+status = "normal"
 enUS = "Sp4 Corner Belt"
 zhCN = "Sp4 转角传送带"
 zhTW = "Sp4 轉角輸送帶"
@@ -340,8 +340,8 @@ viVN = "Băng tải góc Sp4"
 trTR = "Sp4 Köşe Bandı"
 
 ["LV.CBlt.CornerDesc"]
-status = "normal"
 raw = "Turns a belt 90°."
+status = "normal"
 enUS = "Turns a belt 90°."
 zhCN = "使传送带转向 90°。"
 zhTW = "將輸送帶轉向 90°。"
@@ -357,8 +357,8 @@ viVN = "Bẻ cong băng chuyền 90°."
 trTR = "Bir bandı 90° döndürür."
 
 ["LV.CBlt.CornerFlavor"]
-status = "normal"
 raw = "Every good plan meets a wall. This is how you keep the plan."
+status = "normal"
 enUS = "Every good plan meets a wall. This is how you keep the plan."
 zhCN = "再好的计划也会碰壁。这就是你坚持计划的方式。"
 zhTW = "再好的計畫都會碰壁。這就是讓計畫得以延續的方法。"
@@ -525,8 +525,8 @@ viVN = "Đầu ra băng chuyền Sp3 hướng lên"
 trTR = "Sp3 Çıkış Yukarı"
 
 ["LV.CBlt.ElbowOutSp4UpName"]
-status = "normal"
 raw = "Sp4 Out Up"
+status = "normal"
 enUS = "Sp4 Out Up"
 zhCN = "Sp4 输出向上"
 zhTW = "Sp4 輸出向上"
@@ -602,8 +602,8 @@ csCZ = "Sp4 výstup dolů"
 viVN = "Băng chuyền ra hướng xuống Sp4"
 
 ["LV.CBlt.ElbowInUpDesc"]
-status = "normal"
 raw = "Turns a horizontal belt upward."
+status = "normal"
 enUS = "Turns a horizontal belt upward."
 zhCN = "使水平传送带向上转向。"
 zhTW = "將水平輸送帶轉向上方。"
@@ -619,8 +619,8 @@ viVN = "Chuyển băng chuyền nằm ngang hướng lên trên."
 trTR = "Yatay bir bandı yukarı doğru çevirir."
 
 ["LV.CBlt.ElbowInDownDesc"]
-status = "normal"
 raw = "Turns a horizontal belt downward."
+status = "normal"
 enUS = "Turns a horizontal belt downward."
 zhCN = "将水平传送带向下转向。"
 zhTW = "將水平輸送帶向下轉彎。"
@@ -652,8 +652,8 @@ viVN = "Chuyển băng chuyền hướng lên thành nằm ngang."
 trTR = "Yukarı çıkan bir bandı yatay hâle getirir."
 
 ["LV.CBlt.ElbowOutDownDesc"]
-status = "normal"
 raw = "Turns a downward belt horizontal."
+status = "normal"
 enUS = "Turns a downward belt horizontal."
 zhCN = "将向下的传送带转为水平方向。"
 zhTW = "將向下的輸送帶轉為水平。"
@@ -685,8 +685,8 @@ viVN = "Băng chuyền chống thấm nước"
 trTR = "Su Geçirmez Bant"
 
 ["LV.CBlt.ImpermeableDesc"]
-status = "normal"
 raw = "A straight belt that blocks water."
+status = "normal"
 enUS = "A straight belt that blocks water."
 zhCN = "一种阻挡水流的直线传送带。"
 zhTW = "會阻擋水流的直線輸送帶。"
@@ -702,8 +702,8 @@ viVN = "Băng chuyền thẳng ngăn nước."
 trTR = "Suyu engelleyen düz bir kayış."
 
 ["LV.CBlt.ImpermeableFlavor"]
-status = "normal"
 raw = "The boxes come off a bit sticky. Everyone agrees this is fine."
+status = "normal"
 enUS = "The boxes come off a bit sticky. Everyone agrees this is fine."
 zhCN = "箱子拿下来时有点黏。大家都觉得这没问题。"
 zhTW = "箱子拿下來時有點黏。大家都覺得這沒問題。"
@@ -733,8 +733,8 @@ csCZ = "Slučovač"
 trTR = "Birleştirici"
 
 ["LV.CBlt.MergerDesc"]
-status = "normal"
 raw = "Merge up to three belts into a single belt."
+status = "normal"
 enUS = "Merge up to three belts into a single belt."
 zhCN = "将最多三条传送带合并为一条。"
 zhTW = "將最多三條輸送帶合併成一條輸送帶。"
@@ -750,8 +750,8 @@ viVN = "Gộp tối đa ba băng chuyền thành một băng chuyền duy nhất
 trTR = "En fazla üç bandı tek bir bantta birleştirin."
 
 ["LV.CBlt.MergerFlavor"]
-status = "normal"
 raw = "A peaceful solution to having too many directions."
+status = "normal"
 enUS = "A peaceful solution to having too many directions."
 zhCN = "解决方向过多问题的和平方案。"
 zhTW = "解決方向太多問題的和平方案。"
@@ -767,8 +767,8 @@ viVN = "Một giải pháp yên bình khi có quá nhiều hướng đi."
 trTR = "Çok fazla yön olması sorununa barışçıl bir çözüm."
 
 ["LV.CBlt.SplitterName"]
-status = "normal"
 raw = "Splitter"
+status = "normal"
 enUS = "Splitter"
 zhCN = "分流器"
 zhTW = "分流器"
@@ -784,8 +784,8 @@ viVN = "Bộ chia hàng"
 trTR = "Ayırıcı"
 
 ["LV.CBlt.SplitterDesc"]
-status = "normal"
 raw = "Split the input belt into up to three belts."
+status = "normal"
 enUS = "Split the input belt into up to three belts."
 zhCN = "将输入传送带分流至最多三条传送带。"
 zhTW = "將輸入輸送帶分流至最多三條輸送帶。"
@@ -801,8 +801,8 @@ viVN = "Chia băng chuyền đầu vào thành tối đa ba băng chuyền."
 trTR = "Girdi bandını en fazla üç banda ayırın."
 
 ["LV.CBlt.SplitterFlavor"]
-status = "normal"
 raw = "'My brother Orville's Smart Splitter violates DRY in so many ways.' —xa0Wilburxa0Wreave"
+status = "normal"
 enUS = "'My brother Orville's Smart Splitter violates DRY in so many ways.' —xa0Wilburxa0Wreave"
 zhCN = "“我兄弟奥维尔的智能分拣器在很多方面都违反了 DRY 原则。”——xa0威尔伯xa0韦雷夫"
 zhTW = "「我兄弟 Orville 的智慧分流器，在 DRY 原則上違反得一塌糊塗。」—xa0Wilburxa0Wreave"
@@ -834,8 +834,8 @@ viVN = "Bộ chia thông minh"
 trTR = "Akıllı Ayırıcı"
 
 ["LV.CBlt.SmartDesc"]
-status = "normal"
 raw = "A splitter that can filter the good or overflow output."
+status = "normal"
 enUS = "A splitter that can filter the good output or the overflow output."
 zhCN = "一种可筛选优质输出或溢出输出的分流器。"
 zhTW = "可篩選良品或溢流輸出的分流器。"
@@ -865,8 +865,8 @@ viVN = "“Máy phân loại của anh trai tôi, Wilbur, lặp lại cùng mộ
 trTR = "\"Kardeşim Wilbur'ın Ayırıcı'sı aynı hatayı üç kez tekrarlıyor.\" —xa0Orvillexa0Wreave"
 
 ["LV.CBlt.LiftInName"]
-status = "normal"
 raw = "Lift In"
+status = "normal"
 enUS = "Lift In"
 zhCN = "升降机入口"
 zhTW = "輸送帶入口"
@@ -882,8 +882,8 @@ viVN = "Thang nâng vào"
 trTR = "Yukarı Taşıma Girişi"
 
 ["LV.CBlt.LiftInDesc"]
-status = "normal"
 raw = "Takes goods from the belt and sends them up or down."
+status = "normal"
 enUS = "Takes goods from the belt and sends them up or down."
 zhCN = "从传送带上取走货物，并将其向上或向下输送。"
 zhTW = "從輸送帶取得貨物，並將其向上或向下輸送。"
@@ -899,8 +899,8 @@ viVN = "Lấy hàng hóa từ băng chuyền và chuyển chúng lên hoặc xu�
 trTR = "Banttaki malları alır ve yukarıya ya da aşağıya gönderir."
 
 ["LV.CBlt.LiftInFlavor"]
-status = "normal"
 raw = "Attached with a big warning sign saying: NO KITS ALLOWED."
+status = "normal"
 enUS = "Attached with a big warning sign saying: NO KITS ALLOWED."
 zhCN = "上面挂着一个大大的警告牌，写着：禁止幼崽进入。"
 zhTW = "上面掛著一塊醒目的警告牌，寫著：禁止運送幼崽。"
@@ -916,8 +916,8 @@ viVN = "Được gắn kèm một biển cảnh báo lớn ghi: CẤM GẤU CON.
 trTR = "Üzerine “YAVRULAR GİREMEZ” yazan büyük bir uyarı levhası iliştirilmiş."
 
 ["LV.CBlt.LiftOutName"]
-status = "normal"
 raw = "Lift Out"
+status = "normal"
 enUS = "Lift Out"
 zhCN = "升降机出口"
 zhTW = "升降輸出口"
@@ -933,8 +933,8 @@ viVN = "Đưa lên બહાર"
 trTR = "Dışarı Taşıma"
 
 ["LV.CBlt.LiftOutDesc"]
-status = "normal"
 raw = "Takes goods from above and below and sends them out on one belt."
+status = "normal"
 enUS = "Takes goods from above and below and sends them out on one belt."
 zhCN = "从上方和下方接收货物，并将其送上同一条传送带。"
 zhTW = "從上方和下方取貨，並透過同一條輸送帶送出。"
@@ -950,8 +950,8 @@ viVN = "Lấy hàng hóa từ phía trên và phía dưới rồi đưa chúng r
 trTR = "Yukarıdan ve aşağıdan malları alıp tek bir banda gönderir."
 
 ["LV.CBlt.LiftOutFlavor"]
-status = "normal"
 raw = "Attached with a big warning sign saying: NO KITS ALLOWED."
+status = "normal"
 enUS = "Attached with a big warning sign that says: NO KITS ALLOWED."
 zhCN = "上面贴着一块醒目的警告牌：禁止幼崽进入。"
 zhTW = "旁邊掛著一個大大的警告牌，上面寫著：禁止幼海狸進入。"
@@ -967,8 +967,8 @@ viVN = "Gắn kèm một biển cảnh báo lớn ghi: CẤM KIT."
 trTR = "Üzerine “YAVRULAR GİREMEZ” yazan büyük bir uyarı levhası asılmış."
 
 ["LV.CBlt.RiserSp1UpName"]
-status = "normal"
 raw = "Sp1 Riser Up"
+status = "normal"
 enUS = "Sp1 Riser Up"
 zhCN = "Sp1 上升式提升机"
 zhTW = "Sp1 上升輸送帶立管"
@@ -1028,8 +1028,8 @@ csCZ = "Sp4 stoupací pás nahoru"
 trTR = "Sp4 Yükseltici Yukarı"
 
 ["LV.CBlt.RiserUpDesc"]
-status = "normal"
 raw = "A vertical belt that carries goods upward. Place it on a building, a lift, or another riser."
+status = "normal"
 enUS = "A vertical belt that carries goods upward. Place it on a building, a lift, or another riser."
 zhCN = "一种向上运输货物的垂直传送带。将其放置在建筑、升降机或其他升运器上。"
 zhTW = "一種垂直輸送帶，可將貨物向上運送。將它放置在建築物、升降機或其他上升輸送帶上。"
@@ -1045,8 +1045,8 @@ viVN = "Băng chuyền thẳng đứng vận chuyển hàng hóa lên trên. Đ�
 trTR = "Yukarı doğru mal taşıyan dikey bir bant. Bir binanın, asansörün veya başka bir yükselticinin üzerine yerleştirin."
 
 ["LV.CBlt.RiserUpFlavor"]
-status = "normal"
 raw = "For an Iron Teeth invention, it's surprisingly <i>uplifting</i>."
+status = "normal"
 enUS = "For an Iron Teeth invention, it's surprisingly <i>uplifting</i>."
 zhCN = "作为铁牙的发明，它竟然还挺<i>振奋人心</i>。"
 zhTW = "對鐵牙的發明來說，這還真是令人<i>振奮</i>。"
@@ -1078,8 +1078,8 @@ viVN = "Băng tải nâng Sp1 đi xuống"
 trTR = "Sp1 Aşağı Yükseltici"
 
 ["LV.CBlt.RiserSp2DownName"]
-status = "normal"
 raw = "Sp2 Riser Down"
+status = "normal"
 enUS = "Sp2 Riser Down"
 zhCN = "Sp2 下行提升机"
 zhTW = "Sp2 下行升降機"
@@ -1095,8 +1095,8 @@ viVN = "Băng tải nâng Sp2 xuống"
 trTR = "Sp2 Aşağı Yükseltici"
 
 ["LV.CBlt.RiserSp3DownName"]
-status = "normal"
 raw = "Sp3 Riser Down"
+status = "normal"
 enUS = "Sp3 Down Riser"
 zhCN = "Sp3 下行提升机"
 zhTW = "Sp3 向下升降機"
@@ -1112,8 +1112,8 @@ viVN = "Băng tải nâng hạ Sp3 hướng xuống"
 trTR = "Sp3 Aşağı Yükseltici"
 
 ["LV.CBlt.RiserSp4DownName"]
-status = "normal"
 raw = "Sp4 Riser Down"
+status = "normal"
 enUS = "Sp4 Down Riser"
 zhCN = "Sp4 下行升降机"
 zhTW = "Sp4 下行升降機"
@@ -1129,8 +1129,8 @@ viVN = "Băng tải nâng hạ Sp4 hướng xuống"
 trTR = "Sp4 Aşağı Yükseltici"
 
 ["LV.CBlt.RiserDownDesc"]
-status = "normal"
 raw = "A vertical belt that carries goods downward. Place it on a building, a lift, or another riser."
+status = "normal"
 enUS = "A vertical belt that carries goods downward. Place it on a building, a lift, or another riser."
 zhCN = "一条向下运送货物的垂直传送带。将其放置在建筑、升降机或其他立管上。"
 zhTW = "將貨物向下運送的垂直輸送帶。將它放置在建築物、升降機或其他立式輸送帶上。"
@@ -1146,8 +1146,8 @@ viVN = "Băng chuyền thẳng đứng vận chuyển hàng hóa xuống dưới
 trTR = "Eşyaları aşağı taşıyan dikey bir bant. Bir binanın, kaldıracın veya başka bir yükselticinin üzerine yerleştirin."
 
 ["LV.CBlt.RiserDownFlavor"]
-status = "normal"
 raw = "'Shouldn't this thing produce power instead of consuming it?'"
+status = "normal"
 enUS = "'Shouldn't this thing produce power instead of consuming it?'"
 zhCN = "“这东西不是应该产生动力，而不是消耗动力吗？”"
 zhTW = "「這玩意兒不是應該產生動力，而不是消耗動力嗎？」"
@@ -1178,8 +1178,8 @@ csCZ = "Upozornit při zaseknutí"
 viVN = "Cảnh báo khi bị kẹt"
 
 ["LV.CBlt.Eject"]
-status = "normal"
 raw = "Eject content"
+status = "normal"
 enUS = "Eject content"
 zhCN = "弹出内容"
 zhTW = "排出內容"
@@ -1195,8 +1195,8 @@ viVN = "Đẩy vật phẩm ra ngoài"
 trTR = "İçeriği çıkar"
 
 ["LV.CBlt.Empty"]
-status = "normal"
 raw = "Nothing on the belt."
+status = "normal"
 enUS = "Nothing on the belt."
 zhCN = "传送带上没有物品。"
 zhTW = "輸送帶上沒有東西。"
@@ -1212,8 +1212,8 @@ viVN = "Không có gì trên băng chuyền."
 trTR = "Bantta hiçbir şey yok."
 
 ["LV.CBlt.Carrying"]
-status = "normal"
 raw = "Carrying: {0}"
+status = "normal"
 enUS = "Carrying: {0}"
 zhCN = "正在搬运：{0}"
 zhTW = "搬運中：{0}"
@@ -1229,8 +1229,8 @@ viVN = "Đang vận chuyển: {0}"
 trTR = "Taşıyor: {0}"
 
 ["LV.CBlt.Stuck"]
-status = "normal"
 raw = "Belt is holding a good it cannot pass on."
+status = "normal"
 enUS = "The belt is holding an item it cannot pass on."
 zhCN = "传送带上有一件无法继续传送的物品。"
 zhTW = "輸送帶上卡著一件無法傳送的貨物。"
@@ -1246,8 +1246,8 @@ viVN = "Băng chuyền đang giữ một món hàng mà nó không thể chuyể
 trTR = "Bant, aktaramadığı bir malı tutuyor."
 
 ["LV.CBlt.StuckShort"]
-status = "normal"
 raw = "Belt stuck"
+status = "normal"
 enUS = "Belt stuck"
 zhCN = "传送带卡住了"
 zhTW = "輸送帶卡住了"
@@ -1263,8 +1263,8 @@ viVN = "Băng chuyền bị kẹt"
 trTR = "Bant sıkıştı"
 
 ["LV.CBlt.Rate"]
-status = "normal"
 raw = "Throughput: {0} items/hour"
+status = "normal"
 enUS = "Throughput: {0} items/hour"
 zhCN = "吞吐量：{0} 件/小时"
 zhTW = "輸送量：{0} 件／小時"
@@ -1280,8 +1280,8 @@ viVN = "Lưu lượng: {0} món/giờ"
 trTR = "İşleme hızı: saatte {0} öğe"
 
 ["LV.CBlt.CanTransferBuildings"]
-status = "normal"
 raw = "Can transfer goods in and out of buildings."
+status = "normal"
 enUS = "Can transfer goods into and out of buildings."
 zhCN = "可以将货物送入或送出建筑物。"
 zhTW = "可以將貨物移入或移出建築物。"
@@ -1297,8 +1297,8 @@ viVN = "Có thể vận chuyển hàng hóa vào và ra khỏi các công trình
 trTR = "Binalara mal taşıyabilir ve binalardan mal alabilir."
 
 ["LV.CBlt.BeltFloodable"]
-status = "normal"
 raw = "<RedHighlight>Floodable Belt</RedHighlight>: continue to work but lose all its content when flooded."
+status = "normal"
 enUS = "<RedHighlight>Floodable Belt</RedHighlight>: continues to work but loses all its contents when flooded."
 zhCN = "<RedHighlight>可淹没传送带</RedHighlight>：即使被水淹没也会继续工作，但会失去所有内容物。"
 zhTW = "<RedHighlight>可淹沒輸送帶</RedHighlight>：即使被淹沒仍會繼續運作，但所有內容物都會流失。"
@@ -1314,8 +1314,8 @@ viVN = "<RedHighlight>Băng chuyền có thể bị ngập</RedHighlight>: tiế
 trTR = "<RedHighlight>Su Basabilir Bant</RedHighlight>: çalışmaya devam eder ancak su bastığında içindeki tüm içeriği kaybeder."
 
 ["LV.CBlt.BeltFloodedShort"]
-status = "normal"
 raw = "Belt Flooded"
+status = "normal"
 enUS = "Belt Flooded"
 zhCN = "传送带被淹没"
 zhTW = "輸送帶遭淹水"
@@ -1420,8 +1420,8 @@ viVN = "Phải"
 trTR = "Sağ"
 
 ["LV.CBlt.ModUpdate114000"]
-status = "normal"
 raw = "v11.4.0:\n- Added 4 vertical belt pieces for each speed that can transfer goods in and out of buildings.\n- Remodeled Lift in and Lift out."
+status = "normal"
 enUS = "v11.4.0:\n- Added 4 vertical belt pieces for each speed that can transfer goods into and out of buildings.\n- Remodeled Lift In and Lift Out."
 zhCN = "v11.4.0：\n- 新增了每种速度的 4 种垂直传送带部件，可用于向建筑内输送货物和从建筑内运出货物。\n- 重制了输入提升机和输出提升机。"
 zhTW = "v11.4.0：\n- 每種速度新增 4 種垂直輸送帶零件，可將貨物送入或送出建築。\n- 重新設計了輸送帶升降入口和輸送帶升降出口。"
@@ -1437,8 +1437,8 @@ viVN = "v11.4.0:\n- Đã thêm 4 đoạn băng chuyền thẳng đứng cho mỗ
 trTR = "v11.4.0:\n- Her hız için, binalara mal taşıyabilen 4 dikey taşıyıcı bant parçası eklendi.\n- Giriş Asansörü ve Çıkış Asansörü yeniden düzenlendi."
 
 [Name_BeltArrowFragment]
-status = "normal"
 raw = "[DO_NOT_COLLAPSE]"
+status = "normal"
 enUS = "[DO_NOT_COLLAPSE]"
 zhCN = "[DO_NOT_COLLAPSE]"
 zhTW = "[請勿摺疊]"
@@ -1470,8 +1470,8 @@ csCZ = "Dopravní pás"
 trTR = "Konveyör Bandı"
 
 [Name_SmartSplitterFragment]
-status = "normal"
 raw = "Smart Splitter"
+status = "normal"
 enUS = "Smart Splitter"
 zhCN = "智能分拣器"
 zhTW = "智慧分流器"
@@ -1487,8 +1487,8 @@ viVN = "Bộ chia thông minh"
 trTR = "Akıllı Ayırıcı"
 
 ["LV.CBlt.ModUpdate113000"]
-status = "abandoned"
 raw = "There was a big update that completely revamp this mod. Please see the Steam page for details."
+status = "abandoned"
 enUS = "There was a major update that completely revamped this mod. Please see the Steam page for details."
 zhCN = "此模组经历了一次重大更新，全面改版。详情请查看 Steam 页面。"
 zhTW = "這個模組有一次重大更新，徹底改造了模組內容。詳情請參閱 Steam 頁面。"

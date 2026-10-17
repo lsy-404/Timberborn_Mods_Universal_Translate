@@ -2,8 +2,8 @@
 name = "Wind Turbines"
 
 ["LV.WTB.WindmillBatteryName"]
-status = "normal"
 raw = "Large Wind Turbine w. Battery"
+status = "normal"
 enUS = "Large Wind Turbine with Battery"
 zhCN = "大型带电池风力涡轮机"
 zhTW = "大型風力渦輪機（附電池）"
@@ -35,8 +35,8 @@ viVN = "Tạo ra năng lượng tùy theo tốc độ và hướng gió. Đồng
 trTR = "Rüzgârın hızına ve yönüne orantılı olarak güç üretir. Ayrıca fazla gücü depolar ve şebekesinde güç yetersiz olduğunda geri verir."
 
 ["LV.WTB.WindmillBatteryFlavor"]
-status = "normal"
 raw = "Here's what you can do when you invent your own laws of mods."
+status = "normal"
 enUS = "Here's what you can do when you invent your own laws of mods."
 zhCN = "发明自己的模组定律时，你可以这么做。"
 zhTW = "發明自己的模組法則時，你可以這麼做。"
@@ -52,8 +52,8 @@ viVN = "Đây là những gì bạn có thể làm khi tự đặt ra luật ch�
 trTR = "Kendi mod yasalarını icat ettiğinde yapabileceklerin bunlar."
 
 ["LV.WTB.GeneratorWindStr"]
-status = "normal"
 raw = "Wind Strength: {0:0%} → {1:0.0}hp"
+status = "normal"
 enUS = "Wind Strength: {0:0%} → {1:0.0}hp"
 zhCN = "风力强度：{0:0%} → {1:0.0}hp"
 zhTW = "風力強度：{0:0%} → {1:0.0}hp"
@@ -69,8 +69,8 @@ viVN = "Sức gió: {0:0%} → {1:0.0}hp"
 trTR = "Rüzgâr Gücü: {0:0%} → {1:0.0}hp"
 
 ["LV.WTB.GeneratorWindStrDirection"]
-status = "normal"
 raw = "Wind Direction: {0:0}° / {1:0}° → {2:0.0}hp ({3:0%})"
+status = "normal"
 enUS = "Wind Direction: {0:0}° / {1:0}° → {2:0.0}hp ({3:0%})"
 zhCN = "风向：{0:0}° / {1:0}° → {2:0.0} hp（{3:0%}）"
 zhTW = "風向：{0:0}° / {1:0}° → {2:0.0}hp ({3:0%})"
@@ -86,8 +86,8 @@ viVN = "Hướng gió: {0:0}° / {1:0}° → {2:0.0}hp ({3:0%})"
 trTR = "Rüzgâr Yönü: {0:0}° / {1:0}° → {2:0.0}hp ({3:0%})"
 
 [Name_LimitedWindTurbineFragment]
-status = "normal"
 raw = "Wind Turbine"
+status = "normal"
 enUS = "Wind Turbine"
 zhCN = "风力涡轮机"
 zhTW = "風力渦輪機"

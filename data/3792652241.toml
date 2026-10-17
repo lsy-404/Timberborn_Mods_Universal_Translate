@@ -2,8 +2,8 @@
 name = "Bad Things"
 
 ["Building.BadThorns.DisplayName"]
-status = "normal"
 raw = "BadThorns"
+status = "normal"
 enUS = "Bad Thorns"
 zhCN = "恶棘"
 zhTW = "壞荊棘"
@@ -32,8 +32,8 @@ koKR = "오염을 일으키는 가시 덤불"
 csCZ = "Trn, který kontaminuje"
 
 ["Building.BadThorns.FlavorDescription"]
-status = "normal"
 raw = "Flavourtext thorn contamination"
+status = "normal"
 enUS = "Thorn contamination flavor text"
 zhCN = "荆棘污染风味文本"
 zhTW = "荊棘污染的風味文字"
@@ -49,8 +49,8 @@ viVN = "Văn bản hương vị: ô nhiễm gai nhọn"
 trTR = "Diken kirliliğiyle ilgili lezzet metni"
 
 ["Building.BadThingBlkBarrel.DisplayName"]
-status = "normal"
 raw = "BARREL of BAD"
+status = "normal"
 enUS = "BARREL of BAD"
 zhCN = "一桶坏东西"
 zhTW = "壞東西桶"

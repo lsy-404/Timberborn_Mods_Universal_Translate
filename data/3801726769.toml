@@ -2,8 +2,8 @@
 name = "Timber Pipes"
 
 ["LV.TPi.EqualizeK"]
-status = "normal"
 raw = "Flow equalization rate (EqualizeK)"
+status = "normal"
 enUS = "Flow equalization rate (EqualizeK)"
 zhCN = "流量均衡率（EqualizeK）"
 zhTW = "流量均衡率（EqualizeK）"
@@ -19,8 +19,8 @@ viVN = "Tốc độ cân bằng dòng chảy (EqualizeK)"
 trTR = "Akış eşitleme oranı (EqualizeK)"
 
 ["LV.TPi.EqualizeKDesc"]
-status = "normal"
 raw = "How quickly connected pipes even out. Higher values move liquid faster. Default 0.8."
+status = "normal"
 enUS = "How quickly connected pipes equalize. Higher values move liquid faster. Default: 0.8."
 zhCN = "相连管道中液体达到平衡的速度。数值越高，液体流动越快。默认值为 0.8。"
 zhTW = "連接的管道平衡液體的速度。數值越高，液體流動越快。預設值為 0.8。"
@@ -36,8 +36,8 @@ viVN = "Tốc độ cân bằng của các đường ống được kết nối.
 trTR = "Bağlı borulardaki sıvıların ne kadar hızlı dengelendiği. Daha yüksek değerler sıvıyı daha hızlı taşır. Varsayılan: 0.8."
 
 ["LV.TPi.GroupName"]
-status = "normal"
 raw = "Pipes"
+status = "normal"
 enUS = "Pipes"
 zhCN = "管道"
 zhTW = "管道"
@@ -68,8 +68,8 @@ viVN = "Ống dẫn nước"
 trTR = "Boru"
 
 ["LV.TPi.HorizontalPipeDesc"]
-status = "normal"
 raw = "Carries fluid in a straight line."
+status = "normal"
 enUS = "Carries fluid in a straight line."
 zhCN = "沿直线输送液体。"
 zhTW = "沿直線輸送流體。"
@@ -85,8 +85,8 @@ viVN = "Dẫn chất lỏng theo đường thẳng."
 trTR = "Sıvıyı düz bir hat boyunca taşır."
 
 ["LV.TPi.HorizontalPipeFlavor"]
-status = "normal"
 raw = "The committee voted for a canal. The budget voted for a pipe."
+status = "normal"
 enUS = "The committee voted for a canal. The budget voted for a pipe."
 zhCN = "委员会投票决定修建运河。预算则投票决定修建管道。"
 zhTW = "委員會投票支持開鑿運河。預算則投票支持鋪設管道。"
@@ -102,8 +102,8 @@ viVN = "Ủy ban bỏ phiếu chọn kênh đào. Ngân sách bỏ phiếu chọ
 trTR = "Komite kanal için oy kullandı. Bütçe ise boru için."
 
 ["LV.TPi.ElbowPipeName"]
-status = "normal"
 raw = "Elbow"
+status = "normal"
 enUS = "Elbow"
 zhCN = "弯头管道"
 zhTW = "彎管"
@@ -119,8 +119,8 @@ viVN = "Ống cong vuông góc"
 trTR = "Dirsek"
 
 ["LV.TPi.ElbowPipeDesc"]
-status = "normal"
 raw = "Turns a pipe run 90°."
+status = "normal"
 enUS = "Turns a pipe run 90°."
 zhCN = "将管道线路转向 90°。"
 zhTW = "讓管線轉向 90°。"
@@ -136,8 +136,8 @@ viVN = "Đổi hướng đường ống 90°."
 trTR = "Boru hattını 90° döndürür."
 
 ["LV.TPi.ElbowPipeFlavor"]
-status = "normal"
 raw = "Every good plan meets a wall. This is how you keep the plan."
+status = "normal"
 enUS = "Every good plan meets a wall. This is how you keep the plan."
 zhCN = "再好的计划也会碰壁。这就是你坚持计划的方式。"
 zhTW = "再好的計畫都會碰上阻礙。這就是你堅持計畫的方法。"
@@ -168,8 +168,8 @@ csCZ = "Jednosměrné koleno"
 viVN = "Ống khuỷu một chiều"
 
 ["LV.TPi.ElbowPipeValveDesc"]
-status = "normal"
 raw = "A one-way 90° pipe. Can be closed both ways when paused. Point a directed end at a building to pour into it or draw from it. Select the valve and opt in Fill or Extract."
+status = "normal"
 enUS = "A one-way 90° pipe. Can be closed in both directions when paused. Point a directed end at a building to pour into it or draw from it. Select the valve and choose Fill or Extract."
 zhCN = "单向 90° 管道。暂停时可关闭两个方向。将带有方向的一端对准建筑，即可向其中注入或从中抽取液体。选中阀门并选择“注入”或“抽取”。"
 zhTW = "單向 90° 管道。暫停時可雙向關閉。將有方向的一端對準建築物，即可向其注入或從中抽取液體。選取閥門，選擇「注入」或「抽取」。"
@@ -185,8 +185,8 @@ viVN = "Một đường ống một chiều góc 90°. Có thể đóng cả hai
 trTR = "Tek yönlü 90° boru. Duraklatıldığında iki yönde de kapatılabilir. İçine sıvı aktarmak veya sıvı çekmek için yönlü ucunu bir binaya doğrultun. Vanayı seçip Doldurma veya Çekme modunu seçin."
 
 ["LV.TPi.ElbowPipeValveFlavor"]
-status = "normal"
 raw = "The engineer bent to the will of the popular making this piece."
+status = "normal"
 enUS = "The engineer bent to the will of the people when making this piece."
 zhCN = "工程师屈服于大众的意愿，造出了这件作品。"
 zhTW = "工程師屈服於大眾的意願，製作了這個部件。"
@@ -202,8 +202,8 @@ viVN = "Kỹ sư đã chiều theo ý muốn của số đông khi chế tạo b
 trTR = "Mühendis, halkın isteğine boyun eğerek bu parçayı yaptı."
 
 ["LV.TPi.CrossPipeName"]
-status = "normal"
 raw = "Cross"
+status = "normal"
 enUS = "Cross"
 zhCN = "十字管道"
 zhTW = "交叉管道"
@@ -219,8 +219,8 @@ viVN = "Ống giao nhau"
 trTR = "Kavşak"
 
 ["LV.TPi.CrossPipeDesc"]
-status = "normal"
 raw = "Joins up to four horizontal pipes."
+status = "normal"
 enUS = "Joins up to four horizontal pipes."
 zhCN = "可连接最多四根水平管道。"
 zhTW = "連接最多四條水平管道。"
@@ -236,8 +236,8 @@ viVN = "Nối tối đa bốn đường ống nằm ngang."
 trTR = "Dörde kadar yatay boruyu birbirine bağlar."
 
 ["LV.TPi.CrossPipeFlavor"]
-status = "normal"
 raw = "Everyone groans when Bramble starts the “four pipes walk into a [i]bar[/i]” joke again."
+status = "normal"
 enUS = "Everyone groans when Bramble starts the “four pipes walk into a [i]bar[/i]” joke again."
 zhCN = "每次布莱姆又开始讲“四根管子走进一家[i]酒吧[/i]”的笑话，大家都会哀嚎。"
 zhTW = "每次布蘭布爾又開始講「四根管子走進一間[i]酒吧[/i]」的笑話時，大家都會發出哀嘆聲。"
@@ -253,8 +253,8 @@ viVN = "Ai cũng rên rỉ khi Bramble lại bắt đầu kể câu đùa “b�
 trTR = "Bramble “dört boru [i]bara[/i] girer” şakasını yine anlatmaya başlayınca herkes inliyor."
 
 ["LV.TPi.TPipeName"]
-status = "normal"
 raw = "T Junction"
+status = "normal"
 enUS = "T-Junction"
 zhCN = "T形接头"
 zhTW = "T 字形交叉管道"
@@ -270,8 +270,8 @@ viVN = "Ống nối chữ T"
 trTR = "T Kavşağı"
 
 ["LV.TPi.TPipeDesc"]
-status = "normal"
 raw = "Joins up to three horizontal pipes."
+status = "normal"
 enUS = "Connects up to three horizontal pipes."
 zhCN = "最多可连接三根水平管道。"
 zhTW = "可連接最多三條水平管道。"
@@ -287,8 +287,8 @@ viVN = "Nối tối đa ba đường ống nằm ngang."
 trTR = "En fazla üç yatay boruyu birbirine bağlar."
 
 ["LV.TPi.TPipeFlavor"]
-status = "normal"
 raw = "The fourth direction is for when the foreman changes their mind."
+status = "normal"
 enUS = "The fourth direction is for when the foreman changes their mind."
 zhCN = "第四个方向是为了应对工头改变主意的情况。"
 zhTW = "第四個方向是給工頭改變主意時用的。"
@@ -320,8 +320,8 @@ viVN = "Ống giao chữ thập đứng"
 trTR = "Dikey Dört Yollu Boru Bağlantısı"
 
 ["LV.TPi.VerticalCrossPipeDesc"]
-status = "normal"
 raw = "Connects vertical and horizontal pipes."
+status = "normal"
 enUS = "Connects vertical and horizontal pipes."
 zhCN = "连接垂直管道和水平管道。"
 zhTW = "連接垂直與水平管道。"
@@ -337,8 +337,8 @@ viVN = "Kết nối các đường ống dọc và ngang."
 trTR = "Dikey ve yatay boruları birbirine bağlar."
 
 ["LV.TPi.VerticalCrossPipeFlavor"]
-status = "normal"
 raw = "'What an outstanding piece of work.' — Foreman Halberg"
+status = "normal"
 enUS = "'What an outstanding piece of work.' — Foreman Halberg"
 zhCN = "“真是件出色的作品。”——工头哈尔伯格"
 zhTW = "「真是傑出的作品。」——工頭哈爾伯格"
@@ -354,8 +354,8 @@ viVN = "“Thật là một công trình xuất sắc.” — Đốc công Halbe
 trTR = "“Ne kadar olağanüstü bir iş.” — Ustabaşı Halberg"
 
 ["LV.TPi.VerticalTPipeName"]
-status = "normal"
 raw = "Vertical T Junction"
+status = "normal"
 enUS = "Vertical T-Junction"
 zhCN = "垂直T形三通管道"
 zhTW = "垂直 T 型接頭"
@@ -371,8 +371,8 @@ viVN = "Ống chữ T đứng"
 trTR = "Dikey T Kavşağı"
 
 ["LV.TPi.VerticalTPipeDesc"]
-status = "normal"
 raw = "Connects a vertical pipe to one horizontal pipe."
+status = "normal"
 enUS = "Connects a vertical pipe to one horizontal pipe."
 zhCN = "将一根垂直管道连接到一根水平管道。"
 zhTW = "將垂直管道連接至一條水平管道。"
@@ -388,8 +388,8 @@ viVN = "Nối một đường ống đứng với một đường ống ngang."
 trTR = "Dikey bir boruyu yatay bir boruya bağlar."
 
 ["LV.TPi.VerticalTPipeFlavor"]
-status = "normal"
 raw = "A cross that learned to make do with less."
+status = "normal"
 enUS = "A cross that learned to make do with less."
 zhCN = "一个学会了将就着用的十字接头。"
 zhTW = "一個學會將就著用、少用一點的十字管。"
@@ -405,8 +405,8 @@ viVN = "Một khúc giao nhau đã học cách xoay xở với ít hơn."
 trTR = "Daha azıyla yetinmeyi öğrenmiş bir haç."
 
 ["LV.TPi.ImpermeableVerticalCrossPipeName"]
-status = "normal"
 raw = "Impermeable Vertical Cross"
+status = "normal"
 enUS = "Impermeable Vertical Cross"
 zhCN = "不透水垂直十字管道"
 zhTW = "不透水垂直十字管道"
@@ -422,8 +422,8 @@ viVN = "Ống chữ thập đứng chống thấm ngược"
 trTR = "Su Geçirmez Dikey Çapraz Boru"
 
 ["LV.TPi.ImpermeableVerticalCrossPipeDesc"]
-status = "normal"
 raw = "Connects vertical and horizontal pipes. Blocks water."
+status = "normal"
 enUS = "Connects vertical and horizontal pipes. Blocks water."
 zhCN = "连接垂直和水平管道。阻挡水流。"
 zhTW = "連接垂直與水平管道。阻擋水流。"
@@ -439,8 +439,8 @@ viVN = "Nối các đường ống dọc và ngang. Chặn nước."
 trTR = "Dikey ve yatay boruları birbirine bağlar. Suyu engeller."
 
 ["LV.TPi.ImpermeableVerticalCrossPipeFlavor"]
-status = "normal"
 raw = "Halberg was appalled when the request came in: a piece that carries water and also blocks it."
+status = "normal"
 enUS = "Halberg was appalled when the request came in: a piece that carries water and also blocks it."
 zhCN = "当哈伯格收到这个要求时，惊呆了：要造一个既能输水又能挡水的部件。"
 zhTW = "當哈爾伯格收到這項需求時，簡直驚呆了：一種既能輸水又能擋水的零件。"
@@ -456,8 +456,8 @@ viVN = "Halberg kinh hoàng khi nhận được yêu cầu: một bộ phận v�
 trTR = "Talep geldiğinde Halberg dehşete kapıldı: Hem su taşıyan hem de suyu engelleyen bir parça."
 
 ["LV.TPi.VerticalPipeName"]
-status = "normal"
 raw = "Riser"
+status = "normal"
 enUS = "Riser"
 zhCN = "立管"
 zhTW = "立管"
@@ -473,8 +473,8 @@ viVN = "Ống đứng"
 trTR = "Yükseltici"
 
 ["LV.TPi.VerticalPipeDesc"]
-status = "normal"
 raw = "Carries fluid vertically."
+status = "normal"
 enUS = "Carries fluid vertically."
 zhCN = "垂直输送液体。"
 zhTW = "垂直輸送流體。"
@@ -490,8 +490,8 @@ viVN = "Dẫn chất lỏng theo phương thẳng đứng."
 trTR = "Sıvıyı dikey olarak taşır."
 
 ["LV.TPi.VerticalPipeFlavor"]
-status = "normal"
 raw = "We measured a kit. Then we shrank the bore so it would not become a tubeway."
+status = "normal"
 enUS = "We measured a kit. Then we shrank the bore so it wouldn’t become a tubeway."
 zhCN = "我们测量了一只小桶，然后缩小了管道内径，免得它变成一条桶道。"
 zhTW = "我們量了一下套件。接著把管徑縮小，免得它變成浴缸管道。"
@@ -523,8 +523,8 @@ viVN = "Van một chiều"
 trTR = "Tek Yönlü Vana"
 
 ["LV.TPi.HorizontalPipeValveDesc"]
-status = "normal"
 raw = "A one-way straight pipe. Can be closed both ways when paused. Point a directed end at a building to pour into it or draw from it. Select the valve and opt in Fill or Extract."
+status = "normal"
 enUS = "A one-way straight pipe. Can be closed in both directions when paused. Point a directed end at a building to pour into it or draw from it. Select the valve and opt in to Fill or Extract."
 zhCN = "单向直管。暂停时可双向关闭。将带方向的一端对准建筑，即可向其中注入或从中抽取。选中阀门，然后选择“注入”或“抽取”。"
 zhTW = "單向直管。暫停時可雙向關閉。將有方向的一端朝向建築物，即可向其注入或從中抽取。選取閥門，然後選擇「注水」或「抽取」。"
@@ -540,8 +540,8 @@ viVN = "Một đường ống thẳng một chiều. Có thể đóng cả hai c
 trTR = "Tek yönlü düz boru. Duraklatıldığında iki yönde de kapatılabilir. İçine sıvı aktarmak veya sıvı çekmek için yönlü ucunu bir binaya doğrultun. Vanayı seçip Doldur veya Çek seçeneğini etkinleştirin."
 
 ["LV.TPi.HorizontalPipeValveFlavor"]
-status = "normal"
 raw = "They added the arrow after the last guy flooded the berry warehouse."
+status = "normal"
 enUS = "They added the arrow after the last guy flooded the berry warehouse."
 zhCN = "上次那家伙把浆果仓库淹了之后，他们才加上了这个箭头。"
 zhTW = "上一個傢伙把漿果倉庫淹了之後，他們才加上箭頭。"
@@ -557,8 +557,8 @@ viVN = "Họ đã thêm mũi tên sau khi gã cuối cùng làm ngập kho quả
 trTR = "Son adam böğürtlen deposunu su bastırdıktan sonra oku eklediler."
 
 ["LV.TPi.HorizontalPipeThrottleName"]
-status = "normal"
 raw = "Throttle Valve Pipe"
+status = "normal"
 enUS = "Throttle Valve Pipe"
 zhCN = "节流阀管道"
 zhTW = "節流閥管道"
@@ -574,8 +574,8 @@ viVN = "Ống van tiết lưuWinvalid"
 trTR = "Kısma Vanalı Boru"
 
 ["LV.TPi.HorizontalPipeThrottleDesc"]
-status = "normal"
 raw = "A one-way straight pipe. Pause to close both ways. Shows outflow and can cap that hourly flow."
+status = "normal"
 enUS = "A one-way straight pipe. Pause to close it in both directions. Shows outflow and can cap that hourly flow."
 zhCN = "单向直管。暂停后会关闭两个方向。显示出流量，并可限制每小时的流量。"
 zhTW = "單向直管。暫停即可關閉兩個方向。會顯示流出量，並可限制每小時的流量。"
@@ -591,8 +591,8 @@ viVN = "Một đường ống thẳng một chiều. Tạm dừng để đóng c
 trTR = "Tek yönlü düz bir boru. Her iki yöndeki akışı kapatmak için duraklatın. Çıkış akışını gösterir ve saatlik akışı sınırlayabilir."
 
 ["LV.TPi.HorizontalPipeThrottleFlavor"]
-status = "normal"
 raw = "When asked why it costs so much when it looks exactly like a One-way Valve, they said R&D isn't cheap."
+status = "normal"
 enUS = "When asked why it costs so much when it looks exactly like a One-way Valve, they said R&D isn't cheap."
 zhCN = "有人问他们，为什么这东西看起来和单向阀一模一样，价格却这么贵。他们说，研发可不便宜。"
 zhTW = "有人問他們，這東西看起來明明跟單向閥一模一樣，為什麼還這麼貴，他們說研發可不便宜。"
@@ -608,8 +608,8 @@ viVN = "Khi được hỏi vì sao nó lại đắt đến vậy trong khi trôn
 trTR = "Görünüşü birebir Tek Yönlü Vana'ya benzediği hâlde neden bu kadar pahalı olduğu sorulunca, Ar-Ge'nin ucuz olmadığını söylediler."
 
 ["LV.TPi.OutfallPipeName"]
-status = "normal"
 raw = "Outfall Pipe"
+status = "normal"
 enUS = "Outfall Pipe"
 zhCN = "排水管"
 zhTW = "排水管口"
@@ -625,8 +625,8 @@ viVN = "Ống xả nước thải"
 trTR = "Deşarj Borusu"
 
 ["LV.TPi.OutfallPipeDesc"]
-status = "normal"
 raw = "A one-way pipe that dumps Water or Badwater onto the ground. Any other liquid entering this pipe contaminates the pipe network."
+status = "normal"
 enUS = "A one-way pipe that dumps Water or Badwater onto the ground. Any other liquid entering this pipe contaminates the pipe network."
 zhCN = "一种单向管道，可将水或恶水排到地面。任何其他液体进入此管道都会污染管道网络。"
 zhTW = "一種單向管道，可將水或污水排放到地面。任何其他液體進入此管道，都會污染管道網路。"
@@ -642,8 +642,8 @@ viVN = "Một đường ống một chiều xả Nước hoặc Nước bẩn xu
 trTR = "Yere Su veya Kirli Su boşaltan tek yönlü bir boru. Bu boruya giren diğer tüm sıvılar boru ağını kirletir."
 
 ["LV.TPi.OutfallPipeFlavor"]
-status = "normal"
 raw = "The inventor took “Drain you dry” literally."
+status = "normal"
 enUS = "The inventor took “Drain you dry” literally."
 zhCN = "发明家把“把你吸干”当真了。"
 zhTW = "發明家把「把你榨乾」當真了。"
@@ -674,8 +674,8 @@ viVN = "Máy bơm đường ống"
 trTR = "Boru Pompası"
 
 ["LV.TPi.HorizontalPipePumpDesc"]
-status = "normal"
 raw = "A one-way straight pipe. When powered, pushes liquid into the next pipe with extra headlift."
+status = "normal"
 enUS = "A one-way straight pipe. When powered, it pushes liquid into the next pipe with extra headlift."
 zhCN = "单向直管。通电后，会将液体推入下一根管道，并额外提升水头。"
 zhTW = "單向直管。啟動後，會將液體推入下一條管道，並額外提升水頭。"
@@ -691,8 +691,8 @@ viVN = "Một đường ống thẳng một chiều. Khi được cấp điện,
 trTR = "Tek yönlü düz bir boru. Güç verildiğinde sıvıyı ek basma yüksekliğiyle sonraki boruya iter."
 
 ["LV.TPi.HorizontalPipePumpFlavor"]
-status = "normal"
 raw = "Very energy efficient. Kits will run it all day just to watch the water splash."
+status = "normal"
 enUS = "Very energy efficient. Kits will run it all day just to watch the water splash."
 zhCN = "能效极高。小海狸会让它整天运转，只为看水花四溅。"
 zhTW = "能源效率非常高。小傢伙們會讓它整天運轉，只為了看水花四濺。"
@@ -708,8 +708,8 @@ viVN = "Rất tiết kiệm năng lượng. Đám chồn con sẽ chạy máy c�
 trTR = "Enerji açısından çok verimli. Yavrular sırf suyun sıçrayışını izlemek için bütün gün çalıştırır."
 
 ["LV.TPi.VerticalPipePumpName"]
-status = "normal"
 raw = "Riser Pipe Pump"
+status = "normal"
 enUS = "Riser Pipe Pump"
 zhCN = "立管水泵"
 zhTW = "立管抽水泵"
@@ -725,8 +725,8 @@ viVN = "Máy bơm ống đứng"
 trTR = "Yükseltici Boru Pompası"
 
 ["LV.TPi.VerticalPipePumpDesc"]
-status = "normal"
 raw = "A one-way vertical pipe. When powered, pushes liquid into the pipe above with extra headlift."
+status = "normal"
 enUS = "A one-way vertical pipe. When powered, it pushes liquid upward into the pipe with extra headlift."
 zhCN = "一种单向垂直管道。通电后，会将液体推入上方的管道，并额外提升扬程。"
 zhTW = "單向垂直管道。通電時，會將液體向上推入管道，提供額外揚水高度。"
@@ -742,8 +742,8 @@ viVN = "Một đường ống đứng một chiều. Khi được cấp điện,
 trTR = "Tek yönlü dikey bir boru. Güç verildiğinde, sıvıyı ek yükseklik farkıyla yukarıdaki boruya iter."
 
 ["LV.TPi.VerticalPipePumpFlavor"]
-status = "normal"
 raw = "This thing [i]pushed the bar[/i] so high the reservoir asked for a raise."
+status = "normal"
 enUS = "This thing [i]pushed the bar[/i] so high the reservoir asked for a raise."
 zhCN = "这玩意儿把标准[i]抬得[/i]太高，连水库都要求加薪了。"
 zhTW = "這玩意兒把標準[i]推得[/i]太高，連蓄水池都要求加薪了。"
@@ -759,8 +759,8 @@ viVN = "Thứ này [i]đã nâng tầm[/i] cao đến mức hồ chứa đòi t�
 trTR = "Bu şey çıtayı [i]öyle yükseltti[/i] ki rezervuar zam istedi."
 
 ["LV.TPi.PipeFill"]
-status = "normal"
 raw = "{0:0.00} / {1:0.00} m³"
+status = "normal"
 enUS = "{0:0.00} / {1:0.00} m³"
 zhCN = "{0:0.00} / {1:0.00} m³"
 zhTW = "{0:0.00} / {1:0.00} m³"
@@ -776,8 +776,8 @@ viVN = "{0:0.00} / {1:0.00} m³"
 trTR = "{0:0.00} / {1:0.00} m³"
 
 ["LV.TPi.TankLevel"]
-status = "normal"
 raw = "{0:0.00} / {1:0.00}m"
+status = "normal"
 enUS = "{0:0.00} / {1:0.00}m"
 zhCN = "{0:0.00} / {1:0.00}米"
 zhTW = "{0:0.00} / {1:0.00} 公尺"
@@ -793,8 +793,8 @@ viVN = "{0:0.00} / {1:0.00}m"
 trTR = "{0:0.00} / {1:0.00} m"
 
 ["LV.TPi.Headlift"]
-status = "normal"
 raw = "Headlift: {0:0.00}m"
+status = "normal"
 enUS = "Headlift: {0:0.00}m"
 zhCN = "扬程：{0:0.00}m"
 zhTW = "揚程：{0:0.00}m"
@@ -810,8 +810,8 @@ viVN = "Độ nâng đầu: {0:0.00}m"
 trTR = "Basma yüksekliği: {0:0.00}m"
 
 ["LV.TPi.Contaminated"]
-status = "normal"
 raw = "Contaminated"
+status = "normal"
 enUS = "Contaminated"
 zhCN = "已污染"
 zhTW = "受污染的"
@@ -827,8 +827,8 @@ viVN = "Bị ô nhiễm"
 trTR = "Kirlenmiş"
 
 ["LV.TPi.ContaminatedMix"]
-status = "normal"
 raw = "Mixed {0} and {1}."
+status = "normal"
 enUS = "Mixed {0} and {1}."
 zhCN = "混合了 {0} 和 {1}。"
 zhTW = "混合了 {0} 和 {1}。"
@@ -844,8 +844,8 @@ viVN = "Đã trộn {0} và {1}."
 trTR = "Karışık {0} ve {1}."
 
 ["LV.TPi.ContaminatedStatus"]
-status = "normal"
 raw = "These pipes mixed different liquids. Flush them to clear."
+status = "normal"
 enUS = "These pipes mixed different liquids. Flush them to clear."
 zhCN = "这些管道混入了不同的液体。冲洗管道以清除混合液体。"
 zhTW = "這些管道混入了不同的液體。沖洗管道即可清除。"
@@ -861,8 +861,8 @@ viVN = "Những đường ống này đã trộn lẫn các chất lỏng khác 
 trTR = "Bu borularda farklı sıvılar karıştı. Temizlemek için içlerini boşaltın."
 
 ["LV.TPi.ContaminatedStatusShort"]
-status = "normal"
 raw = "Contaminated pipes"
+status = "normal"
 enUS = "Contaminated pipes"
 zhCN = "受污染的管道"
 zhTW = "受污染的管道"
@@ -894,8 +894,8 @@ viVN = "Xả sạch"
 trTR = "Boşalt"
 
 ["LV.TPi.FlushConfirm"]
-status = "normal"
 raw = "This empties every pipe in this network and clears contamination. Continue?"
+status = "normal"
 enUS = "This empties every pipe in this network and clears contamination. Continue?"
 zhCN = "这将排空此网络中的所有管道并清除污染。是否继续？"
 zhTW = "這會清空此網路中的所有管道並清除污染。要繼續嗎？"
@@ -911,8 +911,8 @@ viVN = "Thao tác này sẽ làm trống mọi đường ống trong mạng lư�
 trTR = "Bu, bu ağdaki tüm boruları boşaltır ve kirlenmeyi temizler. Devam edilsin mi?"
 
 ["LV.MT.BldSet.ValvePipe"]
-status = "normal"
 raw = "One-way Valve"
+status = "normal"
 enUS = "One-way Valve"
 zhCN = "单向阀门"
 zhTW = "單向閥門"
@@ -928,8 +928,8 @@ viVN = "Van một chiều"
 trTR = "Tek Yönlü Vana"
 
 ["LV.TPi.BldSet.Desc"]
-status = "normal"
 raw = "Fill: {0}, Extract: {1}"
+status = "normal"
 enUS = "Fill: {0}, Extract: {1}"
 zhCN = "填充：{0}，提取：{1}"
 zhTW = "填入：{0}，抽取：{1}"
@@ -945,8 +945,8 @@ viVN = "Nạp: {0}, Rút: {1}"
 trTR = "Doldur: {0}, Çıkar: {1}"
 
 ["LV.TPi.ValveInlet"]
-status = "normal"
 raw = "Fill"
+status = "normal"
 enUS = "Fill"
 zhCN = "注水"
 zhTW = "填充"
@@ -975,8 +975,8 @@ csCZ = "Odebírat"
 viVN = "Xả ra"
 
 ["LV.TPi.ValveInletBuilding"]
-status = "normal"
 raw = "Fill: {0}"
+status = "normal"
 enUS = "Fill: {0}"
 zhCN = "填充：{0}"
 zhTW = "填充：{0}"
@@ -992,8 +992,8 @@ viVN = "Lấp đầy: {0}"
 trTR = "Doluluk: {0}"
 
 ["LV.TPi.ValveOutletBuilding"]
-status = "normal"
 raw = "Extract from: {0}"
+status = "normal"
 enUS = "Extract from: {0}"
 zhCN = "提取自：{0}"
 zhTW = "抽取自：{0}"
@@ -1009,8 +1009,8 @@ viVN = "Trích xuất từ: {0}"
 trTR = "Şuradan çıkar: {0}"
 
 ["LV.TPi.OutflowTick"]
-status = "normal"
 raw = "Current: {0:0.00} m³"
+status = "normal"
 enUS = "Current: {0:0.00} m³"
 zhCN = "当前流量：{0:0.00} m³"
 zhTW = "流速：{0:0.00} m³"
@@ -1026,8 +1026,8 @@ viVN = "Hiện tại: {0:0.00} m³"
 trTR = "Mevcut: {0:0.00} m³"
 
 ["LV.TPi.OutflowHour"]
-status = "normal"
 raw = "Last hour: {0:0.00} m³ (avg. {1:0.00} m³/s)"
+status = "normal"
 enUS = "Last hour: {0:0.00} m³ (avg. {1:0.00} m³/s)"
 zhCN = "过去一小时：{0:0.00} m³（平均 {1:0.00} m³/s）"
 zhTW = "過去 1 小時：{0:0.00} m³（平均 {1:0.00} m³/s）"
@@ -1043,8 +1043,8 @@ viVN = "Giờ trước: {0:0.00} m³ (trung bình {1:0.00} m³/s)"
 trTR = "Son saat: {0:0.00} m³ (ort. {1:0.00} m³/s)"
 
 ["LV.TPi.HourlyLimit"]
-status = "normal"
 raw = "Hourly limit: {0}"
+status = "normal"
 enUS = "Hourly limit: {0}"
 zhCN = "每小时上限：{0}"
 zhTW = "每小時上限：{0}"
@@ -1060,8 +1060,8 @@ viVN = "Giới hạn theo giờ: {0}"
 trTR = "Saatlik sınır: {0}"
 
 ["LV.TPi.HourlyLimitValue"]
-status = "normal"
 raw = "{0:0.00} m³/h ({1:0.00} m³/s)"
+status = "normal"
 enUS = "{0:0.00} m³/h ({1:0.00} m³/s)"
 zhCN = "{0:0.00} m³/h ({1:0.00} m³/s)"
 zhTW = "{0:0.00} m³/h ({1:0.00} m³/s)"
@@ -1077,8 +1077,8 @@ viVN = "{0:0.00} m³/h ({1:0.00} m³/s)"
 trTR = "{0:0.00} m³/sa ({1:0.00} m³/sn)"
 
 ["LV.TPi.Unlimited"]
-status = "normal"
 raw = "Unlimited"
+status = "normal"
 enUS = "Unlimited"
 zhCN = "无限制"
 zhTW = "無限制"
@@ -1094,8 +1094,8 @@ viVN = "Không giới hạn"
 trTR = "Sınırsız"
 
 ["LV.TPi.ProvideHeadlift"]
-status = "normal"
 raw = "● <YellowHighlight>Provides headlift:</YellowHighlight> {0:0.0}m"
+status = "normal"
 enUS = "● <YellowHighlight>Provides headlift:</YellowHighlight> {0:0.0}m"
 zhCN = "● <YellowHighlight>提供扬程：</YellowHighlight> {0:0.0}m"
 zhTW = "● <YellowHighlight>提供揚程：</YellowHighlight> {0:0.0}m"
@@ -1111,8 +1111,8 @@ viVN = "● <YellowHighlight>Cung cấp độ nâng cột nước:</YellowHighli
 trTR = "● <YellowHighlight>Basınç yüksekliği sağlar:</YellowHighlight> {0:0.0}m"
 
 ["LV.TPi.ModUpdate114000"]
-status = "normal"
 raw = "Added One-way Elbow."
+status = "normal"
 enUS = "Added One-Way Elbow."
 zhCN = "新增单向弯头。"
 zhTW = "新增單向彎管。"
@@ -1143,8 +1143,8 @@ viVN = "Ống dẫn nước"
 trTR = "Boru"
 
 [Name_ValvePipeFragment]
-status = "normal"
 raw = "Valve"
+status = "normal"
 enUS = "Valve"
 zhCN = "阀门"
 zhTW = "閥門"
@@ -1160,8 +1160,8 @@ viVN = "Van khóa"
 trTR = "Vana"
 
 [Name_OutflowCounterFragment]
-status = "normal"
 raw = "Outflow"
+status = "normal"
 enUS = "Outflow"
 zhCN = "流出量"
 zhTW = "流出量"
@@ -1193,8 +1193,8 @@ csCZ = "Nádrž"
 trTR = "Depo tankı"
 
 ["LV.TPi.ModUpdate113000"]
-status = "abandoned"
 raw = "v11.3.0:\n- Added Horizontal and Vertical T Junctions. Thanks to the contribution of idmytro.\n- Fixed Tank panel showing up during construction and show the wrong 'liquid' (visual bug).\n- Fixed hitboxes for pipes.\n- Vertical pieces should now occupy Bottom and Path slot."
+status = "abandoned"
 enUS = "v11.3.0:\n- Added horizontal and vertical T-junctions. Thanks to idmytro for the contribution.\n- Fixed a visual bug where the tank panel appeared during construction and showed the wrong “liquid.”\n- Fixed pipe hitboxes.\n- Vertical pieces should now occupy the Bottom and Path slots."
 zhCN = "v11.3.0：\n- 新增水平和垂直 T 型接头。感谢 idmytro 的贡献。\n- 修复了建造期间出现水箱面板并显示错误“液体”的问题（视觉错误）。\n- 修复了管道的碰撞框。\n- 垂直部件现在应占用底部和路径槽位。"
 zhTW = "v11.3.0：\n- 新增水平與垂直 T 字形接頭。感謝 idmytro 的貢獻。\n- 修正建造期間出現水槽面板並顯示錯誤「液體」的問題（視覺錯誤）。\n- 修正管道的碰撞箱。\n- 垂直零件現在應會佔用底部和路徑欄位。"

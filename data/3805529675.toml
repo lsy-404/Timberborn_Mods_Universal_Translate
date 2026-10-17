@@ -18,8 +18,8 @@ viVN = "Chuyến xe vòng quanh đồng cỏ"
 trTR = "Çayır Döngüsü Gezintisi"
 
 ["Barbara.MeadowLoopRide.Description"]
-status = "normal"
 raw = "A compact ground-level wooden circuit for a gentle little ride."
+status = "normal"
 enUS = "A compact wooden circuit at ground level for a gentle little ride."
 zhCN = "一条紧凑的地面木制环形轨道，适合轻松愉快地骑行。"
 zhTW = "適合溫和小型遊樂設施的緊湊型地面木製軌道。"
@@ -35,8 +35,8 @@ viVN = "Một đường vòng bằng gỗ nhỏ gọn ở mặt đất, cho chuy
 trTR = "Keyifli, küçük bir gezinti için kompakt, zemin seviyesinde ahşap bir döngü."
 
 ["Barbara.MeadowLoopRide.Flavor"]
-status = "normal"
 raw = "Two seats - one loop - no support beam."
+status = "normal"
 enUS = "Two seats - one loop - no support beam."
 zhCN = "两个座位——一个环道——没有支撑梁。"
 zhTW = "兩個座位－一圈－沒有支撐樑。"
@@ -52,8 +52,8 @@ viVN = "Hai chỗ ngồi - một vòng quay - không cần dầm đỡ."
 trTR = "İki koltuk - tek döngü - destek kirişi yok."
 
 ["Barbara.MeadowLoopRide.Need.Joy.DisplayName"]
-status = "normal"
 raw = "Little outing"
+status = "normal"
 enUS = "Little outing"
 zhCN = "短途出游"
 zhTW = "小小兜風"

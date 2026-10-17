@@ -2,8 +2,8 @@
 name = "Automatic Automation Names"
 
 ["AutoNames.AlmostEmpty"]
-status = "normal"
 raw = "{0} almost empty"
+status = "normal"
 enUS = "{0} almost empty"
 zhCN = "{0} 即将耗尽"
 zhTW = "{0} 即將清空"
@@ -66,8 +66,8 @@ viVN = "{0} cao"
 trTR = "{0} yüksek"
 
 ["AutoNames.NotFull"]
-status = "normal"
 raw = "{0} not full"
+status = "normal"
 enUS = "{0} not full"
 zhCN = "{0} 未满"
 zhTW = "{0} 未滿"
@@ -83,8 +83,8 @@ viVN = "{0} chưa đầy đủ"
 trTR = "{0} dolu değil"
 
 ["AutoNames.NotEmpty"]
-status = "normal"
 raw = "{0} not empty"
+status = "normal"
 enUS = "{0} not empty"
 zhCN = "{0} 不为空"
 zhTW = "{0} 非空其中"
@@ -100,8 +100,8 @@ viVN = "{0} không trống"
 trTR = "{0} boş değil"
 
 ["AutoNames.BelowPercent"]
-status = "normal"
 raw = "{0} below {1}%"
+status = "normal"
 enUS = "{0} below {1}%"
 zhCN = "低于 {1}% 的 {0}"
 zhTW = "低於 {1}% 的 {0}"
@@ -117,8 +117,8 @@ viVN = "{0} dưới {1}%"
 trTR = "{0}, %{1}’in altında"
 
 ["AutoNames.AbovePercent"]
-status = "normal"
 raw = "{0} above {1}%"
+status = "normal"
 enUS = "{0} above {1}%"
 zhCN = "{0} 高于 {1}%"
 zhTW = "{0} 高於 {1}%"
@@ -134,8 +134,8 @@ viVN = "{0} trên {1}%"
 trTR = "{0}, %{1} üzerindeyken"
 
 ["AutoNames.AtPercent"]
-status = "normal"
 raw = "{0} at {1}%"
+status = "normal"
 enUS = "{0} at {1}%"
 zhCN = "{0}，{1}%时"
 zhTW = "{0}，達到 {1}%"
@@ -151,8 +151,8 @@ viVN = "{0} ở mức {1}%"
 trTR = "{0}, %{1}’de"
 
 ["AutoNames.NotAtPercent"]
-status = "normal"
 raw = "{0} not at {1}%"
+status = "normal"
 enUS = "{0} not at {1}%"
 zhCN = "{0} 未达到 {1}%"
 zhTW = "{0} 未達 {1}%"
@@ -168,8 +168,8 @@ viVN = "{0} không ở mức {1}%"
 trTR = "{0}, %{1} seviyesinde değil"
 
 ["AutoNames.Below"]
-status = "normal"
 raw = "{0} below {1}"
+status = "normal"
 enUS = "{0} below {1}"
 zhCN = "{0} 低于 {1}"
 zhTW = "{0} 低於 {1}"
@@ -185,8 +185,8 @@ viVN = "{0} dưới {1}"
 trTR = "{0}, {1}'in altında"
 
 ["AutoNames.Above"]
-status = "normal"
 raw = "{0} above {1}"
+status = "normal"
 enUS = "{0} above {1}"
 zhCN = "{0}上方{1}"
 zhTW = "{0} 高於 {1}"
@@ -202,8 +202,8 @@ viVN = "{0} phía trên {1}"
 trTR = "{0}, {1}'in üstünde"
 
 ["AutoNames.AtMost"]
-status = "normal"
 raw = "{0} at most {1}"
+status = "normal"
 enUS = "{0} at most {1}"
 zhCN = "最多 {0} 个，{1} мухбир"
 zhTW = "最多 {0} 個 {1}"
@@ -219,8 +219,8 @@ viVN = "Tối đa {0} tại {1}"
 trTR = "En fazla {0} {1}"
 
 ["AutoNames.AtLeast"]
-status = "normal"
 raw = "{0} at least {1}"
+status = "normal"
 enUS = "{0} at least {1}"
 zhCN = "{0}至少为{1}"
 zhTW = "{0} 至少 {1}"
@@ -236,8 +236,8 @@ viVN = "{0} ít nhất {1}"
 trTR = "{0} en az {1}"
 
 ["AutoNames.Exactly"]
-status = "normal"
 raw = "{0} exactly {1}"
+status = "normal"
 enUS = "{0} exactly {1}"
 zhCN = "{0}恰好为{1}"
 zhTW = "{0} 正好是 {1}"
@@ -253,8 +253,8 @@ viVN = "{0} chính xác {1}"
 trTR = "{0} tam olarak {1}"
 
 ["AutoNames.Not"]
-status = "normal"
 raw = "{0} not {1}"
+status = "normal"
 enUS = "{0} not {1}"
 zhCN = "{0}不是{1}"
 zhTW = "{0} 不是 {1}"
@@ -270,8 +270,8 @@ viVN = "{0} không phải {1}"
 trTR = "{0}, {1} değil"
 
 ["AutoNames.NoneOf"]
-status = "normal"
 raw = "No {0}"
+status = "normal"
 enUS = "No {0}"
 zhCN = "无 {0}"
 zhTW = "沒有 {0}"
@@ -287,8 +287,8 @@ viVN = "Không có {0} nào"
 trTR = "Hiç {0} yok"
 
 ["AutoNames.AnyOf"]
-status = "normal"
 raw = "Any {0}"
+status = "normal"
 enUS = "Any {0}"
 zhCN = "任意 {0}"
 zhTW = "任何 {0}"
@@ -304,8 +304,8 @@ viVN = "Bất kỳ {0} nào"
 trTR = "Herhangi bir {0}"
 
 ["AutoNames.NotSignal"]
-status = "normal"
 raw = "Not {0}"
+status = "normal"
 enUS = "Not {0}"
 zhCN = "非 {0}"
 zhTW = "不是 {0}"
@@ -321,8 +321,8 @@ viVN = "Không phải {0}"
 trTR = "{0} değil"
 
 ["AutoNames.AndJoin"]
-status = "normal"
 raw = "{0} and {1}"
+status = "normal"
 enUS = "{0} and {1}"
 zhCN = "{0}和{1}"
 zhTW = "{0}和{1}"
@@ -338,8 +338,8 @@ viVN = "{0} và {1}"
 trTR = "{0} ve {1}"
 
 ["AutoNames.OrJoin"]
-status = "normal"
 raw = "{0} or {1}"
+status = "normal"
 enUS = "{0} or {1}"
 zhCN = "{0} 或 {1}"
 zhTW = "{0} 或 {1}"
@@ -435,8 +435,8 @@ csCZ = "Zapnout/vypnout {0}"
 viVN = "Bật/tắt {0}"
 
 ["AutoNames.MemoryWhile"]
-status = "normal"
 raw = "{0} while {1}"
+status = "normal"
 enUS = "{0} while {1}"
 zhCN = "{0}时{1}"
 zhTW = "{0}時，{1}"
@@ -452,8 +452,8 @@ viVN = "{0} trong khi {1}"
 trTR = "{0} boyunca {1}"
 
 ["AutoNames.MemoryAt"]
-status = "normal"
 raw = "{0} at {1}"
+status = "normal"
 enUS = "{0} at {1}"
 zhCN = "{0}，位于 {1}"
 zhTW = "{0}，位於 {1}"
@@ -469,8 +469,8 @@ viVN = "{0} tại {1}"
 trTR = "{0} konumunda {1}"
 
 ["AutoNames.GateOpensOn"]
-status = "normal"
 raw = "Opens on {0}"
+status = "normal"
 enUS = "Opens on {0}"
 zhCN = "在 {0} 时开启"
 zhTW = "在 {0} 時開啟"
@@ -486,8 +486,8 @@ viVN = "Mở vào lúc {0}"
 trTR = "{0} zamanında açılır"
 
 ["AutoNames.SpeakerOn"]
-status = "normal"
 raw = "{0} on {1}"
+status = "normal"
 enUS = "{0} on {1}"
 zhCN = "{0}位于{1}"
 zhTW = "{0}，位於{1}"
@@ -519,8 +519,8 @@ csCZ = "Odpálit při {0}"
 viVN = "Kích nổ khi {0}"
 
 ["AutoNames.TimerDelayed"]
-status = "normal"
 raw = "{0} delayed {1}"
+status = "normal"
 enUS = "{0} delayed {1}"
 zhCN = "{0}延迟了{1}"
 zhTW = "{0} 延遲 {1}"
@@ -536,8 +536,8 @@ viVN = "{0} trì hoãn {1}"
 trTR = "{0}, {1} kadar gecikti"
 
 ["AutoNames.TimerDelayedOnOff"]
-status = "normal"
 raw = "{0} delayed {1}/{2}"
+status = "normal"
 enUS = "{0} delayed {1}/{2}"
 zhCN = "{0} 延迟 {1}/{2}"
 zhTW = "{0} 延遲 {1}/{2}"
@@ -569,8 +569,8 @@ viVN = "Xung {1} trong {0}"
 trTR = "{1} darbesi, {0} süresince"
 
 ["AutoNames.TimerOscillator"]
-status = "normal"
 raw = "{1} on, {2} off while {0}"
+status = "normal"
 enUS = "{1} on, {2} off while {0}"
 zhCN = "{0}时开启{1}，关闭{2}"
 zhTW = "{0} 時開啟 {1}、關閉 {2}"
@@ -602,8 +602,8 @@ viVN = "Bật/tắt mỗi {1} khi {0}"
 trTR = "{0} boyunca her {1} süresinde aç/kapat"
 
 ["AutoNames.TimerAccumulator"]
-status = "normal"
 raw = "{0} for {1} total"
+status = "normal"
 enUS = "{0} for {1} total"
 zhCN = "{0}，总计 {1}"
 zhTW = "{0}，總計 {1}"
@@ -634,8 +634,8 @@ csCZ = "Náhodně každých {1}, dokud {0}"
 viVN = "Ngẫu nhiên mỗi {1} khi {0}"
 
 ["AutoNames.IntervalTicks"]
-status = "normal"
 raw = "{0} ticks"
+status = "normal"
 enUS = "{0} ticks"
 zhCN = "{0} 个刻度值"
 zhTW = "{0} 個刻度"
@@ -651,8 +651,8 @@ viVN = "{0} nhịp"
 trTR = "{0} tik (oyun adımı)"
 
 ["AutoNames.IntervalHours"]
-status = "normal"
 raw = "{0}h"
+status = "normal"
 enUS = "{0}h"
 zhCN = "{0}小时"
 zhTW = "{0} 小時"
@@ -668,8 +668,8 @@ viVN = "{0} giờ"
 trTR = "{0} saat"
 
 ["AutoNames.IntervalDays"]
-status = "normal"
 raw = "{0}d"
+status = "normal"
 enUS = "{0}d"
 zhCN = "{0}天"
 zhTW = "{0} 天"
@@ -685,8 +685,8 @@ viVN = "{0} ngày"
 trTR = "{0}g"
 
 ["AutoNames.Warning"]
-status = "normal"
 raw = "{0} warning"
+status = "normal"
 enUS = "{0} warning"
 zhCN = "{0} 警告"
 zhTW = "{0} 警告"
@@ -702,8 +702,8 @@ viVN = "Cảnh báo {0}"
 trTR = "{0} uyarısı"
 
 ["AutoNames.EarlyBy"]
-status = "normal"
 raw = "{0} ({1}h early)"
+status = "normal"
 enUS = "{0} ({1}h early)"
 zhCN = "{0}（提前 {1} 小时）"
 zhTW = "{0}（提前 {1} 小時）"
@@ -719,8 +719,8 @@ viVN = "{0} (sớm hơn {1} giờ)"
 trTR = "{0} ({1} sa. erken)"
 
 ["AutoNames.TimeRange"]
-status = "normal"
 raw = "{0}–{1}"
+status = "normal"
 enUS = "{0}–{1}"
 zhCN = "{0}–{1}"
 zhTW = "{0}–{1}"
@@ -736,8 +736,8 @@ viVN = "{0}–{1}"
 trTR = "{0}–{1}"
 
 ["AutoNames.Batteries"]
-status = "normal"
 raw = "Batteries"
+status = "normal"
 enUS = "Batteries"
 zhCN = "电池"
 zhTW = "電池"
@@ -753,8 +753,8 @@ viVN = "Pin sạc"
 trTR = "Bataryalar"
 
 ["AutoNames.Contamination"]
-status = "normal"
 raw = "Contamination"
+status = "normal"
 enUS = "Contamination"
 zhCN = "污染"
 zhTW = "污染"
@@ -801,8 +801,8 @@ viVN = "Nước sạch"
 trTR = "Suyu temizle"
 
 ["AutoNames.Depth"]
-status = "normal"
 raw = "Depth"
+status = "normal"
 enUS = "Depth"
 zhCN = "深度"
 zhTW = "深度"
@@ -818,8 +818,8 @@ viVN = "Độ sâu"
 trTR = "Derinlik"
 
 ["AutoNames.Flow"]
-status = "normal"
 raw = "Flow"
+status = "normal"
 enUS = "Flow"
 zhCN = "流量"
 zhTW = "流量"
@@ -867,8 +867,8 @@ viVN = "Tự động hóa tự động các công trình khi tạo tự động 
 trTR = "Kaynak Neredeyse Dolu otomasyonları oluştururken binaları otomatik olarak otomasyona bağla"
 
 ["AutoNames.Settings.AutoAutomateAlmostFull.Tooltip"]
-status = "normal"
 raw = "Also wires producers to the counter. When you set a resource counter to a fill rate below a threshold (e.g. \"Planks not full\"), every building in its district that makes that good and has no automation input yet is connected to it, so it pauses while the stores are full. Counters set to a fill rate above a threshold (\"almost full\") are only on when full and are not used. Buildings placed later are not wired."
+status = "normal"
 enUS = "Also connects producers to the counter. When you set a resource counter to a fill rate below a threshold (e.g. \"Planks not full\"), every building in its district that produces that good and doesn't already have an automation input is connected to it, so it pauses while stores are full. Counters set to a fill rate above a threshold (\"almost full\") are only on when full and aren't used. Buildings placed later aren't connected."
 zhCN = "还会将生产建筑连接到计数器。将资源计数器设置为低于某个阈值的填充率（例如“木板未满”）时，其所在城区内所有生产该资源且尚未接入自动化输入的建筑都会连接到该计数器，因此仓库满时它们会暂停。填充率设置为高于某个阈值（“即将满”）的计数器只有在仓库满时才会启用，因此不会被使用。之后放置的建筑不会接入自动化。"
 zhTW = "此外，也會將生產建築連接到計數器。當你將資源計數器設為低於某個門檻的填滿率（例如「木板未滿」）時，該區域內所有生產該資源且尚未接上自動化輸入的建築都會連接到計數器，因此儲存空間滿了時便會暫停運作。設為高於某個門檻的填滿率（「快滿了」）的計數器只有在滿載時才會啟動，因此不會用到。之後放置的建築不會接上自動化線路。"
@@ -898,8 +898,8 @@ csCZ = "Automaticky automatizovat dokončené budovy (a všechny budovy po reset
 trTR = "Tamamlanmış binaları (ve sıfırlama sırasında her binayı), bölgelerinde mevcut olan “Kaynak Dolu Değil” otomasyonunu kullanarak otomatikleştir."
 
 ["AutoNames.Settings.AutoAutomateCompleted.Tooltip"]
-status = "normal"
 raw = "When a building finishes construction, and for every building on reset (when a save is loaded), the mod looks in the building's district for resource counters set to a fill rate below a threshold (e.g. \"Planks not full\") for a good the building produces. If there is exactly one such counter and the building has no automation input yet, the building is connected to it, so it pauses while the stores are full. With two or more matching counters nothing happens. Buildings that already have an input are never changed, and nothing is ever disconnected."
+status = "normal"
 enUS = "When a building finishes construction, and for every building on reset (when a save is loaded), the mod checks the building's district for resource counters set to a fill rate below a threshold (e.g. \"Planks not full\") for a good the building produces. If there is exactly one such counter and the building has no automation input yet, the building is connected to it, so it pauses while the stores are full. If two or more matching counters are found, nothing happens. Buildings that already have an input are never changed, and nothing is ever disconnected."
 zhCN = "建筑完成建造时，以及每次重置时（加载存档时），此模组都会在该建筑所属的区内，查找针对该建筑所生产物品、填充率低于某个阈值的资源计数器（例如“木板未满”）。如果恰好找到一个这样的计数器，且该建筑尚无自动化输入，便会将建筑连接到该计数器，使建筑在库存满时暂停。如果找到两个或更多符合条件的计数器，则不会发生任何操作。已有输入的建筑绝不会被更改，也绝不会断开任何连接。"
 zhTW = "建築完成時，以及每次重設時（載入存檔時），模組會在該建築所屬的區域中，尋找針對該建築所生產物品、填充率低於閾值的資源計數器（例如「木板未滿」）。如果符合條件的計數器恰好只有一個，且該建築尚無自動化輸入，便會將建築連接至該計數器，使其在儲存庫存滿時暫停。若有兩個或以上符合條件的計數器，則不會有任何動作。已有輸入的建築絕不會被更改，也不會解除任何連接。"

@@ -17,8 +17,8 @@ viVN = "Bếp mứt"
 trTR = "Reçel Ocağı"
 
 ["Building.JamStove.Description"]
-status = "normal"
 raw = "Boils berries into jam for further processing."
+status = "normal"
 enUS = "Boils berries into jam for further processing."
 zhCN = "将浆果煮成果酱，以供进一步加工。"
 zhTW = "將莓果熬煮成果醬，以供進一步加工。"
@@ -34,8 +34,8 @@ viVN = "Nấu quả mọng thành mứt để chế biến tiếp."
 trTR = "Meyveleri, daha ileri işlemlerde kullanılmak üzere reçele dönüştürür."
 
 ["Building.JamStove.FlavorDescription"]
-status = "normal"
 raw = "The pot had to be closed up after too many sweet-toothed beavers have been tempted by the delicious jam."
+status = "normal"
 enUS = "The pot had to be sealed after too many beavers with a sweet tooth were tempted by the delicious jam."
 zhCN = "在太多嗜甜的海狸被美味的果酱诱惑后，这口锅不得不封起来。"
 zhTW = "太多嗜吃甜食的海狸被美味的果醬誘惑後，這個罐子只好封起來了。"
@@ -83,8 +83,8 @@ viVN = "Bánh mì kẹp quả mọng"
 trTR = "Böğürtlenli çörekler"
 
 ["Good.BerryJam.DisplayName"]
-status = "normal"
 raw = "Berry jam"
+status = "normal"
 enUS = "Berry Jam"
 zhCN = "浆果果酱"
 zhTW = "莓果果醬"
@@ -100,8 +100,8 @@ viVN = "Mứt quả mọng"
 trTR = "Böğürtlen reçeli"
 
 ["Good.BerryJam.PluralDisplayName"]
-status = "normal"
 raw = "Berry jam"
+status = "normal"
 enUS = "Berry jam"
 zhCN = "浆果果酱"
 zhTW = "莓果果醬"

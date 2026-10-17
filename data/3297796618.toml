@@ -1210,6 +1210,7 @@ trTR = "{0} (Tut) = Kazı Modu"
 
 ["TerrainTools.MoundMaker.Header.Shape"]
 raw = "Shape"
+new = "Mountain"
 status = "normal"
 enUS = "Shape"
 zhCN = "形状"
@@ -1227,6 +1228,7 @@ trTR = "Şekil"
 
 ["TerrainTools.MoundMaker.Slider.PeakHeight"]
 raw = "Peak height"
+new = "Height"
 status = "normal"
 enUS = "Peak height"
 zhCN = "峰顶高度"
@@ -1244,6 +1246,7 @@ trTR = "Tepe yüksekliği"
 
 ["TerrainTools.MoundMaker.Slider.MaxChange"]
 raw = "Max change"
+new = "Limit"
 status = "normal"
 enUS = "Max change"
 zhCN = "变化幅度"
@@ -1261,6 +1264,7 @@ trTR = "Max değişim"
 
 ["TerrainTools.MoundMaker.Header.RadialNoise"]
 raw = "Radial Noise"
+new = "Outline"
 status = "normal"
 enUS = "Radial Noise"
 zhCN = "径向噪波"
@@ -1278,6 +1282,7 @@ trTR = "Radyal Gürültü"
 
 ["TerrainTools.MoundMaker.Slider.Radial.Scale"]
 raw = "Scale"
+new = "Erosion"
 status = "normal"
 enUS = "Scale"
 zhCN = "缩放"
@@ -1295,6 +1300,7 @@ trTR = "Ölçek"
 
 ["TerrainTools.MoundMaker.Slider.Radial.Frequency"]
 raw = "Frequency"
+new = "Bays"
 status = "normal"
 enUS = "Frequency"
 zhCN = "频率"
@@ -1329,6 +1335,7 @@ trTR = "Ayrıntı"
 
 ["TerrainTools.MoundMaker.Header.VerticalNoise"]
 raw = "Vertical Noise"
+new = "Surface"
 status = "normal"
 enUS = "Vertical Noise"
 zhCN = "垂直噪波"
@@ -1346,6 +1353,7 @@ trTR = "Dikey Gürültü"
 
 ["TerrainTools.MoundMaker.Slider.Vertical.Amplitude"]
 raw = "Amplitude"
+new = "Relief"
 status = "normal"
 enUS = "Amplitude"
 zhCN = "振幅"
@@ -1363,6 +1371,7 @@ trTR = "Amplitüd"
 
 ["TerrainTools.MoundMaker.Slider.Vertical.Frequency"]
 raw = "Frequency"
+new = "Crags"
 status = "normal"
 enUS = "Frequency"
 zhCN = "频率"
@@ -1428,6 +1437,38 @@ koKR = "씨앗"
 csCZ = "Semeno"
 viVN = "Hạt giống"
 trTR = "Tohum"
+
+["TerrainTools.MoundMaker.Slider.PeakHeight.Tooltip"]
+new = "How tall the mountain rises above the point you click"
+status = "normal"
+
+["TerrainTools.MoundMaker.Slider.MaxChange.Tooltip"]
+new = "No tile is adjusted more than this many blocks from its current height"
+status = "normal"
+
+["TerrainTools.MoundMaker.Slider.Radial.Scale.Tooltip"]
+new = "How uneven the footprint is; low ≈ a rounder base, high ≈ a wild and irregular shape"
+status = "normal"
+
+["TerrainTools.MoundMaker.Slider.Radial.Frequency.Tooltip"]
+new = "Number of cuts into the edge; few ≈ sweeping curves, many ≈ a notched outline"
+status = "normal"
+
+["TerrainTools.MoundMaker.Slider.Radial.Detail.Tooltip"]
+new = "Adds finer details to the edge; low ≈ smooth, high ≈ many small imperfections"
+status = "normal"
+
+["TerrainTools.MoundMaker.Slider.Vertical.Amplitude.Tooltip"]
+new = "How tall the bumps and dips on the slopes are; low ≈ smooth sides, high ≈ bumpy sides, can overpower Height and Outline"
+status = "normal"
+
+["TerrainTools.MoundMaker.Slider.Vertical.Frequency.Tooltip"]
+new = "How close surface features are; low ≈ rolling hills, high ≈ sharp and craggy terrain"
+status = "normal"
+
+["TerrainTools.MoundMaker.Slider.Vertical.Detail.Tooltip"]
+new = "Adds finer detail to surface features, low ≈ smooth, high ≈ many small imperfections"
+status = "normal"
 
 ["TerrainTools.CloneTool.Title"]
 raw = "Selection Editor"

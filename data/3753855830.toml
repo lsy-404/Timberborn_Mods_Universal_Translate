@@ -70,8 +70,8 @@ viVN = "Không thiếu vật liệu nào. Mọi công trường đều được 
 trTR = "Hiçbir malzeme eksik değil. Her inşaat alanı tamamen stoklu."
 
 ["AcademicsTodoList.PinHint"]
-status = "normal"
 raw = "Click a good to keep it on the bar. Click it again to go back to the biggest shortage."
+status = "normal"
 enUS = "Click a good to keep it on the bar. Click it again to return to the biggest shortage."
 zhCN = "点击一种物资，将其固定在栏上。再次点击即可切回短缺最多的物资。"
 zhTW = "點擊一項物資，將它固定在列上。再次點擊即可回到短缺最多的物資。"

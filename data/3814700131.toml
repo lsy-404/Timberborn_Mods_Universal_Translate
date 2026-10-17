@@ -2,8 +2,8 @@
 name = "Cargo Ziplines"
 
 ["Building.CargoZiplineStation.DisplayName"]
-status = "normal"
 raw = "Cargo Zipline Station"
+status = "normal"
 enUS = "Cargo Zipline Station"
 zhCN = "货运滑索站"
 zhTW = "貨運滑索站"
@@ -19,8 +19,8 @@ viVN = "Trạm Zipline Hàng hóa"
 trTR = "Kargo Zipline İstasyonu"
 
 ["Building.CargoZiplineStation.Description"]
-status = "normal"
 raw = "Hangs goods on zipline cables and sends them down the line to a Cargo Receiver. Needs one worker to load, plus haulers to fill its stockpile."
+status = "normal"
 enUS = "Hangs goods on zipline cables and sends them down the line to a Cargo Receiver. Needs one worker to load, plus haulers to fill its stockpile."
 zhCN = "将货物挂在滑索缆线上，并沿缆线运送至货物接收站。需要一名工人装载，另需搬运工填满其库存。"
 zhTW = "將貨物掛在滑索纜線上，並沿線送往貨物接收站。需要一名工人裝載，此外還需要搬運工補充其庫存。"
@@ -66,8 +66,8 @@ viVN = "Trạm nhận hàng hóa"
 trTR = "Kargo Hattı Alıcısı"
 
 ["Building.CargoZiplineReceiver.Description"]
-status = "normal"
 raw = "Build it touching a warehouse and every bundle that arrives down the cable goes straight into that warehouse. No worker, no storage of its own, nothing to set up."
+status = "normal"
 enUS = "Build it touching a warehouse, and every bundle that arrives via the cable goes straight into that warehouse. No worker, no storage of its own, and nothing to set up."
 zhCN = "将其建在仓库旁，沿缆绳运来的每一捆货物都会直接进入该仓库。无需工人，也没有自带储存空间，无需进行任何设置。"
 zhTW = "建造時讓它緊鄰倉庫，沿著滑索送達的每捆貨物就會直接送進該倉庫。不需要工人，也沒有自己的儲存空間，完全不必設定。"

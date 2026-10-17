@@ -70,8 +70,8 @@ viVN = "Emberpelt"
 trTR = "Emberpelt"
 
 ["Group.CharcoalBeavers"]
-status = "normal"
 raw = "Charcoal Beavers"
+status = "normal"
 enUS = "Charcoal Beavers"
 zhCN = "木炭海狸"
 zhTW = "木炭海狸"

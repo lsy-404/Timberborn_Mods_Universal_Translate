@@ -699,8 +699,8 @@ viVN = "Chất lỏng"
 trTR = "Sıvılar"
 
 ["Need.Oily.DisplayName"]
-status = "normal"
 raw = "Oily"
+status = "normal"
 enUS = "Oily"
 zhCN = "油腻的"
 zhTW = "油膩的"
@@ -748,8 +748,8 @@ csCZ = "Kašel"
 trTR = "Öksürük"
 
 ["Status.Need.Cough"]
-status = "normal"
 raw = "Beaver has a Cough"
+status = "normal"
 enUS = "Beaver has a cough"
 zhCN = "海狸咳嗽了"
 zhTW = "海狸咳嗽了"
@@ -781,8 +781,8 @@ viVN = "Thảo mộc pha trà"
 trTR = "Çay Otları"
 
 ["Good.Tea.DisplayName"]
-status = "normal"
 raw = "Tea"
+status = "normal"
 enUS = "Tea"
 zhCN = "茶"
 zhTW = "茶"
@@ -798,8 +798,8 @@ viVN = "Trà"
 trTR = "Çay"
 
 ["NaturalResource.Tea.DisplayName"]
-status = "normal"
 raw = "Tea"
+status = "normal"
 enUS = "Tea"
 zhCN = "茶"
 zhTW = "茶葉"
@@ -815,8 +815,8 @@ viVN = "Trà"
 trTR = "Çay"
 
 ["NaturalResource.Tea.FlavorDescription"]
-status = "normal"
 raw = "Those are some British Beavers!"
+status = "normal"
 enUS = "Those are some British Beavers!"
 zhCN = "这可真是一群英国海狸！"
 zhTW = "真是一群英國海狸！"
@@ -832,8 +832,8 @@ viVN = "Đúng là mấy chú hải ly Anh quốc!"
 trTR = "Bunlar da ne İngiliz kunduzlar!"
 
 ["Building.Brewery.DisplayName"]
-status = "normal"
 raw = "Brewery"
+status = "normal"
 enUS = "Brewery"
 zhCN = "酿酒厂"
 zhTW = "釀酒廠"
@@ -849,8 +849,8 @@ viVN = "Nhà máy bia"
 trTR = "Bira Fabrikası"
 
 ["Building.Brewery.Description"]
-status = "normal"
 raw = "Brew tea for Beaver with a cough."
+status = "normal"
 enUS = "Brew tea for a Beaver with a cough."
 zhCN = "为咳嗽的海狸酿制茶饮。"
 zhTW = "為咳嗽的海狸釀製茶飲。"
@@ -866,8 +866,8 @@ viVN = "Pha trà cho Hải ly bị ho."
 trTR = "Öksürüğü olan kunduzlar için çay demleyin."
 
 ["Building.Brewery.FlavorDescription"]
-status = "normal"
 raw = "the Hoomans probably had to cough a lot, when they've conquered half the world for it."
+status = "normal"
 enUS = "The Hoomans probably had to cough a lot when they conquered half the world for it."
 zhCN = "人类为了征服半个世界，大概咳了不少吧。"
 zhTW = "人類大概咳得很厲害，才征服了半個世界來換取它。"
@@ -883,8 +883,8 @@ viVN = "Có lẽ người Hooman đã phải ho rất nhiều khi chinh phục �
 trTR = "Hoomanlar bunun için dünyanın yarısını fethettiklerine göre, muhtemelen çok öksürmüşlerdir."
 
 ["Good.Pipe.DisplayName"]
-status = "normal"
 raw = "Pipe"
+status = "normal"
 enUS = "Pipe"
 zhCN = "管道"
 zhTW = "管道"
@@ -900,8 +900,8 @@ viVN = "Ống dẫn nước"
 trTR = "Boru"
 
 ["Good.Pipe.PluralDisplayName"]
-status = "normal"
 raw = "Pipes"
+status = "normal"
 enUS = "Pipes"
 zhCN = "管道"
 zhTW = "管道"
@@ -933,8 +933,8 @@ viVN = "Than củi"
 trTR = "Odun Kömürü"
 
 ["Good.Charcoal.PluralDisplayName"]
-status = "normal"
 raw = "Charcoal"
+status = "normal"
 enUS = "Charcoal"
 zhCN = "木炭"
 zhTW = "木炭"
@@ -950,8 +950,8 @@ viVN = "Than củi"
 trTR = "Odun kömürü"
 
 ["Good.Steel.DisplayName"]
-status = "normal"
 raw = "Steel"
+status = "normal"
 enUS = "Steel"
 zhCN = "钢材"
 zhTW = "鋼材"
@@ -967,8 +967,8 @@ viVN = "Thép"
 trTR = "Çelik"
 
 ["Good.Steel.PluralDisplayName"]
-status = "normal"
 raw = "Steel"
+status = "normal"
 enUS = "Steel"
 zhCN = "钢材"
 zhTW = "鋼材"
@@ -984,8 +984,8 @@ viVN = "Thép"
 trTR = "Çelik"
 
 ["Building.Smoker.DisplayName"]
-status = "normal"
 raw = "Smoker"
+status = "normal"
 enUS = "Smoker"
 zhCN = "熏制器"
 zhTW = "煙燻爐"
@@ -1016,8 +1016,8 @@ csCZ = "Přeměňuje dřevo na dřevěné uhlí"
 viVN = "Chuyển gỗ thành Than củi"
 
 ["Building.Smoker.FlavorDescription"]
-status = "normal"
 raw = "I think it should have a higher chimney."
+status = "normal"
 enUS = "I think it should have a taller chimney."
 zhCN = "我觉得它的烟囱应该再高一些。"
 zhTW = "我覺得煙囪應該再高一點。"
@@ -1033,8 +1033,8 @@ viVN = "Tôi nghĩ nó nên có ống khói cao hơn."
 trTR = "Bence bacası daha yüksek olmalı."
 
 ["Good.SteelPlates.DisplayName"]
-status = "normal"
 raw = "Steel plate"
+status = "normal"
 enUS = "Steel plate"
 zhCN = "钢板"
 zhTW = "鋼板"
@@ -1050,8 +1050,8 @@ viVN = "Tấm thép"
 trTR = "Çelik levha"
 
 ["Good.SteelPlates.PluralDisplayName"]
-status = "normal"
 raw = "Steel plates"
+status = "normal"
 enUS = "Steel plates"
 zhCN = "钢板"
 zhTW = "鋼板"
@@ -1083,8 +1083,8 @@ viVN = "Lò luyện kim hiệu suất cao"
 trTR = "Verimli Eritme Ocağı"
 
 ["Building.EfficeintSmelter.Description"]
-status = "normal"
 raw = "Can create more advanced materials and other more efficiently."
+status = "normal"
 enUS = "Can create more advanced materials and other items more efficiently."
 zhCN = "能够更高效地生产更高级的材料和其他物品。"
 zhTW = "能更有效率地製造更先進的材料及其他物品。"
@@ -1100,8 +1100,8 @@ viVN = "Có thể tạo ra các vật liệu cao cấp hơn và những thứ kh
 trTR = "Daha gelişmiş malzemeleri ve diğer ürünleri daha verimli üretebilir."
 
 ["Building.EfficeintSmelter.FlavorDescription"]
-status = "normal"
 raw = "Not sure how you would upgrade a Smelter."
+status = "normal"
 enUS = "Not sure how you’d upgrade a Smelter."
 zhCN = "不知道你要怎么升级冶炼厂。"
 zhTW = "不知道要怎麼升級冶煉廠。"
@@ -1117,8 +1117,8 @@ viVN = "Không chắc làm thế nào để nâng cấp Lò luyện kim."
 trTR = "Bir Eritici'yi nasıl geliştirebileceğinden emin değilim."
 
 ["Good.MetalBeam.PluralDisplayName.Efficient"]
-status = "normal"
 raw = "Efficient Metal Beams"
+status = "normal"
 enUS = "Efficient Metal Beams"
 zhCN = "高效金属梁"
 zhTW = "高效金屬樑"
@@ -1134,8 +1134,8 @@ viVN = "Dầm kim loại hiệu quả"
 trTR = "Verimli Metal Kirişler"
 
 ["Good.ReinforcedMetalBeam.PluralDisplayName.Efficient"]
-status = "normal"
 raw = "Efficient Reinforced Metal Beams"
+status = "normal"
 enUS = "Efficient Reinforced Metal Beams"
 zhCN = "高效钢筋梁"
 zhTW = "高效強化金屬樑"
@@ -1151,8 +1151,8 @@ viVN = "Dầm kim loại gia cường hiệu suất cao"
 trTR = "Verimli Güçlendirilmiş Metal Kirişler"
 
 ["Good.ReinforcedMetalBlock.PluralDisplayName.Efficient"]
-status = "normal"
 raw = "Efficient Reinforced Metal Blocks"
+status = "normal"
 enUS = "Efficient Reinforced Metal Blocks"
 zhCN = "高效钢筋金属块"
 zhTW = "高效強化金屬塊"
@@ -1168,8 +1168,8 @@ viVN = "Khối kim loại gia cố hiệu quả cao"
 trTR = "Verimli Güçlendirilmiş Metal Bloklar"
 
 ["Good.Steel.PluralDisplayName.Efficient"]
-status = "normal"
 raw = "Efficient Steel"
+status = "normal"
 enUS = "Efficient Steel"
 zhCN = "高效钢材"
 zhTW = "高效鋼材"
@@ -1185,8 +1185,8 @@ viVN = "Thép hiệu quả"
 trTR = "Verimli Çelik"
 
 ["Building.Refinery.DisplayName"]
-status = "normal"
 raw = "Refinery"
+status = "normal"
 enUS = "Refinery"
 zhCN = "精炼厂"
 zhTW = "精煉廠"
@@ -1202,8 +1202,8 @@ viVN = "Nhà máy lọc tinh luyện"
 trTR = "Rafineri"
 
 ["Building.Refinery.Description"]
-status = "normal"
 raw = "Turns Plastics into Oil"
+status = "normal"
 enUS = "Turns Plastics into Oil"
 zhCN = "将塑料转化为石油"
 zhTW = "將塑膠轉化為石油"
