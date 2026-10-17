@@ -70,8 +70,21 @@ viVN = "Emberpelt"
 trTR = "Emberpelt"
 
 ["Group.CharcoalBeavers"]
-new = "Charcoal Beavers"
 status = "normal"
+raw = "Charcoal Beavers"
+enUS = "Charcoal Beavers"
+zhCN = "木炭海狸"
+zhTW = "木炭海狸"
+ruRU = "Угольные бобры"
+jaJP = "木炭ビーバーたち"
+frFR = "Castors charbonniers"
+deDE = "Holzkohle-Biber"
+plPL = "Węglowe bobry"
+ptBR = "Castores de carvão vegetal"
+koKR = "숯 비버들"
+csCZ = "Uhlíkoví bobři"
+viVN = "Hải Ly Than Củi"
+trTR = "Kömür Kunduzlar"
 
 ["Group.LeafCoats"]
 raw = "LeafCoat"
