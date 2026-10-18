@@ -2824,8 +2824,8 @@ viVN = "Mau khỏe nhé!"
 trTR = "Bir an önce iyileş!"
 
 ["Good.Medicine.DisplayName"]
-new = "Medicine"
 status = "normal"
+raw = "Medicine"
 enUS = "Medicine"
 zhCN = "药品"
 zhTW = "藥品"
@@ -2836,6 +2836,7 @@ deDE = "Medizin"
 plPL = "Lekarstwo"
 ptBR = "Remédio"
 koKR = "약품"
+csCZ = "Lék"
 viVN = "Thuốc men"
 trTR = "İlaç"
 

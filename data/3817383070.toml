@@ -2,18 +2,20 @@
 name = "Airlock Tunnels"
 
 ["ToolGroups.Subgroup_Airlocks"]
-new = "Airlocks"
 status = "normal"
+raw = "Airlocks"
 enUS = "Airlocks"
 zhCN = "气闸舱门"
+zhTW = "氣閘門"
 ruRU = "Шлюзы"
-frFR = "Sas d’airlock"
+jaJP = "エアロックAV无码"
+frFR = "Sas d’accès"
 deDE = "Luftschleusen"
 plPL = "Śluzy powietrzne"
 ptBR = "Eclusas de ar"
-koKR = "에어록"
+koKR = "에어록 침실"
 csCZ = "Vzduchové uzávěry"
-viVN = "Khoang khóa khí"
+viVN = "Buồng khóa khí"
 trTR = "Hava kilitleri"
 
 ["Building.AirlockBlock.DisplayName"]

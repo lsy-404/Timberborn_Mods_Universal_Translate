@@ -53,20 +53,21 @@ viVN = "Nhấp rồi kéo qua một khu vực để làm phẳng khu vực đó 
 trTR = "Bir alanı tıklayıp sürükleyerek, tıkladığınız ilk karonun yüksekliğine düzleştirin. Yeşil karolar yükseltilir, kırmızı karolar alçaltılır. Yoldaki binalar, bitkiler ve çıkıntılar kaldırılır."
 
 ["CreativeMode.Raise.Title"]
-new = "Raise terrain"
 status = "normal"
+raw = "Raise terrain"
 enUS = "Raise terrain"
 zhCN = "抬高地形"
 zhTW = "抬高地形"
-ruRU = "Поднять рельеф"
+ruRU = "Поднять ландшафт"
 jaJP = "地形を上げる"
-frFR = "Rehausser le terrain"
+frFR = "Surélever le terrain"
 deDE = "Gelände anheben"
 plPL = "Podnieś teren"
 ptBR = "Elevar terreno"
 koKR = "지형 높이기"
 csCZ = "Zvýšit terén"
 viVN = "Nâng địa hình"
+trTR = "Araziyi Yükselt"
 
 ["CreativeMode.Raise.Description"]
 raw = "Click and drag over an area to raise every tile by the selected number of levels. Anything standing in the way is removed."
@@ -86,20 +87,21 @@ viVN = "Nhấp và kéo qua một khu vực để nâng mọi ô lên số tần
 trTR = "Seçilen seviye sayısı kadar yükseltmek için bir alanın üzerine tıklayıp sürükleyin. Yoluna çıkan her şey kaldırılır."
 
 ["CreativeMode.Lower.Title"]
-new = "Lower terrain"
 status = "normal"
+raw = "Lower terrain"
 enUS = "Lower terrain"
 zhCN = "降低地形"
 zhTW = "降低地形"
-ruRU = "Опустить рельеф"
-jaJP = "地形を低くする"
+ruRU = "Понизить рельеф"
+jaJP = "地形を下げる"
 frFR = "Abaisser le terrain"
 deDE = "Gelände absenken"
 plPL = "Obniż teren"
-ptBR = "Abaixar o terreno"
+ptBR = "Abaixar terreno"
 koKR = "지형 낮추기"
 csCZ = "Snížit terén"
 viVN = "Hạ thấp địa hình"
+trTR = "Arazileri alçalt"
 
 ["CreativeMode.Lower.Description"]
 raw = "Click and drag over an area to lower every tile by the selected number of levels. Anything standing on the removed terrain is removed."

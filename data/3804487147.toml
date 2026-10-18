@@ -2,20 +2,21 @@
 name = "RollerCoaster"
 
 ["Barbara.RollerCoaster.P1.DisplayName"]
-new = "Roller Coaster — Grand Circuit"
 status = "normal"
+raw = "Roller Coaster — Grand Circuit"
 enUS = "Roller Coaster — Grand Circuit"
 zhCN = "过山车——大环线"
-zhTW = "雲霄飛車——大環線"
-jaJP = "ジェットコースター — グランド・サーキット"
+zhTW = "雲霄飛車 — 大型環形賽道"
+ruRU = "Американские горки — Большой круг"
+jaJP = "ジェットコースター — グランドサーキット"
 frFR = "Montagnes russes — Grand circuit"
 deDE = "Achterbahn — Großer Rundkurs"
-plPL = "Roller Coaster — Wielka pętla"
+plPL = "Kolejka górska — Wielka pętla"
 ptBR = "Montanha-russa — Grande Circuito"
 koKR = "롤러코스터 — 그랜드 서킷"
 csCZ = "Horská dráha — Velký okruh"
 viVN = "Tàu lượn siêu tốc — Đường đua lớn"
-trTR = "Hız Treni — Büyük Pist"
+trTR = "Roller Coaster — Büyük Pist"
 
 ["Barbara.RollerCoaster.P1.Description"]
 raw = "Two-beaver attraction with a long prefabricated track and two laps per ride."

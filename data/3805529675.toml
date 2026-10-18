@@ -2,19 +2,20 @@
 name = "Meadow Loop Ride"
 
 ["Barbara.MeadowLoopRide.DisplayName"]
-new = "Meadow Loop Ride"
 status = "normal"
+raw = "Meadow Loop Ride"
 enUS = "Meadow Loop Ride"
-zhTW = "草地環線遊樂設施"
-ruRU = "Круговая поездка по лугу"
-jaJP = "草原ループライド"
-frFR = "Tour de boucle dans la prairie"
+zhCN = "草甸环线游乐设施"
+zhTW = "草原環線遊樂設施"
+ruRU = "Прогулка по лугу спиралью"
+jaJP = "メドウ・ループ・ライド"
+frFR = "Tour de prairie en boucle"
 deDE = "Wiesenrundfahrt"
 plPL = "Przejażdżka po łąkowej pętli"
-ptBR = "Passeio pelo Circuito do Prado"
+ptBR = "Passeio pelo Prado em Circuito"
 koKR = "초원 순환 놀이기구"
-csCZ = "Jízda po okruhu na louce"
-viVN = "Chuyến xe vòng quanh đồng cỏ"
+csCZ = "Jízda po luční smyčce"
+viVN = "Chuyến dạo vòng quanh đồng cỏ"
 trTR = "Çayır Döngüsü Gezintisi"
 
 ["Barbara.MeadowLoopRide.Description"]
