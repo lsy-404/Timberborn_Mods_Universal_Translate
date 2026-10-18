@@ -461,8 +461,8 @@ viVN = "Đỉnh cao của công nghệ bánh đà"
 trTR = "Volan teknolojisinin zirvesi"
 
 ["Battery.Flywheels.MediumVerticalJunction.DisplayName"]
-status = "normal"
 raw = "Medium Flywheel Junction"
+status = "normal"
 enUS = "Medium Flywheel Junction"
 zhCN = "中型飞轮交汇轴蕴"
 zhTW = "中型飛輪連接軸"
@@ -512,8 +512,8 @@ viVN = "Bầu trời là giới hạn!"
 trTR = "Gökyüzü sınırdır!"
 
 ["Battery.Flywheels.LargeVerticalJunction.DisplayName"]
-status = "normal"
 raw = "Large Flywheel Junction"
+status = "normal"
 enUS = "Large Flywheel Junction"
 zhCN = "大型飞轮接头"
 zhTW = "大型飛輪接合器"
@@ -580,8 +580,8 @@ viVN = "Bánh đà"
 trTR = "Volanlar"
 
 ["Battery.Flywheels.ToolGroups.Junctions.DisplayName"]
-status = "normal"
 raw = "Junctions"
+status = "normal"
 enUS = "Junctions"
 zhCN = "连接器"
 zhTW = "接合器係列"
@@ -597,8 +597,8 @@ viVN = "Điểm nối"
 trTR = "Bağlantı Noktaları"
 
 ["Battery.Flywheels.ToolGroups.Wheel"]
-status = "normal"
 raw = "Wheel"
+status = "normal"
 enUS = "Wheel"
 zhCN = "飞轮"
 zhTW = "飛輪"
@@ -648,8 +648,8 @@ viVN = "Dung lượng"
 trTR = "Kapasite"
 
 ["Battery.Flywheels.UI.MoreInfoText.SelfStackable"]
-status = "normal"
 raw = "Ground / Self-stackable"
+status = "normal"
 enUS = "Ground / Self-stackable"
 zhCN = "地面 / 可自我堆叠"
 zhTW = "地面／可自行堆疊"

@@ -53,8 +53,8 @@ viVN = "Ẩn các đám mây khi một lớp bị ẩn"
 trTR = "Bir katman gizlendiğinde bulutları gizle"
 
 ["RainCloudsSim.Settings.HideWhenWaterHidden"]
-status = "normal"
 raw = "Hide clouds when water is hidden"
+status = "normal"
 enUS = "Hide clouds when water is hidden"
 zhCN = "隐藏水体时同时隐藏云层"
 zhTW = "隱藏水時也隱藏雲朵"
@@ -70,8 +70,8 @@ viVN = "Ẩn các đám mây khi nước bị ẩn"
 trTR = "Su gizlendiğinde bulutları gizle"
 
 ["RainCloudsSim.NewGame.Header"]
-status = "normal"
 raw = "Rain Clouds"
+status = "normal"
 enUS = "Rain Clouds"
 zhCN = "雨云"
 zhTW = "雨雲"
@@ -87,8 +87,8 @@ viVN = "Mây mưa"
 trTR = "Yağmur Bulutları"
 
 ["RainCloudsSim.NewGame.Preset"]
-status = "normal"
 raw = "Copy a preset into the rows below"
+status = "normal"
 enUS = "Copy a preset into the rows below"
 zhCN = "将预设复制到下方各行中"
 zhTW = "將預設複製到下方列中"
@@ -104,8 +104,8 @@ viVN = "Sao chép cấu hình đặt trước vào các hàng bên dưới"
 trTR = "Bir hazır ayarı aşağıdaki satırlara kopyala"
 
 ["RainCloudsSim.Preset.Easy"]
-status = "normal"
 raw = "Easy"
+status = "normal"
 enUS = "Easy"
 zhCN = "简单"
 zhTW = "簡單"
@@ -155,8 +155,8 @@ viVN = "Khó"
 trTR = "Zor"
 
 ["RainCloudsSim.Preset.Stormy"]
-status = "normal"
 raw = "Stormy"
+status = "normal"
 enUS = "Stormy"
 zhCN = "暴风雨天"
 zhTW = "暴風雨欲來"
@@ -206,8 +206,8 @@ viVN = "Mây di chuyển: chu kỳ đầu tiên"
 trTR = "Hareketli bulutlar: ilk döngü"
 
 ["RainCloudsSim.Difficulty.MaxCycleForCloudMoving"]
-status = "normal"
 raw = "Moving clouds: full chance at cycle"
+status = "normal"
 enUS = "Moving clouds: full chance per cycle"
 zhCN = "云层移动：周期内必然发生"
 zhTW = "移動雲層：週期內的機率為 100%"
@@ -240,8 +240,8 @@ viVN = "Xác suất mây di chuyển"
 trTR = "Hareketli bulutlar: olasılık"
 
 ["RainCloudsSim.Difficulty.ProbabilityOfCloudMovingContaminationModifier"]
-status = "normal"
 raw = "Moving clouds: contamination modifier"
+status = "normal"
 enUS = "Moving clouds: contamination modifier"
 zhCN = "移动云层：污染概率修正值"
 zhTW = "移動雲朵：污染修正值"
@@ -257,8 +257,8 @@ viVN = "Mây di chuyển: hệ số ô nhiễm"
 trTR = "Hareket eden bulutlar: kirlenme çarpanı"
 
 ["RainCloudsSim.Difficulty.ProbabilityToMoveOnDistrictCenter"]
-status = "normal"
 raw = "Target weight: district center"
+status = "normal"
 enUS = "Target weight: district center"
 zhCN = "目标权重：区中心"
 zhTW = "目標權重：區域中心"
@@ -308,8 +308,8 @@ viVN = "Trọng số mục tiêu: trang trại"
 trTR = "Hedef ağırlık: çiftlik"
 
 ["RainCloudsSim.Difficulty.ProbabilityToMoveInRandomDirection"]
-status = "normal"
 raw = "Target weight: random heading"
+status = "normal"
 enUS = "Target weight: random heading"
 zhCN = "目标权重：随机方向"
 zhTW = "目標權重：隨機朝向"
@@ -342,8 +342,8 @@ viVN = "Gió mùa: chu kỳ đầu tiên"
 trTR = "Musonlar: ilk döngü"
 
 ["RainCloudsSim.Difficulty.MinCycleForContaminatedMonsoon"]
-status = "normal"
 raw = "Monsoons: first cycle when polluted"
+status = "normal"
 enUS = "Monsoons: first cycle when polluted"
 zhCN = "季风：首次出现污染的周期"
 zhTW = "季風：首次出現污染的週期"
@@ -410,8 +410,8 @@ viVN = "Gió mùa: hệ số ô nhiễm"
 trTR = "Musonlar: kirlilik katsayısı"
 
 ["RainCloudsSim.Difficulty.CycleForMinContaminationGrowthBegin"]
-status = "normal"
 raw = "Sources: throttle until cycle"
+status = "normal"
 enUS = "Sources: throttle until cycle"
 zhCN = "来源：节流直至周期开始"
 zhTW = "來源：節流直到週期開始"
@@ -444,8 +444,8 @@ viVN = "Nguồn: mức hạn chế giảm dần theo chu kỳ"
 trTR = "Kaynaklar: kısma, döngü başına azalır"
 
 ["RainCloudsSim.Difficulty.StrengthMinFactorForContaminatedCloudSourceAtBegin"]
-status = "normal"
 raw = "Sources: polluted throttle floor"
+status = "normal"
 enUS = "Sources: polluted throttle floor"
 zhCN = "来源：污染节流下限"
 zhTW = "來源：污染雲層的最低強度係數"
@@ -461,8 +461,8 @@ viVN = "Nguồn: sàn cường độ mây ô nhiễm."
 trTR = "Kaynaklar: kirli bulut kaynağı için başlangıçtaki en düşük etken"
 
 ["RainCloudsSim.Difficulty.StrengthModForContaminatedSourceCloud"]
-status = "normal"
 raw = "Sources: polluted growth"
+status = "normal"
 enUS = "Sources: polluted growth"
 zhCN = "来源：污染生长系数"
 zhTW = "來源：污染生長率"

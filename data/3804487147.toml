@@ -2,8 +2,8 @@
 name = "RollerCoaster"
 
 ["Barbara.RollerCoaster.P1.DisplayName"]
-status = "normal"
 raw = "Roller Coaster — Grand Circuit"
+status = "normal"
 enUS = "Roller Coaster — Grand Circuit"
 zhCN = "过山车——大环线"
 zhTW = "雲霄飛車 — 大型環形賽道"

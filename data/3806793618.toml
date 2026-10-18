@@ -87,8 +87,8 @@ viVN = "Hàng đợi hiện tại"
 trTR = "Mevcut kuyruk"
 
 ["LV.ScS.None"]
-status = "normal"
 raw = "None"
+status = "normal"
 enUS = "None"
 zhCN = "无"
 zhTW = "無"
@@ -104,8 +104,8 @@ viVN = "Không có"
 trTR = "Yok"
 
 ["LV.ScS.Indefinite"]
-status = "normal"
 raw = "Indefinitely"
+status = "normal"
 enUS = "Indefinitely"
 zhCN = "无限期"
 zhTW = "無限期"

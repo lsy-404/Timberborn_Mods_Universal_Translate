@@ -36,8 +36,8 @@ viVN = "Một trò thu hút sáu hải ly, có đường chạy lắp ghép sẵ
 trTR = "Önceden hazırlanmış bir parkur ve tur başına iki turdan oluşan, altı kunduzluk bir eğlence aracıdır. Çalışması için kendisine bağlı ayrı bir TimberLoop Bilet Gişesi gerekir."
 
 ["Barbara.TimberLoop.P1.Flavor"]
-status = "normal"
 raw = "Tuck in your tail and hold on tight!"
+status = "normal"
 enUS = "Tuck in your tail and hold on tight!"
 zhCN = "夹紧尾巴，抓稳了！"
 zhTW = "夾緊尾巴，抓牢了！"

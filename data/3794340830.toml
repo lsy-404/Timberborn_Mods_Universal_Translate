@@ -257,8 +257,8 @@ viVN = "Cối xay gió đầu cần cẩu"
 trTR = "Vinç Tepesi Yel Değirmeni"
 
 ["LV.CrH.HeadLabel"]
-status = "normal"
 raw = "Crane Head: "
+status = "normal"
 enUS = "Crane Head: "
 zhCN = "起重机头部： "
 zhTW = "起重機頭： "
@@ -274,8 +274,8 @@ viVN = "Đầu cần cẩu: "
 trTR = "Vinç Başlığı: "
 
 ["LV.CrH.JobLaunch"]
-status = "normal"
 raw = "Launch"
+status = "normal"
 enUS = "Launch"
 zhCN = "发射"
 zhTW = "發射"
@@ -376,8 +376,8 @@ viVN = "Chi phí:"
 trTR = "Maliyet:"
 
 ["LV.CrH.LaunchCost"]
-status = "normal"
 raw = "Launch cost"
+status = "normal"
 enUS = "Launch cost"
 zhCN = "发射成本"
 zhTW = "啟動費用"
@@ -393,8 +393,8 @@ viVN = "Chi phí phóng"
 trTR = "Fırlatma maliyeti"
 
 ["LV.CrH.NoCost"]
-status = "normal"
 raw = "None"
+status = "normal"
 enUS = "None"
 zhCN = "无"
 zhTW = "無需成本"
@@ -461,8 +461,8 @@ viVN = "Đổi mục tiêu ({0}, {1}, {2})"
 trTR = "Hedefi değiştir ({0}, {1}, {2})"
 
 ["LV.CrH.LaunchMode"]
-status = "normal"
 raw = "Launch"
+status = "normal"
 enUS = "Launch"
 zhCN = "发射"
 zhTW = "發射"
@@ -478,8 +478,8 @@ viVN = "Phóng đi"
 trTR = "Fırlatma"
 
 ["LV.CrH.LaunchNone"]
-status = "normal"
 raw = "None"
+status = "normal"
 enUS = "None"
 zhCN = "无"
 zhTW = "無"
@@ -512,8 +512,8 @@ viVN = "Một lần"
 trTR = "Bir kez"
 
 ["LV.CrH.LaunchRepeat"]
-status = "normal"
 raw = "Repeat"
+status = "normal"
 enUS = "Repeat"
 zhCN = "重复"
 zhTW = "重複搭建"
@@ -529,8 +529,8 @@ viVN = "Lặp lại"
 trTR = "Tekrarla"
 
 ["LV.CrH.Fire"]
-status = "normal"
 raw = "Fire"
+status = "normal"
 enUS = "Fire"
 zhCN = "开火"
 zhTW = "火災"
@@ -563,8 +563,8 @@ viVN = "Lần phóng tiếp theo sau {0:0.0} giờ"
 trTR = "Sonraki fırlatmaya {0:0.0} saat kaldı"
 
 ["LV.CrH.AddGood"]
-status = "normal"
 raw = "Add"
+status = "normal"
 enUS = "Add"
 zhCN = "添加"
 zhTW = "新增"
@@ -597,8 +597,8 @@ viVN = "—"
 trTR = "—"
 
 ["LV.CrH.PickTarget"]
-status = "normal"
 raw = "Pick a landing tile for the Trebuchet"
+status = "normal"
 enUS = "Choose a landing tile for the Trebuchet"
 zhCN = "为投石机选择一个落点格子"
 zhTW = "為投石機選擇著陸格子"
@@ -614,8 +614,8 @@ viVN = "Chọn ô đích để hạ cánh cho Máy bắn đá trebutchet"
 trTR = "Mancınık için bir iniş karesi seçin"
 
 ["LV.CrH.TrebuchetRange"]
-status = "normal"
 raw = "Range: {0} tiles"
+status = "normal"
 enUS = "Range: {0} tiles"
 zhCN = "范围：{0} 格"
 zhTW = "範圍：{0} 格"
@@ -818,8 +818,8 @@ viVN = "Không có mục tiêu"
 trTR = "Hedef yok"
 
 ["LV.CrH.StatusBlockedShort"]
-status = "normal"
 raw = "Path blocked"
+status = "normal"
 enUS = "Path blocked"
 zhCN = "路径受阻"
 zhTW = "路徑受阻"
@@ -835,8 +835,8 @@ viVN = "Đường đi bị chặn"
 trTR = "Yol kapalı"
 
 ["LV.CrH.StatusOutOfRangeShort"]
-status = "normal"
 raw = "Out of range"
+status = "normal"
 enUS = "Out of range"
 zhCN = "超出范围"
 zhTW = "超出範圍"
@@ -869,8 +869,8 @@ viVN = "Mục tiêu quá cao"
 trTR = "Hedef çok yüksek"
 
 ["LV.CrH.StatusBadLandingShort"]
-status = "normal"
 raw = "Invalid landing"
+status = "normal"
 enUS = "Invalid landing"
 zhCN = "着陆位置无效"
 zhTW = "著陸位置無效"
@@ -937,8 +937,8 @@ viVN = "Máy bắn đá trebuchet"
 trTR = "Mancınık"
 
 [Name_TrebuchetInventoryFragment]
-status = "normal"
 raw = "Trebuchet Inventory"
+status = "normal"
 enUS = "Trebuchet Inventory"
 zhCN = "投石机库存碎片"
 zhTW = "投石機庫存碎片"

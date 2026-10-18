@@ -53,8 +53,8 @@ viVN = "Tắt nghĩa là thời tiết thuần vanilla: thời lượng bạn đ
 trTR = "Kapalı, yalnızca temel oyundaki hava koşulları demektir: yapılandırdığınız süreler, temel oyundaki gibi, erken oyun ısınma dönemi sona erince uzamayı bırakır."
 
 ["ClimateProgression.StartCycle"]
-status = "normal"
 raw = "Escalation starts at cycle"
+status = "normal"
 enUS = "Escalation starts at cycle"
 zhCN = "升级从周期开始"
 zhTW = "升級從週期開始"
@@ -87,8 +87,8 @@ viVN = "Cho đến chu kỳ này, mọi thứ vẫn không thay đổi: hạn h�
 trTR = "Bu döngüye kadar hiçbir şey değişmez: kuraklıklar ve kötü gelgitler, oyun kurulumunda ayarladığınız süre boyunca devam eder. Tırmanış ancak bundan sonra başlar."
 
 ["ClimateProgression.FullCycle"]
-status = "normal"
 raw = "Escalation complete at cycle"
+status = "normal"
 enUS = "Escalation complete at cycle"
 zhCN = "周期升级已完成于第几轮"
 zhTW = "循環升級完成於 циклу"
@@ -155,8 +155,8 @@ viVN = "Các đợt hạn hán sẽ kéo dài thêm bao lâu sau khi quá trình
 trTR = "Tırmanış tamamlandığında kuraklıkların, oyunu başlatırken ayarladığınız süreye kıyasla ne kadar daha uzun süreceği. Aşağıdaki grafik sonucu gösterir."
 
 ["ClimateProgression.BadtideIntensity"]
-status = "normal"
 raw = "Badtide lengthening"
+status = "normal"
 enUS = "Badtide Lengthening"
 zhCN = "恶水潮持续时间延长"
 zhTW = "壞潮延長"
@@ -342,8 +342,8 @@ viVN = "Thời tiết ôn hòa"
 trTR = "Ilıman hava"
 
 ["ClimateProgression.Preview.Drought"]
-status = "normal"
 raw = "Drought"
+status = "normal"
 enUS = "Drought"
 zhCN = "干旱"
 zhTW = "旱災"
@@ -393,8 +393,8 @@ viVN = "Số ngày ôn hòa mỗi ngày hiểm họa"
 trTR = "Tehlike günü başına ılıman gün sayısı"
 
 ["ClimateProgression.Preview.Plateau"]
-status = "normal"
 raw = "Plateau"
+status = "normal"
 enUS = "Plateau"
 zhCN = "高原"
 zhTW = "高原"
@@ -478,8 +478,8 @@ viVN = "Không thay đổi"
 trTR = "Değişmedi"
 
 ["ClimateProgression.Intensity.Longer.Slight"]
-status = "normal"
 raw = "Slightly longer"
+status = "normal"
 enUS = "Slightly longer"
 zhCN = "稍长一些"
 zhTW = "稍微長一點"
@@ -495,8 +495,8 @@ viVN = "Dài hơn một chút"
 trTR = "Biraz daha uzun"
 
 ["ClimateProgression.Intensity.Longer.Moderate"]
-status = "normal"
 raw = "Moderately longer"
+status = "normal"
 enUS = "Moderately longer"
 zhCN = "适度延长"
 zhTW = "稍長"
@@ -512,8 +512,8 @@ viVN = "Dài hơn vừa phải"
 trTR = "Orta derecede daha uzun"
 
 ["ClimateProgression.Intensity.Longer.Strong"]
-status = "normal"
 raw = "Notably longer"
+status = "normal"
 enUS = "Notably longer"
 zhCN = "明显更长的时期"
 zhTW = "明顯更長"
@@ -546,8 +546,8 @@ viVN = "Dài hơn nhiều"
 trTR = "Çok daha uzun"
 
 ["ClimateProgression.Intensity.Longer.Extreme"]
-status = "normal"
 raw = "Extremely long"
+status = "normal"
 enUS = "Extremely long"
 zhCN = "极长"
 zhTW = "極長"
@@ -563,8 +563,8 @@ viVN = "Cực kỳ dài"
 trTR = "Aşırı uzun"
 
 ["ClimateProgression.Intensity.Longer.Punishing"]
-status = "normal"
 raw = "Punishingly long"
+status = "normal"
 enUS = "Punishingly long"
 zhCN = "极其漫长"
 zhTW = "長得令人難以忍受"
@@ -580,8 +580,8 @@ viVN = "Dài đến mức khắc nghiệt"
 trTR = "Cezalandıracak kadar uzun"
 
 ["ClimateProgression.Intensity.Longer.Format"]
-status = "normal"
 raw = "{0} (+{1}%)"
+status = "normal"
 enUS = "{0} (+{1}%)"
 zhCN = "{0}（+{1}%）"
 zhTW = "{0}（+{1}%）"
@@ -631,8 +631,8 @@ viVN = "Ngắn hơn một chút"
 trTR = "Biraz daha kısa"
 
 ["ClimateProgression.Intensity.Shorter.Moderate"]
-status = "normal"
 raw = "Moderately shorter"
+status = "normal"
 enUS = "Moderately shorter"
 zhCN = "略短一些"
 zhTW = "稍微縮短"
@@ -665,8 +665,8 @@ viVN = "Ngắn hơn đáng kể"
 trTR = "Önemli ölçüde daha kısa"
 
 ["ClimateProgression.Intensity.Shorter.Severe"]
-status = "normal"
 raw = "Much shorter"
+status = "normal"
 enUS = "Much shorter"
 zhCN = "短得多"
 zhTW = "短得多"

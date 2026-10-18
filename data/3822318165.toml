@@ -1,0 +1,50 @@
+[_meta]
+name = "Field Hospital"
+
+["Building.Hospital.DisplayName"]
+new = "Hospital"
+status = "normal"
+
+["Building.Hospital.Description"]
+new = "A two-storey hospital tent with 16 beds and 3 doctors. Without doctors it heals like a medical bed (an injury in 7 days). With 3 doctors an injury heals in 5 days, with medicine in 2. Doctors with antidote cure badwater contamination in 2 days, using half the antidote needed at home."
+status = "normal"
+
+["Building.Hospital.FlavorDescription"]
+new = "\"Lie still, the canvas does the rest.\""
+status = "normal"
+
+["Good.Medicine.DisplayName"]
+new = "Medicine"
+status = "normal"
+
+["Good.Medicine.PluralDisplayName"]
+new = "Medicine"
+status = "normal"
+
+["Hospital.Doctors"]
+new = "Doctors: {0} of {1}, {2} in the tent"
+status = "normal"
+
+["Hospital.Patients"]
+new = "Patients: {0} of {1}"
+status = "normal"
+
+["Hospital.Injury.WithMedicine"]
+new = "An injury heals in ~{0} days (with medicine)"
+status = "normal"
+
+["Hospital.Injury.WithoutMedicine"]
+new = "An injury heals in ~{0} days (no medicine)"
+status = "normal"
+
+["Hospital.Injury.NoDoctors"]
+new = "An injury heals in ~{0} days, like a medical bed: no doctors"
+status = "normal"
+
+["Hospital.Contamination"]
+new = "Contamination is cured in ~{0} days ({1} antidote per beaver)"
+status = "normal"
+
+["Hospital.Contamination.Off"]
+new = "Contaminated beavers are not admitted: needs a doctor and antidote"
+status = "normal"

@@ -36,8 +36,8 @@ viVN = "Treo hàng hóa lên cáp zipline và gửi chúng dọc theo dây đế
 trTR = "Zipline kablolarına eşya asar ve bunları hat boyunca bir Kargo Alıcısına gönderir. Yüklemek için bir işçiye, stok yığınını doldurmak içinse taşıyıcılara ihtiyaç duyar."
 
 ["Building.CargoZiplineStation.FlavorDescription"]
-status = "normal"
 raw = "Who needs a backpack when the cable does the walking?"
+status = "normal"
 enUS = "Who needs a backpack when the cable does the walking?"
 zhCN = "有了滑索代步，还要背包做什么？"
 zhTW = "有了纜線代步，誰還需要背包？"
@@ -53,8 +53,8 @@ viVN = "Ai cần ba lô khi dây cáp tự đi bộ chứ?"
 trTR = "Kablo yürüyebiliyorken sırt çantasına ne gerek var?"
 
 ["Building.CargoZiplineReceiver.DisplayName"]
-status = "normal"
 raw = "Cargo Receiver"
+status = "normal"
 enUS = "Cargo Receiver"
 zhCN = "货物接收站"
 zhTW = "貨物接收站"
@@ -87,8 +87,8 @@ viVN = "Xây dựng nó tiếp giáp với một nhà kho, và mọi kiện hàn
 trTR = "Bir depoya bitişik inşa edin; kabloyla gelen her paket doğrudan o depoya gider. İşçi gerekmez, kendi deposu yoktur ve ayarlanacak hiçbir şey bulunmaz."
 
 ["Building.CargoZiplineReceiver.FlavorDescription"]
-status = "normal"
 raw = "Gears mesh. So do cables, if you put the hook in the right place."
+status = "normal"
 enUS = "Gears mesh. So do cables, if you put the hook in the right place."
 zhCN = "齿轮能啮合。钩子挂对地方的话，缆绳也能。"
 zhTW = "齒輪會互相嚙合。纜線也是，只要把掛鉤放在正確的位置。"

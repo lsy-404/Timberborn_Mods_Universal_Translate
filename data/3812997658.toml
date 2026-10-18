@@ -19,8 +19,8 @@ viVN = "Xóa tất cả ({0})"
 trTR = "Tümünü temizle ({0})"
 
 ["ClearHaulPriority.ConfirmOne"]
-status = "normal"
 raw = "Stop prioritizing 1 building for haulers?"
+status = "normal"
 enUS = "Stop prioritizing 1 building for haulers?"
 zhCN = "停止优先运送 1 座建筑？"
 zhTW = "要停止優先搬運這 1 棟建築嗎？"
@@ -36,8 +36,8 @@ viVN = "Dừng ưu tiên 1 công trình cho người vận chuyển hàng hóa?"
 trTR = "1 binaya öncelik vermeyi durdurmak istiyor musunuz?"
 
 ["ClearHaulPriority.ConfirmMany"]
-status = "normal"
 raw = "Stop prioritizing {0} buildings for haulers?"
+status = "normal"
 enUS = "Stop prioritizing {0} buildings for haulers?"
 zhCN = "停止将 {0} 栋建筑设为搬运工优先搬运？"
 zhTW = "要停止優先運送 {0} 棟建築嗎？"
@@ -53,8 +53,8 @@ viVN = "Ngừng ưu tiên các công trình {0} cho nhân viên vận chuyển?"
 trTR = "{0} binalarına taşıyıcılar için öncelik vermeyi durdurmak istiyor musunuz?"
 
 ["ClearHaulPriority.ClickHint"]
-status = "normal"
 raw = "Click a building to go to it."
+status = "normal"
 enUS = "Click a building to go to it."
 zhCN = "点击建筑即可前往。"
 zhTW = "點擊建築即可前往。"

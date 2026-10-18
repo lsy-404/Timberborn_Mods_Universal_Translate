@@ -2,8 +2,8 @@
 name = "Meadow Loop Ride"
 
 ["Barbara.MeadowLoopRide.DisplayName"]
-status = "normal"
 raw = "Meadow Loop Ride"
+status = "normal"
 enUS = "Meadow Loop Ride"
 zhCN = "草甸环线游乐设施"
 zhTW = "草原環線遊樂設施"

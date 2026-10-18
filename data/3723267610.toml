@@ -376,8 +376,8 @@ viVN = "D"
 trTR = "D"
 
 ["Automation.Input.E"]
-status = "normal"
 raw = "E"
+status = "normal"
 enUS = "E"
 zhCN = "E"
 zhTW = "東"
@@ -869,8 +869,8 @@ viVN = "Mức tiêu thụ"
 trTR = "Tüketim"
 
 ["BatchControl.GoodStatisticsType.Export"]
-status = "normal"
 raw = "Xuất"
+status = "normal"
 enUS = "Export"
 zhCN = "出口"
 zhTW = "出口"
@@ -886,8 +886,8 @@ viVN = "Xuất"
 trTR = "Dışa aktar"
 
 ["BatchControl.GoodStatisticsType.Import"]
-status = "normal"
 raw = "Nhập"
+status = "normal"
 enUS = "Import"
 zhCN = "导入"
 zhTW = "進口"
@@ -920,8 +920,8 @@ viVN = "Sản xuất"
 trTR = "Üretim"
 
 ["BatchControl.GoodStatisticsType.Stock"]
-status = "normal"
 raw = "Tồn kho"
+status = "normal"
 enUS = "Stock"
 zhCN = "库存"
 zhTW = "庫存"
@@ -1022,8 +1022,8 @@ viVN = "Dân cư"
 trTR = "Nüfus"
 
 ["BatchControl.PopulationStatistics"]
-status = "normal"
 raw = "Thống kê Dân số"
+status = "normal"
 enUS = "Population Statistics"
 zhCN = "人口统计"
 zhTW = "人口統計表"
@@ -1039,8 +1039,8 @@ viVN = "Thống kê dân số"
 trTR = "Nüfus İstatistikleri"
 
 ["BatchControl.PopulationStatistics.BeaverEmployment"]
-status = "normal"
 raw = "Việc làm của Hải ly"
+status = "normal"
 enUS = "Beaver Employment"
 zhCN = "海狸就业情况"
 zhTW = "海狸就業情況"
@@ -1107,8 +1107,8 @@ viVN = "Robot bị hỏng"
 trTR = "Hasarlı robot"
 
 ["BatchControl.PopulationStatistics.BotEmployment"]
-status = "normal"
 raw = "Việc làm của Robot"
+status = "normal"
 enUS = "Robot Employment"
 zhCN = "机器人就业情况"
 zhTW = "機器人就業狀況"
@@ -1141,8 +1141,8 @@ viVN = "Chết"
 trTR = "Ölümler"
 
 ["BatchControl.PopulationStatistics.PopulationAverage"]
-status = "normal"
 raw = "Trung bình dân số"
+status = "normal"
 enUS = "Average population"
 zhCN = "平均人口数"
 zhTW = "平均人口"
@@ -1209,8 +1209,8 @@ viVN = "Kho"
 trTR = "Depo"
 
 ["BatchControl.TimeRange.AllTime"]
-status = "normal"
 raw = "Từ trước đến nay"
+status = "normal"
 enUS = "All time"
 zhCN = "一直以来"
 zhTW = "有史以來"
@@ -1226,8 +1226,8 @@ viVN = "Từ trước đến nay"
 trTR = "Tüm zamanlar"
 
 ["BatchControl.TimeRange.Days"]
-status = "normal"
 raw = "Ngày"
+status = "normal"
 enUS = "Day"
 zhCN = "天"
 zhTW = "天"
@@ -2076,8 +2076,8 @@ viVN = "Ngăn nước chảy, nhưng cho phép Hải ly đi qua."
 trTR = "Su akışını engeller, ancak kunduzların geçmesine izin verir."
 
 ["Building.Airlock.DisplayName"]
-status = "normal"
 raw = "Cửa ngăn nước"
+status = "normal"
 enUS = "Water Gate"
 zhCN = "水闸"
 zhTW = "水閘門"
@@ -4728,8 +4728,8 @@ viVN = "Xả nước hoặc nước độc."
 trTR = "Su veya zehirli suyu boşaltır."
 
 ["Building.Discharge.DisplayName"]
-status = "normal"
 raw = "Cửa Xả"
+status = "normal"
 enUS = "Outlet Gate"
 zhCN = "排水口"
 zhTW = "排水口"
@@ -7261,8 +7261,8 @@ viVN = "Một phương tiện vận chuyển Hải ly nhanh chóng, dù hơi ch�
 trTR = "Hızlı ama biraz sıkışık bir kunduz taşıma aracı. Su geçirmez."
 
 ["Building.ImpermeableTubeway.DisplayName"]
-status = "normal"
 raw = "Đường Ống Chống Thấm"
+status = "normal"
 enUS = "Waterproof Pipeway"
 zhCN = "防水管道"
 zhTW = "防水管道通道"
@@ -8383,8 +8383,8 @@ viVN = "Mát-xa lành mạnh."
 trTR = "Sağlıklı masaj."
 
 ["Building.Massager.DisplayName"]
-status = "normal"
 raw = "Máy Mát-xa"
+status = "normal"
 enUS = "Massager"
 zhCN = "按摩器"
 zhTW = "按摩機"
@@ -8451,8 +8451,8 @@ viVN = "Máy bơm cơ khí"
 trTR = "Mekanik Pompa"
 
 ["Building.MechanicalPump.FlavorDescription"]
-status = "normal"
 raw = "Không cần phải tự xách nước nữa, quá đã!"
+status = "normal"
 enUS = "No need to haul water yourself anymore. What a relief!"
 zhCN = "再也不用自己提水了，爽！"
 zhTW = "再也不用自己提水了，太棒了！"
@@ -11290,8 +11290,8 @@ viVN = "Một phòng xông hơi ngoài trời, nơi hải ly có thể đổ m�
 trTR = "Kunduzların endişelerini terle atabilecekleri açık hava saunası."
 
 ["Building.Sauna.DisplayName"]
-status = "normal"
 raw = "Phòng Xông Hơi"
+status = "normal"
 enUS = "Sauna"
 zhCN = "桑拿房"
 zhTW = "桑拿房"
@@ -13619,8 +13619,8 @@ viVN = "Đang chờ"
 trTR = "Bekliyor"
 
 ["Building.ThrottlingValve.State.Opening"]
-status = "normal"
 raw = "Đang mở"
+status = "normal"
 enUS = "Opening"
 zhCN = "正在打开"
 zhTW = "正在開啟"
@@ -24232,8 +24232,8 @@ viVN = "Những cao nguyên sừng sững bảo vệ Hải ly khỏi dòng Nư�
 trTR = "Yüce platolar, kunduzları aşağıdaki Zehirli Su akışından korur. Ancak yerleşimin varlığını sürdürüp genişlemesi için kaynakları dikkatle yönetmeniz ve epeyce beceri göstermeniz gerekecek."
 
 ["MapMetadata.Pillars.Name"]
-status = "normal"
 raw = "Pillars"
+status = "normal"
 enUS = "Pillars"
 zhCN = "柱子"
 zhTW = "石柱"
@@ -26561,8 +26561,8 @@ viVN = "Thiên nhiên gửi gắm thông điệp qua hình dạng của chiếc 
 trTR = "Doğa, yaprağın şekli aracılığıyla bir mesaj gönderiyor."
 
 ["NaturalResource.Succulent.DisplayName"]
-status = "normal"
 raw = "Xương Rồng"
+status = "normal"
 enUS = "Cactus"
 zhCN = "仙人掌"
 zhTW = "仙人掌"
@@ -30234,8 +30234,8 @@ viVN = "Hải ly không khỏe"
 trTR = "Beaver sağlıklı değil"
 
 ["Status.Beaver.DiedOldAge"]
-status = "normal"
 raw = "Chết vì tuổi già."
+status = "normal"
 enUS = "Died of old age."
 zhCN = "死于年老。"
 zhTW = "因年老而逝世。"

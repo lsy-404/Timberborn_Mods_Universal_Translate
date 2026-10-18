@@ -1,0 +1,166 @@
+[_meta]
+name = "Fair Warning"
+
+["FairWarning.Section.Mode"]
+new = "Mode"
+status = "normal"
+
+["FairWarning.Section.RandomReveal"]
+new = "Random Reveal"
+status = "normal"
+
+["FairWarning.Section.CustomDrought"]
+new = "Custom Drought"
+status = "normal"
+
+["FairWarning.Section.CustomBadtide"]
+new = "Custom Badtide"
+status = "normal"
+
+["FairWarning.Section.CustomSeasonal"]
+new = "Custom Seasonal"
+status = "normal"
+
+["FairWarning.Mode.Name"]
+new = "Mode"
+status = "normal"
+
+["FairWarning.Mode.Tooltip"]
+new = "The mode for new maps. Each map keeps the mode it started with,\\nso changing this won't affect maps you already have."
+status = "normal"
+
+["FairWarning.Value.Auto"]
+new = "Auto"
+status = "normal"
+
+["FairWarning.Value.Easy"]
+new = "Easy"
+status = "normal"
+
+["FairWarning.Value.Normal"]
+new = "Normal"
+status = "normal"
+
+["FairWarning.Value.Hard"]
+new = "Hard"
+status = "normal"
+
+["FairWarning.Value.Brutal"]
+new = "Brutal"
+status = "normal"
+
+["FairWarning.Value.Custom"]
+new = "Custom"
+status = "normal"
+
+["FairWarning.Value.Random"]
+new = "Random"
+status = "normal"
+
+["FairWarning.Value.ZeroNotice"]
+new = "Zero Notice"
+status = "normal"
+
+["FairWarning.Level.Name"]
+new = "Zero Notice level"
+status = "normal"
+
+["FairWarning.Level.Tooltip"]
+new = "Only used when Mode is Zero Notice.\\nAlarm Bells: no warning; hazard start and end are still announced.\\nRadio Silence: also hides those popups and sounds.\\nTotal Blackout: also keeps the weather panel and date icon normal."
+status = "normal"
+
+["FairWarning.Level.AlarmBells"]
+new = "Alarm Bells"
+status = "normal"
+
+["FairWarning.Level.RadioSilence"]
+new = "Radio Silence"
+status = "normal"
+
+["FairWarning.Level.TotalBlackout"]
+new = "Total Blackout"
+status = "normal"
+
+["FairWarning.IncludeZero.Name"]
+new = "Include Zero Notice in Random"
+status = "normal"
+
+["FairWarning.IncludeZero.Tooltip"]
+new = "Only used when Mode is Random.\\nWhen on, a new Random map can also roll Zero Notice (1 in 5),\\nwith its level picked at random.\\nYou may then get no warning at all - the Random Reveal\\nsection shows what was rolled."
+status = "normal"
+
+["FairWarning.MapMode.Name"]
+new = "This map's mode"
+status = "normal"
+
+["FairWarning.Reveal.ShowName"]
+new = "Show selected random profile"
+status = "normal"
+
+["FairWarning.Reveal.ShowTooltip"]
+new = "Only used for Random maps.\\nShows what the map rolled: a difficulty\\nprofile, or Zero Notice and its level."
+status = "normal"
+
+["FairWarning.Reveal.ProfileName"]
+new = "Random mode - selected profile"
+status = "normal"
+
+["FairWarning.Reveal.NotYetRolled"]
+new = "(not yet rolled - Random mode hasn't picked one for this map yet)"
+status = "normal"
+
+["FairWarning.Preset.Name"]
+new = "Start from preset"
+status = "normal"
+
+["FairWarning.Preset.Choose"]
+new = "(choose)"
+status = "normal"
+
+["FairWarning.Preset.Tooltip"]
+new = "Fills this section's sliders from a built-in profile.\\nDays: {0}.\\nCopies ranges only; Hard and Brutal also favor shorter warnings.\\nOnly changes these sliders, never a map you already have."
+status = "normal"
+
+["FairWarning.Row.Early"]
+new = "Early"
+status = "normal"
+
+["FairWarning.Row.Mid"]
+new = "Mid"
+status = "normal"
+
+["FairWarning.Row.Late"]
+new = "Late"
+status = "normal"
+
+["FairWarning.Row.EarlyMin"]
+new = "Early Min"
+status = "normal"
+
+["FairWarning.Row.EarlyMax"]
+new = "Early Max"
+status = "normal"
+
+["FairWarning.Row.MidMin"]
+new = "Mid Min"
+status = "normal"
+
+["FairWarning.Row.MidMax"]
+new = "Mid Max"
+status = "normal"
+
+["FairWarning.Row.LateMin"]
+new = "Late Min"
+status = "normal"
+
+["FairWarning.Row.LateMax"]
+new = "Late Max"
+status = "normal"
+
+["FairWarning.Row.Cycles"]
+new = "Cycles {0}"
+status = "normal"
+
+["FairWarning.Display.ModeWithLevel"]
+new = "{0} ({1})"
+status = "normal"

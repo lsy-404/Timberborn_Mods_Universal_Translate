@@ -70,8 +70,8 @@ viVN = "Bộ tăng tốc vượt trội"
 trTR = "Üstün Aşırı Yükleyiciler"
 
 ["LV.PO.Item3.Name"]
-status = "normal"
 raw = "Ultimate Overdriver"
+status = "normal"
 enUS = "Ultimate Overdriver"
 zhCN = "终极超速器"
 zhTW = "終極超載器"
@@ -121,8 +121,8 @@ viVN = "Vượt trội hơn Bộ tăng tốc cơ bản"
 trTR = "Temel Aşırı Hızlandırıcıdan Üstün"
 
 ["LV.PO.UltimateForBasic"]
-status = "normal"
 raw = "Ultimate for Basic Overdriver"
+status = "normal"
 enUS = "Ultimate for Basic Overdriver"
 zhCN = "基础超速器终极版"
 zhTW = "基礎超載器的終極版"
@@ -138,8 +138,8 @@ viVN = "Tối thượng cho Bộ tăng tốc cơ bản"
 trTR = "Temel Aşırı Yükleyici için Nihai"
 
 ["LV.PO.UltimateForSuperior"]
-status = "normal"
 raw = "Ultimate for Superior Overdriver"
+status = "normal"
 enUS = "Ultimate for Superior Overdriver"
 zhCN = "高级超速驱动器的终极版"
 zhTW = "高級超頻器的終極版"
@@ -189,8 +189,8 @@ viVN = "Tăng tốc điện năng"
 trTR = "Güç Aşırı Yüklemesi"
 
 ["LV.PO.EffectDesc"]
-status = "normal"
 raw = "+{0} work speed, +{1} power usage"
+status = "normal"
 enUS = "+{0} work speed, +{1} power consumption"
 zhCN = "+{0} 工作速度，+{1} 动力消耗"
 zhTW = "工作速度 +{0}，動力消耗 +{1}"
@@ -240,8 +240,8 @@ viVN = "Bạn cần {0}."
 trTR = "{0} gerekiyor."
 
 [Name_PowerOverdriveFragment]
-status = "normal"
 raw = "Power Overdrive"
+status = "normal"
 enUS = "Power Overdrive"
 zhCN = "动力超频"
 zhTW = "動力超載"

@@ -4507,8 +4507,8 @@ viVN = "Ngày bắt đầu tính tiền thưởng thời gian"
 trTR = "Zaman bonusunun başlangıç günü"
 
 ["ModSetting.TWMoreMines.PayTimeScaleStartDesc"]
-status = "normal"
 raw = "Time-driven pay bonus starts this day"
+status = "normal"
 enUS = "The time-driven pay bonus starts on this day"
 zhCN = "按时间计算的薪酬加成从这一天开始生效"
 zhTW = "按時間計算的薪資加成從這天開始生效"
@@ -4626,8 +4626,8 @@ viVN = "Tiền thưởng theo thời gian sẽ tăng thêm mức này mỗi ngà
 trTR = "Zamana bağlı bonus, kunduz başına günde bu kadar artar."
 
 ["ModSetting.TWMoreMines.PayProfitShareFloor"]
-status = "normal"
 raw = "Profit-share minimum"
+status = "normal"
 enUS = "Profit-sharing minimum"
 zhCN = "利润分成下限"
 zhTW = "分潤最低金額"
@@ -4660,8 +4660,8 @@ viVN = "Tiền thưởng chia lợi nhuận chỉ được kích hoạt khi tổ
 trTR = "Kâr payı bonusu yalnızca toplam kredi bu sayının üzerindeyken etkindir."
 
 ["ModSetting.TWMoreMines.PayProfitSharePercent"]
-status = "normal"
 raw = "Profit-share percent"
+status = "normal"
 enUS = "Profit-sharing percentage"
 zhCN = "利润分成百分比"
 zhTW = "利潤分成百分比"
@@ -4677,8 +4677,8 @@ viVN = "Phần trăm chia lợi nhuận"
 trTR = "Kâr payı yüzdesi"
 
 ["ModSetting.TWMoreMines.PayProfitSharePercentDesc"]
-status = "normal"
 raw = "This percent of total credits will be deducted from the colony account each day (if total is above minimum)."
+status = "normal"
 enUS = "This percentage of the total credits will be deducted from the colony account each day (if the total is above the minimum)."
 zhCN = "每天将从殖民地账户中扣除总积分的这一百分比（前提是总积分高于最低值）。"
 zhTW = "每天會從殖民地帳戶中扣除總額的這個百分比（若總額高於最低額）。"

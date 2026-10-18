@@ -87,8 +87,8 @@ viVN = "Hiển thị các mũi tên chỉ hướng ngay cả khi không chọn c
 trTR = "Bant binası seçili olmasa bile yön oklarını göster."
 
 ["LV.CBlt.GroupName"]
-status = "normal"
 raw = "Conveyor Belts"
+status = "normal"
 enUS = "Conveyor Belts"
 zhCN = "传送带"
 zhTW = "輸送帶"
@@ -308,8 +308,8 @@ viVN = "Băng chuyền góc Sp2"
 trTR = "Sp2 Köşe Konveyör Bandı"
 
 ["LV.CBlt.CornerSp3Name"]
-status = "normal"
 raw = "Sp3 Corner Belt"
+status = "normal"
 enUS = "Sp3 Corner Belt"
 zhCN = "Sp3 转角传送带"
 zhTW = "Sp3 轉角輸送帶"
@@ -376,8 +376,8 @@ viVN = "Kế hoạch hay nào rồi cũng gặp phải một bức tường. Đ�
 trTR = "Her iyi plan bir duvara çarpar. Planı böyle korursun."
 
 ["LV.CBlt.ElbowInSp1UpName"]
-status = "normal"
 raw = "Sp1 In Up"
+status = "normal"
 enUS = "Sp1 In Up"
 zhCN = "单输入弯道（上）"
 zhTW = "1 號輸送帶彎道入口（向上）"
@@ -393,8 +393,8 @@ viVN = "Đầu vào băng chuyền Sp1 hướng lên"
 trTR = "Sp1 İç Yukarı"
 
 ["LV.CBlt.ElbowInSp2UpName"]
-status = "normal"
 raw = "Sp2 In Up"
+status = "normal"
 enUS = "Sp2 In Up"
 zhCN = "Sp2 输入向上"
 zhTW = "速度 2 輸入上方的是"
@@ -410,8 +410,8 @@ viVN = "Đầu vào Sp2 hướng lên"
 trTR = "Sp2 Üstten Girişli"
 
 ["LV.CBlt.ElbowInSp3UpName"]
-status = "normal"
 raw = "Sp3 In Up"
+status = "normal"
 enUS = "Sp3 In Up"
 zhCN = "Sp3 输入 上方"
 zhTW = "Sp3 上向輸入管"
@@ -427,8 +427,8 @@ viVN = "Sp3 Vào Lên"
 trTR = "Sp3 İçeri Yukarı"
 
 ["LV.CBlt.ElbowInSp4UpName"]
-status = "normal"
 raw = "Sp4 In Up"
+status = "normal"
 enUS = "Sp4 In Up"
 zhCN = "Sp4 向上输入"
 zhTW = "Sp4 輸入向上"
@@ -444,8 +444,8 @@ viVN = "Sp4 Đầu vào Lên"
 trTR = "Sp4 İç Yukarı"
 
 ["LV.CBlt.ElbowInSp1DownName"]
-status = "normal"
 raw = "Sp1 In Down"
+status = "normal"
 enUS = "Sp1 In Down"
 zhCN = "Sp1 向下输入"
 zhTW = "單格向下入口"
@@ -461,8 +461,8 @@ viVN = "Đầu vào Sp1 hướng xuống"
 trTR = "Sp1 Aşağı Giriş"
 
 ["LV.CBlt.ElbowInSp2DownName"]
-status = "normal"
 raw = "Sp2 In Down"
+status = "normal"
 enUS = "Sp2 In Down"
 zhCN = "Sp2 向下输入"
 zhTW = "Sp2 輸入向下"
@@ -478,8 +478,8 @@ viVN = "Đầu vào Sp2 hướng xuống"
 trTR = "Sp2 Aşağı Giriş"
 
 ["LV.CBlt.ElbowInSp3DownName"]
-status = "normal"
 raw = "Sp3 In Down"
+status = "normal"
 enUS = "Sp3 In Down"
 zhCN = "Sp3 向下输入"
 zhTW = "Sp3 向下輸入彎道"
@@ -495,8 +495,8 @@ viVN = "Đầu vào Sp3 hướng xuống"
 trTR = "Hız 3 Aşağı Giriş Elbow"
 
 ["LV.CBlt.ElbowInSp4DownName"]
-status = "normal"
 raw = "Sp4 In Down"
+status = "normal"
 enUS = "Sp4 In Down"
 zhCN = "Sp4 向下输入"
 zhTW = "Sp4 向下輸入"
@@ -512,8 +512,8 @@ viVN = "Sp4 Đầu vào hướng xuống"
 trTR = "Sp4 Giriş Aşağı"
 
 ["LV.CBlt.ElbowOutSp1UpName"]
-status = "normal"
 raw = "Sp1 Out Up"
+status = "normal"
 enUS = "Sp1 Out Up"
 zhCN = "Sp1 上出料"
 zhTW = "Sp1 向上輸出"
@@ -529,8 +529,8 @@ viVN = "Đầu ra băng chuyền 1 hướng lên"
 trTR = "Sp1 Dışarı Yukarı"
 
 ["LV.CBlt.ElbowOutSp2UpName"]
-status = "normal"
 raw = "Sp2 Out Up"
+status = "normal"
 enUS = "Sp2 Out Up"
 zhCN = "Sp2 上向输出"
 zhTW = "Sp2 輸出上行"
@@ -546,8 +546,8 @@ viVN = "Băng chuyền cong ra, lên, tốc độ 2"
 trTR = "Sp2 Yukarı Çıkış"
 
 ["LV.CBlt.ElbowOutSp3UpName"]
-status = "normal"
 raw = "Sp3 Out Up"
+status = "normal"
 enUS = "Sp3 Out Up"
 zhCN = "Sp3 输出向上"
 zhTW = "Sp3 輸出向上"
@@ -580,8 +580,8 @@ viVN = "Sp4 Đầu ra Hướng lên"
 trTR = "Sp4 Dışarı Yukarı"
 
 ["LV.CBlt.ElbowOutSp1DownName"]
-status = "normal"
 raw = "Sp1 Out Down"
+status = "normal"
 enUS = "Sp1 Output Down"
 zhCN = "Sp1 向下输出"
 zhTW = "Sp1 向下輸出"
@@ -597,8 +597,8 @@ viVN = "Đầu ra đơn 1 hướng xuống"
 trTR = "Sp1 Çıkış Aşağı"
 
 ["LV.CBlt.ElbowOutSp2DownName"]
-status = "normal"
 raw = "Sp2 Out Down"
+status = "normal"
 enUS = "Sp2 Out Down"
 zhCN = "Sp2 向下输出"
 zhTW = "Sp2 輸出向下"
@@ -614,8 +614,8 @@ viVN = "Đầu ra góc khuỷu băng chuyền 2 hướng xuống"
 trTR = "Sp2 Çıkış Aşağı"
 
 ["LV.CBlt.ElbowOutSp3DownName"]
-status = "normal"
 raw = "Sp3 Out Down"
+status = "normal"
 enUS = "Sp3 Out Down"
 zhCN = "Sp3 输出向下"
 zhTW = "Sp3 向下出口"
@@ -631,8 +631,8 @@ viVN = "Sp3 Ra Xuống"
 trTR = "Sp3 Dışa Aşağı"
 
 ["LV.CBlt.ElbowOutSp4DownName"]
-status = "normal"
 raw = "Sp4 Out Down"
+status = "normal"
 enUS = "Sp4 Out Down"
 zhCN = "Sp4 向下出口"
 zhTW = "Sp4 向下輸出"
@@ -682,8 +682,8 @@ viVN = "Bẻ băng chuyền nằm ngang hướng xuống dưới."
 trTR = "Yatay bir bandı aşağı doğru döndürür."
 
 ["LV.CBlt.ElbowOutUpDesc"]
-status = "normal"
 raw = "Turns an upward belt horizontal."
+status = "normal"
 enUS = "Turns an upward belt horizontal."
 zhCN = "将向上的传送带转为水平传送带。"
 zhTW = "將向上的輸送帶轉為水平。"
@@ -716,8 +716,8 @@ viVN = "Chuyển băng chuyền hướng xuống thành băng chuyền nằm nga
 trTR = "Aşağı doğru inen bir bandı yatay hâle getirir."
 
 ["LV.CBlt.ImpermeableName"]
-status = "normal"
 raw = "Impermeable Belt"
+status = "normal"
 enUS = "Impermeable Belt"
 zhCN = "防水传送带"
 zhTW = "不透水輸送帶"
@@ -767,8 +767,8 @@ viVN = "Những chiếc hộp khi lấy ra hơi dính. Mọi người đều đ�
 trTR = "Kutular biraz yapış yapış çıkıyor. Herkes bunun sorun olmadığı konusunda hemfikir."
 
 ["LV.CBlt.MergerName"]
-status = "normal"
 raw = "Merger"
+status = "normal"
 enUS = "Merger"
 zhCN = "合流器"
 zhTW = "合併器"
@@ -869,8 +869,8 @@ viVN = "“Máy chia thông minh của em trai tôi, Orville, vi phạm nguyên 
 trTR = "\"Kardeşim Orville’ın Akıllı Ayırıcısı DRY ilkesini o kadar çok yönden ihlal ediyor ki.\" —xa0Wilburxa0Wreave"
 
 ["LV.CBlt.SmartName"]
-status = "normal"
 raw = "Smart Splitter"
+status = "normal"
 enUS = "Smart Splitter"
 zhCN = "智能分拣器"
 zhTW = "智慧分流器"
@@ -903,8 +903,8 @@ viVN = "Bộ chia có thể lọc đầu ra tốt hoặc đầu ra tràn."
 trTR = "İyi ya da taşma çıkışını filtreleyebilen bir ayırıcı."
 
 ["LV.CBlt.SmartFlavor"]
-status = "normal"
 raw = "'My brother Wilbur's Splitter repeats the same mistake three times.' —xa0Orvillexa0Wreave"
+status = "normal"
 enUS = "\"'My brother Wilbur's Splitter repeats the same mistake three times.' —xa0Orvillexa0Wreave"
 zhCN = "“我哥哥威尔伯的分拣器把同一个错误重复了三次。”——xa0奥维尔xa0韦夫"
 zhTW = "「我哥哥威爾伯的分流器把同一個錯誤重複犯了三次。」——xa0奧維爾xa0威里夫"
@@ -1039,8 +1039,8 @@ viVN = "Băng tải nâng Sp1 lên"
 trTR = "Sp1 Yukarı Yükseltici"
 
 ["LV.CBlt.RiserSp2UpName"]
-status = "normal"
 raw = "Sp2 Riser Up"
+status = "normal"
 enUS = "Sp2 Riser Up"
 zhCN = "Sp2 向上提升机"
 zhTW = "Sp2 輸送帶上升段"
@@ -1056,8 +1056,8 @@ viVN = "Băng tải nâng Sp2 lên"
 trTR = "Sp2 Yukarı Yükseltici"
 
 ["LV.CBlt.RiserSp3UpName"]
-status = "normal"
 raw = "Sp3 Riser Up"
+status = "normal"
 enUS = "Sp3 Riser Up"
 zhCN = "Sp3 上升输送带"
 zhTW = "Sp3 上升輸送機"
@@ -1073,8 +1073,8 @@ viVN = "Băng chuyền nâng lên Sp3"
 trTR = "Sp3 Yükseltici Yukarı"
 
 ["LV.CBlt.RiserSp4UpName"]
-status = "normal"
 raw = "Sp4 Riser Up"
+status = "normal"
 enUS = "Sp4 Riser Up"
 zhCN = "Sp4 上升输送机"
 zhTW = "Sp4 向上升降機"
@@ -1124,8 +1124,8 @@ viVN = "Với một phát minh của Thiết Nha, nó lại <i>nâng cao tinh th
 trTR = "Demir Dişler icadı için şaşırtıcı derecede <i>yükseltici</i>."
 
 ["LV.CBlt.RiserSp1DownName"]
-status = "normal"
 raw = "Sp1 Riser Down"
+status = "normal"
 enUS = "Sp1 Downward Riser"
 zhCN = "Sp1 向下提升机"
 zhTW = "Sp1 下行升降機"
@@ -1226,8 +1226,8 @@ viVN = "“Chẳng phải thứ này nên tạo ra điện thay vì tiêu thụ 
 trTR = "“Bu şey güç tüketmek yerine güç üretmiyor muydu?”"
 
 ["LV.CBlt.WarnStuck"]
-status = "normal"
 raw = "Warn when stuck"
+status = "normal"
 enUS = "Warn when stuck"
 zhCN = "卡住时发出警告"
 zhTW = "卡住時發出警告"
@@ -1396,8 +1396,8 @@ viVN = "Băng chuyền bị ngập nước"
 trTR = "Bant Sular Altında"
 
 ["LV.CBlt.None"]
-status = "normal"
 raw = "None"
+status = "normal"
 enUS = "None"
 zhCN = "无"
 zhTW = "無"
@@ -1413,8 +1413,8 @@ viVN = "Không có"
 trTR = "Hiçbiri"
 
 ["LV.CBlt.Any"]
-status = "normal"
 raw = "Any"
+status = "normal"
 enUS = "Any"
 zhCN = "任意"
 zhTW = "任何"
@@ -1430,8 +1430,8 @@ viVN = "Bất kỳ"
 trTR = "Herhangi"
 
 ["LV.CBlt.Overflow"]
-status = "normal"
 raw = "Overflow only"
+status = "normal"
 enUS = "Overflow only"
 zhCN = "仅溢出时生效"
 zhTW = "僅限溢流"
@@ -1447,8 +1447,8 @@ viVN = "Chỉ tràn ra ngoài"
 trTR = "Yalnızca taşanlar"
 
 ["LV.CBlt.Left"]
-status = "normal"
 raw = "Left"
+status = "normal"
 enUS = "Left"
 zhCN = "左邊"
 zhTW = "左"
@@ -1464,8 +1464,8 @@ viVN = "Trái"
 trTR = "Sol"
 
 ["LV.CBlt.Center"]
-status = "normal"
 raw = "Center"
+status = "normal"
 enUS = "Center"
 zhCN = "居中"
 zhTW = "置中"
@@ -1481,8 +1481,8 @@ viVN = "Giữa"
 trTR = "Ortala"
 
 ["LV.CBlt.Right"]
-status = "normal"
 raw = "Right"
+status = "normal"
 enUS = "Right"
 zhCN = "右侧"
 zhTW = "右方"
@@ -1532,8 +1532,8 @@ viVN = "[KHÔNG_THU_GỌN]"
 trTR = "[DO_NOT_COLLAPSE]"
 
 [Name_BeltFragment]
-status = "normal"
 raw = "Conveyor Belt"
+status = "normal"
 enUS = "Conveyor Belt"
 zhCN = "传送带"
 zhTW = "輸送帶"

@@ -19,8 +19,8 @@ viVN = "{0} gần như trống rỗng"
 trTR = "{0} neredeyse boş"
 
 ["AutoNames.Low"]
-status = "normal"
 raw = "{0} low"
+status = "normal"
 enUS = "{0} low"
 zhCN = "{0} 低"
 zhTW = "{0} 低"
@@ -36,8 +36,8 @@ viVN = "{0} thấp"
 trTR = "{0} düşük"
 
 ["AutoNames.AlmostFull"]
-status = "normal"
 raw = "{0} almost full"
+status = "normal"
 enUS = "{0} almost full"
 zhCN = "{0} 即将装满"
 zhTW = "{0} 快滿了"
@@ -53,8 +53,8 @@ viVN = "{0} gần đầy lắm rồi"
 trTR = "{0} neredeyse dolu"
 
 ["AutoNames.High"]
-status = "normal"
 raw = "{0} high"
+status = "normal"
 enUS = "{0} high"
 zhCN = "高度为 {0}"
 zhTW = "{0} 高 tall"
@@ -359,8 +359,8 @@ viVN = "{0} hoặc {1}"
 trTR = "{0} veya {1}"
 
 ["AutoNames.XorJoin"]
-status = "normal"
 raw = "{0} xor {1}"
+status = "normal"
 enUS = "{0} xor {1}"
 zhCN = "{0} 异或 {1}"
 zhTW = "{0} 或 {1}，但不能同時成立"
@@ -376,8 +376,8 @@ viVN = "{0} hoặc loại trừ {1}"
 trTR = "{0} veya {1} (özel veya)"
 
 ["AutoNames.RelayPassthrough"]
-status = "normal"
 raw = "{0} (relay)"
+status = "normal"
 enUS = "{0} (relay)"
 zhCN = "{0}（中继器）"
 zhTW = "{0}（中繼）"
@@ -393,8 +393,8 @@ viVN = "{0} (tiếp sức)"
 trTR = "{0} (aktarıcı)"
 
 ["AutoNames.MemoryUntil"]
-status = "normal"
 raw = "{0} until {1}"
+status = "normal"
 enUS = "{0} until {1}"
 zhCN = "{0} 直到 {1}"
 zhTW = "{0}，直到 {1}"
@@ -410,8 +410,8 @@ viVN = "{0} cho đến {1}"
 trTR = "{0} tarihine kadar {1}"
 
 ["AutoNames.MemoryLatched"]
-status = "normal"
 raw = "{0} (latched)"
+status = "normal"
 enUS = "{0} (latched)"
 zhCN = "{0}（已锁存）"
 zhTW = "{0}（鎖存）"
@@ -427,8 +427,8 @@ viVN = "{0} (đã chốt)"
 trTR = "{0} (kilitli)"
 
 ["AutoNames.MemoryToggle"]
-status = "normal"
 raw = "Toggle on {0}"
+status = "normal"
 enUS = "Toggle on {0}"
 zhCN = "切换为开启 {0}"
 zhTW = "開啟 {0}"
@@ -512,8 +512,8 @@ viVN = "{0} trên {1}"
 trTR = "{1} üzerinde {0}"
 
 ["AutoNames.DetonateOn"]
-status = "normal"
 raw = "Detonate on {0}"
+status = "normal"
 enUS = "Detonate on {0}"
 zhCN = "在 {0} 时引爆"
 zhTW = "在 {0} 時引爆"
@@ -563,8 +563,8 @@ viVN = "{0} trì hoãn {1}/{2}"
 trTR = "{0}, {1}/{2} kadar gecikti"
 
 ["AutoNames.TimerPulse"]
-status = "normal"
 raw = "{1} pulse on {0}"
+status = "normal"
 enUS = "{1} pulse on {0}"
 zhCN = "{0} 上的 {1} 脉冲"
 zhTW = "{1} 次脈衝，間隔 {0}"
@@ -597,8 +597,8 @@ viVN = "{1} bật, {2} tắt trong khi {0}"
 trTR = "{0} boyunca {1} açık, {2} kapalı"
 
 ["AutoNames.TimerOscillatorEqual"]
-status = "normal"
 raw = "On/off every {1} while {0}"
+status = "normal"
 enUS = "On/off every {1} while {0}"
 zhCN = "在{0}时，每隔{1}切换开/关"
 zhTW = "每隔 {1} 開啟／關閉，當 {0}"
@@ -631,8 +631,8 @@ viVN = "{0} trong tổng số {1}"
 trTR = "{1} toplam için {0}"
 
 ["AutoNames.TimerRandom"]
-status = "normal"
 raw = "Random every {1} while {0}"
+status = "normal"
 enUS = "Random every {1} while {0}"
 zhCN = "在{0}时每隔{1}随机一次"
 zhTW = "每隔 {1} 時間隨機一次，條件是 {0}"
@@ -784,8 +784,8 @@ viVN = "Ô nhiễm"
 trTR = "Kirlenme"
 
 ["AutoNames.AnyContamination"]
-status = "normal"
 raw = "Any contamination"
+status = "normal"
 enUS = "Any contamination"
 zhCN = "任何污染程度"
 zhTW = "任何污染"
@@ -801,8 +801,8 @@ viVN = "Bất kỳ sự ô nhiễm nào"
 trTR = "Herhangi bir kirlilik"
 
 ["AutoNames.WaterClean"]
-status = "normal"
 raw = "Water clean"
+status = "normal"
 enUS = "Clean Water"
 zhCN = "清水"
 zhTW = "清水"
@@ -852,8 +852,8 @@ viVN = "Dòng chảy"
 trTR = "Akış"
 
 ["AutoNames.ValueHp"]
-status = "normal"
 raw = "{0} hp"
+status = "normal"
 enUS = "{0} hp"
 zhCN = "{0} hp"
 zhTW = "{0} hp"
@@ -869,8 +869,8 @@ viVN = "{0} hp"
 trTR = "{0} hp"
 
 ["AutoNames.Settings.AutoAutomateAlmostFull"]
-status = "normal"
 raw = "Auto-Automate Buildings when creating Resource Almost Full automations"
+status = "normal"
 enUS = "Automatically name buildings when creating “Resource Almost Full” automations"
 zhCN = "创建“资源即将满”自动化时自动命名建筑"
 zhTW = "建立「資源即將滿載」自動化時，自動為建築物建立自動化設定"
@@ -903,8 +903,8 @@ viVN = "Đồng thời kết nối các cơ sở sản xuất với bộ đếm.
 trTR = "Ayrıca üreticileri sayaca bağlar. Bir kaynak sayacını bir eşik değerinin altındaki doluluk oranına ayarladığınızda (ör. \"Kereste dolu değil\"), bölgesinde bu ürünü üreten ve henüz otomasyon girişi olmayan her bina sayaca bağlanır; böylece depolar doluyken üretimi duraklar. Eşik değerinin üzerindeki doluluk oranına ayarlanan sayaçlar (\"neredeyse dolu\") yalnızca depo doluyken açıktır ve kullanılmaz. Daha sonra yerleştirilen binalar bağlanmaz."
 
 ["AutoNames.Settings.AutoAutomateCompleted"]
-status = "normal"
 raw = "Auto-Automate completed buildings (and every building on reset) using an existing 'Resource Not Full' automation in their district"
+status = "normal"
 enUS = "Automatically automate completed buildings (and every building on reset) using an existing \"Resource Not Full\" automation in their district"
 zhCN = "使用所在区的现有“资源未满”自动化规则，对已建成的建筑（以及重置时的所有建筑）启用自动化 automating"
 zhTW = "使用所屬區域中現有的「資源未滿」自動化設定，自動化已完工的建築（以及重設時的每一棟建築）"

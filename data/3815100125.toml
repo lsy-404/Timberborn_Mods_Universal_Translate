@@ -87,8 +87,8 @@ viVN = "Không có cánh buồm, không có nan hoa trên mặt nước — ch�
 trTR = "Yüzeyde ne yelken var ne de çark — yalnızca derinlerde bir uğultu ve asla donmayan bir şaft."
 
 ["NaturalResource.Deepfurs.WeepingWillow.DisplayName"]
-status = "normal"
 raw = "Weeping willow"
+status = "normal"
 enUS = "Weeping willow"
 zhCN = "垂枝柳"
 zhTW = "垂枝柳"
@@ -121,8 +121,8 @@ viVN = "Rễ hút nước trực tiếp từ dòng kênh; cành cây rủ xuốn
 trTR = "Kökleri doğrudan kanaldan su içer; dalları, su çekilene kadar kanalın içinde sürüklenir."
 
 ["Manufactory.Recipe.BiofuelCanolaOil"]
-status = "normal"
 raw = "Biofuel from canola oil"
+status = "normal"
 enUS = "Biofuel from canola oil"
 zhCN = "由菜籽油制成的生物燃料"
 zhTW = "用芥花油製成的生質燃料"
@@ -172,8 +172,8 @@ viVN = "Đã hết năng lượng và nhiên liệu. Bot lai có thể chạy ch
 trTR = "Şarjı ve yakıtı bitmiş. Hibrit botlar bu kaynaklardan herhangi biriyle çalışabilir, ancak bunun ikisi de yok ve çalışmayı durdurmuş."
 
 ["Deepfurs.Bot.OutOfPowerAndFuel.Short"]
-status = "normal"
 raw = "Out of charge and fuel"
+status = "normal"
 enUS = "Out of charge and fuel"
 zhCN = "电量和燃料耗尽"
 zhTW = "電力與燃料耗盡"

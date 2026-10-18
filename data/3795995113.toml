@@ -342,8 +342,8 @@ viVN = "Một bánh đà lớn hơn và có dung lượng cao hơn."
 trTR = "Daha büyük ve daha yüksek kapasiteli bir volan."
 
 ["Battery.Flywheels.LargeFlywheel.FlavorDescription"]
-status = "normal"
 raw = "The magnum opus of Ol' Kazko"
+status = "normal"
 enUS = "The magnum opus of Ol' Kazko"
 zhCN = "老卡兹科的毕生杰作"
 zhTW = "老卡茲科的畢生傑作"
@@ -461,8 +461,8 @@ viVN = "Đỉnh cao của công nghệ bánh đà.VERTICAL"
 trTR = "Volan teknolojisinin zirvesi"
 
 ["Battery.Flywheels.MediumVerticalJunction.DisplayName"]
-status = "normal"
 raw = "Medium Flywheel Junction"
+status = "normal"
 enUS = "Medium Flywheel Junction"
 zhCN = "中型飞轮接头"
 zhTW = "中型飛輪接合器"
@@ -597,8 +597,8 @@ viVN = "Khớp nối"
 trTR = "Kavşaklar"
 
 ["Battery.Flywheels.UI.PowerDecayLabel"]
-status = "normal"
 raw = "Power Loss"
+status = "normal"
 enUS = "Power Loss"
 zhCN = "动力损耗"
 zhTW = "動力損耗"
@@ -648,8 +648,8 @@ viVN = "Mặt đất / Có thể tự xếp chồng lên nhau"
 trTR = "Zemin / Üst üste yerleştirilebilir"
 
 ["Battery.Flywheels.UI.MoreInfoText.SelfStackableText"]
-status = "normal"
 raw = "Can be built either on ground or another"
+status = "normal"
 enUS = "Can be built on the ground or on top of another one."
 zhCN = "可建在地面上或其他飞轮上"
 zhTW = "可建造於地面或另一個飛輪上"

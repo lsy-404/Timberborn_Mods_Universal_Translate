@@ -19,8 +19,8 @@ viVN = "Tuabin gió lớn có pin tích điện"
 trTR = "Bataryalı Büyük Rüzgâr Türbini"
 
 ["LV.WTB.WindmillBatteryDesc"]
-status = "normal"
 raw = "Generates power proportional to wind speed and direction. Also stores power surplus and gives it back when its network is underpowered"
+status = "normal"
 enUS = "Generates power proportional to wind speed and direction. Also stores excess power and supplies it when its network is underpowered."
 zhCN = "根据风速和风向按比例发电。还能储存多余的动力，并在能量网动力不足时释放出来。"
 zhTW = "依照風速和風向產生相應的動力。也會儲存多餘的動力，並在其動能網動力不足時釋出。"

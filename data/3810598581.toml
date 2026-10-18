@@ -53,8 +53,8 @@ viVN = "Nhấp rồi kéo qua một khu vực để làm phẳng khu vực đó 
 trTR = "Bir alanı tıklayıp sürükleyerek, tıkladığınız ilk karonun yüksekliğine düzleştirin. Yeşil karolar yükseltilir, kırmızı karolar alçaltılır. Yoldaki binalar, bitkiler ve çıkıntılar kaldırılır."
 
 ["CreativeMode.Raise.Title"]
-status = "normal"
 raw = "Raise terrain"
+status = "normal"
 enUS = "Raise terrain"
 zhCN = "抬高地形"
 zhTW = "抬高地形"
@@ -87,8 +87,8 @@ viVN = "Nhấp và kéo qua một khu vực để nâng mọi ô lên số tần
 trTR = "Seçilen seviye sayısı kadar yükseltmek için bir alanın üzerine tıklayıp sürükleyin. Yoluna çıkan her şey kaldırılır."
 
 ["CreativeMode.Lower.Title"]
-status = "normal"
 raw = "Lower terrain"
+status = "normal"
 enUS = "Lower terrain"
 zhCN = "降低地形"
 zhTW = "降低地形"

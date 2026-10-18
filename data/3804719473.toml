@@ -36,8 +36,8 @@ viVN = "Áp lực nước có sức tàn phá"
 trTR = "Yıkıcı su basıncı"
 
 ["acalc79.HardcoreSettings.NaturalWaterways"]
-status = "normal"
 raw = "Natural waterways"
+status = "normal"
 enUS = "Natural Waterways"
 zhCN = "天然水道"
 zhTW = "天然水道"
@@ -87,8 +87,8 @@ viVN = "Chi phí khối địa hình"
 trTR = "Arazi bloğu maliyeti"
 
 ["acalc79.HardcoreSettings.TerrainBlockCost.Unit"]
-status = "normal"
 raw = "dirt"
+status = "normal"
 enUS = "dirt"
 zhCN = "泥土"
 zhTW = "泥土"
@@ -172,8 +172,8 @@ viVN = "Thuốc nổ TNT"
 trTR = "Dinamit"
 
 ["acalc79.HardcoreSettings.Good.AdvancedDynamite.PluralDisplayName"]
-status = "normal"
 raw = "Dynamite"
+status = "normal"
 enUS = "Dynamite"
 zhCN = "炸药"
 zhTW = "炸藥"
@@ -206,8 +206,8 @@ viVN = "Cho phép xả nước"
 trTR = "Boşaltımlara izin ver"
 
 ["acalc79.HardcoreSettings.SingleDistrict"]
-status = "normal"
 raw = "Allow multiple districts"
+status = "normal"
 enUS = "Allow multiple districts"
 zhCN = "允许建立多个区划"
 zhTW = "允許建立多個區域"
@@ -325,8 +325,8 @@ viVN = "%"
 trTR = "%"
 
 ["acalc79.HardcoreSettings.Recipe.BotRepairs.DisplayName"]
-status = "normal"
 raw = "Repairs"
+status = "normal"
 enUS = "Repairs"
 zhCN = "维修"
 zhTW = "修理"
@@ -342,8 +342,8 @@ viVN = "Sửa chữa"
 trTR = "Onarımlar"
 
 ["acalc79.HardcoreSettings.BotAssembler.ToggleLabel"]
-status = "normal"
 raw = "Mode"
+status = "normal"
 enUS = "Mode"
 zhCN = "模式"
 zhTW = "模式"
@@ -359,8 +359,8 @@ viVN = "Chế độ"
 trTR = "Mod"
 
 ["acalc79.HardcoreSettings.Need.Repairs.DisplayName"]
-status = "normal"
 raw = "Repairs"
+status = "normal"
 enUS = "Repairs"
 zhCN = "维修"
 zhTW = "維修工作"
@@ -393,8 +393,8 @@ viVN = "Bot này đã cũ hỏng và sẽ không hoạt động cho đến khi �
 trTR = "Bu bot yıpranmış ve Bot Montajcısı'nda onarılana kadar çalışmayacak."
 
 ["acalc79.HardcoreSettings.Need.Repairs.StatusShort"]
-status = "normal"
 raw = "Needs repairs"
+status = "normal"
 enUS = "Needs repairs"
 zhCN = "需要维修"
 zhTW = "需要維修"
@@ -427,8 +427,8 @@ viVN = "Sẽ bị áp lực nước làm vỡ"
 trTR = "Su basıncına dayanamayacak"
 
 ["acalc79.HardcoreSettings.WaterPressure.Alert"]
-status = "normal"
 raw = "Water pressure is breaking buildings"
+status = "normal"
 enUS = "Water pressure is breaking buildings"
 zhCN = "水压正在摧毁建筑物"
 zhTW = "水壓正在摧毀建築物"

@@ -1430,8 +1430,8 @@ viVN = "Hạt giống"
 trTR = "Tohum"
 
 ["TerrainTools.MoundMaker.Slider.PeakHeight.Tooltip"]
-status = "normal"
 raw = "How tall the mountain rises above the point you click"
+status = "normal"
 enUS = "The height the mountain rises above the point you click"
 zhCN = "你点击处上方山丘的高度"
 zhTW = "山峰高出你點選位置的高度"
@@ -1447,8 +1447,8 @@ viVN = "Đỉnh núi cao hơn điểm bạn nhấp bao nhiêu"
 trTR = "Tıklama noktasının üzerinde dağın ne kadar yükseldiği"
 
 ["TerrainTools.MoundMaker.Slider.MaxChange.Tooltip"]
-status = "normal"
 raw = "No tile is adjusted more than this many blocks from its current height"
+status = "normal"
 enUS = "No tile is adjusted by more than this many blocks from its current height."
 zhCN = "任何地块的高度调整幅度都不会超过此数值（以格为单位）"
 zhTW = "調整的地塊高度不會超過此數值（以方塊為單位）"
@@ -1464,8 +1464,8 @@ viVN = "Không ô địa hình nào được điều chỉnh quá số khối n�
 trTR = "Hiçbir karo, mevcut yüksekliğinden bu blok sayısından daha fazla değiştirilmez."
 
 ["TerrainTools.MoundMaker.Slider.Radial.Scale.Tooltip"]
-status = "normal"
 raw = "How uneven the footprint is; low ≈ a rounder base, high ≈ a wild and irregular shape"
+status = "normal"
 enUS = "How uneven the footprint is; low ≈ a rounder base, high ≈ a wild, irregular shape"
 zhCN = "占地形状的不规则程度；数值低≈底部更圆，数值高≈形状更狂野、不规则"
 zhTW = "地形底部有多不平整；低 ≈ 底部較圓，高 ≈ 形狀更狂野、不規則"
@@ -1481,8 +1481,8 @@ viVN = "Mức độ không đều của hình dạng nền: thấp ≈ nền tr�
 trTR = "Taban alanı ne kadar düzensiz; düşük ≈ daha yuvarlak bir taban, yüksek ≈ daha girintili çıkıntılı ve düzensiz bir şekil"
 
 ["TerrainTools.MoundMaker.Slider.Radial.Frequency.Tooltip"]
-status = "normal"
 raw = "Number of cuts into the edge; few ≈ sweeping curves, many ≈ a notched outline"
+status = "normal"
 enUS = "Number of cuts into the edge; few ≈ sweeping curves, many ≈ a notched outline"
 zhCN = "切入边缘的次数；次数少 ≈ 曲线平缓，次数多 ≈ 轮廓呈锯齿状"
 zhTW = "切入邊緣的次數；較少 ≈ 曲線較平滑，較多 ≈ 輪廓呈鋸齒狀"
@@ -1498,8 +1498,8 @@ viVN = "Số vết cắt trên mép; ít ≈ đường cong rộng, nhiều ≈ 
 trTR = "Kenarın kaç noktadan kesileceği; az = geniş kavisler, çok = çentikli bir dış hat"
 
 ["TerrainTools.MoundMaker.Slider.Radial.Detail.Tooltip"]
-status = "normal"
 raw = "Adds finer details to the edge; low ≈ smooth, high ≈ many small imperfections"
+status = "normal"
 enUS = "Adds finer details to the edge; low ≈ smooth, high ≈ many small imperfections"
 zhCN = "为边缘添加更精细的细节；低值≈平滑，高值≈许多细小的不规则处"
 zhTW = "為邊緣增添更細緻的細節；低 ≈ 平滑，高 ≈ 帶有許多細小的不規則處"
@@ -1515,8 +1515,8 @@ viVN = "Thêm các chi tiết nhỏ hơn vào viền; thấp ≈ mịn, cao ≈ 
 trTR = "Kenarın ayrıntı düzeyini artırır; düşük ≈ pürüzsüz, yüksek ≈ çok sayıda küçük kusur"
 
 ["TerrainTools.MoundMaker.Slider.Vertical.Amplitude.Tooltip"]
-status = "normal"
 raw = "How tall the bumps and dips on the slopes are; low ≈ smooth sides, high ≈ bumpy sides, can overpower Height and Outline"
+status = "normal"
 enUS = "How tall the bumps and dips on the slopes are; low ≈ smooth sides, high ≈ bumpy sides. Can overpower Height and Outline."
 zhCN = "斜坡上凸起和凹陷的高度；低 ≈ 侧面平滑，高 ≈ 侧面崎岖，可能会盖过高度和轮廓的效果。"
 zhTW = "斜坡上的凸起與凹陷有多高；低 ≈ 側面平滑，高 ≈ 側面崎嶇，可能會蓋過「高度」和「輪廓」的效果。"
@@ -1532,8 +1532,8 @@ viVN = "Độ cao của các chỗ lồi lõm trên sườn dốc; thấp ≈ s�
 trTR = "Yamaçlardaki tümseklerin ve çukurların yüksekliği; düşük ≈ düz kenarlar, yüksek ≈ engebeli kenarlar; Yükseklik ve Dış Hat ayarlarını geçersiz kılabilir."
 
 ["TerrainTools.MoundMaker.Slider.Vertical.Frequency.Tooltip"]
-status = "normal"
 raw = "How close surface features are; low ≈ rolling hills, high ≈ sharp and craggy terrain"
+status = "normal"
 enUS = "How close together surface features are; low ≈ rolling hills, high ≈ sharp, craggy terrain"
 zhCN = "地表特征的间距；低 ≈ 起伏平缓的丘陵，高 ≈ 陡峭崎岖的地形"
 zhTW = "地表特徵彼此的接近程度；低 ≈ 起伏的丘陵，高 ≈ 陡峭崎嶇的地形"
@@ -1549,8 +1549,8 @@ viVN = "Độ sát nhau của các đặc điểm địa hình bề mặt; thấ
 trTR = "Yüzey şekillerinin ne kadar sık olduğu; düşük ≈ dalgalı tepeler, yüksek ≈ keskin ve sarp arazi"
 
 ["TerrainTools.MoundMaker.Slider.Vertical.Detail.Tooltip"]
-status = "normal"
 raw = "Adds finer detail to surface features, low ≈ smooth, high ≈ many small imperfections"
+status = "normal"
 enUS = "Adds finer detail to surface features; low ≈ smooth, high ≈ many small imperfections"
 zhCN = "为地表特征添加更精细的细节；低≈平滑，高≈许多细小的不规则之处"
 zhTW = "為地表特徵增添更細緻的細節；低 ≈ 平滑，高 ≈ 許多細小的不平整處"

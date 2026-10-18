@@ -1,0 +1,22 @@
+[_meta]
+name = "Gather Resources"
+
+["RuinScavengingSelectionTool.Title"]
+new = "Mark ruin scavenging area"
+status = "normal"
+
+["RuinScavengingSelectionTool.Description"]
+new = "Use this tool to mark areas where scrap will be scavenged."
+status = "normal"
+
+["RuinScavengingUnselectionTool.Title"]
+new = "Unmark ruin scavenging area"
+status = "normal"
+
+["RuinScavengingUnselectionTool.Description"]
+new = "Use this tool to unmark areas where scrap will be scavenged."
+status = "normal"
+
+["ToolGroups.GatherResources"]
+new = "Gather Resources"
+status = "normal"

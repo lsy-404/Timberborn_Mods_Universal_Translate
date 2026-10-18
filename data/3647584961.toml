@@ -18328,8 +18328,8 @@ viVN = "Nấu các món ăn cơ bản.\n<color=#FFA500>Tháp nhỏ</color>, <col
 trTR = "Temel tarifleri pişirir.\n<color=#FFA500>Küçük Kule</color>, <color=#FF6EC7>Yükseltmeleri destekleyebilir</color>\n<color=#00FFFF>Set görevi görür</color>"
 
 ["Lapantouflemagic.SmallCookery.Whitepaws.FlavorDescription"]
-status = "normal"
 raw = "\"Despite her insanity, Mathilda’s cooking is unmatched.\"\n-Mathilda the insane cook."
+status = "normal"
 enUS = "\"Despite her insanity, Mathilda’s cooking is unmatched.\"\n-Mathilda the insane cook."
 zhCN = "“尽管玛蒂尔达疯疯癫癫，她的厨艺却无人能及。”\n——疯厨玛蒂尔达。"
 zhTW = "「儘管瑪蒂爾達精神失常，她的廚藝仍無人能及。」\n——瘋狂廚師瑪蒂爾達。"
@@ -18345,8 +18345,8 @@ viVN = "“Dù bị điên, tài nấu nướng của Mathilda vẫn không ai s
 trTR = "\"Çılgınlığına rağmen Mathilda'nın yemekleri eşsizdir.\"\n-Çılgın aşçı Mathilda."
 
 ["Lapantouflemagic.ZiplineUpgradeArm.DisplayName"]
-status = "normal"
 raw = "Zipline Add-on Arm (Tree Nursery)"
+status = "normal"
 enUS = "Zipline Add-on Arm (Tree Nursery)"
 zhCN = "滑索附加臂（树木苗圃）"
 zhTW = "滑索擴充臂（樹苗圃）"

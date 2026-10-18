@@ -376,8 +376,8 @@ viVN = "Hải ly say rượu"
 trTR = "Samur sarhoş"
 
 ["Building.BeekeepersShack.DisplayName"]
-status = "normal"
 raw = "Beekeeper's Shack"
+status = "normal"
 enUS = "Beekeeper's Shack"
 zhCN = "养蜂小屋"
 zhTW = "養蜂小屋"
@@ -427,8 +427,8 @@ viVN = "“Công việc dính dớp, phần thưởng ngọt ngào.” — tục
 trTR = "“Yapış yapış iş, tatlı ödül.” —Köykuyruklar atasözü"
 
 ["Good.HoneyComb.DisplayName"]
-status = "normal"
 raw = "Honey Comb"
+status = "normal"
 enUS = "Honeycomb"
 zhCN = "蜂巢蜜格"
 zhTW = "蜂巢格</|im_end|>"
@@ -444,8 +444,8 @@ viVN = "Tổ ong mật"
 trTR = "Petek"
 
 ["Good.HoneyComb.PluralDisplayName"]
-status = "normal"
 raw = "Honey Combs"
+status = "normal"
 enUS = "Honeycombs"
 zhCN = "蜂巢格"
 zhTW = "蜂蜜蜂巢"
@@ -478,8 +478,8 @@ viVN = "Sáp ong"
 trTR = "Balmumu"
 
 ["Good.Wax.PluralDisplayName"]
-status = "normal"
 raw = "Wax"
+status = "normal"
 enUS = "Wax"
 zhCN = "蜂蜡"
 zhTW = "蠟"
@@ -512,8 +512,8 @@ viVN = "Keo ong"
 trTR = "Propolis"
 
 ["Good.Propolis.PluralDisplayName"]
-status = "normal"
 raw = "Propolis"
+status = "normal"
 enUS = "Propolis"
 zhCN = "蜂胶"
 zhTW = "蜂膠"
@@ -563,8 +563,8 @@ viVN = "Trà mật ong"
 trTR = "Ballı Çay"
 
 ["Good.WaxCandle.DisplayName"]
-status = "normal"
 raw = "Wax Candle"
+status = "normal"
 enUS = "Wax Candle"
 zhCN = "蜡烛"
 zhTW = "蠟燭"

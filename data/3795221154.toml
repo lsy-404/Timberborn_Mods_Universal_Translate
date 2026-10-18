@@ -70,8 +70,8 @@ viVN = "Hướng gió: {0}° ({1})"
 trTR = "Rüzgâr yönü: {0}° ({1})"
 
 ["Anemometer.Direction.N"]
-status = "normal"
 raw = "N"
+status = "normal"
 enUS = "N"
 zhCN = "北方"
 zhTW = "北"
@@ -104,8 +104,8 @@ viVN = "Bắc Đông Bắc"
 trTR = "Kuzey-kuzeydoğu"
 
 ["Anemometer.Direction.NE"]
-status = "normal"
 raw = "NE"
+status = "normal"
 enUS = "NE"
 zhCN = "东北方"
 zhTW = "東北"
@@ -138,8 +138,8 @@ viVN = "Đông Đông Bắc"
 trTR = "DGN"
 
 ["Anemometer.Direction.E"]
-status = "normal"
 raw = "E"
+status = "normal"
 enUS = "E"
 zhCN = "东"
 zhTW = "東"
@@ -172,8 +172,8 @@ viVN = "Đông Đông Nam"
 trTR = "Doğu-güneydoğu"
 
 ["Anemometer.Direction.SE"]
-status = "normal"
 raw = "SE"
+status = "normal"
 enUS = "SE"
 zhCN = "东南"
 zhTW = "東南"
@@ -189,8 +189,8 @@ viVN = "Đông Nam"
 trTR = "GD"
 
 ["Anemometer.Direction.SSE"]
-status = "normal"
 raw = "SSE"
+status = "normal"
 enUS = "SSE"
 zhCN = "东南偏南"
 zhTW = "東南偏南"
@@ -206,8 +206,8 @@ viVN = "Nam Đông Nam"
 trTR = "Güney-güneydoğu"
 
 ["Anemometer.Direction.S"]
-status = "normal"
 raw = "S"
+status = "normal"
 enUS = "S"
 zhCN = "南方"
 zhTW = "南"
@@ -223,8 +223,8 @@ viVN = "Namൃതദ"
 trTR = "G"
 
 ["Anemometer.Direction.SSW"]
-status = "normal"
 raw = "SSW"
+status = "normal"
 enUS = "SSW"
 zhCN = "南南西"
 zhTW = "南南西"
@@ -240,8 +240,8 @@ viVN = "SSW"
 trTR = "GGB (Güney-Güneybatı)"
 
 ["Anemometer.Direction.SW"]
-status = "normal"
 raw = "SW"
+status = "normal"
 enUS = "SW"
 zhCN = "西南方"
 zhTW = "西南"
@@ -274,8 +274,8 @@ viVN = "Tây Tây Nam"
 trTR = "GGB"
 
 ["Anemometer.Direction.W"]
-status = "normal"
 raw = "W"
+status = "normal"
 enUS = "W"
 zhCN = "西方"
 zhTW = "西"
@@ -308,8 +308,8 @@ viVN = "Tây Tây Bắc"
 trTR = "KBK"
 
 ["Anemometer.Direction.NW"]
-status = "normal"
 raw = "NW"
+status = "normal"
 enUS = "NW"
 zhCN = "西北"
 zhTW = "西北"

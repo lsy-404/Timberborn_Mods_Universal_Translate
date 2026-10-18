@@ -3538,8 +3538,8 @@ viVN = "Súp sắn"
 trTR = "Manyok Çorbası"
 
 ["Good.CassavaSoup.PluralDisplayName"]
-status = "normal"
 raw = "Cassava Soup"
+status = "normal"
 enUS = "Cassava Soup"
 zhCN = "木薯汤"
 zhTW = "木薯湯"
@@ -3606,8 +3606,8 @@ viVN = "Súp su hào"
 trTR = "Alabaş Çorbası"
 
 ["Good.KohlrabiSoup.PluralDisplayName"]
-status = "normal"
 raw = "Kohlrabi Soup"
+status = "normal"
 enUS = "Kohlrabi Soup"
 zhCN = "苤蓝汤"
 zhTW = "大頭菜湯"
@@ -3691,8 +3691,8 @@ viVN = "Súp đậu nành"
 trTR = "Soya Fasulyesi Çorbası"
 
 ["Good.AlgaeSoup.DisplayName"]
-status = "normal"
 raw = "Algae Soup"
+status = "normal"
 enUS = "Algae Soup"
 zhCN = "藻类汤"
 zhTW = "藻類湯"
@@ -3708,8 +3708,8 @@ viVN = "Súp tảo bẹ"
 trTR = "Alg Çorbası"
 
 ["Good.AlgaeSoup.PluralDisplayName"]
-status = "normal"
 raw = "Algae Soup"
+status = "normal"
 enUS = "Algae Soup"
 zhCN = "藻类汤"
 zhTW = "藻類湯"
@@ -3725,8 +3725,8 @@ viVN = "Súp tảo bẹ"
 trTR = "Alg Çorbası"
 
 ["Good.MangroveSoup.DisplayName"]
-status = "normal"
 raw = "Mangrove Fruit Soup"
+status = "normal"
 enUS = "Mangrove Fruit Soup"
 zhCN = "红树林果汤"
 zhTW = "紅樹林果湯"
@@ -3776,8 +3776,8 @@ viVN = "Súp ngô sắn"
 trTR = "Mısır Manyok Çorbası"
 
 ["Good.CornCassavaSoup.PluralDisplayName"]
-status = "normal"
 raw = "Corn Cassava Soup"
+status = "normal"
 enUS = "Corn Cassava Soup"
 zhCN = "玉米木薯汤"
 zhTW = "玉米木薯湯"
@@ -3844,8 +3844,8 @@ viVN = "Súp nấm sắn"
 trTR = "Manyoklu Mantar Çorbası"
 
 ["Good.CassavaMushroomSoup.PluralDisplayName"]
-status = "normal"
 raw = "Cassava Mushroom Soup"
+status = "normal"
 enUS = "Cassava Mushroom Soup"
 zhCN = "木薯蘑菇汤"
 zhTW = "木薯蘑菇湯"
@@ -3912,8 +3912,8 @@ viVN = "Súp cà tím su hào"
 trTR = "Patlıcan Alabaş Çorbası"
 
 ["Good.EggplantKohlrabiSoup.PluralDisplayName"]
-status = "normal"
 raw = "Eggplant Kohlrabi Soup"
+status = "normal"
 enUS = "Eggplant Kohlrabi Soup"
 zhCN = "茄子球茎甘蓝汤"
 zhTW = "茄子球莖甘藍湯"
@@ -4099,8 +4099,8 @@ viVN = "Đồ uống ngô"
 trTR = "Mısır İçeceği"
 
 ["Good.CassavaJuice.DisplayName"]
-status = "normal"
 raw = "Cassava Juice"
+status = "normal"
 enUS = "Cassava Juice"
 zhCN = "木薯汁"
 zhTW = "木薯汁"
@@ -4116,8 +4116,8 @@ viVN = "Nước ép sắn"
 trTR = "Manyok Suyu"
 
 ["Good.CassavaJuice.PluralDisplayName"]
-status = "normal"
 raw = "Cassava Juice"
+status = "normal"
 enUS = "Cassava Juice"
 zhCN = "木薯汁"
 zhTW = "木薯汁"
@@ -4150,8 +4150,8 @@ viVN = "Nước ép cà tím"
 trTR = "Patlıcan Suyu"
 
 ["Good.EggplantJuice.PluralDisplayName"]
-status = "normal"
 raw = "Eggplant Juice"
+status = "normal"
 enUS = "Eggplant Juice"
 zhCN = "茄子汁"
 zhTW = "茄子汁"
@@ -4218,8 +4218,8 @@ viVN = "Nước ép quả đước"
 trTR = "Mangrov Meyve Suyu"
 
 ["Good.MangroveJuice.PluralDisplayName"]
-status = "normal"
 raw = "Mangrove Fruit Juice"
+status = "normal"
 enUS = "Mangrove Fruit Juice"
 zhCN = "红树林果汁"
 zhTW = "紅樹林果汁"
@@ -4235,8 +4235,8 @@ viVN = "Nước ép quả đước"
 trTR = "Mangrov Meyve Suyu"
 
 ["Good.SoyDrink.DisplayName"]
-status = "normal"
 raw = "Soy Drink"
+status = "normal"
 enUS = "Soy Drink"
 zhCN = "豆浆"
 zhTW = "豆奶啤酒"
@@ -4252,8 +4252,8 @@ viVN = "Thức uống đậu nành"
 trTR = "Soya İçeceği"
 
 ["Good.SoyDrink.PluralDisplayName"]
-status = "normal"
 raw = "Soy Drink"
+status = "normal"
 enUS = "Soy Drinks"
 zhCN = "豆奶制作坊"
 zhTW = "豆奶飲料"
@@ -4303,8 +4303,8 @@ viVN = "Đồ uống từ quả măng cụt rừng ngập mặn"
 trTR = "Mangrov Meyveli İçecekler"
 
 ["Good.CornBerryDrink.DisplayName"]
-status = "normal"
 raw = "Corn Berry Drink"
+status = "normal"
 enUS = "Corn Berry Drink"
 zhCN = "玉米莓果饮料"
 zhTW = "玉米莓果飲料"
@@ -4337,8 +4337,8 @@ viVN = "Nước uống quả mọng ngô"
 trTR = "Mısır Böğürtlen İçeceği"
 
 ["Good.CassavaBerryDrink.DisplayName"]
-status = "normal"
 raw = "Cassava Berry Drink"
+status = "normal"
 enUS = "Cassava Berry Drink"
 zhCN = "木薯莓果饮品"
 zhTW = "木薯莓果飲料"
@@ -4354,8 +4354,8 @@ viVN = "Thức uống quả sắn dây bèoસ"
 trTR = "Manyok Meyvesi İçeceği"
 
 ["Good.CassavaBerryDrink.PluralDisplayName"]
-status = "normal"
 raw = "Cassava Berry Drink"
+status = "normal"
 enUS = "Cassava Berry Drink"
 zhCN = "木薯浆果饮料"
 zhTW = "樹薯莓果飲品"
@@ -4456,8 +4456,8 @@ viVN = "Trà ngô"
 trTR = "Mısır Çayı"
 
 ["Good.CornTea.PluralDisplayName"]
-status = "normal"
 raw = "Corn Tea"
+status = "normal"
 enUS = "Corn Tea"
 zhCN = "玉米茶"
 zhTW = "玉米茶"
@@ -4490,8 +4490,8 @@ viVN = "Trà sắn"
 trTR = "Manyok Çayı"
 
 ["Good.CassavaTea.PluralDisplayName"]
-status = "normal"
 raw = "Cassava Tea"
+status = "normal"
 enUS = "Cassava Tea"
 zhCN = "木薯茶"
 zhTW = "木薯茶"
@@ -4524,8 +4524,8 @@ viVN = "Trà nấm"
 trTR = "Mantar Çayı"
 
 ["Good.MushroomTea.PluralDisplayName"]
-status = "normal"
 raw = "Mushroom Tea"
+status = "normal"
 enUS = "Mushroom Tea"
 zhCN = "蘑菇茶"
 zhTW = "蘑菇茶"
@@ -4592,8 +4592,8 @@ viVN = "Trà quả đước"
 trTR = "Mangrov Meyvesi Çayı"
 
 ["Good.MangroveTea.PluralDisplayName"]
-status = "normal"
 raw = "Mangrove Fruit Tea"
+status = "normal"
 enUS = "Mangrove Fruit Tea"
 zhCN = "红树林果茶"
 zhTW = "紅樹林果茶"
@@ -4762,8 +4762,8 @@ viVN = "Rượu sắn cassava"
 trTR = "Manyok Birası"
 
 ["Good.CassavaAle.PluralDisplayName"]
-status = "normal"
 raw = "Cassava Ale"
+status = "normal"
 enUS = "Cassava Ales"
 zhCN = "木薯酒"
 zhTW = "樹薯艾爾啤酒"
@@ -4864,8 +4864,8 @@ viVN = "Rượu bia quả mọng kép"
 trTR = "Böğürtlen Birası"
 
 ["Good.BerryBerryAle.PluralDisplayName"]
-status = "normal"
 raw = "Berry Berry Ale"
+status = "normal"
 enUS = "Berry Berry Ale"
 zhCN = "浆果浆果麦酒"
 zhTW = "莓果莓果啤酒"
@@ -4932,8 +4932,8 @@ viVN = "Bia nấm"
 trTR = "Mantar Birası"
 
 ["Good.MushroomAle.PluralDisplayName"]
-status = "normal"
 raw = "Mushroom Ale"
+status = "normal"
 enUS = "Mushroom Ales"
 zhCN = "蘑菇麦酒"
 zhTW = "蘑菇艾爾啤酒"
@@ -4966,8 +4966,8 @@ viVN = "Bia quả mọng ngô"
 trTR = "Mısır ve Meyveli Bira"
 
 ["Good.CornBerryBeer.PluralDisplayName"]
-status = "normal"
 raw = "Corn Berry Beer"
+status = "normal"
 enUS = "Corn Berry Beer"
 zhCN = "玉米莓果啤酒"
 zhTW = "玉米莓果啤酒"
@@ -5000,8 +5000,8 @@ viVN = "Rượu ngô"
 trTR = "Mısır Şarabı"
 
 ["Good.CornWine.PluralDisplayName"]
-status = "normal"
 raw = "Corn Wine"
+status = "normal"
 enUS = "Corn Wine"
 zhCN = "玉米酒"
 zhTW = "玉米酒"
@@ -5153,8 +5153,8 @@ viVN = "Rượu măngrove"
 trTR = "Mangrov Likörü"
 
 ["Good.CornSpirits.DisplayName"]
-status = "normal"
 raw = "Corn Spirits"
+status = "normal"
 enUS = "Corn Spirits"
 zhCN = "玉米烈酒"
 zhTW = "玉米烈酒"
@@ -5187,8 +5187,8 @@ viVN = "Rượu ngô"
 trTR = "Mısır İçkileri"
 
 ["Good.CassavaSpirits.DisplayName"]
-status = "normal"
 raw = "Cassava Spirits"
+status = "normal"
 enUS = "Cassava Spirits"
 zhCN = "木薯烈酒"
 zhTW = "木薯烈酒"
@@ -5408,8 +5408,8 @@ viVN = "Kvass sắn"
 trTR = "Manyok Kvası"
 
 ["Good.CassavaKvass.PluralDisplayName"]
-status = "normal"
 raw = "Cassava Kvass"
+status = "normal"
 enUS = "Cassava Kvass"
 zhCN = "木薯格瓦斯"
 zhTW = "木薯格瓦斯"
@@ -5425,8 +5425,8 @@ viVN = "Kvass sắn"
 trTR = "Manyok Kvası"
 
 ["Good.SoyKvass.DisplayName"]
-status = "normal"
 raw = "Soy Kvass"
+status = "normal"
 enUS = "Soy Kvass"
 zhCN = "大豆格瓦斯"
 zhTW = "大豆格瓦斯"
@@ -5442,8 +5442,8 @@ viVN = "Kvass đậu nành"
 trTR = "Soya Kvası"
 
 ["Good.SoyKvass.PluralDisplayName"]
-status = "normal"
 raw = "Soy Kvass"
+status = "normal"
 enUS = "Soy Kvass"
 zhCN = "大豆克瓦斯酿饮"
 zhTW = "大豆克瓦斯（複數）"
@@ -5476,8 +5476,8 @@ viVN = "Kvass Rừng ngập mặn"
 trTR = "Mangrov Kvası"
 
 ["Good.MangroveKvass.PluralDisplayName"]
-status = "normal"
 raw = "Mangrove Kvass"
+status = "normal"
 enUS = "Mangrove Kvass"
 zhCN = "红树林格瓦斯"
 zhTW = "紅樹林克瓦斯"
@@ -5561,8 +5561,8 @@ viVN = "Đồ uống cải dầu lên men"
 trTR = "Fermente Kanola İçeceği"
 
 ["Good.AlgaeTea.DisplayName"]
-status = "normal"
 raw = "Algae Tea"
+status = "normal"
 enUS = "Algae Tea"
 zhCN = "藻茶"
 zhTW = "藻類茶"
@@ -5578,8 +5578,8 @@ viVN = "Trà tảo bẹ"
 trTR = "Alg Çayı"
 
 ["Good.AlgaeTea.PluralDisplayName"]
-status = "normal"
 raw = "Algae Tea"
+status = "normal"
 enUS = "Algae Tea"
 zhCN = "藻茶"
 zhTW = "藻茶"

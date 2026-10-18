@@ -189,8 +189,8 @@ viVN = "Các công trình trục truyền động cơ năng"
 trTR = "Güç mili yapıları"
 
 ["ModSetting.Ygo.WatertightUtilities.TubewayVisibility"]
-status = "normal"
 raw = "Tubeway buildings"
+status = "normal"
 enUS = "Tubeway buildings"
 zhCN = "管道建筑的可见性"
 zhTW = "管道建築物的顯示方式"
@@ -206,8 +206,8 @@ viVN = "Các công trình ống dẫn nước ngầm"
 trTR = "Tüp yolu binaları"
 
 ["ModSetting.Ygo.WatertightUtilities.Visibility.Both"]
-status = "normal"
 raw = "Both"
+status = "normal"
 enUS = "Both"
 zhCN = "两者都显示"
 zhTW = "兩者都有"
@@ -223,8 +223,8 @@ viVN = "Cả hai"
 trTR = "İkisi de"
 
 ["ModSetting.Ygo.WatertightUtilities.Visibility.ModOnly"]
-status = "normal"
 raw = "Watertight Utilities only"
+status = "normal"
 enUS = "Watertight Utilities only"
 zhCN = "仅限防水实用设施"
 zhTW = "僅限「防水實用設施」 mod"
@@ -240,8 +240,8 @@ viVN = "Chỉ Watertight Utilities"
 trTR = "Yalnızca Su Geçirmez Yardımcı Yapılar"
 
 ["ModSetting.Ygo.WatertightUtilities.Visibility.VanillaOnly"]
-status = "normal"
 raw = "Vanilla only"
+status = "normal"
 enUS = "Vanilla only"
 zhCN = "仅原版内容"
 zhTW = "僅限原版"

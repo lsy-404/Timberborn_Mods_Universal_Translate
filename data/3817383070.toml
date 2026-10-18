@@ -2,8 +2,8 @@
 name = "Airlock Tunnels"
 
 ["ToolGroups.Subgroup_Airlocks"]
-status = "normal"
 raw = "Airlocks"
+status = "normal"
 enUS = "Airlocks"
 zhCN = "气闸舱门"
 zhTW = "氣閘門"

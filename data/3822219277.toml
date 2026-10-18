@@ -1,0 +1,14 @@
+[_meta]
+name = "Time in Map Editor"
+
+["TimeInMapEditor.Cycle"]
+new = "Cycle"
+status = "normal"
+
+["TimeInMapEditor.Day"]
+new = "Day"
+status = "normal"
+
+["TimeInMapEditor.ExplodedGround"]
+new = "Cannot place objects on exploded terrain."
+status = "normal"

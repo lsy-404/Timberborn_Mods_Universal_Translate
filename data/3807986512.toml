@@ -121,8 +121,8 @@ viVN = "Thêm"
 trTR = "Ekle"
 
 ["BeaverNameList.Free"]
-status = "normal"
 raw = "Free"
+status = "normal"
 enUS = "Free"
 zhCN = "自由"
 zhTW = "自由"

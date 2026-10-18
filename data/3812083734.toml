@@ -19,8 +19,8 @@ viVN = "{0}/ngày"
 trTR = "{0}/gün"
 
 ["DailyNet.NoData"]
-status = "normal"
 raw = "no data yet"
+status = "normal"
 enUS = "No data yet"
 zhCN = "暂无数据"
 zhTW = "尚無資料"
@@ -36,8 +36,8 @@ viVN = "chưa có dữ liệu"
 trTR = "henüz veri yok"
 
 ["DailyNet.Empty"]
-status = "normal"
 raw = "empty!"
+status = "normal"
 enUS = "empty!"
 zhCN = "空！"
 zhTW = "空的！"

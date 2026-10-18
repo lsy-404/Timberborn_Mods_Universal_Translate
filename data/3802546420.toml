@@ -19,8 +19,8 @@ viVN = "Hoạt động khi thời tiết thuận lợi"
 trTR = "Hava güzelken çalışır"
 
 ["Yakovenko.WorkSchedule.Drought"]
-status = "normal"
 raw = "Works during drought"
+status = "normal"
 enUS = "Works during drought"
 zhCN = "干旱期间工作"
 zhTW = "乾旱期間運作"
@@ -36,8 +36,8 @@ viVN = "Hoạt động trong thời gian hạn hán"
 trTR = "Kuraklık sırasında çalışır"
 
 ["Yakovenko.WorkSchedule.Badtide"]
-status = "normal"
 raw = "Works during badtide"
+status = "normal"
 enUS = "Works during badtides"
 zhCN = "在恶水潮期间工作"
 zhTW = "在毒水潮期間運作"

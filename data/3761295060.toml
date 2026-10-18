@@ -2,8 +2,8 @@
 name = "Conveyor Belts"
 
 ["LV.CBlt.GroupName"]
-status = "normal"
 raw = "Conveyor Belts"
+status = "normal"
 enUS = "Conveyor Belts"
 zhCN = "传送带"
 zhTW = "輸送帶"

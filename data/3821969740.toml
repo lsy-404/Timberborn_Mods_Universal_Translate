@@ -1,0 +1,670 @@
+[_meta]
+name = "Choo-choo! Full steam ahead! - Personal Edit"
+
+["Tobbert.TrackOneWay.DisplayName"]
+new = "Straight Train Track"
+status = "normal"
+
+["Tobbert.TrackOneWay.Description"]
+new = "A Track Piece that goes straight. Can be changed to be a one way signal using the toggle when clicking on it. Creates a track section between one ways that allow a single train to be on it (indicated by the colors)."
+status = "normal"
+
+["Tobbert.TrackOneWay.FlavorDescription"]
+new = "Choo! Choo!"
+status = "normal"
+
+["Tobbert.TrackOneWay.Mode.TwoWay"]
+new = "Two-way"
+status = "normal"
+
+["Tobbert.TrackOneWay.Mode.Forward"]
+new = "Direction 1"
+status = "normal"
+
+["Tobbert.TrackOneWay.Mode.Reverse"]
+new = "Direction 2"
+status = "normal"
+
+["Tobbert.TrackOneWay.Chain.Off"]
+new = "Signal: standard"
+status = "normal"
+
+["Tobbert.TrackOneWay.Chain.On"]
+new = "Signal: chain"
+status = "normal"
+
+["Tobbert.TrainYard.DisplayName"]
+new = "Train Yard"
+status = "normal"
+
+["Tobbert.TrainYard.Description"]
+new = "Builds trains and doubles as a fuel depot. Keep it stocked with logs and water so dry trains can come here to refuel."
+status = "normal"
+
+["Tobbert.TrainYard.FlavorDescription"]
+new = "This is where trains are born."
+status = "normal"
+
+["Tobbert.TrainYard.CostOfTrain"]
+new = "Cost of 1 train:"
+status = "normal"
+
+["Tobbert.TrainYard.CreateTrain"]
+new = "Build train"
+status = "normal"
+
+["Tobbert.TrainYard.CancelBuild"]
+new = "Cancel build"
+status = "normal"
+
+["Tobbert.TrainYard.BuildTimeLeft"]
+new = "{0}h left"
+status = "normal"
+
+["Tobbert.TrainYard.PreviewErrorMessage"]
+new = "Only 1 Train Yard can be built"
+status = "normal"
+
+["Tobbert.Train.PrefabName"]
+new = "Train"
+status = "normal"
+
+["Tobbert.Train.Destroy"]
+new = "Are you sure you want to destroy this train?"
+status = "normal"
+
+["Tobbert.GoodsStation.DisplayName"]
+new = "Goods Station"
+status = "normal"
+
+["Tobbert.GoodsStation.Description"]
+new = "Loads and unloads goods carried by trains. Set, good by good, what the station sends and what it receives; workers take from and drop off at it directly, while haulers shuttle goods to and from the district's storage."
+status = "normal"
+
+["Tobbert.GoodsStation.FlavorDescription"]
+new = "Every great railway needs a place to drop off the cargo."
+status = "normal"
+
+["Tobbert.ExchangeStation.DisplayName"]
+new = "District Crossing Station"
+status = "normal"
+
+["Tobbert.ExchangeStation.Description"]
+new = "Balances goods between districts connected by rail, following their distribution settings. Beavers also use it to migrate from one district to another."
+status = "normal"
+
+["Tobbert.ExchangeStation.FlavorDescription"]
+new = "What one district has in excess another is waiting for."
+status = "normal"
+
+["Tobbert.ExchangeStation.Outgoing.Header"]
+new = "Shipments (waiting/carried)"
+status = "normal"
+
+["Tobbert.ExchangeStation.Outgoing.Line"]
+new = "{0} → {1}: {2}/{3}"
+status = "normal"
+
+["Tobbert.ExchangeStation.Incoming.Line"]
+new = "{0}: {1} inbound"
+status = "normal"
+
+["Tobbert.ExchangeStation.Idle"]
+new = "No exchange in progress"
+status = "normal"
+
+["Tobbert.ExchangeStation.Passengers.Header"]
+new = "Passengers"
+status = "normal"
+
+["Tobbert.ExchangeStation.Passengers.Line"]
+new = "{0} waiting for {1}"
+status = "normal"
+
+["Tobbert.ExchangeStation.Passengers.LineWithWalking"]
+new = "{0} waiting for {1} ({2} on the way)"
+status = "normal"
+
+["Tobbert.GoodsStationWarehouse.AssociatedStation.Header"]
+new = "Associated station"
+status = "normal"
+
+["Tobbert.GoodsStationWarehouse.AssociatedStation.None"]
+new = "No station in contact"
+status = "normal"
+
+["Tobbert.GoodsStationWarehouse.ExtraSlots"]
+new = "Extra slots: {0}"
+status = "normal"
+
+["Tobbert.GoodsStationWarehouseSmall.DisplayName"]
+new = "Small Warehouse"
+status = "normal"
+
+["Tobbert.GoodsStationWarehouseSmall.Description"]
+new = "A warehouse placed against a Goods Station, or under it, to grant it extra goods slots — each slot lets the station stock one more kind of goods. Holds no goods of its own."
+status = "normal"
+
+["Tobbert.GoodsStationWarehouseSmall.FlavorDescription"]
+new = "A modest hall for the steady flow of cargo."
+status = "normal"
+
+["Tobbert.GoodsStationWarehouseMedium.DisplayName"]
+new = "Medium Warehouse"
+status = "normal"
+
+["Tobbert.GoodsStationWarehouseMedium.Description"]
+new = "A warehouse placed against a Goods Station, or under it, to grant it extra goods slots — each slot lets the station stock one more kind of goods. Holds no goods of its own."
+status = "normal"
+
+["Tobbert.GoodsStationWarehouseMedium.FlavorDescription"]
+new = "A broad hall for the swelling flow of cargo."
+status = "normal"
+
+["Tobbert.GoodsStationWarehouseLarge.DisplayName"]
+new = "Large Warehouse"
+status = "normal"
+
+["Tobbert.GoodsStationWarehouseLarge.Description"]
+new = "A warehouse placed against a Goods Station, or under it, to grant it extra goods slots — each slot lets the station stock one more kind of goods. Holds no goods of its own."
+status = "normal"
+
+["Tobbert.GoodsStationWarehouseLarge.FlavorDescription"]
+new = "A cavernous hall for the relentless tide of freight."
+status = "normal"
+
+["Tobbert.GoodsStationSiloSmall.DisplayName"]
+new = "Small Silo"
+status = "normal"
+
+["Tobbert.GoodsStationSiloSmall.Description"]
+new = "A silo placed against a Goods Station to grant it extra goods slots — each slot lets the station stock one more kind of goods. Holds no goods of its own."
+status = "normal"
+
+["Tobbert.GoodsStationSiloSmall.FlavorDescription"]
+new = "A little extra room for the endless flow of cargo."
+status = "normal"
+
+["Tobbert.GoodsStationSiloMedium.DisplayName"]
+new = "Medium Silo"
+status = "normal"
+
+["Tobbert.GoodsStationSiloMedium.Description"]
+new = "A silo placed against a Goods Station to grant it extra goods slots — each slot lets the station stock one more kind of goods. Holds no goods of its own."
+status = "normal"
+
+["Tobbert.GoodsStationSiloMedium.FlavorDescription"]
+new = "Plenty of extra room for the endless flow of cargo."
+status = "normal"
+
+["Tobbert.WaitingStation.DisplayName"]
+new = "Waiting Station"
+status = "normal"
+
+["Tobbert.WaitingStation.Description"]
+new = "A siding where idle trains park and wait for new orders."
+status = "normal"
+
+["Tobbert.WaitingStation.FlavorDescription"]
+new = "Even trains need a moment of rest."
+status = "normal"
+
+["Tobbert.Cargo.Header"]
+new = "Cargo"
+status = "normal"
+
+["Tobbert.Train.PassengersAboard"]
+new = "{0} travellers aboard"
+status = "normal"
+
+["Tobbert.Cargo.AddGood"]
+new = "Add good"
+status = "normal"
+
+["Tobbert.Cargo.Direction.Import"]
+new = "Import"
+status = "normal"
+
+["Tobbert.Cargo.Direction.Export"]
+new = "Export"
+status = "normal"
+
+["Tobbert.Train.DisplayName"]
+new = "Train"
+status = "normal"
+
+["Tobbert.Train.Description"]
+new = "Hauls goods between Goods Stations across the rail network."
+status = "normal"
+
+["Tobbert.Train.FlavorDescription"]
+new = "The beavers insist it always runs on time. The cargo has learned not to argue."
+status = "normal"
+
+["Tobbert.Train.Status.NeedFuel"]
+new = "Out of fuel"
+status = "normal"
+
+["Tobbert.Train.Status.EmergencyStop"]
+new = "Emergency stop"
+status = "normal"
+
+["Tobbert.Train.Status.Hungry"]
+new = "Conductor is hungry — returning to eat"
+status = "normal"
+
+["Tobbert.Train.Status.Thirsty"]
+new = "Conductor is thirsty — returning to drink"
+status = "normal"
+
+["Tobbert.Train.Status.NoPath"]
+new = "No path to destination"
+status = "normal"
+
+["Tobbert.Train.Status.Blocked"]
+new = "Waiting for the track ahead"
+status = "normal"
+
+["Tobbert.Train.Status.Isolated"]
+new = "No Waiting Station or Train Yard can be reached from here — lay a connecting track, or a turnaround loop if the way back is behind it"
+status = "normal"
+
+["Tobbert.TrackLineTool.Prompt"]
+new = "Drag to lay a line of one-way track. Turn once to add a junction. Press R or Shift+R to cycle the junction piece (corner / T / crossing)."
+status = "normal"
+
+["Tobbert.TrackLineTool.DisplayName"]
+new = "Track Line Tool"
+status = "normal"
+
+["Tobbert.TrackLineTool.Description"]
+new = "Drag a line of one-way track with an automatic junction at the bend."
+status = "normal"
+
+["Tobbert.BatchControl.GoodsStation"]
+new = "Goods stations"
+status = "normal"
+
+["Tobbert.ChooChoo.KeyBinding.GoodsStationDistributionControlTab"]
+new = "Goods stations tab"
+status = "normal"
+
+["Tobbert.GoodsStation.Distribution.Header"]
+new = "Distributed goods"
+status = "normal"
+
+["Tobbert.BatchControl.DistributionDisabled"]
+new = "Not distributed"
+status = "normal"
+
+["Tobbert.BatchControl.DistributionDisabled.Description"]
+new = "This good is neither sent nor received at this station."
+status = "normal"
+
+["Tobbert.BatchControl.DistributionSending"]
+new = "Send"
+status = "normal"
+
+["Tobbert.BatchControl.DistributionSending.Description"]
+new = "This good is loaded onto trains and sent to other stations."
+status = "normal"
+
+["Tobbert.BatchControl.DistributionReceiving"]
+new = "Receive"
+status = "normal"
+
+["Tobbert.BatchControl.DistributionReceiving.Description"]
+new = "This good is unloaded from trains and stored at this station."
+status = "normal"
+
+["Tobbert.BatchControl.DistributionDisabledAll"]
+new = "Stop distributing all goods"
+status = "normal"
+
+["Tobbert.BatchControl.DistributionSendingAll"]
+new = "Send all goods"
+status = "normal"
+
+["Tobbert.BatchControl.DistributionReceivingAll"]
+new = "Receive all goods"
+status = "normal"
+
+["Tobbert.BatchControl.GoodsSlots"]
+new = "Goods slots: {0}/{1}"
+status = "normal"
+
+["Tobbert.BatchControl.DecreaseMaximum"]
+new = "Decrease amount"
+status = "normal"
+
+["Tobbert.BatchControl.DecreaseMaximum.Description"]
+new = "Left click: -1. Right click: -10."
+status = "normal"
+
+["Tobbert.BatchControl.IncreaseMaximum"]
+new = "Increase amount"
+status = "normal"
+
+["Tobbert.BatchControl.IncreaseMaximum.Description"]
+new = "Left click: +1. Right click: +10."
+status = "normal"
+
+["Tobbert.GoodsStation.Distribution.Disabled.Info"]
+new = "Not distributed"
+status = "normal"
+
+["Tobbert.GoodsStation.Distribution.Sending.Info"]
+new = "Sent by train"
+status = "normal"
+
+["Tobbert.GoodsStation.Distribution.Receiving.Info"]
+new = "Received by train"
+status = "normal"
+
+["Tobbert.GoodsStation.Sending.Header"]
+new = "Send"
+status = "normal"
+
+["Tobbert.GoodsStation.Receiving.Header"]
+new = "Receive"
+status = "normal"
+
+["Tobbert.TrainYard.FuelDepotOn"]
+new = "Fuel depot: ON"
+status = "normal"
+
+["Tobbert.TrainYard.FuelDepotOff"]
+new = "Fuel depot: OFF"
+status = "normal"
+
+["Tobbert.ToolGroup.Trains"]
+new = "Trains"
+status = "normal"
+
+["Tobbert.ChooChoo.KeyBindingGroup.ChooChoo"]
+new = "Choo! Choo!"
+status = "normal"
+
+["Tobbert.TrackCorner1x1.DisplayName"]
+new = "Corner Train Track 1x1"
+status = "normal"
+
+["Tobbert.TrackCorner1x1.Description"]
+new = "A one-tile track piece that turns a sharp corner."
+status = "normal"
+
+["Tobbert.TrackCorner1x1.FlavorDescription"]
+new = "Might be a little tight."
+status = "normal"
+
+["Tobbert.TrackCorner2x2.DisplayName"]
+new = "Corner Train Track 2x2"
+status = "normal"
+
+["Tobbert.TrackCorner2x2.Description"]
+new = "A wider track piece that sweeps trains around a gentler corner. Gentler curves let trains keep a higher speed."
+status = "normal"
+
+["Tobbert.TrackCorner2x2.FlavorDescription"]
+new = "What a nice looking curve."
+status = "normal"
+
+["Tobbert.TrackCrossing.DisplayName"]
+new = "Train Track Crossing"
+status = "normal"
+
+["Tobbert.TrackCrossing.Description"]
+new = "A tile where beavers can cross the tracks on foot."
+status = "normal"
+
+["Tobbert.TrackCrossing.FlavorDescription"]
+new = "That train is approaching very fa-"
+status = "normal"
+
+["Tobbert.TrackHillStart.DisplayName"]
+new = "Slope Track"
+status = "normal"
+
+["Tobbert.TrackHillStart.Description"]
+new = "A track that lets trains climb up and down slopes."
+status = "normal"
+
+["Tobbert.TrackHillStart.FlavorDescription"]
+new = "Isn't the train a little too heavy?"
+status = "normal"
+
+["Tobbert.TrackTIntersection1x1.DisplayName"]
+new = "T Intersection Train Track 1x1"
+status = "normal"
+
+["Tobbert.TrackTIntersection1x1.Description"]
+new = "A T-shaped intersection where three tracks meet."
+status = "normal"
+
+["Tobbert.TrackTIntersection1x1.FlavorDescription"]
+new = "Which way should I go?"
+status = "normal"
+
+["Tobbert.TrackTIntersection2x3.DisplayName"]
+new = "T Intersection Train Track 2x3"
+status = "normal"
+
+["Tobbert.TrackTIntersection2x3.Description"]
+new = "A larger T-shaped intersection where three tracks meet. Its gentler curves let trains keep a higher speed."
+status = "normal"
+
+["Tobbert.TrackTIntersection2x3.FlavorDescription"]
+new = "Where will those paths lead to?"
+status = "normal"
+
+["Tobbert.TrackXIntersection1x1.DisplayName"]
+new = "X Intersection Train Track 1x1"
+status = "normal"
+
+["Tobbert.TrackXIntersection1x1.Description"]
+new = "An X-shaped intersection where four tracks meet."
+status = "normal"
+
+["Tobbert.TrackXIntersection1x1.FlavorDescription"]
+new = "So many options!"
+status = "normal"
+
+["Tobbert.TrackXIntersection3x3.DisplayName"]
+new = "X Intersection Train Track 3x3"
+status = "normal"
+
+["Tobbert.TrackXIntersection3x3.Description"]
+new = "A larger X-shaped intersection where four tracks meet. Its gentler curves let trains keep a higher speed."
+status = "normal"
+
+["Tobbert.TrackXIntersection3x3.FlavorDescription"]
+new = "I just cannot choose where to go..."
+status = "normal"
+
+["Tobbert.TrackRIntersection2x3.DisplayName"]
+new = "Switch Train Track 2x3"
+status = "normal"
+
+["Tobbert.TrackRIntersection2x3.Description"]
+new = "A switch that lets trains change from one track to another. Its gentle curve lets trains keep a higher speed."
+status = "normal"
+
+["Tobbert.TrackRIntersection2x3.FlavorDescription"]
+new = "Where R we going?"
+status = "normal"
+
+["Tobbert.Train.FuelHeader"]
+new = "Fuel"
+status = "normal"
+
+["Tobbert.Train.FuelReserves"]
+new = "Fuel reserves last {0} h"
+status = "normal"
+
+["Tobbert.Train.NoConductorShort"]
+new = "No conductor"
+status = "normal"
+
+["Tobbert.Train.ConductorName"]
+new = "Conductor"
+status = "normal"
+
+["Tobbert.Train.EmergencyStop.Button"]
+new = "Emergency stop"
+status = "normal"
+
+["Tobbert.Train.EmergencyStop.Requested"]
+new = "Emergency stop — requested"
+status = "normal"
+
+["Tobbert.Train.EmergencyStop.Description"]
+new = "Finishes its current task, returns to a station and parks it (the station gets paused). Un-pause the station to resume."
+status = "normal"
+
+["Tobbert.Train.Activity.EmergencyStop"]
+new = "Emergency stop — finishing task, returning to a station"
+status = "normal"
+
+["Tobbert.Train.Activity.HeadingToLoad"]
+new = "Heading to load at \"{0}\""
+status = "normal"
+
+["Tobbert.Train.Activity.Delivering"]
+new = "Delivering to \"{0}\""
+status = "normal"
+
+["Tobbert.Train.Activity.Returning"]
+new = "Returning to an accessible station"
+status = "normal"
+
+["Tobbert.Train.Activity.Stranded"]
+new = "Stranded — no track available"
+status = "normal"
+
+["Tobbert.Train.Activity.Parking"]
+new = "Parking at a station"
+status = "normal"
+
+["Tobbert.Train.Activity.Refueling"]
+new = "Out of fuel — refueling at a train yard"
+status = "normal"
+
+["Tobbert.Train.Activity.Idle"]
+new = "Idle — available"
+status = "normal"
+
+["Tobbert.Train.Activity.Isolated"]
+new = "Trapped — cannot get back to a depot"
+status = "normal"
+
+["Tobbert.Train.Activity.NoConductor"]
+new = "No conductor — waiting to board one"
+status = "normal"
+
+["Tobbert.TrackPathTool.Counts"]
+new = "{0} waypoint(s), {1} trait(s)"
+status = "normal"
+
+["Tobbert.TrackPathTool.Instant"]
+new = "INSTANT ⚡"
+status = "normal"
+
+["Tobbert.TrackPathTool.Drawing.Title"]
+new = "✎ Drawing"
+status = "normal"
+
+["Tobbert.TrackPathTool.Drawing.Line1"]
+new = "Left-click: add point (green = ok, red = unreachable)"
+status = "normal"
+
+["Tobbert.TrackPathTool.Drawing.Line2"]
+new = "Click the active point or <b>Enter</b>: build"
+status = "normal"
+
+["Tobbert.TrackPathTool.Drawing.Line3"]
+new = "Right-click: lift the pen  •  <b>Esc</b>: quit"
+status = "normal"
+
+["Tobbert.TrackPathTool.PenUp.Title"]
+new = "✎ Pen up"
+status = "normal"
+
+["Tobbert.TrackPathTool.PenUp.Line1"]
+new = "Left-click: new point / continue from a point"
+status = "normal"
+
+["Tobbert.TrackPathTool.PenUp.Line2"]
+new = "Right-click a point: remove it  •  a trait: remove that link"
+status = "normal"
+
+["Tobbert.TrackPathTool.PenUp.Line3"]
+new = "Right-click empty: quit  •  <b>Enter</b>: build"
+status = "normal"
+
+["Tobbert.Train.Alert.Hungry"]
+new = "Hungry conductor"
+status = "normal"
+
+["Tobbert.Train.Alert.Thirsty"]
+new = "Thirsty conductor"
+status = "normal"
+
+["Tobbert.Train.Alert.NoPath"]
+new = "Train with no route"
+status = "normal"
+
+["Tobbert.Train.Alert.Blocked"]
+new = "Train blocked on the track"
+status = "normal"
+
+["Tobbert.Train.Alert.Isolated"]
+new = "Train cannot get back to a depot"
+status = "normal"
+
+["Tobbert.Train.Alert.OutOfFuel"]
+new = "Train out of fuel"
+status = "normal"
+
+["Tobbert.Navigation.ReachabilityOverlay.Tooltip"]
+new = "Show reachable track"
+status = "normal"
+
+["Tobbert.StorageBasin.Overlay.Tooltip"]
+new = "Show the storage it serves"
+status = "normal"
+
+["Tobbert.BatchControl.Trains"]
+new = "Trains"
+status = "normal"
+
+["Tobbert.ChooChoo.KeyBinding.TrainListTab"]
+new = "Trains tab"
+status = "normal"
+
+["Tobbert.TrainYard.Box.DisplayName"]
+new = "Boxcar Train Factory"
+status = "normal"
+
+["Tobbert.TrainYard.Tank.DisplayName"]
+new = "Tank Train Factory"
+status = "normal"
+
+["Tobbert.TrainYard.Flat.DisplayName"]
+new = "Flatbed Train Factory"
+status = "normal"
+
+["Tobbert.TrainYard.Passenger.DisplayName"]
+new = "Passenger Train Factory"
+status = "normal"
+
+["Tobbert.Train.Box.DisplayName"]
+new = "Box Wagon"
+status = "normal"
+
+["Tobbert.Train.Tank.DisplayName"]
+new = "Tank Wagon"
+status = "normal"
+
+["Tobbert.Train.Flat.DisplayName"]
+new = "Flat Wagon"
+status = "normal"

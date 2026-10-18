@@ -19,8 +19,8 @@ viVN = "Gai độc"
 trTR = "Kötü Dikenler"
 
 ["Building.BadThorns.Description"]
-status = "normal"
 raw = "A Thorns that contaminates"
+status = "normal"
 enUS = "A thorny plant that contaminates."
 zhCN = "一种会造成污染的荆棘植物"
 zhTW = "會造成污染的荊棘株"
@@ -70,8 +70,8 @@ viVN = "Thùng BAD 马会"
 trTR = "KÖTÜLÜK FIÇISI"
 
 ["Building.BadThingBlkBarrel.Description"]
-status = "normal"
 raw = "A BARREL that contaminates"
+status = "normal"
 enUS = "A barrel that contaminates"
 zhCN = "会造成污染的桶装炸药"
 zhTW = "會造成污染的桶子"
@@ -87,8 +87,8 @@ viVN = "Một THÙNG chứa thứ gây ô nhiễm"
 trTR = "Kirleten bir VARİL"
 
 ["Building.BadThingBlkBarrel.FlavorDescription"]
-status = "normal"
 raw = "Flavourtext BARREL contamination"
+status = "normal"
 enUS = "Barrel contamination flavor text"
 zhCN = "污染桶的风味描述"
 zhTW = "污染桶風味文字"

@@ -36,8 +36,8 @@ viVN = "Mỗi người chơi có điểm khoa học riêng. Các khu vực tích
 trTR = "Her oyuncunun kendine ait bilim puanları vardır. Bölgeler sahipleri için bilim puanı kazanır ve bir şeyin kilidini kim açarsa bedelini o öder. Sahibi olmayan bölgelerin kazandığı bilim puanları herkese yazılır."
 
 ["TimberEmpires.Districts.Owner"]
-status = "normal"
 raw = "Owned by"
+status = "normal"
 enUS = "Owned by"
 zhCN = "所属方"
 zhTW = "擁有者為"
@@ -53,8 +53,8 @@ viVN = "Thuộc sở hữu của"
 trTR = "Sahibi:"
 
 ["TimberEmpires.Districts.NoOwner"]
-status = "normal"
 raw = "Nobody"
+status = "normal"
 enUS = "Nobody"
 zhCN = "无人"
 zhTW = "無人"
@@ -70,8 +70,8 @@ viVN = "Không ai"
 trTR = "Hiç kimse"
 
 ["TimberEmpires.Settings.TopBarShowsOwnDistricts"]
-status = "normal"
 raw = "Private top bar"
+status = "normal"
 enUS = "Private top bar"
 zhCN = "仅显示自己的区镇的顶部栏"
 zhTW = "僅顯示自己的區域的頂部列"
@@ -104,8 +104,8 @@ viVN = "Khi không có khu định cư nào được chọn, thanh trên cùng, 
 trTR = "Hiçbir bölge seçili değilken üst çubuk, refah paneli ve nüfus grafikleri yalnızca sahip olduğunuz bölgeleri sayar. Hiçbir bölgeniz yoksa tüm yerleşimi sayarlar."
 
 ["TimberEmpires.Settings.ShowOwnerColors"]
-status = "normal"
 raw = "Show District Owner Colors"
+status = "normal"
 enUS = "Show District Owner Colors"
 zhCN = "显示地区所属者颜色"
 zhTW = "顯示區域所有者顏色"
@@ -223,8 +223,8 @@ viVN = "Quyền sở hữu"
 trTR = "Mülkiyet"
 
 ["TimberEmpires.Ownership.MakeShared"]
-status = "normal"
 raw = "Make shared"
+status = "normal"
 enUS = "Make shared"
 zhCN = "设为共享"
 zhTW = "設為共用"
@@ -257,8 +257,8 @@ viVN = "Nhấp hoặc kéo qua các công trình bạn đã đặt để cho ph�
 trTR = "Herhangi bir bölgenin inşa edebilmesi için yerleştirdiğiniz binalara tıklayın veya üzerlerinde sürükleyin."
 
 ["TimberEmpires.Ownership.MakeMine"]
-status = "normal"
 raw = "Make mine"
+status = "normal"
 enUS = "Make Mine"
 zhCN = "设为我的"
 zhTW = "設為我的"
@@ -308,8 +308,8 @@ viVN = "Chuyên môn hóa"
 trTR = "Uzmanlaşma"
 
 ["TimberEmpires.Specializations.None"]
-status = "normal"
 raw = "None"
+status = "normal"
 enUS = "None"
 zhCN = "无"
 zhTW = "無ದ್ಯ"
@@ -461,8 +461,8 @@ viVN = "Người chơi không thể phá hủy, tạm dừng hoặc thay đổi 
 trTR = "Oyuncular, başkasına ait bölgelerdeki binaları ve kunduzları yıkamaz, duraklatamaz veya ayarlarını değiştiremez."
 
 ["TimberEmpires.Settings.MixedFactions"]
-status = "normal"
 raw = "Mixed factions"
+status = "normal"
 enUS = "Mixed factions"
 zhCN = "混合派系"
 zhTW = "混合派系"
@@ -614,8 +614,8 @@ viVN = "Vùng đất này đã được {0} tuyên bố chủ quyền."
 trTR = "Bu topraklar {0} tarafından sahiplenilmiş."
 
 ["Building.TimberEmpires.Barracks.DisplayName"]
-status = "normal"
 raw = "Barracks"
+status = "normal"
 enUS = "Barracks"
 zhCN = "兵营"
 zhTW = "兵營"
@@ -767,8 +767,8 @@ viVN = "Ai tìm được thì được giữ."
 trTR = "Bulanındır."
 
 ["TimberEmpires.Bandits.Subtitle"]
-status = "normal"
 raw = "Bandit"
+status = "normal"
 enUS = "Bandit"
 zhCN = "强盗"
 zhTW = "強盜"
@@ -852,8 +852,8 @@ viVN = "Bọn cướp canh giữ trại này. Hãy đánh bại chúng trước 
 trTR = "Bu kampı haydutlar koruyor. Buraya giden bir yol inşa etmeden önce onları yenin."
 
 ["TimberEmpires.Bandits.Power.1"]
-status = "normal"
 raw = "Bandit hideout"
+status = "normal"
 enUS = "Bandit Hideout"
 zhCN = "土匪窝巢"
 zhTW = "土匪藏身處"
@@ -1431,6 +1431,7 @@ trTR = "Koçbaşı"
 
 ["Building.TimberEmpires.BatteringRam.Description"]
 raw = "Batters the wall, gate or dam in front of it, faster with more warriors aboard."
+new = "Batters the wall, gate or dam in front of it, faster with more troops aboard."
 status = "normal"
 enUS = "Batters the wall, gate, or dam in front of it faster with more warriors aboard."
 zhCN = "冲击前方的墙壁、闸门或堤坝；车上的战士越多，冲击速度越快。"
@@ -1482,6 +1483,7 @@ trTR = "Kuşatma Kulesi"
 
 ["Building.TimberEmpires.SiegeTower.Description"]
 raw = "Rolls up to a wall and lets the warriors aboard out onto its walk."
+new = "Rolls up to a wall and lets the troops aboard out onto its walk."
 status = "normal"
 enUS = "Rolls up to a wall and lets the warriors aboard out onto its walk."
 zhCN = "滚到墙边，让里面的战士走上城墙。"
@@ -1533,6 +1535,7 @@ trTR = "Mancınık"
 
 ["Building.TimberEmpires.SiegeTrebuchet.Description"]
 raw = "Hurls siege stones at a chosen target, hurting enemies and battering walls, gates and siege engines. Needs warriors aboard to turn and throw."
+new = "Hurls siege stones at a chosen target, hurting enemies and battering walls, gates and siege engines. Needs troops aboard to turn and throw."
 status = "normal"
 enUS = "Hurls siege stones at a chosen target, damaging enemies and battering walls, gates, and siege engines. Requires warriors aboard to aim and fire."
 zhCN = "向选定目标投掷攻城石，伤害敌人并砸击城墙、大门和攻城器械。需要有战士操作才能转向和投掷。"
@@ -1651,8 +1654,8 @@ viVN = "Cần có thủy thủ đoàn trên tàu để xoay hoặc ném."
 trTR = "Dönmek veya fırlatmak için içinde bir mürettebat bulunması gerekir."
 
 ["TimberEmpires.Siege.Turning"]
-status = "normal"
 raw = "The crew is turning it."
+status = "normal"
 enUS = "The crew is turning it."
 zhCN = "船员正在转动它。"
 zhTW = "工作人員正在轉動它。"
@@ -1720,6 +1723,7 @@ trTR = "Vagon Alanı"
 
 ["Building.TimberEmpires.WagonYard.Description"]
 raw = "Sends supply carts to the front so warriors can eat, drink and build siege engines off the roads."
+new = "Sends supply carts to the front so troops can eat, drink and build siege engines off the roads."
 status = "normal"
 enUS = "Sends supply carts to the front so warriors can eat, drink, and build siege engines off the roads."
 zhCN = "向前线派遣补给车，让战士们能够进食、饮水，并在道路旁建造攻城器械。"
@@ -1770,8 +1774,8 @@ viVN = "Xe kéo đang trống. Gọi người vận chuyển về sân để ch�
 trTR = "Araba boş. Yüklemesi için arabacıyı avluya geri çağırın."
 
 ["TimberEmpires.Supply.CartHolds"]
-status = "normal"
 raw = "The cart holds {0} goods:"
+status = "normal"
 enUS = "The cart holds {0} goods:"
 zhCN = "手推车可装载 {0} 件货物："
 zhTW = "手推車可裝載 {0} 件貨物："
@@ -1907,6 +1911,7 @@ trTR = "Saha Merdiveni"
 
 ["Building.TimberEmpires.SiegeLadder.Description"]
 raw = "Lets your warriors and carters climb a one-level step. Only warriors can build it."
+new = "Lets your troops and carters climb a one-level step. Only troops can build it."
 status = "normal"
 enUS = "Lets your warriors and carters climb a one-level step. Only warriors can build it."
 zhCN = "让你的战士和运输工爬上一级台阶。只有战士可以建造它。"
@@ -2280,8 +2285,8 @@ viVN = "Chu kỳ 15"
 trTR = "Döngü 15"
 
 ["Building.TimberEmpires.MineLauncher.DisplayName"]
-status = "normal"
 raw = "Mine Slipway"
+status = "normal"
 enUS = "Mine Slipway"
 zhCN = "矿山滑道"
 zhTW = "礦坑滑道"
@@ -2382,8 +2387,8 @@ viVN = "Công nhân ở đây được trả thêm lương và được yêu c�
 trTR = "Buradaki işçilere ekstra ücret ödeniyor ve dışarıda hapşırmaları isteniyor."
 
 ["Good.WaterMine.DisplayName"]
-status = "normal"
 raw = "Water mine"
+status = "normal"
 enUS = "Water Mine"
 zhCN = "水矿阵列"
 zhTW = "水採集場"
@@ -2399,8 +2404,8 @@ viVN = "Mỏ nước"
 trTR = "Su Madeni"
 
 ["Good.WaterMine.PluralDisplayName"]
-status = "normal"
 raw = "Water mines"
+status = "normal"
 enUS = "Water Mines"
 zhCN = "水矿井"
 zhTW = "水礦"
@@ -2467,8 +2472,8 @@ viVN = "Khuất mắt, khuất lòng, khuất thuyền."
 trTR = "Gözden uzak, gönülden ırak, tekneden de uzak."
 
 ["Building.TimberEmpires.MineNet.DisplayName"]
-status = "normal"
 raw = "Mine Net"
+status = "normal"
 enUS = "Mine Net"
 zhCN = "矿井网格"
 zhTW = "礦場網格"
@@ -2569,8 +2574,8 @@ viVN = "Đừng lãng phí, để sau nổ cũng được."
 trTR = "İsraf etme, sonra patlarsın."
 
 ["Building.TimberEmpires.BoatDock.DisplayName"]
-status = "normal"
 raw = "Fireship Dock"
+status = "normal"
 enUS = "Fireship Dock"
 zhCN = "火船码头"
 zhTW = "火攻船碼頭"
@@ -2688,8 +2693,8 @@ viVN = "Đã trang bị vũ khí."
 trTR = "Silahlı."
 
 ["TimberEmpires.Mines.Release"]
-status = "normal"
 raw = "Release mine"
+status = "normal"
 enUS = "Release mine"
 zhCN = "释放我的 n"
 zhTW = "釋放我的礦場"
@@ -2756,8 +2761,8 @@ viVN = "Các mỏ đang chờ trong {1} lưới được kết nối: {0}."
 trTR = "{1} bağlı ağda bekleyen maden sayısı: {0}."
 
 ["TimberEmpires.Mines.LaunchBoat"]
-status = "normal"
 raw = "Launch boat"
+status = "normal"
 enUS = "Launch boat"
 zhCN = "发射船只"
 zhTW = "發射船隻"
@@ -2858,8 +2863,8 @@ viVN = "Tự trôi xuôi dòng. Nó phát nổ khi chạm vào tòa nhà hoặc 
 trTR = "Akıntı yönünde kendi kendine ilerler. Ulaştığı ilk binaya veya madene çarptığında patlar."
 
 ["TimberEmpires.Field.ParkedCart"]
-status = "normal"
 raw = "Supply cart"
+status = "normal"
 enUS = "Supply Cart"
 zhCN = "补给车"
 zhTW = "補給車"
@@ -2961,6 +2966,7 @@ trTR = "Mürettebat: {0}/{1}"
 
 ["TimberEmpires.Crew.NeedsCrew"]
 raw = "Needs {0} warriors aboard. Select warriors and click the machine to send them in."
+new = "Needs {0} troops aboard. Select troops and click the machine to send them in."
 status = "normal"
 enUS = "Needs {0} warriors aboard. Select warriors and click the machine to send them in."
 zhCN = "需要有 {0} 名战士在机舱内。选择战士并点击机器，将他们派进去。"
@@ -2977,8 +2983,8 @@ viVN = "Cần có {0} chiến binh trên máy. Chọn các chiến binh rồi nh
 trTR = "İçinde {0} savaşçı bulunması gerekir. Savaşçıları seçip içeri göndermek için makineye tıklayın."
 
 ["TimberEmpires.Crew.UnloadShort"]
-status = "normal"
 raw = "Unload"
+status = "normal"
 enUS = "Unload"
 zhCN = "卸载"
 zhTW = "卸載"
@@ -3011,8 +3017,8 @@ viVN = "Máy bắn đá"
 trTR = "Mancınık"
 
 ["Building.TimberEmpires.Catapult.Description"]
-status = "normal"
 raw = "Hurls stones at a chosen target, hurting enemies and battering walls and siege engines. Its crew moves and aims it."
+status = "normal"
 enUS = "Hurls stones at a chosen target, hurting enemies and battering walls and siege engines. Its crew moves and aims it."
 zhCN = "向选定目标投掷石块，伤害敌人并破坏城墙和攻城器械。由操作人员移动并瞄准。"
 zhTW = "向選定的目標投擲石塊，傷害敵人並破壞城牆和攻城器械。由操作人員移動並瞄準。"
@@ -3250,6 +3256,7 @@ trTR = "Kütük Depolama"
 
 ["Building.TimberEmpires.LogHoarding.Description"]
 raw = "A gallery on the wall where warriors roll logs down at enemies, knocking over everyone in their path."
+new = "A gallery on the wall where troops roll logs down at enemies, knocking over everyone in their path."
 status = "normal"
 enUS = "A gallery on the wall where warriors roll logs down at enemies, knocking over everyone in their path."
 zhCN = "墙上的走廊，战士们可以将原木滚向敌人，撞倒沿途的所有人。"
@@ -3266,8 +3273,8 @@ viVN = "Một hành lang trên tường, nơi các chiến binh lăn khúc gỗ 
 trTR = "Savaşçıların düşmanların üzerine kütük yuvarlayarak önlerine çıkan herkesi devirdiği bir duvar galerisi."
 
 ["Building.TimberEmpires.LogHoarding.FlavorDescription"]
-status = "normal"
 raw = "\"Timber!\" is shouted out of courtesy, usually too late."
+status = "normal"
 enUS = "\"Timber!\" is shouted out of courtesy, usually too late."
 zhCN = "“木头！”只是出于礼貌喊一声，通常喊得太晚了。"
 zhTW = "「木頭要倒了！」是出於禮貌才喊的，通常喊得太遲。"
@@ -3283,8 +3290,8 @@ viVN = "“Có cây đổ!” được hét lên như một phép lịch sự, t
 trTR = "Nezaketen “Ağaç!” diye bağırılır, genellikle çok geç kalınır."
 
 ["Building.TimberEmpires.OilHoarding.DisplayName"]
-status = "normal"
 raw = "Oil Hoarding"
+status = "normal"
 enUS = "Oil Hoarding"
 zhCN = "石油囤积处"
 zhTW = "囤積石油"
@@ -3301,6 +3308,7 @@ trTR = "Petrol Depolama"
 
 ["Building.TimberEmpires.OilHoarding.Description"]
 raw = "A gallery on the wall where warriors pour boiling canola oil on enemies below."
+new = "A gallery on the wall where troops pour boiling canola oil on enemies below."
 status = "normal"
 enUS = "A gallery on the wall where warriors pour boiling canola oil on enemies below."
 zhCN = "一条沿墙修建的走廊，战士们可以在这里向下方的敌人泼洒滚烫的菜籽油。"
@@ -3335,6 +3343,7 @@ trTR = "Matbaadan yeni çıktı."
 
 ["TimberEmpires.Hoarding.NeedsCrew"]
 raw = "Needs a warrior aboard to work."
+new = "Needs a troop aboard to work."
 status = "normal"
 enUS = "Requires a warrior aboard to work."
 zhCN = "需要有战士在船上才能运作。"
@@ -3368,8 +3377,8 @@ viVN = "Đang chuẩn bị cái tiếp theo."
 trTR = "Sıradakini hazırlıyor."
 
 ["TimberEmpires.Hoarding.Roll"]
-status = "normal"
 raw = "Roll logs"
+status = "normal"
 enUS = "Roll logs"
 zhCN = "滚动原木"
 zhTW = "滾動木材"
@@ -3437,6 +3446,7 @@ trTR = "Arazi Rampası"
 
 ["Building.TimberEmpires.SiegeRamp.Description"]
 raw = "A long timber ramp up a one-level step for warriors, carters and siege machines. Only warriors can build it."
+new = "A long timber ramp up a one-level step for troops, carters and siege machines. Only troops can build it."
 status = "normal"
 enUS = "A long timber ramp up a one-level step for warriors, carters, and siege machines. Only warriors can build it."
 zhCN = "一条长木坡道，可让战士、车夫和攻城器械登上一级台阶。只有战士能建造它。"
@@ -3589,8 +3599,8 @@ viVN = "Chiến binh: {0}, cung thủ: {1}"
 trTR = "Savaşçılar: {0}, okçular: {1}"
 
 ["TimberEmpires.Troops.Stance.Aggressive"]
-status = "normal"
 raw = "Aggressive"
+status = "normal"
 enUS = "Aggressive"
 zhCN = "激进"
 zhTW = "侵略性"
@@ -3623,8 +3633,8 @@ viVN = "Phòng thủ"
 trTR = "Savunmacı"
 
 ["TimberEmpires.Troops.Stance.Hold"]
-status = "normal"
 raw = "Hold position"
+status = "normal"
 enUS = "Hold position"
 zhCN = "保持位置"
 zhTW = "堅守原位"
@@ -3708,8 +3718,8 @@ viVN = "Đội hình nêm"
 trTR = "Kama düzeni"
 
 ["TimberEmpires.Troops.Formation.Loose"]
-status = "normal"
 raw = "Loose formation"
+status = "normal"
 enUS = "Loose formation"
 zhCN = "松散队形"
 zhTW = "鬆散陣形"
@@ -3742,8 +3752,8 @@ viVN = "Về nhà"
 trTR = "Eve git"
 
 ["TimberEmpires.Troops.Patrol"]
-status = "normal"
 raw = "Patrol to the next spot you click (or Alt-click)"
+status = "normal"
 enUS = "Patrol to the next spot you click (or Alt-click)"
 zhCN = "巡逻至你点击（或按住 Alt 再点击）的下一个地点"
 zhTW = "巡邏至你點擊（或按住 Alt 點擊）的下一個地點"
@@ -3759,8 +3769,8 @@ viVN = "Tuần tra đến vị trí tiếp theo bạn nhấp (hoặc nhấn Alt 
 trTR = "Tıkladığın (veya Alt+tıklayarak seçtiğin) bir sonraki noktaya devriye gönder."
 
 ["TimberEmpires.Troops.Stop"]
-status = "normal"
 raw = "Stop"
+status = "normal"
 enUS = "Stop"
 zhCN = "停止"
 zhTW = "停止"
@@ -3776,8 +3786,8 @@ viVN = "Dừng lại"
 trTR = "Dur"
 
 ["TimberEmpires.Troops.CombatBar"]
-status = "normal"
 raw = "Army bar: commands for your troops and the list of all of them"
+status = "normal"
 enUS = "Army bar: commands for your troops and a list of all troops"
 zhCN = "军队栏：部队指令及所有部队的列表"
 zhTW = "軍隊列：部隊指令及所有部隊清單"
@@ -3793,8 +3803,8 @@ viVN = "Thanh quân đội: lệnh dành cho binh lính và danh sách tất c�
 trTR = "Ordu çubuğu: birliklerinize yönelik komutlar ve tüm birliklerin listesi"
 
 ["TimberEmpires.Troops.BackToBuilding"]
-status = "normal"
 raw = "Back to building"
+status = "normal"
 enUS = "Back to building"
 zhCN = "返回建筑界面"
 zhTW = "返回建築物"
@@ -3878,8 +3888,8 @@ viVN = "Đang huấn luyện"
 trTR = "Eğitimde"
 
 ["TimberEmpires.TroopList.Status.Aboard"]
-status = "normal"
 raw = "Aboard a machine"
+status = "normal"
 enUS = "Aboard a machine"
 zhCN = "在机器上"
 zhTW = "在機器上搭乘"
@@ -3895,8 +3905,8 @@ viVN = "Đang ở trên máy móc"
 trTR = "Bir makinede"
 
 ["TimberEmpires.TroopList.Status.Fighting"]
-status = "normal"
 raw = "Fighting"
+status = "normal"
 enUS = "Fighting"
 zhCN = "战斗中"
 zhTW = "戰鬥中"
@@ -3946,8 +3956,8 @@ viVN = "Đang tuần tra"
 trTR = "Devriye geziyor"
 
 ["TimberEmpires.TroopList.Status.Guarding"]
-status = "normal"
 raw = "On guard"
+status = "normal"
 enUS = "On Guard"
 zhCN = "警戒中"
 zhTW = "正在戒備"
@@ -3980,8 +3990,8 @@ viVN = "Đang hành quân"
 trTR = "Yürüyüşte"
 
 ["TimberEmpires.TroopList.Status.Holding"]
-status = "normal"
 raw = "Holding a position"
+status = "normal"
 enUS = "Holding a position"
 zhCN = "坚守阵地"
 zhTW = "堅守陣地"
@@ -4014,8 +4024,8 @@ viVN = "Trên tháp"
 trTR = "Bir kulede"
 
 ["TimberEmpires.TroopList.Machine.Rolling"]
-status = "normal"
 raw = "Rolling"
+status = "normal"
 enUS = "Rolling"
 zhCN = "行进中"
 zhTW = "滾動中"
@@ -4065,8 +4075,8 @@ viVN = "Sẵn sàng"
 trTR = "Hazır"
 
 ["TimberEmpires.Troops.Raid"]
-status = "normal"
 raw = "Raid: click an enemy building to carry off its goods"
+status = "normal"
 enUS = "Raid: Click an enemy building to carry off its goods"
 zhCN = "突袭：点击敌方建筑，掠走其中的货物"
 zhTW = "突襲：點擊敵方建築，奪走其中的貨物"
@@ -4133,8 +4143,8 @@ viVN = "Đặt điểm tập kết"
 trTR = "Toplanma noktası belirle"
 
 ["TimberEmpires.Rally.Clear"]
-status = "normal"
 raw = "Clear rally point"
+status = "normal"
 enUS = "Clear rally point"
 zhCN = "清除集结点"
 zhTW = "清除集結點"
@@ -4167,8 +4177,8 @@ viVN = "Tự động mở"
 trTR = "Otomatik açma"
 
 ["TimberEmpires.Gate.AutoOpen.Tooltip"]
-status = "normal"
 raw = "Auto open: lets your side through, shuts when enemies or bandits come near"
+status = "normal"
 enUS = "Auto open: lets your side through and shuts when enemies or bandits come near."
 zhCN = "自动开启：允许己方通过，敌人或强盗靠近时关闭"
 zhTW = "自動開啟：讓己方通過，敵人或土匪靠近時關閉"
@@ -4184,8 +4194,8 @@ viVN = "Tự động mở: cho phép phe của bạn đi qua, đóng lại khi k
 trTR = "Otomatik açılma: Sizinkilerin geçmesine izin verir, düşmanlar veya haydutlar yaklaşınca kapanır."
 
 ["TimberEmpires.Gate.ForceOpen"]
-status = "normal"
 raw = "Force open"
+status = "normal"
 enUS = "Force open"
 zhCN = "强制开启"
 zhTW = "強制開啟"
@@ -4201,8 +4211,8 @@ viVN = "Cưỡng chế mở"
 trTR = "Zorla aç"
 
 ["TimberEmpires.Gate.ForceOpen.Tooltip"]
-status = "normal"
 raw = "Force open: lets everyone through, enemies included"
+status = "normal"
 enUS = "Force open: lets everyone through, including enemies"
 zhCN = "强制开启：所有人都能通过，包括敌人"
 zhTW = "強制開啟：所有人都能通過，包括敵人"
@@ -4320,8 +4330,8 @@ viVN = "Cách chiến thắng trò chơi. Sau khi có người chiến thắng, 
 trTR = "Bir oyunun nasıl kazanıldığı. Biri kazandıktan sonra herkes oynamaya devam edebilir."
 
 ["TimberEmpires.Settings.Victory.Beavers"]
-status = "normal"
 raw = "Kill all the beavers"
+status = "normal"
 enUS = "Kill all the beavers"
 zhCN = "杀死所有海狸居民"
 zhTW = "殺死所有海狸"
@@ -4354,8 +4364,8 @@ viVN = "Phá hủy các Trung tâm Khu vực"
 trTR = "Bölge Merkezlerini Yok Et"
 
 ["TimberEmpires.Settings.Victory.Wonder"]
-status = "normal"
 raw = "Build the wonder first"
+status = "normal"
 enUS = "Build the wonder first"
 zhCN = "先建造奇观"
 zhTW = "先建造奇觀"
@@ -4439,8 +4449,8 @@ viVN = "Các đối thủ AI vẫn đang trong giai đoạn beta: họ có thể
 trTR = "Yapay zekâ rakipleri hâlâ beta aşamasında: oyunu yavaşlatabilirler; birden fazla olduklarında bu etki daha da artar."
 
 ["TimberEmpires.Settings.AIOpponent.easy"]
-status = "normal"
 raw = "Easy"
+status = "normal"
 enUS = "Easy"
 zhCN = "简单"
 zhTW = "簡單"
@@ -4762,8 +4772,8 @@ viVN = "Người vận chuyển hàng xe kéo"
 trTR = "Nakliyeciler"
 
 ["TimberEmpires.Troops.Army"]
-status = "normal"
 raw = "Show the army by kind"
+status = "normal"
 enUS = "Show the army by type"
 zhCN = "按兵种显示军队"
 zhTW = "依種類顯示軍隊"
@@ -5000,8 +5010,8 @@ viVN = "Quân đội của Timber Empires"
 trTR = "Timber Empires Birlikleri"
 
 ["TimberEmpires.KeyBindings.Troops.SelectArmy"]
-status = "normal"
 raw = "Select all troops"
+status = "normal"
 enUS = "Select all troops"
 zhCN = "选择所有部队"
 zhTW = "選取所有部隊"
@@ -5017,8 +5027,8 @@ viVN = "Chọn tất cả quân đội"
 trTR = "Tüm birlikleri seç"
 
 ["TimberEmpires.KeyBindings.Troops.Aggressive"]
-status = "normal"
 raw = "Aggressive stance"
+status = "normal"
 enUS = "Aggressive stance"
 zhCN = "攻击姿态"
 zhTW = "侵略姿態"
@@ -5102,8 +5112,8 @@ viVN = "Gọi về nhà"
 trTR = "Eve gönder"
 
 ["TimberEmpires.KeyBindings.Troops.Stop"]
-status = "normal"
 raw = "Stop"
+status = "normal"
 enUS = "Stop"
 zhCN = "停止"
 zhTW = "停止"
@@ -5408,8 +5418,8 @@ viVN = "Chọn nhóm điều khiển 8"
 trTR = "8. kontrol grubunu seç"
 
 ["TimberEmpires.KeyBindings.Troops.Group9"]
-status = "normal"
 raw = "Select control group 9"
+status = "normal"
 enUS = "Select control group 9"
 zhCN = "选择控制组 9"
 zhTW = "選取控制群組 9"
@@ -5493,8 +5503,8 @@ viVN = "Nhà thảo dược"
 trTR = "Şifacılar"
 
 ["TimberEmpires.Troops.Kind.Sapper"]
-status = "normal"
 raw = "Sappers"
+status = "normal"
 enUS = "Sappers"
 zhCN = "工兵"
 zhTW = "工兵"
@@ -5714,8 +5724,8 @@ viVN = "Kiếm"
 trTR = "Kılıçlar"
 
 ["Good.Spear.DisplayName"]
-status = "normal"
 raw = "Spear"
+status = "normal"
 enUS = "Spear"
 zhCN = "长矛"
 zhTW = "長矛"
@@ -5731,8 +5741,8 @@ viVN = "Giáo"
 trTR = "Mızrak"
 
 ["Good.Spear.PluralDisplayName"]
-status = "normal"
 raw = "Spears"
+status = "normal"
 enUS = "Spears"
 zhCN = "长矛"
 zhTW = "長矛"
@@ -5765,8 +5775,8 @@ viVN = "Cung tên"
 trTR = "Yay"
 
 ["Good.Bow.PluralDisplayName"]
-status = "normal"
 raw = "Bows"
+status = "normal"
 enUS = "Bows"
 zhCN = "弓"
 zhTW = "弓具"
@@ -5782,8 +5792,8 @@ viVN = "Cung tên"
 trTR = "Yaylar"
 
 ["Good.HerbalKit.DisplayName"]
-status = "normal"
 raw = "Herbal Kit"
+status = "normal"
 enUS = "Herbal Kit"
 zhCN = "草药包"
 zhTW = "草藥包"
@@ -5884,8 +5894,8 @@ viVN = "Được khắc, nó thắp sáng màn đêm. Ăn sống, nó chữa kh�
 trTR = "Oyulunca geceyi aydınlatır. Çiğ yenince, yaşayan ölü bir rakunun ısırığından kaynaklanan kirli su hastalığını iyileştirir."
 
 ["Good.BlastingCharge.DisplayName"]
-status = "normal"
 raw = "Blasting Charge"
+status = "normal"
 enUS = "Blasting Charge"
 zhCN = "爆破炸药"
 zhTW = "爆破炸藥"
@@ -5901,8 +5911,8 @@ viVN = "Thuốc nổ phá đá"
 trTR = "Patlatma Şarjı"
 
 ["Good.BlastingCharge.PluralDisplayName"]
-status = "normal"
 raw = "Blasting Charges"
+status = "normal"
 enUS = "Blasting Charges"
 zhCN = "爆破炸药"
 zhTW = "爆破炸藥包"
@@ -6054,8 +6064,8 @@ viVN = "Dây địu"
 trTR = "Sapan"
 
 ["Good.Sling.PluralDisplayName"]
-status = "normal"
 raw = "Slings"
+status = "normal"
 enUS = "Slings"
 zhCN = "投石索"
 zhTW = "投石索"
@@ -6071,8 +6081,8 @@ viVN = "Dây đeo treo bắn đá"
 trTR = "Sapanlar"
 
 ["Good.BattleAxe.DisplayName"]
-status = "normal"
 raw = "Battle axe"
+status = "normal"
 enUS = "Battle Axe"
 zhCN = "战斧"
 zhTW = "戰斧"
@@ -6292,8 +6302,8 @@ viVN = "Mở khóa {0}"
 trTR = "{0} kilidini aç"
 
 ["Tip.TimberEmpires.Supply"]
-status = "normal"
 raw = "Troops eat and drink from their packs. Keep a supply cart near the front so they don't have to walk home."
+status = "normal"
 enUS = "Troops eat and drink from their packs. Keep a supply cart near the front so they don't have to walk home."
 zhCN = "士兵从随身补给中取食物和水。把补给车停在前线附近，这样他们就不用走回家了。"
 zhTW = "部隊會從背包中取用食物和飲水。請在前線附近放置補給車，免得他們得走回家。"
@@ -6327,6 +6337,7 @@ trTR = "Birlikleri seçip duvarlarınızdan birine tıklayın. Orada duvar boyun
 
 ["Tip.TimberEmpires.Crew"]
 raw = "Siege machines and towers only work with troops aboard. Select warriors and click the machine to send them in."
+new = "Siege machines and towers only work with troops aboard. Select troops and click the machine to send them in."
 status = "normal"
 enUS = "Siege machines and towers only work when troops are aboard. Select warriors and click the machine to send them inside."
 zhCN = "攻城器械和塔楼只有在有士兵乘坐时才能运作。选择战士并点击器械，即可派他们进入。"
@@ -6564,8 +6575,8 @@ viVN = "Coi chừng con cừu đực."
 trTR = "Koçu gözden kaçırma."
 
 ["Good.SiegeStone.DisplayName"]
-status = "normal"
 raw = "Siege stone"
+status = "normal"
 enUS = "Siege stone"
 zhCN = "攻城石"
 zhTW = "攻城石"
@@ -6581,8 +6592,8 @@ viVN = "Đá công thành"
 trTR = "Kuşatma taşı"
 
 ["Good.SiegeStone.PluralDisplayName"]
-status = "normal"
 raw = "Siege stones"
+status = "normal"
 enUS = "Siege stones"
 zhCN = "攻城石"
 zhTW = "攻城石頭"
@@ -6598,8 +6609,8 @@ viVN = "Đá công thành"
 trTR = "Kuşatma taşları"
 
 ["TimberEmpires.Ammo.Out"]
-status = "normal"
 raw = "Out of {0}"
+status = "normal"
 enUS = "Out of {0}"
 zhCN = "超出 {0}"
 zhTW = "共 {0} 發"
@@ -6632,8 +6643,8 @@ viVN = ""
 trTR = ""
 
 ["TimberEmpires.Lang.LowercaseGoods"]
-status = "normal"
 raw = "true"
+status = "normal"
 enUS = "true"
 zhCN = "true"
 zhTW = "true"
@@ -6785,8 +6796,8 @@ viVN = "Khiên"
 trTR = "Kalkanlar"
 
 ["Building.TimberEmpires.Armory.DisplayName"]
-status = "normal"
 raw = "Bladesmith"
+status = "normal"
 enUS = "Bladesmith"
 zhCN = "刀匠工作坊"
 zhTW = "刀劍匠人"
@@ -6836,8 +6847,8 @@ viVN = "Mài hai lần, vung một lần."
 trTR = "İki kez bile, bir kez salla."
 
 ["Building.TimberEmpires.Gunsmith.DisplayName"]
-status = "normal"
 raw = "Gunsmith"
+status = "normal"
 enUS = "Gunsmith"
 zhCN = "枪械工坊"
 zhTW = "槍械工坊"
@@ -7023,8 +7034,8 @@ viVN = "Đã triển khai"
 trTR = "Konuşlandırıldı"
 
 ["TimberEmpires.TroopsCounter.Mode.Fighting"]
-status = "normal"
 raw = "Fighting"
+status = "normal"
 enUS = "Fighting"
 zhCN = "战斗中"
 zhTW = "戰鬥中"
@@ -7040,8 +7051,8 @@ viVN = "Đang chiến đấu"
 trTR = "Çatışıyor"
 
 ["TimberEmpires.TroopsCounter.Mode.Wounded"]
-status = "normal"
 raw = "Wounded"
+status = "normal"
 enUS = "Wounded"
 zhCN = "受伤的"
 zhTW = "受傷者"
@@ -7057,8 +7068,8 @@ viVN = "Bị thương"
 trTR = "Yaralı"
 
 ["Building.TimberEmpires.TripWire.DisplayName"]
-status = "normal"
 raw = "Trip Wire"
+status = "normal"
 enUS = "Trip Wire"
 zhCN = "绊线"
 zhTW = "絆線"
@@ -7108,8 +7119,8 @@ viVN = "Không ai nhìn thấy nó. Ai cũng tìm thấy nó."
 trTR = "Kimse görmez. Herkes bulur."
 
 ["TimberEmpires.TripWire.Mode.Enemies"]
-status = "normal"
 raw = "Enemies"
+status = "normal"
 enUS = "Enemies"
 zhCN = "敌人"
 zhTW = "敵人"
@@ -7125,8 +7136,8 @@ viVN = "Kẻ địch"
 trTR = "Düşmanlar"
 
 ["TimberEmpires.TripWire.Mode.Allies"]
-status = "normal"
 raw = "Allies and yours"
+status = "normal"
 enUS = "Allies and your own"
 zhCN = "盟友及己方"
 zhTW = "盟友與己方"
@@ -7142,8 +7153,8 @@ viVN = "Đồng minh và phe của bạn"
 trTR = "Müttefikler ve sizinki"
 
 ["TimberEmpires.TripWire.Mode.Mine"]
-status = "normal"
 raw = "Yours only"
+status = "normal"
 enUS = "Yours only"
 zhCN = "仅限己方"
 zhTW = "僅限己方"
@@ -7159,8 +7170,8 @@ viVN = "Chỉ của bạn"
 trTR = "Yalnızca sizinki"
 
 ["TimberEmpires.TripWire.Mode.Anybody"]
-status = "normal"
 raw = "Anybody"
+status = "normal"
 enUS = "Anybody"
 zhCN = "任何人"
 zhTW = "任何人"
@@ -7346,8 +7357,8 @@ viVN = "Độ tối"
 trTR = "Karartma"
 
 ["TimberEmpires.Settings.FogQuality.Static"]
-status = "normal"
 raw = "Static fog"
+status = "normal"
 enUS = "Static fog"
 zhCN = "静态雾效"
 zhTW = "靜態霧效"
@@ -7431,8 +7442,8 @@ viVN = "Timber Empires cần BeaverBuddies Co-Op/PvP Edition, nhưng BeaverBuddi
 trTR = "Timber Empires, BeaverBuddies Co-Op/PvP Edition modunu gerektiriyor, ancak orijinal BeaverBuddies çalışıyor. Orijinalini devre dışı bırakıp Co-Op/PvP Edition moduna abone olun; aksi takdirde çok oyunculu oyunların eşzamanı bozulur."
 
 ["TimberEmpires.NeedsCoOpPvPEdition.Open"]
-status = "normal"
 raw = "Open in the Workshop"
+status = "normal"
 enUS = "Open in the Workshop"
 zhCN = "在创意工坊中打开"
 zhTW = "在工坊中開啟"
@@ -7482,8 +7493,8 @@ viVN = "Đặt Trung tâm Quận ở bất kỳ đâu để lập khu định c�
 trTR = "Yerleşiminizi kurmak için Bölge Merkezinizi istediğiniz yere yerleştirin. Kunduzlar, yiyecek ve suyla birlikte hemen inşa edilir."
 
 ["TimberEmpires.Players.You"]
-status = "normal"
 raw = "{0} (you)"
+status = "normal"
 enUS = "{0} (you)"
 zhCN = "{0}（你）"
 zhTW = "{0}（你）"
@@ -7499,8 +7510,8 @@ viVN = "{0} (bạn)"
 trTR = "{0} (sen)"
 
 ["TimberEmpires.Players.Placing"]
-status = "normal"
 raw = "No District Center yet"
+status = "normal"
 enUS = "No District Center yet"
 zhCN = "尚未建造区划中心"
 zhTW = "尚未建造區域中心"
@@ -7516,8 +7527,8 @@ viVN = "Chưa có Trung tâm Quận nào"
 trTR = "Henüz Bölge Merkezi yok"
 
 ["TimberEmpires.Players.NoDistrictCenter"]
-status = "normal"
 raw = "No District Center"
+status = "normal"
 enUS = "No District Center"
 zhCN = "没有地区中心"
 zhTW = "沒有行政中心"
@@ -7533,8 +7544,8 @@ viVN = "Không có Trung tâm Khu vực"
 trTR = "Bölge Merkezi Yok"
 
 ["TimberEmpires.Players.Online"]
-status = "normal"
 raw = "In the game"
+status = "normal"
 enUS = "In the game"
 zhCN = "游戏中"
 zhTW = "遊戲中"
@@ -7550,8 +7561,8 @@ viVN = "Trong trò chơi"
 trTR = "Oyunda"
 
 ["TimberEmpires.Players.Offline"]
-status = "normal"
 raw = "Not in the game"
+status = "normal"
 enUS = "Not in the game"
 zhCN = "不在游戏中"
 zhTW = "不在遊戲中"
@@ -7805,8 +7816,8 @@ viVN = "Đức tin: {0}%"
 trTR = "İnanç: {0}%"
 
 ["TimberEmpires.Alliances.Tab"]
-status = "normal"
 raw = "Alliances"
+status = "normal"
 enUS = "Alliances"
 zhCN = "联盟"
 zhTW = "聯盟"
@@ -7924,8 +7935,8 @@ viVN = "{0} và {1}"
 trTR = "{0} ve {1}"
 
 ["TimberEmpires.Alliances.Allied"]
-status = "normal"
 raw = "Allied"
+status = "normal"
 enUS = "Allied"
 zhCN = "结盟中"
 zhTW = "結盟的"
@@ -7992,8 +8003,8 @@ viVN = "Đang chờ câu trả lời"
 trTR = "Yanıt bekleniyor"
 
 ["TimberEmpires.Alliances.Enemy"]
-status = "normal"
 raw = "Not allied"
+status = "normal"
 enUS = "Not allied"
 zhCN = "未结盟"
 zhTW = "非盟友"
@@ -8026,8 +8037,8 @@ viVN = "Đề xuất liên minh"
 trTR = "İttifak önerirsin"
 
 ["TimberEmpires.Alliances.Accept"]
-status = "normal"
 raw = "Accept"
+status = "normal"
 enUS = "Accept"
 zhCN = "接受"
 zhTW = "接受"
@@ -8213,8 +8224,8 @@ viVN = "Mở tab Liên minh"
 trTR = "İttifaklar sekmesini aç"
 
 ["TimberEmpires.KeyBindings.TroopsTab"]
-status = "normal"
 raw = "Open Troops tab"
+status = "normal"
 enUS = "Open the Troops tab"
 zhCN = "打开部队选项卡"
 zhTW = "開啟部隊分頁"
@@ -8383,8 +8394,8 @@ viVN = "Đế chế Gỗ"
 trTR = "Kereste İmparatorlukları"
 
 ["Good.BallistaBolt.DisplayName"]
-status = "normal"
 raw = "Ballista bolt"
+status = "normal"
 enUS = "Ballista bolt"
 zhCN = "弩炮箭矢"
 zhTW = "弩砲弩箭"
@@ -8621,8 +8632,8 @@ viVN = "Dính nhớp bây giờ, sau này còn tệ hơn."
 trTR = "Şimdi yapış yapış, sonra daha beter."
 
 ["Building.TimberEmpires.WallFoundation.DisplayName"]
-status = "normal"
 raw = "Wall Foundation"
+status = "normal"
 enUS = "Wall Foundation"
 zhCN = "墙体地基"
 zhTW = "牆壁地基"
@@ -8758,6 +8769,7 @@ trTR = "Sürü"
 
 ["TimberEmpires.GameMode.Horde.Description"]
 raw = "The undead raccoons rise from the ruins every few nights, more each time, and in a great swarm when the badtide comes. Stand together, hold out till dawn, and seal every ruin to end it."
+new = "The undead raccoons rise from the ruins every few nights, more each time, and in a great swarm when the badtide comes. Ally with your neighbours or fight them, hold out till dawn, and seal every ruin to end it."
 status = "normal"
 enUS = "The undead raccoons rise from the ruins every few nights, more each time, and in a great swarm when the badtide comes. Stand together, hold out till dawn, and seal every ruin to end it."
 zhCN = "不死浣熊每隔几晚就会从废墟中爬出，每次数量都更多；恶潮来临时，更会成群涌出。团结起来，坚持到黎明，并封住所有废墟，彻底终结这一切。"
@@ -8825,8 +8837,8 @@ viVN = "{0} đã phong ấn tàn tích cuối cùng. Đêm tối lại yên bìn
 trTR = "{0} son harabeyi mühürledi. Geceler yeniden sessiz."
 
 ["TimberEmpires.Settings.HordeFirstCycle"]
-status = "normal"
 raw = "First undead night"
+status = "normal"
 enUS = "First Undead Night"
 zhCN = "首次亡灵之夜"
 zhTW = "首個亡靈之夜"
@@ -9182,8 +9194,8 @@ viVN = "Bình thường"
 trTR = "Normal"
 
 ["TimberEmpires.Settings.HordeSize.More"]
-status = "normal"
 raw = "More"
+status = "normal"
 enUS = "More"
 zhCN = "更多"
 zhTW = "更多"
@@ -9199,8 +9211,8 @@ viVN = "Thêm nữa"
 trTR = "Daha fazla"
 
 ["TimberEmpires.Settings.HordeSize.Overwhelming"]
-status = "normal"
 raw = "Overwhelming"
+status = "normal"
 enUS = "Overwhelming"
 zhCN = "压倒性atsinni"
 zhTW = "勢不可擋"
@@ -9437,8 +9449,8 @@ viVN = "Các trại cướp bắt đầu đột kích người chơi theo chu k�
 trTR = "Döngü haydut kampları, oyun ilerledikçe oyunculara daha sık baskın yapmaya başlar. En solda olduklarında hiç baskın yapmazlar."
 
 ["TimberEmpires.Settings.FirstRaid.Value.Min"]
-status = "normal"
 raw = "No raids"
+status = "normal"
 enUS = "No raids"
 zhCN = "没有袭击"
 zhTW = "沒有突襲"
@@ -9505,8 +9517,8 @@ viVN = "Chiến lợi phẩm xin kẹo của ai đó. Chẳng ai quay lại lấ
 trTR = "Birinin şeker toplama ganimeti. Kimse gelip almadı."
 
 ["NaturalResource.WillOWisp.DisplayName"]
-status = "normal"
 raw = "Will-o'-the-Wisp"
+status = "normal"
 enUS = "Will-o'-the-Wisp"
 zhCN = "鬼火"
 zhTW = "鬼火"
@@ -9556,8 +9568,8 @@ viVN = "Phần thưởng"
 trTR = "Ödüller"
 
 ["TimberEmpires.Rewards.Title"]
-status = "normal"
 raw = "Pick a reward"
+status = "normal"
 enUS = "Pick a reward"
 zhCN = "选择一项奖励"
 zhTW = "選擇獎勵"
@@ -9573,8 +9585,8 @@ viVN = "Chọn phần thưởng"
 trTR = "Bir ödül seçin"
 
 ["TimberEmpires.Rewards.Later"]
-status = "normal"
 raw = "Pick later"
+status = "normal"
 enUS = "Pick later"
 zhCN = "稍后选择"
 zhTW = "稍後選擇"
@@ -9707,3 +9719,27 @@ koKR = "비버를 위한 식량."
 csCZ = "Jídlo pro vaše bobry."
 viVN = "Thức ăn cho các hải ly của bạn."
 trTR = "Kunduzlarınız için yiyecek."
+
+["TimberEmpires.Settings.HordeDetail"]
+new = "Undead raccoons drawn"
+status = "normal"
+
+["TimberEmpires.Settings.HordeDetail.Tooltip"]
+new = "The most zombie raccoons drawn at once, among those the camera sees. More makes a thicker horde and costs more each frame."
+status = "normal"
+
+["TimberEmpires.Settings.HordeDetail.2000"]
+new = "2,000"
+status = "normal"
+
+["TimberEmpires.Settings.HordeDetail.4000"]
+new = "4,000"
+status = "normal"
+
+["TimberEmpires.Settings.HordeDetail.8000"]
+new = "8,000"
+status = "normal"
+
+["TimberEmpires.Settings.HordeDetail.16000"]
+new = "16,000"
+status = "normal"

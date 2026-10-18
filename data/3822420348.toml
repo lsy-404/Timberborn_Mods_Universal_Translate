@@ -1,0 +1,362 @@
+[_meta]
+name = "Dam Science!"
+
+["DamScience.Preset.Name"]
+new = "Difficulty preset"
+status = "normal"
+
+["DamScience.Preset.Tooltip"]
+new = "Mild: prices 75-150%, tree total 100%, 2 surprises, 25% tricks.\\nMad: prices 50-200%, total 110%, 3 surprises, 33% tricks.\\nMayhem: prices 25-400%, total 130%, 6 surprises, 50% tricks.\\nCustom: use the sliders in the Custom section.\\nApplies to new colonies."
+status = "normal"
+
+["DamScience.Value.Mild"]
+new = "Mild"
+status = "normal"
+
+["DamScience.Value.Mad"]
+new = "Mad"
+status = "normal"
+
+["DamScience.Value.Mayhem"]
+new = "Mayhem"
+status = "normal"
+
+["DamScience.Value.Custom"]
+new = "Custom"
+status = "normal"
+
+["DamScience.Shuffle.Name"]
+new = "Shuffle prices instead"
+status = "normal"
+
+["DamScience.Shuffle.Tooltip"]
+new = "On: the game's own prices are dealt to different buildings (a cheap one may get an expensive price). The total stays at the game's normal total; the total settings do not apply.\\nOff: every price is rolled from a percent range.\\nApplies to new colonies."
+status = "normal"
+
+["DamScience.Section.Tax"]
+new = "Tax"
+status = "normal"
+
+["DamScience.Section.Custom"]
+new = "Custom"
+status = "normal"
+
+["DamScience.Welcome.Name"]
+new = "Welcome pop-up"
+status = "normal"
+
+["DamScience.Welcome.Tooltip"]
+new = "Show Dr. Gnawstein's welcome pop-up once, when a colony first starts with this mod."
+status = "normal"
+
+["DamScience.Button.Welcome"]
+new = "Let's gnaw!"
+status = "normal"
+
+["DamScience.Welcome.Text"]
+new = "Dr. Gnawstein's lab has been at the science controls. Every building's science price in this colony has been scrambled, and a few free buildings are now surprises. Trick or treat?"
+status = "normal"
+
+["DamScience.Total.Name"]
+new = "Total science (%)"
+status = "normal"
+
+["DamScience.Total.Tooltip"]
+new = "What the whole tech tree should cost in total, as a percent of its normal cost. Used when the preset is Custom.\\nApplies to new colonies."
+status = "normal"
+
+["DamScience.Min.Name"]
+new = "Lowest price (% of normal)"
+status = "normal"
+
+["DamScience.Min.Tooltip"]
+new = "How cheap a building can get, as a percent of its normal science cost.\\nUsed when the preset is Custom. Applies to new colonies."
+status = "normal"
+
+["DamScience.Max.Name"]
+new = "Highest price (% of normal)"
+status = "normal"
+
+["DamScience.Max.Tooltip"]
+new = "How expensive a building can get, as a percent of its normal science cost.\\nUsed when the preset is Custom. Applies to new colonies."
+status = "normal"
+
+["DamScience.Keep.Name"]
+new = "Keep total science the same (presets)"
+status = "normal"
+
+["DamScience.Keep.Tooltip"]
+new = "For the Mild, Mad and Mayhem presets. On: the whole tech tree costs a fair total (100% / 110% / 130% of normal).\\nOff: a harder total (115% / 135% / 170%). Custom ignores this and uses Total science (%) instead."
+status = "normal"
+
+["DamScience.Grants.Name"]
+new = "Surprise buildings"
+status = "normal"
+
+["DamScience.Grants.Tooltip"]
+new = "How many normally-free buildings Dr. Gnawstein turns into a surprise.\\nEach one is locked at the start. Unlocking it gives you science, or sometimes takes some. 0 turns this off. Used when the preset is Custom."
+status = "normal"
+
+["DamScience.Trick.Name"]
+new = "Trick chance (%)"
+status = "normal"
+
+["DamScience.Trick.Tooltip"]
+new = "Chance that a surprise building is a trick (it costs science) instead of a treat (it pays you). Used when the preset is Custom. Only some free buildings can be tricks, so you may get fewer tricks than this if you ask for many surprises."
+status = "normal"
+
+["DamScience.Button.Treat"]
+new = "Thanks, Doc!"
+status = "normal"
+
+["DamScience.Button.Trick"]
+new = "Booo!"
+status = "normal"
+
+["DamScience.Treat.1"]
+new = "The beavers gnawed through a wall and found {0} science points stuffed inside. Don't ask who put them there."
+status = "normal"
+
+["DamScience.Treat.2"]
+new = "Eureka! It's alive! And so is your science budget: +{0} points!"
+status = "normal"
+
+["DamScience.Treat.3"]
+new = "Dr. Gnawstein lost a bet with himself and paid up. +{0} science!"
+status = "normal"
+
+["DamScience.Treat.4"]
+new = "Someone cleared out the lab fridge and found {0} science points in the back. Mold-free, mostly."
+status = "normal"
+
+["DamScience.Treat.5"]
+new = "Dr. Gnawstein found the missing lab notes under a sandwich. +{0} science!"
+status = "normal"
+
+["DamScience.Treat.6"]
+new = "The experiment failed successfully. +{0} science, and the lab is only slightly smoky."
+status = "normal"
+
+["DamScience.Treat.7"]
+new = "The beavers had a bake sale for research. The cookies were awful, but they raised +{0} science!"
+status = "normal"
+
+["DamScience.Treat.8"]
+new = "The lab's new motto is \"Close enough!\" and it paid off. +{0} science."
+status = "normal"
+
+["DamScience.Treat.9"]
+new = "The beavers solved the puzzle on the back of a cereal box and won +{0} science!"
+status = "normal"
+
+["DamScience.Trick.1"]
+new = "Dr. Gnawstein \"borrowed\" {0} science for an experiment. It exploded. You're welcome."
+status = "normal"
+
+["DamScience.Trick.2"]
+new = "A surprise invoice arrived from the Department of Dam Science: -{0} points. Booo!"
+status = "normal"
+
+["DamScience.Trick.3"]
+new = "Dr. Gnawstein pressed the big red button. You owe {0} science for the repairs."
+status = "normal"
+
+["DamScience.Trick.4"]
+new = "Surprise! The research grant was a loan. Repayment: {0} science."
+status = "normal"
+
+["DamScience.Trick.5"]
+new = "The beavers formed a union and demanded {0} science in snacks. Negotiations are over."
+status = "normal"
+
+["DamScience.Trick.6"]
+new = "Dr. Gnawstein put \"TBD\" in the budget. The budget is now {0} science lighter."
+status = "normal"
+
+["DamScience.Trick.7"]
+new = "The project is on time, on budget, and on fire. Charged {0} science for the fire."
+status = "normal"
+
+["DamScience.Trick.8"]
+new = "Dr. Gnawstein asked \"what does this button do?\" The lab no longer has a ceiling. -{0} science."
+status = "normal"
+
+["DamScience.Trick.9"]
+new = "The reality of the situation has cost you {0} science. Please accept this complimentary shrug."
+status = "normal"
+
+["DamScience.Inv.Name"]
+new = "Inventor takes your science"
+status = "normal"
+
+["DamScience.Inv.Tooltip"]
+new = "On: the Inventor stays locked and its price is almost all the science you have when you unlock it (nothing if you have none). Pay more, get taxed less often.\\nOff: the Inventor is free and tax days are off.\\nApplies to new colonies. A colony that already has the Inventor is never taxed."
+status = "normal"
+
+["DamScience.TaxMode.Name"]
+new = "Tax days"
+status = "normal"
+
+["DamScience.TaxMode.Tooltip"]
+new = "Off: no tax days.\\nMatch difficulty: the tax follows the difficulty preset above.\\nMild / Mad / Mayhem: pick a tax style of your own.\\nCustom: use the numbers below.\\nOnce your science reaches a set amount, the tax man comes every few cycles and takes a random percent of the science you hold. Pay more for the Inventor and he comes less often.\\nApplies to new colonies."
+status = "normal"
+
+["DamScience.TaxMode.Off"]
+new = "Off"
+status = "normal"
+
+["DamScience.TaxMode.Match"]
+new = "Match difficulty"
+status = "normal"
+
+["DamScience.Doctor.Name"]
+new = "Dr. Gnawstein in the Inventor"
+status = "normal"
+
+["DamScience.Doctor.Tooltip"]
+new = "Shows Dr. Gnawstein's name and picture on one beaver of each Inventor hut (the first one assigned) in the building panel. Display only: no beaver is renamed."
+status = "normal"
+
+["DamScience.Doctor.Label"]
+new = "Dr. Gnawstein"
+status = "normal"
+
+["DamScience.TaxWarn.Name"]
+new = "Tax warning"
+status = "normal"
+
+["DamScience.TaxWarn.Tooltip"]
+new = "Show a sneaky one-line warning in the bottom left the day before the tax man comes."
+status = "normal"
+
+["DamScience.TaxThr.Name"]
+new = "Tax starts at (science)"
+status = "normal"
+
+["DamScience.TaxThr.Tooltip"]
+new = "Used when Tax days is Custom, or Match difficulty with the Custom preset. Taxes start once your science first reaches this amount."
+status = "normal"
+
+["DamScience.TaxMin.Name"]
+new = "Lowest tax (%)"
+status = "normal"
+
+["DamScience.TaxMin.Tooltip"]
+new = "Used when Tax days is Custom, or Match difficulty with the Custom preset. The smallest share of your science a tax day can take."
+status = "normal"
+
+["DamScience.TaxMax.Name"]
+new = "Highest tax (%)"
+status = "normal"
+
+["DamScience.TaxMax.Tooltip"]
+new = "Used when Tax days is Custom, or Match difficulty with the Custom preset. The largest share of your science a tax day can take (never more than 25)."
+status = "normal"
+
+["DamScience.TaxFree.Name"]
+new = "Tax every (cycles), free Inventor"
+status = "normal"
+
+["DamScience.TaxFree.Tooltip"]
+new = "Used when Tax days is Custom, or Match difficulty with the Custom preset. How many cycles between tax days if you paid nothing for the Inventor."
+status = "normal"
+
+["DamScience.TaxPaid.Name"]
+new = "Tax every (cycles), paid 150+"
+status = "normal"
+
+["DamScience.TaxPaid.Tooltip"]
+new = "Used when Tax days is Custom, or Match difficulty with the Custom preset. How many cycles between tax days if you paid 150 or more for the Inventor. Paying less lands in between."
+status = "normal"
+
+["DamScience.Button.Tax"]
+new = "Ouch!"
+status = "normal"
+
+["DamScience.Button.Inventor"]
+new = "Okay, okay."
+status = "normal"
+
+["DamScience.Warn.1"]
+new = "Today's mood: counting."
+status = "normal"
+
+["DamScience.Warn.2"]
+new = "Fortune cookie says: \"Spend before the doorbell rings.\""
+status = "normal"
+
+["DamScience.Warn.3"]
+new = "A wise beaver once said: \"Never trust a man with a pen.\""
+status = "normal"
+
+["DamScience.Warn.4"]
+new = "Weather report: 90% chance of invoices."
+status = "normal"
+
+["DamScience.Warn.5"]
+new = "Dr. Gnawstein put a \"Closed for Science\" sign on the door."
+status = "normal"
+
+["DamScience.Warn.6"]
+new = "Dr. Gnawstein just rehearsed a very convincing \"I'm broke.\""
+status = "normal"
+
+["DamScience.TaxMsg.1"]
+new = "The tax man cometh! He took {0} science and left a receipt. The receipt is also taxed."
+status = "normal"
+
+["DamScience.TaxMsg.2"]
+new = "A beaver in a top hat took {0} science \"for administrative purposes\". Nobody knows what that means."
+status = "normal"
+
+["DamScience.TaxMsg.3"]
+new = "Surprise audit! The lab owes {0} science. Dr. Gnawstein says he's never seen that man before."
+status = "normal"
+
+["DamScience.TaxMsg.4"]
+new = "{0} science were collected today. Dr. Gnawstein pretended to be asleep. It didn't help."
+status = "normal"
+
+["DamScience.TaxMsg.5"]
+new = "Pay up! {0} science have been withdrawn. Please enjoy the complimentary clipboard."
+status = "normal"
+
+["DamScience.TaxMsg.6"]
+new = "The Department of Dam Science has collected {0} science. They say thank you. They don't mean it."
+status = "normal"
+
+["DamScience.TaxMsg.7"]
+new = "{0} science have gone to \"infrastructure\". The infrastructure is a hat."
+status = "normal"
+
+["DamScience.TaxMsg.8"]
+new = "Dr. Gnawstein said \"I'm broke!\" The tax man said \"Sure.\" -{0} science."
+status = "normal"
+
+["DamScience.TaxMsg.9"]
+new = "Tax day! {0} science went to pay for the tax man's very shiny shoes."
+status = "normal"
+
+["DamScience.InvPaid.1"]
+new = "Hey, science ain't free! Dr. Gnawstein kept {0} science for \"processing fees\"."
+status = "normal"
+
+["DamScience.InvPaid.2"]
+new = "The Inventor's Hut is open! The bill: {0} science. Dr. Gnawstein calls it \"a donation\"."
+status = "normal"
+
+["DamScience.InvPaid.3"]
+new = "Welcome to the lab. Please leave your science at the door. All {0} of it."
+status = "normal"
+
+["DamScience.InvPaid.4"]
+new = "Science ain't free, friend! That's {0} science. You're welcome."
+status = "normal"
+
+["DamScience.InvFree.1"]
+new = "You showed up with no science, so there's no bill. For now. The doctor remembers everything."
+status = "normal"
+
+["DamScience.InvFree.2"]
+new = "Free! Dr. Gnawstein calls it an introductory offer. There is fine print. It's very small."
+status = "normal"

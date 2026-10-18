@@ -19,8 +19,8 @@ viVN = "Đồng ý"
 trTR = "Kabul et"
 
 ["AnalyticsConsent.Disagree"]
-status = "normal"
 raw = "Không đồng ý"
+status = "normal"
 enUS = "Disagree"
 zhCN = "不同意"
 zhTW = "不同意"
@@ -70,8 +70,8 @@ viVN = "Hãy giúp chúng tôi cải thiện Timberborn bằng cách chia sẻ d
 trTR = "Oyunu nasıl oynadığınıza dair verileri paylaşarak Timberborn’u geliştirmemize yardımcı olun.\n\nOnay verirseniz oyun deneyiminizle ilgili bilgileri otomatik olarak toplarız.\n\nOnayınızı geri çekmek ve verilerinizi silmek için istediğiniz zaman oyun içindeki ayarlara gidebilirsiniz. Daha fazla bilgi için lütfen <link><u>gizlilik politikasına</u></link> bakın.\n\nTeşekkür ederiz!"
 
 ["Attractions.LoadRate"]
-status = "normal"
 raw = "Mức độ phổ biến"
+status = "normal"
 enUS = "Popularity"
 zhCN = "受欢迎程度"
 zhTW = "熱門程度"
@@ -87,8 +87,8 @@ viVN = "Mức độ phổ biến"
 trTR = "Popülerlik"
 
 ["Attractions.Visitors"]
-status = "normal"
 raw = "Khách tham quan"
+status = "normal"
 enUS = "Visitors"
 zhCN = "游客"
 zhTW = "遊客"
@@ -138,8 +138,8 @@ viVN = "Mở trình duyệt"
 trTR = "Tarayıcıyı aç"
 
 ["Automation.Api.Port"]
-status = "normal"
 raw = "Cổng"
+status = "normal"
 enUS = "Port"
 zhCN = "端口"
 zhTW = "連接埠"
@@ -172,8 +172,8 @@ viVN = "Khởi động API"
 trTR = "API'yi başlat"
 
 ["Automation.Api.StopApi"]
-status = "normal"
 raw = "Dừng API"
+status = "normal"
 enUS = "Stop API"
 zhCN = "停止 API"
 zhTW = "停止 API"
@@ -257,8 +257,8 @@ viVN = "Tự động hóa"
 trTR = "Otomasyon"
 
 ["Automation.AutomationNone"]
-status = "normal"
 raw = "Không có"
+status = "normal"
 enUS = "None"
 zhCN = "无♀♀♀♀♀♀"
 zhTW = "無"
@@ -274,8 +274,8 @@ viVN = "Không có"
 trTR = "Yok"
 
 ["Automation.AutomationOptional"]
-status = "normal"
 raw = "Tùy chọn"
+status = "normal"
 enUS = "Optional"
 zhCN = "可选项"
 zhTW = "選用項目"
@@ -291,8 +291,8 @@ viVN = "Tùy chọn"
 trTR = "İsteğe bağlı"
 
 ["Automation.NoAutomation"]
-status = "normal"
 raw = "Không tự động hóa"
+status = "normal"
 enUS = "No automation"
 zhCN = "不自动化"
 zhTW = "未自動化"
@@ -376,8 +376,8 @@ viVN = "D"
 trTR = "D"
 
 ["Automation.Input.E"]
-status = "normal"
 raw = "E"
+status = "normal"
 enUS = "E"
 zhCN = "东"
 zhTW = "東"
@@ -427,8 +427,8 @@ viVN = "G"
 trTR = "G"
 
 ["Automation.Input.H"]
-status = "normal"
 raw = "H"
+status = "normal"
 enUS = "H"
 zhCN = "H"
 zhTW = "時"
@@ -444,8 +444,8 @@ viVN = "H"
 trTR = "H"
 
 ["Automation.Input.Reset"]
-status = "normal"
 raw = "RST"
+status = "normal"
 enUS = "RST"
 zhCN = "重置"
 zhTW = "重設"
@@ -478,8 +478,8 @@ viVN = "Giá trị đo: {0}"
 trTR = "Ölçüm değeri: {0}"
 
 ["Automation.Mode"]
-status = "normal"
 raw = "Chế độ"
+status = "normal"
 enUS = "Mode"
 zhCN = "模式"
 zhTW = "模式"
@@ -495,8 +495,8 @@ viVN = "Chế độ"
 trTR = "Mod"
 
 ["Automation.Mode.Automated"]
-status = "normal"
 raw = "Tự động"
+status = "normal"
 enUS = "Automatic"
 zhCN = "自动化"
 zhTW = "自動化"
@@ -529,8 +529,8 @@ viVN = "Tạm dừng do tự động hóa."
 trTR = "Otomasyon tarafından duraklatıldı."
 
 ["Automation.Pinned"]
-status = "normal"
 raw = "Ghim"
+status = "normal"
 enUS = "Pin"
 zhCN = "固定"
 zhTW = "固定的"
@@ -546,8 +546,8 @@ viVN = "Ghim"
 trTR = "Sabitlendi"
 
 ["Automation.PinnedAlways"]
-status = "normal"
 raw = "Luôn ghim"
+status = "normal"
 enUS = "Always pin"
 zhCN = "始终置顶"
 zhTW = "永遠置頂"
@@ -563,8 +563,8 @@ viVN = "Luôn ghim"
 trTR = "Her zaman sabitle"
 
 ["Automation.PinnedWhenOn"]
-status = "normal"
 raw = "Ghim khi bật"
+status = "normal"
 enUS = "Pinned when on"
 zhCN = "启用时固定"
 zhTW = "開啟時固定"
@@ -597,8 +597,8 @@ viVN = "Xóa hàng"
 trTR = "Satırı sil"
 
 ["Automation.ResetButton"]
-status = "normal"
 raw = "Đặt lại"
+status = "normal"
 enUS = "Reset"
 zhCN = "重置"
 zhTW = "重設"
@@ -614,8 +614,8 @@ viVN = "Đặt lại"
 trTR = "Sıfırla"
 
 ["Automation.ResetCircuitButton"]
-status = "normal"
 raw = "Đặt lại mạch"
+status = "normal"
 enUS = "Reset circuit"
 zhCN = "重置电路"
 zhTW = "重設電路"
@@ -682,8 +682,8 @@ viVN = "Lỗi"
 trTR = "Hata"
 
 ["Automation.State.Off"]
-status = "normal"
 raw = "Tắt"
+status = "normal"
 enUS = "Off"
 zhCN = "关闭"
 zhTW = "關閉"
@@ -767,8 +767,8 @@ viVN = "Số nơi sử dụng: {0}"
 trTR = "Kullanım sayısı: {0}"
 
 ["Autosave.Failure"]
-status = "normal"
 raw = "Tự động lưu thất bại"
+status = "normal"
 enUS = "Autosave failed"
 zhCN = "自动保存失败"
 zhTW = "自動儲存失敗"
@@ -784,8 +784,8 @@ viVN = "Tự động lưu thất bại"
 trTR = "Otomatik kaydetme başarısız oldu"
 
 ["Autosave.FailureDueToFullDisk"]
-status = "normal"
 raw = "Tự động lưu thất bại do không đủ dung lượng ổ cứng"
+status = "normal"
 enUS = "Autosave failed due to insufficient disk space"
 zhCN = "硬盘空间不足，自动保存失败"
 zhTW = "硬碟空間不足，自動儲存失敗"
@@ -818,8 +818,8 @@ viVN = "Tự động lưu thành công"
 trTR = "Otomatik kaydedildi"
 
 ["BatchControl.Distribution"]
-status = "normal"
 raw = "Phân phối"
+status = "normal"
 enUS = "Distribution"
 zhCN = "分配"
 zhTW = "分配"
@@ -835,8 +835,8 @@ viVN = "Phân phối"
 trTR = "Dağıtım"
 
 ["BatchControl.GoodStatistics"]
-status = "normal"
 raw = "Thống kê hàng hóa"
+status = "normal"
 enUS = "Goods Statistics"
 zhCN = "货物统计"
 zhTW = "貨物統計"
@@ -886,8 +886,8 @@ viVN = "Xuất khẩu"
 trTR = "Dışa aktarım"
 
 ["BatchControl.GoodStatisticsType.Import"]
-status = "normal"
 raw = "Nhập khẩu"
+status = "normal"
 enUS = "Import"
 zhCN = "进口"
 zhTW = "進口"
@@ -920,8 +920,8 @@ viVN = "Sản lượng"
 trTR = "Üretim miktarı"
 
 ["BatchControl.GoodStatisticsType.Stock"]
-status = "normal"
 raw = "Tồn kho"
+status = "normal"
 enUS = "Stock"
 zhCN = "库存"
 zhTW = "庫存"
@@ -937,8 +937,8 @@ viVN = "Tồn kho"
 trTR = "Stok"
 
 ["BatchControl.Housing"]
-status = "normal"
 raw = "Nhà ở"
+status = "normal"
 enUS = "Housing"
 zhCN = "住房"
 zhTW = "住房"
@@ -971,8 +971,8 @@ viVN = "Năng lượng"
 trTR = "Enerji"
 
 ["BatchControl.Migration"]
-status = "normal"
 raw = "Di cư"
+status = "normal"
 enUS = "Migration"
 zhCN = "迁徙"
 zhTW = "遷徙"
@@ -1039,8 +1039,8 @@ viVN = "Thống kê dân số"
 trTR = "Nüfus İstatistikleri"
 
 ["BatchControl.PopulationStatistics.BeaverEmployment"]
-status = "normal"
 raw = "Việc làm hải ly"
+status = "normal"
 enUS = "Beaver Employment"
 zhCN = "海狸就业人数"
 zhTW = "海狸工作情況"
@@ -1056,8 +1056,8 @@ viVN = "Việc làm của hải ly"
 trTR = "Kunduzların İstihdamı"
 
 ["BatchControl.PopulationStatistics.Births"]
-status = "normal"
 raw = "Hải ly được sinh ra"
+status = "normal"
 enUS = "Beavers born"
 zhCN = "新生海狸"
 zhTW = "海狸出生數"
@@ -1107,8 +1107,8 @@ viVN = "Số hải ly máy bị phá hủy"
 trTR = "Mekanik kunduz imha edildi"
 
 ["BatchControl.PopulationStatistics.BotEmployment"]
-status = "normal"
 raw = "Việc làm của hải ly máy"
+status = "normal"
 enUS = "Mechanical beaver employment"
 zhCN = "机械海狸就业状况"
 zhTW = "機器海狸就業情況"
@@ -1124,8 +1124,8 @@ viVN = "Việc làm của hải ly máy"
 trTR = "Mekanik kunduzların istihdamı"
 
 ["BatchControl.PopulationStatistics.Deaths"]
-status = "normal"
 raw = "Hải ly chết"
+status = "normal"
 enUS = "Beaver deaths"
 zhCN = "海狸死亡数"
 zhTW = "海狸死亡數"
@@ -1141,8 +1141,8 @@ viVN = "Hải ly chết"
 trTR = "Ölen kunduzlar"
 
 ["BatchControl.PopulationStatistics.PopulationAverage"]
-status = "normal"
 raw = "Trung bình dân số"
+status = "normal"
 enUS = "Average Population"
 zhCN = "平均人口数"
 zhTW = "平均人口數"
@@ -1209,8 +1209,8 @@ viVN = "Lưu trữ"
 trTR = "Depolama"
 
 ["BatchControl.TimeRange.AllTime"]
-status = "normal"
 raw = "Toàn bộ thời gian"
+status = "normal"
 enUS = "All time"
 zhCN = "所有时间"
 zhTW = "所有時間"
@@ -1226,8 +1226,8 @@ viVN = "Toàn bộ thời gian"
 trTR = "Tüm zamanlar"
 
 ["BatchControl.TimeRange.Days"]
-status = "normal"
 raw = "{0} ngày qua"
+status = "normal"
 enUS = "{0} days ago"
 zhCN = "过去 {0} 天"
 zhTW = "過去 {0} 天"
@@ -1243,8 +1243,8 @@ viVN = "{0} ngày qua"
 trTR = "Son {0} gün"
 
 ["BatchControl.Workplaces"]
-status = "normal"
 raw = "Nơi làm việc"
+status = "normal"
 enUS = "Workplaces"
 zhCN = "工作场所"
 zhTW = "工作場所"
@@ -1277,8 +1277,8 @@ viVN = "Hải ly trưởng thành"
 trTR = "Yetişkin kunduz"
 
 ["Beaver.Adulthood"]
-status = "normal"
 raw = "Đến tuổi trưởng thành"
+status = "normal"
 enUS = "Reach adulthood"
 zhCN = "成年了"
 zhTW = "成年時期"
@@ -1396,8 +1396,8 @@ viVN = "{0} đã trưởng thành."
 trTR = "{0} büyüdü."
 
 ["Beaver.Homeless"]
-status = "normal"
 raw = "Vô gia cư"
+status = "normal"
 enUS = "Homeless"
 zhCN = "无家可归"
 zhTW = "無家可歸"
@@ -1464,8 +1464,8 @@ viVN = "{0} được phóng đi."
 trTR = "{0} fırlatıldı."
 
 ["Beaver.PluralDisplayName"]
-status = "normal"
 raw = "Hải ly"
+status = "normal"
 enUS = "Beavers"
 zhCN = "海狸居民"
 zhTW = "海狸"
@@ -1566,8 +1566,8 @@ viVN = "Hải ly con bị nhiễm bẩn"
 trTR = "Kirlenmiş kunduz yavruları"
 
 ["Beaver.Unemployed"]
-status = "normal"
 raw = "Thất nghiệp"
+status = "normal"
 enUS = "Unemployed"
 zhCN = "失业者"
 zhTW = "失業中"
@@ -1583,8 +1583,8 @@ viVN = "Thất nghiệp"
 trTR = "İşsiz"
 
 ["Beaver.UnemployedPlural"]
-status = "normal"
 raw = "Thất nghiệp"
+status = "normal"
 enUS = "Unemployed beavers"
 zhCN = "失业者"
 zhTW = "失業海狸"
@@ -1651,8 +1651,8 @@ viVN = "Tỉ lệ chặt cây thành công"
 trTR = "Başarılı ağaç kesme olasılığı"
 
 ["Bonus.GrowthSpeed"]
-status = "normal"
 raw = "Tốc độ tăng trưởng"
+status = "normal"
 enUS = "Growth Rate"
 zhCN = "生长速度"
 zhTW = "生長速度"
@@ -1685,8 +1685,8 @@ viVN = "Tuổi thọ trung bình"
 trTR = "Ortalama yaşam süresi"
 
 ["Bonus.MovementSpeed"]
-status = "normal"
 raw = "Tốc độ di chuyển"
+status = "normal"
 enUS = "Movement speed"
 zhCN = "移动速度速率"
 zhTW = "移動速度"
@@ -1736,8 +1736,8 @@ viVN = "Đừng bắt tôi phải nói về lũ hải ly nữa.\nChúng từng c
 trTR = "Kunduzlardan artık söz etmemi istemeyin.\nBir zamanlar her şeye sahiplerdi. Temiz hava, temiz su.\nŞimdiyse tüm bunlar yalnızca silik bir anı."
 
 ["Bot.Created"]
-status = "normal"
 raw = "{0} đã được tạo ra!"
+status = "normal"
 enUS = "{0} has been created!"
 zhCN = "已创建 {0}！"
 zhTW = "已建立 {0}！"
@@ -2093,8 +2093,8 @@ viVN = "Buồng khóa khí"
 trTR = "Hava Kilidi Odası"
 
 ["Building.Airlock.FlavorDescription"]
-status = "normal"
 raw = "Cỏ đôi khi xanh hơn phía bên kia"
+status = "normal"
 enUS = "The grass is sometimes greener on the other side."
 zhCN = "另一边的草有时更绿。"
 zhTW = "另一邊的草有時比較綠。"
@@ -2144,8 +2144,8 @@ viVN = "Nỗ lực cuối cùng của loài người nhằm khôi phục những
 trTR = "İnsanlığın kaybettiklerini geri kazanmak için gösterdiği son çaba."
 
 ["Building.ArchOfProgress.DisplayName"]
-status = "normal"
 raw = "Cổng Vòm Phát Triển"
+status = "normal"
 enUS = "Arch of Progress"
 zhCN = "进步之拱门"
 zhTW = "發展之門"
@@ -2161,8 +2161,8 @@ viVN = "Cổng Vòm Tiến Bộ"
 trTR = "Gelişim Kemeri"
 
 ["Building.ArchOfProgress.FlavorDescription"]
-status = "normal"
 raw = "Có một câu được khắc ở bên hông: \"Tôi đến, tôi thấy, tôi xây.\""
+status = "normal"
 enUS = "There is a sentence engraved on the side: \"I came, I saw, I built.\""
 zhCN = "侧面刻着一句话：“我来了，我看见了，我建造了。”"
 zhTW = "側邊刻著一句話：「我來，我見，我建。」"
@@ -2178,8 +2178,8 @@ viVN = "Có một câu được khắc ở bên hông: \"Tôi đến, tôi thấ
 trTR = "Yan tarafına şu söz kazınmış: \"Geldim, gördüm, inşa ettim.\""
 
 ["Building.AquaticFarmhouse.Description"]
-status = "normal"
 raw = "Dùng hải ly làm nông chuyên biệt để trồng và thu hoạch cây <YellowHighlight>Thủy sinh</YellowHighlight>."
+status = "normal"
 enUS = "Use beavers specialized in farming to grow and harvest <YellowHighlight>Aquatic</YellowHighlight> plants."
 zhCN = "使用海狸作为专职农夫，种植和收获<YellowHighlight>水生</YellowHighlight>作物。"
 zhTW = "指派海狸專門務農，種植並收穫<YellowHighlight>水生</YellowHighlight>植物。"
@@ -2212,8 +2212,8 @@ viVN = "Nông Trại Thủy Sinh"
 trTR = "Su Ürünleri Çiftliği"
 
 ["Building.AquaticFarmhouse.FlavorDescription"]
-status = "normal"
 raw = "Từng có tin đồn cho rằng chúng tôi ăn cá. Kinh tởm thật! —Ma' Ngonel"
+status = "normal"
 enUS = "There was once a rumor that we eat fish. How disgusting! —Ma' Ngonel"
 zhCN = "曾有传言说我们吃鱼。真恶心！——Ma' Ngonel"
 zhTW = "曾有傳言說我們吃魚。真噁心！——Ma' Ngonel"
@@ -2246,8 +2246,8 @@ viVN = "Nguồn nước ngầm."
 trTR = "Yeraltı su kaynağı."
 
 ["Building.Aquifer.DisplayName"]
-status = "normal"
 raw = "Tầng chứa nước"
+status = "normal"
 enUS = "Aquifer"
 zhCN = "含水层"
 zhTW = "含水層庫槽"
@@ -2688,8 +2688,8 @@ viVN = "Nướng bánh mì và bánh ngọt từ các loại bột khác nhau."
 trTR = "Farklı un türlerinden ekmek ve hamur işleri pişirir."
 
 ["Building.Bakery.DisplayName"]
-status = "normal"
 raw = "Lò Bánh Mì"
+status = "normal"
 enUS = "Bakery"
 zhCN = "面包房"
 zhTW = "麵包烤爐"
@@ -2739,8 +2739,8 @@ viVN = "Nhà tập thể có tính ứng dụng cao"
 trTR = "Kışlanın kullanım alanı geniştir"
 
 ["Building.Barrack.DisplayName"]
-status = "normal"
 raw = "Doanh Trại"
+status = "normal"
 enUS = "Barracks"
 zhCN = "营房"
 zhTW = "營房"
@@ -2926,8 +2926,8 @@ viVN = "Tăng tốc độ phát triển của cây trồng xung quanh."
 trTR = "Çevredeki mahsullerin büyümesini hızlandırır."
 
 ["Building.Beehive.DisplayName"]
-status = "normal"
 raw = "Tổ Ong"
+status = "normal"
 enUS = "Beehive"
 zhCN = "蜂巢"
 zhTW = "蜂巢"
@@ -2977,8 +2977,8 @@ viVN = "Vang lên vào lúc bắt đầu và kết thúc ngày làm việc."
 trTR = "İş gününün başlangıcında ve sonunda çalar."
 
 ["Building.Bell.DisplayName"]
-status = "normal"
 raw = "Chuông"
+status = "normal"
 enUS = "Bell"
 zhCN = "钟铃"
 zhTW = "鈴鐺"
@@ -3011,8 +3011,8 @@ viVN = "Tiếng chuông buổi sáng mới là điều đáng mong đợi. —Ol
 trTR = "Asıl dört gözle beklenmesi gereken şey sabah çanıdır. —Ol' Kazko"
 
 ["Building.Bench.DisplayName"]
-status = "normal"
 raw = "Ghế Dài"
+status = "normal"
 enUS = "Bench"
 zhCN = "长椅"
 zhTW = "長椅"
@@ -3164,8 +3164,8 @@ viVN = "Tổ hợp các bộ phận của hải ly máy."
 trTR = "Robot kunduz parçalarının birleşimi."
 
 ["Building.BotPartFactory.DisplayName"]
-status = "normal"
 raw = "Xưởng Sản Xuất Linh Kiện Hải Ly Máy"
+status = "normal"
 enUS = "Mechanical Beaver Part Factory"
 zhCN = "机械海狸零件工厂"
 zhTW = "機械海狸零件工廠"
@@ -3232,8 +3232,8 @@ viVN = "Lò than hồng"
 trTR = "Mangal"
 
 ["Building.Brazier.FlavorDescription"]
-status = "normal"
 raw = "Quao, cháy thật đấy. —Suli"
+status = "normal"
 enUS = "Wow, that’s really hot. —Suli"
 zhCN = "哇，真火爆啊。——Suli"
 zhTW = "哇，真的燒起來了。—Suli"
@@ -3487,8 +3487,8 @@ viVN = "Đôi khi, lửa và gỗ lại là cặp đôi hoàn hảo."
 trTR = "Bazen ateş ve odun mükemmel bir ikili olur."
 
 ["Building.Carousel.Description"]
-status = "normal"
 raw = "Vòng quay gỗ dành cho hải ly mọi lứa tuổi."
+status = "normal"
 enUS = "A wooden carousel for beavers of all ages."
 zhCN = "适合所有年龄段海狸乘坐的木制旋转木马。"
 zhTW = "適合所有年齡層海狸的木製旋轉木馬。"
@@ -3657,8 +3657,8 @@ viVN = "Gửi tín hiệu dựa trên thời điểm trong ngày."
 trTR = "Günün saatine göre sinyal gönderir."
 
 ["Building.Chronometer.DisplayName"]
-status = "normal"
 raw = "Đồng hồ thời gian"
+status = "normal"
 enUS = "Chronometer"
 zhCN = "计时器"
 zhTW = "時間計時器"
@@ -3725,8 +3725,8 @@ viVN = "Khoảng thời gian"
 trTR = "Zaman Aralığı"
 
 ["Building.Chronometer.Mode.WorkingHours"]
-status = "normal"
 raw = "Giờ làm việc"
+status = "normal"
 enUS = "Working hours"
 zhCN = "工作时间"
 zhTW = "工作時段"
@@ -3776,8 +3776,8 @@ viVN = "Kết nối hoặc ngắt truyền năng lượng."
 trTR = "Güç aktarımını bağlayın veya kesin."
 
 ["Building.Clutch.DisplayName"]
-status = "normal"
 raw = "Bộ Ly Hợp"
+status = "normal"
 enUS = "Clutch"
 zhCN = "离合器"
 zhTW = "離合器"
@@ -3912,8 +3912,8 @@ viVN = "Máy bơm cơ học nhỏ gọn"
 trTR = "Kompakt Mekanik Pompa"
 
 ["Building.CompactMechanicalPump.FlavorDescription"]
-status = "normal"
 raw = "Trong chờ gì khi nó chỉ hút nước"
+status = "normal"
 enUS = "What are you waiting for when it only pumps water?"
 zhCN = "还能指望它做什么，它只会抽水。"
 zhTW = "它明明只會抽水，還能指望什麼呢？"
@@ -4456,8 +4456,8 @@ viVN = "Ống dài giúp xử lý cả chênh lệch độ cao lẫn mùi hôi."
 trTR = "Uzun boru hem yükseklik farkını hem de kötü kokuyu gidermeye yardımcı olur."
 
 ["Building.DeepMechanicalPump.DisplayName"]
-status = "normal"
 raw = "Máy Bơm Cơ Khí Tầng Sâu"
+status = "normal"
 enUS = "Deep Mechanical Pump"
 zhCN = "深层机械水泵"
 zhTW = "深層機械幫浦"
@@ -4507,8 +4507,8 @@ viVN = "Máy Bơm Nước Sâu"
 trTR = "Derin Su Pompası"
 
 ["Building.DeepWaterPump.FlavorDescription"]
-status = "normal"
 raw = "Nước chảy về từ vùng đất phương nam nơi cỏ đuôi mèo mọc và hải ly làm nghề sửa ống nước. —Bài hát lao động của Iron Teeth"
+status = "normal"
 enUS = "Water flows in from the southern lands where cattails grow and beavers work as plumbers. —Iron Teeth work song"
 zhCN = "水从南方那片长着香蒲、海狸们以修水管为业的土地流来。——铁牙的劳动歌谣"
 zhTW = "水流自南方流來，那裡長著香蒲，海狸以修水管為業。——鐵牙的勞動歌誒"
@@ -4558,8 +4558,8 @@ viVN = "Cảm biến độ sâu"
 trTR = "Derinlik Sensörü"
 
 ["Building.Detailer.Description"]
-status = "normal"
 raw = "Tùy chỉnh đuôi của hải ly."
+status = "normal"
 enUS = "Customize beaver tails."
 zhCN = "自定义海狸的尾巴。"
 zhTW = "自訂海狸的尾巴。"
@@ -4728,8 +4728,8 @@ viVN = "Xả nước hoặc nước bẩn."
 trTR = "Suyu veya kirli suyu boşalt."
 
 ["Building.Discharge.DisplayName"]
-status = "normal"
 raw = "Cửa Xả"
+status = "normal"
 enUS = "Discharge Gate"
 zhCN = "排水口"
 zhTW = "排水口"
@@ -4864,8 +4864,8 @@ viVN = "Cân bằng hàng hóa giữa hai khu vực được kết nối. Mỗi 
 trTR = "Birbirine bağlı iki bölge arasındaki malları dengeler. Her iki tarafın da, Bölge Bağlantı İstasyonu ile bölgenin geri kalanı arasında mal taşıyan kendi işçi kunduzları vardır."
 
 ["Building.DistrictCrossing.DisplayName"]
-status = "normal"
 raw = "Trạm Kết Nối Khu Vực"
+status = "normal"
 enUS = "District Crossing Station"
 zhCN = "区域连接站"
 zhTW = "區域連接站"
@@ -4949,8 +4949,8 @@ viVN = "Nơi chiêm ngưỡng thiên nhiên... hoặc ngắm nhìn con đập g�
 trTR = "Doğayı seyretmek için bir yer... ya da yakındaki barajı izlemek için."
 
 ["Building.DoubleDynamite.DisplayName"]
-status = "normal"
 raw = "Thuốc Nổ Trung"
+status = "normal"
 enUS = "Medium Dynamite"
 zhCN = "中型炸药"
 zhTW = "中型炸藥糟糕"
@@ -5034,8 +5034,8 @@ viVN = "Nhà gỗ lớn hơn chứa được nhiều hải ly hơn."
 trTR = "Büyük ahşap barınak daha fazla kunduz barındırabilir."
 
 ["Building.DoubleLodge.DisplayName"]
-status = "normal"
 raw = "Nhà Gỗ Trung"
+status = "normal"
 enUS = "Medium Timber Lodge"
 zhCN = "中型木屋"
 zhTW = "中型木屋"
@@ -5068,8 +5068,8 @@ viVN = "Càng đông càng vui."
 trTR = "Kalabalık arttıkça eğlence de artar."
 
 ["Building.DoublePlatform.DisplayName"]
-status = "normal"
 raw = "Sàn Trung"
+status = "normal"
 enUS = "Medium Platform"
 zhCN = "双层平台"
 zhTW = "中層平台"
@@ -5102,8 +5102,8 @@ viVN = "Gấp đôi chiều cao, vẫn giữ độ bền đặc trưng."
 trTR = "İki katı yüksekliğinde, karakteristik dayanıklılığını koruyor."
 
 ["Building.DoubleShower.DisplayName"]
-status = "normal"
 raw = "Phòng Tắm Đôi"
+status = "normal"
 enUS = "Double Shower"
 zhCN = "双人淋浴间"
 zhTW = "雙人淋浴間"
@@ -5204,8 +5204,8 @@ viVN = "Phá hủy địa hình bên dưới và kích hoạt các thuốc nổ 
 trTR = "Altındaki araziyi yok eder ve yakındaki patlayıcıları tetikler."
 
 ["Building.Dynamite.Detonate"]
-status = "normal"
 raw = "Kích nổ"
+status = "normal"
 enUS = "Detonate"
 zhCN = "引爆"
 zhTW = "引爆"
@@ -5391,8 +5391,8 @@ viVN = "Tuyển dụng hải ly làm nông để trồng và thu hoạch cây tr
 trTR = "Ekinleri ekip biçmek için kunduzları çiftçi olarak işe alın. Köykuyruklar'ın genişletilmiş tasarımı, daha fazla çalışan kunduz barındırır."
 
 ["Building.EfficientFarmhouse.DisplayName"]
-status = "normal"
 raw = "Nông Trại Hiệu Quả"
+status = "normal"
 enUS = "Efficient Farmhouse"
 zhCN = "高效农场房屋"
 zhTW = "高效農場住宅"
@@ -5442,8 +5442,8 @@ viVN = "Tuyển dụng hải ly thợ mỏ để khai thác kim loại phế li�
 trTR = "Yer altındaki harabelerden hurda metal çıkaracak madenci kunduzları işe alır. Yaratıcı tasarımı, çıkarma hızını en üst düzeye çıkarır."
 
 ["Building.EfficientMine.DisplayName"]
-status = "normal"
 raw = "Mỏ Khai Thác Hiệu Quả"
+status = "normal"
 enUS = "Efficient Mine Building"
 zhCN = "高效矿场"
 zhTW = "高效礦場"
@@ -5561,8 +5561,8 @@ viVN = "Xưởng Chế Tạo Chất Nổ"
 trTR = "Patlayıcı Üretim Atölyesi"
 
 ["Building.ExplosivesFactory.FlavorDescription"]
-status = "normal"
 raw = "Như thể xây cả khu định cư bằng gỗ vẫn chưa đủ liều."
+status = "normal"
 enUS = "As if building an entire settlement out of wood weren't reckless enough."
 zhCN = "仿佛用木头建造整个殖民地还不够冒险似的。"
 zhTW = "彷彿把整個聚落都用木頭建造還不夠大膽似的。"
@@ -5629,8 +5629,8 @@ viVN = "Tuyển hải ly để trồng và thu hoạch cây trồng."
 trTR = "Ekinleri yetiştirip hasat etmeleri için kunduzları işe alır."
 
 ["Building.Farmhouse.DisplayName"]
-status = "normal"
 raw = "Nông Trại"
+status = "normal"
 enUS = "Farmhouse"
 zhCN = "农场"
 zhTW = "農場"
@@ -5952,8 +5952,8 @@ viVN = "Chặn nước ở độ cao có thể điều chỉnh."
 trTR = "Suyu ayarlanabilir bir yüksekliğe kadar engeller."
 
 ["Building.Floodgate.DisplayName"]
-status = "normal"
 raw = "Cửa Lũ"
+status = "normal"
 enUS = "Floodgate"
 zhCN = "洪水闸門"
 zhTW = "水閘門"
@@ -6122,8 +6122,8 @@ viVN = "Trồng cây và bụi cây."
 trTR = "Ağaç ve çalı dikin."
 
 ["Building.Forester.DisplayName"]
-status = "normal"
 raw = "Nhà Lâm Nghiệp"
+status = "normal"
 enUS = "Forester's Lodge"
 zhCN = "造林场"
 zhTW = "造林小屋"
@@ -6207,8 +6207,8 @@ viVN = "Ngắt đường đi theo yêu cầu."
 trTR = "Yolu gerektiğinde kapat."
 
 ["Building.Gate.DisplayName"]
-status = "normal"
 raw = "Cổng"
+status = "normal"
 enUS = "Gate"
 zhCN = "闸门"
 zhTW = "閘門"
@@ -6241,8 +6241,8 @@ viVN = "Thu hoạch tài nguyên từ thực vật hoang dã."
 trTR = "Yabani bitkilerden kaynak topla."
 
 ["Building.GathererFlag.DisplayName"]
-status = "normal"
 raw = "Cờ Thu Hoạch"
+status = "normal"
 enUS = "Gatherer Flag"
 zhCN = "采集旗帜"
 zhTW = "採集旗幟"
@@ -6496,8 +6496,8 @@ viVN = "Xưởng sản xuất mỡ bôi trơn giúp máy móc của hải ly má
 trTR = "Gres üretim atölyesi, mekanik kunduzların makinelerinin daha sorunsuz çalışmasını sağlar."
 
 ["Building.GreaseFactory.DisplayName"]
-status = "normal"
 raw = "Xưởng Mỡ Bôi Trơn"
+status = "normal"
 enUS = "Grease Factory"
 zhCN = "润滑油工坊"
 zhTW = "潤滑脂工廠"
@@ -6547,8 +6547,8 @@ viVN = "Nướng các loại rau củ."
 trTR = "Sebzeleri ızgarada pişir."
 
 ["Building.Grill.DisplayName"]
-status = "normal"
 raw = "Lò Nướng"
+status = "normal"
 enUS = "Grill"
 zhCN = "烤架"
 zhTW = "烤爐"
@@ -6564,8 +6564,8 @@ viVN = "Lò nướng"
 trTR = "Izgara"
 
 ["Building.Grill.FlavorDescription"]
-status = "normal"
 raw = "Nghiền chúng, luộc chúng, nướng chúng trên chảo chống dính! —500 Cách Ăn Khoai Tây của Ma' Ngonel"
+status = "normal"
 enUS = "Mash them, boil them, roast them in a nonstick pan! —500 Ways to Eat Potatoes by Ma' Ngonel"
 zhCN = "把它们捣碎、煮熟，再用不粘锅煎！——马·恩戈内尔的《500种土豆吃法》"
 zhTW = "把它們搗碎、煮熟，再用不沾鍋煎！——《馬・恩・戈內爾的500種馬鈴薯吃法》"
@@ -6785,8 +6785,8 @@ viVN = "Hàng rào cây cảnh dùng để trang trí."
 trTR = "Süs çiti dekorasyon amacıyla kullanılır."
 
 ["Building.Hedge.DisplayName"]
-status = "normal"
 raw = "Hàng Rào Cây Cảnh"
+status = "normal"
 enUS = "Decorative Hedge Fence"
 zhCN = "绿篱围栏"
 zhTW = "樹籬圍欄"
@@ -6870,8 +6870,8 @@ viVN = "Thiết bị chưng cất được sử dụng nghiêm ngặt cho mục 
 trTR = "Damıtma cihazı kesinlikle tıbbi amaçlar için kullanılır."
 
 ["Building.HttpAdapter.Description"]
-status = "normal"
 raw = "Biến tín hiệu đầu vào thành endpoint API và các lệnh gọi webhook, dù mấy thứ đó nghĩa là gì đi nữa."
+status = "normal"
 enUS = "Turns input signals into API endpoints and webhook calls, whatever those things mean."
 zhCN = "将输入信号转换为 API 端点和 webhook 调用，不管这些东西到底是什么意思。"
 zhTW = "將輸入訊號轉換成 API 端點和 webhook 呼叫，不管那些東西到底是什麼。"
@@ -6989,8 +6989,8 @@ viVN = "URL"
 trTR = "URL"
 
 ["Building.HttpAdapter.WebhookWhenSwitchedOff"]
-status = "normal"
 raw = "Gọi khi tắt"
+status = "normal"
 enUS = "Call when switched off"
 zhCN = "关闭时调用"
 zhTW = "關閉時呼叫"
@@ -7006,8 +7006,8 @@ viVN = "Gọi khi tắt"
 trTR = "Kapalıyken çağır"
 
 ["Building.HttpAdapter.WebhookWhenSwitchedOn"]
-status = "normal"
 raw = "Gọi khi bật"
+status = "normal"
 enUS = "Call when switched on"
 zhCN = "开启时调用"
 zhTW = "啟用時呼叫"
@@ -7040,8 +7040,8 @@ viVN = "Cần gạt điều khiển bằng API. Loài người để lại khá 
 trTR = "API ile kontrol edilen bir kol. İnsanlar bundan epeyce bırakmış."
 
 ["Building.HttpLever.DisplayName"]
-status = "normal"
 raw = "Cần gạt HTTP"
+status = "normal"
 enUS = "HTTP Lever"
 zhCN = "HTTP 操纵杆"
 zhTW = "HTTP 控制桿"
@@ -7057,8 +7057,8 @@ viVN = "Cần gạt HTTP"
 trTR = "HTTP Kolu"
 
 ["Building.HttpLever.SwitchOffUrl"]
-status = "normal"
 raw = "URL tắt"
+status = "normal"
 enUS = "URL to turn off"
 zhCN = "关闭 URL"
 zhTW = "關閉 URL"
@@ -7074,8 +7074,8 @@ viVN = "URL tắt"
 trTR = "URL'yi kapat"
 
 ["Building.HttpLever.SwitchOnUrl"]
-status = "normal"
 raw = "URL bật"
+status = "normal"
 enUS = "URL on"
 zhCN = "开启开关的 URL"
 zhTW = "啟動 URL"
@@ -7210,8 +7210,8 @@ viVN = "Truyền tải năng lượng. Ngăn nước chảy qua."
 trTR = "Gücü iletir. Su akışını engeller."
 
 ["Building.ImpermeablePowerShaft.DisplayName"]
-status = "normal"
 raw = "Trục Truyền Lực Chống Thấm"
+status = "normal"
 enUS = "Impermeable Power Shaft"
 zhCN = "防水动力轴"
 zhTW = "防水動力軸蓵"
@@ -7363,8 +7363,8 @@ viVN = "Sao chép màu đầu vào"
 trTR = "Giriş rengini kopyala"
 
 ["Building.Indicator.WarningWhenSwitchedOn"]
-status = "normal"
 raw = "Hiện cảnh báo khi bật"
+status = "normal"
 enUS = "Show warning when switched on"
 zhCN = "启用时显示警告"
 zhTW = "開啟時顯示警告"
@@ -7431,8 +7431,8 @@ viVN = "Hai chiếc cưa thì tốt hơn một."
 trTR = "İki testere birden iyidir."
 
 ["Building.Inventor.DisplayName"]
-status = "normal"
 raw = "Nhà Phát Minh Hải Ly"
+status = "normal"
 enUS = "Beaver Inventor House"
 zhCN = "海狸发明家房屋"
 zhTW = "海狸發明家"
@@ -7771,8 +7771,8 @@ viVN = "Có loài người to đến mức ăn bằng mấy thứ này đấy. �
 trTR = "“Bu şeylerle yemek yiyebilecek kadar büyük insanlar varmış. —Suli"
 
 ["Building.LargeRowhouse.DisplayName"]
-status = "normal"
 raw = "Nhà Nhiều Tầng Lớn"
+status = "normal"
 enUS = "Large Multi-Story House"
 zhCN = "大型联排住宅"
 zhTW = "大型連棟住宅"
@@ -7907,8 +7907,8 @@ viVN = "Máy bơm nước lớn"
 trTR = "Büyük Su Pompası"
 
 ["Building.LargeWaterPump.FlavorDescription"]
-status = "normal"
 raw = "Với hồ chứa nước, chúng ta có thể uống mỗi ngày. —Bờ Biển Vịnh Hải ly"
+status = "normal"
 enUS = "With a water reservoir, we can drink every day. —Beaver Bay Coast"
 zhCN = "有了蓄水池，我们就能天天喝水。——海狸湾海岸"
 zhTW = "有了蓄水池，我們每天都能喝水。—海狸灣岸邊"
@@ -7958,8 +7958,8 @@ viVN = "Bánh xe nước lớn"
 trTR = "Büyük Su Çarkı"
 
 ["Building.LargeWaterWheel.FlavorDescription"]
-status = "normal"
 raw = "Bạn sẽ cần một bánh xe lớn hơn. —Ol' Kazko"
+status = "normal"
 enUS = "You'll need a bigger wheel. —Ol' Kazko"
 zhCN = "你需要一个更大的水车。—老卡兹科"
 zhTW = "你需要一個更大的水車。—Ol' Kazko"
@@ -8043,8 +8043,8 @@ viVN = "Chặn nước hoàn toàn."
 trTR = "Suyu tamamen engeller."
 
 ["Building.Levee.DisplayName"]
-status = "normal"
 raw = "Đê"
+status = "normal"
 enUS = "Levee"
 zhCN = "防洪堤"
 zhTW = "堤防"
@@ -8094,8 +8094,8 @@ viVN = "Gửi tín hiệu điều khiển thủ công. Bước khởi đầu tuy
 trTR = "Manuel kontrol sinyali gönderir. Yerleşimi otomatikleştirmek için harika bir ilk adım."
 
 ["Building.Lever.DisplayName"]
-status = "normal"
 raw = "Cần gạt"
+status = "normal"
 enUS = "Lever"
 zhCN = "操纵杆"
 zhTW = "操縱桿"
@@ -8111,8 +8111,8 @@ viVN = "Cần gạt"
 trTR = "Kol"
 
 ["Building.Lever.SpringReturn"]
-status = "normal"
 raw = "Tự hồi"
+status = "normal"
 enUS = "Self-return"
 zhCN = "自动复位"
 zhTW = "自動復位"
@@ -8128,8 +8128,8 @@ viVN = "Tự quay về vị trí ban đầu"
 trTR = "Kendiliğinden geri dönme"
 
 ["Building.Lever.SwitchOff"]
-status = "normal"
 raw = "Tắt"
+status = "normal"
 enUS = "Off"
 zhCN = "关闭"
 zhTW = "關閉"
@@ -8145,8 +8145,8 @@ viVN = "Tắt"
 trTR = "Kapat"
 
 ["Building.Lever.SwitchOn"]
-status = "normal"
 raw = "Bật"
+status = "normal"
 enUS = "Turn on"
 zhCN = "开启"
 zhTW = "開啟"
@@ -8281,8 +8281,8 @@ viVN = "Chế biến gỗ thành ván gỗ."
 trTR = "Keresteyi tahta kalaslara dönüştürür."
 
 ["Building.LumberMill.DisplayName"]
-status = "normal"
 raw = "Xưởng Cưa Gỗ"
+status = "normal"
 enUS = "Lumber Mill"
 zhCN = "木材厂"
 zhTW = "木材廠"
@@ -8502,8 +8502,8 @@ viVN = "Giường y tế"
 trTR = "Tıbbi Yatak"
 
 ["Building.MedicalBed.FlavorDescription"]
-status = "normal"
 raw = "Chỉ là một vết xước thôi. Tôi có thể quay lại làm việc không? —Pina"
+status = "normal"
 enUS = "It's just a scratch. Can I go back to work? —Pina"
 zhCN = "只是擦伤而已。我可以回去工作了吗？——皮娜"
 zhTW = "只是一道擦傷而已。我可以回去工作了嗎？—Pina"
@@ -8604,8 +8604,8 @@ viVN = "Trước mọi hiểm nguy trong thế giới hậu tận thế, việc 
 trTR = "Kıyamet sonrası dünyadaki tüm tehlikeler göz önüne alındığında, malları doğru şekilde depolamak çok önemlidir."
 
 ["Building.MemorialToFamily.DisplayName"]
-status = "normal"
 raw = "Đài Tưởng Niệm Gia Đình"
+status = "normal"
 enUS = "Family Memorial"
 zhCN = "家族纪念碑"
 zhTW = "家族紀念碑"
@@ -8638,8 +8638,8 @@ viVN = "Thay đổi và duy trì trạng thái theo các chuỗi đầu vào c�
 trTR = "Belirli giriş dizilerine göre durumu değiştirir ve korur. Gelişmiş otomasyonun temelidir."
 
 ["Building.Memory.DisplayName"]
-status = "normal"
 raw = "Bộ nhớ"
+status = "normal"
 enUS = "Memory"
 zhCN = "记忆舱"
 zhTW = "記憶"
@@ -8655,8 +8655,8 @@ viVN = "Bộ nhớ"
 trTR = "Hafıza"
 
 ["Building.Memory.Mode.FlipFlop"]
-status = "normal"
 raw = "Flip-flop"
+status = "normal"
 enUS = "Flip-flop"
 zhCN = "双稳态触发器"
 zhTW = "觸發器"
@@ -8689,8 +8689,8 @@ viVN = "Ghi nhận <YellowHighlight>{0}</YellowHighlight> khi <YellowHighlight>{
 trTR = "<YellowHighlight>{0}</YellowHighlight>, <YellowHighlight>{1}</YellowHighlight> açıkken kaydedilir."
 
 ["Building.Memory.Mode.Latch"]
-status = "normal"
 raw = "Chốt nhớ"
+status = "normal"
 enUS = "Latch Memory"
 zhCN = "锁存展望"
 zhTW = "鎖存模式"
@@ -8706,8 +8706,8 @@ viVN = "Chốt nhớ"
 trTR = "Mandallı Rejim"
 
 ["Building.Memory.Mode.Latch.Description"]
-status = "normal"
 raw = "Ghi nhận <YellowHighlight>{0}</YellowHighlight> khi <YellowHighlight>{1}</YellowHighlight> đang bật."
+status = "normal"
 enUS = "Record <YellowHighlight>{0}</YellowHighlight> while <YellowHighlight>{1}</YellowHighlight> is on."
 zhCN = "当 <YellowHighlight>{1}</YellowHighlight> 开启时，记录 <YellowHighlight>{0}</YellowHighlight>。"
 zhTW = "當 <YellowHighlight>{1}</YellowHighlight> 開啟時，記錄 <YellowHighlight>{0}</YellowHighlight>。"
@@ -8723,8 +8723,8 @@ viVN = "Ghi nhận <YellowHighlight>{0}</YellowHighlight> khi <YellowHighlight>{
 trTR = "<YellowHighlight>{0}</YellowHighlight>, <YellowHighlight>{1}</YellowHighlight> açıkken kaydedilir."
 
 ["Building.Memory.Mode.SetReset"]
-status = "normal"
 raw = "Set-Reset"
+status = "normal"
 enUS = "Set-Reset"
 zhCN = "置位-复位"
 zhTW = "設定－重置"
@@ -8740,8 +8740,8 @@ viVN = "Đặt lại"
 trTR = "Ayarla-Sıfırla"
 
 ["Building.Memory.Mode.SetReset.Description"]
-status = "normal"
 raw = "Bật khi <YellowHighlight>{0}</YellowHighlight>."
+status = "normal"
 enUS = "Turn on when <YellowHighlight>{0}</YellowHighlight>."
 zhCN = "当 <YellowHighlight>{0}</YellowHighlight> 时开启。"
 zhTW = "當 <YellowHighlight>{0}</YellowHighlight> 時開啟。"
@@ -8757,8 +8757,8 @@ viVN = "Bật khi <YellowHighlight>{0}</YellowHighlight>."
 trTR = "<YellowHighlight>{0}</YellowHighlight> olduğunda açılır."
 
 ["Building.Memory.Mode.Toggle"]
-status = "normal"
 raw = "Toggle"
+status = "normal"
 enUS = "Toggle"
 zhCN = "切换"
 zhTW = "切換"
@@ -8961,8 +8961,8 @@ viVN = "Thợ rèn kim loại"
 trTR = "Metal İşçisi"
 
 ["Building.Metalsmith.FlavorDescription"]
-status = "normal"
 raw = "Muốn bền thì làm bằng kim loại. Đó là một điều loài ngừi làm tốt. —Ol' Kazko"
+status = "normal"
 enUS = "If you want it to last, make it out of metal. That’s one thing humans do well. —Ol' Kazko"
 zhCN = "想要耐用，就用金属来做。这是人类擅长的一件事。——老卡兹科"
 zhTW = "想要耐用，就用金屬來做。這是人類擅長的一件事。——老卡茲科"
@@ -8995,8 +8995,8 @@ viVN = "Tuyển dụng hải ly thợ mỏ để khai thác phế liệu kim lo�
 trTR = "Yeraltındaki harabelerden metal hurdası çıkarmak için kunduz madenciler işe alır."
 
 ["Building.Mine.DisplayName"]
-status = "normal"
 raw = "Mỏ"
+status = "normal"
 enUS = "Mine"
 zhCN = "矿井"
 zhTW = "礦場"
@@ -9165,8 +9165,8 @@ viVN = "Bể tắm bùn"
 trTR = "Çamur Banyosu"
 
 ["Building.MudBath.FlavorDescription"]
-status = "normal"
 raw = "Bong bóng từ đâu ra vậy?"
+status = "normal"
 enUS = "Where are the bubbles coming from?"
 zhCN = "泡泡是从哪儿冒出来的？"
 zhTW = "這些氣泡是從哪裡冒出來的？"
@@ -9301,8 +9301,8 @@ viVN = "Tấm sàn đá nhô ra có thể dùng làm cầu hoặc nền cho các
 trTR = "Taş çıkıntı döşemesi köprü veya diğer yapılar için temel olarak kullanılabilir. Suyun içinden sızmasını önler."
 
 ["Building.NaturalOverhang.FlavorDescription"]
-status = "normal"
 raw = "Hãy chắc chắn rằng có nước dưới đó trước khi bạn nhảy! —Suli"
+status = "normal"
 enUS = "Make sure there's water down there before you jump! —Suli"
 zhCN = "跳下去之前，先确认下面有水！——Suli"
 zhTW = "跳下去之前，記得確認下面有水！—Suli"
@@ -9624,8 +9624,8 @@ viVN = "Vòm nhô 5x1"
 trTR = "5x1 Çıkıntı"
 
 ["Building.Overhang6x1.DisplayName"]
-status = "normal"
 raw = "Vòm 6x1"
+status = "normal"
 enUS = "6x1 Overhang"
 zhCN = "6x1 悬挑平台"
 zhTW = "6x1 懸挑梁"
@@ -9709,8 +9709,8 @@ viVN = "Các công trình phải được kết nối bằng đường đi."
 trTR = "Yapılar yollarla birbirine bağlanmalıdır."
 
 ["Building.Path.DisplayName"]
-status = "normal"
 raw = "Đường Đi"
+status = "normal"
 enUS = "Path"
 zhCN = "道路"
 zhTW = "道路"
@@ -9726,8 +9726,8 @@ viVN = "Đường đi"
 trTR = "Yol"
 
 ["Building.Path.FlavorDescription"]
-status = "normal"
 raw = "Đường quê, đưa tôi về nhà, đến căn nhà gỗ tôi thuộc về. —Bài hát nổi tiếng của hải ly"
+status = "normal"
 enUS = "Country roads, take me home, to the wooden home where I belong. —A famous beaver song"
 zhCN = "乡间小路，带我回家，回到那间属于我的木屋。——海狸的著名歌曲"
 zhTW = "鄉間小路，帶我回家，回到那屬於我的木屋。——海狸間膾炙人口的歌曲"
@@ -9845,8 +9845,8 @@ viVN = "Cờ hiệu cao có thể tùy chỉnh."
 trTR = "Yüksek bayrak özelleştirilebilir."
 
 ["Building.PoleBanner.DisplayName"]
-status = "normal"
 raw = "Cờ hiệu cột"
+status = "normal"
 enUS = "Pole Banner"
 zhCN = "旗杆旗帜"
 zhTW = "旗杆旗幟"
@@ -9981,8 +9981,8 @@ viVN = "Tổng số hải ly"
 trTR = "Toplam Kunduzlar"
 
 ["Building.PopulationCounter.Mode.Adults"]
-status = "normal"
 raw = "Trưởng thành"
+status = "normal"
 enUS = "Adults"
 zhCN = "成年海狸"
 zhTW = "成年人口"
@@ -10083,8 +10083,8 @@ viVN = "Giường trống"
 trTR = "Boş yataklar"
 
 ["Building.PopulationCounter.Mode.Homeless"]
-status = "normal"
 raw = "Vô gia cư"
+status = "normal"
 enUS = "Homelessness"
 zhCN = "无家可归者"
 zhTW = "無家可歸"
@@ -10100,8 +10100,8 @@ viVN = "Vô gia cư"
 trTR = "Evsiz"
 
 ["Building.PopulationCounter.Mode.Jobs"]
-status = "normal"
 raw = "Công việc"
+status = "normal"
 enUS = "Jobs"
 zhCN = "工作"
 zhTW = "工作"
@@ -10117,8 +10117,8 @@ viVN = "Công việc"
 trTR = "İşler"
 
 ["Building.PopulationCounter.Mode.Employed"]
-status = "normal"
 raw = "Có việc"
+status = "normal"
 enUS = "Employed"
 zhCN = "有工作的人"
 zhTW = "已就業"
@@ -10134,8 +10134,8 @@ viVN = "Có việc làm"
 trTR = "Çalışıyor"
 
 ["Building.PopulationCounter.Mode.Unemployed"]
-status = "normal"
 raw = "Thất nghiệp"
+status = "normal"
 enUS = "Unemployed"
 zhCN = "失业者"
 zhTW = "失業者"
@@ -10151,8 +10151,8 @@ viVN = "Thất nghiệp"
 trTR = "İşsizler"
 
 ["Building.PopulationCounter.Mode.Vacancies"]
-status = "normal"
 raw = "Vị trí trống"
+status = "normal"
 enUS = "Vacant positions"
 zhCN = "空缺职位"
 zhTW = "空缺位置"
@@ -10219,8 +10219,8 @@ viVN = "Công nhân không khỏe mạnh"
 trTR = "Sağlıksız işçiler"
 
 ["Building.PopulationCounter.Mode.ContaminatedTotal"]
-status = "normal"
 raw = "Tổng bị ô nhiễm"
+status = "normal"
 enUS = "Total contaminated beavers"
 zhCN = "污染总数"
 zhTW = "污染總數"
@@ -10304,8 +10304,8 @@ viVN = "Đồng hồ năng lượng"
 trTR = "Güç Ölçer"
 
 ["Building.PowerMeter.Mode.BatteryChargeLevel"]
-status = "normal"
 raw = "Mức sạc pin"
+status = "normal"
 enUS = "Battery charge level"
 zhCN = "电池电量"
 zhTW = "電池充電量"
@@ -10338,8 +10338,8 @@ viVN = "Nhu cầu"
 trTR = "Talep"
 
 ["Building.PowerMeter.Mode.Supply"]
-status = "normal"
 raw = "Cung cấp"
+status = "normal"
 enUS = "Supply"
 zhCN = "供给"
 zhTW = "供應"
@@ -10389,8 +10389,8 @@ viVN = "Dẫn truyền năng lượng."
 trTR = "Güç aktarımı."
 
 ["Building.PowerShaft.DisplayName"]
-status = "normal"
 raw = "Trục Truyền Lực"
+status = "normal"
 enUS = "Power Shaft"
 zhCN = "动力传动轴"
 zhTW = "動力軸"
@@ -10610,8 +10610,8 @@ viVN = "Rơ-le"
 trTR = "Röle"
 
 ["Building.Relay.Mode.And"]
-status = "normal"
 raw = "AND"
+status = "normal"
 enUS = "AND"
 zhCN = "且"
 zhTW = "且"
@@ -10644,8 +10644,8 @@ viVN = "<YellowHighlight>Bật</YellowHighlight> nếu tất cả các đầu v�
 trTR = "Tüm girişler <YellowHighlight>Açık</YellowHighlight> ise <YellowHighlight>Açık</YellowHighlight>."
 
 ["Building.Relay.Mode.Not"]
-status = "normal"
 raw = "NOT"
+status = "normal"
 enUS = "NOT"
 zhCN = "非"
 zhTW = "非"
@@ -10661,8 +10661,8 @@ viVN = "KHÔNG"
 trTR = "DEĞİL"
 
 ["Building.Relay.Mode.Not.Description"]
-status = "normal"
 raw = "<YellowHighlight>Bật</YellowHighlight> nếu đầu vào <YellowHighlight>Tắt</YellowHighlight>."
+status = "normal"
 enUS = "<YellowHighlight>On</YellowHighlight> if input is <YellowHighlight>Off</YellowHighlight>."
 zhCN = "如果输入为<YellowHighlight>关闭</YellowHighlight>，则<YellowHighlight>开启</YellowHighlight>。"
 zhTW = "如果輸入為<YellowHighlight>關閉</YellowHighlight>，則<YellowHighlight>開啟</YellowHighlight>。"
@@ -10695,8 +10695,8 @@ viVN = "HOẶC"
 trTR = "VEYA"
 
 ["Building.Relay.Mode.Or.Description"]
-status = "normal"
 raw = "<YellowHighlight>Bật</YellowHighlight> nếu có ít nhất một đầu vào <YellowHighlight>Bật</YellowHighlight>."
+status = "normal"
 enUS = "<YellowHighlight>On</YellowHighlight> if at least one input is <YellowHighlight>On</YellowHighlight>."
 zhCN = "如果至少有一个输入端为<YellowHighlight>开启</YellowHighlight>，则<YellowHighlight>开启</YellowHighlight>。"
 zhTW = "如果至少有一個輸入為 <YellowHighlight>開啟</YellowHighlight>，則<YellowHighlight>開啟</YellowHighlight>。"
@@ -10712,8 +10712,8 @@ viVN = "<YellowHighlight>Bật</YellowHighlight> nếu có ít nhất một đ�
 trTR = "<YellowHighlight>Açık</YellowHighlight>, en az bir girdi <YellowHighlight>Açık</YellowHighlight> ise."
 
 ["Building.Relay.Mode.Passthrough"]
-status = "normal"
 raw = "Truyền thẳng"
+status = "normal"
 enUS = "Direct transmission"
 zhCN = "直通"
 zhTW = "直通"
@@ -10763,8 +10763,8 @@ viVN = "XOR"
 trTR = "XOR"
 
 ["Building.Relay.Mode.Xor.Description"]
-status = "normal"
 raw = "<YellowHighlight>Bật</YellowHighlight> nếu có số lượng đầu vào lẻ \u200b\u200bđang <YellowHighlight>Bật</YellowHighlight>."
+status = "normal"
 enUS = "<YellowHighlight>On</YellowHighlight> if an odd number of inputs are <YellowHighlight>On</YellowHighlight>."
 zhCN = "如果有奇数个输入处于<YellowHighlight>开启</YellowHighlight>状态，则<YellowHighlight>开启</YellowHighlight>。"
 zhTW = "若有奇數個輸入處於<YellowHighlight>開啟</YellowHighlight>狀態，則<YellowHighlight>開啟</YellowHighlight>。"
@@ -10797,8 +10797,8 @@ viVN = "Công nghệ cổ đại có thể được phá dỡ để nhận một
 trTR = "Kadim teknoloji, bir miktar bilim puanı elde etmek için sökülebilir."
 
 ["Building.Relic.DisplayName"]
-status = "normal"
 raw = "Di vật"
+status = "normal"
 enUS = "Relic"
 zhCN = "遗迹"
 zhTW = "遺物"
@@ -10814,8 +10814,8 @@ viVN = "Di vật"
 trTR = "Kalıntı"
 
 ["Building.ReservePile.DisplayName"]
-status = "normal"
 raw = "Đống dự trữ"
+status = "normal"
 enUS = "Stockpile pile"
 zhCN = "储备堆"
 zhTW = "儲備堆行"
@@ -10950,8 +10950,8 @@ viVN = "Bộ đếm tài nguyên"
 trTR = "Kaynak Sayacı"
 
 ["Building.ResourceCounter.IncludeInputs"]
-status = "normal"
 raw = "Tính cả đầu vào"
+status = "normal"
 enUS = "Including inputs"
 zhCN = "包括输入量"
 zhTW = "包含輸入量"
@@ -11052,8 +11052,8 @@ viVN = "Mái nhà 1x1"
 trTR = "1x1 Çatı"
 
 ["Building.Roof1x2.DisplayName"]
-status = "normal"
 raw = "Mái Nhà 1x2"
+status = "normal"
 enUS = "1x2 Roof"
 zhCN = "1x2 屋顶"
 zhTW = "1x2 屋頂"
@@ -11069,8 +11069,8 @@ viVN = "Mái nhà 1x2"
 trTR = "1x2 Çatı"
 
 ["Building.Roof2x2.DisplayName"]
-status = "normal"
 raw = "Mái Nhà 2x2"
+status = "normal"
 enUS = "2x2 Roof"
 zhCN = "2x2屋顶"
 zhTW = "2x2 屋頂"
@@ -11086,8 +11086,8 @@ viVN = "Mái nhà 2x2"
 trTR = "2x2 Çatı"
 
 ["Building.Roof2x3.DisplayName"]
-status = "normal"
 raw = "Mái Nhà 2x3"
+status = "normal"
 enUS = "2x3 Roof"
 zhCN = "2x3屋顶"
 zhTW = "2x3 屋頂"
@@ -11103,8 +11103,8 @@ viVN = "Mái nhà 2x3"
 trTR = "2x3 Çatı"
 
 ["Building.Roof3x2.DisplayName"]
-status = "normal"
 raw = "Mái Nhà 3x2"
+status = "normal"
 enUS = "3x2 Roof"
 zhCN = "3x2 屋顶灯具"
 zhTW = "3x2 屋頂"
@@ -11154,8 +11154,8 @@ viVN = "Sân thượng"
 trTR = "Çatı Terası"
 
 ["Building.RooftopTerrace.FlavorDescription"]
-status = "normal"
 raw = "Nơi tuyệt vời để trò chuyện suốt đêm, và cảnh đẹp thì thật tuyệt vời!"
+status = "normal"
 enUS = "A wonderful place to chat all night, with a truly amazing view!"
 zhCN = "绝佳的通宵聊天之地，景色也美极了！"
 zhTW = "徹夜聊天的絕佳去處，風景也美極了！"
@@ -11290,8 +11290,8 @@ viVN = "Phòng xông hơi ngoài trời, nơi hải ly có thể trút bỏ mọ
 trTR = "Kunduzların tüm dertlerinden kurtulabileceği açık hava saunası."
 
 ["Building.Sauna.DisplayName"]
-status = "normal"
 raw = "Phòng Xông Hơi"
+status = "normal"
 enUS = "Sauna"
 zhCN = "桑拿房"
 zhTW = "桑拿房"
@@ -11477,8 +11477,8 @@ viVN = "Máy cào."
 trTR = "Tırmıklayıcı."
 
 ["Building.Scratcher.DisplayName"]
-status = "normal"
 raw = "Máy Cào"
+status = "normal"
 enUS = "Scratcher"
 zhCN = "挠痒器"
 zhTW = "搔癢機"
@@ -11868,8 +11868,8 @@ viVN = "Lò luyện kim"
 trTR = "Maden Eritme Ocağı"
 
 ["Building.Smelter.FlavorDescription"]
-status = "normal"
 raw = "Thế giới hải ly mới được tôi luyện từ mồ hôi và mùi lông cháy."
+status = "normal"
 enUS = "A new beaver world forged from sweat and the smell of burning fur."
 zhCN = "全新的海狸世界，是用汗水和烧焦毛发的气味淬炼而成的。"
 zhTW = "海狸的新世界，是以汗水和燒焦毛髮的氣味淬鍊而成。"
@@ -11953,8 +11953,8 @@ viVN = "Phát một lần"
 trTR = "Bir kez çal"
 
 ["Building.Speaker.Sound.Alarm"]
-status = "normal"
 raw = "Báo động"
+status = "normal"
 enUS = "Alarm"
 zhCN = "警报"
 zhTW = "警報"
@@ -12021,8 +12021,8 @@ viVN = "Chuông 2"
 trTR = "Çan 2"
 
 ["Building.Speaker.SpatialMode.NonSpatial"]
-status = "normal"
 raw = "Không theo không gian"
+status = "normal"
 enUS = "Not spatially tracked"
 zhCN = "非空间模式"
 zhTW = "非空間模式"
@@ -12038,8 +12038,8 @@ viVN = "Không gian phi định hướng"
 trTR = "Mekânsal değil"
 
 ["Building.Speaker.SpatialMode.Spatial"]
-status = "normal"
 raw = "Theo không gian"
+status = "normal"
 enUS = "Spatially"
 zhCN = "空间模式"
 zhTW = "空間模式"
@@ -12174,8 +12174,8 @@ viVN = "Với phát minh cầu thang, hải ly đã vươn lên tầm cao mới.
 trTR = "Merdivenin icadıyla kunduzlar yeni zirvelere ulaştı."
 
 ["Building.StartingLocation.DisplayName"]
-status = "normal"
 raw = "Vị Trí Bắt Đầu"
+status = "normal"
 enUS = "Starting Location"
 zhCN = "起始位置"
 zhTW = "起始位置"
@@ -12310,8 +12310,8 @@ viVN = "Đo độ sâu nước, dòng chảy và mức độ ô nhiễm của n�
 trTR = "Su derinliğini, akışını ve kötü su kirlilik düzeyini ölçer."
 
 ["Building.StreamGauge.DisplayName"]
-status = "normal"
 raw = "Cột Đo Nước"
+status = "normal"
 enUS = "Water Gauge Column"
 zhCN = "水位测量柱"
 zhTW = "水位計"
@@ -12633,8 +12633,8 @@ viVN = "Dùng để mài những chiếc răng bị gãy."
 trTR = "Kırık dişleri bilemek için kullanılır."
 
 ["Building.TeethGrindstone.DisplayName"]
-status = "normal"
 raw = "Đá Mài Răng"
+status = "normal"
 enUS = "Tooth-Sharpening Stone"
 zhCN = "磨牙石"
 zhTW = "磨牙石磨刀器"
@@ -12650,8 +12650,8 @@ viVN = "Đá Mài Răng"
 trTR = "Diş Bileme Taşı"
 
 ["Building.TeethGrindstone.FlavorDescription"]
-status = "normal"
 raw = "Tại sao lại làm khổ mình với những chiếc răng gãy khi bạn có công cụ này?"
+status = "normal"
 enUS = "Why put yourself through the pain of broken teeth when you have this tool?"
 zhCN = "有了这个工具，何必还要忍受牙齿崩断的痛苦呢？"
 zhTW = "有了這個工具，何必還要讓自己受斷牙之苦？"
@@ -12769,8 +12769,8 @@ viVN = "Xử lý tín hiệu đầu vào theo thời gian."
 trTR = "Giriş sinyalini zamana göre işler."
 
 ["Building.Timer.DisplayName"]
-status = "normal"
 raw = "Bộ hẹn giờ"
+status = "normal"
 enUS = "Timer"
 zhCN = "计时器"
 zhTW = "計時器"
@@ -12786,8 +12786,8 @@ viVN = "Bộ hẹn giờ"
 trTR = "Zamanlayıcı"
 
 ["Building.Timer.IntervalType.Days"]
-status = "normal"
 raw = "Ngày"
+status = "normal"
 enUS = "Day"
 zhCN = "天"
 zhTW = "天"
@@ -12820,8 +12820,8 @@ viVN = "Giờ"
 trTR = "Saatler"
 
 ["Building.Timer.IntervalType.Ticks"]
-status = "normal"
 raw = "Tick"
+status = "normal"
 enUS = "Tick"
 zhCN = "刻"
 zhTW = "遊戲刻度"
@@ -12837,8 +12837,8 @@ viVN = "Nhịp"
 trTR = "Tik"
 
 ["Building.Timer.Mode.Accumulator"]
-status = "normal"
 raw = "Bộ tích lũy"
+status = "normal"
 enUS = "Accumulator mode"
 zhCN = "蓄能器"
 zhTW = "累加器模式"
@@ -12854,8 +12854,8 @@ viVN = "Bộ tích lũy"
 trTR = "Akümülatör"
 
 ["Building.Timer.Mode.Accumulator.Description"]
-status = "normal"
 raw = "Bật nếu <YellowHighlight>{0}</YellowHighlight> bật tổng cộng ít nhất <YellowHighlight>{1}</YellowHighlight>."
+status = "normal"
 enUS = "Turn on if <YellowHighlight>{0}</YellowHighlight> has been on for at least <YellowHighlight>{1}</YellowHighlight> in total."
 zhCN = "当 <YellowHighlight>{0}</YellowHighlight> 累计开启至少 <YellowHighlight>{1}</YellowHighlight> 时开启。"
 zhTW = "當 <YellowHighlight>{0}</YellowHighlight> 累計開啟至少 <YellowHighlight>{1}</YellowHighlight> 時，開啟。"
@@ -12888,8 +12888,8 @@ viVN = "Trễ"
 trTR = "Gecikme"
 
 ["Building.Timer.Mode.Delay.Description"]
-status = "normal"
 raw = "Trì hoãn bật <YellowHighlight>{0}</YellowHighlight> thêm <YellowHighlight>{1}</YellowHighlight>, tắt thêm <YellowHighlight>{2}</YellowHighlight>."
+status = "normal"
 enUS = "Delay turning on <YellowHighlight>{0}</YellowHighlight> by <YellowHighlight>{1}</YellowHighlight>, and turning off by <YellowHighlight>{2}</YellowHighlight>."
 zhCN = "将 <YellowHighlight>{0}</YellowHighlight> 的开启时间延后 <YellowHighlight>{1}</YellowHighlight>，关闭时间延后 <YellowHighlight>{2}</YellowHighlight>。"
 zhTW = "延遲開啟 <YellowHighlight>{0}</YellowHighlight>，再延遲 <YellowHighlight>{1}</YellowHighlight> 關閉 <YellowHighlight>{2}</YellowHighlight>。"
@@ -12905,8 +12905,8 @@ viVN = "Trì hoãn bật <YellowHighlight>{0}</YellowHighlight> thêm <YellowHig
 trTR = "<YellowHighlight>{0}</YellowHighlight> için açmayı <YellowHighlight>{1}</YellowHighlight>, kapatmayı <YellowHighlight>{2}</YellowHighlight> daha geciktir."
 
 ["Building.Timer.Mode.Oscillator"]
-status = "normal"
 raw = "Bộ dao động"
+status = "normal"
 enUS = "Oscillator mode"
 zhCN = "振荡器模式"
 zhTW = "振盪器"
@@ -12939,8 +12939,8 @@ viVN = "Luân phiên bật và tắt khi <YellowHighlight>{0}</YellowHighlight> 
 trTR = "<YellowHighlight>{0}</YellowHighlight> açıkken sırayla açıp kapatır."
 
 ["Building.Timer.Mode.Pulse"]
-status = "normal"
 raw = "Xung"
+status = "normal"
 enUS = "Pulse"
 zhCN = "脉冲"
 zhTW = "脈衝"
@@ -12990,8 +12990,8 @@ viVN = "Ngẫu nhiên"
 trTR = "Rastgele"
 
 ["Building.Timer.Mode.Random.Description"]
-status = "normal"
 raw = "Ngẫu nhiên hóa trạng thái mỗi <YellowHighlight>{1}</YellowHighlight> khi <YellowHighlight>{0}</YellowHighlight> đang bật."
+status = "normal"
 enUS = "Randomize the state every <YellowHighlight>{1}</YellowHighlight> while <YellowHighlight>{0}</YellowHighlight> is on."
 zhCN = "当 <YellowHighlight>{0}</YellowHighlight> 开启时，每隔 <YellowHighlight>{1}</YellowHighlight> 随机切换状态。"
 zhTW = "當 <YellowHighlight>{0}</YellowHighlight> 開啟時，每隔 <YellowHighlight>{1}</YellowHighlight> 隨機切換狀態。"
@@ -13075,8 +13075,8 @@ viVN = "Đương nhiên nó có mục đích. Nó gây ấn tượng. —Ol' Kaz
 trTR = "Elbette bir amacı var. Etkileyici. —Ol' Kazko"
 
 ["Building.TripleDynamite.DisplayName"]
-status = "normal"
 raw = "Thuốc Nổ Lớn"
+status = "normal"
 enUS = "Large Dynamite"
 zhCN = "大型炸药劈啪筒"
 zhTW = "大型炸藥格"
@@ -13109,8 +13109,8 @@ viVN = "Khi ngay cả những biện pháp cực đoan nhất vẫn chưa đủ 
 trTR = "En aşırı önlemler bile yeterince “aşırı” olmadığında."
 
 ["Building.TripleFloodgate.DisplayName"]
-status = "normal"
 raw = "Cổng Lũ Lớn"
+status = "normal"
 enUS = "Large Floodgate"
 zhCN = "大型三重闸门"
 zhTW = "大型三重水閘"
@@ -13364,8 +13364,8 @@ viVN = "Đào xuyên qua địa hình, thay thế nó bằng sàn. Dùng công c
 trTR = "Arazinin içinden tünel açarak onu platformla değiştirir. Arazinin veya yapıların altını görmek için katman aracını kullanın."
 
 ["Building.UndergroundPile.DisplayName"]
-status = "normal"
 raw = "Kho Gỗ Lớn"
+status = "normal"
 enUS = "Large Wood Pile"
 zhCN = "大型地下木材堆存处"
 zhTW = "大型木材儲藏庫"
@@ -13585,8 +13585,8 @@ viVN = "Tốc độ phản ứng: {0}"
 trTR = "Tepki hızı: {0}"
 
 ["Building.ThrottlingValve.State.Closing"]
-status = "normal"
 raw = "Đang đóng"
+status = "normal"
 enUS = "Closing"
 zhCN = "正在关闭"
 zhTW = "正在關閉"
@@ -13721,8 +13721,8 @@ viVN = "Một phương tiện vận chuyển nhanh chóng, chật hẹp dành ch
 trTR = "Kunduzlar için hızlı ve dar bir ulaşım aracı. Üst kısma bağlanır."
 
 ["Building.VerticalTubeway.DisplayName"]
-status = "normal"
 raw = "Ống Dẫn Hải Ly Dọc"
+status = "normal"
 enUS = "Vertical Beaver Tube Way"
 zhCN = "海狸垂直管道"
 zhTW = "垂直海狸管道"
@@ -13857,8 +13857,8 @@ viVN = "Áp suất có hạn, khả năng vô hạn."
 trTR = "Basınç sınırlı, olanaklar sınırsız."
 
 ["Building.WaterSource.DisplayName"]
-status = "normal"
 raw = "Nguồn Nước"
+status = "normal"
 enUS = "Water Source"
 zhCN = "水源"
 zhTW = "水源"
@@ -13976,8 +13976,8 @@ viVN = "Trạm thời tiết"
 trTR = "Hava İstasyonu"
 
 ["Building.WeatherStation.EarlyActivation"]
-status = "normal"
 raw = "Kích hoạt sớm"
+status = "normal"
 enUS = "Activate early"
 zhCN = "提前激活"
 zhTW = "提早啟動"
@@ -13993,8 +13993,8 @@ viVN = "Kích hoạt sớm"
 trTR = "Erken etkinleştirme"
 
 ["Building.WeatherStation.Header"]
-status = "normal"
 raw = "Hoạt động trong:"
+status = "normal"
 enUS = "Operating in:"
 zhCN = "运行于："
 zhTW = "作用時間："
@@ -14163,8 +14163,8 @@ viVN = "Tua-bin gió"
 trTR = "Rüzgâr Türbini"
 
 ["Building.WindTurbine.FlavorDescription"]
-status = "normal"
 raw = "Chúng ta chỉ là mùn cưa trong gió! —bài hát Folktails"
+status = "normal"
 enUS = "We are but sawdust in the wind! —Folktails song"
 zhCN = "我们不过是风中的锯末！——神尾之歌"
 zhTW = "我們只是風中的木屑！——神尾之歌"
@@ -14418,8 +14418,8 @@ viVN = "Trạm Cáp Treo"
 trTR = "Teleferik İstasyonu"
 
 ["Building.ZiplineStation.FlavorDescription"]
-status = "normal"
 raw = "Để lướt gió, đuôi của bạn phải dài như thế này. —Biển báo ở cổng vào"
+status = "normal"
 enUS = "To glide on the wind, your tail has to be this long. —Sign at the entrance gate"
 zhCN = "想要御风滑翔，你的尾巴就得这么长。——入口处的告示牌"
 zhTW = "要乘風滑翔，你的尾巴就得有這麼長。—入口處的告示牌"
@@ -14843,8 +14843,8 @@ viVN = "<YellowHighlight>Độ sâu dưới lòng đất:</YellowHighlight> {0}"
 trTR = "<YellowHighlight>Yer altındaki derinlik:</YellowHighlight> {0}"
 
 ["Buildings.UnsuitableBuildingBelow"]
-status = "normal"
 raw = "Công trình này cần được xây dựng trên {0}"
+status = "normal"
 enUS = "This building must be built on {0}"
 zhCN = "此建筑必须建在 {0} 上方"
 zhTW = "此建築需要建在 {0} 上方"
@@ -14911,8 +14911,8 @@ viVN = "Duyệt"
 trTR = "Gözat"
 
 ["Button.Refresh"]
-status = "normal"
 raw = "Làm mới"
+status = "normal"
 enUS = "Refresh"
 zhCN = "刷新"
 zhTW = "重新整理"
@@ -14962,8 +14962,8 @@ viVN = "Sử dụng để hủy đánh dấu khu vực trồng cây."
 trTR = "Ağaç dikim alanının işaretini kaldırmak için kullanılır."
 
 ["CancelPlantingTool.Title"]
-status = "normal"
 raw = "Xóa khu vực trồng cây"
+status = "normal"
 enUS = "Clear planting area"
 zhCN = "清除种植区域"
 zhTW = "清除種植區域"
@@ -14996,8 +14996,8 @@ viVN = "Vận chuyển: {0} ({1} trong tổng {2} kg)"
 trTR = "Taşınan: {0} (toplam {2} kg içinde {1})"
 
 ["Carrying.Good"]
-status = "normal"
 raw = "{0} ({1} trên {2})"
+status = "normal"
 enUS = "{0} ({1} out of {2})"
 zhCN = "{0}（{1}/{2}）"
 zhTW = "{0}（{1} / {2}）"
@@ -15217,8 +15217,8 @@ viVN = "Duyệt thư mục ►"
 trTR = "Klasöre göz at ►"
 
 ["Core.Cancel"]
-status = "normal"
 raw = "Hủy bỏ"
+status = "normal"
 enUS = "Cancel"
 zhCN = "取消"
 zhTW = "取消"
@@ -15285,8 +15285,8 @@ viVN = "{0} ({1} mỗi giờ)"
 trTR = "{0} ({1} saatte)"
 
 ["Core.Load"]
-status = "normal"
 raw = "Tải"
+status = "normal"
 enUS = "Load"
 zhCN = "加载"
 zhTW = "載入"
@@ -15336,8 +15336,8 @@ viVN = "{1} {0}"
 trTR = "{1} {0}"
 
 ["Core.NavigationBack"]
-status = "normal"
 raw = "Quay lại"
+status = "normal"
 enUS = "Go back"
 zhCN = "返回"
 zhTW = "返回"
@@ -15353,8 +15353,8 @@ viVN = "Quay lại"
 trTR = "Geri dön"
 
 ["Core.NavigationNext"]
-status = "normal"
 raw = "Tiếp theo"
+status = "normal"
 enUS = "Next"
 zhCN = "下一步"
 zhTW = "下一步"
@@ -15370,8 +15370,8 @@ viVN = "Tiếp theo"
 trTR = "Sonraki"
 
 ["Core.No"]
-status = "normal"
 raw = "Không"
+status = "normal"
 enUS = "No"
 zhCN = "否"
 zhTW = "否"
@@ -15421,8 +15421,8 @@ viVN = "Ghi đè"
 trTR = "Üzerine yazma"
 
 ["Core.Save"]
-status = "normal"
 raw = "Lưu"
+status = "normal"
 enUS = "Save"
 zhCN = "保存"
 zhTW = "儲存"
@@ -15455,8 +15455,8 @@ viVN = "Lưu dưới dạng..."
 trTR = "Farklı Kaydet..."
 
 ["Core.Start"]
-status = "normal"
 raw = "Bắt đầu"
+status = "normal"
 enUS = "Start"
 zhCN = "开始"
 zhTW = "開始"
@@ -15625,8 +15625,8 @@ viVN = "Có vẻ như bạn đang chạy một phiên bản game có mod, điề
 trTR = "Mod içeren bir oyun sürümü çalıştırıyor gibisiniz; bu, çökmenin nedeni olabilir."
 
 ["CrashScreen.PrivacyPolicyAccept"]
-status = "normal"
 raw = "Tôi chấp nhận"
+status = "normal"
 enUS = "I accept"
 zhCN = "我接受"
 zhTW = "我接受"
@@ -15659,8 +15659,8 @@ viVN = "Chính sách bảo mật"
 trTR = "Gizlilik Politikası"
 
 ["CrashScreen.SendFail"]
-status = "normal"
 raw = "Gửi thất bại, nhấn để thử lại"
+status = "normal"
 enUS = "Failed to send. Click to try again."
 zhCN = "发送失败，点击重试"
 zhTW = "傳送失敗，點擊以重試"
@@ -15676,8 +15676,8 @@ viVN = "Gửi thất bại, nhấn để thử lại"
 trTR = "Gönderilemedi, yeniden denemek için dokunun"
 
 ["CrashScreen.SendReport"]
-status = "normal"
 raw = "Gửi báo cáo lỗi cho đội ngũ Timberborn"
+status = "normal"
 enUS = "Send a bug report to the Timberborn team"
 zhCN = "向《海狸浮生记》团队发送错误报告"
 zhTW = "將錯誤報告傳送給《海狸浮生記》團隊"
@@ -15693,8 +15693,8 @@ viVN = "Gửi báo cáo lỗi cho đội ngũ Timberborn"
 trTR = "Hata raporunu Timberborn ekibine gönder"
 
 ["CrashScreen.SendSuccess"]
-status = "normal"
 raw = "Chúng tôi đã nhận được báo cáo, cảm ơn bạn!"
+status = "normal"
 enUS = "We’ve received your report, thank you!"
 zhCN = "我们已收到报告，谢谢！"
 zhTW = "我們已收到報告，感謝你！"
@@ -15727,8 +15727,8 @@ viVN = "Đang gửi..."
 trTR = "Gönderiliyor..."
 
 ["CrashScreen.Title"]
-status = "normal"
 raw = "Ôi không... có lỗi đã xảy ra:'("
+status = "normal"
 enUS = "Oh no... an error has occurred:'("
 zhCN = "哦不……出错了:'("
 zhTW = "糟糕……發生錯誤了:'("
@@ -15761,8 +15761,8 @@ viVN = "Lật hoa văn"
 trTR = "Deseni çevir"
 
 ["Decals.UserPatterns"]
-status = "normal"
 raw = "Hoa văn tùy chỉnh"
+status = "normal"
 enUS = "Custom Patterns"
 zhCN = "自定义图案"
 zhTW = "自訂圖樣"
@@ -16033,8 +16033,8 @@ viVN = "Sử dụng để đánh dấu tài nguyên muốn phá dỡ. Tất cả
 trTR = "Yıkmak istediğiniz kaynakları işaretlemek için kullanılır. Tüm malzemeler kaybolur."
 
 ["DemolishSelectionTool.Title"]
-status = "normal"
 raw = "Đánh dấu tài nguyên muốn phá dỡ"
+status = "normal"
 enUS = "Mark resources to demolish"
 zhCN = "选择要拆除的资源"
 zhTW = "標記要拆除的資源"
@@ -16067,8 +16067,8 @@ viVN = "Sử dụng để bỏ đánh dấu tài nguyên muốn phá dỡ."
 trTR = "Yıkmak istediğiniz kaynakların seçimini kaldırmak için kullanın."
 
 ["DemolishUnselectionTool.Title"]
-status = "normal"
 raw = "Bỏ đánh dấu tài nguyên muốn phá dỡ"
+status = "normal"
 enUS = "Unmark resources to be demolished"
 zhCN = "取消标记要拆除的资源"
 zhTW = "取消選取要拆除的資源"
@@ -16118,8 +16118,8 @@ viVN = "Các khu vực được kết nối với nhau sẽ cân bằng hàng h�
 trTR = "Birbirine bağlı bölgeler, malları depolama oranlarına ve özelleştirilebilir ihracat eşiklerine göre dengeler."
 
 ["Distribution.ExportAll"]
-status = "normal"
 raw = "Xuất tất cả hàng hóa mà không có hạn chế"
+status = "normal"
 enUS = "Export all goods without restrictions"
 zhCN = "出口所有货物，不受限制"
 zhTW = "輸出所有貨物，不受任何限制"
@@ -16135,8 +16135,8 @@ viVN = "Xuất tất cả hàng hóa mà không có hạn chế"
 trTR = "Tüm malları kısıtlama olmadan ihraç et"
 
 ["Distribution.ExportNone"]
-status = "normal"
 raw = "Không xuất khẩu hàng hóa nào"
+status = "normal"
 enUS = "Do not export any goods"
 zhCN = "不出口任何货物"
 zhTW = "不出口任何商品"
@@ -16203,8 +16203,8 @@ viVN = "Chỉ nhập khẩu hàng hóa nếu có nhu cầu lưu trữ hoặc nơ
 trTR = "Yalnızca depolama ihtiyacı varsa veya ilgili bir iş yeri mevcutsa mal ithal edin."
 
 ["Distribution.ImportAutoAll"]
-status = "normal"
 raw = "Nhập khẩu tất cả nếu cần"
+status = "normal"
 enUS = "Import all if needed"
 zhCN = "如有需要，全部进口"
 zhTW = "如有需要，全部進口"
@@ -16220,8 +16220,8 @@ viVN = "Nhập khẩu tất cả nếu cần"
 trTR = "Gerekirse hepsini içe aktar"
 
 ["Distribution.ImportDisabled"]
-status = "normal"
 raw = "Không nhập khẩu"
+status = "normal"
 enUS = "Do not import"
 zhCN = "不进口"
 zhTW = "不進口"
@@ -16305,8 +16305,8 @@ viVN = "Luôn nhập hàng hóa vào Trạm Kết Nối Khu Vực, ngay cả khi
 trTR = "Depolama ihtiyacı veya karşılık gelen bir iş yeri olmasa bile Bölge Bağlantı İstasyonuna her zaman mal ithal et."
 
 ["Distribution.ImportForcedAll"]
-status = "normal"
 raw = "Luôn nhập khẩu tất cả"
+status = "normal"
 enUS = "Always import everything"
 zhCN = "始终全部进口"
 zhTW = "一律全部進口"
@@ -16407,8 +16407,8 @@ viVN = "Hàng hóa nhập khẩu"
 trTR = "İthal Edilen Mallar"
 
 ["Distribution.ManageDistribution"]
-status = "normal"
 raw = "Quản lý phân phối"
+status = "normal"
 enUS = "Manage Distribution"
 zhCN = "管理分配"
 zhTW = "管理分配"
@@ -16492,8 +16492,8 @@ viVN = "Xem toàn cảnh"
 trTR = "Genel Görünüm"
 
 ["Duplication.DuplicateSettingsToolDescription"]
-status = "normal"
 raw = "Chọn mục tiêu để dán cấu hình"
+status = "normal"
 enUS = "Select a target to paste the settings into"
 zhCN = "选择目标以粘贴配置"
 zhTW = "選擇要貼上設定的目標"
@@ -16509,8 +16509,8 @@ viVN = "Chọn mục tiêu để dán cấu hình"
 trTR = "Yapılandırmayı yapıştırmak için bir hedef seçin"
 
 ["Dwelling.Dwellers"]
-status = "normal"
 raw = "Cư dân"
+status = "normal"
 enUS = "Residents"
 zhCN = "居民"
 zhTW = "居民"
@@ -16594,8 +16594,8 @@ viVN = "Không có hải ly thất nghiệp nào có thể đến được nơi 
 trTR = "Hiçbir işsiz kunduz bu konuta ulaşamaz."
 
 ["Dwellings.FreeBeds"]
-status = "normal"
 raw = "Giường trống"
+status = "normal"
 enUS = "Empty beds"
 zhCN = "空床位"
 zhTW = "空床位"
@@ -16611,8 +16611,8 @@ viVN = "Giường trống"
 trTR = "Boş yataklar"
 
 ["Dwellings.OccupiedBeds"]
-status = "normal"
 raw = "Giường đã có chủ"
+status = "normal"
 enUS = "Occupied beds"
 zhCN = "已有人入住的床位"
 zhTW = "已有人使用的床"
@@ -16679,8 +16679,8 @@ viVN = "Khả năng vừa có: {0}"
 trTR = "Yeni elde edilme olasılığı: {0}"
 
 ["Emptying.Empty"]
-status = "normal"
 raw = "Lưu trữ trống"
+status = "normal"
 enUS = "Empty storage"
 zhCN = "清空存储区"
 zhTW = "空儲存格"
@@ -16764,8 +16764,8 @@ viVN = "Đóng"
 trTR = "Kapat"
 
 ["EntityPanel.Customize"]
-status = "normal"
 raw = "Tùy chỉnh"
+status = "normal"
 enUS = "Customize"
 zhCN = "自定义"
 zhTW = "自訂"
@@ -16798,8 +16798,8 @@ viVN = "Tập trung"
 trTR = "Odaklanma"
 
 ["EntityPanel.Hide"]
-status = "normal"
 raw = "Ẩn mô tả"
+status = "normal"
 enUS = "Hide description"
 zhCN = "隐藏描述"
 zhTW = "隱藏說明"
@@ -16832,8 +16832,8 @@ viVN = "Đổi tên"
 trTR = "Yeniden adlandır"
 
 ["EntityPanel.Show"]
-status = "normal"
 raw = "Hiện mô tả"
+status = "normal"
 enUS = "Show description"
 zhCN = "显示描述"
 zhTW = "顯示說明"
@@ -16883,8 +16883,8 @@ viVN = "Phiên bản Timberborn này cho phép bạn truy cập các tính năng
 trTR = "Timberborn’un bu sürümü, deneysel ve tamamlanmamış özelliklere erişmenizi sağlar. Bu nedenle ciddi hatalarla karşılaşma olasılığı da daha yüksektir. Gerçekten cesur bir kunduzsunuz.\n\nDeneysel kayıtlar, ana oyundaki kayıtlardan ayrı tutulur. Güncellemeler, kayıtlarla uyumluluğu bozabilir.\n\nBu Deneysel Mod’da, hangi dili seçmiş olursanız olun, <RedHighlight>oyunun birçok bölümü çevrilmemiştir ve İngilizce görüntülenir</RedHighlight>. Bu, zaman alan çevirileri beklemek zorunda kalmadan yeni içerikler eklememizi ve hızlı değişiklikler yapmamızı sağlar.\n\nResmî Discord sunucumuza katılmanızı ve yeni içerikler hakkındaki tartışmalara katılmanızı önemle tavsiye ederiz."
 
 ["Explosions.BlownInExplosionMessage"]
-status = "normal"
 raw = "{0} đã bị nổ bởi một vụ nổ."
+status = "normal"
 enUS = "{0} was blown up by an explosion."
 zhCN = "{0}被爆炸炸毁了。"
 zhTW = "{0} 被爆炸炸毀了。"
@@ -17155,8 +17155,8 @@ viVN = "Phúc lợi trung bình phải đạt {0} khi chơi {1} để mở khóa
 trTR = "Kilidi açmak için {1} olarak oynarken ortalama refah {0} değerine ulaşmalıdır."
 
 ["Fields.Harvesting"]
-status = "normal"
 raw = "Thu hoạch"
+status = "normal"
 enUS = "Harvesting"
 zhCN = "收获"
 zhTW = "收割"
@@ -17172,8 +17172,8 @@ viVN = "Thu hoạch"
 trTR = "Hasat"
 
 ["Fields.Planting"]
-status = "normal"
 raw = "Trồng trọt"
+status = "normal"
 enUS = "Planting"
 zhCN = "种植"
 zhTW = "種植"
@@ -17206,8 +17206,8 @@ viVN = "Hành động ưu tiên:"
 trTR = "Öncelikli eylem:"
 
 ["FileBrowser.Header"]
-status = "normal"
 raw = "Chọn tệp tin"
+status = "normal"
 enUS = "Select file"
 zhCN = "选择文件"
 zhTW = "選擇檔案"
@@ -17240,8 +17240,8 @@ viVN = "Bạn không có quyền truy cập vào thư mục này."
 trTR = "Bu klasöre erişim izniniz yok."
 
 ["FileBrowser.Open"]
-status = "normal"
 raw = "Mở"
+status = "normal"
 enUS = "Open"
 zhCN = "打开"
 zhTW = "開啟"
@@ -17410,8 +17410,8 @@ viVN = "Kamuro (trắng)"
 trTR = "Kamuro (beyaz)"
 
 ["Fireworks.Type.PalmBlue"]
-status = "normal"
 raw = "Cọ (xanh dương)"
+status = "normal"
 enUS = "Palm (blue)"
 zhCN = "棕榈（蓝色）"
 zhTW = "棕櫚樹（藍色）"
@@ -17427,8 +17427,8 @@ viVN = "Cọ (xanh dương)"
 trTR = "Havai fişek (mavi)"
 
 ["Fireworks.Type.PalmGold"]
-status = "normal"
 raw = "Cọ (vàng kim)"
+status = "normal"
 enUS = "Palm (gold)"
 zhCN = "棕榈树（黄金）"
 zhTW = "棕櫚樹（黃金）"
@@ -17461,8 +17461,8 @@ viVN = "Cọ (xanh lá)"
 trTR = "Cọ (yeşil)"
 
 ["Fireworks.Type.PeonyRedBlue"]
-status = "normal"
 raw = "Mẫu đơn (đỏ & xanh dương)"
+status = "normal"
 enUS = "Peony (Red & Blue)"
 zhCN = "牡丹烟花（红色和蓝色）"
 zhTW = "牡丹煙火（紅色與藍色）"
@@ -17512,8 +17512,8 @@ viVN = "Pháo hoa mẫu đơn (vàng & xanh lá)"
 trTR = "Şakayık (sarı ve yeşil)"
 
 ["Fireworks.Type.Sparks"]
-status = "normal"
 raw = "Tia lửa"
+status = "normal"
 enUS = "Sparks"
 zhCN = "火花"
 zhTW = "火花"
@@ -17546,8 +17546,8 @@ viVN = "Liễu"
 trTR = "Söğüt"
 
 ["FlexibleStart.ChooseStartLocation"]
-status = "normal"
 raw = "Chọn vị trí bắt đầu"
+status = "normal"
 enUS = "Choose starting location"
 zhCN = "选择起始位置"
 zhTW = "選擇起始位置"
@@ -17597,8 +17597,8 @@ viVN = "Thay đổi vị trí bắt đầu"
 trTR = "Başlangıç konumunu değiştir"
 
 ["FlexibleStart.ResetStartLocation"]
-status = "normal"
 raw = "Đặt lại về mặc định"
+status = "normal"
 enUS = "Reset to default"
 zhCN = "重置为默认值"
 zhTW = "重設為預設值"
@@ -17648,8 +17648,8 @@ viVN = "Mở khóa Khởi đầu Linh hoạt"
 trTR = "Esnek başlangıç kilidi açıldı"
 
 ["GameExitPanel.Exit"]
-status = "normal"
 raw = "Thoát"
+status = "normal"
 enUS = "Exit"
 zhCN = "退出"
 zhTW = "離開"
@@ -17699,8 +17699,8 @@ viVN = "Chia sẻ phản hồi"
 trTR = "Geri bildirim paylaş"
 
 ["GameExitPanel.Title"]
-status = "normal"
 raw = "Cảm ơn bạn đã chơi Timberborn Early Access!"
+status = "normal"
 enUS = "Thank you for playing Timberborn Early Access!"
 zhCN = "感谢您游玩《海狸浮生记》抢先体验版！"
 zhTW = "感謝你遊玩《海狸浮生記》搶先體驗版！"
@@ -17750,8 +17750,8 @@ viVN = "Thoát về menu chính"
 trTR = "Ana menüye dön"
 
 ["GameOver.Header"]
-status = "normal"
 raw = "Kết thúc"
+status = "normal"
 enUS = "Game Over"
 zhCN = "结束"
 zhTW = "結束"
@@ -17767,8 +17767,8 @@ viVN = "Kết thúc"
 trTR = "Oyun Bitti"
 
 ["GameUI.ShowDistrictList"]
-status = "normal"
 raw = "Hiện/đóng danh sách khu"
+status = "normal"
 enUS = "Show/hide district list"
 zhCN = "显示/关闭区域列表"
 zhTW = "顯示／關閉區域清單"
@@ -17784,8 +17784,8 @@ viVN = "Hiện/đóng danh sách khu vực"
 trTR = "Bölge listesini göster/gizle"
 
 ["Gathering.Action"]
-status = "normal"
 raw = "Thu thập:"
+status = "normal"
 enUS = "Gather:"
 zhCN = "收集："
 zhTW = "收集："
@@ -17801,8 +17801,8 @@ viVN = "Thu thập:"
 trTR = "Topla:"
 
 ["Gathering.Nothing"]
-status = "normal"
 raw = "Không có"
+status = "normal"
 enUS = "None"
 zhCN = "无"
 zhTW = "沒有"
@@ -17920,8 +17920,8 @@ viVN = "Rong biển"
 trTR = "Yosunlar"
 
 ["Good.AlgaeRation.DisplayName"]
-status = "normal"
 raw = "Khâu Phần Rong Biển"
+status = "normal"
 enUS = "Seaweed Ration Loom"
 zhCN = "缝制海藻口粮"
 zhTW = "海藻糧食高湯"
@@ -18005,8 +18005,8 @@ viVN = "Nước Bẩn"
 trTR = "Kirli Su"
 
 ["Good.Badwater.PluralDisplayName"]
-status = "normal"
 raw = "Nước bẩn"
+status = "normal"
 enUS = "Badwater"
 zhCN = "恶水"
 zhTW = "污水"
@@ -18022,8 +18022,8 @@ viVN = "Nước bẩn"
 trTR = "Kirli su"
 
 ["Good.Berries.DisplayName"]
-status = "normal"
 raw = "Quả Mọng"
+status = "normal"
 enUS = "Berries"
 zhCN = "浆果"
 zhTW = "莓果"
@@ -18039,8 +18039,8 @@ viVN = "Quả mọng"
 trTR = "Meyveyeviği"
 
 ["Good.Berries.PluralDisplayName"]
-status = "normal"
 raw = "Quả mọng"
+status = "normal"
 enUS = "Berries"
 zhCN = "浆果"
 zhTW = "莓果"
@@ -18090,8 +18090,8 @@ viVN = "Nhiên liệu sinh học"
 trTR = "Biyoyakıtlar"
 
 ["Good.Book.DisplayName"]
-status = "normal"
 raw = "Sách"
+status = "normal"
 enUS = "Books"
 zhCN = "书"
 zhTW = "書籍"
@@ -18107,8 +18107,8 @@ viVN = "Sách"
 trTR = "Kitap"
 
 ["Good.Book.PluralDisplayName"]
-status = "normal"
 raw = "Sách"
+status = "normal"
 enUS = "Books"
 zhCN = "书籍"
 zhTW = "書籍"
@@ -18141,8 +18141,8 @@ viVN = "Khung xương hải ly máy"
 trTR = "Mekanik kunduz iskeleti"
 
 ["Good.BotChassis.PluralDisplayName"]
-status = "normal"
 raw = "Khung xương hải ly máy"
+status = "normal"
 enUS = "Mechanical Beaver Chassis"
 zhCN = "机械海狸底盘骨骼"
 zhTW = "機械海狸骨架"
@@ -18192,8 +18192,8 @@ viVN = "Đầu hải ly máy"
 trTR = "Robot kunduz kafaları"
 
 ["Good.BotLimb.DisplayName"]
-status = "normal"
 raw = "Chi hải ly máy"
+status = "normal"
 enUS = "Robot Beaver Leg"
 zhCN = "机器人海狸肢体"
 zhTW = "機械海狸肢體"
@@ -18209,8 +18209,8 @@ viVN = "Chi hải ly máy"
 trTR = "Makine Kunduz Uzvu"
 
 ["Good.BotLimb.PluralDisplayName"]
-status = "normal"
 raw = "Chi hải ly máy"
+status = "normal"
 enUS = "Mechanical beaver limbs"
 zhCN = "机械海狸肢体"
 zhTW = "機械海狸肢體"
@@ -18277,8 +18277,8 @@ viVN = "Dầu hạt cải"
 trTR = "Kanola Yağı"
 
 ["Good.CanolaOil.PluralDisplayName"]
-status = "normal"
 raw = "Dầu hạt cải"
+status = "normal"
 enUS = "Canola Oil"
 zhCN = "菜籽油"
 zhTW = "芥花籽油"
@@ -18294,8 +18294,8 @@ viVN = "Dầu hạt cải"
 trTR = "Kanola yağı"
 
 ["Good.CanolaSeeds.DisplayName"]
-status = "normal"
 raw = "Hạt Cải Dầu"
+status = "normal"
 enUS = "Canola Seeds"
 zhCN = "油菜籽"
 zhTW = "油菜籽"
@@ -18311,8 +18311,8 @@ viVN = "Hạt cải dầu"
 trTR = "Kanola Tohumları"
 
 ["Good.CanolaSeeds.PluralDisplayName"]
-status = "normal"
 raw = "Hạt cải dầu"
+status = "normal"
 enUS = "Canola seeds"
 zhCN = "油菜籽"
 zhTW = "油菜籽"
@@ -18379,8 +18379,8 @@ viVN = "Sắn"
 trTR = "Manyok"
 
 ["Good.Cassava.PluralDisplayName"]
-status = "normal"
 raw = "Sắn"
+status = "normal"
 enUS = "Cassava"
 zhCN = "木薯"
 zhTW = "木薯"
@@ -18498,8 +18498,8 @@ viVN = "Bột cỏ đuôi mèo"
 trTR = "Kedi kuyruğu unu"
 
 ["Good.CattailRoot.DisplayName"]
-status = "normal"
 raw = "Rễ Cỏ Đuôi Mèo"
+status = "normal"
 enUS = "Cattail Root"
 zhCN = "香蒲根部"
 zhTW = "香蒲根部"
@@ -18515,8 +18515,8 @@ viVN = "Rễ Cỏ Đuôi Mèo"
 trTR = "Kedi Kuyruğu Kökü"
 
 ["Good.CattailRoot.PluralDisplayName"]
-status = "normal"
 raw = "Rễ cỏ đuôi mèo"
+status = "normal"
 enUS = "Cattail Roots"
 zhCN = "香蒲根"
 zhTW = "香蒲根"
@@ -18532,8 +18532,8 @@ viVN = "Rễ cỏ đuôi mèo"
 trTR = "Saz kökü"
 
 ["Good.Chestnut.DisplayName"]
-status = "normal"
 raw = "Hạt Dẻ"
+status = "normal"
 enUS = "Chestnut"
 zhCN = "栗子"
 zhTW = "栗子"
@@ -18549,8 +18549,8 @@ viVN = "Hạt Dẻ"
 trTR = "Kestane"
 
 ["Good.Chestnut.PluralDisplayName"]
-status = "normal"
 raw = "Hạt dẻ"
+status = "normal"
 enUS = "Chestnuts"
 zhCN = "栗子"
 zhTW = "栗子"
@@ -18583,8 +18583,8 @@ viVN = "Cà Phê"
 trTR = "Cà Phê"
 
 ["Good.Coffee.PluralDisplayName"]
-status = "normal"
 raw = "Cà phê"
+status = "normal"
 enUS = "Coffee"
 zhCN = "咖啡"
 zhTW = "咖啡"
@@ -18600,8 +18600,8 @@ viVN = "Cà phê"
 trTR = "Kahveler"
 
 ["Good.CoffeeBean.DisplayName"]
-status = "normal"
 raw = "Hạt Cà Phê"
+status = "normal"
 enUS = "Coffee Bean"
 zhCN = "咖啡豆"
 zhTW = "咖啡豆"
@@ -18617,8 +18617,8 @@ viVN = "Hạt Cà phê"
 trTR = "Kahve Çekirdeği"
 
 ["Good.CoffeeBean.PluralDisplayName"]
-status = "normal"
 raw = "Hạt cà phê"
+status = "normal"
 enUS = "Coffee Beans"
 zhCN = "咖啡豆"
 zhTW = "咖啡豆"
@@ -18668,8 +18668,8 @@ viVN = "Ngô"
 trTR = "Mısır"
 
 ["Good.CornRation.DisplayName"]
-status = "normal"
 raw = "Khẩu phần Ngô"
+status = "normal"
 enUS = "Corn Ration"
 zhCN = "玉米口粮"
 zhTW = "玉米口糧"
@@ -18685,8 +18685,8 @@ viVN = "Khẩu phần ngô"
 trTR = "Mısır Tayını"
 
 ["Good.CornRation.PluralDisplayName"]
-status = "normal"
 raw = "Khẩu phần ngô"
+status = "normal"
 enUS = "Corn Rations"
 zhCN = "玉米口粮"
 zhTW = "玉米口糧"
@@ -18719,8 +18719,8 @@ viVN = "Bồ Công Anh"
 trTR = "Karahindiba"
 
 ["Good.Dandelion.PluralDisplayName"]
-status = "normal"
 raw = "Bồ công anh"
+status = "normal"
 enUS = "Dandelions"
 zhCN = "蒲公英"
 zhTW = "蒲公英"
@@ -18753,8 +18753,8 @@ viVN = "Đất"
 trTR = "Toprak"
 
 ["Good.Dirt.PluralDisplayName"]
-status = "normal"
 raw = "Đất"
+status = "normal"
 enUS = "Dirt"
 zhCN = "泥土"
 zhTW = "泥土"
@@ -18770,8 +18770,8 @@ viVN = "Đất"
 trTR = "Toprak"
 
 ["Good.Eggplant.DisplayName"]
-status = "normal"
 raw = "Cà Tím"
+status = "normal"
 enUS = "Eggplant"
 zhCN = "茄子"
 zhTW = "茄子"
@@ -18787,8 +18787,8 @@ viVN = "Cà tím"
 trTR = "Patlıcan"
 
 ["Good.Eggplant.PluralDisplayName"]
-status = "normal"
 raw = "Cà tím"
+status = "normal"
 enUS = "Eggplants"
 zhCN = "茄子"
 zhTW = "茄子"
@@ -18872,8 +18872,8 @@ viVN = "Chất nổ"
 trTR = "Patlayıcılar"
 
 ["Good.Extract.DisplayName"]
-status = "normal"
 raw = "Chiết Xuất"
+status = "normal"
 enUS = "Extraction"
 zhCN = "提取剂"
 zhTW = "提取"
@@ -18923,8 +18923,8 @@ viVN = "Sắn lên men"
 trTR = "Fermente Manyok"
 
 ["Good.FermentedCassava.PluralDisplayName"]
-status = "normal"
 raw = "Sắn lên men"
+status = "normal"
 enUS = "Fermented cassava"
 zhCN = "发酵木薯"
 zhTW = "發酵木薯"
@@ -18957,8 +18957,8 @@ viVN = "Nấm lên men"
 trTR = "Fermente Mantar"
 
 ["Good.FermentedMushroom.PluralDisplayName"]
-status = "normal"
 raw = "Nấm lên men"
+status = "normal"
 enUS = "Fermented Mushrooms"
 zhCN = "发酵蘑菇"
 zhTW = "發酵蘑菇"
@@ -18991,8 +18991,8 @@ viVN = "Đậu nành lên men"
 trTR = "Fermente Soya Fasulyesi"
 
 ["Good.FermentedSoybean.PluralDisplayName"]
-status = "normal"
 raw = "Đậu nành lên men"
+status = "normal"
 enUS = "Fermented Soybeans"
 zhCN = "发酵大豆"
 zhTW = "發酵黃豆"
@@ -19059,8 +19059,8 @@ viVN = "Bột mì"
 trTR = "Un powder?"
 
 ["Good.Flour.PluralDisplayName"]
-status = "normal"
 raw = "Bột"
+status = "normal"
 enUS = "Flour"
 zhCN = "面粉"
 zhTW = "麵粉"
@@ -19110,8 +19110,8 @@ viVN = "Bánh răng"
 trTR = "Dişliler"
 
 ["Good.Grease.DisplayName"]
-status = "normal"
 raw = "Mỡ Bôi Trơn"
+status = "normal"
 enUS = "Grease"
 zhCN = "润滑脂"
 zhTW = "潤滑脂"
@@ -19127,8 +19127,8 @@ viVN = "Mỡ Bôi Trơn"
 trTR = "Yağ Gresi"
 
 ["Good.Grease.PluralDisplayName"]
-status = "normal"
 raw = "Mỡ bôi trơn"
+status = "normal"
 enUS = "Grease"
 zhCN = "润滑脂"
 zhTW = "潤滑脂"
@@ -19161,8 +19161,8 @@ viVN = "Hạt Dẻ Nướng"
 trTR = "Izgara Kestane"
 
 ["Good.GrilledChestnut.PluralDisplayName"]
-status = "normal"
 raw = "Hạt dẻ nướng"
+status = "normal"
 enUS = "Roasted Chestnuts"
 zhCN = "烤栗子"
 zhTW = "烤栗子"
@@ -19212,8 +19212,8 @@ viVN = "Khoai tây nướng"
 trTR = "Fırında patatesler"
 
 ["Good.GrilledSpadderdock.DisplayName"]
-status = "normal"
 raw = "Hoa Súng Vàng Nướng"
+status = "normal"
 enUS = "Grilled Yellow Water Lily Pod"
 zhCN = "烤黄睡莲花"
 zhTW = "烤黃花睡蓮"
@@ -19229,8 +19229,8 @@ viVN = "Hoa Súng Vàng Nướng"
 trTR = "Izgara Sarı Nilüfer Sürgünü"
 
 ["Good.GrilledSpadderdock.PluralDisplayName"]
-status = "normal"
 raw = "Hoa súng vàng nướng"
+status = "normal"
 enUS = "Grilled Spadderdock Flowers"
 zhCN = "烤黄睡莲娱乐主管"
 zhTW = "烤黃睡蓮蕨蕾"
@@ -19263,8 +19263,8 @@ viVN = "Su Hào"
 trTR = "Alabaş"
 
 ["Good.Kohlrabi.PluralDisplayName"]
-status = "normal"
 raw = "Su hào"
+status = "normal"
 enUS = "Kohlrabi"
 zhCN = "苤蓝"
 zhTW = "球莖甘藍"
@@ -19331,8 +19331,8 @@ viVN = "Quả Cây Ngập Mặn"
 trTR = "Mangrov Meyvesi"
 
 ["Good.MangroveFruit.PluralDisplayName"]
-status = "normal"
 raw = "Quả cây ngập mặn"
+status = "normal"
 enUS = "Mangrove Fruit"
 zhCN = "红树林果实"
 zhTW = "紅樹林果實"
@@ -19433,8 +19433,8 @@ viVN = "Khối Kim Loại"
 trTR = "Metal Blok"
 
 ["Good.MetalBlock.PluralDisplayName"]
-status = "normal"
 raw = "Khối kim loại"
+status = "normal"
 enUS = "Metal Blocks"
 zhCN = "金属块"
 zhTW = "金屬塊"
@@ -19535,8 +19535,8 @@ viVN = "Giấy"
 trTR = "Kâğıt"
 
 ["Good.Paper.PluralDisplayName"]
-status = "normal"
 raw = "Giấy"
+status = "normal"
 enUS = "Paper"
 zhCN = "纸张"
 zhTW = "紙張"
@@ -19569,8 +19569,8 @@ viVN = "Nhựa thông"
 trTR = "Çam Reçinesi"
 
 ["Good.PineResin.PluralDisplayName"]
-status = "normal"
 raw = "Nhựa thông"
+status = "normal"
 enUS = "Pine Resin"
 zhCN = "松脂"
 zhTW = "松脂"
@@ -19637,8 +19637,8 @@ viVN = "Khoai Tây"
 trTR = "Patates"
 
 ["Good.Potato.PluralDisplayName"]
-status = "normal"
 raw = "Khoai tây"
+status = "normal"
 enUS = "Potatoes"
 zhCN = "土豆"
 zhTW = "馬鈴薯"
@@ -19705,8 +19705,8 @@ viVN = "Kim Loại Vụn"
 trTR = "Hurda Metal"
 
 ["Good.ScrapMetal.PluralDisplayName"]
-status = "normal"
 raw = "Kim loạI vụn"
+status = "normal"
 enUS = "Scrap Metal"
 zhCN = "废金属碎片"
 zhTW = "廢金屬碎片"
@@ -19756,8 +19756,8 @@ viVN = "Đậu nành"
 trTR = "Soya fasulyeleri"
 
 ["Good.Spadderdock.DisplayName"]
-status = "normal"
 raw = "Hoa Súng Vàng"
+status = "normal"
 enUS = "Golden Water Lily"
 zhCN = "黄睡莲萍蓬草"
 zhTW = "黃睡蓮 dock"
@@ -19773,8 +19773,8 @@ viVN = "Hoa Súng Vàng"
 trTR = "Sarı Nilüfer"
 
 ["Good.Spadderdock.PluralDisplayName"]
-status = "normal"
 raw = "Hoa súng vàng"
+status = "normal"
 enUS = "Yellow water lily"
 zhCN = "黄花睡莲"
 zhTW = "黃睡蓮"
@@ -19807,8 +19807,8 @@ viVN = "Hạt hướng dương"
 trTR = "Ayçiçeği Tohumları"
 
 ["Good.SunflowerSeeds.PluralDisplayName"]
-status = "normal"
 raw = "Hạt hướng dương"
+status = "normal"
 enUS = "Sunflower Seeds"
 zhCN = "向日葵籽"
 zhTW = "葵花籽"
@@ -19824,8 +19824,8 @@ viVN = "Hạt hướng dương"
 trTR = "Ayçiçeği Tohumları"
 
 ["Good.TreatedPlank.DisplayName"]
-status = "normal"
 raw = "Ván Gỗ Đã Xử Lý"
+status = "normal"
 enUS = "Treated Plank"
 zhCN = "处理木板"
 zhTW = "經過處理的木板"
@@ -19875,8 +19875,8 @@ viVN = "Nước"
 trTR = "Su"
 
 ["Good.Water.PluralDisplayName"]
-status = "normal"
 raw = "Nước"
+status = "normal"
 enUS = "Water"
 zhCN = "水"
 zhTW = "水"
@@ -19892,8 +19892,8 @@ viVN = "Nước"
 trTR = "Su"
 
 ["Good.Wheat.DisplayName"]
-status = "normal"
 raw = "Lúa Mì"
+status = "normal"
 enUS = "Wheat"
 zhCN = "小麦"
 zhTW = "小麥"
@@ -19909,8 +19909,8 @@ viVN = "Lúa mì"
 trTR = "Buğday"
 
 ["Good.Wheat.PluralDisplayName"]
-status = "normal"
 raw = "Lúa mì"
+status = "normal"
 enUS = "Wheat"
 zhCN = "小麦"
 zhTW = "小麥"
@@ -19960,8 +19960,8 @@ viVN = "Bột mì"
 trTR = "Buğday unu"
 
 ["GoodConsuming.NeedsHaulers"]
-status = "normal"
 raw = "<YellowHighlight>Yêu cầu hải ly vận chuyển.</YellowHighlight>"
+status = "normal"
 enUS = "<YellowHighlight>Requires beavers to transport.</YellowHighlight>"
 zhCN = "<YellowHighlight>需要由海狸搬运。</YellowHighlight>"
 zhTW = "<YellowHighlight>需要海狸搬運。</YellowHighlight>"
@@ -19994,8 +19994,8 @@ viVN = "Sử dụng: {0}"
 trTR = "Kullanım: {0}"
 
 ["GoodConsuming.SupplyRemaining"]
-status = "normal"
 raw = "Lượng dự trữ sẽ đủ dùng trong {0} giờ"
+status = "normal"
 enUS = "The reserves will last for {0} hours"
 zhCN = "储备量还可供使用 {0} 小时"
 zhTW = "剩餘儲備可供使用 {0} 小時"
@@ -20232,8 +20232,8 @@ viVN = "Số ngày để trưởng thành: {0}"
 trTR = "Olgunlaşma için gereken gün sayısı: {0}"
 
 ["Hauling.Prioritize"]
-status = "normal"
 raw = "Ưu tiên xây dựng bởi hải ly vận chuyển"
+status = "normal"
 enUS = "Prioritize construction by hauling beavers"
 zhCN = "由运输海狸优先建造"
 zhTW = "由搬運海狸優先建造"
@@ -20317,8 +20317,8 @@ viVN = "Không có hàng trong kho"
 trTR = "Depoda eşya yok"
 
 ["Inventory.NothingSelected"]
-status = "normal"
 raw = "Không có"
+status = "normal"
 enUS = "None"
 zhCN = "无"
 zhTW = "未選取任何項目"
@@ -20334,8 +20334,8 @@ viVN = "Không có"
 trTR = "Seçili bir şey yok"
 
 ["Inventory.StockpileOverlay.Hide"]
-status = "normal"
 raw = "Ẩn lớp phủ kho lưu trữ"
+status = "normal"
 enUS = "Hide stockpile overlay"
 zhCN = "隐藏库存覆盖层"
 zhTW = "隱藏儲存區覆蓋層"
@@ -20402,8 +20402,8 @@ viVN = "Mũi tên xuống"
 trTR = "Aşağı ok"
 
 ["Key.LeftArrow"]
-status = "normal"
 raw = "Mũi tên trái"
+status = "normal"
 enUS = "Left arrow"
 zhCN = "左箭头"
 zhTW = "左箭頭"
@@ -20419,8 +20419,8 @@ viVN = "Mũi tên trái"
 trTR = "Sol ok tuşu"
 
 ["Key.LeftWindows"]
-status = "normal"
 raw = "Windows trái"
+status = "normal"
 enUS = "Left Windows"
 zhCN = "左侧 Windows 键"
 zhTW = "左側 Windows 鍵"
@@ -20453,8 +20453,8 @@ viVN = "Mũi tên phải"
 trTR = "Sağ ok"
 
 ["Key.RightWindows"]
-status = "normal"
 raw = "Windows phải"
+status = "normal"
 enUS = "Right Windows"
 zhCN = "右侧 Windows 键"
 zhTW = "右側 Windows 鍵"
@@ -20470,8 +20470,8 @@ viVN = "Phím Windows phải"
 trTR = "Windows sağ"
 
 ["Key.Space"]
-status = "normal"
 raw = "Space"
+status = "normal"
 enUS = "Space"
 zhCN = "空格"
 zhTW = "空白鍵"
@@ -20504,8 +20504,8 @@ viVN = "Mũi tên lên"
 trTR = "Yukarı ok"
 
 ["KeyBinding.AlternateClickableAction"]
-status = "normal"
 raw = "Phím chuyển đổi chức năng phụ"
+status = "normal"
 enUS = "Alternate Clickable Action Key"
 zhCN = "切换次要可点击操作的按键"
 zhTW = "切換輔助點擊操作的按鍵"
@@ -20521,8 +20521,8 @@ viVN = "Phím chuyển đổi chức năng phụ"
 trTR = "İkincil tıklama işlevi tuşu"
 
 ["KeyBinding.AttractionsTab"]
-status = "normal"
 raw = "Mở mục Phúc lợi"
+status = "normal"
 enUS = "Open the Welfare tab"
 zhCN = "打开“福利”选项卡"
 zhTW = "開啟景點分頁"
@@ -20623,8 +20623,8 @@ viVN = "Giảm kích thước cọ vẽ"
 trTR = "Fırça boyutunu küçült"
 
 ["KeyBinding.DecreaseBuildersPriority"]
-status = "normal"
 raw = "Giảm ưu tiên của thợ xây hải ly"
+status = "normal"
 enUS = "Decrease Beaver Builder Priority"
 zhCN = "降低海狸建造工的优先级"
 zhTW = "降低海狸建築工人的優先級"
@@ -20691,8 +20691,8 @@ viVN = "Giảm số lượng hải ly lao động mong muốn"
 trTR = "İstenen çalışan kunduz sayısını azalt"
 
 ["KeyBinding.DecreaseWorkingHours"]
-status = "normal"
 raw = "Giảm giờ làm việc"
+status = "normal"
 enUS = "Decrease working hours"
 zhCN = "减少工作时间的小时数"
 zhTW = "減少工作時數"
@@ -20742,8 +20742,8 @@ viVN = "Xóa đối tượng"
 trTR = "Nesneyi sil"
 
 ["KeyBinding.DistributionTab"]
-status = "normal"
 raw = "Mở mục Phân phối"
+status = "normal"
 enUS = "Open the Distribution tab"
 zhCN = "打开分配选项卡"
 zhTW = "開啟「分配」分頁"
@@ -20759,8 +20759,8 @@ viVN = "Open the Distribution tab"
 trTR = "Dağıtım sekmesini aç"
 
 ["KeyBinding.DuplicateObject"]
-status = "normal"
 raw = "Nhân bản"
+status = "normal"
 enUS = "Duplicate"
 zhCN = "复制"
 zhTW = "複製物件"
@@ -20776,8 +20776,8 @@ viVN = "Nhân bản"
 trTR = "Nesneyi Çoğalt"
 
 ["KeyBinding.DuplicateSettings"]
-status = "normal"
 raw = "Sao chép thiết lập"
+status = "normal"
 enUS = "Copy settings"
 zhCN = "复制设置"
 zhTW = "複製設定"
@@ -20793,8 +20793,8 @@ viVN = "Sao chép thiết lập"
 trTR = "Ayarları Kopyala"
 
 ["KeyBinding.DragVisibleLayer"]
-status = "normal"
 raw = "Kéo lớp hiển thị"
+status = "normal"
 enUS = "Drag visible layer"
 zhCN = "拖动可见图层"
 zhTW = "拖曳可見圖層"
@@ -20810,8 +20810,8 @@ viVN = "Kéo lớp đang hiển thị"
 trTR = "Görünür katmanı sürükle"
 
 ["KeyBinding.Flip"]
-status = "normal"
 raw = "Lật"
+status = "normal"
 enUS = "Flip"
 zhCN = "翻转"
 zhTW = "翻轉"
@@ -21082,8 +21082,8 @@ viVN = "Mở mục Di cư"
 trTR = "Göç sekmesini aç"
 
 ["KeyBinding.MoveCameraDown"]
-status = "normal"
 raw = "Di chuyển camera xuống"
+status = "normal"
 enUS = "Move camera down"
 zhCN = "将镜头向下移动"
 zhTW = "向下移動鏡頭"
@@ -21099,8 +21099,8 @@ viVN = "Di chuyển camera xuống"
 trTR = "Kamerayı aşağı taşı"
 
 ["KeyBinding.MoveCameraFast"]
-status = "normal"
 raw = "Tăng tốc độ camera"
+status = "normal"
 enUS = "Increase camera speed"
 zhCN = "加快镜头移动速度"
 zhTW = "加快鏡頭移動速度"
@@ -21133,8 +21133,8 @@ viVN = "Di chuyển camera sang trái"
 trTR = "Kamerayı sola taşı"
 
 ["KeyBinding.MoveCameraRight"]
-status = "normal"
 raw = "Di chuyển camera sang phải"
+status = "normal"
 enUS = "Move camera right"
 zhCN = "向右移动镜头"
 zhTW = "將鏡頭向右移動"
@@ -21150,8 +21150,8 @@ viVN = "Di chuyển camera sang phải"
 trTR = "Kamerayı sağa taşı"
 
 ["KeyBinding.MoveCameraUp"]
-status = "normal"
 raw = "Di chuyển camera lên"
+status = "normal"
 enUS = "Move camera up"
 zhCN = "向上移动镜头"
 zhTW = "向上移動鏡頭"
@@ -21184,8 +21184,8 @@ viVN = "Chọn khu vực tiếp theo"
 trTR = "Sonraki bölgeyi seç"
 
 ["KeyBinding.NextRootButton"]
-status = "normal"
 raw = "Danh mục thanh công cụ tiếp theo"
+status = "normal"
 enUS = "Next toolbar category"
 zhCN = "下一个工具栏类别"
 zhTW = "下一個工具列分類"
@@ -21218,8 +21218,8 @@ viVN = "Công cụ tiếp theo"
 trTR = "Sonraki araç"
 
 ["KeyBinding.OpenWellbeingPanel"]
-status = "normal"
 raw = "Mở bảng Phúc lợi"
+status = "normal"
 enUS = "Open the Wellbeing panel"
 zhCN = "打开幸福面板"
 zhTW = "開啟福祉面板"
@@ -21252,8 +21252,8 @@ viVN = "Chọn lớp hiển thị"
 trTR = "Görünür katmanı seç"
 
 ["KeyBinding.PinnedLever1"]
-status = "normal"
 raw = "Cần gạt ghim 1"
+status = "normal"
 enUS = "Pinned Lever 1"
 zhCN = "固定拉杆 1"
 zhTW = "固定控制桿 1"
@@ -21269,8 +21269,8 @@ viVN = "Cần gạt ghim 1"
 trTR = "Sabitlenmiş Kol 1"
 
 ["KeyBinding.PinnedLever2"]
-status = "normal"
 raw = "Cần gạt ghim 2"
+status = "normal"
 enUS = "Pinned Lever 2"
 zhCN = "固定拉杆 2"
 zhTW = "固定操縱桿 2"
@@ -21286,8 +21286,8 @@ viVN = "Cần gạt được ghim 2"
 trTR = "Sabitlenmiş Kol 2"
 
 ["KeyBinding.PinnedLever3"]
-status = "normal"
 raw = "Cần gạt ghim 3"
+status = "normal"
 enUS = "Pinned Lever 3"
 zhCN = "固定杠杆 3"
 zhTW = "固定槓桿 3"
@@ -21320,8 +21320,8 @@ viVN = "Cần gạt được ghim 4"
 trTR = "4. Sabitlenmiş kol"
 
 ["KeyBinding.PinnedLever5"]
-status = "normal"
 raw = "Cần gạt ghim 5"
+status = "normal"
 enUS = "Pinned Lever 5"
 zhCN = "固定拉杆 5"
 zhTW = "釘選控制桿 5"
@@ -21354,8 +21354,8 @@ viVN = "Cần gạt ghim 6"
 trTR = "Kilitli Kol 6"
 
 ["KeyBinding.PinnedLever7"]
-status = "normal"
 raw = "Cần gạt ghim 7"
+status = "normal"
 enUS = "Pinned Lever 7"
 zhCN = "固定杠杆 7"
 zhTW = "固定控制桿 7"
@@ -21371,8 +21371,8 @@ viVN = "Cần gạt đã ghim 7"
 trTR = "Sabitlenmiş Kol 7"
 
 ["KeyBinding.PinnedLever8"]
-status = "normal"
 raw = "Cần gạt ghim 8"
+status = "normal"
 enUS = "Pinned Lever 8"
 zhCN = "固定拨杆 8"
 zhTW = "固定控制桿 8"
@@ -21388,8 +21388,8 @@ viVN = "Cần gạt ghim 8"
 trTR = "8. Sabitlenmiş kol"
 
 ["KeyBinding.PinnedLever9"]
-status = "normal"
 raw = "Cần gạt ghim 9"
+status = "normal"
 enUS = "Pinned Lever 9"
 zhCN = "固定杆 9"
 zhTW = "固定槓桿 9"
@@ -21405,8 +21405,8 @@ viVN = "Cần gạt ghim 9"
 trTR = "Sabitlenmiş kol 9"
 
 ["KeyBinding.PinnedLever10"]
-status = "normal"
 raw = "Cần gạt ghim 10"
+status = "normal"
 enUS = "Pinned Lever 10"
 zhCN = "固定杠杆10"
 zhTW = "固定控制桿 10"
@@ -21439,8 +21439,8 @@ viVN = "Mở tab Thống kê dân số"
 trTR = "Nüfus İstatistikleri sekmesini aç"
 
 ["KeyBinding.PreviousDistrict"]
-status = "normal"
 raw = "Chọn khu vực trước"
+status = "normal"
 enUS = "Select previous district"
 zhCN = "选择上一个区块"
 zhTW = "選擇上一個區域"
@@ -21456,8 +21456,8 @@ viVN = "Chọn khu vực trước tiên"
 trTR = "Önce bölgeyi seçin"
 
 ["KeyBinding.PreviousRootButton"]
-status = "normal"
 raw = "Danh mục thanh công cụ trước"
+status = "normal"
 enUS = "Previous toolbar category"
 zhCN = "上一个工具栏类别按钮"
 zhTW = "上一個工具列根目錄按鈕"
@@ -21490,8 +21490,8 @@ viVN = "Công cụ trước"
 trTR = "Önceki Araç"
 
 ["KeyBinding.RaiseVisibleLayer"]
-status = "normal"
 raw = "Nâng lớp hiển thị"
+status = "normal"
 enUS = "Raise Visible Layer"
 zhCN = "提高可见层级"
 zhTW = "提高可見圖層"
@@ -21541,8 +21541,8 @@ viVN = "Đặt lại camera"
 trTR = "Kamerayı sıfırla"
 
 ["KeyBinding.ResetMapEditorSimulation"]
-status = "normal"
 raw = "Đặt lại mô phỏng"
+status = "normal"
 enUS = "Reset simulation"
 zhCN = "重置模拟"
 zhTW = "重設模擬器"
@@ -21575,8 +21575,8 @@ viVN = "Tải vị trí camera"
 trTR = "Kamera konumunu yükle"
 
 ["KeyBinding.RotateCameraDown"]
-status = "normal"
 raw = "Xoay camera xuống"
+status = "normal"
 enUS = "Rotate camera down"
 zhCN = "向下旋转镜头"
 zhTW = "向下旋轉鏡頭"
@@ -21592,8 +21592,8 @@ viVN = "Xoay camera xuống"
 trTR = "Kamerayı aşağı döndür"
 
 ["KeyBinding.RotateCameraLeft"]
-status = "normal"
 raw = "Xoay camera sang trái"
+status = "normal"
 enUS = "Rotate camera left"
 zhCN = "向左旋转镜头"
 zhTW = "將鏡頭向左旋轉"
@@ -21626,8 +21626,8 @@ viVN = "Xoay camera 90 độ sang trái"
 trTR = "Kamerayı 90 derece sola döndür"
 
 ["KeyBinding.RotateCameraRight"]
-status = "normal"
 raw = "Xoay camera sang phải"
+status = "normal"
 enUS = "Rotate camera right"
 zhCN = "向右旋转镜头"
 zhTW = "將鏡頭向右旋轉"
@@ -21660,8 +21660,8 @@ viVN = "Xoay camera 90 độ sang phải"
 trTR = "Kamerayı 90° sağa döndür"
 
 ["KeyBinding.RotateCameraUp"]
-status = "normal"
 raw = "Xoay camera lên"
+status = "normal"
 enUS = "Rotate camera up"
 zhCN = "向上旋转镜头"
 zhTW = "向上旋轉鏡頭"
@@ -21677,8 +21677,8 @@ viVN = "Xoay camera lên"
 trTR = "Kamerayı yukarı döndür"
 
 ["KeyBinding.RotateClockwise"]
-status = "normal"
 raw = "Xoay theo chiều kim đồng hồ"
+status = "normal"
 enUS = "Rotate clockwise"
 zhCN = "顺时针旋转"
 zhTW = "順時針旋轉"
@@ -21762,8 +21762,8 @@ viVN = "Chụp ảnh màn hình"
 trTR = "Ekran görüntüsü al"
 
 ["KeyBinding.ScreenshotUpscaled"]
-status = "normal"
 raw = "Chụp ảnh màn hình (được upscale)"
+status = "normal"
 enUS = "Take Upscaled Screenshot"
 zhCN = "截取放大后的屏幕截图"
 zhTW = "擷取升級解析度的螢幕截圖"
@@ -21779,8 +21779,8 @@ viVN = "Chụp ảnh màn hình (đã nâng cấp độ phân giải)"
 trTR = "Ekran görüntüsü al (büyütülmüş)"
 
 ["KeyBinding.ShowGuidelines"]
-status = "normal"
 raw = "Hiển thị hướng dẫn"
+status = "normal"
 enUS = "Show guidelines"
 zhCN = "显示指南"
 zhTW = "顯示指南"
@@ -21813,8 +21813,8 @@ viVN = "Hiển thị lớp phủ kho chứa"
 trTR = "Depolama alanı katmanını göster"
 
 ["KeyBinding.SkipDeleteConfirmation"]
-status = "normal"
 raw = "Bỏ qua xác nhận xóa"
+status = "normal"
 enUS = "Skip deletion confirmation"
 zhCN = "跳过删除确认"
 zhTW = "略過刪除確認"
@@ -21830,8 +21830,8 @@ viVN = "Bỏ qua xác nhận xóa"
 trTR = "Silme onayını atla"
 
 ["KeyBinding.Speed0"]
-status = "normal"
 raw = "Chuyển đổi tạm dừng"
+status = "normal"
 enUS = "Toggle pause"
 zhCN = "暂停转换"
 zhTW = "暫停切換"
@@ -21847,8 +21847,8 @@ viVN = "Chuyển đổi tạm dừng"
 trTR = "Dönüştürme duraklatıldı"
 
 ["KeyBinding.Speed1"]
-status = "normal"
 raw = "Tốc độ trò chơi >"
+status = "normal"
 enUS = "Game speed >"
 zhCN = "游戏速度 >"
 zhTW = "遊戲速度 >"
@@ -21864,8 +21864,8 @@ viVN = "Tốc độ trò chơi >"
 trTR = "Oyun hızı >"
 
 ["KeyBinding.Speed2"]
-status = "normal"
 raw = "Tốc độ trò chơi >>"
+status = "normal"
 enUS = "Game speed >>"
 zhCN = "游戏速度 >>"
 zhTW = "遊戲速度 >>"
@@ -21915,8 +21915,8 @@ viVN = "Open the Storage tab"
 trTR = "Depo sekmesini aç"
 
 ["KeyBinding.TickOnce"]
-status = "normal"
 raw = "Tick một lần"
+status = "normal"
 enUS = "Tick once"
 zhCN = "单次步进"
 zhTW = "單次前進一個刻度"
@@ -21932,8 +21932,8 @@ viVN = "Tick một lần"
 trTR = "Bir kez tıkla"
 
 ["KeyBinding.Toggle"]
-status = "normal"
 raw = "Chuyển đổi:"
+status = "normal"
 enUS = "Toggle:"
 zhCN = "切换："
 zhTW = "切換："
@@ -21949,8 +21949,8 @@ viVN = "Chuyển đổi:"
 trTR = "Geçiş yap:"
 
 ["KeyBinding.ToggleBatchControlBox"]
-status = "normal"
 raw = "Chuyển đổi bảng Định cư"
+status = "normal"
 enUS = "Toggle Settlement Board"
 zhCN = "切换定居点控制面板"
 zhTW = "切換定居點控制面板"
@@ -21983,8 +21983,8 @@ viVN = "Chuyển đổi hình dạng cọ vẽ"
 trTR = "Fırça şeklini değiştir"
 
 ["KeyBinding.ToggleBuildingPause"]
-status = "normal"
 raw = "Tạm dừng công trình đã chọn"
+status = "normal"
 enUS = "Pause selected building"
 zhCN = "暂停所选建筑"
 zhTW = "暫停所選建築物"
@@ -22000,8 +22000,8 @@ viVN = "Tạm dừng công trình đã chọn"
 trTR = "Seçili yapıyı duraklatma"
 
 ["KeyBinding.ToggleConsole"]
-status = "normal"
 raw = "Chuyển đổi bảng điều khiển"
+status = "normal"
 enUS = "Toggle console"
 zhCN = "切换控制台"
 zhTW = "切換主控台"
@@ -22017,8 +22017,8 @@ viVN = "Bật/tắt bảng điều khiển"
 trTR = "Konsolu Aç/Kapat"
 
 ["KeyBinding.ToggleGUI"]
-status = "normal"
 raw = "Chuyển đổi hiển thị giao diện"
+status = "normal"
 enUS = "Toggle UI visibility"
 zhCN = "切换界面显示"
 zhTW = "切換介面顯示"
@@ -22051,8 +22051,8 @@ viVN = "Chuyển đổi hướng dẫn"
 trTR = "Yönergeleri Aç/Kapat"
 
 ["KeyBinding.ToggleHaulingPriority"]
-status = "normal"
 raw = "Chuyển đổi ưu tiên vận chuyển"
+status = "normal"
 enUS = "Toggle hauling priority"
 zhCN = "切换运输优先级"
 zhTW = "切換運輸優先順序"
@@ -22085,8 +22085,8 @@ viVN = "Chuyển đổi tài nguyên thiên nhiên"
 trTR = "Doğal Kaynakları Aç/Kapat"
 
 ["KeyBinding.ToggleStockpileOverlay"]
-status = "normal"
 raw = "Chuyển đổi lớp phủ lưu trữ"
+status = "normal"
 enUS = "Toggle stockpile overlay"
 zhCN = "切换库存覆盖层"
 zhTW = "切換儲存區覆蓋層"
@@ -22102,8 +22102,8 @@ viVN = "Chuyển đổi lớp phủ kho chứa"
 trTR = "Depo katmanını aç/kapat"
 
 ["KeyBinding.ToggleStockpilePriority"]
-status = "normal"
 raw = "Chuyển đổi ưu tiên kho lưu trữ"
+status = "normal"
 enUS = "Toggle stockpile priority"
 zhCN = "切换仓库优先级"
 zhTW = "切換儲存區優先順序"
@@ -22119,8 +22119,8 @@ viVN = "Chuyển đổi mức ưu tiên kho lưu trữ"
 trTR = "Depo önceliğini değiştir"
 
 ["KeyBinding.ToggleWaterVisibility"]
-status = "normal"
 raw = "Chuyển đổi hiển thị nước"
+status = "normal"
 enUS = "Toggle water visibility"
 zhCN = "切换水体显示 visibility"
 zhTW = "切換水體顯示層級"
@@ -22170,8 +22170,8 @@ viVN = "Hoàn tác thay đổi"
 trTR = "Değişiklikleri geri al"
 
 ["KeyBinding.UniqueBuildingAction"]
-status = "normal"
 raw = "Hành động công trình đặc biệt"
+status = "normal"
 enUS = "Special Building Action"
 zhCN = "特殊建筑动作"
 zhTW = "特殊建築動作"
@@ -22221,8 +22221,8 @@ viVN = "Mở thẻ Nơi làm việc"
 trTR = "İş Yerleri sekmesini aç"
 
 ["KeyBinding.ZoomIn"]
-status = "normal"
 raw = "Phóng to"
+status = "normal"
 enUS = "Zoom in"
 zhCN = "放大"
 zhTW = "放大"
@@ -22238,8 +22238,8 @@ viVN = "Phóng to"
 trTR = "Yakınlaştır"
 
 ["KeyBinding.ZoomOut"]
-status = "normal"
 raw = "Thu nhỏ"
+status = "normal"
 enUS = "Zoom Out"
 zhCN = "缩小"
 zhTW = "縮小"
@@ -22255,8 +22255,8 @@ viVN = "Thu nhỏ"
 trTR = "Uzaklaştır"
 
 ["KeyBindingBox.ClearBinding"]
-status = "normal"
 raw = "Xóa"
+status = "normal"
 enUS = "Clear"
 zhCN = "清除"
 zhTW = "清除"
@@ -22289,8 +22289,8 @@ viVN = "Cụm phím này đã được gán cho: \n\n{0}\n\nBạn có muốn gá
 trTR = "Bu tuş kombinasyonu şu öğeye atanmış: \n\n{0}\n\nAtamak istiyor musunuz?"
 
 ["KeyBindingBox.PrimaryBinding"]
-status = "normal"
 raw = "Gán phím chính"
+status = "normal"
 enUS = "Assign primary key binding"
 zhCN = "主要按键绑定"
 zhTW = "設定主要按鍵"
@@ -22357,8 +22357,8 @@ viVN = "Bạn có chắc muốn đặt lại tất cả các phím tắt về gi
 trTR = "Tüm tuş atamalarını varsayılan değerlere sıfırlamak istediğinizden emin misiniz?"
 
 ["KeyBindingBox.SecondaryBinding"]
-status = "normal"
 raw = "Gán phím phụ"
+status = "normal"
 enUS = "Assign secondary key"
 zhCN = "辅助按键绑定"
 zhTW = "次要按鍵綁定"
@@ -22374,8 +22374,8 @@ viVN = "Gán phím phụ"
 trTR = "İkincil tuş ataması"
 
 ["KeyBindingGroup.Buildings"]
-status = "normal"
 raw = "Công trình"
+status = "normal"
 enUS = "Buildings"
 zhCN = "建筑物"
 zhTW = "建築物"
@@ -22442,8 +22442,8 @@ viVN = "Điều khiển đối tượng"
 trTR = "Nesneleri kontrol et"
 
 ["KeyBindingGroup.SettlementPanel"]
-status = "normal"
 raw = "Bảng điều khiển Định cư"
+status = "normal"
 enUS = "Settlement Panel"
 zhCN = "定居点面板控制器"
 zhTW = "殖民地面板控制項"
@@ -22510,8 +22510,8 @@ viVN = "Phím tắt"
 trTR = "Klavye Kısayolları"
 
 ["LevelVisibility.InfoTooltip"]
-status = "normal"
 raw = "Các lớp hiển thị"
+status = "normal"
 enUS = "Display layers"
 zhCN = "显示图层"
 zhTW = "顯示圖層"
@@ -22527,8 +22527,8 @@ viVN = "Các lớp hiển thị"
 trTR = "Görüntüleme katmanları"
 
 ["LevelVisibility.ResetTooltip"]
-status = "normal"
 raw = "Đặt lại các lớp hiển thị"
+status = "normal"
 enUS = "Reset display layers"
 zhCN = "重置显示层"
 zhTW = "重設顯示圖層"
@@ -22578,8 +22578,8 @@ viVN = "Bạn có chắc muốn xóa {0} không?"
 trTR = "{0} öğesini silmek istediğinizden emin misiniz?"
 
 ["LoadMapPanel.Header"]
-status = "normal"
 raw = "Chỉnh sửa bản đồ"
+status = "normal"
 enUS = "Edit Map"
 zhCN = "编辑地图"
 zhTW = "編輯地圖"
@@ -22697,8 +22697,8 @@ viVN = "Đối tượng có kiểu không xác định và đã bị xóa: {0}."
 trTR = "Bilinmeyen türdeki nesne silinmiş: {0}."
 
 ["LoadingIssue.TerrainCutOffIssue"]
-status = "normal"
 raw = "Địa hình vượt quá chiều cao tối đa cho phép và đã bị cắt bớt."
+status = "normal"
 enUS = "The terrain exceeded the maximum allowed height and was cut off."
 zhCN = "地形超过了允许的最大高度，已被截短。"
 zhTW = "地形超出允許的最大高度，已被截短。"
@@ -22850,8 +22850,8 @@ viVN = "Công thức:"
 trTR = "Tarif:"
 
 ["Manufactory.NoRecipeOption"]
-status = "normal"
 raw = "Không có"
+status = "normal"
 enUS = "None"
 zhCN = "无"
 zhTW = "無"
@@ -22935,8 +22935,8 @@ viVN = "Kim loại vụn (Hiệu quả)"
 trTR = "Hurda Metal (Verimli)"
 
 ["MapEditor.BlockObjectRandomizePlacement"]
-status = "normal"
 raw = "Ngẫu nhiên xoay và đảo chiều"
+status = "normal"
 enUS = "Randomly rotate and flip direction"
 zhCN = "随机旋转并翻转方向"
 zhTW = "隨機旋轉並反轉方向"
@@ -23088,8 +23088,8 @@ viVN = "Tài nguyên thiên nhiên"
 trTR = "Doğal kaynaklar"
 
 ["MapEditor.Brush.RandomizeYieldGrowth"]
-status = "normal"
 raw = "Ngẫu nhiên hóa sự tăng trưởng năng suất"
+status = "normal"
 enUS = "Randomize yield growth"
 zhCN = "随机化产量增长增幅"
 zhTW = "隨機化產量增長"
@@ -23207,8 +23207,8 @@ viVN = "Kích thước cọ vẽ:"
 trTR = "Fırça boyutu:"
 
 ["MapEditor.FlowPreview.StartTest"]
-status = "normal"
 raw = "Bắt đầu kiểm tra dòng chảy"
+status = "normal"
 enUS = "Start flow test"
 zhCN = "开始流量测试"
 zhTW = "開始測試水流流向"
@@ -23445,8 +23445,8 @@ viVN = "Phiên bản bản đồ này ({0}) không tương thích với phiên b
 trTR = "Bu harita sürümü ({0}), mevcut oyun sürümüyle ({1}) uyumlu değil.\nHaritayı uyumlu hâle getirmek için kaydedin."
 
 ["MapEditor.Redo"]
-status = "normal"
 raw = "Làm lại"
+status = "normal"
 enUS = "Redo"
 zhCN = "重做"
 zhTW = "重做"
@@ -23683,8 +23683,8 @@ viVN = "Chọn ảnh PNG hoặc JPG có độ phân giải 960x540. Sử dụng 
 trTR = "960x540 çözünürlüğünde bir PNG veya JPG görseli seçin. Orijinal görselin üzerine katman bindirmek için alfa kanalını kullanın."
 
 ["MapEditor.ThumbnailCapturing.Reset"]
-status = "normal"
 raw = "Đặt lại"
+status = "normal"
 enUS = "Reset"
 zhCN = "重置"
 zhTW = "重設"
@@ -23700,8 +23700,8 @@ viVN = "Đặt lại"
 trTR = "Sıfırla"
 
 ["MapEditor.ThumbnailCapturing.SelectOverlay"]
-status = "normal"
 raw = "Chọn"
+status = "normal"
 enUS = "Select"
 zhCN = "选择"
 zhTW = "選取"
@@ -23734,8 +23734,8 @@ viVN = "Hình minh họa bản đồ"
 trTR = "Harita görseli"
 
 ["MapEditor.ThumbnailCapturing.UpdateThumbnail"]
-status = "normal"
 raw = "Cập nhật"
+status = "normal"
 enUS = "Update"
 zhCN = "更新"
 zhTW = "更新"
@@ -23751,8 +23751,8 @@ viVN = "Cập nhật"
 trTR = "Güncelle"
 
 ["MapEditor.Undo"]
-status = "normal"
 raw = "Hoàn tác"
+status = "normal"
 enUS = "Undo"
 zhCN = "撤销"
 zhTW = "復原"
@@ -23768,8 +23768,8 @@ viVN = "Hoàn tác"
 trTR = "Geri al"
 
 ["MapEditor.UploadMap"]
-status = "normal"
 raw = "Tải bản đồ lên"
+status = "normal"
 enUS = "Upload map"
 zhCN = "上传地图"
 zhTW = "上傳地圖"
@@ -23802,8 +23802,8 @@ viVN = "Để xây dựng thành phố huyền thoại, tổ tiên loài hải l
 trTR = "Efsanevi şehri inşa etmek için kunduz ataları yedi büyük obruğun suyunu boşalttı. Günümüzün ahşap teknolojisiyle bile bu, küçümsenecek bir başarı değil."
 
 ["MapMetadata.Beaverome.Name"]
-status = "normal"
 raw = "Beaverome"
+status = "normal"
 enUS = "Beaverome"
 zhCN = "海狸罗马"
 zhTW = "海狸羅馬"
@@ -23870,8 +23870,8 @@ viVN = "Tàn tích của những công trình cổ xưa do con người xây d�
 trTR = "İnsanların inşa ettiği kadim yapıların kalıntıları bu ücra vadiye dağılmış durumda. Kunduzlar da dünyada benzer bir iz bırakmayı arzuluyor."
 
 ["MapMetadata.Cliffside.Name"]
-status = "normal"
 raw = "Cliffside"
+status = "normal"
 enUS = "Cliffside"
 zhCN = "悬崖边"
 zhTW = "峭壁地勢"
@@ -24006,8 +24006,8 @@ viVN = "Những vùng đất trũng trù phú này rất thích hợp để lậ
 trTR = "Bu verimli alçak araziler, yeni bir yerleşim yeri kurmak için son derece elverişli. Doğanın şekillendirdiği manzaranın ardında pek çok fırsat saklı; en yaşlı kunduzlar buralara gömülü hazinelerden fısıltıyla söz ediyor."
 
 ["MapMetadata.Hollows.Name"]
-status = "normal"
 raw = "Hollows"
+status = "normal"
 enUS = "Hollows"
 zhCN = "洼地"
 zhTW = "空洞氏族"
@@ -24040,8 +24040,8 @@ viVN = "Ngày nay, những vùng đất phong phú về thủy văn rất hiếm
 trTR = "Günümüzde, hidrolojik açıdan zengin bölgeler arayışlarda çok nadir bulunuyor. Geriye kalan az sayıdaki bölge, Dünya için hâlâ umut olduğunu gösteriyor."
 
 ["MapMetadata.Lakes.Name"]
-status = "normal"
 raw = "Lakes"
+status = "normal"
 enUS = "Lakes"
 zhCN = "湖泊"
 zhTW = "湖泊"
@@ -24074,8 +24074,8 @@ viVN = "Những hải ly kỹ sư rất muốn tận dụng đường cong tự 
 trTR = "Mühendis kunduzlar nehir kıyılarının doğal kıvrımlarından yararlanmayı çok istiyor. Kısıtlı alanı en iyi şekilde nasıl kullanacağını planlamak en zor kısmı."
 
 ["MapMetadata.Meander.Name"]
-status = "normal"
 raw = "Meander"
+status = "normal"
 enUS = "Meander"
 zhCN = "蜿蜒河道"
 zhTW = "蜿蜒屈曲"
@@ -24227,8 +24227,8 @@ viVN = "Those towering plateaus offer a safe haven, isolated from the toxic wate
 trTR = "Yükselen platolar, aşağıdaki zehirli sulardan uzakta güvenli bir sığınak sunar. Ancak yerleşiminizin hayatta kalması ve genişlemesi, kaynakların özenle yönetilmesini ve pek çok yaratıcı çözümü gerektirecektir."
 
 ["MapMetadata.Pillars.Name"]
-status = "normal"
 raw = "Pillars"
+status = "normal"
 enUS = "Pillars"
 zhCN = "石柱"
 zhTW = "石柱"
@@ -24329,8 +24329,8 @@ viVN = "Sườn dốc này có rất nhiều khu vực nhỏ được tưới ti
 trTR = "Bu yamaç, sulanan küçük alanlarla dolu. Ancak bölgede tehlike kol geziyor; dikkatli olmazsanız bu yerler hiç de misafirperver kalmayacak."
 
 ["MapMetadata.Spillage.Name"]
-status = "normal"
 raw = "Tràn đổ"
+status = "normal"
 enUS = "Spillage"
 zhCN = "溢流洼地"
 zhTW = "溢流"
@@ -24431,8 +24431,8 @@ viVN = "Đó là một mẹo dạy con của hải ly, dùng để bảo chúng 
 trTR = "Bu, kunduzların yavrularına şelalenin dev bir savak olduğunu söylemek için kullandığı bir ebeveynlik numarası. Sonra yavrular haftalarca vanayı arıyor."
 
 ["MapMetadata.Waterfalls.Name"]
-status = "normal"
 raw = "Waterfalls"
+status = "normal"
 enUS = "Waterfalls"
 zhCN = "瀑布"
 zhTW = "瀑布"
@@ -24584,8 +24584,8 @@ viVN = "Bản đồ chính thức"
 trTR = "Resmî Haritalar"
 
 ["MapSelection.Recommended"]
-status = "normal"
 raw = "Dễ chơi cho người mới"
+status = "normal"
 enUS = "Beginner-friendly"
 zhCN = "新手友好"
 zhTW = "適合新手遊玩"
@@ -24652,8 +24652,8 @@ viVN = "{0} / {1}"
 trTR = "{0} / {1}"
 
 ["Mechanical.Charge"]
-status = "normal"
 raw = "Sạc"
+status = "normal"
 enUS = "Charge"
 zhCN = "充电"
 zhTW = "充電"
@@ -24788,8 +24788,8 @@ viVN = "Tiếp tục"
 trTR = "Devam et"
 
 ["Menu.Credits"]
-status = "normal"
 raw = "Danh Đề"
+status = "normal"
 enUS = "Credits"
 zhCN = "制作人员名单"
 zhTW = "製作名單"
@@ -24805,8 +24805,8 @@ viVN = "Danh đề"
 trTR = "Jenerikler"
 
 ["Menu.EditMap"]
-status = "normal"
 raw = "Chỉnh sửa bản đồ"
+status = "normal"
 enUS = "Edit Map"
 zhCN = "编辑地图"
 zhTW = "編輯地圖"
@@ -24839,8 +24839,8 @@ viVN = "Bạn có chắc muốn thoát không? Các thay đổi chưa lưu sẽ 
 trTR = "Çıkmak istediğinizden emin misiniz? Kaydedilmemiş değişiklikler kaybolacak."
 
 ["Menu.ExitGame"]
-status = "normal"
 raw = "Thoát"
+status = "normal"
 enUS = "Exit"
 zhCN = "退出"
 zhTW = "離開"
@@ -24856,8 +24856,8 @@ viVN = "Thoát"
 trTR = "Çıkış"
 
 ["Menu.ExitToDesktop"]
-status = "normal"
 raw = "Thoát ra màn hình chính"
+status = "normal"
 enUS = "Exit to desktop"
 zhCN = "退出到桌面"
 zhTW = "退出至主畫面"
@@ -24958,8 +24958,8 @@ viVN = "Cài đặt phím tắt"
 trTR = "Kısayol tuşu ayarları"
 
 ["Menu.LoadGame"]
-status = "normal"
 raw = "Tải"
+status = "normal"
 enUS = "Load"
 zhCN = "加载游戏"
 zhTW = "載入遊戲"
@@ -24975,8 +24975,8 @@ viVN = "Tải trò chơi"
 trTR = "Yükle"
 
 ["Menu.ModManager"]
-status = "normal"
 raw = "Mod"
+status = "normal"
 enUS = "Mod"
 zhCN = "模组"
 zhTW = "模組"
@@ -25026,8 +25026,8 @@ viVN = "Tạo bản đồ mới"
 trTR = "Yeni harita oluştur"
 
 ["Menu.Resume"]
-status = "normal"
 raw = "Tiếp tục"
+status = "normal"
 enUS = "Resume"
 zhCN = "继续"
 zhTW = "繼續"
@@ -25196,8 +25196,8 @@ viVN = "Khu vực sẽ nhận cư dân từ các khu vực khác khi có sẵn."
 trTR = "Bölge, mevcut olduğunda diğer bölgelerden birim alacaktır."
 
 ["Migration.ManualMigration"]
-status = "normal"
 raw = "Di cư thủ công"
+status = "normal"
 enUS = "Manual migration"
 zhCN = "手动迁徙"
 zhTW = "手動遷移"
@@ -25213,8 +25213,8 @@ viVN = "Di cư thủ công"
 trTR = "Manuel Göç"
 
 ["Migration.MigratePopulation"]
-status = "normal"
 raw = "Dân di cư"
+status = "normal"
 enUS = "Migrate population"
 zhCN = "迁移人口"
 zhTW = "移民人口"
@@ -25230,8 +25230,8 @@ viVN = "Dân di cư"
 trTR = "Göçmen nüfus"
 
 ["Migration.Minimum"]
-status = "normal"
 raw = "Tối thiểu"
+status = "normal"
 enUS = "Minimum"
 zhCN = "最小值"
 zhTW = "最低値"
@@ -25281,8 +25281,8 @@ viVN = "Mod đang hoạt động"
 trTR = "Etkin modlar"
 
 ["Modding.BrowseMods"]
-status = "normal"
 raw = "Duyệt mod cục bộ"
+status = "normal"
 enUS = "Browse Local Mods"
 zhCN = "浏览本地模组"
 zhTW = "瀏覽本機模組"
@@ -25349,8 +25349,8 @@ viVN = "Tạo mod mới"
 trTR = "Yeni mod oluştur"
 
 ["Modding.DecreasePriority"]
-status = "normal"
 raw = "Giảm ưu tiên tải"
+status = "normal"
 enUS = "Lower loading priority"
 zhCN = "降低装载优先级"
 zhTW = "降低載入優先順序"
@@ -25485,8 +25485,8 @@ viVN = "Mod của bạn đã được tạo trong thư mục này:\n<link><b>{0}
 trTR = "Modunuz şu klasörde oluşturuldu:\n<link><b>{0}</b></link>\n\nModu yüklemek için oyunu yeniden başlatın."
 
 ["Modding.ModManagerHeader"]
-status = "normal"
 raw = "Mod"
+status = "normal"
 enUS = "Mod"
 zhCN = "模组"
 zhTW = "模組"
@@ -25689,8 +25689,8 @@ viVN = "Thay đổi sẽ không có hiệu lực cho đến khi khởi động l
 trTR = "Değişiklikler yeniden başlatılana kadar geçerli olmayacak."
 
 ["Modding.SavedMods"]
-status = "normal"
 raw = "Lưu tệp tin mod"
+status = "normal"
 enUS = "Save mod file"
 zhCN = "保存模组文件"
 zhTW = "儲存模組檔案"
@@ -25723,8 +25723,8 @@ viVN = "Mod: {0}"
 trTR = "Mod: {0}"
 
 ["Modding.ShowUploadPanel"]
-status = "normal"
 raw = "Tải lên"
+status = "normal"
 enUS = "Upload"
 zhCN = "上传"
 zhTW = "上傳"
@@ -25740,8 +25740,8 @@ viVN = "Tải lên"
 trTR = "Yükle panosunu aç"
 
 ["Modding.TemplateType"]
-status = "normal"
 raw = "Mẫu"
+status = "normal"
 enUS = "Template"
 zhCN = "模板"
 zhTW = "範本"
@@ -25859,8 +25859,8 @@ viVN = "Cuộn →"
 trTR = "Kaydır →"
 
 ["Mouse.ScrollUp"]
-status = "normal"
 raw = "Cuộn ↑"
+status = "normal"
 enUS = "Scroll ↑"
 zhCN = "向上滚动"
 zhTW = "向上捲動"
@@ -25876,8 +25876,8 @@ viVN = "Cuộn ↑"
 trTR = "Yukarı kaydır"
 
 ["NaturalResource.Birch.DisplayName"]
-status = "normal"
 raw = "Cây Bạch Dương"
+status = "normal"
 enUS = "Birch Tree"
 zhCN = "桦树"
 zhTW = "白樺樹"
@@ -25944,8 +25944,8 @@ viVN = "Các con sẽ muốn có thêm những quả này khi hạn hán đến.
 trTR = "Kuraklık geldiğinde bu meyvelerden daha fazlasını isteyeceksiniz. —Ma' Ngonel"
 
 ["NaturalResource.Canola.DisplayName"]
-status = "normal"
 raw = "Cải Dầu"
+status = "normal"
 enUS = "Canola"
 zhCN = "油菜酚"
 zhTW = "油菜花"
@@ -26012,8 +26012,8 @@ viVN = "Cà rốt sống giúp hải ly duy trì chế độ ăn cân bằng mà
 trTR = "Çiğ havuç, kunduzların çıtır çıtır kemirmenin keyfinden vazgeçmeden dengeli beslenmelerine yardımcı olur."
 
 ["NaturalResource.Cassava.DisplayName"]
-status = "normal"
 raw = "Cây Sắn"
+status = "normal"
 enUS = "Cassava Plant"
 zhCN = "木薯植物"
 zhTW = "木薯"
@@ -26080,8 +26080,8 @@ viVN = "Tôi biết tất cả về đuôi, nhưng cái quái gì là mèo? —P
 trTR = "Kuyruklar hakkında her şeyi biliyorum ama bu kedi de neyin nesi? —Pina"
 
 ["NaturalResource.ChestnutTree.DisplayName"]
-status = "normal"
 raw = "Cây Hạt Dẻ"
+status = "normal"
 enUS = "Chestnut Tree"
 zhCN = "栗子树"
 zhTW = "栗子樹"
@@ -26301,8 +26301,8 @@ viVN = "{0} (còn lại)"
 trTR = "{0} (kalan)"
 
 ["NaturalResource.Mangrove.DisplayName"]
-status = "normal"
 raw = "Cây Ngập Mặn"
+status = "normal"
 enUS = "Mangrove Tree"
 zhCN = "红树林"
 zhTW = "紅樹木"
@@ -26335,8 +26335,8 @@ viVN = "Hạt giống được những hải ly viễn du mang đến từ vùng
 trTR = "Tohumlar, nehir ve derelerin hiç kurumadığı uzak diyarlardan gelen gezgin kunduzlar tarafından getirilmiştir."
 
 ["NaturalResource.Maple.DisplayName"]
-status = "normal"
 raw = "Cây Phong"
+status = "normal"
 enUS = "Maple Tree"
 zhCN = "枫树"
 zhTW = "楓樹"
@@ -26386,8 +26386,8 @@ viVN = "{0} (trưởng thành)"
 trTR = "{0} (yetişkin)"
 
 ["NaturalResource.Oak.DisplayName"]
-status = "normal"
 raw = "Cây Sồi"
+status = "normal"
 enUS = "Oak Tree"
 zhCN = "橡树"
 zhTW = "橡樹"
@@ -26420,8 +26420,8 @@ viVN = "Những công trình tốt nhất của loài hải ly đều được l
 trTR = "En iyi kunduz yapıları meşe ve demirden yapılır."
 
 ["NaturalResource.Pine.DisplayName"]
-status = "normal"
 raw = "Cây Thông"
+status = "normal"
 enUS = "Pine Tree"
 zhCN = "松树"
 zhTW = "松樹"
@@ -26454,8 +26454,8 @@ viVN = "Ôi khu rừng thiêng vĩ đại, lòng ta hằng khắc khoải mong n
 trTR = "Ah, ulu kutsal orman, sana duyduğum özlem hiç dinmiyor! —Adsız bir Kunduz şairi"
 
 ["NaturalResource.Potato.DisplayName"]
-status = "normal"
 raw = "Khoai Tây"
+status = "normal"
 enUS = "Potato"
 zhCN = "土豆"
 zhTW = "馬鈴薯"
@@ -26488,8 +26488,8 @@ viVN = "Khoai thì muôn cách nấu. —Ngạn ngữ của loài Hải Ly"
 trTR = "Patatesin pişirilmesinin binbir yolu vardır. —Kunduz atasözü"
 
 ["NaturalResource.Soybean.DisplayName"]
-status = "normal"
 raw = "Đậu Nành"
+status = "normal"
 enUS = "Soybean"
 zhCN = "大豆"
 zhTW = "黃豆"
@@ -26522,8 +26522,8 @@ viVN = "Cứng và chống nước, hạt của nó là món đồ chơi hoàn h
 trTR = "Sert ve suya dayanıklı tohumları, yavru kunduzlar için mükemmel oyuncaklardır."
 
 ["NaturalResource.Spadderdock.DisplayName"]
-status = "normal"
 raw = "Hoa Súng Vàng"
+status = "normal"
 enUS = "Yellow Water Lily"
 zhCN = "黄睡莲浮筒"
 zhTW = "黃睡蓮棵蓮蓬"
@@ -26607,8 +26607,8 @@ viVN = "Hoa Hướng Dương"
 trTR = "Ayçiçeği"
 
 ["NaturalResource.Sunflower.FlavorDescription"]
-status = "normal"
 raw = "Các hải ly trồng những cây này để chứng minh rằng chúng không sợ ánh mặt trời cháy bỏng."
+status = "normal"
 enUS = "The beavers grow these plants to prove that they’re not afraid of the scorching sun."
 zhCN = "海狸们种植这些植物，是为了证明它们不怕烈日灼烧。"
 zhTW = "海狸種植這些植物，是為了證明牠們不怕灼熱的陽光。"
@@ -26624,8 +26624,8 @@ viVN = "Các hải ly trồng những cây này để chứng minh rằng chúng
 trTR = "Kunduzlar bu bitkileri kavurucu güneşten korkmadıklarını kanıtlamak için yetiştirirler."
 
 ["NaturalResource.Wheat.DisplayName"]
-status = "normal"
 raw = "Lúa Mì"
+status = "normal"
 enUS = "Wheat"
 zhCN = "小麦"
 zhTW = "小麥"
@@ -26641,8 +26641,8 @@ viVN = "Lúa mì"
 trTR = "Buğday"
 
 ["NaturalResource.Wheat.FlavorDescription"]
-status = "normal"
 raw = "Bạn sẽ quên đi mặt trời trên bầu trời không mây khi chúng ta đi qua những cánh đồng vàng. —Bài hát hải ly"
+status = "normal"
 enUS = "You will forget the sun in the cloudless sky as we pass through golden fields. —Beaver song"
 zhCN = "当我们穿过金色的麦田时，你会忘记晴空中的太阳。——海狸歌谣"
 zhTW = "當我們穿越金黃色的田野時，你會忘記晴空中的太陽。—海狸之歌"
@@ -26675,8 +26675,8 @@ viVN = "<YellowHighlight>Dưới nước:</YellowHighlight> Phải nằm một p
 trTR = "<YellowHighlight>Suyun altında:</YellowHighlight> Bir kısmı suyun altında olmalıdır."
 
 ["NaturalResources.Arid"]
-status = "normal"
 raw = "<YellowHighlight>Khô cằn:</YellowHighlight> Phải đặt trên nền đất khô ráo."
+status = "normal"
 enUS = "<YellowHighlight>Arid:</YellowHighlight> Must be placed on dry ground."
 zhCN = "<YellowHighlight>干旱：</YellowHighlight>必须放置在干燥的地面上。"
 zhTW = "<YellowHighlight>乾旱：</YellowHighlight>必須放置在乾燥的地面上。"
@@ -26811,8 +26811,8 @@ viVN = "Nó đã chết."
 trTR = "Öldü."
 
 ["NaturalResources.Healthy"]
-status = "normal"
 raw = "Khỏe mạnh."
+status = "normal"
 enUS = "Healthy."
 zhCN = "健康。"
 zhTW = "健康。"
@@ -26930,8 +26930,8 @@ viVN = "Ô nhiễm nước bẩn"
 trTR = "Kirlilik"
 
 ["Need.BeeSting.DisplayName"]
-status = "normal"
 raw = "Côn Trùng Đốt"
+status = "normal"
 enUS = "Insect Sting"
 zhCN = "蜂蜇疼痛"
 zhTW = "蜂螫"
@@ -27015,8 +27015,8 @@ viVN = "Chấn thương"
 trTR = "Yaralanma"
 
 ["Need.Power.DisplayName"]
-status = "normal"
 raw = "Năng lượng"
+status = "normal"
 enUS = "Power"
 zhCN = "能量"
 zhTW = "動力"
@@ -27032,8 +27032,8 @@ viVN = "Năng lượng"
 trTR = "Güç"
 
 ["Need.Roof.DisplayName"]
-status = "normal"
 raw = "Mái Nhà"
+status = "normal"
 enUS = "Roof"
 zhCN = "屋顶需要"
 zhTW = "屋頂"
@@ -27049,8 +27049,8 @@ viVN = "Mái Nhà"
 trTR = "Çatı"
 
 ["Need.Shelter.DisplayName"]
-status = "normal"
 raw = "Nơi Ở"
+status = "normal"
 enUS = "Shelter"
 zhCN = "住所"
 zhTW = "居所"
@@ -27066,8 +27066,8 @@ viVN = "Nơi ở"
 trTR = "Barınak Tedariki"
 
 ["Need.Sleep.DisplayName"]
-status = "normal"
 raw = "Ngủ"
+status = "normal"
 enUS = "Sleep"
 zhCN = "睡觉"
 zhTW = "睡覺"
@@ -27100,8 +27100,8 @@ viVN = "chết khát."
 trTR = "Susuzluktan öldü."
 
 ["Need.Thirst.DisplayName"]
-status = "normal"
 raw = "Khát"
+status = "normal"
 enUS = "Thirsty"
 zhCN = "口渴"
 zhTW = "口渴"
@@ -27134,8 +27134,8 @@ viVN = "Lông ướt"
 trTR = "Islak Kürk"
 
 ["NeedGroup.Aesthetics.DisplayName"]
-status = "normal"
 raw = "Thẩm Mỹ"
+status = "normal"
 enUS = "Aesthetics"
 zhCN = "美观度"
 zhTW = "美學"
@@ -27185,8 +27185,8 @@ viVN = "Nhu cầu cơ bản"
 trTR = "Temel İhtiyaçlar"
 
 ["NeedGroup.Boosts.DisplayName"]
-status = "normal"
 raw = "Tăng Cường"
+status = "normal"
 enUS = "Boosts"
 zhCN = "增益"
 zhTW = "強化"
@@ -27202,8 +27202,8 @@ viVN = "Tăng cường"
 trTR = "Güçlendirmeler"
 
 ["NeedGroup.Fun.DisplayName"]
-status = "normal"
 raw = "Vui Vẻ"
+status = "normal"
 enUS = "Happy"
 zhCN = "欢乐"
 zhTW = "歡樂"
@@ -27236,8 +27236,8 @@ viVN = "Hạnh Phúc"
 trTR = "Mutluluk"
 
 ["NeedGroup.Nutrition.DisplayName"]
-status = "normal"
 raw = "Dinh Dưỡng"
+status = "normal"
 enUS = "Nutrition"
 zhCN = "营养"
 zhTW = "營養度"
@@ -27321,8 +27321,8 @@ viVN = "Bảo vệ khỏi: {0}"
 trTR = "Şunlardan korur: {0}"
 
 ["Needs.InRange"]
-status = "normal"
 raw = "trong phạm vi {0} ô"
+status = "normal"
 enUS = "within {0} tiles"
 zhCN = "{0}格范围内"
 zhTW = "在 {0} 格範圍內"
@@ -27338,8 +27338,8 @@ viVN = "trong phạm vi {0} ô"
 trTR = "{0} karelik menzil içinde"
 
 ["Needs.SatisfiesInRange"]
-status = "normal"
 raw = "Đáp ứng {0} trong phạm vi {1} ô"
+status = "normal"
 enUS = "Satisfies {0} within a range of {1} tiles"
 zhCN = "在 {1} 格范围内满足 {0}"
 zhTW = "在 {1} 格範圍內滿足 {0}"
@@ -27389,8 +27389,8 @@ viVN = "tuổi"
 trTR = "yaş"
 
 ["NewGameConfigurationPanel.BadtideDuration"]
-status = "normal"
 raw = "Khoảng thời gian thủy triều bẩn xảy ra"
+status = "normal"
 enUS = "Badwater duration"
 zhCN = "恶水潮持续时间"
 zhTW = "髒潮發生的期間"
@@ -27406,8 +27406,8 @@ viVN = "Khoảng thời gian diễn ra thủy triều nước bẩn"
 trTR = "Kirli gelgitin süresi"
 
 ["NewGameConfigurationPanel.BadtideDurationHandicap"]
-status = "normal"
 raw = "Hạn chế thời gian thủy triều bẩn xảy ra"
+status = "normal"
 enUS = "Limit the duration of badtides occurring"
 zhCN = "恶水潮持续时间限制"
 zhTW = "限制毒潮持續時間"
@@ -27423,8 +27423,8 @@ viVN = "Hạn chế thời gian xảy ra thủy triều nước bẩn"
 trTR = "Kirli gelgit süresini sınırla"
 
 ["NewGameConfigurationPanel.ChanceForBadtide"]
-status = "normal"
 raw = "Tỉ lệ thủy triều bẩn xảy ra"
+status = "normal"
 enUS = "Chance of badtides occurring"
 zhCN = "恶水潮发生概率"
 zhTW = "污潮發生機率"
@@ -27440,8 +27440,8 @@ viVN = "Tỉ lệ xảy ra thủy triều nước bẩn"
 trTR = "Kötü gelgit olasılığı"
 
 ["NewGameConfigurationPanel.Custom"]
-status = "normal"
 raw = "Tùy chỉnh"
+status = "normal"
 enUS = "Customize"
 zhCN = "自定义"
 zhTW = "自訂"
@@ -27457,8 +27457,8 @@ viVN = "Tùy chỉnh"
 trTR = "Özelleştir"
 
 ["NewGameConfigurationPanel.Customize"]
-status = "normal"
 raw = "Tùy biến"
+status = "normal"
 enUS = "Customize"
 zhCN = "自定义"
 zhTW = "自訂"
@@ -27491,8 +27491,8 @@ viVN = "chu kỳ"
 trTR = "Döngüler"
 
 ["NewGameConfigurationPanel.CyclesBeforeBadtideRandomization"]
-status = "normal"
 raw = "Số lượng chu kỳ thủy triều bẩn không xảy ra"
+status = "normal"
 enUS = "Number of cycles before badtide does not occur"
 zhCN = "恶水潮汐随机化前的周期数"
 zhTW = "未發生髒潮的週期數"
@@ -27525,8 +27525,8 @@ viVN = "ngày"
 trTR = "gün"
 
 ["NewGameConfigurationPanel.DemolishableRecoveryRate"]
-status = "normal"
 raw = "Tỉ lệ hoàn trả xây dựng"
+status = "normal"
 enUS = "Construction Refund Rate"
 zhCN = "拆除返还比例"
 zhTW = "拆除返還比例"
@@ -27542,8 +27542,8 @@ viVN = "Tỉ lệ hoàn trả vật liệu khi phá dỡ"
 trTR = "İnşaat malzemelerini geri kazanma oranı"
 
 ["NewGameConfigurationPanel.DroughtDuration"]
-status = "normal"
 raw = "Khoảng thời gian xảy ra hạn hán"
+status = "normal"
 enUS = "Drought duration window"
 zhCN = "干旱持续时间"
 zhTW = "乾旱持續時間"
@@ -27610,8 +27610,8 @@ viVN = "Bạn vẫn đang học hoặc muốn có trải nghiệm xây dựng th
 trTR = "Hâlâ öğreniyorsanız veya rahatlatıcı bir şehir kurma deneyimi arıyorsanız.\n\nYerleşiminiz bol kaynakla başlar.\n\nKunduzlar daha az yiyecek ve su tüketir.\n\nKuraklıklar ve kötü su dalgaları nadir görülür ve kısa sürer."
 
 ["NewGameConfigurationPanel.EnableBadtides"]
-status = "normal"
 raw = "Thủy triều bẩn"
+status = "normal"
 enUS = "Badwater tides"
 zhCN = "恶水潮汐"
 zhTW = "啟用污水潮汐"
@@ -27627,8 +27627,8 @@ viVN = "Thủy triều nước bẩn"
 trTR = "Kirli gelgitler"
 
 ["NewGameConfigurationPanel.EnableDroughts"]
-status = "normal"
 raw = "Hạn hán"
+status = "normal"
 enUS = "Droughts"
 zhCN = "干旱"
 zhTW = "啟用旱季"
@@ -27661,8 +27661,8 @@ viVN = "Tiêu thụ thức ăn"
 trTR = "Yiyecek tüketimi"
 
 ["NewGameConfigurationPanel.For"]
-status = "normal"
 raw = "cho"
+status = "normal"
 enUS = "for"
 zhCN = "为"
 zhTW = "給"
@@ -27729,8 +27729,8 @@ viVN = "Tỉ lệ chấn thương"
 trTR = "Yaralanma oranı"
 
 ["NewGameConfigurationPanel.Normal"]
-status = "normal"
 raw = "Bình thường"
+status = "normal"
 enUS = "Normal"
 zhCN = "普通"
 zhTW = "普通"
@@ -27882,8 +27882,8 @@ viVN = "Khoảng thời gian thời tiết ôn hòa"
 trTR = "Ilıman hava süresi"
 
 ["NewGameConfigurationPanel.To"]
-status = "normal"
 raw = "đến"
+status = "normal"
 enUS = "To"
 zhCN = "至"
 zhTW = "到"
@@ -27916,8 +27916,8 @@ viVN = "Tiêu thụ nước"
 trTR = "Su tüketimi"
 
 ["NewGameFactionPanel.SubHeader"]
-status = "normal"
 raw = "Chọn Phe Của Bạn"
+status = "normal"
 enUS = "Choose Your Faction"
 zhCN = "选择你的派系"
 zhTW = "選擇你的派系"
@@ -27967,8 +27967,8 @@ viVN = "Tạo bản đồ mới"
 trTR = "Yeni harita oluştur"
 
 ["Planting.NoPriorityOption"]
-status = "normal"
 raw = "Không có"
+status = "normal"
 enUS = "None"
 zhCN = "无全天计划"
 zhTW = "無偏好"
@@ -28001,8 +28001,8 @@ viVN = "Tài nguyên ưu tiên:"
 trTR = "Öncelikli kaynaklar:"
 
 ["Planting.ReplantDeadTrees"]
-status = "normal"
 raw = "Trồng lại cây chết chưa được đánh dấu để chặt"
+status = "normal"
 enUS = "Replant dead trees not marked for cutting"
 zhCN = "重新种植未标记为砍伐的枯树"
 zhTW = "重新種植未標記為砍伐的枯樹"
@@ -28069,8 +28069,8 @@ viVN = "Công trình yêu cầu: {0}"
 trTR = "Gerekli yapı: {0}"
 
 ["PlayerData.CorruptedDataInfo.CorruptedFilePresent"]
-status = "normal"
 raw = "Bạn có thể duyệt bản sao của fu dữ liệu người chơi bị hỏng trong <link><b>thư mục tài liệu trò chơi</b></link>."
+status = "normal"
 enUS = "You can browse a copy of the corrupted player data file in the <link><b>game documents folder</b></link>."
 zhCN = "你可以在<link><b>游戏文档文件夹</b></link>中浏览玩家数据损坏文件的副本。"
 zhTW = "你可以在<link><b>遊戲文件資料夾</b></link>中瀏覽玩家資料的損毀副本。"
@@ -28137,8 +28137,8 @@ viVN = "Rất thấp"
 trTR = "Çok düşük"
 
 ["Priorities.Low"]
-status = "normal"
 raw = "Thấp"
+status = "normal"
 enUS = "Low"
 zhCN = "低"
 zhTW = "低"
@@ -28154,8 +28154,8 @@ viVN = "Thấp"
 trTR = "Düşük"
 
 ["Priorities.Normal"]
-status = "normal"
 raw = "Bình thường"
+status = "normal"
 enUS = "Normal"
 zhCN = "正常"
 zhTW = "普通"
@@ -28171,8 +28171,8 @@ viVN = "Bình thường"
 trTR = "Normal"
 
 ["Priorities.High"]
-status = "normal"
 raw = "Cao"
+status = "normal"
 enUS = "High"
 zhCN = "高"
 zhTW = "高"
@@ -28273,8 +28273,8 @@ viVN = "Tan rã sau: {0} ngày"
 trTR = "Şu kadar gün sonra dağılır: {0}"
 
 ["RecoveredGoodStack.DisplayName"]
-status = "normal"
 raw = "Đống Đổ Nát"
+status = "normal"
 enUS = "Pile of Rubble"
 zhCN = "废墟堆"
 zhTW = "殘骸堆"
@@ -28324,8 +28324,8 @@ viVN = "Ưu tiên thu thập:"
 trTR = "Toplama önceliği:"
 
 ["Resources.GatheredBy"]
-status = "normal"
 raw = "Thu hoạch bởi:"
+status = "normal"
 enUS = "Harvested by:"
 zhCN = "收获者："
 zhTW = "採集自："
@@ -28341,8 +28341,8 @@ viVN = "Thu hoạch bởi:"
 trTR = "Toplayan:"
 
 ["Ruins.ShuffleModel"]
-status = "normal"
 raw = "Xáo trộn mô hình"
+status = "normal"
 enUS = "Shuffle model"
 zhCN = "打乱模型生效"
 zhTW = "打亂模型"
@@ -28426,8 +28426,8 @@ viVN = "Bạn có chắc muốn xóa {0}?"
 trTR = "{0} öğesini silmek istediğinizden emin misiniz?"
 
 ["Saving.DeleteSettlement"]
-status = "normal"
 raw = "Xóa khu định cư"
+status = "normal"
 enUS = "Delete settlement"
 zhCN = "删除定居点"
 zhTW = "刪除聚落"
@@ -28511,8 +28511,8 @@ viVN = "Tên không hợp lệ. Hãy chắc chắn rằng tên không chứa ký
 trTR = "Geçersiz ad. Adın geçersiz karakter içermediğinden emin olun."
 
 ["Saving.LoadGamePanelHeader"]
-status = "normal"
 raw = "Tải"
+status = "normal"
 enUS = "Load"
 zhCN = "加载"
 zhTW = "載入"
@@ -28596,8 +28596,8 @@ viVN = "Save {0} đã tồn tại."
 trTR = "{0} kaydı zaten mevcut."
 
 ["Saving.SaveGamePanelHeader"]
-status = "normal"
 raw = "Lưu"
+status = "normal"
 enUS = "Save"
 zhCN = "保存"
 zhTW = "儲存"
@@ -28732,8 +28732,8 @@ viVN = "<YellowHighlight>Mở khóa một lần cho mọi khu định cư.</Yell
 trTR = "<YellowHighlight>Tüm yerleşimler için bir kez açılır.</YellowHighlight>"
 
 ["Settings.Accessibility.DisableStarfieldRotation"]
-status = "normal"
 raw = "Tắt xoay trường sao"
+status = "normal"
 enUS = "Disable Starfield Rotation"
 zhCN = "关闭星空旋转"
 zhTW = "關閉星空背景旋轉"
@@ -28800,8 +28800,8 @@ viVN = "Phân tích dữ liệu người dùng"
 trTR = "Kullanıcı verilerini analiz et"
 
 ["Settings.GameSaving.AutoSavingOn"]
-status = "normal"
 raw = "Lưu tự động"
+status = "normal"
 enUS = "Auto-save"
 zhCN = "自动保存"
 zhTW = "自動儲存"
@@ -28851,8 +28851,8 @@ viVN = "Lọc bất đẳng hướng"
 trTR = "Anizotropik Filtreleme"
 
 ["Settings.Graphics.AnisotropicTextures"]
-status = "normal"
 raw = "Kết cấu bất đẳng hướng"
+status = "normal"
 enUS = "Anisotropic Textures"
 zhCN = "各向异性纹理"
 zhTW = "各向異性結構"
@@ -28970,8 +28970,8 @@ viVN = "SMAA"
 trTR = "SMAA"
 
 ["Settings.Graphics.AntiAliasingQuality"]
-status = "normal"
 raw = "Khử răng cưa"
+status = "normal"
 enUS = "Anti-Aliasing"
 zhCN = "抗锯齿"
 zhTW = "抗鋸齒品質"
@@ -28987,8 +28987,8 @@ viVN = "Khử răng cưa"
 trTR = "Kenar yumuşatma"
 
 ["Settings.Graphics.Bloom"]
-status = "normal"
 raw = "Bloom"
+status = "normal"
 enUS = "Bloom"
 zhCN = "泛光"
 zhTW = "泛光"
@@ -29038,8 +29038,8 @@ viVN = "Chất lượng ánh sáng bổ sung"
 trTR = "Ek ışık kalitesi"
 
 ["Settings.Graphics.OverallGraphicsQuality"]
-status = "normal"
 raw = "Cài đặt sẵn"
+status = "normal"
 enUS = "Preset Settings"
 zhCN = "预设配置"
 zhTW = "預設設定"
@@ -29072,8 +29072,8 @@ viVN = "Tùy chỉnh"
 trTR = "Özel"
 
 ["Settings.Graphics.Quality.High"]
-status = "normal"
 raw = "Cao"
+status = "normal"
 enUS = "High"
 zhCN = "高"
 zhTW = "高"
@@ -29089,8 +29089,8 @@ viVN = "Cao"
 trTR = "Yüksek"
 
 ["Settings.Graphics.Quality.Low"]
-status = "normal"
 raw = "Thấp"
+status = "normal"
 enUS = "Low"
 zhCN = "低"
 zhTW = "低"
@@ -29106,8 +29106,8 @@ viVN = "Thấp"
 trTR = "Düşük"
 
 ["Settings.Graphics.Quality.Medium"]
-status = "normal"
 raw = "Trung bình"
+status = "normal"
 enUS = "Medium"
 zhCN = "中等"
 zhTW = "中等"
@@ -29123,8 +29123,8 @@ viVN = "Trung bình"
 trTR = "Orta"
 
 ["Settings.Graphics.Quality.Off"]
-status = "normal"
 raw = "Tắt"
+status = "normal"
 enUS = "Off"
 zhCN = "关闭"
 zhTW = "關閉"
@@ -29140,8 +29140,8 @@ viVN = "Tắt"
 trTR = "Kapalı"
 
 ["Settings.Graphics.Quality.On"]
-status = "normal"
 raw = "Bật"
+status = "normal"
 enUS = "On"
 zhCN = "开启"
 zhTW = "開啟"
@@ -29157,8 +29157,8 @@ viVN = "Bật"
 trTR = "Açık"
 
 ["Settings.Graphics.Quality.Ultra"]
-status = "normal"
 raw = "Siêu cao"
+status = "normal"
 enUS = "Ultra-high"
 zhCN = "超高"
 zhTW = "極高"
@@ -29242,8 +29242,8 @@ viVN = "Cài đặt"
 trTR = "Ayarlar"
 
 ["Settings.Intro.DisableIntro"]
-status = "normal"
 raw = "Bỏ qua intro"
+status = "normal"
 enUS = "Skip intro"
 zhCN = "跳过开场动画"
 zhTW = "略過開場動畫"
@@ -29310,8 +29310,8 @@ viVN = "Tốc độ di chuyển camera khi rê chuột sát mép màn hình"
 trTR = "Ekran kenarına dayanarak kamera kaydırma hızı"
 
 ["Settings.Input.Header"]
-status = "normal"
 raw = "Đầu vào"
+status = "normal"
 enUS = "Input"
 zhCN = "输入"
 zhTW = "輸入"
@@ -29344,8 +29344,8 @@ viVN = "Đảo ngược cuộn chuột"
 trTR = "Fare kaydırma yönünü tersine çevir"
 
 ["Settings.Input.KeyboardCameraMovementSpeed"]
-status = "normal"
 raw = "Tốc độ di chuyển bằng bàn phím"
+status = "normal"
 enUS = "Keyboard Movement Speed"
 zhCN = "键盘移动速度"
 zhTW = "鍵盤移動畫面速度"
@@ -29429,8 +29429,8 @@ viVN = "Tốc độ xoay camera bằng chuột"
 trTR = "Fareyle döndürme hızı"
 
 ["Settings.Input.MouseWheelCameraZoomSpeed"]
-status = "normal"
 raw = "Tốc độ cuộn chuột"
+status = "normal"
 enUS = "Mouse wheel scrolling speed"
 zhCN = "鼠标滚轮缩放速度"
 zhTW = "滑鼠滾輪速度"
@@ -29446,8 +29446,8 @@ viVN = "Tốc độ cuộn chuột"
 trTR = "Fare tekerleği kaydırma hızı"
 
 ["Settings.Input.OnScreenKeyboard.Auto"]
-status = "normal"
 raw = "Tự động"
+status = "normal"
 enUS = "Automatic"
 zhCN = "自动"
 zhTW = "自動"
@@ -29463,8 +29463,8 @@ viVN = "Tự động"
 trTR = "Otomatik"
 
 ["Settings.Input.OnScreenKeyboard.Disabled"]
-status = "normal"
 raw = "Tắt"
+status = "normal"
 enUS = "Off"
 zhCN = "关闭"
 zhTW = "關閉"
@@ -29480,8 +29480,8 @@ viVN = "Tắt"
 trTR = "Kapalı"
 
 ["Settings.Input.OnScreenKeyboard.Enabled"]
-status = "normal"
 raw = "Bật"
+status = "normal"
 enUS = "On"
 zhCN = "开启"
 zhTW = "開啟"
@@ -29514,8 +29514,8 @@ viVN = "Bàn phím trên màn hình của Steam Big Picture:"
 trTR = "Steam Big Picture klavyesi:"
 
 ["Settings.Input.SwapMouseCameraMovementWithRotation"]
-status = "normal"
 raw = "Hoán đổi phím camera"
+status = "normal"
 enUS = "Swap camera movement and rotation keys"
 zhCN = "交换摄像机移动与旋转的按键"
 zhTW = "交換攝影機移動與旋轉按鍵"
@@ -29548,8 +29548,8 @@ viVN = "Thu phóng không giới hạn"
 trTR = "Yakınlaştırma sınırı yok"
 
 ["Settings.Language.Change"]
-status = "normal"
 raw = "Thay đổi"
+status = "normal"
 enUS = "Change"
 zhCN = "更改"
 zhTW = "變更"
@@ -29633,8 +29633,8 @@ viVN = "Khử răng cưa"
 trTR = "Kenar yumuşatma"
 
 ["Settings.Screen.Brightness"]
-status = "normal"
 raw = "Độ sáng"
+status = "normal"
 enUS = "Brightness"
 zhCN = "亮度"
 zhTW = "亮度"
@@ -29735,8 +29735,8 @@ viVN = "Chất lượng đồ họa"
 trTR = "Grafik kalitesi"
 
 ["Settings.Screen.Header"]
-status = "normal"
 raw = "Đồ họa"
+status = "normal"
 enUS = "Graphics"
 zhCN = "图形"
 zhTW = "圖形"
@@ -29752,8 +29752,8 @@ viVN = "Đồ họa"
 trTR = "Grafikler"
 
 ["Settings.Screen.Quality.High"]
-status = "normal"
 raw = "Cao"
+status = "normal"
 enUS = "High"
 zhCN = "高ակարգ"
 zhTW = "高生質素"
@@ -29769,8 +29769,8 @@ viVN = "Cao"
 trTR = "Yüksek"
 
 ["Settings.Screen.Quality.Low"]
-status = "normal"
 raw = "Thấp"
+status = "normal"
 enUS = "Low"
 zhCN = "低"
 zhTW = "低"
@@ -29820,8 +29820,8 @@ viVN = "Siêu cao"
 trTR = "Ultra yüksek"
 
 ["Settings.Screen.ResolutionScale"]
-status = "normal"
 raw = "Tỉ lệ độ phân giải"
+status = "normal"
 enUS = "Resolution Scale"
 zhCN = "分辨率缩放比例"
 zhTW = "解析度比例"
@@ -29888,8 +29888,8 @@ viVN = "Đồng bộ hóa dọc (VSync)"
 trTR = "Dikey Senkronizasyon"
 
 ["Settings.Screen.VSync.0"]
-status = "normal"
 raw = "Tắt"
+status = "normal"
 enUS = "Off"
 zhCN = "关闭"
 zhTW = "關閉"
@@ -29905,8 +29905,8 @@ viVN = "Tắt"
 trTR = "Kapalı"
 
 ["Settings.Screen.VSync.1"]
-status = "normal"
 raw = "Bật"
+status = "normal"
 enUS = "On"
 zhCN = "开启"
 zhTW = "開啟"
@@ -29922,8 +29922,8 @@ viVN = "Bật"
 trTR = "Açık"
 
 ["Settings.Screen.VSync.2"]
-status = "normal"
 raw = "Mỗi khung hình thứ hai"
+status = "normal"
 enUS = "Every other frame"
 zhCN = "每隔一帧"
 zhTW = "每隔一幀一次"
@@ -29956,8 +29956,8 @@ viVN = "Âm lượng môi trường"
 trTR = "Ortam ses seviyesi"
 
 ["Settings.Sound.Header"]
-status = "normal"
 raw = "Âm thanh"
+status = "normal"
 enUS = "Sound"
 zhCN = "声音"
 zhTW = "音效"
@@ -30024,8 +30024,8 @@ viVN = "Tắt tiếng khi trò chơi không ở chế độ toàn màn hình ho�
 trTR = "Oyun tam ekran modunda değilken veya başka bir pencere tarafından örtülmüşken sesi kapatmaya zorla"
 
 ["Settings.Sound.UIVolume"]
-status = "normal"
 raw = "Âm lượng giao diện"
+status = "normal"
 enUS = "Interface volume"
 zhCN = "界面音量"
 zhTW = "介面音量"
@@ -30041,8 +30041,8 @@ viVN = "Âm lượng giao diện"
 trTR = "Arayüz ses düzeyi"
 
 ["Settings.Tutorial.DisableTutorial"]
-status = "normal"
 raw = "Tắt hướng dẫn"
+status = "normal"
 enUS = "Disable tutorial"
 zhCN = "关闭教程"
 zhTW = "關閉教學指引"
@@ -30092,8 +30092,8 @@ viVN = "Chạy ở chế độ nền"
 trTR = "Arka planda çalıştır"
 
 ["Settings.UI.ShowFps"]
-status = "normal"
 raw = "Hiển thị FPS"
+status = "normal"
 enUS = "Show FPS"
 zhCN = "显示 FPS"
 zhTW = "顯示 FPS"
@@ -30211,8 +30211,8 @@ viVN = "Con hải ly này đã ở quá lâu trong nước ô nhiễm. Hiện t�
 trTR = "Bu kunduz, kirli suda çok fazla zaman geçirdi. Şimdilik iyi, ancak birkaç gün içinde hastalanacak."
 
 ["Status.BadwaterContamination.Incubation.Short"]
-status = "normal"
 raw = "Hải ly bị ốm"
+status = "normal"
 enUS = "Beaver is sick"
 zhCN = "海狸患病"
 zhTW = "海狸生病了"
@@ -30262,8 +30262,8 @@ viVN = "Chết thảm"
 trTR = "Trajik biçimde öldü"
 
 ["Status.Beaver.DiedTragicallyShort"]
-status = "normal"
 raw = "Hải ly chết thảm"
+status = "normal"
 enUS = "Beaver died tragically"
 zhCN = "海狸惨死"
 zhTW = "海狸慘死"
@@ -30313,8 +30313,8 @@ viVN = "Bị phá hủy."
 trTR = "Yok edildi."
 
 ["Status.Bot.DeadShort"]
-status = "normal"
 raw = "Hải ly máy bị phá hủy"
+status = "normal"
 enUS = "Mechanical beaver destroyed"
 zhCN = "机械海狸已被摧毁"
 zhTW = "機械海狸已被摧毀"
@@ -30466,8 +30466,8 @@ viVN = "Cổng không thể mở vì đang nối với hai khu vực khác nhau.
 trTR = "Kapı, iki farklı bölgeye bağlı olduğu için açılamıyor."
 
 ["Status.Buildings.GateConflict.Short"]
-status = "normal"
 raw = "Xung đột cổng"
+status = "normal"
 enUS = "Gate conflict"
 zhCN = "闸门冲突"
 zhTW = "閘門衝突"
@@ -30721,8 +30721,8 @@ viVN = "Bị mắc kẹt."
 trTR = "Mahsur kaldı."
 
 ["Status.Homelessness.Stranded.Short"]
-status = "normal"
 raw = "Mắc kẹt"
+status = "normal"
 enUS = "Stranded"
 zhCN = "被困在外"
 zhTW = "受困"
@@ -30857,8 +30857,8 @@ viVN = "Chưa chọn công thức"
 trTR = "Henüz tarif seçilmedi"
 
 ["Status.Mechanical.NoPower"]
-status = "normal"
 raw = "Công trình cần năng lượng. Kết nối nó với một máy phát năng lượng."
+status = "normal"
 enUS = "The building needs power. Connect it to a power source."
 zhCN = "该建筑需要动力。请将其连接到动力来源。"
 zhTW = "此建築需要動力。請將它連接到發電機。"
@@ -30976,8 +30976,8 @@ viVN = "Hết nước."
 trTR = "Su bitti."
 
 ["Status.NaturalResources.Overwatered"]
-status = "normal"
 raw = "Úng nước"
+status = "normal"
 enUS = "Waterlogged"
 zhCN = "水涝"
 zhTW = "水分過多"
@@ -31401,8 +31401,8 @@ viVN = "Không thể lấy đủ vật liệu yêu cầu."
 trTR = "Gerekli malzemeler yeterince alınamıyor."
 
 ["Status.Work.LackOfResources.Short"]
-status = "normal"
 raw = "Công trình thiếu vật liệu"
+status = "normal"
 enUS = "Building lacks materials"
 zhCN = "建筑缺少材料"
 zhTW = "建築缺少材料"
@@ -31435,8 +31435,8 @@ viVN = "Không có hải ly thất nghiệp trong khu vực."
 trTR = "Bölgede çalışmayan kunduz yok."
 
 ["Status.Work.NoUnemployed.Short"]
-status = "normal"
 raw = "Công trình thiếu hải ly lao động"
+status = "normal"
 enUS = "Building lacks unemployed beavers"
 zhCN = "建筑缺少可用海狸工人"
 zhTW = "沒有可用的海狸勞工"
@@ -31452,8 +31452,8 @@ viVN = "Công trình thiếu hải ly lao động"
 trTR = "İşsiz kunduz yok"
 
 ["Status.Yielding.NothingToDoInRange"]
-status = "normal"
 raw = "Không có gì để làm trong phạm vi"
+status = "normal"
 enUS = "Nothing to do in range"
 zhCN = "范围内无事可做"
 zhTW = "範圍內沒有可執行的工作"
@@ -31554,8 +31554,8 @@ viVN = "Xem trước"
 trTR = "Önizleme"
 
 ["SteamWorkshop.RefreshThumbnail"]
-status = "normal"
 raw = "Làm mới"
+status = "normal"
 enUS = "Refresh"
 zhCN = "刷新"
 zhTW = "重新整理"
@@ -31639,8 +31639,8 @@ viVN = "Cập nhật"
 trTR = "Güncelleme"
 
 ["SteamWorkshop.UploadAsNew"]
-status = "normal"
 raw = "Tải lên như mới"
+status = "normal"
 enUS = "Upload as new"
 zhCN = "作为新项目上传"
 zhTW = "以新項目上傳"
@@ -31656,8 +31656,8 @@ viVN = "Tải lên dưới dạng mới"
 trTR = "Yeni olarak yükle"
 
 ["SteamWorkshop.UploadButton"]
-status = "normal"
 raw = "Tải lên"
+status = "normal"
 enUS = "Upload"
 zhCN = "上传"
 zhTW = "上傳"
@@ -31758,8 +31758,8 @@ viVN = "Tải lên Steam Workshop"
 trTR = "Steam Atölyesi'ne yükle"
 
 ["SteamWorkshop.Visibility"]
-status = "normal"
 raw = "Hiển thị"
+status = "normal"
 enUS = "Visibility"
 zhCN = "显示"
 zhTW = "顯示"
@@ -31775,8 +31775,8 @@ viVN = "Hiển thị"
 trTR = "Görünürlük"
 
 ["SteamWorkshop.Visibility.Friends"]
-status = "normal"
 raw = "Chỉ bạn bè"
+status = "normal"
 enUS = "Friends only"
 zhCN = "仅好友"
 zhTW = "僅限好友"
@@ -31809,8 +31809,8 @@ viVN = "Riêng tư"
 trTR = "Özel"
 
 ["SteamWorkshop.Visibility.Public"]
-status = "normal"
 raw = "Công khai"
+status = "normal"
 enUS = "Public"
 zhCN = "公开"
 zhTW = "公開"
@@ -31911,8 +31911,8 @@ viVN = "Chuyển hết hàng hóa sang kho lưu trữ khác."
 trTR = "Tüm malları başka bir depoya taşı."
 
 ["StockpilePriority.Obtain"]
-status = "normal"
 raw = "Lấy"
+status = "normal"
 enUS = "Take"
 zhCN = "获取"
 zhTW = "取得"
@@ -31945,8 +31945,8 @@ viVN = "Lấy hàng hóa từ kho lưu trữ khác."
 trTR = "Başka bir depodan mal al."
 
 ["StockpilePriority.Supply"]
-status = "normal"
 raw = "Cung cấp"
+status = "normal"
 enUS = "Supply"
 zhCN = "供应"
 zhTW = "供應"
@@ -31996,8 +31996,8 @@ viVN = "Địa hình có phần chống đỡ không hợp lệ và đã bị x�
 trTR = "Geçersiz desteği olan arazi silindi."
 
 ["Thumbnail.NoPreview"]
-status = "normal"
 raw = "Không có bản xem trước"
+status = "normal"
 enUS = "No preview available"
 zhCN = "无预览"
 zhTW = "沒有預覽"
@@ -32013,8 +32013,8 @@ viVN = "Không có bản xem trước"
 trTR = "Önizleme yok"
 
 ["TimedComponentActivator.CountdownNotActive"]
-status = "normal"
 raw = "Ngủ yên"
+status = "normal"
 enUS = "Not sleeping"
 zhCN = "休眠中"
 zhTW = "尚未啟動"
@@ -32047,8 +32047,8 @@ viVN = "Chu kỳ trước khi kích hoạt đếm ngược"
 trTR = "Geri sayım etkinleştirmesine kadar olan döngü sayısı"
 
 ["TimedComponentActivator.DaysUntilActivationLoc"]
-status = "normal"
 raw = "Thời lượng đếm ngược theo ngày"
+status = "normal"
 enUS = "Countdown duration in days"
 zhCN = "倒计时天数"
 zhTW = "倒數至啟動的天數"
@@ -32098,8 +32098,8 @@ viVN = "Phát nổ sau: {0} ngày"
 trTR = "Patlamaya kalan süre: {0} gün"
 
 ["TimedComponentActivator.IsEnabledToggle"]
-status = "normal"
 raw = "Kích hoạt trễ"
+status = "normal"
 enUS = "Delayed Activation"
 zhCN = "延迟激活"
 zhTW = "延遲啟動"
@@ -32285,8 +32285,8 @@ viVN = "Đóng"
 trTR = "Kapalı"
 
 ["Toggle.State.Conflict"]
-status = "normal"
 raw = "Xung đột"
+status = "normal"
 enUS = "Conflict"
 zhCN = "冲突"
 zhTW = "衝突"
@@ -32302,8 +32302,8 @@ viVN = "Xung đột"
 trTR = "Çakışma"
 
 ["Toggle.State.Off"]
-status = "normal"
 raw = "tắt"
+status = "normal"
 enUS = "Off"
 zhCN = "关闭"
 zhTW = "關閉"
@@ -32319,8 +32319,8 @@ viVN = "tắt"
 trTR = "Kapalı"
 
 ["Toggle.State.On"]
-status = "normal"
 raw = "bật"
+status = "normal"
 enUS = "On"
 zhCN = "开启"
 zhTW = "開啟"
@@ -32353,8 +32353,8 @@ viVN = "Mở"
 trTR = "Açık"
 
 ["Tool.Cursor.Tooltip"]
-status = "normal"
 raw = "Chọn"
+status = "normal"
 enUS = "Select"
 zhCN = "选择"
 zhTW = "選取"
@@ -32370,8 +32370,8 @@ viVN = "Chọn"
 trTR = "Seç"
 
 ["Tool.Options.Tooltip"]
-status = "normal"
 raw = "Tùy chọn"
+status = "normal"
 enUS = "Options"
 zhCN = "选项"
 zhTW = "選項"
@@ -32387,8 +32387,8 @@ viVN = "Tùy chọn"
 trTR = "Seçenekler"
 
 ["ToolGroups.Decoration"]
-status = "normal"
 raw = "Trang trí"
+status = "normal"
 enUS = "Decorations"
 zhCN = "装饰"
 zhTW = "裝飾"
@@ -32404,8 +32404,8 @@ viVN = "Trang trí"
 trTR = "Süslemeler"
 
 ["ToolGroups.Demolishing"]
-status = "normal"
 raw = "Phá hủy các công trình và tài nguyên"
+status = "normal"
 enUS = "Demolish buildings and resources"
 zhCN = "拆除建筑和资源"
 zhTW = "拆除建築與資源"
@@ -32438,8 +32438,8 @@ viVN = "Quản lý khu vực"
 trTR = "Bölge Yönetimi"
 
 ["ToolGroups.FieldsPlanting"]
-status = "normal"
 raw = "Trồng trọt"
+status = "normal"
 enUS = "Farming"
 zhCN = "种植"
 zhTW = "種植"
@@ -32489,8 +32489,8 @@ viVN = "Trồng cây và bụi rậm"
 trTR = "Ağaç ve çalı dikimi"
 
 ["ToolGroups.Housing"]
-status = "normal"
 raw = "Nhà ở"
+status = "normal"
 enUS = "Housing"
 zhCN = "住房"
 zhTW = "住宅"
@@ -32506,8 +32506,8 @@ viVN = "Nhà ở"
 trTR = "Konutlar"
 
 ["ToolGroups.Landscaping"]
-status = "normal"
 raw = "Trang trí đất"
+status = "normal"
 enUS = "Landscaping"
 zhCN = "地形装饰"
 zhTW = "地形美化工具組"
@@ -32540,8 +32540,8 @@ viVN = "Trình biên tập bản đồ"
 trTR = "Harita Düzenleyicisi"
 
 ["ToolGroups.MapEditorObjects"]
-status = "normal"
 raw = "Đối tượng"
+status = "normal"
 enUS = "Object"
 zhCN = "对象"
 zhTW = "物件"
@@ -32557,8 +32557,8 @@ viVN = "Đối tượng"
 trTR = "Nesneler"
 
 ["ToolGroups.MapEditorWater"]
-status = "normal"
 raw = "Nước"
+status = "normal"
 enUS = "Water"
 zhCN = "水"
 zhTW = "水"
@@ -32574,8 +32574,8 @@ viVN = "Nước"
 trTR = "Su"
 
 ["ToolGroups.Metal"]
-status = "normal"
 raw = "Kim loại"
+status = "normal"
 enUS = "Metal"
 zhCN = "金属"
 zhTW = "金屬"
@@ -32591,8 +32591,8 @@ viVN = "Kim loại"
 trTR = "Metal"
 
 ["ToolGroups.Monuments"]
-status = "normal"
 raw = "Tượng đài"
+status = "normal"
 enUS = "Monuments"
 zhCN = "纪念碑工具组"
 zhTW = "紀念碑"
@@ -32608,8 +32608,8 @@ viVN = "Tượng đài"
 trTR = "Anıtlar"
 
 ["ToolGroups.NaturalOverhangs"]
-status = "normal"
 raw = "Mái vòm tự nhiên"
+status = "normal"
 enUS = "Natural Overhangs"
 zhCN = "自然悬挑体貌"
 zhTW = "天然懸垂屋頂"
@@ -32727,8 +32727,8 @@ viVN = "Khoa học"
 trTR = "Bilim"
 
 ["ToolGroups.Storage"]
-status = "normal"
 raw = "Kho lưu trữ"
+status = "normal"
 enUS = "Storage warehouse"
 zhCN = "仓储"
 zhTW = "儲存庫"
@@ -32744,8 +32744,8 @@ viVN = "Kho lưu trữ"
 trTR = "Depolama Tesisleri"
 
 ["ToolGroups.TreeCutting"]
-status = "normal"
 raw = "Chặt cây"
+status = "normal"
 enUS = "Cutting trees"
 zhCN = "砍树"
 zhTW = "砍伐樹木"
@@ -32863,8 +32863,8 @@ viVN = "Đầu ra"
 trTR = "Çıktılar"
 
 ["TopBar.GoodStockpileTooltip.Stockpiles"]
-status = "normal"
 raw = "Kho chứa"
+status = "normal"
 enUS = "Storage warehouse"
 zhCN = "储物堆晏"
 zhTW = "倉庫的儲存量"
@@ -33033,8 +33033,8 @@ viVN = "Sử dụng công cụ này để bỏ đánh dấu khu vực chặt câ
 trTR = "Ağaç kesme alanı işaretlerini kaldırmak için bu aracı kullanın."
 
 ["TreeCuttingUnselectionTool.Title"]
-status = "normal"
 raw = "Hủy đánh dấu khu vực chặt cây"
+status = "normal"
 enUS = "Cancel tree cutting area designation"
 zhCN = "取消标记伐木区域"
 zhTW = "取消標記砍伐區域"
@@ -33050,8 +33050,8 @@ viVN = "Hủy đánh dấu khu vực chặt cây"
 trTR = "Ağaç kesme alanı seçimini kaldır"
 
 ["Tutorial.Badtides"]
-status = "normal"
 raw = "Thủy triều độc"
+status = "normal"
 enUS = "Toxic tide"
 zhCN = "恶潮"
 zhTW = "有毒潮汐"
@@ -33084,8 +33084,8 @@ viVN = "Khu định cư của bạn đã vượt qua đợt thủy triều độ
 trTR = "Yerleşiminiz ilk zehirli gelgiti atlattı.\n                              \nKuraklıklar gibi zehirli gelgitler de mevsim döngüsünün bir parçasıdır.\n                              \nSonraki zehirli gelgitler bu kadar insaflı olmayacak, bu yüzden tetikte olun."
 
 ["Tutorial.Basics"]
-status = "normal"
 raw = "Cơ bản"
+status = "normal"
 enUS = "Basics"
 zhCN = "基础"
 zhTW = "基本操作"
@@ -33254,8 +33254,8 @@ viVN = "Giờ hãy xoay góc nhìn."
 trTR = "Şimdi kamerayı döndür."
 
 ["Tutorial.Basics.RotateCameraLeft"]
-status = "normal"
 raw = "Xoay camera sang trái"
+status = "normal"
 enUS = "Rotate camera left"
 zhCN = "向左旋转镜头"
 zhTW = "將鏡頭向左旋轉"
@@ -33288,8 +33288,8 @@ viVN = "Xoay camera sang phải"
 trTR = "Kamerayı sağa döndür"
 
 ["Tutorial.Basics.SetSpeed1"]
-status = "normal"
 raw = "Đặt tốc độ thành >"
+status = "normal"
 enUS = "Set speed to >"
 zhCN = "将速度设为 >"
 zhTW = "將速度設為 >"
@@ -33339,8 +33339,8 @@ viVN = "Đặt tốc độ thành >>>"
 trTR = "Hızı >>> olarak ayarla"
 
 ["Tutorial.Basics.Unpause"]
-status = "normal"
 raw = "Tiếp tục"
+status = "normal"
 enUS = "Continue"
 zhCN = "继续"
 zhTW = "繼續"
@@ -33356,8 +33356,8 @@ viVN = "Tiếp tục"
 trTR = "Devam et"
 
 ["Tutorial.Basics.ZoomCamera"]
-status = "normal"
 raw = "Nếu muốn xem hải ly ở gần hơn, hoặc nhìn bao quát khu định cư rộng hơn, bạn đều có thể!"
+status = "normal"
 enUS = "Whether you want to get a closer look at the beavers or take in a wider view of the settlement, you can do it!"
 zhCN = "无论是想近距离观察海狸，还是想纵览整个聚居地，都可以！"
 zhTW = "無論是想近距離觀察海狸，還是縱覽整個聚居地，都可以！"
@@ -33373,8 +33373,8 @@ viVN = "Bạn có thể phóng to để ngắm hải ly gần hơn, hoặc thu n
 trTR = "Kunduzları daha yakından görmek ya da yerleşimin daha geniş bir alanını görmek istiyorsanız, ikisini de yapabilirsiniz!"
 
 ["Tutorial.Basics.ZoomCameraIn"]
-status = "normal"
 raw = "Phóng to"
+status = "normal"
 enUS = "Zoom in"
 zhCN = "放大"
 zhTW = "放大"
@@ -33390,8 +33390,8 @@ viVN = "Phóng to"
 trTR = "Yakınlaştır"
 
 ["Tutorial.Basics.ZoomCameraOut"]
-status = "normal"
 raw = "Thu nhỏ"
+status = "normal"
 enUS = "Zoom out"
 zhCN = "缩小视野"
 zhTW = "縮小畫面"
@@ -33441,8 +33441,8 @@ viVN = "Kết nối: {0} ({1}/{2})"
 trTR = "Bağlantı: {0} ({1}/{2})"
 
 ["Tutorial.Continue"]
-status = "normal"
 raw = "Tiếp tục"
+status = "normal"
 enUS = "Continue"
 zhCN = "继续"
 zhTW = "繼續"
@@ -33509,8 +33509,8 @@ viVN = "Giảm ưu tiên nơi làm việc: {0}"
 trTR = "İş yeri önceliğini azalt: {0}"
 
 ["Tutorial.Disable"]
-status = "normal"
 raw = "Vô hiệu hóa hướng dẫn"
+status = "normal"
 enUS = "Disable tutorial"
 zhCN = "禁用教程"
 zhTW = "停用教學"
@@ -33526,8 +33526,8 @@ viVN = "Vô hiệu hóa hướng dẫn"
 trTR = "Rehberliği devre dışı bırak"
 
 ["Tutorial.DisablePrompt"]
-status = "normal"
 raw = "Bạn có chắc muốn vô hiệu hóa hướng dẫn không?\nBạn có thể bật lại nó sau trong cài đặt."
+status = "normal"
 enUS = "Are you sure you want to disable the tutorial?\nYou can turn it back on later in the settings."
 zhCN = "确定要禁用教程吗？\n之后可以在设置中重新启用。"
 zhTW = "確定要停用教學嗎？\n之後可以在設定中重新啟用。"
@@ -33628,8 +33628,8 @@ viVN = "Dùng công cụ Trồng cây và bụi để trồng vài cây Bạch d
 trTR = "Ağaç ve çalı dikme aracını kullanarak birkaç Huş ağacı dikin. Hızlı büyürler ve yeni bir yerleşim için çok uygundurlar.\n                                          \nEkinler gibi ağaçlar da yalnızca sulanmış yeşil alanlarda yetişir.\n                                          \nDaha sonra kesmek için dikim alanını işaretlemeyi unutmayın."
 
 ["Tutorial.HaulersAndWorkforce"]
-status = "normal"
 raw = "Phu khuân vác và lao động"
+status = "normal"
 enUS = "Haulers and workforce jobs"
 zhCN = "搬运工与劳动力"
 zhTW = "搬運工與勞動人口"
@@ -33696,8 +33696,8 @@ viVN = "Bạn có thể tạm dừng các công trình và công trường. Đi�
 trTR = "İş yerlerini ve inşaat sahalarını duraklatabilirsiniz. Bu, kunduzların davranışlarını daha iyi kontrol etmenizi sağlar.\n                                               \nÖrneğin, duraklatılan bir iş yerinde çalışan kalmaz ve işçiler otomatik olarak boşta olan başka bir iş yerine geçer.\n                                               \nTaşıyıcı Karakolu'nu seçin ve inşaat panelindeki düğmeyle duraklatın."
 
 ["Tutorial.Housing"]
-status = "normal"
 raw = "Nhà ở"
+status = "normal"
 enUS = "Housing"
 zhCN = "住房"
 zhTW = "住宅"
@@ -33764,8 +33764,8 @@ viVN = "Chào mừng đến với Timberborn! Hướng dẫn này sẽ giúp b�
 trTR = "Timberborn'a hoş geldiniz! Bu rehber, yabanıl doğaya adım atmanıza ve ilk günleri atlatmanıza yardımcı olacak.\n                                   \nGelişen bir kunduz topluluğu kurmak için gereken araçları nasıl kullanacağınızı öğreneceksiniz.\n                                   \nSonraki adımlarda ilerledikçe ipuçları burada görünecek."
 
 ["Tutorial.LayerTool.ChangeUsingMouse"]
-status = "normal"
 raw = "Bạn có thể điều khiển lớp hiển thị mà không cần bấm nút bằng các phím tắt tùy chỉnh.\n                                     \nNhiều hành động khác cũng có phím tắt. Bạn có thể xem chúng trong tooltip hoặc menu Cài đặt."
+status = "normal"
 enUS = "You can control the display layer without clicking the button using custom hotkeys.\n                                     \nMany other actions also have hotkeys. You can see them in the tooltip or Settings menu."
 zhCN = "你可以使用自定义快捷键控制图层显示，无需点击按钮。\n                                     \n许多其他操作也有快捷键。你可以在工具提示或“设置”菜单中查看。"
 zhTW = "你可以使用自訂快捷鍵切換顯示圖層，不必按下按鈕。\n                                     \n許多其他操作也有快捷鍵。你可以在工具提示或「設定」選單中查看。"
@@ -33815,8 +33815,8 @@ viVN = "Hạ lớp hiển thị xuống 0"
 trTR = "Görünüm katmanını 0'a düşür"
 
 ["Tutorial.LayerTool.Increase"]
-status = "normal"
 raw = "Nâng lớp hiển thị"
+status = "normal"
 enUS = "Increase display layer"
 zhCN = "提高显示层级"
 zhTW = "增加顯示圖層"
@@ -33849,8 +33849,8 @@ viVN = "Công cụ lớp phủ"
 trTR = "Katman Aracı"
 
 ["Tutorial.LayerTool.Reset"]
-status = "normal"
 raw = "Đặt lại lớp hiển thị"
+status = "normal"
 enUS = "Reset display layer"
 zhCN = "重置图层显示"
 zhTW = "重設圖層顯示"
@@ -33917,8 +33917,8 @@ viVN = "Thêm hải ly"
 trTR = "Daha fazla kunduz ekle"
 
 ["Tutorial.MoreBeavers.BeaverBirth"]
-status = "normal"
 raw = "Sinh hải ly con"
+status = "normal"
 enUS = "Give birth to a baby beaver"
 zhCN = "海狸幼崽出生"
 zhTW = "生出小海狸"
@@ -34070,8 +34070,8 @@ viVN = "({0}/{1})"
 trTR = "({0}/{1})"
 
 ["Tutorial.Science"]
-status = "normal"
 raw = "Khoa học"
+status = "normal"
 enUS = "Science"
 zhCN = "科学"
 zhTW = "科學"
@@ -34104,8 +34104,8 @@ viVN = "Tích lũy: Điểm khoa học ({0}/{1})"
 trTR = "Biriktir: Bilim puanı ({0}/{1})"
 
 ["Tutorial.Science.Inventor"]
-status = "normal"
 raw = "Hải ly là kỹ sư của thế giới động vật. Đã đến lúc biến những ý tưởng lumberpunk của chúng thành hiện thực.\n                           \nXây Nhà phát minh để tạo Điểm khoa học."
+status = "normal"
 enUS = "Beavers are the engineers of the animal kingdom. It's time to bring their lumberpunk ideas to life.\n                           \nBuild an Inventor to generate Science Points."
 zhCN = "海狸是动物界的工程师。是时候让它们的木朋克创意成为现实了。\n\n建造发明家小屋来获得科学点数。"
 zhTW = "海狸是動物界的工程師。是時候讓牠們的木朋克創意成真了。\n\n建造發明家工坊來產生科學點數。"
@@ -34189,8 +34189,8 @@ viVN = "Set working hours to {0}"
 trTR = "Çalışma saatlerini {0} olarak ayarla"
 
 ["Tutorial.Storage"]
-status = "normal"
 raw = "Kho chứa"
+status = "normal"
 enUS = "Storage warehouse"
 zhCN = "仓库"
 zhTW = "倉庫"
@@ -34257,8 +34257,8 @@ viVN = "Cuối cùng, hãy chuẩn bị chỗ chứa Quả mọng. Ta cũng nên
 trTR = "Son olarak, Meyveler için depolama alanı hazırlayın. Yaklaşan Havuç hasadına da hazır olmalıyız.\n                             \nYiyecekler, sandıklarda depolanan diğer birçok mal gibi depolarda saklanır."
 
 ["Tutorial.Tutorial"]
-status = "normal"
 raw = "Hướng dẫn"
+status = "normal"
 enUS = "Tutorial"
 zhCN = "教程"
 zhTW = "教學"
@@ -34291,8 +34291,8 @@ viVN = "Tiếp tục: {0}"
 trTR = "Devam et: {0}"
 
 ["Tutorial.VerticalArchitecture"]
-status = "normal"
 raw = "Kiến trúc dọc"
+status = "normal"
 enUS = "Vertical Architecture"
 zhCN = "垂直建筑搭建技巧"
 zhTW = "垂直建築術"
@@ -34478,8 +34478,8 @@ viVN = "Mở bảng Hạnh phúc"
 trTR = "Mutluluk panelini aç"
 
 ["Tutorial.Wellbeing.SelectBeaver"]
-status = "normal"
 raw = "Chọn một hải ly và kiểm tra nhu cầu của nó"
+status = "normal"
 enUS = "Select a beaver and check its needs."
 zhCN = "选择一只海狸并查看它的需求"
 zhTW = "選擇一隻海狸並查看牠的需求"
@@ -34682,8 +34682,8 @@ viVN = "{0}k"
 trTR = "{0} Bk"
 
 ["Unit.Compact.Kilo.UnitOnly"]
-status = "normal"
 raw = "k"
+status = "normal"
 enUS = "k"
 zhCN = "千克"
 zhTW = "千"
@@ -34716,8 +34716,8 @@ viVN = "{0}M"
 trTR = "{0} Mn"
 
 ["Unit.Compact.Mega.UnitOnly"]
-status = "normal"
 raw = "M"
+status = "normal"
 enUS = "M"
 zhCN = "M"
 zhTW = "百萬"
@@ -34784,8 +34784,8 @@ viVN = "{0} ngày"
 trTR = "{0} gün"
 
 ["Unit.Day.UnitOnly"]
-status = "normal"
 raw = "ngày"
+status = "normal"
 enUS = "day"
 zhCN = "天"
 zhTW = "天"
@@ -34818,8 +34818,8 @@ viVN = "{0}°"
 trTR = "{0}°"
 
 ["Unit.Degree.UnitOnly"]
-status = "normal"
 raw = "°"
+status = "normal"
 enUS = "°"
 zhCN = "°"
 zhTW = "°"
@@ -34852,8 +34852,8 @@ viVN = "{0} mã lực"
 trTR = "{0} bgm"
 
 ["Unit.HorsePower.UnitOnly"]
-status = "normal"
 raw = "hp"
+status = "normal"
 enUS = "hp"
 zhCN = "hp"
 zhTW = "hp"
@@ -34988,8 +34988,8 @@ viVN = "{0} giờ"
 trTR = "{0} saat"
 
 ["Unit.Hour.UnitOnly"]
-status = "normal"
 raw = "giờ"
+status = "normal"
 enUS = "hour"
 zhCN = "小时"
 zhTW = "小時"
@@ -35107,8 +35107,8 @@ viVN = "%"
 trTR = "%"
 
 ["Unit.Tick.NumberAndUnit"]
-status = "normal"
 raw = "{0} tick"
+status = "normal"
 enUS = "{0} tick"
 zhCN = "{0} 刻度"
 zhTW = "{0} 刻"
@@ -35124,8 +35124,8 @@ viVN = "{0} nhịp"
 trTR = "{0} tik"
 
 ["Unit.Tick.UnitOnly"]
-status = "normal"
 raw = "tick"
+status = "normal"
 enUS = "tick"
 zhCN = "刻"
 zhTW = "刻"
@@ -35192,8 +35192,8 @@ viVN = "Độ sâu"
 trTR = "Derinlik"
 
 ["WaterInputCoordinates.Limit"]
-status = "normal"
 raw = "Giới hạn"
+status = "normal"
 enUS = "Limit"
 zhCN = "限制"
 zhTW = "限制"
@@ -35345,8 +35345,8 @@ viVN = "Ngày {0}-{1}"
 trTR = "Gün {0}-{1}"
 
 ["Weather.CycleBegins"]
-status = "normal"
 raw = "Chu kỳ {0} bắt đầu"
+status = "normal"
 enUS = "Cycle {0} begins"
 zhCN = "周期 {0} 开始"
 zhTW = "週期 {0} 開始"
@@ -35430,8 +35430,8 @@ viVN = "Thủy triều nước bẩn sắp đến"
 trTR = "Kirli su dalgası yaklaşıyor"
 
 ["Weather.Notification.BadtideInProgress"]
-status = "normal"
 raw = "Thủy triều bẩn đang diễn ra"
+status = "normal"
 enUS = "Badwater tide in progress"
 zhCN = "恶水潮正在发生"
 zhTW = "毒水潮正在發生"
@@ -35447,8 +35447,8 @@ viVN = "Đợt thủy triều nước bẩn đang diễn ra"
 trTR = "Kirli gelgit yaşanıyor"
 
 ["Weather.Notification.DroughtApproaching"]
-status = "normal"
 raw = "Hạn hán sắp đến"
+status = "normal"
 enUS = "Drought approaching"
 zhCN = "旱灾即将来临"
 zhTW = "旱災即將來臨"
@@ -35566,8 +35566,8 @@ viVN = "Kỷ lục hạnh phúc mới:"
 trTR = "Yeni mutluluk rekoru:"
 
 ["Wellbeing.NextTier"]
-status = "normal"
 raw = "Phân cấp tiếp theo"
+status = "normal"
 enUS = "Next tier"
 zhCN = "下一级"
 zhTW = "下一個階級"
@@ -35600,8 +35600,8 @@ viVN = "Phúc lợi dân số"
 trTR = "Nüfus Refahı"
 
 ["Wellbeing.ShowPopulation"]
-status = "normal"
 raw = "Hiển thị phúc lợi dân số"
+status = "normal"
 enUS = "Show population wellbeing"
 zhCN = "显示人口福祉"
 zhTW = "顯示人口福祉"
@@ -35634,8 +35634,8 @@ viVN = "Phe phái mới đã được mở khóa"
 trTR = "Yeni hiziplerin kilidi açıldı"
 
 ["Wonder.Activate"]
-status = "normal"
 raw = "Khởi động"
+status = "normal"
 enUS = "Activate"
 zhCN = "启动"
 zhTW = "啟動"
@@ -35685,8 +35685,8 @@ viVN = "Thống kê:"
 trTR = "İstatistikler:"
 
 ["WonderCompletion.Statistic.BeaversBorn"]
-status = "normal"
 raw = "Hải ly được sinh ra:"
+status = "normal"
 enUS = "Beavers born:"
 zhCN = "海狸出生数："
 zhTW = "海狸出生數："
@@ -35702,8 +35702,8 @@ viVN = "Hải ly được sinh ra:"
 trTR = "Doğan kunduzlar:"
 
 ["WonderCompletion.Statistic.BeaversExploded"]
-status = "normal"
 raw = "Hải ly bị nổ tung:"
+status = "normal"
 enUS = "Beavers exploded:"
 zhCN = "被炸飞的海狸："
 zhTW = "海狸爆炸數："
@@ -35719,8 +35719,8 @@ viVN = "Hải ly bị nổ tung:"
 trTR = "Patlayan kunduzlar:"
 
 ["WonderCompletion.Statistic.BotsManufactured"]
-status = "normal"
 raw = "Hải ly máy được chế tạo:"
+status = "normal"
 enUS = "Mechanical beavers manufactured:"
 zhCN = "制造的机械海狸："
 zhTW = "已製造的機器海狸："
@@ -35770,8 +35770,8 @@ viVN = "Số ngày đã trôi qua:"
 trTR = "Geçen gün sayısı:"
 
 ["WonderCompletion.Statistic.DynamiteDetonated"]
-status = "normal"
 raw = "Thuốc nổ được kích hoạt:"
+status = "normal"
 enUS = "Dynamite detonated:"
 zhCN = "已引爆的炸药："
 zhTW = "引爆的炸藥："
@@ -35804,8 +35804,8 @@ viVN = "Đuôi được sơn:"
 trTR = "Boyanmış kuyruklar:"
 
 ["WonderCompletion.Statistic.TreesCut"]
-status = "normal"
 raw = "Cây bị chặt:"
+status = "normal"
 enUS = "Trees felled:"
 zhCN = "砍伐的树木："
 zhTW = "砍伐的樹木："
@@ -36042,8 +36042,8 @@ viVN = "Năng suất:"
 trTR = "Verimlilik:"
 
 ["Work.ProductivityHeader"]
-status = "normal"
 raw = "Năng suất"
+status = "normal"
 enUS = "Productivity"
 zhCN = "生产效率"
 zhTW = "生產力"
@@ -36076,8 +36076,8 @@ viVN = "Tỉ lệ phần trăm thời gian dành cho sản xuất so với thờ
 trTR = "Üretime ayrılan sürenin dinlenme süresine oranı; örneğin malzeme taşımacılığı."
 
 ["Work.Vacant"]
-status = "normal"
 raw = "Trống"
+status = "normal"
 enUS = "Vacant"
 zhCN = "空缺"
 zhTW = "空缺的工作職位"
@@ -36093,8 +36093,8 @@ viVN = "Trống"
 trTR = "Boş"
 
 ["Work.VacantPlural"]
-status = "normal"
 raw = "Vị trí tuyển dụng"
+status = "normal"
 enUS = "Job openings"
 zhCN = "空缺职位"
 zhTW = "職缺處"
@@ -36110,8 +36110,8 @@ viVN = "Vị trí còn trống"
 trTR = "Boş Pozisyonlar"
 
 ["Work.WorkRefusalWarning"]
-status = "normal"
 raw = "Từ chối làm việc"
+status = "normal"
 enUS = "Refuses to work"
 zhCN = "拒绝工作"
 zhTW = "拒絕工作"
@@ -36161,8 +36161,8 @@ viVN = "Hải ly lao động"
 trTR = "Çalışan kunduzlar"
 
 ["Work.WorkingHoursTooltip"]
-status = "normal"
 raw = "Giờ làm việc"
+status = "normal"
 enUS = "Working hours"
 zhCN = "工作时间"
 zhTW = "工作時間"
@@ -36348,8 +36348,8 @@ viVN = "{0}° / {1}°"
 trTR = "{0}° / {1}°"
 
 ["Zipline.InclinationWarning"]
-status = "normal"
 raw = "Quá dốc!"
+status = "normal"
 enUS = "Too steep!"
 zhCN = "太陡了！"
 zhTW = "太陡了！"

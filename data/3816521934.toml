@@ -87,8 +87,8 @@ viVN = "Hàng hóa được chấp nhận tại đây (màu xanh lá = chấp nh
 trTR = "Burada kabul edilen mallar (yeşil = kabul edilir)"
 
 ["AirLogistics.Panel.All"]
-status = "normal"
 raw = "All"
+status = "normal"
 enUS = "All"
 zhCN = "全部"
 zhTW = "全部"
@@ -104,8 +104,8 @@ viVN = "Tất cả"
 trTR = "Tümü"
 
 ["AirLogistics.Panel.None"]
-status = "normal"
 raw = "None"
+status = "normal"
 enUS = "None"
 zhCN = "无"
 zhTW = "無None"
@@ -138,8 +138,8 @@ viVN = "Bộ lọc"
 trTR = "Filtre"
 
 ["AirLogistics.Panel.Reserve"]
-status = "normal"
 raw = "Keep at least"
+status = "normal"
 enUS = "Keep at least"
 zhCN = "至少保留"
 zhTW = "至少保留"
@@ -155,8 +155,8 @@ viVN = "Giữ ít nhất"
 trTR = "En az şu kadarını tut JSImport"
 
 ["AirLogistics.Panel.NoCrew"]
-status = "normal"
 raw = "! Crew {0}/{1} - will not fly"
+status = "normal"
 enUS = "! Crew {0}/{1} - will not fly"
 zhCN = "！机组人员 {0}/{1}——无法起飞"
 zhTW = "! 機組人員 {0}/{1} - 不會起飛"
@@ -189,8 +189,8 @@ viVN = "! Không có {0} - đánh dấu {0} trong danh sách hàng hóa + đánh
 trTR = "! {0} yok - eşya listesinde {0} öğesini işaretle + onu içeren bir tankı işaretle"
 
 ["AirLogistics.Panel.NoDestination"]
-status = "normal"
 raw = "! No destination ticked - will not fly"
+status = "normal"
 enUS = "! No destination selected — will not fly"
 zhCN = "! 未勾选目的地 — 不会起飞"
 zhTW = "！未勾選目的地——不會起飛"
@@ -206,8 +206,8 @@ viVN = "! Chưa chọn điểm đến nào — sẽ không bay 日博"
 trTR = "! Hedef seçilmedi - uçmayacak"
 
 ["AirLogistics.Panel.Night"]
-status = "normal"
 raw = "! Off duty - outside working hours"
+status = "normal"
 enUS = "! Off duty - outside working hours"
 zhCN = "！非工作时间 - 下班状态"
 zhTW = "！非值勤時間－工作時段以外"
@@ -274,8 +274,8 @@ viVN = "Công trình"
 trTR = "Bina"
 
 ["AirLogistics.Panel.DestFull"]
-status = "normal"
 raw = "full"
+status = "normal"
 enUS = "Full"
 zhCN = "已满"
 zhTW = "已滿"

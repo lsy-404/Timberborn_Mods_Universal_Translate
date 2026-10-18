@@ -53,8 +53,8 @@ viVN = "Ống dẫn nước"
 trTR = "Borular"
 
 ["LV.TPi.HorizontalPipeName"]
-status = "normal"
 raw = "Pipe"
+status = "normal"
 enUS = "Pipe"
 zhCN = "管道"
 zhTW = "管道"
@@ -155,8 +155,8 @@ viVN = "Kế hoạch hay nào cũng gặp phải một bức tường. Đây là
 trTR = "Her iyi plan bir duvara toslar. Planı böyle korursun."
 
 ["LV.TPi.ElbowPipeValveName"]
-status = "normal"
 raw = "One-way Elbow"
+status = "normal"
 enUS = "One-Way Elbow"
 zhCN = "单向弯管阀"
 zhTW = "單向彎管閥"
@@ -308,8 +308,8 @@ viVN = "Hướng thứ tư dành cho lúc quản đốc đổi ý."
 trTR = "Dördüncü yön, ustabaşının fikrini değiştirdiği durumlar içindir."
 
 ["LV.TPi.VerticalCrossPipeName"]
-status = "normal"
 raw = "Vertical Cross"
+status = "normal"
 enUS = "Vertical Cross"
 zhCN = "垂直十字管道"
 zhTW = "垂直十字管道"
@@ -512,8 +512,8 @@ viVN = "Chúng tôi đã đo một bộ dụng cụ. Sau đó, chúng tôi thu n
 trTR = "Bir yavru kunduzu ölçtük. Sonra borunun çapını, tünel borusuna dönüşmesin diye küçülttük."
 
 ["LV.TPi.HorizontalPipeValveName"]
-status = "normal"
 raw = "One-way Valve"
+status = "normal"
 enUS = "One-way Valve"
 zhCN = "单向阀"
 zhTW = "單向閥門"
@@ -665,8 +665,8 @@ viVN = "Nhà phát minh đã hiểu câu “Rút cạn đến giọt cuối cùn
 trTR = "Mucit, “Seni kupkuru bırak” sözünü kelimesi kelimesine anladı."
 
 ["LV.TPi.HorizontalPipePumpName"]
-status = "normal"
 raw = "Pipe Pump"
+status = "normal"
 enUS = "Pipe Pump"
 zhCN = "管道泵"
 zhTW = "管道抽水機"
@@ -886,8 +886,8 @@ viVN = "Đường ống bị nhiễm bẩn"
 trTR = "Kirlenmiş borular"
 
 ["LV.TPi.Flush"]
-status = "normal"
 raw = "Flush"
+status = "normal"
 enUS = "Flush"
 zhCN = "冲洗"
 zhTW = "沖洗"
@@ -971,8 +971,8 @@ viVN = "Nạp vào"
 trTR = "Doldur"
 
 ["LV.TPi.ValveOutlet"]
-status = "normal"
 raw = "Extract"
+status = "normal"
 enUS = "Extract"
 zhCN = "抽取"
 zhTW = "抽取"
@@ -1141,8 +1141,8 @@ viVN = "Đã thêm Khúc cua một chiều."
 trTR = "Tek Yönlü Dirsek eklendi."
 
 [Name_TransportPipeFragment]
-status = "normal"
 raw = "Pipe"
+status = "normal"
 enUS = "Pipe"
 zhCN = "管道"
 zhTW = "管道"
@@ -1192,8 +1192,8 @@ viVN = "Dòng chảy ra"
 trTR = "Çıkış Akışı"
 
 [Name_PipeTankFragment]
-status = "normal"
 raw = "Tank"
+status = "normal"
 enUS = "Tank"
 zhCN = "水箱"
 zhTW = "水槽"

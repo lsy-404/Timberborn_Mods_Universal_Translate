@@ -2,8 +2,8 @@
 name = "Folktails+"
 
 ["Building.JamStove.DisplayName"]
-status = "normal"
 raw = "Jam Stove"
+status = "normal"
 enUS = "Jam Stove"
 zhCN = "果酱炉"
 zhTW = "果醬爐"
@@ -53,8 +53,8 @@ viVN = "Chiếc nồi đã phải được đậy kín sau khi quá nhiều hả
 trTR = "Çok fazla tatlı düşkünü kunduzun nefis reçele kanmasının ardından tencerenin kapağını kapatmak gerekti."
 
 ["Good.BerryBun.DisplayName"]
-status = "normal"
 raw = "Berry buns"
+status = "normal"
 enUS = "Berry Buns"
 zhCN = "浆果面包"
 zhTW = "莓果麵包蓋"
@@ -104,8 +104,8 @@ viVN = "Mứt quả mọng"
 trTR = "Böğürtlen Reçeli"
 
 ["Good.BerryJam.PluralDisplayName"]
-status = "normal"
 raw = "Berry jam"
+status = "normal"
 enUS = "Berry Jam"
 zhCN = "浆果果酱"
 zhTW = "莓果果醬"

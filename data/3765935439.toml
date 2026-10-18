@@ -104,8 +104,8 @@ viVN = "Hướng 2"
 trTR = "Yön 2"
 
 ["Tobbert.TrackOneWay.Chain.Off"]
-status = "normal"
 raw = "Signal: standard"
+status = "normal"
 enUS = "Signal: standard"
 zhCN = "信号：标准"
 zhTW = "訊號：標準"
@@ -121,8 +121,8 @@ viVN = "Tín hiệu: tiêu chuẩn"
 trTR = "Sinyal: standart"
 
 ["Tobbert.TrackOneWay.Chain.On"]
-status = "normal"
 raw = "Signal: chain"
+status = "normal"
 enUS = "Signal: chain"
 zhCN = "信号：联锁信号"
 zhTW = "號誌：連鎖信號"
@@ -189,8 +189,8 @@ viVN = "Đây là nơi những chiếc tàu được sinh ra."
 trTR = "Trenlerin doğduğu yerdir."
 
 ["Tobbert.ConstructionYard.DisplayName"]
-status = "normal"
 raw = "Construction Yard"
+status = "normal"
 enUS = "Construction Yard"
 zhCN = "建造场"
 zhTW = "施工場"
@@ -206,8 +206,8 @@ viVN = "Bãi xây dựng"
 trTR = "İnşaat Alanı"
 
 ["Tobbert.ConstructionYard.Description"]
-status = "normal"
 raw = "Home base of the construction train. Stock it with building materials and it keeps the train loaded and charged."
+status = "normal"
 enUS = "Home base for the construction train. Stock it with building materials to keep the train loaded and charged."
 zhCN = "建造列车的基地。储备建筑材料后，它就能让列车保持装载和充能状态。"
 zhTW = "建造列車的基地。存放建築材料，就能讓列車持續裝載物資並充能。"
@@ -223,8 +223,8 @@ viVN = "Căn cứ của đoàn tàu xây dựng. Hãy chất vật liệu xây d
 trTR = "İnşaat treninin ana üssü. Yapı malzemeleriyle doldurun; trenin yükünü ve şarjını sürekli hazır tutar."
 
 ["Tobbert.ConstructionYard.FlavorDescription"]
-status = "normal"
 raw = "Where the tracks end, the work begins."
+status = "normal"
 enUS = "Where the tracks end, the work begins."
 zhCN = "轨道的尽头，就是工作的起点。"
 zhTW = "鐵軌的盡頭，就是工作的起點。"
@@ -240,8 +240,8 @@ viVN = "Nơi đường ray kết thúc, công việc bắt đầu."
 trTR = "Rayların bittiği yerde iş başlar."
 
 ["Tobbert.ConstructionYard.BuildTrain"]
-status = "normal"
 raw = "Build construction train"
+status = "normal"
 enUS = "Build a construction train"
 zhCN = "建造施工列车"
 zhTW = "建造施工列車"
@@ -257,8 +257,8 @@ viVN = "Xây dựng tàu công trình"
 trTR = "İnşaat trenini inşa et"
 
 ["Tobbert.ConstructionYard.TrainBuilt"]
-status = "normal"
 raw = "Construction train built"
+status = "normal"
 enUS = "Construction train built"
 zhCN = "建造列车已建成"
 zhTW = "建造列車已建成"
@@ -274,8 +274,8 @@ viVN = "Đã chế tạo tàu xây dựng"
 trTR = "İnşaat treni yapıldı"
 
 ["Tobbert.ConstructionYard.EligibleSites"]
-status = "normal"
 raw = "Reachable sites: {0}"
+status = "normal"
 enUS = "Reachable sites: {0}"
 zhCN = "可到达的地点：{0}"
 zhTW = "可到達的地點：{0}"
@@ -291,8 +291,8 @@ viVN = "Các vị trí có thể tiếp cận: {0}"
 trTR = "Ulaşılabilir alanlar: {0}"
 
 ["Tobbert.ConstructionYard.MaterialsHeader"]
-status = "normal"
 raw = "Materials in store"
+status = "normal"
 enUS = "Materials in storage"
 zhCN = "库存材料"
 zhTW = "庫存材料"
@@ -308,8 +308,8 @@ viVN = "Vật liệu trong kho"
 trTR = "Depodaki malzemeler"
 
 ["Tobbert.ConstructionTrain.DisplayName"]
-status = "normal"
 raw = "Construction Train"
+status = "normal"
 enUS = "Construction Train"
 zhCN = "施工列车"
 zhTW = "建築列車"
@@ -325,8 +325,8 @@ viVN = "Tàu xây dựng"
 trTR = "İnşaat Treni"
 
 ["Tobbert.ConstructionTrain.Description"]
-status = "normal"
 raw = "A works train that builds on its own. It carries its materials and raises anything within two tiles of a rail."
+status = "normal"
 enUS = "A work train that builds on its own. It carries its materials and raises anything within two tiles of a rail."
 zhCN = "一列能自行建造的工程列车。它会携带所需材料，并建造距离轨道两格以内的所有物体。"
 zhTW = "一列能自行施工的工程列車。它會載運所需材料，並建造鐵軌兩格範圍內的任何物品。"
@@ -342,8 +342,8 @@ viVN = "Một đoàn tàu xây dựng có thể tự hoạt động. Tàu chở 
 trTR = "Kendi kendine inşa eden bir iş treni. Malzemelerini taşır ve rayın iki karo yakınındaki her şeyi inşa eder."
 
 ["Tobbert.ConstructionTrain.FlavorDescription"]
-status = "normal"
 raw = "It lays the line it travels on."
+status = "normal"
 enUS = "It lays the track it travels on."
 zhCN = "它会铺设自己行驶的轨道。"
 zhTW = "它會鋪設自己行駛的路線。"
@@ -359,8 +359,8 @@ viVN = "Nó đặt đường ray trên tuyến đường mình đi qua."
 trTR = "Üzerinde ilerlediği hattı döşer."
 
 ["Tobbert.ConstructionTrain.CargoHeader"]
-status = "normal"
 raw = "Materials on board"
+status = "normal"
 enUS = "Materials on board"
 zhCN = "车上物资"
 zhTW = "車上的材料"
@@ -376,8 +376,8 @@ viVN = "Vật liệu trên tàu"
 trTR = "Vagon üzerindeki malzemeler"
 
 ["Tobbert.ConstructionTrain.EmergencyStop.Button"]
-status = "normal"
 raw = "Emergency stop"
+status = "normal"
 enUS = "Emergency Stop"
 zhCN = "紧急停止"
 zhTW = "緊急停止"
@@ -393,8 +393,8 @@ viVN = "Dừng khẩn cấp"
 trTR = "Acil durdurma"
 
 ["Tobbert.ConstructionTrain.EmergencyStop.Resume"]
-status = "normal"
 raw = "Back to work"
+status = "normal"
 enUS = "Back to work"
 zhCN = "继续工作"
 zhTW = "回去工作"
@@ -410,8 +410,8 @@ viVN = "Trở lại làm việc"
 trTR = "İşe geri dön"
 
 ["Tobbert.ConstructionTrain.EmergencyStop.Description"]
-status = "normal"
 raw = "Finishes the site it is on, returns to a construction yard and stays there. Press again to send it back to work."
+status = "normal"
 enUS = "Finishes the site it is on, returns to a construction yard, and stays there. Press again to send it back to work."
 zhCN = "完成当前工地的工作后，返回施工场并停在那里。再次按下即可让它返回工作岗位。"
 zhTW = "完成目前所在工地的工作後，返回施工場並停留於此。再次按下即可派它回去工作。"
@@ -682,8 +682,8 @@ viVN = "{0} → {1}: {2}/{3}"
 trTR = "{0} → {1}: {2}/{3}"
 
 ["Tobbert.ExchangeStation.Incoming.Line"]
-status = "normal"
 raw = "{0}: {1} inbound"
+status = "normal"
 enUS = "{0}: {1} incoming"
 zhCN = "{0}：{1} 入站"
 zhTW = "{0}：{1} 班列車進站中"
@@ -699,8 +699,8 @@ viVN = "{0}: {1} đang đến"
 trTR = "{0}: {1} geliyor"
 
 ["Tobbert.ExchangeStation.Idle"]
-status = "normal"
 raw = "No exchange in progress"
+status = "normal"
 enUS = "No exchange in progress"
 zhCN = "当前没有正在进行的交换"
 zhTW = "目前沒有進行中的交換"
@@ -2586,8 +2586,8 @@ viVN = "Nhàn rỗi - có sẵn"
 trTR = "Boşta — mevcut"
 
 ["Tobbert.Train.Activity.Isolated"]
-status = "normal"
 raw = "Trapped — cannot get back to a depot"
+status = "normal"
 enUS = "Trapped — cannot get back to a depot"
 zhCN = "受困——无法返回仓库"
 zhTW = "受困——無法返回倉庫"
@@ -2824,8 +2824,8 @@ viVN = "Người dẫn tàu khát nước"
 trTR = "Susamış kondüktör"
 
 ["Tobbert.Train.Alert.NoPath"]
-status = "normal"
 raw = "Train with no route"
+status = "normal"
 enUS = "Train with no route"
 zhCN = "没有路线的列车"
 zhTW = "列車沒有路線"
@@ -2858,8 +2858,8 @@ viVN = "Tàu bị chặn trên đường ray"
 trTR = "Tren rayda engellendi"
 
 ["Tobbert.Train.Alert.Isolated"]
-status = "normal"
 raw = "Train cannot get back to a depot"
+status = "normal"
 enUS = "Train cannot get back to a depot"
 zhCN = "列车无法返回车库"
 zhTW = "列車無法返回車庫"
@@ -2909,8 +2909,8 @@ viVN = "Hiển thị đường ray có thể tiếp cận"
 trTR = "Ulaşılabilir rayı göster"
 
 ["Tobbert.StorageBasin.Overlay.Tooltip"]
-status = "normal"
 raw = "Show the storage it serves"
+status = "normal"
 enUS = "Show the storage it serves"
 zhCN = "显示其服务的储水池"
 zhTW = "顯示其服務的儲存設施"
@@ -2926,8 +2926,8 @@ viVN = "Hiển thị kho lưu trữ mà nó phục vụ"
 trTR = "Hizmet verdiği depoyu göster"
 
 ["Tobbert.BatchControl.Trains"]
-status = "normal"
 raw = "Trains"
+status = "normal"
 enUS = "Trains"
 zhCN = "列车"
 zhTW = "列車"
@@ -2960,8 +2960,8 @@ viVN = "Tab Tàu hỏa"
 trTR = "Trenler sekmesi"
 
 ["Tobbert.SwingFloodgate.DisplayName"]
-status = "normal"
 raw = "Hinge Gate"
+status = "normal"
 enUS = "Hinge Gate"
 zhCN = "铰链闸门"
 zhTW = "鉸鏈閘門"
@@ -2977,8 +2977,8 @@ viVN = "Cửa van bản lề"
 trTR = "Menteşeli Kapakli Sürgü"
 
 ["Tobbert.SwingFloodgate.Description"]
-status = "normal"
 raw = "A dam on a hinge. Closed, it holds the water back and bars the way; open, it swings aside and lets the river run."
+status = "normal"
 enUS = "A dam on a hinge. When closed, it holds back the water and blocks the way; when open, it swings aside and lets the river flow."
 zhCN = "铰接式堤坝。关闭时，它能拦住水流并阻断通道；打开时，它会摆到一旁，让河水流过。"
 zhTW = "裝在鉸鏈上的水壩。關閉時，它會擋住水流和去路；打開時，它會向旁邊擺開，讓河水流過。"
@@ -2994,8 +2994,8 @@ viVN = "Một con đập có bản lề. Khi đóng, nó giữ nước lại và
 trTR = "Menteşeli bir baraj. Kapalıyken suyu tutar ve geçişi engeller; açıkken yana doğru döner ve nehrin akmasına izin verir."
 
 ["Tobbert.SwingFloodgate.FlavorDescription"]
-status = "normal"
 raw = "Warning! Do not put your paws on the gate, you risk getting pinched very hard."
+status = "normal"
 enUS = "Warning! Keep your paws off the gate—you could get pinched very hard."
 zhCN = "警告！不要把爪子放在闸门上，否则可能会被狠狠夹到。"
 zhTW = "警告！別把爪子放在閘門上，否則可能會被狠狠夾到。"
@@ -3011,8 +3011,8 @@ viVN = "Cảnh báo! Đừng đặt chân lên cửa cống, bạn có nguy cơ 
 trTR = "Uyarı! Patilerini kapıya koyma, çok fena sıkışma riski var."
 
 ["Tobbert.RailSwingFloodgate.DisplayName"]
-status = "normal"
 raw = "Rail Hinge Gate"
+status = "normal"
 enUS = "Rail Swing Floodgate"
 zhCN = "铁路铰链闸门"
 zhTW = "鐵軌鉸鏈閘門"
@@ -3028,8 +3028,8 @@ viVN = "Cổng xoay đường ray"
 trTR = "Raylı Menteşeli Savak"
 
 ["Tobbert.RailSwingFloodgate.Description"]
-status = "normal"
 raw = "A dam on a hinge. Closed, it holds the water back and bars the track; open, it swings aside and lets the river and the trains through."
+status = "normal"
 enUS = "A hinged dam. When closed, it holds back the water and blocks the track; when open, it swings aside, letting the river and trains pass through."
 zhCN = "铰接式堤坝。关闭时，它会拦住水流和轨道；打开时，它会摆到一旁，让河水和列车通行。"
 zhTW = "裝在鉸鏈上的水壩。關閉時，它會擋住水流和鐵軌；開啟時，它會擺到一旁，讓河水和列車通過。"
@@ -3045,8 +3045,8 @@ viVN = "Một con đập gắn bản lề. Khi đóng, nó giữ nước lại v
 trTR = "Menteşe üzerindeki bir baraj. Kapalıyken suyu tutar ve rayı kapatır; açıkken yana doğru döner ve nehrin ve trenlerin geçmesine izin verir."
 
 ["Tobbert.RailSwingFloodgate.FlavorDescription"]
-status = "normal"
 raw = "Warning! Do not put your paws on the gate, you risk getting pinched very hard."
+status = "normal"
 enUS = "Warning! Keep your paws off the gate, or you risk getting pinched very hard."
 zhCN = "警告！不要把爪子放在闸门上，否则可能会被狠狠夹到。"
 zhTW = "警告！別把爪子放在閘門上，否則可能會被狠狠夾到。"
@@ -3062,8 +3062,8 @@ viVN = "Cảnh báo! Đừng đặt chân lên cổng, bạn có nguy cơ bị k
 trTR = "Uyarı! Patilerinizi kapıya koymayın, çok fena sıkışabilirler."
 
 ["Tobbert.SwingFloodgate.Mode.Open"]
-status = "normal"
 raw = "Open"
+status = "normal"
 enUS = "Open"
 zhCN = "打开"
 zhTW = "開啟"
@@ -3079,8 +3079,8 @@ viVN = "Mở"
 trTR = "Açık"
 
 ["Tobbert.SwingFloodgate.Mode.Closed"]
-status = "normal"
 raw = "Closed"
+status = "normal"
 enUS = "Closed"
 zhCN = "关闭"
 zhTW = "關閉"
@@ -3096,8 +3096,8 @@ viVN = "Đóng"
 trTR = "Kapalı"
 
 ["Tobbert.SwingFloodgate.State.Open"]
-status = "normal"
 raw = "Currently open"
+status = "normal"
 enUS = "Currently open"
 zhCN = "当前开启"
 zhTW = "目前開啟的"
@@ -3113,8 +3113,8 @@ viVN = "Hiện đang mở"
 trTR = "Şu anda açık"
 
 ["Tobbert.SwingFloodgate.State.Closed"]
-status = "normal"
 raw = "Currently closed"
+status = "normal"
 enUS = "Currently closed"
 zhCN = "当前已关闭"
 zhTW = "目前關閉"
@@ -3130,8 +3130,8 @@ viVN = "Hiện đang đóng"
 trTR = "Şu anda kapalı"
 
 ["Tobbert.SwingFloodgate.Synchronize"]
-status = "normal"
 raw = "Synchronize with the gates above and below"
+status = "normal"
 enUS = "Synchronize with the gates above and below"
 zhCN = "与上方和下方的闸门同步"
 zhTW = "與上方和下方的閘門同步"
@@ -3147,8 +3147,8 @@ viVN = "Đồng bộ với các cửa cống phía trên và phía dưới"
 trTR = "Yukarıdaki ve aşağıdaki kapaklarla eşzamanla"
 
 ["Tobbert.SwingFloodgate.Conflict"]
-status = "normal"
 raw = "Cannot open: it would join two different districts."
+status = "normal"
 enUS = "Cannot open: it would join two different districts."
 zhCN = "无法开启：这会将两个不同的区划连在一起。"
 zhTW = "無法開啟：這會使兩個不同的區域連接起來。"
@@ -3164,8 +3164,8 @@ viVN = "Không thể mở: việc này sẽ nối hai khu vực khác nhau."
 trTR = "Açılamıyor: iki farklı bölgeyi birleştirir."
 
 ["Tobbert.SwingFloodgate.Waiting.Train"]
-status = "normal"
 raw = "Waiting for the train to clear the track."
+status = "normal"
 enUS = "Waiting for the train to clear the track."
 zhCN = "正在等待火车驶离轨道。"
 zhTW = "等待火車駛離軌道。"
@@ -3181,8 +3181,8 @@ viVN = "Đang chờ tàu rời khỏi đường ray."
 trTR = "Trenin rayı boşaltması bekleniyor."
 
 ["Tobbert.SwingFloodgate.Waiting.Network"]
-status = "normal"
 raw = "Waiting for the rail network to settle."
+status = "normal"
 enUS = "Waiting for the rail network to settle."
 zhCN = "正在等待轨道网络稳定下来。"
 zhTW = "正在等待鐵路網路穩定下來。"
@@ -3198,8 +3198,8 @@ viVN = "Đang chờ mạng đường ray ổn định."
 trTR = "Demir yolu ağının dengelenmesi bekleniyor."
 
 ["Tobbert.SwingFloodgate.Status.Waiting"]
-status = "normal"
 raw = "The hinge gate is waiting before it moves."
+status = "normal"
 enUS = "The hinge gate is waiting before it moves."
 zhCN = "铰链闸门正在等待，然后才会移动。"
 zhTW = "鉸鏈閘門正在等待，之後才會移動。"
@@ -3215,8 +3215,8 @@ viVN = "Cửa van bản lề đang chờ trước khi chuyển động."
 trTR = "Menteşeli kapak hareket etmeden önce bekliyor."
 
 ["Tobbert.SwingFloodgate.Status.Waiting.Short"]
-status = "normal"
 raw = "Waiting"
+status = "normal"
 enUS = "Waiting"
 zhCN = "等待"
 zhTW = "等待"

@@ -2,8 +2,8 @@
 name = "Made It, Ate It"
 
 ["MadeItAteIt.WorkersFirst"]
-status = "normal"
 raw = "Workers get priority"
+status = "normal"
 enUS = "Workers get priority"
 zhCN = "工人优先:VEVENT"
 zhTW = "工人優先"

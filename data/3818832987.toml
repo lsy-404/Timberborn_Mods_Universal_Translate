@@ -2,8 +2,8 @@
 name = "Emergency Priority [ModContest1] - Timberborn 1.1 Standalone Compatibility"
 
 ["grantemsley.EmergencyPriority.Emergency"]
-status = "normal"
 raw = "Emergency"
+status = "normal"
 enUS = "Emergency"
 zhCN = "紧急"
 zhTW = "緊急優先級"

@@ -342,8 +342,8 @@ viVN = "Thu gọn khối tác vụ này"
 trTR = "Bu görev bloğunu daralt"
 
 ["TaskPriorities.ShowBlockedTooltip"]
-status = "normal"
 raw = "Show {0} blocked tasks"
+status = "normal"
 enUS = "Show {0} blocked tasks"
 zhCN = "显示 {0} 个受阻任务"
 zhTW = "顯示 {0} 個受阻任務"
@@ -393,8 +393,8 @@ viVN = "M"
 trTR = "M"
 
 ["TaskPriorities.BuildShort"]
-status = "normal"
 raw = "B"
+status = "normal"
 enUS = "B"
 zhCN = "B"
 zhTW = "建造"
@@ -444,8 +444,8 @@ viVN = "Đặt mức độ ưu tiên của {0} thành {1}"
 trTR = "{0} önceliğini {1} olarak ayarla"
 
 ["TaskPriorities.ChangeBlockPriority"]
-status = "normal"
 raw = "Set all {1} {0} tasks to {2} priority"
+status = "normal"
 enUS = "Set all {1} {0} tasks to {2} priority"
 zhCN = "将所有 {1} 个 {0} 任务的优先级设为 {2}"
 zhTW = "將所有 {1} 個 {0} 任務設為 {2} 優先級"
@@ -461,8 +461,8 @@ viVN = "Đặt tất cả nhiệm vụ {1} {0} thành mức ưu tiên {2}"
 trTR = "Tüm {1} {0} görevlerinin önceliğini {2} olarak ayarla"
 
 ["TaskPriorities.FocusTask"]
-status = "normal"
 raw = "Select and focus {0}"
+status = "normal"
 enUS = "Select and focus {0}"
 zhCN = "选择并聚焦 {0}"
 zhTW = "選取並聚焦 {0}"

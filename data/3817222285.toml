@@ -53,8 +53,8 @@ viVN = "Không có hành động nào"
 trTR = "Yok"
 
 ["LV.BC.Stop"]
-status = "normal"
 raw = "Stop current action"
+status = "normal"
 enUS = "Stop current action"
 zhCN = "停止当前操作"
 zhTW = "停止目前動作"
@@ -104,8 +104,8 @@ viVN = "Chọn một công trình để sử dụng"
 trTR = "Kullanmak için bir bina seçin"
 
 ["LV.BC.ErrNoUse"]
-status = "normal"
 raw = "That building can't be used right now"
+status = "normal"
 enUS = "That building can't be used right now"
 zhCN = "该建筑目前无法使用"
 zhTW = "目前無法使用該建築。"
@@ -121,8 +121,8 @@ viVN = "Hiện không thể sử dụng công trình đó"
 trTR = "Bu bina şu anda kullanılamaz"
 
 ["LV.BC.Keep"]
-status = "normal"
 raw = "Keep them there after moving"
+status = "normal"
 enUS = "Keep them there after moving"
 zhCN = "移动后将它们留在那里"
 zhTW = "移動後讓牠們留在原地"
@@ -138,8 +138,8 @@ viVN = "Giữ chúng ở đó sau khi di chuyển"
 trTR = "Taşıdıktan sonra onları orada tutu"
 
 ["LV.BC.Release"]
-status = "normal"
 raw = "Release"
+status = "normal"
 enUS = "Release"
 zhCN = "释放"
 zhTW = "釋放"
@@ -274,8 +274,8 @@ viVN = "Đứng yên"
 trTR = "Yerinde kalıyor"
 
 ["LV.BC.Unreachable"]
-status = "normal"
 raw = "Cannot reach that spot"
+status = "normal"
 enUS = "Cannot reach that spot"
 zhCN = "无法到达该位置"
 zhTW = "無法抵達該位置"
@@ -325,8 +325,8 @@ viVN = "Chỉ định nơi làm việc"
 trTR = "İş yeri ata"
 
 ["LV.BC.AssignHousing"]
-status = "normal"
 raw = "Assign housing"
+status = "normal"
 enUS = "Assign housing"
 zhCN = "分配住房"
 zhTW = "指派住所"
@@ -410,8 +410,8 @@ viVN = "Chọn nơi làm việc"
 trTR = "Bir iş yeri seçyin"
 
 ["LV.BC.PickDwelling"]
-status = "normal"
 raw = "Pick a house"
+status = "normal"
 enUS = "Pick a house"
 zhCN = "选择一间房屋"
 zhTW = "選擇一間房屋"
@@ -427,8 +427,8 @@ viVN = "Chọn một ngôi nhà"
 trTR = "Bir ev seçin"
 
 ["LV.BC.ErrNoDistrict"]
-status = "normal"
 raw = "The selected building does not belong to a district"
+status = "normal"
 enUS = "The selected building does not belong to a district"
 zhCN = "所选建筑不属于任何区域"
 zhTW = "所選建築不屬於任何區域"
@@ -444,8 +444,8 @@ viVN = "Tòa nhà được chọn không thuộc về quận nào"
 trTR = "Seçili bina bir bölgeye ait değil"
 
 ["LV.BC.ErrNoHouse"]
-status = "normal"
 raw = "That house cannot take this beaver"
+status = "normal"
 enUS = "That house cannot accommodate this beaver"
 zhCN = "这只海狸无法入住这栋房屋"
 zhTW = "這間房子無法容納這隻海狸。"
@@ -461,8 +461,8 @@ viVN = "Ngôi nhà đó không thể nhận hải ly này."
 trTR = "Bu ev bu kunduzu alamaz."
 
 ["LV.BC.ErrNoWorkplace"]
-status = "normal"
 raw = "That workplace is not accepting workers"
+status = "normal"
 enUS = "That workplace is not accepting workers"
 zhCN = "该工作场所不接收工人"
 zhTW = "該工作場所不接受工人"
@@ -478,8 +478,8 @@ viVN = "Nơi làm việc đó không nhận công nhân."
 trTR = "Bu iş yeri işçi kabul etmiyor"
 
 ["LV.BC.ErrWrongWorker"]
-status = "normal"
 raw = "That workplace wants a different worker"
+status = "normal"
 enUS = "That workplace wants a different worker"
 zhCN = "该工作场所需要另一种工人"
 zhTW = "該工作場所需要不同的工人"
@@ -512,8 +512,8 @@ viVN = "Dịch chuyển tức thời (Gian lận)"
 trTR = "Işınlan (Hile)"
 
 ["LV.BC.TeleportHere"]
-status = "normal"
 raw = "Teleport to"
+status = "normal"
 enUS = "Teleport to"
 zhCN = "传送至"
 zhTW = "傳送至"
@@ -529,8 +529,8 @@ viVN = "Dịch chuyển đến"
 trTR = "Şuraya ışınlan"
 
 [Name_CharacterControllerFragment]
-status = "normal"
 raw = "Character Control"
+status = "normal"
 enUS = "Character Control"
 zhCN = "角色控制"
 zhTW = "角色控制"

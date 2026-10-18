@@ -189,8 +189,8 @@ viVN = "Thẻ vé gỗ Burrow Circuit"
 trTR = "Burrow Circuit ahşap bilet jetonları"
 
 ["Barbara.BurrowCircuit.ToolGroup"]
-status = "normal"
 raw = "Burrow Circuit"
+status = "normal"
 enUS = "Burrow Circuit"
 zhCN = "地下回路"
 zhTW = "地洞迴路"

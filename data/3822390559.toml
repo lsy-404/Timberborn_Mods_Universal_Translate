@@ -1,0 +1,562 @@
+[_meta]
+name = "Timber Seasons"
+
+["TimberSeasons.Weather.Monsoon"]
+new = "Monsoon"
+status = "normal"
+
+["TimberSeasons.Weather.Notification.MonsoonApproaching"]
+new = "Monsoon Approaching"
+status = "normal"
+
+["TimberSeasons.Weather.MonsoonStartedNotification"]
+new = "The Monsoon has begun!"
+status = "normal"
+
+["TimberSeasons.Weather.MonsoonEndedNotification"]
+new = "Monsoon Ending"
+status = "normal"
+
+["TimberSeasons.Weather.BadtideMonsoon"]
+new = "Badtide Monsoon"
+status = "normal"
+
+["TimberSeasons.Weather.Notification.BadtideMonsoonApproaching"]
+new = "Badtide Monsoon Approaching"
+status = "normal"
+
+["TimberSeasons.Weather.BadtideMonsoonStartedNotification"]
+new = "The Badtide Monsoon has begun!"
+status = "normal"
+
+["TimberSeasons.Weather.BadtideMonsoonEndedNotification"]
+new = "Badtide Monsoon Ending"
+status = "normal"
+
+["TimberSeasons.Weather.Blizzard"]
+new = "Blizzard"
+status = "normal"
+
+["TimberSeasons.Weather.Notification.BlizzardApproaching"]
+new = "Blizzard Approaching"
+status = "normal"
+
+["TimberSeasons.Weather.BlizzardStartedNotification"]
+new = "The Blizzard has begun!"
+status = "normal"
+
+["TimberSeasons.Weather.BlizzardEndedNotification"]
+new = "Blizzard Ending"
+status = "normal"
+
+["TimberSeasons.Weather.Notification.RainApproaching"]
+new = "Rain Approaching"
+status = "normal"
+
+["TimberSeasons.Weather.Notification.BadRainApproaching"]
+new = "Badrain Approaching"
+status = "normal"
+
+["TimberSeasons.Weather.Notification.SnowApproaching"]
+new = "Snow Approaching"
+status = "normal"
+
+["TimberSeasons.Weather.Notification.BadSnowApproaching"]
+new = "Bad Snow Approaching"
+status = "normal"
+
+["TimberSeasons.BreakEvent.Notification"]
+new = "The skies feel... unpredictable."
+status = "normal"
+
+["TimberSeasons.Difficulty.Name"]
+new = "Difficulty"
+status = "normal"
+
+["TimberSeasons.Value.Auto"]
+new = "Auto"
+status = "normal"
+
+["TimberSeasons.Value.Easy"]
+new = "Easy"
+status = "normal"
+
+["TimberSeasons.Value.Normal"]
+new = "Normal"
+status = "normal"
+
+["TimberSeasons.Value.Hard"]
+new = "Hard"
+status = "normal"
+
+["TimberSeasons.Value.Brutal"]
+new = "Brutal"
+status = "normal"
+
+["TimberSeasons.Value.Random"]
+new = "Random"
+status = "normal"
+
+["TimberSeasons.Value.Custom"]
+new = "Custom"
+status = "normal"
+
+["TimberSeasons.Section.Difficulty"]
+new = "Difficulty"
+status = "normal"
+
+["TimberSeasons.Section.RandomReveal"]
+new = "Random Reveal"
+status = "normal"
+
+["TimberSeasons.Section.Ambient"]
+new = "Custom: Ambient Weather"
+status = "normal"
+
+["TimberSeasons.Section.BigHazard"]
+new = "Custom: Big Hazard Selection"
+status = "normal"
+
+["TimberSeasons.Section.HazardDuration"]
+new = "Custom: Hazard Duration"
+status = "normal"
+
+["TimberSeasons.Section.WaterContamination"]
+new = "Custom: Water & Contamination"
+status = "normal"
+
+["TimberSeasons.Section.Growth"]
+new = "Custom: Growth Modifiers"
+status = "normal"
+
+["TimberSeasons.Section.ConsumptionWetFur"]
+new = "Custom: Consumption & Wet Fur"
+status = "normal"
+
+["TimberSeasons.Section.EarlyGame"]
+new = "Custom: Early-Game Protection"
+status = "normal"
+
+["TimberSeasons.Reveal.ShowName"]
+new = "Show selected random difficulty"
+status = "normal"
+
+["TimberSeasons.Reveal.ShowTooltip"]
+new = "Tick to see which difficulty a Random map rolled.\\nLeave it off for a surprise."
+status = "normal"
+
+["TimberSeasons.Reveal.DisplayName"]
+new = "Random mode - selected difficulty"
+status = "normal"
+
+["TimberSeasons.Reveal.NotRandom"]
+new = "(this map is not Random)"
+status = "normal"
+
+["TimberSeasons.Reveal.NotYetRolled"]
+new = "(not yet rolled)"
+status = "normal"
+
+["TimberSeasons.Reveal.WhenStarts"]
+new = "(rolled when a Random map starts)"
+status = "normal"
+
+["TimberSeasons.Season.Spring"]
+new = "Spring"
+status = "normal"
+
+["TimberSeasons.Season.Summer"]
+new = "Summer"
+status = "normal"
+
+["TimberSeasons.Season.Fall"]
+new = "Fall"
+status = "normal"
+
+["TimberSeasons.Season.Winter"]
+new = "Winter"
+status = "normal"
+
+["TimberSeasons.Date.Format"]
+new = "{0}, day {1} (cycle {2})"
+status = "normal"
+
+["TimberSeasons.Setting.BreaksEnabled"]
+new = "Enable Lucky/Unlucky Breaks"
+status = "normal"
+
+["TimberSeasons.Setting.Phase2Enabled"]
+new = "Enable Phase 2 Escalation (cycle 30-60)"
+status = "normal"
+
+["TimberSeasons.Setting.DailyTriggerChancePercent"]
+new = "Daily ambient trigger chance %"
+status = "normal"
+
+["TimberSeasons.Setting.StandaloneMinHours"]
+new = "Standalone duration min hours"
+status = "normal"
+
+["TimberSeasons.Setting.StandaloneMaxHours"]
+new = "Standalone duration max hours"
+status = "normal"
+
+["TimberSeasons.Setting.HazardGuaranteedMinHours"]
+new = "Hazard-guaranteed duration min hours"
+status = "normal"
+
+["TimberSeasons.Setting.HazardGuaranteedMaxHours"]
+new = "Hazard-guaranteed duration max hours"
+status = "normal"
+
+["TimberSeasons.Setting.MidHazardReTriggerChancePercent"]
+new = "Mid-hazard re-trigger chance %"
+status = "normal"
+
+["TimberSeasons.Setting.SnowFlavorChancePercent"]
+new = "Snow vs BadSnow chance %"
+status = "normal"
+
+["TimberSeasons.Setting.RainFlavorChancePercent"]
+new = "Rain vs BadRain chance %"
+status = "normal"
+
+["TimberSeasons.Setting.SummerMonsoonFamilyChancePercent"]
+new = "Summer Monsoon-family chance %"
+status = "normal"
+
+["TimberSeasons.Setting.ShoulderMonsoonFamilyChancePercent"]
+new = "Spring/Fall Monsoon-family chance %"
+status = "normal"
+
+["TimberSeasons.Setting.BadtideMonsoonWithinFamilyChancePercent"]
+new = "Badtide Monsoon within-family chance %"
+status = "normal"
+
+["TimberSeasons.Setting.StreakChanceDecreaseThreshold"]
+new = "Streak decrease threshold"
+status = "normal"
+
+["TimberSeasons.Setting.StreakChanceResetThreshold"]
+new = "Streak reset threshold"
+status = "normal"
+
+["TimberSeasons.Setting.StreakDecreaseRatio"]
+new = "Streak decrease ratio"
+status = "normal"
+
+["TimberSeasons.Setting.BlizzardConsumptionPointsPerHour"]
+new = "Blizzard Hunger/Thirst rate per hour"
+status = "normal"
+
+["TimberSeasons.Setting.RainWetFurBonusPerHour"]
+new = "Rain Wet Fur bonus per hour"
+status = "normal"
+
+["TimberSeasons.Setting.GracePeriodCycles"]
+new = "Grace period cycles - no custom big hazards, bad flavors suppressed"
+status = "normal"
+
+["TimberSeasons.Setting.DurationDampeningWindowCycles"]
+new = "Duration dampening window - cycles after grace to reach full strength"
+status = "normal"
+
+["TimberSeasons.Setting.DurationDampeningStartPercent"]
+new = "Duration dampening start % - how weak the first post-grace hazard is"
+status = "normal"
+
+["TimberSeasons.Setting.FlavorSuppressionWindowCycles"]
+new = "Flavor suppression window - cycles after grace to reach real bad-flavor odds"
+status = "normal"
+
+["TimberSeasons.Setting.FlavorSuppressionStartGoodPercent"]
+new = "Flavor suppression start % good - how safe the first post-grace days are"
+status = "normal"
+
+["TimberSeasons.Setting.SnowGrowthBoostPerDay"]
+new = "Snow growth boost per day"
+status = "normal"
+
+["TimberSeasons.Setting.BadRainSlowdownPerDay"]
+new = "BadRain growth slowdown per day"
+status = "normal"
+
+["TimberSeasons.Setting.BadSnowSlowdownPerDay"]
+new = "BadSnow growth slowdown per day"
+status = "normal"
+
+["TimberSeasons.Setting.MonsoonDurationMinDays"]
+new = "Monsoon duration min days"
+status = "normal"
+
+["TimberSeasons.Setting.MonsoonDurationMaxDays"]
+new = "Monsoon duration max days"
+status = "normal"
+
+["TimberSeasons.Setting.BadtideMonsoonDurationMinDays"]
+new = "Badtide Monsoon duration min days"
+status = "normal"
+
+["TimberSeasons.Setting.BadtideMonsoonDurationMaxDays"]
+new = "Badtide Monsoon duration max days"
+status = "normal"
+
+["TimberSeasons.Setting.BlizzardDurationMinDays"]
+new = "Blizzard duration min days"
+status = "normal"
+
+["TimberSeasons.Setting.BlizzardDurationMaxDays"]
+new = "Blizzard duration max days"
+status = "normal"
+
+["TimberSeasons.Setting.HandicapMultiplierPercent"]
+new = "Hazard duration handicap multiplier % (shared, all 3 hazards)"
+status = "normal"
+
+["TimberSeasons.Setting.HandicapCycles"]
+new = "Hazard duration handicap cycles (shared, all 3 hazards)"
+status = "normal"
+
+["TimberSeasons.Setting.PuddleIntensityMultiplierPercent"]
+new = "Puddle intensity % - applies to Rain/BadRain/Snow/BadSnow coverage+depth"
+status = "normal"
+
+["TimberSeasons.Setting.ContaminationProtectionEnabled"]
+new = "Contamination protection enabled"
+status = "normal"
+
+["TimberSeasons.Setting.GrowableProtectionRadius"]
+new = "Growable protection radius"
+status = "normal"
+
+["TimberSeasons.Setting.SuppressionDepthPerTick"]
+new = "Suppression depth per tick"
+status = "normal"
+
+["TimberSeasons.Setting.BadRainContaminationPercent"]
+new = "BadRain contamination %"
+status = "normal"
+
+["TimberSeasons.Setting.BadSnowContaminationPercent"]
+new = "BadSnow contamination %"
+status = "normal"
+
+["TimberSeasons.Setting.MonsoonWaterMultiplierTenths"]
+new = "Monsoon water multiplier (tenths, 30=3.0x)"
+status = "normal"
+
+["TimberSeasons.Setting.BadtideMonsoonWaterMultiplierTenths"]
+new = "Badtide Monsoon water multiplier (tenths, 50=5.0x)"
+status = "normal"
+
+["TimberSeasons.Preset.Name"]
+new = "Start from preset"
+status = "normal"
+
+["TimberSeasons.Preset.Choose"]
+new = "(choose)"
+status = "normal"
+
+["TimberSeasons.Preset.Tooltip"]
+new = "Fills this section's sliders from a built-in difficulty.\\nOnly changes these sliders, never a map you already have."
+status = "normal"
+
+["TimberSeasons.Tip.DailyTriggerChancePercent"]
+new = "Chance each day that an ambient weather event (rain, bad rain, snow or bad snow) starts on its own."
+status = "normal"
+
+["TimberSeasons.Tip.StandaloneMinHours"]
+new = "Shortest an ambient weather event lasts when it starts on its own, in hours."
+status = "normal"
+
+["TimberSeasons.Tip.StandaloneMaxHours"]
+new = "Longest an ambient weather event lasts when it starts on its own, in hours."
+status = "normal"
+
+["TimberSeasons.Tip.HazardGuaranteedMinHours"]
+new = "Shortest an ambient weather event lasts when it comes with a big hazard (Monsoon, Badtide Monsoon or Blizzard), in hours."
+status = "normal"
+
+["TimberSeasons.Tip.HazardGuaranteedMaxHours"]
+new = "Longest an ambient weather event lasts when it comes with a big hazard (Monsoon, Badtide Monsoon or Blizzard), in hours."
+status = "normal"
+
+["TimberSeasons.Tip.MidHazardReTriggerChancePercent"]
+new = "Chance that another ambient weather event starts while a big hazard is already running."
+status = "normal"
+
+["TimberSeasons.Tip.SnowFlavorChancePercent"]
+new = "When snow falls, the chance it is plain Snow instead of Bad Snow. Higher is safer."
+status = "normal"
+
+["TimberSeasons.Tip.RainFlavorChancePercent"]
+new = "When rain falls, the chance it is plain Rain instead of Bad Rain. Higher is safer."
+status = "normal"
+
+["TimberSeasons.Tip.SummerMonsoonFamilyChancePercent"]
+new = "Chance in Summer that the big hazard is a Monsoon-family one (Monsoon or Badtide Monsoon) instead of the game's own Drought or Badtide."
+status = "normal"
+
+["TimberSeasons.Tip.ShoulderMonsoonFamilyChancePercent"]
+new = "Chance in Spring and Fall that the big hazard is a Monsoon-family one (Monsoon or Badtide Monsoon) instead of the game's own Drought or Badtide."
+status = "normal"
+
+["TimberSeasons.Tip.BadtideMonsoonWithinFamilyChancePercent"]
+new = "Once a Monsoon-family hazard is picked, the chance it is the Badtide Monsoon instead of the plain Monsoon."
+status = "normal"
+
+["TimberSeasons.Tip.StreakChanceDecreaseThreshold"]
+new = "Streak avoidance: once repeating the same hazard becomes less likely than this, its chance is cut by the decrease ratio. Higher steps in sooner."
+status = "normal"
+
+["TimberSeasons.Tip.StreakChanceResetThreshold"]
+new = "Streak avoidance: once repeating the same hazard becomes less likely than this, the repeat is blocked entirely. Higher blocks sooner."
+status = "normal"
+
+["TimberSeasons.Tip.StreakDecreaseRatio"]
+new = "Streak avoidance: what the repeat chance is multiplied by once the decrease threshold is crossed. Lower means a stronger cut."
+status = "normal"
+
+["TimberSeasons.Tip.BlizzardConsumptionPointsPerHour"]
+new = "Hunger and thirst change per hour during a Blizzard. More negative means beavers get hungry and thirsty faster."
+status = "normal"
+
+["TimberSeasons.Tip.RainWetFurBonusPerHour"]
+new = "Wet Fur bonus per hour while it rains. Higher is a bigger benefit."
+status = "normal"
+
+["TimberSeasons.Tip.GracePeriodCycles"]
+new = "Number of early cycles with no custom big hazards (the game's own Drought and Badtide apply) and bad ambient variants suppressed."
+status = "normal"
+
+["TimberSeasons.Tip.DurationDampeningWindowCycles"]
+new = "After the grace period, how many cycles it takes for hazard durations to reach full strength."
+status = "normal"
+
+["TimberSeasons.Tip.DurationDampeningStartPercent"]
+new = "How strong, in percent, the first hazard after the grace period is. Lower is gentler."
+status = "normal"
+
+["TimberSeasons.Tip.FlavorSuppressionWindowCycles"]
+new = "After the grace period, how many cycles it takes for bad ambient variants to reach their real odds."
+status = "normal"
+
+["TimberSeasons.Tip.FlavorSuppressionStartGoodPercent"]
+new = "Right after the grace period, the percent chance that an ambient event is the good variant. Higher is safer."
+status = "normal"
+
+["TimberSeasons.Tip.SnowGrowthBoostPerDay"]
+new = "Growth speed bonus per day for plants while it snows."
+status = "normal"
+
+["TimberSeasons.Tip.BadRainSlowdownPerDay"]
+new = "Growth slowdown per day for plants during Bad Rain. More negative is a bigger slowdown."
+status = "normal"
+
+["TimberSeasons.Tip.BadSnowSlowdownPerDay"]
+new = "Growth slowdown per day for plants during Bad Snow. More negative is a bigger slowdown."
+status = "normal"
+
+["TimberSeasons.Tip.MonsoonDurationMinDays"]
+new = "Shortest a Monsoon lasts, in days."
+status = "normal"
+
+["TimberSeasons.Tip.MonsoonDurationMaxDays"]
+new = "Longest a Monsoon lasts, in days."
+status = "normal"
+
+["TimberSeasons.Tip.BadtideMonsoonDurationMinDays"]
+new = "Shortest a Badtide Monsoon lasts, in days."
+status = "normal"
+
+["TimberSeasons.Tip.BadtideMonsoonDurationMaxDays"]
+new = "Longest a Badtide Monsoon lasts, in days."
+status = "normal"
+
+["TimberSeasons.Tip.BlizzardDurationMinDays"]
+new = "Shortest a Blizzard lasts, in days."
+status = "normal"
+
+["TimberSeasons.Tip.BlizzardDurationMaxDays"]
+new = "Longest a Blizzard lasts, in days."
+status = "normal"
+
+["TimberSeasons.Tip.HandicapMultiplierPercent"]
+new = "Early-game handicap: how strong hazard durations are at the start, in percent. It rises to 100% over the handicap cycles. Applies to all three big hazards."
+status = "normal"
+
+["TimberSeasons.Tip.HandicapCycles"]
+new = "Early-game handicap: how many cycles it takes for hazard durations to rise to full length. Applies to all three big hazards."
+status = "normal"
+
+["TimberSeasons.Tip.PuddleIntensityMultiplierPercent"]
+new = "How big and deep ambient weather puddles are, in percent. 100 is normal."
+status = "normal"
+
+["TimberSeasons.Tip.ContaminationProtectionEnabled"]
+new = "When on, contaminated ambient water is kept away from tiles near crops and trees."
+status = "normal"
+
+["TimberSeasons.Tip.GrowableProtectionRadius"]
+new = "How many tiles around crops and trees the protection covers."
+status = "normal"
+
+["TimberSeasons.Tip.SuppressionDepthPerTick"]
+new = "How much contaminated puddle water is removed per tick inside the protected area. Higher clears it faster."
+status = "normal"
+
+["TimberSeasons.Tip.BadRainContaminationPercent"]
+new = "How contaminated Bad Rain puddles are, in percent."
+status = "normal"
+
+["TimberSeasons.Tip.BadSnowContaminationPercent"]
+new = "How contaminated Bad Snow puddles are, in percent."
+status = "normal"
+
+["TimberSeasons.Tip.MonsoonWaterMultiplierTenths"]
+new = "How much more water a Monsoon brings, in tenths. 30 means 3.0 times."
+status = "normal"
+
+["TimberSeasons.Tip.BadtideMonsoonWaterMultiplierTenths"]
+new = "How much more water a Badtide Monsoon brings, in tenths. 50 means 5.0 times."
+status = "normal"
+
+["TimberSeasons.Setting.StandaloneHours"]
+new = "Standalone duration (hours)"
+status = "normal"
+
+["TimberSeasons.Setting.HazardGuaranteedHours"]
+new = "Hazard-guaranteed duration (hours)"
+status = "normal"
+
+["TimberSeasons.Setting.MonsoonDays"]
+new = "Monsoon duration (days)"
+status = "normal"
+
+["TimberSeasons.Setting.BadtideMonsoonDays"]
+new = "Badtide Monsoon duration (days)"
+status = "normal"
+
+["TimberSeasons.Setting.BlizzardDays"]
+new = "Blizzard duration (days)"
+status = "normal"
+
+["TimberSeasons.Tip.StandaloneHours"]
+new = "Shortest to longest an ambient weather event lasts when it starts on its own, in hours.\\nDrag the two handles."
+status = "normal"
+
+["TimberSeasons.Tip.HazardGuaranteedHours"]
+new = "Shortest to longest an ambient weather event lasts when it comes with a big hazard (Monsoon, Badtide Monsoon or Blizzard), in hours.\\nDrag the two handles."
+status = "normal"
+
+["TimberSeasons.Tip.MonsoonDays"]
+new = "Shortest to longest a Monsoon lasts, in days.\\nDrag the two handles."
+status = "normal"
+
+["TimberSeasons.Tip.BadtideMonsoonDays"]
+new = "Shortest to longest a Badtide Monsoon lasts, in days.\\nDrag the two handles."
+status = "normal"
+
+["TimberSeasons.Tip.BlizzardDays"]
+new = "Shortest to longest a Blizzard lasts, in days.\\nDrag the two handles."
+status = "normal"

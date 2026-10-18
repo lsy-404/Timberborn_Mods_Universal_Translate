@@ -2,8 +2,8 @@
 name = "Global Inventory"
 
 ["LV.GI.GroupName"]
-status = "normal"
 raw = "Global"
+status = "normal"
 enUS = "Global"
 zhCN = "全局"
 zhTW = "全域"
@@ -19,8 +19,8 @@ viVN = "Toàn cục"
 trTR = "Genel"
 
 ["LV.GI.Nothing"]
-status = "normal"
 raw = "Nothing"
+status = "normal"
 enUS = "Nothing"
 zhCN = "无内容"
 zhTW = "無任何物品"
@@ -104,8 +104,8 @@ viVN = "Thêm"
 trTR = "Ekle"
 
 ["LV.GI.Dev.Remove"]
-status = "normal"
 raw = "Remove"
+status = "normal"
 enUS = "Remove"
 zhCN = "移除"
 zhTW = "移除"

@@ -2,8 +2,8 @@
 name = "Unknown"
 
 ["ZOS.Section.Zoom"]
-status = "normal"
 raw = "Zoom"
+status = "normal"
 enUS = "Zoom"
 zhCN = "缩放"
 zhTW = "縮放"
@@ -70,8 +70,8 @@ viVN = "Sự kiện"
 trTR = "Etkinlikler"
 
 ["ZOS.Section.Nature"]
-status = "normal"
 raw = "Nature"
+status = "normal"
 enUS = "Nature"
 zhCN = "自然"
 zhTW = "自然"
@@ -121,8 +121,8 @@ viVN = "Khoảng cách tối đa giữa camera và mặt đất trước khi âm
 trTR = "Yapı seslerinin tamamen kesilmeden önce kameranın yerden ne kadar uzaklaşabileceği. Oyunun varsayılan değeri 60'tır; bu değerde sesler, başlangıç yakınlaştırma seviyesinin biraz ötesinde kesilir. Tam uzaklaştırma yaklaşık 155'tir (kilidi açılmış yakınlaştırmayla yaklaşık 440)."
 
 ["ZOS.AmbientZoomedOut"]
-status = "normal"
 raw = "Ambient volume zoomed out (%)"
+status = "normal"
 enUS = "Ambient volume zoomed out (%)"
 zhCN = "缩小视角时的环境音量（%）"
 zhTW = "縮小時的環境音量 (%)"
@@ -189,8 +189,8 @@ viVN = "Khoảng cách từ tâm màn hình mà âm thanh có thể nghe đượ
 trTR = "Ekranın merkezinden ne kadar uzaktaki seslerin duyulabileceği. Oyunun varsayılan değeri 10'dur. Daha yüksek bir değer, uzaklaştırılmış görünümde daha geniş bir alanın seslerini duymanızı sağlar."
 
 ["ZOS.All.Buildings"]
-status = "normal"
 raw = "All buildings (%)"
+status = "normal"
 enUS = "All buildings (%)"
 zhCN = "所有建筑（%）"
 zhTW = "所有建築 (%)"
@@ -342,8 +342,8 @@ viVN = "Giải trí"
 trTR = "Boş Zaman"
 
 ["ZOS.Heading.WaterWheels"]
-status = "normal"
 raw = "Water wheels"
+status = "normal"
 enUS = "Water wheels"
 zhCN = "水车"
 zhTW = "水輪"
@@ -393,8 +393,8 @@ viVN = "Động cơ"
 trTR = "Motorlar"
 
 ["ZOS.Sound.PowerShafts"]
-status = "normal"
 raw = "Power shafts"
+status = "normal"
 enUS = "Power shafts"
 zhCN = "动力轴、】【"
 zhTW = "動力軸蕊"
@@ -410,8 +410,8 @@ viVN = "Trục truyền lực"
 trTR = "Güç milleri"
 
 ["ZOS.Sound.Fire"]
-status = "normal"
 raw = "Fire"
+status = "normal"
 enUS = "Fire"
 zhCN = "火焰"
 zhTW = "火焰"
@@ -427,8 +427,8 @@ viVN = "Lửa"
 trTR = "Ateş"
 
 ["ZOS.Sound.Bell"]
-status = "normal"
 raw = "Working hours bell"
+status = "normal"
 enUS = "Working hours bell"
 zhCN = "工作时间铃铛"
 zhTW = "工作時間鈴鐺"
@@ -529,8 +529,8 @@ viVN = "Âm thanh môi trường ban ngày"
 trTR = "Gündüz ortam sesi"
 
 ["ZOS.Sound.Night"]
-status = "normal"
 raw = "Night-time ambience"
+status = "normal"
 enUS = "Night-time ambience"
 zhCN = "夜间环境音效"
 zhTW = "夜間環境音效"

@@ -2,8 +2,8 @@
 name = "Time in Map Editor"
 
 ["TimeInMapEditor.Cycle"]
-status = "normal"
 raw = "Cycle"
+status = "normal"
 enUS = "Cycle"
 zhCN = "周期"
 zhTW = "週期"
@@ -19,8 +19,8 @@ viVN = "Chu kỳ"
 trTR = "Döngü"
 
 ["TimeInMapEditor.Day"]
-status = "normal"
 raw = "Day"
+status = "normal"
 enUS = "Day"
 zhCN = "天"
 zhTW = "日"
@@ -34,3 +34,7 @@ koKR = "낮"
 csCZ = "Den"
 viVN = "Ngày"
 trTR = "Gün"
+
+["TimeInMapEditor.ExplodedGround"]
+new = "Cannot place objects on exploded terrain."
+status = "normal"

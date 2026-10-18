@@ -716,8 +716,8 @@ viVN = "Nhiều dầu mỡ"
 trTR = "Yağlı"
 
 ["Status.Need.Oily"]
-status = "normal"
 raw = "Beaver has Oily fur"
+status = "normal"
 enUS = "Beaver has oily fur"
 zhCN = "海狸的毛皮油腻。"
 zhTW = "海狸有油性毛皮"
@@ -733,8 +733,8 @@ viVN = "Hải ly có bộ lông nhờn"
 trTR = "Kunduzun kürkü yağlıdır"
 
 ["Need.Cough.DisplayName"]
-status = "normal"
 raw = "Cough"
+status = "normal"
 enUS = "Cough"
 zhCN = "咳嗽"
 zhTW = "咳嗽"
@@ -767,8 +767,8 @@ viVN = "Hải ly bị ho"
 trTR = "Kunduz öksürüyor"
 
 ["Good.TeaHerbs.DisplayName"]
-status = "normal"
 raw = "Tea Herbs"
+status = "normal"
 enUS = "Tea Herbs"
 zhCN = "茶草"
 zhTW = "茶草"
@@ -920,8 +920,8 @@ viVN = "Ống dẫn nước"
 trTR = "Borular"
 
 ["Good.Charcoal.DisplayName"]
-status = "normal"
 raw = "Charcoal"
+status = "normal"
 enUS = "Charcoal"
 zhCN = "木炭"
 zhTW = "木炭"
@@ -1005,8 +1005,8 @@ viVN = "Lò hun khói"
 trTR = "Tütsüleyici"
 
 ["Building.Smoker.Description"]
-status = "normal"
 raw = "Converts wood into Charcoal"
+status = "normal"
 enUS = "Converts wood into charcoal"
 zhCN = "将木材转化为木炭"
 zhTW = "將木材轉化為木炭"
@@ -1073,8 +1073,8 @@ viVN = "Tấm thép"
 trTR = "Çelik levhalar"
 
 ["Building.EfficeintSmelter.DisplayName"]
-status = "normal"
 raw = "Efficient Smelter"
+status = "normal"
 enUS = "Efficient Smelter"
 zhCN = "高效熔炉"
 zhTW = "高效熔爐"
@@ -1226,8 +1226,8 @@ viVN = "Chuyển nhựa thành dầu"
 trTR = "Plastikleri yağa dönüştürür"
 
 ["Building.Refinery.FlavorDescription"]
-status = "normal"
 raw = "The Hoomans called it Black Gold, I dont know what this has to do with gold, it just sticks to your fur!"
+status = "normal"
 enUS = "The Hoomans called it Black Gold. I don't know what this has to do with gold; it just sticks to your fur!"
 zhCN = "人类称它为“黑金”，我不知道这跟金子有什么关系，它只会粘在你的毛上！"
 zhTW = "人類稱它為黑金，我不知道這跟黃金有什麼關係，它只是會黏在你的毛皮上！"

@@ -1,0 +1,26 @@
+[_meta]
+name = "Better Map Editor"
+
+["BetterMapEditor.EveryLayer"]
+new = "All layers"
+status = "normal"
+
+["BetterMapEditor.VariableRuins"]
+new = "Variable ruins"
+status = "normal"
+
+["BetterMapEditor.RuinHeight"]
+new = "Height {0}"
+status = "normal"
+
+["BetterMapEditor.WholeMap"]
+new = "Whole map"
+status = "normal"
+
+["BetterMapEditor.PreserveObjects"]
+new = "Preserve objects"
+status = "normal"
+
+["BetterMapEditor.Working"]
+new = "Working... {0}%"
+status = "normal"

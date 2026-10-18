@@ -4810,8 +4810,8 @@ viVN = "Các điều khiển xây dựng đang sử dụng <YellowHighlight>kho 
 trTR = "Bina kontrolleri <YellowHighlight>global</YellowHighlight> envanteri kullanıyor."
 
 ["UI.TW.SimpleWorkshopControl.UnlockLabel"]
-status = "normal"
 raw = "Unlock workshop controls for {0} scinece"
+status = "normal"
 enUS = "Unlock workshop controls for {0} science"
 zhCN = "花费 {0} 科学点解锁工坊控制器"
 zhTW = "解鎖工作坊控制功能，需花費 {0} 科學點數"
@@ -4878,8 +4878,8 @@ viVN = "Không thể mở khóa các điều khiển xưởng; không đủ đi�
 trTR = "Atölye kontrollerinin kilidi açılamıyor; yeterli bilim puanı yok."
 
 ["UI.TW.SimpleWorkshopControl.PromptForUnlockHeader"]
-status = "normal"
 raw = "Unlock?"
+status = "normal"
 enUS = "Unlock?"
 zhCN = "解锁？"
 zhTW = "解鎖？"
@@ -4912,8 +4912,8 @@ viVN = "<b><YellowHighlight>Chi phí khoa học tùy chọn:</YellowHighlight><b
 trTR = "<b><YellowHighlight>İsteğe bağlı bilim maliyeti:</YellowHighlight><b>"
 
 ["ModSetting.TWSimpleWorkshopControl.RequireUnlock"]
-status = "normal"
 raw = "Require unlock"
+status = "normal"
 enUS = "Require unlock"
 zhCN = "需要解锁才能使用"
 zhTW = "需要解鎖才能使用"
@@ -4946,8 +4946,8 @@ viVN = "Mỗi loại công trình sẽ cần điểm khoa học để mở khóa
 trTR = "Her bina türünün atölye kontrollerinin kilidini açmak için bilim puanlarına ihtiyacı olacak."
 
 ["ModSetting.TWSimpleWorkshopControl.UnlockCost"]
-status = "normal"
 raw = "Cost Multiplier"
+status = "normal"
 enUS = "Cost Multiplier"
 zhCN = "成本倍率"
 zhTW = "成本倍率"
@@ -4980,8 +4980,8 @@ viVN = "Mở khóa các tùy chọn điều khiển xưởng sẽ tốn một ph
 trTR = "Atölye kontrollerinin kilidini açmak, bu yapı türünün ilk araştırma maliyetinin belirtilen oranına mal olur."
 
 ["ModSetting.TWSimpleWorkshopControl.MinUnlockCost"]
-status = "normal"
 raw = "Min cost"
+status = "normal"
 enUS = "Minimum cost"
 zhCN = "最低成本"
 zhTW = "最低成本"
@@ -4997,8 +4997,8 @@ viVN = "Chi phí tối thiểu"
 trTR = "En düşük maliyet"
 
 ["ModSetting.TWSimpleWorkshopControl.MinUnlockCostDesc"]
-status = "normal"
 raw = "Unlocking a building type will always cost at least this much"
+status = "normal"
 enUS = "Unlocking a building type will always cost at least this much"
 zhCN = "解锁一种建筑类型的费用至少为此数值"
 zhTW = "解鎖建築類型的花費至少為此數值。"

@@ -53,8 +53,8 @@ viVN = "Thay đổi kích thước bản đồ"
 trTR = "Harita Boyutunu Yeniden Boyutlandır"
 
 ["LV.MTr.ModeResizeHeight"]
-status = "normal"
 raw = "Resize Map Height"
+status = "normal"
 enUS = "Resize Map Height"
 zhCN = "调整地图高度"
 zhTW = "調整地圖高度"
@@ -87,8 +87,8 @@ viVN = "Thêm đất ở phía dưới"
 trTR = "Alta Toprak Ekle"
 
 ["LV.MTr.ModeRotate"]
-status = "normal"
 raw = "Rotate"
+status = "normal"
 enUS = "Rotate"
 zhCN = "旋转"
 zhTW = "旋轉"
@@ -104,8 +104,8 @@ viVN = "Xoay"
 trTR = "Döndür"
 
 ["LV.MTr.ModeFlip"]
-status = "normal"
 raw = "Flip"
+status = "normal"
 enUS = "Flip"
 zhCN = "翻转"
 zhTW = "翻轉"
@@ -189,8 +189,8 @@ viVN = "Tổng chiều cao"
 trTR = "Toplam Yükseklik"
 
 ["LV.MTr.PivotX"]
-status = "normal"
 raw = "Pivot X"
+status = "normal"
 enUS = "Pivot X"
 zhCN = "枢轴 X"
 zhTW = "X 軸樞紐位置"
@@ -257,8 +257,8 @@ viVN = "Các ô mới"
 trTR = "Yeni hücreler"
 
 ["LV.MTr.FillEmpty"]
-status = "normal"
 raw = "Empty"
+status = "normal"
 enUS = "Empty"
 zhCN = "空白"
 zhTW = "清空"
@@ -274,8 +274,8 @@ viVN = "Trống"
 trTR = "Boş"
 
 ["LV.MTr.FillCopyEdge"]
-status = "normal"
 raw = "Copy edge"
+status = "normal"
 enUS = "Copy edge"
 zhCN = "复制边缘"
 zhTW = "複製邊緣"
@@ -291,8 +291,8 @@ viVN = "Sao chép cạnh"
 trTR = "Kenarları kopyala"
 
 ["LV.MTr.FillMirror"]
-status = "normal"
 raw = "Mirror"
+status = "normal"
 enUS = "Mirror"
 zhCN = "镜像"
 zhTW = "鏡射"
@@ -325,8 +325,8 @@ viVN = "Các lớp đất cần chèn tại Z = 0"
 trTR = "Z = 0 konumuna eklenecek toprak katmanları"
 
 ["LV.MTr.IncreaseTerrainHeight"]
-status = "normal"
 raw = "Increase terrain height"
+status = "normal"
 enUS = "Increase terrain height"
 zhCN = "提高地形高度"
 zhTW = "增加地形高度"
@@ -342,8 +342,8 @@ viVN = "Tăng độ cao địa hình"
 trTR = "Arazi yüksekliğini artır"
 
 ["LV.MTr.Rotate"]
-status = "normal"
 raw = "Rotation"
+status = "normal"
 enUS = "Rotation"
 zhCN = "旋转"
 zhTW = "旋轉"
@@ -410,8 +410,8 @@ viVN = "270° theo chiều kim đồng hồ"
 trTR = "Saat yönünde 270°"
 
 ["LV.MTr.FlipAxis"]
-status = "normal"
 raw = "Axis"
+status = "normal"
 enUS = "Axis"
 zhCN = "轴"
 zhTW = "軸線"
@@ -444,8 +444,8 @@ viVN = "Lật theo trục X"
 trTR = "X Ekseni Boyunca Çevir"
 
 ["LV.MTr.FlipY"]
-status = "normal"
 raw = "Flip Y"
+status = "normal"
 enUS = "Flip Y"
 zhCN = "翻转 Y 轴"
 zhTW = "垂直翻轉"
@@ -461,8 +461,8 @@ viVN = "Lật theo trục Y"
 trTR = "Y ekseninde çevir"
 
 ["LV.MTr.FlipBoth"]
-status = "normal"
 raw = "Flip X and Y"
+status = "normal"
 enUS = "Flip X and Y"
 zhCN = "交换 X 和 Y"
 zhTW = "翻轉 X 和 Y"
@@ -478,8 +478,8 @@ viVN = "Hoán đổi X và Y"
 trTR = "X ve Y'yi ters çevir"
 
 ["LV.MTr.Scope"]
-status = "normal"
 raw = "Target"
+status = "normal"
 enUS = "Target"
 zhCN = "目标"
 zhTW = "目標"
@@ -682,8 +682,8 @@ viVN = "Một số vật thể sẽ nằm ngoài bản đồ. Hãy xóa chúng t
 trTR = "Bazı nesneler haritanın dışında kalacak. Önce onları kaldırın, ardından tekrar dönüştürün."
 
 ["LV.MTr.SeeInvalidObj"]
-status = "normal"
 raw = "See invalid object"
+status = "normal"
 enUS = "See invalid object"
 zhCN = "查看无效对象"
 zhTW = "查看無效物件"

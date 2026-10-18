@@ -1,0 +1,50 @@
+[_meta]
+name = "Workplace Schedules"
+
+["WorkplaceSchedules.Header"]
+new = "Work Schedule"
+status = "normal"
+
+["WorkplaceSchedules.DistrictHeader"]
+new = "District Default Hours"
+status = "normal"
+
+["WorkplaceSchedules.UseGlobalHours"]
+new = "Use Global Hours"
+status = "normal"
+
+["WorkplaceSchedules.Shift"]
+new = "Shift"
+status = "normal"
+
+["WorkplaceSchedules.ShiftHours"]
+new = "Shift {0} hours:"
+status = "normal"
+
+["WorkplaceSchedules.Hours"]
+new = "Hrs:"
+status = "normal"
+
+["WorkplaceSchedules.Start"]
+new = "Start:"
+status = "normal"
+
+["WorkplaceSchedules.ApplyToDistrict"]
+new = "Apply to district"
+status = "normal"
+
+["WorkplaceSchedules.SaveAsDefault"]
+new = "Save as default"
+status = "normal"
+
+["WorkplaceSchedules.Weather.Normal"]
+new = "Normal"
+status = "normal"
+
+["WorkplaceSchedules.Weather.Drought"]
+new = "Drought"
+status = "normal"
+
+["WorkplaceSchedules.Weather.Badtide"]
+new = "Badtide"
+status = "normal"

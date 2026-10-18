@@ -53,8 +53,8 @@ viVN = "“Phao nổi lên, vòi đóng lại. Đơn giản thôi.”"
 trTR = "“Şamandıra yükselir, musluk kapanır. Basit.”"
 
 ["Building.ArtesianWell.DisplayName"]
-status = "normal"
 raw = "Artesian Well"
+status = "normal"
 enUS = "Artesian Well"
 zhCN = "自流井"
 zhTW = "自流井"
@@ -172,8 +172,8 @@ viVN = "Nước hôm nay: {0}"
 trTR = "Bugünkü su: {0}"
 
 ["Waterworks.State.Pouring"]
-status = "normal"
 raw = "Pouring"
+status = "normal"
 enUS = "Pouring"
 zhCN = "倾倒中"
 zhTW = "傾倒中"
@@ -206,8 +206,8 @@ viVN = "Ở độ sâu mục tiêu"
 trTR = "Hedef derinlikte"
 
 ["Waterworks.State.Empty"]
-status = "normal"
 raw = "Tank empty"
+status = "normal"
 enUS = "Tank empty"
 zhCN = "水箱为空"
 zhTW = "水槽已空"
@@ -325,8 +325,8 @@ viVN = "Lưu lượng rót của van phao (nước mỗi giờ)"
 trTR = "Şamandıralı vananın akış hızı (saatteki su miktarı)"
 
 ["Waterworks.Settings.WellFlow"]
-status = "normal"
 raw = "Artesian well flow (water per hour)"
+status = "normal"
 enUS = "Artesian well flow (water per hour)"
 zhCN = "自流井流量（每小时水量）"
 zhTW = "自流井流量（每小時水量）"
@@ -342,8 +342,8 @@ viVN = "Lưu lượng giếng phun (nước mỗi giờ)"
 trTR = "Artezyen kuyusu akışı (saatte su)"
 
 ["Waterworks.Settings.WellDailyCap"]
-status = "normal"
 raw = "Artesian well daily limit (water)"
+status = "normal"
 enUS = "Artesian Well Daily Limit (Water)"
 zhCN = "自流井每日限额（水）"
 zhTW = "自流井每日供水上限"

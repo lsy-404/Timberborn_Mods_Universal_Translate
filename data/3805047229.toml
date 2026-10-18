@@ -155,8 +155,8 @@ viVN = "Khu vực xây dựng ở phía trước."
 trTR = "İleride inşaat alanı var."
 
 ["Decoration.Ground01.DisplayName"]
-status = "normal"
 raw = "Ground"
+status = "normal"
 enUS = "Ground"
 zhCN = "地面"
 zhTW = "地面"
@@ -257,8 +257,8 @@ viVN = "Những bông hoa đẹp luôn mang lại cảm giác đặc biệt."
 trTR = "Güzel çiçekler her zaman insana kendini özel hissettirir."
 
 ["Decoration.Bench01.DisplayName"]
-status = "normal"
 raw = "Cozy Bench"
+status = "normal"
 enUS = "Cozy Bench"
 zhCN = "舒适长椅"
 zhTW = "舒適長椅"
@@ -291,8 +291,8 @@ viVN = "Đi kèm một chiếc bàn phụ tiện dụng."
 trTR = "Kullanışlı bir yan sehpayla birlikte gelir."
 
 ["Decoration.Bench01.FlavorDescription"]
-status = "normal"
 raw = "How about taking a short break?"
+status = "normal"
 enUS = "How about taking a short break?"
 zhCN = "要不要稍微休息一下？"
 zhTW = "要不要稍微休息一下？"
@@ -359,8 +359,8 @@ viVN = "Nó cứ quay vòng vòng..."
 trTR = "Döne döne gidiyor..."
 
 ["Decoration.Painting.DisplayName"]
-status = "normal"
 raw = "Painting"
+status = "normal"
 enUS = "Painting"
 zhCN = "画作"
 zhTW = "畫作"

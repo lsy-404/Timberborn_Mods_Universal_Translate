@@ -2,8 +2,8 @@
 name = "Advanced Transport System"
 
 ["Mod.AdvancedPumps.Name"]
-status = "normal"
 raw = "Advanced Transport System"
+status = "normal"
 enUS = "Advanced Transport System"
 zhCN = "高级运输系统"
 zhTW = "進階運輸系統"
@@ -19,8 +19,8 @@ viVN = "Hệ thống Vận chuyển Nâng cao"
 trTR = "Gelişmiş Taşıma Sistemi"
 
 ["ToolGroups.AdvancedPumps"]
-status = "normal"
 raw = "Advanced Transport"
+status = "normal"
 enUS = "Advanced Transport"
 zhCN = "高级运输"
 zhTW = "進階運輸"
@@ -36,8 +36,8 @@ viVN = "Vận chuyển nâng cao"
 trTR = "Gelişmiş Taşıma"
 
 ["Building.AdvancedPumps.PipeSegment.DisplayName"]
-status = "normal"
 raw = "Conduit"
+status = "normal"
 enUS = "Conduit"
 zhCN = "管道段"
 zhTW = "輸水管段"
@@ -53,8 +53,8 @@ viVN = "Đoạn ống dẫn"
 trTR = "Boru Hattı"
 
 ["Building.AdvancedPumps.PipeSegment.Description"]
-status = "normal"
 raw = "A 1x1 water pipe. Auto-connects to neighbouring conduits, tanks and pumps and switches shape like a beaver tube."
+status = "normal"
 enUS = "A 1x1 water pipe. Automatically connects to neighboring conduits, tanks, and pumps, and changes shape like a beaver tube."
 zhCN = "1x1 水管。会自动连接相邻的管道、储罐和水泵，并像海狸管道一样切换形状。"
 zhTW = "1x1 水管。會自動連接相鄰的導管、水槽和水泵，並像海狸管道一樣切換形狀。"
@@ -70,8 +70,8 @@ viVN = "Một ống dẫn nước 1x1. Tự động kết nối với các đư�
 trTR = "1x1 su borusu. Komşu kanallara, tanklara ve pompalara otomatik bağlanır ve kunduz borusu gibi şekil değiştirir."
 
 ["Building.AdvancedPumps.PipeSegment.FlavorDescription"]
-status = "normal"
 raw = "Water should not need to walk."
+status = "normal"
 enUS = "Water shouldn't have to walk."
 zhCN = "水应该不需要走路。"
 zhTW = "水不該還需要自己走路。"
@@ -87,8 +87,8 @@ viVN = "Nước không nên phải đi bộ."
 trTR = "Suyun yürümesine gerek kalmamalı."
 
 ["Building.AdvancedPumps.Outlet.DisplayName"]
-status = "normal"
 raw = "Outlet"
+status = "normal"
 enUS = "Outlet"
 zhCN = "出水口"
 zhTW = "出水口"
@@ -104,8 +104,8 @@ viVN = "Cửa xả"
 trTR = "Çıkış"
 
 ["Building.AdvancedPumps.Outlet.Description"]
-status = "normal"
 raw = "Legacy outlet retained for existing saves. New networks release surplus water automatically at open pipe ends."
+status = "normal"
 enUS = "Legacy outlet retained for existing saves. New networks release surplus water automatically at open pipe ends."
 zhCN = "为兼容现有存档而保留的旧式出口。新网络会在开放的管道末端自动排放多余的水。"
 zhTW = "保留舊式出口以相容既有存檔。新式網路會在開放的管道末端自動排出多餘的水。"
@@ -121,8 +121,8 @@ viVN = "Cửa xả cũ được giữ lại để tương thích với các bả
 trTR = "Mevcut kayıtlar için eski çıkış korunmuştur. Yeni ağlar, fazla suyu açık boru uçlarından otomatik olarak tahliye eder."
 
 ["Building.AdvancedPumps.Outlet.FlavorDescription"]
-status = "normal"
 raw = "Where the water finally gets to go."
+status = "normal"
 enUS = "Where the water finally gets to go."
 zhCN = "水最终流向的地方。"
 zhTW = "水最後終於能流去的地方。"
@@ -138,8 +138,8 @@ viVN = "Nơi nước cuối cùng cũng tìm được đường thoát."
 trTR = "Suyun sonunda gidebildiği yer."
 
 ["Building.AdvancedPumps.PipeSegmentGlass.DisplayName"]
-status = "normal"
 raw = "Glass Conduit"
+status = "normal"
 enUS = "Glass Conduit"
 zhCN = "玻璃导管"
 zhTW = "玻璃管道"
@@ -155,8 +155,8 @@ viVN = "Đoạn ống dẫn bằng kính"
 trTR = "Cam Boru Hattı Segmenti"
 
 ["Building.AdvancedPumps.PipeSegmentGlass.Description"]
-status = "normal"
 raw = "Same as the Conduit, but with a transparent shell so the water shows while it flows (shows murky if a pump is drawing contaminated water)."
+status = "normal"
 enUS = "Same as the Conduit, but with a transparent shell so the water is visible as it flows (it looks murky if a pump is drawing contaminated water)."
 zhCN = "与管道相同，但外壳透明，可以看到水流动（如果水泵抽取的是受污染的水，则会显示浑浊）。"
 zhTW = "與導水管相同，但外殼透明，水流經時清晰可見（若抽水機抽取的是受污染的水，則會顯示混濁）。"
@@ -172,8 +172,8 @@ viVN = "Giống như Ống dẫn, nhưng có vỏ trong suốt để nhìn thấ
 trTR = "İletken ile aynıdır, ancak su akarken görünmesini sağlayan şeffaf bir dış yüzeye sahiptir (pompa kirli su çekiyorsa su bulanık görünür)."
 
 ["Building.AdvancedPumps.PipeSegmentGlass.FlavorDescription"]
-status = "normal"
 raw = "Nothing to hide."
+status = "normal"
 enUS = "Nothing to hide."
 zhCN = "没什么好隐藏的。"
 zhTW = "沒什麼好藏的。"
@@ -189,8 +189,8 @@ viVN = "Không có gì phải che giấu."
 trTR = "Saklayacak bir şey yok."
 
 ["Building.AdvancedPumps.ItemPipe.DisplayName"]
-status = "normal"
 raw = "Item Conduit"
+status = "normal"
 enUS = "Item Conduit"
 zhCN = "物品导管"
 zhTW = "物品輸送管道"
@@ -206,8 +206,8 @@ viVN = "Ống dẫn vật phẩm"
 trTR = "Eşya Kanalı"
 
 ["Building.AdvancedPumps.ItemPipe.Description"]
-status = "normal"
 raw = "A 1x1 cargo pipe. Auto-connects to neighbouring item conduits and stations and carries packed goods between them."
+status = "normal"
 enUS = "A 1x1 cargo pipe. Automatically connects to neighboring item conduits and stations and carries packed goods between them."
 zhCN = "1x1货物管道。自动连接相邻的物品输送管道和站点，并在它们之间运输打包货物。"
 zhTW = "1x1 貨物管道。會自動連接相鄰的物品管線和站點，並在它們之間運送包裝貨物。"
@@ -223,8 +223,8 @@ viVN = "Ống vận chuyển hàng hóa kích thước 1x1. Tự động kết n
 trTR = "1x1 boyutunda bir kargo borusu. Komşu eşya kanallarına ve istasyonlara otomatik bağlanır ve aralarında paketlenmiş malları taşır."
 
 ["Building.AdvancedPumps.ItemPipe.FlavorDescription"]
-status = "normal"
 raw = "Cargo, not currents."
+status = "normal"
 enUS = "Cargo, not currents."
 zhCN = "运货，不是输水。"
 zhTW = "運的是貨物，不是水流。"
@@ -240,8 +240,8 @@ viVN = "Hàng hóa, không phải dòng chảy."
 trTR = "Akıntı değil, yük."
 
 ["Building.AdvancedPumps.ItemPipeGlass.DisplayName"]
-status = "normal"
 raw = "Glass Item Conduit"
+status = "normal"
 enUS = "Glass Item Conduit"
 zhCN = "玻璃物品管道"
 zhTW = "玻璃物品輸送管道"
@@ -257,8 +257,8 @@ viVN = "Ống dẫn vật phẩm bằng kính"
 trTR = "Cam Eşya Kanalı"
 
 ["Building.AdvancedPumps.ItemPipeGlass.Description"]
-status = "normal"
 raw = "Same as the Item Conduit, but with a transparent shell so the cargo shows while it moves."
+status = "normal"
 enUS = "Same as the Item Conduit, but with a transparent shell so the cargo is visible as it moves."
 zhCN = "与物品管道相同，但外壳透明，能看到货物在其中移动。"
 zhTW = "功能與物品輸送管相同，但外殼透明，貨物移動時也能看見。"
@@ -274,8 +274,8 @@ viVN = "Giống như Ống dẫn vật phẩm, nhưng có vỏ trong suốt đ�
 trTR = "Eşya Kanalı ile aynı işlevi görür, ancak içinden geçen yükün görünmesini sağlayan şeffaf bir gövdeye sahiptir."
 
 ["Building.AdvancedPumps.ItemPipeGlass.FlavorDescription"]
-status = "normal"
 raw = "Watch it travel."
+status = "normal"
 enUS = "Watch it travel."
 zhCN = "看着它移动。"
 zhTW = "看著它運送貨物。"
@@ -291,8 +291,8 @@ viVN = "Ngắm nó di chuyển."
 trTR = "Yolculuğunu izle."
 
 ["Building.AdvancedPumps.ItemStation.DisplayName"]
-status = "normal"
 raw = "Item Loading Station"
+status = "normal"
 enUS = "Item Loading Station"
 zhCN = "物品装载站"
 zhTW = "物品裝載站"
@@ -308,8 +308,8 @@ viVN = "Trạm nạp vật phẩm"
 trTR = "Eşya Yükleme İstasyonu"
 
 ["Building.AdvancedPumps.ItemStation.Description"]
-status = "normal"
 raw = "Pick one packed good. Haulers fill this station and the item network ships the good to connected Delivery Stations; it never lets haulers carry it back out. If every delivery is full it stockpiles here until room frees. Stands against a warehouse or workshop output to pull straight from it, no hauler trip."
+status = "normal"
 enUS = "Choose one packed good. Haulers fill this station, and the item network ships the good to connected Delivery Stations; haulers can never carry it back out. If all deliveries are full, it stockpiles goods here until space becomes available. Place it against a warehouse or workshop output to pull goods directly, without a hauler trip."
 zhCN = "选择一种已打包货物。搬运工会将这座货站装满，物品网络会把货物运送到相连的配送站；搬运工无法将货物从这里搬走。若所有配送站都已满，货物会暂存在这里，直到腾出空间。将其紧靠仓库或工坊的输出端放置，即可直接从中取货，无需搬运工往返。"
 zhTW = "選擇一種包裝貨物。搬運工會將此站填滿，物品網路會把貨物運送至連接的配送站；搬運工無法將貨物從此站取回。若所有配送站都滿了，貨物便會暫存於此，直到有空間為止。將此站緊靠倉庫或工坊的輸出端建造，即可直接從中取貨，無須搬運工往返。"
@@ -325,8 +325,8 @@ viVN = "Chọn một loại hàng đóng gói. Nhân công vận chuyển sẽ c
 trTR = "Paketli bir mal seçin. Taşıyıcılar bu istasyonu doldurur ve eşya ağı, malı bağlı Teslimat İstasyonlarına gönderir; taşıyıcıların malı buradan geri almasına hiçbir zaman izin vermez. Tüm teslimatlar doluysa, yer açılana kadar malı burada stoklar. Doğrudan çekebilmesi ve taşıyıcı seferine gerek kalmaması için bir depo veya atölyenin çıkışına bitişik yerleştirin."
 
 ["Building.AdvancedPumps.ItemStation.FlavorDescription"]
-status = "normal"
 raw = "Load it and forget it."
+status = "normal"
 enUS = "Load it and forget it."
 zhCN = "把它装上，然后就不用管了。"
 zhTW = "裝載好就不用再操心。"
@@ -342,8 +342,8 @@ viVN = "Cứ chất hàng lên rồi quên nó đi."
 trTR = "Yükle ve unut."
 
 ["Building.AdvancedPumps.ItemDepot.DisplayName"]
-status = "normal"
 raw = "Item Delivery Station"
+status = "normal"
 enUS = "Item Delivery Station"
 zhCN = "物品配送站"
 zhTW = "物品運送站"
@@ -359,8 +359,8 @@ viVN = "Trạm giao vật phẩm"
 trTR = "Eşya Teslim İstasyonu"
 
 ["Building.AdvancedPumps.ItemDepot.Description"]
-status = "normal"
 raw = "Pick one packed good. Only the item network fills this station - haulers never drop goods in, they only carry them onward. Stands against a warehouse to push straight into it when there is room."
+status = "normal"
 enUS = "Choose one packed good. Only the item network fills this station—haulers never drop goods here; they only carry them onward. Place it against a warehouse to push goods directly into it when there’s room."
 zhCN = "选择一种打包货物。只有物品网络会为此站点装货——搬运工不会把货物放进来，只会将其继续运送。将它紧靠仓库放置，有空间时货物便会直接送入仓库。"
 zhTW = "選擇一種包裝貨物。只有物品網絡會填滿此站點——搬運工不會把貨物放進來，他們只會將貨物繼續運送。將此站點緊靠倉庫建造，若倉庫有空間，貨物便會直接送入其中。"
@@ -376,8 +376,8 @@ viVN = "Chọn một loại hàng đã đóng gói. Chỉ mạng lưới hàng h
 trTR = "Paketlenmiş bir mal seçin. Bu istasyonu yalnızca eşya ağı doldurur; taşıyıcılar buraya mal bırakmaz, yalnızca malları ileri taşır. Yer varsa malları doğrudan depoya göndermek için bir deponun yanına yerleştirin."
 
 ["Building.AdvancedPumps.ItemDepot.FlavorDescription"]
-status = "normal"
 raw = "The other end of the pipe."
+status = "normal"
 enUS = "The other end of the pipe."
 zhCN = "管道的另一端。"
 zhTW = "管道的另一端。"
@@ -393,8 +393,8 @@ viVN = "Đầu còn lại của đường ống."
 trTR = "Boru hattının diğer ucu."
 
 ["Building.AdvancedPumps.BeaverTube.DisplayName"]
-status = "normal"
 raw = "Beaver Tube"
+status = "normal"
 enUS = "Beaver Tube"
 zhCN = "海狸管道"
 zhTW = "海狸管道"
@@ -410,8 +410,8 @@ viVN = "Ống dẫn Hải ly"
 trTR = "Kunduz Borusu"
 
 ["Building.AdvancedPumps.BeaverTube.Description"]
-status = "normal"
 raw = "A walkable pneumatic tube on the same network beavers already travel through. Glass-walled so you can watch them pass."
+status = "normal"
 enUS = "A walkable pneumatic tube on the same network beavers already travel through. Glass-walled so you can watch them pass."
 zhCN = "一条可供海狸通行、并与它们现有行进网络相连的气动管道。管壁为玻璃制成，方便观察它们经过。"
 zhTW = "可供海狸在同一網絡中通行的氣動管道。管壁採用玻璃設計，讓你能看著牠們經過。"
@@ -427,8 +427,8 @@ viVN = "Một đường ống khí nén có thể đi lại, nằm trên cùng m
 trTR = "Kunduzların zaten içinde dolaştığı aynı ağda yer alan, yürünebilir bir pnömatik tüp. Geçip gidişlerini izleyebilmeniz için cam duvarlı."
 
 ["Building.AdvancedPumps.BeaverTube.FlavorDescription"]
-status = "normal"
 raw = "Zip on through."
+status = "normal"
 enUS = "Zip right through."
 zhCN = "嗖地穿过去。"
 zhTW = "嗖地穿過去。"
@@ -444,8 +444,8 @@ viVN = "Lướt vèo qua thôi."
 trTR = "Vınlayıp geç."
 
 ["Building.AdvancedPumps.Valve.DisplayName"]
-status = "normal"
 raw = "Valve"
+status = "normal"
 enUS = "Valve"
 zhCN = "阀门"
 zhTW = "閥門"
@@ -461,8 +461,8 @@ viVN = "Van điều tiết"
 trTR = "Vana"
 
 ["Building.AdvancedPumps.Valve.Description"]
-status = "normal"
 raw = "Splits the water network here. Use the Open / Close button in its panel."
+status = "normal"
 enUS = "Splits the water network here. Use the Open / Close button in its panel."
 zhCN = "在此处切断水网。使用其面板中的“打开 / 关闭”按钮。"
 zhTW = "在此處分隔水網路。使用面板中的「開啟／關閉」按鈕。"
@@ -478,8 +478,8 @@ viVN = "Chia tách mạng lưới nước tại đây. Sử dụng nút Mở / �
 trTR = "Su şebekesini burada ayırır. Panelindeki Aç / Kapat düğmesini kullanın."
 
 ["Building.AdvancedPumps.Valve.FlavorDescription"]
-status = "normal"
 raw = "Shut it if you dare."
+status = "normal"
 enUS = "Shut it if you dare."
 zhCN = "有胆就把它关上。"
 zhTW = "有膽就把它關上。"
@@ -495,8 +495,8 @@ viVN = "Thử đóng nó lại xem."
 trTR = "Cesaretin varsa kapat."
 
 ["Building.AdvancedPumps.Valve.ClosedStatus"]
-status = "normal"
 raw = "Valve closed - water cannot pass"
+status = "normal"
 enUS = "Valve closed - water cannot pass"
 zhCN = "阀门已关闭——水无法通过"
 zhTW = "閥門已關閉－水無法通過"
@@ -512,8 +512,8 @@ viVN = "Van đã đóng - nước không thể chảy qua"
 trTR = "Vana kapalı - su geçemez"
 
 ["Building.AdvancedPumps.Valve.OpenAction"]
-status = "normal"
 raw = "Open valve"
+status = "normal"
 enUS = "Open valve"
 zhCN = "打开阀门"
 zhTW = "開啟閥門"
@@ -529,8 +529,8 @@ viVN = "Mở van"
 trTR = "Vanayı aç"
 
 ["Building.AdvancedPumps.Valve.CloseAction"]
-status = "normal"
 raw = "Close valve"
+status = "normal"
 enUS = "Close valve"
 zhCN = "关闭阀门"
 zhTW = "關閉閥門"
@@ -546,8 +546,8 @@ viVN = "Đóng van"
 trTR = "Vanayı kapat"
 
 ["Building.AdvancedPumps.VerticalPipe.DisplayName"]
-status = "normal"
 raw = "Vertical Water Riser"
+status = "normal"
 enUS = "Vertical Water Riser"
 zhCN = "垂直水管立管"
 zhTW = "垂直升水管"
@@ -563,8 +563,8 @@ viVN = "Ống nâng nước thẳng đứng"
 trTR = "Dikey Su Yükseltici"
 
 ["Building.AdvancedPumps.VerticalPipe.Description"]
-status = "normal"
 raw = "A stackable vertical water pipe. Stack them into a column to carry water up or down levels; connects to horizontal conduits at every level."
+status = "normal"
 enUS = "A stackable vertical water pipe. Stack them into a column to carry water up or down levels; connects to horizontal conduits at every level."
 zhCN = "可堆叠的垂直水管。将其堆叠成管柱，可将水输送到不同高度；每一层都可连接水平水渠。"
 zhTW = "可堆疊的垂直水管。將多個水管堆疊成管柱，便能將水輸送至不同高度；每一層都可連接水平導管。"
@@ -580,8 +580,8 @@ viVN = "Một đường ống nước thẳng đứng có thể xếp chồng. X
 trTR = "Üst üste dizilebilen dikey su borusu. Suyu katlar arasında yukarı veya aşağı taşımak için boruları bir sütun hâlinde üst üste dizin; her katta yatay su kanallarına bağlanır."
 
 ["Building.AdvancedPumps.VerticalPipe.FlavorDescription"]
-status = "normal"
 raw = "Water goes up now too."
+status = "normal"
 enUS = "Water goes up now too."
 zhCN = "现在水也能往上流了。"
 zhTW = "現在水也會往上流了。"
@@ -597,8 +597,8 @@ viVN = "Giờ nước cũng chảy lên trên nữa."
 trTR = "Su artık yukarı da çıkıyor."
 
 ["Building.AdvancedPumps.VerticalPipeGlass.DisplayName"]
-status = "normal"
 raw = "Glass Vertical Water Riser"
+status = "normal"
 enUS = "Glass Vertical Water Riser"
 zhCN = "玻璃垂直输水管目信"
 zhTW = "玻璃垂直輸水管路棟"
@@ -614,8 +614,8 @@ viVN = "Ống dẫn nước đứng bằng kính"
 trTR = "Cam Dikey Su Yükselticisi"
 
 ["Building.AdvancedPumps.VerticalPipeGlass.Description"]
-status = "normal"
 raw = "Same as the Vertical Water Riser, but with a transparent shell."
+status = "normal"
 enUS = "Same as the Vertical Water Riser, but with a transparent shell."
 zhCN = "与垂直水管相同，但外壳透明。"
 zhTW = "與垂直水管相同，但外殼是透明的。"
@@ -631,8 +631,8 @@ viVN = "Tương tự như Ống nâng nước dọc, nhưng có vỏ trong suố
 trTR = "Dikey Su Yükselticisi ile aynı, ancak şeffaf bir gövdeye sahip."
 
 ["Building.AdvancedPumps.VerticalPipeGlass.FlavorDescription"]
-status = "normal"
 raw = "See it climb."
+status = "normal"
 enUS = "See it climb."
 zhCN = "看着它往上爬。"
 zhTW = "看它往上爬。"
@@ -648,8 +648,8 @@ viVN = "Ngắm nó leo lên kìa."
 trTR = "Tırmanışını izle."
 
 ["Building.AdvancedPumps.VerticalItemPipe.DisplayName"]
-status = "normal"
 raw = "Vertical Item Riser"
+status = "normal"
 enUS = "Vertical Item Riser"
 zhCN = "垂直物品提升管道"
 zhTW = "垂直物品升降管道"
@@ -665,8 +665,8 @@ viVN = "Ống nâng vật phẩm thẳng đứng"
 trTR = "Dikey Eşya Yükselticisi"
 
 ["Building.AdvancedPumps.VerticalItemPipe.Description"]
-status = "normal"
 raw = "A stackable vertical cargo pipe. Stack them to move goods up or down levels; connects to horizontal item conduits at every level."
+status = "normal"
 enUS = "A stackable vertical cargo pipe. Stack them to move goods up or down levels; connects to horizontal item conduits at every level."
 zhCN = "可堆叠的垂直货物管道。将它们堆叠起来，可在不同高度之间上下运输货物；每一层都能连接水平物品管道。"
 zhTW = "可堆疊的垂直貨物管道。將它們堆疊起來，即可讓貨物上下移動；每一層都能連接水平貨物管道。"
@@ -682,8 +682,8 @@ viVN = "Một ống vận chuyển hàng hóa theo chiều dọc có thể xếp
 trTR = "Üst üste yerleştirilebilen dikey bir yük borusu. Eşyaları katlar arasında yukarı veya aşağı taşımak için üst üste yerleştirin; her katta yatay eşya kanallarına bağlanır."
 
 ["Building.AdvancedPumps.VerticalItemPipe.FlavorDescription"]
-status = "normal"
 raw = "Cargo goes up now too."
+status = "normal"
 enUS = "Cargo goes up now too."
 zhCN = "现在货物也能向上运输了。"
 zhTW = "現在貨物也能往上運送了。"
@@ -699,8 +699,8 @@ viVN = "Hàng hóa giờ cũng được vận chuyển lên trên."
 trTR = "Artık kargo da yukarı çıkıyor."
 
 ["Building.AdvancedPumps.VerticalItemPipeGlass.DisplayName"]
-status = "normal"
 raw = "Glass Vertical Item Riser"
+status = "normal"
 enUS = "Glass Vertical Item Pipe"
 zhCN = "玻璃垂直物品提升管道"
 zhTW = "玻璃垂直物品升降管道"
@@ -716,8 +716,8 @@ viVN = "Ống nâng vật phẩm thẳng đứng bằng kính"
 trTR = "Cam Dikey Eşya Yükselticisi"
 
 ["Building.AdvancedPumps.VerticalItemPipeGlass.Description"]
-status = "normal"
 raw = "Same as the Vertical Item Riser, but with a transparent shell."
+status = "normal"
 enUS = "Same as the Vertical Item Riser, but with a transparent shell."
 zhCN = "与垂直物品提升管相同，但外壳是透明的。"
 zhTW = "與垂直物品升降機相同，但外殼是透明的。"
@@ -733,8 +733,8 @@ viVN = "Giống như Ống nâng vật phẩm đứng, nhưng có vỏ trong su�
 trTR = "Dikey Eşya Yükselticisi ile aynıdır, ancak şeffaf bir dış kaplaması vardır."
 
 ["Building.AdvancedPumps.VerticalItemPipeGlass.FlavorDescription"]
-status = "normal"
 raw = "Watch the cargo climb."
+status = "normal"
 enUS = "Watch the cargo climb."
 zhCN = "看着货物一路向上。"
 zhTW = "看著貨物一路往上爬。"
@@ -750,8 +750,8 @@ viVN = "Ngắm nhìn hàng hóa được nâng lên."
 trTR = "Yükün yükselişini izle."
 
 ["Building.AdvancedPumps.VerticalBeaverTube.DisplayName"]
-status = "normal"
 raw = "Vertical Beaver Tube"
+status = "normal"
 enUS = "Vertical Beaver Tube"
 zhCN = "垂直海狸管道"
 zhTW = "垂直海狸管道"
@@ -767,8 +767,8 @@ viVN = "Ống Dẫn Hải Ly Đứng Dọc"
 trTR = "Dikey Kunduz Tüpü"
 
 ["Building.AdvancedPumps.VerticalBeaverTube.Description"]
-status = "normal"
 raw = "A stackable vertical beaver tube. Stack them into a shaft beavers travel up and down. Glass-walled."
+status = "normal"
 enUS = "A stackable vertical tube for beavers. Stack them to create a shaft that beavers can travel up and down. Glass-walled."
 zhCN = "可堆叠的垂直海狸管道。将它们堆叠成竖井，供海狸上下通行。带玻璃墙。"
 zhTW = "可堆疊的垂直海狸管道。堆疊起來，形成海狸上下通行的豎井。設有玻璃牆。"
@@ -784,8 +784,8 @@ viVN = "Ống cho hải ly di chuyển theo chiều dọc, có thể xếp chồ
 trTR = "Üst üste yerleştirilebilen dikey bir kunduz tüpü. Kunduzların yukarı ve aşağı hareket ettiği bir şaft oluşturmak için üst üste dizin. Cam duvarlıdır."
 
 ["Building.AdvancedPumps.VerticalBeaverTube.FlavorDescription"]
-status = "normal"
 raw = "Straight up."
+status = "normal"
 enUS = "Straight up."
 zhCN = "笔直向上。"
 zhTW = "筆直向上。"
@@ -801,8 +801,8 @@ viVN = "Thẳng đứng lên trên."
 trTR = "Dümdüz yukarı."
 
 ["Building.AdvancedPumps.WaterPump.DisplayName"]
-status = "normal"
 raw = "Water Pump"
+status = "normal"
 enUS = "Water Pump"
 zhCN = "水泵"
 zhTW = "抽水泵"
@@ -818,8 +818,8 @@ viVN = "Máy bơm nước"
 trTR = "Su Pompası"
 
 ["Building.AdvancedPumps.WaterPump.Description"]
-status = "normal"
 raw = "Draws water through an automatically extending intake pipe and feeds connected water pipes. Set output from 0–10 in the building panel; power use scales with output from 0–450 hp. Surplus water leaves at open pipe ends after connected tanks are filled."
+status = "normal"
 enUS = "Draws water through an automatically extending intake pipe and feeds connected water pipes. Set the output from 0–10 in the building panel; power use scales with the output from 0–450 hp. Surplus water exits through open pipe ends after connected tanks are filled."
 zhCN = "通过自动延伸的进水管抽水，并向相连的水管供水。在建筑面板中将输出设为 0–10；耗电量会随输出从 0–450 hp 变化。相连的水箱装满后，多余的水会从开放的管道末端流出。"
 zhTW = "透過會自動延伸的進水管抽水，並供水給相連的水管。在建築面板中將輸出設為 0–10；耗電量會隨輸出在 0–450 hp 之間變化。相連的水槽裝滿後，多餘的水會從開放的管口流出。"
@@ -835,8 +835,8 @@ viVN = "Hút nước qua ống lấy nước tự động kéo dài và cấp n�
 trTR = "Otomatik olarak uzayan bir emiş borusuyla su çeker ve bağlı su borularına besler. Bina panelinden çıkışı 0–10 arasında ayarlayın; güç tüketimi, çıkışa bağlı olarak 0–450 hp arasında değişir. Bağlı tanklar dolduktan sonra fazla su, açık boru uçlarından dışarı akar."
 
 ["Building.AdvancedPumps.WaterPump.FlavorDescription"]
-status = "normal"
 raw = "One pump to rule the pipes."
+status = "normal"
 enUS = "One pump to rule the pipes."
 zhCN = "一台水泵统御所有管道。"
 zhTW = "一台水泵統御所有管線。"
@@ -852,8 +852,8 @@ viVN = "Một máy bơm thống trị mọi đường ống."
 trTR = "Boruların hepsine hükmedecek tek bir pompa."
 
 ["Building.AdvancedPumps.WaterPump.Strength"]
-status = "normal"
 raw = "Pump output"
+status = "normal"
 enUS = "Pump output"
 zhCN = "抽水量"
 zhTW = "抽水量"
@@ -869,8 +869,8 @@ viVN = "Lưu lượng bơm"
 trTR = "Pompa çıkışı"
 
 ["Building.AdvancedPumps.WaterTank.DisplayName"]
-status = "normal"
 raw = "Water Tank"
+status = "normal"
 enUS = "Water Tank"
 zhCN = "储水箱"
 zhTW = "水箱"
@@ -886,8 +886,8 @@ viVN = "Bể chứa nước"
 trTR = "Su Deposu"
 
 ["Building.AdvancedPumps.WaterTank.Description"]
-status = "normal"
 raw = "Storage at the receiving end of the water network. Only connected pumps fill it, through the pipes; beavers draw water out into their barrels. Pick \"Water\" in its panel."
+status = "normal"
 enUS = "Storage at the receiving end of the water network. Only connected pumps fill it through the pipes; beavers draw water from it into their barrels. Select “Water” in its panel."
 zhCN = "位于水网接收端的储水设施。只有与其相连的水泵才能通过管道向其注水；海狸会从中取水装入桶中。在其面板中选择“水”。"
 zhTW = "位於水網接收端的儲水設施。只有已連接的抽水機能透過管線將水注入其中；海狸會從中取水裝進桶裡。在面板中選擇「水」。"
@@ -903,8 +903,8 @@ viVN = "Nơi trữ nước ở đầu nhận của mạng lưới nước. Chỉ
 trTR = "Su ağının alıcı ucundaki depolama birimi. Yalnızca bağlı pompalar borular aracılığıyla doldurabilir; kunduzlar suyu buradan fıçılarına alır. Panelinden “Su”yu seçin."
 
 ["Building.AdvancedPumps.WaterTank.FlavorDescription"]
-status = "normal"
 raw = "Where the water waits."
+status = "normal"
 enUS = "Where the water waits."
 zhCN = "水静候之处。"
 zhTW = "水在此處靜候。"
@@ -920,8 +920,8 @@ viVN = "Nơi nước chờ đợi."
 trTR = "Suyun beklediği yer."
 
 ["Building.AdvancedPumps.WaterTankMedium.DisplayName"]
-status = "normal"
 raw = "Medium Water Tank"
+status = "normal"
 enUS = "Medium Water Tank"
 zhCN = "中型水箱"
 zhTW = "中型水箱"
@@ -937,8 +937,8 @@ viVN = "Bể chứa nước cỡ vừa"
 trTR = "Orta Boy Su Deposu"
 
 ["Building.AdvancedPumps.WaterTankMedium.Description"]
-status = "normal"
 raw = "A taller water tank - more storage at the receiving end of the water network. Pick \"Water\" in its panel."
+status = "normal"
 enUS = "A taller water tank—more storage at the receiving end of the water network. Select \"Water\" in its panel."
 zhCN = "更高的水箱——在水网的接收端储存更多水。在其面板中选择“水”。"
 zhTW = "更高的水槽——在水網的接收端提供更多儲水空間。在其面板中選擇「水」。"
@@ -954,8 +954,8 @@ viVN = "Bể chứa nước cao hơn — tăng sức chứa ở đầu nhận c�
 trTR = "Daha yüksek bir su deposu — su şebekesinin alıcı ucunda daha fazla depolama kapasitesi. Panelinde “Su”yu seçin."
 
 ["Building.AdvancedPumps.WaterTankMedium.FlavorDescription"]
-status = "normal"
 raw = "More room for the reserve."
+status = "normal"
 enUS = "More room for the reserve."
 zhCN = "为储备留出更多空间。"
 zhTW = "為儲備騰出更多空間。"
@@ -971,8 +971,8 @@ viVN = "Thêm chỗ cho phần dự trữ."
 trTR = "Yedek için daha fazla alan."
 
 ["Building.AdvancedPumps.WaterTankLarge.DisplayName"]
-status = "normal"
 raw = "Large Water Tank"
+status = "normal"
 enUS = "Large Water Tank"
 zhCN = "大型水箱"
 zhTW = "大型水槽"
@@ -988,8 +988,8 @@ viVN = "Bể chứa nước lớn"
 trTR = "Büyük Su Deposu"
 
 ["Building.AdvancedPumps.WaterTankLarge.Description"]
-status = "normal"
 raw = "A 2x2 water tank - the biggest reserve for a powered pump to fill. Pick \"Water\" in its panel."
+status = "normal"
 enUS = "A 2x2 water tank—the largest reserve a powered pump can fill. Select \"Water\" in its panel."
 zhCN = "一个 2x2 的水箱——可供动力水泵注满的最大储水设施。在其面板中选择“水”。"
 zhTW = "一座 2x2 的水箱——可供動力抽水機注滿的最大儲水設施。在面板中選擇「水」。"
@@ -1005,8 +1005,8 @@ viVN = "Một bể chứa nước 2x2 — kho dự trữ lớn nhất để máy
 trTR = "2x2'lik bir su tankı — motorlu pompanın doldurabileceği en büyük depo. Panelinden \"Su\"yu seçin."
 
 ["Building.AdvancedPumps.WaterTankLarge.FlavorDescription"]
-status = "normal"
 raw = "The big reserve."
+status = "normal"
 enUS = "The big reserve."
 zhCN = "大型储备。"
 zhTW = "大型儲備。"
@@ -1022,8 +1022,8 @@ viVN = "Bể chứa lớn."
 trTR = "Büyük rezerv."
 
 ["Building.AdvancedPumps.Elevator.DisplayName"]
-status = "normal"
 raw = "Elevator shaft 1x1 (1 beaver)"
+status = "normal"
 enUS = "Elevator Shaft 1x1 (1 Beaver)"
 zhCN = "升降机井道 1x1（1只海狸）"
 zhTW = "電梯井 1x1（1 名海狸）"
@@ -1039,8 +1039,8 @@ viVN = "Trục thang máy 1x1 (1 hải ly)"
 trTR = "Asansör şaftı 1x1 (1 kunduz)"
 
 ["Building.AdvancedPumps.Elevator.Description"]
-status = "normal"
 raw = "Independent shaft without path access. Build a landing of the same size on each floor. Nearby lifts stay separate. One beaver per trip. 80 hp."
+status = "normal"
 enUS = "Independent shaft without path access. Build a landing of the same size on each floor. Nearby lifts stay separate. One beaver per trip. 80 hp."
 zhCN = "无需道路通行的独立轴道。每层都要建造一个同样大小的平台。附近的升降机彼此独立。每趟运送一只海狸。80 hp。"
 zhTW = "無需道路連接的獨立軸道。每層都要建造一個大小相同的停靠平台。附近的升降機彼此獨立。每趟運送一隻海狸。80 hp。"
@@ -1056,8 +1056,8 @@ viVN = "Trục truyền lực độc lập, không cần lối đi tiếp cận.
 trTR = "Yol erişimi olmayan bağımsız şaft. Her katta aynı boyutta bir sahanlık inşa edin. Yakındaki asansörler birbirinden bağımsız kalır. Her seferinde bir kunduz taşır. 80 hp."
 
 ["Building.AdvancedPumps.Elevator.FlavorDescription"]
-status = "normal"
 raw = "Strictly up and down."
+status = "normal"
 enUS = "Strictly up and down."
 zhCN = "严格垂直上下。"
 zhTW = "嚴格垂直上下。"
@@ -1073,8 +1073,8 @@ viVN = "Chỉ theo phương thẳng đứng."
 trTR = "Kesinlikle yalnızca yukarı ve aşağı."
 
 ["Building.AdvancedPumps.ElevatorStop.DisplayName"]
-status = "normal"
 raw = "Elevator landing 1x1 (1 beaver)"
+status = "normal"
 enUS = "Elevator landing 1x1 (1 beaver)"
 zhCN = "电梯停靠点 1x1（1 名海狸）"
 zhTW = "升降機停靠站 1x1（1 名海狸）"
@@ -1090,8 +1090,8 @@ viVN = "Điểm dừng thang máy 1x1 (1 hải ly)"
 trTR = "Asansör durağı 1x1 (1 kunduz)"
 
 ["Building.AdvancedPumps.ElevatorStop.Description"]
-status = "normal"
 raw = "Landing for the 1x1 elevator. One fixed, rotatable path entrance. Beavers call the car and wait in assigned spaces."
+status = "normal"
 enUS = "Landing for the 1x1 elevator. One fixed, rotatable path entrance. Beavers call the car and wait in assigned spaces."
 zhCN = "1x1 电梯的停靠站。一个固定且可旋转的路径入口。海狸会呼叫电梯轿厢，并在指定位置等候。"
 zhTW = "1x1 電梯的停靠點。固定式、可旋轉的道路入口。海狸會呼叫電梯車廂，並在指定位置等候。"
@@ -1107,8 +1107,8 @@ viVN = "Sàn chờ cho thang máy 1x1. Lối vào đường đi cố định, c�
 trTR = "1x1 asansör için iniş platformu. Sabit, döndürülebilir bir yol girişi. Kunduzlar asansör kabinini çağırır ve kendilerine ayrılan alanlarda bekler."
 
 ["Building.AdvancedPumps.ElevatorStop.FlavorDescription"]
-status = "normal"
 raw = "Please wait behind the line."
+status = "normal"
 enUS = "Please wait behind the line."
 zhCN = "请在线后方等候。"
 zhTW = "請在排隊線後方稍候。"
@@ -1124,8 +1124,8 @@ viVN = "Vui lòng chờ phía sau vạch."
 trTR = "Lütfen çizginin arkasında bekleyin."
 
 ["Building.AdvancedPumps.Elevator2x2.DisplayName"]
-status = "normal"
 raw = "Elevator shaft 2x2 (4 beavers)"
+status = "normal"
 enUS = "2x2 Elevator Shaft (4 Beavers)"
 zhCN = "电梯井道 2x2（4只海狸）"
 zhTW = "升降機井 2x2（4 隻海狸）"
@@ -1141,8 +1141,8 @@ viVN = "Giếng thang máy 2x2 (4 hải ly)"
 trTR = "Asansör şaftı 2x2 (4 kunduz)"
 
 ["Building.AdvancedPumps.Elevator2x2.Description"]
-status = "normal"
 raw = "Independent shaft for 4 beavers. Build a landing of the same size on each floor. Does not connect to nearby lifts. Requires 320 hp."
+status = "normal"
 enUS = "Independent shaft for 4 beavers. Build a landing of the same size on each floor. Does not connect to nearby lifts. Requires 320 hp."
 zhCN = "供4只海狸使用的独立竖井。每层都要建造一个同样大小的平台。不会与附近的升降机连接。需要320 hp。"
 zhTW = "供 4 隻海狸使用的獨立軸道。每層都要建造相同大小的平台。無法連接附近的升降梯。需要 320 hp。"
@@ -1158,8 +1158,8 @@ viVN = "Trục độc lập dành cho 4 hải ly. Xây một sàn đáp có cùn
 trTR = "4 kunduz için bağımsız şaft. Her katta aynı boyutta bir sahanlık inşa edin. Yakındaki asansörlere bağlanmaz. 320 hp gerektirir."
 
 ["Building.AdvancedPumps.Elevator2x2.FlavorDescription"]
-status = "normal"
 raw = "A larger car, the same dispatch logic."
+status = "normal"
 enUS = "A larger car, the same dispatch logic."
 zhCN = "更大的运输车，相同的调度逻辑。"
 zhTW = "車子更大，派遣邏輯卻一樣。"
@@ -1175,8 +1175,8 @@ viVN = "Một chiếc xe lớn hơn, cùng logic điều phối."
 trTR = "Daha büyük bir araba, aynı sevkiyat mantığı."
 
 ["Building.AdvancedPumps.Elevator2x2Stop.DisplayName"]
-status = "normal"
 raw = "Elevator landing 2x2 (4 beavers)"
+status = "normal"
 enUS = "Elevator Landing 2x2 (4 beavers)"
 zhCN = "电梯站台 2x2（4只海狸）"
 zhTW = "升降梯停靠站 2x2（4 隻海狸）"
@@ -1192,8 +1192,8 @@ viVN = "Điểm dừng thang máy 2x2 (4 hải ly)"
 trTR = "Asansör durağı 2x2 (4 kunduz)"
 
 ["Building.AdvancedPumps.Elevator2x2Stop.Description"]
-status = "normal"
 raw = "One fixed, rotatable path entrance. Beavers call the car and wait in assigned spaces."
+status = "normal"
 enUS = "One fixed, rotatable path entrance. Beavers call the car and wait in assigned spaces."
 zhCN = "一个固定式、可旋转的道路入口。海狸呼叫电梯，并在指定位置等候。"
 zhTW = "一個固定且可旋轉的道路入口。海狸會呼叫電梯，並在指定空間等候。"
@@ -1209,8 +1209,8 @@ viVN = "Một lối vào đường cố định, có thể xoay. Hải ly gọi 
 trTR = "Sabit, döndürülebilir bir yol girişi. Kunduzlar aracı çağırır ve kendilerine ayrılan alanlarda bekler."
 
 ["Building.AdvancedPumps.Elevator2x2Stop.FlavorDescription"]
-status = "normal"
 raw = "Board in order, please."
+status = "normal"
 enUS = "Board in order, please."
 zhCN = "请按顺序上车。"
 zhTW = "請依序上車。"
@@ -1226,8 +1226,8 @@ viVN = "Mời lên theo thứ tự."
 trTR = "Lütfen sırayla binin."
 
 ["Building.AdvancedPumps.Elevator3x3.DisplayName"]
-status = "normal"
 raw = "Elevator shaft 3x3 (9 beavers)"
+status = "normal"
 enUS = "Elevator Shaft 3x3 (9 Beavers)"
 zhCN = "电梯井 3x3（9只海狸）"
 zhTW = "升降梯井 3x3（9 隻海狸）"
@@ -1243,8 +1243,8 @@ viVN = "Giếng thang máy 3x3 (9 hải ly)"
 trTR = "Asansör kuyusu 3x3 (9 kunduz)"
 
 ["Building.AdvancedPumps.Elevator3x3.Description"]
-status = "normal"
 raw = "Independent shaft for 9 beavers. Build a landing of the same size on each floor. Does not connect to nearby lifts. Requires 720 hp."
+status = "normal"
 enUS = "Independent shaft for 9 beavers. Build a landing of the same size on each floor. Does not connect to nearby lifts. Requires 720 hp."
 zhCN = "可供 9 只海狸使用的独立竖井。每层都要建造同样大小的平台。不会与附近的升降机连接。需要 720 hp。"
 zhTW = "供 9 隻海狸使用的獨立升降軸。每層都要建造相同大小的平台。無法連接附近的升降梯。需要 720 hp。"
@@ -1260,8 +1260,8 @@ viVN = "Trục nâng độc lập dành cho 9 hải ly. Xây một sàn đón c�
 trTR = "9 kunduz için bağımsız şaft. Her katta aynı boyutta bir sahanlık inşa edin. Yakındaki asansörlere bağlanmaz. 720 hp gerektirir."
 
 ["Building.AdvancedPumps.Elevator3x3.FlavorDescription"]
-status = "normal"
 raw = "A larger car, the same dispatch logic."
+status = "normal"
 enUS = "A larger car, the same dispatch logic."
 zhCN = "更大的升降机，同样的调度逻辑。"
 zhTW = "更大的車，同樣的派遣邏輯。"
@@ -1277,8 +1277,8 @@ viVN = "Một chiếc xe lớn hơn, cùng logic điều phối."
 trTR = "Daha büyük bir araba, aynı sevk mantığı."
 
 ["Building.AdvancedPumps.Elevator3x3Stop.DisplayName"]
-status = "normal"
 raw = "Elevator landing 3x3 (9 beavers)"
+status = "normal"
 enUS = "3x3 Elevator Landing (9 beavers)"
 zhCN = "电梯停靠点 3x3（9只海狸）"
 zhTW = "電梯停靠站 3x3（9 隻海狸）"
@@ -1294,8 +1294,8 @@ viVN = "Điểm dừng thang máy 3x3 (9 hải ly)"
 trTR = "Asansör iniş alanı 3x3 (9 kunduz)"
 
 ["Building.AdvancedPumps.Elevator3x3Stop.Description"]
-status = "normal"
 raw = "One fixed, rotatable path entrance. Beavers call the car and wait in assigned spaces."
+status = "normal"
 enUS = "One fixed, rotatable path entrance. Beavers call the car and wait in assigned spaces."
 zhCN = "一个固定式、可旋转的路径入口。海狸呼叫轿厢，并在指定位置等候。"
 zhTW = "一個固定式、可旋轉的道路入口。海狸會呼叫車輛，並在指定位置等候。"
@@ -1311,8 +1311,8 @@ viVN = "Một lối vào đường cố định, có thể xoay. Hải ly gọi 
 trTR = "Sabit, döndürülebilir tek bir yol girişi. Kunduzlar aracı çağırıp kendilerine ayrılan alanlarda bekler."
 
 ["Building.AdvancedPumps.Elevator3x3Stop.FlavorDescription"]
-status = "normal"
 raw = "Board in order, please."
+status = "normal"
 enUS = "Board in order, please."
 zhCN = "请依次上车。"
 zhTW = "請依序上車。"

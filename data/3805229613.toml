@@ -70,8 +70,8 @@ viVN = "Nhấn phím hiện tại của một nhóm để thay đổi  |  Shift+
 trTR = "Değiştirmek için grubun mevcut tuşuna basın  |  Shift+Delete: tümünü sıfırla  |  Esc: tamam"
 
 ["TBH.AssignKey"]
-status = "normal"
 raw = "Press the new key for {0}  |  Delete: reset  |  Backspace: back"
+status = "normal"
 enUS = "Press the new key for {0}  |  Delete: reset  |  Backspace: back"
 zhCN = "按下用于 {0} 的新按键  |  Delete：重置  |  Backspace：返回"
 zhTW = "按下要指定給 {0} 的新按鍵  |  Delete：重設  |  Backspace：返回"
@@ -121,8 +121,8 @@ viVN = "Nhấn số hoặc phím của công cụ để gán phím cho công c�
 trTR = "Bir araca tuş atamak için aracın numarasına veya tuşuna basın  |  Shift+Delete: grubu sıfırla  |  Esc: tamam"
 
 ["TBH.AssignToolKey"]
-status = "normal"
 raw = "Press a letter for {0}  |  Delete: reset  |  Backspace: back"
+status = "normal"
 enUS = "Press a letter for {0}  |  Delete: reset  |  Backspace: go back"
 zhCN = "按下字母键以分配给 {0}  |  Delete：重置  |  Backspace：返回"
 zhTW = "按下字母鍵以指定給 {0}  |  Delete：重設  |  Backspace：返回"

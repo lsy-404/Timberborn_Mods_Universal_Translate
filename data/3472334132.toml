@@ -546,8 +546,8 @@ viVN = "Bảng chọn màu"
 trTR = "Renk Seçici"
 
 ["LV.T4UI.MoveBottomRightUp"]
-status = "normal"
 raw = "Move Bottom Right Up"
+status = "normal"
 enUS = "Move Bottom-Right Up"
 zhCN = "将右下角上移"
 zhTW = "將右下角上移"

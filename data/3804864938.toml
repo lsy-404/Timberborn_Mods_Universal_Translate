@@ -155,8 +155,8 @@ viVN = "Nhìn từ trên này, khu nào cũng trông như đồ chơi."
 trTR = "Buradan bakınca her bölge oyuncak gibi görünüyor."
 
 ["Barbara.FolktailsPlayground.Need.Play.DisplayName"]
-status = "normal"
 raw = "Play"
+status = "normal"
 enUS = "Play"
 zhCN = "玩耍"
 zhTW = "玩樂"

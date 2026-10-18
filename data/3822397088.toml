@@ -1,0 +1,14 @@
+[_meta]
+name = "Auto Resource Flags"
+
+["AutoResourceFlags.Header"]
+new = "Auto-Pause"
+status = "normal"
+
+["AutoResourceFlags.AutoPauseToggle"]
+new = "Auto-pause when nothing to gather"
+status = "normal"
+
+["AutoResourceFlags.ResumeLabel"]
+new = "Resume once available:"
+status = "normal"

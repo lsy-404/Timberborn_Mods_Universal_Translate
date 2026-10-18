@@ -2,8 +2,8 @@
 name = "Unknown"
 
 ["Calloatti.NRS.Column.Dead"]
-status = "normal"
 raw = "Dead"
+status = "normal"
 enUS = "Dead"
 zhCN = "死亡"
 zhTW = "已死亡"
@@ -19,8 +19,8 @@ viVN = "Đã chết"
 trTR = "Ölü"
 
 ["Calloatti.NRS.Column.Dying"]
-status = "normal"
 raw = "Dying"
+status = "normal"
 enUS = "Dying"
 zhCN = "濒死"
 zhTW = "瀕死中"
@@ -121,8 +121,8 @@ viVN = "Bộ lọc:"
 trTR = "Filtre:"
 
 ["Calloatti.NRS.Filter.All"]
-status = "normal"
 raw = "All"
+status = "normal"
 enUS = "All"
 zhCN = "全部"
 zhTW = "全部"
@@ -172,8 +172,8 @@ viVN = "Lô đất"
 trTR = "Tarlalar"
 
 ["Calloatti.NRS.Filter.Wild"]
-status = "normal"
 raw = "Wild"
+status = "normal"
 enUS = "Wild"
 zhCN = "野生"
 zhTW = "野生"
@@ -189,8 +189,8 @@ viVN = "Hoang dã"
 trTR = "Vahşi"
 
 ["Calloatti.NRS.Header"]
-status = "normal"
 raw = "Species"
+status = "normal"
 enUS = "Species"
 zhCN = "物种"
 zhTW = "物種"
@@ -223,8 +223,8 @@ viVN = "Mở tab Thống kê tài nguyên thiên nhiên"
 trTR = "Doğal Kaynak İstatistikleri Sekmesini Aç"
 
 ["Calloatti.NRS.Tab"]
-status = "normal"
 raw = "Natural Resources Statistics"
+status = "normal"
 enUS = "Natural Resources Statistics"
 zhCN = "自然资源统计"
 zhTW = "自然資源統計"

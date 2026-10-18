@@ -2,8 +2,8 @@
 name = "achderbahn"
 
 ["Building.JamStove.DisplayName"]
-status = "normal"
 raw = "Jam Stove"
+status = "normal"
 enUS = "Jam Stove"
 zhCN = "果酱炉"
 zhTW = "果醬爐"
@@ -53,8 +53,8 @@ viVN = "Cái hũ phải được đậy kín sau khi quá nhiều chú hải ly 
 trTR = "Çok fazla tatlı düşkünü kunduz, nefis reçele kapılınca tencerenin kapağını kapatmak gerekti."
 
 ["Good.BerryBun.DisplayName"]
-status = "normal"
 raw = "Berry buns"
+status = "normal"
 enUS = "Berry buns"
 zhCN = "浆果面包卷"
 zhTW = "莓果麵包卷"
@@ -70,8 +70,8 @@ viVN = "Bánh bao quả mọng"
 trTR = "Böğürtlenli çörekler"
 
 ["Good.BerryBun.PluralDisplayName"]
-status = "normal"
 raw = "Berry buns"
+status = "normal"
 enUS = "Berry buns"
 zhCN = "浆果面包卷"
 zhTW = "莓果麵包團"

@@ -121,8 +121,8 @@ viVN = "Một góc nhỏ linh hoạt để cùng nhau nghỉ ngơi."
 trTR = "Ortak bir mola için esnek, küçük bir köşe."
 
 ["Timberbar.LargeBench.DisplayName"]
-status = "normal"
 raw = "Large Bench"
+status = "normal"
 enUS = "Large Bench"
 zhCN = "大型长椅"
 zhTW = "大型長椅"
@@ -172,8 +172,8 @@ viVN = "Một nơi để cùng nhau ngồi."
 trTR = "Birlikte oturmak için bir yer."
 
 ["Timberbar.Set2.DisplayName"]
-status = "normal"
 raw = "Set 2"
+status = "normal"
 enUS = "Set 2"
 zhCN = "设置 2"
 zhTW = "第 2 組"
@@ -325,8 +325,8 @@ viVN = "Một góc nhỏ linh hoạt để cùng nhau nghỉ ngơi."
 trTR = "Ortak bir mola için esnek, küçük bir köşe."
 
 ["Timberbar.Set4.DisplayName"]
-status = "normal"
 raw = "Set 4"
+status = "normal"
 enUS = "Set 4"
 zhCN = "第 4 组"
 zhTW = "第 4 組"
@@ -376,8 +376,8 @@ viVN = "Một góc nhỏ linh hoạt để cùng nhau nghỉ ngơi."
 trTR = "Ortak bir mola için esnek, küçük bir köşe."
 
 ["Timberbar.Set5.DisplayName"]
-status = "normal"
 raw = "Set 5"
+status = "normal"
 enUS = "Set 5"
 zhCN = "设置 5"
 zhTW = "套裝 5"
@@ -427,8 +427,8 @@ viVN = "Một góc nhỏ linh hoạt để cùng nhau nghỉ ngơi."
 trTR = "Ortak bir mola için esnek, küçük bir köşe."
 
 ["TartWorkshop.DisplayName"]
-status = "normal"
 raw = "Tart Workshop"
+status = "normal"
 enUS = "Tart Workshop"
 zhCN = "果馅饼工坊"
 zhTW = "水果塔工坊"
@@ -546,8 +546,8 @@ viVN = "Bánh hạt dẻ tráng men"
 trTR = "Sırlı Kestane Kekleri"
 
 ["ChestnutTartRecipe.Name"]
-status = "normal"
 raw = "Chestnut Tarts"
+status = "normal"
 enUS = "Chestnut Tarts"
 zhCN = "栗子挞"
 zhTW = "栗子塔ર્ટ"
@@ -563,8 +563,8 @@ viVN = "Bánh tart hạt dẻ cười"
 trTR = "Kestane Tartları"
 
 ["Good.ChestnutTart.DisplayName"]
-status = "normal"
 raw = "Chestnut Tart"
+status = "normal"
 enUS = "Chestnut Tart"
 zhCN = "栗子挞"
 zhTW = "栗子塔"
@@ -580,8 +580,8 @@ viVN = "Bánh tart hạt dẻ cười"
 trTR = "Kestane Tartı"
 
 ["Good.ChestnutTart.PluralDisplayName"]
-status = "normal"
 raw = "Chestnut Tarts"
+status = "normal"
 enUS = "Chestnut Tarts"
 zhCN = "栗子挞"
 zhTW = "栗子塔餅"
@@ -597,8 +597,8 @@ viVN = "Bánh tart hạt dẻ cười"
 trTR = "Kestane Tartları"
 
 ["MangroveTartRecipe.Name"]
-status = "normal"
 raw = "Mangrove Tart"
+status = "normal"
 enUS = "Mangrove Tart"
 zhCN = "红树林馅饼"
 zhTW = "紅樹林塔特派"
@@ -631,8 +631,8 @@ viVN = "Bánh tart đước"
 trTR = "Mangrov Tartı"
 
 ["Good.MangroveTart.PluralDisplayName"]
-status = "normal"
 raw = "Mangrove Tarts"
+status = "normal"
 enUS = "Mangrove Tarts"
 zhCN = "红树林馅饼"
 zhTW = "紅樹林塔르特糕"
@@ -665,8 +665,8 @@ viVN = "Bánh tart su hào"
 trTR = "Alabaşlı Tart"
 
 ["Good.KohlrabiTart.DisplayName"]
-status = "normal"
 raw = "Kohlrabi Tart"
+status = "normal"
 enUS = "Kohlrabi Tart"
 zhCN = "球茎甘蓝挞"
 zhTW = "球莖甘藍塔"
@@ -682,8 +682,8 @@ viVN = "Bánh tart su hào"
 trTR = "Alabaşlı Tart"
 
 ["Good.KohlrabiTart.PluralDisplayName"]
-status = "normal"
 raw = "Kohlrabi Tarts"
+status = "normal"
 enUS = "Kohlrabi Tarts"
 zhCN = "苤蓝挞"
 zhTW = "球莖甘藍塔派"

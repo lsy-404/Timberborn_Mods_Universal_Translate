@@ -19,8 +19,8 @@ viVN = "Theo dõi các thông số của mạng lưới năng lượng và gửi
 trTR = "Güç ağı parametrelerini izler ve düşük ve yüksek eşiklere göre bir otomasyon sinyali gönderir."
 
 ["Building.PowerMonitor.DisplayName"]
-status = "normal"
 raw = "Power Monitor"
+status = "normal"
 enUS = "Power Monitor"
 zhCN = "动力监视器"
 zhTW = "動力監測器"
@@ -70,8 +70,8 @@ viVN = "Tắt nếu ≥"
 trTR = "≥ ise KAPAT"
 
 ["Building.PowerMonitor.TurnOnIf"]
-status = "normal"
 raw = "Turn ON if ≤"
+status = "normal"
 enUS = "Turn ON if ≤"
 zhCN = "如果 ≤ 时开启"
 zhTW = "若 ≤ 則開啟"

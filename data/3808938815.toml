@@ -172,8 +172,8 @@ viVN = "Đang mang chất dinh dưỡng"
 trTR = "Besin maddeleri getiriliyor"
 
 ["UITweaks.Behavior.BringNutrientWorkplaceBehavior"]
-status = "normal"
 raw = "Supplying a breeding pod"
+status = "normal"
 enUS = "Supplying a breeding pod"
 zhCN = "为繁育舱供给物资"
 zhTW = "供應繁殖艙的物資"
@@ -189,8 +189,8 @@ viVN = "Cung cấp cho khoang sinh sản"
 trTR = "Üreme kapsülüne kaynak sağlama"
 
 ["UITweaks.Behavior.BuildBehavior"]
-status = "normal"
 raw = "Building"
+status = "normal"
 enUS = "Building"
 zhCN = "建筑"
 zhTW = "建築"
@@ -206,8 +206,8 @@ viVN = "Công trình"
 trTR = "Bina"
 
 ["UITweaks.Behavior.BuilderHubWorkplaceBehavior"]
-status = "normal"
 raw = "Builder's duties"
+status = "normal"
 enUS = "Builder's duties"
 zhCN = "建造者的职责"
 zhTW = "建築工的職責"
@@ -257,8 +257,8 @@ viVN = "Đang làm theo lệnh"
 trTR = "Emirlere uyuyor"
 
 ["UITweaks.Behavior.ChildRootBehavior"]
-status = "normal"
 raw = "Growing up"
+status = "normal"
 enUS = "Growing up"
 zhCN = "成长中"
 zhTW = "成長中"
@@ -274,8 +274,8 @@ viVN = "Đang lớn lên"
 trTR = "Büyüme"
 
 ["UITweaks.Behavior.ContaminateRootBehavior"]
-status = "normal"
 raw = "Falling ill"
+status = "normal"
 enUS = "Falling ill"
 zhCN = "患病中"
 zhTW = "染病中"
@@ -308,8 +308,8 @@ viVN = "Đang đáp ứng nhu cầu cấp thiết"
 trTR = "Acil bir ihtiyacı gideriyor"
 
 ["UITweaks.Behavior.DeadRootBehavior"]
-status = "normal"
 raw = "Dead"
+status = "normal"
 enUS = "Dead"
 zhCN = "死亡"
 zhTW = "已死亡"
@@ -359,8 +359,8 @@ viVN = "Đang chết"
 trTR = "Ölüyor"
 
 ["UITweaks.Behavior.DistrictCrossingWorkplaceBehavior"]
-status = "normal"
 raw = "Moving goods between districts"
+status = "normal"
 enUS = "Moving goods between districts"
 zhCN = "在区划之间运输货物"
 zhTW = "在區域之間運送貨物"
@@ -393,8 +393,8 @@ viVN = "Đang dọn kho lưu trữ"
 trTR = "Depo boşaltılıyor"
 
 ["UITweaks.Behavior.EmptyInventoriesWorkplaceBehavior"]
-status = "normal"
 raw = "Emptying storage"
+status = "normal"
 enUS = "Emptying storage"
 zhCN = "正在清空储存处"
 zhTW = "清空儲存空間"
@@ -410,8 +410,8 @@ viVN = "Đang dọn trống kho lưu trữ"
 trTR = "Depo boşaltılıyor"
 
 ["UITweaks.Behavior.EmptyOutputWorkplaceBehavior"]
-status = "normal"
 raw = "Taking products away"
+status = "normal"
 enUS = "Taking products away"
 zhCN = "移走产出物"
 zhTW = "移走產品"
@@ -427,8 +427,8 @@ viVN = "Lấy sản phẩm đi"
 trTR = "Ürünleri uzaklaştırma"
 
 ["UITweaks.Behavior.FarmHouseGoodStackRetrieverWorkplaceBehavior"]
-status = "normal"
 raw = "Collecting the harvest"
+status = "normal"
 enUS = "Collecting the harvest"
 zhCN = "收获作物中"
 zhTW = "收割作物中"
@@ -444,8 +444,8 @@ viVN = "Thu hoạch урожай"
 trTR = "Hasat toplama"
 
 ["UITweaks.Behavior.FarmHouseWorkplaceBehavior"]
-status = "normal"
 raw = "Farming"
+status = "normal"
 enUS = "Farming"
 zhCN = "农业"
 zhTW = "農耕"
@@ -478,8 +478,8 @@ viVN = "Mang vật tư đến nơi làm việc"
 trTR = "İş yerine malzeme getiriliyor"
 
 ["UITweaks.Behavior.GatherWorkplaceBehavior"]
-status = "normal"
 raw = "Gathering"
+status = "normal"
 enUS = "Gathering"
 zhCN = "采集中的工作场所行为"
 zhTW = "採集中"
@@ -512,8 +512,8 @@ viVN = "Thu thập hàng hóa"
 trTR = "Eşya toplama"
 
 ["UITweaks.Behavior.HaulWorkplaceBehavior"]
-status = "normal"
 raw = "Hauling"
+status = "normal"
 enUS = "Hauling"
 zhCN = "搬运工作"
 zhTW = "搬運中"
@@ -546,8 +546,8 @@ viVN = "Ăn hoặc uống"
 trTR = "Yeme veya içme"
 
 ["UITweaks.Behavior.LaborWorkplaceBehavior"]
-status = "normal"
 raw = "Labouring"
+status = "normal"
 enUS = "Laboring"
 zhCN = "劳动中"
 zhTW = "勞動中"
@@ -563,8 +563,8 @@ viVN = "Đang làm việc"
 trTR = "Çalışıyor"
 
 ["UITweaks.Behavior.LumberjackFlagWorkplaceBehavior"]
-status = "normal"
 raw = "Cutting trees"
+status = "normal"
 enUS = "Cutting trees"
 zhCN = "砍伐树木"
 zhTW = "砍伐樹木"
@@ -614,8 +614,8 @@ viVN = "Lấy hàng hóa"
 trTR = "Mal taşıma"
 
 ["UITweaks.Behavior.PlantBehavior"]
-status = "normal"
 raw = "Planting"
+status = "normal"
 enUS = "Planting"
 zhCN = "种植"
 zhTW = "種植"
@@ -665,8 +665,8 @@ viVN = "Sản xuất hàng hóa"
 trTR = "Mal üretiyor"
 
 ["UITweaks.Behavior.RecoveredGoodStackCarryingBehavior"]
-status = "normal"
 raw = "Carrying salvage"
+status = "normal"
 enUS = "Carrying salvage"
 zhCN = "搬运回收物"
 zhTW = "搬運回收物資"
@@ -682,8 +682,8 @@ viVN = "Đang mang phế liệu thu hồi"
 trTR = "Kurtarma malzemesi taşıyor"
 
 ["UITweaks.Behavior.RemoveUnwantedStockLaborBehavior"]
-status = "normal"
 raw = "Clearing out stock"
+status = "normal"
 enUS = "Clearing out stock"
 zhCN = "清理多余库存"
 zhTW = "清空多餘庫存"
@@ -699,8 +699,8 @@ viVN = "Dọn kho hàng không cần thiết"
 trTR = "Stokları temizleme"
 
 ["UITweaks.Behavior.RemoveUnwantedStockWorkplaceBehavior"]
-status = "normal"
 raw = "Clearing out stock"
+status = "normal"
 enUS = "Clearing out stock"
 zhCN = "清理多余库存"
 zhTW = "清理不需要的庫存"
@@ -716,8 +716,8 @@ viVN = "Dọn sạch hàng tồn kho"
 trTR = "Stokları boşaltma"
 
 ["UITweaks.Behavior.ScavengerWorkplaceBehavior"]
-status = "normal"
 raw = "Scavenging"
+status = "normal"
 enUS = "Scavenging"
 zhCN = "拾荒"
 zhTW = "拾荒中"
@@ -750,8 +750,8 @@ viVN = "Đang ngủ"
 trTR = "Uyuyor"
 
 ["UITweaks.Behavior.StrandedRootBehavior"]
-status = "normal"
 raw = "Stranded"
+status = "normal"
 enUS = "Stranded"
 zhCN = "搁浅"
 zhTW = "受困"
@@ -784,8 +784,8 @@ viVN = "Cung cấp hàng hóa"
 trTR = "Mal tedarik etme"
 
 ["UITweaks.Behavior.WaitForInactiveWonderWorkplaceBehavior"]
-status = "normal"
 raw = "Waiting at the wonder"
+status = "normal"
 enUS = "Waiting at the wonder"
 zhCN = "正在奇观处等待"
 zhTW = "在奇觀處等待"
@@ -801,8 +801,8 @@ viVN = "Đang chờ tại Kỳ quan"
 trTR = "Harikada bekliyor"
 
 ["UITweaks.Behavior.WaitInsideIdlyWorkplaceBehavior"]
-status = "normal"
 raw = "Idle at a workplace"
+status = "normal"
 enUS = "Idle at a workplace"
 zhCN = "在工作场所闲置"
 zhTW = "在工作場所閒置"
@@ -818,8 +818,8 @@ viVN = "Nhàn rỗi tại nơi làm việc"
 trTR = "İş yerinde boşta bekliyor"
 
 ["UITweaks.Behavior.WanderRootBehavior"]
-status = "normal"
 raw = "Idling"
+status = "normal"
 enUS = "Idling"
 zhCN = "闲置中"
 zhTW = "閒置中"
@@ -835,8 +835,8 @@ viVN = "Đang nhàn rỗi"
 trTR = "Boşta"
 
 ["UITweaks.Behavior.WorkWorkplaceBehavior"]
-status = "normal"
 raw = "Working"
+status = "normal"
 enUS = "Working"
 zhCN = "工作中"
 zhTW = "工作中"
@@ -852,8 +852,8 @@ viVN = "Đang làm việc"
 trTR = "Çalışıyor"
 
 ["UITweaks.Behavior.WorkerRootBehavior"]
-status = "normal"
 raw = "Working"
+status = "normal"
 enUS = "Working"
 zhCN = "工作中"
 zhTW = "運作中"
@@ -869,8 +869,8 @@ viVN = "Đang làm việc"
 trTR = "Çalışıyor"
 
 ["UITweaks.Behavior.YieldRemoverBehavior"]
-status = "normal"
 raw = "Harvesting"
+status = "normal"
 enUS = "Harvesting"
 zhCN = "收获中"
 zhTW = "收割中"
@@ -971,8 +971,8 @@ viVN = "Khoảng cách đến điểm gốc của khu: {0}"
 trTR = "Bölge merkezine uzaklık: {0}"
 
 ["UITweaks.Settings.OriginColor"]
-status = "normal"
 raw = "District origin color"
+status = "normal"
 enUS = "District origin color"
 zhCN = "区划起源颜色"
 zhTW = "行政區來源顏色"

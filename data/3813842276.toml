@@ -2,8 +2,8 @@
 name = "Teleporter Station"
 
 ["Building.Teleporter.DisplayName"]
-status = "normal"
 raw = "Wormhole Station"
+status = "normal"
 enUS = "Wormhole Station"
 zhCN = "虫洞站"
 zhTW = "蟲洞站"
@@ -70,8 +70,8 @@ viVN = "Lượt dịch chuyển"
 trTR = "Aktarımlar"
 
 ["Teleporter.Source.Enable"]
-status = "normal"
 raw = "Enable wormhole siphon"
+status = "normal"
 enUS = "Enable wormhole siphon"
 zhCN = "启用虫洞虹吸器"
 zhTW = "啟用蟲洞虹吸器"
@@ -87,8 +87,8 @@ viVN = "Bật ống hút xuyên không gian"
 trTR = "Solucan deliği sifonunu etkinleştir"
 
 ["Teleporter.Source.Disable"]
-status = "normal"
 raw = "Disable wormhole siphon"
+status = "normal"
 enUS = "Disable wormhole siphon"
 zhCN = "禁用虫洞虹吸器"
 zhTW = "停用蟲洞虹吸器"
@@ -223,8 +223,8 @@ viVN = "Các cổng dịch chuyển nằm trên đường đi của nhiều hơn
 trTR = "Işınlayıcılar birden fazla bölgenin yollarında bulunuyor. Ağı yeniden çalışır hâle getirmek için bir bölgenin tüm ışınlayıcılarını yıkın."
 
 ["Teleporter.Status.Conflict.Short"]
-status = "normal"
 raw = "Teleporters on several districts"
+status = "normal"
 enUS = "Teleporters in multiple districts"
 zhCN = "多个区块中存在传送站"
 zhTW = "多個區域內有傳送器"
@@ -257,8 +257,8 @@ viVN = "Không có dịch chuyển tức thời nào được kết nối bằng
 trTR = "Yol bağlantısı olan hiçbir ışınlayıcı şarjlı değil. Ağı yeniden etkinleştirmek için birini yeniden doldurun."
 
 ["Teleporter.Status.NetworkOffline.Short"]
-status = "normal"
 raw = "Teleporter network offline"
+status = "normal"
 enUS = "Teleporter network offline"
 zhCN = "传送器网络离线"
 zhTW = "傳送器網路離線"
@@ -342,8 +342,8 @@ viVN = "Sau khi được xây dựng, cặp của nó có thể được đặt 
 trTR = "İnşa edildikten sonra eşi, menzil içindeki herhangi bir yere yerleştirilebilir."
 
 ["Ring.Panel.PlaceRemote"]
-status = "normal"
 raw = "Place remote ring"
+status = "normal"
 enUS = "Place remote ring"
 zhCN = "放置远程环"
 zhTW = "放置遠端圓環"
@@ -393,8 +393,8 @@ viVN = "Hết nguyên liệu khai thác. Hãy chuyển nguyên liệu khai thác
 trTR = "Ekstrakt tükendi. Ekstraktı bölge yollarındaki bir halkaya teslim edin."
 
 ["Ring.Status.OutOfExtract.Short"]
-status = "normal"
 raw = "Ring out of extract"
+status = "normal"
 enUS = "Out of extract range"
 zhCN = "戒指提取耗尽"
 zhTW = "提取物用盡的鈴聲"
@@ -461,8 +461,8 @@ viVN = "Vòng này hoạt động độc lập. Đặt thiết bị đầu cuố
 trTR = "Bu halka tek başına duruyor. Rotayı açmak için eşini yerleştirin."
 
 ["Ring.Status.Unpaired.Master.Short"]
-status = "normal"
 raw = "Ring has no remote"
+status = "normal"
 enUS = "Ring has no remote"
 zhCN = "戒指未连接远端"
 zhTW = "環形傳送器沒有連接遠端站點"
@@ -495,8 +495,8 @@ viVN = "Vòng này đang hoạt động độc lập. Hãy xây một Trạm Vò
 trTR = "Bu halka tek başına duruyor. Menzil içinde bir Halka İstasyonu inşa edin."
 
 ["Ring.Status.Unpaired.Remote.Short"]
-status = "normal"
 raw = "Remote has no partner"
+status = "normal"
 enUS = "Remote has no partner"
 zhCN = "远程端未配对"
 zhTW = "遠端沒有配對裝置"

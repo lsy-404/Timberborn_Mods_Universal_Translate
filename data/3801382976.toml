@@ -2,8 +2,8 @@
 name = "Dirt JSON Mod"
 
 ["Good.Dust.DisplayName"]
-status = "normal"
 raw = "Dirt"
+status = "normal"
 enUS = "Dirt"
 zhCN = "泥土"
 zhTW = "泥土"
@@ -19,8 +19,8 @@ viVN = "Đất bẩn"
 trTR = "Toprak"
 
 ["Good.Dust.PluralDisplayName"]
-status = "normal"
 raw = "Dirt"
+status = "normal"
 enUS = "Dirt"
 zhCN = "泥土"
 zhTW = "泥土"
@@ -36,8 +36,8 @@ viVN = "Đất bẩn"
 trTR = "Toprak"
 
 ["Good.PlankandDirt.DisplayName"]
-status = "normal"
 raw = "Plank and Dirt"
+status = "normal"
 enUS = "Plank and Dirt"
 zhCN = "木板和泥土"
 zhTW = "木板與泥土"
@@ -53,8 +53,8 @@ viVN = "Ván gỗ và đất bùn"
 trTR = "Tahta ve Toprak"
 
 ["Good.PlankandDirt.PluralDisplayName"]
-status = "normal"
 raw = "Planks and Dirt"
+status = "normal"
 enUS = "Planks and Dirt"
 zhCN = "木板和泥土"
 zhTW = "木板和泥土"

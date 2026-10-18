@@ -1,0 +1,422 @@
+[_meta]
+name = "Damaged Goods!"
+
+["Building.RepairMonitor.DisplayName"]
+new = "Repair Manager"
+status = "normal"
+
+["Building.RepairMonitor.Description"]
+new = "Automatically monitors building condition and issues repair requests when structures reach the configured wear threshold."
+status = "normal"
+
+["Building.RepairMonitor.Mode.Percent"]
+new = "Percent"
+status = "normal"
+
+["Building.RepairMonitor.Mode.Quantity"]
+new = "Quantity"
+status = "normal"
+
+["Building.RepairMonitor.PercentThreshold"]
+new = "Threshold: {0}%"
+status = "normal"
+
+["Building.RepairMonitor.Filter.Label"]
+new = "Repair scope"
+status = "normal"
+
+["Building.RepairMonitor.Filter.Everything"]
+new = "Everything"
+status = "normal"
+
+["Building.RepairMonitor.Filter.Storage"]
+new = "Storage only"
+status = "normal"
+
+["Building.RepairMonitor.Filter.Buildings"]
+new = "Buildings (no storage)"
+status = "normal"
+
+["Building.RepairMonitor.Filter.Components"]
+new = "Parts (shafts, platforms, stairs...)"
+status = "normal"
+
+["Building.RepairMonitor.StorageRider.Label"]
+new = "Storage upkeep (?)"
+status = "normal"
+
+["Building.RepairMonitor.StorageRider.Tooltip"]
+new = "Also keeps one storage building repaired at a time, per district."
+status = "normal"
+
+["Building.RepairMonitor.StockGuard.Label"]
+new = "Stock guard (?)"
+status = "normal"
+
+["Building.RepairMonitor.StockGuard.Tooltip"]
+new = "A repair is skipped if it would leave too little stock (for example the only water tank)."
+status = "normal"
+
+["Building.RepairMonitor.BuilderPriority.Label"]
+new = "Repair priority"
+status = "normal"
+
+["Building.RepairMonitor.BuilderPriority.Tooltip"]
+new = "Builder priority for all repairs from this Manager. Critical repairs go one step higher. Normal or higher repairs before new construction."
+status = "normal"
+
+["Building.RepairMonitor.Priority.Label"]
+new = "Repair order"
+status = "normal"
+
+["Building.RepairMonitor.Priority.Balanced"]
+new = "Balanced"
+status = "normal"
+
+["Building.RepairMonitor.Priority.ProductionFirst"]
+new = "Production first"
+status = "normal"
+
+["Building.RepairMonitor.Priority.InfrastructureFirst"]
+new = "Infrastructure first"
+status = "normal"
+
+["Building.RepairMonitor.Priority.ConditionOnly"]
+new = "Condition only"
+status = "normal"
+
+["Building.RepairMonitor.Shortage"]
+new = "Waiting for goods: {0}"
+status = "normal"
+
+["Status.Repair.NoMaterials"]
+new = "Repair can't get all required materials."
+status = "normal"
+
+["Status.Repair.NoMaterials.Short"]
+new = "Repair lacks materials"
+status = "normal"
+
+["Status.RepairManager.NoGoods"]
+new = "Some repairs can't start: the district is short of goods. See \"Waiting for goods\" on this building."
+status = "normal"
+
+["Status.RepairManager.NoGoods.Short"]
+new = "Repairs waiting for goods"
+status = "normal"
+
+["WearAndTear.Settings.Section.Difficulty"]
+new = "Difficulty"
+status = "normal"
+
+["WearAndTear.Settings.Section.Reveal"]
+new = "Random Reveal"
+status = "normal"
+
+["WearAndTear.Settings.Section.Categories"]
+new = "Categories"
+status = "normal"
+
+["WearAndTear.Settings.Section.Speed"]
+new = "Speed & Timing"
+status = "normal"
+
+["WearAndTear.Settings.Section.Output"]
+new = "Machine Output"
+status = "normal"
+
+["WearAndTear.Settings.Section.Paused"]
+new = "Paused Buildings"
+status = "normal"
+
+["WearAndTear.Settings.Section.Refund"]
+new = "Building Collapse"
+status = "normal"
+
+["WearAndTear.Settings.Difficulty.Name"]
+new = "Difficulty"
+status = "normal"
+
+["WearAndTear.Settings.Difficulty.Tooltip"]
+new = "The difficulty for new maps.\\nEach map keeps the difficulty it started with,\\nso changing this won't affect maps you already have.\\nAuto follows the game's own difficulty choice.\\nCustom uses the Categories, Speed & Timing, Machine Output\\nand Paused Buildings settings below."
+status = "normal"
+
+["WearAndTear.Settings.Value.Auto"]
+new = "Auto"
+status = "normal"
+
+["WearAndTear.Settings.Value.Easy"]
+new = "Easy"
+status = "normal"
+
+["WearAndTear.Settings.Value.Normal"]
+new = "Normal"
+status = "normal"
+
+["WearAndTear.Settings.Value.Hard"]
+new = "Hard"
+status = "normal"
+
+["WearAndTear.Settings.Value.Brutal"]
+new = "Brutal"
+status = "normal"
+
+["WearAndTear.Settings.Value.Random"]
+new = "Random"
+status = "normal"
+
+["WearAndTear.Settings.Value.Custom"]
+new = "Custom"
+status = "normal"
+
+["WearAndTear.Settings.MapDifficulty.Name"]
+new = "This map's difficulty"
+status = "normal"
+
+["WearAndTear.Settings.MapDifficulty.Tooltip"]
+new = "The difficulty the loaded map is using.\\nEmpty in the main menu."
+status = "normal"
+
+["WearAndTear.Settings.Reveal.Name"]
+new = "Reveal Random roll"
+status = "normal"
+
+["WearAndTear.Settings.Reveal.Tooltip"]
+new = "Only used for Random maps.\\nTick to show what the map rolled.\\nIt hides again after a few seconds."
+status = "normal"
+
+["WearAndTear.Settings.Reveal.ResultName"]
+new = "Random roll result"
+status = "normal"
+
+["WearAndTear.Settings.Reveal.Hidden"]
+new = "(tick Reveal above to check - hides again after a few seconds)"
+status = "normal"
+
+["WearAndTear.Settings.Reveal.Rolled"]
+new = "This map rolled: {0}"
+status = "normal"
+
+["WearAndTear.Settings.Reveal.NotRolled"]
+new = "(not rolled yet)"
+status = "normal"
+
+["WearAndTear.Settings.Reveal.NotRandom"]
+new = "Not using Random right now (this map: {0})"
+status = "normal"
+
+["WearAndTear.Settings.Reveal.MenuInfo"]
+new = "Random rolls when you start a new map."
+status = "normal"
+
+["WearAndTear.Settings.Cat.Storage"]
+new = "Storage"
+status = "normal"
+
+["WearAndTear.Settings.Cat.DistrictManagement"]
+new = "District Management"
+status = "normal"
+
+["WearAndTear.Settings.Cat.Power"]
+new = "Power"
+status = "normal"
+
+["WearAndTear.Settings.Cat.Wood"]
+new = "Wood"
+status = "normal"
+
+["WearAndTear.Settings.Cat.Food"]
+new = "Food"
+status = "normal"
+
+["WearAndTear.Settings.Cat.Metal"]
+new = "Metal"
+status = "normal"
+
+["WearAndTear.Settings.Cat.Paths"]
+new = "Paths"
+status = "normal"
+
+["WearAndTear.Settings.Cat.Water"]
+new = "Water"
+status = "normal"
+
+["WearAndTear.Settings.Cat.Science"]
+new = "Science"
+status = "normal"
+
+["WearAndTear.Settings.Cat.Landscaping"]
+new = "Landscaping"
+status = "normal"
+
+["WearAndTear.Settings.Cat.Housing"]
+new = "Housing"
+status = "normal"
+
+["WearAndTear.Settings.Cat.Automation"]
+new = "Automation"
+status = "normal"
+
+["WearAndTear.Settings.Cat.Wellbeing"]
+new = "Wellbeing"
+status = "normal"
+
+["WearAndTear.Settings.Cat.Decoration"]
+new = "Decoration"
+status = "normal"
+
+["WearAndTear.Settings.Cat.Monuments"]
+new = "Monuments"
+status = "normal"
+
+["WearAndTear.Settings.Speed.Calm"]
+new = "Calm weather (%)"
+status = "normal"
+
+["WearAndTear.Settings.Speed.Calm.Tooltip"]
+new = "How fast buildings wear down in calm weather, in percent of normal.\\n100 = normal speed, 200 = twice as fast.\\nOnly used when Difficulty is Custom."
+status = "normal"
+
+["WearAndTear.Settings.Speed.Drought"]
+new = "Drought (%)"
+status = "normal"
+
+["WearAndTear.Settings.Speed.Drought.Tooltip"]
+new = "How fast buildings wear down during a drought, in percent of normal.\\n100 = normal speed, 200 = twice as fast.\\nOnly used when Difficulty is Custom."
+status = "normal"
+
+["WearAndTear.Settings.Speed.Badtide"]
+new = "Badtide (%)"
+status = "normal"
+
+["WearAndTear.Settings.Speed.Badtide.Tooltip"]
+new = "How fast buildings wear down during a badtide, in percent of normal.\\n100 = normal speed, 200 = twice as fast.\\nOnly used when Difficulty is Custom."
+status = "normal"
+
+["WearAndTear.Settings.Speed.Grace"]
+new = "Grace period (cycles)"
+status = "normal"
+
+["WearAndTear.Settings.Speed.Grace.Tooltip"]
+new = "Full cycles at the start of a new map before wear begins.\\n0 = wear from day 1.\\nOnly used when Difficulty is Custom."
+status = "normal"
+
+["WearAndTear.Settings.Output.Switch"]
+new = "Output scaling"
+status = "normal"
+
+["WearAndTear.Settings.Output.Switch.Tooltip"]
+new = "Worn machines (power generators, workshops and so on) produce less.\\nA map keeps the choice it started with. Changing this affects new maps only; older saves have it off."
+status = "normal"
+
+["WearAndTear.Settings.Output.Start"]
+new = "Starts dropping at (%)"
+status = "normal"
+
+["WearAndTear.Settings.Output.Start.Tooltip"]
+new = "The condition where output starts to drop.\\nFull output at or above this."
+status = "normal"
+
+["WearAndTear.Settings.Output.Floor"]
+new = "Output at 0% condition (%)"
+status = "normal"
+
+["WearAndTear.Settings.Output.Floor.Tooltip"]
+new = "Output of a fully worn machine.\\nEasy 70, Normal 55, Hard 40, Brutal 25.\\nOnly used when Difficulty is Custom."
+status = "normal"
+
+["WearAndTear.Settings.Paused.Switch"]
+new = "Slower while paused"
+status = "normal"
+
+["WearAndTear.Settings.Paused.Switch.Tooltip"]
+new = "Paused buildings wear down more slowly (only buildings with a pause button).\\nEasy 25%, Normal 50%, Hard 75%, Brutal 100% of normal wear.\\nA map keeps the choice it started with. Changing this affects new maps only; older saves have it off."
+status = "normal"
+
+["WearAndTear.Settings.Paused.Speed"]
+new = "Speed while paused (%)"
+status = "normal"
+
+["WearAndTear.Settings.Paused.Speed.Tooltip"]
+new = "Wear speed of a paused building, in percent of normal.\\n0 = no wear while paused.\\nOnly used when Difficulty is Custom."
+status = "normal"
+
+["WearAndTear.Settings.Refund.Name"]
+new = "Refund"
+status = "normal"
+
+["WearAndTear.Settings.Refund.Tooltip"]
+new = "Percent of a building's build materials and stored goods that drops on the ground when it collapses at 0% condition.\\n0 = nothing.\\nEasy 75, Normal 50, Hard 25, Brutal 0.\\nOnly used when Difficulty is Custom."
+status = "normal"
+
+["WearAndTear.Settings.Preset.Name"]
+new = "Start Custom from preset"
+status = "normal"
+
+["WearAndTear.Settings.Preset.Choose"]
+new = "(choose)"
+status = "normal"
+
+["WearAndTear.Settings.Preset.Tooltip"]
+new = "Copies a difficulty's values into the Custom settings as a starting point:\\nCategories, Speed & Timing, Machine Output and Paused Buildings.\\nIt replaces your current Custom values. Only used when Difficulty is Custom.\\nMaps you already have keep their own values."
+status = "normal"
+
+["WearAndTear.Panel.Flavor.IronTeeth"]
+new = "Every failure is simply maintenance that arrived late."
+status = "normal"
+
+["WearAndTear.Panel.Flavor.Folktails"]
+new = "The hoomans had a phrase: 'If it ain't broke...' They rarely finished that sentence."
+status = "normal"
+
+["WearAndTear.Panel.RepairNeeded"]
+new = "Repair Needed"
+status = "normal"
+
+["WearAndTear.Panel.RepairRequested"]
+new = "Repair Requested"
+status = "normal"
+
+["WearAndTear.Panel.RepairThreshold"]
+new = "Repair Threshold:"
+status = "normal"
+
+["WearAndTear.Panel.MaterialsRequired"]
+new = "Materials Required:"
+status = "normal"
+
+["WearAndTear.Panel.RepairStatus"]
+new = "Repair Status:"
+status = "normal"
+
+["WearAndTear.Panel.RepairButton"]
+new = "Repair"
+status = "normal"
+
+["WearAndTear.Panel.PauseRepair"]
+new = "Pause Repair"
+status = "normal"
+
+["WearAndTear.Panel.ResumeRepair"]
+new = "Resume Repair"
+status = "normal"
+
+["WearAndTear.Panel.Output"]
+new = "Output"
+status = "normal"
+
+["WearAndTear.Panel.Critical.One"]
+new = "1 building in critical condition!"
+status = "normal"
+
+["WearAndTear.Panel.Critical.Many"]
+new = "{0} buildings in critical condition!"
+status = "normal"
+
+["WearAndTear.Panel.BreakEvent.Warning"]
+new = "Someone rolled the dice..."
+status = "normal"
+
+["WearAndTear.Panel.Condition"]
+new = "Condition:"
+status = "normal"

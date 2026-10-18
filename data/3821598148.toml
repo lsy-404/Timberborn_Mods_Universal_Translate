@@ -2,8 +2,8 @@
 name = "Sans Bigger Map"
 
 ["Sans.BiggerMap.DisplayName"]
-status = "normal"
 raw = "Sans Bigger Map"
+status = "normal"
 enUS = "Sans Bigger Map"
 zhCN = "Sans 更大地图"
 zhTW = "Sans 更大地圖"
@@ -19,8 +19,8 @@ viVN = "Bản đồ lớn hơn của Sans"
 trTR = "Sans Daha Büyük Harita"
 
 ["Sans.BiggerMap.AIDisclosure"]
-status = "normal"
 raw = "AI-assisted development and AI-generated code."
+status = "normal"
 enUS = "AI-assisted development and AI-generated code."
 zhCN = "AI辅助开发和AI生成的代码。"
 zhTW = "AI 輔助開發及 AI 生成的程式碼。"

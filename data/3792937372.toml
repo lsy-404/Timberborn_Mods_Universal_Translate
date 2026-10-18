@@ -12497,8 +12497,8 @@ viVN = "Tốt cho việc che phủ những cái ống đứng phiền phức đ�
 trTR = "Bu can sıkıcı dikey bacaları kaplamak için iyi :D"
 
 ["Cadre.Unmite.Name"]
-status = "normal"
 raw = "Unmite"
+status = "normal"
 enUS = "Unmite"
 zhCN = "移除螨虫"
 zhTW = "解除指派"
@@ -12514,8 +12514,8 @@ viVN = "Bỏ cắm trại"
 trTR = "Köstebekleri Birleştir"
 
 ["Cadre.Unmite.Desc"]
-status = "normal"
 raw = "Blows up land down to depth 1"
+status = "normal"
 enUS = "Blows up land to a depth of 1"
 zhCN = "将土地向下炸至深度 1"
 zhTW = "將地形炸至深度 1"
@@ -12548,8 +12548,8 @@ viVN = "Hay quá! Giờ pin có thể đào sâu thêm một tầng nữa :D"
 trTR = "Güzel! Artık batarya bir katman daha derine inebilir :D"
 
 ["Cadre.Doumite.Name"]
-status = "normal"
 raw = "Doumite"
+status = "normal"
 enUS = "Doumite"
 zhCN = "鼹石工人"
 zhTW = "豆米特"
@@ -12565,8 +12565,8 @@ viVN = "Doumite"
 trTR = "Doumite"
 
 ["Cadre.Doumite.Desc"]
-status = "normal"
 raw = "Blows up land down to depth 2"
+status = "normal"
 enUS = "Blows up land down to a depth of 2"
 zhCN = "爆破地形，深度达 2 格"
 zhTW = "將土地炸至深度 2"
@@ -12599,8 +12599,8 @@ viVN = "Tuyệt! Giờ pin có thể sâu tới 2 lớp :D"
 trTR = "Güzel! Artık batarya 2 katman derinliğinde olabilir :D"
 
 ["Cadre.Tremite.Name"]
-status = "normal"
 raw = "Tremite"
+status = "normal"
 enUS = "Tremite"
 zhCN = "特雷米特"
 zhTW = "特雷米特"
@@ -12616,8 +12616,8 @@ viVN = "Tremite"
 trTR = "Tremite"
 
 ["Cadre.Tremite.Desc"]
-status = "normal"
 raw = "Blows up land down to depth 3"
+status = "normal"
 enUS = "Blows up land to a depth of 3"
 zhCN = "炸毁地面，深达 3 格"
 zhTW = "炸開土地，深度可達 3 格"
@@ -13313,8 +13313,8 @@ viVN = "Tuyệt vời! Giờ đây, pin có thể đi sâu 16 lớp :D"
 trTR = "Harika! Artık batarya 16 kat derinliğe gidebilir :D"
 
 ["Cadre.DemonCore.Name"]
-status = "normal"
 raw = "Demon Core"
+status = "normal"
 enUS = "Demon Core"
 zhCN = "恶魔核心"
 zhTW = "惡魔核心"
@@ -13364,8 +13364,8 @@ viVN = "Cái hố mà thứ này để lại sẽ thành một cái hồ tuyệt
 trTR = "Bunun geride bırakacağı krater güzel bir göl olacak :D"
 
 ["Cadre.DemonHive.Name"]
-status = "normal"
 raw = "Demon Hive"
+status = "normal"
 enUS = "Demon Hive"
 zhCN = "恶魔蜂巢"
 zhTW = "惡魔蜂巢"
@@ -13432,8 +13432,8 @@ viVN = "Mạch nước phun"
 trTR = "Gayzer"
 
 ["Cadre.Gyser.Desc"]
-status = "normal"
 raw = "Pipe shoved deep enough to reach an untained underground river"
+status = "normal"
 enUS = "Pipe pushed deep enough to reach an untainted underground river"
 zhCN = "管道深入地下，足以触及未受污染的地下河流。"
 zhTW = "管道深入地下，足以接通未受污染的地下河流"
@@ -13449,8 +13449,8 @@ viVN = "Đường ống được đẩy xuống đủ sâu để chạm tới d�
 trTR = "Kirlenmemiş bir yer altı nehrine ulaşacak kadar derine uzanan boru"
 
 ["Cadre.Gyser.Cite"]
-status = "normal"
 raw = "Finally no more pumping our logs!...Why are you laughing?"
+status = "normal"
 enUS = "Finally, no more pumping our logs! ... Why are you laughing?"
 zhCN = "终于不用再抽我们的原木了！……你笑什么？"
 zhTW = "終於不用再抽我們的原木了！……你笑什麼？"
@@ -13483,8 +13483,8 @@ viVN = "Mạch phun nước độc hại"
 trTR = "Kötü Gayzer"
 
 ["Cadre.BadGyser.Desc"]
-status = "normal"
 raw = "Pipe shoved deep enough to reach a tainted underground river"
+status = "normal"
 enUS = "Pipe pushed deep enough to reach a tainted underground river"
 zhCN = "管道深入地下，足以触及受污染的地下河流"
 zhTW = "管道深入地下，足以接觸到受污染的地下河流"

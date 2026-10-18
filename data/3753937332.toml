@@ -19,8 +19,8 @@ viVN = "Cuốc chim"
 trTR = "Kazma"
 
 ["academicunwinds.MOM.Good.Pickax.PluralDisplayName"]
-status = "normal"
 raw = "Pickaxes"
+status = "normal"
 enUS = "Pickaxes"
 zhCN = "镐头"
 zhTW = "十字鎬"
@@ -70,8 +70,8 @@ viVN = "Cuốc chim nâng cao"
 trTR = "Gelişmiş Kazmalar"
 
 ["academicunwinds.MOM.Building.ExcavationFlag.DisplayName"]
-status = "normal"
 raw = "Excavation Flag"
+status = "normal"
 enUS = "Excavation Flag"
 zhCN = "挖掘旗帜"
 zhTW = "挖掘旗標"
@@ -104,8 +104,8 @@ viVN = "Đánh dấu một khối địa hình để dỡ bỏ. Thợ xây mang 
 trTR = "Kaldırılacak bir arazi bloğunu işaretleyin. Bir inşaatçı kazmayı getirip bloğu kazarak çıkarır. Kazma kazı sırasında tüketilir ve işlem tamamlandığında karo temizlenmiş olur."
 
 ["academicunwinds.MOM.Settings.DirtPerBlock"]
-status = "normal"
 raw = "Dirt Per Block"
+status = "normal"
 enUS = "Dirt Per Block"
 zhCN = "每格泥土量"
 zhTW = "每格泥土量"
