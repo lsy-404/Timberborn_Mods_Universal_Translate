@@ -1,0 +1,214 @@
+{
+  "source_run": "https://github.com/lsy-404/Timberborn_Mods_Universal_Translate/actions/runs/39125428241",
+  "source_commit": "76b4cd61b8a3e4c0059d5ba4bbb4dcb88a313370",
+  "description": "Exact pre-run source and history contexts for the 23 unresolved format-validation pairs. Rejected response bodies were not logged; these fixtures do not assert provider causality.",
+  "cases": [
+    {
+      "file": "3813984327.toml",
+      "key": "BeaverBuddies.Settings.PauseReduction.Tooltip",
+      "language": "plPL",
+      "mod": "BeaverBuddies Co-Op/PvP Edition",
+      "source_text": "For an optimal experience, all players should set it to the same value.\n\nOff - Default behaviour\nMenu only - Auto-pause only when opening the menu (not for deconstructions)\nNever auto-pause - The game will never auto-pause, including when opening the menu. This can lead to save corruptions if you don't pause the game before saving.",
+      "old_source_text": null,
+      "current_translation": null
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "Buildings.BadwaterAccess",
+      "language": "enUS",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "Yêu cầu Nước Độc: Cần tiếp cận nguồn Nước Độc.",
+      "old_source_text": "<YellowHighlight>Yêu cầu Nước Độc:</YellowHighlight> Cần tiếp cận nguồn Nước Độc.",
+      "current_translation": "<YellowHighlight>Poison Water Requirement:</YellowHighlight> Need access to a Poison Water source."
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "Buildings.GroundOnly",
+      "language": "ptBR",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "Trên đất: Phải được đặt trên mặt đất.",
+      "old_source_text": "<YellowHighlight>Trên đất:</YellowHighlight> Phải được đặt trên mặt đất.",
+      "current_translation": "<YellowHighlight>On ground:</YellowHighlight> Must be placed on the ground."
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "Buildings.GroundOnly",
+      "language": "jaJP",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "Trên đất: Phải được đặt trên mặt đất.",
+      "old_source_text": "<YellowHighlight>Trên đất:</YellowHighlight> Phải được đặt trên mặt đất.",
+      "current_translation": "<YellowHighlight>地面に:</YellowHighlight> 地面に設置する必要があります。"
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "Buildings.Sequential",
+      "language": "ptBR",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "Tuần tự: Cập nhật từng tick.",
+      "old_source_text": "<YellowHighlight>Tuần tự:</YellowHighlight> Cập nhật từng tick.",
+      "current_translation": "<YellowHighlight>Sequencial:</YellowHighlight> Atualiza a cada tick."
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "MainMenu.SteamUpdateInfoText",
+      "language": "enUS",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác • Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,... • Bản đồ mới: Ốc đảo, Pressure, Spillage,... • Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner • Cập nhật quy trình modding • Cải tiến đồ họa, hướng dẫn và công cụ nhân bản • Thành tựu Steam",
+      "old_source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác\n• Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,...\n• Bản đồ mới: Ốc đảo, Pressure, Spillage,...\n• Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner\n• Cập nhật quy trình modding\n• Cải tiến đồ họa, hướng dẫn và công cụ nhân bản\n• Thành tựu Steam",
+      "current_translation": "• New objects on the map, can interact\n• Automation: Sensors, Relays, Timers,...\n• New maps: Oasis, Pressure, Spillage,...\n• Spiral Staircase, Gate, Clutch, Banner\n• Updated modding process\n• Graphic improvements, tutorials, and cloning tools\n• Steam achievements"
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "MainMenu.SteamUpdateInfoText",
+      "language": "koKR",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác • Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,... • Bản đồ mới: Ốc đảo, Pressure, Spillage,... • Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner • Cập nhật quy trình modding • Cải tiến đồ họa, hướng dẫn và công cụ nhân bản • Thành tựu Steam",
+      "old_source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác\n• Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,...\n• Bản đồ mới: Ốc đảo, Pressure, Spillage,...\n• Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner\n• Cập nhật quy trình modding\n• Cải tiến đồ họa, hướng dẫn và công cụ nhân bản\n• Thành tựu Steam",
+      "current_translation": "• 지도에서 상호 작용할 수 있는 새로운 객체  \n• 자동화: 센서, 릴레이, 타이머 등  \n• 새로운 지도: 오아시스, 압력, 유출 등  \n• 나선형 계단, 게이트, 커플러, 배너  \n• 모드 프로세스 업데이트  \n• 그래픽 개선, 가이드 및 복제 도구  \n• 스팀 업적"
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "MainMenu.UpdateInfoText",
+      "language": "enUS",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác • Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,... • Bản đồ mới: Ốc đảo, Pressure, Spillage,... • Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner • Cập nhật quy trình modding • Cải tiến đồ họa, hướng dẫn và công cụ nhân bản",
+      "old_source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác\n• Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,...\n• Bản đồ mới: Ốc đảo, Pressure, Spillage,...\n• Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner\n• Cập nhật quy trình modding\n• Cải tiến đồ họa, hướng dẫn và công cụ nhân bản",
+      "current_translation": "• New items on the map, which can be interacted with  \n• Automation: Sensors, Relays, Timers,...  \n• New maps: Oasis, Pressure, Spillage,...  \n• Spiral Staircase, Gate, Clutch, Banner  \n• Updating the modding process  \n• Graphic improvements, guides, and asset tools"
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "MainMenu.UpdateInfoText",
+      "language": "koKR",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác • Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,... • Bản đồ mới: Ốc đảo, Pressure, Spillage,... • Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner • Cập nhật quy trình modding • Cải tiến đồ họa, hướng dẫn và công cụ nhân bản",
+      "old_source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác\n• Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,...\n• Bản đồ mới: Ốc đảo, Pressure, Spillage,...\n• Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner\n• Cập nhật quy trình modding\n• Cải tiến đồ họa, hướng dẫn và công cụ nhân bản",
+      "current_translation": "• 맵에 있는 새로운 오브젝트, 상호작용 가능\n• 자동화: 센서, 릴레이, 타이머 등\n• 새로운 맵: 오아시스, 압력, 유출 등\n• 나선형 계단, 문, 클러치, 배너\n• 모딩 프로세스 업데이트\n• 그래픽, 가이드 및 복제 도구 개선"
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "MainMenu.UpdateInfoText",
+      "language": "viVN",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác • Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,... • Bản đồ mới: Ốc đảo, Pressure, Spillage,... • Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner • Cập nhật quy trình modding • Cải tiến đồ họa, hướng dẫn và công cụ nhân bản",
+      "old_source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác\n• Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,...\n• Bản đồ mới: Ốc đảo, Pressure, Spillage,...\n• Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner\n• Cập nhật quy trình modding\n• Cải tiến đồ họa, hướng dẫn và công cụ nhân bản",
+      "current_translation": "• Các đối tượng mới có thể tương tác trên bản đồ • Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,... • Bản đồ mới: Ốc đảo, Pressure, Spillage,... • Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner • Cập nhật quy trình modding • Cải tiến đồ họa, hướng dẫn và công cụ nhân bản"
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "MainMenu.UpdateInfoText",
+      "language": "csCZ",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác • Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,... • Bản đồ mới: Ốc đảo, Pressure, Spillage,... • Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner • Cập nhật quy trình modding • Cải tiến đồ họa, hướng dẫn và công cụ nhân bản",
+      "old_source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác\n• Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,...\n• Bản đồ mới: Ốc đảo, Pressure, Spillage,...\n• Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner\n• Cập nhật quy trình modding\n• Cải tiến đồ họa, hướng dẫn và công cụ nhân bản",
+      "current_translation": "• Nové objekty na mapě, se kterými lze interagovat  \n• Automatizace: Senzory, Relé, Časovače,...  \n• Nová mapa: Oáza, Tlak, Únik,...  \n• Točitá schodiště, Brány, Spojky, Banner  \n• Aktualizace procesu modování  \n• Vylepšení grafiky, průvodců a nástrojů pro klonování"
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "MainMenu.UpdateInfoText",
+      "language": "jaJP",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác • Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,... • Bản đồ mới: Ốc đảo, Pressure, Spillage,... • Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner • Cập nhật quy trình modding • Cải tiến đồ họa, hướng dẫn và công cụ nhân bản",
+      "old_source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác\n• Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,...\n• Bản đồ mới: Ốc đảo, Pressure, Spillage,...\n• Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner\n• Cập nhật quy trình modding\n• Cải tiến đồ họa, hướng dẫn và công cụ nhân bản",
+      "current_translation": "• インタラクション可能なマップ上の新しいオブジェクト\n• 自動化: センサー、リレー、タイマー、...\n• 新しいマップ: 島、圧力、漏れ、...\n• 螺旋階段、ポータル、クラッチ、バナー\n• モッディングプロセスのアップデート\n• グラフィック、ガイド、およびクローンツールの改善"
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "MainMenu.UpdateInfoText",
+      "language": "trTR",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác • Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,... • Bản đồ mới: Ốc đảo, Pressure, Spillage,... • Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner • Cập nhật quy trình modding • Cải tiến đồ họa, hướng dẫn và công cụ nhân bản",
+      "old_source_text": "• Các đối tượng mới trên bảo đồ, có thể tương tác\n• Tự động hóa: Cảm Biến, Rơ-le, Bộ Hẹn Giờ,...\n• Bản đồ mới: Ốc đảo, Pressure, Spillage,...\n• Cầu Thang Xoắn, Cổng, Bộ Ly Hợp, Banner\n• Cập nhật quy trình modding\n• Cải tiến đồ họa, hướng dẫn và công cụ nhân bản",
+      "current_translation": "• Haritada etkileşim kurulabilen yeni nesneler • Otomasyon: Sensörler, Röleler, Zamanlayıcılar,... • Yeni haritalar: Vaha, Basınç, Taşma,... • Spiral Merdiven, Kapı, Kavrama, Afiş • Modlama sürecinin güncellenmesi • Grafik geliştirmeleri, rehberler ve kopyalama araçları"
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "NaturalResources.Aquatic",
+      "language": "trTR",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "Thủy sinh: phải được ngập nước một phần.",
+      "old_source_text": "<YellowHighlight>Thủy sinh</YellowHighlight>: phải được ngập nước một phần.",
+      "current_translation": "<YellowHighlight>Su altı</YellowHighlight>: kısmen suyla dolu olmalıdır."
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "Tip.Game.Duplicate",
+      "language": "csCZ",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "Mẹo: Dùng Nhân bản và Sao chép Cài đặt để nhanh chóng tạo ra công trình giống hệt.",
+      "old_source_text": "Mẹo: Dùng <YellowHighlight>Nhân bản</YellowHighlight> và <YellowHighlight>Sao chép Cài đặt</YellowHighlight> để nhanh chóng tạo ra công trình giống hệt.",
+      "current_translation": "Tip: Použijte <YellowHighlight>Duplikovat</YellowHighlight> a <YellowHighlight>Kopírovat nastavení</YellowHighlight> k rychlému vytvoření identické stavby."
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "Tip.Game.Solid",
+      "language": "frFR",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "Mẹo: Nếu công trình được đánh dấu Phẳng, như Nhà Tổ hoặc Nhà Kho, bạn có thể xây công trình khác lên mái của chúng.",
+      "old_source_text": "Mẹo: Nếu công trình được đánh dấu <YellowHighlight>Phẳng</YellowHighlight>, như Nhà Tổ hoặc Nhà Kho, bạn có thể xây công trình khác lên mái của chúng.",
+      "current_translation": "Conseil : Si la construction est marquée <YellowHighlight>Plate</YellowHighlight>, comme la Maison de stockage ou le Hangar, vous pouvez construire un autre bâtiment sur leur toit."
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "Tutorial.PowerAndPlanks.WaterWheel",
+      "language": "ptBR",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "Các công trình nâng cao yêu cầu năng lượng, và hải ly thường lấy năng lượng từ dòng sông. Đặt Bánh Xe Nước vào dòng chảy ven sông.",
+      "old_source_text": "Các công trình nâng cao yêu cầu năng lượng, và hải ly thường lấy năng lượng từ dòng sông.\n\nĐặt Bánh Xe Nước vào dòng chảy ven sông.",
+      "current_translation": "As construções avançadas requerem energia, e os castores costumam obter energia do rio.\n\nColoque a Roda d'Água no fluxo ao longo do rio."
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "Tutorial.Storage.Pile",
+      "language": "enUS",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "Nhiều công trình đang làm việc có sẵn kho chứa hàng hóa, nhưng rất hạn chế. Xây Bãi Chứa Lớn để chứa thêm Khúc Gỗ. Mỗi kho chỉ chứa một loại hàng. Bạn có thể chọn loại hàng khi bấm vào công trình.",
+      "old_source_text": "Nhiều công trình đang làm việc có sẵn kho chứa hàng hóa, nhưng rất hạn chế.\n\nXây Bãi Chứa Lớn để chứa thêm Khúc Gỗ.\n\nMỗi kho chỉ chứa một loại hàng. Bạn có thể chọn loại hàng khi bấm vào công trình.",
+      "current_translation": "Many buildings that are working have storage for goods, but it is very limited.\n\nBuild a Large Storage to hold more Logs.\n\nEach storage can only hold one type of item. You can select the type of item by clicking on the building."
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "Tutorial.WaterAndFood.Gatherer",
+      "language": "viVN",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "Ngoài nước, hải ly còn cần thức ăn. Nhân viên hái lượm sẽ tự động thu hoạch Việt Quất trong phạm vi của Cột Thu Hoạch. Bạn có thể xem phạm vi khi đặt cột. Hãy xây một Cột Thu Hoạch gần các bụi Việt Quất.",
+      "old_source_text": "Ngoài nước, hải ly còn cần thức ăn.\n\nNhân viên hái lượm sẽ tự động thu hoạch Việt Quất trong phạm vi của Cột Thu Hoạch. Bạn có thể xem phạm vi khi đặt cột.\n\nHãy xây một Cột Thu Hoạch gần các bụi Việt Quất.",
+      "current_translation": "Ngoài nước, hải ly còn cần thức ăn.\n\nNhân viên hái lượm sẽ tự động thu hoạch Việt Quất trong phạm vi của Cột Thu Hoạch. Bạn có thể xem phạm vi khi đặt cột.\n\nHãy xây một Cột Thu Hoạch gần các bụi Việt Quất."
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "Tutorial.Wellbeing.SetWorkingHours",
+      "language": "plPL",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "Hải ly cần thời gian rảnh để ăn, uống, nghỉ ngơi và hoạt động giải trí. Để tối ưu hiệu suất, bạn cần cân bằng giữa phúc lợi và giờ làm việc. Hiện tại, hãy đưa giờ làm về mức mặc định.",
+      "old_source_text": "Hải ly cần thời gian rảnh để ăn, uống, nghỉ ngơi và hoạt động giải trí.\n\nĐể tối ưu hiệu suất, bạn cần cân bằng giữa phúc lợi và giờ làm việc.\n\nHiện tại, hãy đưa giờ làm về mức mặc định.",
+      "current_translation": "Bóbr potrzebuje wolnego czasu na jedzenie, picie, odpoczynek i rozrywkę.\n\nAby zoptymalizować wydajność, musisz znaleźć równowagę między dobrym samopoczuciem a godzinami pracy.\n\nObecnie przywróć godziny pracy do wartości domyślnej."
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "Tutorial.Wellbeing.SetWorkingHours",
+      "language": "trTR",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "Hải ly cần thời gian rảnh để ăn, uống, nghỉ ngơi và hoạt động giải trí. Để tối ưu hiệu suất, bạn cần cân bằng giữa phúc lợi và giờ làm việc. Hiện tại, hãy đưa giờ làm về mức mặc định.",
+      "old_source_text": "Hải ly cần thời gian rảnh để ăn, uống, nghỉ ngơi và hoạt động giải trí.\n\nĐể tối ưu hiệu suất, bạn cần cân bằng giữa phúc lợi và giờ làm việc.\n\nHiện tại, hãy đưa giờ làm về mức mặc định.",
+      "current_translation": "Kunduzların yemek, içmek, dinlenmek ve eğlenceli aktiviteler için boş zamana ihtiyaçları var.\n\nVerimliliği optimize etmek için, refah ile çalışma saatleri arasında bir denge kurmalısınız.\n\nŞu anda, çalışma saatlerini varsayılan seviyeye geri getirin."
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "Tutorial.WorkingHours.SetWorkingHours",
+      "language": "deDE",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "Điều chỉnh giờ làm là một cách quản lý khu định cư. Giờ làm việc dài hơn giúp phát triển nhanh hơn. Nhưng hải ly cũng cần nghỉ ngơi mỗi ngày. Trước mắt, hãy tăng nhẹ giờ làm.",
+      "old_source_text": "Điều chỉnh giờ làm là một cách quản lý khu định cư.\n\nGiờ làm việc dài hơn giúp phát triển nhanh hơn. Nhưng hải ly cũng cần nghỉ ngơi mỗi ngày.\n\nTrước mắt, hãy tăng nhẹ giờ làm.",
+      "current_translation": "Die Anpassung der Arbeitszeiten ist eine Möglichkeit, die Siedlung zu verwalten.\n\nLängere Arbeitszeiten helfen, schneller voranzukommen. Aber die Biber brauchen auch jeden Tag ihre Ruhe.\n\nErhöhe vorerst die Arbeitszeiten leicht."
+    },
+    {
+      "file": "3723267610.toml",
+      "key": "Tutorial.WorkingHours.SetWorkingHours",
+      "language": "enUS",
+      "mod": "Tiếng Việt (Vietnamese) by tran11nam",
+      "source_text": "Điều chỉnh giờ làm là một cách quản lý khu định cư. Giờ làm việc dài hơn giúp phát triển nhanh hơn. Nhưng hải ly cũng cần nghỉ ngơi mỗi ngày. Trước mắt, hãy tăng nhẹ giờ làm.",
+      "old_source_text": "Điều chỉnh giờ làm là một cách quản lý khu định cư.\n\nGiờ làm việc dài hơn giúp phát triển nhanh hơn. Nhưng hải ly cũng cần nghỉ ngơi mỗi ngày.\n\nTrước mắt, hãy tăng nhẹ giờ làm.",
+      "current_translation": "Adjusting working hours is a way to manage the settlement.\n\nLonger working hours help to develop faster. But beavers also need to rest every day.\n\nFor now, slightly increase the working hours."
+    }
+  ]
+}

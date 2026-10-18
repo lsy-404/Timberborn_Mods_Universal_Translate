@@ -68,8 +68,10 @@ class ProductionTranslationTests(unittest.TestCase):
         self.assertNotEqual(user, other)
         payload = json.loads(user)
         self.assertEqual(payload['source_text'], 'Power output: {0} hp\nStores 150 hph.')
-        self.assertEqual(payload['context']['old_source_text'], 'Stores 25 hph.')
-        self.assertEqual(payload['context']['current_translation'], '储存 25 hph。')
+        self.assertNotIn('old_source_text', payload['context'])
+        self.assertNotIn('current_translation', payload['context'])
+        self.assertEqual(payload['source_format_contract']['placeholders'], {'{0}': 1})
+        self.assertEqual(payload['source_format_contract']['line_breaks']['newline'], 1)
         self.assertTrue(all(part['prompt_cache_breakpoint'] == {'mode': 'explicit'} for part in first))
 
     @patch('translator.requests.post')
