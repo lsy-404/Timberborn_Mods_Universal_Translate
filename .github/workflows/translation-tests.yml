@@ -1,0 +1,29 @@
+name: Translation contracts
+
+on:
+  pull_request:
+    paths:
+      - '.github/scripts/**'
+      - '.github/config/**'
+      - '.github/workflows/translate.yml'
+      - '.github/workflows/translation-tests.yml'
+      - 'test/**'
+
+permissions:
+  contents: read
+
+jobs:
+  offline-contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - name: Install existing test dependencies
+        run: pip install -r .github/scripts/requirements.txt tiktoken==0.14.0
+      - name: Run offline translation and artifact contracts
+        run: python -m unittest discover -s test -p 'test_translation*.py' -v

@@ -29,7 +29,7 @@ from typing import Callable, Dict, List, Optional, Set, Tuple, Union
 # Add util to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'util'))
 from translator import TranslatorLLM
-from translation_prompt import system_prompt_parts
+from translation_prompt import split_name_pool_source, strip_extra_quotes, system_prompt_parts
 
 
 # Global variable to store language names loaded from config
@@ -822,34 +822,6 @@ def build_translation_prompt(
     return system, json.dumps({'source_text': new_text, 'context': context}, ensure_ascii=False)
 
 
-def strip_extra_quotes(text: str, reference_text: str) -> str:
-    """
-    Strip extra quotes from translated text if the reference doesn't have them.
-    
-    This handles cases where LLM adds extra quotes like:
-    - raw: "Mostly helpful billboards" -> zhTW: '"大多數有幫助的廣告牌"'
-    
-    Args:
-        text: Translated text that might have extra quotes
-        reference_text: Reference text (usually raw field) to check quote pattern
-        
-    Returns:
-        Text with extra quotes removed if appropriate
-    """
-    if not text or not reference_text:
-        return text
-    
-    # Check if reference text starts and ends with quotes
-    ref_has_quotes = reference_text.startswith('"') and reference_text.endswith('"')
-    
-    # If translation has quotes but reference doesn't, remove them
-    if not ref_has_quotes and text.startswith('"') and text.endswith('"') and len(text) > 2:
-        # Remove leading and trailing quotes
-        text = text[1:-1]
-    
-    return text
-
-
 def translate_entry(
     translator: TranslatorLLM,
     key: str,
@@ -909,9 +881,9 @@ def translate_entry(
         if text_to_translate is None:
             logger.warning(f"Entry {key} has no 'raw' or 'new' field to translate from")
             return None
-        # If raw text is empty, return empty string (valid empty translation)
+        # Empty name-pool records still own their LF slots and need no API call.
         if not text_to_translate.strip():
-            return ""
+            return text_to_translate if key == 'Beaver.NamePool' else ""
     
     # Apply glossary to source text BEFORE translation with hints (if translating a "new" field)
     preprocessed_text = text_to_translate
@@ -939,30 +911,50 @@ def translate_entry(
     current_translation = entry.get(target_lang)
     specific_prompt = entry.get("prompt")
     
-    # Build prompts with glossary hints
-    system_prompt, user_prompt = build_translation_prompt(
-        key=key,
-        new_text=preprocessed_text,  # Use preprocessed text with glossary applied
-        mod_name=mod_name,
-        target_language=target_lang,
-        raw=raw if has_new_field and raw != text_to_translate else None,  # Only show old text if different from new
-        current_translation=current_translation,
-        prompt=prompt,
-        specific_prompt=specific_prompt,
-        glossary_hints=glossary_hints if glossary_hints else None
-    )
-    
-    # Translate with preprocessed text
+    # Name pools contain independent LF-delimited records, not prose or CSV.
+    is_name_pool = key == 'Beaver.NamePool'
+    sources = [preprocessed_text]
+    if is_name_pool:
+        specific_prompt = (specific_prompt + '\n' if specific_prompt else '') + (
+            'Each source line is one independent name-pool record. Preserve the exact record '
+            'order, all empty records, duplicates, and commas inside names. Return only the '
+            'localized records for this consecutive slice, with one record per source line.'
+        )
+        if len(preprocessed_text) > translator.max_length:
+            try:
+                sources = split_name_pool_source(preprocessed_text, translator.max_length)
+            except ValueError:
+                # Reuse the client's length rejection so it records an unresolved translation.
+                logger.warning('Cannot split %s without breaking a name; preserving the pending entry', key)
+
     if _work_tracker:
         _work_tracker.record_start("language", f"{key}/{target_lang}", detail=f"text_len={len(preprocessed_text)}")
-    translation = translator.translate(
-        text=preprocessed_text,  # Send preprocessed text to LLM
-        target_language=target_lang,
-        system_prompt=system_prompt,
-        user_prompt=user_prompt
-    )
-    if _work_tracker:
-        _work_tracker.record_end("language", f"{key}/{target_lang}")
+    try:
+        translations = []
+        for source in sources:
+            system_prompt, user_prompt = build_translation_prompt(
+                key=key,
+                new_text=source,
+                mod_name=mod_name,
+                target_language=target_lang,
+                raw=raw if len(sources) == 1 and has_new_field and raw != text_to_translate else None,
+                current_translation=current_translation,
+                prompt=prompt,
+                specific_prompt=specific_prompt,
+                glossary_hints=glossary_hints if glossary_hints else None
+            )
+            options = {'text': source, 'target_language': target_lang,
+                       'system_prompt': system_prompt, 'user_prompt': user_prompt}
+            if is_name_pool:
+                options['preserve_line_entries'] = True
+            translated_source = translator.translate(**options)
+            if translated_source is None:
+                return None
+            translations.append(translated_source)
+        translation = '\n'.join(translations)
+    finally:
+        if _work_tracker:
+            _work_tracker.record_end("language", f"{key}/{target_lang}")
     
     # Validate translation result
     # Empty translation is only valid if the original raw text is also empty
@@ -973,7 +965,7 @@ def translate_entry(
             return None
         
         # Strip extra quotes if present and not in original
-        translation = strip_extra_quotes(translation, text_to_translate)
+        translation = strip_extra_quotes(translation, preprocessed_text)
         if not translation.strip() and text_to_translate.strip():
             logger.warning(f"Translation became empty after removing wrappers in {key}")
             return None
@@ -1691,7 +1683,7 @@ def main():
         except Exception as e:
             logger.error(f"Failed to write cost report: {e}")
         
-        if cost_data["fail_count"] or not cost_data["cost_tracking_complete"]:
+        if cost_data["unresolved_translation_count"] or not cost_data["cost_tracking_complete"]:
             raise RuntimeError("Translation requests failed; pending entries and partial progress have been preserved")
         logger.info("All done!")
         
