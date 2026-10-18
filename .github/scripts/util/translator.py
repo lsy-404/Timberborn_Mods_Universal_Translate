@@ -16,8 +16,8 @@ import requests
 from typing import List, Optional
 
 from translation_prompt import (
-    protected_format_issues, restore_source_boundary_whitespace, restore_source_line_breaks,
-    strip_extra_quotes,
+    protected_format_issues, protected_format_signature, restore_source_boundary_whitespace,
+    restore_source_line_breaks, strip_extra_quotes,
 )
 
 
@@ -170,7 +170,12 @@ class TranslatorLLM:
                 feedback = (
                     f'The previous response failed validation: {retry_reason}. '
                     'Translate the same source_text again. Return only the complete localized string. '
-                    'Preserve every source placeholder and rich-text tag exactly, and retain all '
+                    'Use only source_text for formatting; old sources, translations, hints and examples '
+                    'must not add or remove formatting. Match this source_format_contract exactly '
+                    '(zero counts and empty token maps mean add none): '
+                    + json.dumps(protected_format_signature(text, preserve_line_entries),
+                                 ensure_ascii=False, separators=(',', ':'))
+                    + '. Preserve every source placeholder and rich-text tag exactly, and retain all '
                     'source line breaks and literal backslash sequences. Keep every line entry '
                     'in order, including empty entries. Do not add commentary.'
                 )

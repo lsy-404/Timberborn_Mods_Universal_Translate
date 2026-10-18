@@ -29,7 +29,10 @@ from typing import Callable, Dict, List, Optional, Set, Tuple, Union
 # Add util to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'util'))
 from translator import TranslatorLLM
-from translation_prompt import split_name_pool_source, strip_extra_quotes, system_prompt_parts
+from translation_prompt import (
+    protected_format_issues, protected_format_signature, split_name_pool_source,
+    strip_extra_quotes, system_prompt_parts,
+)
 
 
 # Global variable to store language names loaded from config
@@ -817,9 +820,18 @@ def build_translation_prompt(
               for part in parts]
     context = {'mod': mod_name, 'key': key, 'field_hint': prompt,
                'specific_note': specific_prompt, 'glossary_references': glossary_hints or []}
-    if raw is not None:
+    preserve_line_entries = key == 'Beaver.NamePool'
+    # Stale layout is an unsafe style example when the source's syntax changed.
+    # Keep the pair together only if both references obey the new format contract.
+    if (raw is not None and not protected_format_issues(new_text, raw, preserve_line_entries)
+            and (current_translation is None
+                 or not protected_format_issues(new_text, current_translation, preserve_line_entries))):
         context.update(old_source_text=raw, current_translation=current_translation)
-    return system, json.dumps({'source_text': new_text, 'context': context}, ensure_ascii=False)
+    return system, json.dumps({
+        'source_text': new_text,
+        'source_format_contract': protected_format_signature(new_text, preserve_line_entries),
+        'context': context,
+    }, ensure_ascii=False)
 
 
 def translate_entry(

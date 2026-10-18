@@ -87,15 +87,38 @@ def split_name_pool_source(source, max_length):
     return chunks
 
 
+def protected_format_signature(text, preserve_line_entries=False):
+    """Describe strict token counts and optional LF-split empty record positions."""
+    signature = {
+        'placeholders': dict(Counter(PLACEHOLDER.findall(text))),
+        'rich_text_tags': dict(Counter(TAG.findall(text))),
+        'line_breaks': {
+            name: text.count(token)
+            for name, token in (
+                ('newline', '\n'), ('carriage_return', '\r'),
+                ('literal_backslash_n', '\\n'), ('literal_backslash_r', '\\r'),
+            )
+        },
+    }
+    if preserve_line_entries:
+        records = text.split('\n')
+        signature['line_entries'] = {
+            'count': len(records),
+            'empty_indices': [index for index, record in enumerate(records) if not record.strip()],
+        }
+    return signature
+
+
 def protected_format_issues(source, output, preserve_line_entries=False):
-    issues = []
-    if Counter(PLACEHOLDER.findall(source)) != Counter(PLACEHOLDER.findall(output)):
-        issues.append('placeholder_changed')
-    if Counter(TAG.findall(source)) != Counter(TAG.findall(output)):
-        issues.append('markup_changed')
-    if any(source.count(token) != output.count(token) for token in ('\n', '\r', '\\n', '\\r')):
-        issues.append('line_breaks_changed')
-    if preserve_line_entries and ([bool(line.strip()) for line in source.split('\n')]
-                                  != [bool(line.strip()) for line in output.split('\n')]):
+    expected = protected_format_signature(source, preserve_line_entries)
+    actual = protected_format_signature(output, preserve_line_entries)
+    issues = [
+        issue for field, issue in (
+            ('placeholders', 'placeholder_changed'), ('rich_text_tags', 'markup_changed'),
+            ('line_breaks', 'line_breaks_changed'),
+        )
+        if expected[field] != actual[field]
+    ]
+    if preserve_line_entries and expected['line_entries'] != actual['line_entries']:
         issues.append('line_entries_changed')
     return issues
