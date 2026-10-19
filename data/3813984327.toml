@@ -682,8 +682,8 @@ viVN = "Giảm số lần tạm dừng bắt buộc"
 trTR = "Zorunlu duraklamaların sayısını azaltır"
 
 ["BeaverBuddies.Settings.PauseReduction.Tooltip"]
-status = "normal"
 raw = "For an optimal experience, all players should set it to the same value.\n\nOff - Default behaviour\nMenu only - Auto-pause only when opening the menu (not for deconstructions)\nNever auto-pause - The game will never auto-pause, including when opening the menu. This can lead to save corruptions if you don't pause the game before saving."
+status = "normal"
 enUS = "For an optimal experience, all players should set it to the same value.\n\nOff - Default behavior\nMenu only - Auto-pause only when opening the menu (not for deconstructions)\nNever auto-pause - The game will never auto-pause, including when opening the menu. This can lead to save corruption if you don't pause the game before saving."
 zhCN = "为获得最佳体验，所有玩家都应将其设为相同的值。\n\n关闭 - 默认行为\n仅菜单 - 仅在打开菜单时自动暂停（拆除建筑时不会）\n从不自动暂停 - 游戏永远不会自动暂停，包括打开菜单时。如果保存前没有暂停游戏，可能会导致存档损坏。"
 zhTW = "為了獲得最佳體驗，所有玩家都應將此設定為相同的值。\n\n關閉－預設行為\n僅選單－僅在開啟選單時自動暫停（拆除建築時不會）\n永不自動暫停－遊戲永遠不會自動暫停，包括開啟選單時。如果你在儲存前沒有暫停遊戲，可能會導致存檔損毀。"
@@ -835,8 +835,8 @@ viVN = "Đã tham gia! Đang nhận bản đồ..."
 trTR = "Katıldı! Harita alınıyor..."
 
 ["BeaverBuddies.JoinCoopGame.Connecting"]
-status = "normal"
 raw = "Connecting to the host..."
+status = "normal"
 enUS = "Connecting to the host..."
 zhCN = "正在连接到主机……"
 zhTW = "正在連線至主機……"
@@ -901,6 +901,10 @@ koKR = "호스트가 다른 모드를 사용 중이거나 BeaverBuddies의 다�
 csCZ = "Hostitel hraje s jinými mody nebo s jinou verzí BeaverBuddies. Nainstalujte stejné mody ze stejného místa a pak se připojte znovu."
 viVN = "Chủ phòng đang chơi cùng các mod khác hoặc một bản dựng BeaverBuddies khác. Hãy cài đặt cùng những mod đó từ cùng một nơi, rồi tham gia lại."
 trTR = "Sunucu başka modlarla veya BeaverBuddies'ın başka bir sürümüyle oynuyor. Aynı modları aynı yerden yükleyin, ardından tekrar katılın."
+
+["BeaverBuddies.JoinCoopGame.Error.Full"]
+new = "The game is full."
+status = "normal"
 
 ["BeaverBuddies.JoinCoopGame.Error.CouldNotConnect"]
 raw = "Could not connect to Host. Please check the address and port, and make sure the Host is hosting and has port forwarded if needed. Error details:"
@@ -1224,6 +1228,18 @@ koKR = "모든 플레이어가 개발자 도구를 사용할 수 있게 합니�
 csCZ = "Umožňuje všem hráčům používat vývojářské nástroje. Provedené změny se synchronizují. Vývojářské nástroje, které nelze synchronizovat, jsou v kooperativní hře vždy zablokované."
 viVN = "Cho phép mọi người chơi sử dụng công cụ dành cho nhà phát triển. Các thay đổi được thực hiện bằng những công cụ này sẽ được đồng bộ hóa. Các công cụ dành cho nhà phát triển không thể đồng bộ hóa luôn bị chặn trong chế độ co-op."
 trTR = "Her oyuncunun geliştirici araçlarını kullanmasına izin verir. Bu araçlarla yapılan değişiklikler eşitlenir. Eşitlenemeyen geliştirici araçları, eşli oyunda her zaman engellenir."
+
+["BeaverBuddies.Settings.MaxPlayers"]
+new = "Max players"
+status = "normal"
+
+["BeaverBuddies.Settings.MaxPlayers.Tooltip"]
+new = "How many can play, you included. Once it's full, nobody else can join."
+status = "normal"
+
+["BeaverBuddies.Settings.MaxPlayers.Value"]
+new = "{0}"
+status = "normal"
 
 ["BeaverBuddies.DevTools.DisabledByHost"]
 raw = "The host has disabled dev tools for this game."
@@ -4269,8 +4285,8 @@ viVN = "Thỏa thuận giao dịch cần phê duyệt"
 trTR = "Onaylanacak ticaret anlaşması"
 
 ["BeaverBuddies.Match.ListFailed"]
-status = "normal"
 raw = "Couldn't load the open games. Check your connection and refresh."
+status = "normal"
 enUS = "Couldn't load the open games. Check your connection and refresh."
 zhCN = "无法加载开放中的游戏。请检查网络连接并刷新。"
 zhTW = "無法載入進行中的遊戲。請檢查連線並重新整理。"
@@ -4286,8 +4302,8 @@ viVN = "Không thể tải danh sách các trận đang mở. Hãy kiểm tra k�
 trTR = "Açık oyunlar yüklenemedi. Bağlantınızı kontrol edip yenileyin."
 
 ["BeaverBuddies.Host.JoinCode"]
-status = "normal"
 raw = "Join code: {0}"
+status = "normal"
 enUS = "Join code: {0}"
 zhCN = "加入代码：{0}"
 zhTW = "加入代碼：{0}"
@@ -4303,8 +4319,8 @@ viVN = "Mã tham gia: {0}"
 trTR = "Katılım kodu: {0}"
 
 ["BeaverBuddies.JoinCoopGame.Error.CodeCouldNotConnect"]
-status = "normal"
 raw = "Couldn't connect to the host by its join code. Check the code, and that they're still hosting. Error details:"
+status = "normal"
 enUS = "Couldn't connect to the host using its join code. Check the code and make sure they're still hosting. Error details:"
 zhCN = "无法通过加入码连接到主机。请检查加入码，并确认对方仍在主持游戏。错误详情："
 zhTW = "無法使用加入代碼連線至主機。請檢查代碼，並確認對方仍在主持遊戲。錯誤詳情："
@@ -4320,8 +4336,8 @@ viVN = "Không thể kết nối với máy chủ bằng mã tham gia. Hãy ki�
 trTR = "Katılma koduyla sunucuya bağlanılamadı. Kodu ve hâlâ oturum açtıklarını kontrol edin. Hata ayrıntıları:"
 
 ["BeaverBuddies.Match.CantJoin"]
-status = "normal"
 raw = "Can't join"
+status = "normal"
 enUS = "Can't join"
 zhCN = "无法加入"
 zhTW = "無法加入"
@@ -4337,8 +4353,8 @@ viVN = "Không thể tham gia"
 trTR = "Katılamıyor"
 
 ["BeaverBuddies.Match.OneVersusOne"]
-status = "normal"
 raw = "1v1"
+status = "normal"
 enUS = "1v1"
 zhCN = "1对1"
 zhTW = "1 對 1"
@@ -4354,8 +4370,8 @@ viVN = "1 đấu 1"
 trTR = "1'e 1"
 
 ["BeaverBuddies.Match.Players"]
-status = "normal"
 raw = "{0}/{1} players"
+status = "normal"
 enUS = "{0}/{1} players"
 zhCN = "{0}/{1} 名玩家"
 zhTW = "{0}/{1} 名玩家"
@@ -4371,8 +4387,8 @@ viVN = "{0}/{1} người chơi"
 trTR = "{0}/{1} oyuncu"
 
 ["BeaverBuddies.Match.PlayersNoRoom"]
-status = "normal"
 raw = "{0} playing"
+status = "normal"
 enUS = "{0} playing"
 zhCN = "{0} 人正在游戏中"
 zhTW = "{0} 位玩家正在遊玩"
@@ -4388,8 +4404,8 @@ viVN = "{0} đang chơi"
 trTR = "{0} oynuyor"
 
 ["BeaverBuddies.Match.HostedGame"]
-status = "normal"
 raw = "Hosted game · {0}"
+status = "normal"
 enUS = "Hosted game · {0}"
 zhCN = "已托管的游戏 · {0}"
 zhTW = "已託管的遊戲 · {0}"
@@ -4405,8 +4421,8 @@ viVN = "Trận đấu do người chơi tạo · {0}"
 trTR = "Barındırılan oyun · {0}"
 
 ["BeaverBuddies.Match.WaitingQuick"]
-status = "normal"
 raw = "Quick match · waiting for an opponent"
+status = "normal"
 enUS = "Quick match · waiting for an opponent"
 zhCN = "快速匹配 · 正在等待对手"
 zhTW = "快速配對 · 等待對手"
@@ -4422,8 +4438,8 @@ viVN = "Trận đấu nhanh · đang chờ đối thủ"
 trTR = "Hızlı eşleşme · rakip bekleniyor"
 
 ["BeaverBuddies.Match.GetsModsFirst"]
-status = "normal"
 raw = "You'll get their mods from the Steam Workshop before the match starts."
+status = "normal"
 enUS = "You’ll get their mods from the Steam Workshop before the match starts."
 zhCN = "比赛开始前，你会从 Steam 创意工坊获取他们的模组。"
 zhTW = "比賽開始前，你會從 Steam 工作坊取得他們的模組。"
@@ -4439,8 +4455,8 @@ viVN = "Bạn sẽ tải các mod của họ từ Steam Workshop trước khi tr
 trTR = "Modlarını maç başlamadan önce Steam Atölyesi'nden alırsın."
 
 ["BeaverBuddies.Match.Section.Game"]
-status = "normal"
 raw = "Game"
+status = "normal"
 enUS = "Game"
 zhCN = "游戏"
 zhTW = "遊戲"
@@ -4456,8 +4472,8 @@ viVN = "Trò chơi"
 trTR = "Oyun"
 
 ["BeaverBuddies.Match.Section.Settings"]
-status = "normal"
 raw = "Settings"
+status = "normal"
 enUS = "Settings"
 zhCN = "设置"
 zhTW = "設定"
@@ -4473,8 +4489,8 @@ viVN = "Cài đặt"
 trTR = "Ayarlar"
 
 ["BeaverBuddies.Match.Section.Mods"]
-status = "normal"
 raw = "Mods"
+status = "normal"
 enUS = "Mods"
 zhCN = "模组"
 zhTW = "模組"
@@ -4490,8 +4506,8 @@ viVN = "Bản mod"
 trTR = "Modlar"
 
 ["BeaverBuddies.Match.SettingsDefault"]
-status = "normal"
 raw = "All at their defaults"
+status = "normal"
 enUS = "All at their defaults"
 zhCN = "全部为默认设置"
 zhTW = "全部維持預設值"
@@ -4507,8 +4523,8 @@ viVN = "Tất cả đều ở giá trị mặc định của chúng"
 trTR = "Hepsi varsayılan ayarlarında"
 
 ["BeaverBuddies.Match.ModsSame"]
-status = "normal"
 raw = "The same as yours ({0})"
+status = "normal"
 enUS = "The same as yours ({0})"
 zhCN = "和你的一样（{0}）"
 zhTW = "和你的一樣（{0}）"
@@ -4524,8 +4540,8 @@ viVN = "Giống như của bạn ({0})"
 trTR = "Sizinkiyle aynı ({0})"
 
 ["BeaverBuddies.Match.ModsMissing"]
-status = "normal"
 raw = "You don't have:"
+status = "normal"
 enUS = "You don't have:"
 zhCN = "你没有："
 zhTW = "你沒有："
@@ -4541,8 +4557,8 @@ viVN = "Bạn không có:"
 trTR = "Sahip olmadıklarınız:"
 
 ["BeaverBuddies.Match.ModsOtherVersion"]
-status = "normal"
 raw = "Another version:"
+status = "normal"
 enUS = "Another version:"
 zhCN = "另一个版本："
 zhTW = "另一個版本："
@@ -4558,8 +4574,8 @@ viVN = "Phiên bản khác:"
 trTR = "Başka bir sürüm:"
 
 ["BeaverBuddies.Match.ModVersions"]
-status = "normal"
 raw = "{0}: theirs {1}, yours {2}"
+status = "normal"
 enUS = "{0}: theirs {1}, yours {2}"
 zhCN = "{0}：对方 {1}，己方 {2}"
 zhTW = "{0}：對方版本 {1}，你的版本 {2}"
@@ -4575,8 +4591,8 @@ viVN = "{0}: của họ {1}, của bạn {2}"
 trTR = "{0}: onlarınki {1}, sizinki {2}"
 
 ["BeaverBuddies.Match.ModsOnlyMine"]
-status = "normal"
 raw = "Only you have:"
+status = "normal"
 enUS = "Only you have:"
 zhCN = "只有你拥有："
 zhTW = "只有你擁有："
@@ -4592,8 +4608,8 @@ viVN = "Chỉ bạn có:"
 trTR = "Yalnızca sende olanlar:"
 
 ["BeaverBuddies.Match.ModsAlsoSame"]
-status = "normal"
 raw = "{0} more the same as yours"
+status = "normal"
 enUS = "{0} more matching yours"
 zhCN = "还有 {0} 个与你相同的 Mod"
 zhTW = "還有 {0} 個和你的一樣"
@@ -4609,8 +4625,8 @@ viVN = "{0} mod nữa giống của bạn"
 trTR = "Sizinkiyle aynı {0} tane daha"
 
 ["BeaverBuddies.Match.Incompatible.BeaverBuddies"]
-status = "normal"
 raw = "They have BeaverBuddies {0}, you have {1}. Whoever has the older one needs to update."
+status = "normal"
 enUS = "They have BeaverBuddies {0}, and you have {1}. Whoever has the older version needs to update."
 zhCN = "他们的 BeaverBuddies 版本是 {0}，你的版本是 {1}。版本较旧的一方需要更新。"
 zhTW = "他們的 BeaverBuddies 版本是 {0}，你的版本是 {1}。版本較舊的一方需要更新。"
@@ -4626,8 +4642,8 @@ viVN = "Họ có BeaverBuddies {0}, còn bạn có {1}. Ai đang dùng phiên b�
 trTR = "Onlarda {0} BeaverBuddies, sende {1} var. Daha eski sürüme sahip olanın güncellemesi gerekiyor."
 
 ["BeaverBuddies.Match.Incompatible.Build"]
-status = "normal"
 raw = "Your mods are the same, but not the same builds of them, or not the same DLC. Update everything to the latest version."
+status = "normal"
 enUS = "Your mods are the same, but they may be different builds, or you may have different DLC. Update everything to the latest version."
 zhCN = "你们的模组相同，但模组版本不同，或者 DLC 不同。请将所有内容更新到最新版本。"
 zhTW = "你們的模組相同，但模組版本不同，或 DLC 不同。請將所有內容更新至最新版本。"
@@ -4643,8 +4659,8 @@ viVN = "Các mod của bạn giống nhau, nhưng không cùng phiên bản, ho�
 trTR = "Modlarınız aynı, ancak sürümleri aynı değil ya da DLC'leriniz farklı. Her şeyi en son sürüme güncelleyin."
 
 ["BeaverBuddies.Match.Incompatible.ModsHosted"]
-status = "normal"
 raw = "Your mods aren't the same as theirs (see Mods below). Joining a hosted game takes exactly the same ones."
+status = "normal"
 enUS = "Your mods aren't the same as theirs (see Mods below). Joining a hosted game requires exactly the same mods."
 zhCN = "你的模组和对方的不一样（见下方的“模组”）。加入托管游戏时，必须使用完全相同的模组。"
 zhTW = "你的模組和對方的不一樣（請見下方的「模組」）。加入對方主持的遊戲時，必須使用完全相同的模組。"
@@ -4660,8 +4676,8 @@ viVN = "Các mod của bạn không giống với mod của họ (xem mục Mods
 trTR = "Modlarınız onlarınkiyle aynı değil (aşağıdaki Modlar bölümüne bakın). Barındırılan bir oyuna katılmak için tamamen aynı modlar gerekir."
 
 ["BeaverBuddies.Match.Incompatible.ModsNoWorkshop"]
-status = "normal"
 raw = "Your mods aren't the same as theirs (see Mods below), and without Steam there's no Workshop to get theirs from."
+status = "normal"
 enUS = "Your mods aren't the same as theirs (see Mods below), and without Steam there's no Workshop to get theirs from."
 zhCN = "你们安装的模组与他们的不一样（参见下方的“模组”），而且没有 Steam 就无法通过创意工坊获取他们的模组。"
 zhTW = "你的模組和他們的不一樣（請見下方的「模組」），而且沒有 Steam，就無法透過 Workshop 取得他們的模組。"
@@ -4677,8 +4693,8 @@ viVN = "Các mod của bạn không giống của họ (xem mục Mod bên dư�
 trTR = "Modlarınız onlarınkiyle aynı değil (aşağıdaki Modlar bölümüne bakın) ve Steam olmadan onların modlarını alabileceğiniz bir Atölye yok."
 
 ["BeaverBuddies.Host.CopyCode"]
-status = "normal"
 raw = "Copy"
+status = "normal"
 enUS = "Copy"
 zhCN = "复制"
 zhTW = "複製"
@@ -4694,8 +4710,8 @@ viVN = "Sao chép"
 trTR = "Kopyala"
 
 ["BeaverBuddies.Host.CodeCopied"]
-status = "normal"
 raw = "Copied!"
+status = "normal"
 enUS = "Copied!"
 zhCN = "已复制！"
 zhTW = "已複製！"
@@ -4711,8 +4727,8 @@ viVN = "Đã sao chép!"
 trTR = "Kopyalandı!"
 
 ["BeaverBuddies.Host.InviteByCode"]
-status = "normal"
 raw = "Anyone can join with this code, from Open matches, then Join by code or address."
+status = "normal"
 enUS = "Anyone can join using this code from Open Matches, then Join by Code or Address."
 zhCN = "任何人都可以在“公开对局”中选择“通过代码或地址加入”，使用此代码加入。"
 zhTW = "任何人都可以在「公開對戰」中選擇「使用代碼或位址加入」，輸入此代碼加入。"
@@ -4728,8 +4744,8 @@ viVN = "Bất kỳ ai cũng có thể tham gia bằng mã này, từ mục Trậ
 trTR = "Herkes, Açık maçlar bölümünden Koda veya adrese göre katıl seçeneğini kullanarak bu kodla katılabilir."
 
 ["BeaverBuddies.Client.HostLeft"]
-status = "normal"
 raw = "The host left the game. Back to the main menu."
+status = "normal"
 enUS = "The host left the game. Back to the main menu."
 zhCN = "主机已离开游戏。返回主菜单。"
 zhTW = "主機已離開遊戲。返回主選單。"

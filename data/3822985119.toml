@@ -1,0 +1,194 @@
+[_meta]
+name = "Tree Harvest Byproduct & Banner Control"
+
+["THB.Group.DropRules"]
+new = "Drop rules"
+status = "normal"
+
+["THB.Group.Banner"]
+new = "Banner settings"
+status = "normal"
+
+["THB.Group.Faction"]
+new = "Faction filter"
+status = "normal"
+
+["THB.Setting.Rule"]
+new = "Byproduct drop rule"
+status = "normal"
+
+["THB.Setting.Rule.Tooltip"]
+new = "Decides whether and when a tree drops its secondary product (resin/syrup/chestnut)"
+status = "normal"
+
+["THB.Setting.SapThreshold"]
+new = "Sap threshold (percent)"
+status = "normal"
+
+["THB.Setting.SapThreshold.Tooltip"]
+new = "ByproductIfHasEnoughSapOnCut: drop only when sap ratio reaches this value"
+status = "normal"
+
+["THB.Setting.SapLowThreshold"]
+new = "Low sap threshold (percent)"
+status = "normal"
+
+["THB.Setting.SapLowThreshold.Tooltip"]
+new = "Random range: sap above this enters the low chance band"
+status = "normal"
+
+["THB.Setting.SapLowChance"]
+new = "Low chance (percent)"
+status = "normal"
+
+["THB.Setting.SapLowChance.Tooltip"]
+new = "Drop chance in the low sap band"
+status = "normal"
+
+["THB.Setting.SapHighThreshold"]
+new = "High sap threshold (percent)"
+status = "normal"
+
+["THB.Setting.SapHighThreshold.Tooltip"]
+new = "Random range: sap above this enters the high chance band"
+status = "normal"
+
+["THB.Setting.SapHighChance"]
+new = "High chance (percent)"
+status = "normal"
+
+["THB.Setting.SapHighChance.Tooltip"]
+new = "Drop chance in the high sap band"
+status = "normal"
+
+["THB.Setting.EnableBanner"]
+new = "Enable banner harvest mode"
+status = "normal"
+
+["THB.Setting.EnableBanner.Tooltip"]
+new = "When off all banners use vanilla cutting logic"
+status = "normal"
+
+["THB.Setting.AutoDetect"]
+new = "Auto-detect byproduct trees"
+status = "normal"
+
+["THB.Setting.AutoDetect.Tooltip"]
+new = "Reads the tree template Gatherable yield; off uses the manual whitelist"
+status = "normal"
+
+["THB.Setting.ManualTrees"]
+new = "Manual tree whitelist"
+status = "normal"
+
+["THB.Setting.ManualTrees.Tooltip"]
+new = "Comma-separated tree ids; used when AutoDetect is off"
+status = "normal"
+
+["THB.Setting.Blacklist"]
+new = "Tree blacklist"
+status = "normal"
+
+["THB.Setting.Blacklist.Tooltip"]
+new = "Comma-separated ids that always use vanilla logic"
+status = "normal"
+
+["THB.Setting.WaitSapThreshold"]
+new = "Wait mode sap threshold (percent)"
+status = "normal"
+
+["THB.Setting.WaitSapThreshold.Tooltip"]
+new = "Minimum sap ratio for sap trees in WaitByproductReady mode"
+status = "normal"
+
+["THB.Setting.DefaultBannerMode"]
+new = "Default banner mode"
+status = "normal"
+
+["THB.Setting.DefaultBannerMode.Tooltip"]
+new = "Mode used by banners without a per-flag override"
+status = "normal"
+
+["THB.Setting.FactionMode"]
+new = "Faction filter mode"
+status = "normal"
+
+["THB.Setting.FactionMode.Tooltip"]
+new = "Controls which factions use this mod"
+status = "normal"
+
+["THB.Setting.FactionList"]
+new = "Faction id list"
+status = "normal"
+
+["THB.Setting.FactionList.Tooltip"]
+new = "Comma-separated faction ids (for example Folktails / IronTeeth)"
+status = "normal"
+
+["THB.Rule.NeverLocked"]
+new = "Never locked"
+status = "normal"
+
+["THB.Rule.PermanentLock"]
+new = "Permanent lock"
+status = "normal"
+
+["THB.Rule.SapThreshold"]
+new = "Sap threshold"
+status = "normal"
+
+["THB.Rule.SapRangeRandom"]
+new = "Sap range random (default)"
+status = "normal"
+
+["THB.Banner.NormalCut"]
+new = "Normal cut"
+status = "normal"
+
+["THB.Banner.WaitByproductReady"]
+new = "Wait for byproduct"
+status = "normal"
+
+["THB.Faction.All"]
+new = "All factions"
+status = "normal"
+
+["THB.Faction.Whitelist"]
+new = "Whitelist only"
+status = "normal"
+
+["THB.Faction.Blacklist"]
+new = "Blacklist"
+status = "normal"
+
+["THB.Panel.TreeTitle"]
+new = "Tree byproduct info"
+status = "normal"
+
+["THB.Panel.Tree.Tooltip"]
+new = "Detected from the tree template Gatherable yield"
+status = "normal"
+
+["THB.Panel.Sap.Tooltip"]
+new = "Current/max sap and tree maturity"
+status = "normal"
+
+["THB.Panel.Mode.Tooltip"]
+new = "Current global default banner rule; a flag can override it"
+status = "normal"
+
+["THB.Panel.Allowed.Tooltip"]
+new = "Whether AI lumberjacks may cut this tree under the current rule"
+status = "normal"
+
+["THB.Panel.FlagTitle"]
+new = "Cutting banner mode"
+status = "normal"
+
+["THB.Panel.FlagMode.Tooltip"]
+new = "NormalCut checks maturity only; WaitByproductReady also checks sap/fruit"
+status = "normal"
+
+["THB.Panel.FlagHint"]
+new = "Affects AI target selection for this banner only; manual cutting is unaffected"
+status = "normal"

@@ -2,8 +2,8 @@
 name = "Dam Science!"
 
 ["DamScience.Preset.Name"]
-status = "normal"
 raw = "Difficulty preset"
+status = "normal"
 enUS = "Difficulty Preset"
 zhCN = "难度预设"
 zhTW = "難度預設值"
@@ -19,8 +19,8 @@ viVN = "Thiết lập độ khó"
 trTR = "Zorluk ön ayarı"
 
 ["DamScience.Preset.Tooltip"]
-status = "normal"
 raw = "Mild: prices 75-150%, tree total 100%, 2 surprises, 25% tricks.\\nMad: prices 50-200%, total 110%, 3 surprises, 33% tricks.\\nMayhem: prices 25-400%, total 130%, 6 surprises, 50% tricks.\\nCustom: use the sliders in the Custom section.\\nApplies to new colonies."
+status = "normal"
 enUS = "Mild: prices 75-150%, tree total 100%, 2 surprises, 25% tricks.\\nMad: prices 50-200%, total 110%, 3 surprises, 33% tricks.\\nMayhem: prices 25-400%, total 130%, 6 surprises, 50% tricks.\\nCustom: use the sliders in the Custom section.\\nApplies to new colonies."
 zhCN = "轻度：价格 75-150%，树木总量 100%，2 个惊喜，25% 的诡计。\\\\n疯狂：价格 50-200%，总量 110%，3 个惊喜，33% 的诡计。\\\\n混乱：价格 25-400%，总量 130%，6 个惊喜，50% 的诡计。\\\\n自定义：使用“自定义”部分中的滑块。\\\\n对新殖民地生效。"
 zhTW = "溫和：價格 75-150%，樹木總量 100%，2 個驚喜，25% 詭計。\\\\n瘋狂：價格 50-200%，總量 110%，3 個驚喜，33% 詭計。\\\\n混亂：價格 25-400%，總量 130%，6 個驚喜，50% 詭計。\\\\n自訂：使用「自訂」區段中的滑桿。\\\\n適用於新殖民地。"
@@ -36,8 +36,8 @@ viVN = "Nhẹ: giá 75-150%, tổng số cây 100%, 2 điều bất ngờ, 25% t
 trTR = "Hafif: fiyatlar %75-150, toplam ağaç %100, 2 sürpriz, %25 numara.\\nÇılgın: fiyatlar %50-200, toplam %110, 3 sürpriz, %33 numara.\\nKargaşa: fiyatlar %25-400, toplam %130, 6 sürpriz, %50 numara.\\nÖzel: Özel bölümündeki kaydırıcıları kullanın.\\nYeni koloniler için geçerlidir."
 
 ["DamScience.Value.Mild"]
-status = "normal"
 raw = "Mild"
+status = "normal"
 enUS = "Mild"
 zhCN = "温和"
 zhTW = "輕微"
@@ -53,8 +53,8 @@ viVN = "Nhẹ】【：】【“】【"
 trTR = "Hafif"
 
 ["DamScience.Value.Mad"]
-status = "normal"
 raw = "Mad"
+status = "normal"
 enUS = "Mad"
 zhCN = "疯狂的"
 zhTW = "瘋狂"
@@ -70,8 +70,8 @@ viVN = "Điên rồ"
 trTR = "Çılgın"
 
 ["DamScience.Value.Mayhem"]
-status = "normal"
 raw = "Mayhem"
+status = "normal"
 enUS = "Mayhem"
 zhCN = "混乱"
 zhTW = "混亂"
@@ -87,8 +87,8 @@ viVN = "Hỗn loạn"
 trTR = "Kargaşa"
 
 ["DamScience.Value.Custom"]
-status = "normal"
 raw = "Custom"
+status = "normal"
 enUS = "Custom"
 zhCN = "自定义"
 zhTW = "自訂"
@@ -104,8 +104,8 @@ viVN = "Tùy chỉnh"
 trTR = "Özel"
 
 ["DamScience.Shuffle.Name"]
-status = "normal"
 raw = "Shuffle prices instead"
+status = "normal"
 enUS = "Shuffle prices instead"
 zhCN = "改为随机调整价格"
 zhTW = "改為隨機調整價格"
@@ -121,8 +121,8 @@ viVN = "Thay vào đó, xáo trộn giá cả"
 trTR = "Bunun yerine fiyatları karıştır"
 
 ["DamScience.Shuffle.Tooltip"]
-status = "normal"
 raw = "On: the game's own prices are dealt to different buildings (a cheap one may get an expensive price). The total stays at the game's normal total; the total settings do not apply.\\nOff: every price is rolled from a percent range.\\nApplies to new colonies."
+status = "normal"
 enUS = "On: The game's own prices are assigned to different buildings (a cheap one may get an expensive price). The total stays at the game's normal total; the total settings do not apply.\\nOff: Every price is rolled from a percent range.\\nApplies to new colonies."
 zhCN = "开启：游戏原本设定的价格会分配给不同建筑（原本便宜的建筑可能会被分配到昂贵的价格）。总价仍与游戏原本的总价一致；总价设置不适用。\\\\n关闭：每个价格都按百分比范围随机生成。\\\\n仅适用于新殖民地。"
 zhTW = "開啟：遊戲原有的價格會分配給不同建築（便宜的建築可能會分到昂貴的價格）。總價維持遊戲的正常總額；總額設定不適用。\\\\n關閉：每個價格都會從百分比範圍內隨機產生。\\\\n適用於新殖民地。"
@@ -138,8 +138,8 @@ viVN = "Bật: giá gốc của trò chơi được gán cho các công trình k
 trTR = "Açık: Oyunun kendi fiyatları farklı binalara dağıtılır (ucuz bir binaya pahalı bir fiyat verilebilir). Toplam, oyunun normal toplamı olarak kalır; toplam ayarları uygulanmaz.\\nKapalı: Her fiyat bir yüzde aralığından rastgele belirlenir.\\nYeni koloniler için geçerlidir."
 
 ["DamScience.Section.Tax"]
-status = "normal"
 raw = "Tax"
+status = "normal"
 enUS = "Tax"
 zhCN = "税收"
 zhTW = "稅收"
@@ -155,8 +155,8 @@ viVN = "Thuế"
 trTR = "Vergi"
 
 ["DamScience.Section.Custom"]
-status = "normal"
 raw = "Custom"
+status = "normal"
 enUS = "Custom"
 zhCN = "自定义"
 zhTW = "自訂"
@@ -172,8 +172,8 @@ viVN = "Tùy chỉnh"
 trTR = "Özel"
 
 ["DamScience.Welcome.Name"]
-status = "normal"
 raw = "Welcome pop-up"
+status = "normal"
 enUS = "Welcome popup"
 zhCN = "欢迎弹窗"
 zhTW = "歡迎快顯視窗"
@@ -189,8 +189,8 @@ viVN = "Cửa sổ bật lên chào mừng"
 trTR = "Hoş geldiniz penceresi"
 
 ["DamScience.Welcome.Tooltip"]
-status = "normal"
 raw = "Show Dr. Gnawstein's welcome pop-up once, when a colony first starts with this mod."
+status = "normal"
 enUS = "Show Dr. Gnawstein's welcome pop-up once, when a colony first starts with this mod."
 zhCN = "首次使用此模组启动殖民地时，仅显示一次诺博士的欢迎弹窗。"
 zhTW = "首次使用此模組啟動殖民地時，顯示一次諾博士的歡迎快顯視窗。"
@@ -206,8 +206,8 @@ viVN = "Hiển thị cửa sổ chào mừng của Dr. Gnawstein một lần, kh
 trTR = "Bu modla bir koloni ilk kez başladığında Dr. Gnawstein'ın hoş geldin açılır penceresini bir kez göster."
 
 ["DamScience.Button.Welcome"]
-status = "normal"
 raw = "Let's gnaw!"
+status = "normal"
 enUS = "Let's gnaw!"
 zhCN = "开啃吧！"
 zhTW = "開啃吧！"
@@ -223,8 +223,8 @@ viVN = "Cùng gặm nào!"
 trTR = "Hadi kemirelim!"
 
 ["DamScience.Welcome.Text"]
-status = "normal"
 raw = "Dr. Gnawstein's lab has been at the science controls. Every building's science price in this colony has been scrambled, and a few free buildings are now surprises. Trick or treat?"
+status = "normal"
 enUS = "Dr. Gnawstein's lab has been at the science controls. Every building's science price in this colony has been scrambled, and a few free buildings are now surprises. Trick or treat?"
 zhCN = "格纳斯坦博士的实验室动过了科技设置。这片殖民地中所有建筑的科技点数价格都被打乱了，还有几种原本免费的建筑现在会给你惊喜。不给糖就捣蛋？"
 zhTW = "Gnawstein 博士的實驗室動了科學點數的手腳。這個殖民地每棟建築所需的科學點數都被打亂了，還有幾棟原本免費的建築現在成了驚喜。要糖還是搗蛋？"
@@ -240,8 +240,8 @@ viVN = "Phòng thí nghiệm của Tiến sĩ Gnawstein đã động tay vào c�
 trTR = "Dr. Gnawstein’in laboratuvarı bilim kontrollerini ele geçirmiş. Bu kolonideki her binanın bilim maliyeti birbirine karıştırılmış ve birkaç bedava bina artık sürpriz. Şeker mi şaka mı?"
 
 ["DamScience.Total.Name"]
-status = "normal"
 raw = "Total science (%)"
+status = "normal"
 enUS = "Total science (%)"
 zhCN = "总科学值（%）"
 zhTW = "總科學點數（%）"
@@ -257,8 +257,8 @@ viVN = "Tổng khoa học (%)"
 trTR = "Toplam bilim (%)"
 
 ["DamScience.Total.Tooltip"]
-status = "normal"
 raw = "What the whole tech tree should cost in total, as a percent of its normal cost. Used when the preset is Custom.\\nApplies to new colonies."
+status = "normal"
 enUS = "What the entire tech tree should cost as a percentage of its normal cost. Used when the preset is Custom.\\nApplies to new colonies."
 zhCN = "整个科技树的总费用占正常费用的百分比。预设为“自定义”时使用。\\\\n适用于新殖民地。"
 zhTW = "整棵科技樹的總成本應為正常成本的百分比。僅於預設值為「自訂」時使用。\\n適用於新殖民地。"
@@ -274,8 +274,8 @@ viVN = "Tổng chi phí của toàn bộ cây công nghệ, tính theo phần tr
 trTR = "Özel ön ayarı kullanırken tüm teknoloji ağacının normal maliyetinin yüzde kaçı olması gerektiği.\\nYeni kolonilere uygulanır."
 
 ["DamScience.Min.Name"]
-status = "normal"
 raw = "Lowest price (% of normal)"
+status = "normal"
 enUS = "Lowest price (% of normal)"
 zhCN = "最低价格（正常价格的百分比）"
 zhTW = "最低價格（正常價格的百分比）"
@@ -291,8 +291,8 @@ viVN = "Giá thấp nhất (% giá thông thường)"
 trTR = "En düşük fiyat (normalin %'si)"
 
 ["DamScience.Min.Tooltip"]
-status = "normal"
 raw = "How cheap a building can get, as a percent of its normal science cost.\\nUsed when the preset is Custom. Applies to new colonies."
+status = "normal"
 enUS = "How inexpensive a building can get, as a percentage of its normal science cost.\\nUsed when the preset is Custom. Applies to new colonies."
 zhCN = "建筑的最低价格占其正常科技点成本的百分比。\\n预设为“自定义”时使用。仅适用于新殖民地。"
 zhTW = "建築的科技點數最多可降低到原價的百分之幾。\\\\n預設值為「自訂」時使用。適用於新殖民地。"
@@ -308,8 +308,8 @@ viVN = "Mức chi phí khoa học của một công trình có thể giảm tố
 trTR = "Bir bina, normal bilim maliyetinin yüzde kaçı kadar ucuza gelebilir.\\\\nYalnızca Hazır Ayar Özel olduğunda kullanılır. Yeni koloniler için geçerlidir."
 
 ["DamScience.Max.Name"]
-status = "normal"
 raw = "Highest price (% of normal)"
+status = "normal"
 enUS = "Highest price (% of normal)"
 zhCN = "最高价格（正常价格的百分比）"
 zhTW = "最高價格（正常價格的百分比）"
@@ -325,8 +325,8 @@ viVN = "Giá cao nhất (% giá thông thường)"
 trTR = "En yüksek fiyat (normal fiyatın %'si)"
 
 ["DamScience.Max.Tooltip"]
-status = "normal"
 raw = "How expensive a building can get, as a percent of its normal science cost.\\nUsed when the preset is Custom. Applies to new colonies."
+status = "normal"
 enUS = "How expensive a building can get, as a percent of its normal science cost.\\nUsed when the preset is Custom. Applies to new colonies."
 zhCN = "建筑的费用最高可达到其正常科研成本的百分之多少。\\n仅当预设为自定义时使用。仅适用于新殖民地。"
 zhTW = "建築物成本最高可提高到正常科學點數成本的百分之多少。\\\\n使用「自訂」預設值時套用。適用於新殖民地。"
@@ -342,8 +342,8 @@ viVN = "Mức chi phí tối đa của một công trình, tính theo phần tr�
 trTR = "Bir binanın normal bilim maliyetinin yüzdesi olarak, maliyetinin en fazla ne kadar artabileceği.\\nYalnızca Özel ayarı kullanıldığında geçerlidir. Yeni kolonilere uygulanır."
 
 ["DamScience.Keep.Name"]
-status = "normal"
 raw = "Keep total science the same (presets)"
+status = "normal"
 enUS = "Keep total science the same (presets)"
 zhCN = "保持总科学值不变（预设）"
 zhTW = "維持總科學值不變（預設值）"
@@ -359,8 +359,8 @@ viVN = "Giữ nguyên tổng điểm khoa học (cấu hình sẵn)"
 trTR = "Toplam bilimi aynı tut (ön ayarlar)"
 
 ["DamScience.Keep.Tooltip"]
-status = "normal"
 raw = "For the Mild, Mad and Mayhem presets. On: the whole tech tree costs a fair total (100% / 110% / 130% of normal).\\nOff: a harder total (115% / 135% / 170%). Custom ignores this and uses Total science (%) instead."
+status = "normal"
 enUS = "For the Mild, Mad, and Mayhem presets. On: the whole tech tree costs a fair total (100% / 110% / 130% of normal).\\nOff: a harder total (115% / 135% / 170%). Custom ignores this and uses Total science (%) instead."
 zhCN = "适用于温和、疯狂和混乱预设。开启：整个科技树的总花费适中（正常值的 100% / 110% / 130%）。\\\\n关闭：总花费更高（115% / 135% / 170%）。自定义模式不受此项影响，而是使用“总科学点数（%）”。"
 zhTW = "適用於「溫和」、「瘋狂」和「大亂鬥」預設。開啟：整個科技樹的總花費合理（正常值的 100% / 110% / 130%）。\\\\n關閉：總花費較高（115% / 135% / 170%）。自訂模式不受此設定影響，改用「總科研（%）」。"
@@ -376,8 +376,8 @@ viVN = "Dành cho các thiết lập trước Mild, Mad và Mayhem. Bật: toàn
 trTR = "Ilıman, Çılgın ve Kaos ön ayarları için. Açık: tüm teknoloji ağacının toplam maliyeti makul olur (normalin %100 / %110 / %130'u).\\\\nKapalı: toplam maliyet daha yüksek olur (%115 / %135 / %170). Özel, bunu yok sayar ve bunun yerine Toplam bilim (%) değerini kullanır."
 
 ["DamScience.Grants.Name"]
-status = "normal"
 raw = "Surprise buildings"
+status = "normal"
 enUS = "Surprise Buildings"
 zhCN = "惊喜建筑"
 zhTW = "驚喜建築"
@@ -393,8 +393,8 @@ viVN = "Các công trình bất ngờ"
 trTR = "Sürpriz binalar"
 
 ["DamScience.Grants.Tooltip"]
-status = "normal"
 raw = "How many normally-free buildings Dr. Gnawstein turns into a surprise.\\nEach one is locked at the start. Unlocking it gives you science, or sometimes takes some. 0 turns this off. Used when the preset is Custom."
+status = "normal"
 enUS = "How many normally free buildings Dr. Gnawstein turns into a surprise.\\nEach one is locked at the start. Unlocking it gives you science, or sometimes takes some. 0 turns this off. Used when the preset is Custom."
 zhCN = "Dr. Gnawstein 会把多少种通常免费的建筑变成惊喜。\\\\n每种建筑在游戏开始时都会被锁定。解锁后会获得科学点数，有时也会扣除一些。设为 0 可关闭此功能。仅在预设为“自定义”时使用。"
 zhTW = "Dr. Gnawstein 會把多少座原本免費的建築變成驚喜。\\\\n每座建築在開始時都會鎖定。解鎖後會獲得科學點數，有時也會扣除一些。設為 0 可停用此功能。預設值為「自訂」時使用。"
@@ -410,8 +410,8 @@ viVN = "Số lượng công trình vốn thường miễn phí mà Dr. Gnawstein
 trTR = "Dr. Gnawstein’ın normalde ücretsiz olan binalardan kaç tanesini sürprize dönüştüreceği.\\nHer bina başlangıçta kilitlidir. Kilidi açmak size bilim puanı kazandırır, bazen de bilim puanı alır. 0, bu özelliği kapatır. Ön ayar Özel olduğunda kullanılır."
 
 ["DamScience.Trick.Name"]
-status = "normal"
 raw = "Trick chance (%)"
+status = "normal"
 enUS = "Trick chance (%)"
 zhCN = "恶作剧概率 (%)"
 zhTW = "把戲機率 (%)"
@@ -427,8 +427,8 @@ viVN = "Tỷ lệ đánh lừa (%)"
 trTR = "Hile olasılığı (%)"
 
 ["DamScience.Trick.Tooltip"]
-status = "normal"
 raw = "Chance that a surprise building is a trick (it costs science) instead of a treat (it pays you). Used when the preset is Custom. Only some free buildings can be tricks, so you may get fewer tricks than this if you ask for many surprises."
+status = "normal"
 enUS = "Chance that a surprise building is a trick (it costs science) instead of a treat (it pays you). Used when the preset is Custom. Only some free buildings can be tricks, so you may get fewer tricks than this if you ask for many surprises."
 zhCN = "惊喜建筑是陷阱（会消耗科学点数）而非奖励（会给你带来收益）的概率。仅在预设为“自定义”时使用。只有部分免费建筑可能是陷阱，因此如果你要求很多惊喜建筑，陷阱数量可能会少于此概率所指的数量。"
 zhTW = "驚喜建築是惡作劇（會消耗科學點數）而非驚喜（會給你獎勵）的機率。僅在預設為「自訂」時使用。只有部分免費建築可能是惡作劇，因此如果你要求很多驚喜，惡作劇的數量可能會少於此機率所示。"
@@ -444,8 +444,8 @@ viVN = "Khả năng một công trình bất ngờ là trò lừa (tốn điểm
 trTR = "Sürpriz bir binanın ikram (size kazanç sağlar) yerine bir tuzak (bilim puanı harcatır) olma olasılığı. Özel hazır ayar kullanıldığında geçerlidir. Yalnızca bazı ücretsiz binalar tuzak olabilir; bu yüzden çok sayıda sürpriz isterseniz bundan daha az tuzak çıkabilir."
 
 ["DamScience.Button.Treat"]
-status = "normal"
 raw = "Thanks, Doc!"
+status = "normal"
 enUS = "Thanks, Doc!"
 zhCN = "谢了，医生！"
 zhTW = "謝啦，醫生！"
@@ -461,8 +461,8 @@ viVN = "Cảm ơn bác sĩ!"
 trTR = "Teşekkürler, Doktor!"
 
 ["DamScience.Button.Trick"]
-status = "normal"
 raw = "Booo!"
+status = "normal"
 enUS = "Booo!"
 zhCN = "哇啊！"
 zhTW = "噓！"
@@ -478,8 +478,8 @@ viVN = "Hù!"
 trTR = "Böö!"
 
 ["DamScience.Treat.1"]
-status = "normal"
 raw = "The beavers gnawed through a wall and found {0} science points stuffed inside. Don't ask who put them there."
+status = "normal"
 enUS = "The beavers gnawed through a wall and found {0} science points stuffed inside. Don't ask who put them there."
 zhCN = "海狸们啃穿了一堵墙，发现里面塞着 {0} 点科学点数。别问是谁放在那儿的。"
 zhTW = "海狸啃穿了一面牆，發現裡頭塞著 {0} 點科學點數。別問是誰把它們放在那裡的。"
@@ -495,8 +495,8 @@ viVN = "Những chú hải ly gặm thủng một bức tường và tìm thấy
 trTR = "Kunduzlar bir duvarı kemirerek deldi ve içinde tıkıştırılmış {0} bilim puanı buldu. Oraya kimin koyduğunu sormayın."
 
 ["DamScience.Treat.2"]
-status = "normal"
 raw = "Eureka! It's alive! And so is your science budget: +{0} points!"
+status = "normal"
 enUS = "Eureka! It's alive! And so is your science budget: +{0} points!"
 zhCN = "尤里卡！它活过来了！你的科研经费也活过来了：+{0} 点！"
 zhTW = "成功了！它活過來了！你的科學預算也活過來了：+{0} 點！"
@@ -512,8 +512,8 @@ viVN = "Eureka! Nó sống rồi! Ngân sách khoa học của bạn cũng tăng
 trTR = "Eureka! Canlandı! Bilim bütçen de öyle: +{0} puan!"
 
 ["DamScience.Treat.3"]
-status = "normal"
 raw = "Dr. Gnawstein lost a bet with himself and paid up. +{0} science!"
+status = "normal"
 enUS = "Dr. Gnawstein lost a bet with himself and paid up. +{0} science!"
 zhCN = "格诺斯坦博士和自己打赌输了，愿赌服输。科学值 +{0}！"
 zhTW = "諾斯坦博士和自己打賭輸了，願賭服輸。+{0} 科學點數！"
@@ -529,8 +529,8 @@ viVN = "Dr. Gnawstein thua cược với chính mình và đã trả cược. +{
 trTR = "Dr. Gnawstein kendi kendine girdiği bahsi kaybetti ve borcunu ödedi. +{0} bilim!"
 
 ["DamScience.Treat.4"]
-status = "normal"
 raw = "Someone cleared out the lab fridge and found {0} science points in the back. Mold-free, mostly."
+status = "normal"
 enUS = "Someone cleared out the lab fridge and found {0} science points in the back. Mostly mold-free."
 zhCN = "有人清理实验室冰箱时，在里面发现了{0}点科学点数。大部分没发霉。"
 zhTW = "有人清空了實驗室冰箱，在裡頭找到 {0} 點科學點數。大多沒發霉。"
@@ -546,8 +546,8 @@ viVN = "Có người dọn sạch tủ lạnh phòng thí nghiệm và tìm th�
 trTR = "Biri laboratuvarın buzdolabını boşaltmış ve arka tarafta {0} bilim puanı bulmuş. Küfsüz sayılır."
 
 ["DamScience.Treat.5"]
-status = "normal"
 raw = "Dr. Gnawstein found the missing lab notes under a sandwich. +{0} science!"
+status = "normal"
 enUS = "Dr. Gnawstein found the missing lab notes under a sandwich. +{0} science!"
 zhCN = "格纳斯坦博士在三明治下面找到了丢失的实验室笔记。+{0} 科学值！"
 zhTW = "Gnawstein 博士在一份三明治底下找到了遺失的實驗室筆記。+{0} 科學！"
@@ -563,8 +563,8 @@ viVN = "Tiến sĩ Gnawstein tìm thấy ghi chú phòng thí nghiệm bị th�
 trTR = "Dr. Gnawstein kayıp laboratuvar notlarını bir sandviçin altında buldu. +{0} bilim!"
 
 ["DamScience.Treat.6"]
-status = "normal"
 raw = "The experiment failed successfully. +{0} science, and the lab is only slightly smoky."
+status = "normal"
 enUS = "The experiment failed successfully. +{0} science, and the lab is only slightly smoky."
 zhCN = "实验成功地失败了。+{0} 科学点，而且实验室只是稍微冒了点烟。"
 zhTW = "實驗成功地失敗了。獲得 +{0} 科學點數，實驗室也只是冒了點煙。"
@@ -580,8 +580,8 @@ viVN = "Thí nghiệm thất bại một cách thành công. +{0} khoa học, v�
 trTR = "Deney başarıyla başarısız oldu. +{0} bilim ve laboratuvar sadece biraz dumanlı."
 
 ["DamScience.Treat.7"]
-status = "normal"
 raw = "The beavers had a bake sale for research. The cookies were awful, but they raised +{0} science!"
+status = "normal"
 enUS = "The beavers held a bake sale for research. The cookies were awful, but they raised +{0} science!"
 zhCN = "海狸们为研究办了场义卖烘焙活动。饼干难吃极了，但他们筹集到了 +{0} 科学点数！"
 zhTW = "海狸們為了研究舉辦了烘焙義賣。餅乾難吃極了，但他們募集到了 +{0} 科學點數！"
@@ -597,8 +597,8 @@ viVN = "Hải ly tổ chức bán bánh gây quỹ nghiên cứu. Bánh quy dở
 trTR = "Kunduzlar araştırma için bir kermes düzenledi. Kurabiyeler berbattı ama +{0} bilim puanı kazandırdılar!"
 
 ["DamScience.Treat.8"]
-status = "normal"
 raw = "The lab's new motto is \"Close enough!\" and it paid off. +{0} science."
+status = "normal"
 enUS = "The lab's new motto is \"Close enough!\" and it paid off. +{0} science."
 zhCN = "实验室的新座右铭是“差不多就行！”，而且还真奏效了。+{0} 科学。"
 zhTW = "實驗室的新座右銘是「差不多就好！」而且還真奏效了。+{0} 科學點數。"
@@ -614,8 +614,8 @@ viVN = "Phương châm mới của phòng thí nghiệm là \"Gần đúng là �
 trTR = "Laboratuvarın yeni sloganı \"Yeterince yakın!\" ve işe yaradı. +{0} bilim."
 
 ["DamScience.Treat.9"]
-status = "normal"
 raw = "The beavers solved the puzzle on the back of a cereal box and won +{0} science!"
+status = "normal"
 enUS = "The beavers solved the puzzle on the back of a cereal box and won +{0} science!"
 zhCN = "海狸们解开了麦片盒背面的谜题，获得了 +{0} 科学值！"
 zhTW = "海狸們解開了麥片盒背面的謎題，獲得了 +{0} 科學點數！"
@@ -631,8 +631,8 @@ viVN = "Các chú hải ly đã giải được câu đố ở mặt sau hộp n
 trTR = "Kunduzlar mısır gevreği kutusunun arkasındaki bulmacayı çözüp +{0} bilim kazandı!"
 
 ["DamScience.Trick.1"]
-status = "normal"
 raw = "Dr. Gnawstein \"borrowed\" {0} science for an experiment. It exploded. You're welcome."
+status = "normal"
 enUS = "Dr. Gnawstein “borrowed” {0} science for an experiment. It exploded. You’re welcome."
 zhCN = "Gnawstein博士“借走”了{0}点科学值做实验。结果爆炸了。不用谢。"
 zhTW = "格諾斯坦博士「借走」了 {0} 科學點數來做實驗。結果爆炸了。不用謝。"
@@ -648,8 +648,8 @@ viVN = "Tiến sĩ Gnawstein đã “mượn” {0} khoa học để làm thí n
 trTR = "Dr. Gnawstein bir deney için {0} bilimi “ödünç aldı”. Deney patladı. Rica ederiz."
 
 ["DamScience.Trick.2"]
-status = "normal"
 raw = "A surprise invoice arrived from the Department of Dam Science: -{0} points. Booo!"
+status = "normal"
 enUS = "A surprise invoice arrived from the Department of Dam Science: -{0} points. Booo!"
 zhCN = "水坝科学部寄来一张意外账单：-{0} 点。呸！"
 zhTW = "水壩科學部門寄來一張突如其來的帳單：-{0} 點。嗚——！"
@@ -665,8 +665,8 @@ viVN = "Một hóa đơn bất ngờ được gửi đến từ Sở Khoa học 
 trTR = "Baraj Bilimi Dairesi'nden sürpriz bir fatura geldi: -{0} puan. Yuh!"
 
 ["DamScience.Trick.3"]
-status = "normal"
 raw = "Dr. Gnawstein pressed the big red button. You owe {0} science for the repairs."
+status = "normal"
 enUS = "Dr. Gnawstein pressed the big red button. You owe {0} science for the repairs."
 zhCN = "格诺斯坦博士按下了那个大红按钮。修理费你得支付 {0} 点科学值。"
 zhTW = "格瑙斯坦博士按下了那顆大紅按鈕。維修費你欠我們 {0} 科學點數。"
@@ -682,8 +682,8 @@ viVN = "Tiến sĩ Gnawstein đã nhấn nút đỏ lớn. Bạn nợ {0} điể
 trTR = "Dr. Gnawstein büyük kırmızı düğmeye bastı. Onarımlar için {0} bilim borçlusun."
 
 ["DamScience.Trick.4"]
-status = "normal"
 raw = "Surprise! The research grant was a loan. Repayment: {0} science."
+status = "normal"
 enUS = "Surprise! The research grant was a loan. Repayment: {0} science."
 zhCN = "惊喜！研究经费原来是笔贷款。还款：{0} 点科学。"
 zhTW = "驚喜！研究補助金其實是筆貸款。還款金額：{0} 科研點數。"
@@ -699,8 +699,8 @@ viVN = "Bất ngờ chưa! Khoản tài trợ nghiên cứu hóa ra là một kh
 trTR = "Sürpriz! Araştırma hibesi aslında bir borçtu. Geri ödeme: {0} bilim puanı."
 
 ["DamScience.Trick.5"]
-status = "normal"
 raw = "The beavers formed a union and demanded {0} science in snacks. Negotiations are over."
+status = "normal"
 enUS = "The beavers formed a union and demanded {0} science in snacks. Negotiations are over."
 zhCN = "海狸们成立了工会，要求以零食支付 {0} 点科学值。谈判结束了。"
 zhTW = "海狸們組成工會，要求以零食支付 {0} 科學點數。談判結束了。"
@@ -716,8 +716,8 @@ viVN = "Các hải ly đã lập công đoàn và đòi {0} khoa học đổi l�
 trTR = "Kunduzlar sendika kurdu ve atıştırmalık olarak {0} bilim puanı talep etti. Müzakereler sona erdi."
 
 ["DamScience.Trick.6"]
-status = "normal"
 raw = "Dr. Gnawstein put \"TBD\" in the budget. The budget is now {0} science lighter."
+status = "normal"
 enUS = "Dr. Gnawstein put \"TBD\" in the budget. The budget is now {0} science lighter."
 zhCN = "格诺斯坦博士在预算里写了“待定”。现在预算少了 {0} 科学。"
 zhTW = "諾博士在預算裡寫了「待定」。現在預算少了 {0} 點科學點數。"
@@ -733,8 +733,8 @@ viVN = "Tiến sĩ Gnawstein đã ghi “TBD” vào ngân sách. Giờ ngân s�
 trTR = "Dr. Gnawstein bütçeye “Daha sonra belirlenecek” yazdı. Bütçe artık {0} bilim puanı daha hafif."
 
 ["DamScience.Trick.7"]
-status = "normal"
 raw = "The project is on time, on budget, and on fire. Charged {0} science for the fire."
+status = "normal"
 enUS = "The project is on time, on budget, and on fire. Charged {0} science for the fire."
 zhCN = "项目按时、在预算内，而且还着火了。为这场火收取了 {0} 科学点数。"
 zhTW = "專案準時、沒有超支，還起火了。因為這場火收取了 {0} 科學點數。"
@@ -750,8 +750,8 @@ viVN = "Dự án đang đúng tiến độ, đúng ngân sách và bốc cháy. 
 trTR = "Proje zamanında, bütçeyi aşmadan ve alevler içinde. Yangın için {0} bilim puanı harcandı."
 
 ["DamScience.Trick.8"]
-status = "normal"
 raw = "Dr. Gnawstein asked \"what does this button do?\" The lab no longer has a ceiling. -{0} science."
+status = "normal"
 enUS = "Dr. Gnawstein asked \"what does this button do?\" The lab no longer has a ceiling. -{0} science."
 zhCN = "格诺斯坦博士问道：“这个按钮是干什么的？”实验室的天花板不见了。-{0} 科学点。"
 zhTW = "Gnawstein 博士問道：「這個按鈕是做什麼用的？」實驗室的天花板已經不見了。-{0} 科學點數。"
@@ -767,8 +767,8 @@ viVN = "Tiến sĩ Gnawstein hỏi \"nút này dùng để làm gì?\" Phòng th
 trTR = "Dr. Gnawstein “Bu düğme ne işe yarıyor?” diye sordu. Laboratuvarın artık tavanı yok. -{0} bilim."
 
 ["DamScience.Trick.9"]
-status = "normal"
 raw = "The reality of the situation has cost you {0} science. Please accept this complimentary shrug."
+status = "normal"
 enUS = "The reality of the situation has cost you {0} science. Please accept this complimentary shrug."
 zhCN = "认清现实让你损失了 {0} 点科学。请收下这份免费的耸肩。"
 zhTW = "現實情況讓你損失了 {0} 科學點數。請收下這個免費的聳肩吧。"
@@ -784,8 +784,8 @@ viVN = "Thực tế phũ phàng của tình hình đã khiến bạn mất {0} �
 trTR = "Durumun gerçekleri sana {0} bilim puanına mal oldu. Lütfen bu bedava omuz silkmeyi kabul et."
 
 ["DamScience.Inv.Name"]
-status = "normal"
 raw = "Inventor takes your science"
+status = "normal"
 enUS = "Inventor takes your science"
 zhCN = "发明家会拿走你的科学点数"
 zhTW = "發明家會拿走你的科學點數"
@@ -801,8 +801,8 @@ viVN = "Nhà phát minh lấy điểm khoa học của bạn"
 trTR = "Mucit biliminizi alır"
 
 ["DamScience.Inv.Tooltip"]
-status = "normal"
 raw = "On: the Inventor stays locked and its price is almost all the science you have when you unlock it (nothing if you have none). Pay more, get taxed less often.\\nOff: the Inventor is free and tax days are off.\\nApplies to new colonies. A colony that already has the Inventor is never taxed."
+status = "normal"
 enUS = "On: The Inventor stays locked, and its price is almost all the science you have when you unlock it (nothing if you have none). Pay more, get taxed less often.\\nOff: The Inventor is free, and tax days are off.\\nApplies to new colonies. A colony that already has the Inventor is never taxed."
 zhCN = "开启：发明家仍处于锁定状态，解锁时的价格几乎会耗尽你所有的科学点数（如果没有科学点数，则免费）。支付越多，征税频率越低。\\\\n关闭：发明家免费，且不会征税。\\\\n仅适用于新殖民地。已经拥有发明家的殖民地永远不会被征税。"
 zhTW = "開啟：發明家會保持鎖定，解鎖時的價格幾乎會耗盡你所有的科學點數（若沒有科學點數則不花費）。付得越多，課稅頻率越低。\\n關閉：發明家免費，且不會有課稅日。\\n僅適用於新殖民地。已經擁有發明家的殖民地永遠不會被課稅。"
@@ -818,8 +818,8 @@ viVN = "Bật: Nhà phát minh vẫn bị khóa và giá của nó gần như b�
 trTR = "Açık: Mucit kilitli kalır ve fiyatı, kilidini açtığınızda sahip olduğunuz bilimin neredeyse tamamıdır (hiç biliminiz yoksa ücretsizdir). Daha fazla ödeyin, daha seyrek vergi ödeyin.\\\\nKapalı: Mucit ücretsizdir ve vergi günleri yoktur.\\\\nYeni koloniler için geçerlidir. Mucit'e zaten sahip olan bir koloniden asla vergi alınmaz."
 
 ["DamScience.TaxMode.Name"]
-status = "normal"
 raw = "Tax days"
+status = "normal"
 enUS = "Tax days"
 zhCN = "纳税日"
 zhTW = "徵稅日"
@@ -835,8 +835,8 @@ viVN = "Ngày thu thuế"
 trTR = "Vergi günleri"
 
 ["DamScience.TaxMode.Tooltip"]
-status = "normal"
 raw = "Off: no tax days.\\nMatch difficulty: the tax follows the difficulty preset above.\\nMild / Mad / Mayhem: pick a tax style of your own.\\nCustom: use the numbers below.\\nOnce your science reaches a set amount, the tax man comes every few cycles and takes a random percent of the science you hold. Pay more for the Inventor and he comes less often.\\nApplies to new colonies."
+status = "normal"
 enUS = "Off: no tax days.\\nMatch difficulty: the tax follows the difficulty preset above.\\nMild / Mad / Mayhem: pick a tax style of your own.\\nCustom: use the numbers below.\\nOnce your science reaches a set amount, the tax man comes every few cycles and takes a random percent of the science you hold. Pay more for the Inventor and he comes less often.\\nApplies to new colonies."
 zhCN = "关闭：不收税。\\n匹配难度：税收遵循上方的难度预设。\\n温和 / 疯狂 / 大混乱：自行选择税收风格。\\n自定义：使用下方的数值。\\n达到指定科学点数后，税吏每隔几轮就会来一次，随机收走你持有的部分科学点数。多付钱给发明家，税吏就会少来一些。\\n仅适用于新殖民地。"
 zhTW = "關閉：不會有徵稅日。\\n符合難度：稅收依照上方的難度預設。\\n溫和／瘋狂／大亂鬥：自行選擇稅收風格。\\n自訂：使用下方的數值。\\n你的科學值達到指定數量後，稅吏每隔幾個週期就會來一次，隨機收取你持有的部分科學值。多付些錢給發明家，他就會減少來訪次數。\\n只適用於新殖民地。"
@@ -852,8 +852,8 @@ viVN = "Tắt: không có ngày thu thuế.\\nĐộ khó trùng khớp: thuế t
 trTR = "Kapalı: Vergi günü yok.\\\\nZorlukla eşleştir: Vergi, yukarıdaki zorluk ön ayarını izler.\\\\nIlımlı / Çılgın / Kaos: Kendi vergi tarzını seç.\\\\nÖzel: Aşağıdaki sayıları kullan.\\\\nBilimin belirli bir miktara ulaştığında, vergi memuru birkaç döngüde bir gelir ve elindeki bilimin rastgele bir yüzdesini alır. Mucit için daha fazla öde, böylece daha seyrek gelir.\\\\nYeni koloniler için geçerlidir."
 
 ["DamScience.TaxMode.Off"]
-status = "normal"
 raw = "Off"
+status = "normal"
 enUS = "Off"
 zhCN = "关闭"
 zhTW = "關閉"
@@ -869,8 +869,8 @@ viVN = "Tắt"
 trTR = "Kapalı"
 
 ["DamScience.TaxMode.Match"]
-status = "normal"
 raw = "Match difficulty"
+status = "normal"
 enUS = "Match difficulty"
 zhCN = "匹配难度"
 zhTW = "符合難度"
@@ -886,8 +886,8 @@ viVN = "Độ khó của trận đấu"
 trTR = "Zorluk seviyesini eşleştir"
 
 ["DamScience.Doctor.Name"]
-status = "normal"
 raw = "Dr. Gnawstein in the Inventor"
+status = "normal"
 enUS = "Dr. Gnawstein the Inventor"
 zhCN = "发明家里的诺博士"
 zhTW = "發明家咬博士"
@@ -903,8 +903,8 @@ viVN = "Tiến sĩ Gnawstein trong Inventor"
 trTR = "Mucit Dr. Gnawstein"
 
 ["DamScience.Doctor.Tooltip"]
-status = "normal"
 raw = "Shows Dr. Gnawstein's name and picture on one beaver of each Inventor hut (the first one assigned) in the building panel. Display only: no beaver is renamed."
+status = "normal"
 enUS = "Shows Dr. Gnawstein's name and picture on one beaver from each Inventor hut (the first one assigned) in the building panel. Display only: no beaver is renamed."
 zhCN = "在建筑面板中显示每座发明家小屋中一只海狸（最先分配的那只）的名字和头像，名称为诺博士。仅供显示：不会重命名任何海狸。"
 zhTW = "在建築面板中，於每座發明家小屋的一隻海狸（第一位指派的海狸）旁顯示 Gnawstein 博士的名字和圖片。僅供顯示：不會替任何海狸改名。"
@@ -920,8 +920,8 @@ viVN = "Hiển thị tên và ảnh của Tiến sĩ Gnawstein trên một hải
 trTR = "Her Mucit kulübesindeki bir kunduzun (atarlanan ilk kunduzun) adı ve resmi bina panelinde Dr. Gnawstein olarak gösterilir. Yalnızca görüntülenir: hiçbir kunduzun adı değiştirilmez."
 
 ["DamScience.Doctor.Label"]
-status = "normal"
 raw = "Dr. Gnawstein"
+status = "normal"
 enUS = "Dr. Gnawstein"
 zhCN = "格诺斯坦博士"
 zhTW = "格瑙斯坦博士"
@@ -937,8 +937,8 @@ viVN = "Tiến sĩ Gnawstein"
 trTR = "Dr. Gnawstein"
 
 ["DamScience.TaxWarn.Name"]
-status = "normal"
 raw = "Tax warning"
+status = "normal"
 enUS = "Tax warning"
 zhCN = "税务警告"
 zhTW = "稅務警告"
@@ -954,8 +954,8 @@ viVN = "Cảnh báo về thuế"
 trTR = "Vergi uyarısı"
 
 ["DamScience.TaxWarn.Tooltip"]
-status = "normal"
 raw = "Show a sneaky one-line warning in the bottom left the day before the tax man comes."
+status = "normal"
 enUS = "Show a sneaky one-line warning in the bottom-left corner the day before the tax collector comes."
 zhCN = "在税吏到来的前一天，在左下角显示一条不引人注意的单行警告。"
 zhTW = "在稅務官來訪前一天，在左下角顯示一則隱晦的單行警告。"
@@ -971,8 +971,8 @@ viVN = "Hiển thị một cảnh báo ngắn lén lút ở góc dưới bên tr
 trTR = "Vergi memuru gelmeden bir gün önce sol altta gizemli, tek satırlık bir uyarı göster."
 
 ["DamScience.TaxThr.Name"]
-status = "normal"
 raw = "Tax starts at (science)"
+status = "normal"
 enUS = "Tax starts at (science)"
 zhCN = "税收起始于（科学）"
 zhTW = "稅款從（科學值）開始"
@@ -988,8 +988,8 @@ viVN = "Thuế bắt đầu ở (khoa học)"
 trTR = "Vergi şu seviyeden başlar (bilim)"
 
 ["DamScience.TaxThr.Tooltip"]
-status = "normal"
 raw = "Used when Tax days is Custom, or Match difficulty with the Custom preset. Taxes start once your science first reaches this amount."
+status = "normal"
 enUS = "Used when Tax days is set to Custom, or when Match difficulty uses the Custom preset. Taxes start once your science first reaches this amount."
 zhCN = "当纳税日设置为“自定义”，或在“难度匹配”中使用“自定义”预设时使用。科学值首次达到此数值时开始征税。"
 zhTW = "當稅收日設為「自訂」或難度設為「自訂」預設值時使用。科學點數首次達到此數量時開始徵稅。"
@@ -1005,8 +1005,8 @@ viVN = "Được dùng khi Ngày thu thuế là Tùy chỉnh hoặc khi Độ kh
 trTR = "Vergi günleri Özel olarak ayarlandığında veya Zorlukla eşleştir seçeneğinde Özel ön ayarı kullanıldığında geçerlidir. Bilim puanınız ilk kez bu miktara ulaştığında vergiler başlar."
 
 ["DamScience.TaxMin.Name"]
-status = "normal"
 raw = "Lowest tax (%)"
+status = "normal"
 enUS = "Lowest tax (%)"
 zhCN = "最低税率 (%)"
 zhTW = "最低稅率 (%)"
@@ -1022,8 +1022,8 @@ viVN = "Thuế thấp nhất (%)"
 trTR = "En düşük vergi (%)"
 
 ["DamScience.TaxMin.Tooltip"]
-status = "normal"
 raw = "Used when Tax days is Custom, or Match difficulty with the Custom preset. The smallest share of your science a tax day can take."
+status = "normal"
 enUS = "Used when Tax days is set to Custom, or when Match difficulty uses the Custom preset. The smallest share of your science that a tax day can take."
 zhCN = "当“纳税日”设为“自定义”，或将难度与“自定义”预设匹配时使用。纳税日可征收的科学点数的最低份额。"
 zhTW = "當「課稅天數」設為「自訂」，或難度設為「符合預設值」時使用。課稅日可徵收的科學點數最低比例。"
@@ -1039,8 +1039,8 @@ viVN = "Được dùng khi Ngày thu thuế được đặt thành Tùy chỉnh 
 trTR = "Vergi günleri Özel olarak ayarlandığında veya zorluk Özel ayarıyla Eşleştirildiğinde kullanılır. Vergi gününün bilim puanlarınızdan alabileceği en küçük pay."
 
 ["DamScience.TaxMax.Name"]
-status = "normal"
 raw = "Highest tax (%)"
+status = "normal"
 enUS = "Highest tax (%)"
 zhCN = "最高税率（%）"
 zhTW = "最高稅率 (%)"
@@ -1056,8 +1056,8 @@ viVN = "Mức thuế cao nhất (%)"
 trTR = "En yüksek vergi (%)"
 
 ["DamScience.TaxMax.Tooltip"]
-status = "normal"
 raw = "Used when Tax days is Custom, or Match difficulty with the Custom preset. The largest share of your science a tax day can take (never more than 25)."
+status = "normal"
 enUS = "Used when Tax days is set to Custom, or when Match difficulty uses the Custom preset. The largest share of your science that a tax day can take (never more than 25)."
 zhCN = "当税收日设为“自定义”，或难度匹配使用“自定义”预设时启用。税收日最多可征收的科学点数（上限为 25）。"
 zhTW = "當「徵稅日」設為「自訂」，或在「符合難度」中選擇「自訂」預設值時使用。徵稅日最多可徵收的科學點數比例（絕不超過 25）。"
@@ -1073,8 +1073,8 @@ viVN = "Được dùng khi Ngày thu thuế được đặt thành Tùy chỉnh 
 trTR = "Vergi günleri Özel olarak ayarlandığında veya zorluk Özel hazır ayarıyla eşleştirildiğinde kullanılır. Bir vergi gününün alabileceği bilim puanınızın en büyük payı (asla 25'ten fazla olmaz)."
 
 ["DamScience.TaxFree.Name"]
-status = "normal"
 raw = "Tax every (cycles), free Inventor"
+status = "normal"
 enUS = "Tax every (cycles), Free Inventor"
 zhCN = "每隔（周期）收税，免费发明家"
 zhTW = "每隔（週期）徵稅，發明家免費"
@@ -1090,8 +1090,8 @@ viVN = "Đánh thuế mỗi (chu kỳ), Nhà phát minh miễn phí"
 trTR = "Her (döngüde) vergilendir, Mucidi bedava edin"
 
 ["DamScience.TaxFree.Tooltip"]
-status = "normal"
 raw = "Used when Tax days is Custom, or Match difficulty with the Custom preset. How many cycles between tax days if you paid nothing for the Inventor."
+status = "normal"
 enUS = "Used when Tax days is set to Custom, or when Match difficulty uses the Custom preset. How many cycles between tax days if you paid nothing for the Inventor."
 zhCN = "当纳税周期设为“自定义”或难度设为“匹配难度”并使用自定义预设时，如果你没有为发明家缴税，两次纳税日之间间隔多少个周期。"
 zhTW = "當稅收日設為「自訂」或難度設為「符合自訂預設」時使用。若你沒有支付任何發明家的費用，稅收日之間會間隔幾個週期。"
@@ -1107,8 +1107,8 @@ viVN = "Dùng khi Ngày thu thuế được đặt thành Tùy chỉnh hoặc Đ
 trTR = "Yalnızca Vergi günleri Özel olarak ayarlandığında veya Zorluk Eşleştir, Özel ön ayarıyla kullanıldığında geçerlidir. Mucit için hiç ödeme yapmadıysanız vergi günleri arasında kaç döngü olur?"
 
 ["DamScience.TaxPaid.Name"]
-status = "normal"
 raw = "Tax every (cycles), paid 150+"
+status = "normal"
 enUS = "Tax every (cycles), paid 150+"
 zhCN = "每隔（周期）征税，支付 150+"
 zhTW = "每隔（週期）徵稅，繳納 150+"
@@ -1124,8 +1124,8 @@ viVN = "Thu thuế mỗi (chu kỳ), nộp 150+"
 trTR = "Her (döngüde) alınan vergi, 150+ paid"
 
 ["DamScience.TaxPaid.Tooltip"]
-status = "normal"
 raw = "Used when Tax days is Custom, or Match difficulty with the Custom preset. How many cycles between tax days if you paid 150 or more for the Inventor. Paying less lands in between."
+status = "normal"
 enUS = "Used when Tax days is set to Custom, or when Match difficulty is set to the Custom preset. How many cycles between tax days if you paid 150 or more for the Inventor. Paying less falls somewhere in between."
 zhCN = "当税收日设置为“自定义”或将难度与“自定义”预设匹配时使用。如果为发明家支付了150或更多，每隔多少个周期征收一次税。支付较少则会落在两者之间。"
 zhTW = "「納稅日」設為「自訂」，或難度設為「符合難度」（含「自訂」預設）時使用。若你曾為發明家支付 150 或以上，兩個納稅日之間會間隔幾個週期。支付較少時，間隔會落在兩者之間。"
@@ -1141,8 +1141,8 @@ viVN = "Dùng khi Ngày thu thuế được đặt thành Tùy chỉnh hoặc kh
 trTR = "Vergi günleri Özel olarak ayarlandığında veya Zorluk eşleştirme seçeneği Özel ön ayarıyla kullanıldığında geçerlidir. Mucit için 150 veya daha fazla ödediyseniz, vergi günleri arasında kaç döngü olur? Daha az ödemek arada bir sonuca yol açar."
 
 ["DamScience.Button.Tax"]
-status = "normal"
 raw = "Ouch!"
+status = "normal"
 enUS = "Ouch!"
 zhCN = "哎哟！"
 zhTW = "哎呀！"
@@ -1158,8 +1158,8 @@ viVN = "Ái!"
 trTR = "Ah!"
 
 ["DamScience.Button.Inventor"]
-status = "normal"
 raw = "Okay, okay."
+status = "normal"
 enUS = "Okay, okay."
 zhCN = "好吧，好吧。"
 zhTW = "好啦，好啦。"
@@ -1175,8 +1175,8 @@ viVN = "Được rồi, được rồi."
 trTR = "Peki, peki."
 
 ["DamScience.Warn.1"]
-status = "normal"
 raw = "Today's mood: counting."
+status = "normal"
 enUS = "Today's mood: counting."
 zhCN = "今日心情：数数。"
 zhTW = "今日心情：數數。"
@@ -1192,8 +1192,8 @@ viVN = "Tâm trạng hôm nay: đếm."
 trTR = "Bugünkü ruh hâli: saymak."
 
 ["DamScience.Warn.2"]
-status = "normal"
 raw = "Fortune cookie says: \"Spend before the doorbell rings.\""
+status = "normal"
 enUS = "Fortune cookie says: \"Spend before the doorbell rings.\""
 zhCN = "幸运饼干上写着：“门铃响之前把钱花掉。”"
 zhTW = "幸運餅乾上寫著：「在門鈴響起前花掉。」"
@@ -1209,8 +1209,8 @@ viVN = "Bánh quy may mắn ghi: \"Hãy tiêu trước khi chuông cửa reo.\""
 trTR = "Fal kurabiyesi diyor ki: \"Kapı zili çalmadan harca.\""
 
 ["DamScience.Warn.3"]
-status = "normal"
 raw = "A wise beaver once said: \"Never trust a man with a pen.\""
+status = "normal"
 enUS = "A wise beaver once said: \"Never trust a man with a pen.\""
 zhCN = "一位睿智的海狸曾说过：“永远不要相信拿着笔的人。”"
 zhTW = "一位睿智的海狸曾說過：「永遠別相信拿著筆的人。」"
@@ -1226,8 +1226,8 @@ viVN = "Một chú hải ly khôn ngoan từng nói: \"Đừng bao giờ tin m�
 trTR = "Bilge bir kunduz bir keresinde şöyle demiş: \"Elinde kalem olan bir adama asla güvenme.\""
 
 ["DamScience.Warn.4"]
-status = "normal"
 raw = "Weather report: 90% chance of invoices."
+status = "normal"
 enUS = "Weather report: 90% chance of invoices."
 zhCN = "天气预报：90% 的概率会收到发票。"
 zhTW = "天氣預報：有 90% 的機率會收到帳單。"
@@ -1243,8 +1243,8 @@ viVN = "Dự báo thời tiết: 90% khả năng có hóa đơn."
 trTR = "Hava durumu raporu: Fatura yağma olasılığı %90."
 
 ["DamScience.Warn.5"]
-status = "normal"
 raw = "Dr. Gnawstein put a \"Closed for Science\" sign on the door."
+status = "normal"
 enUS = "Dr. Gnawstein put a \"Closed for Science\" sign on the door."
 zhCN = "啃斯坦博士在门上挂了一块“科学实验，暂停开放”的牌子。"
 zhTW = "格諾斯坦博士在門上掛了張「為了科學，暫停開放」的牌子。"
@@ -1260,8 +1260,8 @@ viVN = "Tiến sĩ Gnawstein treo biển “Đóng cửa vì khoa học” lên 
 trTR = "Dr. Kemirgenstein kapıya “Bilim için kapalı” tabelası astı."
 
 ["DamScience.Warn.6"]
-status = "normal"
 raw = "Dr. Gnawstein just rehearsed a very convincing \"I'm broke.\""
+status = "normal"
 enUS = "Dr. Gnawstein just rehearsed a very convincing \"I'm broke.\""
 zhCN = "啃斯坦博士刚刚排练了一段极具说服力的“我没钱了。”"
 zhTW = "格瑙斯坦博士剛才排練了一句非常有說服力的「我破產了。」"
@@ -1277,8 +1277,8 @@ viVN = "Tiến sĩ Gnawstein vừa diễn tập câu “Tôi cháy túi rồi.�
 trTR = "Dr. Gnawstein az önce çok inandırıcı bir “Param yok.” provası yaptı."
 
 ["DamScience.TaxMsg.1"]
-status = "normal"
 raw = "The tax man cometh! He took {0} science and left a receipt. The receipt is also taxed."
+status = "normal"
 enUS = "The tax man cometh! He took {0} science and left a receipt. The receipt is also taxed."
 zhCN = "税务官来了！他拿走了 {0} 点科学点数，还留下了一张收据。这张收据也要纳税。"
 zhTW = "收稅的人來了！他拿走了 {0} 科學點數，還留下了收據。收據也要課稅。"
@@ -1294,8 +1294,8 @@ viVN = "Quan thuế đến rồi! Hắn lấy mất {0} điểm khoa học và �
 trTR = "Vergi memuru geldi! {0} bilim puanı aldı ve bir makbuz bıraktı. Makbuz da vergiye tabi."
 
 ["DamScience.TaxMsg.2"]
-status = "normal"
 raw = "A beaver in a top hat took {0} science \"for administrative purposes\". Nobody knows what that means."
+status = "normal"
 enUS = "A beaver in a top hat took {0} science “for administrative purposes.” Nobody knows what that means."
 zhCN = "一只戴着高顶礼帽的海狸以“行政用途”为由拿走了 {0} 点科学点数。没人知道这是什么意思。"
 zhTW = "一隻戴著高帽的海狸以「行政用途」為由拿走了 {0} 點科學點數。沒人知道那是什麼意思。"
@@ -1311,8 +1311,8 @@ viVN = "Một chú hải ly đội mũ chóp lấy mất {0} khoa học «vì m�
 trTR = "Silindir şapkalı bir kunduz, “idari amaçlarla” {0} bilimi aldı. Kimse bunun ne anlama geldiğini bilmiyor."
 
 ["DamScience.TaxMsg.3"]
-status = "normal"
 raw = "Surprise audit! The lab owes {0} science. Dr. Gnawstein says he's never seen that man before."
+status = "normal"
 enUS = "Surprise audit! The lab owes {0} science. Dr. Gnawstein says he's never seen that man before."
 zhCN = "突击审计！实验室欠了 {0} 点科学点数。Gnawstein 博士说他从没见过那个人。"
 zhTW = "突擊稽查！實驗室還欠 {0} 點科學點數。Gnawstein 博士說他從沒見過那個人。"
@@ -1328,8 +1328,8 @@ viVN = "Kiểm toán đột xuất! Phòng thí nghiệm còn nợ {0} điểm k
 trTR = "Sürpriz denetim! Laboratuvarın {0} bilim borcu var. Dr. Gnawstein, o adamı daha önce hiç görmediğini söylüyor."
 
 ["DamScience.TaxMsg.4"]
-status = "normal"
 raw = "{0} science were collected today. Dr. Gnawstein pretended to be asleep. It didn't help."
+status = "normal"
 enUS = "{0} science were collected today. Dr. Gnawstein pretended to be asleep. It didn't help."
 zhCN = "今天收集了 {0} 点科学点数。Gnawstein博士假装睡着了，但没能蒙混过去。"
 zhTW = "今天收集到了 {0} 點科學點數。格勞斯坦博士假裝睡著了。這一招沒用。"
@@ -1345,8 +1345,8 @@ viVN = "Hôm nay đã thu thập được {0} điểm khoa học. Tiến sĩ Gna
 trTR = "Bugün {0} bilim toplandı. Dr. Gnawstein uyuyormuş gibi yaptı. İşe yaramadı."
 
 ["DamScience.TaxMsg.5"]
-status = "normal"
 raw = "Pay up! {0} science have been withdrawn. Please enjoy the complimentary clipboard."
+status = "normal"
 enUS = "Pay up! {0} science has been withdrawn. Please enjoy the complimentary clipboard."
 zhCN = "交钱！已扣除 {0} 点科学点数。请收下免费的剪贴板。"
 zhTW = "付錢吧！已扣除 {0} 點科學點數。請享用免費的剪貼簿。"
@@ -1362,8 +1362,8 @@ viVN = "Nộp tiền đi! {0} điểm khoa học đã bị rút. Xin mời nhậ
 trTR = "Öde bakalım! {0} bilim puanı hesabınızdan çekildi. Ücretsiz panonun keyfini çıkarın."
 
 ["DamScience.TaxMsg.6"]
-status = "normal"
 raw = "The Department of Dam Science has collected {0} science. They say thank you. They don't mean it."
+status = "normal"
 enUS = "The Department of Dam Science has collected {0} science. They say thank you. They don't mean it."
 zhCN = "大坝科学部已收集 {0} 点科学值。他们说谢谢。其实并非真心。"
 zhTW = "水壩科學部門已收集 {0} 點科學。他們說謝謝。其實他們並不是真心的。"
@@ -1379,8 +1379,8 @@ viVN = "Cục Khoa học Đập đã thu thập được {0} điểm khoa học.
 trTR = "Baraj Bilimi Departmanı {0} bilim puanı topladı. Teşekkür ettiklerini söylüyorlar. Ciddi değiller."
 
 ["DamScience.TaxMsg.7"]
-status = "normal"
 raw = "{0} science have gone to \"infrastructure\". The infrastructure is a hat."
+status = "normal"
 enUS = "{0} science has gone to \"infrastructure.\" The infrastructure is a hat."
 zhCN = "{0} 点科学点数都投进了“基础设施”。而基础设施是一顶帽子。"
 zhTW = "{0} 點科學點數用在了「基礎建設」上。這項基礎建設是一頂帽子。"
@@ -1396,8 +1396,8 @@ viVN = "{0} điểm khoa học đã được dùng cho “cơ sở hạ tầng�
 trTR = "{0} bilim, “altyapı”ya gitmiş. Altyapı bir şapkadır."
 
 ["DamScience.TaxMsg.8"]
-status = "normal"
 raw = "Dr. Gnawstein said \"I'm broke!\" The tax man said \"Sure.\" -{0} science."
+status = "normal"
 enUS = "Dr. Gnawstein said \"I'm broke!\" The tax man said \"Sure.\" -{0} science."
 zhCN = "格纳斯坦博士说“我破产了！”税务员说“没问题。”-{0} 点科学值。"
 zhTW = "「齧博士說：『我破產了！』收稅員說：『好啊。』-{0} 科學點數。」"
@@ -1413,8 +1413,8 @@ viVN = "Tiến sĩ Gnawstein nói \"Tôi cháy túi rồi!\" Viên thu thuế n�
 trTR = "Dr. Gnawstein “Param yok!” dedi. Vergi memuru “Peki.” dedi. -{0} bilim."
 
 ["DamScience.TaxMsg.9"]
-status = "normal"
 raw = "Tax day! {0} science went to pay for the tax man's very shiny shoes."
+status = "normal"
 enUS = "Tax day! {0} science went to pay for the tax man’s very shiny shoes."
 zhCN = "交税日！{0} 点科技值拿去给税务官买那双闪闪发亮的鞋子了。"
 zhTW = "繳稅日！{0} 點科學點數拿去付稅吏那雙閃亮亮的鞋子了。"
@@ -1430,8 +1430,8 @@ viVN = "Đến ngày nộp thuế! {0} khoa học đã được dùng để tr�
 trTR = "Vergi günü! Vergi memurunun pek parlak ayakkabıları için {0} bilim harcandı."
 
 ["DamScience.InvPaid.1"]
-status = "normal"
 raw = "Hey, science ain't free! Dr. Gnawstein kept {0} science for \"processing fees\"."
+status = "normal"
 enUS = "Hey, science ain't free! Dr. Gnawstein kept {0} science for \"processing fees\"."
 zhCN = "嘿，科学可不是免费的！Gnawstein 博士扣下了 {0} 科学点，说是要收“手续费”。"
 zhTW = "嘿，科學可不是免費的！Gnawstein 博士扣下了 {0} 科學點數，說是要收「處理費」。"
@@ -1447,8 +1447,8 @@ viVN = "Này, khoa học đâu có miễn phí! Tiến sĩ Gnawstein đã giữ 
 trTR = "Hey, bilimin bedava olduğunu mu sandın! Dr. Gnawstein, “işlem ücreti” olarak {0} bilim puanı alıkoydu."
 
 ["DamScience.InvPaid.2"]
-status = "normal"
 raw = "The Inventor's Hut is open! The bill: {0} science. Dr. Gnawstein calls it \"a donation\"."
+status = "normal"
 enUS = "The Inventor's Hut is open! The bill: {0} science. Dr. Gnawstein calls it \"a donation.\""
 zhCN = "发明家小屋开张了！收费：{0} 科学点。Gnawstein 博士称之为“一笔捐款”。"
 zhTW = "發明家小屋開張了！費用：{0} 科學點數。鋼牙博士稱之為「一筆捐款」。"
@@ -1464,8 +1464,8 @@ viVN = "Lều Nhà Phát minh đã mở cửa! Chi phí: {0} điểm khoa học.
 trTR = "Mucit Kulübesi açık! Ücreti: {0} bilim puanı. Dr. Gnawstein buna “bağış” diyor."
 
 ["DamScience.InvPaid.3"]
-status = "normal"
 raw = "Welcome to the lab. Please leave your science at the door. All {0} of it."
+status = "normal"
 enUS = "Welcome to the lab. Please leave your science at the door. All {0} of it."
 zhCN = "欢迎来到实验室。请把你们的科学成果都留在门口。全部 {0} 份。"
 zhTW = "歡迎來到實驗室。請把你們的科學都留在門外。一點不剩，全都留著。 {0}"
@@ -1481,8 +1481,8 @@ viVN = "Chào mừng đến với phòng thí nghiệm. Vui lòng để lại to
 trTR = "Laboratuvara hoş geldiniz. Lütfen biliminizi kapıda bırakın. Tamamını, yani {0} kadarını."
 
 ["DamScience.InvPaid.4"]
-status = "normal"
 raw = "Science ain't free, friend! That's {0} science. You're welcome."
+status = "normal"
 enUS = "Science ain't free, friend! That's {0} science. You're welcome."
 zhCN = "科研可不是免费的，朋友！这可是{0}点科研值。不用谢。"
 zhTW = "科學可不是免費的，朋友！那可是 {0} 點科學。別客氣。"
@@ -1498,8 +1498,8 @@ viVN = "Khoa học đâu có miễn phí, bạn hiền! Đó là khoa học {0} 
 trTR = "Bilim bedava değil, dostum! Bu {0} bilim ediyor. Rica ederim."
 
 ["DamScience.InvFree.1"]
-status = "normal"
 raw = "You showed up with no science, so there's no bill. For now. The doctor remembers everything."
+status = "normal"
 enUS = "You showed up with no science, so there's no bill. For now. The doctor remembers everything."
 zhCN = "你们一无所获地来了，所以不用付账。暂时不用。医生什么都记得。"
 zhTW = "你沒帶任何科學成果來，所以不用付帳。暫時不用。醫生會記住一切。"
@@ -1515,8 +1515,8 @@ viVN = "Các bạn đến tay trắng, chẳng có khoa học nào, nên không 
 trTR = "Hiç bilim puanın olmadan geldin, o yüzden fatura yok. Şimdilik. Doktor her şeyi hatırlar."
 
 ["DamScience.InvFree.2"]
-status = "normal"
 raw = "Free! Dr. Gnawstein calls it an introductory offer. There is fine print. It's very small."
+status = "normal"
 enUS = "Free! Dr. Gnawstein calls it an introductory offer. There is fine print. It's very small."
 zhCN = "免费！Gnawstein 博士称这是入门优惠。细则印得非常小。"
 zhTW = "免費！格納斯坦博士稱之為入門優惠。附有小字條款，而且字小得很。"

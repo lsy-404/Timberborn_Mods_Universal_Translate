@@ -2,8 +2,8 @@
 name = "Field Hospital"
 
 ["Building.Hospital.DisplayName"]
-status = "normal"
 raw = "Hospital"
+status = "normal"
 enUS = "Hospital"
 zhCN = "医院"
 zhTW = "醫院"
@@ -19,8 +19,8 @@ viVN = "Bệnh viện"
 trTR = "Hastane"
 
 ["Building.Hospital.Description"]
-status = "normal"
 raw = "A two-storey hospital tent with 16 beds and 3 doctors. Without doctors it heals like a medical bed (an injury in 7 days). With 3 doctors an injury heals in 5 days, with medicine in 2. Doctors with antidote cure badwater contamination in 2 days, using half the antidote needed at home."
+status = "normal"
 enUS = "A two-story hospital tent with 16 beds and 3 doctors. Without doctors, it heals like a medical bed (an injury in 7 days). With 3 doctors, an injury heals in 5 days, or in 2 days with medicine. Doctors with antidote cure badwater contamination in 2 days, using half the antidote needed at home."
 zhCN = "一顶两层的医院帐篷，设有16张床位和3名医生。没有医生时，治疗效果与医疗床相同（7天治愈一处伤病）。配备3名医生后，伤病可在5天内治愈；使用药物则只需2天。医生使用解毒剂，可在2天内治愈恶水污染，所需解毒剂仅为在家治疗的一半。"
 zhTW = "一座有兩層樓、配備 16 張病床和 3 名醫生的醫院帳篷。沒有醫生時，療傷效果與醫療床相同（7 天治癒一處傷勢）。有 3 名醫生時，5 天治癒一處傷勢；使用藥物則只需 2 天。醫生使用解毒劑，可在 2 天內治癒壞水污染，所需解毒劑量是居家治療的一半。"
@@ -36,8 +36,8 @@ viVN = "Lều bệnh viện hai tầng với 16 giường và 3 bác sĩ. Không
 trTR = "16 yataklı ve 3 doktorlu, iki katlı bir hastane çadırı. Doktor yokken, tıbbi yatak gibi iyileştirir (bir yaralanma 7 günde iyileşir). 3 doktorla bir yaralanma 5 günde, ilaçla 2 günde iyileşir. Antidot kullanan doktorlar, evde gerekenden yarısı kadar antidot kullanarak kötü su bulaşmasını 2 günde tedavi eder."
 
 ["Building.Hospital.FlavorDescription"]
-status = "normal"
 raw = "\"Lie still, the canvas does the rest.\""
+status = "normal"
 enUS = "\"Lie still, the canvas does the rest.\""
 zhCN = "“躺着别动，剩下的交给帆布。”"
 zhTW = "「躺好不動，剩下的交給畫布。」"
@@ -53,8 +53,8 @@ viVN = "“Cứ nằm yên, tấm bạt sẽ lo phần còn lại.”"
 trTR = "“Usulca yat, gerisini çadır halleder.”"
 
 ["Good.Medicine.DisplayName"]
-status = "normal"
 raw = "Medicine"
+status = "normal"
 enUS = "Medicine"
 zhCN = "药品"
 zhTW = "藥品"
@@ -70,8 +70,8 @@ viVN = "Thuốc y tế"
 trTR = "İlaç"
 
 ["Good.Medicine.PluralDisplayName"]
-status = "normal"
 raw = "Medicine"
+status = "normal"
 enUS = "Medicine"
 zhCN = "药品"
 zhTW = "藥品"
@@ -87,8 +87,8 @@ viVN = "Thuốc men"
 trTR = "İlaçlar"
 
 ["Hospital.Doctors"]
-status = "normal"
 raw = "Doctors: {0} of {1}, {2} in the tent"
+status = "normal"
 enUS = "Doctors: {0} of {1}, {2} in the tent"
 zhCN = "医生：{0}/{1}，帐篷内有{2}人"
 zhTW = "醫生：{0}/{1}，帳篷內有 {2} 名"
@@ -104,8 +104,8 @@ viVN = "Bác sĩ: {0}/{1}, {2} trong lều"
 trTR = "Doktorlar: {0}/{1}, çadırda {2} kişi"
 
 ["Hospital.Patients"]
-status = "normal"
 raw = "Patients: {0} of {1}"
+status = "normal"
 enUS = "Patients: {0} of {1}"
 zhCN = "患者：{0}/{1}"
 zhTW = "病患：{0}/{1}"
@@ -121,8 +121,8 @@ viVN = "Bệnh nhân: {0} trên {1}"
 trTR = "Hastalar: {0} / {1}"
 
 ["Hospital.Injury.WithMedicine"]
-status = "normal"
 raw = "An injury heals in ~{0} days (with medicine)"
+status = "normal"
 enUS = "An injury heals in ~{0} days (with medicine)"
 zhCN = "（使用药物后）伤势约需 {0} 天痊愈"
 zhTW = "受傷後約需 {0} 天痊癒（使用藥物）"
@@ -138,8 +138,8 @@ viVN = "Chấn thương sẽ lành sau ~{0} ngày (khi có thuốc)"
 trTR = "Bir yaralanma ilaçla ~{0} günde iyileşir"
 
 ["Hospital.Injury.WithoutMedicine"]
-status = "normal"
 raw = "An injury heals in ~{0} days (no medicine)"
+status = "normal"
 enUS = "An injury heals in ~{0} days (no medicine)"
 zhCN = "受伤后约需 {0} 天痊愈（未用药）"
 zhTW = "受傷後約需 {0} 天康復（無藥物）"
@@ -155,8 +155,8 @@ viVN = "Vết thương lành sau khoảng ~{0} ngày (không dùng thuốc)"
 trTR = "Bir yaralanma ~{0} günde iyileşir (ilaçsız)"
 
 ["Hospital.Injury.NoDoctors"]
-status = "normal"
 raw = "An injury heals in ~{0} days, like a medical bed: no doctors"
+status = "normal"
 enUS = "An injury heals in ~{0} days, like a medical bed: no doctors"
 zhCN = "受伤后约需 {0} 天痊愈，与医疗床相同：无需医生陪护"
 zhTW = "受傷後約需 {0} 天痊癒，與醫療床相同：沒有醫生"
@@ -172,8 +172,8 @@ viVN = "Một vết thương sẽ lành sau khoảng {0} ngày, như khi nằm t
 trTR = "Bir yaralanma, tıpkı tıbbi yatakta olduğu gibi, doktor olmadan ~{0} günde iyileşir."
 
 ["Hospital.Contamination"]
-status = "normal"
 raw = "Contamination is cured in ~{0} days ({1} antidote per beaver)"
+status = "normal"
 enUS = "Contamination is cured in ~{0} days ({1} antidote per beaver)"
 zhCN = "约 {0} 天后治愈污染（每只海狸消耗 {1} 剂解毒药）"
 zhTW = "污染將於約 {0} 天後治癒（每隻海狸需用 {1} 劑解毒劑）"
@@ -189,8 +189,8 @@ viVN = "Tình trạng nhiễm độc được chữa khỏi sau ~{0} ngày ({1} 
 trTR = "Bulaşma ~{0} günde iyileşir (kunduz başına {1} panzehir)"
 
 ["Hospital.Contamination.Off"]
-status = "normal"
 raw = "Contaminated beavers are not admitted: needs a doctor and antidote"
+status = "normal"
 enUS = "Contaminated beavers are not admitted: needs a doctor and antidote"
 zhCN = "不接收受污染的海狸：需要医生和解毒剂"
 zhTW = "不收治受污染的海狸：需要醫生和解毒劑"

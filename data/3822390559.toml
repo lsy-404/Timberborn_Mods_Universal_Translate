@@ -2,8 +2,8 @@
 name = "Timber Seasons"
 
 ["TimberSeasons.Weather.Monsoon"]
-status = "normal"
 raw = "Monsoon"
+status = "normal"
 enUS = "Monsoon"
 zhCN = "季风暴雨"
 zhTW = "季風期"
@@ -19,8 +19,8 @@ viVN = "Gió mùa"
 trTR = "Muson"
 
 ["TimberSeasons.Weather.Notification.MonsoonApproaching"]
-status = "normal"
 raw = "Monsoon Approaching"
+status = "normal"
 enUS = "Monsoon Approaching"
 zhCN = "季风即将来临"
 zhTW = "季風即將來臨"
@@ -36,8 +36,8 @@ viVN = "Sắp có mùa mưa gió mùa"
 trTR = "Muson Yaklaşıyor"
 
 ["TimberSeasons.Weather.MonsoonStartedNotification"]
-status = "normal"
 raw = "The Monsoon has begun!"
+status = "normal"
 enUS = "The Monsoon has begun!"
 zhCN = "季风季节开始了！"
 zhTW = "季風已經開始！"
@@ -53,8 +53,8 @@ viVN = "Mùa mưa đã bắt đầu!"
 trTR = "Muson başladı!"
 
 ["TimberSeasons.Weather.MonsoonEndedNotification"]
-status = "normal"
 raw = "Monsoon Ending"
+status = "normal"
 enUS = "Monsoon Ending"
 zhCN = "季风结束"
 zhTW = "季風結束"
@@ -70,8 +70,8 @@ viVN = "Mùa mưa kết thúc"
 trTR = "Musonun Sona Ermesi"
 
 ["TimberSeasons.Weather.BadtideMonsoon"]
-status = "normal"
 raw = "Badtide Monsoon"
+status = "normal"
 enUS = "Badwater Monsoon"
 zhCN = "恶水季风暴雨"
 zhTW = "壞水季風"
@@ -87,8 +87,8 @@ viVN = "Gió mùa nước độc"
 trTR = "Zehirli Su Musonu"
 
 ["TimberSeasons.Weather.Notification.BadtideMonsoonApproaching"]
-status = "normal"
 raw = "Badtide Monsoon Approaching"
+status = "normal"
 enUS = "Badtide Monsoon Approaching"
 zhCN = "恶潮季风即将来临"
 zhTW = "惡水季風即將來襲"
@@ -104,8 +104,8 @@ viVN = "Sắp có gió mùa nước độc"
 trTR = "Zehirli Su Musonu Yaklaşıyor"
 
 ["TimberSeasons.Weather.BadtideMonsoonStartedNotification"]
-status = "normal"
 raw = "The Badtide Monsoon has begun!"
+status = "normal"
 enUS = "The Badtide Monsoon has begun!"
 zhCN = "恶水季风开始了！"
 zhTW = "毒潮季風開始了！"
@@ -121,8 +121,8 @@ viVN = "Gió mùa Nước độc đã bắt đầu!"
 trTR = "Kötü Su Musonu başladı!"
 
 ["TimberSeasons.Weather.BadtideMonsoonEndedNotification"]
-status = "normal"
 raw = "Badtide Monsoon Ending"
+status = "normal"
 enUS = "Badtide Monsoon Ending"
 zhCN = "恶潮季风结束"
 zhTW = "毒水季風結束"
@@ -138,8 +138,8 @@ viVN = "Kết thúc mùa mưa độc hại@endsection"
 trTR = "Kötü Su Musonu Bitişi"
 
 ["TimberSeasons.Weather.Blizzard"]
-status = "normal"
 raw = "Blizzard"
+status = "normal"
 enUS = "Blizzard"
 zhCN = "暴风雪"
 zhTW = "暴風雪"
@@ -155,8 +155,8 @@ viVN = "Bão tuyết"
 trTR = "Tipi"
 
 ["TimberSeasons.Weather.Notification.BlizzardApproaching"]
-status = "normal"
 raw = "Blizzard Approaching"
+status = "normal"
 enUS = "Blizzard Approaching"
 zhCN = "暴风雪即将来临"
 zhTW = "暴風雪即將來襲"
@@ -172,8 +172,8 @@ viVN = "Bão tuyết đang đến gần"
 trTR = "Yaklaşan Tipi"
 
 ["TimberSeasons.Weather.BlizzardStartedNotification"]
-status = "normal"
 raw = "The Blizzard has begun!"
+status = "normal"
 enUS = "The blizzard has begun!"
 zhCN = "暴风雪开始了！"
 zhTW = "暴風雪開始了！"
@@ -189,8 +189,8 @@ viVN = "Bão tuyết đã bắt đầu!"
 trTR = "Tipi başladı!"
 
 ["TimberSeasons.Weather.BlizzardEndedNotification"]
-status = "normal"
 raw = "Blizzard Ending"
+status = "normal"
 enUS = "Blizzard Ending"
 zhCN = "暴风雪结束"
 zhTW = "暴風雪結束"
@@ -206,8 +206,8 @@ viVN = "Bão tuyết kết thúc"
 trTR = "Kar fırtınası sona eriyor"
 
 ["TimberSeasons.Weather.Notification.RainApproaching"]
-status = "normal"
 raw = "Rain Approaching"
+status = "normal"
 enUS = "Rain Approaching"
 zhCN = "降雨将至"
 zhTW = "降雨即將來臨"
@@ -223,8 +223,8 @@ viVN = "Sắp có mưa"
 trTR = "Yağmur Yaklaşıyor"
 
 ["TimberSeasons.Weather.Notification.BadRainApproaching"]
-status = "normal"
 raw = "Badrain Approaching"
+status = "normal"
 enUS = "Bad Rain Approaching"
 zhCN = "恶雨即将来袭"
 zhTW = "毒雨即將來襲"
@@ -240,8 +240,8 @@ viVN = "Sắp có mưa độc hại"
 trTR = "Kötü yağmur yaklaşıyor"
 
 ["TimberSeasons.Weather.Notification.SnowApproaching"]
-status = "normal"
 raw = "Snow Approaching"
+status = "normal"
 enUS = "Snow Approaching"
 zhCN = "降雪将至"
 zhTW = "降雪即將來臨"
@@ -257,8 +257,8 @@ viVN = "Tuyết sắp rơi"
 trTR = "Kar yaklaşıyor"
 
 ["TimberSeasons.Weather.Notification.BadSnowApproaching"]
-status = "normal"
 raw = "Bad Snow Approaching"
+status = "normal"
 enUS = "Bad Snow Approaching"
 zhCN = "恶劣降雪即将来临"
 zhTW = "惡劣降雪即將來臨"
@@ -274,8 +274,8 @@ viVN = "Tuyết độc sắp đến"
 trTR = "Zehirli Kar Yaklaşıyor"
 
 ["TimberSeasons.BreakEvent.Notification"]
-status = "normal"
 raw = "The skies feel... unpredictable."
+status = "normal"
 enUS = "The skies feel... unpredictable."
 zhCN = "天空似乎……变幻莫测。"
 zhTW = "天空似乎……變幻莫測。"
@@ -291,8 +291,8 @@ viVN = "Bầu trời có vẻ... khó đoán."
 trTR = "Gökyüzü... öngörülemez görünüyor."
 
 ["TimberSeasons.Difficulty.Name"]
-status = "normal"
 raw = "Difficulty"
+status = "normal"
 enUS = "Difficulty"
 zhCN = "难度"
 zhTW = "難度"
@@ -308,8 +308,8 @@ viVN = "Độ khó"
 trTR = "Zorluk"
 
 ["TimberSeasons.Value.Auto"]
-status = "normal"
 raw = "Auto"
+status = "normal"
 enUS = "Auto"
 zhCN = "自动"
 zhTW = "自動"
@@ -325,8 +325,8 @@ viVN = "Tự động"
 trTR = "Otomatik"
 
 ["TimberSeasons.Value.Easy"]
-status = "normal"
 raw = "Easy"
+status = "normal"
 enUS = "Easy"
 zhCN = "简单"
 zhTW = "簡單"
@@ -342,8 +342,8 @@ viVN = "Dễ dàng"
 trTR = "Kolay"
 
 ["TimberSeasons.Value.Normal"]
-status = "normal"
 raw = "Normal"
+status = "normal"
 enUS = "Normal"
 zhCN = "正常"
 zhTW = "正常"
@@ -359,8 +359,8 @@ viVN = "Bình thường"
 trTR = "Normal"
 
 ["TimberSeasons.Value.Hard"]
-status = "normal"
 raw = "Hard"
+status = "normal"
 enUS = "Hard"
 zhCN = "困难"
 zhTW = "困難"
@@ -376,8 +376,8 @@ viVN = "Khó khăn"
 trTR = "Zor"
 
 ["TimberSeasons.Value.Brutal"]
-status = "normal"
 raw = "Brutal"
+status = "normal"
 enUS = "Brutal"
 zhCN = "残酷"
 zhTW = "殘酷"
@@ -393,8 +393,8 @@ viVN = "Khắc nghiệt"
 trTR = "Acımasız"
 
 ["TimberSeasons.Value.Random"]
-status = "normal"
 raw = "Random"
+status = "normal"
 enUS = "Random"
 zhCN = "随机"
 zhTW = "隨機"
@@ -410,8 +410,8 @@ viVN = "Ngẫu nhiên"
 trTR = "Rastgele"
 
 ["TimberSeasons.Value.Custom"]
-status = "normal"
 raw = "Custom"
+status = "normal"
 enUS = "Custom"
 zhCN = "自定义"
 zhTW = "自訂"
@@ -427,8 +427,8 @@ viVN = "Tùy chỉnh"
 trTR = "Özel"
 
 ["TimberSeasons.Section.Difficulty"]
-status = "normal"
 raw = "Difficulty"
+status = "normal"
 enUS = "Difficulty"
 zhCN = "难度"
 zhTW = "難度"
@@ -444,8 +444,8 @@ viVN = "Độ khó"
 trTR = "Zorluk"
 
 ["TimberSeasons.Section.RandomReveal"]
-status = "normal"
 raw = "Random Reveal"
+status = "normal"
 enUS = "Random Reveal"
 zhCN = "随机揭示"
 zhTW = "隨機揭示"
@@ -461,8 +461,8 @@ viVN = "Tiết lộ ngẫu nhiên"
 trTR = "Rastgele Açığa Çıkarma"
 
 ["TimberSeasons.Section.Ambient"]
-status = "normal"
 raw = "Custom: Ambient Weather"
+status = "normal"
 enUS = "Custom: Ambient Weather"
 zhCN = "自定义：环境天气"
 zhTW = "自訂：環境天氣"
@@ -478,8 +478,8 @@ viVN = "Tùy chỉnh: Thời tiết môi trường"
 trTR = "Özel: Ortam Havası"
 
 ["TimberSeasons.Section.BigHazard"]
-status = "normal"
 raw = "Custom: Big Hazard Selection"
+status = "normal"
 enUS = "Custom: Big Hazard Selection"
 zhCN = "自定义：大型危险选择"
 zhTW = "自訂：大型災害選擇"
@@ -495,8 +495,8 @@ viVN = "Tùy chỉnh: Chọn mối nguy lớn"
 trTR = "Özel: Büyük Tehlike Seçimi"
 
 ["TimberSeasons.Section.HazardDuration"]
-status = "normal"
 raw = "Custom: Hazard Duration"
+status = "normal"
 enUS = "Custom: Hazard Duration"
 zhCN = "自定义：灾害持续时间"
 zhTW = "自訂：危害持續時間"
@@ -512,8 +512,8 @@ viVN = "Tùy chỉnh: Thời lượng hiểm họa"
 trTR = "Özel: Tehlike Süresi"
 
 ["TimberSeasons.Section.WaterContamination"]
-status = "normal"
 raw = "Custom: Water & Contamination"
+status = "normal"
 enUS = "Custom: Water & Contamination"
 zhCN = "自定义：水与污染"
 zhTW = "自訂：水與污染"
@@ -529,8 +529,8 @@ viVN = "Tùy chỉnh: Nước & Ô nhiễm"
 trTR = "Özel: Su ve Kirlilik"
 
 ["TimberSeasons.Section.Growth"]
-status = "normal"
 raw = "Custom: Growth Modifiers"
+status = "normal"
 enUS = "Custom: Growth Modifiers"
 zhCN = "自定义：生长修正项"
 zhTW = "自訂：生長修正值"
@@ -546,8 +546,8 @@ viVN = "Tùy chỉnh: Hệ số tăng trưởng"
 trTR = "Özel: Büyüme Değiştiricileri"
 
 ["TimberSeasons.Section.ConsumptionWetFur"]
-status = "normal"
 raw = "Custom: Consumption & Wet Fur"
+status = "normal"
 enUS = "Custom: Consumption & Wet Fur"
 zhCN = "自定义：消耗与湿毛皮"
 zhTW = "自訂：消耗與濕毛皮"
@@ -563,8 +563,8 @@ viVN = "Tùy chỉnh: Mức tiêu thụ & Lông ướt"
 trTR = "Özel: Tüketim ve Islak Kürk"
 
 ["TimberSeasons.Section.EarlyGame"]
-status = "normal"
 raw = "Custom: Early-Game Protection"
+status = "normal"
 enUS = "Custom: Early-Game Protection"
 zhCN = "自定义：游戏前期防护"
 zhTW = "自訂：遊戲初期防護"
@@ -580,8 +580,8 @@ viVN = "Tùy chỉnh: Bảo vệ đầu game"
 trTR = "Özel: Oyunun Başlarında Koruma"
 
 ["TimberSeasons.Reveal.ShowName"]
-status = "normal"
 raw = "Show selected random difficulty"
+status = "normal"
 enUS = "Show Selected Random Difficulty"
 zhCN = "显示选定的随机难度"
 zhTW = "顯示選定的隨機難度"
@@ -597,8 +597,8 @@ viVN = "Hiển thị độ khó ngẫu nhiên đã chọn"
 trTR = "Seçili rastgele zorluk seviyesini göster"
 
 ["TimberSeasons.Reveal.ShowTooltip"]
-status = "normal"
 raw = "Tick to see which difficulty a Random map rolled.\\nLeave it off for a surprise."
+status = "normal"
 enUS = "Tick to see which difficulty a Random map rolled.\\nLeave it off for a surprise."
 zhCN = "勾选即可查看随机地图生成的难度。\\\\n不勾选则保留惊喜。"
 zhTW = "勾選即可查看隨機地圖抽到的難度。\\\\n不勾選就保留驚喜。"
@@ -614,8 +614,8 @@ viVN = "Đánh dấu để xem bản đồ Ngẫu nhiên đã chọn độ khó 
 trTR = "Rastgele haritanın hangi zorlukta oluşturulduğunu görmek için işaretleyin.\\nSürpriz olması için işareti kaldırın."
 
 ["TimberSeasons.Reveal.DisplayName"]
-status = "normal"
 raw = "Random mode - selected difficulty"
+status = "normal"
 enUS = "Random mode - selected difficulty"
 zhCN = "随机模式 - 已选难度"
 zhTW = "隨機模式－所選難度"
@@ -631,8 +631,8 @@ viVN = "Chế độ ngẫu nhiên - độ khó đã chọn"
 trTR = "Rastgele mod - seçilen zorluk"
 
 ["TimberSeasons.Reveal.NotRandom"]
-status = "normal"
 raw = "(this map is not Random)"
+status = "normal"
 enUS = "(this map is not random)"
 zhCN = "（此地图并非随机生成）"
 zhTW = "（此地圖並非隨機生成）"
@@ -648,8 +648,8 @@ viVN = "(bản đồ này không phải Ngẫu nhiên)"
 trTR = "(bu harita Rastgele değil)"
 
 ["TimberSeasons.Reveal.NotYetRolled"]
-status = "normal"
 raw = "(not yet rolled)"
+status = "normal"
 enUS = "(not yet rolled)"
 zhCN = "（尚未掷出）"
 zhTW = "（尚未擲出）"
@@ -665,8 +665,8 @@ viVN = "(chưa được gieo xúc xắc)"
 trTR = "(henüz atılmadı)"
 
 ["TimberSeasons.Reveal.WhenStarts"]
-status = "normal"
 raw = "(rolled when a Random map starts)"
+status = "normal"
 enUS = "(rolled when a Random map starts)"
 zhCN = "（随机地图开始时掷出）"
 zhTW = "（隨機地圖開始時擲骰決定）"
@@ -682,8 +682,8 @@ viVN = "(được chọn ngẫu nhiên khi bản đồ Ngẫu nhiên bắt đầ
 trTR = "(Rastgele harita başladığında belirlenir)"
 
 ["TimberSeasons.Season.Spring"]
-status = "normal"
 raw = "Spring"
+status = "normal"
 enUS = "Spring"
 zhCN = "春季"
 zhTW = "春季"
@@ -699,8 +699,8 @@ viVN = "Mùa xuân"
 trTR = "İlkbahar"
 
 ["TimberSeasons.Season.Summer"]
-status = "normal"
 raw = "Summer"
+status = "normal"
 enUS = "Summer"
 zhCN = "夏季"
 zhTW = "夏季"
@@ -716,8 +716,8 @@ viVN = "Mùa hè"
 trTR = "Yaz"
 
 ["TimberSeasons.Season.Fall"]
-status = "normal"
 raw = "Fall"
+status = "normal"
 enUS = "Fall"
 zhCN = "秋季"
 zhTW = "秋季"
@@ -733,8 +733,8 @@ viVN = "Mùa thu"
 trTR = "Sonbahar"
 
 ["TimberSeasons.Season.Winter"]
-status = "normal"
 raw = "Winter"
+status = "normal"
 enUS = "Winter"
 zhCN = "冬季"
 zhTW = "冬季"
@@ -750,8 +750,8 @@ viVN = "Mùa đông"
 trTR = "Kış"
 
 ["TimberSeasons.Date.Format"]
-status = "normal"
 raw = "{0}, day {1} (cycle {2})"
+status = "normal"
 enUS = "{0}, day {1} (cycle {2})"
 zhCN = "{0}，第 {1} 天（周期 {2}）"
 zhTW = "{0}，第 {1} 天（週期 {2}）"
@@ -767,8 +767,8 @@ viVN = "{0}, ngày {1} (chu kỳ {2})"
 trTR = "{0}, {1}. gün (döngü {2})"
 
 ["TimberSeasons.Setting.BreaksEnabled"]
-status = "normal"
 raw = "Enable Lucky/Unlucky Breaks"
+status = "normal"
 enUS = "Enable Lucky/Unlucky Breaks"
 zhCN = "启用幸运/倒霉事件"
 zhTW = "啟用幸運／倒楣事件"
@@ -784,8 +784,8 @@ viVN = "Bật các Đợt May mắn/Rủi ro"
 trTR = "Şanslı/Şanssız Molaları Etkinleştir"
 
 ["TimberSeasons.Setting.Phase2Enabled"]
-status = "normal"
 raw = "Enable Phase 2 Escalation (cycle 30-60)"
+status = "normal"
 enUS = "Enable Phase 2 Escalation (cycle 30-60)"
 zhCN = "启用第二阶段升级（第30-60周期）"
 zhTW = "啟用第 2 階段升級（週期 30-60）"
@@ -801,8 +801,8 @@ viVN = "Bật Giai đoạn leo thang 2 (chu kỳ 30-60)"
 trTR = "2. Aşama Tırmanışını Etkinleştir (30-60. döngü)"
 
 ["TimberSeasons.Setting.DailyTriggerChancePercent"]
-status = "normal"
 raw = "Daily ambient trigger chance %"
+status = "normal"
 enUS = "Daily ambient trigger chance %"
 zhCN = "每日环境触发概率 %"
 zhTW = "每日環境觸發機率 %"
@@ -818,8 +818,8 @@ viVN = "Tỷ lệ kích hoạt ngẫu nhiên hằng ngày %"
 trTR = "Günlük ortam tetikleyicisi olasılığı %"
 
 ["TimberSeasons.Setting.StandaloneMinHours"]
-status = "normal"
 raw = "Standalone duration min hours"
+status = "normal"
 enUS = "Standalone duration minimum hours"
 zhCN = "独立模式最短持续时间（小时）"
 zhTW = "獨立持續時間最短小時數"
@@ -835,8 +835,8 @@ viVN = "Thời lượng tối thiểu khi chơi độc lập (giờ)"
 trTR = "Bağımsız süre en az saat"
 
 ["TimberSeasons.Setting.StandaloneMaxHours"]
-status = "normal"
 raw = "Standalone duration max hours"
+status = "normal"
 enUS = "Maximum Standalone Duration (Hours)"
 zhCN = "独立模式最长持续时间（小时）"
 zhTW = "獨立持續時間上限（小時）"
@@ -852,8 +852,8 @@ viVN = "Thời lượng tối đa khi chơi độc lập (giờ)"
 trTR = "Bağımsız süre üst sınırı (saat)"
 
 ["TimberSeasons.Setting.HazardGuaranteedMinHours"]
-status = "normal"
 raw = "Hazard-guaranteed duration min hours"
+status = "normal"
 enUS = "Minimum hours of guaranteed hazard duration"
 zhCN = "灾害保证持续时间（最少小时数）"
 zhTW = "危害保證持續時間下限（小時）"
@@ -869,8 +869,8 @@ viVN = "Số giờ tối thiểu được đảm bảo có hiểm họa"
 trTR = "Tehlikenin garanti edilen minimum süresi (saat)"
 
 ["TimberSeasons.Setting.HazardGuaranteedMaxHours"]
-status = "normal"
 raw = "Hazard-guaranteed duration max hours"
+status = "normal"
 enUS = "Maximum hours of hazard-guaranteed duration"
 zhCN = "危险保障持续时间上限（小时）"
 zhTW = "危害保證持續時間上限（小時）"
@@ -886,8 +886,8 @@ viVN = "Thời lượng tối đa được đảm bảo của mối nguy (giờ)
 trTR = "Tehlikenin garanti edilen azami süresi (saat)"
 
 ["TimberSeasons.Setting.MidHazardReTriggerChancePercent"]
-status = "normal"
 raw = "Mid-hazard re-trigger chance %"
+status = "normal"
 enUS = "Mid-hazard retrigger chance %"
 zhCN = "中等危险事件重新触发概率 %"
 zhTW = "中度危害重新觸發機率 %"
@@ -903,8 +903,8 @@ viVN = "Tỉ lệ kích hoạt lại giữa các mối nguy %"
 trTR = "Orta tehlikenin yeniden tetiklenme olasılığı %"
 
 ["TimberSeasons.Setting.SnowFlavorChancePercent"]
-status = "normal"
 raw = "Snow vs BadSnow chance %"
+status = "normal"
 enUS = "Chance of Snow vs. Bad Snow (%)"
 zhCN = "降雪与恶雪概率 %"
 zhTW = "降雪與惡雪機率 %"
@@ -920,8 +920,8 @@ viVN = "Tỉ lệ tuyết so với tuyết bẩn (%)"
 trTR = "Kar ve Kötü Kar olasılığı %"
 
 ["TimberSeasons.Setting.RainFlavorChancePercent"]
-status = "normal"
 raw = "Rain vs BadRain chance %"
+status = "normal"
 enUS = "Rain vs. Badwater Chance %"
 zhCN = "普通降雨与恶雨的概率 %"
 zhTW = "普通雨與毒雨的機率 %"
@@ -937,8 +937,8 @@ viVN = "Tỷ lệ mưa so với mưa độc hại %"
 trTR = "Yağmur ve Kötü Su Yağmuru olasılığı %"
 
 ["TimberSeasons.Setting.SummerMonsoonFamilyChancePercent"]
-status = "normal"
 raw = "Summer Monsoon-family chance %"
+status = "normal"
 enUS = "Summer monsoon family chance %"
 zhCN = "夏季季风族出现概率 %"
 zhTW = "夏季季風家族機率 %"
@@ -954,8 +954,8 @@ viVN = "Tỉ lệ mùa mưa mùa hè-họ hàng %"
 trTR = "Yaz Musonu ailesi olasılığı %"
 
 ["TimberSeasons.Setting.ShoulderMonsoonFamilyChancePercent"]
-status = "normal"
 raw = "Spring/Fall Monsoon-family chance %"
+status = "normal"
 enUS = "Spring/Fall Monsoon Family Chance %"
 zhCN = "春季/秋季季风家族出现概率 %"
 zhTW = "春季／秋季季風家族機率 %"
@@ -971,8 +971,8 @@ viVN = "Tỉ lệ mùa mưa kiểu gió mùa vào mùa xuân/thu %"
 trTR = "İlkbahar/Sonbahar Muson ailesi olasılığı %"
 
 ["TimberSeasons.Setting.BadtideMonsoonWithinFamilyChancePercent"]
-status = "normal"
 raw = "Badtide Monsoon within-family chance %"
+status = "normal"
 enUS = "Badtide Monsoon within-family chance %"
 zhCN = "恶潮季风家族内概率 %"
 zhTW = "壞水季風家族內機率 %"
@@ -988,8 +988,8 @@ viVN = "Tỉ lệ trong cùng một gia đình gặp gió mùa nước độc %"
 trTR = "Aile içi Kötü Su Musonu olasılığı %"
 
 ["TimberSeasons.Setting.StreakChanceDecreaseThreshold"]
-status = "normal"
 raw = "Streak decrease threshold"
+status = "normal"
 enUS = "Streak decrease threshold"
 zhCN = "连胜几率降低阈值"
 zhTW = "連勝次數減少門檻"
@@ -1005,8 +1005,8 @@ viVN = "Ngưỡng giảm chuỗi liên tiếp"
 trTR = "Seri düşüş eşiği"
 
 ["TimberSeasons.Setting.StreakChanceResetThreshold"]
-status = "normal"
 raw = "Streak reset threshold"
+status = "normal"
 enUS = "Streak Reset Threshold"
 zhCN = "连续天数重置阈值"
 zhTW = "連勝重置門檻"
@@ -1022,8 +1022,8 @@ viVN = "Ngưỡng đặt lại chuỗi liên tiếp"
 trTR = "Seri sıfırlama eşiği"
 
 ["TimberSeasons.Setting.StreakDecreaseRatio"]
-status = "normal"
 raw = "Streak decrease ratio"
+status = "normal"
 enUS = "Streak decrease ratio"
 zhCN = "连胜递减比例"
 zhTW = "連勝減少比率"
@@ -1039,8 +1039,8 @@ viVN = "Tỷ lệ giảm chuỗi liên tiếp"
 trTR = "Seri azalma oranı"
 
 ["TimberSeasons.Setting.BlizzardConsumptionPointsPerHour"]
-status = "normal"
 raw = "Blizzard Hunger/Thirst rate per hour"
+status = "normal"
 enUS = "Blizzard Hunger/Thirst rate per hour"
 zhCN = "暴风雪期间每小时饥饿/口渴值消耗速率"
 zhTW = "暴風雪期間每小時飢餓／口渴速率"
@@ -1056,8 +1056,8 @@ viVN = "Tốc độ đói/khát mỗi giờ trong bão tuyết"
 trTR = "Tipide saatlik açlık/susuzluk oranı"
 
 ["TimberSeasons.Setting.RainWetFurBonusPerHour"]
-status = "normal"
 raw = "Rain Wet Fur bonus per hour"
+status = "normal"
 enUS = "Rain-Wet Fur Bonus per Hour"
 zhCN = "雨水湿毛每小时加成"
 zhTW = "雨天濕毛每小時加成"
@@ -1073,8 +1073,8 @@ viVN = "Thưởng lông ướt do mưa mỗi giờ"
 trTR = "Yağmurda Islak Kürk bonusu (saatlik)"
 
 ["TimberSeasons.Setting.GracePeriodCycles"]
-status = "normal"
 raw = "Grace period cycles - no custom big hazards, bad flavors suppressed"
+status = "normal"
 enUS = "Grace period cycles — no custom major hazards; bad seasons suppressed"
 zhCN = "宽限期周期数——不启用自定义大型灾害，抑制恶劣口味"
 zhTW = "寬限期週期－不會發生自訂的大型災害，並抑制有害風味事件"
@@ -1090,8 +1090,8 @@ viVN = "Chu kỳ thời gian ân hạn - không có thảm họa lớn tùy ch�
 trTR = "Ek süre döngüleri - özel büyük tehlikeler yok, kötü tatlar bastırılır"
 
 ["TimberSeasons.Setting.DurationDampeningWindowCycles"]
-status = "normal"
 raw = "Duration dampening window - cycles after grace to reach full strength"
+status = "normal"
 enUS = "Duration dampening window - cycles after grace to reach full strength"
 zhCN = "持续时间缓冲窗口——宽限期后达到全强度所需的周期数"
 zhTW = "持續時間緩和期－寬限期後達到全強度所需的週期數"
@@ -1107,8 +1107,8 @@ viVN = "Thời gian giảm chấn — số chu kỳ sau thời gian ân hạn đ
 trTR = "Tam güce ulaşmak için ek süre sonrasındaki çevrim sayısı"
 
 ["TimberSeasons.Setting.DurationDampeningStartPercent"]
-status = "normal"
 raw = "Duration dampening start % - how weak the first post-grace hazard is"
+status = "normal"
 enUS = "Duration dampening start % – how weak the first post-grace hazard is"
 zhCN = "持续时间衰减起始百分比 - 宽限期结束后首次出现的灾害有多弱"
 zhTW = "持續時間減弱起始百分比——寬限期後的首次危害有多弱"
@@ -1124,8 +1124,8 @@ viVN = "Phần trăm bắt đầu giảm nhẹ theo thời lượng — mức đ
 trTR = "Süre yumuşatma başlangıç yüzdesi - tolerans süresi sonrasındaki ilk tehlikenin ne kadar hafif olacağını belirler"
 
 ["TimberSeasons.Setting.FlavorSuppressionWindowCycles"]
-status = "normal"
 raw = "Flavor suppression window - cycles after grace to reach real bad-flavor odds"
+status = "normal"
 enUS = "Flavor suppression window — cycles after the grace period before the actual bad-flavor odds apply"
 zhCN = "风味抑制窗口——宽限期结束后，经过多少个周期才会启用实际的坏风味概率"
 zhTW = "風味抑制時窗－寬限期後，達到實際風味機率所需的週期數"
@@ -1141,8 +1141,8 @@ viVN = "Khoảng chu kỳ chặn hiệu ứng hương vị — số chu kỳ sau
 trTR = "Gerçek kötü tat olasılıklarına ulaşmak için ek sürenin ardından geçecek döngü sayısı: Tat baskılama aralığı"
 
 ["TimberSeasons.Setting.FlavorSuppressionStartGoodPercent"]
-status = "normal"
 raw = "Flavor suppression start % good - how safe the first post-grace days are"
+status = "normal"
 enUS = "Flavor suppression start % good - how safe the first post-grace days are"
 zhCN = "风味文本抑制起始良好百分比——宽限期结束后的头几天有多安全"
 zhTW = "風味抑制開始良好百分比——寬限期後最初幾天的安全程度"
@@ -1158,8 +1158,8 @@ viVN = "Phần trăm bắt đầu ức chế lời bình tốt — mức độ a
 trTR = "Lezzet bastırmasının başladığı yüzde - ek sürenin ardından gelen ilk günlerin ne kadar güvenli olduğu"
 
 ["TimberSeasons.Setting.SnowGrowthBoostPerDay"]
-status = "normal"
 raw = "Snow growth boost per day"
+status = "normal"
 enUS = "Snow growth boost per day"
 zhCN = "每日积雪生长加成"
 zhTW = "每日積雪增長量"
@@ -1175,8 +1175,8 @@ viVN = "Mức tăng trưởng của tuyết mỗi ngày"
 trTR = "Günlük kar büyüme artışı"
 
 ["TimberSeasons.Setting.BadRainSlowdownPerDay"]
-status = "normal"
 raw = "BadRain growth slowdown per day"
+status = "normal"
 enUS = "Badwater growth slowdown per day"
 zhCN = "恶雨每日生长减缓幅度"
 zhTW = "惡劣降雨每日生長減緩幅度"
@@ -1192,8 +1192,8 @@ viVN = "Mức giảm tốc độ sinh trưởng mỗi ngày khi mưa độc hạ
 trTR = "Kötü yağmurda günlük büyüme yavaşlaması"
 
 ["TimberSeasons.Setting.BadSnowSlowdownPerDay"]
-status = "normal"
 raw = "BadSnow growth slowdown per day"
+status = "normal"
 enUS = "Bad Snow Growth Slowdown per Day"
 zhCN = "恶雪每日生长减缓量"
 zhTW = "壞雪每日生長減緩幅度"
@@ -1209,8 +1209,8 @@ viVN = "Mức giảm tốc độ sinh trưởng của Tuyết Xấu mỗi ngày"
 trTR = "Kötü Kar büyümesinin günlük yavaşlama miktarı"
 
 ["TimberSeasons.Setting.MonsoonDurationMinDays"]
-status = "normal"
 raw = "Monsoon duration min days"
+status = "normal"
 enUS = "Minimum monsoon duration (days)"
 zhCN = "季风最短持续天数"
 zhTW = "季風持續時間最短天數"
@@ -1226,8 +1226,8 @@ viVN = "Thời lượng gió mùa tối thiểu (ngày)"
 trTR = "Muson süresi en az gün sayısı"
 
 ["TimberSeasons.Setting.MonsoonDurationMaxDays"]
-status = "normal"
 raw = "Monsoon duration max days"
+status = "normal"
 enUS = "Maximum monsoon duration in days"
 zhCN = "季风最长持续天数"
 zhTW = "季風最長持續天數"
@@ -1243,8 +1243,8 @@ viVN = "Số ngày tối đa của mùa mưa gió mùa"
 trTR = "Muson süresi en fazla kaç gün"
 
 ["TimberSeasons.Setting.BadtideMonsoonDurationMinDays"]
-status = "normal"
 raw = "Badtide Monsoon duration min days"
+status = "normal"
 enUS = "Badtide Monsoon Minimum Duration (Days)"
 zhCN = "恶水季风持续时间最短天数"
 zhTW = "毒水季風持續時間最少天數"
@@ -1260,8 +1260,8 @@ viVN = "Số ngày tối thiểu của gió mùa nước độc"
 trTR = "Kötü Gelgit Musonu süresi (en az gün)"
 
 ["TimberSeasons.Setting.BadtideMonsoonDurationMaxDays"]
-status = "normal"
 raw = "Badtide Monsoon duration max days"
+status = "normal"
 enUS = "Maximum Badtide Monsoon Duration (Days)"
 zhCN = "恶水季风持续时间上限（天）"
 zhTW = "毒潮季風最長天數"
@@ -1277,8 +1277,8 @@ viVN = "Số ngày tối đa của mùa gió mùa nước độc"
 trTR = "Kötü Gelgit Musonu maksimum süresi (gün)"
 
 ["TimberSeasons.Setting.BlizzardDurationMinDays"]
-status = "normal"
 raw = "Blizzard duration min days"
+status = "normal"
 enUS = "Minimum blizzard duration (days)"
 zhCN = "暴风雪持续时间最小值（天）"
 zhTW = "暴風雪持續時間最短天數"
@@ -1294,8 +1294,8 @@ viVN = "Số ngày tối thiểu của bão tuyết"
 trTR = "Kar fırtınası süresi, en az gün"
 
 ["TimberSeasons.Setting.BlizzardDurationMaxDays"]
-status = "normal"
 raw = "Blizzard duration max days"
+status = "normal"
 enUS = "Maximum blizzard duration (days)"
 zhCN = "暴风雪最长持续天数"
 zhTW = "暴風雪最長持續天數"
@@ -1311,8 +1311,8 @@ viVN = "Thời lượng bão tuyết tối đa (ngày)"
 trTR = "Tipi süresinin azami gün sayısı"
 
 ["TimberSeasons.Setting.HandicapMultiplierPercent"]
-status = "normal"
 raw = "Hazard duration handicap multiplier % (shared, all 3 hazards)"
+status = "normal"
 enUS = "Hazard duration handicap multiplier % (shared across all 3 hazards)"
 zhCN = "灾害持续时间惩罚倍率 %（共用，适用于全部 3 种灾害）"
 zhTW = "災害持續時間難度調整倍率 %（共用，適用於全部 3 種災害）"
@@ -1328,8 +1328,8 @@ viVN = "Hệ số bất lợi về thời lượng hiểm họa % (dùng chung c
 trTR = "Tehlike süresi dezavantaj çarpanı % (ortak, 3 tehlikenin tümü)"
 
 ["TimberSeasons.Setting.HandicapCycles"]
-status = "normal"
 raw = "Hazard duration handicap cycles (shared, all 3 hazards)"
+status = "normal"
 enUS = "Hazard duration handicap cycles (shared, all 3 hazards)"
 zhCN = "灾害持续时间补偿周期（共享，涵盖全部3种灾害）"
 zhTW = "災害持續時間減益週期（共用，適用於全部 3 種災害）"
@@ -1345,8 +1345,8 @@ viVN = "Số chu kỳ bất lợi về thời lượng hiểm họa (dùng chung
 trTR = "Tehlike süresi dezavantaj döngüleri (ortak, 3 tehlikenin tümü)"
 
 ["TimberSeasons.Setting.PuddleIntensityMultiplierPercent"]
-status = "normal"
 raw = "Puddle intensity % - applies to Rain/BadRain/Snow/BadSnow coverage+depth"
+status = "normal"
 enUS = "Puddle intensity % - applies to Rain/BadRain/Snow/BadSnow coverage+depth"
 zhCN = "水洼强度百分比 - 适用于雨水/恶水/降雪/恶雪的覆盖范围和深度"
 zhTW = "積水強度 %－適用於雨／毒雨／雪／毒雪的覆蓋範圍與深度"
@@ -1362,8 +1362,8 @@ viVN = "Cường độ vũng nước % - áp dụng cho phạm vi bao phủ và 
 trTR = "Su Birikintisi Yoğunluğu % - Yağmur/Kötü Yağmur/Kar/Kötü Kar kapsamı+derinliği için geçerlidir"
 
 ["TimberSeasons.Setting.ContaminationProtectionEnabled"]
-status = "normal"
 raw = "Contamination protection enabled"
+status = "normal"
 enUS = "Contamination protection enabled"
 zhCN = "已启用污染防护"
 zhTW = "已啟用污染防護"
@@ -1379,8 +1379,8 @@ viVN = "Đã bật tính năng bảo vệ khỏi ô nhiễm"
 trTR = "Kirlenme koruması etkinleştirildi"
 
 ["TimberSeasons.Setting.GrowableProtectionRadius"]
-status = "normal"
 raw = "Growable protection radius"
+status = "normal"
 enUS = "Growable Protection Radius"
 zhCN = "可种植区域的保护半径"
 zhTW = "可種植植物的防護半徑"
@@ -1396,8 +1396,8 @@ viVN = "Bán kính bảo vệ có thể trồng trọt được"
 trTR = "Yetiştirilebilir koruma yarıçapı"
 
 ["TimberSeasons.Setting.SuppressionDepthPerTick"]
-status = "normal"
 raw = "Suppression depth per tick"
+status = "normal"
 enUS = "Suppression depth per tick"
 zhCN = "每刻抑制深度"
 zhTW = "每刻抑制深度"
@@ -1413,8 +1413,8 @@ viVN = "Độ sâu triệt tiêu mỗi tick"
 trTR = "Tik başına bastırma derinliği"
 
 ["TimberSeasons.Setting.BadRainContaminationPercent"]
-status = "normal"
 raw = "BadRain contamination %"
+status = "normal"
 enUS = "Badwater contamination %"
 zhCN = "恶雨污染率 %"
 zhTW = "壞雨污染率 %"
@@ -1430,8 +1430,8 @@ viVN = "Tỷ lệ ô nhiễm do mưa độc %"
 trTR = "Kötü yağmur kirlilik oranı %"
 
 ["TimberSeasons.Setting.BadSnowContaminationPercent"]
-status = "normal"
 raw = "BadSnow contamination %"
+status = "normal"
 enUS = "Bad Snow Contamination %"
 zhCN = "恶雪污染率 %"
 zhTW = "壞雪污染率 %"
@@ -1447,8 +1447,8 @@ viVN = "Tỷ lệ ô nhiễm do tuyết độc %"
 trTR = "Kötü Kar kirliliği %"
 
 ["TimberSeasons.Setting.MonsoonWaterMultiplierTenths"]
-status = "normal"
 raw = "Monsoon water multiplier (tenths, 30=3.0x)"
+status = "normal"
 enUS = "Monsoon water multiplier (tenths, 30=3.0x)"
 zhCN = "季风水量倍率（十分位，30=3.0x）"
 zhTW = "季風水量倍率（十分之一為單位，30=3.0 倍）"
@@ -1464,8 +1464,8 @@ viVN = "Hệ số nhân lượng nước mùa mưa (theo phần mười, 30=3.0x
 trTR = "Muson su çarpanı (onda birler, 30=3,0x)"
 
 ["TimberSeasons.Setting.BadtideMonsoonWaterMultiplierTenths"]
-status = "normal"
 raw = "Badtide Monsoon water multiplier (tenths, 50=5.0x)"
+status = "normal"
 enUS = "Badtide Monsoon water multiplier (tenths, 50=5.0x)"
 zhCN = "恶水季风水量倍率（以十分之一为单位，50=5.0x）"
 zhTW = "壞水季季風水量倍率（十分之一單位，50=5.0x）"
@@ -1481,8 +1481,8 @@ viVN = "Hệ số nhân lượng nước của mưa mùa gió mùa khi thủy tr
 trTR = "Kötü Gelgit Musonu su çarpanı (onda birler, 50=5,0x)"
 
 ["TimberSeasons.Preset.Name"]
-status = "normal"
 raw = "Start from preset"
+status = "normal"
 enUS = "Start from preset"
 zhCN = "从预设开始"
 zhTW = "從預設開始"
@@ -1498,8 +1498,8 @@ viVN = "Bắt đầu từ thiết lập sẵn"
 trTR = "Ön ayardan başlat"
 
 ["TimberSeasons.Preset.Choose"]
-status = "normal"
 raw = "(choose)"
+status = "normal"
 enUS = "(choose)"
 zhCN = "（选择）"
 zhTW = "（選擇）"
@@ -1515,8 +1515,8 @@ viVN = "(chọn)"
 trTR = "(seç)"
 
 ["TimberSeasons.Preset.Tooltip"]
-status = "normal"
 raw = "Fills this section's sliders from a built-in difficulty.\\nOnly changes these sliders, never a map you already have."
+status = "normal"
 enUS = "Fills this section's sliders from a built-in difficulty.\\nOnly changes these sliders, never a map you already have."
 zhCN = "用内置难度预设填充此部分的滑块设置。\\n只会更改这些滑块，不会更改已有地图。"
 zhTW = "以內建的難度設定填入本區段的滑桿。\\\\n只會變更這些滑桿，不會變更你已有的地圖。"
@@ -1532,8 +1532,8 @@ viVN = "Điền các thanh trượt của mục này theo độ khó có sẵn.\
 trTR = "Bu bölümün kaydırma çubuklarını yerleşik bir zorluk ayarına göre doldurur.\\nYalnızca bu kaydırma çubuklarını değiştirir, mevcut bir haritayı asla değiştirmez."
 
 ["TimberSeasons.Tip.DailyTriggerChancePercent"]
-status = "normal"
 raw = "Chance each day that an ambient weather event (rain, bad rain, snow or bad snow) starts on its own."
+status = "normal"
 enUS = "Daily chance that an ambient weather event (rain, bad rain, snow, or bad snow) starts on its own."
 zhCN = "每天随机触发环境天气事件（雨、恶雨、雪或恶雪）的概率。"
 zhTW = "每天自行開始環境天氣事件（雨、酸雨、雪或酸雪）的機率。"
@@ -1549,8 +1549,8 @@ viVN = "Xác suất mỗi ngày để một hiện tượng thời tiết tự n
 trTR = "Ortam hava olaylarının (yağmur, kötü yağmur, kar veya kötü kar) kendiliğinden başlama olasılığı (günlük)."
 
 ["TimberSeasons.Tip.StandaloneMinHours"]
-status = "normal"
 raw = "Shortest an ambient weather event lasts when it starts on its own, in hours."
+status = "normal"
 enUS = "Shortest duration, in hours, of an ambient weather event that starts on its own."
 zhCN = "环境天气事件自行开始时的最短持续时间（小时）。"
 zhTW = "環境天氣事件自行開始時的最短持續時間，以小時計。"
@@ -1566,8 +1566,8 @@ viVN = "Thời lượng ngắn nhất của một hiện tượng thời tiết 
 trTR = "Kendi kendine başladığında bir atmosferik hava olayının sürebileceği en kısa süre, saat cinsinden."
 
 ["TimberSeasons.Tip.StandaloneMaxHours"]
-status = "normal"
 raw = "Longest an ambient weather event lasts when it starts on its own, in hours."
+status = "normal"
 enUS = "Longest duration, in hours, of an ambient weather event that starts on its own."
 zhCN = "环境天气事件自行开始时的最长持续时间（小时）。"
 zhTW = "環境天氣事件自行開始時持續的最長時間，以小時為單位。"
@@ -1583,8 +1583,8 @@ viVN = "Thời lượng tối đa tính bằng giờ của một hiện tượng
 trTR = "Kendi kendine başladığında ortam hava olayının sürdüğü en uzun süre, saat cinsinden."
 
 ["TimberSeasons.Tip.HazardGuaranteedMinHours"]
-status = "normal"
 raw = "Shortest an ambient weather event lasts when it comes with a big hazard (Monsoon, Badtide Monsoon or Blizzard), in hours."
+status = "normal"
 enUS = "Minimum duration, in hours, of an ambient weather event when accompanied by a major hazard (Monsoon, Badtide Monsoon, or Blizzard)."
 zhCN = "伴有重大灾害（季风、恶潮季风或暴风雪）的环境天气事件的最短持续时间，单位：小时。"
 zhTW = "伴隨重大災害（季風、惡水季風或暴風雪）的環境天氣事件持續時間下限，以小時計。"
@@ -1600,8 +1600,8 @@ viVN = "Thời lượng ngắn nhất, tính bằng giờ, của một hiện t�
 trTR = "Büyük bir tehlikeyle (Muson, Kötü Gelgit Musonu veya Kar Fırtınası) birlikte gelen bir hava olayının sürebileceği en kısa süre, saat cinsinden."
 
 ["TimberSeasons.Tip.HazardGuaranteedMaxHours"]
-status = "normal"
 raw = "Longest an ambient weather event lasts when it comes with a big hazard (Monsoon, Badtide Monsoon or Blizzard), in hours."
+status = "normal"
 enUS = "Maximum duration, in hours, of an ambient weather event accompanied by a major hazard (Monsoon, Badtide Monsoon, or Blizzard)."
 zhCN = "伴随重大灾害（季风、恶水潮季风或暴风雪）时，环境天气事件的最长持续时间（小时）。"
 zhTW = "伴隨重大災害（季風、壞潮季風或暴風雪）的環境天氣事件最長持續時間，以小時計。"
@@ -1617,8 +1617,8 @@ viVN = "Thời lượng tối đa tính bằng giờ của một hiện tượng
 trTR = "Büyük bir tehlikenin (Muson, Kötü Gelgit Musonu veya Kar Fırtınası) eşlik ettiği bir ortam hava olayı en fazla bu kadar sürer, saat cinsinden."
 
 ["TimberSeasons.Tip.MidHazardReTriggerChancePercent"]
-status = "normal"
 raw = "Chance that another ambient weather event starts while a big hazard is already running."
+status = "normal"
 enUS = "Chance that another ambient weather event starts while a major hazard is already active."
 zhCN = "在大型灾害正在发生时，另一起环境天气事件开始的概率。"
 zhTW = "大型災害發生期間，另一個環境天氣事件開始的機率。"
@@ -1634,8 +1634,8 @@ viVN = "Khả năng một hiện tượng thời tiết nền khác bắt đầu
 trTR = "Büyük bir tehlike hâli sürerken başka bir olağan hava olayının başlama olasılığı."
 
 ["TimberSeasons.Tip.SnowFlavorChancePercent"]
-status = "normal"
 raw = "When snow falls, the chance it is plain Snow instead of Bad Snow. Higher is safer."
+status = "normal"
 enUS = "When snow falls, the chance that it's plain Snow instead of Bad Snow. Higher is safer."
 zhCN = "降雪时，降下普通雪而非恶雪的概率。数值越高越安全。"
 zhTW = "降雪時，降下普通雪而非壞雪的機率。數值越高越安全。"
@@ -1651,8 +1651,8 @@ viVN = "Khi tuyết rơi, xác suất đó là Tuyết thường thay vì Tuyế
 trTR = "Kar yağdığında, Zararlı Kar yerine normal Kar yağma olasılığı. Değer ne kadar yüksekse o kadar güvenlidir."
 
 ["TimberSeasons.Tip.RainFlavorChancePercent"]
-status = "normal"
 raw = "When rain falls, the chance it is plain Rain instead of Bad Rain. Higher is safer."
+status = "normal"
 enUS = "When rain falls, the chance that it is plain rain instead of bad rain. Higher is safer."
 zhCN = "降雨时，降下普通雨而非恶雨的概率。数值越高越安全。"
 zhTW = "下雨時，降下普通雨水而非壞雨的機率。數值越高越安全。"
@@ -1668,8 +1668,8 @@ viVN = "Khi trời mưa, xác suất đó là Mưa thường thay vì Mưa độ
 trTR = "Yağmur yağdığında, yağışın Kötü Yağmur yerine normal Yağmur olma ihtimali. Değer ne kadar yüksekse o kadar güvenlidir."
 
 ["TimberSeasons.Tip.SummerMonsoonFamilyChancePercent"]
-status = "normal"
 raw = "Chance in Summer that the big hazard is a Monsoon-family one (Monsoon or Badtide Monsoon) instead of the game's own Drought or Badtide."
+status = "normal"
 enUS = "Chance that the big Summer hazard is from the Monsoon family (Monsoon or Badtide Monsoon) instead of the game's own Drought or Badtide."
 zhCN = "夏季大型灾害属于季风类（季风或恶潮季风），而非游戏自带的干旱或恶潮的概率。"
 zhTW = "夏季的大型災害是季風類型（季風或惡水季風），而非遊戲原有的乾旱或惡水潮汐的機率。"
@@ -1685,8 +1685,8 @@ viVN = "Khả năng sự kiện nguy hiểm lớn trong Mùa hè thuộc nhóm G
 trTR = "Yaz mevsiminde büyük felaketin oyunun kendi Kuraklığı veya Kötü Gelgit'i yerine Muson ailesinden biri (Muson veya Kötü Gelgit Musonu) olma olasılığı."
 
 ["TimberSeasons.Tip.ShoulderMonsoonFamilyChancePercent"]
-status = "normal"
 raw = "Chance in Spring and Fall that the big hazard is a Monsoon-family one (Monsoon or Badtide Monsoon) instead of the game's own Drought or Badtide."
+status = "normal"
 enUS = "Chance in Spring and Fall that the major hazard is from the Monsoon family (Monsoon or Badtide Monsoon) instead of the game's own Drought or Badtide."
 zhCN = "春季和秋季出现大型灾害时，其属于季风类灾害（季风或恶潮季风）而非游戏自带的干旱或恶潮的概率。"
 zhTW = "春季與秋季出現季風類大型災害（季風或枯潮季風），而非遊戲原有的乾旱或枯潮的機率。"
@@ -1702,8 +1702,8 @@ viVN = "Xác suất trong Mùa xuân và Mùa thu để hiểm họa lớn thu�
 trTR = "İlkbahar ve sonbaharda, büyük felaketin oyunun kendi Kuraklığı veya Kötü Gelgiti yerine Muson ailesinden biri (Muson veya Kötü Gelgit Musonu) olma olasılığı."
 
 ["TimberSeasons.Tip.BadtideMonsoonWithinFamilyChancePercent"]
-status = "normal"
 raw = "Once a Monsoon-family hazard is picked, the chance it is the Badtide Monsoon instead of the plain Monsoon."
+status = "normal"
 enUS = "Once a Monsoon-family hazard is picked, the chance that it will be a Badtide Monsoon rather than a plain Monsoon."
 zhCN = "选中季风系列灾害后，它是恶潮季风而非普通季风的概率。"
 zhTW = "選中季風家族的災害後，它是壞潮季風而非普通季風的機率。"
@@ -1719,8 +1719,8 @@ viVN = "Sau khi đã chọn một hiểm họa thuộc nhóm Gió mùa, đây l�
 trTR = "Muson ailesinden bir tehlike seçildiğinde, bunun sıradan Muson yerine Badtide Musonu olma olasılığı."
 
 ["TimberSeasons.Tip.StreakChanceDecreaseThreshold"]
-status = "normal"
 raw = "Streak avoidance: once repeating the same hazard becomes less likely than this, its chance is cut by the decrease ratio. Higher steps in sooner."
+status = "normal"
 enUS = "Streak avoidance: once the chance of repeating the same hazard falls below this threshold, it is reduced by the decrease ratio. Higher values take effect sooner."
 zhCN = "连续事件规避：当重复出现同一种灾害的几率低于此值时，该几率会按降低比例缩减。数值越高，越早生效。"
 zhTW = "連續事件避免：一旦重複發生相同災害的機率低於此值，其機率便會依減少比例降低。數值越高，越早生效。"
@@ -1736,8 +1736,8 @@ viVN = "Tránh lặp chuỗi: khi khả năng lặp lại cùng một tai họa 
 trTR = "Seri önleme: Aynı tehlikenin tekrarlanma olasılığı bu değerin altına düştüğünde, olasılığı azalma oranıyla çarpılır. Daha yüksek değerler bu kuralı daha erken devreye sokar."
 
 ["TimberSeasons.Tip.StreakChanceResetThreshold"]
-status = "normal"
 raw = "Streak avoidance: once repeating the same hazard becomes less likely than this, the repeat is blocked entirely. Higher blocks sooner."
+status = "normal"
 enUS = "Streak avoidance: once repeating the same hazard becomes less likely than this threshold, the repeat is blocked entirely. Higher values block repeats sooner."
 zhCN = "连续灾害规避：重复发生同一灾害的可能性一旦低于此值，就会彻底阻止该灾害再次发生。数值越高，越早阻止重复发生。"
 zhTW = "連續狀況迴避：當重複發生相同危害的機率低於此值時，就會完全阻止該危害再次發生。數值越高，越早阻止。"
@@ -1753,8 +1753,8 @@ viVN = "Tránh lặp chuỗi: khi khả năng gặp lại cùng một hiểm h�
 trTR = "Art arda gelme önleme: Aynı tehlikenin tekrarlanma olasılığı bu değerin altına düştüğünde tekrar tamamen engellenir. Değer yükseldikçe daha erken engellenir."
 
 ["TimberSeasons.Tip.StreakDecreaseRatio"]
-status = "normal"
 raw = "Streak avoidance: what the repeat chance is multiplied by once the decrease threshold is crossed. Lower means a stronger cut."
+status = "normal"
 enUS = "Streak avoidance: the factor by which the repeat chance is multiplied after the decrease threshold is crossed. Lower values mean a stronger reduction."
 zhCN = "连败规避：超过递减阈值后，重复概率要乘以的数值。数值越低，削减幅度越大。"
 zhTW = "連續重複避免：超過遞減門檻後，重複機率要乘上的倍率。數值越低，削減幅度越大。"
@@ -1770,8 +1770,8 @@ viVN = "Tránh chuỗi lặp: xác suất lặp lại được nhân với giá 
 trTR = "Seri önleme: Azalma eşiği aşıldığında tekrar şansının çarpıldığı değer. Değer ne kadar düşükse, azalma o kadar güçlü olur."
 
 ["TimberSeasons.Tip.BlizzardConsumptionPointsPerHour"]
-status = "normal"
 raw = "Hunger and thirst change per hour during a Blizzard. More negative means beavers get hungry and thirsty faster."
+status = "normal"
 enUS = "Hunger and thirst change per hour during a Blizzard. More negative means beavers get hungry and thirsty faster."
 zhCN = "暴风雪期间每小时饥饿度和口渴度的变化。数值越低，海狸就会越快感到饥饿和口渴。"
 zhTW = "暴風雪期間，每小時的飢餓度和口渴度變化。數值越負，海狸就會越快感到飢餓和口渴。"
@@ -1787,8 +1787,8 @@ viVN = "Mức thay đổi cơn đói và khát mỗi giờ trong Bão Tuyết. G
 trTR = "Kar fırtınası sırasında açlık ve susuzluk saat başına değişir. Değer ne kadar negatifse kunduzlar o kadar çabuk acıkır ve susar."
 
 ["TimberSeasons.Tip.RainWetFurBonusPerHour"]
-status = "normal"
 raw = "Wet Fur bonus per hour while it rains. Higher is a bigger benefit."
+status = "normal"
 enUS = "Wet Fur bonus per hour while it rains. Higher values provide a greater benefit."
 zhCN = "下雨时每小时获得的湿毛皮加成。数值越高，收益越大。"
 zhTW = "下雨時，每小時的濕毛皮加成。數值越高，效果越好。"
@@ -1804,8 +1804,8 @@ viVN = "Tiền thưởng Lông ướt mỗi giờ khi trời mưa. Giá trị c�
 trTR = "Yağmur yağarken saat başına Islak Kürk bonusu. Değer ne kadar yüksekse, fayda o kadar büyük olur."
 
 ["TimberSeasons.Tip.GracePeriodCycles"]
-status = "normal"
 raw = "Number of early cycles with no custom big hazards (the game's own Drought and Badtide apply) and bad ambient variants suppressed."
+status = "normal"
 enUS = "Number of early cycles without custom major hazards (the game's own drought and badtide still apply) and with bad ambient variants suppressed."
 zhCN = "启用免灾期的前几个周期内，不会发生自定义的大型灾害（但游戏自带的旱季和恶水潮仍会发生），同时还会抑制恶劣的环境变体。"
 zhTW = "無自訂大型災害（遊戲本身的乾旱和壞潮仍會發生）且停用惡劣環境變種的初期週期數。"
@@ -1821,8 +1821,8 @@ viVN = "Số chu kỳ đầu tiên không có thảm họa lớn tùy chỉnh (D
 trTR = "Özel büyük tehlikelerin görülmediği erken döngü sayısı (oyunun kendi Kuraklık ve Kötü Gelgit olayları geçerlidir) ve kötü ortam varyantlarının devre dışı bırakıldığı süre."
 
 ["TimberSeasons.Tip.DurationDampeningWindowCycles"]
-status = "normal"
 raw = "After the grace period, how many cycles it takes for hazard durations to reach full strength."
+status = "normal"
 enUS = "After the grace period, the number of cycles it takes for hazard durations to reach full strength."
 zhCN = "宽限期结束后，危害持续时间需要多少个周期才能达到最大强度。"
 zhTW = "寬限期過後，危害持續時間需要多少個週期才會達到完整強度。"
@@ -1838,8 +1838,8 @@ viVN = "Sau thời gian ân hạn, cần bao nhiêu chu kỳ để thời lượ
 trTR = "Ek süre bittikten sonra tehlike sürelerinin tam güce ulaşmasının kaç döngü sürdüğü."
 
 ["TimberSeasons.Tip.DurationDampeningStartPercent"]
-status = "normal"
 raw = "How strong, in percent, the first hazard after the grace period is. Lower is gentler."
+status = "normal"
 enUS = "How strong the first hazard is after the grace period, as a percentage. Lower is gentler."
 zhCN = "宽限期结束后首次灾害的强度百分比。数值越低，灾害越温和。"
 zhTW = "寬限期後首次災害的強度百分比。數值越低，影響越輕微。"
@@ -1855,8 +1855,8 @@ viVN = "Mức độ mạnh, tính theo phần trăm, của đợt nguy hại đ�
 trTR = "Ek sürenin ardından gelen ilk tehlikenin yüzde olarak ne kadar şiddetli olduğu. Daha düşük değer daha hafiftir."
 
 ["TimberSeasons.Tip.FlavorSuppressionWindowCycles"]
-status = "normal"
 raw = "After the grace period, how many cycles it takes for bad ambient variants to reach their real odds."
+status = "normal"
 enUS = "After the grace period, the number of cycles it takes for bad ambient variants to reach their actual odds."
 zhCN = "宽限期结束后，环境中的恶劣变体需要多少个周期才会达到实际出现概率。"
 zhTW = "寬限期結束後，惡劣環境變體要經過幾個週期才會達到實際機率。"
@@ -1872,8 +1872,8 @@ viVN = "Sau khoảng thời gian ân hạn, cần bao nhiêu chu kỳ để các
 trTR = "Ek süre bittikten sonra kötü çevresel varyantların gerçek olasılıklarına ulaşması kaç döngü sürer?"
 
 ["TimberSeasons.Tip.FlavorSuppressionStartGoodPercent"]
-status = "normal"
 raw = "Right after the grace period, the percent chance that an ambient event is the good variant. Higher is safer."
+status = "normal"
 enUS = "Right after the grace period, the percent chance that an ambient event is the good variant. Higher is safer."
 zhCN = "宽限期结束后，环境事件为有利变体的概率百分比。数值越高越安全。"
 zhTW = "寬限期結束後，環境事件為良性變體的機率百分比。數值越高越安全。"
@@ -1889,8 +1889,8 @@ viVN = "Ngay sau thời gian ân hạn, tỷ lệ phần trăm để một sự 
 trTR = "Ek süre bittikten hemen sonra, ortam olayının iyi türde olma yüzdesi. Değer ne kadar yüksekse o kadar güvenlidir."
 
 ["TimberSeasons.Tip.SnowGrowthBoostPerDay"]
-status = "normal"
 raw = "Growth speed bonus per day for plants while it snows."
+status = "normal"
 enUS = "Growth speed bonus per day for plants while it snows."
 zhCN = "下雪期间植物每天的生长速度加成。"
 zhTW = "下雪期間植物每日的生長速度加成。"
@@ -1906,8 +1906,8 @@ viVN = "Mức thưởng tốc độ sinh trưởng mỗi ngày của cây trồn
 trTR = "Kar yağarken bitkiler için günlük büyüme hızı bonusu."
 
 ["TimberSeasons.Tip.BadRainSlowdownPerDay"]
-status = "normal"
 raw = "Growth slowdown per day for plants during Bad Rain. More negative is a bigger slowdown."
+status = "normal"
 enUS = "Daily plant growth slowdown during Bad Rain. More negative values mean a greater slowdown."
 zhCN = "恶雨期间植物每日生长减缓幅度。数值越负，减缓越严重。"
 zhTW = "壞雨期間植物每日生長減緩量。數值越負，減緩越嚴重。"
@@ -1923,8 +1923,8 @@ viVN = "Mức giảm tốc độ sinh trưởng mỗi ngày của cây trồng t
 trTR = "Kötü Yağmur sırasında bitkilerin günlük büyüme yavaşlaması. Değer ne kadar negatifse yavaşlama o kadar büyüktür."
 
 ["TimberSeasons.Tip.BadSnowSlowdownPerDay"]
-status = "normal"
 raw = "Growth slowdown per day for plants during Bad Snow. More negative is a bigger slowdown."
+status = "normal"
 enUS = "Daily growth slowdown for plants during Bad Snow. More negative means a greater slowdown."
 zhCN = "恶雪期间植物每日生长减缓幅度。数值越负，减缓越严重。"
 zhTW = "壞雪期間植物每天的生長減緩幅度。數值越負，減緩越嚴重。"
@@ -1940,8 +1940,8 @@ viVN = "Mức giảm tốc độ sinh trưởng mỗi ngày của cây trong đ�
 trTR = "Kötü Kar sırasında bitkilerin günlük büyüme yavaşlaması. Değer ne kadar negatifse yavaşlama o kadar büyüktür."
 
 ["TimberSeasons.Tip.MonsoonDurationMinDays"]
-status = "normal"
 raw = "Shortest a Monsoon lasts, in days."
+status = "normal"
 enUS = "Shortest duration of a Monsoon, in days."
 zhCN = "季风持续时间的最短天数。"
 zhTW = "季風持續的最短天數。"
@@ -1957,8 +1957,8 @@ viVN = "Thời gian ngắn nhất một mùa mưa kéo dài, tính bằng ngày.
 trTR = "Bir Musonun sürebileceği en kısa süre, gün olarak."
 
 ["TimberSeasons.Tip.MonsoonDurationMaxDays"]
-status = "normal"
 raw = "Longest a Monsoon lasts, in days."
+status = "normal"
 enUS = "Longest a monsoon lasts, in days."
 zhCN = "季风持续时间上限，以天为单位。"
 zhTW = "季風最長持續天數。"
@@ -1974,8 +1974,8 @@ viVN = "Thời gian Mùa mưa kéo dài tối đa, tính bằng ngày."
 trTR = "Musonun sürebileceği en uzun süre, gün cinsinden."
 
 ["TimberSeasons.Tip.BadtideMonsoonDurationMinDays"]
-status = "normal"
 raw = "Shortest a Badtide Monsoon lasts, in days."
+status = "normal"
 enUS = "Shortest duration of a Badtide Monsoon, in days."
 zhCN = "恶水季风的最短持续时间，单位：天。"
 zhTW = "壞水季風最短持續天數。"
@@ -1991,8 +1991,8 @@ viVN = "Thời gian ngắn nhất một mùa mưa độc hại kéo dài, tính 
 trTR = "Bir Kötü Gelgit Musonunun en kısa süresi, gün cinsinden."
 
 ["TimberSeasons.Tip.BadtideMonsoonDurationMaxDays"]
-status = "normal"
 raw = "Longest a Badtide Monsoon lasts, in days."
+status = "normal"
 enUS = "Longest duration of a Badtide Monsoon, in days."
 zhCN = "恶潮季风最长持续时间（天）。"
 zhTW = "壞潮季風最長持續天數。"
@@ -2008,8 +2008,8 @@ viVN = "Thời gian tối đa của một đợt gió mùa nước độc, tính
 trTR = "Bir Kötü Gelgit Musonunun sürebileceği en uzun süre, gün olarak."
 
 ["TimberSeasons.Tip.BlizzardDurationMinDays"]
-status = "normal"
 raw = "Shortest a Blizzard lasts, in days."
+status = "normal"
 enUS = "Shortest duration of a Blizzard, in days."
 zhCN = "暴风雪持续时间最短值，单位：天。"
 zhTW = "暴風雪持續的最短天數。"
@@ -2025,8 +2025,8 @@ viVN = "Thời gian ngắn nhất một trận bão tuyết kéo dài, tính b�
 trTR = "Kar fırtınasının sürebileceği en kısa süre, gün cinsinden."
 
 ["TimberSeasons.Tip.BlizzardDurationMaxDays"]
-status = "normal"
 raw = "Longest a Blizzard lasts, in days."
+status = "normal"
 enUS = "Longest Blizzard duration, in days."
 zhCN = "暴风雪持续的最长时间（天）。"
 zhTW = "暴風雪持續時間上限（天）"
@@ -2042,8 +2042,8 @@ viVN = "Thời gian bão tuyết kéo dài tối đa, tính bằng ngày."
 trTR = "Bir Kar Fırtınasının sürebileceği en uzun süre, gün cinsinden."
 
 ["TimberSeasons.Tip.HandicapMultiplierPercent"]
-status = "normal"
 raw = "Early-game handicap: how strong hazard durations are at the start, in percent. It rises to 100% over the handicap cycles. Applies to all three big hazards."
+status = "normal"
 enUS = "Early-game handicap: the strength of hazard durations at the start, in percent. It rises to 100% over the handicap cycles. Applies to all three major hazards."
 zhCN = "游戏前期的难度调整：游戏开始时灾害持续时间的强度百分比。经过设定的调整周期后，该数值会升至 100%。适用于三种主要灾害。"
 zhTW = "初期遊戲難度調整：遊戲開始時災害持續時間的強度，以百分比表示。此數值會在難度調整週期內升至 100%。適用於三種大型災害。"
@@ -2059,8 +2059,8 @@ viVN = "Bất lợi đầu game: thời lượng các hiểm họa mạnh đến
 trTR = "Oyun başındaki dezavantaj: büyük tehlikelerin başlangıçtaki süresi, yüzde olarak. Dezavantaj döngüleri boyunca %100'e yükselir. Üç büyük tehlikenin tamamına uygulanır."
 
 ["TimberSeasons.Tip.HandicapCycles"]
-status = "normal"
 raw = "Early-game handicap: how many cycles it takes for hazard durations to rise to full length. Applies to all three big hazards."
+status = "normal"
 enUS = "Early-game handicap: the number of cycles it takes for hazard durations to reach their full length. Applies to all three major hazards."
 zhCN = "前期缓冲：灾害时长增加到完整时长所需的周期数。适用于三种主要灾害。"
 zhTW = "初期緩衝期：危害持續時間增加至完整長度所需的週期數。適用於三種主要危害。"
@@ -2076,8 +2076,8 @@ viVN = "Bất lợi đầu trận: cần bao nhiêu chu kỳ để thời lượ
 trTR = "Oyunun başındaki dezavantaj: tehlikelerin süresinin tam uzunluğa ulaşmasının kaç döngü alacağı. Üç büyük tehlikenin tümü için geçerlidir."
 
 ["TimberSeasons.Tip.PuddleIntensityMultiplierPercent"]
-status = "normal"
 raw = "How big and deep ambient weather puddles are, in percent. 100 is normal."
+status = "normal"
 enUS = "How large and deep ambient weather puddles are, as a percentage. 100 is normal."
 zhCN = "环境天气形成的水洼大小和深度，以百分比表示。100 为正常值。"
 zhTW = "環境天氣形成的水窪大小與深度，以百分比表示。100 為正常值。"
@@ -2093,8 +2093,8 @@ viVN = "Kích thước và độ sâu của các vũng nước do thời tiết 
 trTR = "Ortam havasının oluşturduğu su birikintilerinin büyüklüğü ve derinliği, yüzde olarak. 100 normal değerdir."
 
 ["TimberSeasons.Tip.ContaminationProtectionEnabled"]
-status = "normal"
 raw = "When on, contaminated ambient water is kept away from tiles near crops and trees."
+status = "normal"
 enUS = "When enabled, contaminated ambient water is kept away from tiles near crops and trees."
 zhCN = "启用时，会阻止受污染的环境水流向作物和树木附近的地块。"
 zhTW = "啟用時，受污染的環境水會被隔離在農作物與樹木附近的地塊之外。"
@@ -2110,8 +2110,8 @@ viVN = "Khi được bật, nước ô nhiễm xung quanh sẽ bị ngăn cách 
 trTR = "Açıkken, kirlenmiş ortam suyu mahsul ve ağaçların yakınındaki karelerden uzak tutulur."
 
 ["TimberSeasons.Tip.GrowableProtectionRadius"]
-status = "normal"
 raw = "How many tiles around crops and trees the protection covers."
+status = "normal"
 enUS = "How many tiles around crops and trees the protection covers."
 zhCN = "防护范围覆盖作物和树木周围多少格。"
 zhTW = "保護範圍涵蓋作物和樹木周圍多少格。"
@@ -2127,8 +2127,8 @@ viVN = "Phạm vi bảo vệ cây trồng và cây cối, tính bằng số ô x
 trTR = "Korumanın ekinlerin ve ağaçların çevresinde kaç kareyi kapsadığı."
 
 ["TimberSeasons.Tip.SuppressionDepthPerTick"]
-status = "normal"
 raw = "How much contaminated puddle water is removed per tick inside the protected area. Higher clears it faster."
+status = "normal"
 enUS = "How much contaminated puddle water is removed per tick within the protected area. A higher value clears it faster."
 zhCN = "每个刻内，保护区域内会清除多少受污染的水洼水。数值越高，清除速度越快。"
 zhTW = "每個 tick 會清除防護區域內多少受污染的積水。數值越高，清除速度越快。"
@@ -2144,8 +2144,8 @@ viVN = "Lượng nước vũng bị ô nhiễm được loại bỏ mỗi nhịp
 trTR = "Korunan alandaki kirlenmiş su birikintisinden her tikte ne kadar su temizlenir. Değer ne kadar yüksekse, birikinti o kadar hızlı temizlenir."
 
 ["TimberSeasons.Tip.BadRainContaminationPercent"]
-status = "normal"
 raw = "How contaminated Bad Rain puddles are, in percent."
+status = "normal"
 enUS = "Percentage of contamination in Bad Rain puddles."
 zhCN = "恶雨水洼的污染程度，以百分比表示。"
 zhTW = "有毒雨水水窪的污染程度，以百分比表示。"
@@ -2161,8 +2161,8 @@ viVN = "Mức độ ô nhiễm của các vũng Mưa bẩn, tính theo phần tr
 trTR = "Kirli yağmur birikintilerinin kirlilik oranı, yüzde olarak."
 
 ["TimberSeasons.Tip.BadSnowContaminationPercent"]
-status = "normal"
 raw = "How contaminated Bad Snow puddles are, in percent."
+status = "normal"
 enUS = "How contaminated Bad Snow puddles are, in percent."
 zhCN = "恶雪水洼的污染程度，以百分比表示。"
 zhTW = "壞雪水窪的污染程度百分比。"
@@ -2178,8 +2178,8 @@ viVN = "Mức độ ô nhiễm của các vũng Tuyết Bẩn, tính theo phần
 trTR = "Kirli Kar birikintilerinin kirlilik oranı, yüzde olarak."
 
 ["TimberSeasons.Tip.MonsoonWaterMultiplierTenths"]
-status = "normal"
 raw = "How much more water a Monsoon brings, in tenths. 30 means 3.0 times."
+status = "normal"
 enUS = "How much more water a monsoon brings, in tenths. 30 means 3.0 times."
 zhCN = "季风带来的水量增幅，以十分之一为单位。30 表示 3.0 倍。"
 zhTW = "季風帶來的水量會增加多少，以十分之一為單位。30 表示 3.0 倍。"
@@ -2195,8 +2195,8 @@ viVN = "Lượng nước Mùa mưa mang đến nhiều hơn là bao nhiêu, tín
 trTR = "Musonun ne kadar daha fazla su getireceği, onda birler cinsinden. 30, 3,0 katı demektir."
 
 ["TimberSeasons.Tip.BadtideMonsoonWaterMultiplierTenths"]
-status = "normal"
 raw = "How much more water a Badtide Monsoon brings, in tenths. 50 means 5.0 times."
+status = "normal"
 enUS = "How much more water a Badtide Monsoon brings, in tenths. 50 means 5.0 times."
 zhCN = "恶潮季风带来的水量增加多少，以十分之一为单位。50 表示 5.0 倍。"
 zhTW = "壞潮季風帶來的水量增加多少（以十分之一為單位）。50 代表 5.0 倍。"
@@ -2212,8 +2212,8 @@ viVN = "Lượng nước Badtide Monsoon mang đến nhiều hơn bao nhiêu, t�
 trTR = "Badtide Musonunun ne kadar fazla su getirdiği, onda birler cinsinden. 50, 5,0 katı demektir."
 
 ["TimberSeasons.Setting.StandaloneHours"]
-status = "normal"
 raw = "Standalone duration (hours)"
+status = "normal"
 enUS = "Standalone duration (hours)"
 zhCN = "独立模式时长（小时）"
 zhTW = "獨立持續時間（小時）"
@@ -2229,8 +2229,8 @@ viVN = "Thời lượng độc lập (giờ)"
 trTR = "Tek başına süre (saat)"
 
 ["TimberSeasons.Setting.HazardGuaranteedHours"]
-status = "normal"
 raw = "Hazard-guaranteed duration (hours)"
+status = "normal"
 enUS = "Hazard-guaranteed duration (hours)"
 zhCN = "危险保障时长（小时）"
 zhTW = "危害保證持續時間（小時）"
@@ -2246,8 +2246,8 @@ viVN = "Thời lượng được đảm bảo có hiểm họa (giờ)"
 trTR = "Tehlike garantili süre (saat)"
 
 ["TimberSeasons.Setting.MonsoonDays"]
-status = "normal"
 raw = "Monsoon duration (days)"
+status = "normal"
 enUS = "Monsoon duration (days)"
 zhCN = "季风持续时间（天）"
 zhTW = "季風持續時間（天）"
@@ -2263,8 +2263,8 @@ viVN = "Thời lượng mùa gió mùa (ngày)"
 trTR = "Muson süresi (gün)"
 
 ["TimberSeasons.Setting.BadtideMonsoonDays"]
-status = "normal"
 raw = "Badtide Monsoon duration (days)"
+status = "normal"
 enUS = "Badtide Monsoon duration (days)"
 zhCN = "恶潮季风持续时间（天）"
 zhTW = "毒潮季風持續時間（天）"
@@ -2280,8 +2280,8 @@ viVN = "Thời lượng gió mùa nước độc (ngày)"
 trTR = "Kötü Su Musonu süresi (gün)"
 
 ["TimberSeasons.Setting.BlizzardDays"]
-status = "normal"
 raw = "Blizzard duration (days)"
+status = "normal"
 enUS = "Blizzard duration (days)"
 zhCN = "暴风雪持续时间（天）"
 zhTW = "暴風雪持續時間（天）"
@@ -2297,8 +2297,8 @@ viVN = "Thời gian bão tuyết (ngày)"
 trTR = "Kar fırtınasının süresi (gün)"
 
 ["TimberSeasons.Tip.StandaloneHours"]
-status = "normal"
 raw = "Shortest to longest an ambient weather event lasts when it starts on its own, in hours.\\nDrag the two handles."
+status = "normal"
 enUS = "Shortest to longest duration, in hours, of an ambient weather event when it starts on its own.\\nDrag the two handles."
 zhCN = "天气事件自行开始时持续时间的最短值和最长值，以小时计。\\\\n拖动两个滑块。"
 zhTW = "環境天氣事件自行開始時，持續時間的最短值至最長值，以小時為單位。\\\\n拖曳兩個控制點。"
@@ -2314,8 +2314,8 @@ viVN = "Thời lượng ngắn nhất đến dài nhất của một sự kiện
 trTR = "Kendiliğinden başladığında ortam hava olayının sürebileceği en kısa ve en uzun süre, saat cinsinden.\\nİki tutamacı sürükleyin."
 
 ["TimberSeasons.Tip.HazardGuaranteedHours"]
-status = "normal"
 raw = "Shortest to longest an ambient weather event lasts when it comes with a big hazard (Monsoon, Badtide Monsoon or Blizzard), in hours.\\nDrag the two handles."
+status = "normal"
 enUS = "Shortest to longest duration, in hours, for an ambient weather event that comes with a major hazard (Monsoon, Badtide Monsoon, or Blizzard).\\nDrag the two handles."
 zhCN = "伴随重大灾害（季风、恶潮季风或暴风雪）的环境天气事件持续时间范围，从最短到最长，以小时计。\\n拖动两个滑块。"
 zhTW = "伴隨重大災害（季風、壞潮季風或暴風雪）的環境天氣事件持續時間範圍，以小時為單位。\\\\n拖曳兩個把手。"
@@ -2331,8 +2331,8 @@ viVN = "Thời lượng của một hiện tượng thời tiết thông thườ
 trTR = "Büyük bir tehlikeyle (Muson, Kötü Gelgit Musonu veya Kar Fırtınası) birlikte görülen bir ortam hava olayı en kısa ve en uzun ne kadar sürer (saat cinsinden).\\\\nİki tutamacı sürükleyin."
 
 ["TimberSeasons.Tip.MonsoonDays"]
-status = "normal"
 raw = "Shortest to longest a Monsoon lasts, in days.\\nDrag the two handles."
+status = "normal"
 enUS = "Shortest to longest a monsoon lasts, in days.\\nDrag the two handles."
 zhCN = "季风持续时间的最短值到最长值，以天为单位。\\n拖动两个滑块。"
 zhTW = "季風持續天數的最短至最長範圍。\\n拖曳兩個控制柄。"
@@ -2348,8 +2348,8 @@ viVN = "Thời lượng Mùa mưa từ ngắn nhất đến dài nhất, tính b
 trTR = "Musonun sürebileceği en kısa ve en uzun süre, gün cinsinden.\\nİki tutamacı sürükleyin."
 
 ["TimberSeasons.Tip.BadtideMonsoonDays"]
-status = "normal"
 raw = "Shortest to longest a Badtide Monsoon lasts, in days.\\nDrag the two handles."
+status = "normal"
 enUS = "Shortest to longest duration of a Badtide Monsoon, in days.\\nDrag the two handles."
 zhCN = "恶潮季风持续天数的最短值到最长值。\\n拖动两个手柄。"
 zhTW = "惡潮季風持續時間的最短與最長天數。\\\\n拖動兩個控制點。"
@@ -2365,8 +2365,8 @@ viVN = "Thời gian kéo dài của Badtide Monsoon, tính bằng ngày, từ ng
 trTR = "En kısa Badtide Musonu'ndan en uzuna, gün cinsinden.\\nİki tutamacı sürükleyin."
 
 ["TimberSeasons.Tip.BlizzardDays"]
-status = "normal"
 raw = "Shortest to longest a Blizzard lasts, in days.\\nDrag the two handles."
+status = "normal"
 enUS = "Shortest to longest a Blizzard lasts, in days.\\nDrag the two handles."
 zhCN = "暴风雪持续时间的最短值至最长值，单位为天。\\n拖动两个手柄。"
 zhTW = "暴風雪持續天數的最短至最長範圍。\\n拖動兩個控制柄。"

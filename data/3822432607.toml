@@ -2,8 +2,8 @@
 name = "Fair Warning"
 
 ["FairWarning.Section.Mode"]
-status = "normal"
 raw = "Mode"
+status = "normal"
 enUS = "Mode"
 zhCN = "模式"
 zhTW = "模式"
@@ -19,8 +19,8 @@ viVN = "Chế độ"
 trTR = "Mod"
 
 ["FairWarning.Section.RandomReveal"]
-status = "normal"
 raw = "Random Reveal"
+status = "normal"
 enUS = "Random Reveal"
 zhCN = "随机揭示"
 zhTW = "隨機揭露"
@@ -36,8 +36,8 @@ viVN = "Tiết lộ ngẫu nhiên"
 trTR = "Rastgele Ortaya Çıkarma"
 
 ["FairWarning.Section.CustomDrought"]
-status = "normal"
 raw = "Custom Drought"
+status = "normal"
 enUS = "Custom Drought"
 zhCN = "自定义旱灾"
 zhTW = "自訂乾旱"
@@ -53,8 +53,8 @@ viVN = "Hạn hán tùy chỉnh"
 trTR = "Özel Kuraklık"
 
 ["FairWarning.Section.CustomBadtide"]
-status = "normal"
 raw = "Custom Badtide"
+status = "normal"
 enUS = "Custom Badtide"
 zhCN = "自定义恶水潮汐"
 zhTW = "自訂壞潮"
@@ -70,8 +70,8 @@ viVN = "Đợt nước độc tùy chỉnh"
 trTR = "Özel Kötü Gelgit"
 
 ["FairWarning.Section.CustomSeasonal"]
-status = "normal"
 raw = "Custom Seasonal"
+status = "normal"
 enUS = "Custom Seasonal"
 zhCN = "自定义季节"
 zhTW = "自訂季節性"
@@ -87,8 +87,8 @@ viVN = "Mùa theo mùa tùy chỉnh"
 trTR = "Özel Mevsimsel"
 
 ["FairWarning.Mode.Name"]
-status = "normal"
 raw = "Mode"
+status = "normal"
 enUS = "Mode"
 zhCN = "模式"
 zhTW = "模式"
@@ -104,8 +104,8 @@ viVN = "Chế độ"
 trTR = "Mod"
 
 ["FairWarning.Mode.Tooltip"]
-status = "normal"
 raw = "The mode for new maps. Each map keeps the mode it started with,\\nso changing this won't affect maps you already have."
+status = "normal"
 enUS = "The mode for new maps. Each map keeps the mode it started with,\\nso changing this won't affect maps you already have."
 zhCN = "新地图的模式。每张地图都会保留其创建时的模式，\\\\n因此更改此项不会影响已有地图。"
 zhTW = "新地圖的模式。每張地圖會保留建立時的模式，\\\\n所以變更此設定不會影響你現有的地圖。"
@@ -121,8 +121,8 @@ viVN = "Chế độ dành cho bản đồ mới. Mỗi bản đồ giữ nguyên
 trTR = "Yeni haritalar için mod. Her harita başladığı modu korur,\\\\nbu nedenle bunu değiştirmek mevcut haritalarınızı etkilemez."
 
 ["FairWarning.Value.Auto"]
-status = "normal"
 raw = "Auto"
+status = "normal"
 enUS = "Auto"
 zhCN = "自动"
 zhTW = "自動"
@@ -138,8 +138,8 @@ viVN = "Tự động"
 trTR = "Otomatik"
 
 ["FairWarning.Value.Easy"]
-status = "normal"
 raw = "Easy"
+status = "normal"
 enUS = "Easy"
 zhCN = "简单"
 zhTW = "簡單"
@@ -155,8 +155,8 @@ viVN = "Dễ dàng"
 trTR = "Kolay"
 
 ["FairWarning.Value.Normal"]
-status = "normal"
 raw = "Normal"
+status = "normal"
 enUS = "Normal"
 zhCN = "正常"
 zhTW = "普通"
@@ -172,8 +172,8 @@ viVN = "Bình thường"
 trTR = "Normal"
 
 ["FairWarning.Value.Hard"]
-status = "normal"
 raw = "Hard"
+status = "normal"
 enUS = "Hard"
 zhCN = "困难"
 zhTW = "困難"
@@ -189,8 +189,8 @@ viVN = "Khó khăn"
 trTR = "Zor"
 
 ["FairWarning.Value.Brutal"]
-status = "normal"
 raw = "Brutal"
+status = "normal"
 enUS = "Brutal"
 zhCN = "残酷"
 zhTW = "殘酷"
@@ -206,8 +206,8 @@ viVN = "Tàn khốc"
 trTR = "Acımasız"
 
 ["FairWarning.Value.Custom"]
-status = "normal"
 raw = "Custom"
+status = "normal"
 enUS = "Custom"
 zhCN = "自定义"
 zhTW = "自訂"
@@ -223,8 +223,8 @@ viVN = "Tùy chỉnh"
 trTR = "Özel"
 
 ["FairWarning.Value.Random"]
-status = "normal"
 raw = "Random"
+status = "normal"
 enUS = "Random"
 zhCN = "随机"
 zhTW = "隨機"
@@ -240,8 +240,8 @@ viVN = "Ngẫu nhiên"
 trTR = "Rastgele"
 
 ["FairWarning.Value.ZeroNotice"]
-status = "normal"
 raw = "Zero Notice"
+status = "normal"
 enUS = "Zero Notice"
 zhCN = "零通知"
 zhTW = "零通知"
@@ -257,8 +257,8 @@ viVN = "Không báo trước"
 trTR = "Sıfır Bildirim"
 
 ["FairWarning.Level.Name"]
-status = "normal"
 raw = "Zero Notice level"
+status = "normal"
 enUS = "Zero Notice Level"
 zhCN = "零警告等级"
 zhTW = "零通知等級"
@@ -274,8 +274,8 @@ viVN = "Cấp độ Không Báo Trước"
 trTR = "Sıfır Uyarı seviyesi"
 
 ["FairWarning.Level.Tooltip"]
-status = "normal"
 raw = "Only used when Mode is Zero Notice.\\nAlarm Bells: no warning; hazard start and end are still announced.\\nRadio Silence: also hides those popups and sounds.\\nTotal Blackout: also keeps the weather panel and date icon normal."
+status = "normal"
 enUS = "Only used when Mode is Zero Notice.\\nAlarm Bells: no warning; hazard start and end are still announced.\\nRadio Silence: also hides those popups and sounds.\\nTotal Blackout: also keeps the weather panel and date icon normal."
 zhCN = "仅在模式为“零通知”时使用。\\\\n警报铃：不发出警告；仍会播报危险的开始和结束。\\\\n无线电静默：还会隐藏这些弹窗和声音。\\\\n全面停电：还会使天气面板和日期图标保持正常。"
 zhTW = "僅在模式為「零通知」時使用。\\\\n警鐘：不會發出警告；仍會公告危險的開始與結束。\\\\n無線電靜默：也會隱藏這些彈出訊息與音效。\\\\n全面斷訊：也會讓天氣面板和日期圖示維持正常。"
@@ -291,8 +291,8 @@ viVN = "Chỉ được dùng khi Chế độ là Không báo trước.\\nChuông
 trTR = "Yalnızca Mod Sıfır Uyarı olduğunda kullanılır.\\nAlarm Zilleri: uyarı yok; tehlikenin başlangıcı ve bitişi yine de duyurulur.\\nRadyo Sessizliği: bu açılır pencereleri ve sesleri de gizler.\\nTam Karartma: hava durumu paneli ve tarih simgesi de normal kalır."
 
 ["FairWarning.Level.AlarmBells"]
-status = "normal"
 raw = "Alarm Bells"
+status = "normal"
 enUS = "Alarm Bells"
 zhCN = "警报铃声"
 zhTW = "警鐘"
@@ -308,8 +308,8 @@ viVN = "Chuông báo động"
 trTR = "Alarm Zilleri"
 
 ["FairWarning.Level.RadioSilence"]
-status = "normal"
 raw = "Radio Silence"
+status = "normal"
 enUS = "Radio Silence"
 zhCN = "无线电静默"
 zhTW = "無線電靜默"
@@ -325,8 +325,8 @@ viVN = "Im lặng vô tuyến"
 trTR = "Radyo Sessizliği"
 
 ["FairWarning.Level.TotalBlackout"]
-status = "normal"
 raw = "Total Blackout"
+status = "normal"
 enUS = "Total Blackout"
 zhCN = "全面停电"
 zhTW = "全面停電"
@@ -342,8 +342,8 @@ viVN = "Mất điện hoàn toàn"
 trTR = "Tam Karartma"
 
 ["FairWarning.IncludeZero.Name"]
-status = "normal"
 raw = "Include Zero Notice in Random"
+status = "normal"
 enUS = "Include Zero Notice in Random"
 zhCN = "在随机项中包含“零”通知"
 zhTW = "在隨機選項中包含零通知"
@@ -359,8 +359,8 @@ viVN = "Bao gồm Thông báo 0 trong ngẫu nhiên"
 trTR = "Rastgeleye Sıfır Uyarısını Dahil Et"
 
 ["FairWarning.IncludeZero.Tooltip"]
-status = "normal"
 raw = "Only used when Mode is Random.\\nWhen on, a new Random map can also roll Zero Notice (1 in 5),\\nwith its level picked at random.\\nYou may then get no warning at all - the Random Reveal\\nsection shows what was rolled."
+status = "normal"
 enUS = "Only used when Mode is Random.\\nWhen on, a new Random map can also roll Zero Notice (1 in 5),\\nwith its level picked at random.\\nYou may then get no warning at all - the Random Reveal\\nsection shows what was rolled."
 zhCN = "仅在模式为“随机”时使用。\\n启用后，新的随机地图也有可能随机出现“零预警”（五分之一的概率），\\n其等级也会随机决定。\\n届时你可能完全收不到警告——“随机揭晓”\\n部分会显示随机结果。"
 zhTW = "僅在模式為隨機時使用。\\\\n啟用後，新的隨機地圖也可能隨機抽中零提示（1/5 機率），\\\\n其等級也會隨機選定。\\\\n這樣一來，你可能完全不會收到警告——隨機揭示\\\\n區段會顯示抽中的結果。"
@@ -376,8 +376,8 @@ viVN = "Chỉ được dùng khi Chế độ là Ngẫu nhiên.\\nKhi bật, b�
 trTR = "Yalnızca Mod Rastgele olduğunda kullanılır.\\nAçıkken, yeni bir Rastgele harita Sıfır Uyarı (5'te 1) da getirebilir;\\nseviyesi rastgele seçilir.\\nBöylece hiç uyarı almayabilirsiniz - Rastgele Açığa Çıkarma\\nbölümü ne çıktığını gösterir."
 
 ["FairWarning.MapMode.Name"]
-status = "normal"
 raw = "This map's mode"
+status = "normal"
 enUS = "This map's mode"
 zhCN = "此地图的模式"
 zhTW = "此地圖的模式"
@@ -393,8 +393,8 @@ viVN = "Chế độ của bản đồ này"
 trTR = "Bu haritanın modu"
 
 ["FairWarning.Reveal.ShowName"]
-status = "normal"
 raw = "Show selected random profile"
+status = "normal"
 enUS = "Show selected random profile"
 zhCN = "显示选中的随机配置档案"
 zhTW = "顯示選取的隨機個人檔案"
@@ -410,8 +410,8 @@ viVN = "Hiển thị hồ sơ ngẫu nhiên đã chọn"
 trTR = "Seçili rastgele profili göster"
 
 ["FairWarning.Reveal.ShowTooltip"]
-status = "normal"
 raw = "Only used for Random maps.\\nShows what the map rolled: a difficulty\\nprofile, or Zero Notice and its level."
+status = "normal"
 enUS = "Only used for random maps.\\nShows what the map rolled: a difficulty\\nprofile, or Zero Notice and its level."
 zhCN = "仅用于随机地图。\\\\n显示地图掷出的结果：难度\\\\n配置，或“零预警”及其等级。"
 zhTW = "僅用於隨機地圖。\\\\n顯示地圖抽出的結果：難度\\\\n設定檔，或零預警及其等級。"
@@ -427,8 +427,8 @@ viVN = "Chỉ dùng cho bản đồ Ngẫu nhiên.\\nHiển thị kết quả gi
 trTR = "Yalnızca Rastgele haritalar için kullanılır.\\nHaritanın ne getirdiğini gösterir: bir zorluk profili\\\\nveya Sıfır Uyarı ve seviyesi."
 
 ["FairWarning.Reveal.ProfileName"]
-status = "normal"
 raw = "Random mode - selected profile"
+status = "normal"
 enUS = "Random mode - selected profile"
 zhCN = "随机模式 - 已选配置文件"
 zhTW = "隨機模式－已選設定檔"
@@ -444,8 +444,8 @@ viVN = "Chế độ ngẫu nhiên - hồ sơ đã chọn"
 trTR = "Rastgele mod - seçili profil"
 
 ["FairWarning.Reveal.NotYetRolled"]
-status = "normal"
 raw = "(not yet rolled - Random mode hasn't picked one for this map yet)"
+status = "normal"
 enUS = "(not yet rolled - Random mode hasn't picked one for this map yet)"
 zhCN = "（尚未抽取——随机模式尚未为此地图选定）"
 zhTW = "（尚未抽選－隨機模式尚未為這張地圖抽出結果）"
@@ -461,8 +461,8 @@ viVN = "(chưa được chọn ngẫu nhiên - Chế độ ngẫu nhiên chưa c
 trTR = "(henüz belirlenmedi - Rastgele mod henüz bu harita için bir tane seçmedi)"
 
 ["FairWarning.Preset.Name"]
-status = "normal"
 raw = "Start from preset"
+status = "normal"
 enUS = "Start from preset"
 zhCN = "从预设开始"
 zhTW = "從預設開始"
@@ -478,8 +478,8 @@ viVN = "Bắt đầu từ cài đặt sẵn"
 trTR = "Hazır ayardan başlat"
 
 ["FairWarning.Preset.Choose"]
-status = "normal"
 raw = "(choose)"
+status = "normal"
 enUS = "(choose)"
 zhCN = "（选择）"
 zhTW = "（選擇）"
@@ -495,8 +495,8 @@ viVN = "(chọn)"
 trTR = "(seç)"
 
 ["FairWarning.Preset.Tooltip"]
-status = "normal"
 raw = "Fills this section's sliders from a built-in profile.\\nDays: {0}.\\nCopies ranges only; Hard and Brutal also favor shorter warnings.\\nOnly changes these sliders, never a map you already have."
+status = "normal"
 enUS = "Fills this section's sliders from a built-in profile.\\nDays: {0}.\\nCopies ranges only; Hard and Brutal also favor shorter warnings.\\nOnly changes these sliders, never a map you already have."
 zhCN = "根据内置预设填充此部分的滑块。\\\\n天数：{0}。\\\\n仅复制范围；“困难”和“残酷”还会倾向于采用较短的警告时间。\\\\n只会更改这些滑块，不会更改已有地图。"
 zhTW = "使用內建設定檔填入此區段的滑桿。\\\\n天數：{0}。\\\\n只複製範圍；Hard 和 Brutal 也會偏好較短的警告時間。\\\\n只會變更這些滑桿，不會變更你已有的地圖。"
@@ -512,8 +512,8 @@ viVN = "Điền các thanh trượt của mục này theo cấu hình có sẵn.
 trTR = "Bu bölümün kaydırıcılarını yerleşik bir profilden doldurur.\\nGün sayısı: {0}.\\nYalnızca aralıkları kopyalar; Zor ve Acımasız ayrıca daha kısa uyarıları tercih eder.\\nYalnızca bu kaydırıcıları değiştirir, mevcut haritanızı asla değiştirmez."
 
 ["FairWarning.Row.Early"]
-status = "normal"
 raw = "Early"
+status = "normal"
 enUS = "Early"
 zhCN = "早期"
 zhTW = "早期"
@@ -529,8 +529,8 @@ viVN = "Sớm"
 trTR = "Erken"
 
 ["FairWarning.Row.Mid"]
-status = "normal"
 raw = "Mid"
+status = "normal"
 enUS = "Mid"
 zhCN = "中部"
 zhTW = "中間"
@@ -546,8 +546,8 @@ viVN = "Trung bình"
 trTR = "Orta"
 
 ["FairWarning.Row.Late"]
-status = "normal"
 raw = "Late"
+status = "normal"
 enUS = "Late"
 zhCN = "迟到"
 zhTW = "遲到"
@@ -563,8 +563,8 @@ viVN = "Muộn"
 trTR = "Geç"
 
 ["FairWarning.Row.EarlyMin"]
-status = "normal"
 raw = "Early Min"
+status = "normal"
 enUS = "Early Min"
 zhCN = "最小提前时间"
 zhTW = "提前最低值"
@@ -580,8 +580,8 @@ viVN = "Min sớm"
 trTR = "Erken Min."
 
 ["FairWarning.Row.EarlyMax"]
-status = "normal"
 raw = "Early Max"
+status = "normal"
 enUS = "Early Max"
 zhCN = "提前达到上限"
 zhTW = "提早最大值"
@@ -597,8 +597,8 @@ viVN = "Tối đa sớm"
 trTR = "Erken Maksimum"
 
 ["FairWarning.Row.MidMin"]
-status = "normal"
 raw = "Mid Min"
+status = "normal"
 enUS = "Mid Min"
 zhCN = "中间最小值"
 zhTW = "中間最小值"
@@ -614,8 +614,8 @@ viVN = "Tối thiểu trung bình"
 trTR = "Orta Min."
 
 ["FairWarning.Row.MidMax"]
-status = "normal"
 raw = "Mid Max"
+status = "normal"
 enUS = "Mid Max"
 zhCN = "中间最大值"
 zhTW = "中間最大值"
@@ -631,8 +631,8 @@ viVN = "Trung bình tối đa"
 trTR = "Orta Maksimum"
 
 ["FairWarning.Row.LateMin"]
-status = "normal"
 raw = "Late Min"
+status = "normal"
 enUS = "Late Min"
 zhCN = "最小延迟"
 zhTW = "延遲（分鐘）"
@@ -648,8 +648,8 @@ viVN = "Thời gian muộn nhất"
 trTR = "Geç Min."
 
 ["FairWarning.Row.LateMax"]
-status = "normal"
 raw = "Late Max"
+status = "normal"
 enUS = "Late Max"
 zhCN = "最大值过晚"
 zhTW = "最晚上限"
@@ -665,8 +665,8 @@ viVN = "Tối đa muộn"
 trTR = "Geç Max"
 
 ["FairWarning.Row.Cycles"]
-status = "normal"
 raw = "Cycles {0}"
+status = "normal"
 enUS = "Cycles {0}"
 zhCN = "周期 {0}"
 zhTW = "週期 {0}"
@@ -682,8 +682,8 @@ viVN = "Chu kỳ {0}"
 trTR = "Döngü {0}"
 
 ["FairWarning.Display.ModeWithLevel"]
-status = "normal"
 raw = "{0} ({1})"
+status = "normal"
 enUS = "{0} ({1})"
 zhCN = "{0}（{1}）"
 zhTW = "{0}（{1}）"

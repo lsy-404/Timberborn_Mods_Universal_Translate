@@ -2,8 +2,8 @@
 name = "Gather Resources"
 
 ["RuinScavengingSelectionTool.Title"]
-status = "normal"
 raw = "Mark ruin scavenging area"
+status = "normal"
 enUS = "Mark Ruin Scavenging Area"
 zhCN = "标记废墟搜刮区域"
 zhTW = "標記遺跡搜刮區域"
@@ -19,8 +19,8 @@ viVN = "Đánh dấu khu vực thu gom phế tích"
 trTR = "Harabe yağmalama alanını işaretle"
 
 ["RuinScavengingSelectionTool.Description"]
-status = "normal"
 raw = "Use this tool to mark areas where scrap will be scavenged."
+status = "normal"
 enUS = "Use this tool to mark areas where scrap will be scavenged."
 zhCN = "使用此工具标记搜寻废料的区域。"
 zhTW = "使用此工具標記將要搜刮廢料的區域。"
@@ -36,8 +36,8 @@ viVN = "Dùng công cụ này để đánh dấu những khu vực sẽ được
 trTR = "Hurdanın toplanacağı alanları işaretlemek için bu aracı kullanın."
 
 ["RuinScavengingUnselectionTool.Title"]
-status = "normal"
 raw = "Unmark ruin scavenging area"
+status = "normal"
 enUS = "Unmark ruin scavenging area"
 zhCN = "取消标记废墟搜寻区域"
 zhTW = "取消標記廢墟搜刮區域"
@@ -53,8 +53,8 @@ viVN = "Bỏ đánh dấu khu vực thu thập phế tích"
 trTR = "Harabe yağmalama alanı işaretini kaldır"
 
 ["RuinScavengingUnselectionTool.Description"]
-status = "normal"
 raw = "Use this tool to unmark areas where scrap will be scavenged."
+status = "normal"
 enUS = "Use this tool to unmark areas where scrap will be scavenged."
 zhCN = "使用此工具取消标记要搜寻废料的区域。"
 zhTW = "使用此工具取消標記要搜刮廢料的區域。"
@@ -70,8 +70,8 @@ viVN = "Dùng công cụ này để bỏ đánh dấu các khu vực sẽ đư�
 trTR = "Hurda toplanacak olarak işaretlenmiş alanların işaretini kaldırmak için bu aracı kullanın."
 
 ["ToolGroups.GatherResources"]
-status = "normal"
 raw = "Gather Resources"
+status = "normal"
 enUS = "Gather Resources"
 zhCN = "采集资源"
 zhTW = "採集資源"

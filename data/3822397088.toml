@@ -2,8 +2,8 @@
 name = "Auto Resource Flags"
 
 ["AutoResourceFlags.Header"]
-status = "normal"
 raw = "Auto-Pause"
+status = "normal"
 enUS = "Auto-Pause"
 zhCN = "自动暂停"
 zhTW = "自動暫停"
@@ -19,8 +19,8 @@ viVN = "Tự động tạm dừng"
 trTR = "Otomatik Duraklatma"
 
 ["AutoResourceFlags.AutoPauseToggle"]
-status = "normal"
 raw = "Auto-pause when nothing to gather"
+status = "normal"
 enUS = "Auto-pause when there's nothing to gather"
 zhCN = "没有可采集资源时自动暂停"
 zhTW = "無可採集資源時自動暫停"
@@ -36,8 +36,8 @@ viVN = "Tự động tạm dừng khi không có gì để thu thập"
 trTR = "Toplanacak hiçbir şey olmadığında otomatik duraklat"
 
 ["AutoResourceFlags.ResumeLabel"]
-status = "normal"
 raw = "Resume once available:"
+status = "normal"
 enUS = "Resume when available:"
 zhCN = "恢复条件：可用时"
 zhTW = "一旦可用便恢復："

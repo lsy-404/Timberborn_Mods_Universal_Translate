@@ -2,8 +2,8 @@
 name = "Damaged Goods!"
 
 ["Building.RepairMonitor.DisplayName"]
-status = "normal"
 raw = "Repair Manager"
+status = "normal"
 enUS = "Repair Manager"
 zhCN = "维修管理器"
 zhTW = "修復管理器"
@@ -19,8 +19,8 @@ viVN = "Quản lý sửa chữa"
 trTR = "Onarım Yöneticisi"
 
 ["Building.RepairMonitor.Description"]
-status = "normal"
 raw = "Automatically monitors building condition and issues repair requests when structures reach the configured wear threshold."
+status = "normal"
 enUS = "Automatically monitors building condition and issues repair requests when structures reach the configured wear threshold."
 zhCN = "自动监测建筑状况，并在建筑达到设定的磨损阈值时发出维修请求。"
 zhTW = "自動監測建築物狀況，並在結構磨損程度達到設定門檻時發出維修請求。"
@@ -36,8 +36,8 @@ viVN = "Tự động theo dõi tình trạng công trình và gửi yêu cầu s
 trTR = "Binaların durumunu otomatik olarak izler ve yapılar belirlenen yıpranma eşiğine ulaştığında onarım talebi oluşturur."
 
 ["Building.RepairMonitor.Mode.Percent"]
-status = "normal"
 raw = "Percent"
+status = "normal"
 enUS = "Percent"
 zhCN = "百分比"
 zhTW = "百分比"
@@ -53,8 +53,8 @@ viVN = "Phần trăm"
 trTR = "Yüzde"
 
 ["Building.RepairMonitor.Mode.Quantity"]
-status = "normal"
 raw = "Quantity"
+status = "normal"
 enUS = "Quantity"
 zhCN = "数量"
 zhTW = "數量"
@@ -70,8 +70,8 @@ viVN = "Số lượng"
 trTR = "Miktar"
 
 ["Building.RepairMonitor.PercentThreshold"]
-status = "normal"
 raw = "Threshold: {0}%"
+status = "normal"
 enUS = "Threshold: {0}%"
 zhCN = "阈值：{0}%"
 zhTW = "閾值：{0}%"
@@ -87,8 +87,8 @@ viVN = "Ngưỡng: {0}%"
 trTR = "Eşik: {0}%"
 
 ["Building.RepairMonitor.Filter.Label"]
-status = "normal"
 raw = "Repair scope"
+status = "normal"
 enUS = "Repair Scope"
 zhCN = "维修范围"
 zhTW = "維修範圍"
@@ -104,8 +104,8 @@ viVN = "Phạm vi sửa chữa"
 trTR = "Onarım kapsamı"
 
 ["Building.RepairMonitor.Filter.Everything"]
-status = "normal"
 raw = "Everything"
+status = "normal"
 enUS = "Everything"
 zhCN = "全部"
 zhTW = "全部"
@@ -121,8 +121,8 @@ viVN = "Mọi thứ"
 trTR = "Her şey"
 
 ["Building.RepairMonitor.Filter.Storage"]
-status = "normal"
 raw = "Storage only"
+status = "normal"
 enUS = "Storage only"
 zhCN = "仅储存物品"
 zhTW = "僅限儲存用品"
@@ -138,8 +138,8 @@ viVN = "Chỉ lưu trữ"
 trTR = "Yalnızca depolama"
 
 ["Building.RepairMonitor.Filter.Buildings"]
-status = "normal"
 raw = "Buildings (no storage)"
+status = "normal"
 enUS = "Buildings (no storage)"
 zhCN = "建筑（无储存）"
 zhTW = "建築物（不含儲存設施）"
@@ -155,8 +155,8 @@ viVN = "Công trình (không có kho chứa)"
 trTR = "Binalar (depolama hariç)"
 
 ["Building.RepairMonitor.Filter.Components"]
-status = "normal"
 raw = "Parts (shafts, platforms, stairs...)"
+status = "normal"
 enUS = "Parts (shafts, platforms, stairs...)"
 zhCN = "部件（动力轴、平台、楼梯……）"
 zhTW = "零件（動力軸、平台、樓梯……）"
@@ -172,8 +172,8 @@ viVN = "Bộ phận (trục truyền động, sàn, cầu thang...)"
 trTR = "Parçalar (şaftlar, platformlar, merdivenler...)"
 
 ["Building.RepairMonitor.StorageRider.Label"]
-status = "normal"
 raw = "Storage upkeep (?)"
+status = "normal"
 enUS = "Storage upkeep (?)"
 zhCN = "储存维护（？）"
 zhTW = "儲存維護（？）"
@@ -189,8 +189,8 @@ viVN = "Chi phí duy trì kho (?)"
 trTR = "Depolama bakımı (?)"
 
 ["Building.RepairMonitor.StorageRider.Tooltip"]
-status = "normal"
 raw = "Also keeps one storage building repaired at a time, per district."
+status = "normal"
 enUS = "Also keeps one storage building repaired at a time per district."
 zhCN = "此外，每个区每次只会维修一座仓储建筑。"
 zhTW = "此外，每個區域一次只會維修一座儲存建築物。"
@@ -206,8 +206,8 @@ viVN = "Đồng thời sửa chữa từng công trình kho một trong mỗi kh
 trTR = "Ayrıca her bölgede aynı anda bir depolama binasını onarır."
 
 ["Building.RepairMonitor.StockGuard.Label"]
-status = "normal"
 raw = "Stock guard (?)"
+status = "normal"
 enUS = "Stock guard (?)"
 zhCN = "库存警戒（？）"
 zhTW = "庫存守衛（？）"
@@ -223,8 +223,8 @@ viVN = "Bảo vệ tồn kho (?)"
 trTR = "Stok koruması (?)"
 
 ["Building.RepairMonitor.StockGuard.Tooltip"]
-status = "normal"
 raw = "A repair is skipped if it would leave too little stock (for example the only water tank)."
+status = "normal"
 enUS = "A repair is skipped if it would leave too little stock (for example, the only water tank)."
 zhCN = "如果修理会导致库存过少（例如只剩下一个蓄水罐），则会跳过修理。"
 zhTW = "如果修復會導致庫存量過低（例如只剩一座水箱），就會略過修復。"
@@ -240,8 +240,8 @@ viVN = "Việc sửa chữa sẽ bị bỏ qua nếu khiến lượng dự trữ
 trTR = "Onarım, stokta çok az ürün bırakacaksa atlanır (örneğin, geriye yalnızca su deposu kalacaksa)."
 
 ["Building.RepairMonitor.BuilderPriority.Label"]
-status = "normal"
 raw = "Repair priority"
+status = "normal"
 enUS = "Repair priority"
 zhCN = "维修优先级"
 zhTW = "修理優先級"
@@ -257,8 +257,8 @@ viVN = "Ưu tiên sửa chữa"
 trTR = "Onarım önceliği"
 
 ["Building.RepairMonitor.BuilderPriority.Tooltip"]
-status = "normal"
 raw = "Builder priority for all repairs from this Manager. Critical repairs go one step higher. Normal or higher repairs before new construction."
+status = "normal"
 enUS = "Builder priority for all repairs from this Manager. Critical repairs go one step higher. Normal- or higher-priority repairs take precedence over new construction."
 zhCN = "此管理器的所有维修任务的建造优先级。紧急维修的优先级提高一级。普通及更高优先级的维修任务优先于新建建筑。"
 zhTW = "此管理器的所有修理工作之建造者優先度。緊急修理的優先度提高一級。一般或更高優先度的修理工作會排在新建工程之前。"
@@ -274,8 +274,8 @@ viVN = "Mức ưu tiên của thợ xây cho mọi công việc sửa chữa do 
 trTR = "Bu Yöneticinin tüm onarımları için inşaatçı önceliği. Kritik onarımlar bir kademe yükselir. Yeni inşaatlardan önce normal veya daha yüksek öncelikli onarımlar yapılır."
 
 ["Building.RepairMonitor.Priority.Label"]
-status = "normal"
 raw = "Repair order"
+status = "normal"
 enUS = "Repair order"
 zhCN = "维修顺序"
 zhTW = "維修順序"
@@ -291,8 +291,8 @@ viVN = "Thứ tự sửa chữa"
 trTR = "Onarım sırası"
 
 ["Building.RepairMonitor.Priority.Balanced"]
-status = "normal"
 raw = "Balanced"
+status = "normal"
 enUS = "Balanced"
 zhCN = "均衡"
 zhTW = "均衡"
@@ -308,8 +308,8 @@ viVN = "Cân bằng"
 trTR = "Dengeli"
 
 ["Building.RepairMonitor.Priority.ProductionFirst"]
-status = "normal"
 raw = "Production first"
+status = "normal"
 enUS = "Production First"
 zhCN = "生产优先"
 zhTW = "優先生產"
@@ -325,8 +325,8 @@ viVN = "Ưu tiên sản xuất"
 trTR = "Önce üretim"
 
 ["Building.RepairMonitor.Priority.InfrastructureFirst"]
-status = "normal"
 raw = "Infrastructure first"
+status = "normal"
 enUS = "Infrastructure first"
 zhCN = "基础设施优先"
 zhTW = "基礎設施優先"
@@ -342,8 +342,8 @@ viVN = "Ưu tiên cơ sở hạ tầng trước"
 trTR = "Önce altyapı"
 
 ["Building.RepairMonitor.Priority.ConditionOnly"]
-status = "normal"
 raw = "Condition only"
+status = "normal"
 enUS = "Condition only"
 zhCN = "仅限条件"
 zhTW = "僅限條件"
@@ -359,8 +359,8 @@ viVN = "Chỉ điều kiện"
 trTR = "Yalnızca Koşul"
 
 ["Building.RepairMonitor.Shortage"]
-status = "normal"
 raw = "Waiting for goods: {0}"
+status = "normal"
 enUS = "Waiting for goods: {0}"
 zhCN = "等待货物：{0}"
 zhTW = "等待貨物：{0}"
@@ -376,8 +376,8 @@ viVN = "Đang chờ hàng hóa: {0}"
 trTR = "Beklenen mallar: {0}"
 
 ["Status.Repair.NoMaterials"]
-status = "normal"
 raw = "Repair can't get all required materials."
+status = "normal"
 enUS = "Repair can't get all the required materials."
 zhCN = "维修无法获得所有必需材料。"
 zhTW = "維修無法取得所有必需材料。"
@@ -393,8 +393,8 @@ viVN = "Không thể lấy đủ nguyên liệu cần thiết để sửa chữa
 trTR = "Onarım için gereken tüm malzemeler alınamıyor."
 
 ["Status.Repair.NoMaterials.Short"]
-status = "normal"
 raw = "Repair lacks materials"
+status = "normal"
 enUS = "Repair materials unavailable"
 zhCN = "维修缺少材料"
 zhTW = "缺少修理材料"
@@ -410,8 +410,8 @@ viVN = "Không đủ nguyên liệu để sửa chữa"
 trTR = "Onarım için malzeme yok"
 
 ["Status.RepairManager.NoGoods"]
-status = "normal"
 raw = "Some repairs can't start: the district is short of goods. See \"Waiting for goods\" on this building."
+status = "normal"
 enUS = "Some repairs can't start: the district is short of goods. See \"Waiting for goods\" on this building."
 zhCN = "部分维修无法开始：该区 goods 不足。请查看此建筑上的“等待 goods”。"
 zhTW = "部分維修無法開始：區域物資不足。請查看此建築上的「等待物資」。"
@@ -427,8 +427,8 @@ viVN = "Một số công việc sửa chữa không thể bắt đầu: khu đ�
 trTR = "Bazı onarımlar başlatılamıyor: bölgede yeterli mal yok. Bu binadaki \"Mal bekleniyor\" durumuna bakın."
 
 ["Status.RepairManager.NoGoods.Short"]
-status = "normal"
 raw = "Repairs waiting for goods"
+status = "normal"
 enUS = "Repairs waiting for goods"
 zhCN = "维修等待物资供给"
 zhTW = "等待物資進行修復"
@@ -444,8 +444,8 @@ viVN = "Đang chờ hàng để sửa chữa"
 trTR = "Onarım için malzeme bekleniyor"
 
 ["WearAndTear.Settings.Section.Difficulty"]
-status = "normal"
 raw = "Difficulty"
+status = "normal"
 enUS = "Difficulty"
 zhCN = "难度"
 zhTW = "難度"
@@ -461,8 +461,8 @@ viVN = "Độ khó"
 trTR = "Zorluk"
 
 ["WearAndTear.Settings.Section.Reveal"]
-status = "normal"
 raw = "Random Reveal"
+status = "normal"
 enUS = "Random Reveal"
 zhCN = "随机揭示"
 zhTW = "隨機揭露"
@@ -478,8 +478,8 @@ viVN = "Hiện ngẫu nhiên"
 trTR = "Rastgele Göster"
 
 ["WearAndTear.Settings.Section.Categories"]
-status = "normal"
 raw = "Categories"
+status = "normal"
 enUS = "Categories"
 zhCN = "类别"
 zhTW = "類別"
@@ -495,8 +495,8 @@ viVN = "Danh mục"
 trTR = "Kategoriler"
 
 ["WearAndTear.Settings.Section.Speed"]
-status = "normal"
 raw = "Speed & Timing"
+status = "normal"
 enUS = "Speed & Timing"
 zhCN = "速度与时机"
 zhTW = "速度與時機"
@@ -512,8 +512,8 @@ viVN = "Tốc độ & Thời gian"
 trTR = "Hız ve Zamanlama"
 
 ["WearAndTear.Settings.Section.Output"]
-status = "normal"
 raw = "Machine Output"
+status = "normal"
 enUS = "Machine Output"
 zhCN = "机器输出"
 zhTW = "機器輸出"
@@ -529,8 +529,8 @@ viVN = "Sản lượng máy móc"
 trTR = "Makine Çıktısı"
 
 ["WearAndTear.Settings.Section.Paused"]
-status = "normal"
 raw = "Paused Buildings"
+status = "normal"
 enUS = "Paused Buildings"
 zhCN = "已暂停的建筑"
 zhTW = "已暫停的建築物"
@@ -546,8 +546,8 @@ viVN = "Các công trình đã tạm dừng"
 trTR = "Duraklatılmış Binalar"
 
 ["WearAndTear.Settings.Section.Refund"]
-status = "normal"
 raw = "Building Collapse"
+status = "normal"
 enUS = "Building Collapse"
 zhCN = "建筑坍塌"
 zhTW = "建築物倒塌"
@@ -563,8 +563,8 @@ viVN = "Công trình sụp đổ"
 trTR = "Bina Çökmesi"
 
 ["WearAndTear.Settings.Difficulty.Name"]
-status = "normal"
 raw = "Difficulty"
+status = "normal"
 enUS = "Difficulty"
 zhCN = "难度"
 zhTW = "難度"
@@ -580,8 +580,8 @@ viVN = "Độ khó"
 trTR = "Zorluk"
 
 ["WearAndTear.Settings.Difficulty.Tooltip"]
-status = "normal"
 raw = "The difficulty for new maps.\\nEach map keeps the difficulty it started with,\\nso changing this won't affect maps you already have.\\nAuto follows the game's own difficulty choice.\\nCustom uses the Categories, Speed & Timing, Machine Output\\nand Paused Buildings settings below."
+status = "normal"
 enUS = "The difficulty for new maps.\\nEach map keeps the difficulty it started with,\\nso changing this won't affect maps you already have.\\nAuto follows the game's own difficulty choice.\\nCustom uses the Categories, Speed & Timing, Machine Output\\nand Paused Buildings settings below."
 zhCN = "新地图的难度。\\\\n每张地图都会保留创建时的难度，\\\\n因此更改此设置不会影响已有地图。\\\\n自动会跟随游戏自身的难度选择。\\\\n自定义使用下方的类别、速度与时间、机器产出\\\\n和暂停建筑设置。"
 zhTW = "新地圖的難度。\\\\n每張地圖都會保留建立時的難度，\\\\n因此變更此設定不會影響你已有的地圖。\\\\n自動會遵循遊戲本身的難度選擇。\\\\n自訂則會使用下方的「類別」、「速度與時間」、「機器輸出」\\\\n和「已暫停建築物」設定。"
@@ -597,8 +597,8 @@ viVN = "Độ khó cho các bản đồ mới.\\nMỗi bản đồ giữ nguyên
 trTR = "Yeni haritaların zorluk seviyesi.\\nHer harita, başladığı zorluk seviyesini korur,\\nbu nedenle bunu değiştirmek mevcut haritalarınızı etkilemez.\\nOtomatik, oyunun kendi zorluk seçimini izler.\\nÖzel, aşağıdaki Kategoriler, Hız ve Zamanlama, Makine Çıktısı\\nve Duraklatılmış Binalar ayarlarını kullanır."
 
 ["WearAndTear.Settings.Value.Auto"]
-status = "normal"
 raw = "Auto"
+status = "normal"
 enUS = "Auto"
 zhCN = "自动"
 zhTW = "自動"
@@ -614,8 +614,8 @@ viVN = "Tự động"
 trTR = "Otomatik"
 
 ["WearAndTear.Settings.Value.Easy"]
-status = "normal"
 raw = "Easy"
+status = "normal"
 enUS = "Easy"
 zhCN = "简单"
 zhTW = "簡單"
@@ -631,8 +631,8 @@ viVN = "Dễ dàng"
 trTR = "Kolay"
 
 ["WearAndTear.Settings.Value.Normal"]
-status = "normal"
 raw = "Normal"
+status = "normal"
 enUS = "Normal"
 zhCN = "普通"
 zhTW = "普通"
@@ -648,8 +648,8 @@ viVN = "Bình thường"
 trTR = "Normal"
 
 ["WearAndTear.Settings.Value.Hard"]
-status = "normal"
 raw = "Hard"
+status = "normal"
 enUS = "Hard"
 zhCN = "困难"
 zhTW = "困難"
@@ -665,8 +665,8 @@ viVN = "Khó"
 trTR = "Zor"
 
 ["WearAndTear.Settings.Value.Brutal"]
-status = "normal"
 raw = "Brutal"
+status = "normal"
 enUS = "Brutal"
 zhCN = "严酷"
 zhTW = "殘酷"
@@ -682,8 +682,8 @@ viVN = "Khắc nghiệt"
 trTR = "Acımasız"
 
 ["WearAndTear.Settings.Value.Random"]
-status = "normal"
 raw = "Random"
+status = "normal"
 enUS = "Random"
 zhCN = "随机"
 zhTW = "隨機"
@@ -699,8 +699,8 @@ viVN = "Ngẫu nhiên"
 trTR = "Rastgele"
 
 ["WearAndTear.Settings.Value.Custom"]
-status = "normal"
 raw = "Custom"
+status = "normal"
 enUS = "Custom"
 zhCN = "自定义"
 zhTW = "自訂"
@@ -716,8 +716,8 @@ viVN = "Tùy chỉnh"
 trTR = "Özel"
 
 ["WearAndTear.Settings.MapDifficulty.Name"]
-status = "normal"
 raw = "This map's difficulty"
+status = "normal"
 enUS = "This map's difficulty"
 zhCN = "此地图的难度"
 zhTW = "此地圖的難度"
@@ -733,8 +733,8 @@ viVN = "Độ khó của bản đồ này"
 trTR = "Bu haritanın zorluk seviyesi"
 
 ["WearAndTear.Settings.MapDifficulty.Tooltip"]
-status = "normal"
 raw = "The difficulty the loaded map is using.\\nEmpty in the main menu."
+status = "normal"
 enUS = "The difficulty the loaded map is using.\\nEmpty in the main menu."
 zhCN = "已加载地图所使用的难度。\\n在主菜单中为空。"
 zhTW = "已載入地圖使用的難度。\\\\n在主選單中為空。"
@@ -750,8 +750,8 @@ viVN = "Độ khó mà bản đồ đã tải đang sử dụng.\\nĐể trống
 trTR = "Yüklü haritanın kullandığı zorluk seviyesi.\\nAna menüde boş."
 
 ["WearAndTear.Settings.Reveal.Name"]
-status = "normal"
 raw = "Reveal Random roll"
+status = "normal"
 enUS = "Reveal Random Roll"
 zhCN = "显示随机结果"
 zhTW = "顯示隨機擲骰結果"
@@ -767,8 +767,8 @@ viVN = "Hiện kết quả ngẫu nhiên"
 trTR = "Rastgele sonucu göster"
 
 ["WearAndTear.Settings.Reveal.Tooltip"]
-status = "normal"
 raw = "Only used for Random maps.\\nTick to show what the map rolled.\\nIt hides again after a few seconds."
+status = "normal"
 enUS = "Only used for Random maps.\\nTick to reveal the map's roll.\\nIt hides again after a few seconds."
 zhCN = "仅用于随机地图。\\n勾选以查看地图生成结果。\\n几秒后会再次隐藏。"
 zhTW = "僅用於隨機地圖。\\\\n勾選以顯示地圖生成的結果。\\\\n幾秒後會再次隱藏。"
@@ -784,8 +784,8 @@ viVN = "Chỉ dùng cho bản đồ Ngẫu nhiên.\\nĐánh dấu để xem kế
 trTR = "Yalnızca Rastgele haritalarda kullanılır.\\nHaritanın ne çıkardığını göstermek için işaretleyin.\\nBirkaç saniye sonra tekrar gizlenir."
 
 ["WearAndTear.Settings.Reveal.ResultName"]
-status = "normal"
 raw = "Random roll result"
+status = "normal"
 enUS = "Random roll result"
 zhCN = "随机掷骰结果"
 zhTW = "隨機擲骰結果"
@@ -801,8 +801,8 @@ viVN = "Kết quả gieo ngẫu nhiên"
 trTR = "Rastgele zar atışı sonucu"
 
 ["WearAndTear.Settings.Reveal.Hidden"]
-status = "normal"
 raw = "(tick Reveal above to check - hides again after a few seconds)"
+status = "normal"
 enUS = "(tick Reveal above to check - hides again after a few seconds)"
 zhCN = "（点击上方的“显示”进行查看——几秒后会再次隐藏）"
 zhTW = "（點擊上方的「顯示」來查看－幾秒後會再次隱藏）"
@@ -818,8 +818,8 @@ viVN = "(nhấn vào Hiển thị ở trên để kiểm tra - sẽ ẩn lại s
 trTR = "(Görünür yapmak için yukarıdaki kutuyu işaretleyin - birkaç saniye sonra yeniden gizlenir)"
 
 ["WearAndTear.Settings.Reveal.Rolled"]
-status = "normal"
 raw = "This map rolled: {0}"
+status = "normal"
 enUS = "This map rolled: {0}"
 zhCN = "此地图生成结果：{0}"
 zhTW = "此地圖的隨機結果是：{0}"
@@ -835,8 +835,8 @@ viVN = "Bản đồ này được tạo ngẫu nhiên: {0}"
 trTR = "Bu harita şu şekilde oluşturuldu: {0}"
 
 ["WearAndTear.Settings.Reveal.NotRolled"]
-status = "normal"
 raw = "(not rolled yet)"
+status = "normal"
 enUS = "(not rolled yet)"
 zhCN = "（尚未掷骰）"
 zhTW = "（尚未擲骰）"
@@ -852,8 +852,8 @@ viVN = "(chưa được quay)"
 trTR = "(hâlâ atılmadı)"
 
 ["WearAndTear.Settings.Reveal.NotRandom"]
-status = "normal"
 raw = "Not using Random right now (this map: {0})"
+status = "normal"
 enUS = "Not using Random right now (this map: {0})"
 zhCN = "当前未使用随机选项（此地图：{0}）"
 zhTW = "目前未使用隨機設定（此地圖：{0}）"
@@ -869,8 +869,8 @@ viVN = "Hiện không dùng Ngẫu nhiên (bản đồ này: {0})"
 trTR = "Şu anda Rastgele kullanılmıyor (bu harita: {0})"
 
 ["WearAndTear.Settings.Reveal.MenuInfo"]
-status = "normal"
 raw = "Random rolls when you start a new map."
+status = "normal"
 enUS = "Random rolls when you start a new map."
 zhCN = "开始新地图时随机生成。"
 zhTW = "開始新地圖時隨機擲骰。"
@@ -886,8 +886,8 @@ viVN = "Các lượt ngẫu nhiên khi bạn bắt đầu bản đồ mới."
 trTR = "Yeni bir haritaya başladığınızda rastgele belirlenir."
 
 ["WearAndTear.Settings.Cat.Storage"]
-status = "normal"
 raw = "Storage"
+status = "normal"
 enUS = "Storage"
 zhCN = "储存"
 zhTW = "儲存"
@@ -903,8 +903,8 @@ viVN = "Lưu trữ"
 trTR = "Depolama"
 
 ["WearAndTear.Settings.Cat.DistrictManagement"]
-status = "normal"
 raw = "District Management"
+status = "normal"
 enUS = "District Management"
 zhCN = "区划管理"
 zhTW = "區域管理"
@@ -920,8 +920,8 @@ viVN = "Quản lý Khu vực"
 trTR = "Bölge Yönetimi"
 
 ["WearAndTear.Settings.Cat.Power"]
-status = "normal"
 raw = "Power"
+status = "normal"
 enUS = "Power"
 zhCN = "动力"
 zhTW = "動力"
@@ -937,8 +937,8 @@ viVN = "Năng lượng bền vững"
 trTR = "Güç"
 
 ["WearAndTear.Settings.Cat.Wood"]
-status = "normal"
 raw = "Wood"
+status = "normal"
 enUS = "Wood"
 zhCN = "木材"
 zhTW = "木材"
@@ -954,8 +954,8 @@ viVN = "Gỗ"
 trTR = "Odun"
 
 ["WearAndTear.Settings.Cat.Food"]
-status = "normal"
 raw = "Food"
+status = "normal"
 enUS = "Food"
 zhCN = "食物"
 zhTW = "食物"
@@ -971,8 +971,8 @@ viVN = "Thực phẩm"
 trTR = "Yiyecek"
 
 ["WearAndTear.Settings.Cat.Metal"]
-status = "normal"
 raw = "Metal"
+status = "normal"
 enUS = "Metal"
 zhCN = "金属"
 zhTW = "金屬"
@@ -988,8 +988,8 @@ viVN = "Kim loại"
 trTR = "Metal"
 
 ["WearAndTear.Settings.Cat.Paths"]
-status = "normal"
 raw = "Paths"
+status = "normal"
 enUS = "Paths"
 zhCN = "路径"
 zhTW = "路徑"
@@ -1005,8 +1005,8 @@ viVN = "Đường đi"
 trTR = "Yollar"
 
 ["WearAndTear.Settings.Cat.Water"]
-status = "normal"
 raw = "Water"
+status = "normal"
 enUS = "Water"
 zhCN = "水"
 zhTW = "水"
@@ -1022,8 +1022,8 @@ viVN = "Nước"
 trTR = "Su"
 
 ["WearAndTear.Settings.Cat.Science"]
-status = "normal"
 raw = "Science"
+status = "normal"
 enUS = "Science"
 zhCN = "科学"
 zhTW = "科學"
@@ -1039,8 +1039,8 @@ viVN = "Khoa học"
 trTR = "Bilim"
 
 ["WearAndTear.Settings.Cat.Landscaping"]
-status = "normal"
 raw = "Landscaping"
+status = "normal"
 enUS = "Landscaping"
 zhCN = "地形改造"
 zhTW = "地形改造"
@@ -1056,8 +1056,8 @@ viVN = "Tạo cảnh quan"
 trTR = "Peyzaj düzenlemesi"
 
 ["WearAndTear.Settings.Cat.Housing"]
-status = "normal"
 raw = "Housing"
+status = "normal"
 enUS = "Housing"
 zhCN = "住房"
 zhTW = "住宅"
@@ -1073,8 +1073,8 @@ viVN = "Nhà ở"
 trTR = "Barınma"
 
 ["WearAndTear.Settings.Cat.Automation"]
-status = "normal"
 raw = "Automation"
+status = "normal"
 enUS = "Automation"
 zhCN = "自动化"
 zhTW = "自動化"
@@ -1090,8 +1090,8 @@ viVN = "Tự động hóa"
 trTR = "Otomasyon"
 
 ["WearAndTear.Settings.Cat.Wellbeing"]
-status = "normal"
 raw = "Wellbeing"
+status = "normal"
 enUS = "Wellbeing"
 zhCN = "幸福感"
 zhTW = "幸福感"
@@ -1107,8 +1107,8 @@ viVN = "Sức khỏe tinh thần"
 trTR = "İyi Oluş"
 
 ["WearAndTear.Settings.Cat.Decoration"]
-status = "normal"
 raw = "Decoration"
+status = "normal"
 enUS = "Decoration"
 zhCN = "装饰"
 zhTW = "裝飾品"
@@ -1124,8 +1124,8 @@ viVN = "Trang trí"
 trTR = "Dekorasyon"
 
 ["WearAndTear.Settings.Cat.Monuments"]
-status = "normal"
 raw = "Monuments"
+status = "normal"
 enUS = "Monuments"
 zhCN = "纪念碑"
 zhTW = "紀念碑"
@@ -1141,8 +1141,8 @@ viVN = "Đài tưởng niệm"
 trTR = "Anıtlar"
 
 ["WearAndTear.Settings.Speed.Calm"]
-status = "normal"
 raw = "Calm weather (%)"
+status = "normal"
 enUS = "Calm weather (%)"
 zhCN = "平静天气（%）"
 zhTW = "平靜天氣 (%)"
@@ -1158,8 +1158,8 @@ viVN = "Thời tiết yên ả (%)"
 trTR = "Sakin hava (%)"
 
 ["WearAndTear.Settings.Speed.Calm.Tooltip"]
-status = "normal"
 raw = "How fast buildings wear down in calm weather, in percent of normal.\\n100 = normal speed, 200 = twice as fast.\\nOnly used when Difficulty is Custom."
+status = "normal"
 enUS = "How fast buildings wear down in calm weather, as a percentage of normal.\\n100 = normal speed, 200 = twice as fast.\\nOnly used when Difficulty is Custom."
 zhCN = "平静天气下建筑损耗的速度，以正常速度的百分比表示。\\\\n100 = 正常速度，200 = 两倍速度。\\\\n仅在难度设为自定义时使用。"
 zhTW = "平靜天氣下建築物的磨損速度，以正常速度的百分比表示。\\\\n100 = 正常速度，200 = 兩倍速度。\\\\n僅在難度設為自訂時使用。"
@@ -1175,8 +1175,8 @@ viVN = "Tốc độ công trình xuống cấp khi thời tiết yên ả, tính
 trTR = "Sakin havalarda binaların yıpranma hızı, normal hızın yüzdesi olarak.\\n100 = normal hız, 200 = iki katı hız.\\nYalnızca Zorluk Özel olarak ayarlandığında kullanılır."
 
 ["WearAndTear.Settings.Speed.Drought"]
-status = "normal"
 raw = "Drought (%)"
+status = "normal"
 enUS = "Drought (%)"
 zhCN = "干旱（%）"
 zhTW = "乾旱（%）"
@@ -1192,8 +1192,8 @@ viVN = "Hạn hán (%)"
 trTR = "Kuraklık (%)"
 
 ["WearAndTear.Settings.Speed.Drought.Tooltip"]
-status = "normal"
 raw = "How fast buildings wear down during a drought, in percent of normal.\\n100 = normal speed, 200 = twice as fast.\\nOnly used when Difficulty is Custom."
+status = "normal"
 enUS = "How quickly buildings wear down during a drought, as a percentage of normal speed.\\n100 = normal speed, 200 = twice as fast.\\nOnly used when Difficulty is Custom."
 zhCN = "干旱期间建筑损耗的速度，以正常速度的百分比表示。\\\\n100 = 正常速度，200 = 两倍速度。\\\\n仅在难度设为自定义时使用。"
 zhTW = "建築物在乾旱期間磨損的速度，以正常速度的百分比表示。\\\\n100 = 正常速度，200 = 兩倍速度。\\\\n僅在難度設為自訂時使用。"
@@ -1209,8 +1209,8 @@ viVN = "Tốc độ các công trình xuống cấp trong thời hạn hán, tí
 trTR = "Kuraklık sırasında binaların yıpranma hızı; normal hızın yüzde oranı.\\\\n100 = normal hız, 200 = iki kat hızlı.\\\\nYalnızca Zorluk Özel olarak ayarlandığında kullanılır."
 
 ["WearAndTear.Settings.Speed.Badtide"]
-status = "normal"
 raw = "Badtide (%)"
+status = "normal"
 enUS = "Badtide (%)"
 zhCN = "恶水潮（%）"
 zhTW = "壞水潮 (%)"
@@ -1226,8 +1226,8 @@ viVN = "Đợt nước ô nhiễm (%)"
 trTR = "Kötü su gelgiti (%)"
 
 ["WearAndTear.Settings.Speed.Badtide.Tooltip"]
-status = "normal"
 raw = "How fast buildings wear down during a badtide, in percent of normal.\\n100 = normal speed, 200 = twice as fast.\\nOnly used when Difficulty is Custom."
+status = "normal"
 enUS = "How fast buildings wear down during a badtide, in percent of normal.\\n100 = normal speed, 200 = twice as fast.\\nOnly used when Difficulty is Custom."
 zhCN = "恶潮期间建筑的磨损速度，相对于正常速度的百分比。\\\\n100 = 正常速度，200 = 两倍速度。\\\\n仅在难度设为自定义时使用。"
 zhTW = "退潮期間建築磨損的速度，以正常速度的百分比表示。\\n100 = 正常速度，200 = 兩倍速度。\\n僅在難度設定為自訂時使用。"
@@ -1243,8 +1243,8 @@ viVN = "Tốc độ công trình xuống cấp trong đợt thủy triều độ
 trTR = "Badtide sırasında binaların yıpranma hızı, normal hızın yüzdesi olarak.\\n100 = normal hız, 200 = iki katı hız.\\nYalnızca Zorluk Özel olarak ayarlandığında kullanılır."
 
 ["WearAndTear.Settings.Speed.Grace"]
-status = "normal"
 raw = "Grace period (cycles)"
+status = "normal"
 enUS = "Grace period (cycles)"
 zhCN = "宽限期（周期数）"
 zhTW = "寬限期（週期）"
@@ -1260,8 +1260,8 @@ viVN = "Thời gian ân hạn (chu kỳ)"
 trTR = "Tolerans süresi (döngü)"
 
 ["WearAndTear.Settings.Speed.Grace.Tooltip"]
-status = "normal"
 raw = "Full cycles at the start of a new map before wear begins.\\n0 = wear from day 1.\\nOnly used when Difficulty is Custom."
+status = "normal"
 enUS = "Full cycles at the start of a new map before wear begins.\\n0 = wear from day 1.\\nOnly used when Difficulty is Custom."
 zhCN = "新地图开始时，在磨损开始前的完整周期数。\\n0 = 从第 1 天开始磨损。\\n仅在难度设为自定义时使用。"
 zhTW = "新地圖開始時、損耗開始前的完整週期數。\\\\n0 = 從第 1 天開始損耗。\\\\n僅在難度設為自訂時使用。"
@@ -1277,8 +1277,8 @@ viVN = "Số chu kỳ trọn vẹn vào đầu bản đồ mới trước khi b�
 trTR = "Aşınma başlamadan önce yeni bir haritada geçen tam döngü sayısı.\\n0 = 1. günden itibaren aşınma.\\nYalnızca Zorluk Özel olarak ayarlandığında kullanılır."
 
 ["WearAndTear.Settings.Output.Switch"]
-status = "normal"
 raw = "Output scaling"
+status = "normal"
 enUS = "Output scaling"
 zhCN = "输出缩放"
 zhTW = "輸出縮放"
@@ -1294,8 +1294,8 @@ viVN = "Tỷ lệ đầu ra"
 trTR = "Çıktı ölçeklendirmesi"
 
 ["WearAndTear.Settings.Output.Switch.Tooltip"]
-status = "normal"
 raw = "Worn machines (power generators, workshops and so on) produce less.\\nA map keeps the choice it started with. Changing this affects new maps only; older saves have it off."
+status = "normal"
 enUS = "Worn machines (power generators, workshops, and so on) produce less.\\nA map keeps the choice it started with. Changing this affects new maps only; older saves have it off."
 zhCN = "老旧机器（动力发电机、工坊等）的产出会减少。\\n地图会保留创建时的选择。更改此设置只会影响新地图；旧存档中此选项处于关闭状态。"
 zhTW = "老舊機器（發電機、工坊等等）的產出會降低。\\n地圖會保留建立時的選擇。變更此設定只會影響新地圖；舊存檔中此設定為關閉。"
@@ -1311,8 +1311,8 @@ viVN = "Máy móc hao mòn (máy phát điện, xưởng và những thứ tươ
 trTR = "Yıpranmış makineler (güç jeneratörleri, atölyeler vb.) daha az üretir.\\nBir harita, oluşturulurken seçilen ayarı korur. Bu ayarı değiştirmek yalnızca yeni haritaları etkiler; eski kayıtlar için kapalıdır."
 
 ["WearAndTear.Settings.Output.Start"]
-status = "normal"
 raw = "Starts dropping at (%)"
+status = "normal"
 enUS = "Starts dropping at (%)"
 zhCN = "开始降低的百分比"
 zhTW = "開始下降的百分比"
@@ -1328,8 +1328,8 @@ viVN = "Bắt đầu giảm ở (%)"
 trTR = "(%) değerinde düşmeye başlar"
 
 ["WearAndTear.Settings.Output.Start.Tooltip"]
-status = "normal"
 raw = "The condition where output starts to drop.\\nFull output at or above this."
+status = "normal"
 enUS = "The condition where output starts to drop.\\nFull output at or above this."
 zhCN = "输出开始下降的条件。\\\\n达到或高于此条件时，输出为满值。"
 zhTW = "輸出開始下降的條件。\\\\n達到或高於此值時，輸出維持全額。"
@@ -1345,8 +1345,8 @@ viVN = "Ngưỡng mà sản lượng bắt đầu giảm.\\nSản lượng tối
 trTR = "Çıktının düşmeye başladığı değer.\\nBu değerde veya üzerinde tam çıktı alınır."
 
 ["WearAndTear.Settings.Output.Floor"]
-status = "normal"
 raw = "Output at 0% condition (%)"
+status = "normal"
 enUS = "Output at 0% condition (%)"
 zhCN = "状况为 0% 时的产出 (%)"
 zhTW = "狀況為 0% 時的輸出 (%)"
@@ -1362,8 +1362,8 @@ viVN = "Đầu ra ở tình trạng 0% (%)"
 trTR = "%0 durumda çıktı (%)"
 
 ["WearAndTear.Settings.Output.Floor.Tooltip"]
-status = "normal"
 raw = "Output of a fully worn machine.\\nEasy 70, Normal 55, Hard 40, Brutal 25.\\nOnly used when Difficulty is Custom."
+status = "normal"
 enUS = "Output of a fully worn machine.\\nEasy 70, Normal 55, Hard 40, Brutal 25.\\nOnly used when Difficulty is Custom."
 zhCN = "机器完全磨损时的输出。\\\\n简单：70，普通：55，困难：40，残酷：25。\\\\n仅在难度设为自定义时使用。"
 zhTW = "機器完全磨損時的輸出。\\\\n簡單：70，普通：55，困難：40，殘酷：25。\\\\n僅在難度設為自訂時使用。"
@@ -1379,8 +1379,8 @@ viVN = "Sản lượng của máy đã hao mòn hoàn toàn.\\nDễ 70, Thườn
 trTR = "Tamamen aşınmış bir makinenin çıktısı.\\nKolay 70, Normal 55, Zor 40, Acımasız 25.\\nYalnızca Zorluk Özel olarak ayarlandığında kullanılır."
 
 ["WearAndTear.Settings.Paused.Switch"]
-status = "normal"
 raw = "Slower while paused"
+status = "normal"
 enUS = "Slower while paused"
 zhCN = "暂停时速度较慢"
 zhTW = "暫停時速度較慢"
@@ -1396,8 +1396,8 @@ viVN = "Chậm hơn khi tạm dừng"
 trTR = "Duraklatıldığında daha yavaş"
 
 ["WearAndTear.Settings.Paused.Switch.Tooltip"]
-status = "normal"
 raw = "Paused buildings wear down more slowly (only buildings with a pause button).\\nEasy 25%, Normal 50%, Hard 75%, Brutal 100% of normal wear.\\nA map keeps the choice it started with. Changing this affects new maps only; older saves have it off."
+status = "normal"
 enUS = "Paused buildings wear down more slowly (only buildings with a pause button).\\nEasy 25%, Normal 50%, Hard 75%, Brutal 100% of normal wear.\\nA map keeps the choice it started with. Changing this affects new maps only; older saves have it off."
 zhCN = "已暂停的建筑磨损速度会更慢（仅限带有暂停按钮的建筑）。\\n简单：正常磨损速度的 25%，普通：50%，困难：75%，残酷：100%。\\n地图会保留创建时的选项。更改此设置只会影响新地图；旧存档中此选项处于关闭状态。"
 zhTW = "暫停中的建築磨損速度較慢（僅限有暫停按鈕的建築）。\\n簡單：25%，普通：50%，困難：75%，殘酷：正常磨損的 100%。\\n地圖會保留建立時選擇的設定。變更此設定只會影響新地圖；舊存檔中此設定為關閉。"
@@ -1413,8 +1413,8 @@ viVN = "Các công trình đang tạm dừng xuống cấp chậm hơn (chỉ á
 trTR = "Duraklatılan binalar daha yavaş yıpranır (yalnızca duraklatma düğmesi olan binalar).\\nKolay %25, Normal %50, Zor %75, Vahşi %100 normal yıpranma.\\nBir harita, başladığı seçimi korur. Bu ayarı değiştirmek yalnızca yeni haritaları etkiler; eski kayıtlar için kapalıdır."
 
 ["WearAndTear.Settings.Paused.Speed"]
-status = "normal"
 raw = "Speed while paused (%)"
+status = "normal"
 enUS = "Speed while paused (%)"
 zhCN = "暂停时的速度（%）"
 zhTW = "暫停時的速度（%）"
@@ -1430,8 +1430,8 @@ viVN = "Tốc độ khi tạm dừng (%)"
 trTR = "Duraklatıldığında hız (%)"
 
 ["WearAndTear.Settings.Paused.Speed.Tooltip"]
-status = "normal"
 raw = "Wear speed of a paused building, in percent of normal.\\n0 = no wear while paused.\\nOnly used when Difficulty is Custom."
+status = "normal"
 enUS = "Wear speed of a paused building, as a percentage of normal.\\n0 = no wear while paused.\\nOnly used when Difficulty is Custom."
 zhCN = "建筑暂停时的磨损速度，占正常速度的百分比。\\n0 = 暂停时不磨损。\\n仅在难度设置为自定义时使用。"
 zhTW = "建築物暫停時的磨損速度，以正常速度的百分比表示。\\\\n0 = 暫停時不會磨損。\\\\n僅用於「自訂」難度。"
@@ -1447,8 +1447,8 @@ viVN = "Tốc độ hao mòn của công trình đang tạm dừng, tính theo p
 trTR = "Duraklatılmış bir binanın yıpranma hızı, normal hızın yüzdesi olarak.\\\\n0 = duraklatıldığında yıpranma olmaz.\\\\nYalnızca Zorluk Özel olarak ayarlandığında kullanılır."
 
 ["WearAndTear.Settings.Refund.Name"]
-status = "normal"
 raw = "Refund"
+status = "normal"
 enUS = "Refund"
 zhCN = "退款"
 zhTW = "退款"
@@ -1464,8 +1464,8 @@ viVN = "Hoàn tiền"
 trTR = "İade"
 
 ["WearAndTear.Settings.Refund.Tooltip"]
-status = "normal"
 raw = "Percent of a building's build materials and stored goods that drops on the ground when it collapses at 0% condition.\\n0 = nothing.\\nEasy 75, Normal 50, Hard 25, Brutal 0.\\nOnly used when Difficulty is Custom."
+status = "normal"
 enUS = "Percent of a building's construction materials and stored goods that drop on the ground when it collapses at 0% condition.\\n0 = nothing.\\nEasy 75, Normal 50, Hard 25, Brutal 0.\\nOnly used when Difficulty is Custom."
 zhCN = "建筑在耐久度降至 0% 时坍塌，掉落到地面的建造材料和储存物品的百分比。\\\\n0 = 什么都不掉落。\\\\n简单 75、普通 50、困难 25、残酷 0。\\\\n仅在难度为自定义时使用。"
 zhTW = "建築物耐久度降至 0% 並倒塌時，其建造材料和儲存貨物掉落在地上的百分比。\\\\n0 = 無。\\\\n簡單 75、普通 50、困難 25、殘酷 0。\\\\n僅在難度為自訂時使用。"
@@ -1481,8 +1481,8 @@ viVN = "Tỷ lệ phần trăm vật liệu xây dựng và hàng hóa được 
 trTR = "Bir bina %0 dayanıklılıkta çöktüğünde, inşaat malzemelerinin ve depolanan mallarının yere dökülen yüzdesi.\\n0 = hiçbir şey.\\nKolay 75, Normal 50, Zor 25, Acımasız 0.\\nYalnızca Zorluk Özel olarak ayarlandığında kullanılır."
 
 ["WearAndTear.Settings.Preset.Name"]
-status = "normal"
 raw = "Start Custom from preset"
+status = "normal"
 enUS = "Start Custom from Preset"
 zhCN = "从预设开始自定义"
 zhTW = "從預設開始自訂"
@@ -1498,8 +1498,8 @@ viVN = "Bắt đầu tùy chỉnh từ cài đặt sẵn"
 trTR = "Ön ayarı temel alarak özel oluştur"
 
 ["WearAndTear.Settings.Preset.Choose"]
-status = "normal"
 raw = "(choose)"
+status = "normal"
 enUS = "(choose)"
 zhCN = "（选择）"
 zhTW = "（選擇）"
@@ -1515,8 +1515,8 @@ viVN = "(chọn)"
 trTR = "(seç)"
 
 ["WearAndTear.Settings.Preset.Tooltip"]
-status = "normal"
 raw = "Copies a difficulty's values into the Custom settings as a starting point:\\nCategories, Speed & Timing, Machine Output and Paused Buildings.\\nIt replaces your current Custom values. Only used when Difficulty is Custom.\\nMaps you already have keep their own values."
+status = "normal"
 enUS = "Copies a difficulty's values into the Custom settings as a starting point:\\nCategories, Speed & Timing, Machine Output, and Paused Buildings.\\nIt replaces your current Custom values. Only used when Difficulty is Custom.\\nMaps you already have keep their own values."
 zhCN = "将某个难度的数值复制到自定义设置中，作为起点：\\n类别、速度与时机、机器产出和暂停建筑。\\n这会替换你当前的自定义数值。仅在难度为“自定义”时使用。\\n已有地图会保留各自的数值。"
 zhTW = "將某個難度的數值複製到自訂設定中作為起始值：\\\\n分類、速度與時序、機器輸出及暫停的建築。\\\\n這會取代你目前的自訂數值。僅在難度設為「自訂」時使用。\\\\n你已有的地圖會保留各自的數值。"
@@ -1532,8 +1532,8 @@ viVN = "Sao chép các giá trị của một độ khó vào phần cài đặt
 trTR = "Bir zorluğun değerlerini başlangıç noktası olarak Özel ayarlara kopyalar:\\nKategoriler, Hız ve Zamanlama, Makine Çıktısı ve Duraklatılmış Binalar.\\nMevcut Özel ayarlarınızın yerini alır. Yalnızca Zorluk Özel olarak ayarlandığında kullanılır.\\nSahip olduğunuz haritalar kendi değerlerini korur."
 
 ["WearAndTear.Panel.Flavor.IronTeeth"]
-status = "normal"
 raw = "Every failure is simply maintenance that arrived late."
+status = "normal"
 enUS = "Every failure is simply maintenance that arrived late."
 zhCN = "每一次故障，不过是维护来迟了。"
 zhTW = "每一次故障，不過是維護來遲。"
@@ -1549,8 +1549,8 @@ viVN = "Mọi sự cố chẳng qua chỉ là việc bảo trì đến muộn."
 trTR = "Her başarısızlık, yalnızca gecikmiş bir bakımdır."
 
 ["WearAndTear.Panel.Flavor.Folktails"]
-status = "normal"
 raw = "The hoomans had a phrase: 'If it ain't broke...' They rarely finished that sentence."
+status = "normal"
 enUS = "The hoomans had a phrase: 'If it ain't broke...' They rarely finished that sentence."
 zhCN = "人类有句格言：“没坏的话，就别……”他们很少把这句话说完。"
 zhTW = "人類有句俗話：「東西沒壞……」他們很少把這句話說完。"
@@ -1566,8 +1566,8 @@ viVN = "Loài người có câu nói: 'Nếu nó chưa hỏng...' Họ hiếm kh
 trTR = "İnsanların şöyle bir sözü vardı: 'Bozuk değilse...' Bu cümleyi nadiren tamamlarlardı."
 
 ["WearAndTear.Panel.RepairNeeded"]
-status = "normal"
 raw = "Repair Needed"
+status = "normal"
 enUS = "Repair Needed"
 zhCN = "需要维修"
 zhTW = "需要維修"
@@ -1583,8 +1583,8 @@ viVN = "Cần sửa chữa"
 trTR = "Onarım Gerekli"
 
 ["WearAndTear.Panel.RepairRequested"]
-status = "normal"
 raw = "Repair Requested"
+status = "normal"
 enUS = "Repair Requested"
 zhCN = "请求维修"
 zhTW = "已要求維修"
@@ -1600,8 +1600,8 @@ viVN = "Yêu cầu sửa chữa"
 trTR = "Onarım İstendi"
 
 ["WearAndTear.Panel.RepairThreshold"]
-status = "normal"
 raw = "Repair Threshold:"
+status = "normal"
 enUS = "Repair Threshold:"
 zhCN = "维修阈值："
 zhTW = "維修門檻："
@@ -1617,8 +1617,8 @@ viVN = "Ngưỡng sửa chữa:"
 trTR = "Onarım Eşiği:"
 
 ["WearAndTear.Panel.MaterialsRequired"]
-status = "normal"
 raw = "Materials Required:"
+status = "normal"
 enUS = "Materials Required:"
 zhCN = "所需材料："
 zhTW = "所需材料："
@@ -1634,8 +1634,8 @@ viVN = "Vật liệu cần thiết:"
 trTR = "Gerekli Malzemeler:"
 
 ["WearAndTear.Panel.RepairStatus"]
-status = "normal"
 raw = "Repair Status:"
+status = "normal"
 enUS = "Repair Status:"
 zhCN = "维修状态："
 zhTW = "修理狀態："
@@ -1651,8 +1651,8 @@ viVN = "Trạng thái sửa chữa:"
 trTR = "Onarım Durumu:"
 
 ["WearAndTear.Panel.RepairButton"]
-status = "normal"
 raw = "Repair"
+status = "normal"
 enUS = "Repair"
 zhCN = "修理"
 zhTW = "維修"
@@ -1668,8 +1668,8 @@ viVN = "Sửa chữa"
 trTR = "Onar"
 
 ["WearAndTear.Panel.PauseRepair"]
-status = "normal"
 raw = "Pause Repair"
+status = "normal"
 enUS = "Pause Repair"
 zhCN = "暂停维修"
 zhTW = "暫停維修"
@@ -1685,8 +1685,8 @@ viVN = "Tạm dừng sửa chữa"
 trTR = "Onarımı duraklat"
 
 ["WearAndTear.Panel.ResumeRepair"]
-status = "normal"
 raw = "Resume Repair"
+status = "normal"
 enUS = "Resume Repair"
 zhCN = "继续维修"
 zhTW = "恢復維修"
@@ -1702,8 +1702,8 @@ viVN = "Tiếp tục sửa chữa"
 trTR = "Onarımı Sürdür"
 
 ["WearAndTear.Panel.Output"]
-status = "normal"
 raw = "Output"
+status = "normal"
 enUS = "Output"
 zhCN = "输出"
 zhTW = "輸出"
@@ -1719,8 +1719,8 @@ viVN = "Đầu ra"
 trTR = "Çıktı"
 
 ["WearAndTear.Panel.Critical.One"]
-status = "normal"
 raw = "1 building in critical condition!"
+status = "normal"
 enUS = "1 building in critical condition!"
 zhCN = "1 座建筑处于危急状态！"
 zhTW = "有 1 棟建築物狀況危急！"
@@ -1736,8 +1736,8 @@ viVN = "1 công trình đang ở tình trạng nguy cấp!"
 trTR = "Kritik durumda 1 bina!"
 
 ["WearAndTear.Panel.Critical.Many"]
-status = "normal"
 raw = "{0} buildings in critical condition!"
+status = "normal"
 enUS = "{0} buildings in critical condition!"
 zhCN = "有 {0} 栋建筑状况危急！"
 zhTW = "有 {0} 棟建築物處於危急狀態！"
@@ -1753,8 +1753,8 @@ viVN = "{0} công trình đang trong tình trạng nguy cấp!"
 trTR = "Kritik durumda {0} bina!"
 
 ["WearAndTear.Panel.BreakEvent.Warning"]
-status = "normal"
 raw = "Someone rolled the dice..."
+status = "normal"
 enUS = "Someone rolled the dice..."
 zhCN = "有人掷了骰子……"
 zhTW = "有人擲了骰子……"
@@ -1770,8 +1770,8 @@ viVN = "Ai đó đã tung xúc xắc..."
 trTR = "Biri zarları attı..."
 
 ["WearAndTear.Panel.Condition"]
-status = "normal"
 raw = "Condition:"
+status = "normal"
 enUS = "Condition:"
 zhCN = "条件："
 zhTW = "狀況："

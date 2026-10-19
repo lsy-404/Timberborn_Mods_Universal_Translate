@@ -68,3 +68,11 @@ koKR = "불규칙 오두막 2"
 csCZ = "Nepravidelná chata 2"
 viVN = "Nhà nghỉ Bất Quy Tắc 2"
 trTR = "Düzensiz Barınak 2"
+
+["Building.IrregularLodge3.Description"]
+new = "An L-shaped lodge."
+status = "normal"
+
+["Building.IrregularLodge3.DisplayName"]
+new = "L-shaped lodge"
+status = "normal"

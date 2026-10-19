@@ -427,8 +427,8 @@ viVN = "G"
 trTR = "G"
 
 ["Automation.Input.H"]
-status = "normal"
 raw = "H"
+status = "normal"
 enUS = "H"
 zhCN = "高"
 zhTW = "H"

@@ -4863,6 +4863,14 @@ csCZ = "Hrdina"
 viVN = "Anh hùng"
 trTR = "Kahraman"
 
+["TimberEmpires.Courage"]
+new = "Courage"
+status = "normal"
+
+["TimberEmpires.Combat"]
+new = "Combat"
+status = "normal"
+
 ["TimberEmpires.Troops.One.Warrior"]
 raw = "Warrior"
 status = "normal"
@@ -8569,6 +8577,78 @@ csCZ = "Nechte si volný ocas."
 viVN = "Hãy giữ đuôi mình thông thoáng."
 trTR = "Kuyruğunu açıkta tut."
 
+["Building.TimberEmpires.WallBanner.DisplayName"]
+new = "War Banner"
+status = "normal"
+
+["Building.TimberEmpires.WallBanner.Description"]
+new = "A banner standing in a corner of a wall's or tower's walk, or on the ground. Troops in the area round it hit 6% harder. Doesn't add up with another banner."
+status = "normal"
+
+["Building.TimberEmpires.WallBanner.FlavorDescription"]
+new = "Beavers fight better under a flag they can see."
+status = "normal"
+
+["Building.TimberEmpires.WallTotem.DisplayName"]
+new = "Carved Totem"
+status = "normal"
+
+["Building.TimberEmpires.WallTotem.Description"]
+new = "A carved beaver on a pole, standing in a corner of a wall's or tower's walk, or on the ground. Troops in the area round it hit 4% harder and take 3% less damage. Doesn't add up with another totem."
+status = "normal"
+
+["Building.TimberEmpires.WallTotem.FlavorDescription"]
+new = "Carved to look braver than whoever carved it."
+status = "normal"
+
+["Building.TimberEmpires.WallShieldRack.DisplayName"]
+new = "Shield Rack"
+status = "normal"
+
+["Building.TimberEmpires.WallShieldRack.Description"]
+new = "A rack of shields standing in a corner of a wall's or tower's walk, or on the ground. Troops in the area round it take 8% less damage. Doesn't add up with other shields."
+status = "normal"
+
+["Building.TimberEmpires.WallShieldRack.FlavorDescription"]
+new = "Spare shields for whoever's next."
+status = "normal"
+
+["Building.TimberEmpires.WallBannerMounted.DisplayName"]
+new = "Hanging Banner"
+status = "normal"
+
+["Building.TimberEmpires.WallBannerMounted.Description"]
+new = "A banner hung on the outside of a wall or tower. Troops in the area round it hit 6% harder. Doesn't add up with another banner."
+status = "normal"
+
+["Building.TimberEmpires.WallBannerMounted.FlavorDescription"]
+new = "Seen from the other side of the river."
+status = "normal"
+
+["Building.TimberEmpires.WallTotemMounted.DisplayName"]
+new = "Wall Totem"
+status = "normal"
+
+["Building.TimberEmpires.WallTotemMounted.Description"]
+new = "A carved beaver on a shelf, hung on the outside of a wall or tower. Troops in the area round it hit 4% harder and take 3% less damage. Doesn't add up with another totem."
+status = "normal"
+
+["Building.TimberEmpires.WallTotemMounted.FlavorDescription"]
+new = "It never blinks first."
+status = "normal"
+
+["Building.TimberEmpires.WallShieldRackMounted.DisplayName"]
+new = "Hung Shields"
+status = "normal"
+
+["Building.TimberEmpires.WallShieldRackMounted.Description"]
+new = "Spare shields hung on the outside of a wall or tower. Troops in the area round it take 8% less damage. Doesn't add up with other shields."
+status = "normal"
+
+["Building.TimberEmpires.WallShieldRackMounted.FlavorDescription"]
+new = "Grab one on the way up."
+status = "normal"
+
 ["Building.TimberEmpires.ResinPuddle.DisplayName"]
 raw = "Resin Puddle"
 status = "normal"
@@ -9589,6 +9669,14 @@ csCZ = "Vybrat později"
 viVN = "Chọn sau"
 trTR = "Daha sonra seç"
 
+["TimberEmpires.Rewards.WhyStart"]
+new = "A head start to prepare for the first night. You get three picks."
+status = "normal"
+
+["TimberEmpires.Rewards.WhySurvived"]
+new = "For surviving the night. Harder nights pay more."
+status = "normal"
+
 ["TimberEmpires.Rewards.Free"]
 raw = "Built on the spot, free"
 status = "normal"
@@ -9709,8 +9797,8 @@ viVN = "Thức ăn cho các hải ly của bạn."
 trTR = "Kunduzlarınız için yiyecek."
 
 ["TimberEmpires.Settings.HordeDetail"]
-status = "normal"
 raw = "Undead raccoons drawn"
+status = "normal"
 enUS = "Undead raccoons drawn"
 zhCN = "绘制的亡灵浣熊"
 zhTW = "吸引來的亡靈浣熊"
@@ -9726,8 +9814,8 @@ viVN = "Độ chi tiết của đám gấu mèo xác sống"
 trTR = "Çizilmiş ölümsüz rakunlar"
 
 ["TimberEmpires.Settings.HordeDetail.Tooltip"]
-status = "normal"
 raw = "The most zombie raccoons drawn at once, among those the camera sees. More makes a thicker horde and costs more each frame."
+status = "normal"
 enUS = "The maximum number of zombie raccoons drawn at once among those visible to the camera. Higher values create a denser horde and cost more each frame."
 zhCN = "镜头可见范围内同时绘制的僵尸浣熊数量上限。数量越多，尸群越密集，每帧的开销也越大。"
 zhTW = "鏡頭所見範圍內，同時繪製的殭屍浣熊數量上限。數量越多，殭屍群越密集，每影格的運算成本也越高。"
@@ -9743,8 +9831,8 @@ viVN = "Số gấu mèo thây ma tối đa được hiển thị cùng lúc tron
 trTR = "Kameranın gördükleri arasından aynı anda çizilen en fazla zombi rakun sayısı. Sayı arttıkça sürü yoğunlaşır ve her karede daha fazla işlem gücü gerekir."
 
 ["TimberEmpires.Settings.HordeDetail.2000"]
-status = "normal"
 raw = "2,000"
+status = "normal"
 enUS = "2,000"
 zhCN = "2,000"
 zhTW = "2,000"
@@ -9760,8 +9848,8 @@ viVN = "2,000"
 trTR = "2.000"
 
 ["TimberEmpires.Settings.HordeDetail.4000"]
-status = "normal"
 raw = "4,000"
+status = "normal"
 enUS = "4,000"
 zhCN = "4,000"
 zhTW = "4,000"
@@ -9777,8 +9865,8 @@ viVN = "4.000"
 trTR = "4,000"
 
 ["TimberEmpires.Settings.HordeDetail.8000"]
-status = "normal"
 raw = "8,000"
+status = "normal"
 enUS = "8,000"
 zhCN = "8,000"
 zhTW = "8,000"
@@ -9794,8 +9882,8 @@ viVN = "8,000"
 trTR = "8.000"
 
 ["TimberEmpires.Settings.HordeDetail.16000"]
-status = "normal"
 raw = "16,000"
+status = "normal"
 enUS = "16,000"
 zhCN = "16,000"
 zhTW = "16,000"
@@ -9809,3 +9897,15 @@ koKR = "16,000"
 csCZ = "16 000"
 viVN = "16,000"
 trTR = "16.000"
+
+["TimberEmpires.Castle.Upgrade"]
+new = "Upgrade to castle"
+status = "normal"
+
+["TimberEmpires.Castle.Delivering"]
+new = "Waiting for builders to bring the goods."
+status = "normal"
+
+["TimberEmpires.Castle.Building"]
+new = "Builders at work: {0}%"
+status = "normal"

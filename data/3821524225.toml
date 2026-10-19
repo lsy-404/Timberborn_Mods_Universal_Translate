@@ -36,8 +36,8 @@ viVN = "Ngày"
 trTR = "Gün"
 
 ["TimeInMapEditor.ExplodedGround"]
-status = "normal"
 raw = "Cannot place objects on exploded terrain."
+status = "normal"
 enUS = "Cannot place objects on exploded terrain."
 zhCN = "无法在炸开的地形上放置物体。"
 zhTW = "無法在已炸開的地形上放置物件。"

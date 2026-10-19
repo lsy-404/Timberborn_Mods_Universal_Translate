@@ -2,8 +2,8 @@
 name = "Better Map Editor"
 
 ["BetterMapEditor.EveryLayer"]
-status = "normal"
 raw = "All layers"
+status = "normal"
 enUS = "All layers"
 zhCN = "所有图层"
 zhTW = "所有圖層"
@@ -19,8 +19,8 @@ viVN = "Tất cả các lớp"
 trTR = "Tüm katmanlar"
 
 ["BetterMapEditor.VariableRuins"]
-status = "normal"
 raw = "Variable ruins"
+status = "normal"
 enUS = "Variable ruins"
 zhCN = "可变废墟"
 zhTW = "可變廢墟"
@@ -36,8 +36,8 @@ viVN = "Tàn tích thay đổi"
 trTR = "Değişken harabeler"
 
 ["BetterMapEditor.RuinHeight"]
-status = "normal"
 raw = "Height {0}"
+status = "normal"
 enUS = "Height {0}"
 zhCN = "高度 {0}"
 zhTW = "高度 {0}"
@@ -53,8 +53,8 @@ viVN = "Chiều cao {0}"
 trTR = "Yükseklik {0}"
 
 ["BetterMapEditor.WholeMap"]
-status = "normal"
 raw = "Whole map"
+status = "normal"
 enUS = "Whole Map"
 zhCN = "整个地图"
 zhTW = "整張地圖"
@@ -70,8 +70,8 @@ viVN = "Toàn bộ bản đồ"
 trTR = "Tüm Harita"
 
 ["BetterMapEditor.PreserveObjects"]
-status = "normal"
 raw = "Preserve objects"
+status = "normal"
 enUS = "Preserve objects"
 zhCN = "保留对象"
 zhTW = "保留物件"
@@ -87,8 +87,8 @@ viVN = "Giữ nguyên các vật thể"
 trTR = "Nesneleri koru"
 
 ["BetterMapEditor.Working"]
-status = "normal"
 raw = "Working... {0}%"
+status = "normal"
 enUS = "Working... {0}%"
 zhCN = "正在处理……{0}%"
 zhTW = "處理中…… {0}%"

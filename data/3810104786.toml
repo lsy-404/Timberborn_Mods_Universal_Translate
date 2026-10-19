@@ -24296,6 +24296,7 @@ trTR = "Yaratıcı boru döşemek, yabanıl kunduzların öğrenmesi gereken ilk
 
 ["MapMetadata.Pressure.Name"]
 raw = "Áp suất"
+new = "Pressure"
 status = "normal"
 enUS = "Pressure"
 zhCN = "压力"
@@ -24330,6 +24331,7 @@ trTR = "Bu yamaç, sulanan küçük alanlarla dolu. Ancak bölgede tehlike kol g
 
 ["MapMetadata.Spillage.Name"]
 raw = "Tràn đổ"
+new = "Spillage"
 status = "normal"
 enUS = "Spillage"
 zhCN = "溢流洼地"

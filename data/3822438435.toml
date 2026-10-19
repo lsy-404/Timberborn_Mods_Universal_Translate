@@ -2,8 +2,8 @@
 name = "Workplace Schedules"
 
 ["WorkplaceSchedules.Header"]
-status = "normal"
 raw = "Work Schedule"
+status = "normal"
 enUS = "Work Schedule"
 zhCN = "工作时间表"
 zhTW = "工作排程"
@@ -19,8 +19,8 @@ viVN = "Lịch làm việc"
 trTR = "Çalışma Programı"
 
 ["WorkplaceSchedules.DistrictHeader"]
-status = "normal"
 raw = "District Default Hours"
+status = "normal"
 enUS = "District Default Hours"
 zhCN = "城区默认工时"
 zhTW = "區域預設工時"
@@ -36,8 +36,8 @@ viVN = "Giờ mặc định của khu vực thuộc địa"
 trTR = "Bölge Varsayılan Çalışma Saatleri"
 
 ["WorkplaceSchedules.UseGlobalHours"]
-status = "normal"
 raw = "Use Global Hours"
+status = "normal"
 enUS = "Use Global Hours"
 zhCN = "使用全局工时"
 zhTW = "使用全域工時"
@@ -53,8 +53,8 @@ viVN = "Sử dụng Giờ Toàn cục"
 trTR = "Genel Çalışma Saatlerini Kullan"
 
 ["WorkplaceSchedules.Shift"]
-status = "normal"
 raw = "Shift"
+status = "normal"
 enUS = "Shift"
 zhCN = "班次"
 zhTW = "班次"
@@ -70,8 +70,8 @@ viVN = "Ca làm việc"
 trTR = "Vardiya"
 
 ["WorkplaceSchedules.ShiftHours"]
-status = "normal"
 raw = "Shift {0} hours:"
+status = "normal"
 enUS = "Shift {0} hours:"
 zhCN = "班次时长 {0} 小时："
 zhTW = "班次 {0} 小時："
@@ -87,8 +87,8 @@ viVN = "Ca làm việc {0} giờ:"
 trTR = "Vardiya süresi: {0} saat"
 
 ["WorkplaceSchedules.Hours"]
-status = "normal"
 raw = "Hrs:"
+status = "normal"
 enUS = "Hrs:"
 zhCN = "小时数："
 zhTW = "時數："
@@ -104,8 +104,8 @@ viVN = "Giờ:"
 trTR = "Saat:"
 
 ["WorkplaceSchedules.Start"]
-status = "normal"
 raw = "Start:"
+status = "normal"
 enUS = "Start:"
 zhCN = "开始："
 zhTW = "開始："
@@ -121,8 +121,8 @@ viVN = "Bắt đầu:"
 trTR = "Başlangıç:"
 
 ["WorkplaceSchedules.ApplyToDistrict"]
-status = "normal"
 raw = "Apply to district"
+status = "normal"
 enUS = "Apply to district"
 zhCN = "应用于区划"
 zhTW = "套用至區域"
@@ -138,8 +138,8 @@ viVN = "Áp dụng cho khu vực quản lý l_COLONY_"
 trTR = "İlçeye uygula"
 
 ["WorkplaceSchedules.SaveAsDefault"]
-status = "normal"
 raw = "Save as default"
+status = "normal"
 enUS = "Save as default"
 zhCN = "另存为默认值"
 zhTW = "設為預設值"
@@ -155,8 +155,8 @@ viVN = "Lưu làm mặc định"
 trTR = "Varsayılan olarak kaydet"
 
 ["WorkplaceSchedules.Weather.Normal"]
-status = "normal"
 raw = "Normal"
+status = "normal"
 enUS = "Normal"
 zhCN = "正常"
 zhTW = "正常"
@@ -172,8 +172,8 @@ viVN = "Bình thường"
 trTR = "Normal"
 
 ["WorkplaceSchedules.Weather.Drought"]
-status = "normal"
 raw = "Drought"
+status = "normal"
 enUS = "Drought"
 zhCN = "干旱"
 zhTW = "旱災"
@@ -189,8 +189,8 @@ viVN = "Hạn hán"
 trTR = "Kuraklık"
 
 ["WorkplaceSchedules.Weather.Badtide"]
-status = "normal"
 raw = "Badtide"
+status = "normal"
 enUS = "Badtide"
 zhCN = "恶水潮汐"
 zhTW = "毒潮"
