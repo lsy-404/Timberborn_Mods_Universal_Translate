@@ -2857,6 +2857,110 @@ csCZ = "Léky"
 viVN = "Thuốc men"
 trTR = "İlaçlar"
 
+["UI.Green"]
+new = "Green"
+status = "normal"
+
+["UI.Yellow"]
+new = "Yellow"
+status = "normal"
+
+["UI.Red"]
+new = "Red"
+status = "normal"
+
+["UI.White"]
+new = "White"
+status = "normal"
+
+["UI.Brown"]
+new = "Brown"
+status = "normal"
+
+["UI.Metal"]
+new = "Metal"
+status = "normal"
+
+["UI.Straight"]
+new = "Straight"
+status = "normal"
+
+["UI.Diagonal"]
+new = "Diagonal"
+status = "normal"
+
+["UI.Solid"]
+new = "Solid"
+status = "normal"
+
+["UI.1"]
+new = "1"
+status = "normal"
+
+["UI.2"]
+new = "2"
+status = "normal"
+
+["UI.3"]
+new = "3"
+status = "normal"
+
+["UI.4"]
+new = "4"
+status = "normal"
+
+["UI.Tree"]
+new = "Tree"
+status = "normal"
+
+["UI.Shrub1"]
+new = "Shrub 1"
+status = "normal"
+
+["UI.Shrub2"]
+new = "Shrub 2"
+status = "normal"
+
+["UI.Shrub3"]
+new = "Shrub 3"
+status = "normal"
+
+["UI.Shrub4"]
+new = "Shrub 4"
+status = "normal"
+
+["UI.Shrub5"]
+new = "Shrub 5"
+status = "normal"
+
+["UI.Cog1"]
+new = "Cog 1"
+status = "normal"
+
+["UI.Cog2"]
+new = "Cog 2"
+status = "normal"
+
+["UI.Style"]
+new = "Style"
+status = "normal"
+
+["UI.Color"]
+new = "Color"
+status = "normal"
+
+["UI.Body"]
+new = "Body"
+status = "normal"
+
+["UI.Left"]
+new = "Left"
+status = "normal"
+
+["UI.Right"]
+new = "Right"
+status = "normal"
+
 ["Building.Airlock.Description"]
 raw = "Allows beavers to pass through while blocking off water."
 status = "abandoned"

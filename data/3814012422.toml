@@ -613,6 +613,14 @@ csCZ = "Toto území si nárokuje {0}."
 viVN = "Vùng đất này đã được {0} tuyên bố chủ quyền."
 trTR = "Bu topraklar {0} tarafından sahiplenilmiş."
 
+["TimberEmpires.CombatLock.NoBuild"]
+new = "Too close to enemy troops or buildings to build here."
+status = "normal"
+
+["TimberEmpires.CombatLock.NoDemolish"]
+new = "You can't demolish while enemy troops are close."
+status = "normal"
+
 ["Building.TimberEmpires.Barracks.DisplayName"]
 raw = "Barracks"
 status = "normal"
@@ -4864,8 +4872,8 @@ viVN = "Anh hùng"
 trTR = "Kahraman"
 
 ["TimberEmpires.Courage"]
-status = "normal"
 raw = "Courage"
+status = "normal"
 enUS = "Courage"
 zhCN = "勇气"
 zhTW = "勇氣"
@@ -4881,8 +4889,8 @@ viVN = "Lòng dũng cảm"
 trTR = "Cesaret"
 
 ["TimberEmpires.Combat"]
-status = "normal"
 raw = "Combat"
+status = "normal"
 enUS = "Combat"
 zhCN = "战斗"
 zhTW = "戰鬥"
@@ -6716,74 +6724,6 @@ csCZ = "Nabírání {1} ({0} z posádky)"
 viVN = "Đang lấy {1} ({0} thành viên trong đội)"
 trTR = "{1} alınıyor (ekibin {0} kadarı)"
 
-["TimberEmpires.Troops.NoHaulers"]
-raw = "Recruits are waiting for weapons in storage, but no hauler is free to bring them."
-status = "normal"
-enUS = "Recruits are waiting for weapons in storage, but no hauler is free to bring them."
-zhCN = "新兵正在等待仓库中的武器，但没有空闲的搬运工能把武器送来。"
-zhTW = "新兵正在等待倉庫裡的武器，但沒有空閒的搬運工能把武器送來。"
-ruRU = "Новобранцы ждут оружие на складе, но нет свободных грузчиков, чтобы принести его."
-jaJP = "新兵は倉庫にある武器を待っていますが、運搬係に空きがなく、武器を届けられません。"
-frFR = "Des recrues attendent des armes en stock, mais aucun transporteur n'est disponible pour les leur apporter."
-deDE = "Rekruten warten im Lager auf Waffen, aber kein Transporteur ist frei, um sie zu bringen."
-plPL = "Rekruci czekają na broń w magazynie, ale żaden tragarz nie może jej przynieść."
-ptBR = "Há recrutas esperando por armas no armazenamento, mas nenhum transportador está livre para trazê-las."
-koKR = "신병들이 보관소에서 무기를 기다리고 있지만, 무기를 가져올 여유가 있는 운반꾼이 없습니다."
-csCZ = "Rekruti čekají na zbraně ve skladu, ale žádný přepravce je nemůže přinést."
-viVN = "Các tân binh đang chờ vũ khí trong kho, nhưng không có nhân viên vận chuyển nào rảnh để mang vũ khí đến cho họ."
-trTR = "Askere alınanlar depoda silah bekliyor, ancak onları getirecek boşta bir taşıyıcı yok."
-
-["TimberEmpires.Troops.NoHaulers.Short"]
-raw = "No haulers for weapons"
-status = "normal"
-enUS = "No haulers for weapons"
-zhCN = "没有武器搬运工"
-zhTW = "沒有運輸工搬運武器"
-ruRU = "Нет грузчиков для оружия"
-jaJP = "武器運搬係なし"
-frFR = "Aucun transporteur pour les armes"
-deDE = "Keine Transportarbeiter für Waffen"
-plPL = "Brak tragarzy do broni"
-ptBR = "Sem carregadores de armas"
-koKR = "무기 운반 담당자 없음"
-csCZ = "Žádní přepravci zbraní"
-viVN = "Không có người vận chuyển vũ khí"
-trTR = "Silah taşıyıcısı yok"
-
-["TimberEmpires.Troops.NoWeapons"]
-raw = "Recruits are waiting for weapons, but the district has none. Make some at a smithy."
-status = "normal"
-enUS = "Recruits are waiting for weapons, but the district has none. Make some at a smithy."
-zhCN = "新兵正在等待武器，但该区没有武器。请在铁匠铺制作一些。"
-zhTW = "新兵正在等待武器，但此區域沒有武器。請在鐵匠鋪製作一些。"
-ruRU = "Новобранцы ждут оружия, но в районе его нет. Изготовьте оружие в кузнице."
-jaJP = "新兵が武器を待っていますが、この地区には武器がありません。鍛冶場で作りましょう。"
-frFR = "Des recrues attendent des armes, mais le district n’en a pas. Fabriquez-en dans une forge."
-deDE = "Rekruten warten auf Waffen, aber der Bezirk hat keine. Stelle welche in einer Schmiede her."
-plPL = "Rekruci czekają na broń, ale w dzielnicy jej nie ma. Wyprodukuj ją w kuźni."
-ptBR = "Os recrutas estão esperando por armas, mas o distrito não tem nenhuma. Fabrique algumas numa ferraria."
-koKR = "신병들이 무기를 기다리고 있지만, 지구에 무기가 없습니다. 대장간에서 무기를 제작하세요."
-csCZ = "Rekruti čekají na zbraně, ale v okrsku žádné nejsou. Vyrobte nějaké v kovárně."
-viVN = "Các tân binh đang chờ vũ khí, nhưng khu vực này không có vũ khí nào. Hãy chế tạo một ít tại lò rèn."
-trTR = "Acemiler silah bekliyor, ancak bölgede hiç silah yok. Bir demirhanede biraz üret."
-
-["TimberEmpires.Troops.NoWeapons.Short"]
-raw = "No weapons"
-status = "normal"
-enUS = "No weapons"
-zhCN = "无武器"
-zhTW = "沒有武器"
-ruRU = "Без оружия"
-jaJP = "武器なし"
-frFR = "Aucune arme"
-deDE = "Keine Waffen"
-plPL = "Brak broni"
-ptBR = "Sem armas"
-koKR = "무기 없음"
-csCZ = "Žádné zbraně"
-viVN = "Không có vũ khí"
-trTR = "Silah yok"
-
 ["Good.Shield.DisplayName"]
 raw = "Shield"
 status = "normal"
@@ -7514,6 +7454,10 @@ koKR = "정착지를 세우려면 구역 중심지를 원하는 곳에 배치하
 csCZ = "Umístěte centrum okrsku kamkoli a založte svou osadu. Postaví se okamžitě, spolu s bobry, jídlem a vodou na začátek."
 viVN = "Đặt Trung tâm Quận ở bất kỳ đâu để lập khu định cư của bạn. Công trình được xây dựng ngay lập tức, kèm theo hải ly, thức ăn và nước để bắt đầu."
 trTR = "Yerleşiminizi kurmak için Bölge Merkezinizi istediğiniz yere yerleştirin. Kunduzlar, yiyecek ve suyla birlikte hemen inşa edilir."
+
+["TimberEmpires.Players.Title"]
+new = "Players"
+status = "normal"
 
 ["TimberEmpires.Players.You"]
 raw = "{0} (you)"
@@ -8604,8 +8548,8 @@ viVN = "Hãy giữ đuôi mình thông thoáng."
 trTR = "Kuyruğunu açıkta tut."
 
 ["Building.TimberEmpires.WallBanner.DisplayName"]
-status = "normal"
 raw = "War Banner"
+status = "normal"
 enUS = "War Banner"
 zhCN = "战旗"
 zhTW = "戰旗"
@@ -8621,8 +8565,8 @@ viVN = "Cờ Chiến Tranh"
 trTR = "Savaş Sancağı"
 
 ["Building.TimberEmpires.WallBanner.Description"]
-status = "normal"
 raw = "A banner standing in a corner of a wall's or tower's walk, or on the ground. Troops in the area round it hit 6% harder. Doesn't add up with another banner."
+status = "normal"
 enUS = "A banner placed in a corner of a wall or tower walkway, or on the ground. Troops in the area around it hit 6% harder. Does not stack with another banner."
 zhCN = "一面旗帜，可立在墙体或塔楼走道的角落，也可立在地面上。附近区域内的部队造成的伤害提高 6%。效果不会与其他旗帜叠加。"
 zhTW = "可立於牆壁或塔樓走道角落，也可立在地面。附近的部隊造成的傷害提高 6%。效果不會與其他旗幟疊加。"
@@ -8638,8 +8582,8 @@ viVN = "Một biểu ngữ được dựng ở góc lối đi trên tường ho�
 trTR = "Bir duvarın veya kulenin yürüyüş yolunun köşesine ya da yere dikilen bir sancak. Yakınındaki birlikler %6 daha sert vurur. Başka bir sancakla etkisi birikmez."
 
 ["Building.TimberEmpires.WallBanner.FlavorDescription"]
-status = "normal"
 raw = "Beavers fight better under a flag they can see."
+status = "normal"
 enUS = "Beavers fight better under a flag they can see."
 zhCN = "海狸在能看到旗帜时战斗力更强。"
 zhTW = "海狸在看得見的旗幟下戰鬥時會更英勇。"
@@ -8655,8 +8599,8 @@ viVN = "Hải ly chiến đấu tốt hơn dưới lá cờ mà chúng nhìn th�
 trTR = "Kunduzlar görebildikleri bir bayrağın altında daha iyi savaşır."
 
 ["Building.TimberEmpires.WallTotem.DisplayName"]
-status = "normal"
 raw = "Carved Totem"
+status = "normal"
 enUS = "Carved Totem"
 zhCN = "雕刻图腾"
 zhTW = "雕刻圖騰"
@@ -8672,8 +8616,8 @@ viVN = "Vật tổ chạm khắc"
 trTR = "Oyma Totem"
 
 ["Building.TimberEmpires.WallTotem.Description"]
-status = "normal"
 raw = "A carved beaver on a pole, standing in a corner of a wall's or tower's walk, or on the ground. Troops in the area round it hit 4% harder and take 3% less damage. Doesn't add up with another totem."
+status = "normal"
 enUS = "A carved beaver on a pole, placed in a corner of a wall or tower walkway, or on the ground. Troops in the area around it hit 4% harder and take 3% less damage. Does not stack with another totem."
 zhCN = "一只雕刻的海狸立在杆上，可放置于墙壁或塔楼的步道拐角，也可放在地面上。附近区域内的部队造成的伤害提高 4%，受到的伤害降低 3%。效果不会与其他图腾叠加。"
 zhTW = "立在柱子上的雕刻海狸，可放置在牆上或塔樓走道的角落，或地面上。附近的部隊造成的傷害提高 4%，受到的傷害降低 3%。效果不會與另一座圖騰疊加。"
@@ -8689,8 +8633,8 @@ viVN = "Một con hải ly được chạm khắc trên cột, đặt ở góc l
 trTR = "Bir duvarın ya da kulenin yürüyüş yolunun köşesine veya yere dikilmiş bir direk üzerindeki oyma kunduz. Çevresindeki birlikler %4 daha sert vurur ve %3 daha az hasar alır. Başka bir totemle etkisi birikmez."
 
 ["Building.TimberEmpires.WallTotem.FlavorDescription"]
-status = "normal"
 raw = "Carved to look braver than whoever carved it."
+status = "normal"
 enUS = "Carved to look braver than whoever carved it."
 zhCN = "雕刻得比雕刻者本人看起来还勇敢。"
 zhTW = "雕得比雕刻者本人還要勇敢。"
@@ -8706,8 +8650,8 @@ viVN = "Được chạm khắc trông dũng mãnh hơn cả người đã chạm
 trTR = "Onu oyana kıyasla daha cesur gösterecek şekilde oyulmuş."
 
 ["Building.TimberEmpires.WallShieldRack.DisplayName"]
-status = "normal"
 raw = "Shield Rack"
+status = "normal"
 enUS = "Shield Rack"
 zhCN = "盾牌架"
 zhTW = "盾牌架"
@@ -8723,8 +8667,8 @@ viVN = "Giá treo khiên"
 trTR = "Kalkan Rafı"
 
 ["Building.TimberEmpires.WallShieldRack.Description"]
-status = "normal"
 raw = "A rack of shields standing in a corner of a wall's or tower's walk, or on the ground. Troops in the area round it take 8% less damage. Doesn't add up with other shields."
+status = "normal"
 enUS = "A rack of shields set up in a corner of a wall or tower walkway, or on the ground. Troops in the area around it take 8% less damage. Does not stack with other shields."
 zhCN = "一架盾牌，放置在城墙或塔楼走道的角落，或地面上。附近区域内的部队受到的伤害减少 8%。效果不与其他盾牌叠加。"
 zhTW = "一架盾牌架，設置在牆面或塔樓走道的角落，或地面上。附近區域內的部隊受到的傷害減少 8%。效果不會與其他盾牌疊加。"
@@ -8740,8 +8684,8 @@ viVN = "Một giá đỡ khiên đặt ở góc lối đi trên tường hoặc 
 trTR = "Bir duvarın veya kulenin yürüyüş yolunun köşesinde ya da yerde duran bir kalkan rafı. Yakınındaki birlikler %8 daha az hasar alır. Diğer kalkanlarla birikmez."
 
 ["Building.TimberEmpires.WallShieldRack.FlavorDescription"]
-status = "normal"
 raw = "Spare shields for whoever's next."
+status = "normal"
 enUS = "Spare shields for whoever's next."
 zhCN = "给下一位准备的备用盾牌。"
 zhTW = "留些備用盾牌，給下一位用。"
@@ -8757,8 +8701,8 @@ viVN = "Khiên dự phòng cho người tiếp theo."
 trTR = "Sıradaki kim olursa olsun diye yedek kalkanlar."
 
 ["Building.TimberEmpires.WallBannerMounted.DisplayName"]
-status = "normal"
 raw = "Hanging Banner"
+status = "normal"
 enUS = "Hanging Banner"
 zhCN = "悬挂旗帜"
 zhTW = "懸掛式旗幟"
@@ -8774,8 +8718,8 @@ viVN = "Biểu ngữ treo tường"
 trTR = "Asılı Afiş"
 
 ["Building.TimberEmpires.WallBannerMounted.Description"]
-status = "normal"
 raw = "A banner hung on the outside of a wall or tower. Troops in the area round it hit 6% harder. Doesn't add up with another banner."
+status = "normal"
 enUS = "A banner hung on the outside of a wall or tower. Troops in the area around it hit 6% harder. Doesn't stack with another banner."
 zhCN = "挂在墙或塔外侧的旗帜。附近的部队造成的伤害提高 6%。效果不会与另一面旗帜叠加。"
 zhTW = "掛在牆壁或塔樓外側的旗幟。附近的部隊攻擊力提高 6%。效果不會與另一面旗幟疊加。"
@@ -8791,8 +8735,8 @@ viVN = "Một lá cờ treo bên ngoài tường hoặc tháp. Binh lính trong 
 trTR = "Duvarın veya kulenin dışına asılan bir sancak. Yakındaki birlikler %6 daha sert vurur. Başka bir sancakla etkisi birikmez."
 
 ["Building.TimberEmpires.WallBannerMounted.FlavorDescription"]
-status = "normal"
 raw = "Seen from the other side of the river."
+status = "normal"
 enUS = "Seen from the other side of the river."
 zhCN = "从河对岸看过去。"
 zhTW = "從河的另一側看去。"
@@ -8808,8 +8752,8 @@ viVN = "Được nhìn từ bờ bên kia sông."
 trTR = "Nehrin diğer tarafından görünüşü."
 
 ["Building.TimberEmpires.WallTotemMounted.DisplayName"]
-status = "normal"
 raw = "Wall Totem"
+status = "normal"
 enUS = "Wall Totem"
 zhCN = "墙面图腾"
 zhTW = "牆面圖騰"
@@ -8825,8 +8769,8 @@ viVN = "Vật tổ gắn tường"
 trTR = "Duvar Totemi"
 
 ["Building.TimberEmpires.WallTotemMounted.Description"]
-status = "normal"
 raw = "A carved beaver on a shelf, hung on the outside of a wall or tower. Troops in the area round it hit 4% harder and take 3% less damage. Doesn't add up with another totem."
+status = "normal"
 enUS = "A carved beaver on a shelf, mounted on the outside of a wall or tower. Troops in the area around it hit 4% harder and take 3% less damage. Doesn't stack with another totem."
 zhCN = "架子上的海狸雕像，可挂在墙或塔的外侧。周围的部队造成的伤害提高 4%，受到的伤害降低 3%。效果不会与另一个图腾叠加。"
 zhTW = "雕刻成海狸模樣、放在架子上的擺飾，可掛在牆壁或塔樓外側。附近的部隊攻擊力提高 4%，承受的傷害降低 3%。不會與另一座圖騰疊加。"
@@ -8842,8 +8786,8 @@ viVN = "Một con hải ly được chạm khắc đặt trên kệ, treo bên n
 trTR = "Duvarın veya kulenin dışına asılan, bir raf üzerindeki oyma kunduz. Çevresindeki birlikler %4 daha sert vurur ve %3 daha az hasar alır. Başka bir totemle etkisi birikmez."
 
 ["Building.TimberEmpires.WallTotemMounted.FlavorDescription"]
-status = "normal"
 raw = "It never blinks first."
+status = "normal"
 enUS = "It never blinks first."
 zhCN = "它从不先眨眼。"
 zhTW = "牠從不先眨眼。"
@@ -8859,8 +8803,8 @@ viVN = "Nó không bao giờ chớp mắt trước."
 trTR = "Önce o asla gözünü kırpmaz."
 
 ["Building.TimberEmpires.WallShieldRackMounted.DisplayName"]
-status = "normal"
 raw = "Hung Shields"
+status = "normal"
 enUS = "Hung Shields"
 zhCN = "悬挂式盾牌架"
 zhTW = "懸掛式盾牌架"
@@ -8876,8 +8820,8 @@ viVN = "Khiên treo tường"
 trTR = "Asılı Kalkanlar"
 
 ["Building.TimberEmpires.WallShieldRackMounted.Description"]
-status = "normal"
 raw = "Spare shields hung on the outside of a wall or tower. Troops in the area round it take 8% less damage. Doesn't add up with other shields."
+status = "normal"
 enUS = "Spare shields hung on the outside of a wall or tower. Troops in the surrounding area take 8% less damage. Doesn't stack with other shields."
 zhCN = "挂在墙或塔外侧的备用盾牌。周围区域内的部队受到的伤害减少 8%。效果不会与其他盾牌叠加。"
 zhTW = "備用盾牌可掛在牆壁或塔樓外側。周圍區域內的部隊所受傷害減少 8%。效果不會與其他盾牌疊加。"
@@ -8893,8 +8837,8 @@ viVN = "Khiên dự phòng được treo bên ngoài tường hoặc tháp. Quâ
 trTR = "Bir duvarın veya kulenin dışına asılan yedek kalkanlar. Yakın çevredeki birlikler %8 daha az hasar alır. Diğer kalkanlarla birikmez."
 
 ["Building.TimberEmpires.WallShieldRackMounted.FlavorDescription"]
-status = "normal"
 raw = "Grab one on the way up."
+status = "normal"
 enUS = "Grab one on the way up."
 zhCN = "上去时顺手拿一个。"
 zhTW = "上去時順手拿一個。"
@@ -9642,6 +9586,7 @@ trTR = "{0}×"
 
 ["TimberEmpires.Settings.HordeEvery"]
 raw = "Nights per horde"
+new = "Nights between hordes"
 status = "normal"
 enUS = "Nights per horde"
 zhCN = "每波敌群间隔夜数"
@@ -9659,6 +9604,7 @@ trTR = "Sürü başına gece sayısı"
 
 ["TimberEmpires.Settings.HordeEvery.Tooltip"]
 raw = "How many nights apart the hordes come. The longer the wait, the bigger each horde and the more each sunrise brings. A badtide's first night always brings a super horde."
+new = "About how many nights between hordes."
 status = "normal"
 enUS = "How many nights between horde attacks. The longer the wait, the bigger each horde and the more each sunrise brings. The first night of a badtide always brings a super horde."
 zhCN = "兽群来袭的间隔夜数。等待时间越长，每波兽群就越大，每次日出带来的也越多。恶潮的第一个夜晚总会带来一波超级兽群。"
@@ -9690,6 +9636,58 @@ koKR = "{0}"
 csCZ = "{0}"
 viVN = "{0}"
 trTR = "{0}"
+
+["TimberEmpires.Settings.HordeToughness"]
+new = "Zombie toughness"
+status = "normal"
+
+["TimberEmpires.Settings.HordeToughness.Tooltip"]
+new = "How hard zombies are to kill, and how hard they hit."
+status = "normal"
+
+["TimberEmpires.Settings.HordeToughness.Value"]
+new = "{0}%"
+status = "normal"
+
+["TimberEmpires.Settings.HordeRewards"]
+new = "Night rewards"
+status = "normal"
+
+["TimberEmpires.Settings.HordeRewards.Tooltip"]
+new = "How much a survived night pays out."
+status = "normal"
+
+["TimberEmpires.Settings.HordeRewards.Value"]
+new = "{0}%"
+status = "normal"
+
+["TimberEmpires.Settings.HordeGrowth"]
+new = "Horde growth"
+status = "normal"
+
+["TimberEmpires.Settings.HordeGrowth.Tooltip"]
+new = "How much bigger the hordes get each cycle."
+status = "normal"
+
+["TimberEmpires.Settings.HordeGrowth.Value"]
+new = "+{0}% a cycle"
+status = "normal"
+
+["TimberEmpires.Settings.HordeAdapt"]
+new = "Hordes adapt to you"
+status = "normal"
+
+["TimberEmpires.Settings.HordeAdapt.Tooltip"]
+new = "Hordes get bigger when you handle them well and ease off when you take losses. Off turns it off."
+status = "normal"
+
+["TimberEmpires.Settings.HordeAdapt.Value"]
+new = "{0}%"
+status = "normal"
+
+["TimberEmpires.Settings.HordeAdapt.Value.Min"]
+new = "Off"
+status = "normal"
 
 ["TimberEmpires.Settings.SharedColony"]
 raw = "Shared colony"
@@ -9930,8 +9928,8 @@ viVN = "Chọn sau"
 trTR = "Daha sonra seç"
 
 ["TimberEmpires.Rewards.WhyStart"]
-status = "normal"
 raw = "A head start to prepare for the first night. You get three picks."
+status = "normal"
 enUS = "A head start to prepare for the first night. You get three picks."
 zhCN = "为第一夜提前做好准备。你会获得三把镐。"
 zhTW = "讓你有時間為第一個夜晚做準備。你可以挑選三項。"
@@ -9947,8 +9945,8 @@ viVN = "Lợi thế ban đầu để chuẩn bị cho đêm đầu tiên. Bạn 
 trTR = "İlk geceye hazırlanmak için bir avantaj. Üç kazma alırsınız."
 
 ["TimberEmpires.Rewards.WhySurvived"]
-status = "normal"
 raw = "For surviving the night. Harder nights pay more."
+status = "normal"
 enUS = "For surviving the night. Harder nights pay more."
 zhCN = "用于熬过夜晚。夜晚越艰难，奖励越丰厚。"
 zhTW = "為了熬過夜晚。越難熬的夜晚，報酬越多。"
@@ -10185,8 +10183,8 @@ viVN = "16,000"
 trTR = "16.000"
 
 ["TimberEmpires.Castle.Upgrade"]
-status = "normal"
 raw = "Upgrade to castle"
+status = "normal"
 enUS = "Upgrade to Castle"
 zhCN = "升级为城堡"
 zhTW = "升級為城堡"
@@ -10202,8 +10200,8 @@ viVN = "Nâng cấp thành lâu đài"
 trTR = "Kaleye yükselt"
 
 ["TimberEmpires.Castle.Delivering"]
-status = "normal"
 raw = "Waiting for builders to bring the goods."
+status = "normal"
 enUS = "Waiting for builders to bring the goods."
 zhCN = "正在等待建筑工人运来货物。"
 zhTW = "等待建築工人運送貨物。"
@@ -10219,8 +10217,8 @@ viVN = "Đang chờ thợ xây mang hàng đến."
 trTR = "İnşaatçıların malları getirmesi bekleniyor."
 
 ["TimberEmpires.Castle.Building"]
-status = "normal"
 raw = "Builders at work: {0}%"
+status = "normal"
 enUS = "Builders at work: {0}%"
 zhCN = "正在工作的建造者：{0}%"
 zhTW = "正在施工的建造者：{0}%"
@@ -10234,3 +10232,71 @@ koKR = "작업 중인 건축가: {0}%"
 csCZ = "Stavitelé při práci: {0}%"
 viVN = "Thợ xây đang làm việc: {0}%"
 trTR = "Çalışan inşaatçılar: {0}%"
+
+["TimberEmpires.Troops.NoHaulers"]
+raw = "Recruits are waiting for weapons in storage, but no hauler is free to bring them."
+status = "abandoned"
+enUS = "Recruits are waiting for weapons in storage, but no hauler is free to bring them."
+zhCN = "新兵正在等待仓库中的武器，但没有空闲的搬运工能把武器送来。"
+zhTW = "新兵正在等待倉庫裡的武器，但沒有空閒的搬運工能把武器送來。"
+ruRU = "Новобранцы ждут оружие на складе, но нет свободных грузчиков, чтобы принести его."
+jaJP = "新兵は倉庫にある武器を待っていますが、運搬係に空きがなく、武器を届けられません。"
+frFR = "Des recrues attendent des armes en stock, mais aucun transporteur n'est disponible pour les leur apporter."
+deDE = "Rekruten warten im Lager auf Waffen, aber kein Transporteur ist frei, um sie zu bringen."
+plPL = "Rekruci czekają na broń w magazynie, ale żaden tragarz nie może jej przynieść."
+ptBR = "Há recrutas esperando por armas no armazenamento, mas nenhum transportador está livre para trazê-las."
+koKR = "신병들이 보관소에서 무기를 기다리고 있지만, 무기를 가져올 여유가 있는 운반꾼이 없습니다."
+csCZ = "Rekruti čekají na zbraně ve skladu, ale žádný přepravce je nemůže přinést."
+viVN = "Các tân binh đang chờ vũ khí trong kho, nhưng không có nhân viên vận chuyển nào rảnh để mang vũ khí đến cho họ."
+trTR = "Askere alınanlar depoda silah bekliyor, ancak onları getirecek boşta bir taşıyıcı yok."
+
+["TimberEmpires.Troops.NoHaulers.Short"]
+raw = "No haulers for weapons"
+status = "abandoned"
+enUS = "No haulers for weapons"
+zhCN = "没有武器搬运工"
+zhTW = "沒有運輸工搬運武器"
+ruRU = "Нет грузчиков для оружия"
+jaJP = "武器運搬係なし"
+frFR = "Aucun transporteur pour les armes"
+deDE = "Keine Transportarbeiter für Waffen"
+plPL = "Brak tragarzy do broni"
+ptBR = "Sem carregadores de armas"
+koKR = "무기 운반 담당자 없음"
+csCZ = "Žádní přepravci zbraní"
+viVN = "Không có người vận chuyển vũ khí"
+trTR = "Silah taşıyıcısı yok"
+
+["TimberEmpires.Troops.NoWeapons"]
+raw = "Recruits are waiting for weapons, but the district has none. Make some at a smithy."
+status = "abandoned"
+enUS = "Recruits are waiting for weapons, but the district has none. Make some at a smithy."
+zhCN = "新兵正在等待武器，但该区没有武器。请在铁匠铺制作一些。"
+zhTW = "新兵正在等待武器，但此區域沒有武器。請在鐵匠鋪製作一些。"
+ruRU = "Новобранцы ждут оружия, но в районе его нет. Изготовьте оружие в кузнице."
+jaJP = "新兵が武器を待っていますが、この地区には武器がありません。鍛冶場で作りましょう。"
+frFR = "Des recrues attendent des armes, mais le district n’en a pas. Fabriquez-en dans une forge."
+deDE = "Rekruten warten auf Waffen, aber der Bezirk hat keine. Stelle welche in einer Schmiede her."
+plPL = "Rekruci czekają na broń, ale w dzielnicy jej nie ma. Wyprodukuj ją w kuźni."
+ptBR = "Os recrutas estão esperando por armas, mas o distrito não tem nenhuma. Fabrique algumas numa ferraria."
+koKR = "신병들이 무기를 기다리고 있지만, 지구에 무기가 없습니다. 대장간에서 무기를 제작하세요."
+csCZ = "Rekruti čekají na zbraně, ale v okrsku žádné nejsou. Vyrobte nějaké v kovárně."
+viVN = "Các tân binh đang chờ vũ khí, nhưng khu vực này không có vũ khí nào. Hãy chế tạo một ít tại lò rèn."
+trTR = "Acemiler silah bekliyor, ancak bölgede hiç silah yok. Bir demirhanede biraz üret."
+
+["TimberEmpires.Troops.NoWeapons.Short"]
+raw = "No weapons"
+status = "abandoned"
+enUS = "No weapons"
+zhCN = "无武器"
+zhTW = "沒有武器"
+ruRU = "Без оружия"
+jaJP = "武器なし"
+frFR = "Aucune arme"
+deDE = "Keine Waffen"
+plPL = "Brak broni"
+ptBR = "Sem armas"
+koKR = "무기 없음"
+csCZ = "Žádné zbraně"
+viVN = "Không có vũ khí"
+trTR = "Silah yok"

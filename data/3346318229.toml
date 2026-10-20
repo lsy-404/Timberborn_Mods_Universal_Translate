@@ -2840,6 +2840,14 @@ csCZ = "Vonný kouř"
 viVN = "Nhang"
 trTR = "İkram"
 
+["UI.Classic"]
+new = "Classic"
+status = "normal"
+
+["UI.Standard"]
+new = "Standard"
+status = "normal"
+
 ["Building.ImpermeablePowerShaft.Description"]
 raw = "Transfers power. Blocks water."
 status = "abandoned"

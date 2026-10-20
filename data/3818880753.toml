@@ -70,8 +70,8 @@ viVN = "Nhà nghỉ Bất Quy Tắc 2"
 trTR = "Düzensiz Barınak 2"
 
 ["Building.IrregularLodge3.Description"]
-status = "normal"
 raw = "An L-shaped lodge."
+status = "normal"
 enUS = "An L-shaped lodge."
 zhCN = "L形小屋。"
 zhTW = "L 形小屋。"
@@ -87,8 +87,8 @@ viVN = "Một nhà trú ẩn hình chữ L."
 trTR = "L şeklinde bir kulübe."
 
 ["Building.IrregularLodge3.DisplayName"]
-status = "normal"
 raw = "L-shaped lodge"
+status = "normal"
 enUS = "L-shaped lodge"
 zhCN = "L形海狸窝"
 zhTW = "L 形木屋"
