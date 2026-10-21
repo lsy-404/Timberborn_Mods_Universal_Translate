@@ -2,8 +2,8 @@
 name = "Tree Harvest Byproduct & Banner Control"
 
 ["THB.Group.DropRules"]
-status = "normal"
 raw = "Drop rules"
+status = "normal"
 enUS = "Drop rules"
 zhCN = "掉落规则"
 zhTW = "掉落規則"
@@ -19,8 +19,8 @@ viVN = "Quy tắc rơi ra"
 trTR = "Düşürme kuralları"
 
 ["THB.Group.Banner"]
-status = "normal"
 raw = "Banner settings"
+status = "normal"
 enUS = "Banner settings"
 zhCN = "旗帜设置"
 zhTW = "旗幟設定"
@@ -36,8 +36,8 @@ viVN = "Cài đặt biểu ngữ"
 trTR = "Afiş ayarları"
 
 ["THB.Group.Faction"]
-status = "normal"
 raw = "Faction filter"
+status = "normal"
 enUS = "Faction filter"
 zhCN = "阵营筛选"
 zhTW = "陣營篩選器"
@@ -53,8 +53,8 @@ viVN = "Bộ lọc phe phái"
 trTR = "Fraksiyon filtresi"
 
 ["THB.Setting.Rule"]
-status = "normal"
 raw = "Byproduct drop rule"
+status = "normal"
 enUS = "Byproduct Drop Rule"
 zhCN = "副产品掉落规则"
 zhTW = "副產品掉落規則"
@@ -70,8 +70,8 @@ viVN = "Quy tắc rơi sản phẩm phụ"
 trTR = "Yan ürün bırakma kuralı"
 
 ["THB.Setting.Rule.Tooltip"]
-status = "normal"
 raw = "Decides whether and when a tree drops its secondary product (resin/syrup/chestnut)"
+status = "normal"
 enUS = "Determines whether and when a tree drops its secondary product (resin/syrup/chestnut)"
 zhCN = "决定树木是否以及何时产出副产品（树脂/糖浆/栗子）"
 zhTW = "決定樹木是否以及何時產生次級產品（樹脂／糖漿／栗子）"
@@ -87,8 +87,8 @@ viVN = "Quyết định liệu và khi nào cây rụng sản phẩm phụ (nh�
 trTR = "Bir ağacın ikincil ürününü (reçine/şurup/kestane) düşürüp düşürmeyeceğini ve ne zaman düşüreceğini belirler."
 
 ["THB.Setting.SapThreshold"]
-status = "normal"
 raw = "Sap threshold (percent)"
+status = "normal"
 enUS = "Sap threshold (percent)"
 zhCN = "树液阈值（百分比）"
 zhTW = "樹液門檻（百分比）"
@@ -104,8 +104,8 @@ viVN = "Ngưỡng nhựa cây (phần trăm)"
 trTR = "Özsu eşiği (yüzde)"
 
 ["THB.Setting.SapThreshold.Tooltip"]
-status = "normal"
 raw = "ByproductIfHasEnoughSapOnCut: drop only when sap ratio reaches this value"
+status = "normal"
 enUS = "Drop only when the sap ratio reaches this value"
 zhCN = "ByproductIfHasEnoughSapOnCut：仅当树液比例达到此数值时才掉落"
 zhTW = "副產品：僅當樹液比例達到此數值時才掉落"
@@ -121,8 +121,8 @@ viVN = "ByproductIfHasEnoughSapOnCut: chỉ rơi ra khi tỷ lệ nhựa cây đ
 trTR = "ByproductIfHasEnoughSapOnCut: yalnızca özsu oranı bu değere ulaştığında düşür"
 
 ["THB.Setting.SapLowThreshold"]
-status = "normal"
 raw = "Low sap threshold (percent)"
+status = "normal"
 enUS = "Low Sap Threshold (Percent)"
 zhCN = "低树液阈值（百分比）"
 zhTW = "低樹液門檻（百分比）"
@@ -295,4 +295,68 @@ status = "normal"
 
 ["THB.Panel.FlagHint"]
 new = "Affects AI target selection for this banner only; manual cutting is unaffected"
+status = "normal"
+
+["THB.Setting.FactionFolktails"]
+new = "Folktails"
+status = "normal"
+
+["THB.Setting.FactionFolktails.Tooltip"]
+new = "Whitelist: checked = allow this faction; blacklist: checked = block this faction; ignored in All factions mode"
+status = "normal"
+
+["THB.Setting.FactionIronTeeth"]
+new = "IronTeeth"
+status = "normal"
+
+["THB.Setting.FactionIronTeeth.Tooltip"]
+new = "Whitelist: checked = allow this faction; blacklist: checked = block this faction; ignored in All factions mode"
+status = "normal"
+
+["THB.Setting.FactionExtra"]
+new = "Extra faction IDs (optional)"
+status = "normal"
+
+["THB.Setting.FactionExtra.Tooltip"]
+new = "For factions added by other mods, comma-separated; official Folktails/IronTeeth use the checkboxes above"
+status = "normal"
+
+["THB.Setting.FactionAllowUnlisted"]
+new = "Allow unlisted factions (other faction mods)"
+status = "normal"
+
+["THB.Setting.FactionAllowUnlisted.Tooltip"]
+new = "In whitelist mode, whether factions with no official checkbox and no extra ID are also allowed. On by default so other faction mods are not blocked; ignored in blacklist mode"
+status = "normal"
+
+["THB.Status.Vanilla"]
+new = "Vanilla logic"
+status = "normal"
+
+["THB.Status.ConfigNotLoaded"]
+new = "Config not loaded"
+status = "normal"
+
+["THB.Status.FactionFilterDisabled"]
+new = "Faction filter does not enable this mod"
+status = "normal"
+
+["THB.Status.NormalCutNoByproduct"]
+new = "Normal cut ignores byproducts"
+status = "normal"
+
+["THB.Status.TreeImmature"]
+new = "Tree is not mature"
+status = "normal"
+
+["THB.Status.ByproductReady"]
+new = "Byproduct is ready"
+status = "normal"
+
+["THB.Status.FruitNotRipe"]
+new = "Fruit is not fully ripe"
+status = "normal"
+
+["THB.Status.SapBelowThreshold"]
+new = "Sap is below the wait threshold"
 status = "normal"

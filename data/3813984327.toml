@@ -4695,6 +4695,7 @@ trTR = "Onlarda {0} BeaverBuddies, sende {1} var. Daha eski sürüme sahip olan�
 
 ["BeaverBuddies.Match.Incompatible.Build"]
 raw = "Your mods are the same, but not the same builds of them, or not the same DLC. Update everything to the latest version."
+new = "Your mods are the same, but not the same builds of them. Update everything to the latest version."
 status = "normal"
 enUS = "Your mods are the same, but they may be different builds, or you may have different DLC. Update everything to the latest version."
 zhCN = "你们的模组相同，但模组版本不同，或者 DLC 不同。请将所有内容更新到最新版本。"
@@ -4813,8 +4814,8 @@ viVN = "Chủ phòng đã rời khỏi trò chơi. Quay lại menu chính."
 trTR = "Ana bilgisayardaki oyuncu oyundan ayrıldı. Ana menüye dönülüyor."
 
 ["BeaverBuddies.Lobby.Game"]
-status = "normal"
 raw = "Game"
+status = "normal"
 enUS = "Game"
 zhCN = "游戏"
 zhTW = "遊戲"
@@ -4830,8 +4831,8 @@ viVN = "Trò chơi"
 trTR = "Oyun"
 
 ["BeaverBuddies.Lobby.Map"]
-status = "normal"
 raw = "Map"
+status = "normal"
 enUS = "Map"
 zhCN = "地图"
 zhTW = "地圖"
@@ -4847,8 +4848,8 @@ viVN = "Bản đồ"
 trTR = "Harita"
 
 ["BeaverBuddies.Lobby.Mode"]
-status = "normal"
 raw = "Mode"
+status = "normal"
 enUS = "Mode"
 zhCN = "模式"
 zhTW = "模式"
@@ -4864,8 +4865,8 @@ viVN = "Chế độ"
 trTR = "Mod"
 
 ["BeaverBuddies.Lobby.Settings"]
-status = "normal"
 raw = "Settings"
+status = "normal"
 enUS = "Settings"
 zhCN = "设置"
 zhTW = "設定"
@@ -4881,8 +4882,8 @@ viVN = "Cài đặt"
 trTR = "Ayarlar"
 
 ["BeaverBuddies.Lobby.Players"]
-status = "normal"
 raw = "Players ({0}/{1})"
+status = "normal"
 enUS = "Players ({0}/{1})"
 zhCN = "玩家（{0}/{1}）"
 zhTW = "玩家（{0}/{1}）"
@@ -4898,8 +4899,8 @@ viVN = "Người chơi ({0}/{1})"
 trTR = "Oyuncular ({0}/{1})"
 
 ["BeaverBuddies.Lobby.You"]
-status = "normal"
 raw = "(you)"
+status = "normal"
 enUS = "(you)"
 zhCN = "（你）"
 zhTW = "（你）"
@@ -4915,8 +4916,8 @@ viVN = "(bạn)"
 trTR = "(sen)"
 
 ["BeaverBuddies.Lobby.Host"]
-status = "normal"
 raw = "Host"
+status = "normal"
 enUS = "Host"
 zhCN = "主机"
 zhTW = "主機"

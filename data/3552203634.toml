@@ -2858,8 +2858,8 @@ viVN = "Thuốc men"
 trTR = "İlaçlar"
 
 ["UI.Green"]
-status = "normal"
 raw = "Green"
+status = "normal"
 enUS = "Green"
 zhCN = "绿色"
 zhTW = "綠色"
@@ -2875,8 +2875,8 @@ viVN = "Xanh lá cây"
 trTR = "Yeşil"
 
 ["UI.Yellow"]
-status = "normal"
 raw = "Yellow"
+status = "normal"
 enUS = "Yellow"
 zhCN = "黄色"
 zhTW = "黃色"
@@ -2892,8 +2892,8 @@ viVN = "Vàng"
 trTR = "Sarı"
 
 ["UI.Red"]
-status = "normal"
 raw = "Red"
+status = "normal"
 enUS = "Red"
 zhCN = "红色"
 zhTW = "紅色"
@@ -2909,8 +2909,8 @@ viVN = "Đỏ"
 trTR = "Kırmızı"
 
 ["UI.White"]
-status = "normal"
 raw = "White"
+status = "normal"
 enUS = "White"
 zhCN = "白色"
 zhTW = "白色"
@@ -2926,8 +2926,8 @@ viVN = "Trắng"
 trTR = "Beyaz"
 
 ["UI.Brown"]
-status = "normal"
 raw = "Brown"
+status = "normal"
 enUS = "Brown"
 zhCN = "棕色"
 zhTW = "棕色"
@@ -2943,8 +2943,8 @@ viVN = "Nâu"
 trTR = "Kahverengi"
 
 ["UI.Metal"]
-status = "normal"
 raw = "Metal"
+status = "normal"
 enUS = "Metal"
 zhCN = "金属"
 zhTW = "金屬"
@@ -2960,8 +2960,8 @@ viVN = "Kim loại"
 trTR = "Metal"
 
 ["UI.Straight"]
-status = "normal"
 raw = "Straight"
+status = "normal"
 enUS = "Straight"
 zhCN = "直的"
 zhTW = "直線"
@@ -2977,8 +2977,8 @@ viVN = "Thẳng"
 trTR = "Düz"
 
 ["UI.Diagonal"]
-status = "normal"
 raw = "Diagonal"
+status = "normal"
 enUS = "Diagonal"
 zhCN = "对角线方向"
 zhTW = "對角線"
@@ -2994,8 +2994,8 @@ viVN = "Đường chéo"
 trTR = "Çapraz"
 
 ["UI.Solid"]
-status = "normal"
 raw = "Solid"
+status = "normal"
 enUS = "Solid"
 zhCN = "固体"
 zhTW = "固體"

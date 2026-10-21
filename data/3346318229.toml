@@ -2841,8 +2841,8 @@ viVN = "Nhang"
 trTR = "İkram"
 
 ["UI.Classic"]
-status = "normal"
 raw = "Classic"
+status = "normal"
 enUS = "Classic"
 zhCN = "经典"
 zhTW = "經典"
@@ -2858,8 +2858,8 @@ viVN = "Cổ điển"
 trTR = "Klasik"
 
 ["UI.Standard"]
-status = "normal"
 raw = "Standard"
+status = "normal"
 enUS = "Standard"
 zhCN = "标准"
 zhTW = "標準"

@@ -614,8 +614,8 @@ viVN = "Vùng đất này đã được {0} tuyên bố chủ quyền."
 trTR = "Bu topraklar {0} tarafından sahiplenilmiş."
 
 ["TimberEmpires.CombatLock.NoBuild"]
-status = "normal"
 raw = "Too close to enemy troops or buildings to build here."
+status = "normal"
 enUS = "Too close to enemy troops or buildings to build here."
 zhCN = "离敌方部队或建筑太近，无法在此处建造。"
 zhTW = "距離敵方部隊或建築太近，無法在此處建造。"
@@ -631,8 +631,8 @@ viVN = "Quá gần quân địch hoặc công trình của chúng nên không th
 trTR = "Buraya inşa etmek için düşman birliklerine veya binalarına fazla yakın."
 
 ["TimberEmpires.CombatLock.NoDemolish"]
-status = "normal"
 raw = "You can't demolish while enemy troops are close."
+status = "normal"
 enUS = "You can't demolish while enemy troops are nearby."
 zhCN = "敌方部队靠近时，无法拆除。"
 zhTW = "敵軍在附近時無法拆除建築。"
@@ -1941,6 +1941,7 @@ trTR = "Saha Merdiveni"
 
 ["Building.TimberEmpires.SiegeLadder.Description"]
 raw = "Lets your troops and carters climb a one-level step. Only troops can build it."
+new = "Lets your troops and carters climb a one-level step."
 status = "normal"
 enUS = "Lets your troops and carters climb a one-level step. Only troops can build it."
 zhCN = "让你的部队和运输工爬上一级台阶。只有部队可以建造它。"
@@ -3471,6 +3472,7 @@ trTR = "Arazi Rampası"
 
 ["Building.TimberEmpires.SiegeRamp.Description"]
 raw = "A long timber ramp up a one-level step for troops, carters and siege machines. Only troops can build it."
+new = "A long timber ramp up a one-level step for troops, carters and siege machines."
 status = "normal"
 enUS = "A long timber ramp up a one-level step for troops, carters, and siege machines. Only troops can build it."
 zhCN = "一条长木坡道，可供部队、车夫和攻城器械登上一级台阶。只有部队能建造它。"
@@ -3811,6 +3813,7 @@ trTR = "Dur"
 
 ["TimberEmpires.Troops.CombatBar"]
 raw = "Army bar: commands for your troops and the list of all of them"
+new = "Army bar"
 status = "normal"
 enUS = "Army bar: commands for your troops and a list of all troops"
 zhCN = "军队栏：部队指令及所有部队的列表"
@@ -7482,8 +7485,8 @@ viVN = "Đặt Trung tâm Quận ở bất kỳ đâu để lập khu định c�
 trTR = "Yerleşiminizi kurmak için Bölge Merkezinizi istediğiniz yere yerleştirin. Kunduzlar, yiyecek ve suyla birlikte hemen inşa edilir."
 
 ["TimberEmpires.Players.Title"]
-status = "normal"
 raw = "Players"
+status = "normal"
 enUS = "Players"
 zhCN = "玩家"
 zhTW = "玩家"
@@ -7752,6 +7755,42 @@ koKR = "수도사: {0}"
 csCZ = "Mniši: {0}"
 viVN = "Tu sĩ: {0}"
 trTR = "Keşişler: {0}"
+
+["Building.TimberEmpires.MusterPost.DisplayName"]
+new = "Muster Post"
+status = "normal"
+
+["Building.TimberEmpires.MusterPost.Description"]
+new = "Trains militia from logs and scouts from berries."
+status = "normal"
+
+["Building.TimberEmpires.MusterPost.FlavorDescription"]
+new = "A log in each paw, and off they go."
+status = "normal"
+
+["TimberEmpires.Troops.One.Militia"]
+new = "Militia"
+status = "normal"
+
+["TimberEmpires.Troops.Kind.Militia"]
+new = "Militia"
+status = "normal"
+
+["TimberEmpires.Troops.Count.Militia"]
+new = "Militia: {0}"
+status = "normal"
+
+["TimberEmpires.Troops.One.Scout"]
+new = "Scout"
+status = "normal"
+
+["TimberEmpires.Troops.Kind.Scout"]
+new = "Scouts"
+status = "normal"
+
+["TimberEmpires.Troops.Count.Scout"]
+new = "Scouts: {0}"
+status = "normal"
 
 ["TimberEmpires.Monk.ConvertedTheirs"]
 raw = "Your monk converted an enemy {0}."
@@ -9675,8 +9714,8 @@ viVN = "{0}"
 trTR = "{0}"
 
 ["TimberEmpires.Settings.HordeToughness"]
-status = "normal"
 raw = "Zombie toughness"
+status = "normal"
 enUS = "Zombie toughness"
 zhCN = "僵尸韧性"
 zhTW = "殭屍韌性"

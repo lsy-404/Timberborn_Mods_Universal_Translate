@@ -1,0 +1,42 @@
+[_meta]
+name = "机器人耐久模式 / Bot Deterioration Modes"
+
+["BotModes.Header"]
+new = "Bot Durability Modes"
+status = "normal"
+
+["BotModes.Mode.Name"]
+new = "Bot damage mode"
+status = "normal"
+
+["BotModes.Mode.Tooltip"]
+new = "Mode 1: bots (including bots added by other mods) never deteriorate over time. Mode 2: no time-based deterioration, but bots take damage when they get hurt or when they run out of fuel or power. Mode 3: vanilla behaviour, bots wear out after about 70 days."
+status = "normal"
+
+["BotModes.Mode.Value.NoDeterioration"]
+new = "Mode 1: No time-based damage (default)"
+status = "normal"
+
+["BotModes.Mode.Value.Injury"]
+new = "Mode 2: Damage from injuries or lack of fuel"
+status = "normal"
+
+["BotModes.Mode.Value.Vanilla"]
+new = "Mode 3: Vanilla time-based damage"
+status = "normal"
+
+["BotModes.Injury.Name"]
+new = "Damage per injury (%)"
+status = "normal"
+
+["BotModes.Injury.Tooltip"]
+new = "Mode 2 only. Percentage of durability lost at once when a bot gets hurt in a building that can injure workers (mine, explosives factory, smelter and similar). The bot breaks when durability reaches zero."
+status = "normal"
+
+["BotModes.Power.Name"]
+new = "Damage per day without fuel (%)"
+status = "normal"
+
+["BotModes.Power.Tooltip"]
+new = "Mode 2 only. Percentage of durability lost every game day while Biofuel or Energy is depleted and the bot has stopped working. Vanilla wear is about 1.4% per day."
+status = "normal"

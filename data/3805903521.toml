@@ -1,6 +1,50 @@
 [_meta]
 name = "Folktails+"
 
+["Building.Kitchen.DisplayName"]
+new = "Kitchen"
+status = "normal"
+
+["Building.Kitchen.Description"]
+new = "A place to prepare food."
+status = "normal"
+
+["Building.Kitchen.FlavorDescription"]
+new = "The kitchen is waiting for recipes."
+status = "normal"
+
+["Good.DandelionTea.DisplayName"]
+new = "Dandelion tea"
+status = "normal"
+
+["Good.DandelionTea.PluralDisplayName"]
+new = "Dandelion tea"
+status = "normal"
+
+["Good.MaplePancakes.DisplayName"]
+new = "Maple pancakes"
+status = "normal"
+
+["Good.MaplePancakes.PluralDisplayName"]
+new = "Maple pancakes"
+status = "normal"
+
+["Good.JamSandwich.DisplayName"]
+new = "Jam sandwich"
+status = "normal"
+
+["Good.JamSandwich.PluralDisplayName"]
+new = "Jam sandwiches"
+status = "normal"
+
+["Good.CarrotCake.DisplayName"]
+new = "Carrot cake"
+status = "normal"
+
+["Good.CarrotCake.PluralDisplayName"]
+new = "Carrot cakes"
+status = "normal"
+
 ["Building.JamStove.DisplayName"]
 raw = "Jam Stove"
 status = "normal"
