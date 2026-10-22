@@ -156,6 +156,7 @@ trTR = "Savaş sisi"
 
 ["TimberEmpires.Settings.FogOfWar.Tooltip"]
 raw = "You only see the land around your land claims, buildings, beavers and bots. Outside it, other players' buildings, beavers, bots and cursors are hidden."
+new = "Off shows you everything. Fog shows only the land around your land claims, buildings, beavers and bots, and hides other players' buildings, beavers, bots and cursors outside it. Black fog is the same, and land you haven't explored yet is black."
 status = "normal"
 enUS = "You can only see the land around your land claims, buildings, beavers, and bots. Outside that area, other players’ buildings, beavers, bots, and cursors are hidden."
 zhCN = "你只能看到领地、建筑、海狸和机器人周围的区域。除此之外，其他玩家的建筑、海狸、机器人和光标都会被隐藏。"
@@ -170,6 +171,18 @@ koKR = "토지 소유권, 건물, 비버, 봇 주변의 땅만 볼 수 있습니
 csCZ = "Vidíte pouze území kolem svých územních nároků, budov, bobrů a robotů. Mimo něj jsou budovy, bobři, roboti a kurzory ostatních hráčů skryté."
 viVN = "Bạn chỉ nhìn thấy vùng đất xung quanh các khu đất đã tuyên bố chủ quyền, công trình, hải ly và bot của mình. Bên ngoài vùng đó, công trình, hải ly, bot và con trỏ của người chơi khác sẽ bị ẩn."
 trTR = "Yalnızca arazi haklarınızın, binalarınızın, kunduzlarınızın ve botlarınızın çevresindeki araziyi görebilirsiniz. Bu alanın dışında diğer oyuncuların binaları, kunduzları, botları ve imleçleri gizlenir."
+
+["TimberEmpires.Settings.FogOfWar.Value.0"]
+new = "Off"
+status = "normal"
+
+["TimberEmpires.Settings.FogOfWar.Value.1"]
+new = "Fog"
+status = "normal"
+
+["TimberEmpires.Settings.FogOfWar.Value.2"]
+new = "Black fog"
+status = "normal"
 
 ["TimberEmpires.Settings.SoloEmpire"]
 raw = "Play as an empire"
@@ -7754,8 +7767,8 @@ viVN = "Tu sĩ: {0}"
 trTR = "Keşişler: {0}"
 
 ["Building.TimberEmpires.MusterPost.DisplayName"]
-status = "normal"
 raw = "Muster Post"
+status = "normal"
 enUS = "Muster Post"
 zhCN = "集结岗亭"
 zhTW = "集結站"
@@ -7771,8 +7784,8 @@ viVN = "Trạm tập hợp"
 trTR = "Toplanma Karakolu"
 
 ["Building.TimberEmpires.MusterPost.Description"]
-status = "normal"
 raw = "Trains militia from logs and scouts from berries."
+status = "normal"
 enUS = "Trains militia from logs and scouts from berries."
 zhCN = "用木材训练民兵，用浆果训练侦察兵。"
 zhTW = "使用原木訓練民兵，並使用莓果訓練斥候。"
@@ -7788,8 +7801,8 @@ viVN = "Huấn luyện dân quân từ gỗ và trinh sát từ quả mọng."
 trTR = "Kütüklerden milis, yemişlerden izci yetiştirir."
 
 ["Building.TimberEmpires.MusterPost.FlavorDescription"]
-status = "normal"
 raw = "A log in each paw, and off they go."
+status = "normal"
 enUS = "A log in each paw, and off they go."
 zhCN = "每只爪子都抓着一根原木，他们就出发了。"
 zhTW = "每隻爪子各拿一根原木，他們就出發了。"
@@ -7805,8 +7818,8 @@ viVN = "Mỗi chân cầm một khúc gỗ, thế là chúng lên đường."
 trTR = "Her patilerinde birer kütük, yola koyulurlar."
 
 ["TimberEmpires.Troops.One.Militia"]
-status = "normal"
 raw = "Militia"
+status = "normal"
 enUS = "Militia"
 zhCN = "民兵"
 zhTW = "民兵"
@@ -7822,8 +7835,8 @@ viVN = "Dân quân"
 trTR = "Milis"
 
 ["TimberEmpires.Troops.Kind.Militia"]
-status = "normal"
 raw = "Militia"
+status = "normal"
 enUS = "Militia"
 zhCN = "民兵"
 zhTW = "民兵"
@@ -7839,8 +7852,8 @@ viVN = "Dân quân"
 trTR = "Milis"
 
 ["TimberEmpires.Troops.Count.Militia"]
-status = "normal"
 raw = "Militia: {0}"
+status = "normal"
 enUS = "Militia: {0}"
 zhCN = "民兵：{0}"
 zhTW = "民兵：{0}"
@@ -7856,8 +7869,8 @@ viVN = "Dân quân: {0}"
 trTR = "Milis: {0}"
 
 ["TimberEmpires.Troops.One.Scout"]
-status = "normal"
 raw = "Scout"
+status = "normal"
 enUS = "Scout"
 zhCN = "斥候"
 zhTW = "斥候"
@@ -7873,8 +7886,8 @@ viVN = "Trinh sát"
 trTR = "Keşifçi"
 
 ["TimberEmpires.Troops.Kind.Scout"]
-status = "normal"
 raw = "Scouts"
+status = "normal"
 enUS = "Scouts"
 zhCN = "斥候"
 zhTW = "斥候"
@@ -7890,8 +7903,8 @@ viVN = "Trinh sát"
 trTR = "İzci Beaver'lar"
 
 ["TimberEmpires.Troops.Count.Scout"]
-status = "normal"
 raw = "Scouts: {0}"
+status = "normal"
 enUS = "Scouts: {0}"
 zhCN = "侦察兵：{0}"
 zhTW = "偵察兵：{0}"
@@ -9845,8 +9858,8 @@ viVN = "Độ bền của thây ma"
 trTR = "Zombi dayanıklılığı"
 
 ["TimberEmpires.Settings.HordeToughness.Tooltip"]
-status = "normal"
 raw = "How hard zombies are to kill, and how hard they hit."
+status = "normal"
 enUS = "How difficult zombies are to kill and how hard they hit."
 zhCN = "僵尸有多难杀死，以及它们的攻击有多强。"
 zhTW = "殭屍有多難殺死，以及牠們攻擊有多強。"
@@ -9862,8 +9875,8 @@ viVN = "Zombie khó bị tiêu diệt đến mức nào và chúng đánh mạnh
 trTR = "Zombileri öldürmenin ne kadar zor olduğunu ve ne kadar sert vurduklarını belirler."
 
 ["TimberEmpires.Settings.HordeToughness.Value"]
-status = "normal"
 raw = "{0}%"
+status = "normal"
 enUS = "{0}%"
 zhCN = "{0}%"
 zhTW = "{0}%"
@@ -9879,8 +9892,8 @@ viVN = "{0}%"
 trTR = "{0}%"
 
 ["TimberEmpires.Settings.HordeRewards"]
-status = "normal"
 raw = "Night rewards"
+status = "normal"
 enUS = "Night rewards"
 zhCN = "夜间奖励"
 zhTW = "夜間獎勵"
@@ -9896,8 +9909,8 @@ viVN = "Phần thưởng ban đêm"
 trTR = "Gece ödülleri"
 
 ["TimberEmpires.Settings.HordeRewards.Tooltip"]
-status = "normal"
 raw = "How much a survived night pays out."
+status = "normal"
 enUS = "How much a survived night pays out."
 zhCN = "成功熬过一晚能获得多少奖励。"
 zhTW = "成功熬過一晚可獲得多少獎勵。"
@@ -9913,8 +9926,8 @@ viVN = "Số tiền thưởng cho mỗi đêm sống sót."
 trTR = "Hayatta kalınan bir gecenin ödülü."
 
 ["TimberEmpires.Settings.HordeRewards.Value"]
-status = "normal"
 raw = "{0}%"
+status = "normal"
 enUS = "{0}%"
 zhCN = "{0}%"
 zhTW = "{0}%"
@@ -9930,8 +9943,8 @@ viVN = "{0}%"
 trTR = "{0}%"
 
 ["TimberEmpires.Settings.HordeGrowth"]
-status = "normal"
 raw = "Horde growth"
+status = "normal"
 enUS = "Horde growth"
 zhCN = "部落增长"
 zhTW = "部落增長"
@@ -9947,8 +9960,8 @@ viVN = "Tăng trưởng của bầy đàn"
 trTR = "Sürü büyümesi"
 
 ["TimberEmpires.Settings.HordeGrowth.Tooltip"]
-status = "normal"
 raw = "How much bigger the hordes get each cycle."
+status = "normal"
 enUS = "How much bigger the hordes get each cycle."
 zhCN = "每个周期群体规模增长多少。"
 zhTW = "每個週期的部落規模會增加多少。"
@@ -9964,8 +9977,8 @@ viVN = "Mỗi chu kỳ, bầy đàn tăng thêm bao nhiêu."
 trTR = "Her döngüde sürülerin ne kadar büyüyeceği."
 
 ["TimberEmpires.Settings.HordeGrowth.Value"]
-status = "normal"
 raw = "+{0}% a cycle"
+status = "normal"
 enUS = "+{0}% per cycle"
 zhCN = "每周期 +{0}%"
 zhTW = "每週期 +{0}%"
@@ -9981,8 +9994,8 @@ viVN = "+{0}% mỗi chu kỳ"
 trTR = "döngü başına +{0}%"
 
 ["TimberEmpires.Settings.HordeAdapt"]
-status = "normal"
 raw = "Hordes adapt to you"
+status = "normal"
 enUS = "Hordes adapt to you"
 zhCN = "大军会适应你的策略"
 zhTW = "部族會因應你而調整行動"
@@ -9998,8 +10011,8 @@ viVN = "Các đàn thú thích nghi với bạn"
 trTR = "Sürülerin sana uyum sağlar"
 
 ["TimberEmpires.Settings.HordeAdapt.Tooltip"]
-status = "normal"
 raw = "Hordes get bigger when you handle them well and ease off when you take losses. Off turns it off."
+status = "normal"
 enUS = "Hordes grow larger when you handle them well and shrink when you suffer losses. Off disables them."
 zhCN = "你应对得越好，敌群规模就会越大；遭受损失时，敌群就会收敛。关闭则会停用此功能。"
 zhTW = "你應對得越好，敵群就會變得越大；遭受損失時，敵群就會減少。關閉即可停用此功能。"
@@ -10015,8 +10028,8 @@ viVN = "Đàn thú đông hơn khi bạn xử lý chúng tốt và giảm bớt 
 trTR = "Sürüler, onlarla iyi başa çıktığınızda büyür, kayıplar verdiğinizde ise azalır. Kapalı olması bu özelliği devre dışı bırakır."
 
 ["TimberEmpires.Settings.HordeAdapt.Value"]
-status = "normal"
 raw = "{0}%"
+status = "normal"
 enUS = "{0}%"
 zhCN = "{0}%"
 zhTW = "{0}%"
@@ -10032,8 +10045,8 @@ viVN = "{0}%"
 trTR = "{0}%"
 
 ["TimberEmpires.Settings.HordeAdapt.Value.Min"]
-status = "normal"
 raw = "Off"
+status = "normal"
 enUS = "Off"
 zhCN = "关闭"
 zhTW = "關閉"

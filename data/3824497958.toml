@@ -1,0 +1,186 @@
+[_meta]
+name = "Dam It Stinks"
+
+["DamItStinks.Good.Dung.DisplayName"]
+new = "Dung"
+status = "normal"
+
+["DamItStinks.Good.Dung.PluralDisplayName"]
+new = "Dung"
+status = "normal"
+
+["DamItStinks.Good.Fertilizer.DisplayName"]
+new = "Fertilizer"
+status = "normal"
+
+["DamItStinks.Good.Fertilizer.PluralDisplayName"]
+new = "Fertilizer"
+status = "normal"
+
+["DamItStinks.TopBar.Waste"]
+new = "Dung, fertilizer and biogas"
+status = "normal"
+
+["Need.Relief.DisplayName"]
+new = "Relief"
+status = "normal"
+
+["Need.DamItStinksStink.DisplayName"]
+new = "Stinky"
+status = "normal"
+
+["Need.DamItStinksEmbarrassment.DisplayName"]
+new = "Embarrassed"
+status = "normal"
+
+["Status.Need.Relief"]
+new = "Holding it in! Needs a home or a latrine right now."
+status = "normal"
+
+["Status.Need.DamItStinksStink"]
+new = "Stinky: -3 mood, moves and works up to 10% slower. Fades 0.1 h after leaving the smell."
+status = "normal"
+
+["DamItStinks.Pile.WalkEffect"]
+new = "A beaver walking through this dung has a {0}% chance of getting contaminated."
+status = "normal"
+
+["DamItStinks.Crop.Fertilized"]
+new = "Fertilized: +{0}% yield at harvest."
+status = "normal"
+
+["DamItStinks.StinkOverlay.Show"]
+new = "Show stinky areas"
+status = "normal"
+
+["DamItStinks.StinkOverlay.Hide"]
+new = "Hide stinky areas"
+status = "normal"
+
+["Status.Need.DamItStinksEmbarrassment"]
+new = "Embarrassed: -10 mood, hides at home after an accident (homeless beavers wander around the district center), fades within 8 h."
+status = "normal"
+
+["Building.DamItStinksComposter.DisplayName"]
+new = "Composter"
+status = "normal"
+
+["Building.DamItStinksComposter.Description"]
+new = "Turns 2 Dung into 1 Fertilizer. When it runs out of Dung, the worker picks up dung piles within 10 tiles, and waits on site when there is nothing to do. Haulers bring Fertilizer to farms (each farm stores 25); a new crop takes 1 Fertilizer from a farm or, if no farm has any, from a tank or composter (within 25 tiles): about +33% yield at harvest. Stinks while it holds anything."
+status = "normal"
+
+["Building.DamItStinksComposter.FlavorDescription"]
+new = "Nothing goes to waste. Some things go to compost."
+status = "normal"
+
+["Building.DamItStinksLatrine.DisplayName"]
+new = "Latrine"
+status = "normal"
+
+["Building.DamItStinksLatrine.Description"]
+new = "Beavers relieve themselves here. Homes have no cesspit: without a latrine the dung lands in front of the door. Holds 20 Dung, haulers empty it. Stinks a little."
+status = "normal"
+
+["Building.DamItStinksLatrine.FlavorDescription"]
+new = "Please knock."
+status = "normal"
+
+["DamItStinks.Notification.AlmostFull"]
+new = "{0}: the latrine is almost full."
+status = "normal"
+
+["DamItStinks.Notification.Overflow"]
+new = "{0}: the latrine overflowed, {1} Dung spilled around."
+status = "normal"
+
+["DamItStinks.Notification.Accident"]
+new = "{0} did not make it in time."
+status = "normal"
+
+["DamItStinks.Pile.Stinking"]
+new = "This pile stinks within {0} tiles."
+status = "normal"
+
+["DamItStinks.Pile.NotStinkingYet"]
+new = "Does not stink yet. Starts to stink at {0} dung."
+status = "normal"
+
+["DamItStinks.Latrine.Tank"]
+new = "Cesspit: {0} / {1} Dung (emptied by haulers)."
+status = "normal"
+
+["DamItStinks.Good.BioGas.DisplayName"]
+new = "Biogas"
+status = "normal"
+
+["DamItStinks.Good.BioGas.PluralDisplayName"]
+new = "Biogas"
+status = "normal"
+
+["DamItStinks.Recipe.BreadBioGas"]
+new = "Bread (biogas)"
+status = "normal"
+
+["DamItStinks.Recipe.CattailCrackerBioGas"]
+new = "Cattail crackers (biogas)"
+status = "normal"
+
+["DamItStinks.Recipe.MaplePastryBioGas"]
+new = "Maple pastries (biogas)"
+status = "normal"
+
+["Need.DamItStinksBlueFlame.DisplayName"]
+new = "Blue flame"
+status = "normal"
+
+["DamItStinks.BioGas.Store"]
+new = "Biogas: {0} / {1} (burns {2} per hour)."
+status = "normal"
+
+["DamItStinks.BioGas.Burning"]
+new = "Burning Biogas for about {0} h more: the blue flame gives beavers in range extra Wellbeing."
+status = "normal"
+
+["DamItStinks.BioGas.NotBurning"]
+new = "No Biogas. Haulers bring it from tanks along a path or a tube that touches the building."
+status = "normal"
+
+["DamItStinks.BioGas.EngineStore"]
+new = "Fuel: Biogas {0} / {1}, burns {2} per hour. Takes no Logs."
+status = "normal"
+
+["DamItStinks.BioGas.EngineLogMode"]
+new = "Fuel: Logs. Takes no Biogas."
+status = "normal"
+
+["DamItStinks.BioGas.EngineToggle"]
+new = "Burn Biogas instead of Logs"
+status = "normal"
+
+["DamItStinks.BioGas.AllowToggle"]
+new = "Allow Biogas use"
+status = "normal"
+
+["DamItStinks.Fertilizer.UseToggle"]
+new = "Use Fertilizer"
+status = "normal"
+
+["DamItStinks.BioGas.StationStore"]
+new = "Biogas: {0} / {1}. A trip started here takes 1 Biogas and goes at +{2}% speed."
+status = "normal"
+
+["DamItStinks.Recipe.GrilledPotatoBioGas"]
+new = "Grilled potatoes (biogas)"
+status = "normal"
+
+["DamItStinks.Recipe.GrilledChestnutBioGas"]
+new = "Grilled chestnuts (biogas)"
+status = "normal"
+
+["DamItStinks.Recipe.GrilledSpadderdockBioGas"]
+new = "Grilled spadderdock (biogas)"
+status = "normal"
+
+["DamItStinks.Discharge.NoCleanWater"]
+new = "No clean water at the outlet to contaminate - the dung waits in the building"
+status = "normal"

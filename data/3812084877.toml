@@ -20,6 +20,7 @@ trTR = "Yalnızca nemli toprağa ekim"
 
 ["MoistureOnlyPlanting.DescriptionOn"]
 raw = "ON: dragging a planting area only marks moist, green ground. Click to turn off. Succulents are not affected."
+new = "ON: dragging a planting area only marks moist, green ground (succulents: only dry ground). Click to turn off."
 status = "normal"
 enUS = "ON: Dragging a planting area only marks moist, green ground. Click to turn off. Succulents are not affected."
 zhCN = "开启：拖动种植区域时，只会标记湿润的绿色地面。点击关闭。多肉植物不受影响。"

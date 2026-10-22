@@ -2,8 +2,8 @@
 name = "Folktails+"
 
 ["Building.Kitchen.DisplayName"]
-status = "normal"
 raw = "Kitchen"
+status = "normal"
 enUS = "Kitchen"
 zhCN = "厨房"
 zhTW = "廚房"
@@ -19,8 +19,8 @@ viVN = "Nhà bếp"
 trTR = "Mutfak"
 
 ["Building.Kitchen.Description"]
-status = "normal"
 raw = "A place to prepare food."
+status = "normal"
 enUS = "A place to prepare food."
 zhCN = "准备食物的地方。"
 zhTW = "準備食物的地方。"
@@ -36,8 +36,8 @@ viVN = "Nơi chế biến thức ăn."
 trTR = "Yemek hazırlamak için bir yer."
 
 ["Building.Kitchen.FlavorDescription"]
-status = "normal"
 raw = "The kitchen is waiting for recipes."
+status = "normal"
 enUS = "The kitchen is waiting for recipes."
 zhCN = "厨房正在等待食谱。"
 zhTW = "廚房正等待食譜。"
@@ -53,8 +53,8 @@ viVN = "Nhà bếp đang chờ các công thức nấu ăn."
 trTR = "Mutfak tarifleri bekliyor."
 
 ["Good.DandelionTea.DisplayName"]
-status = "normal"
 raw = "Dandelion tea"
+status = "normal"
 enUS = "Dandelion tea"
 zhCN = "蒲公英茶"
 zhTW = "蒲公英茶"
@@ -70,8 +70,8 @@ viVN = "Trà bồ công anh"
 trTR = "Karahindiba çayı"
 
 ["Good.DandelionTea.PluralDisplayName"]
-status = "normal"
 raw = "Dandelion tea"
+status = "normal"
 enUS = "Dandelion tea"
 zhCN = "蒲公英茶"
 zhTW = "蒲公英茶"
@@ -87,8 +87,8 @@ viVN = "Trà bồ công anh"
 trTR = "Karahindiba çayı"
 
 ["Good.MaplePancakes.DisplayName"]
-status = "normal"
 raw = "Maple pancakes"
+status = "normal"
 enUS = "Maple Pancakes"
 zhCN = "枫糖煎饼"
 zhTW = "楓糖煎餅"
@@ -104,8 +104,8 @@ viVN = "Bánh kếp si-rô phong"
 trTR = "Akçaağaçlı pankekler"
 
 ["Good.MaplePancakes.PluralDisplayName"]
-status = "normal"
 raw = "Maple pancakes"
+status = "normal"
 enUS = "Maple pancakes"
 zhCN = "枫糖煎饼"
 zhTW = "楓糖煎餅"
@@ -121,8 +121,8 @@ viVN = "Bánh kếp si-rô phong"
 trTR = "Akçaağaçlı pankekler"
 
 ["Good.JamSandwich.DisplayName"]
-status = "normal"
 raw = "Jam sandwich"
+status = "normal"
 enUS = "Jam sandwich"
 zhCN = "果酱三明治"
 zhTW = "果醬三明治"
@@ -138,8 +138,8 @@ viVN = "Bánh mì kẹp mứt"
 trTR = "Reçelli sandviç"
 
 ["Good.JamSandwich.PluralDisplayName"]
-status = "normal"
 raw = "Jam sandwiches"
+status = "normal"
 enUS = "Jam Sandwiches"
 zhCN = "果酱三明治"
 zhTW = "果醬三明治"
@@ -155,8 +155,8 @@ viVN = "Bánh mì kẹp mứt"
 trTR = "Reçelli sandviçler"
 
 ["Good.CarrotCake.DisplayName"]
-status = "normal"
 raw = "Carrot cake"
+status = "normal"
 enUS = "Carrot Cake"
 zhCN = "胡萝卜蛋糕"
 zhTW = "胡蘿蔔蛋糕"
@@ -172,8 +172,8 @@ viVN = "Bánh cà rốt"
 trTR = "Havuçlu kek"
 
 ["Good.CarrotCake.PluralDisplayName"]
-status = "normal"
 raw = "Carrot cakes"
+status = "normal"
 enUS = "Carrot Cakes"
 zhCN = "胡萝卜蛋糕"
 zhTW = "胡蘿蔔蛋糕"

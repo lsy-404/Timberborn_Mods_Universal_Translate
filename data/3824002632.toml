@@ -2,8 +2,8 @@
 name = "机器人耐久模式 / Bot Deterioration Modes"
 
 ["BotModes.Header"]
-status = "normal"
 raw = "Bot Durability Modes"
+status = "normal"
 enUS = "Bot Durability Modes"
 zhCN = "机器人耐久模式"
 zhTW = "機器人耐久模式"
@@ -19,8 +19,8 @@ viVN = "Chế độ độ bền của robot"
 trTR = "Bot Dayanıklılık Modları"
 
 ["BotModes.Mode.Name"]
-status = "normal"
 raw = "Bot damage mode"
+status = "normal"
 enUS = "Bot Damage Mode"
 zhCN = "机器人损坏模式"
 zhTW = "機器人損耗模式"
@@ -36,8 +36,8 @@ viVN = "Chế độ hư hại của bot"
 trTR = "Robot hasar modu"
 
 ["BotModes.Mode.Tooltip"]
-status = "normal"
 raw = "Mode 1: bots (including bots added by other mods) never deteriorate over time. Mode 2: no time-based deterioration, but bots take damage when they get hurt or when they run out of fuel or power. Mode 3: vanilla behaviour, bots wear out after about 70 days."
+status = "normal"
 enUS = "Mode 1: Bots (including bots added by other mods) never deteriorate over time. Mode 2: No time-based deterioration, but bots take damage when they get hurt or run out of fuel or power. Mode 3: Vanilla behavior: bots wear out after about 70 days."
 zhCN = "模式 1：机器人（包括其他模组添加的机器人）永远不会随时间损耗。模式 2：不会随时间损耗，但机器人受伤、燃料耗尽或动力耗尽时会受到损坏。模式 3：原版行为，机器人约 70 天后会磨损。"
 zhTW = "模式 1：机器人（包括其他模组添加的机器人）永远不会随时间劣化。模式 2：不会随时间劣化，但机器人受伤或燃料或动力耗尽时会受到伤害。模式 3：原版行为，机器人约 70 天后会磨损。"
@@ -53,8 +53,8 @@ viVN = "Chế độ 1: rô-bốt (bao gồm cả rô-bốt được thêm vào b
 trTR = "Mod 1: Botlar (diğer modların eklediği botlar dâhil) zamanla hiç yıpranmaz. Mod 2: Zamana bağlı yıpranma olmaz, ancak botlar yaralandıklarında ya da yakıtları veya güçleri tükendiğinde hasar alır. Mod 3: Vanilla davranışı; botlar yaklaşık 70 gün sonra yıpranır."
 
 ["BotModes.Mode.Value.NoDeterioration"]
-status = "normal"
 raw = "Mode 1: No time-based damage (default)"
+status = "normal"
 enUS = "Mode 1: No time-based damage (default)"
 zhCN = "模式 1：无随时间产生的损坏（默认）"
 zhTW = "模式 1：不會隨時間損壞（預設）"
@@ -70,8 +70,8 @@ viVN = "Chế độ 1: Không chịu sát thương theo thời gian (mặc đị
 trTR = "Mod 1: Zamana bağlı hasar yok (varsayılan)"
 
 ["BotModes.Mode.Value.Injury"]
-status = "normal"
 raw = "Mode 2: Damage from injuries or lack of fuel"
+status = "normal"
 enUS = "Mode 2: Damage from injuries or lack of fuel"
 zhCN = "模式 2：因受伤或燃料不足而损坏"
 zhTW = "模式 2：因受傷或缺少燃料而受損"
@@ -87,8 +87,8 @@ viVN = "Chế độ 2: Hư hại do bị thương hoặc thiếu nhiên liệu"
 trTR = "Mod 2: Yaralanmalar veya yakıt eksikliği nedeniyle hasar"
 
 ["BotModes.Mode.Value.Vanilla"]
-status = "normal"
 raw = "Mode 3: Vanilla time-based damage"
+status = "normal"
 enUS = "Mode 3: Vanilla time-based damage"
 zhCN = "模式 3：原版时间流逝型损坏"
 zhTW = "模式 3：原版時間制損壞"
@@ -104,8 +104,8 @@ viVN = "Chế độ 3: Hư hại theo thời gian kiểu nguyên bản"
 trTR = "Mod 3: Vanilla zamana bağlı hasar"
 
 ["BotModes.Injury.Name"]
-status = "normal"
 raw = "Damage per injury (%)"
+status = "normal"
 enUS = "Damage per Injury (%)"
 zhCN = "每次受伤的损伤值（%）"
 zhTW = "每次受傷造成的傷害（%）"
@@ -121,8 +121,8 @@ viVN = "Sát thương mỗi lần bị thương (%)"
 trTR = "Yaralanma başına hasar (%)"
 
 ["BotModes.Injury.Tooltip"]
-status = "normal"
 raw = "Mode 2 only. Percentage of durability lost at once when a bot gets hurt in a building that can injure workers (mine, explosives factory, smelter and similar). The bot breaks when durability reaches zero."
+status = "normal"
 enUS = "Mode 2 only. Percentage of durability lost at once when a bot is injured in a building that can injure workers (mine, explosives factory, smelter, and similar buildings). The bot breaks when its durability reaches zero."
 zhCN = "仅限模式 2。机器人在可能伤害工人的建筑（矿井、炸药厂、冶炼厂等）中受伤时，耐久度一次性损失的百分比。耐久度降至零时，机器人会损坏。"
 zhTW = "僅限模式 2。機器人在會使工人受傷的建築（礦場、炸藥工廠、冶煉廠等）受傷時，一次損失的耐久度百分比。耐久度降至零時，機器人便會損壞。"
@@ -138,8 +138,8 @@ viVN = "Chỉ chế độ 2. Phần trăm độ bền mất đi ngay lập tức
 trTR = "Yalnızca Mod 2. Bir bot, işçilere zarar verebilen bir binada (maden, patlayıcı fabrikası, izabe tesisi ve benzeri) yaralandığında dayanıklılığından bir kerede kaybettiği yüzde. Dayanıklılığı sıfıra ulaştığında bot bozulur."
 
 ["BotModes.Power.Name"]
-status = "normal"
 raw = "Damage per day without fuel (%)"
+status = "normal"
 enUS = "Damage per day without fuel (%)"
 zhCN = "无燃料时每日损耗（%）"
 zhTW = "無燃料時每日損耗（%）"
@@ -155,8 +155,8 @@ viVN = "Mức hao mòn mỗi ngày khi không có nhiên liệu (%)"
 trTR = "Yakıt olmadan günlük hasar (%)"
 
 ["BotModes.Power.Tooltip"]
-status = "normal"
 raw = "Mode 2 only. Percentage of durability lost every game day while Biofuel or Energy is depleted and the bot has stopped working. Vanilla wear is about 1.4% per day."
+status = "normal"
 enUS = "Mode 2 only. Percentage of durability lost each game day while Biofuel or Energy is depleted and the bot has stopped working. Vanilla wear is about 1.4% per day."
 zhCN = "仅限模式 2。生物燃料或能量耗尽且机器人停止工作时，每个游戏日损失的耐久度百分比。原版设定下，每天的损耗约为 1.4%。"
 zhTW = "僅限模式 2。在生質燃料或能源耗盡且機器人停止工作的情況下，每個遊戲日損失的耐久度百分比。原版每天約損失 1.4% 的耐久度。"

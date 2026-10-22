@@ -138,8 +138,8 @@ viVN = "Ngưỡng nhựa cây thấp (phần trăm)"
 trTR = "Düşük özsu eşiği (yüzde)"
 
 ["THB.Setting.SapLowThreshold.Tooltip"]
-status = "normal"
 raw = "Random range: sap above this enters the low chance band"
+status = "normal"
 enUS = "Random range: sap above this enters the low-chance band"
 zhCN = "随机范围：超过此树液量后，进入低概率区间"
 zhTW = "隨機範圍：高於此值的樹液會進入低機率區間"
@@ -155,8 +155,8 @@ viVN = "Khoảng ngẫu nhiên: lượng nhựa cây vượt ngưỡng này sẽ
 trTR = "Rastgele aralık: bu değerin üzerindeki özsu, düşük olasılık bandına girer"
 
 ["THB.Setting.SapLowChance"]
-status = "normal"
 raw = "Low chance (percent)"
+status = "normal"
 enUS = "Low chance (percent)"
 zhCN = "低概率（百分比）"
 zhTW = "低機率（百分比）"
@@ -172,8 +172,8 @@ viVN = "Tỉ lệ thấp (%)"
 trTR = "Düşük olasılık (yüzde)"
 
 ["THB.Setting.SapLowChance.Tooltip"]
-status = "normal"
 raw = "Drop chance in the low sap band"
+status = "normal"
 enUS = "Drop chance in the low sap band"
 zhCN = "低树液带掉落几率"
 zhTW = "低樹液帶的掉落機率"
@@ -189,8 +189,8 @@ viVN = "Tỉ lệ rơi trong khoảng nhựa cây thấp"
 trTR = "Düşük özsu bandındaki düşme şansı"
 
 ["THB.Setting.SapHighThreshold"]
-status = "normal"
 raw = "High sap threshold (percent)"
+status = "normal"
 enUS = "High sap threshold (percent)"
 zhCN = "高树液阈值（百分比）"
 zhTW = "高樹液閾值（百分比）"
@@ -206,8 +206,8 @@ viVN = "Ngưỡng nhựa cây cao (phần trăm)"
 trTR = "Yüksek özsu eşiği (yüzde)"
 
 ["THB.Setting.SapHighThreshold.Tooltip"]
-status = "normal"
 raw = "Random range: sap above this enters the high chance band"
+status = "normal"
 enUS = "Random range: sap above this value enters the high-chance band"
 zhCN = "随机范围：超过此值的树液将进入高概率区间"
 zhTW = "隨機範圍：超過此值的樹液會進入高機率區間"
@@ -223,8 +223,8 @@ viVN = "Khoảng ngẫu nhiên: nhựa cây vượt mức này sẽ thuộc dả
 trTR = "Rastgele aralık: Bu değerin üzerindeki özsu, yüksek olasılık bandına girer."
 
 ["THB.Setting.SapHighChance"]
-status = "normal"
 raw = "High chance (percent)"
+status = "normal"
 enUS = "High chance (percent)"
 zhCN = "高概率（百分比）"
 zhTW = "高機率（百分比）"
@@ -240,8 +240,8 @@ viVN = "Khả năng cao (phần trăm)"
 trTR = "Yüksek olasılık (yüzde)"
 
 ["THB.Setting.SapHighChance.Tooltip"]
-status = "normal"
 raw = "Drop chance in the high sap band"
+status = "normal"
 enUS = "Drop chance in the high sap band"
 zhCN = "高树液区间的掉落概率"
 zhTW = "高樹液區間的掉落機率"
@@ -257,8 +257,8 @@ viVN = "Tỉ lệ rơi trong khoảng nhựa cây cao"
 trTR = "Yüksek özsu bandında düşme olasılığı"
 
 ["THB.Setting.EnableBanner"]
-status = "normal"
 raw = "Enable banner harvest mode"
+status = "normal"
 enUS = "Enable banner harvest mode"
 zhCN = "启用旗帜收割模式"
 zhTW = "啟用旗幟採收模式"
@@ -274,8 +274,8 @@ viVN = "Bật chế độ thu hoạch biểu ngữ"
 trTR = "Afiş hasadı modunu etkinleştir"
 
 ["THB.Setting.EnableBanner.Tooltip"]
-status = "normal"
 raw = "When off all banners use vanilla cutting logic"
+status = "normal"
 enUS = "When disabled, all banners use the vanilla cutting logic"
 zhCN = "关闭时，所有旗帜均使用原版砍伐逻辑"
 zhTW = "關閉時，所有旗幟都使用原版砍伐邏輯。"
@@ -291,8 +291,8 @@ viVN = "Khi tắt, mọi biểu ngữ đều sử dụng cơ chế chặt cây m
 trTR = "Tüm bayraklar kapalıyken varsayılan kesme mantığını kullanır."
 
 ["THB.Setting.AutoDetect"]
-status = "normal"
 raw = "Auto-detect byproduct trees"
+status = "normal"
 enUS = "Auto-detect byproduct trees"
 zhCN = "自动检测副产品树"
 zhTW = "自動偵測副產品樹木"
@@ -308,8 +308,8 @@ viVN = "Tự động phát hiện cây phụ phẩm"
 trTR = "Yan ürün ağaçlarını otomatik algıla"
 
 ["THB.Setting.AutoDetect.Tooltip"]
-status = "normal"
 raw = "Reads the tree template Gatherable yield; off uses the manual whitelist"
+status = "normal"
 enUS = "Reads the tree template’s Gatherable yield; off uses the manual whitelist"
 zhCN = "读取树木模板中的可采集产出；关闭时使用手动白名单"
 zhTW = "讀取樹木範本的可採集產出；關閉時使用手動白名單"
@@ -325,8 +325,8 @@ viVN = "Đọc sản lượng Thu hoạch được trong mẫu cây; tắt tính
 trTR = "Ağaç şablonunun Toplanabilir ürün verimini okur; kapalıyken manuel izin listesini kullanır"
 
 ["THB.Setting.ManualTrees"]
-status = "normal"
 raw = "Manual tree whitelist"
+status = "normal"
 enUS = "Manual tree whitelist"
 zhCN = "手动设置树木白名单"
 zhTW = "手動樹木白名單"
@@ -342,8 +342,8 @@ viVN = "Danh sách cho phép cây thủ công"
 trTR = "Manuel ağaç beyaz listesi"
 
 ["THB.Setting.ManualTrees.Tooltip"]
-status = "normal"
 raw = "Comma-separated tree ids; used when AutoDetect is off"
+status = "normal"
 enUS = "Comma-separated tree IDs; used when AutoDetect is off"
 zhCN = "自动检测关闭时使用的逗号分隔树木 ID列表"
 zhTW = "以逗號分隔的樹木 ID；關閉自動偵測時使用"
@@ -359,8 +359,8 @@ viVN = "Các ID cây được phân tách bằng dấu phẩy; dùng khi AutoDet
 trTR = "Otomatik Algılama kapalıyken kullanılan, virgülle ayrılmış ağaç kimlikleri"
 
 ["THB.Setting.Blacklist"]
-status = "normal"
 raw = "Tree blacklist"
+status = "normal"
 enUS = "Tree blacklist"
 zhCN = "树木黑名单"
 zhTW = "樹木黑名單"
@@ -376,8 +376,8 @@ viVN = "Danh sách cây bị chặn"
 trTR = "Ağaç kara listesi"
 
 ["THB.Setting.Blacklist.Tooltip"]
-status = "normal"
 raw = "Comma-separated ids that always use vanilla logic"
+status = "normal"
 enUS = "Comma-separated IDs that always use vanilla logic"
 zhCN = "始终使用原版逻辑的逗号分隔 ID 列表"
 zhTW = "一律使用原版邏輯的逗號分隔 ID"
@@ -393,8 +393,8 @@ viVN = "Các ID được phân tách bằng dấu phẩy và luôn sử dụng l
 trTR = "Her zaman vanilla mantığını kullanan, virgülle ayrılmış kimlikler"
 
 ["THB.Setting.WaitSapThreshold"]
-status = "normal"
 raw = "Wait mode sap threshold (percent)"
+status = "normal"
 enUS = "Wait mode sap threshold (percent)"
 zhCN = "等待模式树液阈值（百分比）"
 zhTW = "等待模式樹液門檻（百分比）"
@@ -410,8 +410,8 @@ viVN = "Ngưỡng nhựa cây để chờ (phần trăm)"
 trTR = "Bekleme modu özsu eşiği (yüzde)"
 
 ["THB.Setting.WaitSapThreshold.Tooltip"]
-status = "normal"
 raw = "Minimum sap ratio for sap trees in WaitByproductReady mode"
+status = "normal"
 enUS = "Minimum sap ratio for sap trees in WaitByproductReady mode"
 zhCN = "WaitByproductReady 模式下树液树的最低树液比例"
 zhTW = "「等待副產品就緒」模式下樹液樹的最低樹液比例"
@@ -427,8 +427,8 @@ viVN = "Tỷ lệ nhựa tối thiểu cho cây lấy nhựa ở chế độ Ch�
 trTR = "WaitByproductReady modundaki özsu ağaçları için minimum özsu oranı"
 
 ["THB.Setting.DefaultBannerMode"]
-status = "normal"
 raw = "Default banner mode"
+status = "normal"
 enUS = "Default banner mode"
 zhCN = "默认旗帜模式"
 zhTW = "預設旗幟模式"
@@ -444,8 +444,8 @@ viVN = "Chế độ biểu ngữ mặc định"
 trTR = "Varsayılan afiş modu"
 
 ["THB.Setting.DefaultBannerMode.Tooltip"]
-status = "normal"
 raw = "Mode used by banners without a per-flag override"
+status = "normal"
 enUS = "Mode used by banners without a per-flag override"
 zhCN = "未单独设置旗帜模式的旗帜所使用的模式"
 zhTW = "未為個別旗幟設定覆寫時，旗幟使用的模式"
@@ -461,8 +461,8 @@ viVN = "Chế độ được các biểu ngữ sử dụng khi không có cài �
 trTR = "Her bayrak için ayrı bir ayar belirlenmemişse kullanılan mod"
 
 ["THB.Setting.FactionMode"]
-status = "normal"
 raw = "Faction filter mode"
+status = "normal"
 enUS = "Faction Filter Mode"
 zhCN = "派系筛选模式"
 zhTW = "陣營篩選模式"
@@ -478,8 +478,8 @@ viVN = "Chế độ lọc phe phái"
 trTR = "Grup filtresi modu"
 
 ["THB.Setting.FactionMode.Tooltip"]
-status = "normal"
 raw = "Controls which factions use this mod"
+status = "normal"
 enUS = "Controls which factions use this mod"
 zhCN = "控制哪些派系使用此模组"
 zhTW = "控制哪些派系使用此模組"
@@ -495,8 +495,8 @@ viVN = "Chọn các phe phái sử dụng bản mod này"
 trTR = "Bu modu hangi grupların kullanacağını belirler."
 
 ["THB.Setting.FactionList"]
-status = "normal"
 raw = "Faction id list"
+status = "normal"
 enUS = "Faction ID List"
 zhCN = "阵营 ID 列表"
 zhTW = "陣營 ID 清單"
@@ -512,8 +512,8 @@ viVN = "Danh sách ID phe phái"
 trTR = "Grup kimlik listesi"
 
 ["THB.Setting.FactionList.Tooltip"]
-status = "normal"
 raw = "Comma-separated faction ids (for example Folktails / IronTeeth)"
+status = "normal"
 enUS = "Comma-separated faction IDs (for example, Folktails / IronTeeth)"
 zhCN = "以逗号分隔的派系 ID（例如神尾 / 铁牙）"
 zhTW = "以逗號分隔的陣營 ID（例如神尾 / 鐵牙）"
@@ -529,8 +529,8 @@ viVN = "Các ID phe phái, phân tách bằng dấu phẩy (ví dụ Folktails /
 trTR = "Virgülle ayrılmış grup kimlikleri (örneğin Köykuyruklar / DemirDişler)"
 
 ["THB.Rule.NeverLocked"]
-status = "normal"
 raw = "Never locked"
+status = "normal"
 enUS = "Never locked"
 zhCN = "从不锁定"
 zhTW = "永不鎖定"
@@ -546,8 +546,8 @@ viVN = "Không bao giờ bị khóa"
 trTR = "Asla kilitlenmedi"
 
 ["THB.Rule.PermanentLock"]
-status = "normal"
 raw = "Permanent lock"
+status = "normal"
 enUS = "Permanent lock"
 zhCN = "永久锁定"
 zhTW = "永久鎖定"
@@ -563,8 +563,8 @@ viVN = "Khóa vĩnh viễn"
 trTR = "Kalıcı kilit"
 
 ["THB.Rule.SapThreshold"]
-status = "normal"
 raw = "Sap threshold"
+status = "normal"
 enUS = "Sap threshold"
 zhCN = "树液阈值"
 zhTW = "樹液門檻"
@@ -580,8 +580,8 @@ viVN = "Ngưỡng nhựa cây"
 trTR = "Özsu eşiği"
 
 ["THB.Rule.SapRangeRandom"]
-status = "normal"
 raw = "Sap range random (default)"
+status = "normal"
 enUS = "Sap range random (default)"
 zhCN = "树液范围随机（默认）"
 zhTW = "樹液範圍隨機（預設）"
@@ -597,8 +597,8 @@ viVN = "Phạm vi nhựa cây ngẫu nhiên (mặc định)"
 trTR = "Özsu aralığı rastgele (varsayılan)"
 
 ["THB.Banner.NormalCut"]
-status = "normal"
 raw = "Normal cut"
+status = "normal"
 enUS = "Normal cut"
 zhCN = "普通砍伐"
 zhTW = "一般砍伐"
@@ -614,8 +614,8 @@ viVN = "Chặt thường"
 trTR = "Normal Kesim"
 
 ["THB.Banner.WaitByproductReady"]
-status = "normal"
 raw = "Wait for byproduct"
+status = "normal"
 enUS = "Wait for byproduct"
 zhCN = "等待副产品就绪"
 zhTW = "等待副產品就緒"
@@ -631,8 +631,8 @@ viVN = "Chờ phụ phẩm sẵn sàng"
 trTR = "Yan ürünün hazır olmasını bekle"
 
 ["THB.Faction.All"]
-status = "normal"
 raw = "All factions"
+status = "normal"
 enUS = "All factions"
 zhCN = "所有派系"
 zhTW = "所有派系"
@@ -648,8 +648,8 @@ viVN = "Tất cả phe phái"
 trTR = "Tüm gruplar"
 
 ["THB.Faction.Whitelist"]
-status = "normal"
 raw = "Whitelist only"
+status = "normal"
 enUS = "Whitelist only"
 zhCN = "仅限白名单"
 zhTW = "僅限白名單"
@@ -665,8 +665,8 @@ viVN = "Chỉ danh sách cho phép"
 trTR = "Yalnızca izin verilenler"
 
 ["THB.Faction.Blacklist"]
-status = "normal"
 raw = "Blacklist"
+status = "normal"
 enUS = "Blacklist"
 zhCN = "黑名单"
 zhTW = "黑名單"
@@ -682,8 +682,8 @@ viVN = "Danh sách đen"
 trTR = "Kara liste"
 
 ["THB.Panel.TreeTitle"]
-status = "normal"
 raw = "Tree byproduct info"
+status = "normal"
 enUS = "Tree byproduct info"
 zhCN = "树木副产品信息"
 zhTW = "樹木副產品資訊"
@@ -699,8 +699,8 @@ viVN = "Thông tin phụ phẩm từ cây"
 trTR = "Ağaç yan ürünü bilgisi"
 
 ["THB.Panel.Tree.Tooltip"]
-status = "normal"
 raw = "Detected from the tree template Gatherable yield"
+status = "normal"
 enUS = "Detected from the tree template’s gatherable yield"
 zhCN = "根据树木模板检测到的可采收产量"
 zhTW = "根據樹木模板偵測到的可採集產出"
@@ -716,8 +716,8 @@ viVN = "Sản lượng có thể thu thập được theo mẫu cây phát hiệ
 trTR = "Toplanabilir ürün verimi ağaç şablonundan algılandı"
 
 ["THB.Panel.Sap.Tooltip"]
-status = "normal"
 raw = "Current/max sap and tree maturity"
+status = "normal"
 enUS = "Current/max sap and tree maturity"
 zhCN = "当前/最大树液量与树木成熟度"
 zhTW = "目前／最大樹液量與樹木成熟度"
@@ -733,8 +733,8 @@ viVN = "Lượng nhựa hiện tại/tối đa và độ trưởng thành của 
 trTR = "Mevcut/maksimum özsu ve ağaç olgunluğu"
 
 ["THB.Panel.Mode.Tooltip"]
-status = "normal"
 raw = "Current global default banner rule; a flag can override it"
+status = "normal"
 enUS = "Current global default banner rule; a flag can override it"
 zhCN = "当前全局默认旗帜规则；旗帜可覆盖此规则"
 zhTW = "目前全域預設的旗幟規則；可由個別旗幟覆寫此規則"
@@ -750,8 +750,8 @@ viVN = "Quy tắc biểu ngữ mặc định toàn cục hiện tại; cờ có 
 trTR = "Geçerli genel varsayılan bayrak kuralı; bir bayrak bunu geçersiz kılabilir"
 
 ["THB.Panel.Allowed.Tooltip"]
-status = "normal"
 raw = "Whether AI lumberjacks may cut this tree under the current rule"
+status = "normal"
 enUS = "Whether AI lumberjacks are allowed to cut down this tree under the current rule"
 zhCN = "AI伐木工是否可以按照当前规则砍伐这棵树"
 zhTW = "目前規則是否允許 AI 伐木工砍伐這棵樹"
@@ -767,8 +767,8 @@ viVN = "Liệu thợ đốn gỗ AI có được phép chặt cây này theo quy
 trTR = "Yapay zekâ oduncuların mevcut kurala göre bu ağacı kesip kesemeyeceği"
 
 ["THB.Panel.FlagTitle"]
-status = "normal"
 raw = "Cutting banner mode"
+status = "normal"
 enUS = "Cutting Banner Mode"
 zhCN = "砍伐横幅模式"
 zhTW = "砍伐旗幟模式"
@@ -784,8 +784,8 @@ viVN = "Chế độ cắt cờ hiệu"
 trTR = "Kesim bayrağı modu"
 
 ["THB.Panel.FlagMode.Tooltip"]
-status = "normal"
 raw = "NormalCut checks maturity only; WaitByproductReady also checks sap/fruit"
+status = "normal"
 enUS = "NormalCut checks only maturity; WaitByproductReady also checks sap/fruit"
 zhCN = "NormalCut 仅检查成熟度；WaitByproductReady 还会检查树液/果实是否就绪。"
 zhTW = "NormalCut 只檢查成熟度；WaitByproductReady 也會檢查樹液／果實"
@@ -801,8 +801,8 @@ viVN = "NormalCut chỉ kiểm tra độ trưởng thành; WaitByproductReady c�
 trTR = "NormalCut yalnızca olgunluğu kontrol eder; WaitByproductReady ise özsuyu/meyveyi de kontrol eder."
 
 ["THB.Panel.FlagHint"]
-status = "normal"
 raw = "Affects AI target selection for this banner only; manual cutting is unaffected"
+status = "normal"
 enUS = "Affects AI target selection for this banner only; manual cutting is unaffected"
 zhCN = "仅影响此旗帜的 AI 目标选择；不影响手动砍伐。"
 zhTW = "僅影響此旗幟的 AI 目標選擇；手動砍伐不受影響"
@@ -818,8 +818,8 @@ viVN = "Chỉ ảnh hưởng đến việc AI chọn mục tiêu cho lá cờ n�
 trTR = "Yalnızca bu bayrak için yapay zekâ hedef seçimini etkiler; elle kesimi etkilemez."
 
 ["THB.Setting.FactionFolktails"]
-status = "normal"
 raw = "Folktails"
+status = "normal"
 enUS = "Folktails"
 zhCN = "神尾"
 zhTW = "神尾"
@@ -835,8 +835,8 @@ viVN = "Chồn đuôi lá"
 trTR = "Köykuyruklar"
 
 ["THB.Setting.FactionFolktails.Tooltip"]
-status = "normal"
 raw = "Whitelist: checked = allow this faction; blacklist: checked = block this faction; ignored in All factions mode"
+status = "normal"
 enUS = "Whitelist: checked = allow this faction; blacklist: checked = block this faction; ignored in All factions mode"
 zhCN = "白名单：勾选 = 允许该派系；黑名单：勾选 = 禁止该派系；在“所有派系”模式下无效"
 zhTW = "白名單：勾選＝允許此派系；黑名單：勾選＝封鎖此派系；在「所有派系」模式中會忽略此設定"
@@ -852,8 +852,8 @@ viVN = "Danh sách cho phép: được chọn = cho phép phe này; danh sách c
 trTR = "İzin listesi: işaretliyse bu fraksiyona izin verilir; engelleme listesi: işaretliyse bu fraksiyon engellenir; Tüm fraksiyonlar modunda yok sayılır"
 
 ["THB.Setting.FactionIronTeeth"]
-status = "normal"
 raw = "IronTeeth"
+status = "normal"
 enUS = "Iron Teeth"
 zhCN = "铁牙"
 zhTW = "鐵牙"
@@ -869,8 +869,8 @@ viVN = "Thiết Nha"
 trTR = "Demir Dişler"
 
 ["THB.Setting.FactionIronTeeth.Tooltip"]
-status = "normal"
 raw = "Whitelist: checked = allow this faction; blacklist: checked = block this faction; ignored in All factions mode"
+status = "normal"
 enUS = "Whitelist: checked = allow this faction; blacklist: checked = block this faction; ignored in All factions mode"
 zhCN = "白名单：勾选 = 允许该派系；黑名单：勾选 = 阻止该派系；在“所有派系”模式下忽略此设置"
 zhTW = "白名單：勾選＝允許此派系；黑名單：勾選＝封鎖此派系；在「所有派系」模式中忽略此設定"
@@ -886,8 +886,8 @@ viVN = "Danh sách cho phép: được chọn = cho phép phe này; danh sách c
 trTR = "İzin listesi: işaretliyse bu fraksiyona izin verilir; engelleme listesi: işaretliyse bu fraksiyon engellenir; Tüm fraksiyonlar modunda yok sayılır"
 
 ["THB.Setting.FactionExtra"]
-status = "normal"
 raw = "Extra faction IDs (optional)"
+status = "normal"
 enUS = "Extra faction IDs (optional)"
 zhCN = "额外阵营 ID（可选）"
 zhTW = "額外陣營 ID（選填）"
@@ -903,8 +903,8 @@ viVN = "ID phe phái bổ sung (không bắt buộc)"
 trTR = "Ek hizip kimlikleri (isteğe bağlı)"
 
 ["THB.Setting.FactionExtra.Tooltip"]
-status = "normal"
 raw = "For factions added by other mods, comma-separated; official Folktails/IronTeeth use the checkboxes above"
+status = "normal"
 enUS = "For factions added by other mods, separate with commas; use the checkboxes above for the official Folktails and Iron Teeth."
 zhCN = "对于其他模组添加的派系，请用逗号分隔；官方的神尾/铁牙派系请使用上方的复选框。"
 zhTW = "適用於其他模組新增的派系，以逗號分隔；官方的神尾／鐵牙派系請使用上方的核取方塊。"
@@ -920,8 +920,8 @@ viVN = "Dành cho các phe được thêm bởi mod khác, phân tách bằng d�
 trTR = "Diğer modların eklediği gruplar için virgülle ayırın; resmi Köykuyruklar/Demir Dişler grupları için yukarıdaki onay kutularını kullanın"
 
 ["THB.Setting.FactionAllowUnlisted"]
-status = "normal"
 raw = "Allow unlisted factions (other faction mods)"
+status = "normal"
 enUS = "Allow unlisted factions (other faction mods)"
 zhCN = "允许未列出的派系（其他派系模组）"
 zhTW = "允許未列出的派系（其他派系模組）"
@@ -937,8 +937,8 @@ viVN = "Cho phép các phe phái không có trong danh sách (các mod phe phái
 trTR = "Listede olmayan gruplara izin ver (diğer grup modları)"
 
 ["THB.Setting.FactionAllowUnlisted.Tooltip"]
-status = "normal"
 raw = "In whitelist mode, whether factions with no official checkbox and no extra ID are also allowed. On by default so other faction mods are not blocked; ignored in blacklist mode"
+status = "normal"
 enUS = "Whether factions without an official checkbox or extra ID are also allowed in whitelist mode. On by default so other faction mods aren’t blocked; ignored in blacklist mode."
 zhCN = "在白名单模式下，是否也允许没有官方复选框且没有额外 ID 的阵营。默认开启，以免阻止其他阵营模组；黑名单模式下忽略此设置。"
 zhTW = "在白名單模式下，是否也允許沒有正式核取方塊且沒有額外 ID 的陣營。預設為開啟，以免封鎖其他陣營模組；在黑名單模式下則不會生效。"
@@ -954,8 +954,8 @@ viVN = "Trong chế độ danh sách cho phép, quyết định liệu các phe 
 trTR = "Beyaz liste modunda, resmî onay kutusu ve ek kimliği olmayan gruplara da izin verilip verilmeyeceği. Diğer grup modlarının engellenmemesi için varsayılan olarak açıktır; kara liste modunda dikkate alınmaz."
 
 ["THB.Status.Vanilla"]
-status = "normal"
 raw = "Vanilla logic"
+status = "normal"
 enUS = "Vanilla logic"
 zhCN = "原版逻辑"
 zhTW = "原版邏輯"
@@ -971,8 +971,8 @@ viVN = "Logic mặc định"
 trTR = "Vanilla mantığı"
 
 ["THB.Status.ConfigNotLoaded"]
-status = "normal"
 raw = "Config not loaded"
+status = "normal"
 enUS = "Config not loaded"
 zhCN = "配置未加载"
 zhTW = "設定未載入"
@@ -988,8 +988,8 @@ viVN = "Chưa tải cấu hình"
 trTR = "Yapılandırma yüklenmedi"
 
 ["THB.Status.FactionFilterDisabled"]
-status = "normal"
 raw = "Faction filter does not enable this mod"
+status = "normal"
 enUS = "Faction filter doesn't enable this mod"
 zhCN = "阵营筛选器不会启用此模组"
 zhTW = "派系篩選器不會啟用此模組"
@@ -1005,8 +1005,8 @@ viVN = "Bộ lọc phe phái không bật mod này"
 trTR = "Kabile filtresi bu modu etkinleştirmez"
 
 ["THB.Status.NormalCutNoByproduct"]
-status = "normal"
 raw = "Normal cut ignores byproducts"
+status = "normal"
 enUS = "Normal cut ignores byproducts"
 zhCN = "普通砍伐不产生副产品"
 zhTW = "一般砍伐會忽略副產品"
@@ -1022,8 +1022,8 @@ viVN = "Lần chặt thông thường bỏ qua sản phẩm phụ"
 trTR = "Normal kesim yan ürünleri yok sayar"
 
 ["THB.Status.TreeImmature"]
-status = "normal"
 raw = "Tree is not mature"
+status = "normal"
 enUS = "Tree is not mature"
 zhCN = "树木尚未成熟"
 zhTW = "樹木尚未成熟"
@@ -1039,8 +1039,8 @@ viVN = "Cây chưa trưởng thành"
 trTR = "Ağaç olgun değil"
 
 ["THB.Status.ByproductReady"]
-status = "normal"
 raw = "Byproduct is ready"
+status = "normal"
 enUS = "Byproduct is ready"
 zhCN = "副产品已就绪"
 zhTW = "副產品已備妥"
@@ -1056,8 +1056,8 @@ viVN = "Sản phẩm phụ đã sẵn sàng"
 trTR = "Yan ürün hazır"
 
 ["THB.Status.FruitNotRipe"]
-status = "normal"
 raw = "Fruit is not fully ripe"
+status = "normal"
 enUS = "Fruit is not fully ripe"
 zhCN = "水果尚未完全成熟"
 zhTW = "果實尚未完全成熟"
@@ -1073,8 +1073,8 @@ viVN = "Quả chưa chín hoàn toàn"
 trTR = "Meyve henüz tam olgunlaşmadı"
 
 ["THB.Status.SapBelowThreshold"]
-status = "normal"
 raw = "Sap is below the wait threshold"
+status = "normal"
 enUS = "Sap is below the wait threshold"
 zhCN = "树液低于等待阈值"
 zhTW = "樹液低於等待閾值"

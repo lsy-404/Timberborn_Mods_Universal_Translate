@@ -104,8 +104,8 @@ viVN = "Toa bồn chứa nước"
 trTR = "Sarnıçlı Vagon"
 
 ["Tobbert.ChooChoo.Settings.Header"]
-status = "normal"
 raw = "Choo!Choo! Settings"
+status = "normal"
 enUS = "Choo! Choo! Settings"
 zhCN = "呜！呜！设置"
 zhTW = "嗚！嗚！設定"
@@ -121,8 +121,8 @@ viVN = "Cài đặt Choo!Choo!"
 trTR = "Choo!Choo! Ayarları"
 
 ["Tobbert.ChooChoo.Settings.Group"]
-status = "normal"
 raw = "Multipliers"
+status = "normal"
 enUS = "Multipliers"
 zhCN = "倍率"
 zhTW = "倍率"
@@ -138,8 +138,8 @@ viVN = "Hệ số nhân"
 trTR = "Çarpanlar"
 
 ["Tobbert.ChooChoo.Settings.BuildHours.Name"]
-status = "normal"
 raw = "Train build time"
+status = "normal"
 enUS = "Train build time"
 zhCN = "列车建造时间"
 zhTW = "列車建造時間"
@@ -155,8 +155,8 @@ viVN = "Thời gian xây dựng tàu hỏa"
 trTR = "Tren inşa süresi"
 
 ["Tobbert.ChooChoo.Settings.BuildHours.Tooltip"]
-status = "normal"
 raw = "Work hours needed to build a train, multiplied by this percentage. 100% = 160 work hours."
+status = "normal"
 enUS = "Work hours needed to build a train, multiplied by this percentage. 100% = 160 work hours."
 zhCN = "建造一列火车所需的工时乘以此百分比。100% = 160 工时。"
 zhTW = "建造一列火車所需的工時，乘以此百分比。100% = 160 工時。"
@@ -172,8 +172,8 @@ viVN = "Số giờ lao động cần để chế tạo một đoàn tàu, nhân 
 trTR = "Tren inşa etmek için gereken iş saatleri bu yüzdeyle çarpılır. %100 = 160 iş saati."
 
 ["Tobbert.ChooChoo.Settings.TrainCost.Name"]
-status = "normal"
 raw = "Train cost"
+status = "normal"
 enUS = "Train Cost"
 zhCN = "列车成本"
 zhTW = "列車費用"
@@ -189,8 +189,8 @@ viVN = "Chi phí tàu hỏa"
 trTR = "Tren maliyeti"
 
 ["Tobbert.ChooChoo.Settings.TrainCost.Tooltip"]
-status = "normal"
 raw = "Resource cost of every train, multiplied by this percentage. 100% = the values in the train blueprints."
+status = "normal"
 enUS = "Resource cost of every train, multiplied by this percentage. 100% = the values in the train blueprints."
 zhCN = "每列火车的资源消耗乘以此百分比。100% = 火车蓝图中的数值。"
 zhTW = "每列火車的資源成本乘以此百分比。100% = 火車藍圖中的數值。"
@@ -206,8 +206,8 @@ viVN = "Chi phí tài nguyên của mỗi đoàn tàu, nhân với tỷ lệ ph�
 trTR = "Her trenin kaynak maliyeti bu yüzdeyle çarpılır. %100 = tren planlarındaki değerler."
 
 ["Tobbert.ChooChoo.Settings.YardCost.Name"]
-status = "normal"
 raw = "Train yard cost"
+status = "normal"
 enUS = "Train Yard Cost"
 zhCN = "火车场成本"
 zhTW = "列車場成本"
@@ -223,8 +223,8 @@ viVN = "Chi phí bãi tàu hỏa"
 trTR = "Tren deposu maliyeti"
 
 ["Tobbert.ChooChoo.Settings.YardCost.Tooltip"]
-status = "normal"
 raw = "Building cost of the three train yards, multiplied by this percentage. 100% = 40 planks + 15 gears."
+status = "normal"
 enUS = "Building cost of the three train yards, multiplied by this percentage. 100% = 40 planks + 15 gears."
 zhCN = "三个火车场的建造成本乘以此百分比。100% = 40 块木板 + 15 个齿轮。"
 zhTW = "三座列車調車場的建造成本乘以此百分比。100% = 40 塊木板 + 15 個齒輪。"

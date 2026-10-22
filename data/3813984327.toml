@@ -4932,8 +4932,8 @@ viVN = "Chủ phòng"
 trTR = "Sunucu"
 
 ["BeaverBuddies.Lobby.Ready"]
-status = "normal"
 raw = "Ready"
+status = "normal"
 enUS = "Ready"
 zhCN = "准备就绪"
 zhTW = "準備就緒"
@@ -4949,8 +4949,8 @@ viVN = "Sẵn sàng"
 trTR = "Hazır"
 
 ["BeaverBuddies.Lobby.Joining"]
-status = "normal"
 raw = "Joining..."
+status = "normal"
 enUS = "Joining..."
 zhCN = "正在加入…"
 zhTW = "正在加入…"
@@ -4966,8 +4966,8 @@ viVN = "Đang tham gia..."
 trTR = "Katılıyor..."
 
 ["BeaverBuddies.Lobby.Waiting"]
-status = "normal"
 raw = "Waiting for a player..."
+status = "normal"
 enUS = "Waiting for a player..."
 zhCN = "正在等待玩家加入……"
 zhTW = "正在等待玩家……"
@@ -4983,8 +4983,8 @@ viVN = "Đang chờ người chơi..."
 trTR = "Bir oyuncu bekleniyor..."
 
 ["BeaverBuddies.Lobby.Code"]
-status = "normal"
 raw = "Join code"
+status = "normal"
 enUS = "Join code"
 zhCN = "加入代码"
 zhTW = "加入代碼"
@@ -5000,8 +5000,8 @@ viVN = "Mã tham gia"
 trTR = "Katılım kodu"
 
 ["BeaverBuddies.Lobby.WaitingForHost"]
-status = "normal"
 raw = "Waiting for the host to start the game..."
+status = "normal"
 enUS = "Waiting for the host to start the game..."
 zhCN = "正在等待房主开始游戏……"
 zhTW = "等待主機開始遊戲中…"
@@ -5017,8 +5017,8 @@ viVN = "Đang chờ chủ phòng bắt đầu trò chơi..."
 trTR = "Oyunun başlaması için sunucu bekleniyor..."
 
 ["BeaverBuddies.Lobby.Ribbon"]
-status = "normal"
 raw = "LOBBY"
+status = "normal"
 enUS = "LOBBY"
 zhCN = "大厅"
 zhTW = "大廳"
@@ -5034,8 +5034,8 @@ viVN = "SẢNH chờ"
 trTR = "LOBİ"
 
 ["BeaverBuddies.Lobby.Nickname"]
-status = "normal"
 raw = "Nickname"
+status = "normal"
 enUS = "Nickname"
 zhCN = "昵称"
 zhTW = "暱稱"
@@ -5051,8 +5051,8 @@ viVN = "Biệt danh"
 trTR = "Takma ad"
 
 ["BeaverBuddies.Lobby.Color"]
-status = "normal"
 raw = "Color"
+status = "normal"
 enUS = "Color"
 zhCN = "颜色"
 zhTW = "顏色"
@@ -5068,8 +5068,8 @@ viVN = "Màu sắc"
 trTR = "Renk"
 
 ["BeaverBuddies.Lobby.Profile"]
-status = "normal"
 raw = "Your player"
+status = "normal"
 enUS = "Your player"
 zhCN = "你的玩家"
 zhTW = "你的玩家"
@@ -5085,8 +5085,8 @@ viVN = "Người chơi của bạn"
 trTR = "Oyuncunuz"
 
 ["BeaverBuddies.Lobby.Done"]
-status = "normal"
 raw = "Done"
+status = "normal"
 enUS = "Done"
 zhCN = "完成"
 zhTW = "完成"

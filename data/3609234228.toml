@@ -105,6 +105,7 @@ trTR = "Zor ılıman süre; tehlikeli dönemin beklenen süresi, döngü sayıs�
 
 ["acalc79.ExtremeDifficulties.UltraHardWeatherDescription"]
 raw = "Fair weather always lasts only 3 days, by cycle 38 it has average contamination of 15% with peaks at 30%. Eruption and flood reach average 10, drought and badtide 50."
+new = "Temperate weather always lasts only 3 days, by cycle 38 it has average contamination of 15% with peaks at 30%. Eruption and flood reach average 10, drought and badtide 50."
 status = "normal"
 enUS = "Fair weather always lasts only 3 days. By cycle 38, it has an average contamination of 15%, with peaks at 30%. Eruptions and floods reach an average of 10, while droughts and badtides reach 50."
 zhCN = "晴好天气始终只持续 3 天；到第 38 个周期时，平均污染率为 15%，峰值为 30%。火山喷发和洪水的平均污染率为 10%，干旱和恶潮则为 50%。"
@@ -122,6 +123,7 @@ trTR = "Güzel hava her zaman yalnızca 3 gün sürer; 38. döngüye gelindiğin
 
 ["acalc79.ExtremeDifficulties.DroughtIsComingWeatherDescription"]
 raw = "Fair weather always lasts only 3 days, but their strength increases to keep up with length of hazards. By cycle 68 it has average contamination of 30% with peaks at 60%. Eruption and flood reach average 15, drought and badtide average 5 times the cycle number without limit."
+new = "Temperate weather always lasts only 3 days, but their strength increases to keep up with length of hazards. By cycle 68 it has average contamination of 30% with peaks at 60%. Eruption and flood reach average 15, drought and badtide average 5 times the cycle number without limit."
 status = "normal"
 enUS = "Fair weather always lasts only 3 days, but its intensity increases to keep pace with the duration of hazards. By cycle 68, it has an average contamination of 30%, with peaks of 60%. Eruptions and floods reach an average of 15, while droughts and badtides average 5 times the cycle number, with no limit."
 zhCN = "晴好天气始终只持续 3 天，但其强度会增加，以应对危害持续时间的延长。到第 68 个周期时，其平均污染率为 30%，峰值为 60%。喷发和洪水的强度达到周期数的平均 15 倍，干旱和恶潮则达到周期数的平均 5 倍，且没有上限。"
@@ -139,6 +141,7 @@ trTR = "Güzel hava her zaman yalnızca 3 gün sürer, ancak şiddeti tehlikeler
 
 ["acalc79.ExtremeDifficulties.ScorchedEarthWeatherDescription"]
 raw = "Hazards average 15 times the cycle number. Hard's fair weather with source strength scaling to keep up with hazards."
+new = "Hazards average 15 times the cycle number. Hard's temperate weather with source strength scaling to keep up with hazards."
 status = "normal"
 enUS = "Hazards average 15 times the cycle number. Hard’s fair weather, with source strength scaling to keep up with hazards."
 zhCN = "灾害的平均强度为周期数的 15 倍。困难模式下的正常天气会根据灾害强度进行调整，以保持相应难度。"
