@@ -86,6 +86,10 @@ csCZ = "Příroda"
 viVN = "Thiên nhiên"
 trTR = "Doğa"
 
+["ZOS.Section.UI"]
+new = "Interface"
+status = "normal"
+
 ["ZOS.BuildingReach"]
 raw = "Building sound reach"
 status = "normal"
@@ -255,6 +259,10 @@ koKR = "자연 전체 (%)"
 csCZ = "Veškerá příroda (%)"
 viVN = "Toàn bộ thiên nhiên (%)"
 trTR = "Tüm doğa (%)"
+
+["ZOS.All.UI"]
+new = "All interface (%)"
+status = "normal"
 
 ["ZOS.AllTooltip"]
 raw = "Turns every sound in this section up or down together. The sliders below fine-tune each one. 100 is the game's normal volume."
@@ -578,3 +586,35 @@ koKR = "잠자는 비버들"
 csCZ = "Spící bobři"
 viVN = "Hải ly đang ngủ"
 trTR = "Uyuyan kunduzlar"
+
+["ZOS.Sound.BeaverVoices"]
+new = "Beaver voices (when clicked)"
+status = "normal"
+
+["ZOS.Sound.BotVoices"]
+new = "Bot voices (when clicked)"
+status = "normal"
+
+["ZOS.Sound.BuildingClicks"]
+new = "Building clicks"
+status = "normal"
+
+["ZOS.Sound.NatureClicks"]
+new = "Tree, crop and ruin clicks"
+status = "normal"
+
+["ZOS.Sound.Buttons"]
+new = "Buttons"
+status = "normal"
+
+["ZOS.Sound.Placing"]
+new = "Placing, planting and demolishing"
+status = "normal"
+
+["ZOS.Sound.WeatherAlerts"]
+new = "Weather alerts"
+status = "normal"
+
+["ZOS.Sound.OtherUI"]
+new = "Other alerts (warnings, records, wonders)"
+status = "normal"

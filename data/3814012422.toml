@@ -172,8 +172,8 @@ viVN = "Tắt sẽ hiển thị mọi thứ. Sương mù chỉ hiển thị vùn
 trTR = "Kapalı seçeneği her şeyi gösterir. Sis, yalnızca arazi haklarınızın, binalarınızın, kunduzlarınızın ve botlarınızın çevresindeki araziyi gösterir; bu alanın dışındaki diğer oyuncuların binalarını, kunduzlarını, botlarını ve imleçlerini gizler. Kara sis de aynıdır ve henüz keşfetmediğiniz arazi siyahtır."
 
 ["TimberEmpires.Settings.FogOfWar.Value.0"]
-status = "normal"
 raw = "Off"
+status = "normal"
 enUS = "Off"
 zhCN = "关闭"
 zhTW = "關閉"
@@ -189,8 +189,8 @@ viVN = "Tắt"
 trTR = "Kapalı"
 
 ["TimberEmpires.Settings.FogOfWar.Value.1"]
-status = "normal"
 raw = "Fog"
+status = "normal"
 enUS = "Fog"
 zhCN = "迷雾"
 zhTW = "迷霧"
@@ -206,8 +206,8 @@ viVN = "Sương mù"
 trTR = "Sis"
 
 ["TimberEmpires.Settings.FogOfWar.Value.2"]
-status = "normal"
 raw = "Black fog"
+status = "normal"
 enUS = "Black fog"
 zhCN = "黑雾"
 zhTW = "黑霧"
@@ -221,40 +221,6 @@ koKR = "검은 안개"
 csCZ = "Černá mlha"
 viVN = "Sương mù đen"
 trTR = "Kara sis"
-
-["TimberEmpires.Settings.SoloEmpire"]
-raw = "Play as an empire"
-status = "normal"
-enUS = "Play as an empire"
-zhCN = "以帝国身份游玩"
-zhTW = "以帝國身分遊玩"
-ruRU = "Играть за империю"
-jaJP = "帝国としてプレイする"
-frFR = "Jouer en tant qu’empire"
-deDE = "Als Imperium spielen"
-plPL = "Graj jako imperium"
-ptBR = "Jogue como um império"
-koKR = "제국으로 플레이하기"
-csCZ = "Hrajte za impérium"
-viVN = "Chơi với tư cách một đế chế"
-trTR = "Bir imparatorluk olarak oyna"
-
-["TimberEmpires.Settings.SoloEmpire.Tooltip"]
-raw = "Your districts are yours, and fog of war and land claims work as they do against other players."
-status = "normal"
-enUS = "Your districts are yours, and fog of war and land claims work as they do against other players."
-zhCN = "你的区划属于你自己，战争迷雾和土地所有权机制也与对抗其他玩家时相同。"
-zhTW = "你的區域由你掌控，戰爭迷霧和領土宣稱的運作方式也和面對其他玩家時相同。"
-ruRU = "Ваши районы принадлежат вам, а туман войны и захват территорий работают так же, как против других игроков."
-jaJP = "自分の地区は自分のものです。戦場の霧と土地の所有権も、他のプレイヤーと対戦するときと同じように機能します。"
-frFR = "Vos districts vous appartiennent, et le brouillard de guerre ainsi que les revendications de territoire fonctionnent comme contre les autres joueurs."
-deDE = "Deine Bezirke gehören dir, und der Kriegsnebel sowie die Gebietsansprüche funktionieren wie gegenüber anderen Spielern."
-plPL = "Twoje dzielnice należą do ciebie, a mgła wojny i roszczenia do ziemi działają tak samo jak w przypadku innych graczy."
-ptBR = "Seus distritos são seus, e a névoa de guerra e as reivindicações de território funcionam como funcionariam contra outros jogadores."
-koKR = "구역은 플레이어의 소유이며, 전장의 안개와 영토 소유권도 다른 플레이어를 상대할 때와 동일하게 적용됩니다."
-csCZ = "Vaše čtvrti jsou vaše a mlha války i nárokování území fungují stejně jako proti ostatním hráčům."
-viVN = "Các khu của bạn thuộc về bạn, và sương mù chiến tranh cùng quyền tuyên bố lãnh thổ hoạt động giống như khi đối đầu với người chơi khác."
-trTR = "Bölgeleriniz size aittir; savaş sisi ve arazi hakları da diğer oyunculara karşı işlediği şekilde işler."
 
 ["TimberEmpires.Ownership.ToolGroup"]
 raw = "Ownership"
@@ -751,6 +717,7 @@ trTR = "Kunduzlar savaşmak için değil, kemirmek için yaratılmıştır. Bunl
 
 ["TimberEmpires.PvP.ToolGroup"]
 raw = "PvP"
+new = "Timber Empires"
 status = "normal"
 enUS = "PvP"
 zhCN = "玩家对战"
@@ -782,6 +749,18 @@ koKR = "벽 건설ефон"
 csCZ = "Zdi"
 viVN = "Tường"
 trTR = "Duvarlar"
+
+["TimberEmpires.PvP.Army"]
+new = "Army"
+status = "normal"
+
+["TimberEmpires.PvP.Siege"]
+new = "Siege"
+status = "normal"
+
+["TimberEmpires.PvP.Mines"]
+new = "Mines"
+status = "normal"
 
 ["TimberEmpires.Combat.Killed"]
 raw = "{0} was killed in battle."
@@ -9300,6 +9279,18 @@ csCZ = "Nemrtví mývalové vstávají z ruin každých pár nocí a pokaždé j
 viVN = "Cứ vài đêm, lũ gấu mèo xác sống lại trỗi dậy từ đống đổ nát, mỗi lần một đông hơn, và sẽ kéo đến thành đàn lớn khi triều nước độc ập đến. Hãy liên minh với các khu lân cận hoặc chiến đấu với chúng, cầm cự đến bình minh và phong kín mọi tàn tích để chấm dứt chuyện này."
 trTR = "Ölü rakunlar birkaç gecede bir harabelerden yükseliyor, her seferinde sayıları artıyor; zehirli gelgit geldiğinde ise büyük bir sürü hâlinde geliyorlar. Komşularınızla ittifak kurun ya da onlarla savaşın, şafağa kadar dayanın ve bunu sona erdirmek için tüm harabeleri mühürleyin."
 
+["TimberEmpires.GameMode.PvE.Description.Alone"]
+new = "Your colony against the bandits. Clear every camp to win."
+status = "normal"
+
+["TimberEmpires.GameMode.PvP.Description.Alone"]
+new = "Your empire against the bandits and any AI opponents you add. Ally with them or besiege them."
+status = "normal"
+
+["TimberEmpires.GameMode.Horde.Description.Alone"]
+new = "The undead raccoons rise from the ruins every few nights, more each time, and in a great swarm when the badtide comes. Hold out till dawn, with AI opponents beside you if you add them, and seal every ruin to end it."
+status = "normal"
+
 ["TimberEmpires.Alliances.Horde"]
 raw = "Against the horde there are no rivals. Every colony stands with the others."
 status = "normal"
@@ -10642,6 +10633,40 @@ koKR = "작업 중인 건축가: {0}%"
 csCZ = "Stavitelé při práci: {0}%"
 viVN = "Thợ xây đang làm việc: {0}%"
 trTR = "Çalışan inşaatçılar: {0}%"
+
+["TimberEmpires.Settings.SoloEmpire"]
+raw = "Play as an empire"
+status = "abandoned"
+enUS = "Play as an empire"
+zhCN = "以帝国身份游玩"
+zhTW = "以帝國身分遊玩"
+ruRU = "Играть за империю"
+jaJP = "帝国としてプレイする"
+frFR = "Jouer en tant qu’empire"
+deDE = "Als Imperium spielen"
+plPL = "Graj jako imperium"
+ptBR = "Jogue como um império"
+koKR = "제국으로 플레이하기"
+csCZ = "Hrajte za impérium"
+viVN = "Chơi với tư cách một đế chế"
+trTR = "Bir imparatorluk olarak oyna"
+
+["TimberEmpires.Settings.SoloEmpire.Tooltip"]
+raw = "Your districts are yours, and fog of war and land claims work as they do against other players."
+status = "abandoned"
+enUS = "Your districts are yours, and fog of war and land claims work as they do against other players."
+zhCN = "你的区划属于你自己，战争迷雾和土地所有权机制也与对抗其他玩家时相同。"
+zhTW = "你的區域由你掌控，戰爭迷霧和領土宣稱的運作方式也和面對其他玩家時相同。"
+ruRU = "Ваши районы принадлежат вам, а туман войны и захват территорий работают так же, как против других игроков."
+jaJP = "自分の地区は自分のものです。戦場の霧と土地の所有権も、他のプレイヤーと対戦するときと同じように機能します。"
+frFR = "Vos districts vous appartiennent, et le brouillard de guerre ainsi que les revendications de territoire fonctionnent comme contre les autres joueurs."
+deDE = "Deine Bezirke gehören dir, und der Kriegsnebel sowie die Gebietsansprüche funktionieren wie gegenüber anderen Spielern."
+plPL = "Twoje dzielnice należą do ciebie, a mgła wojny i roszczenia do ziemi działają tak samo jak w przypadku innych graczy."
+ptBR = "Seus distritos são seus, e a névoa de guerra e as reivindicações de território funcionam como funcionariam contra outros jogadores."
+koKR = "구역은 플레이어의 소유이며, 전장의 안개와 영토 소유권도 다른 플레이어를 상대할 때와 동일하게 적용됩니다."
+csCZ = "Vaše čtvrti jsou vaše a mlha války i nárokování území fungují stejně jako proti ostatním hráčům."
+viVN = "Các khu của bạn thuộc về bạn, và sương mù chiến tranh cùng quyền tuyên bố lãnh thổ hoạt động giống như khi đối đầu với người chơi khác."
+trTR = "Bölgeleriniz size aittir; savaş sisi ve arazi hakları da diğer oyunculara karşı işlediği şekilde işler."
 
 ["TimberEmpires.Troops.NoHaulers"]
 raw = "Recruits are waiting for weapons in storage, but no hauler is free to bring them."

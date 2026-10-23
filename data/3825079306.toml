@@ -1,0 +1,34 @@
+[_meta]
+name = "Game Modes"
+
+["GameModes.GameMode"]
+new = "Game mode"
+status = "normal"
+
+["GameModes.Classic"]
+new = "Classic"
+status = "normal"
+
+["GameModes.Classic.Description"]
+new = "Timberborn as it comes."
+status = "normal"
+
+["GameModes.Settings.None"]
+new = "None"
+status = "normal"
+
+["GameModes.Settings.On"]
+new = "On"
+status = "normal"
+
+["GameModes.Settings.Off"]
+new = "Off"
+status = "normal"
+
+["GameModes.Settings.Defaults"]
+new = "Game settings: the defaults"
+status = "normal"
+
+["GameModes.Settings.Changed"]
+new = "Game settings: {0}"
+status = "normal"

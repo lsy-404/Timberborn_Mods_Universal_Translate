@@ -1,0 +1,10 @@
+[_meta]
+name = "Level Platforms"
+
+["LevelPlatforms.KeyBindingGroup"]
+new = "Level Platforms"
+status = "normal"
+
+["LevelPlatforms.KeyBinding.HoldLevel"]
+new = "Build at a constant height (hold)"
+status = "normal"

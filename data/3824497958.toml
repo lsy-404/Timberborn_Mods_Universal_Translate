@@ -2,8 +2,8 @@
 name = "Dam It Stinks"
 
 ["DamItStinks.Good.Dung.DisplayName"]
-status = "normal"
 raw = "Dung"
+status = "normal"
 enUS = "Dung"
 zhCN = "粪便"
 zhTW = "糞便"
@@ -19,8 +19,8 @@ viVN = "Phân bón"
 trTR = "Gübre"
 
 ["DamItStinks.Good.Dung.PluralDisplayName"]
-status = "normal"
 raw = "Dung"
+status = "normal"
 enUS = "Dung"
 zhCN = "粪便"
 zhTW = "糞便"
@@ -36,8 +36,8 @@ viVN = "Phân chuồng"
 trTR = "Gübre"
 
 ["DamItStinks.Good.Fertilizer.DisplayName"]
-status = "normal"
 raw = "Fertilizer"
+status = "normal"
 enUS = "Fertilizer"
 zhCN = "肥料"
 zhTW = "肥料"
@@ -53,8 +53,8 @@ viVN = "Phân bón"
 trTR = "Gübre"
 
 ["DamItStinks.Good.Fertilizer.PluralDisplayName"]
-status = "normal"
 raw = "Fertilizer"
+status = "normal"
 enUS = "Fertilizer"
 zhCN = "肥料"
 zhTW = "肥料"
@@ -70,8 +70,8 @@ viVN = "Phân bón"
 trTR = "Gübre"
 
 ["DamItStinks.TopBar.Waste"]
-status = "normal"
 raw = "Dung, fertilizer and biogas"
+status = "normal"
 enUS = "Dung, fertilizer, and biogas"
 zhCN = "粪便、肥料和沼气"
 zhTW = "糞便、肥料與沼氣"
@@ -87,8 +87,8 @@ viVN = "Phân, phân bón và khí sinh học"
 trTR = "Gübre, gübre ve biyogaz"
 
 ["Need.Relief.DisplayName"]
-status = "normal"
 raw = "Relief"
+status = "normal"
 enUS = "Relief"
 zhCN = "缓解需求"
 zhTW = "紓解需求"
@@ -104,8 +104,8 @@ viVN = "Giảm nhẹ"
 trTR = "Rahatlama"
 
 ["Need.DamItStinksStink.DisplayName"]
-status = "normal"
 raw = "Stinky"
+status = "normal"
 enUS = "Stinky"
 zhCN = "臭烘烘的"
 zhTW = "臭鼬味的"
@@ -121,8 +121,8 @@ viVN = "Bốc mùi"
 trTR = "Kokarca"
 
 ["Need.DamItStinksEmbarrassment.DisplayName"]
-status = "normal"
 raw = "Embarrassed"
+status = "normal"
 enUS = "Embarrassed"
 zhCN = "尴尬"
 zhTW = "尷尬"
@@ -138,8 +138,8 @@ viVN = "Ngượng ngùng"
 trTR = "Utanmış"
 
 ["Status.Need.Relief"]
-status = "normal"
 raw = "Holding it in! Needs a home or a latrine right now."
+status = "normal"
 enUS = "Holding it in! Needs a home or a latrine right now."
 zhCN = "憋不住了！现在就需要一个家或厕所。"
 zhTW = "憋不住了！現在就需要一個家或是廁所。"
@@ -155,8 +155,8 @@ viVN = "Đang nhịn đây! Cần tìm nhà vệ sinh hoặc nhà xí ngay bây 
 trTR = "Kendini zor tutuyor! Hemen bir eve ya da tuvalete ihtiyacı var."
 
 ["Status.Need.DamItStinksStink"]
-status = "normal"
 raw = "Stinky: -3 mood, moves and works up to 10% slower. Fades 0.1 h after leaving the smell."
+status = "normal"
 enUS = "Stinky: -3 mood, moves and works up to 10% slower. Fades 0.1 h after leaving the smell."
 zhCN = "臭烘烘：心情 -3，移动和工作速度最多降低 10%。离开臭味后 0.1 小时消退。"
 zhTW = "臭氣熏天：心情 -3，移動和工作速度最多降低 10%。離開臭味後，1 小時內消退。"
@@ -172,8 +172,8 @@ viVN = "Hôi hám: -3 tâm trạng, di chuyển và làm việc chậm hơn tớ
 trTR = "Pis kokuyor: -3 moral, hareketleri ve çalışmaları %10'a kadar yavaşlar. Kokudan uzaklaştıktan 0.1 h sonra geçer."
 
 ["DamItStinks.Pile.WalkEffect"]
-status = "normal"
 raw = "A beaver walking through this dung has a {0}% chance of getting contaminated."
+status = "normal"
 enUS = "A beaver walking through this dung has a {0}% chance of getting contaminated."
 zhCN = "海狸从这堆粪便中走过时，有 {0}% 的概率受到污染。"
 zhTW = "海狸走過這堆糞便時，有 {0}% 的機率會受到污染。"
@@ -189,8 +189,8 @@ viVN = "Hải ly đi qua đống phân này có {0}% khả năng bị nhiễm b�
 trTR = "Bu gübrenin içinden geçen bir kunduzun kirlenme olasılığı % {0}."
 
 ["DamItStinks.Crop.Fertilized"]
-status = "normal"
 raw = "Fertilized: +{0}% yield at harvest."
+status = "normal"
 enUS = "Fertilized: +{0}% yield at harvest."
 zhCN = "已施肥：收获时产量增加 {0}%。"
 zhTW = "施肥後：收成時產量增加 +{0}%。"
@@ -206,8 +206,8 @@ viVN = "Đã bón phân: năng suất khi thu hoạch tăng +{0}%."
 trTR = "Gübrelenmiş: Hasatta +{0}% verim."
 
 ["DamItStinks.StinkOverlay.Show"]
-status = "normal"
 raw = "Show stinky areas"
+status = "normal"
 enUS = "Show stinky areas"
 zhCN = "显示臭气区域"
 zhTW = "顯示臭味區域"
@@ -223,8 +223,8 @@ viVN = "Hiển thị khu vực bốc mùi"
 trTR = "Kokulu bölgeleri göster"
 
 ["DamItStinks.StinkOverlay.Hide"]
-status = "normal"
 raw = "Hide stinky areas"
+status = "normal"
 enUS = "Hide stinky areas"
 zhCN = "隐藏臭味区域"
 zhTW = "隱藏臭味區域"
@@ -240,8 +240,8 @@ viVN = "Ẩn các khu vực bốc mùi"
 trTR = "Kokulu alanları gizle"
 
 ["Status.Need.DamItStinksEmbarrassment"]
-status = "normal"
 raw = "Embarrassed: -10 mood, hides at home after an accident (homeless beavers wander around the district center), fades within 8 h."
+status = "normal"
 enUS = "Embarrassed: -10 mood, hides at home after an accident (homeless beavers wander around the district center), fades within 8 h."
 zhCN = "尴尬：-10 心情，发生意外后躲在家里（无家可归的海狸会在区中心四处游荡），8 h 后消退。"
 zhTW = "尷尬：心情 -10，發生意外後躲在家裡（無家可歸的海狸會在區域中心四處徘徊），8 h 內消退。"
@@ -257,8 +257,8 @@ viVN = "Xấu hổ: -10 tâm trạng, trốn ở nhà sau một tai nạn (hải
 trTR = "Utanmış: -10 moral, bir kazadan sonra evde saklanır (evsiz kunduzlar bölge merkezinde dolaşır), 8 saat içinde kaybolur."
 
 ["Building.DamItStinksComposter.DisplayName"]
-status = "normal"
 raw = "Composter"
+status = "normal"
 enUS = "Composter"
 zhCN = "堆肥箱"
 zhTW = "堆肥機"
@@ -274,8 +274,8 @@ viVN = "Thùng ủ phân"
 trTR = "Kompost Makinesi"
 
 ["Building.DamItStinksComposter.Description"]
-status = "normal"
 raw = "Turns 2 Dung into 1 Fertilizer. When it runs out of Dung, the worker picks up dung piles within 10 tiles, and waits on site when there is nothing to do. Haulers bring Fertilizer to farms (each farm stores 25); a new crop takes 1 Fertilizer from a farm or, if no farm has any, from a tank or composter (within 25 tiles): about +33% yield at harvest. Stinks while it holds anything."
+status = "normal"
 enUS = "Turns 2 Dung into 1 Fertilizer. When it runs out of Dung, the worker picks up dung piles within 10 tiles and waits on site when there is nothing to do. Haulers bring Fertilizer to farms (each farm stores 25); a new crop takes 1 Fertilizer from a farm or, if no farm has any, from a tank or composter (within 25 tiles): about +33% yield at harvest. Stinks while it holds anything."
 zhCN = "将 2 份粪便转化为 1 份肥料。粪便用完后，工人会拾取 10 格内的粪堆；无事可做时会原地等待。搬运工会将肥料送到农场（每个农场可储存 25 份）；种植新作物时，会从农场取用 1 份肥料，若所有农场都没有肥料，则从 25 格内的水箱或堆肥箱取用：收获时产量约提高 33%。只要存有任何物品，就会散发臭味。"
 zhTW = "將 2 份糞便轉化為 1 份肥料。糞便用完時，工作人員會撿起 10 格範圍內的糞便堆；無事可做時，會在原地等候。搬運工會將肥料送到農場（每座農場可存放 25 份）；新作物會從農場取用 1 份肥料，若沒有任何農場存有肥料，則會從 25 格範圍內的水槽或堆肥機取用：收成時產量約增加 +33%。只要裡面還有東西，就會發臭。"
@@ -291,8 +291,8 @@ viVN = "Chuyển 2 Phân thành 1 Phân bón. Khi hết Phân, công nhân nhặ
 trTR = "2 Gübreden 1 Gübre üretir. Gübresi bittiğinde çalışan, 10 kare içindeki gübre yığınlarını toplar; yapacak işi olmadığında bulunduğu yerde bekler. Taşıyıcılar Gübreyi tarlalara götürür (her tarla 25 tane depolar); yeni bir ürün ekildiğinde, tarladan 1 Gübre alır veya hiçbir tarlada yoksa 25 kare içindeki bir tanktan ya da kompost makinesinden alır: hasattaki verimi yaklaşık %33 artırır. İçinde herhangi bir şey varken kötü koku yayar."
 
 ["Building.DamItStinksComposter.FlavorDescription"]
-status = "normal"
 raw = "Nothing goes to waste. Some things go to compost."
+status = "normal"
 enUS = "Nothing goes to waste. Some things go to compost."
 zhCN = "没有什么会被浪费。有些东西会变成堆肥。"
 zhTW = "沒有東西會被浪費。有些東西會變成堆肥。"
@@ -308,8 +308,8 @@ viVN = "Không gì bị lãng phí. Một số thứ được đem ủ phân."
 trTR = "Hiçbir şey ziyan olmaz. Bazı şeyler komposta dönüşür."
 
 ["Building.DamItStinksLatrine.DisplayName"]
-status = "normal"
 raw = "Latrine"
+status = "normal"
 enUS = "Latrine"
 zhCN = "厕所"
 zhTW = "公共廁所"
@@ -325,8 +325,8 @@ viVN = "Nhà vệ sinh hố xí"
 trTR = "Tuvalet"
 
 ["Building.DamItStinksLatrine.Description"]
-status = "normal"
 raw = "Beavers relieve themselves here. Homes have no cesspit: without a latrine the dung lands in front of the door. Holds 20 Dung, haulers empty it. Stinks a little."
+status = "normal"
 enUS = "Beavers relieve themselves here. Homes have no cesspit: without a latrine, dung lands in front of the door. Holds 20 Dung; haulers empty it. Stinks a little."
 zhCN = "海狸在这里解决内急。住宅没有粪坑：没有厕所的话，粪便就会落在门前。可容纳20单位粪便，由搬运工清空。有点臭。"
 zhTW = "海狸在此如廁。住所沒有糞坑：若沒有廁所，糞便就會掉在門前。可存放 20 糞便，由搬運工清空。有點臭。"
@@ -342,8 +342,8 @@ viVN = "Hải ly đi vệ sinh ở đây. Nhà ở không có hố phân: nếu 
 trTR = "Kunduzlar burada ihtiyaçlarını giderir. Evlerde helâ yoktur: helâ olmadan dışkı kapının önüne düşer. 20 Dışkı depolar, taşıyıcılar boşaltır. Biraz kötü kokar."
 
 ["Building.DamItStinksLatrine.FlavorDescription"]
-status = "normal"
 raw = "Please knock."
+status = "normal"
 enUS = "Please knock."
 zhCN = "请敲门。"
 zhTW = "請敲門。"
@@ -359,8 +359,8 @@ viVN = "Làm ơn gõ cửa."
 trTR = "Lütfen kapıyı çalın."
 
 ["DamItStinks.Notification.AlmostFull"]
-status = "normal"
 raw = "{0}: the latrine is almost full."
+status = "normal"
 enUS = "{0}: the latrine is almost full."
 zhCN = "{0}：厕所快满了。"
 zhTW = "{0}：廁所幾乎滿了。"
@@ -376,8 +376,8 @@ viVN = "{0}: nhà vệ sinh gần đầy rồi."
 trTR = "{0}: hela neredeyse dolu."
 
 ["DamItStinks.Notification.Overflow"]
-status = "normal"
 raw = "{0}: the latrine overflowed, {1} Dung spilled around."
+status = "normal"
 enUS = "{0}: the latrine overflowed, {1} Dung spilled around."
 zhCN = "{0}：厕所溢出了，{1} 份粪便洒得到处都是。"
 zhTW = "{0}：旱廁溢出了，{1} 單位糞便濺得到處都是。"
@@ -393,8 +393,8 @@ viVN = "{0}: nhà vệ sinh bị tràn, phân của {1} vương vãi xung quanh.
 trTR = "{0}: hela taştı, {1} Gübre etrafa döküldü."
 
 ["DamItStinks.Notification.Accident"]
-status = "normal"
 raw = "{0} did not make it in time."
+status = "normal"
 enUS = "{0} didn't make it in time."
 zhCN = "{0}没能及时赶到。"
 zhTW = "{0}沒能及時趕到。"
@@ -410,8 +410,8 @@ viVN = "{0} đã không kịp đến nơi."
 trTR = "{0} zamanında yetişemedi."
 
 ["DamItStinks.Pile.Stinking"]
-status = "normal"
 raw = "This pile stinks within {0} tiles."
+status = "normal"
 enUS = "This pile stinks within {0} tiles."
 zhCN = "这堆东西会熏臭周围 {0} 格。"
 zhTW = "這堆東西會在 {0} 格範圍內發臭。"
@@ -427,8 +427,8 @@ viVN = "Đống này bốc mùi trong phạm vi {0} ô."
 trTR = "Bu yığın, {0} kare içindekilere kötü kokar."
 
 ["DamItStinks.Pile.NotStinkingYet"]
-status = "normal"
 raw = "Does not stink yet. Starts to stink at {0} dung."
+status = "normal"
 enUS = "Doesn't stink yet. Starts to stink at {0} dung."
 zhCN = "还没有发臭。粪便达到 {0} 时就会开始发臭。"
 zhTW = "目前還不會發臭。糞堆達到 {0} 時便會開始發臭。"
@@ -444,8 +444,8 @@ viVN = "Chưa bốc mùi. Bắt đầu bốc mùi ở mức {0} phân."
 trTR = "Henüz kokmuyor. {0} gübreye ulaşınca kokmaya başlar."
 
 ["DamItStinks.Latrine.Tank"]
-status = "normal"
 raw = "Cesspit: {0} / {1} Dung (emptied by haulers)."
+status = "normal"
 enUS = "Cesspit: {0} / {1} Dung (emptied by haulers)."
 zhCN = "粪坑：{0} / {1} 粪便（由搬运工清空）。"
 zhTW = "糞坑：{0} / {1} 糞便（由搬運工清空）。"
@@ -461,8 +461,8 @@ viVN = "Bể phân: {0} / {1} Phân (người vận chuyển sẽ dọn)."
 trTR = "Lağım çukuru: {0} / {1} Gübre (taşıyıcılar boşaltır)."
 
 ["DamItStinks.Good.BioGas.DisplayName"]
-status = "normal"
 raw = "Biogas"
+status = "normal"
 enUS = "Biogas"
 zhCN = "沼气"
 zhTW = "沼氣"
@@ -478,8 +478,8 @@ viVN = "Khí sinh học"
 trTR = "Biyogaz"
 
 ["DamItStinks.Good.BioGas.PluralDisplayName"]
-status = "normal"
 raw = "Biogas"
+status = "normal"
 enUS = "Biogas"
 zhCN = "沼气"
 zhTW = "沼氣"
@@ -495,8 +495,8 @@ viVN = "Khí sinh học"
 trTR = "Biyogaz"
 
 ["DamItStinks.Recipe.BreadBioGas"]
-status = "normal"
 raw = "Bread (biogas)"
+status = "normal"
 enUS = "Bread (biogas)"
 zhCN = "面包（沼气）"
 zhTW = "麵包（沼氣）"
@@ -512,8 +512,8 @@ viVN = "Bánh mì (khí sinh học)"
 trTR = "Ekmek (biyogaz)"
 
 ["DamItStinks.Recipe.CattailCrackerBioGas"]
-status = "normal"
 raw = "Cattail crackers (biogas)"
+status = "normal"
 enUS = "Cattail crackers (biogas)"
 zhCN = "香蒲脆饼（沼气）"
 zhTW = "香蒲脆餅（沼氣）"
@@ -529,8 +529,8 @@ viVN = "Bánh quy bồ hương (khí sinh học)"
 trTR = "Sazlık krakerleri (biyogaz)"
 
 ["DamItStinks.Recipe.MaplePastryBioGas"]
-status = "normal"
 raw = "Maple pastries (biogas)"
+status = "normal"
 enUS = "Maple pastries (biogas)"
 zhCN = "枫糖糕点（沼气）"
 zhTW = "楓糖點心（沼氣）"
@@ -546,8 +546,8 @@ viVN = "Bánh ngọt si-rô phong (khí sinh học)"
 trTR = "Akçaağaçlı hamur işleri (biyogaz)"
 
 ["Need.DamItStinksBlueFlame.DisplayName"]
-status = "normal"
 raw = "Blue flame"
+status = "normal"
 enUS = "Blue flame"
 zhCN = "蓝色火焰"
 zhTW = "藍色火焰"
@@ -563,8 +563,8 @@ viVN = "Ngọn lửa xanh lam"
 trTR = "Mavi alev"
 
 ["DamItStinks.BioGas.Store"]
-status = "normal"
 raw = "Biogas: {0} / {1} (burns {2} per hour)."
+status = "normal"
 enUS = "Biogas: {0} / {1} (burns {2} per hour)."
 zhCN = "沼气：{0} / {1}（每小时燃烧 {2}）。"
 zhTW = "沼氣：{0} / {1}（每小時燃燒 {2}）。"
@@ -580,8 +580,8 @@ viVN = "Khí sinh học: {0} / {1} (đốt {2} mỗi giờ)."
 trTR = "Biyogaz: {0} / {1} (saatte {2} yakar)."
 
 ["DamItStinks.BioGas.Burning"]
-status = "normal"
 raw = "Burning Biogas for about {0} h more: the blue flame gives beavers in range extra Wellbeing."
+status = "normal"
 enUS = "Burning Biogas for about {0} more hours: the blue flame gives beavers in range extra Wellbeing."
 zhCN = "沼气还能再燃烧约 {0} 小时：蓝色火焰会提升范围内海狸的幸福感。"
 zhTW = "沼氣還能燃燒約 {0} 小時：藍色火焰會提升範圍內海狸的福祉。"
@@ -597,8 +597,8 @@ viVN = "Đốt khí sinh học thêm khoảng {0} giờ: ngọn lửa xanh giúp
 trTR = "Biyogaz yaklaşık {0} saat daha yanacak: mavi alev, kapsama alanındaki kunduzların Esenliğini artırır."
 
 ["DamItStinks.BioGas.NotBurning"]
-status = "normal"
 raw = "No Biogas. Haulers bring it from tanks along a path or a tube that touches the building."
+status = "normal"
 enUS = "No biogas. Haulers bring it from tanks via a path or tube that touches the building."
 zhCN = "没有沼气。搬运工会从储罐中运来沼气，沿着接触该建筑的道路或管道运输。"
 zhTW = "沒有沼氣。搬運工會沿著道路，或透過與建築物接觸的管道，從儲罐運送沼氣過來。"
@@ -614,8 +614,8 @@ viVN = "Không có khí sinh học. Người vận chuyển mang khí từ các 
 trTR = "Biyogaz yok. Taşıyıcılar, binaya temas eden bir yol veya boru boyunca tanklardan getirir."
 
 ["DamItStinks.BioGas.EngineStore"]
-status = "normal"
 raw = "Fuel: Biogas {0} / {1}, burns {2} per hour. Takes no Logs."
+status = "normal"
 enUS = "Fuel: Biogas {0} / {1}, burns {2} per hour. Takes no Logs."
 zhCN = "燃料：沼气 {0} / {1}，每小时消耗 {2}。不消耗原木。"
 zhTW = "燃料：沼氣 {0} / {1}，每小時消耗 {2}。不需要原木。"
@@ -631,8 +631,8 @@ viVN = "Nhiên liệu: Khí sinh học {0} / {1}, đốt {2} mỗi giờ. Không
 trTR = "Yakıt: Biyogaz {0} / {1}, saatte {2} yakar. Kütük kullanmaz."
 
 ["DamItStinks.BioGas.EngineLogMode"]
-status = "normal"
 raw = "Fuel: Logs. Takes no Biogas."
+status = "normal"
 enUS = "Fuel: Logs. Does not use Biogas."
 zhCN = "燃料：原木。不使用沼气。"
 zhTW = "燃料：原木。不使用沼氣。"
@@ -648,8 +648,8 @@ viVN = "Nhiên liệu: Gỗ. Không dùng khí sinh học."
 trTR = "Yakıt: Kütük. Biyogaz kullanmaz."
 
 ["DamItStinks.BioGas.EngineToggle"]
-status = "normal"
 raw = "Burn Biogas instead of Logs"
+status = "normal"
 enUS = "Burn Biogas Instead of Logs"
 zhCN = "燃烧沼气而非原木"
 zhTW = "燃燒沼氣取代原木"
@@ -665,8 +665,8 @@ viVN = "Đốt khí sinh học thay vì khúc gỗ"
 trTR = "Kütükler yerine Biyogaz Yak"
 
 ["DamItStinks.BioGas.AllowToggle"]
-status = "normal"
 raw = "Allow Biogas use"
+status = "normal"
 enUS = "Allow Biogas Use"
 zhCN = "允许使用沼气"
 zhTW = "允許使用沼氣"
@@ -682,8 +682,8 @@ viVN = "Cho phép sử dụng khí sinh học"
 trTR = "Biyogaz kullanımına izin ver"
 
 ["DamItStinks.Fertilizer.UseToggle"]
-status = "normal"
 raw = "Use Fertilizer"
+status = "normal"
 enUS = "Use Fertilizer"
 zhCN = "使用肥料"
 zhTW = "使用肥料"
@@ -699,8 +699,8 @@ viVN = "Sử dụng phân bón"
 trTR = "Gübre Kullan"
 
 ["DamItStinks.BioGas.StationStore"]
-status = "normal"
 raw = "Biogas: {0} / {1}. A trip started here takes 1 Biogas and goes at +{2}% speed."
+status = "normal"
 enUS = "Biogas: {0} / {1}. A trip started here uses 1 Biogas and goes at +{2}% speed."
 zhCN = "沼气：{0} / {1}。从这里出发的行程会消耗 1 单位沼气，并以 +{2}% 的速度行进。"
 zhTW = "生質瓦斯：{0} / {1}。從此處出發的行程會消耗 1 生質瓦斯，並以 +{2}% 的速度前進。"
@@ -716,8 +716,8 @@ viVN = "Biogas: {0} / {1}. Chuyến đi bắt đầu tại đây tiêu tốn 1 B
 trTR = "Biyogaz: {0} / {1}. Buradan başlatılan bir yolculuk 1 Biyogaz harcar ve +{2}% hızla ilerler."
 
 ["DamItStinks.Recipe.GrilledPotatoBioGas"]
-status = "normal"
 raw = "Grilled potatoes (biogas)"
+status = "normal"
 enUS = "Grilled Potatoes (Biogas)"
 zhCN = "烤土豆（沼气）"
 zhTW = "烤馬鈴薯（沼氣）"
@@ -733,8 +733,8 @@ viVN = "Khoai tây nướng (khí sinh học)"
 trTR = "Izgara patates (biyogaz)"
 
 ["DamItStinks.Recipe.GrilledChestnutBioGas"]
-status = "normal"
 raw = "Grilled chestnuts (biogas)"
+status = "normal"
 enUS = "Grilled Chestnuts (Biogas)"
 zhCN = "烤栗子（沼气）"
 zhTW = "烤栗子（生物氣體）"
@@ -750,8 +750,8 @@ viVN = "Hạt dẻ nướng (khí sinh học)"
 trTR = "Izgara kestane (biyogaz)"
 
 ["DamItStinks.Recipe.GrilledSpadderdockBioGas"]
-status = "normal"
 raw = "Grilled spadderdock (biogas)"
+status = "normal"
 enUS = "Grilled spadderdock (biogas)"
 zhCN = "烤黄菖蒲（沼气）"
 zhTW = "烤水蕨（沼氣）"
@@ -767,8 +767,8 @@ viVN = "Cỏ nến nướng (khí sinh học)"
 trTR = "Izgara spadderdock (biyogaz)"
 
 ["DamItStinks.Discharge.NoCleanWater"]
-status = "normal"
 raw = "No clean water at the outlet to contaminate - the dung waits in the building"
+status = "normal"
 enUS = "No clean water at the outlet to contaminate—the dung waits in the building"
 zhCN = "出口处没有清水可供污染——粪便只能留在建筑内"
 zhTW = "排出口沒有乾淨的水可供污染——糞便會留在建築物裡。"

@@ -1,0 +1,10 @@
+[_meta]
+name = "Eromrab's Water Opacity"
+
+["WaterOpacityControl.Title"]
+new = "Water opacity"
+status = "normal"
+
+["WaterOpacityControl.Tooltip"]
+new = "Opaque water visibility"
+status = "normal"
