@@ -1,0 +1,38 @@
+[_meta]
+name = "Choo! Choo! Passenger Carriages 客车追加版 (BETA)"
+
+["Aoernis.PassengerStation.DisplayName"]
+new = "Passenger Station"
+status = "normal"
+
+["Aoernis.PassengerStation.Description"]
+new = "Beavers step inside and wait here for a passenger train; up to 8 can wait at a time."
+status = "normal"
+
+["Aoernis.PassengerStation.FlavorDescription"]
+new = "All aboard!"
+status = "normal"
+
+["Aoernis.TrainYard.Passenger.DisplayName"]
+new = "Passenger Train Yard"
+status = "normal"
+
+["Aoernis.TrainYard.Passenger.Description"]
+new = "Builds passenger trains from the materials stored in the yard."
+status = "normal"
+
+["Aoernis.TrainYard.Passenger.FlavorDescription"]
+new = "Next stop everywhere."
+status = "normal"
+
+["Aoernis.Train.Passenger.DisplayName"]
+new = "Passenger Train"
+status = "normal"
+
+["Aoernis.Train.Passenger.Description"]
+new = "A train built for beavers instead of cargo."
+status = "normal"
+
+["Aoernis.Train.Passenger.FlavorDescription"]
+new = "Mind the gap."
+status = "normal"

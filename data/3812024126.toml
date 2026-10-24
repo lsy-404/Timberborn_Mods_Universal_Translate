@@ -87,8 +87,8 @@ viVN = "Thiên nhiên"
 trTR = "Doğa"
 
 ["ZOS.Section.UI"]
-status = "normal"
 raw = "Interface"
+status = "normal"
 enUS = "Interface"
 zhCN = "界面"
 zhTW = "介面"
@@ -274,8 +274,8 @@ viVN = "Toàn bộ thiên nhiên (%)"
 trTR = "Tüm doğa (%)"
 
 ["ZOS.All.UI"]
-status = "normal"
 raw = "All interface (%)"
+status = "normal"
 enUS = "All interfaces (%)"
 zhCN = "所有界面 (%)"
 zhTW = "所有介面 (%)"
@@ -614,8 +614,8 @@ viVN = "Hải ly đang ngủ"
 trTR = "Uyuyan kunduzlar"
 
 ["ZOS.Sound.BeaverVoices"]
-status = "normal"
 raw = "Beaver voices (when clicked)"
+status = "normal"
 enUS = "Beaver voices (when clicked)"
 zhCN = "海狸语音（点击时）"
 zhTW = "海狸（點擊時）的語音"
@@ -631,8 +631,8 @@ viVN = "Tiếng kêu của hải ly (khi được nhấp)"
 trTR = "Kunduz sesleri (tıklandığında)"
 
 ["ZOS.Sound.BotVoices"]
-status = "normal"
 raw = "Bot voices (when clicked)"
+status = "normal"
 enUS = "Bot voices (when clicked)"
 zhCN = "机器人语音（点击时）"
 zhTW = "機器人語音（點擊時）"
@@ -648,8 +648,8 @@ viVN = "Giọng của bot (khi được nhấp)"
 trTR = "Bot sesleri (tıklandığında)"
 
 ["ZOS.Sound.BuildingClicks"]
-status = "normal"
 raw = "Building clicks"
+status = "normal"
 enUS = "Building clicks"
 zhCN = "建筑点击声"
 zhTW = "建築點擊聲"
@@ -665,8 +665,8 @@ viVN = "Tiếng nhấp khi xây dựng"
 trTR = "Bina tıklama sesleri"
 
 ["ZOS.Sound.NatureClicks"]
-status = "normal"
 raw = "Tree, crop and ruin clicks"
+status = "normal"
 enUS = "Tree, Crop, and Ruin Clicks"
 zhCN = "树木、作物和废墟的点击声"
 zhTW = "樹木、作物與遺跡的點擊音效"
@@ -682,8 +682,8 @@ viVN = "Tiếng lách cách của cây cối, cây trồng và tàn tích"
 trTR = "Ağaç, ekin ve harabe tıklama sesleri"
 
 ["ZOS.Sound.Buttons"]
-status = "normal"
 raw = "Buttons"
+status = "normal"
 enUS = "Buttons"
 zhCN = "按钮"
 zhTW = "按鈕"
@@ -699,8 +699,8 @@ viVN = "Nút bấm"
 trTR = "Düğmeler"
 
 ["ZOS.Sound.Placing"]
-status = "normal"
 raw = "Placing, planting and demolishing"
+status = "normal"
 enUS = "Placing, planting, and demolishing"
 zhCN = "放置、种植和拆除"
 zhTW = "放置、種植與拆除"
@@ -716,8 +716,8 @@ viVN = "Đặt, trồng và phá dỡ"
 trTR = "Yerleştirme, ekme ve yıkma"
 
 ["ZOS.Sound.WeatherAlerts"]
-status = "normal"
 raw = "Weather alerts"
+status = "normal"
 enUS = "Weather alerts"
 zhCN = "天气预警"
 zhTW = "天氣警報"
@@ -733,8 +733,8 @@ viVN = "Cảnh báo thời tiết"
 trTR = "Hava durumu uyarıları"
 
 ["ZOS.Sound.OtherUI"]
-status = "normal"
 raw = "Other alerts (warnings, records, wonders)"
+status = "normal"
 enUS = "Other alerts (warnings, records, wonders)"
 zhCN = "其他提示（警告、记录、奇观）"
 zhTW = "其他提示（警告、紀錄、奇觀）"

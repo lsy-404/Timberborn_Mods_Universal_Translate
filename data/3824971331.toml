@@ -2,8 +2,8 @@
 name = "Eromrab's Water Opacity"
 
 ["WaterOpacityControl.Title"]
-status = "normal"
 raw = "Water opacity"
+status = "normal"
 enUS = "Water opacity"
 zhCN = "水体不透明度"
 zhTW = "水的透明度"
@@ -19,8 +19,8 @@ viVN = "Độ đục của nước"
 trTR = "Su opaklığı"
 
 ["WaterOpacityControl.Tooltip"]
-status = "normal"
 raw = "Opaque water visibility"
+status = "normal"
 enUS = "Opaque water visibility"
 zhCN = "不透明水体的可见度"
 zhTW = "不透明水體的可見度"

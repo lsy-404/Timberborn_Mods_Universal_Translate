@@ -1,0 +1,154 @@
+[_meta]
+name = "Eromrab's Tidetails"
+
+["Faction.Tidetails.DisplayName"]
+new = "Eromrab's Tidetails"
+status = "normal"
+
+["Faction.Tidetails.Description"]
+new = "The Tidetails have adapted to life underwater. Teal-furred, with tails unusually large even for beavers, they swim faster than other factions but waddle slower on land—those tails are built to push water, not to hurry on dry ground. They build homes and workshops with entrances in the water and treat flooded paths as swimming lanes. Badwater still finds them: while contaminated they move and work in a frantic rush, but it wears on their bodies and shortens their lives."
+status = "normal"
+
+["Tidetails.Preview.MustBeInWater"]
+new = "Tidetails buildings must have their entrance in water."
+status = "normal"
+
+["Tidetails.Preview.RequiresWater"]
+new = "This can only be built in water."
+status = "normal"
+
+["Tidetails.Status.DriedOut"]
+new = "Dried out. The water around the entrance is gone, so Tidetails won't use this building."
+status = "normal"
+
+["Tidetails.Status.DriedOut.Short"]
+new = "Dried out"
+status = "normal"
+
+["Good.FermentedCattail.DisplayName"]
+new = "Fermented cattail"
+status = "normal"
+
+["Good.FermentedCattail.PluralDisplayName"]
+new = "Fermented cattail"
+status = "normal"
+
+["Good.FermentedSpadderdock.DisplayName"]
+new = "Fermented spadderdock"
+status = "normal"
+
+["Good.FermentedSpadderdock.PluralDisplayName"]
+new = "Fermented spadderdock"
+status = "normal"
+
+["Building.DeepWaterPump.Tidetails.Description"]
+new = "Pumps drinkable water, badwater, or both. Choose the output like a Deep Mechanical Pump. Extracting only water still slows as contamination rises. Partially Solid: the main building blocks water, and its two flat tiles can be walked on or carry a path."
+status = "normal"
+
+["Building.DeepWaterPump.Tidetails.ToggleLabel"]
+new = "Fluid"
+status = "normal"
+
+["Building.Dam.Tidetails.DisplayName"]
+new = "High Dam"
+status = "normal"
+
+["Building.Dam.Tidetails.Description"]
+new = "A taller dam that holds water just below its top."
+status = "normal"
+
+["Building.Blockage.Tidetails.Description"]
+new = "A barrier of twigs and loose stones that blocks water. Must be built in water."
+status = "normal"
+
+["Building.NaturalDam.Tidetails.Description"]
+new = "A barrier of mud and branches that holds water just below its top. Must be built in water."
+status = "normal"
+
+["Building.MudBlock.Tidetails.DisplayName"]
+new = "Mud Block"
+status = "normal"
+
+["Building.MudBlock.Tidetails.Description"]
+new = "A packed lump of mud. Must be built in water, on a wetland, or on another Mud Block. Only Mud Slides and Mud Blocks can be built on top of it."
+status = "normal"
+
+["Building.MudBlock.Tidetails.FlavorDescription"]
+new = "Pile it up, slide it down."
+status = "normal"
+
+["Tidetails.Preview.OnlyMudSlideOnMudBlock"]
+new = "Only Mud Slides and Mud Blocks can be built on a Mud Block."
+status = "normal"
+
+["Building.MudSlide.Tidetails.DisplayName"]
+new = "Mud Slide"
+status = "normal"
+
+["Building.MudSlide.Tidetails.Description"]
+new = "A muddy ramp worn into the bank, leading up from the water. Must start in water, on a Mud Block, or on a wetland."
+status = "normal"
+
+["Building.MudSlide.Tidetails.FlavorDescription"]
+new = "Real beavers drag logs down these. Tidetails also use them to go up."
+status = "normal"
+
+["NaturalResource.LiveOak.Tidetails.DisplayName"]
+new = "Live Oak"
+status = "normal"
+
+["NaturalResource.LiveOak.Tidetails.Description"]
+new = "A spreading oak draped in Spanish moss. Grows on land or in shallow water."
+status = "normal"
+
+["NaturalResource.LiveOak.Tidetails.FlavorDescription"]
+new = "The moss is not moss at all, but Tidetails still like hanging under it."
+status = "normal"
+
+["NaturalResource.BaldCypress.Tidetails.DisplayName"]
+new = "Bald Cypress"
+status = "normal"
+
+["NaturalResource.BaldCypress.Tidetails.Description"]
+new = "A swamp cypress that thrives in deeper water. Knees rise around the trunk."
+status = "normal"
+
+["NaturalResource.BaldCypress.Tidetails.FlavorDescription"]
+new = "It looks most at home when the water is high and the knees stick out."
+status = "normal"
+
+["NaturalResource.WaterTupelo.Tidetails.DisplayName"]
+new = "Water Tupelo"
+status = "normal"
+
+["NaturalResource.WaterTupelo.Tidetails.Description"]
+new = "A swamp hardwood that grows in standing water one to three tiles deep."
+status = "normal"
+
+["NaturalResource.WaterTupelo.Tidetails.FlavorDescription"]
+new = "Its swollen base is built for floods."
+status = "normal"
+
+["Tidetails.Preview.LandOrShallowWater"]
+new = "Build on dry land."
+status = "normal"
+
+["Tidetails.Preview.TooFarFromWater"]
+new = "Build within 5 tiles of a water entrance."
+status = "normal"
+
+["Building.RomanceRetreat.Tidetails.DisplayName"]
+new = "Romance Retreat"
+status = "normal"
+
+["Building.RomanceRetreat.Tidetails.Description"]
+new = "A private lodge for two adult beavers. While berries and water are stocked, adults with Romance at 0 or below come by, and at rock bottom they leave work to go. When the second adult arrives the stock is used up, and Romance fills only while both are inside. When both are full they leave together with a kit."
+status = "normal"
+
+["Need.Romance.DisplayName"]
+new = "Romance"
+status = "normal"
+
+["Building.RomanceRetreat.Tidetails.FlavorDescription"]
+new = "What happens inside stays inside. The windows are boarded for a reason."
+status = "normal"

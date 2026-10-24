@@ -5000,8 +5000,8 @@ viVN = "Xong"
 trTR = "Tamam"
 
 ["BeaverBuddies.Client.HostSilent"]
-status = "normal"
 raw = "Nothing from the host for {0} s. The connection may have dropped."
+status = "normal"
 enUS = "No response from the host for {0} s. The connection may have dropped."
 zhCN = "已连续 {0} 秒未收到主机的任何消息。连接可能已断开。"
 zhTW = "已經 {0} 秒沒有收到主機的任何訊息。連線可能已中斷。"
@@ -5017,8 +5017,8 @@ viVN = "Không nhận được dữ liệu từ máy chủ trong {0} giây. Có 
 trTR = "{0} sn boyunca ana bilgisayardan hiçbir şey alınmadı. Bağlantı kesilmiş olabilir."
 
 ["BeaverBuddies.Client.HostSilent.Leave"]
-status = "normal"
 raw = "Leave game"
+status = "normal"
 enUS = "Leave Game"
 zhCN = "离开游戏"
 zhTW = "離開遊戲"
@@ -5034,8 +5034,8 @@ viVN = "Thoát trò chơi"
 trTR = "Oyundan ayrıl"
 
 ["BeaverBuddies.Client.HostSilent.Wait"]
-status = "normal"
 raw = "Keep waiting"
+status = "normal"
 enUS = "Keep waiting"
 zhCN = "继续等待"
 zhTW = "繼續等待"

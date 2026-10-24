@@ -2,8 +2,8 @@
 name = "Level Platforms"
 
 ["LevelPlatforms.KeyBindingGroup"]
-status = "normal"
 raw = "Level Platforms"
+status = "normal"
 enUS = "Level Platforms"
 zhCN = "平层平台"
 zhTW = "層級平台"
@@ -19,8 +19,8 @@ viVN = "Bệ đỡ cân bằng"
 trTR = "Düz Platformlar"
 
 ["LevelPlatforms.KeyBinding.HoldLevel"]
-status = "normal"
 raw = "Build at a constant height (hold)"
+status = "normal"
 enUS = "Build at a constant height (hold)"
 zhCN = "以固定高度建造（按住）"
 zhTW = "以固定高度建造（按住）"

@@ -2,8 +2,8 @@
 name = "Game Modes"
 
 ["GameModes.GameMode"]
-status = "normal"
 raw = "Game mode"
+status = "normal"
 enUS = "Game mode"
 zhCN = "游戏模式"
 zhTW = "遊戲模式"
@@ -19,8 +19,8 @@ viVN = "Chế độ chơi"
 trTR = "Oyun modu"
 
 ["GameModes.Classic"]
-status = "normal"
 raw = "Classic"
+status = "normal"
 enUS = "Classic"
 zhCN = "经典"
 zhTW = "經典"
@@ -36,8 +36,8 @@ viVN = "Cổ điển"
 trTR = "Klasik"
 
 ["GameModes.Classic.Description"]
-status = "normal"
 raw = "Timberborn as it comes."
+status = "normal"
 enUS = "Timberborn as it comes."
 zhCN = "原汁原味的《海狸浮生记》。"
 zhTW = "原汁原味的《海狸浮生記》。"
@@ -53,8 +53,8 @@ viVN = "Timberborn nguyên bản."
 trTR = "Olduğu hâliyle Timberborn."
 
 ["GameModes.Settings.None"]
-status = "normal"
 raw = "None"
+status = "normal"
 enUS = "None"
 zhCN = "无"
 zhTW = "無"
@@ -70,8 +70,8 @@ viVN = "Không có"
 trTR = "Yok"
 
 ["GameModes.Settings.On"]
-status = "normal"
 raw = "On"
+status = "normal"
 enUS = "On"
 zhCN = "开启"
 zhTW = "開啟"
@@ -87,8 +87,8 @@ viVN = "Bật"
 trTR = "Açık"
 
 ["GameModes.Settings.Off"]
-status = "normal"
 raw = "Off"
+status = "normal"
 enUS = "Off"
 zhCN = "关闭"
 zhTW = "關閉"
@@ -104,8 +104,8 @@ viVN = "Tắt"
 trTR = "Kapalı"
 
 ["GameModes.Settings.Defaults"]
-status = "normal"
 raw = "Game settings: the defaults"
+status = "normal"
 enUS = "Game settings: the defaults"
 zhCN = "游戏设置：默认值"
 zhTW = "遊戲設定：預設值"
@@ -121,8 +121,8 @@ viVN = "Cài đặt trò chơi: mặc định"
 trTR = "Oyun ayarları: varsayılanlar"
 
 ["GameModes.Settings.Changed"]
-status = "normal"
 raw = "Game settings: {0}"
+status = "normal"
 enUS = "Game settings: {0}"
 zhCN = "游戏设置：{0}"
 zhTW = "遊戲設定：{0}"

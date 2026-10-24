@@ -1,0 +1,18 @@
+[_meta]
+name = "Eromrab's Wetlands"
+
+["Building.Wetland.DisplayName"]
+new = "Wetland"
+status = "normal"
+
+["Building.Wetland.Description"]
+new = "A marshy patch of ground. Place on land or underwater. Paths sit on top; crops and trees that grow in one tile of water can grow here."
+status = "normal"
+
+["Building.Wetland.FlavorDescription"]
+new = "The grass grows long where the water never quite leaves."
+status = "normal"
+
+["Wetlands.Preview.AlreadyAWetland"]
+new = "Already a wetland."
+status = "normal"

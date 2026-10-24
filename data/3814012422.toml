@@ -750,8 +750,8 @@ viVN = "Tường"
 trTR = "Duvarlar"
 
 ["TimberEmpires.PvP.Army"]
-status = "normal"
 raw = "Army"
+status = "normal"
 enUS = "Army"
 zhCN = "军队"
 zhTW = "軍隊"
@@ -767,8 +767,8 @@ viVN = "Quân đội"
 trTR = "Ordu"
 
 ["TimberEmpires.PvP.Siege"]
-status = "normal"
 raw = "Siege"
+status = "normal"
 enUS = "Siege"
 zhCN = "围城"
 zhTW = "圍城攻防"
@@ -784,8 +784,8 @@ viVN = "Công thành"
 trTR = "Kuşatma"
 
 ["TimberEmpires.PvP.Mines"]
-status = "normal"
 raw = "Mines"
+status = "normal"
 enUS = "Mines"
 zhCN = "地雷"
 zhTW = "地雷"
@@ -9318,8 +9318,8 @@ viVN = "Cứ vài đêm, lũ gấu mèo xác sống lại trỗi dậy từ đ�
 trTR = "Ölü rakunlar birkaç gecede bir harabelerden yükseliyor, her seferinde sayıları artıyor; zehirli gelgit geldiğinde ise büyük bir sürü hâlinde geliyorlar. Komşularınızla ittifak kurun ya da onlarla savaşın, şafağa kadar dayanın ve bunu sona erdirmek için tüm harabeleri mühürleyin."
 
 ["TimberEmpires.GameMode.PvE.Description.Alone"]
-status = "normal"
 raw = "Your colony against the bandits. Clear every camp to win."
+status = "normal"
 enUS = "Your colony against the bandits. Clear every camp to win."
 zhCN = "你的殖民地对抗土匪。清除所有营地即可获胜。"
 zhTW = "你的殖民地對抗土匪。清除所有營地即可獲勝。"
@@ -9335,8 +9335,8 @@ viVN = "Thuộc địa của bạn chống lại bọn cướp. Hãy dọn sạc
 trTR = "Koloniniz haydutlara karşı. Kazanmak için tüm kampları temizleyin."
 
 ["TimberEmpires.GameMode.PvP.Description.Alone"]
-status = "normal"
 raw = "Your empire against the bandits and any AI opponents you add. Ally with them or besiege them."
+status = "normal"
 enUS = "Your empire against the bandits and any AI opponents you add. Ally with them or besiege them."
 zhCN = "你的帝国将对抗强盗和你添加的任何 AI 对手。与他们结盟或围攻他们。"
 zhTW = "你的帝國將對抗強盜，以及你加入的任何 AI 對手。與他們結盟或圍攻他們。"
@@ -9352,8 +9352,8 @@ viVN = "Đế chế của bạn đối đầu với bọn cướp và bất kỳ
 trTR = "İmparatorluğunuz haydutlara ve eklediğiniz tüm yapay zekâ rakiplerine karşı. Onlarla ittifak kurun ya da onları kuşatın."
 
 ["TimberEmpires.GameMode.Horde.Description.Alone"]
-status = "normal"
 raw = "The undead raccoons rise from the ruins every few nights, more each time, and in a great swarm when the badtide comes. Hold out till dawn, with AI opponents beside you if you add them, and seal every ruin to end it."
+status = "normal"
 enUS = "The undead raccoons rise from the ruins every few nights, more each time, and in a great swarm when the badtide comes. Hold out till dawn, with AI opponents beside you if you add them, and seal every ruin to end it."
 zhCN = "每隔几晚，不死浣熊就会从废墟中爬出，而且每次数量都会更多；恶潮来袭时，它们还会成群涌来。坚持到黎明吧；如果加入 AI 对手，他们也会与你并肩作战。封住所有废墟，就能终结这一切。"
 zhTW = "不死浣熊每隔幾個夜晚便會從廢墟中爬出來，每次數量都更多；壞潮來襲時，更會成群湧現。撐到黎明吧；若你加入 AI 對手，他們也會與你並肩作戰。封住所有廢墟，就能結束這一切。"
