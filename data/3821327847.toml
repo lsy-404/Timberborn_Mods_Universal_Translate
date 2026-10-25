@@ -2,8 +2,8 @@
 name = "Eromrab's Wetlands"
 
 ["Building.Wetland.DisplayName"]
-status = "normal"
 raw = "Wetland"
+status = "normal"
 enUS = "Wetland"
 zhCN = "湿地"
 zhTW = "濕地"
@@ -19,8 +19,8 @@ viVN = "Đầm lầy"
 trTR = "Sulak Alan"
 
 ["Building.Wetland.Description"]
-status = "normal"
 raw = "A marshy patch of ground. Place on land or underwater. Paths sit on top; crops and trees that grow in one tile of water can grow here."
+status = "normal"
 enUS = "A marshy patch of ground. Place it on land or underwater. Paths sit on top; crops and trees that grow in one tile of water can grow here."
 zhCN = "一片沼泽地。可建在陆地或水下。道路建在其顶部；能在一格深的水中生长的作物和树木也能在这里生长。"
 zhTW = "一片沼澤地。可放置於陸地或水下。道路會鋪在上方；能在一格深的水中生長的作物和樹木，也能在此生長。"
@@ -36,8 +36,8 @@ viVN = "Một khoảnh đất lầy lội. Có thể đặt trên đất liền 
 trTR = "Bataklık bir arazi parçası. Karaya veya su altına yerleştirilebilir. Yollar üstüne döşenir; 1 birim derinliğindeki suda yetişebilen ekinler ve ağaçlar burada da yetişebilir."
 
 ["Building.Wetland.FlavorDescription"]
-status = "normal"
 raw = "The grass grows long where the water never quite leaves."
+status = "normal"
 enUS = "The grass grows long where the water never quite leaves."
 zhCN = "水流经久不退之处，草木便会疯长。"
 zhTW = "水從不完全退去的地方，草就長得茂盛。"
@@ -53,8 +53,8 @@ viVN = "Cỏ mọc cao ở nơi nước chẳng bao giờ rút hẳn."
 trTR = "Suyun hiçbir zaman tam olarak çekilmediği yerlerde otlar uzun uzar."
 
 ["Wetlands.Preview.AlreadyAWetland"]
-status = "normal"
 raw = "Already a wetland."
+status = "normal"
 enUS = "Already a wetland."
 zhCN = "已经是湿地。"
 zhTW = "已經是濕地了。"

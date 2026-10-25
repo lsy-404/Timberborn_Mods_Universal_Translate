@@ -2,8 +2,8 @@
 name = "Eromrab's Tidetails"
 
 ["Faction.Tidetails.DisplayName"]
-status = "normal"
 raw = "Eromrab's Tidetails"
+status = "normal"
 enUS = "Eromrab's Tidetails"
 zhCN = "Eromrab的潮尾族"
 zhTW = "Eromrab 的潮尾族"
@@ -19,8 +19,8 @@ viVN = "Tidetails của Eromrab"
 trTR = "Eromrab'ın Gelgittayları"
 
 ["Faction.Tidetails.Description"]
-status = "normal"
 raw = "The Tidetails have adapted to life underwater. Teal-furred, with tails unusually large even for beavers, they swim faster than other factions but waddle slower on land—those tails are built to push water, not to hurry on dry ground. They build homes and workshops with entrances in the water and treat flooded paths as swimming lanes. Badwater still finds them: while contaminated they move and work in a frantic rush, but it wears on their bodies and shortens their lives."
+status = "normal"
 enUS = "The Tidetails have adapted to life underwater. With teal fur and tails unusually large even for beavers, they swim faster than other factions but waddle more slowly on land—their tails are built to push water, not to hurry across dry ground. They build homes and workshops with entrances in the water and treat flooded paths as swimming lanes. Badwater still finds them: while contaminated, they move and work in a frantic rush, but it wears down their bodies and shortens their lives."
 zhCN = "潮汐尾适应了水下生活。它们长着青绿色的皮毛，尾巴即使对海狸来说也异常粗大；游泳速度比其他阵营更快，但在陆地上蹒跚得更慢——这些尾巴是为了划水而生，不是为了在干燥的地面上赶路。它们建造的住宅和工坊入口都设在水中，还把被水淹没的道路当作游泳通道。恶水仍会找上它们：受到污染时，它们会疯狂地加快移动和工作速度，但这会损害身体，缩短寿命。"
 zhTW = "潮汐族已適應水下生活。他們有著青綠色的毛皮，尾巴甚至比一般海狸還大；游泳速度比其他派系快，但在陸地上走起路來更搖搖擺擺、更慢——那樣的尾巴是用來推水的，不是為了在乾地上趕路。他們建造房屋和工坊時會將入口設在水中，並把淹水的道路當成游泳道。污水仍會找上他們：受污染時，他們會瘋狂地加快移動和工作速度，但這會損害身體，縮短壽命。"
@@ -36,8 +36,8 @@ viVN = "Tidetails đã thích nghi với cuộc sống dưới nước. Bộ lô
 trTR = "Gelgit Kuyruklar su altında yaşama uyum sağlamıştır. Camgöbeği kürkleri ve kunduzlara göre bile alışılmadık derecede büyük kuyruklarıyla diğer topluluklardan daha hızlı yüzer, ancak karada daha ağır aksak yürürler; bu kuyruklar kuru zeminde hızlanmak için değil, suda ilerlemek için yapılmıştır. Girişleri suya açılan evler ve atölyeler inşa eder, su basmış yolları yüzme şeritleri gibi kullanırlar. Kötü su yine de onları etkiler: kirlenmişken telaşla hareket edip çalışırlar, ancak bu bedenlerini yıpratır ve ömürlerini kısaltır."
 
 ["Tidetails.Preview.MustBeInWater"]
-status = "normal"
 raw = "Tidetails buildings must have their entrance in water."
+status = "normal"
 enUS = "Tidetails buildings must have their entrance in the water."
 zhCN = "潮汐族建筑的入口必须位于水中。"
 zhTW = "潮汐尾巴建築的入口必須位於水中。"
@@ -53,8 +53,8 @@ viVN = "Các công trình Tidetails phải có lối vào nằm trong nước."
 trTR = "Tidetails binalarının girişi suda olmalıdır."
 
 ["Tidetails.Preview.RequiresWater"]
-status = "normal"
 raw = "This can only be built in water."
+status = "normal"
 enUS = "This can only be built in water."
 zhCN = "只能在水中建造。"
 zhTW = "此建築只能建造在水中。"
@@ -70,8 +70,8 @@ viVN = "Công trình này chỉ có thể được xây dựng dưới nước."
 trTR = "Bu yalnızca suya inşa edilebilir."
 
 ["Tidetails.Status.DriedOut"]
-status = "normal"
 raw = "Dried out. The water around the entrance is gone, so Tidetails won't use this building."
+status = "normal"
 enUS = "Dried out. The water around the entrance is gone, so Tidetails won't use this building."
 zhCN = "已干涸。入口周围的水已经消失，因此潮汐族不会使用这座建筑。"
 zhTW = "乾涸了。入口周圍的水已經消失，因此潮汐獸不會使用這棟建築。"
@@ -87,8 +87,8 @@ viVN = "Đã cạn khô. Nước quanh lối vào đã biến mất, nên Tideta
 trTR = "Kurudu. Girişin çevresindeki su yok, bu yüzden Gelgitkuyruklar bu binayı kullanmayacak."
 
 ["Tidetails.Status.DriedOut.Short"]
-status = "normal"
 raw = "Dried out"
+status = "normal"
 enUS = "Dried out"
 zhCN = "已干涸"
 zhTW = "已乾涸"
@@ -104,8 +104,8 @@ viVN = "Đã khô quắt"
 trTR = "Kurumuş"
 
 ["Good.FermentedCattail.DisplayName"]
-status = "normal"
 raw = "Fermented cattail"
+status = "normal"
 enUS = "Fermented Cattail"
 zhCN = "发酵香蒲"
 zhTW = "發酵香蒲蕊"
@@ -121,8 +121,8 @@ viVN = "Bồn bồn lên men"
 trTR = "Fermente Hasır Otu"
 
 ["Good.FermentedCattail.PluralDisplayName"]
-status = "normal"
 raw = "Fermented cattail"
+status = "normal"
 enUS = "Fermented cattail"
 zhCN = "发酵香蒲"
 zhTW = "發酵香蒲籽"
@@ -138,8 +138,8 @@ viVN = "Cói lên men"
 trTR = "Fermente edilmiş kedi kuyruğu otu"
 
 ["Good.FermentedSpadderdock.DisplayName"]
-status = "normal"
 raw = "Fermented spadderdock"
+status = "normal"
 enUS = "Fermented spadderdock"
 zhCN = "发酵水百合根"
 zhTW = "發酵黃菖蒲 \U0005ffff"
@@ -155,8 +155,8 @@ viVN = "Cỏ chân vịt lên men"
 trTR = "Fermente sazotu"
 
 ["Good.FermentedSpadderdock.PluralDisplayName"]
-status = "normal"
 raw = "Fermented spadderdock"
+status = "normal"
 enUS = "Fermented spadderdock"
 zhCN = "发酵的黄菖蒲茸"
 zhTW = "發酵黃菖蒲莓"
@@ -172,8 +172,8 @@ viVN = "Củ năn lên men"
 trTR = "Fermente spadderdock"
 
 ["Building.DeepWaterPump.Tidetails.Description"]
-status = "normal"
 raw = "Pumps drinkable water, badwater, or both. Choose the output like a Deep Mechanical Pump. Extracting only water still slows as contamination rises. Partially Solid: the main building blocks water, and its two flat tiles can be walked on or carry a path."
+status = "normal"
 enUS = "Pumps drinkable water, badwater, or both. Choose the output like a Deep Mechanical Pump. Extracting only water still slows as contamination rises. Partially Solid: the main building blocks water, and its two flat tiles can be walked on or carry a path."
 zhCN = "抽取饮用水、恶水或两者。像深层机械水泵一样选择输出类型。即使只抽取水，抽取速度也会随着污染加重而降低。部分固体：主体建筑会阻挡水流，其两块平坦的地砖可供行走或铺设道路。"
 zhTW = "抽取可飲用水、污水或兩者。像深層機械水泵一樣選擇輸出。即使只抽取水，抽取速度也會隨污染程度升高而減慢。部分實心：主建築會阻擋水流，兩塊平坦的地磚可供行走或鋪設道路。"
@@ -189,8 +189,8 @@ viVN = "Bơm nước uống được, nước ô nhiễm hoặc cả hai. Chọn
 trTR = "İçilebilir su, kötü su ya da her ikisini pompalar. Çıkışı Derin Mekanik Pompa'daki gibi seçin. Yalnızca su çıkarırken bile, kirlilik arttıkça pompalama yavaşlar. Kısmen Katı: ana bina suyu engeller; iki düz karosunun üzerinde yürünebilir veya bunlara yol döşenebilir."
 
 ["Building.DeepWaterPump.Tidetails.ToggleLabel"]
-status = "normal"
 raw = "Fluid"
+status = "normal"
 enUS = "Fluid"
 zhCN = "流体"
 zhTW = "流體"
@@ -206,8 +206,8 @@ viVN = "Chất lỏng"
 trTR = "Akışkan"
 
 ["Building.Dam.Tidetails.DisplayName"]
-status = "normal"
 raw = "High Dam"
+status = "normal"
 enUS = "High Dam"
 zhCN = "高坝"
 zhTW = "高水壩"
@@ -223,8 +223,8 @@ viVN = "Đập cao"
 trTR = "Yüksek Baraj"
 
 ["Building.Dam.Tidetails.Description"]
-status = "normal"
 raw = "A taller dam that holds water just below its top."
+status = "normal"
 enUS = "A taller dam that holds water just below its top."
 zhCN = "一种更高的堤坝，可将水位保持在坝顶下方。"
 zhTW = "較高的水壩，蓄水高度略低於頂部。"
@@ -240,8 +240,8 @@ viVN = "Một con đập cao hơn, giữ nước ngay bên dưới đỉnh."
 trTR = "Suyu üst kısmının hemen altında tutan daha yüksek bir baraj."
 
 ["Building.Blockage.Tidetails.Description"]
-status = "normal"
 raw = "A barrier of twigs and loose stones that blocks water. Must be built in water."
+status = "normal"
 enUS = "A barrier of twigs and loose stones that blocks water. Must be built in water."
 zhCN = "一道由树枝和散石构成的屏障，可以阻挡水流。必须建在水中。"
 zhTW = "由樹枝和散落石塊構成、能阻擋水流的屏障。必須建在水中。"
@@ -257,8 +257,8 @@ viVN = "Một rào chắn bằng cành cây và đá rời để chặn nước.
 trTR = "Suyu engelleyen, dallar ve gevşek taşlardan yapılmış bir bariyer. Suyun içinde inşa edilmelidir."
 
 ["Building.NaturalDam.Tidetails.Description"]
-status = "normal"
 raw = "A barrier of mud and branches that holds water just below its top. Must be built in water."
+status = "normal"
 enUS = "A barrier made of mud and branches that holds water just below its top. Must be built in water."
 zhCN = "一道由泥土和树枝构成的屏障，可将水位保持在略低于其顶部的位置。必须建在水中。"
 zhTW = "由泥土和樹枝構成的屏障，可將水位維持在略低於頂端的位置。必須建在水中。"
@@ -274,8 +274,8 @@ viVN = "Một đập chắn bằng bùn và cành cây, giữ nước ngay dư�
 trTR = "Suyu tepesinin hemen altına kadar tutan çamur ve dallardan oluşan bir bariyer. Suya inşa edilmelidir."
 
 ["Building.MudBlock.Tidetails.DisplayName"]
-status = "normal"
 raw = "Mud Block"
+status = "normal"
 enUS = "Mud Block"
 zhCN = "泥砖块"
 zhTW = "泥磚"
@@ -291,8 +291,8 @@ viVN = "Khối bùn"
 trTR = "Çamur Bloğu"
 
 ["Building.MudBlock.Tidetails.Description"]
-status = "normal"
 raw = "A packed lump of mud. Must be built in water, on a wetland, or on another Mud Block. Only Mud Slides and Mud Blocks can be built on top of it."
+status = "normal"
 enUS = "A packed lump of mud. Must be built in water, on a wetland, or on another Mud Block. Only Mud Slides and Mud Blocks can be built on top of it."
 zhCN = "一块压实的泥土。必须建在水中、湿地上或另一块泥块上。其上只能建造泥滑坡和泥块。"
 zhTW = "一團壓實的泥土。必須建在水中、濕地上，或另一個泥土方塊上。上方只能建造泥漿滑道和泥土方塊。"
@@ -308,8 +308,8 @@ viVN = "Một khối bùn nén chặt. Phải được xây trong nước, trên
 trTR = "Sıkıştırılmış bir çamur yığını. Suya, sulak alana veya başka bir Çamur Bloğunun üzerine inşa edilmelidir. Üzerine yalnızca Çamur Kaydırakları ve Çamur Blokları inşa edilebilir."
 
 ["Building.MudBlock.Tidetails.FlavorDescription"]
-status = "normal"
 raw = "Pile it up, slide it down."
+status = "normal"
 enUS = "Pile it up, slide it down."
 zhCN = "堆起来，再滑下去。"
 zhTW = "堆高高，滑下來。"
@@ -325,8 +325,8 @@ viVN = "Chất đống lên, trượt xuống."
 trTR = "Üst üste yığ, aşağı kaydır."
 
 ["Tidetails.Preview.OnlyMudSlideOnMudBlock"]
-status = "normal"
 raw = "Only Mud Slides and Mud Blocks can be built on a Mud Block."
+status = "normal"
 enUS = "Only Mud Slides and Mud Blocks can be built on a Mud Block."
 zhCN = "泥块上只能建造泥滑道和泥块。"
 zhTW = "泥塊上只能建造泥滑道和泥塊。"
@@ -342,8 +342,8 @@ viVN = "Chỉ có thể xây dựng Máng trượt bùn và Khối bùn trên m�
 trTR = "Bir Çamur Bloğunun üzerine yalnızca Çamur Kaydırakları ve Çamur Blokları inşa edilebilir."
 
 ["Building.MudSlide.Tidetails.DisplayName"]
-status = "normal"
 raw = "Mud Slide"
+status = "normal"
 enUS = "Mud Slide"
 zhCN = "泥石流"
 zhTW = "泥流滑道"
@@ -359,8 +359,8 @@ viVN = "Trượt bùn"
 trTR = "Çamur Kaydırağı"
 
 ["Building.MudSlide.Tidetails.Description"]
-status = "normal"
 raw = "A muddy ramp worn into the bank, leading up from the water. Must start in water, on a Mud Block, or on a wetland."
+status = "normal"
 enUS = "A muddy ramp worn into the bank, leading up from the water. Must start in water, on a Mud Block, or on a wetland."
 zhCN = "在河岸上冲刷形成的泥泞斜坡，可从水中向上攀行。必须从水中、泥土方块或湿地上开始。"
 zhTW = "在河岸上踩踏而成的泥濘坡道，從水中向上延伸。起點必須在水中、泥土方塊上，或濕地上。"
@@ -376,8 +376,8 @@ viVN = "Một con dốc lầy lội bị nước bào mòn trên bờ, dẫn lê
 trTR = "Kıyıya oyularak oluşmuş, sudan yukarı çıkan çamurlu bir rampa. Suda, Çamur Bloğu üzerinde veya sulak alanda başlamalı."
 
 ["Building.MudSlide.Tidetails.FlavorDescription"]
-status = "normal"
 raw = "Real beavers drag logs down these. Tidetails also use them to go up."
+status = "normal"
 enUS = "Real beavers drag logs down these. Tidetails also use them to go up."
 zhCN = "真正的海狸会沿着这些滑道拖运原木。潮尾族也会用它们往上走。"
 zhTW = "真正的海狸會沿著這些地方把原木拖下去。潮尾也會利用它們往上走。"
@@ -393,8 +393,8 @@ viVN = "Hải ly thật kéo khúc gỗ xuống những chỗ này. Tidetails c�
 trTR = "Gerçek kunduzlar kütükleri bu rampalardan aşağı sürükler. Tidetails'lar da yukarı çıkmak için bunları kullanır."
 
 ["NaturalResource.LiveOak.Tidetails.DisplayName"]
-status = "normal"
 raw = "Live Oak"
+status = "normal"
 enUS = "Live Oak"
 zhCN = "活橡树"
 zhTW = "活橡樹"
@@ -410,8 +410,8 @@ viVN = "Sồi thường xanh"
 trTR = "Canlı Meşe"
 
 ["NaturalResource.LiveOak.Tidetails.Description"]
-status = "normal"
 raw = "A spreading oak draped in Spanish moss. Grows on land or in shallow water."
+status = "normal"
 enUS = "A spreading oak draped in Spanish moss. Grows on land or in shallow water."
 zhCN = "一棵枝叶舒展、挂满西班牙苔藓的橡树。可生长在陆地或浅水中。"
 zhTW = "枝葉舒展、垂掛著西班牙苔的橡樹。可生長於陸地或淺水中。"
@@ -427,8 +427,8 @@ viVN = "Một cây sồi tán rộng phủ đầy rêu Tây Ban Nha. Mọc trên
 trTR = "İspanyol yosunlarıyla kaplı, geniş dallı bir meşe. Karada veya sığ suda yetişir."
 
 ["NaturalResource.LiveOak.Tidetails.FlavorDescription"]
-status = "normal"
 raw = "The moss is not moss at all, but Tidetails still like hanging under it."
+status = "normal"
 enUS = "The moss isn't actually moss, but Tidetails still like hanging underneath it."
 zhCN = "这种“苔藓”根本不是苔藓，但潮尾还是喜欢挂在它下面。"
 zhTW = "那根本不是苔蘚，但潮尾族還是喜歡掛在它底下。"
@@ -444,8 +444,8 @@ viVN = "Thứ trông như rêu thực ra chẳng phải rêu, nhưng Tidetails v
 trTR = "Yosun aslında hiç yosun değil, ama Gelgitkuyruklar yine de altında sallanmayı seviyor."
 
 ["NaturalResource.BaldCypress.Tidetails.DisplayName"]
-status = "normal"
 raw = "Bald Cypress"
+status = "normal"
 enUS = "Bald Cypress"
 zhCN = "秃柏木"
 zhTW = "落羽杉"
@@ -461,8 +461,8 @@ viVN = "Bách trụi lá"
 trTR = "Bataklık Selvisi"
 
 ["NaturalResource.BaldCypress.Tidetails.Description"]
-status = "normal"
 raw = "A swamp cypress that thrives in deeper water. Knees rise around the trunk."
+status = "normal"
 enUS = "A swamp cypress that thrives in deeper water. Knees rise around the trunk."
 zhCN = "一种适宜在较深水域生长的沼泽落羽杉。树干周围会长出膝根。"
 zhTW = "一種能在較深水域茁壯生長的沼澤柏。樹幹周圍會長出膝根。"
@@ -478,8 +478,8 @@ viVN = "Một loài bách đầm lầy phát triển tốt trong vùng nước s
 trTR = "Daha derin sularda gelişen bir bataklık servisi. Gövdesinin çevresinde kök çıkıntıları yükselir."
 
 ["NaturalResource.BaldCypress.Tidetails.FlavorDescription"]
-status = "normal"
 raw = "It looks most at home when the water is high and the knees stick out."
+status = "normal"
 enUS = "It looks most at home when the water is high and its knees stick out."
 zhCN = "水位高涨、膝根露出水面时，它看起来最自在。"
 zhTW = "水位高漲、膝根露出水面時，最能展現它的風采。"
@@ -495,8 +495,8 @@ viVN = "Trông có vẻ hợp nhất khi nước dâng cao và những chiếc �
 trTR = "Su seviyesi yüksekken ve dizleri dışarıda kaldığında en doğal hâlini alıyor."
 
 ["NaturalResource.WaterTupelo.Tidetails.DisplayName"]
-status = "normal"
 raw = "Water Tupelo"
+status = "normal"
 enUS = "Water Tupelo"
 zhCN = "水桐树"
 zhTW = "水梣木"
@@ -512,8 +512,8 @@ viVN = "Cây tupelo nước"
 trTR = "Su Tupelosu"
 
 ["NaturalResource.WaterTupelo.Tidetails.Description"]
-status = "normal"
 raw = "A swamp hardwood that grows in standing water one to three tiles deep."
+status = "normal"
 enUS = "A swamp hardwood that grows in standing water one to three tiles deep."
 zhCN = "一种生长在深度为1至3格的静水中的沼泽硬木。"
 zhTW = "一種生長在深度為一到三格的靜水中的沼澤硬木。"
@@ -529,8 +529,8 @@ viVN = "Một loại cây gỗ cứng vùng đầm lầy, mọc trong vùng nư�
 trTR = "Durgun suda bir ila üç karo derinlikte yetişen bir bataklık sert ağacı."
 
 ["NaturalResource.WaterTupelo.Tidetails.FlavorDescription"]
-status = "normal"
 raw = "Its swollen base is built for floods."
+status = "normal"
 enUS = "Its swollen base is built for floods."
 zhCN = "它鼓胀的树基是为洪水而生的。"
 zhTW = "它膨大的基部就是為了抵禦洪水而生的。"
@@ -546,8 +546,8 @@ viVN = "Phần gốc phình to của nó được tạo ra để chống lũ."
 trTR = "Şişkin tabanı sellere dayanacak şekilde oluşmuştur."
 
 ["Tidetails.Preview.LandOrShallowWater"]
-status = "normal"
 raw = "Build on dry land."
+status = "normal"
 enUS = "Build on dry land."
 zhCN = "在干燥的陆地上建造。"
 zhTW = "在乾燥的陸地上建造。"
@@ -563,8 +563,8 @@ viVN = "Xây dựng trên đất khô."
 trTR = "Kuru karada inşa edin."
 
 ["Tidetails.Preview.TooFarFromWater"]
-status = "normal"
 raw = "Build within 5 tiles of a water entrance."
+status = "normal"
 enUS = "Build within 5 tiles of a water entrance."
 zhCN = "建造位置必须在距水流入口5格以内。"
 zhTW = "請在距離水源入口 5 格內建造。"
@@ -580,8 +580,8 @@ viVN = "Xây dựng trong phạm vi 5 ô tính từ lối vào nước."
 trTR = "Bir su girişinin 5 kare yakınına inşa edin."
 
 ["Building.RomanceRetreat.Tidetails.DisplayName"]
-status = "normal"
 raw = "Romance Retreat"
+status = "normal"
 enUS = "Romance Retreat"
 zhCN = "浪漫静居"
 zhTW = "浪漫靜修所"
@@ -597,8 +597,8 @@ viVN = "Nơi nghỉ lãng mạn"
 trTR = "Romantizm Sığınağı"
 
 ["Building.RomanceRetreat.Tidetails.Description"]
-status = "normal"
 raw = "A private lodge for two adult beavers. While berries and water are stocked, adults with Romance at 0 or below come by, and at rock bottom they leave work to go. When the second adult arrives the stock is used up, and Romance fills only while both are inside. When both are full they leave together with a kit."
+status = "normal"
 enUS = "A private lodge for two adult beavers. When berries and water are stocked, adults with Romance at 0 or below come by, and at rock bottom they leave work to go there. When the second adult arrives, the supplies are used up, and Romance increases only while both are inside. When both are full, they leave together with a kit."
 zhCN = "供两只成年海狸使用的私人小屋。储备有浆果和水时，浪漫值为 0 或更低的成年海狸会前来；浪漫值降至最低时，它们会放下工作前往小屋。第二只成年海狸到达时，储备会耗尽；只有两只海狸都在屋内时，浪漫值才会增长。两只海狸的浪漫值都满后，它们会一起离开，并带着一只幼崽。"
 zhTW = "供兩隻成年海狸使用的私人小屋。備妥莓果和水後，浪漫值為 0 或更低的成年海狸會前來；浪漫值降至最低時，牠們會放下工作前往小屋。第二隻成年海狸抵達時，存貨就會用完；只有兩隻海狸都在屋內時，浪漫值才會提升。兩隻海狸的浪漫值都滿了後，牠們會一起離開，並帶著一隻幼崽。"
@@ -614,8 +614,8 @@ viVN = "Một nhà nghỉ riêng dành cho hai hải ly trưởng thành. Khi c�
 trTR = "İki yetişkin kunduz için özel bir konak. İçeride böğürtlen ve su bulunduğu sürece, Romantizmi 0 veya daha düşük olan yetişkinler buraya gelir; Romantizmleri dibe vurduğunda işlerini bırakıp buraya giderler. İkinci yetişkin geldiğinde stok tüketilir ve Romantizm yalnızca ikisi de içerideyken artar. İkisinin de Romantizmi dolduğunda, bir yavruyla birlikte çıkarlar."
 
 ["Need.Romance.DisplayName"]
-status = "normal"
 raw = "Romance"
+status = "normal"
 enUS = "Romance"
 zhCN = "浪漫"
 zhTW = "戀愛"
@@ -631,8 +631,8 @@ viVN = "Lãng mạn"
 trTR = "Romantizm"
 
 ["Building.RomanceRetreat.Tidetails.FlavorDescription"]
-status = "normal"
 raw = "What happens inside stays inside. The windows are boarded for a reason."
+status = "normal"
 enUS = "What happens inside stays inside. The windows are boarded up for a reason."
 zhCN = "里面发生的一切都留在里面。窗户被封起来是有原因的。"
 zhTW = "裡面發生的事，就留在裡面。窗戶封起來是有原因的。"

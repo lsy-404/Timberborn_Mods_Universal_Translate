@@ -2,8 +2,8 @@
 name = "Eromrab's Badwater Rush"
 
 ["Need.Age.DisplayName"]
-status = "normal"
 raw = "Age"
+status = "normal"
 enUS = "Age"
 zhCN = "年龄"
 zhTW = "年齡"
