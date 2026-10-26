@@ -493,3 +493,59 @@ koKR = "원천: 깨끗한 물의 성장량"
 csCZ = "Zdroje: čistý růst"
 viVN = "Nguồn: tăng trưởng sạch"
 trTR = "Kaynaklar: temiz büyüme"
+
+["RainCloudsSim.Difficulty.MinCycleForOutsideClouds"]
+new = "Outside clouds: first cycle"
+status = "normal"
+
+["RainCloudsSim.Difficulty.MaxCycleForOutsideClouds"]
+new = "Outside clouds: full chance at cycle"
+status = "normal"
+
+["RainCloudsSim.Difficulty.ProbabilityOfOutsideCloud"]
+new = "Outside clouds: chance"
+status = "normal"
+
+["RainCloudsSim.Difficulty.MaxOutsideCloudsPerCycle"]
+new = "Outside clouds: max per cycle"
+status = "normal"
+
+["RainCloudsSim.Difficulty.OutsideCloudSpawnDelayHours"]
+new = "Outside clouds: hours between tries"
+status = "normal"
+
+["RainCloudsSim.Difficulty.OutsideCloudChanceDecay"]
+new = "Outside clouds: chance kept per spawn"
+status = "normal"
+
+["RainCloudsSim.Difficulty.MinCycleForOutsideMonsoon"]
+new = "Outside clouds: monsoon from cycle"
+status = "normal"
+
+["RainCloudsSim.Difficulty.ProbabilityOfOutsideMonsoon"]
+new = "Outside clouds: monsoon chance"
+status = "normal"
+
+["RainCloudsSim.Difficulty.MinCycleForOutsideContaminated"]
+new = "Outside clouds: polluted from cycle"
+status = "normal"
+
+["RainCloudsSim.Difficulty.ProbabilityOfOutsideContaminated"]
+new = "Outside clouds: polluted chance"
+status = "normal"
+
+["RainCloudsSim.Difficulty.OutsideCloudMinBlocks"]
+new = "Outside clouds: min blocks"
+status = "normal"
+
+["RainCloudsSim.Difficulty.OutsideCloudMaxBlocks"]
+new = "Outside clouds: max blocks"
+status = "normal"
+
+["RainCloudsSim.Difficulty.OutsideCloudMinBlockSize"]
+new = "Outside clouds: rim block size"
+status = "normal"
+
+["RainCloudsSim.Difficulty.OutsideCloudMaxBlockSize"]
+new = "Outside clouds: center block size"
+status = "normal"

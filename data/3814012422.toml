@@ -8059,6 +8059,38 @@ csCZ = "Aliance"
 viVN = "Liên minh"
 trTR = "İttifaklar"
 
+["TimberEmpires.Map.Tab"]
+new = "Map"
+status = "normal"
+
+["TimberEmpires.Map.Reset"]
+new = "Reset view"
+status = "normal"
+
+["TimberEmpires.Map.Markers"]
+new = "Markers"
+status = "normal"
+
+["TimberEmpires.Map.NoMarkers"]
+new = "No markers yet."
+status = "normal"
+
+["TimberEmpires.Map.Go"]
+new = "Go to"
+status = "normal"
+
+["TimberEmpires.Map.Remove"]
+new = "Remove"
+status = "normal"
+
+["TimberEmpires.Map.Marker"]
+new = "Marker {0}"
+status = "normal"
+
+["TimberEmpires.Map.Hint"]
+new = "Drag to pan, scroll to zoom, click to move the camera, right click to place or remove a marker"
+status = "normal"
+
 ["TimberEmpires.Troops.Tab"]
 raw = "Troops"
 status = "normal"
@@ -8449,6 +8481,10 @@ koKR = "동맹 탭 열기"
 csCZ = "Otevřít kartu Aliance"
 viVN = "Mở tab Liên minh"
 trTR = "İttifaklar sekmesini aç"
+
+["TimberEmpires.KeyBindings.MapTab"]
+new = "Open Map tab"
+status = "normal"
 
 ["TimberEmpires.KeyBindings.TroopsTab"]
 raw = "Open Troops tab"
@@ -10710,6 +10746,34 @@ koKR = "작업 중인 건축가: {0}%"
 csCZ = "Stavitelé při práci: {0}%"
 viVN = "Thợ xây đang làm việc: {0}%"
 trTR = "Çalışan inşaatçılar: {0}%"
+
+["Building.TimberEmpires.WarBoat.DisplayName"]
+new = "War Boat"
+status = "normal"
+
+["Building.TimberEmpires.WarBoat.Description"]
+new = "Carries troops across the sea. Place it on the slip of a Naval Workshop. Once built and crewed it sails out by itself. Send it to another island's coast to land them."
+status = "normal"
+
+["Building.TimberEmpires.WarBoat.FlavorDescription"]
+new = "Every island is a coast to someone."
+status = "normal"
+
+["TimberEmpires.SeaRock3x3.DisplayName"]
+new = "Sea Rock 3x3"
+status = "normal"
+
+["TimberEmpires.SeaRock5x5.DisplayName"]
+new = "Sea Rock 5x5"
+status = "normal"
+
+["TimberEmpires.SeaRock.Description"]
+new = "Demolish it from the top."
+status = "normal"
+
+["TimberEmpires.SeaRock.FlavorDescription"]
+new = "The sea wore away everything else."
+status = "normal"
 
 ["TimberEmpires.Settings.SoloEmpire"]
 raw = "Play as an empire"

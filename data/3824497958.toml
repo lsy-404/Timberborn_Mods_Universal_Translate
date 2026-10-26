@@ -256,6 +256,10 @@ csCZ = "Zahanbení: −10 k náladě, po nehodě se schovává doma (bezdomoví 
 viVN = "Xấu hổ: -10 tâm trạng, trốn ở nhà sau một tai nạn (hải ly vô gia cư đi lang thang quanh trung tâm khu), biến mất trong vòng 8 h."
 trTR = "Utanmış: -10 moral, bir kazadan sonra evde saklanır (evsiz kunduzlar bölge merkezinde dolaşır), 8 saat içinde kaybolur."
 
+["Status.Need.DamItStinksEmbarrassment.Short"]
+new = "Beaver is embarrassed"
+status = "normal"
+
 ["Building.DamItStinksComposter.DisplayName"]
 raw = "Composter"
 status = "normal"
@@ -375,22 +379,13 @@ csCZ = "{0}: latrína je téměř plná."
 viVN = "{0}: nhà vệ sinh gần đầy rồi."
 trTR = "{0}: hela neredeyse dolu."
 
-["DamItStinks.Notification.Overflow"]
-raw = "{0}: the latrine overflowed, {1} Dung spilled around."
+["DamItStinks.Notification.Full"]
+new = "{0}: the latrine is full, dung piles up next to it. Build a Composter or set a tank to Dung."
 status = "normal"
-enUS = "{0}: the latrine overflowed, {1} Dung spilled around."
-zhCN = "{0}：厕所溢出了，{1} 份粪便洒得到处都是。"
-zhTW = "{0}：旱廁溢出了，{1} 單位糞便濺得到處都是。"
-ruRU = "{0}: отхожее место переполнилось, вокруг разлито {1} ед. помёта."
-jaJP = "{0}：トイレがあふれ、周囲に糞が{1}こぼれました。"
-frFR = "{0} : les latrines ont débordé, {1} de fumier se sont répandus alentour."
-deDE = "{0}: Die Latrine ist übergelaufen, {1} Mist ist in der Umgebung verteilt."
-plPL = "{0}: latryna się przepełniła, rozlało się {1} nawozu."
-ptBR = "{0}: a latrina transbordou, {1} dejeto se espalhou ao redor."
-koKR = "{0}: 변소가 넘쳐 {1}개의 똥이 주변에 흩어졌습니다."
-csCZ = "{0}: latrína přetekla, kolem se rozsypal trus ({1})."
-viVN = "{0}: nhà vệ sinh bị tràn, phân của {1} vương vãi xung quanh."
-trTR = "{0}: hela taştı, {1} Gübre etrafa döküldü."
+
+["DamItStinks.Notification.TankClaimed"]
+new = "{0}: nothing could take more Dung, so unemployed beavers set this empty tank to Dung."
+status = "normal"
 
 ["DamItStinks.Notification.Accident"]
 raw = "{0} did not make it in time."
@@ -766,9 +761,26 @@ csCZ = "Grilovaný blatouch bahenní (bioplyn)"
 viVN = "Cỏ nến nướng (khí sinh học)"
 trTR = "Izgara spadderdock (biyogaz)"
 
+["DamItStinks.Notification.Overflow"]
+raw = "{0}: the latrine overflowed, {1} Dung spilled around."
+status = "abandoned"
+enUS = "{0}: the latrine overflowed, {1} Dung spilled around."
+zhCN = "{0}：厕所溢出了，{1} 份粪便洒得到处都是。"
+zhTW = "{0}：旱廁溢出了，{1} 單位糞便濺得到處都是。"
+ruRU = "{0}: отхожее место переполнилось, вокруг разлито {1} ед. помёта."
+jaJP = "{0}：トイレがあふれ、周囲に糞が{1}こぼれました。"
+frFR = "{0} : les latrines ont débordé, {1} de fumier se sont répandus alentour."
+deDE = "{0}: Die Latrine ist übergelaufen, {1} Mist ist in der Umgebung verteilt."
+plPL = "{0}: latryna się przepełniła, rozlało się {1} nawozu."
+ptBR = "{0}: a latrina transbordou, {1} dejeto se espalhou ao redor."
+koKR = "{0}: 변소가 넘쳐 {1}개의 똥이 주변에 흩어졌습니다."
+csCZ = "{0}: latrína přetekla, kolem se rozsypal trus ({1})."
+viVN = "{0}: nhà vệ sinh bị tràn, phân của {1} vương vãi xung quanh."
+trTR = "{0}: hela taştı, {1} Gübre etrafa döküldü."
+
 ["DamItStinks.Discharge.NoCleanWater"]
 raw = "No clean water at the outlet to contaminate - the dung waits in the building"
-status = "normal"
+status = "abandoned"
 enUS = "No clean water at the outlet to contaminate—the dung waits in the building"
 zhCN = "出口处没有清水可供污染——粪便只能留在建筑内"
 zhTW = "排出口沒有乾淨的水可供污染——糞便會留在建築物裡。"

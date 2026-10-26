@@ -1,0 +1,22 @@
+[_meta]
+name = "TimberColonyInfo"
+
+["Building.GoodsApiServer.DisplayName"]
+new = "Goods API Server"
+status = "normal"
+
+["Building.GoodsApiServer.Description"]
+new = "Hosts a local HTTP API for settlement goods."
+status = "normal"
+
+["Building.GoodsApiServer.TurnOn"]
+new = "Turn server on"
+status = "normal"
+
+["Building.GoodsApiServer.TurnOff"]
+new = "Turn server off"
+status = "normal"
+
+["Building.GoodsApiServer.Port"]
+new = "Port"
+status = "normal"

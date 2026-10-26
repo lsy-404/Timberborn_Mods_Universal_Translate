@@ -52,6 +52,18 @@ csCZ = "Kuchyně čeká na recepty."
 viVN = "Nhà bếp đang chờ các công thức nấu ăn."
 trTR = "Mutfak tarifleri bekliyor."
 
+["Building.Stove.DisplayName"]
+new = "Stove"
+status = "normal"
+
+["Building.Stove.Description"]
+new = "A place to boil berries into jam."
+status = "normal"
+
+["Building.Stove.FlavorDescription"]
+new = "A little heat turns berries into a sweet treat."
+status = "normal"
+
 ["Good.DandelionTea.DisplayName"]
 raw = "Dandelion tea"
 status = "normal"
