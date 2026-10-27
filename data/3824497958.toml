@@ -257,8 +257,8 @@ viVN = "Xấu hổ: -10 tâm trạng, trốn ở nhà sau một tai nạn (hải
 trTR = "Utanmış: -10 moral, bir kazadan sonra evde saklanır (evsiz kunduzlar bölge merkezinde dolaşır), 8 saat içinde kaybolur."
 
 ["Status.Need.DamItStinksEmbarrassment.Short"]
-status = "normal"
 raw = "Beaver is embarrassed"
+status = "normal"
 enUS = "Beaver is embarrassed"
 zhCN = "海狸感到尴尬"
 zhTW = "海狸感到尷尬"
@@ -393,8 +393,8 @@ viVN = "{0}: nhà vệ sinh gần đầy rồi."
 trTR = "{0}: hela neredeyse dolu."
 
 ["DamItStinks.Notification.Full"]
-status = "normal"
 raw = "{0}: the latrine is full, dung piles up next to it. Build a Composter or set a tank to Dung."
+status = "normal"
 enUS = "{0}: The latrine is full; dung is piling up next to it. Build a Composter or set a tank to Dung."
 zhCN = "{0}：厕所已满，粪便堆积在旁边。建造一座堆肥场，或将一个储罐设为储存粪便。"
 zhTW = "{0}：旱廁已滿，糞便堆積在旁。建造一座堆肥場，或將一座儲槽設為存放糞便。"
@@ -410,8 +410,8 @@ viVN = "{0}: nhà vệ sinh đã đầy, phân chất đống bên cạnh. Hãy 
 trTR = "{0}: hela dolu, yanında dışkı yığılıyor. Bir Kompost Makinesi inşa edin veya bir tankı Dışkı için ayarlayın."
 
 ["DamItStinks.Notification.TankClaimed"]
-status = "normal"
 raw = "{0}: nothing could take more Dung, so unemployed beavers set this empty tank to Dung."
+status = "normal"
 enUS = "{0}: Nothing else could take more Dung, so unemployed beavers set this empty tank to Dung."
 zhCN = "{0}：没有地方能再存放粪便了，于是失业的海狸把这座空置的储罐改成了粪便储罐。"
 zhTW = "{0}：沒有地方能再裝糞肥了，因此失業的海狸把這座空水槽設為存放糞肥。"

@@ -2,8 +2,8 @@
 name = "TimberColonyInfo"
 
 ["Building.GoodsApiServer.DisplayName"]
-status = "normal"
 raw = "Goods API Server"
+status = "normal"
 enUS = "Goods API Server"
 zhCN = "货物 API 服务器"
 zhTW = "貨物 API 伺服器"
@@ -19,8 +19,8 @@ viVN = "Máy chủ API Hàng hóa"
 trTR = "Eşya API Sunucusu"
 
 ["Building.GoodsApiServer.Description"]
-status = "normal"
 raw = "Hosts a local HTTP API for settlement goods."
+status = "normal"
 enUS = "Hosts a local HTTP API for settlement goods."
 zhCN = "为殖民地物资提供本地 HTTP API。"
 zhTW = "為殖民地物資提供本機 HTTP API。"
@@ -36,8 +36,8 @@ viVN = "Cung cấp API HTTP cục bộ cho hàng hóa của khu định cư."
 trTR = "Yerleşim yerindeki mallar için yerel bir HTTP API barındırır."
 
 ["Building.GoodsApiServer.TurnOn"]
-status = "normal"
 raw = "Turn server on"
+status = "normal"
 enUS = "Turn server on"
 zhCN = "开启服务器"
 zhTW = "開啟伺服器"
@@ -53,8 +53,8 @@ viVN = "Bật máy chủ\U0004e599"
 trTR = "Sunucuyu aç"
 
 ["Building.GoodsApiServer.TurnOff"]
-status = "normal"
 raw = "Turn server off"
+status = "normal"
 enUS = "Turn server off"
 zhCN = "关闭服务器"
 zhTW = "關閉伺服器"
@@ -70,8 +70,8 @@ viVN = "Tắt máy chủ"
 trTR = "Sunucuyu kapat"
 
 ["Building.GoodsApiServer.Port"]
-status = "normal"
 raw = "Port"
+status = "normal"
 enUS = "Port"
 zhCN = "端口"
 zhTW = "連接埠"

@@ -1,0 +1,46 @@
+[_meta]
+name = "Growth Visuals"
+
+["GrowthVisuals.Setting.GradualGrowth"]
+new = "Plants grow gradually"
+status = "normal"
+
+["GrowthVisuals.Setting.GradualGrowth.Tooltip"]
+new = "Growing plants show their full-size model, scaled up a little every day until fully grown."
+status = "normal"
+
+["GrowthVisuals.Setting.GrowTrees"]
+new = "Gradual growth: trees"
+status = "normal"
+
+["GrowthVisuals.Setting.GrowBushes"]
+new = "Gradual growth: bushes"
+status = "normal"
+
+["GrowthVisuals.Setting.GrowCrops"]
+new = "Gradual growth: crops"
+status = "normal"
+
+["GrowthVisuals.Setting.GrowCrops.Tooltip"]
+new = "Off by default, since crops grow in just a few days and the seedling models can look nicer."
+status = "normal"
+
+["GrowthVisuals.Setting.StartingSize"]
+new = "Starting size (%)"
+status = "normal"
+
+["GrowthVisuals.Setting.SmoothGrowth"]
+new = "Smooth growth"
+status = "normal"
+
+["GrowthVisuals.Setting.SmoothGrowth.Tooltip"]
+new = "Grow continuously instead of in one step per day."
+status = "normal"
+
+["GrowthVisuals.Setting.PerformanceLogging"]
+new = "Performance logging"
+status = "normal"
+
+["GrowthVisuals.Setting.PerformanceLogging.Tooltip"]
+new = "Writes FPS and update cost to the game log (Player.log) every 10 seconds. For testing only."
+status = "normal"

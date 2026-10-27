@@ -495,8 +495,8 @@ viVN = "Nguồn: tăng trưởng sạch"
 trTR = "Kaynaklar: temiz büyüme"
 
 ["RainCloudsSim.Difficulty.MinCycleForOutsideClouds"]
-status = "normal"
 raw = "Outside clouds: first cycle"
+status = "normal"
 enUS = "Outside clouds: first cycle"
 zhCN = "外部云团：第一个周期"
 zhTW = "外部雲層：第一個週期"
@@ -512,8 +512,8 @@ viVN = "Mây bên ngoài: chu kỳ đầu tiên"
 trTR = "Dış bulutlar: ilk döngü"
 
 ["RainCloudsSim.Difficulty.MaxCycleForOutsideClouds"]
-status = "normal"
 raw = "Outside clouds: full chance at cycle"
+status = "normal"
 enUS = "Outside clouds: full chance at cycle"
 zhCN = "外部云层：周期到达时必定出现"
 zhTW = "外部雲層：週期內必定出現"
@@ -529,8 +529,8 @@ viVN = "Mây bên ngoài: xác suất tối đa trong một chu kỳ"
 trTR = "Dış bulutlar: döngüde tam şans"
 
 ["RainCloudsSim.Difficulty.ProbabilityOfOutsideCloud"]
-status = "normal"
 raw = "Outside clouds: chance"
+status = "normal"
 enUS = "Outside clouds: chance"
 zhCN = "外部云团概率"
 zhTW = "外部雲層：機率"
@@ -546,8 +546,8 @@ viVN = "Mây bên ngoài: xác suất"
 trTR = "Dış bulut olasılığı"
 
 ["RainCloudsSim.Difficulty.MaxOutsideCloudsPerCycle"]
-status = "normal"
 raw = "Outside clouds: max per cycle"
+status = "normal"
 enUS = "Outside clouds: max per cycle"
 zhCN = "外部云团：每周期上限"
 zhTW = "週期內外部雲朵數量上限"
@@ -563,8 +563,8 @@ viVN = "Mây bên ngoài: tối đa mỗi chu kỳ"
 trTR = "Dış bulutlar: döngü başına en fazla"
 
 ["RainCloudsSim.Difficulty.OutsideCloudSpawnDelayHours"]
-status = "normal"
 raw = "Outside clouds: hours between tries"
+status = "normal"
 enUS = "Outside clouds: hours between attempts"
 zhCN = "云层生成尝试间隔：小时数"
 zhTW = "外部雲朵：每次生成嘗試間隔小時數"
@@ -580,8 +580,8 @@ viVN = "Mây bên ngoài: số giờ giữa các lần xuất hiện"
 trTR = "Dış bulutlar: denemeler arasındaki saat sayısı"
 
 ["RainCloudsSim.Difficulty.OutsideCloudChanceDecay"]
-status = "normal"
 raw = "Outside clouds: chance kept per spawn"
+status = "normal"
 enUS = "Outside clouds: chance retained per spawn"
 zhCN = "外部云团：每次生成时保留的概率"
 zhTW = "外部雲朵：每次生成時保留的機率"
@@ -597,8 +597,8 @@ viVN = "Mây bên ngoài: xác suất được giữ lại sau mỗi lần xuấ
 trTR = "Dış bulutlar: doğuş başına korunan şans"
 
 ["RainCloudsSim.Difficulty.MinCycleForOutsideMonsoon"]
-status = "normal"
 raw = "Outside clouds: monsoon from cycle"
+status = "normal"
 enUS = "Outside clouds: monsoon starting in cycle"
 zhCN = "外部云层：从第几周期开始出现季风"
 zhTW = "外部雲層：季風開始週期"
@@ -614,8 +614,8 @@ viVN = "Mây bên ngoài: mùa mưa từ chu kỳ"
 trTR = "Dış bulutlar: musonun başlayacağı döngü"
 
 ["RainCloudsSim.Difficulty.ProbabilityOfOutsideMonsoon"]
-status = "normal"
 raw = "Outside clouds: monsoon chance"
+status = "normal"
 enUS = "Outside clouds: chance of monsoon"
 zhCN = "外部云层：季风概率"
 zhTW = "外部雲層：季風機率"
@@ -631,8 +631,8 @@ viVN = "Mây bên ngoài: khả năng có gió mùa"
 trTR = "Dış bulutlar: muson olasılığı"
 
 ["RainCloudsSim.Difficulty.MinCycleForOutsideContaminated"]
-status = "normal"
 raw = "Outside clouds: polluted from cycle"
+status = "normal"
 enUS = "Outside clouds: polluted starting from cycle"
 zhCN = "外部云层：从周期开始受到污染"
 zhTW = "外部雲層：自第幾個週期起受污染"
@@ -648,8 +648,8 @@ viVN = "Mây ngoài trời: ô nhiễm từ chu kỳ"
 trTR = "Dışarıdaki bulutlar: döngüden itibaren kirli"
 
 ["RainCloudsSim.Difficulty.ProbabilityOfOutsideContaminated"]
-status = "normal"
 raw = "Outside clouds: polluted chance"
+status = "normal"
 enUS = "Outside clouds: chance of contamination"
 zhCN = "外部云层：污染概率"
 zhTW = "外部雲層：污染機率"
@@ -665,8 +665,8 @@ viVN = "Mây bên ngoài: xác suất ô nhiễm"
 trTR = "Dışarıdaki bulutlar: kirlenme olasılığı"
 
 ["RainCloudsSim.Difficulty.OutsideCloudMinBlocks"]
-status = "normal"
 raw = "Outside clouds: min blocks"
+status = "normal"
 enUS = "Outside clouds: min blocks"
 zhCN = "外部云团：最少方块数"
 zhTW = "外部雲層：最少方塊數"
@@ -682,8 +682,8 @@ viVN = "Mây bên ngoài: số khối tối thiểu"
 trTR = "Dış bulutlar: min. blok sayısı"
 
 ["RainCloudsSim.Difficulty.OutsideCloudMaxBlocks"]
-status = "normal"
 raw = "Outside clouds: max blocks"
+status = "normal"
 enUS = "Outside Clouds: Max Blocks"
 zhCN = "外部云层：最大方块数"
 zhTW = "外部雲朵：最大區塊數"
@@ -699,8 +699,8 @@ viVN = "Mây bên ngoài: số khối tối đa"
 trTR = "Dış bulutlar: en fazla blok sayısı"
 
 ["RainCloudsSim.Difficulty.OutsideCloudMinBlockSize"]
-status = "normal"
 raw = "Outside clouds: rim block size"
+status = "normal"
 enUS = "Outside clouds: rim block size"
 zhCN = "外部云层：边缘方块尺寸"
 zhTW = "外圍雲層：邊緣區塊大小"
@@ -716,8 +716,8 @@ viVN = "Mây bên ngoài: kích thước khối viền"
 trTR = "Dış bulutlar: kenar blok boyutu"
 
 ["RainCloudsSim.Difficulty.OutsideCloudMaxBlockSize"]
-status = "normal"
 raw = "Outside clouds: center block size"
+status = "normal"
 enUS = "Outside Clouds: Center Block Size"
 zhCN = "外围云层：中心区块大小"
 zhTW = "外部雲層：中心區塊大小"

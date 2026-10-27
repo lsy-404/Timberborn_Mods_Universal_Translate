@@ -53,8 +53,8 @@ viVN = "Nhà bếp đang chờ các công thức nấu ăn."
 trTR = "Mutfak tarifleri bekliyor."
 
 ["Building.Stove.DisplayName"]
-status = "normal"
 raw = "Stove"
+status = "normal"
 enUS = "Stove"
 zhCN = "炉灶"
 zhTW = "爐灶"
@@ -70,8 +70,8 @@ viVN = "Bếp lò"
 trTR = "Soba"
 
 ["Building.Stove.Description"]
-status = "normal"
 raw = "A place to boil berries into jam."
+status = "normal"
 enUS = "A place to boil berries into jam."
 zhCN = "将浆果煮成果酱的地方。"
 zhTW = "將莓果熬煮成果醬的地方。"
@@ -87,8 +87,8 @@ viVN = "Nơi nấu quả mọng thành mứt."
 trTR = "Meyveleri reçel yapmak için kaynatabileceğiniz bir yer."
 
 ["Building.Stove.FlavorDescription"]
-status = "normal"
 raw = "A little heat turns berries into a sweet treat."
+status = "normal"
 enUS = "A little heat turns berries into a sweet treat."
 zhCN = "稍微加热一下，就能把浆果变成甜蜜美味。"
 zhTW = "稍微加熱一下，就能把莓果變成甜蜜點心。"

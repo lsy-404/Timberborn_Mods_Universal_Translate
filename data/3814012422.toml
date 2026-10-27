@@ -8060,8 +8060,8 @@ viVN = "Liên minh"
 trTR = "İttifaklar"
 
 ["TimberEmpires.Map.Tab"]
-status = "normal"
 raw = "Map"
+status = "normal"
 enUS = "Map"
 zhCN = "地图"
 zhTW = "地圖"
@@ -8077,8 +8077,8 @@ viVN = "Bản đồ"
 trTR = "Harita"
 
 ["TimberEmpires.Map.Reset"]
-status = "normal"
 raw = "Reset view"
+status = "normal"
 enUS = "Reset View"
 zhCN = "重置视图"
 zhTW = "重設視角"
@@ -8094,8 +8094,8 @@ viVN = "Đặt lại chế độ xem"
 trTR = "Görünümü sıfırla"
 
 ["TimberEmpires.Map.Markers"]
-status = "normal"
 raw = "Markers"
+status = "normal"
 enUS = "Markers"
 zhCN = "标记"
 zhTW = "標記器"
@@ -8111,8 +8111,8 @@ viVN = "Dấu mốc"
 trTR = "İşaretleyiciler"
 
 ["TimberEmpires.Map.NoMarkers"]
-status = "normal"
 raw = "No markers yet."
+status = "normal"
 enUS = "No markers yet."
 zhCN = "尚无标记。"
 zhTW = "尚無標記。"
@@ -8128,8 +8128,8 @@ viVN = "Chưa có điểm đánh dấu nào."
 trTR = "Henüz işaretçi yok."
 
 ["TimberEmpires.Map.Go"]
-status = "normal"
 raw = "Go to"
+status = "normal"
 enUS = "Go to"
 zhCN = "前往"
 zhTW = "前往"
@@ -8145,8 +8145,8 @@ viVN = "Đi tới"
 trTR = "Git"
 
 ["TimberEmpires.Map.Remove"]
-status = "normal"
 raw = "Remove"
+status = "normal"
 enUS = "Remove"
 zhCN = "移除"
 zhTW = "移除"
@@ -8162,8 +8162,8 @@ viVN = "Xóa"
 trTR = "Kaldır"
 
 ["TimberEmpires.Map.Marker"]
-status = "normal"
 raw = "Marker {0}"
+status = "normal"
 enUS = "Marker {0}"
 zhCN = "标记 {0}"
 zhTW = "標記 {0}"
@@ -8179,8 +8179,8 @@ viVN = "Dấu mốc {0}"
 trTR = "İşaretçi {0}"
 
 ["TimberEmpires.Map.Hint"]
-status = "normal"
 raw = "Drag to pan, scroll to zoom, click to move the camera, right click to place or remove a marker"
+status = "normal"
 enUS = "Drag to pan, scroll to zoom, click to move the camera, and right-click to place or remove a marker"
 zhCN = "拖动以平移，滚动以缩放，单击以移动镜头，右键以放置或移除标记"
 zhTW = "拖曳以平移，捲動以縮放，按一下以移動鏡頭，按滑鼠右鍵以放置或移除標記。"
@@ -8587,8 +8587,8 @@ viVN = "Mở tab Liên minh"
 trTR = "İttifaklar sekmesini aç"
 
 ["TimberEmpires.KeyBindings.MapTab"]
-status = "normal"
 raw = "Open Map tab"
+status = "normal"
 enUS = "Open the Map tab"
 zhCN = "打开地图标签页"
 zhTW = "開啟地圖分頁"
@@ -10865,8 +10865,8 @@ viVN = "Thợ xây đang làm việc: {0}%"
 trTR = "Çalışan inşaatçılar: {0}%"
 
 ["Building.TimberEmpires.WarBoat.DisplayName"]
-status = "normal"
 raw = "War Boat"
+status = "normal"
 enUS = "War Boat"
 zhCN = "战船"
 zhTW = "戰船"
@@ -10882,8 +10882,8 @@ viVN = "Thuyền Chiến Bạch Dương"
 trTR = "Savaş Teknesi"
 
 ["Building.TimberEmpires.WarBoat.Description"]
-status = "normal"
 raw = "Carries troops across the sea. Place it on the slip of a Naval Workshop. Once built and crewed it sails out by itself. Send it to another island's coast to land them."
+status = "normal"
 enUS = "Carries troops across the sea. Place it on the slip of a Naval Workshop. Once built and crewed, it sails out on its own. Send it to the coast of another island to land them."
 zhCN = "可搭载部队渡海。将其放在海军工坊的船台上。建造完成并配备船员后，它会自行出航。将其派往另一座岛屿的海岸即可让部队登陆。"
 zhTW = "載運部隊渡海。將它放在海軍工坊的滑道上。建造完成並配備船員後，它會自行出航。將它派往另一座島嶼的海岸，讓部隊登陸。"
@@ -10899,8 +10899,8 @@ viVN = "Vận chuyển binh lính qua biển. Đặt thuyền lên đường tr�
 trTR = "Birlikleri denizden taşır. Bir Deniz Atölyesi'nin kızağına yerleştirin. İnşa edilip mürettebatı hazır olduğunda kendi kendine yola çıkar. Birlikleri karaya çıkarmak için başka bir adanın kıyısına gönderin."
 
 ["Building.TimberEmpires.WarBoat.FlavorDescription"]
-status = "normal"
 raw = "Every island is a coast to someone."
+status = "normal"
 enUS = "Every island is a coast to someone."
 zhCN = "每座岛屿，对某些人来说都是海岸。"
 zhTW = "每座島嶼，對某些人來說都是海岸。"
@@ -10916,8 +10916,8 @@ viVN = "Với ai đó, mọi hòn đảo đều là bờ biển."
 trTR = "Her ada, birileri için kıyıdır."
 
 ["TimberEmpires.SeaRock3x3.DisplayName"]
-status = "normal"
 raw = "Sea Rock 3x3"
+status = "normal"
 enUS = "Sea Rock 3x3"
 zhCN = "海上岩石 3x3"
 zhTW = "海中岩石 3x3"
@@ -10933,8 +10933,8 @@ viVN = "Đá biển 3x3"
 trTR = "Deniz Kayası 3x3"
 
 ["TimberEmpires.SeaRock5x5.DisplayName"]
-status = "normal"
 raw = "Sea Rock 5x5"
+status = "normal"
 enUS = "Sea Rock 5x5"
 zhCN = "海上岩石 5x5"
 zhTW = "海中岩石 5x5"
@@ -10950,8 +10950,8 @@ viVN = "Đá biển 5x5"
 trTR = "Deniz Kayası 5x5"
 
 ["TimberEmpires.SeaRock.Description"]
-status = "normal"
 raw = "Demolish it from the top."
+status = "normal"
 enUS = "Demolish it from the top."
 zhCN = "从顶部拆除它。"
 zhTW = "從頂部拆除它。"
@@ -10967,8 +10967,8 @@ viVN = "Phá dỡ nó từ trên xuống."
 trTR = "Yukarıdan başlayarak yıkın."
 
 ["TimberEmpires.SeaRock.FlavorDescription"]
-status = "normal"
 raw = "The sea wore away everything else."
+status = "normal"
 enUS = "The sea wore away everything else."
 zhCN = "海浪侵蚀掉了其他一切。"
 zhTW = "海水沖蝕掉了其他一切。"
