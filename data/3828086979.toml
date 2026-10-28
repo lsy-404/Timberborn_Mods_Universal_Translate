@@ -2,8 +2,8 @@
 name = "Growth Visuals"
 
 ["GrowthVisuals.Setting.GradualGrowth"]
-status = "normal"
 raw = "Plants grow gradually"
+status = "normal"
 enUS = "Plants grow gradually"
 zhCN = "植物逐渐生长"
 zhTW = "植物會逐漸生長"
@@ -19,8 +19,8 @@ viVN = "Cây trồng phát triển dần dần"
 trTR = "Bitkiler kademeli olarak büyür"
 
 ["GrowthVisuals.Setting.GradualGrowth.Tooltip"]
-status = "normal"
 raw = "Growing plants show their full-size model, scaled up a little every day until fully grown."
+status = "normal"
 enUS = "Growing plants display their full-size model, which scales up a little each day until they’re fully grown."
 zhCN = "生长中的植物会显示其完整尺寸的模型，并每天略微放大，直到完全成熟。"
 zhTW = "生長中的植物會顯示完整大小的模型，並每天稍微放大，直到完全長成。"
@@ -36,8 +36,8 @@ viVN = "Cây đang phát triển hiển thị mô hình kích thước đầy đ
 trTR = "Büyüyen bitkiler, tam boyutlu modellerini gösterir ve tamamen büyüyene kadar her gün biraz daha büyütülür."
 
 ["GrowthVisuals.Setting.GrowTrees"]
-status = "normal"
 raw = "Gradual growth: trees"
+status = "normal"
 enUS = "Gradual tree growth"
 zhCN = "树木渐进生长"
 zhTW = "樹木逐漸生長"
@@ -53,8 +53,8 @@ viVN = "Cây phát triển dần dần"
 trTR = "Kademeli büyüme: ağaçlar"
 
 ["GrowthVisuals.Setting.GrowBushes"]
-status = "normal"
 raw = "Gradual growth: bushes"
+status = "normal"
 enUS = "Gradual growth: bushes"
 zhCN = "灌木逐渐生长"
 zhTW = "灌木逐漸生長"
@@ -70,8 +70,8 @@ viVN = "Cây bụi phát triển từ từ"
 trTR = "Aşamalı büyüme: çalılar"
 
 ["GrowthVisuals.Setting.GrowCrops"]
-status = "normal"
 raw = "Gradual growth: crops"
+status = "normal"
 enUS = "Gradual crop growth"
 zhCN = "作物逐渐生长"
 zhTW = "作物逐漸生長"
@@ -87,8 +87,8 @@ viVN = "Tăng trưởng dần: cây trồng"
 trTR = "Kademeli büyüme: ekinler"
 
 ["GrowthVisuals.Setting.GrowCrops.Tooltip"]
-status = "normal"
 raw = "Off by default, since crops grow in just a few days and the seedling models can look nicer."
+status = "normal"
 enUS = "Off by default, since crops grow in just a few days and the seedling models can look nicer."
 zhCN = "默认关闭，因为作物只需几天就能长成，而且幼苗模型看起来可能更漂亮。"
 zhTW = "預設為關閉，因為作物只需幾天就會長大，而且幼苗模型看起來可能更好看。"
@@ -104,8 +104,8 @@ viVN = "Tắt theo mặc định vì cây trồng chỉ mất vài ngày để p
 trTR = "Varsayılan olarak kapalıdır; çünkü ekinler yalnızca birkaç günde büyür ve fide modelleri daha güzel görünebilir."
 
 ["GrowthVisuals.Setting.StartingSize"]
-status = "normal"
 raw = "Starting size (%)"
+status = "normal"
 enUS = "Starting size (%)"
 zhCN = "初始大小（%）"
 zhTW = "初始大小 (%)"
@@ -121,8 +121,8 @@ viVN = "Kích thước ban đầu (%)"
 trTR = "Başlangıç boyutu (%)"
 
 ["GrowthVisuals.Setting.SmoothGrowth"]
-status = "normal"
 raw = "Smooth growth"
+status = "normal"
 enUS = "Smooth growth"
 zhCN = "平滑生长"
 zhTW = "平滑生長"
@@ -138,8 +138,8 @@ viVN = "Sinh trưởng mượt mà"
 trTR = "Pürüzsüz büyüme"
 
 ["GrowthVisuals.Setting.SmoothGrowth.Tooltip"]
-status = "normal"
 raw = "Grow continuously instead of in one step per day."
+status = "normal"
 enUS = "Grow continuously rather than in one step per day."
 zhCN = "持续生长，而不是每天一次性生长。"
 zhTW = "持續生長，而非每天一次跳躍式生長。"
@@ -155,8 +155,8 @@ viVN = "Phát triển liên tục thay vì chỉ tăng trưởng một bước m
 trTR = "Günde tek seferde değil, sürekli büyüyün."
 
 ["GrowthVisuals.Setting.PerformanceLogging"]
-status = "normal"
 raw = "Performance logging"
+status = "normal"
 enUS = "Performance logging"
 zhCN = "性能日志记录"
 zhTW = "效能記錄"
@@ -172,8 +172,8 @@ viVN = "Ghi nhật ký hiệu năng"
 trTR = "Performans günlüğü"
 
 ["GrowthVisuals.Setting.PerformanceLogging.Tooltip"]
-status = "normal"
 raw = "Writes FPS and update cost to the game log (Player.log) every 10 seconds. For testing only."
+status = "normal"
 enUS = "Writes FPS and update cost to the game log (Player.log) every 10 seconds. For testing only."
 zhCN = "每10秒将 FPS 和更新耗时写入游戏日志（Player.log）。仅供测试。"
 zhTW = "每 10 秒將 FPS 和更新成本寫入遊戲記錄檔（Player.log）。僅供測試。"

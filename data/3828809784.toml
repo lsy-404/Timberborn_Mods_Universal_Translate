@@ -1,0 +1,750 @@
+[_meta]
+name = "High-Density Box Farm"
+
+["HDBF.Building.BoxFarm.Basic.Name"]
+new = "High-Density Box Farm (Basic)"
+status = "normal"
+
+["HDBF.Building.BoxFarm.Intermediate.Name"]
+new = "High-Density Box Farm (Intermediate)"
+status = "normal"
+
+["HDBF.Building.BoxFarm.Advanced.Name"]
+new = "High-Density Box Farm (Advanced)"
+status = "normal"
+
+["HDBF.Building.BoxFarm.Top.Name"]
+new = "High-Density Box Farm (Top)"
+status = "normal"
+
+["HDBF.Building.BoxFarm.Basic.Description"]
+new = "A timber box farm: two farmers tend 60 indoor slots with hand-fed water."
+status = "normal"
+
+["HDBF.Building.BoxFarm.Intermediate.Description"]
+new = "A plank-frame greenhouse: four farmers tend 150 indoor slots with periodic plank upkeep."
+status = "normal"
+
+["HDBF.Building.BoxFarm.Advanced.Description"]
+new = "A metal-and-glass greenhouse: eight farmers tend 300 indoor slots with metal upkeep."
+status = "normal"
+
+["HDBF.Building.BoxFarm.Top.Description"]
+new = "An industrial farm complex: 16 farmers and 600 indoor slots with grid power and metal upkeep."
+status = "normal"
+
+["HDBF.Panel.Tier"]
+new = "Tier: {0}"
+status = "normal"
+
+["HDBF.Panel.Faction"]
+new = "Faction: {0}"
+status = "normal"
+
+["HDBF.Panel.Workers"]
+new = "Workers {0}/{1}"
+status = "normal"
+
+["HDBF.Panel.Mode"]
+new = "Mode"
+status = "normal"
+
+["HDBF.Panel.ModeTransition"]
+new = "Mode changing; output is reduced today."
+status = "normal"
+
+["HDBF.Panel.TierBasic"]
+new = "Basic"
+status = "normal"
+
+["HDBF.Panel.TierIntermediate"]
+new = "Intermediate"
+status = "normal"
+
+["HDBF.Panel.TierAdvanced"]
+new = "Advanced"
+status = "normal"
+
+["HDBF.Panel.TierTop"]
+new = "Top"
+status = "normal"
+
+["HDBF.Panel.FactionFolktails"]
+new = "Folktails"
+status = "normal"
+
+["HDBF.Panel.FactionIronTeeth"]
+new = "IronTeeth"
+status = "normal"
+
+["HDBF.Panel.SectionSlots"]
+new = "Slots"
+status = "normal"
+
+["HDBF.Panel.SectionWater"]
+new = "Water"
+status = "normal"
+
+["HDBF.Panel.SectionMaintenance"]
+new = "Maintenance"
+status = "normal"
+
+["HDBF.Panel.SectionPower"]
+new = "Power"
+status = "normal"
+
+["HDBF.Panel.SectionCrops"]
+new = "Crop strategy"
+status = "normal"
+
+["HDBF.Panel.SectionOutput"]
+new = "Output"
+status = "normal"
+
+["HDBF.Panel.Slots"]
+new = "Slots {0}/{1}"
+status = "normal"
+
+["HDBF.Panel.EffectiveSlots"]
+new = "Effective slots {0}"
+status = "normal"
+
+["HDBF.Panel.EmptySlots"]
+new = "Empty slots {0}"
+status = "normal"
+
+["HDBF.Panel.GrowingSlots"]
+new = "Growing {0}"
+status = "normal"
+
+["HDBF.Panel.MatureSlots"]
+new = "Ready to harvest {0}"
+status = "normal"
+
+["HDBF.Panel.Backlog"]
+new = "Action backlog {0}"
+status = "normal"
+
+["HDBF.Panel.Tank"]
+new = "Tank {0}/{1} units (about {2} days)"
+status = "normal"
+
+["HDBF.Panel.Coverage"]
+new = "Coverage C {0}%"
+status = "normal"
+
+["HDBF.Panel.MinCoverage"]
+new = "Minimum C_min {0}%"
+status = "normal"
+
+["HDBF.Panel.WaterSupply"]
+new = "Water source: {0}"
+status = "normal"
+
+["HDBF.Panel.WaterShortage"]
+new = "Water shortage: growth {0}% (yield -{1}%)"
+status = "normal"
+
+["HDBF.Panel.WaterPipe"]
+new = "pipe"
+status = "normal"
+
+["HDBF.Panel.WaterManual"]
+new = "manual"
+status = "normal"
+
+["HDBF.Panel.WaterNone"]
+new = "none"
+status = "normal"
+
+["HDBF.Panel.MaintenanceDue"]
+new = "Maintenance due day {0}"
+status = "normal"
+
+["HDBF.Panel.MaintenanceCycles"]
+new = "Overdue cycles {0}"
+status = "normal"
+
+["HDBF.Panel.MaintenanceMaterials"]
+new = "Missing materials: {0} ×{1}"
+status = "normal"
+
+["HDBF.Panel.MaintenanceNone"]
+new = "No material upkeep"
+status = "normal"
+
+["HDBF.Panel.MaterialPlank"]
+new = "Plank"
+status = "normal"
+
+["HDBF.Panel.MaterialMetalBlock"]
+new = "Metal block"
+status = "normal"
+
+["HDBF.Panel.Power"]
+new = "Power: {0}"
+status = "normal"
+
+["HDBF.Panel.PowerGrid"]
+new = "grid"
+status = "normal"
+
+["HDBF.Panel.PowerOffGrid"]
+new = "off-grid"
+status = "normal"
+
+["HDBF.Panel.PowerNoPower"]
+new = "no power"
+status = "normal"
+
+["HDBF.Panel.PowerNotRequired"]
+new = "not required"
+status = "normal"
+
+["HDBF.Panel.CropPolicy"]
+new = "Crop policy: {0}"
+status = "normal"
+
+["HDBF.Panel.FixedCrop"]
+new = "Fixed crop: {0}"
+status = "normal"
+
+["HDBF.Panel.Rotation"]
+new = "Rotation: {0}"
+status = "normal"
+
+["HDBF.Panel.PolicyRotation"]
+new = "auto rotation"
+status = "normal"
+
+["HDBF.Panel.PolicyFixed"]
+new = "fixed crop"
+status = "normal"
+
+["HDBF.Panel.CropCarrot"]
+new = "Carrot"
+status = "normal"
+
+["HDBF.Panel.CropPotato"]
+new = "Potato"
+status = "normal"
+
+["HDBF.Panel.CropWheat"]
+new = "Wheat"
+status = "normal"
+
+["HDBF.Panel.CropSunflower"]
+new = "Sunflower"
+status = "normal"
+
+["HDBF.Panel.CropCanola"]
+new = "Canola"
+status = "normal"
+
+["HDBF.Panel.CropCassava"]
+new = "Cassava"
+status = "normal"
+
+["HDBF.Panel.CropCorn"]
+new = "Corn"
+status = "normal"
+
+["HDBF.Panel.CropEggplant"]
+new = "Eggplant"
+status = "normal"
+
+["HDBF.Panel.CropKohlrabi"]
+new = "Kohlrabi"
+status = "normal"
+
+["HDBF.Panel.CropSoybean"]
+new = "Soybean"
+status = "normal"
+
+["HDBF.Panel.OutputStock"]
+new = "Output stock {0}/{1}"
+status = "normal"
+
+["HDBF.Panel.OutputPort"]
+new = "Output port: {0}"
+status = "normal"
+
+["HDBF.Panel.Ports"]
+new = "Ports"
+status = "normal"
+
+["HDBF.Panel.Status"]
+new = "Status"
+status = "normal"
+
+["HDBF.Panel.Problems"]
+new = "Problems"
+status = "normal"
+
+["HDBF.Panel.Unknown"]
+new = "—"
+status = "normal"
+
+["HDBF.Mode.Normal"]
+new = "Normal"
+status = "normal"
+
+["HDBF.Mode.Dense"]
+new = "Dense planting"
+status = "normal"
+
+["HDBF.Mode.Fallow"]
+new = "Fallow"
+status = "normal"
+
+["HDBF.Mode.SwitchCooldown"]
+new = "Mode change on cooldown"
+status = "normal"
+
+["HDBF.Port.Power"]
+new = "Power port"
+status = "normal"
+
+["HDBF.Port.Pipe"]
+new = "Pipe port"
+status = "normal"
+
+["HDBF.Port.Logistics"]
+new = "Logistics port"
+status = "normal"
+
+["HDBF.Port.Connected"]
+new = "Connected"
+status = "normal"
+
+["HDBF.Port.NotConnected"]
+new = "Not connected"
+status = "normal"
+
+["HDBF.Port.Disabled"]
+new = "Disabled"
+status = "normal"
+
+["HDBF.Port.NotApplicable"]
+new = "Not applicable"
+status = "normal"
+
+["HDBF.Action.Maintenance"]
+new = "Perform maintenance"
+status = "normal"
+
+["HDBF.Action.MaintenanceDone"]
+new = "Maintenance performed."
+status = "normal"
+
+["HDBF.Action.Refill"]
+new = "Refill water"
+status = "normal"
+
+["HDBF.Action.RefillRequested"]
+new = "Water refilled."
+status = "normal"
+
+["HDBF.Action.ModeChanged"]
+new = "Mode changed."
+status = "normal"
+
+["HDBF.Action.CropPolicyChanged"]
+new = "Crop policy updated."
+status = "normal"
+
+["HDBF.Warning.NoWater"]
+new = "Water shortage"
+status = "normal"
+
+["HDBF.Warning.IrrigationLow"]
+new = "Water low"
+status = "normal"
+
+["HDBF.Warning.MaintenanceOverdue"]
+new = "Maintenance overdue"
+status = "normal"
+
+["HDBF.Warning.NoPower"]
+new = "No power"
+status = "normal"
+
+["HDBF.Warning.EntranceBlocked"]
+new = "Entrance blocked"
+status = "normal"
+
+["HDBF.Warning.Shutdown"]
+new = "Maintenance overdue"
+status = "normal"
+
+["HDBF.Warning.AdapterFailed"]
+new = "Entrance blocked"
+status = "normal"
+
+["HDBF.Warning.OutputFull"]
+new = "Output inventory full"
+status = "normal"
+
+["HDBF.Warning.NoWorkers"]
+new = "No workers on duty"
+status = "normal"
+
+["HDBF.Warning.MissingMaterial"]
+new = "Maintenance material missing"
+status = "normal"
+
+["HDBF.Warning.InvalidCrop"]
+new = "Invalid fixed crop"
+status = "normal"
+
+["HDBF.Warning.MoreWarnings"]
+new = "{0} more warnings"
+status = "normal"
+
+["HDBF.Warning.Generic"]
+new = "Warning"
+status = "normal"
+
+["HDBF.Panel.WarningAggregate"]
+new = "Also {0} buildings: {1}"
+status = "normal"
+
+["HDBF.Panel.WarningAggregateHint"]
+new = "Click a row to expand its buildings."
+status = "normal"
+
+["HDBF.Panel.SettingWorldIcons"]
+new = "World warning icons"
+status = "normal"
+
+["HDBF.Panel.SettingWorldIconBlink"]
+new = "Blink warning icons"
+status = "normal"
+
+["HDBF.Panel.SettingWorldIconDistance"]
+new = "Icon distance (cells)"
+status = "normal"
+
+["HDBF.Tooltip.WorldIcon"]
+new = "{0} (P0/P1 world icon; hidden beyond {1} cells)"
+status = "normal"
+
+["HDBF.Compat.MissingMod"]
+new = "Compatible mod not detected: {0}"
+status = "normal"
+
+["HDBF.Compat.ShowDetails"]
+new = "Show compatibility"
+status = "normal"
+
+["HDBF.Compat.Adapter.ConveyorBeltsV2"]
+new = "Conveyor Belts V2 adapter"
+status = "normal"
+
+["HDBF.Compat.Adapter.HoomanStairs"]
+new = "Hooman Stairs adapter"
+status = "normal"
+
+["HDBF.Compat.Adapter.MoreMines"]
+new = "More Mines adapter"
+status = "normal"
+
+["HDBF.Compat.Adapter.PowerLines"]
+new = "Power Lines adapter"
+status = "normal"
+
+["HDBF.Compat.Adapter.TimberPipes"]
+new = "Timber Pipes adapter"
+status = "normal"
+
+["HDBF.Error.ActionFailed"]
+new = "The action could not be completed."
+status = "normal"
+
+["HDBF.Error.MaterialsMissing"]
+new = "Not enough maintenance materials."
+status = "normal"
+
+["HDBF.Error.DenseDisabled"]
+new = "Dense planting is disabled by the mod configuration."
+status = "normal"
+
+["HDBF.Error.NotBoxFarm"]
+new = "This building is not a High-Density Box Farm."
+status = "normal"
+
+["HDBF.Error.FarmNotActive"]
+new = "The farm is not active yet."
+status = "normal"
+
+["HDBF.Error.RefillUnavailable"]
+new = "Manual refill is not available in this build."
+status = "normal"
+
+["HDBF.Error.CropNotAvailable"]
+new = "That crop is not available to this faction."
+status = "normal"
+
+["HDBF.Error.MaintenanceUnavailable"]
+new = "This tier has no material maintenance."
+status = "normal"
+
+["HDBF.Error.InvalidMode"]
+new = "Invalid mode."
+status = "normal"
+
+["HDBF.Error.MissingMod"]
+new = "The required compatibility mod is not detected."
+status = "normal"
+
+["HDBF.Error.NoWorkers"]
+new = "No worker is on duty to fetch water."
+status = "normal"
+
+["HDBF.Error.EntranceBlocked"]
+new = "The entrance is blocked; a worker cannot leave for water."
+status = "normal"
+
+["HDBF.Error.NoWaterSource"]
+new = "No reachable water source within 12 cells."
+status = "normal"
+
+["HDBF.Error.WaterSourceUnreachable"]
+new = "A water source exists but no walk path reaches it."
+status = "normal"
+
+["HDBF.Error.WaterContaminated"]
+new = "The nearby water is contaminated and cannot fill the tank."
+status = "normal"
+
+["HDBF.Error.NoActionsLeft"]
+new = "Not enough actions are left today for a refill trip."
+status = "normal"
+
+["HDBF.Error.RefillPending"]
+new = "A refill trip is already queued."
+status = "normal"
+
+["HDBF.Error.OutputFull"]
+new = "The output inventory is full; nothing can be moved."
+status = "normal"
+
+["HDBF.Tooltip.EffectiveSlots"]
+new = "Effective slots P_eff = min({0}, {1} × {2})."
+status = "normal"
+
+["HDBF.Tooltip.Tank"]
+new = "Tank units and remaining days; coverage C must stay above C_min."
+status = "normal"
+
+["HDBF.Tooltip.Coverage"]
+new = "C is the tank coverage; growth falls below C_min and stops under a quarter of it."
+status = "normal"
+
+["HDBF.Tooltip.Maintenance"]
+new = "Consumes upkeep materials and resets the maintenance timer."
+status = "normal"
+
+["HDBF.Tooltip.MaintenanceShutdown"]
+new = "The farm is stalled; performing maintenance restores output."
+status = "normal"
+
+["HDBF.Tooltip.Power"]
+new = "Top tier: grid power gives full growth; off-grid or a power cut reduces it."
+status = "normal"
+
+["HDBF.Tooltip.Rotation"]
+new = "Rotation plants a different crop each cycle; fixed crop always replants the selected crop."
+status = "normal"
+
+["HDBF.Tooltip.Refill"]
+new = "Requests one manual refill trip."
+status = "normal"
+
+["HDBF.Tooltip.PipeWater"]
+new = "The pipe port supplies water automatically."
+status = "normal"
+
+["HDBF.Tooltip.NoWaterSource"]
+new = "No water source is connected; the tank only drains."
+status = "normal"
+
+["HDBF.Tooltip.Output"]
+new = "Output inventory and logistics port state."
+status = "normal"
+
+["HDBF.Tooltip.CurrentMode"]
+new = "This is the current mode."
+status = "normal"
+
+["HDBF.Tooltip.ModeNormal"]
+new = "Normal: no yield or water change."
+status = "normal"
+
+["HDBF.Tooltip.ModeDense"]
+new = "Dense: yield ×1.35 and water ×1.5."
+status = "normal"
+
+["HDBF.Tooltip.ModeFallow"]
+new = "Fallow: production stops while the soil recovers."
+status = "normal"
+
+["HDBF.Panel.SectionWorkers"]
+new = "Workers & efficiency"
+status = "normal"
+
+["HDBF.Panel.SectionActions"]
+new = "Actions"
+status = "normal"
+
+["HDBF.Panel.Subtitle"]
+new = "{0} · {1}"
+status = "normal"
+
+["HDBF.Panel.CrewLabel"]
+new = "Crew"
+status = "normal"
+
+["HDBF.Panel.CountValue"]
+new = "{0}/{1}"
+status = "normal"
+
+["HDBF.Panel.PercentValue"]
+new = "{0}%"
+status = "normal"
+
+["HDBF.Panel.EfficiencyLabel"]
+new = "Growth efficiency"
+status = "normal"
+
+["HDBF.Panel.CapacityLabel"]
+new = "Slot capacity"
+status = "normal"
+
+["HDBF.Panel.ConfiguredLabel"]
+new = "Configured"
+status = "normal"
+
+["HDBF.Panel.EffectiveLabel"]
+new = "Effective P_eff"
+status = "normal"
+
+["HDBF.Panel.EmptyLabel"]
+new = "Empty"
+status = "normal"
+
+["HDBF.Panel.GrowingLabel"]
+new = "Growing"
+status = "normal"
+
+["HDBF.Panel.HarvestLabel"]
+new = "Ready"
+status = "normal"
+
+["HDBF.Panel.BacklogLabel"]
+new = "Backlog"
+status = "normal"
+
+["HDBF.Panel.TankLabel"]
+new = "Tank"
+status = "normal"
+
+["HDBF.Panel.TankValue"]
+new = "{0}/{1} units"
+status = "normal"
+
+["HDBF.Panel.CoverageLabel"]
+new = "Coverage C"
+status = "normal"
+
+["HDBF.Panel.MinCoverageLabel"]
+new = "Minimum C_min"
+status = "normal"
+
+["HDBF.Panel.SupplyLabel"]
+new = "Water source"
+status = "normal"
+
+["HDBF.Panel.MaintenanceDueLabel"]
+new = "Next due day"
+status = "normal"
+
+["HDBF.Panel.MaintenanceCyclesLabel"]
+new = "Overdue cycles"
+status = "normal"
+
+["HDBF.Panel.MaintenanceMaterialLabel"]
+new = "Upkeep material"
+status = "normal"
+
+["HDBF.Panel.MaintenanceMaterialValue"]
+new = "{0} ×{1} / {2} days"
+status = "normal"
+
+["HDBF.Panel.PowerLabel"]
+new = "Power"
+status = "normal"
+
+["HDBF.Panel.CropPolicyLabel"]
+new = "Current policy"
+status = "normal"
+
+["HDBF.Panel.FixedCropLabel"]
+new = "Fixed crop"
+status = "normal"
+
+["HDBF.Panel.RotationLabel"]
+new = "Rotation"
+status = "normal"
+
+["HDBF.Panel.OutputLabel"]
+new = "Output stock"
+status = "normal"
+
+["HDBF.Panel.OutputPortLabel"]
+new = "Output port"
+status = "normal"
+
+["HDBF.Panel.PortsLabel"]
+new = "Ports"
+status = "normal"
+
+["HDBF.Panel.BarTank"]
+new = "about {0} days"
+status = "normal"
+
+["HDBF.Panel.BarCoverage"]
+new = "C {0}% · min {1}%"
+status = "normal"
+
+["HDBF.Panel.BarSlots"]
+new = "{0}/{1} configured"
+status = "normal"
+
+["HDBF.Panel.BarOutput"]
+new = "{0}/{1} stored"
+status = "normal"
+
+["HDBF.Panel.WorkerNote"]
+new = "Workers are assigned by the game; beaver names are not exposed to mods."
+status = "normal"
+
+["HDBF.Panel.WorkerVacant"]
+new = "Vacant"
+status = "normal"
+
+["HDBF.Tooltip.WorkerName"]
+new = "This roster is read-only: the game assigns the workers."
+status = "normal"
+
+["HDBF.Tooltip.Slots"]
+new = "Tier slot capacity; P_eff is how many slots the current crew can tend."
+status = "normal"
+
+["HDBF.Tooltip.Workers"]
+new = "On-duty crew of the building (read-only)."
+status = "normal"
+
+["HDBF.Tooltip.Efficiency"]
+new = "Irrigation growth multiplier G_irr from tank coverage C: 100% at or above C_min."
+status = "normal"
