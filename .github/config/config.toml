@@ -26,18 +26,18 @@ extra_protect_string_ids = ["Beaver.NamePool", "MainMenu.RosettaOn", "Settings.L
 
 [rate_limiter]
 # Maximum requests per minute (RPM)
-max_requests_per_minute = 4000
+max_requests_per_minute = 600
 
 # File-level concurrency: how many files to translate in parallel.
 # Each file processes entries sequentially, but translates all languages
 # within an entry in parallel (up to max_threads_per_file).
 # This model prevents over-parallelization and reduces rate-limit pressure.
-max_threads = 10
+max_threads = 2
 
 # Maximum language-level threads per entry.
 # Within each entry, all target languages are translated in parallel.
 # With 12 target languages, setting this to 12 means all languages translate at once.
-max_threads_per_file = 0
+max_threads_per_file = 2
 
 # Cost control settings
 # Maximum cost per run in USD. Translation will stop if this limit is reached.
@@ -49,11 +49,11 @@ cost_warning_threshold = 5.0
 
 [llm]
 # LLM model to use for translation
-model = "gpt-6-luna"
-reasoning_effort = "none"
+model = "claude-haiku-5-5"
 
 # API endpoint (OpenAI-compatible)
-api_url = "https://api.openai.com/v1/chat/completions"
+api_url = "https://llm.leisiyu.dev/v1/chat/completions"
+max_output_tokens = 1024
 
 # Minimum text length to translate
 min_length = 1

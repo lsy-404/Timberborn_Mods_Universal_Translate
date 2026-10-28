@@ -12,6 +12,8 @@ import time
 import json
 import logging
 import threading
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 import requests
 from typing import List, Optional
 
@@ -21,33 +23,64 @@ from translation_prompt import (
 )
 
 
-class TranslatorLLM:
-    """Luna localization with rate limiting and cache-aware budget accounting."""
+MAX_RATE_LIMIT_RETRIES = 1
+MAX_RETRY_AFTER_SECONDS = 30
 
-    PRICES_PER_MILLION = {"input": 0.10, "cached": 0.01, "write": 0.125, "output": 0.50}
-    MAX_COMPLETION_TOKENS = 8192
+
+def _retry_after_seconds(response):
+    value = getattr(response, 'headers', {}).get('Retry-After')
+    if value is None:
+        return None
+    try:
+        delay = float(value)
+    except (TypeError, ValueError):
+        try:
+            retry_at = parsedate_to_datetime(value)
+            if retry_at.tzinfo is None:
+                retry_at = retry_at.replace(tzinfo=timezone.utc)
+            delay = (retry_at - datetime.now(timezone.utc)).total_seconds()
+        except (TypeError, ValueError, OverflowError):
+            return None
+    if delay < 0:
+        return None
+    return min(delay, MAX_RETRY_AFTER_SECONDS)
+
+
+class TranslatorLLM:
+    """Haiku localization with rate limiting and budget accounting."""
+
+    PRICES_PER_MILLION = {
+        'input': 0.10, 'output': 0.50,
+        'long_context_threshold': 100_000,
+        'long_context_input': 0.50, 'long_context_output': 2.50,
+    }
+    MAX_COMPLETION_TOKENS = 1024
     MAX_ATTEMPTS = 2
 
     def __init__(
         self,
         api_token: str,
-        model: str = "gpt-6-luna",
-        api_url: str = "https://api.openai.com/v1/chat/completions",
+        model: str = "claude-haiku-5-5",
+        api_url: str = "https://llm.leisiyu.dev/v1/chat/completions",
         min_length: int = 1,
         max_length: int = 5000,
+        max_output_tokens: int = 1024,
         rate_limit: str = "10/m",
         max_cost: float = 0.0,
         cost_warning_threshold: float = 1.0,
         reasoning_effort: str = "none",
     ):
-        if model != "gpt-6-luna" or reasoning_effort != "none":
-            raise ValueError("Production localization requires gpt-6-luna with reasoning_effort=none")
+        if model != 'claude-haiku-5-5' or reasoning_effort != 'none':
+            raise ValueError('Production localization requires claude-haiku-5-5')
+        if type(max_output_tokens) is not int or max_output_tokens < 1 or max_output_tokens > 1024:
+            raise ValueError('max_output_tokens must be an integer from 1 to 1024')
         self.api_token = api_token
         self.model = model
         self.reasoning_effort = reasoning_effort
         self.api_url = api_url
         self.min_length = min_length
         self.max_length = max_length
+        self.max_output_tokens = max_output_tokens
         self.rate_limit = rate_limit
         self.request_history = []
         self._rate_limit_lock = threading.Lock()
@@ -97,8 +130,8 @@ class TranslatorLLM:
         # UTF-8 bytes bound the text token count without an extra runtime dependency.
         input_bound = len(json.dumps(messages, ensure_ascii=False).encode('utf-8')) + 128
         prices = self.PRICES_PER_MILLION
-        maximum = (input_bound * max(prices['input'], prices['write'])
-                   + self.MAX_COMPLETION_TOKENS * prices['output']) / 1e6
+        maximum = (input_bound * prices['input']
+                   + self.max_output_tokens * prices['output']) / 1e6
         with self._cost_lock:
             if self.unknown_cost_requests or (self.max_cost > 0 and self.total_cost + self.reserved_cost + maximum > self.max_cost):
                 self.logger.warning("Translation paused: insufficient budget or incomplete usage accounting")
@@ -109,11 +142,12 @@ class TranslatorLLM:
 
     @classmethod
     def usage_metrics(cls, usage):
-        details = usage['prompt_tokens_details']
+        details = usage.get('prompt_tokens_details') or {}
+        completion_details = usage.get('completion_tokens_details') or {}
         metrics = {
             'input': usage['prompt_tokens'], 'output': usage['completion_tokens'],
-            'cached': details['cached_tokens'], 'write': details['cache_write_tokens'],
-            'reasoning': usage['completion_tokens_details']['reasoning_tokens'],
+            'cached': details.get('cached_tokens', 0), 'write': details.get('cache_write_tokens', 0),
+            'reasoning': completion_details.get('reasoning_tokens', 0),
         }
         if any(type(value) is not int or value < 0 for value in metrics.values()):
             raise ValueError('Invalid token usage')
@@ -122,8 +156,12 @@ class TranslatorLLM:
             raise ValueError('Inconsistent token usage')
         metrics['total'] = metrics['input'] + metrics['output']
         prices = cls.PRICES_PER_MILLION
-        cost = (metrics['ordinary'] * prices['input'] + metrics['cached'] * prices['cached']
-                + metrics['write'] * prices['write'] + metrics['output'] * prices['output']) / 1e6
+        input_rate = prices['input']
+        output_rate = prices['output']
+        if metrics['input'] > prices['long_context_threshold']:
+            input_rate = prices['long_context_input']
+            output_rate = prices['long_context_output']
+        cost = (metrics['input'] * input_rate + metrics['output'] * output_rate) / 1e6
         return metrics, cost
 
     def translate(self, text: str, target_language: str, system_prompt: List[dict], user_prompt: str,
@@ -166,6 +204,9 @@ class TranslatorLLM:
                 break
             self.logger.warning('Retrying translation after %s (attempt %s/%s)',
                                 retry_reason, attempt + 2, self.MAX_ATTEMPTS)
+            if retry_reason.startswith('HTTP 429;'):
+                time.sleep(float(retry_reason.split(';', 1)[1]))
+                continue
             if not retry_reason.startswith('HTTP '):
                 feedback = (
                     f'The previous response failed validation: {retry_reason}. '
@@ -193,11 +234,7 @@ class TranslatorLLM:
         reservation = self._reserve_cost(messages)
         if reservation is None:
             return None, None
-        data = {
-            'model': self.model, 'reasoning_effort': self.reasoning_effort,
-            'service_tier': 'default', 'max_completion_tokens': self.MAX_COMPLETION_TOKENS,
-            'prompt_cache_options': {'mode': 'explicit', 'ttl': '30m'}, 'messages': messages,
-        }
+        data = {'model': self.model, 'max_tokens': self.max_output_tokens, 'messages': messages}
         actual_cost = None
         metrics = None
         succeeded = False
@@ -212,16 +249,19 @@ class TranslatorLLM:
             if response.status_code != 200:
                 actual_cost = 0.0
                 self.logger.error(f'Translation failed: HTTP {response.status_code}: {response.text.replace(self.api_token, "[redacted]")}')
-                retry = f'HTTP {response.status_code}' if response.status_code in (500, 502, 503, 504) else None
+                retry_after = _retry_after_seconds(response) if response.status_code == 429 else None
+                retry = (f'HTTP 429;{retry_after}' if retry_after is not None else
+                         f'HTTP {response.status_code}' if response.status_code in (500, 502, 503, 504) else None)
                 return None, retry
             payload = response.json()
             metrics, actual_cost = self.usage_metrics(payload['usage'])
-            returned_model = payload['model']
+            returned_model = payload.get('model', self.model)
             with self._cost_lock:
                 self.returned_models.add(returned_model)
             choice = payload['choices'][0]
-            if not returned_model.startswith(self.model) or metrics['reasoning'] != 0 or choice['finish_reason'] != 'stop':
-                self.logger.error(f'Rejected completion: model={returned_model}, reasoning={metrics["reasoning"]}, finish={choice["finish_reason"]}')
+            finish_reason = choice.get('finish_reason', 'stop')
+            if not returned_model.startswith(self.model) or metrics['reasoning'] != 0 or finish_reason != 'stop':
+                self.logger.error(f'Rejected completion: model={returned_model}, reasoning={metrics["reasoning"]}, finish={finish_reason}')
                 return None, None
             translated = choice['message']['content']
             if not isinstance(translated, str) or not translated.strip():

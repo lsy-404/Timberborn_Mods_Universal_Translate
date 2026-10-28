@@ -1651,11 +1651,11 @@ def main():
         
         translator = TranslatorLLM(
             api_token=api_token,
-            model=llm_config.get("model", "gpt-6-luna"),
-            reasoning_effort=llm_config.get("reasoning_effort", "none"),
-            api_url=llm_config.get("api_url", "https://api.openai.com/v1/chat/completions"),
+            model=llm_config.get("model", "claude-haiku-5-5"),
+            api_url=llm_config.get("api_url", "https://llm.leisiyu.dev/v1/chat/completions"),
             min_length=llm_config.get("min_length", 1),
             max_length=llm_config.get("max_length", 5000),
+            max_output_tokens=llm_config.get("max_output_tokens", 1024),
             rate_limit=rate_limit,
             max_cost=max_cost,
             cost_warning_threshold=cost_warning

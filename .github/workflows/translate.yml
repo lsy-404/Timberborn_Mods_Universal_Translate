@@ -3,6 +3,10 @@ name: Auto Translate Mods
 permissions:
   contents: write
 
+concurrency:
+  group: tmut-translation
+  cancel-in-progress: false
+
 on:
   workflow_dispatch:
     inputs:
