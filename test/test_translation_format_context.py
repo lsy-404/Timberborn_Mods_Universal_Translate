@@ -22,10 +22,15 @@ from translator import TranslatorLLM
 
 def completion(text):
     return Mock(status_code=200, json=Mock(return_value={
-        'model': 'gpt-6-luna',
+        'model': 'claude-haiku-5-5',
         'choices': [{'message': {'content': text}, 'finish_reason': 'stop'}],
         'usage': {'prompt_tokens': 2000, 'completion_tokens': 100,
-                  'prompt_tokens_details': {'cached_tokens': 1200, 'cache_write_tokens': 300},
+                  'prompt_tokens_details': {
+                      'cached_tokens': 1200, 'cache_write_tokens': 300,
+                      'cache_creation_token_details': {
+                          'ephemeral_5m_input_tokens': 300, 'ephemeral_1h_input_tokens': 0,
+                      },
+                  },
                   'completion_tokens_details': {'reasoning_tokens': 0}},
     }))
 

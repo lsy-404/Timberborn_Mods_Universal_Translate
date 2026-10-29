@@ -23,10 +23,15 @@ from translation_prompt import protected_format_issues, restore_source_line_brea
 
 def response(text='动力输出：{0} hp\n储存 150 hph。', finish='stop', reasoning=0):
     return Mock(status_code=200, json=Mock(return_value={
-        'model': 'gpt-6-luna',
+        'model': 'claude-haiku-5-5',
         'choices': [{'message': {'content': text}, 'finish_reason': finish}],
         'usage': {'prompt_tokens': 2000, 'completion_tokens': 100,
-                  'prompt_tokens_details': {'cached_tokens': 1200, 'cache_write_tokens': 300},
+                  'prompt_tokens_details': {
+                      'cached_tokens': 1200, 'cache_write_tokens': 300,
+                      'cache_creation_token_details': {
+                          'ephemeral_5m_input_tokens': 300, 'ephemeral_1h_input_tokens': 0,
+                      },
+                  },
                   'completion_tokens_details': {'reasoning_tokens': reasoning}},
     }))
 
@@ -48,8 +53,8 @@ class ProductionTranslationTests(unittest.TestCase):
         )
 
     def test_production_defaults_and_context_bounds_for_every_language(self):
-        self.assertEqual(self.config['llm']['model'], 'gpt-6-luna')
-        self.assertEqual(self.config['llm']['reasoning_effort'], 'none')
+        self.assertEqual(self.config['llm']['model'], 'claude-haiku-5-5')
+        self.assertEqual(self.config['llm']['max_output_tokens'], 1024)
         encoding = tiktoken.get_encoding('o200k_base')
         for language in self.config['languages']['supported']:
             parts = system_prompt_parts(language, translate_mods.LANGUAGE_NAMES[language])
@@ -81,14 +86,17 @@ class ProductionTranslationTests(unittest.TestCase):
         system, user = self.prompts()
         self.assertIsNotNone(translator.translate(json.loads(user)['source_text'], 'zhCN', system, user))
         body = post.call_args.kwargs['json']
-        self.assertEqual(body['model'], 'gpt-6-luna')
-        self.assertEqual(body['reasoning_effort'], 'none')
-        self.assertEqual(body['service_tier'], 'default')
-        self.assertEqual(body['prompt_cache_options'], {'mode': 'explicit', 'ttl': '30m'})
+        self.assertEqual(body['model'], 'claude-haiku-5-5')
+        self.assertEqual(body['max_tokens'], 1024)
+        self.assertNotIn('reasoning_effort', body)
+        self.assertNotIn('service_tier', body)
+        self.assertNotIn('prompt_cache_options', body)
         report = translator.get_cost_summary_dict()
         self.assertEqual(report['ordinary_input_tokens'], 500)
         self.assertEqual(report['cached_tokens'], 1200)
         self.assertEqual(report['cache_write_tokens'], 300)
+        self.assertEqual(report['cache_write_5m_tokens'], 300)
+        self.assertEqual(report['cache_write_1h_tokens'], 0)
         self.assertAlmostEqual(report['estimated_cost_usd'], 0.0001495)
         self.assertEqual(report['reserved_cost_usd'], 0)
 
@@ -114,7 +122,7 @@ class ProductionTranslationTests(unittest.TestCase):
     @patch('translator.requests.post')
     def test_unknown_usage_reserves_cost_and_stops_new_requests(self, post):
         payload = response().json()
-        del payload['usage']['prompt_tokens_details']['cache_write_tokens']
+        del payload['usage']['completion_tokens']
         post.return_value = Mock(status_code=200, json=Mock(return_value=payload))
         translator = self.translator(max_cost=1)
         system, user = self.prompts()
@@ -143,8 +151,8 @@ class ProductionTranslationTests(unittest.TestCase):
                 raise RuntimeError('test request was not released')
             return response()
         post.side_effect = blocked
-        translator = self.translator(max_cost=0.008)
-        translator._cache_warmed = True
+        translator = self.translator(max_cost=0.0035)
+        translator._initial_request_completed = True
         system, user = self.prompts()
         source = json.loads(user)['source_text']
         with ThreadPoolExecutor(max_workers=2) as pool:
@@ -233,6 +241,26 @@ class ProductionTranslationTests(unittest.TestCase):
         payload['prompt_tokens'] = 10
         with self.assertRaises(ValueError):
             TranslatorLLM.usage_metrics(payload)
+
+    def test_cache_creation_ttl_and_long_context_rates(self):
+        usage = {
+            'prompt_tokens': 100_001, 'completion_tokens': 100,
+            'prompt_tokens_details': {
+                'cached_tokens': 10, 'cache_write_tokens': 10,
+                'cache_creation_token_details': {
+                    'ephemeral_5m_input_tokens': 2, 'ephemeral_1h_input_tokens': 8,
+                },
+            },
+        }
+        metrics, cost = TranslatorLLM.usage_metrics(usage)
+        self.assertEqual(metrics['ordinary'], 99_981)
+        self.assertEqual(metrics['write_5m'], 2)
+        self.assertEqual(metrics['write_1h'], 8)
+        self.assertAlmostEqual(cost, 0.05025025)
+        del usage['prompt_tokens_details']['cache_creation_token_details']['ephemeral_1h_input_tokens']
+        metrics, partial_details_cost = TranslatorLLM.usage_metrics(usage)
+        self.assertEqual(metrics['write_1h'], 8)
+        self.assertAlmostEqual(partial_details_cost, cost)
 
     @patch('translator.requests.post')
     def test_concurrent_settlement_leaves_no_budget_reservation(self, post):

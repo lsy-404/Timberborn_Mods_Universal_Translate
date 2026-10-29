@@ -19,10 +19,15 @@ import translation_prompt
 
 def completion(text):
     return Mock(status_code=200, json=Mock(return_value={
-        'model': 'gpt-6-luna',
+        'model': 'claude-haiku-5-5',
         'choices': [{'message': {'content': text}, 'finish_reason': 'stop'}],
         'usage': {'prompt_tokens': 2000, 'completion_tokens': 100,
-                  'prompt_tokens_details': {'cached_tokens': 1200, 'cache_write_tokens': 300},
+                  'prompt_tokens_details': {
+                      'cached_tokens': 1200, 'cache_write_tokens': 300,
+                      'cache_creation_token_details': {
+                          'ephemeral_5m_input_tokens': 300, 'ephemeral_1h_input_tokens': 0,
+                      },
+                  },
                   'completion_tokens_details': {'reasoning_tokens': 0}},
     }))
 
@@ -88,8 +93,8 @@ class NamePoolTests(unittest.TestCase):
         self.assertTrue(all(len(source) <= 20 for source in sources))
         for call in self.post.call_args_list:
             data = call.kwargs['json']
-            self.assertEqual(data['model'], 'gpt-6-luna')
-            self.assertEqual(data['reasoning_effort'], 'none')
+            self.assertEqual(data['model'], 'claude-haiku-5-5')
+            self.assertEqual(data['max_tokens'], 1024)
             context = json.loads(data['messages'][1]['content'])['context']
             self.assertEqual(context['mod'], 'Synthetic Names')
             self.assertEqual(context['key'], 'Beaver.NamePool')
@@ -205,7 +210,7 @@ class NamePoolTests(unittest.TestCase):
 
     def test_unknown_usage_between_chunks_stops_without_saving(self):
         payload = completion('Имя').json()
-        del payload['usage']['prompt_tokens_details']['cache_write_tokens']
+        del payload['usage']['completion_tokens']
         self.post.return_value = Mock(status_code=200, json=Mock(return_value=payload))
         client = self.client(max_length=20)
         with tempfile.TemporaryDirectory() as directory:

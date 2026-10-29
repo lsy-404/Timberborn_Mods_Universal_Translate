@@ -1,0 +1,8 @@
+# Findings
+
+- Anthropic's current Haiku 5.5 rates per million tokens are: up to 100K prompt tokens, input $0.10, cache read $0.01, 5-minute cache write $0.125, 1-hour cache write $0.20, output $0.50; above 100K, $0.50, $0.05, $0.625, $1.00, and $2.50 respectively. Official sources: https://www.anthropic.com/claude-haiku-5-5 and https://platform.claude.com/docs/en/build-with-claude/prompt-caching
+- The pinned LiteLLM 1.106.5 `Usage` shape normalizes cache reads/writes under `prompt_tokens_details`, with `cache_creation_token_details.ephemeral_5m_input_tokens` and `ephemeral_1h_input_tokens` for TTL classification. Source: https://github.com/BerriAI/litellm/blob/v1.106.5/litellm/types/utils.py
+- Prompt tokens include ordinary, cache-read, and cache-creation counts. Cost partitions ordinary input from cache reads and writes, counts TTL buckets separately, and applies the >100K tier to all prompt-token categories.
+- If LiteLLM reports a cache-write total but omits its TTL split, the unmatched remainder is charged at the 1-hour rate. A reservation uses the 1-hour write ceiling. Missing or malformed required prompt/completion usage remains unknown and blocks further requests.
+- The old recovery/production fixtures used the retired model, request fields, cache flag, and cache rates. They now assert the active Haiku shape without a legacy model compatibility path.
+- Windows tests require `-X utf8` for temporary TOML fixtures. `tiktoken==0.14.0` was installed under the system temporary directory solely to run the focused production suite; no dependency or environment file in the repository changed.

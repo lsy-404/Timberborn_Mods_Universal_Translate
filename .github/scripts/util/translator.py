@@ -49,11 +49,12 @@ class TranslatorLLM:
     """Haiku localization with rate limiting and budget accounting."""
 
     PRICES_PER_MILLION = {
-        'input': 0.10, 'output': 0.50,
+        'input': 0.10, 'cached': 0.01, 'write_5m': 0.125, 'write_1h': 0.20, 'output': 0.50,
         'long_context_threshold': 100_000,
-        'long_context_input': 0.50, 'long_context_output': 2.50,
+        'long_context_input': 0.50, 'long_context_cached': 0.05,
+        'long_context_write_5m': 0.625, 'long_context_write_1h': 1.0,
+        'long_context_output': 2.50,
     }
-    MAX_COMPLETION_TOKENS = 1024
     MAX_ATTEMPTS = 2
 
     def __init__(
@@ -67,15 +68,13 @@ class TranslatorLLM:
         rate_limit: str = "10/m",
         max_cost: float = 0.0,
         cost_warning_threshold: float = 1.0,
-        reasoning_effort: str = "none",
     ):
-        if model != 'claude-haiku-5-5' or reasoning_effort != 'none':
+        if model != 'claude-haiku-5-5':
             raise ValueError('Production localization requires claude-haiku-5-5')
         if type(max_output_tokens) is not int or max_output_tokens < 1 or max_output_tokens > 1024:
             raise ValueError('max_output_tokens must be an integer from 1 to 1024')
         self.api_token = api_token
         self.model = model
-        self.reasoning_effort = reasoning_effort
         self.api_url = api_url
         self.min_length = min_length
         self.max_length = max_length
@@ -88,7 +87,9 @@ class TranslatorLLM:
         self.logger = logging.getLogger(self.__class__.__name__)
         self._parse_rate_limit()
         self._cost_lock = threading.Lock()
-        self.total_tokens = dict.fromkeys(("input", "ordinary", "cached", "write", "output", "reasoning", "total"), 0)
+        self.total_tokens = dict.fromkeys((
+            "input", "ordinary", "cached", "write", "write_5m", "write_1h", "output", "reasoning", "total"
+        ), 0)
         self.total_cost = 0.0
         self.reserved_cost = 0.0
         self._in_flight_requests = 0
@@ -129,8 +130,10 @@ class TranslatorLLM:
         # UTF-8 bytes bound the text token count without an extra runtime dependency.
         input_bound = len(json.dumps(messages, ensure_ascii=False).encode('utf-8')) + 128
         prices = self.PRICES_PER_MILLION
-        maximum = (input_bound * prices['input']
-                   + self.max_output_tokens * prices['output']) / 1e6
+        is_long_context = input_bound > prices['long_context_threshold']
+        input_rate = prices['long_context_write_1h'] if is_long_context else prices['write_1h']
+        output_rate = prices['long_context_output'] if is_long_context else prices['output']
+        maximum = (input_bound * input_rate + self.max_output_tokens * output_rate) / 1e6
         with self._cost_lock:
             if self.unknown_cost_requests or (self.max_cost > 0 and self.total_cost + self.reserved_cost + maximum > self.max_cost):
                 self.logger.warning("Translation paused: insufficient budget or incomplete usage accounting")
@@ -141,26 +144,61 @@ class TranslatorLLM:
 
     @classmethod
     def usage_metrics(cls, usage):
+        if not isinstance(usage, dict):
+            raise ValueError('Missing token usage')
         details = usage.get('prompt_tokens_details') or {}
+        if not isinstance(details, dict):
+            raise ValueError('Invalid prompt token details')
         completion_details = usage.get('completion_tokens_details') or {}
+        if not isinstance(completion_details, dict):
+            raise ValueError('Invalid completion token details')
+        creation_details = details.get('cache_creation_token_details') or {}
+        if not isinstance(creation_details, dict):
+            raise ValueError('Invalid cache creation token details')
+        write_5m = creation_details.get('ephemeral_5m_input_tokens')
+        write_1h = creation_details.get('ephemeral_1h_input_tokens')
+        write_5m = 0 if write_5m is None else write_5m
+        write_1h = 0 if write_1h is None else write_1h
+        write_total = details.get('cache_write_tokens')
+        if write_total is None:
+            write_total = details.get('cache_creation_tokens')
+        if write_total is None:
+            write_total = write_5m + write_1h
+        else:
+            known_breakdown = write_5m + write_1h
+            if known_breakdown > write_total:
+                raise ValueError('Inconsistent cache creation token usage')
+            if known_breakdown < write_total:
+                write_1h += write_total - known_breakdown
+        cached = details.get('cached_tokens', 0)
+        cached = 0 if cached is None else cached
         metrics = {
             'input': usage['prompt_tokens'], 'output': usage['completion_tokens'],
-            'cached': details.get('cached_tokens', 0), 'write': details.get('cache_write_tokens', 0),
+            'cached': cached, 'write': write_total, 'write_5m': write_5m, 'write_1h': write_1h,
             'reasoning': completion_details.get('reasoning_tokens', 0),
         }
         if any(type(value) is not int or value < 0 for value in metrics.values()):
             raise ValueError('Invalid token usage')
         metrics['ordinary'] = metrics['input'] - metrics['cached'] - metrics['write']
-        if metrics['ordinary'] < 0 or metrics['reasoning'] > metrics['output']:
+        if (metrics['ordinary'] < 0 or metrics['reasoning'] > metrics['output']
+                or metrics['write'] != metrics['write_5m'] + metrics['write_1h']):
             raise ValueError('Inconsistent token usage')
         metrics['total'] = metrics['input'] + metrics['output']
         prices = cls.PRICES_PER_MILLION
         input_rate = prices['input']
+        cached_rate = prices['cached']
+        write_5m_rate = prices['write_5m']
+        write_1h_rate = prices['write_1h']
         output_rate = prices['output']
         if metrics['input'] > prices['long_context_threshold']:
             input_rate = prices['long_context_input']
+            cached_rate = prices['long_context_cached']
+            write_5m_rate = prices['long_context_write_5m']
+            write_1h_rate = prices['long_context_write_1h']
             output_rate = prices['long_context_output']
-        cost = (metrics['input'] * input_rate + metrics['output'] * output_rate) / 1e6
+        cost = (metrics['ordinary'] * input_rate + metrics['cached'] * cached_rate
+                + metrics['write_5m'] * write_5m_rate + metrics['write_1h'] * write_1h_rate
+                + metrics['output'] * output_rate) / 1e6
         return metrics, cost
 
     def translate(self, text: str, target_language: str, system_prompt: List[dict], user_prompt: str,
@@ -305,7 +343,7 @@ class TranslatorLLM:
     def get_cost_summary_dict(self) -> dict:
         with self._cost_lock:
             return {
-                'model': self.model, 'reasoning_effort': self.reasoning_effort,
+                'model': self.model,
                 'returned_models': sorted(self.returned_models),
                 'request_count': self.request_count, 'success_count': self.success_count, 'fail_count': self.fail_count,
                 'recovered_fail_count': self.recovered_fail_count,
@@ -313,6 +351,8 @@ class TranslatorLLM:
                 'success_rate': self.success_count / max(1, self.request_count) * 100,
                 'input_tokens': self.total_tokens['input'], 'ordinary_input_tokens': self.total_tokens['ordinary'],
                 'cached_tokens': self.total_tokens['cached'], 'cache_write_tokens': self.total_tokens['write'],
+                'cache_write_5m_tokens': self.total_tokens['write_5m'],
+                'cache_write_1h_tokens': self.total_tokens['write_1h'],
                 'output_tokens': self.total_tokens['output'], 'reasoning_tokens': self.total_tokens['reasoning'],
                 'total_tokens': self.total_tokens['total'],
                 'cache_hit_rate': self.total_tokens['cached'] / max(1, self.total_tokens['input']),

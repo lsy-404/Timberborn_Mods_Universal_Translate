@@ -18,10 +18,15 @@ from translator import TranslatorLLM
 
 def completion(text='值 {0}'):
     return Mock(status_code=200, json=Mock(return_value={
-        'model': 'gpt-6-luna',
+        'model': 'claude-haiku-5-5',
         'choices': [{'message': {'content': text}, 'finish_reason': 'stop'}],
         'usage': {'prompt_tokens': 2000, 'completion_tokens': 100,
-                  'prompt_tokens_details': {'cached_tokens': 1200, 'cache_write_tokens': 300},
+                  'prompt_tokens_details': {
+                      'cached_tokens': 1200, 'cache_write_tokens': 300,
+                      'cache_creation_token_details': {
+                          'ephemeral_5m_input_tokens': 300, 'ephemeral_1h_input_tokens': 0,
+                      },
+                  },
                   'completion_tokens_details': {'reasoning_tokens': 0}},
     }))
 
@@ -126,7 +131,7 @@ class TranslationRecoveryTests(unittest.TestCase):
 
     def test_unknown_usage_never_retries_or_releases_unknown_cost(self):
         payload = completion().json()
-        del payload['usage']['prompt_tokens_details']['cache_write_tokens']
+        del payload['usage']['completion_tokens']
         self.post.return_value = Mock(status_code=200, json=Mock(return_value=payload))
         client = self.translator()
         self.assertIsNone(self.translate(client))
@@ -140,7 +145,7 @@ class TranslationRecoveryTests(unittest.TestCase):
 
     def test_unknown_usage_on_retry_stops_further_requests(self):
         payload = completion().json()
-        del payload['usage']['prompt_tokens_details']['cache_write_tokens']
+        del payload['usage']['completion_tokens']
         self.post.side_effect = [completion('值'), Mock(status_code=200, json=Mock(return_value=payload))]
         client = self.translator()
         self.assertIsNone(self.translate(client))
@@ -155,7 +160,7 @@ class TranslationRecoveryTests(unittest.TestCase):
 
     def test_concurrent_recoveries_keep_budget_and_counters_consistent(self):
         client = self.translator(max_cost=0.01)
-        client._cache_warmed = True
+        client._initial_request_completed = True
         first_attempts = threading.Barrier(2)
         lock = threading.Lock()
         attempts = {}
@@ -185,7 +190,7 @@ class TranslationRecoveryTests(unittest.TestCase):
 
     def test_retry_respects_existing_run_budget(self):
         self.post.return_value = completion('值')
-        client = self.translator(max_cost=0.00425)
+        client = self.translator(max_cost=0.0007)
         self.assertIsNone(self.translate(client))
         self.post.assert_called_once()
         report = client.get_cost_summary_dict()
