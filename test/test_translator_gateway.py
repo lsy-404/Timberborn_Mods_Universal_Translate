@@ -1,8 +1,10 @@
 from pathlib import Path
 import json
 import sys
+import threading
 import tomllib
 import unittest
+from concurrent.futures import ThreadPoolExecutor
 from types import SimpleNamespace
 from unittest.mock import call, patch
 
@@ -89,6 +91,39 @@ class GatewayTranslationTests(unittest.TestCase):
         for value in (0, -1, True, 1.5):
             with self.subTest(value=value), self.assertRaises(ValueError):
                 TranslatorLLM("test-token", max_output_tokens=value)
+
+    @patch("translator.requests.post")
+    def test_requests_run_concurrently_after_uncached_initial_success(self, post):
+        simultaneous_requests = threading.Barrier(2)
+        initial_call_finished = threading.Event()
+
+        def accepted_response(*args, **kwargs):
+            return SimpleNamespace(
+                status_code=200,
+                json=lambda: {
+                    "model": "claude-haiku-5-5",
+                    "choices": [{"message": {"content": "translated"}, "finish_reason": "stop"}],
+                    "usage": {"prompt_tokens": 12, "completion_tokens": 2, "total_tokens": 14},
+                },
+            )
+
+        def request(*args, **kwargs):
+            if initial_call_finished.is_set():
+                simultaneous_requests.wait(timeout=3)
+            return accepted_response()
+
+        post.side_effect = request
+        translator = TranslatorLLM("test-token", rate_limit="")
+        self.assertEqual(translator.translate("warmup", "frFR", [], "warmup"), "translated")
+        self.assertTrue(translator._initial_request_completed)
+        initial_call_finished.set()
+        with ThreadPoolExecutor(max_workers=2) as pool:
+            results = list(pool.map(
+                lambda text: translator.translate(text, "frFR", [], text),
+                ("first", "second"),
+            ))
+        self.assertEqual(results, ["translated", "translated"])
+        self.assertEqual(post.call_count, 3)
 
 
 if __name__ == "__main__":

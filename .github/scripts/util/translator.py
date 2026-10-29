@@ -23,7 +23,6 @@ from translation_prompt import (
 )
 
 
-MAX_RATE_LIMIT_RETRIES = 1
 MAX_RETRY_AFTER_SECONDS = 30
 
 
@@ -85,7 +84,7 @@ class TranslatorLLM:
         self.request_history = []
         self._rate_limit_lock = threading.Lock()
         self._warmup_lock = threading.Lock()
-        self._cache_warmed = False
+        self._initial_request_completed = False
         self.logger = logging.getLogger(self.__class__.__name__)
         self._parse_rate_limit()
         self._cost_lock = threading.Lock()
@@ -181,11 +180,11 @@ class TranslatorLLM:
             with self._cost_lock:
                 self.unresolved_translation_count += 1
             return None
-        if not self._cache_warmed:
+        if not self._initial_request_completed:
             with self._warmup_lock:
-                if not self._cache_warmed:
+                if not self._initial_request_completed:
                     result = self._request(text, system_prompt, user_prompt, preserve_line_entries)
-                    self._cache_warmed = bool(self.total_tokens['cached'] or self.total_tokens['write'])
+                    self._initial_request_completed = result is not None
                     return result
         return self._request(text, system_prompt, user_prompt, preserve_line_entries)
 
