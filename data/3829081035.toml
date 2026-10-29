@@ -1,0 +1,3194 @@
+[_meta]
+name = "Deep Frontier"
+
+["Building.DeepDrill.DisplayName"]
+new = "Deep Drill"
+status = "normal"
+
+["Building.DeepDrill.Description"]
+new = "Extracts one unit of Deep Ore from an authored source stockpile using water and 1000 hp. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.DeepDrill.FlavorDescription"]
+new = "The first boring machine turns a finite deposit into a surface supply chain."
+status = "normal"
+
+["Building.DeepMine.DisplayName"]
+new = "Deep Mine"
+status = "normal"
+
+["Building.DeepMine.Description"]
+new = "Extracts four Deep Ore every cycle from a marked vein using water and 4000 hp. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.DeepMine.FlavorDescription"]
+new = "The vein is endless; the power bill is not."
+status = "normal"
+
+["Building.DeepProcessor.DisplayName"]
+new = "Deep Ore Processor"
+status = "normal"
+
+["Building.DeepProcessor.Description"]
+new = "Refines deep ore into a dense industrial alloy. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
+status = "normal"
+
+["Building.DeepProcessor.FlavorDescription"]
+new = "The ore is useless until the surface factory learns how to tame it."
+status = "normal"
+
+["Building.DeepOreSource.DisplayName"]
+new = "Deep Ore Source"
+status = "normal"
+
+["Building.DeepOreSource.Description"]
+new = "Map editor stockpile for a finite authored Deep Ore deposit."
+status = "normal"
+
+["Building.DeepOreSource.FlavorDescription"]
+new = "Fill this marker with Deep Ore while authoring the map; the drill consumes that deposit."
+status = "normal"
+
+["Building.DeepOreVein.DisplayName"]
+new = "Deep Ore Vein"
+status = "normal"
+
+["Building.DeepOreVein.Description"]
+new = "Map editor understructure that authorizes a permanent Deep Mine."
+status = "normal"
+
+["Building.DeepOreVein.FlavorDescription"]
+new = "This geological seam is inexhaustible, but reaching it requires an industrial mine."
+status = "normal"
+
+["Good.DeepOre.DisplayName"]
+new = "Deep ore"
+status = "normal"
+
+["Good.DeepOre.PluralDisplayName"]
+new = "Deep ore"
+status = "normal"
+
+["Good.DeepAlloy.DisplayName"]
+new = "Deep alloy"
+status = "normal"
+
+["Good.DeepAlloy.PluralDisplayName"]
+new = "Deep alloy"
+status = "normal"
+
+["Good.Compost.DisplayName"]
+new = "Compost"
+status = "normal"
+
+["Good.Compost.PluralDisplayName"]
+new = "Compost"
+status = "normal"
+
+["Good.Coal.DisplayName"]
+new = "Coal"
+status = "normal"
+
+["Good.Coal.PluralDisplayName"]
+new = "Coal"
+status = "normal"
+
+["Good.Chemical.DisplayName"]
+new = "Chemical"
+status = "normal"
+
+["Good.Chemical.PluralDisplayName"]
+new = "Chemical"
+status = "normal"
+
+["Good.RecoveredArtifact.DisplayName"]
+new = "Recovered Artifact"
+status = "normal"
+
+["Good.RecoveredArtifact.PluralDisplayName"]
+new = "Recovered Artifact"
+status = "normal"
+
+["Good.Fertilizer.DisplayName"]
+new = "Fertilizer"
+status = "normal"
+
+["Good.Fertilizer.PluralDisplayName"]
+new = "Fertilizer"
+status = "normal"
+
+["Good.FreshFish.DisplayName"]
+new = "Fresh Fish"
+status = "normal"
+
+["Good.FreshFish.PluralDisplayName"]
+new = "Fresh Fish"
+status = "normal"
+
+["Good.JuvenileFish.DisplayName"]
+new = "Juvenile Fish"
+status = "normal"
+
+["Good.JuvenileFish.PluralDisplayName"]
+new = "Juvenile Fish"
+status = "normal"
+
+["Good.FishOil.DisplayName"]
+new = "Fish Oil"
+status = "normal"
+
+["Good.FishOil.PluralDisplayName"]
+new = "Fish Oil"
+status = "normal"
+
+["Good.CannedFish.DisplayName"]
+new = "Canned Fish"
+status = "normal"
+
+["Good.CannedFish.PluralDisplayName"]
+new = "Canned Fish"
+status = "normal"
+
+["Good.EmergencyRation.DisplayName"]
+new = "Emergency Ration"
+status = "normal"
+
+["Good.EmergencyRation.PluralDisplayName"]
+new = "Emergency Ration"
+status = "normal"
+
+["Good.PackagedFood.DisplayName"]
+new = "Packaged Food"
+status = "normal"
+
+["Good.PackagedFood.PluralDisplayName"]
+new = "Packaged Food"
+status = "normal"
+
+["Good.Medicine.DisplayName"]
+new = "Medicine"
+status = "normal"
+
+["Good.Medicine.PluralDisplayName"]
+new = "Medicine"
+status = "normal"
+
+["Good.MedicalFood.DisplayName"]
+new = "Medical Food"
+status = "normal"
+
+["Good.MedicalFood.PluralDisplayName"]
+new = "Medical Food"
+status = "normal"
+
+["Good.SweetBerryCake.DisplayName"]
+new = "Sweet Berry Cake"
+status = "normal"
+
+["Good.SweetBerryCake.PluralDisplayName"]
+new = "Sweet Berry Cake"
+status = "normal"
+
+["Good.Flux.DisplayName"]
+new = "Flux"
+status = "normal"
+
+["Good.Flux.PluralDisplayName"]
+new = "Flux"
+status = "normal"
+
+["Good.HighGradeSteel.DisplayName"]
+new = "High Grade Steel"
+status = "normal"
+
+["Good.HighGradeSteel.PluralDisplayName"]
+new = "High Grade Steel"
+status = "normal"
+
+["Good.Alloy.DisplayName"]
+new = "Alloy"
+status = "normal"
+
+["Good.Alloy.PluralDisplayName"]
+new = "Alloy"
+status = "normal"
+
+["Good.Polymer.DisplayName"]
+new = "Polymer"
+status = "normal"
+
+["Good.Polymer.PluralDisplayName"]
+new = "Polymer"
+status = "normal"
+
+["Good.Lubricant.DisplayName"]
+new = "Lubricant"
+status = "normal"
+
+["Good.Lubricant.PluralDisplayName"]
+new = "Lubricant"
+status = "normal"
+
+["Good.MachineCore.DisplayName"]
+new = "Machine Core"
+status = "normal"
+
+["Good.MachineCore.PluralDisplayName"]
+new = "Machine Core"
+status = "normal"
+
+["Good.PowerModule.DisplayName"]
+new = "Power Module"
+status = "normal"
+
+["Good.PowerModule.PluralDisplayName"]
+new = "Power Module"
+status = "normal"
+
+["Good.FilterMedia.DisplayName"]
+new = "Filter Media"
+status = "normal"
+
+["Good.FilterMedia.PluralDisplayName"]
+new = "Filter Media"
+status = "normal"
+
+["Good.ConcentratedWaste.DisplayName"]
+new = "Concentrated Waste"
+status = "normal"
+
+["Good.ConcentratedWaste.PluralDisplayName"]
+new = "Concentrated Waste"
+status = "normal"
+
+["Good.CrudeOil.DisplayName"]
+new = "Crude Oil"
+status = "normal"
+
+["Good.CrudeOil.PluralDisplayName"]
+new = "Crude Oil"
+status = "normal"
+
+["Good.UraniumOre.DisplayName"]
+new = "Uranium Ore"
+status = "normal"
+
+["Good.UraniumOre.PluralDisplayName"]
+new = "Uranium Ore"
+status = "normal"
+
+["Good.Yellowcake.DisplayName"]
+new = "Yellowcake"
+status = "normal"
+
+["Good.Yellowcake.PluralDisplayName"]
+new = "Yellowcake"
+status = "normal"
+
+["Good.EnrichedFuel.DisplayName"]
+new = "Enriched Fuel"
+status = "normal"
+
+["Good.EnrichedFuel.PluralDisplayName"]
+new = "Enriched Fuel"
+status = "normal"
+
+["Good.PureWater.DisplayName"]
+new = "Pure Water"
+status = "normal"
+
+["Good.PureWater.PluralDisplayName"]
+new = "Pure Water"
+status = "normal"
+
+["Good.HydrogenGas.DisplayName"]
+new = "Hydrogen Gas"
+status = "normal"
+
+["Good.HydrogenGas.PluralDisplayName"]
+new = "Hydrogen Gas"
+status = "normal"
+
+["Good.OxygenGas.DisplayName"]
+new = "Oxygen Gas"
+status = "normal"
+
+["Good.OxygenGas.PluralDisplayName"]
+new = "Oxygen Gas"
+status = "normal"
+
+["Good.LiquidHydrogen.DisplayName"]
+new = "Liquid Hydrogen"
+status = "normal"
+
+["Good.LiquidHydrogen.PluralDisplayName"]
+new = "Liquid Hydrogen"
+status = "normal"
+
+["Good.LiquidOxygen.DisplayName"]
+new = "Liquid Oxygen"
+status = "normal"
+
+["Good.LiquidOxygen.PluralDisplayName"]
+new = "Liquid Oxygen"
+status = "normal"
+
+["Good.Cryocoolant.DisplayName"]
+new = "Cryocoolant"
+status = "normal"
+
+["Good.Cryocoolant.PluralDisplayName"]
+new = "Cryocoolant"
+status = "normal"
+
+["Good.RadioactiveWaste.DisplayName"]
+new = "Radioactive Waste"
+status = "normal"
+
+["Good.RadioactiveWaste.PluralDisplayName"]
+new = "Radioactive Waste"
+status = "normal"
+
+["Good.RocketAirframe.DisplayName"]
+new = "Rocket Airframe"
+status = "normal"
+
+["Good.RocketAirframe.PluralDisplayName"]
+new = "Rocket Airframe"
+status = "normal"
+
+["Good.PropulsionPackage.DisplayName"]
+new = "Propulsion Package"
+status = "normal"
+
+["Good.PropulsionPackage.PluralDisplayName"]
+new = "Propulsion Package"
+status = "normal"
+
+["Good.GuidanceComputer.DisplayName"]
+new = "Guidance Computer"
+status = "normal"
+
+["Good.GuidanceComputer.PluralDisplayName"]
+new = "Guidance Computer"
+status = "normal"
+
+["Good.MissionPayload.DisplayName"]
+new = "Mission Payload"
+status = "normal"
+
+["Good.MissionPayload.PluralDisplayName"]
+new = "Mission Payload"
+status = "normal"
+
+["Good.RecoveredTelemetry.DisplayName"]
+new = "Recovered Telemetry"
+status = "normal"
+
+["Good.RecoveredTelemetry.PluralDisplayName"]
+new = "Recovered Telemetry"
+status = "normal"
+
+["Good.IndustrialLicense.DisplayName"]
+new = "Industrial License"
+status = "normal"
+
+["Good.IndustrialLicense.PluralDisplayName"]
+new = "Industrial License"
+status = "normal"
+
+["Good.SpecialistLicense.DisplayName"]
+new = "Specialist License"
+status = "normal"
+
+["Good.SpecialistLicense.PluralDisplayName"]
+new = "Specialist License"
+status = "normal"
+
+["Good.FlightLicense.DisplayName"]
+new = "Flight License"
+status = "normal"
+
+["Good.FlightLicense.PluralDisplayName"]
+new = "Flight License"
+status = "normal"
+
+["Good.Electronics.DisplayName"]
+new = "Electronics"
+status = "normal"
+
+["Good.Electronics.PluralDisplayName"]
+new = "Electronics"
+status = "normal"
+
+["Good.ReactorCoolantWater.DisplayName"]
+new = "Reactor Coolant Water"
+status = "normal"
+
+["Good.ReactorCoolantWater.PluralDisplayName"]
+new = "Reactor Coolant Water"
+status = "normal"
+
+["Good.RecoveredMinerals.DisplayName"]
+new = "Recovered Minerals"
+status = "normal"
+
+["Good.RecoveredMinerals.PluralDisplayName"]
+new = "Recovered Minerals"
+status = "normal"
+
+["Good.ArchiveData.DisplayName"]
+new = "Archive Data"
+status = "normal"
+
+["Good.ArchiveData.PluralDisplayName"]
+new = "Archive Data"
+status = "normal"
+
+["Building.FertilizerWorks.DisplayName"]
+new = "Fertilizer works"
+status = "normal"
+
+["Building.FertilizerWorks.Description"]
+new = "Deep Frontier fertilizer works production building. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.FertilizerWorks.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.FishHatchery.DisplayName"]
+new = "Fish hatchery"
+status = "normal"
+
+["Building.FishHatchery.Description"]
+new = "Breeds juvenile fish from fresh fish, algae and water. Only the front door row needs the bank; the deck stands on piles that reach the riverbed up to 6 m down, and clean water must stand at least 0.2 m up the marked pens. Stops during droughts or badwater contamination. Requires 55 hp. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.FishHatchery.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.FisheryWorks.DisplayName"]
+new = "Fishery works"
+status = "normal"
+
+["Building.FisheryWorks.Description"]
+new = "Raises fresh fish from juveniles, algae and delivered water, or presses fish into oil. Its basins reflect stored water and its wheel runs during production. The wheel wing may stand out over water on piles up to 6 m deep. Requires 80 hp. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
+status = "normal"
+
+["Building.FisheryWorks.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.FoodPackagingWorks.DisplayName"]
+new = "Food packaging works"
+status = "normal"
+
+["Building.FoodPackagingWorks.Description"]
+new = "Deep Frontier food packaging works production building. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.FoodPackagingWorks.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.PublicHealthLab.DisplayName"]
+new = "Public health lab"
+status = "normal"
+
+["Building.PublicHealthLab.Description"]
+new = "Deep Frontier public health lab production building. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.PublicHealthLab.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.GroceryStore.DisplayName"]
+new = "Grocery store"
+status = "normal"
+
+["Building.GroceryStore.Description"]
+new = "Stocks canned fish, packaged food, algae and corn rations, and fermented cassava and soybeans. Two clerks restock 100 of each food. With 100 hp, an attending clerk and at least three stocked foods, nearby beavers gain up to +2 wellbeing within eight cells. Food remains available during power cuts and off-duty hours."
+status = "normal"
+
+["Building.GroceryStore.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.Restaurant.DisplayName"]
+new = "Restaurant"
+status = "normal"
+
+["Building.Restaurant.Description"]
+new = "A 400 hp kitchen and dining hall. Workers serve fish, berries and prepared foods at tables, with coffee when stocked and water for thirsty diners. Ferments food and bakes sweet berry cake from berries, corn and water. Cake is cooked and eaten only here. Serves whichever main foods are in stock; a full meal of fish, berries, fermented mushrooms and eggplant rations also gives Fine Dining. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.Restaurant.FlavorDescription"]
+new = "A good meal deserves a table, a view and good company."
+status = "normal"
+
+["Building.Hospital.DisplayName"]
+new = "Hospital"
+status = "normal"
+
+["Building.Hospital.Description"]
+new = "Houses 30 patients, who stay admitted until cured and are fed and watered from its own stock. An assigned crew of six and 600 hp treat injury 80% faster than a medical bed, plus chipped teeth, badwater contamination and 10-day radiation decontamination, day and night. Uses medicine, water and extract while treating or attended. Attending, supplied staff grant neighborhood care up to +2 wellbeing within ten cells. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.Hospital.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.Greenhouse.DisplayName"]
+new = "Greenhouse"
+status = "normal"
+
+["Building.Greenhouse.Description"]
+new = "Deep Frontier greenhouse production building. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.Greenhouse.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.ChemicalWorks.DisplayName"]
+new = "Chemical works"
+status = "normal"
+
+["Building.ChemicalWorks.Description"]
+new = "Deep Frontier chemical works production building. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
+status = "normal"
+
+["Building.ChemicalWorks.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.PrecisionMachineWorks.DisplayName"]
+new = "Precision machine works"
+status = "normal"
+
+["Building.PrecisionMachineWorks.Description"]
+new = "Deep Frontier precision machine works production building. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.PrecisionMachineWorks.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.WaterTreatmentPlant.DisplayName"]
+new = "Water treatment plant"
+status = "normal"
+
+["Building.WaterTreatmentPlant.Description"]
+new = "Deep Frontier water treatment plant production building. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
+status = "normal"
+
+["Building.WaterTreatmentPlant.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.TechnicalSchool.DisplayName"]
+new = "Technical school"
+status = "normal"
+
+["Building.TechnicalSchool.Description"]
+new = "Deep Frontier technical school production building"
+status = "normal"
+
+["Building.TechnicalSchool.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.UraniumProcessingPlant.DisplayName"]
+new = "Uranium processing plant"
+status = "normal"
+
+["Building.UraniumProcessingPlant.Description"]
+new = "Deep Frontier uranium processing plant production building. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.UraniumProcessingPlant.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.RadioactiveWasteRefinery.DisplayName"]
+new = "Radioactive waste refinery"
+status = "normal"
+
+["Building.RadioactiveWasteRefinery.Description"]
+new = "Refines spent-fuel casks into radioactive sludge and recovered minerals, and cleans contaminated water. Requires 8000 hp. Haul its sludge to a Sludge Outfall or Radioactive Waste Export: when its sludge tanks are full, 6 sludge leaks every 24 hours and irradiates the soil within 3 tiles, killing crops. Pausing it seals the tanks. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
+status = "normal"
+
+["Building.RadioactiveWasteRefinery.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.ElectrolysisPlant.DisplayName"]
+new = "Electrolysis plant"
+status = "normal"
+
+["Building.ElectrolysisPlant.Description"]
+new = "Deep Frontier electrolysis plant production building. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
+status = "normal"
+
+["Building.ElectrolysisPlant.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.CryogenicLiquefactionPlant.DisplayName"]
+new = "Cryogenic liquefaction plant"
+status = "normal"
+
+["Building.CryogenicLiquefactionPlant.Description"]
+new = "Deep Frontier cryogenic liquefaction plant production building. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
+status = "normal"
+
+["Building.CryogenicLiquefactionPlant.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.RocketAssemblyHangar.DisplayName"]
+new = "Rocket assembly hangar"
+status = "normal"
+
+["Building.RocketAssemblyHangar.Description"]
+new = "Deep Frontier rocket assembly hangar production building"
+status = "normal"
+
+["Building.RocketAssemblyHangar.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.MissionControl.DisplayName"]
+new = "Mission control"
+status = "normal"
+
+["Building.MissionControl.Description"]
+new = "Deep Frontier mission control production building"
+status = "normal"
+
+["Building.MissionControl.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.LaunchPad.DisplayName"]
+new = "Launch pad"
+status = "normal"
+
+["Building.LaunchPad.Description"]
+new = "Launches the colony's rockets. Select a mission in the recipe list: haulers stage one complete rocket (airframes, propulsion, guidance, payload and telemetry) and its liquid hydrogen and oxygen; workers then prepare it under a 25000 hp load. Every launch consumes the whole rocket and fuel, and a launch can fail. Also produces guidance telemetry. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.LaunchPad.FlavorDescription"]
+new = "The colony's next industrial step is visible in every pipe and belt."
+status = "normal"
+
+["Building.SteelMill.DisplayName"]
+new = "Steel mill"
+status = "normal"
+
+["Building.SteelMill.Description"]
+new = "An electric-arc melt shop and rolling mill. Makes flux from scrap metal and deep ore, high-grade steel from metal blocks, coal and flux, and alloy from high-grade steel and deep alloy. Only 6 trained metallurgists can work here, and the work is extremely dangerous. Requires 2,500 hp. Its two smokestacks pollute the air nearby."
+status = "normal"
+
+["Building.SteelMill.FlavorDescription"]
+new = "Every reactor, rocket and machine core starts as a white-hot pour on this floor."
+status = "normal"
+
+["Building.ArchiveExcavation.DisplayName"]
+new = "Archive excavation"
+status = "normal"
+
+["Building.ArchiveExcavation.Description"]
+new = "Opens human ruins anywhere with explosive charges and treated-plank shoring to recover artifacts, then restores their data drives into archive data with grease and metal parts. A Human Record Cache within 4 tiles can be surveyed for extra archive data. 4 workers, dangerous work. Requires 400 hp. Its stove chimney pollutes the air nearby. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.ArchiveExcavation.FlavorDescription"]
+new = "The humans buried their warnings in the strata. Dig carefully."
+status = "normal"
+
+["Building.CryogenicTankFarm.DisplayName"]
+new = "Cryogenic tank farm"
+status = "normal"
+
+["Building.CryogenicTankFarm.Description"]
+new = "Stores up to 2,000 units of one cryogenic fuel, liquid hydrogen or liquid oxygen, delivered and drawn by pipes at its two front sockets or by haulers. Needs 1,000 hp to keep the fuel cold: without power the intake closes, and after 12 hours the stored fuel starts to vent. Pipes connect directly to its flat walls, without a valve."
+status = "normal"
+
+["Building.CryogenicTankFarm.FlavorDescription"]
+new = "The coldest place in the colony, kept that way at great expense."
+status = "normal"
+
+["Building.SmogScrubber.DisplayName"]
+new = "Smog scrubber"
+status = "normal"
+
+["Building.SmogScrubber.Description"]
+new = "Removes 75% of the smog within 7 tiles while powered and not paused; scrubbers and trees together remove at most 90%. No workers. Requires 200 hp."
+status = "normal"
+
+["Building.SmogScrubber.FlavorDescription"]
+new = "What goes up the smokestack comes down in the scrubber."
+status = "normal"
+
+["Building.Bathhouse.DisplayName"]
+new = "Bathhouse"
+status = "normal"
+
+["Building.Bathhouse.Description"]
+new = "Steam baths for up to 12 beavers: a warm soak, a massage and a wash in one visit (Mud Bath, Massager and Wet Fur). Uses 1 water per hour, piped in at the boiler-room socket or carried by haulers, and 300 hp. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.Bathhouse.FlavorDescription"]
+new = "The boilers run hot so the colony can run warm."
+status = "normal"
+
+["Building.TownPlaza.DisplayName"]
+new = "Town plaza"
+status = "normal"
+
+["Building.TownPlaza.Description"]
+new = "A civic square for up to 15 beavers, who dance to the bandstand and gather round the fountain (Dance Pit and Campfire). Needs no power or supplies."
+status = "normal"
+
+["Building.TownPlaza.FlavorDescription"]
+new = "Every frontier town needs one place where nothing is being built."
+status = "normal"
+
+["Building.ObservationDeck.DisplayName"]
+new = "Observation deck"
+status = "normal"
+
+["Building.ObservationDeck.Description"]
+new = "A viewing tower for up to 20 beavers on its deck: the climb up the helical stair is exercise and the view is a rooftop terrace (Exercise Plaza and Rooftop Terrace). Paths and platforms may be built on the deck."
+status = "normal"
+
+["Building.ObservationDeck.FlavorDescription"]
+new = "From up here, the whole frontier fits in one look."
+status = "normal"
+
+["Building.NuclearReactor.DisplayName"]
+new = "Nuclear Reactor"
+status = "normal"
+
+["Building.NuclearReactor.Description"]
+new = "A 750000 hp reactor that consumes enriched fuel and pipe-fed coolant water. Produces spent-fuel casks and radioactive sludge that must be shipped off the map. Its core overheats when coolant runs dry, fewer than 4 trained operators are working or maintenance is overdue (a 24-hour stop every 360 running hours). At 85% heat it trips an emergency shutdown; without coolant the core keeps heating for 72 hours after it stops, and at 100% it melts down: the reactor is destroyed, nearby beavers are killed or irradiated and the land and water around it stay radioactive for weeks. Pausing is a safe cold shutdown. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
+status = "normal"
+
+["Building.NuclearReactor.FlavorDescription"]
+new = "The frontier makes power and consequences at the same scale."
+status = "normal"
+
+["Building.RadioactiveWasteVault.DisplayName"]
+new = "Radioactive Waste Vault"
+status = "normal"
+
+["Building.RadioactiveWasteVault.Description"]
+new = "Locked storage for radioactive waste; the contents must be processed or moved before demolition. Keep it below full: when full, 4 casks breach every 24 hours, spilling radioactive sludge and irradiating the soil within 3 tiles, which kills crops."
+status = "normal"
+
+["Building.RadioactiveWasteVault.FlavorDescription"]
+new = "The frontier makes power and consequences at the same scale."
+status = "normal"
+
+["Building.CoalPowerPlant.DisplayName"]
+new = "Coal power plant"
+status = "normal"
+
+["Building.CoalPowerPlant.Description"]
+new = "A coal-fired steam plant. Produces 5,000 hp, day and night, burning 1 coal and 1 water per hour while the network draws power. No workers. Its chimney pollutes the air for a wide area while it runs. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.CoalPowerPlant.FlavorDescription"]
+new = "Black smoke, white steam and the hum of every machine in the district."
+status = "normal"
+
+["Building.OilPowerPlant.DisplayName"]
+new = "Oil power plant"
+status = "normal"
+
+["Building.OilPowerPlant.Description"]
+new = "An oil-fired turbine plant. Produces 20,000 hp, day and night, burning 2 crude oil and 2 water per hour while the network draws power. No workers. Its two exhaust stacks pollute the air nearby while it runs, less than coal. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.OilPowerPlant.FlavorDescription"]
+new = "The deep ore gives up its oil, and the oil gives up its fire."
+status = "normal"
+
+["Recipe.SweetBerryCake.DisplayName"]
+new = "Sweet Berry Cake"
+status = "normal"
+
+["Recipe.Compost.DisplayName"]
+new = "Compost"
+status = "normal"
+
+["Recipe.Fertilizer.DisplayName"]
+new = "Fertilizer"
+status = "normal"
+
+["Recipe.JuvenileFish.DisplayName"]
+new = "Juvenile Fish"
+status = "normal"
+
+["Recipe.FreshFish.DisplayName"]
+new = "Fresh Fish"
+status = "normal"
+
+["Recipe.FishOil.DisplayName"]
+new = "Fish Oil"
+status = "normal"
+
+["Recipe.CannedFish.DisplayName"]
+new = "Canned Fish"
+status = "normal"
+
+["Recipe.EmergencyRation.DisplayName"]
+new = "Emergency Ration"
+status = "normal"
+
+["Recipe.PackagedFood.DisplayName"]
+new = "Packaged Food"
+status = "normal"
+
+["Recipe.GreenhouseEggplant.DisplayName"]
+new = "Greenhouse Eggplant"
+status = "normal"
+
+["Recipe.GreenhouseKohlrabi.DisplayName"]
+new = "Greenhouse Kohlrabi"
+status = "normal"
+
+["Recipe.GreenhouseCoffee.DisplayName"]
+new = "Greenhouse Coffee"
+status = "normal"
+
+["Recipe.Medicine.DisplayName"]
+new = "Medicine"
+status = "normal"
+
+["Recipe.MedicalFood.DisplayName"]
+new = "Medical Food"
+status = "normal"
+
+["Recipe.Flux.DisplayName"]
+new = "Flux"
+status = "normal"
+
+["Recipe.HighGradeSteel.DisplayName"]
+new = "High Grade Steel"
+status = "normal"
+
+["Recipe.Alloy.DisplayName"]
+new = "Alloy"
+status = "normal"
+
+["Recipe.Chemical.DisplayName"]
+new = "Chemical"
+status = "normal"
+
+["Recipe.Polymer.DisplayName"]
+new = "Polymer"
+status = "normal"
+
+["Recipe.Lubricant.DisplayName"]
+new = "Lubricant"
+status = "normal"
+
+["Recipe.MachineCore.DisplayName"]
+new = "Machine Core"
+status = "normal"
+
+["Recipe.Electronics.DisplayName"]
+new = "Electronics"
+status = "normal"
+
+["Recipe.PowerModule.DisplayName"]
+new = "Power Module"
+status = "normal"
+
+["Recipe.FilterMedia.DisplayName"]
+new = "Filter Media"
+status = "normal"
+
+["Recipe.PureWater.DisplayName"]
+new = "Pure Water"
+status = "normal"
+
+["Recipe.ReactorCoolantWater.DisplayName"]
+new = "Reactor Coolant Water"
+status = "normal"
+
+["Recipe.DeepCoal.DisplayName"]
+new = "Deep Coal"
+status = "normal"
+
+["Recipe.DeepOil.DisplayName"]
+new = "Deep Oil"
+status = "normal"
+
+["Recipe.DeepUranium.DisplayName"]
+new = "Deep Uranium"
+status = "normal"
+
+["Recipe.Yellowcake.DisplayName"]
+new = "Yellowcake"
+status = "normal"
+
+["Recipe.EnrichedFuel.DisplayName"]
+new = "Enriched Fuel"
+status = "normal"
+
+["Recipe.Cryocoolant.DisplayName"]
+new = "Cryocoolant"
+status = "normal"
+
+["Recipe.Electrolysis.DisplayName"]
+new = "Electrolysis"
+status = "normal"
+
+["Recipe.Liquefaction.DisplayName"]
+new = "Liquefaction"
+status = "normal"
+
+["Recipe.RocketAirframe.DisplayName"]
+new = "Rocket Airframe"
+status = "normal"
+
+["Recipe.PropulsionPackage.DisplayName"]
+new = "Propulsion Package"
+status = "normal"
+
+["Recipe.GuidanceComputer.DisplayName"]
+new = "Guidance Computer"
+status = "normal"
+
+["Recipe.MissionPayload.DisplayName"]
+new = "Mission Payload"
+status = "normal"
+
+["Recipe.NuclearWaste.DisplayName"]
+new = "Nuclear Waste"
+status = "normal"
+
+["Recipe.WasteRefining.DisplayName"]
+new = "Waste Refining"
+status = "normal"
+
+["Recipe.DecontaminateWater.DisplayName"]
+new = "Decontaminate Water"
+status = "normal"
+
+["Recipe.GuidanceTelemetry.DisplayName"]
+new = "Guidance Telemetry"
+status = "normal"
+
+["Recipe.RecoveredArtifact.DisplayName"]
+new = "Recovered Artifact"
+status = "normal"
+
+["Recipe.ArchiveData.DisplayName"]
+new = "Archive Data"
+status = "normal"
+
+["Recipe.CarbonFilterMedia.DisplayName"]
+new = "Activated carbon filters"
+status = "normal"
+
+["Recipe.BrineChemical.DisplayName"]
+new = "Chemical from brine"
+status = "normal"
+
+["Recipe.GreenhouseAquaponics.DisplayName"]
+new = "Aquaponic kohlrabi and fish"
+status = "normal"
+
+["Recipe.ReinforcedBotChassis.DisplayName"]
+new = "Reinforced Bot Chassis"
+status = "normal"
+
+["Recipe.ServoBotLimbs.DisplayName"]
+new = "Servo Bot Limbs"
+status = "normal"
+
+["Recipe.BotCortex.DisplayName"]
+new = "Bot Cortex"
+status = "normal"
+
+["Recipe.FuelReprocessing.DisplayName"]
+new = "Spent fuel reprocessing"
+status = "normal"
+
+["Recipe.ContaminatedWaterRefining.DisplayName"]
+new = "Waste refining with contaminated water"
+status = "normal"
+
+["Recipe.Vitrification.DisplayName"]
+new = "Sludge vitrification"
+status = "normal"
+
+["Recipe.SludgeMineralRecovery.DisplayName"]
+new = "Sludge mineral recovery"
+status = "normal"
+
+["Need.PublicHealthcare.DisplayName"]
+new = "Public healthcare"
+status = "normal"
+
+["DeepFrontier.Hospital.Panel.Title"]
+new = "Hospital"
+status = "normal"
+
+["DeepFrontier.Hospital.Panel.Patients"]
+new = "Patients admitted: {0} / {1} beds"
+status = "normal"
+
+["DeepFrontier.Hospital.Panel.Crew"]
+new = "Ward crew: {0} / {1} ({2} attending the ward)"
+status = "normal"
+
+["DeepFrontier.Hospital.Panel.Meals"]
+new = "Patient meals: {0} food, {1} water ({2})"
+status = "normal"
+
+["DeepFrontier.Hospital.Panel.Fed"]
+new = "Patients fed: {0} / {1}"
+status = "normal"
+
+["DeepFrontier.Hospital.Panel.UnderConstruction"]
+new = "Under construction"
+status = "normal"
+
+["DeepFrontier.Hospital.Panel.Paused"]
+new = "Paused"
+status = "normal"
+
+["DeepFrontier.Hospital.Panel.NoPower"]
+new = "Care stopped: check power and building warnings"
+status = "normal"
+
+["DeepFrontier.Hospital.Panel.NoCrew"]
+new = "Closed: no ward crew assigned"
+status = "normal"
+
+["DeepFrontier.Hospital.Panel.NoMeals"]
+new = "Closed: a patient is starving or dehydrated and the food or water stock is empty"
+status = "normal"
+
+["DeepFrontier.Hospital.Panel.NoSupplies"]
+new = "Waiting for medicine, water and extract"
+status = "normal"
+
+["DeepFrontier.Hospital.Panel.Treating"]
+new = "Patients stay until cured of injury, chipped teeth, badwater contamination and radiation. Treatment: {0}% (crew strength)"
+status = "normal"
+
+["DeepFrontier.Hospital.Panel.AreaActive"]
+new = "Neighborhood care active (+2 wellbeing)"
+status = "normal"
+
+["DeepFrontier.Hospital.Panel.AreaInactive"]
+new = "Neighborhood care inactive"
+status = "normal"
+
+["DeepFrontier.Hospital.Status.MealsLow"]
+new = "Patient food or water is running low."
+status = "normal"
+
+["DeepFrontier.Hospital.Status.MealsLow.Short"]
+new = "Low patient meals"
+status = "normal"
+
+["DeepFrontier.Hospital.Status.MealsOut"]
+new = "No food or water for patients: hungry or thirsty patients will be sent out to eat."
+status = "normal"
+
+["DeepFrontier.Hospital.Status.MealsOut.Short"]
+new = "No patient meals"
+status = "normal"
+
+["DeepFrontier.Need.FineDining"]
+new = "Fine dining"
+status = "normal"
+
+["Need.NeighborhoodGroceries.DisplayName"]
+new = "Neighborhood groceries"
+status = "normal"
+
+["DeepFrontier.Waterside.SupportTooDeep"]
+new = "A support post would need more than {0} m to reach the ground or riverbed."
+status = "normal"
+
+["DeepFrontier.Waterside.SupportOutsideMap"]
+new = "A support post would stand outside the map."
+status = "normal"
+
+["DeepFrontier.Waterside.WorkCellsTooShallow"]
+new = "Water does not reach {0} marked working cell(s): the surface must stand at least {1} m above their floor."
+status = "normal"
+
+["DeepFrontier.Waterside.WorkCellsTooDeep"]
+new = "Too deep under {0} marked working cell(s): at most {1} m of water is allowed."
+status = "normal"
+
+["DeepFrontier.Waterside.Status.WaterTooDeep"]
+new = "The water under the working area is too deep."
+status = "normal"
+
+["DeepFrontier.Waterside.Status.WaterTooDeep.Short"]
+new = "Water too deep"
+status = "normal"
+
+["RocketProgram.Mission.OrbitalObservatory.DisplayName"]
+new = "Orbital Observatory"
+status = "normal"
+
+["RocketProgram.Mission.OrbitalObservatory.Description"]
+new = "First launch: lofts a telescope and archive receiver to read what the old orbital records saw."
+status = "normal"
+
+["RocketProgram.Mission.OrbitalObservatory.Success"]
+new = "The observatory is in orbit. Its first passes recover fragments of the old orbital records: survey images of this valley before the drought, and a faint green trail of badwater running back to a single source far upriver. The archive now knows where to look."
+status = "normal"
+
+["RocketProgram.Mission.OrbitalObservatory.Failure"]
+new = "Debris rained over the flame trench; the observatory was lost with its rocket and fuel."
+status = "normal"
+
+["RocketProgram.Mission.RecoveryProbe.DisplayName"]
+new = "Recovery Probe"
+status = "normal"
+
+["RocketProgram.Mission.RecoveryProbe.Description"]
+new = "Second launch: sends a probe to a derelict orbital station to bring back its data core."
+status = "normal"
+
+["RocketProgram.Mission.RecoveryProbe.Success"]
+new = "The probe docked with a silent human station and returned its data core. Among the corrupted files are intact fabrication notes and a map of the treatment works that once held the badwater back. The industrial frontier has its next blueprint."
+status = "normal"
+
+["RocketProgram.Mission.RecoveryProbe.Failure"]
+new = "The probe never reached the station; the rocket broke up on ascent."
+status = "normal"
+
+["RocketProgram.Mission.LongRangeBeacon.DisplayName"]
+new = "Long-Range Beacon"
+status = "normal"
+
+["RocketProgram.Mission.LongRangeBeacon.Description"]
+new = "Final launch: places a long-lived beacon carrying the colony's archive and a standing signal."
+status = "normal"
+
+["RocketProgram.Mission.LongRangeBeacon.Success"]
+new = "The beacon is aloft and transmitting. It carries the colony's archive, the record of the badwater source and a simple message: beavers live here, and the land is healing. Whoever listens next will know the way."
+status = "normal"
+
+["RocketProgram.Mission.LongRangeBeacon.Failure"]
+new = "The beacon was lost on ascent. The archive is safe on the ground; the colony must build and fuel another rocket."
+status = "normal"
+
+["RocketProgram.Status.Locked"]
+new = "Mission locked: {0} must succeed first"
+status = "normal"
+
+["RocketProgram.Status.Completed"]
+new = "{0} is already complete; select another mission"
+status = "normal"
+
+["RocketProgram.Status.Refurbishing"]
+new = "Launch pad refurbishing after a failed launch"
+status = "normal"
+
+["RocketProgram.Notification.Scrubbed"]
+new = "Launch scrubbed: {0} destacked; its parts and fuel were returned to the pad"
+status = "normal"
+
+["RocketProgram.Notification.Liftoff"]
+new = "Liftoff: {0} ({1}% failure risk)"
+status = "normal"
+
+["RocketProgram.Notification.Success"]
+new = "Mission success: {0}"
+status = "normal"
+
+["RocketProgram.Notification.Failure"]
+new = "Launch failure: {0} was lost ({1}% risk). The rocket and its fuel are gone and the pad needs {2} hours of refurbishment."
+status = "normal"
+
+["RocketProgram.Notification.Refurbished"]
+new = "Launch pad refurbished and ready"
+status = "normal"
+
+["RocketProgram.Reward"]
+new = "Success reward: {0} science and a permanent +{1} wellbeing for beavers within {2} tiles of the pad while it is on a powered grid (pausing or automation do not remove it)"
+status = "normal"
+
+["RocketProgram.Panel.LegacyActive"]
+new = "Mission legacy: {0} completed missions give wellbeing within {1} tiles"
+status = "normal"
+
+["RocketProgram.Panel.LegacyUnpowered"]
+new = "Mission legacy paused: connect the pad to a powered grid to restore wellbeing from {0} completed missions within {1} tiles"
+status = "normal"
+
+["RocketProgram.Panel.Title"]
+new = "Rocket program"
+status = "normal"
+
+["RocketProgram.Panel.MissionCompleted"]
+new = "{0}: completed"
+status = "normal"
+
+["RocketProgram.Panel.MissionLocked"]
+new = "{0}: locked (requires {1})"
+status = "normal"
+
+["RocketProgram.Panel.MissionAvailable"]
+new = "{0}: available"
+status = "normal"
+
+["RocketProgram.Panel.RocketStacked"]
+new = "Rocket stacked and fuelled on the pad"
+status = "normal"
+
+["RocketProgram.Panel.Odds"]
+new = "Failure chance at liftoff: {0}% (mission base {1}%)"
+status = "normal"
+
+["RocketProgram.Panel.OddsMissionControl"]
+new = "Operating Mission Control (staffed, powered): -{0}% of -{1}%"
+status = "normal"
+
+["RocketProgram.Panel.OddsHeritage"]
+new = "Flight heritage: -{0}% after {1} launches"
+status = "normal"
+
+["RocketProgram.Panel.OddsFloor"]
+new = "Risk never falls below {0}%"
+status = "normal"
+
+["RocketProgram.Panel.Stakes"]
+new = "Parts and fuel are loaded when preparation starts; changing the mission before liftoff returns them to the pad. Liftoff holds until the grid delivers full launch power. A failed launch destroys the rocket and its fuel and closes the pad for {0} hours of refurbishment."
+status = "normal"
+
+["RocketProgram.Panel.FinalMission"]
+new = "Final mission: success completes the colony's story."
+status = "normal"
+
+["RocketProgram.Panel.NoLaunches"]
+new = "No launches yet"
+status = "normal"
+
+["RocketProgram.Panel.LastSuccess"]
+new = "Last launch: {0} succeeded ({1}% risk)"
+status = "normal"
+
+["RocketProgram.Panel.LastFailure"]
+new = "Last launch: {0} failed ({1}% risk)"
+status = "normal"
+
+["RocketProgram.Stage.UnderConstruction"]
+new = "Under construction"
+status = "normal"
+
+["RocketProgram.Stage.NoMission"]
+new = "Select a mission, or guidance telemetry, in the recipe list"
+status = "normal"
+
+["RocketProgram.Stage.Telemetry"]
+new = "Producing guidance telemetry"
+status = "normal"
+
+["RocketProgram.Stage.InFlight"]
+new = "{0} in flight"
+status = "normal"
+
+["RocketProgram.Stage.Refurbishing"]
+new = "Refurbishing after a failed launch: {0} hours left"
+status = "normal"
+
+["RocketProgram.Stage.Blocked"]
+new = "Paused or blocked by automation: no launch work"
+status = "normal"
+
+["RocketProgram.Stage.MissionCompleted"]
+new = "The selected mission is already complete"
+status = "normal"
+
+["RocketProgram.Stage.MissionLocked"]
+new = "The selected mission is locked"
+status = "normal"
+
+["RocketProgram.Stage.MissionInFlightElsewhere"]
+new = "The selected mission is in flight from another pad"
+status = "normal"
+
+["RocketProgram.Stage.Staging"]
+new = "Staging the rocket: waiting for every part and the full fuel load"
+status = "normal"
+
+["RocketProgram.Stage.Preparing"]
+new = "Launch preparation: {0}%"
+status = "normal"
+
+["RocketProgram.Stage.HoldingForPower"]
+new = "Countdown hold at {0}%: liftoff needs full launch power"
+status = "normal"
+
+["Recipe.RocketMission.OrbitalObservatory"]
+new = "Launch: Orbital Observatory"
+status = "normal"
+
+["Need.OrbitalObservatoryLegacy.DisplayName"]
+new = "Orbital Observatory legacy"
+status = "normal"
+
+["Recipe.RocketMission.RecoveryProbe"]
+new = "Launch: Recovery Probe"
+status = "normal"
+
+["Need.RecoveryProbeLegacy.DisplayName"]
+new = "Recovery Probe legacy"
+status = "normal"
+
+["Recipe.RocketMission.LongRangeBeacon"]
+new = "Launch: Long-Range Beacon"
+status = "normal"
+
+["Need.LongRangeBeaconLegacy.DisplayName"]
+new = "Long-Range Beacon legacy"
+status = "normal"
+
+["DeepFrontier.Meltdown.Status.Overheating"]
+new = "Reactor overheating. It trips an emergency shutdown at {0}% core heat and melts down at 100%; open the reactor to see why."
+status = "normal"
+
+["DeepFrontier.Meltdown.Status.Overheating.Short"]
+new = "Reactor overheating"
+status = "normal"
+
+["DeepFrontier.Meltdown.Status.Scram"]
+new = "Emergency shutdown (SCRAM): no power until the core cools to {0}%."
+status = "normal"
+
+["DeepFrontier.Meltdown.Status.Scram.Short"]
+new = "Reactor emergency shutdown"
+status = "normal"
+
+["DeepFrontier.Meltdown.Status.CoolantDry"]
+new = "Coolant dry while the core still holds decay heat: it is heating toward a meltdown. Deliver reactor coolant water, or pause the reactor for a safe cold shutdown."
+status = "normal"
+
+["DeepFrontier.Meltdown.Status.CoolantDry.Short"]
+new = "Reactor coolant dry: meltdown risk"
+status = "normal"
+
+["DeepFrontier.Meltdown.Status.CoolantLow"]
+new = "Coolant reserve below {0} hours of running."
+status = "normal"
+
+["DeepFrontier.Meltdown.Status.Crew"]
+new = "Fewer than {0} operators working: the core heats while it runs."
+status = "normal"
+
+["DeepFrontier.Meltdown.Status.MaintenanceDue"]
+new = "Maintenance due soon: plan a {0}-hour stop."
+status = "normal"
+
+["DeepFrontier.Meltdown.Status.MaintenanceOverdue"]
+new = "Maintenance overdue: the core heats while it runs. Stop the reactor for {0} hours."
+status = "normal"
+
+["DeepFrontier.Meltdown.Notification.Warning"]
+new = "Reactor overheating: core heat {0}% ({1}). Emergency shutdown at {2}%."
+status = "normal"
+
+["DeepFrontier.Meltdown.Notification.Scram"]
+new = "Reactor emergency shutdown (SCRAM) at {0}% core heat: no power until it cools to {1}%."
+status = "normal"
+
+["DeepFrontier.Meltdown.Notification.Restarted"]
+new = "Reactor restarted automatically at {0}% core heat."
+status = "normal"
+
+["DeepFrontier.Meltdown.Notification.CoolantDry"]
+new = "Reactor coolant dry: core heat {0}% and rising from decay heat for up to {1} more hours. Deliver reactor coolant water or pause the reactor."
+status = "normal"
+
+["DeepFrontier.Meltdown.Notification.Imminent"]
+new = "MELTDOWN IMMINENT: core heat {0}%, meltdown in about {1} hours. Deliver reactor coolant water or pause the reactor now."
+status = "normal"
+
+["DeepFrontier.Meltdown.Notification.MaintenanceOverdue"]
+new = "Reactor maintenance overdue: stop it for {0} hours, or its core heats while it runs."
+status = "normal"
+
+["DeepFrontier.Meltdown.Notification.MaintenanceDone"]
+new = "Reactor maintenance completed during the stop."
+status = "normal"
+
+["DeepFrontier.Meltdown.Notification.Meltdown"]
+new = "REACTOR MELTDOWN: the Nuclear Reactor was destroyed. {0} killed, {1} irradiated."
+status = "normal"
+
+["DeepFrontier.Meltdown.Dialog.Title"]
+new = "Reactor meltdown"
+status = "normal"
+
+["DeepFrontier.Meltdown.Dialog.Casualties"]
+new = "The core melted down and destroyed the Nuclear Reactor. {0} were killed and {1} beavers were irradiated; irradiated beavers need 10 days of hospital care, and untreated radiation sickness is fatal."
+status = "normal"
+
+["DeepFrontier.Meltdown.Dialog.Contamination"]
+new = "Radioactive sludge is pouring from the ruin and will keep flowing for {0} days. Soil and water within {1} tiles are contaminated: crops there die, pumps refuse contaminated water and beavers who walk in are irradiated. Clean up with Sludge Recovery Pumps and ship the sludge off the map."
+status = "normal"
+
+["DeepFrontier.Meltdown.Dialog.ShowSite"]
+new = "Show the site"
+status = "normal"
+
+["DeepFrontier.Meltdown.DeathMessage"]
+new = "{0} was killed in the reactor meltdown."
+status = "normal"
+
+["DeepFrontier.Meltdown.Cause.Coolant"]
+new = "coolant dry"
+status = "normal"
+
+["DeepFrontier.Meltdown.Cause.Crew"]
+new = "fewer than {0} operators working"
+status = "normal"
+
+["DeepFrontier.Meltdown.Cause.Maintenance"]
+new = "maintenance overdue"
+status = "normal"
+
+["DeepFrontier.Meltdown.Cause.DecayHeat"]
+new = "decay heat without coolant"
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.Title"]
+new = "Reactor core"
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.Heat"]
+new = "Core heat: {0}% {1}"
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.Thresholds"]
+new = "Warning {0}%, emergency shutdown {1}%, meltdown 100%"
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.Rising"]
+new = "(rising {0}% per hour)"
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.Falling"]
+new = "(falling {0}% per hour)"
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.EtaScram"]
+new = "Emergency shutdown after about {0} more hours of running."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.EtaMeltdown"]
+new = "Meltdown in about {0} hours."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.EtaPeak"]
+new = "Decay heat fades before a meltdown: peak about {0}% in {1} hours."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.EtaRestart"]
+new = "Cool enough to restart in about {0} hours."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.State.UnderConstruction"]
+new = "Under construction."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.State.ColdShutdown"]
+new = "Cold shutdown (paused or switched off by automation): cooling safely without coolant. Haulers empty a paused reactor."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.State.Running"]
+new = "Running."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.State.Scram"]
+new = "Emergency shutdown (SCRAM)."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.State.ScramManual"]
+new = "Shut down by the operators (SCRAM)."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.State.Idle"]
+new = "Idle: not producing."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.State.MeltingDown"]
+new = "Melting down."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.DecayHeat"]
+new = "Decay heat for {0} more hours: until then the core needs coolant even when stopped."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.NoDecayHeat"]
+new = "No decay heat: safe without coolant while stopped."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.Coolant"]
+new = "{0}: {1} in stock, {2} per cycle (about {3} hours of running)."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.Crew"]
+new = "Operators working: {0} (needs {1} while running)."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.MaintenanceDue"]
+new = "Maintenance due in {0} running hours; it needs a {1}-hour stop."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.MaintenanceOverdue"]
+new = "Maintenance overdue: stop the reactor for {0} hours ({1} so far)."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.Rules"]
+new = "While running, the core heats {0}% per hour for each fault: coolant dry, fewer than {1} operators working, or maintenance overdue (a {2}-hour stop every {3} running hours). At {4}% it trips an emergency shutdown. Without coolant, decay heat keeps heating it for {5} hours after it stops."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.Consequences"]
+new = "A meltdown destroys the reactor: beavers within {0} tiles die, beavers within {1} tiles are irradiated, sludge pours out for {2} days and soil and water within {3} tiles stay radioactive for weeks. Pausing the reactor is a safe cold shutdown."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.ScramButton"]
+new = "Emergency shutdown (SCRAM)"
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.RestartButton"]
+new = "Restart reactor"
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.RestartBlocked"]
+new = "Restart possible once core heat is at or below {0}%."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.AutoRestart"]
+new = "Restart automatically after an emergency shutdown (once cool, maintained and with coolant)"
+status = "normal"
+
+["DeepFrontier.WasteLeak.StorageFull.Status.Warning"]
+new = "Nearly full of radioactive waste: once full, casks breach every {0} hours."
+status = "normal"
+
+["DeepFrontier.WasteLeak.StorageFull.Status.Leaking"]
+new = "Full: radioactive waste casks are breaching and leaking sludge. Refine or move the waste."
+status = "normal"
+
+["DeepFrontier.WasteLeak.StorageFull.Status.Leaking.Short"]
+new = "Waste vault leaking"
+status = "normal"
+
+["DeepFrontier.WasteLeak.StorageFull.Notification.Warning"]
+new = "Radioactive Waste Vault {0}% full: once full, its casks breach and leak."
+status = "normal"
+
+["DeepFrontier.WasteLeak.StorageFull.Notification.Full"]
+new = "Radioactive Waste Vault full: {0} casks will breach in {1} hours unless waste is refined or moved."
+status = "normal"
+
+["DeepFrontier.WasteLeak.StorageFull.Notification.Leak"]
+new = "Radioactive Waste Vault leak: {0} casks breached, spilling radioactive sludge and irradiating the soil around the vault."
+status = "normal"
+
+["DeepFrontier.WasteLeak.StorageFull.Panel.Rules"]
+new = "When full, {0} casks breach every {1} hours: their waste spills out as radioactive sludge and irradiates the soil within {2} tiles, killing crops there."
+status = "normal"
+
+["DeepFrontier.WasteLeak.OutputBlocked.Status.Warning"]
+new = "Sludge tanks nearly full: once full, sludge leaks every {0} hours."
+status = "normal"
+
+["DeepFrontier.WasteLeak.OutputBlocked.Status.Leaking"]
+new = "Sludge tanks full: radioactive sludge is leaking. Haul it to a Sludge Outfall or Radioactive Waste Export."
+status = "normal"
+
+["DeepFrontier.WasteLeak.OutputBlocked.Status.Leaking.Short"]
+new = "Waste refinery leaking"
+status = "normal"
+
+["DeepFrontier.WasteLeak.OutputBlocked.Notification.Warning"]
+new = "Waste refinery sludge tanks {0}% full: haul the sludge away before they leak."
+status = "normal"
+
+["DeepFrontier.WasteLeak.OutputBlocked.Notification.Full"]
+new = "Waste refinery sludge tanks full: {0} sludge will leak in {1} hours."
+status = "normal"
+
+["DeepFrontier.WasteLeak.OutputBlocked.Notification.Leak"]
+new = "Waste refinery leak: {0} radioactive sludge spilled around the refinery."
+status = "normal"
+
+["DeepFrontier.WasteLeak.OutputBlocked.Panel.Rules"]
+new = "When its sludge tanks are full, {0} sludge leaks every {1} hours and irradiates the soil within {2} tiles, killing crops there. Pausing it seals the tanks."
+status = "normal"
+
+["DeepFrontier.WasteLeak.Panel.Title"]
+new = "Radioactive containment"
+status = "normal"
+
+["DeepFrontier.WasteLeak.Panel.Fill"]
+new = "{0}: {1} / {2} ({3}%)"
+status = "normal"
+
+["DeepFrontier.WasteLeak.Panel.Contained"]
+new = "Contained. Warnings start at {0}% full; leaks only when full."
+status = "normal"
+
+["DeepFrontier.WasteLeak.Panel.Warning"]
+new = "Nearly full: it leaks once full."
+status = "normal"
+
+["DeepFrontier.WasteLeak.Panel.Full"]
+new = "Full: next leak in about {0} hours."
+status = "normal"
+
+["DeepFrontier.WasteLeak.Panel.Sealed"]
+new = "Paused: tanks sealed, no leaks."
+status = "normal"
+
+["DeepFrontier.WasteLeak.Panel.History"]
+new = "Leaks so far: {0} ({1} {2})."
+status = "normal"
+
+["Narrative.Stage.NotNatural.Title"]
+new = "Something in the Water"
+status = "normal"
+
+["Narrative.Stage.NotNatural.Objective"]
+new = "Study the badwater: finish a Public Health Lab, a Water Treatment Plant, a Deep Drill or a Chemical Works."
+status = "normal"
+
+["Narrative.Stage.NotNatural.Hint"]
+new = "Public Health Lab (Wellbeing, 1,000 science), Deep Drill (Metal, 1,000), Water Treatment Plant (Water, 1,800) or Chemical Works (Metal, 4,000). Any one will do."
+status = "normal"
+
+["Narrative.Stage.NotNatural.Story.1"]
+new = "Every beaver knows badwater: green, sour, and best admired from a distance. The old stories call it a sickness of the land."
+status = "normal"
+
+["Narrative.Stage.NotNatural.Story.2"]
+new = "The colony is no longer sure the old stories are right. Badwater behaves the same everywhere, in every spring and every badtide, as if it were made to a recipe. Somebody, it seems, wrote that recipe down."
+status = "normal"
+
+["Narrative.Stage.NotNatural.Requirement.1"]
+new = "Investigation building finished"
+status = "normal"
+
+["Narrative.Stage.NotNatural.Variant.PublicHealthLab"]
+new = "The health lab's first badwater samples were meant to help the sick. The chemists came back with puzzled faces and a very long list of things that should not be in a river."
+status = "normal"
+
+["Narrative.Stage.NotNatural.Variant.WaterTreatmentPlant"]
+new = "The treatment plant's first filter cakes came out of the press the wrong colour. The exact same wrong colour, every single time."
+status = "normal"
+
+["Narrative.Stage.NotNatural.Variant.DeepDrill"]
+new = "The drill crew brought up a core with something round and hollow inside it: a pipe, far older than the colony and far too big for beavers."
+status = "normal"
+
+["Narrative.Stage.NotNatural.Variant.ChemicalWorks"]
+new = "The chemists who turn badwater into feedstock noticed that it splits the same way, batch after batch, like a recipe someone followed carefully."
+status = "normal"
+
+["Narrative.Stage.UnderTheValley.Title"]
+new = "Under the Valley"
+status = "normal"
+
+["Narrative.Stage.UnderTheValley.Objective"]
+new = "Reach the deep sector: refine 20 deep alloy at a Deep Processor."
+status = "normal"
+
+["Narrative.Stage.UnderTheValley.Hint"]
+new = "The Deep Drill brings up deep ore from a deep ore source; the Deep Processor turns ore and water into deep alloy, coal, crude oil and uranium ore."
+status = "normal"
+
+["Narrative.Stage.UnderTheValley.Story.1"]
+new = "The deep sector is not empty. Below the old riverbed run tunnels lined with enormous pipes, all of them stamped with the same three letters, VWA, and all of them heading upriver."
+status = "normal"
+
+["Narrative.Stage.UnderTheValley.Story.2"]
+new = "Painted on one pipe, with increasing underlining: NOT FOR DRINKING. Someone long ago took that very seriously."
+status = "normal"
+
+["Narrative.Stage.UnderTheValley.Requirement.1"]
+new = "Deep alloy refined"
+status = "normal"
+
+["Narrative.Stage.WhatTheWaterCarries.Title"]
+new = "What the Water Carries"
+status = "normal"
+
+["Narrative.Stage.WhatTheWaterCarries.Objective"]
+new = "Trace what the water carries: purify 80 pure water and make 10 chemical from badwater."
+status = "normal"
+
+["Narrative.Stage.WhatTheWaterCarries.Hint"]
+new = "Water Treatment Plants make pure water from water and filter media. Chemical Works make chemical from badwater and extract."
+status = "normal"
+
+["Narrative.Stage.WhatTheWaterCarries.Story.1"]
+new = "Side by side, the filter residue and the chemical feedstock tell the same story. Badwater is a mixture: fine grit from deep rock, a stubborn green dye and a dozen compounds nothing in nature bothers to make."
+status = "normal"
+
+["Narrative.Stage.WhatTheWaterCarries.Story.2"]
+new = "It is not a disease. It is runoff. Somewhere upriver, something is still leaking what the old deep pipes once carried, and the colony is going to find out what."
+status = "normal"
+
+["Narrative.Stage.WhatTheWaterCarries.Requirement.1"]
+new = "Pure water purified"
+status = "normal"
+
+["Narrative.Stage.WhatTheWaterCarries.Requirement.2"]
+new = "Chemical made from badwater"
+status = "normal"
+
+["Narrative.Stage.OpenTheRuins.Title"]
+new = "Open the Ruins"
+status = "normal"
+
+["Narrative.Stage.OpenTheRuins.Objective"]
+new = "Open the human ruins: recover 6 artifacts at an Archive Excavation."
+status = "normal"
+
+["Narrative.Stage.OpenTheRuins.Hint"]
+new = "The Archive Excavation (Science menu, 9,000 science) opens human ruins with explosives and treated planks. Any Human Record Cache on the map can be surveyed by a nearby excavation for extra archive data."
+status = "normal"
+
+["Narrative.Stage.OpenTheRuins.Story.1"]
+new = "The first finds are small and baffling: a hard hat big enough to bathe a kit in, a mug reading WORLD'S OKAYEST ENGINEER, and a sign that says HOLDING STATION 3 - AUTHORIZED PERSONNEL ONLY."
+status = "normal"
+
+["Narrative.Stage.OpenTheRuins.Story.2"]
+new = "Underneath, in smaller letters: UNAUTHORIZED PERSONNEL ALSO ONLY. The humans, it turns out, had a sense of humour. They also had sealed data drives, which the excavation crews are now carefully drying out."
+status = "normal"
+
+["Narrative.Stage.OpenTheRuins.Requirement.1"]
+new = "Artifacts recovered"
+status = "normal"
+
+["Narrative.Stage.TheArchiveWakes.Title"]
+new = "The Archive Wakes"
+status = "normal"
+
+["Narrative.Stage.TheArchiveWakes.Objective"]
+new = "Wake the archive: restore 10 archive data."
+status = "normal"
+
+["Narrative.Stage.TheArchiveWakes.Hint"]
+new = "Archive data comes from 2 recovered artifacts, grease and a metal part at the Archive Excavation."
+status = "normal"
+
+["Narrative.Stage.TheArchiveWakes.Story.1"]
+new = "The first restored drive belongs to the Valley Water Authority. Its records describe the Deepworks, the humans' great wells and drills, which pulled ancient water and ore up from under this valley for their factories."
+status = "normal"
+
+["Narrative.Stage.TheArchiveWakes.Story.2"]
+new = "What the factories could not use went upriver into the Holding: a chain of sealed basins kept clean by a treatment works that ran day and night. Projected containment life: indefinite, subject to maintenance."
+status = "normal"
+
+["Narrative.Stage.TheArchiveWakes.Story.3"]
+new = "A memo is attached. Re: containment maintenance. Postponed to next quarter. Previous note: postponed to next quarter."
+status = "normal"
+
+["Narrative.Stage.TheArchiveWakes.Requirement.1"]
+new = "Archive data restored"
+status = "normal"
+
+["Narrative.Stage.TheLastShift.Title"]
+new = "The Last Shift"
+status = "normal"
+
+["Narrative.Stage.TheLastShift.Objective"]
+new = "Read the last shift's records: restore 30 archive data in total and finish a Mission Control."
+status = "normal"
+
+["Narrative.Stage.TheLastShift.Hint"]
+new = "Mission Control unlocks at 14,000 science. Guidance computers and telemetry also need archive data, so keep the drives coming."
+status = "normal"
+
+["Narrative.Stage.TheLastShift.Story.1"]
+new = "The newest drives are the saddest and the tidiest. The rains failed, then the wells, then the harvests. The humans decided to leave the valley for now and follow the rain north. Nobody wrote down when now would end."
+status = "normal"
+
+["Narrative.Stage.TheLastShift.Story.2"]
+new = "The last shift did its best. It set the treatment works to automatic, put the Holding's flush valves on a schedule to run until further notice, and switched off the lights. No further notice was ever given."
+status = "normal"
+
+["Narrative.Stage.TheLastShift.Story.3"]
+new = "Mission Control has found one more thing: an old orbital frequency. Something up there is still answering."
+status = "normal"
+
+["Narrative.Stage.TheLastShift.Requirement.1"]
+new = "Archive data restored"
+status = "normal"
+
+["Narrative.Stage.TheLastShift.Requirement.2"]
+new = "Mission Control finished"
+status = "normal"
+
+["Narrative.Stage.EyesAbove.Title"]
+new = "Eyes Above"
+status = "normal"
+
+["Narrative.Stage.EyesAbove.Objective"]
+new = "Launch the Orbital Observatory from a Launch Pad."
+status = "normal"
+
+["Narrative.Stage.EyesAbove.Hint"]
+new = "A launch needs airframes, propulsion, guidance computers, telemetry and liquid hydrogen and oxygen. A staffed Mission Control lowers the risk. Nuclear power helps but is not required."
+status = "normal"
+
+["Narrative.Stage.EyesAbove.Story.1"]
+new = "Laid over the Authority's maps, the orbital images settle the question. Every badwater spring in the valley sits on the line of an old pipe, and every pipe leads back to the Holding."
+status = "normal"
+
+["Narrative.Stage.EyesAbove.Story.2"]
+new = "The badtides line up too: they arrive on the same schedule the last shift set for the flush valves. The humans never turned the Holding off. There was simply nobody left to give further notice."
+status = "normal"
+
+["Narrative.Stage.EyesAbove.Requirement.1"]
+new = "Orbital Observatory mission"
+status = "normal"
+
+["Narrative.Stage.WhatTheStationKept.Title"]
+new = "What the Station Kept"
+status = "normal"
+
+["Narrative.Stage.WhatTheStationKept.Objective"]
+new = "Launch the Recovery Probe."
+status = "normal"
+
+["Narrative.Stage.WhatTheStationKept.Hint"]
+new = "The Recovery Probe carries mission payloads: guidance computers packed with recovered artifacts."
+status = "normal"
+
+["Narrative.Stage.WhatTheStationKept.Story.1"]
+new = "The station's data core holds the treatment works' full design and a final log from its crew: Turned the lights off. Left the telescope on. Someone should keep looking. Heading home, wherever that turns out to be."
+status = "normal"
+
+["Narrative.Stage.WhatTheStationKept.Story.2"]
+new = "The design looks familiar. The colony's own water treatment plants already do, in beaver size, what the humans' works did before the filters ran out. The Holding still leaks, but it can be kept, as long as someone stays to keep it."
+status = "normal"
+
+["Narrative.Stage.WhatTheStationKept.Story.3"]
+new = "Only one launch remains, and the colony must decide what that last rocket will say."
+status = "normal"
+
+["Narrative.Stage.WhatTheStationKept.Requirement.1"]
+new = "Recovery Probe mission"
+status = "normal"
+
+["Narrative.Stage.TheMessage.Title"]
+new = "What the Beacon Says"
+status = "normal"
+
+["Narrative.Stage.TheMessage.Objective"]
+new = "Decide what the Long-Range Beacon will carry. Choose in this journal."
+status = "normal"
+
+["Narrative.Stage.TheMessage.Hint"]
+new = "The choice changes the ending's story, not the rocket or its launch."
+status = "normal"
+
+["Narrative.Stage.TheMessage.Story.1"]
+new = "After three evenings of debate, two votes and one very long speech about punctuation, the colony agreed on what the beacon will carry."
+status = "normal"
+
+["Narrative.Stage.TheMessage.Requirement.1"]
+new = "Beacon message chosen"
+status = "normal"
+
+["Narrative.Stage.TheBeacon.Title"]
+new = "The Long-Range Beacon"
+status = "normal"
+
+["Narrative.Stage.TheBeacon.Objective"]
+new = "Launch the Long-Range Beacon."
+status = "normal"
+
+["Narrative.Stage.TheBeacon.Hint"]
+new = "The beacon is the final launch. Its success completes the colony's story."
+status = "normal"
+
+["Narrative.Stage.TheBeacon.Story.1"]
+new = "The Long-Range Beacon is aloft. Far upriver the Holding still seeps, but the colony's treatment works now do what the last shift could not: they keep running, and somebody changes the filters."
+status = "normal"
+
+["Narrative.Stage.TheBeacon.Story.2"]
+new = "The badwater has a source, a reason and, at last, a caretaker."
+status = "normal"
+
+["Narrative.Stage.TheBeacon.Requirement.1"]
+new = "Long-Range Beacon mission"
+status = "normal"
+
+["Narrative.Discovery.ClinicLog.Title"]
+new = "The Doctors' Ledger"
+status = "normal"
+
+["Narrative.Discovery.ClinicLog.Objective"]
+new = "Finish a Hospital."
+status = "normal"
+
+["Narrative.Discovery.ClinicLog.Story.1"]
+new = "The hospital keeps a ledger of every badwater patient. After a season, the doctors notice the bad days arrive in a rhythm, like a schedule nobody remembers setting."
+status = "normal"
+
+["Narrative.Discovery.ClinicLog.Requirement.1"]
+new = "Hospital finished"
+status = "normal"
+
+["Narrative.Discovery.CleanerThanTheRiver.Title"]
+new = "Cleaner Than the River"
+status = "normal"
+
+["Narrative.Discovery.CleanerThanTheRiver.Objective"]
+new = "Purify 500 pure water."
+status = "normal"
+
+["Narrative.Discovery.CleanerThanTheRiver.Story.1"]
+new = "Five hundred barrels of water cleaner than the river has been in living memory. The treatment crews have started tasting it competitively."
+status = "normal"
+
+["Narrative.Discovery.CleanerThanTheRiver.Requirement.1"]
+new = "Pure water purified"
+status = "normal"
+
+["Narrative.Discovery.HoldingOurOwn.Title"]
+new = "Holding Our Own"
+status = "normal"
+
+["Narrative.Discovery.HoldingOurOwn.Objective"]
+new = "Finish a Radioactive Waste Vault."
+status = "normal"
+
+["Narrative.Discovery.HoldingOurOwn.Story.1"]
+new = "The colony now keeps a holding of its own. Unlike the humans' Holding, this one has a label, a ledger and a beaver whose whole job is reading both."
+status = "normal"
+
+["Narrative.Discovery.HoldingOurOwn.Requirement.1"]
+new = "Radioactive Waste Vault finished"
+status = "normal"
+
+["Narrative.Discovery.CleanHands.Title"]
+new = "Clean Hands"
+status = "normal"
+
+["Narrative.Discovery.CleanHands.Objective"]
+new = "Decontaminate water once at a Radioactive Waste Refinery."
+status = "normal"
+
+["Narrative.Discovery.CleanHands.Story.1"]
+new = "The first barrel of contaminated water made drinkable again. It is a small barrel, and the colony is very proud of it."
+status = "normal"
+
+["Narrative.Discovery.CleanHands.Requirement.1"]
+new = "Water decontaminated"
+status = "normal"
+
+["Narrative.Discovery.CacheRoster.Title"]
+new = "Record Cache: Shift Roster"
+status = "normal"
+
+["Narrative.Discovery.CacheRoster.Objective"]
+new = "Survey 1 Human Record Cache from an Archive Excavation."
+status = "normal"
+
+["Narrative.Discovery.CacheRoster.Story.1"]
+new = "A shift roster from Holding Station 3. The names have faded, but one column, headed BROUGHT SNACKS, is ticked every single day by the same person."
+status = "normal"
+
+["Narrative.Discovery.CacheRoster.Requirement.1"]
+new = "Record caches surveyed"
+status = "normal"
+
+["Narrative.Discovery.CacheDrawing.Title"]
+new = "Record Cache: A Child's Drawing"
+status = "normal"
+
+["Narrative.Discovery.CacheDrawing.Objective"]
+new = "Survey 2 Human Record Caches from an Archive Excavation."
+status = "normal"
+
+["Narrative.Discovery.CacheDrawing.Story.1"]
+new = "A drawing of the river, a sun, a very tall house and a small round animal with a flat tail. The label underneath says FRIEND."
+status = "normal"
+
+["Narrative.Discovery.CacheDrawing.Requirement.1"]
+new = "Record caches surveyed"
+status = "normal"
+
+["Narrative.Discovery.CacheWeather.Title"]
+new = "Record Cache: Weather Log"
+status = "normal"
+
+["Narrative.Discovery.CacheWeather.Objective"]
+new = "Survey 3 Human Record Caches from an Archive Excavation."
+status = "normal"
+
+["Narrative.Discovery.CacheWeather.Story.1"]
+new = "Day 41: no rain. Day 42: no rain. Day 43: no rain, but someone has drawn a cloud in the margin to cheer everyone up."
+status = "normal"
+
+["Narrative.Discovery.CacheWeather.Requirement.1"]
+new = "Record caches surveyed"
+status = "normal"
+
+["Narrative.Discovery.CacheMemo.Title"]
+new = "Record Cache: Memo 14-C"
+status = "normal"
+
+["Narrative.Discovery.CacheMemo.Objective"]
+new = "Survey 4 Human Record Caches from an Archive Excavation."
+status = "normal"
+
+["Narrative.Discovery.CacheMemo.Story.1"]
+new = "Filters for the treatment works are back-ordered. Please do not drink from the river until further notice. Please do not ask when further notice is."
+status = "normal"
+
+["Narrative.Discovery.CacheMemo.Requirement.1"]
+new = "Record caches surveyed"
+status = "normal"
+
+["Narrative.Discovery.CachePostcard.Title"]
+new = "Record Cache: Postcard"
+status = "normal"
+
+["Narrative.Discovery.CachePostcard.Objective"]
+new = "Survey 5 Human Record Caches from an Archive Excavation."
+status = "normal"
+
+["Narrative.Discovery.CachePostcard.Story.1"]
+new = "Arrived north. It rains here. Miss the valley terribly. I think somebody left the pumps on. - M."
+status = "normal"
+
+["Narrative.Discovery.CachePostcard.Requirement.1"]
+new = "Record caches surveyed"
+status = "normal"
+
+["Narrative.Ending.Signal.Title"]
+new = "We Are Here"
+status = "normal"
+
+["Narrative.Ending.Signal.Description"]
+new = "Transmit a standing call: where the Holding is, how to keep it, and an open invitation to anyone still listening."
+status = "normal"
+
+["Narrative.Ending.Signal.Epilogue.1"]
+new = "Every few hours the beacon repeats one message in every format the archive could find: a map, a list of numbers and a drawing of a beaver waving."
+status = "normal"
+
+["Narrative.Ending.Signal.Epilogue.2"]
+new = "Nobody has answered yet. The colony has decided that 'yet' is the important word, and keeps a light on at the launch pad, just in case."
+status = "normal"
+
+["Narrative.Ending.Archive.Title"]
+new = "The Whole Record"
+status = "normal"
+
+["Narrative.Ending.Archive.Description"]
+new = "Preserve everything: the humans' records, the colony's own ledgers and the story of the badwater, safe in orbit for whoever comes next."
+status = "normal"
+
+["Narrative.Ending.Archive.Epilogue.1"]
+new = "The beacon carries every drive the excavations restored and every ledger the colony ever kept, including the boring ones, because the boring ones turned out to matter most."
+status = "normal"
+
+["Narrative.Ending.Archive.Epilogue.2"]
+new = "If anyone ever wonders how a valley went dry and came back, the answer is up there, filed under MAINTENANCE: DO NOT POSTPONE."
+status = "normal"
+
+["Narrative.Ending.Settlement.Title"]
+new = "The Map Home"
+status = "normal"
+
+["Narrative.Ending.Settlement.Description"]
+new = "Guide future settlers: clean-water maps, treatment designs and the safe routes the colony learned, so others can build where the land has healed."
+status = "normal"
+
+["Narrative.Ending.Settlement.Epilogue.1"]
+new = "The beacon does not ask anyone to come. It simply explains, very clearly, where the water is clean, how to keep it that way and which roots are the tastiest."
+status = "normal"
+
+["Narrative.Ending.Settlement.Epilogue.2"]
+new = "Somewhere, someday, a small band of travellers will follow it over the ridge and find a valley already waiting for them."
+status = "normal"
+
+["Narrative.Notification.Chapter"]
+new = "Frontier Journal: {0}"
+status = "normal"
+
+["Narrative.Notification.Discovery"]
+new = "Discovery: {0}"
+status = "normal"
+
+["Narrative.Notification.Choose"]
+new = "The beacon is ready to carry a message: choose it in the Frontier Journal."
+status = "normal"
+
+["Narrative.Dialog.Chapter"]
+new = "Frontier Journal - chapter {0} of {1}"
+status = "normal"
+
+["Narrative.Dialog.Discovery"]
+new = "Frontier Journal - discovery"
+status = "normal"
+
+["Narrative.Dialog.Reward"]
+new = "Reward: {0} science"
+status = "normal"
+
+["Narrative.Dialog.Decision"]
+new = "The beacon will carry: {0}"
+status = "normal"
+
+["Narrative.Journal.Title"]
+new = "Frontier Journal"
+status = "normal"
+
+["Narrative.Journal.Widget"]
+new = "Frontier Journal ({0}/{1})"
+status = "normal"
+
+["Narrative.Journal.WidgetComplete"]
+new = "Frontier Journal: complete"
+status = "normal"
+
+["Narrative.Journal.Open"]
+new = "Open journal"
+status = "normal"
+
+["Narrative.Journal.Current"]
+new = "Chapter {0} of {1}: {2}"
+status = "normal"
+
+["Narrative.Journal.AllComplete"]
+new = "Every chapter is complete. The colony's story is told."
+status = "normal"
+
+["Narrative.Journal.Progress"]
+new = "{0}: {1} / {2}"
+status = "normal"
+
+["Narrative.Journal.ProgressDone"]
+new = "{0}: done"
+status = "normal"
+
+["Narrative.Journal.Hint"]
+new = "Hint: {0}"
+status = "normal"
+
+["Narrative.Journal.ChooseIntro"]
+new = "Choose what the Long-Range Beacon will carry. The choice is final."
+status = "normal"
+
+["Narrative.Journal.ChooseButton"]
+new = "Choose: {0}"
+status = "normal"
+
+["Narrative.Journal.Chosen"]
+new = "The beacon will carry: {0}"
+status = "normal"
+
+["Narrative.Journal.Chronicle"]
+new = "Chronicle"
+status = "normal"
+
+["Narrative.Journal.NoChronicle"]
+new = "No chapters completed yet."
+status = "normal"
+
+["Narrative.Journal.Discoveries"]
+new = "Discoveries: {0} of {1}"
+status = "normal"
+
+["Narrative.Journal.DiscoveryPending"]
+new = "Undiscovered: {0}"
+status = "normal"
+
+["Narrative.Journal.ChapterEntry"]
+new = "{0}. {1}"
+status = "normal"
+
+["Narrative.Choice.Title"]
+new = "What the Beacon Says"
+status = "normal"
+
+["Narrative.Choice.Later"]
+new = "Decide later"
+status = "normal"
+
+["Narrative.Cache.Title"]
+new = "Human Record Cache"
+status = "normal"
+
+["Narrative.Cache.Surveyed"]
+new = "Surveyed: its records are in the Frontier Journal."
+status = "normal"
+
+["Narrative.Cache.NoSurveyor"]
+new = "Needs a finished Archive Excavation within {0} tiles to survey it."
+status = "normal"
+
+["Narrative.Cache.Idle"]
+new = "Archive Excavation in range, but no one is working there."
+status = "normal"
+
+["Narrative.Cache.Surveying"]
+new = "Surveying: {0}%"
+status = "normal"
+
+["Narrative.Cache.WaitingForStorage"]
+new = "Survey complete: handing over records as the excavation has storage space ({0} of {1})."
+status = "normal"
+
+["Narrative.Cache.Reward"]
+new = "Survey reward: {0} {1} and a journal record. Demolishing it before the survey loses its records."
+status = "normal"
+
+["Building.HumanRecordCache.DisplayName"]
+new = "Human Record Cache"
+status = "normal"
+
+["Building.HumanRecordCache.Description"]
+new = "A sealed human records box. A working Archive Excavation within four tiles surveys it for archive data and a Frontier Journal record. It can also be demolished like a relic, losing its records."
+status = "normal"
+
+["Building.HumanRecordCache.FlavorDescription"]
+new = "Labelled, in three languages: DO NOT OPEN. Open carefully."
+status = "normal"
+
+["DeepFrontier.Weather.RadioactiveTide"]
+new = "Radioactive tide"
+status = "normal"
+
+["DeepFrontier.Weather.Notification.RadioactiveTideApproaching"]
+new = "Radioactive tide approaching"
+status = "normal"
+
+["DeepFrontier.Weather.Notification.RadioactiveTideInProgress"]
+new = "Radioactive tide in progress"
+status = "normal"
+
+["DeepFrontier.Weather.RadioactiveTideStartedNotification"]
+new = "Radioactive tide started"
+status = "normal"
+
+["DeepFrontier.Weather.RadioactiveTideEndedNotification"]
+new = "Radioactive tide ended"
+status = "normal"
+
+["DeepFrontier.Weather.RadioactiveTideApproachingDescription"]
+new = "For {0} days the water of every water source will be partly radioactive. Store clean water: pumps stop wherever radiation reaches them."
+status = "normal"
+
+["DeepFrontier.Weather.RadioactiveTideStartedDescription"]
+new = "Water sources are releasing radioactive water. It stays after the tide until it drains off the map, decays, dries into irradiated ground or is pumped out."
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.Header"]
+new = "Radioactive tide"
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.Enabled"]
+new = "Radioactive tides"
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.Enabled.Tooltip"]
+new = "A late-game hazardous season that can replace a drought or badtide: water keeps flowing, but the water of every source is partly radioactive."
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.MinCycle"]
+new = "Earliest cycle"
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.MinCycle.Tooltip"]
+new = "No radioactive tide happens before this cycle."
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.Chance"]
+new = "Chance per cycle (%)"
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.Chance.Tooltip"]
+new = "Chance that a cycle's hazardous season is a radioactive tide. Never two cycles in a row."
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.MinDuration"]
+new = "Shortest tide (days)"
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.MinDuration.Tooltip"]
+new = "Must not be longer than the longest tide."
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.MaxDuration"]
+new = "Longest tide (days)"
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.MaxDuration.Tooltip"]
+new = "Must not be shorter than the shortest tide."
+status = "normal"
+
+["DeepFrontier.Weather.RadioactiveTideDescription"]
+new = "Hazardous weather (Deep Frontier). Water keeps flowing, but part of the water of every water source is radioactive. It stays after the tide until it drains off the map, decays, dries into irradiated ground or is pumped out. Pumps stop wherever radiation reaches them."
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.EnabledDesc"]
+new = "Whether radioactive tides can happen in this save. New saves start from the Deep Frontier mod settings."
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.MinCycleDesc"]
+new = "No radioactive tide happens before this cycle."
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.ChanceDesc"]
+new = "Chance that a hazardous season is a radioactive tide instead of the other hazardous weathers. A percentage, not a weight. Never two cycles in a row."
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.MinDurationDesc"]
+new = "Shortest radioactive tide in days. Must not be longer than the longest tide."
+status = "normal"
+
+["DeepFrontier.RadioactiveTide.Settings.MaxDurationDesc"]
+new = "Longest radioactive tide in days. Must not be shorter than the shortest tide."
+status = "normal"
+
+["Good.Sandstone.DisplayName"]
+new = "Sandstone"
+status = "normal"
+
+["Good.Sandstone.PluralDisplayName"]
+new = "Sandstone"
+status = "normal"
+
+["Good.Limestone.DisplayName"]
+new = "Limestone"
+status = "normal"
+
+["Good.Limestone.PluralDisplayName"]
+new = "Limestone"
+status = "normal"
+
+["Good.Aggregate.DisplayName"]
+new = "Aggregate"
+status = "normal"
+
+["Good.Aggregate.PluralDisplayName"]
+new = "Aggregate"
+status = "normal"
+
+["Good.Cement.DisplayName"]
+new = "Cement"
+status = "normal"
+
+["Good.Cement.PluralDisplayName"]
+new = "Cement"
+status = "normal"
+
+["Good.Concrete.DisplayName"]
+new = "Concrete"
+status = "normal"
+
+["Good.Concrete.PluralDisplayName"]
+new = "Concrete"
+status = "normal"
+
+["Recipe.SandstoneExtraction.DisplayName"]
+new = "Extract sandstone"
+status = "normal"
+
+["Recipe.LimestoneExtraction.DisplayName"]
+new = "Extract limestone"
+status = "normal"
+
+["Recipe.Aggregate.DisplayName"]
+new = "Crush sandstone"
+status = "normal"
+
+["Recipe.Cement.DisplayName"]
+new = "Fire cement"
+status = "normal"
+
+["Recipe.Concrete.DisplayName"]
+new = "Mix concrete"
+status = "normal"
+
+["Building.SandstonePit.DisplayName"]
+new = "Sandstone pit"
+status = "normal"
+
+["Building.SandstonePit.Description"]
+new = "Workers collect finite sandstone deposits within walking range. The next step is a Stone Crusher, then a permanent Sandstone Quarry."
+status = "normal"
+
+["Building.SandstonePit.FlavorDescription"]
+new = "The next age begins with a solid foundation."
+status = "normal"
+
+["Building.LimestonePit.DisplayName"]
+new = "Limestone pit"
+status = "normal"
+
+["Building.LimestonePit.Description"]
+new = "Workers collect finite limestone deposits within walking range. Feed a Cement Kiln; later build a permanent Limestone Quarry."
+status = "normal"
+
+["Building.LimestonePit.FlavorDescription"]
+new = "The next age begins with a solid foundation."
+status = "normal"
+
+["Building.SandstoneQuarry.DisplayName"]
+new = "Sandstone quarry"
+status = "normal"
+
+["Building.SandstoneQuarry.Description"]
+new = "Extracts sandstone indefinitely from a marked deep seam. Requires water and 1500 hp. Build over a Deep Sandstone Seam. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.SandstoneQuarry.FlavorDescription"]
+new = "The next age begins with a solid foundation."
+status = "normal"
+
+["Building.LimestoneQuarry.DisplayName"]
+new = "Limestone quarry"
+status = "normal"
+
+["Building.LimestoneQuarry.Description"]
+new = "Extracts limestone indefinitely from a marked deep seam. Requires water and 1500 hp. Build over a Deep Limestone Seam. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.LimestoneQuarry.FlavorDescription"]
+new = "The next age begins with a solid foundation."
+status = "normal"
+
+["Building.StoneCrusher.DisplayName"]
+new = "Stone crusher"
+status = "normal"
+
+["Building.StoneCrusher.Description"]
+new = "Crushes 3 sandstone into 6 aggregate per hour at 200 hp. Supply the aggregate to a Concrete Mixer."
+status = "normal"
+
+["Building.StoneCrusher.FlavorDescription"]
+new = "The next age begins with a solid foundation."
+status = "normal"
+
+["Building.CementKiln.DisplayName"]
+new = "Cement kiln"
+status = "normal"
+
+["Building.CementKiln.Description"]
+new = "Fires 3 limestone and 1 aggregate into 2 cement every 2 hours, consuming log fuel and 300 hp. No separate heat system."
+status = "normal"
+
+["Building.CementKiln.FlavorDescription"]
+new = "The next age begins with a solid foundation."
+status = "normal"
+
+["Building.ConcreteMixer.DisplayName"]
+new = "Concrete mixer"
+status = "normal"
+
+["Building.ConcreteMixer.Description"]
+new = "Mixes 3 aggregate, 1 cement and 2 water into 4 concrete per hour at 250 hp. Concrete unlocks permanent quarries and advanced construction. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.ConcreteMixer.FlavorDescription"]
+new = "The next age begins with a solid foundation."
+status = "normal"
+
+["Building.SandstoneMasonryBlock.DisplayName"]
+new = "Sandstone masonry block"
+status = "normal"
+
+["Building.SandstoneMasonryBlock.Description"]
+new = "Mortared sandstone retaining block. Holds back water and supports construction on its top."
+status = "normal"
+
+["Building.SandstoneMasonryBlock.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.LimestoneMasonryBlock.DisplayName"]
+new = "Limestone masonry block"
+status = "normal"
+
+["Building.LimestoneMasonryBlock.Description"]
+new = "Dressed limestone retaining block. Holds back water and supports construction on its top."
+status = "normal"
+
+["Building.LimestoneMasonryBlock.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ConcreteBlock.DisplayName"]
+new = "Concrete levee block"
+status = "normal"
+
+["Building.ConcreteBlock.Description"]
+new = "Cast concrete foundation and retaining block. Holds back water and supports buildings."
+status = "normal"
+
+["Building.ConcreteBlock.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ConcreteOverhang8x1.DisplayName"]
+new = "Reinforced overhang 8×1"
+status = "normal"
+
+["Building.ConcreteOverhang8x1.Description"]
+new = "A reinforced deck with one supported anchor tile and seven cantilever tiles. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.ConcreteOverhang8x1.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ConcreteScaffold3x3.DisplayName"]
+new = "Concrete platform 3×3 (3 high)"
+status = "normal"
+
+["Building.ConcreteScaffold3x3.Description"]
+new = "A tall, wide construction deck on four corner supports. Leaves a clear central bay for paths, power shafts and tubeways. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.ConcreteScaffold3x3.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ReinforcedDamBlock.DisplayName"]
+new = "Reinforced dam block"
+status = "normal"
+
+["Building.ReinforcedDamBlock.Description"]
+new = "A solid concrete dam module with exposed steel bands. Holds back water and supports construction. Concrete side platforms can hang from its side, level with its top."
+status = "normal"
+
+["Building.ReinforcedDamBlock.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["DeepFrontier.AnchoredDeck.RequiresAnchor"]
+new = "Must hang from the side of a reinforced dam block, level with its top. Point at the top of the dam block to place it."
+status = "normal"
+
+["Building.ConcreteOverflowDam.DisplayName"]
+new = "Concrete overflow dam"
+status = "normal"
+
+["Building.ConcreteOverflowDam.Description"]
+new = "A concrete spill sill under a supported deck. Retains water to 0.65 of a layer; excess water flows through the upper opening."
+status = "normal"
+
+["Building.ConcreteOverflowDam.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ConcreteScaffold3x3H1.DisplayName"]
+new = "Concrete platform 3×3 (1 high)"
+status = "normal"
+
+["Building.ConcreteScaffold3x3H1.Description"]
+new = "A 3×3 construction deck on four corner supports 1 layer high. Leaves a clear bay below for paths, power shafts and tubeways. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.ConcreteScaffold3x3H1.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ConcreteScaffold3x3H2.DisplayName"]
+new = "Concrete platform 3×3 (2 high)"
+status = "normal"
+
+["Building.ConcreteScaffold3x3H2.Description"]
+new = "A 3×3 construction deck on four corner supports 2 layers high. Leaves a clear bay below for paths, power shafts and tubeways. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.ConcreteScaffold3x3H2.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ConcreteScaffold4x4H1.DisplayName"]
+new = "Concrete platform 4×4 (1 high)"
+status = "normal"
+
+["Building.ConcreteScaffold4x4H1.Description"]
+new = "A 4×4 construction deck on four corner supports 1 layer high. Steel joists carry the wider span. Leaves a clear bay below for paths, power shafts and tubeways. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.ConcreteScaffold4x4H1.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ConcreteScaffold4x4H2.DisplayName"]
+new = "Concrete platform 4×4 (2 high)"
+status = "normal"
+
+["Building.ConcreteScaffold4x4H2.Description"]
+new = "A 4×4 construction deck on four corner supports 2 layers high. Steel joists carry the wider span. Leaves a clear bay below for paths, power shafts and tubeways. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.ConcreteScaffold4x4H2.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ConcreteScaffold4x4H3.DisplayName"]
+new = "Concrete platform 4×4 (3 high)"
+status = "normal"
+
+["Building.ConcreteScaffold4x4H3.Description"]
+new = "A 4×4 construction deck on four corner supports 3 layers high. Steel joists carry the wider span. Leaves a clear bay below for paths, power shafts and tubeways. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.ConcreteScaffold4x4H3.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ConcreteScaffold5x5H1.DisplayName"]
+new = "Concrete platform 5×5 (1 high)"
+status = "normal"
+
+["Building.ConcreteScaffold5x5H1.Description"]
+new = "A 5×5 construction deck on four corner supports 1 layer high. Steel joists carry the wider span. Leaves a clear bay below for paths, power shafts and tubeways. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.ConcreteScaffold5x5H1.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ConcreteScaffold5x5H2.DisplayName"]
+new = "Concrete platform 5×5 (2 high)"
+status = "normal"
+
+["Building.ConcreteScaffold5x5H2.Description"]
+new = "A 5×5 construction deck on four corner supports 2 layers high. Steel joists carry the wider span. Leaves a clear bay below for paths, power shafts and tubeways. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.ConcreteScaffold5x5H2.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ConcreteScaffold5x5H3.DisplayName"]
+new = "Concrete platform 5×5 (3 high)"
+status = "normal"
+
+["Building.ConcreteScaffold5x5H3.Description"]
+new = "A 5×5 construction deck on four corner supports 3 layers high. Steel joists carry the wider span. Leaves a clear bay below for paths, power shafts and tubeways. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.ConcreteScaffold5x5H3.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ConcreteSidePlatform3x3.DisplayName"]
+new = "Concrete side platform 3×3"
+status = "normal"
+
+["Building.ConcreteSidePlatform3x3.Description"]
+new = "A legless 3×3 concrete deck that hangs from the side of a reinforced dam block, level with its top. Steel cleats bear on the dam top; nothing is needed underneath. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.ConcreteSidePlatform3x3.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ConcreteSidePlatform4x4.DisplayName"]
+new = "Concrete side platform 4×4"
+status = "normal"
+
+["Building.ConcreteSidePlatform4x4.Description"]
+new = "A legless 4×4 concrete deck that hangs from the side of a reinforced dam block, level with its top. Steel cleats bear on the dam top; nothing is needed underneath. Steel joists carry the wider span. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.ConcreteSidePlatform4x4.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ConcreteSidePlatform5x5.DisplayName"]
+new = "Concrete side platform 5×5"
+status = "normal"
+
+["Building.ConcreteSidePlatform5x5.Description"]
+new = "A legless 5×5 concrete deck that hangs from the side of a reinforced dam block, level with its top. Steel cleats bear on the dam top; nothing is needed underneath. Steel joists carry the wider span. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.ConcreteSidePlatform5x5.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.ReinforcedHydroTurbine.DisplayName"]
+new = "Reinforced hydroelectric turbine"
+status = "normal"
+
+["Building.ReinforcedHydroTurbine.Description"]
+new = "A reinforced outlet through a dam. Set its discharge in m³/s; actual forward flow and water head generate hp. Close it manually or with native automation. Build stairs to the service terrace and structures on the solid upper cap."
+status = "normal"
+
+["Building.ReinforcedHydroTurbine.FlavorDescription"]
+new = "A river, given a useful job."
+status = "normal"
+
+["Building.MaterialsLaboratory.DisplayName"]
+new = "Materials Laboratory"
+status = "normal"
+
+["Building.MaterialsLaboratory.Description"]
+new = "Consumes gears, concrete, metal samples and test water, or assays uranium ore and treatment-plant brine in high-purity water, to develop 400 science per working hour at full productivity. Requires four workers and 600 hp. Water can be piped in (Timber Pipes). Its connected upper terrace supports paths and platforms. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.MaterialsLaboratory.FlavorDescription"]
+new = "Break a few samples. Build a better future."
+status = "normal"
+
+["Recipe.MaterialsResearch.DisplayName"]
+new = "Materials research"
+status = "normal"
+
+["Recipe.GeochemicalAssay.DisplayName"]
+new = "Geochemical assays"
+status = "normal"
+
+["Building.SandstoneOutcrop.DisplayName"]
+new = "Sandstone outcrop"
+status = "normal"
+
+["Building.SandstoneOutcrop.Description"]
+new = "Finite surface deposit. A nearby Sandstone Pit removes stone; exhausted deposits disappear. Place these in the map editor before play."
+status = "normal"
+
+["Building.SandstoneOutcrop.FlavorDescription"]
+new = "The next age begins with a solid foundation."
+status = "normal"
+
+["Building.LimestoneOutcrop.DisplayName"]
+new = "Limestone outcrop"
+status = "normal"
+
+["Building.LimestoneOutcrop.Description"]
+new = "Finite surface deposit. A nearby Limestone Pit removes stone; exhausted deposits disappear. Place these in the map editor before play."
+status = "normal"
+
+["Building.LimestoneOutcrop.FlavorDescription"]
+new = "The next age begins with a solid foundation."
+status = "normal"
+
+["Building.SandstoneSeam.DisplayName"]
+new = "Deep sandstone seam"
+status = "normal"
+
+["Building.SandstoneSeam.Description"]
+new = "Permanent geological source. Build a Sandstone Quarry over this marked site; extraction requires water, workers and 1500 hp."
+status = "normal"
+
+["Building.SandstoneSeam.FlavorDescription"]
+new = "The next age begins with a solid foundation."
+status = "normal"
+
+["Building.LimestoneSeam.DisplayName"]
+new = "Deep limestone seam"
+status = "normal"
+
+["Building.LimestoneSeam.Description"]
+new = "Permanent geological source. Build a Limestone Quarry over this marked site; extraction requires water, workers and 1500 hp."
+status = "normal"
+
+["Building.LimestoneSeam.FlavorDescription"]
+new = "The next age begins with a solid foundation."
+status = "normal"
+
+["Good.RadioactiveSludge.DisplayName"]
+new = "Radioactive Sludge"
+status = "normal"
+
+["Good.RadioactiveSludge.PluralDisplayName"]
+new = "Radioactive Sludge"
+status = "normal"
+
+["Good.ContaminatedWater.DisplayName"]
+new = "Contaminated Water"
+status = "normal"
+
+["Good.ContaminatedWater.PluralDisplayName"]
+new = "Contaminated Water"
+status = "normal"
+
+["Need.Irradiation.DisplayName"]
+new = "Radioactive Zombie"
+status = "normal"
+
+["Status.Need.Irradiation"]
+new = "Radioactive Zombie: shambles slowly, eats and drinks twice as much and cannot work. Needs 10 days of hospital care; untreated radiation sickness is fatal after 8 days."
+status = "normal"
+
+["Status.Need.Irradiation.Short"]
+new = "Radioactive Zombie"
+status = "normal"
+
+["DeepFrontier.Radiation.Zombie.Subtitle"]
+new = "{0} · Radioactive Zombie"
+status = "normal"
+
+["DeepFrontier.Radiation.Zombie.Countdown"]
+new = "Dies in {0} days without hospital treatment."
+status = "normal"
+
+["DeepFrontier.Radiation.Zombie.CountdownPaused"]
+new = "Hospital care has paused the radiation sickness: {0} days left untreated."
+status = "normal"
+
+["DeepFrontier.Radiation.Zombie.Flavor"]
+new = "Glows faintly, eats for two, works for nobody."
+status = "normal"
+
+["DeepFrontier.Radiation.Zombie.Dying"]
+new = "Radioactive Zombie: dies in under 2 days without hospital treatment."
+status = "normal"
+
+["DeepFrontier.Radiation.Zombie.Dying.Short"]
+new = "Zombie dying"
+status = "normal"
+
+["Building.RadioactiveWasteExport.DisplayName"]
+new = "Radioactive Waste Export"
+status = "normal"
+
+["Building.RadioactiveWasteExport.Description"]
+new = "Ships barrelled radioactive sludge and contaminated water off the map for good. Must touch the map edge: place its dispatch gate on the edge. Fed by pipe at its front socket or by haulers. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.RadioactiveWasteExport.FlavorDescription"]
+new = "Somewhere downstream, it is somebody else's problem."
+status = "normal"
+
+["Building.RadioactiveSludgeOutfall.DisplayName"]
+new = "Sludge Outfall"
+status = "normal"
+
+["Building.RadioactiveSludgeOutfall.Description"]
+new = "Pours barrelled radioactive sludge into the world as radioactive water over the lip of its spillway. It mixes with the water it meets, stops pumps, irradiates beavers, leaves irradiated ground where it dries, and only leaves through open map edges. Fed by pipe at its front socket or by haulers. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+status = "normal"
+
+["Building.RadioactiveSludgeOutfall.FlavorDescription"]
+new = "Out of sight is not out of the river."
+status = "normal"
+
+["Building.RadioactiveSludgeRecoveryPump.DisplayName"]
+new = "Sludge Recovery Pump"
+status = "normal"
+
+["Building.RadioactiveSludgeRecoveryPump.Description"]
+new = "Pumps radioactive water through its intake pipe and barrels its radioactivity as sludge for export; the fresh water pumped with it is used up. The intake drops from the middle of the back deck, so that cell must stand over open water, with ground under the two piers beside it. Delivers the barrels by pipe from its front socket or to haulers. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
+status = "normal"
+
+["Building.RadioactiveSludgeRecoveryPump.FlavorDescription"]
+new = "The cleanup always takes longer than the spill."
+status = "normal"
+
+["DeepFrontier.Radiation.Status.PumpBlocked"]
+new = "Radiation detected at the intake. Pumps cannot filter radiation, so pumping has stopped until the water is clean."
+status = "normal"
+
+["DeepFrontier.Radiation.Status.PumpBlocked.Short"]
+new = "Radiation detected"
+status = "normal"
+
+["DeepFrontier.Radiation.Status.StorageIrradiated"]
+new = "Stored water is irradiated and undrinkable."
+status = "normal"
+
+["DeepFrontier.Radiation.Status.NoRadiation"]
+new = "No radioactive water at the intake."
+status = "normal"
+
+["DeepFrontier.Radiation.WaterShares"]
+new = "Water at the intake: {0}% fresh, {1}% bad, {2}% radioactive."
+status = "normal"
+
+["DeepFrontier.Radiation.Status.OutletBlocked"]
+new = "The outlet is blocked."
+status = "normal"
+
+["DeepFrontier.Radiation.Placement.NotAtMapEdge"]
+new = "Must touch the map edge."
+status = "normal"
+
+["DeepFrontier.Radiation.DeathMessage"]
+new = "{0} the radioactive zombie fell apart from untreated radiation sickness."
+status = "normal"
+
+["DeepFrontier.Radiation.Planting.Warning"]
+new = "Radiation: plants on irradiated (yellow-green) ground die immediately, including anything planted there."
+status = "normal"
+
+["Building.RadioactiveSpring.DisplayName"]
+new = "Radioactive Spring"
+status = "normal"
+
+["Building.RadioactiveSpring.Description"]
+new = "A natural spring of radioactive water. Its strength works like a water source; 0 stops it."
+status = "normal"
+
+["Building.RadioactiveSpringSource.DisplayName"]
+new = "Radioactive Spring"
+status = "normal"
+
+["Building.RadioactiveSpringSource.Description"]
+new = "A natural spring of radioactive water. Its strength works like a water source; 0 stops it."
+status = "normal"
+
+["DeepFrontier.ContaminationSensor.Substance"]
+new = "Measures"
+status = "normal"
+
+["DeepFrontier.ContaminationSensor.Substance.Badwater"]
+new = "Badwater"
+status = "normal"
+
+["DeepFrontier.ContaminationSensor.Substance.Radiation"]
+new = "Radiation"
+status = "normal"
+
+["DeepFrontier.ContaminationSensor.Substance.Any"]
+new = "Any contamination"
+status = "normal"
+
+["DeepFrontier.ContaminationSensor.Reading.Radiation"]
+new = "Radiation: {0}%"
+status = "normal"
+
+["DeepFrontier.ContaminationSensor.Reading.Any"]
+new = "Badwater: {0}%, radiation: {1}%"
+status = "normal"
+
+["DeepFrontier.Workforce.Discipline.Metallurgy"]
+new = "Metallurgist"
+status = "normal"
+
+["DeepFrontier.Workforce.Discipline.Metallurgy.Plural"]
+new = "Metallurgists"
+status = "normal"
+
+["DeepFrontier.Workforce.Discipline.Nuclear"]
+new = "Reactor operator"
+status = "normal"
+
+["DeepFrontier.Workforce.Discipline.Nuclear.Plural"]
+new = "Reactor operators"
+status = "normal"
+
+["DeepFrontier.Workforce.Discipline.Flight"]
+new = "Flight engineer"
+status = "normal"
+
+["DeepFrontier.Workforce.Discipline.Flight.Plural"]
+new = "Flight engineers"
+status = "normal"
+
+["DeepFrontier.Workforce.Danger.Hazardous"]
+new = "Hazardous"
+status = "normal"
+
+["DeepFrontier.Workforce.Danger.Dangerous"]
+new = "Dangerous"
+status = "normal"
+
+["DeepFrontier.Workforce.Danger.Extreme"]
+new = "Extreme"
+status = "normal"
+
+["Recipe.SpecialistTraining.Metallurgy.DisplayName"]
+new = "Metallurgist course"
+status = "normal"
+
+["Recipe.SpecialistTraining.Nuclear.DisplayName"]
+new = "Reactor operator course"
+status = "normal"
+
+["Recipe.SpecialistTraining.Flight.DisplayName"]
+new = "Flight engineer course"
+status = "normal"
+
+["DeepFrontier.Workforce.Panel.Title"]
+new = "Workforce risks"
+status = "normal"
+
+["DeepFrontier.Workforce.Panel.InjuryRisk"]
+new = "Injury risk: {0}. About {1}% per worker-hour while working; strained/exhausted workers face {2} times that."
+status = "normal"
+
+["DeepFrontier.Workforce.Panel.InjuriesDisabled"]
+new = "Injury risk: {0}. Injuries are switched off in this game's settings."
+status = "normal"
+
+["DeepFrontier.Workforce.Panel.InjurySeverity"]
+new = "An accident takes {0} days to heal without a hospital; {1}% of accidents are fatal."
+status = "normal"
+
+["DeepFrontier.Workforce.Panel.Crew"]
+new = "Crew at the last check: {0} fit, {1} strained (low wellbeing or tired), {2} exhausted."
+status = "normal"
+
+["DeepFrontier.Workforce.Panel.Record"]
+new = "Accidents here: {0} injured, {1} killed."
+status = "normal"
+
+["DeepFrontier.Workforce.Panel.BotWear"]
+new = "Bots wear out {0}× faster while working here."
+status = "normal"
+
+["DeepFrontier.Workforce.Panel.BotsNotAllowed"]
+new = "Bots are not allowed here."
+status = "normal"
+
+["DeepFrontier.Workforce.Status.Exhausted"]
+new = "Exhausted workers: injury risk ×{0}"
+status = "normal"
+
+["DeepFrontier.Workforce.Specialists.Title"]
+new = "Specialist crew"
+status = "normal"
+
+["DeepFrontier.Workforce.Specialists.Required"]
+new = "Only trained {0} can work here."
+status = "normal"
+
+["DeepFrontier.Workforce.Specialists.Staffing"]
+new = "Posts filled: {0}. Unassigned {2} in this district: {1}."
+status = "normal"
+
+["DeepFrontier.Workforce.Specialists.Train"]
+new = "Train {0} at the Technical School. A specialist's skill dies with them."
+status = "normal"
+
+["DeepFrontier.Workforce.Status.NoSpecialists"]
+new = "No {0}: this building cannot run. Train them at the Technical School."
+status = "normal"
+
+["DeepFrontier.Workforce.Status.NoSpecialists.Short"]
+new = "No {0}"
+status = "normal"
+
+["DeepFrontier.Workforce.Status.FewSpecialists"]
+new = "Not enough {0}. Train more at the Technical School."
+status = "normal"
+
+["DeepFrontier.Workforce.School.Title"]
+new = "Specialist training"
+status = "normal"
+
+["DeepFrontier.Workforce.School.Program"]
+new = "Course: {0}. Each finished course graduates the trainee with the most training hours."
+status = "normal"
+
+["DeepFrontier.Workforce.School.NoProgram"]
+new = "Choose a training course."
+status = "normal"
+
+["DeepFrontier.Workforce.School.NextGraduate"]
+new = "Next graduate: {0} ({1} h of training)."
+status = "normal"
+
+["DeepFrontier.Workforce.School.NoTrainee"]
+new = "No trainee enrolled. Specialists working here teach but never retrain."
+status = "normal"
+
+["DeepFrontier.Workforce.School.Pending"]
+new = "Finished courses waiting for a trainee: {0}."
+status = "normal"
+
+["DeepFrontier.Workforce.School.Roster"]
+new = "Colony specialists: {0}."
+status = "normal"
+
+["DeepFrontier.Workforce.Status.NoTrainee"]
+new = "A course finished but no trainee is enrolled. Assign beavers who are not specialists."
+status = "normal"
+
+["DeepFrontier.Workforce.Status.NoTrainee.Short"]
+new = "No trainee"
+status = "normal"
+
+["DeepFrontier.Workforce.Trait.Specialist"]
+new = "Specialist: {0}"
+status = "normal"
+
+["DeepFrontier.Workforce.Trait.Training"]
+new = "Technical School training: {0} h"
+status = "normal"
+
+["DeepFrontier.Workforce.Notification.Graduated"]
+new = "{0} graduated as a {1}."
+status = "normal"
+
+["DeepFrontier.Workforce.Notification.SkillLost"]
+new = "Skill lost: {0}, a {1}, has died. {2} left."
+status = "normal"
+
+["DeepFrontier.Workforce.FatalAccident"]
+new = "{0} was killed in an industrial accident at the {1}."
+status = "normal"
+
+["DeepFrontier.Workforce.Bot.Wearing"]
+new = "Wearing out {0}× faster at the {1}."
+status = "normal"
+
+["DeepFrontier.Workforce.Bot.Assigned"]
+new = "Assigned to the {1}: wears out {0}× faster inside."
+status = "normal"
+
+["Recipe.IndustrialBot.DisplayName"]
+new = "Industrial bot"
+status = "normal"
+
+["DeepFrontier.BotUpkeep.Panel.Title"]
+new = "Bot maintenance"
+status = "normal"
+
+["DeepFrontier.BotUpkeep.Panel.Bots"]
+new = "Bots assigned: {0}. Serviced: {1}."
+status = "normal"
+
+["DeepFrontier.BotUpkeep.Panel.NoBots"]
+new = "No bots assigned: maintenance oil is only stocked while bots work here."
+status = "normal"
+
+["DeepFrontier.BotUpkeep.Panel.Good"]
+new = "{0}: {1} in stock. A bot serviced with it wears out {2}× here."
+status = "normal"
+
+["DeepFrontier.BotUpkeep.Panel.Dose"]
+new = "One dose lasts {0} hours of work here; unserviced bots wear out {1}×. Bots take the first oil in stock, in the order listed."
+status = "normal"
+
+["DeepFrontier.BotUpkeep.Bot.Serviced"]
+new = "Serviced with {0}: wears out {1}× here for {2} more hours."
+status = "normal"
+
+["DeepFrontier.BotUpkeep.Bot.Unserviced"]
+new = "Not serviced: stock maintenance oil at the {0} to slow wear."
+status = "normal"
+
+["DeepFrontier.Power.Status.NotConnected"]
+new = "Not connected to a power source. Connect it to a generator with shafts or power lines."
+status = "normal"
+
+["DeepFrontier.Power.Status.NotConnected.Short"]
+new = "Not connected to power"
+status = "normal"

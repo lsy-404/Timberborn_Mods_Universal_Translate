@@ -1,0 +1,10 @@
+[_meta]
+name = "Spurge"
+
+["NaturalResource.Spurge.DisplayName"]
+new = "Spurge"
+status = "normal"
+
+["NaturalResource.Spurge.FlavorDescription"]
+new = "\"It drinks what we won't,\" said Pina, from a sensible distance."
+status = "normal"

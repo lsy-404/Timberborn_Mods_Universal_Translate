@@ -1,5 +1,5 @@
 [_meta]
-name = "High-Density Box Farm"
+name = "High-Density Box Farm — 3x3x1 Indoor Stackable Farm"
 
 ["HDBF.Building.BoxFarm.Basic.Name"]
 new = "High-Density Box Farm (Basic)"
@@ -747,4 +747,28 @@ status = "normal"
 
 ["HDBF.Tooltip.Efficiency"]
 new = "Irrigation growth multiplier G_irr from tank coverage C: 100% at or above C_min."
+status = "normal"
+
+["HDBF.Panel.SectionGrowing"]
+new = "Growing now"
+status = "normal"
+
+["HDBF.Panel.GrowingValue"]
+new = "{0} growing · {1} ready"
+status = "normal"
+
+["HDBF.Panel.GrowingEmpty"]
+new = "Nothing planted yet"
+status = "normal"
+
+["HDBF.Tooltip.Growing"]
+new = "{0} slots in use · average growth {1}% · matures in {2} days"
+status = "normal"
+
+["HDBF.Panel.GrowingPlanted"]
+new = "Planted slots"
+status = "normal"
+
+["HDBF.Panel.GrowingPlantedValue"]
+new = "{0} / {1} slots"
 status = "normal"

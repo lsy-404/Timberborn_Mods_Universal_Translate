@@ -1,0 +1,74 @@
+[_meta]
+name = "MoMo Walkable Floodgates 可行走水闸"
+
+["Building.MoMoWalkableFloodgate.DisplayName"]
+new = "Walkable Floodgate"
+status = "normal"
+
+["Building.MoMoWalkableFloodgate.Description"]
+new = "A stackable floodgate beavers can walk on. Stacks on other blocks; walkable on every level."
+status = "normal"
+
+["Building.MoMoWalkableFloodgate.FlavorDescription"]
+new = "Ol' kazko never foresaw that a beaver would like to stroll along the whole dam..."
+status = "normal"
+
+["Building.MoMoWalkableDoubleFloodgate.DisplayName"]
+new = "Walkable Double Floodgate"
+status = "normal"
+
+["Building.MoMoWalkableDoubleFloodgate.Description"]
+new = "A stackable floodgate beavers can walk on. Stacks on other blocks; walkable on every level."
+status = "normal"
+
+["Building.MoMoWalkableDoubleFloodgate.FlavorDescription"]
+new = "Ol' kazko never foresaw that a beaver would like to stroll along the whole dam..."
+status = "normal"
+
+["Building.MoMoWalkableTripleFloodgate.DisplayName"]
+new = "Walkable Triple Floodgate"
+status = "normal"
+
+["Building.MoMoWalkableTripleFloodgate.Description"]
+new = "A stackable floodgate beavers can walk on. Stacks on other blocks; walkable on every level."
+status = "normal"
+
+["Building.MoMoWalkableTripleFloodgate.FlavorDescription"]
+new = "Ol' kazko never foresaw that a beaver would like to stroll along the whole dam..."
+status = "normal"
+
+["Building.MoMoWalkableFloodgateWhite.DisplayName"]
+new = "Whitewashed Walkable Floodgate"
+status = "normal"
+
+["Building.MoMoWalkableFloodgateWhite.Description"]
+new = "A stackable floodgate beavers can walk on. Whitewashed look. Walkable on every level."
+status = "normal"
+
+["Building.MoMoWalkableFloodgateWhite.FlavorDescription"]
+new = "Ol' kazko never foresaw that a beaver would like to stroll along the whole dam..."
+status = "normal"
+
+["Building.MoMoWalkableDoubleFloodgateWhite.DisplayName"]
+new = "Whitewashed Walkable Double Floodgate"
+status = "normal"
+
+["Building.MoMoWalkableDoubleFloodgateWhite.Description"]
+new = "A stackable floodgate beavers can walk on. Whitewashed look. Walkable on every level."
+status = "normal"
+
+["Building.MoMoWalkableDoubleFloodgateWhite.FlavorDescription"]
+new = "Ol' kazko never foresaw that a beaver would like to stroll along the whole dam..."
+status = "normal"
+
+["Building.MoMoWalkableTripleFloodgateWhite.DisplayName"]
+new = "Whitewashed Walkable Triple Floodgate"
+status = "normal"
+
+["Building.MoMoWalkableTripleFloodgateWhite.Description"]
+new = "A stackable floodgate beavers can walk on. Whitewashed look. Walkable on every level."
+status = "normal"
+
+["Building.MoMoWalkableTripleFloodgateWhite.FlavorDescription"]
+new = "Ol' kazko never foresaw that a beaver would like to stroll along the whole dam..."
+status = "normal"
