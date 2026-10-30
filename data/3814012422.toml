@@ -1072,6 +1072,14 @@ csCZ = "Bandité se shromažďují. Během jednoho dne zaútočí na vaši osadu
 viVN = "Bọn cướp đang tập hợp. Chúng sẽ đột kích khu định cư của bạn trong vòng một ngày."
 trTR = "Haydutlar toplanıyor. Bir gün içinde yerleşim yerinize baskın düzenleyecekler."
 
+["TimberEmpires.Pirates.Coming"]
+new = "Pirate boats are sailing for your coast."
+status = "normal"
+
+["TimberEmpires.Pirates.Landing"]
+new = "Pirates are landing on your coast."
+status = "normal"
+
 ["TimberEmpires.Raids.Started"]
 raw = "Bandits are raiding your settlement."
 status = "normal"
@@ -4897,6 +4905,14 @@ csCZ = "Zdraví"
 viVN = "Sức khỏe"
 trTR = "Sağlık"
 
+["TimberEmpires.Shelter"]
+new = "Shelter"
+status = "normal"
+
+["TimberEmpires.Shelter.Tooltip"]
+new = "How much the shore shelters this boat from a storm. It takes full damage in open water, less near land and least inside a bay."
+status = "normal"
+
 ["TimberEmpires.Veterancy.Recruit"]
 raw = "Recruit"
 status = "normal"
@@ -6172,6 +6188,14 @@ csCZ = "Harkebuze"
 viVN = "Súng hỏa mai bấc"
 trTR = "Arkebüzler"
 
+["Good.Musket.DisplayName"]
+new = "Musket"
+status = "normal"
+
+["Good.Musket.PluralDisplayName"]
+new = "Muskets"
+status = "normal"
+
 ["Good.Sling.DisplayName"]
 raw = "Sling"
 status = "normal"
@@ -6290,6 +6314,18 @@ koKR = "화승총병: {0}"
 csCZ = "Arkebuzíři: {0}"
 viVN = "Lính hỏa mai: {0}"
 trTR = "Arkebüzcüler: {0}"
+
+["TimberEmpires.Troops.One.Musketeer"]
+new = "Musketeer"
+status = "normal"
+
+["TimberEmpires.Troops.Kind.Musketeer"]
+new = "Musketeers"
+status = "normal"
+
+["TimberEmpires.Troops.Count.Musketeer"]
+new = "Musketeers: {0}"
+status = "normal"
 
 ["TimberEmpires.Troops.One.Slinger"]
 raw = "Slinger"
@@ -6854,6 +6890,7 @@ trTR = "Kalkanlar"
 
 ["Building.TimberEmpires.Armory.DisplayName"]
 raw = "Bladesmith"
+new = "Arms Workshop"
 status = "normal"
 enUS = "Bladesmith"
 zhCN = "刀匠工作坊"
@@ -6871,6 +6908,7 @@ trTR = "Kılıç Ustası"
 
 ["Building.TimberEmpires.Armory.Description"]
 raw = "Makes swords for warriors and battle axes for berserkers."
+new = "Makes swords for warriors, battle axes for berserkers, and muskets on Archipelago maps."
 status = "normal"
 enUS = "Makes swords for warriors and battle axes for berserkers."
 zhCN = "为战士制造剑，为狂战士制造战斧。"
@@ -6888,6 +6926,7 @@ trTR = "Savaşçılar için kılıç, azgın savaşçılar için savaş baltası
 
 ["Building.TimberEmpires.Armory.FlavorDescription"]
 raw = "Sharpen twice, swing once."
+new = "Blades on one wall, barrels on the other."
 status = "normal"
 enUS = "Sharpen twice, swing once."
 zhCN = "磨刀两次，挥斧一次。"
@@ -6922,6 +6961,7 @@ trTR = "Silah ustası"
 
 ["Building.TimberEmpires.Gunsmith.Description"]
 raw = "Makes arquebuses and blasting charges."
+new = "Makes arquebuses and blasting charges, and muskets on Archipelago maps."
 status = "normal"
 enUS = "Makes arquebuses and blasting charges."
 zhCN = "制造火绳枪和爆破炸药。"
@@ -8025,22 +8065,9 @@ csCZ = "převozník"
 viVN = "người khuân vác"
 trTR = "Arabacı"
 
-["TimberEmpires.Monk.Faith"]
-raw = "Faith: {0}%"
+["TimberEmpires.Faith"]
+new = "Faith"
 status = "normal"
-enUS = "Faith: {0}%"
-zhCN = "信仰：{0}%"
-zhTW = "信仰：{0}%"
-ruRU = "Вера: {0}%"
-jaJP = "信仰：{0}%"
-frFR = "Foi : {0}%"
-deDE = "Glaube: {0}%"
-plPL = "Wiara: {0}%"
-ptBR = "Fé: {0}%"
-koKR = "신앙: {0}%"
-csCZ = "Víra: {0}%"
-viVN = "Đức tin: {0}%"
-trTR = "İnanç: {0}%"
 
 ["TimberEmpires.Alliances.Tab"]
 raw = "Alliances"
@@ -8058,142 +8085,6 @@ koKR = "동맹"
 csCZ = "Aliance"
 viVN = "Liên minh"
 trTR = "İttifaklar"
-
-["TimberEmpires.Map.Tab"]
-raw = "Map"
-status = "normal"
-enUS = "Map"
-zhCN = "地图"
-zhTW = "地圖"
-ruRU = "Карта"
-jaJP = "マップ"
-frFR = "Carte"
-deDE = "Karte"
-plPL = "Mapa"
-ptBR = "Mapa"
-koKR = "지도"
-csCZ = "Mapa"
-viVN = "Bản đồ"
-trTR = "Harita"
-
-["TimberEmpires.Map.Reset"]
-raw = "Reset view"
-status = "normal"
-enUS = "Reset View"
-zhCN = "重置视图"
-zhTW = "重設視角"
-ruRU = "Сбросить вид"
-jaJP = "表示をリセットする"
-frFR = "Réinitialiser la vue"
-deDE = "Ansicht zurücksetzen"
-plPL = "Zresetuj widok"
-ptBR = "Redefinir visualização"
-koKR = "시점 초기화"
-csCZ = "Obnovit pohled"
-viVN = "Đặt lại chế độ xem"
-trTR = "Görünümü sıfırla"
-
-["TimberEmpires.Map.Markers"]
-raw = "Markers"
-status = "normal"
-enUS = "Markers"
-zhCN = "标记"
-zhTW = "標記器"
-ruRU = "Маркеры"
-jaJP = "マーカー"
-frFR = "Marqueurs"
-deDE = "Markierungen"
-plPL = "Znaczniki"
-ptBR = "Marcadores"
-koKR = "표식들"
-csCZ = "Značky"
-viVN = "Dấu mốc"
-trTR = "İşaretleyiciler"
-
-["TimberEmpires.Map.NoMarkers"]
-raw = "No markers yet."
-status = "normal"
-enUS = "No markers yet."
-zhCN = "尚无标记。"
-zhTW = "尚無標記。"
-ruRU = "Маркеров пока нет."
-jaJP = "マーカーはまだありません。"
-frFR = "Aucun marqueur pour le moment."
-deDE = "Noch keine Markierungen."
-plPL = "Brak znaczników."
-ptBR = "Ainda não há marcadores."
-koKR = "아직 마커가 없습니다."
-csCZ = "Zatím žádné značky."
-viVN = "Chưa có điểm đánh dấu nào."
-trTR = "Henüz işaretçi yok."
-
-["TimberEmpires.Map.Go"]
-raw = "Go to"
-status = "normal"
-enUS = "Go to"
-zhCN = "前往"
-zhTW = "前往"
-ruRU = "Перейти к"
-jaJP = "移動先:"
-frFR = "Aller à"
-deDE = "Gehe zu"
-plPL = "Przejdź do"
-ptBR = "Ir para"
-koKR = "이동하기"
-csCZ = "Přejít na"
-viVN = "Đi tới"
-trTR = "Git"
-
-["TimberEmpires.Map.Remove"]
-raw = "Remove"
-status = "normal"
-enUS = "Remove"
-zhCN = "移除"
-zhTW = "移除"
-ruRU = "Удалить"
-jaJP = "削除"
-frFR = "Supprimer"
-deDE = "Entfernen"
-plPL = "Usuń"
-ptBR = "Remover"
-koKR = "제거하기"
-csCZ = "Odstranit"
-viVN = "Xóa"
-trTR = "Kaldır"
-
-["TimberEmpires.Map.Marker"]
-raw = "Marker {0}"
-status = "normal"
-enUS = "Marker {0}"
-zhCN = "标记 {0}"
-zhTW = "標記 {0}"
-ruRU = "Маркер {0}"
-jaJP = "マーカー {0}"
-frFR = "Marqueur {0}"
-deDE = "Markierung {0}"
-plPL = "Znacznik {0}"
-ptBR = "Marcador {0}"
-koKR = "표식 {0}"
-csCZ = "Značka {0}"
-viVN = "Dấu mốc {0}"
-trTR = "İşaretçi {0}"
-
-["TimberEmpires.Map.Hint"]
-raw = "Drag to pan, scroll to zoom, click to move the camera, right click to place or remove a marker"
-status = "normal"
-enUS = "Drag to pan, scroll to zoom, click to move the camera, and right-click to place or remove a marker"
-zhCN = "拖动以平移，滚动以缩放，单击以移动镜头，右键以放置或移除标记"
-zhTW = "拖曳以平移，捲動以縮放，按一下以移動鏡頭，按滑鼠右鍵以放置或移除標記。"
-ruRU = "Перетаскивайте, чтобы перемещать карту; прокручивайте, чтобы изменить масштаб; щёлкните, чтобы переместить камеру; щёлкните правой кнопкой мыши, чтобы поставить или убрать маркер."
-jaJP = "ドラッグで画面をパン、スクロールでズーム、クリックでカメラを移動、右クリックでマーカーを配置または削除します。"
-frFR = "Faites glisser pour déplacer la carte, faites défiler pour zoomer, cliquez pour déplacer la caméra, faites un clic droit pour placer ou retirer un marqueur"
-deDE = "Ziehen zum Verschieben, scrollen zum Zoomen, klicken zum Bewegen der Kamera, rechtsklicken zum Platzieren oder Entfernen einer Markierung"
-plPL = "Przeciągnij, aby przesunąć widok, przewiń, aby przybliżyć lub oddalić, kliknij, aby poruszyć kamerą, kliknij prawym przyciskiem, aby umieścić lub usunąć znacznik"
-ptBR = "Arraste para deslocar a câmera, role para aproximar ou afastar, clique para mover a câmera e clique com o botão direito para colocar ou remover um marcador"
-koKR = "드래그하여 화면을 이동하고, 스크롤하여 확대/축소하고, 클릭하여 카메라를 이동하고, 마커를 배치하거나 제거하려면 마우스 오른쪽 버튼을 클릭하세요."
-csCZ = "Tažením posouváte mapu, posouváním kolečka přibližujete či oddalujete, kliknutím přesouváte kameru a kliknutím pravým tlačítkem umístíte nebo odstraníte značku."
-viVN = "Kéo để dịch chuyển góc nhìn, cuộn để thu phóng, nhấp chuột để di chuyển camera, nhấp chuột phải để đặt hoặc xóa điểm đánh dấu"
-trTR = "Kaydırmak için sürükleyin, yakınlaştırmak için tekerleği kaydırın, kamerayı hareket ettirmek için tıklayın, işaretçi koymak veya kaldırmak için sağ tıklayın"
 
 ["TimberEmpires.Troops.Tab"]
 raw = "Troops"
@@ -8585,23 +8476,6 @@ koKR = "동맹 탭 열기"
 csCZ = "Otevřít kartu Aliance"
 viVN = "Mở tab Liên minh"
 trTR = "İttifaklar sekmesini aç"
-
-["TimberEmpires.KeyBindings.MapTab"]
-raw = "Open Map tab"
-status = "normal"
-enUS = "Open the Map tab"
-zhCN = "打开地图标签页"
-zhTW = "開啟地圖分頁"
-ruRU = "Открыть вкладку карты"
-jaJP = "マップタブを開く"
-frFR = "Ouvrir l’onglet Carte"
-deDE = "Karten-Tab öffnen"
-plPL = "Otwórz zakładkę mapy"
-ptBR = "Abrir a aba do mapa"
-koKR = "지도 탭 열기"
-csCZ = "Otevřít kartu Mapy"
-viVN = "Mở thẻ Bản đồ"
-trTR = "Harita sekmesini aç"
 
 ["TimberEmpires.KeyBindings.TroopsTab"]
 raw = "Open Troops tab"
@@ -10864,25 +10738,17 @@ csCZ = "Stavitelé při práci: {0}%"
 viVN = "Thợ xây đang làm việc: {0}%"
 trTR = "Çalışan inşaatçılar: {0}%"
 
-["Building.TimberEmpires.WarBoat.DisplayName"]
-raw = "War Boat"
+["Building.TimberEmpires.WarBoat.Folktails.DisplayName"]
+new = "War Catamaran"
 status = "normal"
-enUS = "War Boat"
-zhCN = "战船"
-zhTW = "戰船"
-ruRU = "Военная лодка"
-jaJP = "軍船"
-frFR = "Bateau de guerre"
-deDE = "Kriegsschiff"
-plPL = "Łódź wojenna"
-ptBR = "Barco de Guerra"
-koKR = "전투 보트"
-csCZ = "Válečná loď"
-viVN = "Thuyền Chiến Bạch Dương"
-trTR = "Savaş Teknesi"
+
+["Building.TimberEmpires.WarBoat.IronTeeth.DisplayName"]
+new = "Paddle Frigate"
+status = "normal"
 
 ["Building.TimberEmpires.WarBoat.Description"]
 raw = "Carries troops across the sea. Place it on the slip of a Naval Workshop. Once built and crewed it sails out by itself. Send it to another island's coast to land them."
+new = "Carries troops across the sea. Place it on the slip of a Naval Workshop. Once built and crewed, send it to another island's coast to land them."
 status = "normal"
 enUS = "Carries troops across the sea. Place it on the slip of a Naval Workshop. Once built and crewed, it sails out on its own. Send it to the coast of another island to land them."
 zhCN = "可搭载部队渡海。将其放在海军工坊的船台上。建造完成并配备船员后，它会自行出航。将其派往另一座岛屿的海岸即可让部队登陆。"
@@ -10898,22 +10764,13 @@ csCZ = "Převáží vojáky přes moře. Umístěte ho na skluz Naval Workshopu.
 viVN = "Vận chuyển binh lính qua biển. Đặt thuyền lên đường trượt của Xưởng Đóng tàu Hải quân. Sau khi được xây dựng và có thủy thủ đoàn, thuyền sẽ tự ra khơi. Đưa thuyền đến bờ biển của hòn đảo khác để đổ bộ binh lính."
 trTR = "Birlikleri denizden taşır. Bir Deniz Atölyesi'nin kızağına yerleştirin. İnşa edilip mürettebatı hazır olduğunda kendi kendine yola çıkar. Birlikleri karaya çıkarmak için başka bir adanın kıyısına gönderin."
 
-["Building.TimberEmpires.WarBoat.FlavorDescription"]
-raw = "Every island is a coast to someone."
+["Building.TimberEmpires.WarBoat.Folktails.FlavorDescription"]
+new = "“It's two boats tied together, and it has never once tipped over.” – Shipwright Mirelle"
 status = "normal"
-enUS = "Every island is a coast to someone."
-zhCN = "每座岛屿，对某些人来说都是海岸。"
-zhTW = "每座島嶼，對某些人來說都是海岸。"
-ruRU = "Для кого-то каждый остров — побережье."
-jaJP = "どの島も、誰かにとっては海岸だ。"
-frFR = "Chaque île est un rivage pour quelqu’un."
-deDE = "Jede Insel ist für irgendwen eine Küste."
-plPL = "Każda wyspa jest dla kogoś wybrzeżem."
-ptBR = "Toda ilha é uma costa para alguém."
-koKR = "누군가에게는 모든 섬이 해안이다."
-csCZ = "Každý ostrov je pro někoho pobřežím."
-viVN = "Với ai đó, mọi hòn đảo đều là bờ biển."
-trTR = "Her ada, birileri için kıyıdır."
+
+["Building.TimberEmpires.WarBoat.IronTeeth.FlavorDescription"]
+new = "The wind takes days off. The boiler doesn't."
+status = "normal"
 
 ["TimberEmpires.SeaRock3x3.DisplayName"]
 raw = "Sea Rock 3x3"
@@ -10982,6 +10839,354 @@ koKR = "바다가 다른 모든 것을 깎아 없앴다."
 csCZ = "Moře všechno ostatní odplavilo."
 viVN = "Biển đã bào mòn mọi thứ khác."
 trTR = "Deniz, geri kalan her şeyi aşındırdı."
+
+["Building.TimberEmpires.Cog.DisplayName"]
+new = "Cog"
+status = "normal"
+
+["Building.TimberEmpires.Cog.FlavorDescription"]
+new = "“Grandpa sailed to the far island once. He came back with a hat and never said where he got it.” – Little Drizzik"
+status = "normal"
+
+["Building.TimberEmpires.Cog.Description"]
+new = "Sails between islands. Place it on a Shipyard's slip, then send it to another island's coast to land there."
+status = "normal"
+
+["TimberEmpires.ShipArmament.Title"]
+new = "Gun ports"
+status = "normal"
+
+["TimberEmpires.ShipArmament.Hold"]
+new = "Hold"
+status = "normal"
+
+["TimberEmpires.ShipArmament.Hold.Tooltip"]
+new = "What the ship carries out of what it can: its guns, cannonballs and other goods together."
+status = "normal"
+
+["TimberEmpires.ShipArmament.Goods.Tooltip"]
+new = "Other goods aboard."
+status = "normal"
+
+["TimberEmpires.ShipArmament.Ports"]
+new = "Gun ports: {0}/{1}"
+status = "normal"
+
+["TimberEmpires.ShipArmament.Weight.Tooltip"]
+new = "What the guns picked weigh, out of all the ship carries. Their weight takes room in the hold and makes the ship slower and less agile."
+status = "normal"
+
+["TimberEmpires.ShipArmament.None"]
+new = "None"
+status = "normal"
+
+["TimberEmpires.ShipArmament.None.Tooltip"]
+new = "Takes the weapon off. Haulers carry it back ashore."
+status = "normal"
+
+["TimberEmpires.ShipArmament.Weapon.Tooltip"]
+new = "{0}: weight {1}, damage {2}, reach {3}"
+status = "normal"
+
+["TimberEmpires.ShipArmament.Ammo.Tooltip"]
+new = "Cannonballs aboard. Every gun fires them, a few a shot: set them to load in the hold above so haulers bring them."
+status = "normal"
+
+["TimberEmpires.ShipArmament.Shot.Tooltip"]
+new = "Cannonballs per shot: {0}"
+status = "normal"
+
+["TimberEmpires.ShipArmament.Empty"]
+new = "Empty. Click to mount a weapon."
+status = "normal"
+
+["TimberEmpires.ShipArmament.Waiting"]
+new = "{0}: waiting for haulers to bring it. They load the ship only while it lies at a shore or on its slip."
+status = "normal"
+
+["TimberEmpires.ShipArmament.Unmanned"]
+new = "{0}: nobody to fire it. Each gun needs one of the crew, who then stops shooting their own weapon."
+status = "normal"
+
+["TimberEmpires.ShipArmament.Port"]
+new = "Port side"
+status = "normal"
+
+["TimberEmpires.ShipArmament.Starboard"]
+new = "Starboard side"
+status = "normal"
+
+["Good.SwivelGun.DisplayName"]
+new = "Swivel Gun"
+status = "normal"
+
+["Good.SwivelGun.PluralDisplayName"]
+new = "Swivel Guns"
+status = "normal"
+
+["Good.Cannon.DisplayName"]
+new = "Cannon"
+status = "normal"
+
+["Good.Cannon.PluralDisplayName"]
+new = "Cannons"
+status = "normal"
+
+["Good.Carronade.DisplayName"]
+new = "Carronade"
+status = "normal"
+
+["Good.Carronade.PluralDisplayName"]
+new = "Carronades"
+status = "normal"
+
+["Good.Cannonball.DisplayName"]
+new = "Cannonball"
+status = "normal"
+
+["Good.Cannonball.PluralDisplayName"]
+new = "Cannonballs"
+status = "normal"
+
+["TimberEmpires.ShipCrew.Civil"]
+new = "Civil crew"
+status = "normal"
+
+["TimberEmpires.ShipCrew.Military"]
+new = "Military crew"
+status = "normal"
+
+["TimberEmpires.ShipCrew.Civil.Tooltip"]
+new = "Workers sail it and load its cargo"
+status = "normal"
+
+["TimberEmpires.ShipCrew.Military.Tooltip"]
+new = "Troops sail it and man its guns"
+status = "normal"
+
+["TimberEmpires.ShipCrew.AtSea"]
+new = "Changes only ashore"
+status = "normal"
+
+["Building.TimberEmpires.WarBoat.Pirate.DisplayName"]
+new = "Pirate Boat"
+status = "normal"
+
+["Building.TimberEmpires.WarBoat.Pirate.Description"]
+new = "A bandit camp's boat. It patrols the sea round its camp and attacks boats that come near."
+status = "normal"
+
+["Building.TimberEmpires.WarBoat.Pirate.FlavorDescription"]
+new = "“Black sails, no questions.”"
+status = "normal"
+
+["TimberEmpires.Pirates.TooFew"]
+new = "Too few hands left to sail."
+status = "normal"
+
+["TimberEmpires.Monk.Faith"]
+raw = "Faith: {0}%"
+status = "abandoned"
+enUS = "Faith: {0}%"
+zhCN = "信仰：{0}%"
+zhTW = "信仰：{0}%"
+ruRU = "Вера: {0}%"
+jaJP = "信仰：{0}%"
+frFR = "Foi : {0}%"
+deDE = "Glaube: {0}%"
+plPL = "Wiara: {0}%"
+ptBR = "Fé: {0}%"
+koKR = "신앙: {0}%"
+csCZ = "Víra: {0}%"
+viVN = "Đức tin: {0}%"
+trTR = "İnanç: {0}%"
+
+["TimberEmpires.Map.Tab"]
+raw = "Map"
+status = "abandoned"
+enUS = "Map"
+zhCN = "地图"
+zhTW = "地圖"
+ruRU = "Карта"
+jaJP = "マップ"
+frFR = "Carte"
+deDE = "Karte"
+plPL = "Mapa"
+ptBR = "Mapa"
+koKR = "지도"
+csCZ = "Mapa"
+viVN = "Bản đồ"
+trTR = "Harita"
+
+["TimberEmpires.Map.Reset"]
+raw = "Reset view"
+status = "abandoned"
+enUS = "Reset View"
+zhCN = "重置视图"
+zhTW = "重設視角"
+ruRU = "Сбросить вид"
+jaJP = "表示をリセットする"
+frFR = "Réinitialiser la vue"
+deDE = "Ansicht zurücksetzen"
+plPL = "Zresetuj widok"
+ptBR = "Redefinir visualização"
+koKR = "시점 초기화"
+csCZ = "Obnovit pohled"
+viVN = "Đặt lại chế độ xem"
+trTR = "Görünümü sıfırla"
+
+["TimberEmpires.Map.Markers"]
+raw = "Markers"
+status = "abandoned"
+enUS = "Markers"
+zhCN = "标记"
+zhTW = "標記器"
+ruRU = "Маркеры"
+jaJP = "マーカー"
+frFR = "Marqueurs"
+deDE = "Markierungen"
+plPL = "Znaczniki"
+ptBR = "Marcadores"
+koKR = "표식들"
+csCZ = "Značky"
+viVN = "Dấu mốc"
+trTR = "İşaretleyiciler"
+
+["TimberEmpires.Map.NoMarkers"]
+raw = "No markers yet."
+status = "abandoned"
+enUS = "No markers yet."
+zhCN = "尚无标记。"
+zhTW = "尚無標記。"
+ruRU = "Маркеров пока нет."
+jaJP = "マーカーはまだありません。"
+frFR = "Aucun marqueur pour le moment."
+deDE = "Noch keine Markierungen."
+plPL = "Brak znaczników."
+ptBR = "Ainda não há marcadores."
+koKR = "아직 마커가 없습니다."
+csCZ = "Zatím žádné značky."
+viVN = "Chưa có điểm đánh dấu nào."
+trTR = "Henüz işaretçi yok."
+
+["TimberEmpires.Map.Go"]
+raw = "Go to"
+status = "abandoned"
+enUS = "Go to"
+zhCN = "前往"
+zhTW = "前往"
+ruRU = "Перейти к"
+jaJP = "移動先:"
+frFR = "Aller à"
+deDE = "Gehe zu"
+plPL = "Przejdź do"
+ptBR = "Ir para"
+koKR = "이동하기"
+csCZ = "Přejít na"
+viVN = "Đi tới"
+trTR = "Git"
+
+["TimberEmpires.Map.Remove"]
+raw = "Remove"
+status = "abandoned"
+enUS = "Remove"
+zhCN = "移除"
+zhTW = "移除"
+ruRU = "Удалить"
+jaJP = "削除"
+frFR = "Supprimer"
+deDE = "Entfernen"
+plPL = "Usuń"
+ptBR = "Remover"
+koKR = "제거하기"
+csCZ = "Odstranit"
+viVN = "Xóa"
+trTR = "Kaldır"
+
+["TimberEmpires.Map.Marker"]
+raw = "Marker {0}"
+status = "abandoned"
+enUS = "Marker {0}"
+zhCN = "标记 {0}"
+zhTW = "標記 {0}"
+ruRU = "Маркер {0}"
+jaJP = "マーカー {0}"
+frFR = "Marqueur {0}"
+deDE = "Markierung {0}"
+plPL = "Znacznik {0}"
+ptBR = "Marcador {0}"
+koKR = "표식 {0}"
+csCZ = "Značka {0}"
+viVN = "Dấu mốc {0}"
+trTR = "İşaretçi {0}"
+
+["TimberEmpires.Map.Hint"]
+raw = "Drag to pan, scroll to zoom, click to move the camera, right click to place or remove a marker"
+status = "abandoned"
+enUS = "Drag to pan, scroll to zoom, click to move the camera, and right-click to place or remove a marker"
+zhCN = "拖动以平移，滚动以缩放，单击以移动镜头，右键以放置或移除标记"
+zhTW = "拖曳以平移，捲動以縮放，按一下以移動鏡頭，按滑鼠右鍵以放置或移除標記。"
+ruRU = "Перетаскивайте, чтобы перемещать карту; прокручивайте, чтобы изменить масштаб; щёлкните, чтобы переместить камеру; щёлкните правой кнопкой мыши, чтобы поставить или убрать маркер."
+jaJP = "ドラッグで画面をパン、スクロールでズーム、クリックでカメラを移動、右クリックでマーカーを配置または削除します。"
+frFR = "Faites glisser pour déplacer la carte, faites défiler pour zoomer, cliquez pour déplacer la caméra, faites un clic droit pour placer ou retirer un marqueur"
+deDE = "Ziehen zum Verschieben, scrollen zum Zoomen, klicken zum Bewegen der Kamera, rechtsklicken zum Platzieren oder Entfernen einer Markierung"
+plPL = "Przeciągnij, aby przesunąć widok, przewiń, aby przybliżyć lub oddalić, kliknij, aby poruszyć kamerą, kliknij prawym przyciskiem, aby umieścić lub usunąć znacznik"
+ptBR = "Arraste para deslocar a câmera, role para aproximar ou afastar, clique para mover a câmera e clique com o botão direito para colocar ou remover um marcador"
+koKR = "드래그하여 화면을 이동하고, 스크롤하여 확대/축소하고, 클릭하여 카메라를 이동하고, 마커를 배치하거나 제거하려면 마우스 오른쪽 버튼을 클릭하세요."
+csCZ = "Tažením posouváte mapu, posouváním kolečka přibližujete či oddalujete, kliknutím přesouváte kameru a kliknutím pravým tlačítkem umístíte nebo odstraníte značku."
+viVN = "Kéo để dịch chuyển góc nhìn, cuộn để thu phóng, nhấp chuột để di chuyển camera, nhấp chuột phải để đặt hoặc xóa điểm đánh dấu"
+trTR = "Kaydırmak için sürükleyin, yakınlaştırmak için tekerleği kaydırın, kamerayı hareket ettirmek için tıklayın, işaretçi koymak veya kaldırmak için sağ tıklayın"
+
+["TimberEmpires.KeyBindings.MapTab"]
+raw = "Open Map tab"
+status = "abandoned"
+enUS = "Open the Map tab"
+zhCN = "打开地图标签页"
+zhTW = "開啟地圖分頁"
+ruRU = "Открыть вкладку карты"
+jaJP = "マップタブを開く"
+frFR = "Ouvrir l’onglet Carte"
+deDE = "Karten-Tab öffnen"
+plPL = "Otwórz zakładkę mapy"
+ptBR = "Abrir a aba do mapa"
+koKR = "지도 탭 열기"
+csCZ = "Otevřít kartu Mapy"
+viVN = "Mở thẻ Bản đồ"
+trTR = "Harita sekmesini aç"
+
+["Building.TimberEmpires.WarBoat.DisplayName"]
+raw = "War Boat"
+status = "abandoned"
+enUS = "War Boat"
+zhCN = "战船"
+zhTW = "戰船"
+ruRU = "Военная лодка"
+jaJP = "軍船"
+frFR = "Bateau de guerre"
+deDE = "Kriegsschiff"
+plPL = "Łódź wojenna"
+ptBR = "Barco de Guerra"
+koKR = "전투 보트"
+csCZ = "Válečná loď"
+viVN = "Thuyền Chiến Bạch Dương"
+trTR = "Savaş Teknesi"
+
+["Building.TimberEmpires.WarBoat.FlavorDescription"]
+raw = "Every island is a coast to someone."
+status = "abandoned"
+enUS = "Every island is a coast to someone."
+zhCN = "每座岛屿，对某些人来说都是海岸。"
+zhTW = "每座島嶼，對某些人來說都是海岸。"
+ruRU = "Для кого-то каждый остров — побережье."
+jaJP = "どの島も、誰かにとっては海岸だ。"
+frFR = "Chaque île est un rivage pour quelqu’un."
+deDE = "Jede Insel ist für irgendwen eine Küste."
+plPL = "Każda wyspa jest dla kogoś wybrzeżem."
+ptBR = "Toda ilha é uma costa para alguém."
+koKR = "누군가에게는 모든 섬이 해안이다."
+csCZ = "Každý ostrov je pro někoho pobřežím."
+viVN = "Với ai đó, mọi hòn đảo đều là bờ biển."
+trTR = "Her ada, birileri için kıyıdır."
 
 ["TimberEmpires.Settings.SoloEmpire"]
 raw = "Play as an empire"

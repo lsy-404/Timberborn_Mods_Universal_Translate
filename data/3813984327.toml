@@ -4755,6 +4755,38 @@ status = "normal"
 new = "Only what it buys"
 status = "normal"
 
+["BeaverBuddies.Trade.Reset"]
+new = "Reset every value to 1"
+status = "normal"
+
+["BeaverBuddies.Trade.Halve"]
+new = "Halve every value"
+status = "normal"
+
+["BeaverBuddies.Trade.Double"]
+new = "Double every value"
+status = "normal"
+
+["BeaverBuddies.Trade.AllSell"]
+new = "Sell every good"
+status = "normal"
+
+["BeaverBuddies.Trade.AllOff"]
+new = "Trade no good"
+status = "normal"
+
+["BeaverBuddies.Trade.AllBuy"]
+new = "Buy every good"
+status = "normal"
+
+["BeaverBuddies.Trade.ValueTip"]
+new = "Value {0}"
+status = "normal"
+
+["BeaverBuddies.Trade.TradedGoods"]
+new = "Traded goods"
+status = "normal"
+
 ["BeaverBuddies.Trading.Amount"]
 raw = "Amount"
 status = "abandoned"

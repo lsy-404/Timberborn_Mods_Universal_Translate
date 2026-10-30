@@ -1,0 +1,50 @@
+[_meta]
+name = "TimberAtlas"
+
+["TimberAtlas.Settings.Enabled"]
+new = "TimberAtlas"
+status = "normal"
+
+["TimberAtlas.Settings.Enabled.Tooltip"]
+new = "Shows the round map in the corner of the screen."
+status = "normal"
+
+["TimberAtlas.Map.Tab"]
+new = "Map"
+status = "normal"
+
+["TimberAtlas.Map.Reset"]
+new = "Reset view"
+status = "normal"
+
+["TimberAtlas.Map.Markers"]
+new = "Markers"
+status = "normal"
+
+["TimberAtlas.Map.NoMarkers"]
+new = "No markers yet."
+status = "normal"
+
+["TimberAtlas.Map.Go"]
+new = "Go to"
+status = "normal"
+
+["TimberAtlas.Map.Remove"]
+new = "Remove"
+status = "normal"
+
+["TimberAtlas.Map.Marker"]
+new = "Marker {0}"
+status = "normal"
+
+["TimberAtlas.Map.Hint"]
+new = "Drag to pan, scroll to zoom, click to move the camera, right click to place or remove a marker"
+status = "normal"
+
+["TimberAtlas.KeyBindings.MapTab"]
+new = "Open Map tab"
+status = "normal"
+
+["TimberAtlas.Wind"]
+new = "Wind direction"
+status = "normal"
