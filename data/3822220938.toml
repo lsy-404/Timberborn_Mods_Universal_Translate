@@ -102,3 +102,51 @@ koKR = "작업 중... {0}%"
 csCZ = "Pracuji... {0}%"
 viVN = "Đang xử lý... {0}%"
 trTR = "Çalışıyor... {0}%"
+
+["BetterMapEditor.KeyBindingGroup.Tools"]
+new = "Map editor tools"
+status = "normal"
+
+["BetterMapEditor.KeyBinding.SmallRelic"]
+new = "Relic 2x1"
+status = "normal"
+
+["BetterMapEditor.KeyBinding.MediumRelic"]
+new = "Relic 3x2"
+status = "normal"
+
+["BetterMapEditor.KeyBinding.LargeRelic"]
+new = "Relic 3x3"
+status = "normal"
+
+["BetterMapEditor.KeyBinding.RuinColumnH1"]
+new = "Ruins (Height 1)"
+status = "normal"
+
+["BetterMapEditor.KeyBinding.RuinColumnH2"]
+new = "Ruins (Height 2)"
+status = "normal"
+
+["BetterMapEditor.KeyBinding.RuinColumnH3"]
+new = "Ruins (Height 3)"
+status = "normal"
+
+["BetterMapEditor.KeyBinding.RuinColumnH4"]
+new = "Ruins (Height 4)"
+status = "normal"
+
+["BetterMapEditor.KeyBinding.RuinColumnH5"]
+new = "Ruins (Height 5)"
+status = "normal"
+
+["BetterMapEditor.KeyBinding.RuinColumnH6"]
+new = "Ruins (Height 6)"
+status = "normal"
+
+["BetterMapEditor.KeyBinding.RuinColumnH7"]
+new = "Ruins (Height 7)"
+status = "normal"
+
+["BetterMapEditor.KeyBinding.RuinColumnH8"]
+new = "Ruins (Height 8)"
+status = "normal"

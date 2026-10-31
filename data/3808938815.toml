@@ -1038,6 +1038,10 @@ csCZ = "{0} m³/h"
 viVN = "{0} m³/h"
 trTR = "{0} m³/sa"
 
+["UITweaks.Unit.HorsePowerPerCubicMeterPerHour.NumberAndUnit"]
+new = "{0} hp/m³/h"
+status = "normal"
+
 ["UITweaks.Settings.FlowPerHour"]
 raw = "Water flow per hour"
 status = "normal"

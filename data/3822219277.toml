@@ -51,3 +51,19 @@ koKR = "폭발로 파괴된 지형에는 물체를 배치할 수 없습니다."
 csCZ = "Na terén po výbuchu nelze umisťovat objekty."
 viVN = "Không thể đặt vật thể trên địa hình đã bị nổ tung."
 trTR = "Patlamış araziye nesne yerleştirilemez."
+
+["TimeInMapEditor.KeyBinding.NextDay"]
+new = "Next day"
+status = "normal"
+
+["TimeInMapEditor.KeyBinding.PreviousDay"]
+new = "Previous day"
+status = "normal"
+
+["TimeInMapEditor.KeyBinding.NextCycle"]
+new = "Next cycle"
+status = "normal"
+
+["TimeInMapEditor.KeyBinding.PreviousCycle"]
+new = "Previous cycle"
+status = "normal"

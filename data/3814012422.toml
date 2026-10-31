@@ -683,6 +683,7 @@ trTR = "Kışla"
 
 ["Building.TimberEmpires.Barracks.Description"]
 raw = "Trains its workers as troops: warriors, spearmen, or the faction's own kind."
+new = "Trains its workers as troops."
 status = "normal"
 enUS = "Trains its workers as troops: warriors, spearmen, or the faction's own kind."
 zhCN = "将工人训练成部队：战士、矛兵，或该派系特有的兵种。"
@@ -1490,6 +1491,7 @@ trTR = "Yuvarlak Kule"
 
 ["Building.TimberEmpires.RoundTower.Description"]
 raw = "Taller than a wall tower, with an open top for a catapult, ballista or trebuchet. With a crew aboard, the machine on it shoots the nearest enemy in reach on its own."
+new = "Taller than a wall tower, with an open top for a siege machine."
 status = "normal"
 enUS = "Taller than a wall tower, with an open top for a catapult, ballista, or trebuchet. With a crew aboard, the machine on top automatically shoots the nearest enemy in range."
 zhCN = "比墙塔更高，顶部敞开，可架设投石机、弩炮或配重投石机。配备人员后，上面的器械会自动射击射程内最近的敌人。"
@@ -1507,6 +1509,7 @@ trTR = "Bir sur kulesinden daha yüksek, mancınık, arbalet veya trabuşet içi
 
 ["Building.TimberEmpires.RoundTower.FlavorDescription"]
 raw = "No roof. Plenty of rocks."
+new = "From up here, everyone's in range."
 status = "normal"
 enUS = "No roof. Plenty of rocks."
 zhCN = "没有屋顶。岩石倒是多得很。"
@@ -2408,6 +2411,7 @@ trTR = "Maden Kaydırağı"
 
 ["Building.TimberEmpires.MineLauncher.Description"]
 raw = "Releases floating mines that drift with the current and explode against the first building they hit."
+new = "Releases floating mines that drift with the current and explode on contact."
 status = "normal"
 enUS = "Releases floating mines that drift with the current and explode when they hit the first building."
 zhCN = "发射会随水流漂移的浮雷，并在撞上第一个建筑时爆炸。"
@@ -2459,6 +2463,7 @@ trTR = "Maden Atölyesi"
 
 ["Building.TimberEmpires.MineWorkshop.Description"]
 raw = "Makes water mines from explosives and metal blocks."
+new = "Makes water mines."
 status = "normal"
 enUS = "Makes water mines from explosives and metal blocks."
 zhCN = "用炸药和金属块制造水雷。"
@@ -2476,6 +2481,7 @@ trTR = "Patlayıcılar ve metal bloklardan su mayınları üretir."
 
 ["Building.TimberEmpires.MineWorkshop.FlavorDescription"]
 raw = "Workers here are paid extra and asked to sneeze outside."
+new = "Workers here are asked to sneeze outside."
 status = "normal"
 enUS = "Workers here are paid extra and asked to sneeze outside."
 zhCN = "这里的工人薪酬更高，而且被要求到外面打喷嚏。"
@@ -2544,6 +2550,7 @@ trTR = "Demirli Maden"
 
 ["Building.TimberEmpires.MooredMine.Description"]
 raw = "A mine anchored in the water. Goes off when a boat or a drifting mine comes close."
+new = "A mine anchored in the water. Explodes on contact."
 status = "normal"
 enUS = "A mine anchored in the water. Detonates when a boat or drifting mine comes close."
 zhCN = "锚定在水中的水雷。当船只或漂流的水雷靠近时便会引爆。"
@@ -2697,6 +2704,7 @@ trTR = "Ateş Gemisi İskelesi"
 
 ["Building.TimberEmpires.BoatDock.Description"]
 raw = "Launches boats packed with explosives that sail up the river and blow up against the first building or mine they hit."
+new = "Launches boats packed with explosives that sail up the river and explode on contact."
 status = "normal"
 enUS = "Launches boats packed with explosives that sail upstream and blow up when they hit the first building or mine."
 zhCN = "发射装满炸药的船只，使其逆流而上，并在撞上遇到的第一座建筑或矿井时爆炸。"
@@ -2731,6 +2739,7 @@ trTR = "“Teknik olarak hâlâ bir tekne.” —Suli"
 
 ["TimberEmpires.Mines.NeedsWater"]
 raw = "Needs water at least 0.2 m deep behind it."
+new = "Needs water at least 0.2 m deep under it."
 status = "normal"
 enUS = "Needs water at least 0.2 m deep behind it."
 zhCN = "其后方的水深至少需要达到 0.2 m。"
@@ -2748,6 +2757,7 @@ trTR = "Arkasında en az 0,2 m derinliğinde su olması gerekir."
 
 ["TimberEmpires.Mines.NeedsOpenWater"]
 raw = "Needs open water."
+new = "Needs water at least 0.2 m deep."
 status = "normal"
 enUS = "Needs open water."
 zhCN = "需要有开阔水域。"
@@ -2813,23 +2823,6 @@ koKR = "광산 방출"
 csCZ = "Uvolnit důl"
 viVN = "Giải phóng mỏ"
 trTR = "Madeni serbest bırak"
-
-["TimberEmpires.Mines.NoWorker"]
-raw = "Needs a worker."
-status = "normal"
-enUS = "Requires a worker."
-zhCN = "需要一名工人。"
-zhTW = "需要一名工人。"
-ruRU = "Требуется рабочий."
-jaJP = "作業員が必要です。"
-frFR = "Nécessite un ouvrier."
-deDE = "Benötigt einen Arbeiter."
-plPL = "Wymaga pracownika."
-ptBR = "Precisa de um trabalhador."
-koKR = "일꾼이 필요합니다."
-csCZ = "Vyžaduje pracovníka."
-viVN = "Cần có công nhân."
-trTR = "Bir işçi gerekiyor."
 
 ["TimberEmpires.Mines.NetHolds"]
 raw = "Caught mines: {0}/{1}."
@@ -2918,6 +2911,7 @@ trTR = "Ateş Gemisi"
 
 ["TimberEmpires.Field.MineDrifting"]
 raw = "Drifting with the current. It blows up on the first building, boat or mine it runs into."
+new = "Drifting with the current. Explodes on contact."
 status = "normal"
 enUS = "Drifting with the current. It blows up on the first building, boat, or mine it runs into."
 zhCN = "随流漂移。它撞上遇到的第一个建筑、船只或矿井时就会爆炸。"
@@ -2935,6 +2929,7 @@ trTR = "Akıntıyla sürüklenir. Çarptığı ilk binada, teknede veya madende 
 
 ["TimberEmpires.Field.BoatUpstream"]
 raw = "Sailing upstream on its own. It blows up on the first building or mine it reaches."
+new = "Sailing upstream on its own. Explodes on contact."
 status = "normal"
 enUS = "Sailing upstream on its own. It blows up on the first building or mine it reaches."
 zhCN = "自行逆流航行。碰到遇到的第一座建筑或矿井时就会爆炸。"
@@ -2952,6 +2947,7 @@ trTR = "Kendi kendine akıntıya karşı ilerler. Ulaştığı ilk binaya veya m
 
 ["TimberEmpires.Field.BoatDownstream"]
 raw = "Sailing downstream on its own. It blows up on the first building or mine it reaches."
+new = "Sailing downstream on its own. Explodes on contact."
 status = "normal"
 enUS = "Sailing downstream on its own. It blows up on the first building or mine it reaches."
 zhCN = "自行顺流而下。碰到遇到的第一座建筑或矿井时就会爆炸。"
@@ -3122,6 +3118,7 @@ trTR = "Mancınık"
 
 ["Building.TimberEmpires.Catapult.Description"]
 raw = "Hurls stones at a chosen target, hurting enemies and battering walls and siege engines. Its crew moves and aims it."
+new = "Hurls stones at a chosen target, hurting enemies and battering walls and siege engines."
 status = "normal"
 enUS = "Hurls stones at a chosen target, hurting enemies and battering walls and siege engines. Its crew moves and aims it."
 zhCN = "向选定目标投掷石块，伤害敌人并破坏城墙和攻城器械。由操作人员移动并瞄准。"
@@ -3173,6 +3170,7 @@ trTR = "Balista"
 
 ["Building.TimberEmpires.Ballista.Description"]
 raw = "Shoots heavy bolts flat and far: deadly to enemies, weak against walls. Its crew moves and aims it."
+new = "Shoots heavy bolts flat and far: deadly to enemies, weak against walls."
 status = "normal"
 enUS = "Shoots heavy bolts in a flat, long-range trajectory: deadly to enemies, but weak against walls. Its crew moves and aims it."
 zhCN = "平射重型弩箭，射程远：对敌人致命，对墙体效果不佳。由操作人员移动并瞄准。"
@@ -3224,6 +3222,7 @@ trTR = "Alev Makinesi"
 
 ["Building.TimberEmpires.Flamethrower.Description"]
 raw = "Burns the horde in a cone in front of it, using up extract as it fires. Short range, deadly to zombies. Its crew moves and aims it, on the ground or on a tower."
+new = "Burns the horde in a cone in front of it, using up extract as it fires. Short range, deadly to zombies."
 status = "normal"
 enUS = "Burns the horde in a cone in front of it, using up extract as it fires. Short range, deadly to zombies. Its crew moves and aims it, on the ground or on a tower."
 zhCN = "向前方锥形范围内的尸群喷火，每次开火都会消耗提取物。射程较短，对僵尸杀伤力极强。由操作人员在地面或塔楼上移动并瞄准。"
@@ -3275,6 +3274,7 @@ trTR = "Sahra Reviri"
 
 ["Building.TimberEmpires.FieldInfirmary.Description"]
 raw = "A healing tub on wheels for after a battle. Once no enemy is in sight, wounded troops take turns lying in it and heal fast while its doses last. A dose is 1 extract and 2 berries. Its crew only moves it."
+new = "A healing tub on wheels for after a battle. Once no enemy is in sight, wounded troops take turns lying in it and heal fast while its doses last. Its crew only moves it."
 status = "normal"
 enUS = "A healing tub on wheels for after a battle. Once no enemy is in sight, wounded troops take turns lying in it and heal quickly while its doses last. Each dose is 1 extract and 2 berries. Its crew only moves it."
 zhCN = "战后使用的轮式治疗浴缸。视野内没有敌人后，受伤的部队会轮流躺进去，只要药剂还有剩余，就能快速恢复。一剂药剂需要 1 份提取物和 2 颗浆果。工作人员只负责移动它。"
@@ -3615,6 +3615,7 @@ trTR = "Okçuluk Alanı"
 
 ["Building.TimberEmpires.ArcheryRange.Description"]
 raw = "Trains its workers to shoot from a distance: archers, or the faction's own kind."
+new = "Trains its workers to shoot from a distance."
 status = "normal"
 enUS = "Trains its workers to shoot from a distance: archers, or the faction's own kind."
 zhCN = "训练工人进行远距离射击：弓箭手，或该派系自己的兵种。"
@@ -4176,6 +4177,7 @@ trTR = "Hazır"
 
 ["TimberEmpires.Troops.Raid"]
 raw = "Raid: click an enemy building to carry off its goods"
+new = "Raid the next enemy building you click and carry off its goods"
 status = "normal"
 enUS = "Raid: Click an enemy building to carry off its goods"
 zhCN = "突袭：点击敌方建筑，掠走其中的货物"
@@ -4533,6 +4535,7 @@ trTR = "Oyun tarafından yönetilen oyuncuların her biri, kendisi için seçile
 
 ["TimberEmpires.Settings.AIOpponents.Note"]
 raw = "AI opponents are still in beta: they can slow the game down, more so with several of them."
+new = "AI opponents are in beta and not very smart yet."
 status = "normal"
 enUS = "AI opponents are still in beta: they can slow the game down, especially when there are several of them."
 zhCN = "AI 对手仍处于测试阶段：他们可能会拖慢游戏，数量越多，影响越明显。"
@@ -6088,6 +6091,7 @@ trTR = "Silahçı"
 
 ["Building.TimberEmpires.Forge.Description"]
 raw = "Makes spears, bows, shields and ballista bolts, plus swords for the Iron Teeth and slings for the Folktails."
+new = "Makes weapons, shields and ballista bolts."
 status = "normal"
 enUS = "Makes spears, bows, shields, and ballista bolts, plus swords for the Iron Teeth and slings for the Folktails."
 zhCN = "制造长矛、弓、盾牌和弩炮弩箭，还为铁牙制造剑，为神尾制造投石索。"
@@ -6601,6 +6605,7 @@ trTR = "Kışla panelinden bilim kullanarak yeni birlik türlerinin kilidini aç
 
 ["Tip.TimberEmpires.Mines"]
 raw = "Mines drift with the current and blow up whatever they hit. A net across the river catches them."
+new = "Mines drift with the current and explode on contact. A net across the river catches them."
 status = "normal"
 enUS = "Mines drift with the current and blow up whatever they hit. A net across the river catches them."
 zhCN = "水雷会随水流漂移，并炸毁撞上的任何东西。横跨河流的网可以拦住它们。"
@@ -7880,6 +7885,7 @@ trTR = "Toplanma Karakolu"
 
 ["Building.TimberEmpires.MusterPost.Description"]
 raw = "Trains militia from logs and scouts from berries."
+new = "Trains militia and scouts."
 status = "normal"
 enUS = "Trains militia from logs and scouts from berries."
 zhCN = "用木材训练民兵，用浆果训练侦察兵。"
@@ -10748,7 +10754,7 @@ status = "normal"
 
 ["Building.TimberEmpires.WarBoat.Description"]
 raw = "Carries troops across the sea. Place it on the slip of a Naval Workshop. Once built and crewed it sails out by itself. Send it to another island's coast to land them."
-new = "Carries troops across the sea. Place it on the slip of a Naval Workshop. Once built and crewed, send it to another island's coast to land them."
+new = "Carries troops across the sea. Build it at a Shipyard. Once crewed, send it to another island's coast to land them."
 status = "normal"
 enUS = "Carries troops across the sea. Place it on the slip of a Naval Workshop. Once built and crewed, it sails out on its own. Send it to the coast of another island to land them."
 zhCN = "可搭载部队渡海。将其放在海军工坊的船台上。建造完成并配备船员后，它会自行出航。将其派往另一座岛屿的海岸即可让部队登陆。"
@@ -10849,7 +10855,7 @@ new = "“Grandpa sailed to the far island once. He came back with a hat and nev
 status = "normal"
 
 ["Building.TimberEmpires.Cog.Description"]
-new = "Sails between islands. Place it on a Shipyard's slip, then send it to another island's coast to land there."
+new = "Sails between islands. Build it at a Shipyard, then send it to another island's coast to land there."
 status = "normal"
 
 ["TimberEmpires.ShipArmament.Title"]
@@ -10901,7 +10907,7 @@ new = "Empty. Click to mount a weapon."
 status = "normal"
 
 ["TimberEmpires.ShipArmament.Waiting"]
-new = "{0}: waiting for haulers to bring it. They load the ship only while it lies at a shore or on its slip."
+new = "{0}: waiting for haulers to bring it. They load the ship only while it lies at a shore or on its dock."
 status = "normal"
 
 ["TimberEmpires.ShipArmament.Unmanned"]
@@ -10983,6 +10989,23 @@ status = "normal"
 ["TimberEmpires.Pirates.TooFew"]
 new = "Too few hands left to sail."
 status = "normal"
+
+["TimberEmpires.Mines.NoWorker"]
+raw = "Needs a worker."
+status = "abandoned"
+enUS = "Requires a worker."
+zhCN = "需要一名工人。"
+zhTW = "需要一名工人。"
+ruRU = "Требуется рабочий."
+jaJP = "作業員が必要です。"
+frFR = "Nécessite un ouvrier."
+deDE = "Benötigt einen Arbeiter."
+plPL = "Wymaga pracownika."
+ptBR = "Precisa de um trabalhador."
+koKR = "일꾼이 필요합니다."
+csCZ = "Vyžaduje pracovníka."
+viVN = "Cần có công nhân."
+trTR = "Bir işçi gerekiyor."
 
 ["TimberEmpires.Monk.Faith"]
 raw = "Faith: {0}%"

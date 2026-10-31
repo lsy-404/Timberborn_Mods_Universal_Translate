@@ -1,0 +1,58 @@
+[_meta]
+name = "Performance Plus"
+
+["PerformancePlus.Settings.AllowMinorChanges"]
+new = "Allow minor gameplay changes"
+status = "normal"
+
+["PerformancePlus.Settings.AllowMinorChanges.Tooltip"]
+new = "Lets Performance Plus take faster shortcuts that can change small details of what happens. Off: the game plays exactly as it does without the mod."
+status = "normal"
+
+["PerformancePlus.Settings.FrameRateGovernor"]
+new = "Keep a frame rate"
+status = "normal"
+
+["PerformancePlus.Settings.FrameRateGovernor.Tooltip"]
+new = "Slows the game below the speed you chose whenever frames would take too long, so the frame rate stays at the target below. The game plays the same, only more slowly while it is busy. It never goes below x1 and leaves VSync as it is. Off: the speed you choose is always used."
+status = "normal"
+
+["PerformancePlus.Settings.TargetFps"]
+new = "Target frame rate (fps)"
+status = "normal"
+
+["PerformancePlus.Settings.TargetFps.Tooltip"]
+new = "The frame rate kept while the setting above is on, from 10 to 120 frames a second."
+status = "normal"
+
+["PerformancePlus.Settings.DistantAnimations"]
+new = "Animate distant models less often"
+status = "normal"
+
+["PerformancePlus.Settings.DistantAnimations.Tooltip"]
+new = "Beavers, bots and buildings drawn small on the screen move their limbs and parts every second or fourth frame instead of every frame, which saves time in large settlements. Only the look changes: they keep their pace and do the same things. Off: every model visible is animated every frame."
+status = "normal"
+
+["PerformancePlus.Settings.TickLength"]
+new = "Tick length (%)"
+status = "normal"
+
+["PerformancePlus.Settings.TickLength.Tooltip"]
+new = "How long each step of the simulation is, in percent of the game's own (0.6 s). Longer steps mean fewer of them a day, so the game keeps up at higher speeds; days, growth, needs and walking take as long as before. Slightly delays beaver decisions, which leads to minor inefficiencies. Needs \"Allow minor gameplay changes\". Applies when a settlement is loaded. With \"Tick length follows the frame rate\" on, this is the longest a step gets. 100: the game's own."
+status = "normal"
+
+["PerformancePlus.Settings.TickLengthFollowsFrameRate"]
+new = "Tick length follows the frame rate"
+status = "normal"
+
+["PerformancePlus.Settings.TickLengthFollowsFrameRate.Tooltip"]
+new = "With \"Keep a frame rate\" on as well, \"Tick length (%)\" is the longest a step gets: a settlement starts at the game's own, and at midnight the step lengthens or shortens by one notch when the day before called for it. Needs \"Allow minor gameplay changes\". Applies when a settlement is loaded."
+status = "normal"
+
+["PerformancePlus.Settings.ShorterShadows"]
+new = "Shorter shadow distance"
+status = "normal"
+
+["PerformancePlus.Settings.ShorterShadows.Tooltip"]
+new = "Draws shadows only up to 60 m from the camera instead of across the whole view, which saves time every frame in large settlements. The far part of the view has no shadows. Off: shadows as far as the game draws them."
+status = "normal"

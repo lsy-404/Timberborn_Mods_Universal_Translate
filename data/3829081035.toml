@@ -6,7 +6,7 @@ new = "Deep Drill"
 status = "normal"
 
 ["Building.DeepDrill.Description"]
-new = "Extracts one unit of Deep Ore from an authored source stockpile using water and 1000 hp. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "Extracts one unit of Deep Ore from an authored source stockpile using water and 1000 hp. Wears out 0.1 high-grade steel drill bits per hour at full crew and stops without them. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.DeepDrill.FlavorDescription"]
@@ -18,7 +18,7 @@ new = "Deep Mine"
 status = "normal"
 
 ["Building.DeepMine.Description"]
-new = "Extracts four Deep Ore every cycle from a marked vein using water and 4000 hp. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "Extracts four Deep Ore every cycle from a marked vein using water and 4000 hp. Wears out 0.1 high-grade steel drill bits and 0.1 concrete shaft lining per hour at full crew and stops without them. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.DeepMine.FlavorDescription"]
@@ -510,7 +510,7 @@ new = "Grocery store"
 status = "normal"
 
 ["Building.GroceryStore.Description"]
-new = "Stocks canned fish, packaged food, algae and corn rations, and fermented cassava and soybeans. Two clerks restock 100 of each food. With 100 hp, an attending clerk and at least three stocked foods, nearby beavers gain up to +2 wellbeing within eight cells. Food remains available during power cuts and off-duty hours."
+new = "Stocks canned fish, packaged food, algae and corn rations, and fermented cassava and soybeans. Two clerks restock 100 of each food. With 3,900 hp, an attending clerk and at least three stocked foods, nearby beavers gain up to +2 wellbeing within eight cells. Food remains available during power cuts and off-duty hours."
 status = "normal"
 
 ["Building.GroceryStore.FlavorDescription"]
@@ -534,7 +534,7 @@ new = "Hospital"
 status = "normal"
 
 ["Building.Hospital.Description"]
-new = "Houses 30 patients, who stay admitted until cured and are fed and watered from its own stock. An assigned crew of six and 600 hp treat injury 80% faster than a medical bed, plus chipped teeth, badwater contamination and 10-day radiation decontamination, day and night. Uses medicine, water and extract while treating or attended. Attending, supplied staff grant neighborhood care up to +2 wellbeing within ten cells. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "Houses 30 patients, who stay admitted until cured and are fed and watered from its own stock. An assigned crew of six and 11,000 hp treat injury 80% faster than a medical bed, plus chipped teeth, badwater contamination and 10-day radiation decontamination, day and night. Uses medicine, water and extract while treating or attended. Attending, supplied staff grant neighborhood care up to +2 wellbeing within ten cells. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.Hospital.FlavorDescription"]
@@ -618,7 +618,7 @@ new = "Radioactive waste refinery"
 status = "normal"
 
 ["Building.RadioactiveWasteRefinery.Description"]
-new = "Refines spent-fuel casks into radioactive sludge and recovered minerals, and cleans contaminated water. Requires 8000 hp. Haul its sludge to a Sludge Outfall or Radioactive Waste Export: when its sludge tanks are full, 6 sludge leaks every 24 hours and irradiates the soil within 3 tiles, killing crops. Pausing it seals the tanks. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
+new = "Dissolves spent-fuel casks in water into radioactive water and recovered minerals, and cleans contaminated water. Requires 106,000 hp. Casks can also go straight to a Radioactive Waste Export. Haul its radioactive water to a Radioactive Water Outfall or Radioactive Waste Export: when its tanks are full, 6 radioactive water leaks every 24 hours and irradiates the soil within 3 tiles, killing crops. Pausing it seals the tanks. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
 status = "normal"
 
 ["Building.RadioactiveWasteRefinery.FlavorDescription"]
@@ -678,7 +678,7 @@ new = "Launch pad"
 status = "normal"
 
 ["Building.LaunchPad.Description"]
-new = "Launches the colony's rockets. Select a mission in the recipe list: haulers stage one complete rocket (airframes, propulsion, guidance, payload and telemetry) and its liquid hydrogen and oxygen; workers then prepare it under a 25000 hp load. Every launch consumes the whole rocket and fuel, and a launch can fail. Also produces guidance telemetry. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "Launches the colony's rockets. Select a mission in the recipe list: haulers stage one complete rocket (airframes, propulsion, guidance, payload and telemetry) and its liquid hydrogen and oxygen; workers then prepare it under a 27,000 hp load. Every launch consumes the whole rocket and fuel, and a launch can fail. Also produces guidance telemetry. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.LaunchPad.FlavorDescription"]
@@ -690,7 +690,7 @@ new = "Steel mill"
 status = "normal"
 
 ["Building.SteelMill.Description"]
-new = "An electric-arc melt shop and rolling mill. Makes flux from scrap metal and deep ore, high-grade steel from metal blocks, coal and flux, and alloy from high-grade steel and deep alloy. Only 6 trained metallurgists can work here, and the work is extremely dangerous. Requires 2,500 hp. Its two smokestacks pollute the air nearby."
+new = "An electric-arc melt shop and rolling mill. Makes flux from scrap metal and deep ore, high-grade steel from metal blocks, coal and flux, and alloy from high-grade steel and deep alloy. Only 6 trained metallurgists can work here, and the work is extremely dangerous. Requires 3,100 hp. Its two smokestacks pollute the air nearby."
 status = "normal"
 
 ["Building.SteelMill.FlavorDescription"]
@@ -702,7 +702,7 @@ new = "Archive excavation"
 status = "normal"
 
 ["Building.ArchiveExcavation.Description"]
-new = "Opens human ruins anywhere with explosive charges and treated-plank shoring to recover artifacts, then restores their data drives into archive data with grease and metal parts. A Human Record Cache within 4 tiles can be surveyed for extra archive data. 4 workers, dangerous work. Requires 400 hp. Its stove chimney pollutes the air nearby. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "Opens human ruins anywhere with explosive charges and treated-plank shoring to recover artifacts, then restores their data drives into archive data with grease and metal parts. A Human Record Cache within 7 tiles can be surveyed for extra archive data. 4 workers, dangerous work. Requires 5,200 hp. Its stove chimney pollutes the air nearby. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.ArchiveExcavation.FlavorDescription"]
@@ -714,7 +714,7 @@ new = "Cryogenic tank farm"
 status = "normal"
 
 ["Building.CryogenicTankFarm.Description"]
-new = "Stores up to 2,000 units of one cryogenic fuel, liquid hydrogen or liquid oxygen, delivered and drawn by pipes at its two front sockets or by haulers. Needs 1,000 hp to keep the fuel cold: without power the intake closes, and after 12 hours the stored fuel starts to vent. Pipes connect directly to its flat walls, without a valve."
+new = "Stores up to 2,000 units of one cryogenic fuel, liquid hydrogen or liquid oxygen, delivered and drawn by pipes at its two front sockets or by haulers. Needs 6,500 hp to keep the fuel cold: without power the intake closes, and after 12 hours the stored fuel starts to vent. Pipes connect directly to its flat walls, without a valve."
 status = "normal"
 
 ["Building.CryogenicTankFarm.FlavorDescription"]
@@ -726,7 +726,7 @@ new = "Smog scrubber"
 status = "normal"
 
 ["Building.SmogScrubber.Description"]
-new = "Removes 75% of the smog within 7 tiles while powered and not paused; scrubbers and trees together remove at most 90%. No workers. Requires 200 hp."
+new = "Removes all smog within 20 tiles while powered and not paused. No workers. Requires 2,000 hp."
 status = "normal"
 
 ["Building.SmogScrubber.FlavorDescription"]
@@ -738,7 +738,7 @@ new = "Bathhouse"
 status = "normal"
 
 ["Building.Bathhouse.Description"]
-new = "Steam baths for up to 12 beavers: a warm soak, a massage and a wash in one visit (Mud Bath, Massager and Wet Fur). Uses 1 water per hour, piped in at the boiler-room socket or carried by haulers, and 300 hp. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "Steam baths for up to 12 beavers: a warm soak, a massage and a wash in one visit (Mud Bath, Massager and Wet Fur). Uses 1 water per hour, piped in at the boiler-room socket or carried by haulers, and 3,900 hp. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.Bathhouse.FlavorDescription"]
@@ -774,7 +774,7 @@ new = "Nuclear Reactor"
 status = "normal"
 
 ["Building.NuclearReactor.Description"]
-new = "A 750000 hp reactor that consumes enriched fuel and pipe-fed coolant water. Produces spent-fuel casks and radioactive sludge that must be shipped off the map. Its core overheats when coolant runs dry, fewer than 4 trained operators are working or maintenance is overdue (a 24-hour stop every 360 running hours). At 85% heat it trips an emergency shutdown; without coolant the core keeps heating for 72 hours after it stops, and at 100% it melts down: the reactor is destroyed, nearby beavers are killed or irradiated and the land and water around it stay radioactive for weeks. Pausing is a safe cold shutdown. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
+new = "A 1,000,000 hp reactor that consumes enriched fuel and pipe-fed coolant water. Produces spent-fuel casks and radioactive water that must be shipped off the map. Its power output falls as its core heats. Without coolant, or with its radioactive waste or radioactive water storage full, a hot core keeps heating, running or stopped, as fast as it cools otherwise, so a reactor short of coolant or waste hauling more than half the time ends in a meltdown. Each cycle seals its spent fuel in a cask of High-Grade Steel and Concrete. Fewer than 4 trained operators working or overdue maintenance (a 24-hour stop every 360 running hours, using 20 High-Grade Steel and 40 Concrete) also heat it while it runs, up to 85%. At 100% it melts down: the reactor is destroyed, nearby beavers are killed or irradiated and the land and water around it stay radioactive for weeks. Pausing is a safe cold shutdown. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
 status = "normal"
 
 ["Building.NuclearReactor.FlavorDescription"]
@@ -786,7 +786,7 @@ new = "Radioactive Waste Vault"
 status = "normal"
 
 ["Building.RadioactiveWasteVault.Description"]
-new = "Locked storage for radioactive waste; the contents must be processed or moved before demolition. Keep it below full: when full, 4 casks breach every 24 hours, spilling radioactive sludge and irradiating the soil within 3 tiles, which kills crops."
+new = "Locked storage for radioactive waste; the contents must be processed or moved before demolition. Keep it below full: when full, 4 casks breach every 24 hours, spilling radioactive water and irradiating the soil within 3 tiles, which kills crops."
 status = "normal"
 
 ["Building.RadioactiveWasteVault.FlavorDescription"]
@@ -798,7 +798,7 @@ new = "Coal power plant"
 status = "normal"
 
 ["Building.CoalPowerPlant.Description"]
-new = "A coal-fired steam plant. Produces 5,000 hp, day and night, burning 1 coal and 1 water per hour while the network draws power. No workers. Its chimney pollutes the air for a wide area while it runs. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "A coal-fired steam plant. Produces 25,000 hp, day and night, burning 1 coal and 1 water per hour while the network draws power. No workers. Its chimney pollutes the air for a wide area while it runs. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.CoalPowerPlant.FlavorDescription"]
@@ -810,7 +810,7 @@ new = "Oil power plant"
 status = "normal"
 
 ["Building.OilPowerPlant.Description"]
-new = "An oil-fired turbine plant. Produces 20,000 hp, day and night, burning 2 crude oil and 2 water per hour while the network draws power. No workers. Its two exhaust stacks pollute the air nearby while it runs, less than coal. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "An oil-fired turbine plant. Produces 90,000 hp, day and night, burning 2 crude oil and 2 water per hour while the network draws power. No workers. Its two exhaust stacks pollute the air nearby while it runs, less than coal. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.OilPowerPlant.FlavorDescription"]
@@ -891,10 +891,6 @@ status = "normal"
 
 ["Recipe.Polymer.DisplayName"]
 new = "Polymer"
-status = "normal"
-
-["Recipe.Lubricant.DisplayName"]
-new = "Lubricant"
 status = "normal"
 
 ["Recipe.MachineCore.DisplayName"]
@@ -1025,12 +1021,8 @@ status = "normal"
 new = "Waste refining with contaminated water"
 status = "normal"
 
-["Recipe.Vitrification.DisplayName"]
-new = "Sludge vitrification"
-status = "normal"
-
-["Recipe.SludgeMineralRecovery.DisplayName"]
-new = "Sludge mineral recovery"
+["Recipe.BadwaterFiltering.DisplayName"]
+new = "Badwater filtering"
 status = "normal"
 
 ["Need.PublicHealthcare.DisplayName"]
@@ -1362,7 +1354,7 @@ new = "Long-Range Beacon legacy"
 status = "normal"
 
 ["DeepFrontier.Meltdown.Status.Overheating"]
-new = "Reactor overheating. It trips an emergency shutdown at {0}% core heat and melts down at 100%; open the reactor to see why."
+new = "Reactor overheating: its power output falls as the core heats and it melts down at 100%. Open the reactor to see why."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Status.Overheating.Short"]
@@ -1370,19 +1362,27 @@ new = "Reactor overheating"
 status = "normal"
 
 ["DeepFrontier.Meltdown.Status.Scram"]
-new = "Emergency shutdown (SCRAM): no power until the core cools to {0}%."
+new = "Shut down by the operators (SCRAM): no power. Without coolant the core still heats. Restart possible at {0}% core heat or below."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Status.Scram.Short"]
-new = "Reactor emergency shutdown"
+new = "Reactor shut down (SCRAM)"
 status = "normal"
 
 ["DeepFrontier.Meltdown.Status.CoolantDry"]
-new = "Coolant dry while the core still holds decay heat: it is heating toward a meltdown. Deliver reactor coolant water, or pause the reactor for a safe cold shutdown."
+new = "Coolant dry: the hot core is heating toward a meltdown, running or stopped. Deliver reactor coolant water, or pause the reactor for a safe cold shutdown."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Status.CoolantDry.Short"]
 new = "Reactor coolant dry: meltdown risk"
+status = "normal"
+
+["DeepFrontier.Meltdown.Status.WasteFull"]
+new = "Radioactive waste or radioactive water storage full: the hot core cannot shed its heat and is heating toward a meltdown, running or stopped. Haul the waste away, or pause the reactor for a safe cold shutdown."
+status = "normal"
+
+["DeepFrontier.Meltdown.Status.WasteFull.Short"]
+new = "Reactor waste full: meltdown risk"
 status = "normal"
 
 ["DeepFrontier.Meltdown.Status.CoolantLow"]
@@ -1390,35 +1390,35 @@ new = "Coolant reserve below {0} hours of running."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Status.Crew"]
-new = "Fewer than {0} operators working: the core heats while it runs."
+new = "Fewer than {0} operators working: the core heats while it runs, costing power."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Status.MaintenanceDue"]
 new = "Maintenance due soon: plan a {0}-hour stop."
 status = "normal"
 
+["DeepFrontier.Meltdown.Status.MaintenanceGoods"]
+new = "Maintenance stop waiting for repair materials: {0}."
+status = "normal"
+
 ["DeepFrontier.Meltdown.Status.MaintenanceOverdue"]
-new = "Maintenance overdue: the core heats while it runs. Stop the reactor for {0} hours."
+new = "Maintenance overdue: the core heats while it runs, costing power. Stop the reactor for {0} hours."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Notification.Warning"]
-new = "Reactor overheating: core heat {0}% ({1}). Emergency shutdown at {2}%."
-status = "normal"
-
-["DeepFrontier.Meltdown.Notification.Scram"]
-new = "Reactor emergency shutdown (SCRAM) at {0}% core heat: no power until it cools to {1}%."
-status = "normal"
-
-["DeepFrontier.Meltdown.Notification.Restarted"]
-new = "Reactor restarted automatically at {0}% core heat."
+new = "Reactor overheating: core heat {0}% ({1}); power output down to {2}%. It melts down at 100%."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Notification.CoolantDry"]
-new = "Reactor coolant dry: core heat {0}% and rising from decay heat for up to {1} more hours. Deliver reactor coolant water or pause the reactor."
+new = "Reactor coolant dry: core heat {0}% and rising {1}% per hour. A hot core keeps heating without coolant, running or stopped, and melts down in about {2} hours. Deliver reactor coolant water, or pause the reactor for a safe cold shutdown."
+status = "normal"
+
+["DeepFrontier.Meltdown.Notification.WasteFull"]
+new = "Reactor waste storage full: core heat {0}% and rising {1}% per hour. A hot core keeps heating while its radioactive waste or radioactive water is full, running or stopped, and melts down in about {2} hours. Haul the waste away, or pause the reactor for a safe cold shutdown."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Notification.Imminent"]
-new = "MELTDOWN IMMINENT: core heat {0}%, meltdown in about {1} hours. Deliver reactor coolant water or pause the reactor now."
+new = "MELTDOWN IMMINENT: core heat {0}%, meltdown in about {1} hours. Deliver reactor coolant water, haul away its waste or pause the reactor now."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Notification.MaintenanceOverdue"]
@@ -1442,7 +1442,7 @@ new = "The core melted down and destroyed the Nuclear Reactor. {0} were killed a
 status = "normal"
 
 ["DeepFrontier.Meltdown.Dialog.Contamination"]
-new = "Radioactive sludge is pouring from the ruin and will keep flowing for {0} days. Soil and water within {1} tiles are contaminated: crops there die, pumps refuse contaminated water and beavers who walk in are irradiated. Clean up with Sludge Recovery Pumps and ship the sludge off the map."
+new = "Radioactive water is pouring from the ruin and will keep flowing for {0} days. Soil and water within {1} tiles are contaminated: crops there die, pumps refuse contaminated water and beavers who walk in are irradiated. Clean up with Radioactive Water Recovery Pumps and ship it off the map."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Dialog.ShowSite"]
@@ -1461,12 +1461,12 @@ status = "normal"
 new = "fewer than {0} operators working"
 status = "normal"
 
-["DeepFrontier.Meltdown.Cause.Maintenance"]
-new = "maintenance overdue"
+["DeepFrontier.Meltdown.Cause.Waste"]
+new = "radioactive waste or radioactive water full"
 status = "normal"
 
-["DeepFrontier.Meltdown.Cause.DecayHeat"]
-new = "decay heat without coolant"
+["DeepFrontier.Meltdown.Cause.Maintenance"]
+new = "maintenance overdue"
 status = "normal"
 
 ["DeepFrontier.Meltdown.Panel.Title"]
@@ -1478,7 +1478,11 @@ new = "Core heat: {0}% {1}"
 status = "normal"
 
 ["DeepFrontier.Meltdown.Panel.Thresholds"]
-new = "Warning {0}%, emergency shutdown {1}%, meltdown 100%"
+new = "Warning {0}%, meltdown 100%. Crew and maintenance faults alone heat it to at most {1}%."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.Output"]
+new = "Power output: {0}% of full ({1} hp). Output falls as the core heats: half power at 50%."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Panel.Rising"]
@@ -1489,16 +1493,16 @@ status = "normal"
 new = "(falling {0}% per hour)"
 status = "normal"
 
-["DeepFrontier.Meltdown.Panel.EtaScram"]
-new = "Emergency shutdown after about {0} more hours of running."
-status = "normal"
-
 ["DeepFrontier.Meltdown.Panel.EtaMeltdown"]
 new = "Meltdown in about {0} hours."
 status = "normal"
 
-["DeepFrontier.Meltdown.Panel.EtaPeak"]
-new = "Decay heat fades before a meltdown: peak about {0}% in {1} hours."
+["DeepFrontier.Meltdown.Panel.EtaLimit"]
+new = "Heats to {0}% in about {1} running hours; crew and maintenance faults alone never melt the core."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.EtaCool"]
+new = "Cold in about {0} hours."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Panel.EtaRestart"]
@@ -1518,10 +1522,6 @@ new = "Running."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Panel.State.Scram"]
-new = "Emergency shutdown (SCRAM)."
-status = "normal"
-
-["DeepFrontier.Meltdown.Panel.State.ScramManual"]
 new = "Shut down by the operators (SCRAM)."
 status = "normal"
 
@@ -1533,16 +1533,16 @@ status = "normal"
 new = "Melting down."
 status = "normal"
 
-["DeepFrontier.Meltdown.Panel.DecayHeat"]
-new = "Decay heat for {0} more hours: until then the core needs coolant even when stopped."
-status = "normal"
-
-["DeepFrontier.Meltdown.Panel.NoDecayHeat"]
-new = "No decay heat: safe without coolant while stopped."
+["DeepFrontier.Meltdown.Panel.DryCore"]
+new = "Not cooling ({0}): the hot core heats {1}% per hour, running or stopped, until that is fixed. Pausing is a safe cold shutdown."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Panel.Coolant"]
 new = "{0}: {1} in stock, {2} per cycle (about {3} hours of running)."
+status = "normal"
+
+["DeepFrontier.Meltdown.Panel.Waste"]
+new = "{0}: {1} of {2} stored (full storage heats the core)."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Panel.Crew"]
@@ -1553,16 +1553,20 @@ status = "normal"
 new = "Maintenance due in {0} running hours; it needs a {1}-hour stop."
 status = "normal"
 
+["DeepFrontier.Meltdown.Panel.MaintenanceGoods"]
+new = "Each maintenance stop uses {0} from the reactor stock."
+status = "normal"
+
 ["DeepFrontier.Meltdown.Panel.MaintenanceOverdue"]
 new = "Maintenance overdue: stop the reactor for {0} hours ({1} so far)."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Panel.Rules"]
-new = "While running, the core heats {0}% per hour for each fault: coolant dry, fewer than {1} operators working, or maintenance overdue (a {2}-hour stop every {3} running hours). At {4}% it trips an emergency shutdown. Without coolant, decay heat keeps heating it for {5} hours after it stops."
+new = "Without coolant, or with its radioactive waste or radioactive water full, a hot core heats {0}% per hour, running or stopped; otherwise it cools {1}% per hour, so a reactor short of coolant or waste hauling more than half the time ends in a meltdown. While running, fewer than {2} operators working or overdue maintenance (a {3}-hour stop every {4} running hours) also heat it, up to {5}%."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Panel.Consequences"]
-new = "A meltdown destroys the reactor: beavers within {0} tiles die, beavers within {1} tiles are irradiated, sludge pours out for {2} days and soil and water within {3} tiles stay radioactive for weeks. Pausing the reactor is a safe cold shutdown."
+new = "A meltdown destroys the reactor: beavers within {0} tiles die, beavers within {1} tiles are irradiated, radioactive water pours out for {2} days and soil and water within {3} tiles stay radioactive for weeks. Pausing the reactor is a safe cold shutdown."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Panel.ScramButton"]
@@ -1577,16 +1581,12 @@ status = "normal"
 new = "Restart possible once core heat is at or below {0}%."
 status = "normal"
 
-["DeepFrontier.Meltdown.Panel.AutoRestart"]
-new = "Restart automatically after an emergency shutdown (once cool, maintained and with coolant)"
-status = "normal"
-
 ["DeepFrontier.WasteLeak.StorageFull.Status.Warning"]
 new = "Nearly full of radioactive waste: once full, casks breach every {0} hours."
 status = "normal"
 
 ["DeepFrontier.WasteLeak.StorageFull.Status.Leaking"]
-new = "Full: radioactive waste casks are breaching and leaking sludge. Refine or move the waste."
+new = "Full: radioactive waste casks are breaching and leaking radioactive water. Export, refine or move the waste."
 status = "normal"
 
 ["DeepFrontier.WasteLeak.StorageFull.Status.Leaking.Short"]
@@ -1602,19 +1602,19 @@ new = "Radioactive Waste Vault full: {0} casks will breach in {1} hours unless w
 status = "normal"
 
 ["DeepFrontier.WasteLeak.StorageFull.Notification.Leak"]
-new = "Radioactive Waste Vault leak: {0} casks breached, spilling radioactive sludge and irradiating the soil around the vault."
+new = "Radioactive Waste Vault leak: {0} casks breached, spilling radioactive water and irradiating the soil around the vault."
 status = "normal"
 
 ["DeepFrontier.WasteLeak.StorageFull.Panel.Rules"]
-new = "When full, {0} casks breach every {1} hours: their waste spills out as radioactive sludge and irradiates the soil within {2} tiles, killing crops there."
+new = "When full, {0} casks breach every {1} hours: their waste spills out as radioactive water and irradiates the soil within {2} tiles, killing crops there."
 status = "normal"
 
 ["DeepFrontier.WasteLeak.OutputBlocked.Status.Warning"]
-new = "Sludge tanks nearly full: once full, sludge leaks every {0} hours."
+new = "Radioactive water tanks nearly full: once full, radioactive water leaks every {0} hours."
 status = "normal"
 
 ["DeepFrontier.WasteLeak.OutputBlocked.Status.Leaking"]
-new = "Sludge tanks full: radioactive sludge is leaking. Haul it to a Sludge Outfall or Radioactive Waste Export."
+new = "Radioactive water tanks full: radioactive water is leaking. Haul it to a Radioactive Water Outfall or Radioactive Waste Export."
 status = "normal"
 
 ["DeepFrontier.WasteLeak.OutputBlocked.Status.Leaking.Short"]
@@ -1622,19 +1622,19 @@ new = "Waste refinery leaking"
 status = "normal"
 
 ["DeepFrontier.WasteLeak.OutputBlocked.Notification.Warning"]
-new = "Waste refinery sludge tanks {0}% full: haul the sludge away before they leak."
+new = "Waste refinery radioactive water tanks {0}% full: haul it away before they leak."
 status = "normal"
 
 ["DeepFrontier.WasteLeak.OutputBlocked.Notification.Full"]
-new = "Waste refinery sludge tanks full: {0} sludge will leak in {1} hours."
+new = "Waste refinery radioactive water tanks full: {0} radioactive water will leak in {1} hours."
 status = "normal"
 
 ["DeepFrontier.WasteLeak.OutputBlocked.Notification.Leak"]
-new = "Waste refinery leak: {0} radioactive sludge spilled around the refinery."
+new = "Waste refinery leak: {0} radioactive water spilled around the refinery."
 status = "normal"
 
 ["DeepFrontier.WasteLeak.OutputBlocked.Panel.Rules"]
-new = "When its sludge tanks are full, {0} sludge leaks every {1} hours and irradiates the soil within {2} tiles, killing crops there. Pausing it seals the tanks."
+new = "When its radioactive water tanks are full, {0} radioactive water leaks every {1} hours and irradiates the soil within {2} tiles, killing crops there. Pausing it seals the tanks."
 status = "normal"
 
 ["DeepFrontier.WasteLeak.Panel.Title"]
@@ -1818,7 +1818,7 @@ new = "Read the last shift's records: restore 30 archive data in total and finis
 status = "normal"
 
 ["Narrative.Stage.TheLastShift.Hint"]
-new = "Mission Control unlocks at 14,000 science. Guidance computers and telemetry also need archive data, so keep the drives coming."
+new = "Mission Control unlocks at 30,000 science. Guidance computers and telemetry also need archive data, so keep the drives coming."
 status = "normal"
 
 ["Narrative.Stage.TheLastShift.Story.1"]
@@ -2458,7 +2458,7 @@ new = "Sandstone quarry"
 status = "normal"
 
 ["Building.SandstoneQuarry.Description"]
-new = "Extracts sandstone indefinitely from a marked deep seam. Requires water and 1500 hp. Build over a Deep Sandstone Seam. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "Extracts sandstone indefinitely from a marked deep seam. Requires water and 2,800 hp. Build over a Deep Sandstone Seam. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.SandstoneQuarry.FlavorDescription"]
@@ -2470,7 +2470,7 @@ new = "Limestone quarry"
 status = "normal"
 
 ["Building.LimestoneQuarry.Description"]
-new = "Extracts limestone indefinitely from a marked deep seam. Requires water and 1500 hp. Build over a Deep Limestone Seam. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "Extracts limestone indefinitely from a marked deep seam. Requires water and 2,800 hp. Build over a Deep Limestone Seam. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.LimestoneQuarry.FlavorDescription"]
@@ -2733,6 +2733,186 @@ status = "normal"
 new = "Room for the next layer of the colony."
 status = "normal"
 
+["Building.SteelCantilever10x1.DisplayName"]
+new = "Steel cantilever 10×1"
+status = "normal"
+
+["Building.SteelCantilever10x1.Description"]
+new = "A riveted steel truss deck with one supported anchor tile and 9 cantilever tiles. Every anchor tile must stand on the ground or a platform. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.SteelCantilever10x1.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.SteelCantilever12x1.DisplayName"]
+new = "Steel cantilever 12×1"
+status = "normal"
+
+["Building.SteelCantilever12x1.Description"]
+new = "A riveted steel truss deck with two supported anchor tiles and 10 cantilever tiles. Every anchor tile must stand on the ground or a platform. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.SteelCantilever12x1.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.SteelCantilever15x1.DisplayName"]
+new = "Steel cantilever 15×1"
+status = "normal"
+
+["Building.SteelCantilever15x1.Description"]
+new = "A riveted steel truss deck with three supported anchor tiles and 12 cantilever tiles. Every anchor tile must stand on the ground or a platform. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.SteelCantilever15x1.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.SteelBridge8x1.DisplayName"]
+new = "Steel truss bridge 8×1"
+status = "normal"
+
+["Building.SteelBridge8x1.Description"]
+new = "A riveted steel truss footbridge on a concrete abutment, spanning 8 tiles of open space. Like the suspension bridge, only the near end needs ground or a platform; the far end must meet a path at the same height across a gap of exactly 8 tiles."
+status = "normal"
+
+["Building.SteelBridge8x1.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.SteelBridge10x1.DisplayName"]
+new = "Steel truss bridge 10×1"
+status = "normal"
+
+["Building.SteelBridge10x1.Description"]
+new = "A riveted steel truss footbridge on a concrete abutment, spanning 10 tiles of open space. Like the suspension bridge, only the near end needs ground or a platform; the far end must meet a path at the same height across a gap of exactly 10 tiles."
+status = "normal"
+
+["Building.SteelBridge10x1.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.SteelBridge12x1.DisplayName"]
+new = "Steel truss bridge 12×1"
+status = "normal"
+
+["Building.SteelBridge12x1.Description"]
+new = "A riveted steel truss footbridge on a concrete abutment, spanning 12 tiles of open space. Like the suspension bridge, only the near end needs ground or a platform; the far end must meet a path at the same height across a gap of exactly 12 tiles."
+status = "normal"
+
+["Building.SteelBridge12x1.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.SteelBridge15x1.DisplayName"]
+new = "Steel truss bridge 15×1"
+status = "normal"
+
+["Building.SteelBridge15x1.Description"]
+new = "A riveted steel truss footbridge on a concrete abutment, spanning 15 tiles of open space. Like the suspension bridge, only the near end needs ground or a platform; the far end must meet a path at the same height across a gap of exactly 15 tiles."
+status = "normal"
+
+["Building.SteelBridge15x1.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.SteelColumnH1.DisplayName"]
+new = "Steel column (1 high)"
+status = "normal"
+
+["Building.SteelColumnH1.Description"]
+new = "A riveted steel trestle column 1 layer high with a stackable cap. Stack columns, or stand them on the ground or a platform, then rest steel decks on their caps to level a deck over uneven ground."
+status = "normal"
+
+["Building.SteelColumnH1.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.SteelColumnH2.DisplayName"]
+new = "Steel column (2 high)"
+status = "normal"
+
+["Building.SteelColumnH2.Description"]
+new = "A riveted steel trestle column 2 layers high with a stackable cap. Stack columns, or stand them on the ground or a platform, then rest steel decks on their caps to level a deck over uneven ground."
+status = "normal"
+
+["Building.SteelColumnH2.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.SteelColumnH3.DisplayName"]
+new = "Steel column (3 high)"
+status = "normal"
+
+["Building.SteelColumnH3.Description"]
+new = "A riveted steel trestle column 3 layers high with a stackable cap. Stack columns, or stand them on the ground or a platform, then rest steel decks on their caps to level a deck over uneven ground."
+status = "normal"
+
+["Building.SteelColumnH3.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.SteelColumnH4.DisplayName"]
+new = "Steel column (4 high)"
+status = "normal"
+
+["Building.SteelColumnH4.Description"]
+new = "A riveted steel trestle column 4 layers high with a stackable cap. Stack columns, or stand them on the ground or a platform, then rest steel decks on their caps to level a deck over uneven ground."
+status = "normal"
+
+["Building.SteelColumnH4.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.SteelColumnH5.DisplayName"]
+new = "Steel column (5 high)"
+status = "normal"
+
+["Building.SteelColumnH5.Description"]
+new = "A riveted steel trestle column 5 layers high with a stackable cap. Stack columns, or stand them on the ground or a platform, then rest steel decks on their caps to level a deck over uneven ground."
+status = "normal"
+
+["Building.SteelColumnH5.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.SteelColumnH6.DisplayName"]
+new = "Steel column (6 high)"
+status = "normal"
+
+["Building.SteelColumnH6.Description"]
+new = "A riveted steel trestle column 6 layers high with a stackable cap. Stack columns, or stand them on the ground or a platform, then rest steel decks on their caps to level a deck over uneven ground."
+status = "normal"
+
+["Building.SteelColumnH6.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.SteelDeck3x3.DisplayName"]
+new = "Steel deck 3×3"
+status = "normal"
+
+["Building.SteelDeck3x3.Description"]
+new = "A riveted steel plate deck that rests only on its four corner tiles: on the ground, platforms or steel columns of different heights. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.SteelDeck3x3.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.SteelDeck5x5.DisplayName"]
+new = "Steel deck 5×5"
+status = "normal"
+
+["Building.SteelDeck5x5.Description"]
+new = "A riveted steel plate deck that rests only on its four corner tiles: on the ground, platforms or steel columns of different heights. Supports construction above; does not hold back water."
+status = "normal"
+
+["Building.SteelDeck5x5.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "normal"
+
 ["Building.ReinforcedHydroTurbine.DisplayName"]
 new = "Reinforced hydroelectric turbine"
 status = "normal"
@@ -2794,7 +2974,7 @@ new = "Deep sandstone seam"
 status = "normal"
 
 ["Building.SandstoneSeam.Description"]
-new = "Permanent geological source. Build a Sandstone Quarry over this marked site; extraction requires water, workers and 1500 hp."
+new = "Permanent geological source. Build a Sandstone Quarry over this marked site; extraction requires water, workers and 2,800 hp."
 status = "normal"
 
 ["Building.SandstoneSeam.FlavorDescription"]
@@ -2806,7 +2986,7 @@ new = "Deep limestone seam"
 status = "normal"
 
 ["Building.LimestoneSeam.Description"]
-new = "Permanent geological source. Build a Limestone Quarry over this marked site; extraction requires water, workers and 1500 hp."
+new = "Permanent geological source. Build a Limestone Quarry over this marked site; extraction requires water, workers and 2,800 hp."
 status = "normal"
 
 ["Building.LimestoneSeam.FlavorDescription"]
@@ -2814,11 +2994,11 @@ new = "The next age begins with a solid foundation."
 status = "normal"
 
 ["Good.RadioactiveSludge.DisplayName"]
-new = "Radioactive Sludge"
+new = "Radioactive Water"
 status = "normal"
 
 ["Good.RadioactiveSludge.PluralDisplayName"]
-new = "Radioactive Sludge"
+new = "Radioactive Water"
 status = "normal"
 
 ["Good.ContaminatedWater.DisplayName"]
@@ -2870,7 +3050,7 @@ new = "Radioactive Waste Export"
 status = "normal"
 
 ["Building.RadioactiveWasteExport.Description"]
-new = "Ships barrelled radioactive sludge and contaminated water off the map for good. Must touch the map edge: place its dispatch gate on the edge. Fed by pipe at its front socket or by haulers. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "Ships radioactive waste off the map for good: spent-fuel casks dissolved in water, barrelled radioactive water and contaminated water. Must touch the map edge: place its dispatch gate on the edge. Fed by pipe at its front socket or by haulers. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.RadioactiveWasteExport.FlavorDescription"]
@@ -2878,11 +3058,11 @@ new = "Somewhere downstream, it is somebody else's problem."
 status = "normal"
 
 ["Building.RadioactiveSludgeOutfall.DisplayName"]
-new = "Sludge Outfall"
+new = "Radioactive Water Outfall"
 status = "normal"
 
 ["Building.RadioactiveSludgeOutfall.Description"]
-new = "Pours barrelled radioactive sludge into the world as radioactive water over the lip of its spillway. It mixes with the water it meets, stops pumps, irradiates beavers, leaves irradiated ground where it dries, and only leaves through open map edges. Fed by pipe at its front socket or by haulers. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "Pours barrelled radioactive water into the world over the lip of its spillway. It mixes with the water it meets, stops pumps, irradiates beavers, leaves irradiated ground where it dries, and only leaves through open map edges. Fed by pipe at its front socket or by haulers. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.RadioactiveSludgeOutfall.FlavorDescription"]
@@ -2890,11 +3070,11 @@ new = "Out of sight is not out of the river."
 status = "normal"
 
 ["Building.RadioactiveSludgeRecoveryPump.DisplayName"]
-new = "Sludge Recovery Pump"
+new = "Radioactive Water Recovery Pump"
 status = "normal"
 
 ["Building.RadioactiveSludgeRecoveryPump.Description"]
-new = "Pumps radioactive water through its intake pipe and barrels its radioactivity as sludge for export; the fresh water pumped with it is used up. The intake drops from the middle of the back deck, so that cell must stand over open water, with ground under the two piers beside it. Delivers the barrels by pipe from its front socket or to haulers. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
+new = "Pumps radioactive water through its intake pipe and barrels its radioactivity as Radioactive Water for export; the fresh water pumped with it is used up. The intake drops from the middle of the back deck, so that cell must stand over open water, with ground under the two piers beside it. Delivers the barrels by pipe from its front socket or to haulers. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
 status = "normal"
 
 ["Building.RadioactiveSludgeRecoveryPump.FlavorDescription"]
@@ -2911,6 +3091,10 @@ status = "normal"
 
 ["DeepFrontier.Radiation.Status.StorageIrradiated"]
 new = "Stored water is irradiated and undrinkable."
+status = "normal"
+
+["DeepFrontier.Radiation.DeletionBlocker.HazardousStock"]
+new = "Holds radioactive waste, radioactive water or contaminated water. Empty it first: move the contents to other storage, or refine or export them."
 status = "normal"
 
 ["DeepFrontier.Radiation.Status.NoRadiation"]
@@ -2933,6 +3117,10 @@ status = "normal"
 new = "{0} the radioactive zombie fell apart from untreated radiation sickness."
 status = "normal"
 
+["DeepFrontier.Radiation.Notification.HaulingIrradiated"]
+new = "{0} was irradiated while hauling {1} and needs hospital care."
+status = "normal"
+
 ["DeepFrontier.Radiation.Planting.Warning"]
 new = "Radiation: plants on irradiated (yellow-green) ground die immediately, including anything planted there."
 status = "normal"
@@ -2951,6 +3139,126 @@ status = "normal"
 
 ["Building.RadioactiveSpringSource.Description"]
 new = "A natural spring of radioactive water. Its strength works like a water source; 0 stops it."
+status = "normal"
+
+["Building.DeepWell.DisplayName"]
+new = "Deep Well"
+status = "normal"
+
+["Building.DeepWell.Description"]
+new = "Stands with its drill over a water source, water seep or badwater source and drives the source harder while powered: up to 6× its flow, at most 8 per source cell. A seep flows like a normal source. Draws 1,667 hp at 1×, rising with the boost to 10,000 hp at 6×. In a drought it runs only on its full 100,000 hp, at any boost, and drives the source at most 2×; short of full power it stops and the source dries up like any other. Wears out 0.05 high-grade steel drill bits per hour per step. No workers; haulers bring the steel. Waterproof."
+status = "normal"
+
+["Building.DeepWell.FlavorDescription"]
+new = "When the river runs dry, drill deeper."
+status = "normal"
+
+["DeepFrontier.DeepWell.Placement.NoSource"]
+new = "The drill must stand over a water source, water seep or badwater source."
+status = "normal"
+
+["DeepFrontier.DeepWell.Placement.SourceTaken"]
+new = "Another Deep Well already drives this water source."
+status = "normal"
+
+["DeepFrontier.DeepWell.Placement.SourceControlled"]
+new = "A building on this water source already controls it."
+status = "normal"
+
+["DeepFrontier.DeepWell.Status.NoDrillBits"]
+new = "No drill bits: the well needs high-grade steel to drive its source."
+status = "normal"
+
+["DeepFrontier.DeepWell.Status.NoDrillBits.Short"]
+new = "No drill bits"
+status = "normal"
+
+["DeepFrontier.DeepWell.Status.NoSource"]
+new = "The water source under the drill is gone."
+status = "normal"
+
+["DeepFrontier.DeepWell.Status.NoSource.Short"]
+new = "No water source"
+status = "normal"
+
+["DeepFrontier.DeepWell.Panel.Title"]
+new = "Deep well"
+status = "normal"
+
+["DeepFrontier.DeepWell.Panel.Boost"]
+new = "Source boost"
+status = "normal"
+
+["DeepFrontier.DeepWell.Panel.BoostValue"]
+new = "{0}×"
+status = "normal"
+
+["DeepFrontier.DeepWell.Panel.ShutOffDuringTide"]
+new = "Shut the source off during the radioactive tide"
+status = "normal"
+
+["DeepFrontier.DeepWell.Panel.Demand"]
+new = "Power at this boost: {0} hp"
+status = "normal"
+
+["DeepFrontier.DeepWell.Panel.DrillBits"]
+new = "Drill bits: {0} per hour, {1} hours in stock"
+status = "normal"
+
+["DeepFrontier.DeepWell.Panel.Source"]
+new = "Source strength: {0} set, {1} now"
+status = "normal"
+
+["DeepFrontier.DeepWell.Panel.Seep"]
+new = "A seep: while the well runs it pours like a normal source."
+status = "normal"
+
+["DeepFrontier.DeepWell.Panel.Drought"]
+new = "In a drought it runs only on its full 100,000 hp, at any boost, and drives the source at most 2×; short of full power it stops and the source dries up like any other."
+status = "normal"
+
+["DeepFrontier.DeepWell.Panel.Capped"]
+new = "Limited by the source maximum of 8 per cell."
+status = "normal"
+
+["DeepFrontier.DeepWell.State.UnderConstruction"]
+new = "Under construction."
+status = "normal"
+
+["DeepFrontier.DeepWell.State.NoSource"]
+new = "No water source under the drill."
+status = "normal"
+
+["DeepFrontier.DeepWell.State.Paused"]
+new = "Paused: the source flows as normal."
+status = "normal"
+
+["DeepFrontier.DeepWell.State.TideShutOff"]
+new = "Shut off for the radioactive tide: the source is closed."
+status = "normal"
+
+["DeepFrontier.DeepWell.State.SourceDormant"]
+new = "The source has not started flowing yet."
+status = "normal"
+
+["DeepFrontier.DeepWell.State.NoDrillBits"]
+new = "Waiting for drill bits: the source flows as normal."
+status = "normal"
+
+["DeepFrontier.DeepWell.State.NoPower"]
+new = "No power: the source flows as normal."
+status = "normal"
+
+["DeepFrontier.DeepWell.State.DroughtNoPower"]
+new = "Drought: short of its full 100,000 hp, so the source is dry. Pause the well to free the power."
+status = "normal"
+
+["DeepFrontier.DeepWell.State.Boosting"]
+new = "Driving the source at {0}×."
+status = "normal"
+
+["DeepFrontier.DeepWell.State.DroughtBoosting"]
+new = "Drought: keeping the source flowing at {0}× (at most 2×)."
 status = "normal"
 
 ["DeepFrontier.ContaminationSensor.Substance"]
@@ -3013,16 +3321,16 @@ status = "normal"
 new = "Extreme"
 status = "normal"
 
-["Recipe.SpecialistTraining.Metallurgy.DisplayName"]
-new = "Metallurgist course"
+["Need.StudyMetallurgy.DisplayName"]
+new = "Metallurgy studies"
 status = "normal"
 
-["Recipe.SpecialistTraining.Nuclear.DisplayName"]
-new = "Reactor operator course"
+["Need.StudyNuclear.DisplayName"]
+new = "Reactor studies"
 status = "normal"
 
-["Recipe.SpecialistTraining.Flight.DisplayName"]
-new = "Flight engineer course"
+["Need.StudyFlight.DisplayName"]
+new = "Flight studies"
 status = "normal"
 
 ["DeepFrontier.Workforce.Panel.Title"]
@@ -3074,7 +3382,7 @@ new = "Posts filled: {0}. Unassigned {2} in this district: {1}."
 status = "normal"
 
 ["DeepFrontier.Workforce.Specialists.Train"]
-new = "Train {0} at the Technical School. A specialist's skill dies with them."
+new = "Beavers become {0} in their free time at a Technical School teaching it. A specialist's skills die with them."
 status = "normal"
 
 ["DeepFrontier.Workforce.Status.NoSpecialists"]
@@ -3094,35 +3402,35 @@ new = "Specialist training"
 status = "normal"
 
 ["DeepFrontier.Workforce.School.Program"]
-new = "Course: {0}. Each finished course graduates the trainee with the most training hours."
+new = "Teaching {0}. Adults who are not yet {0} study here in their free time; {1} hours of study make a graduate. Nobody works here; while students are inside, the school uses up the supplies of the profession it teaches."
 status = "normal"
 
 ["DeepFrontier.Workforce.School.NoProgram"]
-new = "Choose a training course."
+new = "Choose the profession this school teaches. Build more schools to teach several professions at once."
 status = "normal"
 
-["DeepFrontier.Workforce.School.NextGraduate"]
-new = "Next graduate: {0} ({1} h of training)."
+["DeepFrontier.Workforce.School.Teach"]
+new = "Teach {0}"
 status = "normal"
 
-["DeepFrontier.Workforce.School.NoTrainee"]
-new = "No trainee enrolled. Specialists working here teach but never retrain."
+["DeepFrontier.Workforce.School.Students"]
+new = "Studying here now: {0}."
 status = "normal"
 
-["DeepFrontier.Workforce.School.Pending"]
-new = "Finished courses waiting for a trainee: {0}."
+["DeepFrontier.Workforce.School.Remaining"]
+new = "Adults in this district still to learn it: {0}."
 status = "normal"
 
 ["DeepFrontier.Workforce.School.Roster"]
 new = "Colony specialists: {0}."
 status = "normal"
 
-["DeepFrontier.Workforce.Status.NoTrainee"]
-new = "A course finished but no trainee is enrolled. Assign beavers who are not specialists."
+["DeepFrontier.Workforce.Status.NoProgram"]
+new = "No profession chosen: choose what this school teaches."
 status = "normal"
 
-["DeepFrontier.Workforce.Status.NoTrainee.Short"]
-new = "No trainee"
+["DeepFrontier.Workforce.Status.NoProgram.Short"]
+new = "Choose a profession"
 status = "normal"
 
 ["DeepFrontier.Workforce.Trait.Specialist"]
@@ -3130,7 +3438,7 @@ new = "Specialist: {0}"
 status = "normal"
 
 ["DeepFrontier.Workforce.Trait.Training"]
-new = "Technical School training: {0} h"
+new = "Studying: {0}"
 status = "normal"
 
 ["DeepFrontier.Workforce.Notification.Graduated"]
@@ -3185,6 +3493,226 @@ status = "normal"
 new = "Not serviced: stock maintenance oil at the {0} to slow wear."
 status = "normal"
 
+["DeepFrontier.WorkplaceUpkeep.Panel.Title"]
+new = "Upkeep"
+status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.Panel.GoodName"]
+new = "{0} ({1})"
+status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.Panel.Good"]
+new = "{0}: {1} in stock, {2} used per hour at full crew."
+status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.Panel.Note"]
+new = "Production stops while any upkeep is missing. A smaller crew uses less; the stock lasts about {0} hours at full crew."
+status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.DrillBits.Name"]
+new = "Drill bits"
+status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.DrillBits.Status"]
+new = "Waiting for drill bits: production has stopped until haulers bring high-grade steel."
+status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.DrillBits.Status.Short"]
+new = "No drill bits"
+status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.ShaftLining.Name"]
+new = "Shaft lining"
+status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.ShaftLining.Status"]
+new = "Waiting for shaft lining: production has stopped until haulers bring concrete."
+status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.ShaftLining.Status.Short"]
+new = "No shaft lining"
+status = "normal"
+
+["Good.ReinforcedBotFrame.DisplayName"]
+new = "Reinforced Bot Frame"
+status = "normal"
+
+["Good.ReinforcedBotFrame.PluralDisplayName"]
+new = "Reinforced Bot Frames"
+status = "normal"
+
+["Good.ReactorPowerCell.DisplayName"]
+new = "Reactor Power Cell"
+status = "normal"
+
+["Good.ReactorPowerCell.PluralDisplayName"]
+new = "Reactor Power Cells"
+status = "normal"
+
+["Need.ReactorRetrofitFrame.DisplayName"]
+new = "Retrofit: reinforced frame"
+status = "normal"
+
+["Need.ReactorRetrofitCell.DisplayName"]
+new = "Retrofit: reactor power cell"
+status = "normal"
+
+["Need.ReactorCharge.DisplayName"]
+new = "Reactor charge"
+status = "normal"
+
+["Need.ReactorBotCoolant.DisplayName"]
+new = "Coolant"
+status = "normal"
+
+["Need.ReactorBotPlating.DisplayName"]
+new = "Steel plating"
+status = "normal"
+
+["Status.Need.ReactorCharge"]
+new = "Reactor charge depleted: needs a Reactor Charging Bay."
+status = "normal"
+
+["Status.Need.ReactorCharge.Short"]
+new = "Reactor Bot is out of charge"
+status = "normal"
+
+["Status.Need.ReactorBotCoolant"]
+new = "Overheating: needs reactor coolant water or cryocoolant from storage."
+status = "normal"
+
+["Status.Need.ReactorBotCoolant.Short"]
+new = "Reactor Bot is overheating"
+status = "normal"
+
+["Building.ReactorChargingBay.DisplayName"]
+new = "Reactor Charging Bay"
+status = "normal"
+
+["Building.ReactorChargingBay.Description"]
+new = "Charges two Reactor Bots at once; ordinary bots use the Charging Station. Burns 0.2 enriched fuel per hour while a bot charges and needs 5,000 hp. A full charge lasts a Reactor Bot 6.9 days. No workers."
+status = "normal"
+
+["Building.ReactorChargingBay.FlavorDescription"]
+new = "Two hours on the cradle, a week on the job."
+status = "normal"
+
+["DeepFrontier.ReactorBot.Panel.Title"]
+new = "Reactor retrofit"
+status = "normal"
+
+["DeepFrontier.ReactorBot.Panel.Ordinary"]
+new = "A Reinforced Bot Frame and Reactor Power Cell retrofit makes this bot a Reactor Bot: 5× load, 4× speed, 10× lifespan, charged at a Reactor Charging Bay every 6.9 days. Upkeep: coolant (2 kinds) and steel plating from storage."
+status = "normal"
+
+["DeepFrontier.ReactorBot.Panel.Queued"]
+new = "Retrofit queued: the bot fetches a Reinforced Bot Frame and Reactor Power Cell from storage as soon as its district stocks them."
+status = "normal"
+
+["DeepFrontier.ReactorBot.Panel.Upgraded"]
+new = "Reactor Bot: 5× load, 4× speed, wears out 10× slower. Charges at a Reactor Charging Bay."
+status = "normal"
+
+["DeepFrontier.ReactorBot.Panel.Unplated"]
+new = "No steel plating: wearing out 5× faster until it takes high-grade steel or alloy."
+status = "normal"
+
+["DeepFrontier.ReactorBot.Panel.Queue"]
+new = "Retrofit to Reactor Bot"
+status = "normal"
+
+["DeepFrontier.ReactorBot.Panel.Cancel"]
+new = "Cancel retrofit"
+status = "normal"
+
+["ToolGroups.DeepFrontierDeepMining"]
+new = "Deep mining"
+status = "normal"
+
+["ToolGroups.DeepFrontierQuarrying"]
+new = "Quarries and cement"
+status = "normal"
+
+["ToolGroups.DeepFrontierHeavyIndustry"]
+new = "Heavy industry"
+status = "normal"
+
+["ToolGroups.DeepFrontierNuclearFuel"]
+new = "Nuclear fuel"
+status = "normal"
+
+["ToolGroups.DeepFrontierRocketry"]
+new = "Rocketry"
+status = "normal"
+
+["ToolGroups.DeepFrontierPathPlatforms"]
+new = "Platforms"
+status = "normal"
+
+["ToolGroups.DeepFrontierTeleporters"]
+new = "Teleporters"
+status = "normal"
+
+["ToolGroups.DeepFrontierTubeways"]
+new = "Tubeways"
+status = "normal"
+
+["ToolGroups.DeepFrontierSuspensionBridges"]
+new = "Suspension bridges"
+status = "normal"
+
+["ToolGroups.DeepFrontierOverhangs"]
+new = "Overhangs"
+status = "normal"
+
+["ToolGroups.DeepFrontierConcreteScaffolds"]
+new = "Concrete scaffolds"
+status = "normal"
+
+["ToolGroups.DeepFrontierConcretePlatforms"]
+new = "Concrete side platforms"
+status = "normal"
+
+["ToolGroups.DeepFrontierSteelStructures"]
+new = "Steel structures"
+status = "normal"
+
+["ToolGroups.DeepFrontierWaterPower"]
+new = "Water power"
+status = "normal"
+
+["ToolGroups.DeepFrontierPowerShafts"]
+new = "Power shafts"
+status = "normal"
+
+["ToolGroups.DeepFrontierEngines"]
+new = "Engines and power plants"
+status = "normal"
+
+["ToolGroups.DeepFrontierFlywheels"]
+new = "Flywheels"
+status = "normal"
+
+["ToolGroups.DeepFrontierFloodgates"]
+new = "Floodgates"
+status = "normal"
+
+["ToolGroups.DeepFrontierDynamite"]
+new = "Dynamite"
+status = "normal"
+
+["ToolGroups.DeepFrontierMasonryBlocks"]
+new = "Masonry and concrete"
+status = "normal"
+
+["ToolGroups.DeepFrontierRadioactiveWaste"]
+new = "Radioactive waste"
+status = "normal"
+
+["ToolGroups.DeepFrontierCivicServices"]
+new = "Civic services"
+status = "normal"
+
 ["DeepFrontier.Power.Status.NotConnected"]
 new = "Not connected to a power source. Connect it to a generator with shafts or power lines."
 status = "normal"
@@ -3192,3 +3720,215 @@ status = "normal"
 ["DeepFrontier.Power.Status.NotConnected.Short"]
 new = "Not connected to power"
 status = "normal"
+
+["DeepFrontier.MapSetup.SmallTitle"]
+new = "Deep Frontier is EXTREMELY difficult on {0}"
+status = "normal"
+
+["DeepFrontier.MapSetup.SmallIntro"]
+new = "Small map: {0} has {1} tiles, and the Deep Frontier late game is built for maps of at least {2} tiles."
+status = "normal"
+
+["DeepFrontier.MapSetup.SmallReasonsHeader"]
+new = "What this map cannot provide:"
+status = "normal"
+
+["DeepFrontier.MapSetup.SmallSpace"]
+new = "Little room: the full set of large Deep Frontier sites (the 14 x 11 Nuclear Reactor, the Launch Pad, Deep Mines and Drills, processing plants) covers about {0} tiles with their margins on a large map."
+status = "normal"
+
+["DeepFrontier.MapSetup.SmallHeight"]
+new = "Build upward: Deep Frontier raises this map's build height to {0} layers (vanilla {1}); on a small map most of the colony has to stack on platforms, which costs more materials."
+status = "normal"
+
+["DeepFrontier.MapSetup.SmallNoDeepMine"]
+new = "No Deep Mine: the Deep Mine is the only lasting source of deep ore, which the late game and the rocket launches need. Any Deep Ore Sources on this map run out."
+status = "normal"
+
+["DeepFrontier.MapSetup.SmallNoUnmet"]
+new = "Every Deep Frontier resource and site fits on this map, but with almost no spare room."
+status = "normal"
+
+["DeepFrontier.MapSetup.UnmetTitle"]
+new = "Deep Frontier on {0}: this map cannot provide everything the full Deep Frontier game needs:"
+status = "normal"
+
+["DeepFrontier.MapSetup.SetupFailedTitle"]
+new = "Deep Frontier could not set up {0}"
+status = "normal"
+
+["DeepFrontier.MapSetup.SetupFailed"]
+new = "{0} Deep Frontier map object(s) could not be placed on {1}; the late game may be missing resources. Details are in the Player.log ([DeepFrontier MapSetup])."
+status = "normal"
+
+["DeepFrontier.MapSetup.HeightFailed"]
+new = "Deep Frontier expected a build height of {0} layers on {1} but the map has {2}. Is Map Transformer enabled?"
+status = "normal"
+
+["DeepFrontier.MapSetup.NoSetup"]
+new = "Deep Frontier has no setup for the built-in map {0}: no Deep Frontier resources were added."
+status = "normal"
+
+["DeepFrontier.MapSetup.DevMap"]
+new = "{0} is a developer test map: Deep Frontier adds no resources and keeps its height."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Beaverome.1"]
+new = "No reachable Underground Ruins: scrap metal runs out."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Beaverome.Sites"]
+new = "No room for: Limestone quarry, Sandstone quarry, Radioactive waste refinery, Uranium processing plant, Nuclear Reactor, Radioactive Waste Vault, Fishery works, Materials Laboratory, Town plaza, Rocket assembly hangar, Restaurant, Grocery store."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Canyon.1"]
+new = "No natural shore-fishing banks: dam a river deeper before the Gatherer Flag can catch the first fish."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Cliffside.1"]
+new = "No natural shore-fishing banks: dam a river deeper before the Gatherer Flag can catch the first fish."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Cliffside.Sites"]
+new = "No room for: Nuclear Reactor, Radioactive waste refinery, Fishery works, Materials Laboratory, Town plaza, Restaurant, Grocery store."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Craters.1"]
+new = "No natural shore-fishing banks: dam a river deeper before the Gatherer Flag can catch the first fish."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Craters.Sites"]
+new = "No room for: Radioactive Waste Export."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Diorama.Sites"]
+new = "No room for: Limestone quarry, Nuclear Reactor, Launch pad, Radioactive waste refinery, Cryogenic liquefaction plant, Precision machine works, Radioactive Waste Vault, Fishery works, Materials Laboratory, Grocery store, Restaurant, Rocket assembly hangar, Town plaza."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Hollows.1"]
+new = "No natural shore-fishing banks: dam a river deeper before the Gatherer Flag can catch the first fish."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.MountainRange.1"]
+new = "No natural shore-fishing banks: dam a river deeper before the Gatherer Flag can catch the first fish."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Nomads.1"]
+new = "No natural shore-fishing banks: dam a river deeper before the Gatherer Flag can catch the first fish."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Oasis.Sites"]
+new = "No room for: Reinforced hydroelectric turbine."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Pillars.1"]
+new = "Little irrigated farmland near the start."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Pillars.Sites"]
+new = "No room for: Reinforced hydroelectric turbine."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Pressure.1"]
+new = "Few trees near the start."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Pressure.2"]
+new = "Few pines (resin) near the start."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Pressure.3"]
+new = "Little irrigated farmland near the start."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.ThousandIslands.1"]
+new = "Few trees near the start."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.ThousandIslands.2"]
+new = "Little irrigated farmland near the start."
+status = "normal"
+
+["DeepFrontier.MapSetup.Unmet.Waterfalls.1"]
+new = "No natural shore-fishing banks: dam a river deeper before the Gatherer Flag can catch the first fish."
+status = "normal"
+
+["Recipe.Lubricant.DisplayName"]
+new = "Lubricant"
+status = "abandoned"
+
+["Recipe.Vitrification.DisplayName"]
+new = "Sludge vitrification"
+status = "abandoned"
+
+["Recipe.SludgeMineralRecovery.DisplayName"]
+new = "Sludge mineral recovery"
+status = "abandoned"
+
+["DeepFrontier.Meltdown.Notification.Scram"]
+new = "Reactor emergency shutdown (SCRAM) at {0}% core heat: no power until it cools to {1}%."
+status = "abandoned"
+
+["DeepFrontier.Meltdown.Notification.Restarted"]
+new = "Reactor restarted automatically at {0}% core heat."
+status = "abandoned"
+
+["DeepFrontier.Meltdown.Cause.DecayHeat"]
+new = "decay heat without coolant"
+status = "abandoned"
+
+["DeepFrontier.Meltdown.Panel.EtaScram"]
+new = "Emergency shutdown after about {0} more hours of running."
+status = "abandoned"
+
+["DeepFrontier.Meltdown.Panel.EtaPeak"]
+new = "Decay heat fades before a meltdown: peak about {0}% in {1} hours."
+status = "abandoned"
+
+["DeepFrontier.Meltdown.Panel.State.ScramManual"]
+new = "Shut down by the operators (SCRAM)."
+status = "abandoned"
+
+["DeepFrontier.Meltdown.Panel.DecayHeat"]
+new = "Decay heat for {0} more hours: until then the core needs coolant even when stopped."
+status = "abandoned"
+
+["DeepFrontier.Meltdown.Panel.NoDecayHeat"]
+new = "No decay heat: safe without coolant while stopped."
+status = "abandoned"
+
+["DeepFrontier.Meltdown.Panel.AutoRestart"]
+new = "Restart automatically after an emergency shutdown (once cool, maintained and with coolant)"
+status = "abandoned"
+
+["Recipe.SpecialistTraining.Metallurgy.DisplayName"]
+new = "Metallurgist course"
+status = "abandoned"
+
+["Recipe.SpecialistTraining.Nuclear.DisplayName"]
+new = "Reactor operator course"
+status = "abandoned"
+
+["Recipe.SpecialistTraining.Flight.DisplayName"]
+new = "Flight engineer course"
+status = "abandoned"
+
+["DeepFrontier.Workforce.School.NextGraduate"]
+new = "Next graduate: {0} ({1} h of training)."
+status = "abandoned"
+
+["DeepFrontier.Workforce.School.NoTrainee"]
+new = "No trainee enrolled. Specialists working here teach but never retrain."
+status = "abandoned"
+
+["DeepFrontier.Workforce.School.Pending"]
+new = "Finished courses waiting for a trainee: {0}."
+status = "abandoned"
+
+["DeepFrontier.Workforce.Status.NoTrainee"]
+new = "A course finished but no trainee is enrolled. Assign beavers who are not specialists."
+status = "abandoned"
+
+["DeepFrontier.Workforce.Status.NoTrainee.Short"]
+new = "No trainee"
+status = "abandoned"

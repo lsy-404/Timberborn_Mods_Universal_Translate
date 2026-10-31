@@ -52,23 +52,6 @@ csCZ = "Přirozené vodní toky"
 viVN = "Đường thủy tự nhiên"
 trTR = "Doğal su yolları"
 
-["acalc79.HardcoreSettings.NaturalWaterways.Prompt"]
-raw = "Restrict this map to natural waterways? Water will only be able to leave the map at the low points of its edges; everywhere else is sealed permanently. This changes the map itself and cannot be undone."
-status = "normal"
-enUS = "Restrict this map to natural waterways? Water will only be able to leave the map at the low points along its edges; everywhere else will be permanently sealed. This changes the map itself and cannot be undone."
-zhCN = "将此地图限制为天然水道？水只能从地图边缘的低处流出；其他地方将永久封闭。此操作会更改地图本身，且无法撤销。"
-zhTW = "要將此地圖限制為天然水道嗎？水只能從地圖邊緣的低處流出；其他地方都會永久封閉。這會改變地圖本身，且無法復原。"
-ruRU = "Ограничить водные потоки на этой карте естественными руслами? Вода сможет покидать карту только в низинах по её краям; все остальные участки будут навсегда герметично закрыты. Это изменит саму карту, и отменить это изменение нельзя."
-jaJP = "このマップの水路を自然のものに限定しますか？水がマップ外に流れ出せるのは、マップの端の低い場所だけになります。それ以外の場所はすべて永久に封鎖されます。この変更はマップ自体に適用され、元に戻すことはできません。"
-frFR = "Restreindre cette carte aux cours d’eau naturels ? L’eau ne pourra quitter la carte qu’aux points les plus bas de ses bords ; partout ailleurs, les bords seront scellés définitivement. Cela modifie la carte elle-même et ne peut pas être annulé."
-deDE = "Diese Karte auf natürliche Wasserläufe beschränken? Wasser kann die Karte dann nur an den tief gelegenen Stellen ihrer Ränder verlassen; alle anderen Stellen werden dauerhaft abgedichtet. Dies verändert die Karte selbst und kann nicht rückgängig gemacht werden."
-plPL = "Ograniczyć tę mapę do naturalnych cieków wodnych? Woda będzie mogła opuszczać mapę tylko w najniższych punktach jej krawędzi; wszystkie pozostałe miejsca zostaną trwale uszczelnione. Ta zmiana dotyczy samej mapy i nie można jej cofnąć."
-ptBR = "Restringir este mapa a cursos d’água naturais? A água só poderá sair do mapa pelos pontos mais baixos de suas bordas; todos os outros locais ficarão permanentemente bloqueados. Isso altera o próprio mapa e não pode ser desfeito."
-koKR = "이 지도의 물길을 자연 수로로 제한할까요? 물은 지도 가장자리의 낮은 지점으로만 빠져나갈 수 있으며, 그 밖의 모든 곳은 영구적으로 막힙니다. 이 변경은 지도 자체에 적용되며 되돌릴 수 없습니다."
-csCZ = "Omezit tuto mapu na přirozené vodní toky? Voda bude moci opouštět mapu pouze v nejnižších bodech jejích okrajů; všude jinde budou okraje trvale uzavřené. Tím se změní samotná mapa a změnu nebude možné vrátit zpět."
-viVN = "Giới hạn bản đồ này vào các dòng chảy tự nhiên? Nước chỉ có thể thoát khỏi bản đồ ở những điểm thấp trên rìa bản đồ; mọi nơi khác sẽ bị bịt kín vĩnh viễn. Thay đổi này tác động trực tiếp đến bản đồ và không thể hoàn tác."
-trTR = "Bu haritayı doğal su yollarıyla mı sınırlandıralım? Su, haritadan yalnızca kenarlarının alçak noktalarından çıkabilecek; diğer tüm noktalar kalıcı olarak kapatılacak. Bu, haritanın kendisini değiştirir ve geri alınamaz."
-
 ["acalc79.HardcoreSettings.TerrainBlockCost"]
 raw = "Terrain block cost"
 status = "normal"
@@ -324,6 +307,14 @@ csCZ = "%"
 viVN = "%"
 trTR = "%"
 
+["acalc79.HardcoreSettings.BotAssemblerInjuryChance"]
+new = "Bot Assembler base injury chance"
+status = "normal"
+
+["acalc79.HardcoreSettings.BotAssemblerInjuryChance.Unit"]
+new = "%"
+status = "normal"
+
 ["acalc79.HardcoreSettings.Recipe.BotRepairs.DisplayName"]
 raw = "Repairs"
 status = "normal"
@@ -442,3 +433,44 @@ koKR = "수압이 건물을 파괴하고 있습니다"
 csCZ = "Tlak vody ničí budovy"
 viVN = "Áp lực nước đang phá hủy các công trình зданий"
 trTR = "Su basıncı binaları yıkıyor."
+
+["acalc79.HardcoreSettings.Midgame.Button"]
+new = "Difficulty"
+status = "normal"
+
+["acalc79.HardcoreSettings.Midgame.Title"]
+new = "This settlement's difficulty"
+status = "normal"
+
+["acalc79.HardcoreSettings.Midgame.Note"]
+new = "Changes take effect when you press Confirm. Weather lengths apply from the next cycle."
+status = "normal"
+
+["acalc79.HardcoreSettings.Midgame.Reload"]
+new = "Some of these changes take effect only in a freshly loaded game: pressing Confirm saves the settlement as an autosave and loads it again."
+status = "normal"
+
+["acalc79.HardcoreSettings.Midgame.NeedsUpdate"]
+new = "(needs a mod update)"
+status = "normal"
+
+["acalc79.HardcoreSettings.Midgame.Invalid"]
+new = "A minimum is above its maximum, so nothing was changed."
+status = "normal"
+
+["acalc79.HardcoreSettings.NaturalWaterways.Prompt"]
+raw = "Restrict this map to natural waterways? Water will only be able to leave the map at the low points of its edges; everywhere else is sealed permanently. This changes the map itself and cannot be undone."
+status = "abandoned"
+enUS = "Restrict this map to natural waterways? Water will only be able to leave the map at the low points along its edges; everywhere else will be permanently sealed. This changes the map itself and cannot be undone."
+zhCN = "将此地图限制为天然水道？水只能从地图边缘的低处流出；其他地方将永久封闭。此操作会更改地图本身，且无法撤销。"
+zhTW = "要將此地圖限制為天然水道嗎？水只能從地圖邊緣的低處流出；其他地方都會永久封閉。這會改變地圖本身，且無法復原。"
+ruRU = "Ограничить водные потоки на этой карте естественными руслами? Вода сможет покидать карту только в низинах по её краям; все остальные участки будут навсегда герметично закрыты. Это изменит саму карту, и отменить это изменение нельзя."
+jaJP = "このマップの水路を自然のものに限定しますか？水がマップ外に流れ出せるのは、マップの端の低い場所だけになります。それ以外の場所はすべて永久に封鎖されます。この変更はマップ自体に適用され、元に戻すことはできません。"
+frFR = "Restreindre cette carte aux cours d’eau naturels ? L’eau ne pourra quitter la carte qu’aux points les plus bas de ses bords ; partout ailleurs, les bords seront scellés définitivement. Cela modifie la carte elle-même et ne peut pas être annulé."
+deDE = "Diese Karte auf natürliche Wasserläufe beschränken? Wasser kann die Karte dann nur an den tief gelegenen Stellen ihrer Ränder verlassen; alle anderen Stellen werden dauerhaft abgedichtet. Dies verändert die Karte selbst und kann nicht rückgängig gemacht werden."
+plPL = "Ograniczyć tę mapę do naturalnych cieków wodnych? Woda będzie mogła opuszczać mapę tylko w najniższych punktach jej krawędzi; wszystkie pozostałe miejsca zostaną trwale uszczelnione. Ta zmiana dotyczy samej mapy i nie można jej cofnąć."
+ptBR = "Restringir este mapa a cursos d’água naturais? A água só poderá sair do mapa pelos pontos mais baixos de suas bordas; todos os outros locais ficarão permanentemente bloqueados. Isso altera o próprio mapa e não pode ser desfeito."
+koKR = "이 지도의 물길을 자연 수로로 제한할까요? 물은 지도 가장자리의 낮은 지점으로만 빠져나갈 수 있으며, 그 밖의 모든 곳은 영구적으로 막힙니다. 이 변경은 지도 자체에 적용되며 되돌릴 수 없습니다."
+csCZ = "Omezit tuto mapu na přirozené vodní toky? Voda bude moci opouštět mapu pouze v nejnižších bodech jejích okrajů; všude jinde budou okraje trvale uzavřené. Tím se změní samotná mapa a změnu nebude možné vrátit zpět."
+viVN = "Giới hạn bản đồ này vào các dòng chảy tự nhiên? Nước chỉ có thể thoát khỏi bản đồ ở những điểm thấp trên rìa bản đồ; mọi nơi khác sẽ bị bịt kín vĩnh viễn. Thay đổi này tác động trực tiếp đến bản đồ và không thể hoàn tác."
+trTR = "Bu haritayı doğal su yollarıyla mı sınırlandıralım? Su, haritadan yalnızca kenarlarının alçak noktalarından çıkabilecek; diğer tüm noktalar kalıcı olarak kapatılacak. Bu, haritanın kendisini değiştirir ve geri alınamaz."

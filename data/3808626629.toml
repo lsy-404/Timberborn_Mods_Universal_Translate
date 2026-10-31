@@ -37,6 +37,7 @@ trTR = "İlk döngüler:"
 
 ["AlternativeWeatherSystem.Mode.Easy.Description"]
 raw = "Long fair spells and short hazards. Badtides start after five cycles and stay rare."
+new = "Long temperate spells and short hazards. Badtides start after five cycles and stay rare."
 status = "normal"
 enUS = "Long wet seasons and short droughts. Badtides start after five cycles and remain rare."
 zhCN = "漫长的晴好时段，短暂的灾害。恶水潮在五个周期后开始出现，且很少发生。"
@@ -71,6 +72,7 @@ trTR = "Yerleşim büyüdükçe döngüler uzar ve su kaynakları döngünün so
 
 ["AlternativeWeatherSystem.Mode.Hard.Description"]
 raw = "Short fair spells, long and wildly variable hazards, and water that grows steadily fouler."
+new = "Short temperate spells, long and wildly variable hazards, and water that grows steadily fouler."
 status = "normal"
 enUS = "Short fair spells, long and wildly variable hazards, and water that grows steadily fouler."
 zhCN = "晴好天气较短，危险期漫长且变化无常，水质也会持续变得更加污浊。"
