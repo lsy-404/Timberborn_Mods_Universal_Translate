@@ -49,7 +49,7 @@ cost_warning_threshold = 5.0
 
 [llm]
 # LLM model to use for translation
-model = "claude-haiku-5-5"
+model = "pearl"
 
 # API endpoint (OpenAI-compatible)
 api_url = "https://llm.leisiyu.dev/v1/chat/completions"

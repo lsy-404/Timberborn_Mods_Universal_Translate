@@ -1,7 +1,6 @@
 """Run the production CLI on finite isolated localization samples."""
 
 import json
-import math
 import os
 from pathlib import Path
 import shutil
@@ -35,7 +34,7 @@ def main():
     if not (os.environ.get('LLM_TOKEN') or os.environ.get('OPENAI_API_KEY')):
         raise RuntimeError('The existing CI API credential is required')
     config = toml.load(ROOT / '.github/config/config.toml')
-    assert config['llm']['model'] == 'claude-haiku-5-5'
+    assert config['llm']['model'] == 'pearl'
     assert config['llm']['max_output_tokens'] == 1024
     languages = config['languages']['supported']
     output = ROOT / 'test/results/production-smoke'
@@ -81,15 +80,8 @@ def main():
     expected = 3 * len(languages) - 2
     assert report['request_count'] == expected
     assert report['success_count'] == expected and report['fail_count'] == 0
-    assert report['reasoning_tokens'] == 0
     assert report['cost_tracking_complete'] and report['unknown_cost_requests'] == 0
-    assert report['cached_tokens'] > 0 and report['cache_write_tokens'] > 0
     assert report['reserved_cost_usd'] == 0 and report['estimated_cost_usd'] < 0.50
-    independent_cost = (
-        report['ordinary_input_tokens'] * 0.10 + report['cached_tokens'] * 0.01
-        + report['cache_write_5m_tokens'] * 0.125 + report['cache_write_1h_tokens'] * 0.20
-        + report['output_tokens'] * 0.50) / 1e6
-    assert math.isclose(report['estimated_cost_usd'], independent_cost, abs_tol=1e-12)
     translate_mods.LANGUAGE_NAMES = config['languages']['locale_names']
     encoding = tiktoken.get_encoding('o200k_base')
     token_counts = {

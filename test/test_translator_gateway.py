@@ -17,7 +17,7 @@ class GatewayTranslationTests(unittest.TestCase):
     def test_config_bounds_gateway_model_rate_and_concurrency(self):
         with (ROOT / ".github" / "config" / "config.toml").open("rb") as stream:
             config = tomllib.load(stream)
-        self.assertEqual(config["llm"]["model"], "claude-haiku-5-5")
+        self.assertEqual(config["llm"]["model"], "pearl")
         self.assertEqual(config["llm"]["api_url"], "https://llm.leisiyu.dev/v1/chat/completions")
         self.assertEqual(config["llm"]["max_output_tokens"], 1024)
         self.assertEqual(config["rate_limiter"]["max_requests_per_minute"], 600)
@@ -36,13 +36,13 @@ class GatewayTranslationTests(unittest.TestCase):
                 "usage": {"prompt_tokens": 1200, "completion_tokens": 50, "total_tokens": 1250},
             },
         )
-        translator = TranslatorLLM("test-token", model="claude-haiku-5-5", rate_limit="")
+        translator = TranslatorLLM("test-token", model="pearl", rate_limit="")
         result = translator.translate("source", "frFR", "system", "user")
         self.assertEqual(result, "translated")
         args, kwargs = post.call_args
         self.assertEqual(args[0], "https://llm.leisiyu.dev/v1/chat/completions")
         payload = kwargs["json"]
-        self.assertEqual(payload["model"], "claude-haiku-5-5")
+        self.assertEqual(payload["model"], "pearl")
         self.assertEqual(payload["max_tokens"], 1024)
         self.assertAlmostEqual(translator.total_cost, 0.000145)
 
@@ -55,7 +55,7 @@ class GatewayTranslationTests(unittest.TestCase):
                 "usage": {"prompt_tokens": 100_000, "completion_tokens": 0, "total_tokens": 100_000},
             },
         )
-        translator = TranslatorLLM("test-token", model="claude-haiku-5-5", rate_limit="")
+        translator = TranslatorLLM("test-token", model="pearl", rate_limit="")
         translator.translate("source", "frFR", "system", "user")
         self.assertAlmostEqual(translator.total_cost, 0.01)
 
@@ -68,7 +68,7 @@ class GatewayTranslationTests(unittest.TestCase):
                 "usage": {"prompt_tokens": 100_001, "completion_tokens": 1_000, "total_tokens": 101_001},
             },
         )
-        translator = TranslatorLLM("test-token", model="claude-haiku-5-5", rate_limit="")
+        translator = TranslatorLLM("test-token", model="pearl", rate_limit="")
         translator.translate("source", "frFR", "system", "user")
         self.assertAlmostEqual(translator.total_cost, 0.0525005)
 
@@ -81,7 +81,7 @@ class GatewayTranslationTests(unittest.TestCase):
             json=lambda: {"choices": [{"message": {"content": "translated"}}], "usage": {"prompt_tokens": 1, "completion_tokens": 1, "total_tokens": 2}},
         )
         post.side_effect = [throttled, accepted]
-        translator = TranslatorLLM("test-token", model="claude-haiku-5-5", rate_limit="")
+        translator = TranslatorLLM("test-token", model="pearl", rate_limit="")
         self.assertEqual(translator.translate("source", "frFR", "system", "user"), "translated")
         self.assertEqual(post.call_count, 2)
         self.assertEqual(sleep.call_args_list, [call(30)])

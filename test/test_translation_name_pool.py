@@ -93,7 +93,7 @@ class NamePoolTests(unittest.TestCase):
         self.assertTrue(all(len(source) <= 20 for source in sources))
         for call in self.post.call_args_list:
             data = call.kwargs['json']
-            self.assertEqual(data['model'], 'claude-haiku-5-5')
+            self.assertEqual(data['model'], 'pearl')
             self.assertEqual(data['max_tokens'], 1024)
             context = json.loads(data['messages'][1]['content'])['context']
             self.assertEqual(context['mod'], 'Synthetic Names')

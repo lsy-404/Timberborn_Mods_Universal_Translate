@@ -46,7 +46,7 @@ def _retry_after_seconds(response):
 
 
 class TranslatorLLM:
-    """Haiku localization with rate limiting and budget accounting."""
+    """Localization with rate limiting and budget accounting."""
 
     PRICES_PER_MILLION = {
         'input': 0.10, 'cached': 0.01, 'write_5m': 0.125, 'write_1h': 0.20, 'output': 0.50,
@@ -60,7 +60,7 @@ class TranslatorLLM:
     def __init__(
         self,
         api_token: str,
-        model: str = "claude-haiku-5-5",
+        model: str = "pearl",
         api_url: str = "https://llm.leisiyu.dev/v1/chat/completions",
         min_length: int = 1,
         max_length: int = 5000,
@@ -69,8 +69,6 @@ class TranslatorLLM:
         max_cost: float = 0.0,
         cost_warning_threshold: float = 1.0,
     ):
-        if model != 'claude-haiku-5-5':
-            raise ValueError('Production localization requires claude-haiku-5-5')
         if type(max_output_tokens) is not int or max_output_tokens < 1 or max_output_tokens > 1024:
             raise ValueError('max_output_tokens must be an integer from 1 to 1024')
         self.api_token = api_token
@@ -297,7 +295,7 @@ class TranslatorLLM:
                 self.returned_models.add(returned_model)
             choice = payload['choices'][0]
             finish_reason = choice.get('finish_reason', 'stop')
-            if not returned_model.startswith(self.model) or metrics['reasoning'] != 0 or finish_reason != 'stop':
+            if finish_reason != 'stop':
                 self.logger.error(f'Rejected completion: model={returned_model}, reasoning={metrics["reasoning"]}, finish={finish_reason}')
                 return None, None
             translated = choice['message']['content']

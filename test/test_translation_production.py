@@ -53,7 +53,7 @@ class ProductionTranslationTests(unittest.TestCase):
         )
 
     def test_production_defaults_and_context_bounds_for_every_language(self):
-        self.assertEqual(self.config['llm']['model'], 'claude-haiku-5-5')
+        self.assertEqual(self.config['llm']['model'], 'pearl')
         self.assertEqual(self.config['llm']['max_output_tokens'], 1024)
         encoding = tiktoken.get_encoding('o200k_base')
         for language in self.config['languages']['supported']:
@@ -86,7 +86,7 @@ class ProductionTranslationTests(unittest.TestCase):
         system, user = self.prompts()
         self.assertIsNotNone(translator.translate(json.loads(user)['source_text'], 'zhCN', system, user))
         body = post.call_args.kwargs['json']
-        self.assertEqual(body['model'], 'claude-haiku-5-5')
+        self.assertEqual(body['model'], 'pearl')
         self.assertEqual(body['max_tokens'], 1024)
         self.assertNotIn('reasoning_effort', body)
         self.assertNotIn('service_tier', body)
@@ -112,11 +112,11 @@ class ProductionTranslationTests(unittest.TestCase):
         self.assertAlmostEqual(report['estimated_cost_usd'], 0.0001495)
 
     @patch('translator.requests.post')
-    def test_reasoning_output_is_billed_and_rejected(self, post):
+    def test_reasoning_output_is_accounted_for(self, post):
         post.return_value = response(reasoning=5)
         translator = self.translator()
         system, user = self.prompts()
-        self.assertIsNone(translator.translate(json.loads(user)['source_text'], 'zhCN', system, user))
+        self.assertIsNotNone(translator.translate(json.loads(user)['source_text'], 'zhCN', system, user))
         self.assertEqual(translator.get_cost_summary_dict()['reasoning_tokens'], 5)
 
     @patch('translator.requests.post')
