@@ -1,0 +1,10 @@
+[_meta]
+name = "Performance Tweaks"
+
+["PerformanceTweaks.On"]
+new = "Performance tweaks ON ({0} of {1} animations slowed down, {2} hidden duplicate models right now)"
+status = "normal"
+
+["PerformanceTweaks.Off"]
+new = "Performance tweaks OFF (game default)"
+status = "normal"

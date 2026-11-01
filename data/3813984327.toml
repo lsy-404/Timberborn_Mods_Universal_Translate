@@ -4787,6 +4787,10 @@ status = "normal"
 new = "Traded goods"
 status = "normal"
 
+["BeaverBuddies.Performance.OtherMods"]
+new = "{0} is on. BeaverBuddies has the same optimizations built in, made for multiplayer, and turned them off so they don't run twice. Before playing with others, turn off {0} in the mod manager, or the game can desync."
+status = "normal"
+
 ["BeaverBuddies.Trading.Amount"]
 raw = "Amount"
 status = "abandoned"

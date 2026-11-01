@@ -1,0 +1,22 @@
+[_meta]
+name = "Chess Planter"
+
+["ChessPlanter.Tool.Title"]
+new = "Mixed planting"
+status = "normal"
+
+["ChessPlanter.Tool.Description"]
+new = "Drag an area to plant all picked crops in diagonal stripes, each with the same share. Fields that are already marked stay as they are."
+status = "normal"
+
+["ChessPlanter.Picker.Hint"]
+new = "Click a crop to pick it or leave it out:"
+status = "normal"
+
+["ChessPlanter.Picker.None"]
+new = "No crop picked."
+status = "normal"
+
+["ChessPlanter.Picker.Locked"]
+new = "Still locked: {0}"
+status = "normal"

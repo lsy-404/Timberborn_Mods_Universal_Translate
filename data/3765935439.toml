@@ -598,6 +598,7 @@ trTR = "Her büyük demiryolunun yükü bırakacağı bir yere ihtiyacı vardır
 
 ["Tobbert.ExchangeStation.DisplayName"]
 raw = "District Crossing Station"
+new = "Interdistrict Station"
 status = "normal"
 enUS = "District Crossing Station"
 zhCN = "区划交叉站"
@@ -1377,57 +1378,6 @@ koKR = "여기서는 대기역이나 기차 차고에 도달할 수 없습니다
 csCZ = "Odtud není dostupná žádná čekací stanice ani vlakové depo — položte spojovací kolej, nebo smyčku pro otočení, pokud je cesta zpět za ní."
 viVN = "Không thể đến Ga chờ hoặc Bãi tàu từ đây — hãy đặt đường ray kết nối, hoặc một vòng quay đầu nếu đường quay về nằm phía sau."
 trTR = "Buradan hiçbir Bekleme İstasyonuna veya Tren Garına ulaşılmıyor — bağlantı rayı döşeyin ya da dönüş yolu geride kalıyorsa bir dönüş döngüsü yapın."
-
-["Tobbert.TrackLineTool.Prompt"]
-raw = "Drag to lay a line of one-way track. Turn once to add a junction. Press R or Shift+R to cycle the junction piece (corner / T / crossing)."
-status = "normal"
-enUS = "Drag to lay a line of one-way track. Turn once to add a junction. Press R or Shift+R to cycle the junction piece (corner / T / crossing)."
-zhCN = "拖动以铺设单向轨道。旋转一次以添加交叉口。按 R 或 Shift+R 来循环交叉口组件（拐角 / T形 / 交叉口）。"
-zhTW = "拖曳以鋪設單行軌道。轉動一次以添加交叉口。按 R 或 Shift+R 來循環交叉口件（轉角 / T 型 / 十字路口）。"
-ruRU = "Перетащите, чтобы проложить линию однопутного пути. Поверните один раз, чтобы добавить соединение. Нажмите R или Shift+R, чтобы переключать элементы соединения (угол / Т / пересечение)."
-jaJP = "「一方通行のレールを敷くにはドラッグしてください。交差点を追加するには一度回転させます。交差点のパーツ（コーナー / T / 交差点）をサイクルするにはRまたはShift+Rを押してください。」"
-frFR = "Faites glisser pour poser une voie de chemin de fer à sens unique. Tournez une fois pour ajouter une jonction. Appuyez sur R ou Shift+R pour faire défiler le morceau de jonction (coin / T / croisement)."
-deDE = "Ziehe, um eine Strecke für eine Richtung zu verlegen. Drehe einmal, um eine Kreuzung hinzuzufügen. Drücke R oder Shift+R, um das Kreuzungsteil (Ecke / T / Übergang) zu wechseln."
-plPL = "Przeciągnij, aby położyć linię toru jednokierunkowego. Ob Turnuj raz, aby dodać zjazd. Naciśnij R lub Shift+R, aby zmieniać element zjazdu (zakręt / T / skrzyżowanie)."
-ptBR = "Arraste para colocar uma linha de trilho unidirecional. Vire uma vez para adicionar uma junção. Pressione R ou Shift+R para alternar o segmento da junção (canto / T / cruzamento)."
-koKR = "한 방향 트랙을 놓으려면 드래그하세요. 교차로를 추가하려면 한 번 회전하세요. R 또는 Shift+R을 눌러 교차로 조각(코너 / T / 교차로)을 순환하세요."
-csCZ = "Táhněte pro položení jednosměrné kolejnice. Otočte jednou pro přidání křižovatky. Stiskněte R nebo Shift+R pro cyklování kusu křižovatky (roh / T / křížení)."
-viVN = "Kéo để đặt một đoạn đường ray một chiều. Xoay một lần để thêm một điểm giao nhau. Nhấn R hoặc Shift+R để xoay phần giao nhau (góc / T / giao lộ)."
-trTR = "Tek yönlü ray serermek için sürükleyin. Bir kavşak eklemek için bir kez döndürün. Kavşak parçasını (köşe / T / geçiş) döngüye almak için R veya Shift+R tuşlarına basın."
-
-["Tobbert.TrackLineTool.DisplayName"]
-raw = "Track Line Tool"
-status = "normal"
-enUS = "Track Line Tool"
-zhCN = "轨道线工具"
-zhTW = "軌道線工具"
-ruRU = "Инструмент для создания путей"
-jaJP = "トラックラインツール"
-frFR = "Outil de ligne de voie"
-deDE = "Schienenlinienwerkzeug"
-plPL = "Narzędzie Ścieżki"
-ptBR = "Ferramenta de Linha de Trilhos"
-koKR = "트랙 라인 도구"
-csCZ = "Nástroj pro vytváření tras"
-viVN = "Công cụ Đường ray"
-trTR = "Ray Çizgi Aracı"
-
-["Tobbert.TrackLineTool.Description"]
-raw = "Drag a line of one-way track with an automatic junction at the bend."
-status = "normal"
-enUS = "Drag a line of one-way track with an automatic junction at the curve."
-zhCN = "“拖动一条单行轨道，在转弯处自动生成交汇点。”"
-zhTW = "拖動一條單向軌道會在彎道處自動生成交匯處。"
-ruRU = "Перетащите линию однопутного маршрута с автоматическим соединением на повороте."
-jaJP = "「曲がり角に自動接続点がある一方通行のレールを引いてください。」"
-frFR = "Faites glisser une ligne de rail à sens unique avec une jonction automatique au virage."
-deDE = "Ziehen Sie eine Linie aus einseitigen Schienen mit einer automatischen Weiche an der Biegung."
-plPL = "Przeciągnij linię jednokierunkowego toru z automatycznym węzłem na zakręcie."
-ptBR = "Arraste uma linha de trilho unidirecional com uma junção automática na curva."
-koKR = "굽은 부분에 자동 교차로가 있는 단방향 트랙 선을 드래그하세요."
-csCZ = "Naohýbejte jednosměrnou kolej s automatickým křížením na ohybu."
-viVN = "Kéo một đoạn đường ray một chiều với một ngã ba tự động tại khúc cua."
-trTR = "Virajda otomatik bir kavşak ile tek yönlü bir ray hattı çizin."
 
 ["Tobbert.BatchControl.GoodsStation"]
 raw = "Goods stations"
@@ -3230,3 +3180,118 @@ koKR = "대기 중"
 csCZ = "Čeká se"
 viVN = "Đang chờ"
 trTR = "Bekliyor"
+
+["Tobbert.TrackHill1x3.DisplayName"]
+new = "Long Slope Track 1x3"
+status = "normal"
+
+["Tobbert.TrackHill1x3.Description"]
+new = "A longer, gentler slope: trains climb one level over three tiles."
+status = "normal"
+
+["Tobbert.TrackHill1x3.FlavorDescription"]
+new = "Slow and steady wins the climb."
+status = "normal"
+
+["Tobbert.TrackHillCorner2x2.DisplayName"]
+new = "Curved Slope Track 2x2"
+status = "normal"
+
+["Tobbert.TrackHillCorner2x2.Description"]
+new = "A slope that turns as it climbs."
+status = "normal"
+
+["Tobbert.TrackHillCorner2x2.FlavorDescription"]
+new = "Up and around."
+status = "normal"
+
+["Tobbert.TrackHillCorner3x3.DisplayName"]
+new = "Wide Curved Slope Track 3x3"
+status = "normal"
+
+["Tobbert.TrackHillCorner3x3.Description"]
+new = "A wide slope that turns as it climbs. Its gentle curve lets trains keep a higher speed."
+status = "normal"
+
+["Tobbert.TrackHillCorner3x3.FlavorDescription"]
+new = "The scenic route up."
+status = "normal"
+
+["Tobbert.TrackSCurve2x3.DisplayName"]
+new = "S-Curve Train Track 2x3"
+status = "normal"
+
+["Tobbert.TrackSCurve2x3.Description"]
+new = "Shifts a track sideways by one tile, without a switch."
+status = "normal"
+
+["Tobbert.TrackSCurve2x3.FlavorDescription"]
+new = "A little to the left, please."
+status = "normal"
+
+["ChooChoo.Superposition.OverSignal"]
+new = "A track cannot be laid over a signal."
+status = "normal"
+
+["ChooChoo.Superposition.DuplicateArc"]
+new = "This track already exists here."
+status = "normal"
+
+["ChooChoo.Superposition.NoSignalWhenStacked"]
+new = "Another track shares this tile: a signal is not possible here. All tracks on a tile form a single section, and a signal must separate two."
+status = "normal"
+
+["ChooChoo.Superposition.ConversionNotice"]
+new = "<b>Welcome to Choo!Choo! 2.0!</b>\n\n\"Give me a straight and a curve, and I shall connect the world.\" —Ol' Kazko\n\nTwo tracks can now share the same tile. Lay a curve on a straight, and you have built a switch. No more rigid crossings: it's up to you to invent your own junctions.\n\nWhen your save loaded, your old switches were rebuilt with these new pieces. Your signals stayed put and work just as before. The trains didn't notice a thing."
+status = "normal"
+
+["Tobbert.TrackLineTool.Prompt"]
+raw = "Drag to lay a line of one-way track. Turn once to add a junction. Press R or Shift+R to cycle the junction piece (corner / T / crossing)."
+status = "abandoned"
+enUS = "Drag to lay a line of one-way track. Turn once to add a junction. Press R or Shift+R to cycle the junction piece (corner / T / crossing)."
+zhCN = "拖动以铺设单向轨道。旋转一次以添加交叉口。按 R 或 Shift+R 来循环交叉口组件（拐角 / T形 / 交叉口）。"
+zhTW = "拖曳以鋪設單行軌道。轉動一次以添加交叉口。按 R 或 Shift+R 來循環交叉口件（轉角 / T 型 / 十字路口）。"
+ruRU = "Перетащите, чтобы проложить линию однопутного пути. Поверните один раз, чтобы добавить соединение. Нажмите R или Shift+R, чтобы переключать элементы соединения (угол / Т / пересечение)."
+jaJP = "「一方通行のレールを敷くにはドラッグしてください。交差点を追加するには一度回転させます。交差点のパーツ（コーナー / T / 交差点）をサイクルするにはRまたはShift+Rを押してください。」"
+frFR = "Faites glisser pour poser une voie de chemin de fer à sens unique. Tournez une fois pour ajouter une jonction. Appuyez sur R ou Shift+R pour faire défiler le morceau de jonction (coin / T / croisement)."
+deDE = "Ziehe, um eine Strecke für eine Richtung zu verlegen. Drehe einmal, um eine Kreuzung hinzuzufügen. Drücke R oder Shift+R, um das Kreuzungsteil (Ecke / T / Übergang) zu wechseln."
+plPL = "Przeciągnij, aby położyć linię toru jednokierunkowego. Ob Turnuj raz, aby dodać zjazd. Naciśnij R lub Shift+R, aby zmieniać element zjazdu (zakręt / T / skrzyżowanie)."
+ptBR = "Arraste para colocar uma linha de trilho unidirecional. Vire uma vez para adicionar uma junção. Pressione R ou Shift+R para alternar o segmento da junção (canto / T / cruzamento)."
+koKR = "한 방향 트랙을 놓으려면 드래그하세요. 교차로를 추가하려면 한 번 회전하세요. R 또는 Shift+R을 눌러 교차로 조각(코너 / T / 교차로)을 순환하세요."
+csCZ = "Táhněte pro položení jednosměrné kolejnice. Otočte jednou pro přidání křižovatky. Stiskněte R nebo Shift+R pro cyklování kusu křižovatky (roh / T / křížení)."
+viVN = "Kéo để đặt một đoạn đường ray một chiều. Xoay một lần để thêm một điểm giao nhau. Nhấn R hoặc Shift+R để xoay phần giao nhau (góc / T / giao lộ)."
+trTR = "Tek yönlü ray serermek için sürükleyin. Bir kavşak eklemek için bir kez döndürün. Kavşak parçasını (köşe / T / geçiş) döngüye almak için R veya Shift+R tuşlarına basın."
+
+["Tobbert.TrackLineTool.DisplayName"]
+raw = "Track Line Tool"
+status = "abandoned"
+enUS = "Track Line Tool"
+zhCN = "轨道线工具"
+zhTW = "軌道線工具"
+ruRU = "Инструмент для создания путей"
+jaJP = "トラックラインツール"
+frFR = "Outil de ligne de voie"
+deDE = "Schienenlinienwerkzeug"
+plPL = "Narzędzie Ścieżki"
+ptBR = "Ferramenta de Linha de Trilhos"
+koKR = "트랙 라인 도구"
+csCZ = "Nástroj pro vytváření tras"
+viVN = "Công cụ Đường ray"
+trTR = "Ray Çizgi Aracı"
+
+["Tobbert.TrackLineTool.Description"]
+raw = "Drag a line of one-way track with an automatic junction at the bend."
+status = "abandoned"
+enUS = "Drag a line of one-way track with an automatic junction at the curve."
+zhCN = "“拖动一条单行轨道，在转弯处自动生成交汇点。”"
+zhTW = "拖動一條單向軌道會在彎道處自動生成交匯處。"
+ruRU = "Перетащите линию однопутного маршрута с автоматическим соединением на повороте."
+jaJP = "「曲がり角に自動接続点がある一方通行のレールを引いてください。」"
+frFR = "Faites glisser une ligne de rail à sens unique avec une jonction automatique au virage."
+deDE = "Ziehen Sie eine Linie aus einseitigen Schienen mit einer automatischen Weiche an der Biegung."
+plPL = "Przeciągnij linię jednokierunkowego toru z automatycznym węzłem na zakręcie."
+ptBR = "Arraste uma linha de trilho unidirecional com uma junção automática na curva."
+koKR = "굽은 부분에 자동 교차로가 있는 단방향 트랙 선을 드래그하세요."
+csCZ = "Naohýbejte jednosměrnou kolej s automatickým křížením na ohybu."
+viVN = "Kéo một đoạn đường ray một chiều với một ngã ba tự động tại khúc cua."
+trTR = "Virajda otomatik bir kavşak ile tek yönlü bir ray hattı çizin."

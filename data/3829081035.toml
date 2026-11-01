@@ -6,7 +6,7 @@ new = "Deep Drill"
 status = "normal"
 
 ["Building.DeepDrill.Description"]
-new = "Extracts one unit of Deep Ore from an authored source stockpile using water and 1000 hp. Wears out 0.1 high-grade steel drill bits per hour at full crew and stops without them. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "Extracts one unit of Deep Ore from an authored source stockpile using water and 1000 hp. Wears out 0.1 metal block drill bits per hour at full crew and stops without them. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.DeepDrill.FlavorDescription"]
@@ -18,7 +18,7 @@ new = "Deep Mine"
 status = "normal"
 
 ["Building.DeepMine.Description"]
-new = "Extracts four Deep Ore every cycle from a marked vein using water and 4000 hp. Wears out 0.1 high-grade steel drill bits and 0.1 concrete shaft lining per hour at full crew and stops without them. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "Extracts four Deep Ore every cycle from a marked vein using water and 4000 hp. Wears out 0.1 steel drill bits and 0.1 concrete shaft lining per hour at full crew and stops without them. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.DeepMine.FlavorDescription"]
@@ -30,7 +30,7 @@ new = "Deep Ore Processor"
 status = "normal"
 
 ["Building.DeepProcessor.Description"]
-new = "Refines deep ore into a dense industrial alloy. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
+new = "Refines deep ore into deep iron, coal, crude oil and uranium ore. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
 status = "normal"
 
 ["Building.DeepProcessor.FlavorDescription"]
@@ -70,19 +70,11 @@ new = "Deep ore"
 status = "normal"
 
 ["Good.DeepAlloy.DisplayName"]
-new = "Deep alloy"
+new = "Deep iron"
 status = "normal"
 
 ["Good.DeepAlloy.PluralDisplayName"]
-new = "Deep alloy"
-status = "normal"
-
-["Good.Compost.DisplayName"]
-new = "Compost"
-status = "normal"
-
-["Good.Compost.PluralDisplayName"]
-new = "Compost"
+new = "Deep iron"
 status = "normal"
 
 ["Good.Coal.DisplayName"]
@@ -149,36 +141,12 @@ status = "normal"
 new = "Canned Fish"
 status = "normal"
 
-["Good.EmergencyRation.DisplayName"]
-new = "Emergency Ration"
-status = "normal"
-
-["Good.EmergencyRation.PluralDisplayName"]
-new = "Emergency Ration"
-status = "normal"
-
-["Good.PackagedFood.DisplayName"]
-new = "Packaged Food"
-status = "normal"
-
-["Good.PackagedFood.PluralDisplayName"]
-new = "Packaged Food"
-status = "normal"
-
 ["Good.Medicine.DisplayName"]
 new = "Medicine"
 status = "normal"
 
 ["Good.Medicine.PluralDisplayName"]
 new = "Medicine"
-status = "normal"
-
-["Good.MedicalFood.DisplayName"]
-new = "Medical Food"
-status = "normal"
-
-["Good.MedicalFood.PluralDisplayName"]
-new = "Medical Food"
 status = "normal"
 
 ["Good.SweetBerryCake.DisplayName"]
@@ -189,20 +157,12 @@ status = "normal"
 new = "Sweet Berry Cake"
 status = "normal"
 
-["Good.Flux.DisplayName"]
-new = "Flux"
-status = "normal"
-
-["Good.Flux.PluralDisplayName"]
-new = "Flux"
-status = "normal"
-
 ["Good.HighGradeSteel.DisplayName"]
-new = "High Grade Steel"
+new = "Steel"
 status = "normal"
 
 ["Good.HighGradeSteel.PluralDisplayName"]
-new = "High Grade Steel"
+new = "Steel"
 status = "normal"
 
 ["Good.Alloy.DisplayName"]
@@ -437,14 +397,6 @@ status = "normal"
 new = "Recovered Minerals"
 status = "normal"
 
-["Good.ArchiveData.DisplayName"]
-new = "Archive Data"
-status = "normal"
-
-["Good.ArchiveData.PluralDisplayName"]
-new = "Archive Data"
-status = "normal"
-
 ["Building.FertilizerWorks.DisplayName"]
 new = "Fertilizer works"
 status = "normal"
@@ -510,7 +462,7 @@ new = "Grocery store"
 status = "normal"
 
 ["Building.GroceryStore.Description"]
-new = "Stocks canned fish, packaged food, algae and corn rations, and fermented cassava and soybeans. Two clerks restock 100 of each food. With 3,900 hp, an attending clerk and at least three stocked foods, nearby beavers gain up to +2 wellbeing within eight cells. Food remains available during power cuts and off-duty hours."
+new = "Stocks canned fish, eggplant, algae and corn rations, and fermented cassava and soybeans. Two clerks restock 100 of each food. With 3,900 hp, an attending clerk and at least three stocked foods, nearby beavers gain up to +2 wellbeing within eight cells. Food remains available during power cuts and off-duty hours."
 status = "normal"
 
 ["Building.GroceryStore.FlavorDescription"]
@@ -666,7 +618,7 @@ new = "Mission control"
 status = "normal"
 
 ["Building.MissionControl.Description"]
-new = "Deep Frontier mission control production building"
+new = "Deep Frontier mission control production building. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.MissionControl.FlavorDescription"]
@@ -690,7 +642,7 @@ new = "Steel mill"
 status = "normal"
 
 ["Building.SteelMill.Description"]
-new = "An electric-arc melt shop and rolling mill. Makes flux from scrap metal and deep ore, high-grade steel from metal blocks, coal and flux, and alloy from high-grade steel and deep alloy. Only 6 trained metallurgists can work here, and the work is extremely dangerous. Requires 3,100 hp. Its two smokestacks pollute the air nearby."
+new = "An electric-arc melt shop and rolling mill. Makes steel from deep iron, coal and limestone flux, and alloy from steel and deep iron. Only 6 trained metallurgists can work here, and the work is extremely dangerous. Requires 3,100 hp. Its two smokestacks pollute the air nearby."
 status = "normal"
 
 ["Building.SteelMill.FlavorDescription"]
@@ -702,7 +654,7 @@ new = "Archive excavation"
 status = "normal"
 
 ["Building.ArchiveExcavation.Description"]
-new = "Opens human ruins anywhere with explosive charges and treated-plank shoring to recover artifacts, then restores their data drives into archive data with grease and metal parts. A Human Record Cache within 7 tiles can be surveyed for extra archive data. 4 workers, dangerous work. Requires 5,200 hp. Its stove chimney pollutes the air nearby. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "Opens human ruins anywhere with explosive charges and treated-plank shoring to recover artifacts and their sealed data drives, which Mission Control reads into guidance computers and telemetry. A Human Record Cache within 7 tiles can be surveyed for 12 extra artifacts. 4 workers, dangerous work. Requires 5,200 hp. Its stove chimney pollutes the air nearby."
 status = "normal"
 
 ["Building.ArchiveExcavation.FlavorDescription"]
@@ -774,7 +726,7 @@ new = "Nuclear Reactor"
 status = "normal"
 
 ["Building.NuclearReactor.Description"]
-new = "A 1,000,000 hp reactor that consumes enriched fuel and pipe-fed coolant water. Produces spent-fuel casks and radioactive water that must be shipped off the map. Its power output falls as its core heats. Without coolant, or with its radioactive waste or radioactive water storage full, a hot core keeps heating, running or stopped, as fast as it cools otherwise, so a reactor short of coolant or waste hauling more than half the time ends in a meltdown. Each cycle seals its spent fuel in a cask of High-Grade Steel and Concrete. Fewer than 4 trained operators working or overdue maintenance (a 24-hour stop every 360 running hours, using 20 High-Grade Steel and 40 Concrete) also heat it while it runs, up to 85%. At 100% it melts down: the reactor is destroyed, nearby beavers are killed or irradiated and the land and water around it stay radioactive for weeks. Pausing is a safe cold shutdown. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
+new = "A 1,000,000 hp reactor that consumes enriched fuel and pipe-fed coolant water. Produces spent-fuel casks and radioactive water that must be shipped off the map. Its power output falls as its core heats. Without coolant, or with its radioactive waste or radioactive water storage full, a hot core keeps heating, running or stopped, as fast as it cools otherwise, so a reactor short of coolant or waste hauling more than half the time ends in a meltdown. Each cycle seals its spent fuel in a cask of Steel and Concrete. Fewer than 4 trained operators working or overdue maintenance (a 24-hour stop every 360 running hours, using 20 Steel and 40 Concrete) also heat it while it runs, up to 85%. At 100% it melts down: the reactor is destroyed, nearby beavers are killed or irradiated and the land and water around it stay radioactive for weeks. Pausing is a safe cold shutdown. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on. Liquids leave through a pipe valve placed against a flat wall, inlet facing the building, with its Outlet switched on."
 status = "normal"
 
 ["Building.NuclearReactor.FlavorDescription"]
@@ -821,10 +773,6 @@ status = "normal"
 new = "Sweet Berry Cake"
 status = "normal"
 
-["Recipe.Compost.DisplayName"]
-new = "Compost"
-status = "normal"
-
 ["Recipe.Fertilizer.DisplayName"]
 new = "Fertilizer"
 status = "normal"
@@ -845,14 +793,6 @@ status = "normal"
 new = "Canned Fish"
 status = "normal"
 
-["Recipe.EmergencyRation.DisplayName"]
-new = "Emergency Ration"
-status = "normal"
-
-["Recipe.PackagedFood.DisplayName"]
-new = "Packaged Food"
-status = "normal"
-
 ["Recipe.GreenhouseEggplant.DisplayName"]
 new = "Greenhouse Eggplant"
 status = "normal"
@@ -869,16 +809,8 @@ status = "normal"
 new = "Medicine"
 status = "normal"
 
-["Recipe.MedicalFood.DisplayName"]
-new = "Medical Food"
-status = "normal"
-
-["Recipe.Flux.DisplayName"]
-new = "Flux"
-status = "normal"
-
 ["Recipe.HighGradeSteel.DisplayName"]
-new = "High Grade Steel"
+new = "Steel"
 status = "normal"
 
 ["Recipe.Alloy.DisplayName"]
@@ -983,10 +915,6 @@ status = "normal"
 
 ["Recipe.RecoveredArtifact.DisplayName"]
 new = "Recovered Artifact"
-status = "normal"
-
-["Recipe.ArchiveData.DisplayName"]
-new = "Archive Data"
 status = "normal"
 
 ["Recipe.CarbonFilterMedia.DisplayName"]
@@ -1710,11 +1638,11 @@ new = "Under the Valley"
 status = "normal"
 
 ["Narrative.Stage.UnderTheValley.Objective"]
-new = "Reach the deep sector: refine 20 deep alloy at a Deep Processor."
+new = "Reach the deep sector: refine 20 deep iron at a Deep Processor."
 status = "normal"
 
 ["Narrative.Stage.UnderTheValley.Hint"]
-new = "The Deep Drill brings up deep ore from a deep ore source; the Deep Processor turns ore and water into deep alloy, coal, crude oil and uranium ore."
+new = "The Deep Drill brings up deep ore from a deep ore source; the Deep Processor turns ore and water into deep iron, coal, crude oil and uranium ore."
 status = "normal"
 
 ["Narrative.Stage.UnderTheValley.Story.1"]
@@ -1726,7 +1654,7 @@ new = "Painted on one pipe, with increasing underlining: NOT FOR DRINKING. Someo
 status = "normal"
 
 ["Narrative.Stage.UnderTheValley.Requirement.1"]
-new = "Deep alloy refined"
+new = "Deep iron refined"
 status = "normal"
 
 ["Narrative.Stage.WhatTheWaterCarries.Title"]
@@ -1734,11 +1662,11 @@ new = "What the Water Carries"
 status = "normal"
 
 ["Narrative.Stage.WhatTheWaterCarries.Objective"]
-new = "Trace what the water carries: purify 80 pure water and make 10 chemical from badwater."
+new = "Trace what the water carries: purify 80 pure water and make 10 chemical."
 status = "normal"
 
 ["Narrative.Stage.WhatTheWaterCarries.Hint"]
-new = "Water Treatment Plants make pure water from water and filter media. Chemical Works make chemical from badwater and extract."
+new = "Water Treatment Plants make pure water from water and filter media. Chemical Works make chemical from crude oil and extract (the Centrifuge distils extract from badwater), or from the treatment plant's brine."
 status = "normal"
 
 ["Narrative.Stage.WhatTheWaterCarries.Story.1"]
@@ -1754,7 +1682,7 @@ new = "Pure water purified"
 status = "normal"
 
 ["Narrative.Stage.WhatTheWaterCarries.Requirement.2"]
-new = "Chemical made from badwater"
+new = "Chemical made"
 status = "normal"
 
 ["Narrative.Stage.OpenTheRuins.Title"]
@@ -1766,7 +1694,7 @@ new = "Open the human ruins: recover 6 artifacts at an Archive Excavation."
 status = "normal"
 
 ["Narrative.Stage.OpenTheRuins.Hint"]
-new = "The Archive Excavation (Science menu, 9,000 science) opens human ruins with explosives and treated planks. Any Human Record Cache on the map can be surveyed by a nearby excavation for extra archive data."
+new = "The Archive Excavation (Science menu, 9,000 science) opens human ruins with explosives and treated planks. Any Human Record Cache on the map can be surveyed by a nearby excavation for extra artifacts."
 status = "normal"
 
 ["Narrative.Stage.OpenTheRuins.Story.1"]
@@ -1786,11 +1714,11 @@ new = "The Archive Wakes"
 status = "normal"
 
 ["Narrative.Stage.TheArchiveWakes.Objective"]
-new = "Wake the archive: restore 10 archive data."
+new = "Wake the archive: recover 20 artifacts in total."
 status = "normal"
 
 ["Narrative.Stage.TheArchiveWakes.Hint"]
-new = "Archive data comes from 2 recovered artifacts, grease and a metal part at the Archive Excavation."
+new = "Every artifact the Archive Excavation brings up carries a sealed human data drive. Human Record Caches surveyed by an excavation count too."
 status = "normal"
 
 ["Narrative.Stage.TheArchiveWakes.Story.1"]
@@ -1806,7 +1734,7 @@ new = "A memo is attached. Re: containment maintenance. Postponed to next quarte
 status = "normal"
 
 ["Narrative.Stage.TheArchiveWakes.Requirement.1"]
-new = "Archive data restored"
+new = "Artifacts recovered"
 status = "normal"
 
 ["Narrative.Stage.TheLastShift.Title"]
@@ -1814,11 +1742,11 @@ new = "The Last Shift"
 status = "normal"
 
 ["Narrative.Stage.TheLastShift.Objective"]
-new = "Read the last shift's records: restore 30 archive data in total and finish a Mission Control."
+new = "Read the last shift's records: recover 40 artifacts in total and finish a Mission Control."
 status = "normal"
 
 ["Narrative.Stage.TheLastShift.Hint"]
-new = "Mission Control unlocks at 30,000 science. Guidance computers and telemetry also need archive data, so keep the drives coming."
+new = "Mission Control unlocks at 30,000 science. It reads the artifacts' drives into guidance computers and telemetry, so keep them coming."
 status = "normal"
 
 ["Narrative.Stage.TheLastShift.Story.1"]
@@ -1834,7 +1762,7 @@ new = "Mission Control has found one more thing: an old orbital frequency. Somet
 status = "normal"
 
 ["Narrative.Stage.TheLastShift.Requirement.1"]
-new = "Archive data restored"
+new = "Artifacts recovered"
 status = "normal"
 
 ["Narrative.Stage.TheLastShift.Requirement.2"]
@@ -2266,7 +2194,7 @@ new = "Human Record Cache"
 status = "normal"
 
 ["Building.HumanRecordCache.Description"]
-new = "A sealed human records box. A working Archive Excavation within four tiles surveys it for archive data and a Frontier Journal record. It can also be demolished like a relic, losing its records."
+new = "A sealed human records box. A working Archive Excavation within 7 tiles surveys it for 12 recovered artifacts and a Frontier Journal record. It can also be demolished like a relic, losing its records."
 status = "normal"
 
 ["Building.HumanRecordCache.FlavorDescription"]
@@ -2385,12 +2313,12 @@ status = "normal"
 new = "Limestone"
 status = "normal"
 
-["Good.Aggregate.DisplayName"]
-new = "Aggregate"
+["Good.Brick.DisplayName"]
+new = "Brick"
 status = "normal"
 
-["Good.Aggregate.PluralDisplayName"]
-new = "Aggregate"
+["Good.Brick.PluralDisplayName"]
+new = "Bricks"
 status = "normal"
 
 ["Good.Cement.DisplayName"]
@@ -2417,8 +2345,12 @@ status = "normal"
 new = "Extract limestone"
 status = "normal"
 
-["Recipe.Aggregate.DisplayName"]
-new = "Crush sandstone"
+["Recipe.BrickEarth.DisplayName"]
+new = "Grind brick earth"
+status = "normal"
+
+["Recipe.FireBricks.DisplayName"]
+new = "Fire bricks"
 status = "normal"
 
 ["Recipe.Cement.DisplayName"]
@@ -2434,7 +2366,7 @@ new = "Sandstone pit"
 status = "normal"
 
 ["Building.SandstonePit.Description"]
-new = "Workers collect finite sandstone deposits within walking range. The next step is a Stone Crusher, then a permanent Sandstone Quarry."
+new = "Workers collect finite sandstone deposits within walking range. Sandstone becomes brick earth at a Stone Crusher and concrete at a Concrete Mixer; later build a permanent Sandstone Quarry."
 status = "normal"
 
 ["Building.SandstonePit.FlavorDescription"]
@@ -2482,7 +2414,7 @@ new = "Stone crusher"
 status = "normal"
 
 ["Building.StoneCrusher.Description"]
-new = "Crushes 3 sandstone into 6 aggregate per hour at 200 hp. Supply the aggregate to a Concrete Mixer."
+new = "Grinds 3 sandstone into 8 dirt (brick earth) per hour at 200 hp. Supply the dirt to a Cement Kiln for bricks and cement."
 status = "normal"
 
 ["Building.StoneCrusher.FlavorDescription"]
@@ -2494,7 +2426,7 @@ new = "Cement kiln"
 status = "normal"
 
 ["Building.CementKiln.Description"]
-new = "Fires 3 limestone and 1 aggregate into 2 cement every 2 hours, consuming log fuel and 300 hp. No separate heat system."
+new = "Moulds and fires 4 dirt and 1 water into 4 bricks, or 3 limestone and 1 dirt into 2 cement, every 2 hours, burning one log per batch and 300 hp. No separate heat system. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.CementKiln.FlavorDescription"]
@@ -2506,7 +2438,7 @@ new = "Concrete mixer"
 status = "normal"
 
 ["Building.ConcreteMixer.Description"]
-new = "Mixes 3 aggregate, 1 cement and 2 water into 4 concrete per hour at 250 hp. Concrete unlocks permanent quarries and advanced construction. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
+new = "Mixes 3 sandstone rubble, 2 cement and 4 water into 8 concrete every 2 hours at 250 hp. Concrete unlocks permanent quarries and advanced construction. Liquids enter through a pipe valve placed against a flat wall, outlet facing the building, with its Inlet switched on."
 status = "normal"
 
 ["Building.ConcreteMixer.FlavorDescription"]
@@ -2525,15 +2457,15 @@ status = "normal"
 new = "Room for the next layer of the colony."
 status = "normal"
 
-["Building.LimestoneMasonryBlock.DisplayName"]
-new = "Limestone masonry block"
+["Building.BrickMasonryBlock.DisplayName"]
+new = "Brick block"
 status = "normal"
 
-["Building.LimestoneMasonryBlock.Description"]
-new = "Dressed limestone retaining block. Holds back water and supports construction on its top."
+["Building.BrickMasonryBlock.Description"]
+new = "Fired brick retaining block laid in cement mortar. Holds back water and supports construction on its top."
 status = "normal"
 
-["Building.LimestoneMasonryBlock.FlavorDescription"]
+["Building.BrickMasonryBlock.FlavorDescription"]
 new = "Room for the next layer of the colony."
 status = "normal"
 
@@ -2822,7 +2754,7 @@ new = "Steel column (1 high)"
 status = "normal"
 
 ["Building.SteelColumnH1.Description"]
-new = "A riveted steel trestle column 1 layer high with a stackable cap. Stack columns, or stand them on the ground or a platform, then rest steel decks on their caps to level a deck over uneven ground."
+new = "A riveted steel trestle column 1 layer high with a stackable cap. Stack columns, or stand them on the ground, a platform or the top of any building roof, then rest steel decks on their caps to level a deck over uneven ground."
 status = "normal"
 
 ["Building.SteelColumnH1.FlavorDescription"]
@@ -2834,7 +2766,7 @@ new = "Steel column (2 high)"
 status = "normal"
 
 ["Building.SteelColumnH2.Description"]
-new = "A riveted steel trestle column 2 layers high with a stackable cap. Stack columns, or stand them on the ground or a platform, then rest steel decks on their caps to level a deck over uneven ground."
+new = "A riveted steel trestle column 2 layers high with a stackable cap. Stack columns, or stand them on the ground, a platform or the top of any building roof, then rest steel decks on their caps to level a deck over uneven ground."
 status = "normal"
 
 ["Building.SteelColumnH2.FlavorDescription"]
@@ -2846,7 +2778,7 @@ new = "Steel column (3 high)"
 status = "normal"
 
 ["Building.SteelColumnH3.Description"]
-new = "A riveted steel trestle column 3 layers high with a stackable cap. Stack columns, or stand them on the ground or a platform, then rest steel decks on their caps to level a deck over uneven ground."
+new = "A riveted steel trestle column 3 layers high with a stackable cap. Stack columns, or stand them on the ground, a platform or the top of any building roof, then rest steel decks on their caps to level a deck over uneven ground."
 status = "normal"
 
 ["Building.SteelColumnH3.FlavorDescription"]
@@ -2858,7 +2790,7 @@ new = "Steel column (4 high)"
 status = "normal"
 
 ["Building.SteelColumnH4.Description"]
-new = "A riveted steel trestle column 4 layers high with a stackable cap. Stack columns, or stand them on the ground or a platform, then rest steel decks on their caps to level a deck over uneven ground."
+new = "A riveted steel trestle column 4 layers high with a stackable cap. Stack columns, or stand them on the ground, a platform or the top of any building roof, then rest steel decks on their caps to level a deck over uneven ground."
 status = "normal"
 
 ["Building.SteelColumnH4.FlavorDescription"]
@@ -2870,7 +2802,7 @@ new = "Steel column (5 high)"
 status = "normal"
 
 ["Building.SteelColumnH5.Description"]
-new = "A riveted steel trestle column 5 layers high with a stackable cap. Stack columns, or stand them on the ground or a platform, then rest steel decks on their caps to level a deck over uneven ground."
+new = "A riveted steel trestle column 5 layers high with a stackable cap. Stack columns, or stand them on the ground, a platform or the top of any building roof, then rest steel decks on their caps to level a deck over uneven ground."
 status = "normal"
 
 ["Building.SteelColumnH5.FlavorDescription"]
@@ -2882,7 +2814,7 @@ new = "Steel column (6 high)"
 status = "normal"
 
 ["Building.SteelColumnH6.Description"]
-new = "A riveted steel trestle column 6 layers high with a stackable cap. Stack columns, or stand them on the ground or a platform, then rest steel decks on their caps to level a deck over uneven ground."
+new = "A riveted steel trestle column 6 layers high with a stackable cap. Stack columns, or stand them on the ground, a platform or the top of any building roof, then rest steel decks on their caps to level a deck over uneven ground."
 status = "normal"
 
 ["Building.SteelColumnH6.FlavorDescription"]
@@ -2911,6 +2843,126 @@ status = "normal"
 
 ["Building.SteelDeck5x5.FlavorDescription"]
 new = "Room for the next layer of the colony."
+status = "normal"
+
+["Building.SteelLegDeck3x3H1.DisplayName"]
+new = "Steel deck 3×3 on legs (1 high)"
+status = "normal"
+
+["Building.SteelLegDeck3x3H1.Description"]
+new = "Places a 3×3 steel deck one layer above the spot you point at, with a stack of steel columns under each corner that reaches down to the first support below it: the ground, a platform or the roof of a building, flat or not, up to 12 layers. Each leg finds its own height, so the deck stays level over slopes, terraces, water and roofs. One click places the deck and its columns; the columns are built first and cost extra."
+status = "normal"
+
+["Building.SteelLegDeck3x3H1.FlavorDescription"]
+new = "Steel legs find their own footing."
+status = "normal"
+
+["DeepFrontier.SteelLegs.Blocked"]
+new = "A leg runs into something it cannot stand on before it reaches a support: a wall, a smoke stack or a moving part of a building. Move the deck a little."
+status = "normal"
+
+["DeepFrontier.RoofHardpoints.SteelOnly"]
+new = "Only steel columns and steel decks can stand on the top of a roof that is not flat. Build paths, platforms and buildings on flat roofs."
+status = "normal"
+
+["DeepFrontier.SteelLegs.TooDeep"]
+new = "A leg finds no support within {0} layers below the deck. Point at higher ground or use a lower deck."
+status = "normal"
+
+["DeepFrontier.SteelLegs.Columns"]
+new = "Legs at this spot: {0} steel columns, {1} layers in all. They cost this on top of the deck:"
+status = "normal"
+
+["DeepFrontier.SteelLegs.NoColumns"]
+new = "The deck rests directly on supports here, so no columns are needed."
+status = "normal"
+
+["DeepFrontier.SteelLegs.PointAt"]
+new = "Point where the deck should stand. Each corner leg reaches down to the first support, up to {0} layers below the deck."
+status = "normal"
+
+["Building.SteelLegDeck3x3H2.DisplayName"]
+new = "Steel deck 3×3 on legs (2 high)"
+status = "normal"
+
+["Building.SteelLegDeck3x3H2.Description"]
+new = "Places a 3×3 steel deck two layers above the spot you point at, with a stack of steel columns under each corner that reaches down to the first support below it: the ground, a platform or the roof of a building, flat or not, up to 12 layers. Each leg finds its own height, so the deck stays level over slopes, terraces, water and roofs. One click places the deck and its columns; the columns are built first and cost extra."
+status = "normal"
+
+["Building.SteelLegDeck3x3H2.FlavorDescription"]
+new = "Steel legs find their own footing."
+status = "normal"
+
+["Building.SteelLegDeck3x3H3.DisplayName"]
+new = "Steel deck 3×3 on legs (3 high)"
+status = "normal"
+
+["Building.SteelLegDeck3x3H3.Description"]
+new = "Places a 3×3 steel deck three layers above the spot you point at, with a stack of steel columns under each corner that reaches down to the first support below it: the ground, a platform or the roof of a building, flat or not, up to 12 layers. Each leg finds its own height, so the deck stays level over slopes, terraces, water and roofs. One click places the deck and its columns; the columns are built first and cost extra."
+status = "normal"
+
+["Building.SteelLegDeck3x3H3.FlavorDescription"]
+new = "Steel legs find their own footing."
+status = "normal"
+
+["Building.SteelLegDeck3x3H4.DisplayName"]
+new = "Steel deck 3×3 on legs (4 high)"
+status = "normal"
+
+["Building.SteelLegDeck3x3H4.Description"]
+new = "Places a 3×3 steel deck four layers above the spot you point at, with a stack of steel columns under each corner that reaches down to the first support below it: the ground, a platform or the roof of a building, flat or not, up to 12 layers. Each leg finds its own height, so the deck stays level over slopes, terraces, water and roofs. One click places the deck and its columns; the columns are built first and cost extra."
+status = "normal"
+
+["Building.SteelLegDeck3x3H4.FlavorDescription"]
+new = "Steel legs find their own footing."
+status = "normal"
+
+["Building.SteelLegDeck5x5H1.DisplayName"]
+new = "Steel deck 5×5 on legs (1 high)"
+status = "normal"
+
+["Building.SteelLegDeck5x5H1.Description"]
+new = "Places a 5×5 steel deck one layer above the spot you point at, with a stack of steel columns under each corner that reaches down to the first support below it: the ground, a platform or the roof of a building, flat or not, up to 12 layers. Each leg finds its own height, so the deck stays level over slopes, terraces, water and roofs. One click places the deck and its columns; the columns are built first and cost extra."
+status = "normal"
+
+["Building.SteelLegDeck5x5H1.FlavorDescription"]
+new = "Steel legs find their own footing."
+status = "normal"
+
+["Building.SteelLegDeck5x5H2.DisplayName"]
+new = "Steel deck 5×5 on legs (2 high)"
+status = "normal"
+
+["Building.SteelLegDeck5x5H2.Description"]
+new = "Places a 5×5 steel deck two layers above the spot you point at, with a stack of steel columns under each corner that reaches down to the first support below it: the ground, a platform or the roof of a building, flat or not, up to 12 layers. Each leg finds its own height, so the deck stays level over slopes, terraces, water and roofs. One click places the deck and its columns; the columns are built first and cost extra."
+status = "normal"
+
+["Building.SteelLegDeck5x5H2.FlavorDescription"]
+new = "Steel legs find their own footing."
+status = "normal"
+
+["Building.SteelLegDeck5x5H3.DisplayName"]
+new = "Steel deck 5×5 on legs (3 high)"
+status = "normal"
+
+["Building.SteelLegDeck5x5H3.Description"]
+new = "Places a 5×5 steel deck three layers above the spot you point at, with a stack of steel columns under each corner that reaches down to the first support below it: the ground, a platform or the roof of a building, flat or not, up to 12 layers. Each leg finds its own height, so the deck stays level over slopes, terraces, water and roofs. One click places the deck and its columns; the columns are built first and cost extra."
+status = "normal"
+
+["Building.SteelLegDeck5x5H3.FlavorDescription"]
+new = "Steel legs find their own footing."
+status = "normal"
+
+["Building.SteelLegDeck5x5H4.DisplayName"]
+new = "Steel deck 5×5 on legs (4 high)"
+status = "normal"
+
+["Building.SteelLegDeck5x5H4.Description"]
+new = "Places a 5×5 steel deck four layers above the spot you point at, with a stack of steel columns under each corner that reaches down to the first support below it: the ground, a platform or the roof of a building, flat or not, up to 12 layers. Each leg finds its own height, so the deck stays level over slopes, terraces, water and roofs. One click places the deck and its columns; the columns are built first and cost extra."
+status = "normal"
+
+["Building.SteelLegDeck5x5H4.FlavorDescription"]
+new = "Steel legs find their own footing."
 status = "normal"
 
 ["Building.ReinforcedHydroTurbine.DisplayName"]
@@ -3146,7 +3198,7 @@ new = "Deep Well"
 status = "normal"
 
 ["Building.DeepWell.Description"]
-new = "Stands with its drill over a water source, water seep or badwater source and drives the source harder while powered: up to 6× its flow, at most 8 per source cell. A seep flows like a normal source. Draws 1,667 hp at 1×, rising with the boost to 10,000 hp at 6×. In a drought it runs only on its full 100,000 hp, at any boost, and drives the source at most 2×; short of full power it stops and the source dries up like any other. Wears out 0.05 high-grade steel drill bits per hour per step. No workers; haulers bring the steel. Waterproof."
+new = "Stands with its drill over a water source, water seep or badwater source and drives the source harder while powered: up to 6× its flow, at most 8 per source cell. A seep flows like a normal source. Draws 1,667 hp at 1×, rising with the boost to 10,000 hp at 6×. In a drought it runs only on its full 100,000 hp, at any boost, and drives the source at most 2×; short of full power it stops and the source dries up like any other. Wears out 0.05 steel drill bits per hour per step. No workers; haulers bring the steel. Waterproof."
 status = "normal"
 
 ["Building.DeepWell.FlavorDescription"]
@@ -3166,7 +3218,7 @@ new = "A building on this water source already controls it."
 status = "normal"
 
 ["DeepFrontier.DeepWell.Status.NoDrillBits"]
-new = "No drill bits: the well needs high-grade steel to drive its source."
+new = "No drill bits: the well needs steel to drive its source."
 status = "normal"
 
 ["DeepFrontier.DeepWell.Status.NoDrillBits.Short"]
@@ -3514,10 +3566,22 @@ new = "Drill bits"
 status = "normal"
 
 ["DeepFrontier.WorkplaceUpkeep.DrillBits.Status"]
-new = "Waiting for drill bits: production has stopped until haulers bring high-grade steel."
+new = "Waiting for drill bits: production has stopped until haulers bring metal blocks."
 status = "normal"
 
 ["DeepFrontier.WorkplaceUpkeep.DrillBits.Status.Short"]
+new = "No drill bits"
+status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.SteelDrillBits.Name"]
+new = "Drill bits"
+status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.SteelDrillBits.Status"]
+new = "Waiting for drill bits: production has stopped until haulers bring steel."
+status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.SteelDrillBits.Status.Short"]
 new = "No drill bits"
 status = "normal"
 
@@ -3614,7 +3678,7 @@ new = "Reactor Bot: 5× load, 4× speed, wears out 10× slower. Charges at a Rea
 status = "normal"
 
 ["DeepFrontier.ReactorBot.Panel.Unplated"]
-new = "No steel plating: wearing out 5× faster until it takes high-grade steel or alloy."
+new = "No steel plating: wearing out 5× faster until it takes steel or alloy."
 status = "normal"
 
 ["DeepFrontier.ReactorBot.Panel.Queue"]
@@ -3852,6 +3916,102 @@ status = "normal"
 ["DeepFrontier.MapSetup.Unmet.Waterfalls.1"]
 new = "No natural shore-fishing banks: dam a river deeper before the Gatherer Flag can catch the first fish."
 status = "normal"
+
+["Good.Compost.DisplayName"]
+new = "Compost"
+status = "abandoned"
+
+["Good.Compost.PluralDisplayName"]
+new = "Compost"
+status = "abandoned"
+
+["Good.EmergencyRation.DisplayName"]
+new = "Emergency Ration"
+status = "abandoned"
+
+["Good.EmergencyRation.PluralDisplayName"]
+new = "Emergency Ration"
+status = "abandoned"
+
+["Good.PackagedFood.DisplayName"]
+new = "Packaged Food"
+status = "abandoned"
+
+["Good.PackagedFood.PluralDisplayName"]
+new = "Packaged Food"
+status = "abandoned"
+
+["Good.MedicalFood.DisplayName"]
+new = "Medical Food"
+status = "abandoned"
+
+["Good.MedicalFood.PluralDisplayName"]
+new = "Medical Food"
+status = "abandoned"
+
+["Good.Flux.DisplayName"]
+new = "Flux"
+status = "abandoned"
+
+["Good.Flux.PluralDisplayName"]
+new = "Flux"
+status = "abandoned"
+
+["Good.ArchiveData.DisplayName"]
+new = "Archive Data"
+status = "abandoned"
+
+["Good.ArchiveData.PluralDisplayName"]
+new = "Archive Data"
+status = "abandoned"
+
+["Recipe.Compost.DisplayName"]
+new = "Compost"
+status = "abandoned"
+
+["Recipe.EmergencyRation.DisplayName"]
+new = "Emergency Ration"
+status = "abandoned"
+
+["Recipe.PackagedFood.DisplayName"]
+new = "Packaged Food"
+status = "abandoned"
+
+["Recipe.MedicalFood.DisplayName"]
+new = "Medical Food"
+status = "abandoned"
+
+["Recipe.Flux.DisplayName"]
+new = "Flux"
+status = "abandoned"
+
+["Recipe.ArchiveData.DisplayName"]
+new = "Archive Data"
+status = "abandoned"
+
+["Good.Aggregate.DisplayName"]
+new = "Aggregate"
+status = "abandoned"
+
+["Good.Aggregate.PluralDisplayName"]
+new = "Aggregate"
+status = "abandoned"
+
+["Recipe.Aggregate.DisplayName"]
+new = "Crush sandstone"
+status = "abandoned"
+
+["Building.LimestoneMasonryBlock.DisplayName"]
+new = "Limestone masonry block"
+status = "abandoned"
+
+["Building.LimestoneMasonryBlock.Description"]
+new = "Dressed limestone retaining block. Holds back water and supports construction on its top."
+status = "abandoned"
+
+["Building.LimestoneMasonryBlock.FlavorDescription"]
+new = "Room for the next layer of the colony."
+status = "abandoned"
 
 ["Recipe.Lubricant.DisplayName"]
 new = "Lubricant"

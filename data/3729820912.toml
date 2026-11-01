@@ -35,6 +35,10 @@ csCZ = "Kvalita dešťových částic"
 viVN = "Chất lượng hạt mưa"
 trTR = "Yağmur parçacıklarının kalitesi"
 
+["RainCloudsSim.Settings.SyncWithGraphicsPreset"]
+new = "Match rain and cloud quality to graphics preset"
+status = "normal"
+
 ["RainCloudsSim.Settings.HideWhenLayerLowered"]
 raw = "Hide clouds when a layer is hidden"
 status = "normal"
@@ -68,6 +72,22 @@ koKR = "물이 숨겨져 있을 때 구름 숨기기"
 csCZ = "Skrýt mraky, když je skrytá voda"
 viVN = "Ẩn các đám mây khi nước bị ẩn"
 trTR = "Su gizlendiğinde bulutları gizle"
+
+["RainCloudsSim.Settings.CloudQuality"]
+new = "Cloud quality"
+status = "normal"
+
+["RainCloudsSim.Settings.CloudQuality.Low"]
+new = "Low (blocks)"
+status = "normal"
+
+["RainCloudsSim.Settings.CloudQuality.Medium"]
+new = "Medium (smooth)"
+status = "normal"
+
+["RainCloudsSim.Settings.CloudQuality.High"]
+new = "High (smoothed and shaded)"
+status = "normal"
 
 ["RainCloudsSim.NewGame.Header"]
 raw = "Rain Clouds"

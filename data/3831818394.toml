@@ -1,0 +1,102 @@
+[_meta]
+name = "Science Queue"
+
+["ScienceQueue.AddToQueue"]
+new = "Add to queue"
+status = "normal"
+
+["ScienceQueue.AddToQueueOrUnlock"]
+new = "Add to queue (Shift: unlock now)"
+status = "normal"
+
+["ScienceQueue.QueuedPosition"]
+new = "Queued #{0}"
+status = "normal"
+
+["ScienceQueue.PanelTitle"]
+new = "Science Queue"
+status = "normal"
+
+["ScienceQueue.PanelPoints"]
+new = "Science points:"
+status = "normal"
+
+["ScienceQueue.Progress"]
+new = "{0} / {1}"
+status = "normal"
+
+["KeyBinding.ScienceQueue.TogglePanel"]
+new = "Toggle science queue"
+status = "normal"
+
+["ScienceQueue.Tooltip.Toggle"]
+new = "Show or hide the science queue"
+status = "normal"
+
+["ScienceQueue.Tooltip.Close"]
+new = "Close the science queue"
+status = "normal"
+
+["ScienceQueue.Tooltip.Open"]
+new = "Open the science queue with"
+status = "normal"
+
+["ScienceQueue.Tooltip.UnlockNow"]
+new = "Unlock now. This spends the science points out of the queue order."
+status = "normal"
+
+["ScienceQueue.ReserveDailyCosts"]
+new = "Keep {0} points for daily project costs"
+status = "normal"
+
+["ScienceQueue.Tooltip.ReserveDailyCosts"]
+new = "Do not spend these points on automatic unlocks. Unlock now can still spend them."
+status = "normal"
+
+["ScienceQueue.QueueRequiredFirst"]
+new = "Queue {0} first. {1} needs it."
+status = "normal"
+
+["ScienceQueue.RemoveWithDependents"]
+new = "Remove {0}? These queued projects need it and will also be removed: {1}"
+status = "normal"
+
+["ScienceQueue.RemoveAll"]
+new = "Remove all"
+status = "normal"
+
+["ScienceQueue.Blocked"]
+new = "Waiting: {0}"
+status = "normal"
+
+["ScienceQueue.RequiredNotQueueable"]
+new = "{1} needs {0}. {0} has levels, so it cannot be queued. Start it in the Scientific Projects window."
+status = "normal"
+
+["ScienceQueue.Paused"]
+new = "Pause automatic unlocks"
+status = "normal"
+
+["ScienceQueue.Tooltip.Paused"]
+new = "The queue does not unlock anything while this is on. Unlock now and Shift+click still work."
+status = "normal"
+
+["ScienceQueue.Unlocked"]
+new = "Science Queue unlocked: {0}"
+status = "normal"
+
+["ScienceQueue.EmptyHint"]
+new = "Click a locked building in the build menu to add it to the queue."
+status = "normal"
+
+["ScienceQueue.EmptyHintProjects"]
+new = "Or click Unlock on a project in the Scientific Projects window."
+status = "normal"
+
+["ScienceQueue.UnlockNow"]
+new = "Unlock now"
+status = "normal"
+
+["ScienceQueue.PausedAddToQueueOrUnlock"]
+new = "Queue paused: add to queue (Shift: unlock now)"
+status = "normal"

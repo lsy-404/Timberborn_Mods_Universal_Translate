@@ -1,0 +1,30 @@
+[_meta]
+name = "Fast Time"
+
+["FastTime.SpeedLabel"]
+new = "Game speed (0 = pause, max 100)"
+status = "normal"
+
+["FastTime.JumpLabel"]
+new = "Jump ahead this many in-game hours (runs at the speed above, then returns to 1x)"
+status = "normal"
+
+["FastTime.JumpingLabel"]
+new = "Jumping: {0} in-game hours left. Enter hours to start a new jump, or Set speed to stop."
+status = "normal"
+
+["FastTime.SkipHazards"]
+new = "Skip droughts and badtides at {0}x or faster"
+status = "normal"
+
+["FastTime.SetSpeed"]
+new = "Set speed"
+status = "normal"
+
+["FastTime.Jump"]
+new = "Jump"
+status = "normal"
+
+["FastTime.JumpFinished"]
+new = "Time jump finished. Back to normal speed."
+status = "normal"
