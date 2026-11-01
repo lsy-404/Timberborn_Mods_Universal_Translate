@@ -88,6 +88,9 @@ class GatewayAccountingTests(unittest.TestCase):
             'completion_tokens_details': {'reasoning_tokens': 2}})
         self.assertEqual((metrics['ordinary'], metrics['reasoning']), (20, 2))
         self.assertIsNone(cost)
+        metrics, _ = TranslatorLLM.usage_metrics({'prompt_tokens': 20, 'completion_tokens': 4,
+            'completion_tokens_details': {'reasoning_tokens': None}})
+        self.assertEqual(metrics['reasoning'], 0)
 
     @patch('translator.requests.post')
     @patch('translator.requests.get')

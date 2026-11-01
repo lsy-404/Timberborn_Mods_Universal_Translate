@@ -199,10 +199,12 @@ class TranslatorLLM:
                 write_1h += write_total - known_breakdown
         cached = details.get('cached_tokens', 0)
         cached = 0 if cached is None else cached
+        reasoning = completion_details.get('reasoning_tokens')
+        reasoning = 0 if reasoning is None else reasoning
         metrics = {
             'input': usage['prompt_tokens'], 'output': usage['completion_tokens'],
             'cached': cached, 'write': write_total, 'write_5m': write_5m, 'write_1h': write_1h,
-            'reasoning': completion_details.get('reasoning_tokens', 0),
+            'reasoning': reasoning,
         }
         if any(type(value) is not int or value < 0 for value in metrics.values()):
             raise ValueError('Invalid token usage')
