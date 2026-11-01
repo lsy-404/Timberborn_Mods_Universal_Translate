@@ -6,7 +6,7 @@ import tomllib
 import unittest
 from concurrent.futures import ThreadPoolExecutor
 from types import SimpleNamespace
-from unittest.mock import call, patch
+from unittest.mock import Mock, patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / ".github" / "scripts" / "util"))
@@ -14,6 +14,15 @@ from translator import TranslatorLLM
 
 
 class GatewayTranslationTests(unittest.TestCase):
+    def setUp(self):
+        self.usage = 100
+        def gateway_get(url, **kwargs):
+            data = {'quota_per_unit': 1000000} if url.endswith('/api/status') else {'total_used': self.usage}
+            return Mock(json=Mock(return_value={'success': True, 'data': data}))
+        get = patch('translator.requests.get', side_effect=gateway_get)
+        get.start()
+        self.addCleanup(get.stop)
+
     def test_config_bounds_gateway_model_rate_and_concurrency(self):
         with (ROOT / ".github" / "config" / "config.toml").open("rb") as stream:
             config = tomllib.load(stream)
@@ -32,7 +41,7 @@ class GatewayTranslationTests(unittest.TestCase):
         post.return_value = SimpleNamespace(
             status_code=200,
             json=lambda: {
-                "choices": [{"message": {"content": "translated"}}],
+                "model": "pearl", "choices": [{"message": {"content": "translated"}}],
                 "usage": {"prompt_tokens": 1200, "completion_tokens": 50, "total_tokens": 1250},
             },
         )
@@ -44,48 +53,28 @@ class GatewayTranslationTests(unittest.TestCase):
         payload = kwargs["json"]
         self.assertEqual(payload["model"], "pearl")
         self.assertEqual(payload["max_tokens"], 1024)
-        self.assertAlmostEqual(translator.total_cost, 0.000145)
+        self.assertEqual(translator.get_cost_summary_dict()['key_usage_delta_usd'], 0)
 
     @patch("translator.requests.post")
-    def test_exact_100k_context_uses_standard_price(self, post):
-        post.return_value = SimpleNamespace(
-            status_code=200,
-            json=lambda: {
-                "choices": [{"message": {"content": "translated"}}],
-                "usage": {"prompt_tokens": 100_000, "completion_tokens": 0, "total_tokens": 100_000},
-            },
-        )
-        translator = TranslatorLLM("test-token", model="pearl", rate_limit="")
-        translator.translate("source", "frFR", "system", "user")
-        self.assertAlmostEqual(translator.total_cost, 0.01)
-
-    @patch("translator.requests.post")
-    def test_long_context_uses_haiku_long_context_prices(self, post):
-        post.return_value = SimpleNamespace(
-            status_code=200,
-            json=lambda: {
-                "choices": [{"message": {"content": "translated"}}],
-                "usage": {"prompt_tokens": 100_001, "completion_tokens": 1_000, "total_tokens": 101_001},
-            },
-        )
-        translator = TranslatorLLM("test-token", model="pearl", rate_limit="")
-        translator.translate("source", "frFR", "system", "user")
-        self.assertAlmostEqual(translator.total_cost, 0.0525005)
-
-    @patch("translator.time.sleep")
-    @patch("translator.requests.post")
-    def test_429_retry_respects_a_bounded_retry_after(self, post, sleep):
-        throttled = SimpleNamespace(status_code=429, headers={"Retry-After": "60"}, text="limited")
-        accepted = SimpleNamespace(
-            status_code=200,
-            json=lambda: {"choices": [{"message": {"content": "translated"}}], "usage": {"prompt_tokens": 1, "completion_tokens": 1, "total_tokens": 2}},
-        )
-        post.side_effect = [throttled, accepted]
-        translator = TranslatorLLM("test-token", model="pearl", rate_limit="")
+    def test_large_context_uses_gateway_counter(self, post):
+        def respond(*args, **kwargs):
+            self.usage += 1234
+            return SimpleNamespace(status_code=200, json=lambda: {
+                "model": "pearl", "choices": [{"message": {"content": "translated"}}],
+                "usage": {"prompt_tokens": 100001, "completion_tokens": 1000},
+            })
+        post.side_effect = respond
+        translator = TranslatorLLM("test-token", rate_limit="")
         self.assertEqual(translator.translate("source", "frFR", "system", "user"), "translated")
-        self.assertEqual(post.call_count, 2)
-        self.assertEqual(sleep.call_args_list, [call(30)])
-        self.assertEqual(translator.request_count, 2)
+        self.assertAlmostEqual(translator.get_cost_summary_dict()['key_usage_delta_usd'], 0.001234)
+
+    @patch("translator.requests.post")
+    def test_429_does_not_retry_when_charge_is_uncertain(self, post):
+        post.return_value = SimpleNamespace(status_code=429, headers={"Retry-After": "60"}, text="limited")
+        translator = TranslatorLLM("test-token", rate_limit="")
+        self.assertIsNone(translator.translate("source", "frFR", "system", "user"))
+        post.assert_called_once()
+        self.assertFalse(translator.get_cost_summary_dict()['cost_tracking_complete'])
 
     def test_output_limit_must_be_positive(self):
         for value in (0, -1, True, 1.5):
@@ -101,7 +90,7 @@ class GatewayTranslationTests(unittest.TestCase):
             return SimpleNamespace(
                 status_code=200,
                 json=lambda: {
-                    "model": "claude-haiku-5-5",
+                    "model": "pearl",
                     "choices": [{"message": {"content": "translated"}, "finish_reason": "stop"}],
                     "usage": {"prompt_tokens": 12, "completion_tokens": 2, "total_tokens": 14},
                 },
