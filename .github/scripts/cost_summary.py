@@ -24,14 +24,14 @@ try:
     print(f"- Output tokens: {data.get('output_tokens', 0):,}")
     print(f"- Total tokens:  {data.get('total_tokens', 0):,}")
     print("")
-    print("### 💵 Estimated Cost")
-    cost = data.get("estimated_cost_usd", 0)
-    print(f"**${cost:.4f} USD**")
+    print("### 💵 Key Usage Delta")
+    cost = data.get("key_usage_delta_usd")
+    print(f"**${cost:.4f} USD**" if cost is not None else "**Unavailable**")
     print("")
 
     if not data.get('cost_tracking_complete', False):
-        print("⚠️ Usage accounting is incomplete; unknown requests retain their maximum budget reservation.")
-    if cost > 1.0:
+        print("⚠️ Usage accounting is incomplete; the reported delta is unconfirmed.")
+    if cost is not None and cost > 1.0:
         print("⚠️ **Warning:** Cost exceeds $1.00 - consider reviewing translation settings")
 except Exception as e:
     print(f"⚠️ Failed to parse cost report: {e}")

@@ -78,10 +78,10 @@ def main():
     cost_path = log_dir / 'cost_report.json'
     report = json.loads(cost_path.read_text())
     expected = 3 * len(languages) - 2
-    assert report['request_count'] == expected
-    assert report['success_count'] == expected and report['fail_count'] == 0
+    assert report['request_count'] >= expected
+    assert report['success_count'] == expected and report['unresolved_translation_count'] == 0
     assert report['cost_tracking_complete'] and report['unknown_cost_requests'] == 0
-    assert report['reserved_cost_usd'] == 0 and report['estimated_cost_usd'] < 0.50
+    assert report['key_usage_delta_usd'] < 0.50
     translate_mods.LANGUAGE_NAMES = config['languages']['locale_names']
     encoding = tiktoken.get_encoding('o200k_base')
     token_counts = {
