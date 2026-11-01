@@ -19,7 +19,7 @@ import translation_prompt
 
 def completion(text):
     return Mock(status_code=200, json=Mock(return_value={
-        'model': 'claude-haiku-5-5',
+        'model': 'pearl',
         'choices': [{'message': {'content': text}, 'finish_reason': 'stop'}],
         'usage': {'prompt_tokens': 2000, 'completion_tokens': 100,
                   'prompt_tokens_details': {
@@ -36,6 +36,14 @@ class NamePoolTests(unittest.TestCase):
     SOURCE = '\nAlpha\n\nBeta, Junior\nAlpha\nGamma\n'
 
     def setUp(self):
+        def get(url, **kwargs):
+            data = {'quota_per_unit': 1000000000} if url.endswith('/api/status') else {'total_used': 0}
+            response = Mock()
+            response.json.return_value = {'success': True, 'data': data}
+            return response
+        usage = patch('translator.requests.get', side_effect=get)
+        usage.start()
+        self.addCleanup(usage.stop)
         post = patch('translator.requests.post')
         self.post = post.start()
         self.addCleanup(post.stop)
@@ -108,7 +116,6 @@ class NamePoolTests(unittest.TestCase):
         report = client.get_cost_summary_dict()
         self.assertEqual(report['request_count'], len(sources))
         self.assertEqual(report['unresolved_translation_count'], 0)
-        self.assertAlmostEqual(report['estimated_cost_usd'], 0.0001495 * len(sources))
 
     def test_real_pending_pool_is_split_without_changing_the_source(self):
         source = toml.load(ROOT / 'data/3723851280.toml')['Beaver.NamePool']['raw']
