@@ -1,0 +1,12 @@
+# Client implementation
+
+- Plan: generate one UUID for each translator instance created for a production job, reuse it in the `session-id` request header for concurrent languages/files and retries, and expose it in the cost report for verification. Add the cache breakpoint after agreement on the gateway contract.
+- The production entry point creates one `TranslatorLLM` and passes it to `process_all_files`, which shares it across file and language workers. Each retry uses the same instance.
+- Gateway investigation confirmed `session-id` is the supported sticky routing header; the value is not a credential.
+- Added a mock test covering distinct instances, two worker requests and a failed-validation retry; the gateway test suite passed (7 tests). No provider requests were made.
+- Final cache contract: request-level explicit mode plus an explicit breakpoint on the final stable system text block; no TTL is specified. The gateway maps that contract for the provider.
+- Focused production, gateway, accounting, format, name-pool and recovery suites passed 90 tests. A wider 108-test discovery failed in the unrelated artifact suite on Windows: `os.O_DIRECTORY` is unavailable (1 failure, 15 errors); other tests in that run passed. No live provider call was made.
+- Committed client changes as 405eeb4; `git diff --check` passed and the requested forbidden-pattern diff check returned no matches.
+- Added a second breakpoint at the common background boundary while retaining the final language-specific boundary; identical boundaries collapse naturally. The production suite passed 17 tests after this change.
+- Production verification now explicitly fails acceptance when cache writes or reads are zero, while recording the session ID in the report. Commits ec1751c and f43f29e contain these follow-up changes; no live provider call was made.
+- Corrected verification for an already warm provider cache: require positive cache reads but report cache writes without requiring a new write on every run. The initial cold-write and subsequent read remain deployment acceptance evidence. Commit c1cbb53; diff check passed.

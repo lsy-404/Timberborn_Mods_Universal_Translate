@@ -105,8 +105,11 @@ class ProductionTranslationTests(unittest.TestCase):
         self.assertNotIn('current_translation', payload['context'])
         self.assertEqual(payload['source_format_contract']['placeholders'], {'{0}': 1})
         self.assertEqual(payload['source_format_contract']['line_breaks']['newline'], 1)
-        self.assertEqual(first, [{'type': 'text', 'text': part} for part in
-                                 system_prompt_parts('zhCN', translate_mods.LANGUAGE_NAMES['zhCN'])])
+        expected = [{'type': 'text', 'text': part} for part in
+                    system_prompt_parts('zhCN', translate_mods.LANGUAGE_NAMES['zhCN'])]
+        expected[0]['prompt_cache_breakpoint'] = {'mode': 'explicit'}
+        expected[-1]['prompt_cache_breakpoint'] = {'mode': 'explicit'}
+        self.assertEqual(first, expected)
 
     @patch('translator.requests.post')
     def test_actual_request_and_disjoint_cache_billing(self, post):
@@ -117,15 +120,16 @@ class ProductionTranslationTests(unittest.TestCase):
         body = post.call_args.kwargs['json']
         self.assertEqual(body['model'], 'pearl')
         self.assertEqual(body['max_tokens'], 1024)
-        self.assertEqual(set(body), {'model', 'max_tokens', 'messages'})
+        self.assertEqual(set(body), {'model', 'max_tokens', 'messages', 'prompt_cache_options'})
+        self.assertEqual(body['prompt_cache_options'], {'mode': 'explicit'})
         self.assertEqual(body['messages'], [
             {'role': 'system', 'content': system}, {'role': 'user', 'content': user},
         ])
-        self.assertTrue(all(set(part) == {'type', 'text'} and part['type'] == 'text'
-                            for part in body['messages'][0]['content']))
+        self.assertEqual(system[0]['prompt_cache_breakpoint'], {'mode': 'explicit'})
+        self.assertTrue(all(set(part) == {'type', 'text'} for part in system[1:-1]))
+        self.assertEqual(system[-1]['prompt_cache_breakpoint'], {'mode': 'explicit'})
         self.assertNotIn('reasoning_effort', body)
         self.assertNotIn('service_tier', body)
-        self.assertNotIn('prompt_cache_options', body)
         report = translator.get_cost_summary_dict()
         self.assertEqual(report['ordinary_input_tokens'], 500)
         self.assertEqual(report['cached_tokens'], 1200)
