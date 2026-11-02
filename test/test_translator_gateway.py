@@ -19,8 +19,10 @@ class GatewayTranslationTests(unittest.TestCase):
     def setUp(self):
         self.usage = 100
         def gateway_get(url, **kwargs):
-            data = {'quota_per_unit': 1000000} if url.endswith('/api/status') else {'total_used': self.usage}
-            return Mock(json=Mock(return_value={'success': True, 'data': data}))
+            payload = ({'success': True, 'data': {'quota_per_unit': 1000000}}
+                       if url.endswith('/api/status') else
+                       {'code': True, 'data': {'object': 'token_usage', 'total_used': self.usage}})
+            return Mock(json=Mock(return_value=payload))
         get = patch('translator.requests.get', side_effect=gateway_get_stub(gateway_get, requests.get))
         get.start()
         self.addCleanup(get.stop)

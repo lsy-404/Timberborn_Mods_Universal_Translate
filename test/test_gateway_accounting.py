@@ -29,8 +29,29 @@ class GatewayAccountingTests(unittest.TestCase):
             value = next(values)
             if isinstance(value, Exception):
                 raise value
-            return http({'success': True, 'data': {'total_used': value}})
+            return http({'code': True, 'data': {'object': 'token_usage', 'total_used': value}})
         return get
+
+    def test_status_and_usage_require_their_distinct_envelopes(self):
+        status = {'success': True, 'data': {'quota_per_unit': 1000}}
+        usage = {'code': True, 'data': {'object': 'token_usage', 'total_used': 25}}
+        for bad_status, bad_usage in [
+            ({'code': True, 'data': {'quota_per_unit': 1000}}, usage),
+            (status, {'success': True, 'data': {'object': 'token_usage', 'total_used': 25}}),
+            (status, {'code': False, 'data': {'object': 'token_usage', 'total_used': 25}}),
+            (status, {'code': True, 'data': {'object': 'other', 'total_used': 25}}),
+            (status, {'code': True, 'data': {'object': 'token_usage', 'total_used': True}}),
+            (status, {'code': True, 'data': {'object': 'token_usage', 'total_used': -1}}),
+        ]:
+            with self.subTest(status=bad_status, usage=bad_usage):
+                client = TranslatorLLM('token', rate_limit='')
+                with patch('translator.requests.get', side_effect=[http(bad_status), http(bad_usage)]):
+                    self.assertFalse(client._refresh_usage())
+                    self.assertFalse(client.check_cost_limit())
+        client = TranslatorLLM('token', rate_limit='')
+        with patch('translator.requests.get', side_effect=[http(status), http(usage)]):
+            self.assertTrue(client._refresh_usage())
+            self.assertEqual(client._baseline_usage, 25)
 
     @patch('translator.requests.post')
     @patch('translator.requests.get')
