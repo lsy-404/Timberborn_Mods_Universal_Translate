@@ -122,3 +122,15 @@ def protected_format_issues(source, output, preserve_line_entries=False):
     if preserve_line_entries and expected['line_entries'] != actual['line_entries']:
         issues.append('line_entries_changed')
     return issues
+
+
+def missing_required_terms(source, output, language):
+    missing = []
+    for term in references()[1]:
+        stem = term.get('required_stems', {}).get(language)
+        if not stem:
+            continue
+        source_match = re.search(r'(?<!\w)' + re.escape(term['source']) + r'(?!\w)', source, re.IGNORECASE)
+        if (source_match or stem.casefold() in source.casefold()) and stem.casefold() not in output.casefold():
+            missing.append((term['source'], stem))
+    return missing

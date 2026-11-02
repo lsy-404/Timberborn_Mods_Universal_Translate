@@ -21,7 +21,7 @@ import requests
 from typing import List, Optional
 
 from translation_prompt import (
-    protected_format_issues, protected_format_signature, restore_source_boundary_whitespace,
+    missing_required_terms, protected_format_issues, protected_format_signature, restore_source_boundary_whitespace,
     restore_source_line_breaks, strip_extra_quotes,
 )
 
@@ -255,17 +255,17 @@ class TranslatorLLM:
         if not self._initial_request_completed:
             with self._warmup_lock:
                 if not self._initial_request_completed:
-                    result = self._request(text, system_prompt, user_prompt, preserve_line_entries)
+                    result = self._request(text, target_language, system_prompt, user_prompt, preserve_line_entries)
                     self._initial_request_completed = result is not None
                     return result
-        return self._request(text, system_prompt, user_prompt, preserve_line_entries)
+        return self._request(text, target_language, system_prompt, user_prompt, preserve_line_entries)
 
-    def _request(self, text, system_prompt, user_prompt, preserve_line_entries=False):
+    def _request(self, text, target_language, system_prompt, user_prompt, preserve_line_entries=False):
         """Allow one recovery attempt while accounting for every actual request."""
         feedback = None
         for attempt in range(self.MAX_ATTEMPTS):
             translated, retry_reason = self._request_once(
-                text, system_prompt, user_prompt, feedback, preserve_line_entries)
+                text, target_language, system_prompt, user_prompt, feedback, preserve_line_entries)
             if translated is not None:
                 with self._cost_lock:
                     self.recovered_fail_count += attempt
@@ -296,7 +296,7 @@ class TranslatorLLM:
             self.unresolved_translation_count += 1
         return None
 
-    def _request_once(self, text, system_prompt, user_prompt, feedback=None, preserve_line_entries=False):
+    def _request_once(self, text, target_language, system_prompt, user_prompt, feedback=None, preserve_line_entries=False):
         """Return (translation, safe retry reason) and settle this attempt alone."""
         messages = [{'role': 'system', 'content': system_prompt}, {'role': 'user', 'content': user_prompt}]
         if feedback:
@@ -352,6 +352,12 @@ class TranslatorLLM:
             if issues:
                 self.logger.error(f'Rejected protected formatting changes: {issues}')
                 return None, ', '.join(issues)
+            missing = missing_required_terms(text, translated, target_language)
+            if missing:
+                reason = 'missing required terms: ' + ', '.join(
+                    f'{source} -> {stem}' for source, stem in missing)
+                self.logger.error('Rejected translation: %s', reason)
+                return None, reason
             succeeded = True
             return translated, None
         except (requests.RequestException, KeyError, IndexError, TypeError, ValueError) as error:
