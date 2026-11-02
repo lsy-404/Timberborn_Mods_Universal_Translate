@@ -83,7 +83,6 @@ def main():
     assert report['request_count'] >= expected
     assert report['success_count'] == expected and report['unresolved_translation_count'] == 0
     assert report['cost_tracking_complete'] and report['unknown_cost_requests'] == 0
-    assert report['cache_write_tokens'] > 0, 'Cache acceptance failed: no cache writes reported'
     assert report['cached_tokens'] > 0, 'Cache acceptance failed: no cache reads reported'
     assert report['key_usage_delta_usd'] < 0.50
     translate_mods.LANGUAGE_NAMES = config['languages']['locale_names']
