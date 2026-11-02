@@ -8,4 +8,4 @@
 | 003 | [Fix] haiku-cache-accounting |Account for Haiku cache reads and writes by TTL, and restore active gateway test coverage (81 focused offline tests passed across production, recovery, formatting, name-pool, and gateway suites) | Ensure local cost caps reflect actual Haiku usage | completed |
 | 004 | [BugFix] pearl-translation-run | Use the stable lowest-tier alias in the real translation workflow and repair failed runs | Keep provider versions server-managed and restore successful translations | completed |
 
-| 005 | [BugFix] prompt-cache-contract | Restore provider prompt caching through the public alias and verify real cache usage | Resolve reported zero cache usage in real translations | running |
+| 005 | [BugFix] prompt-cache-contract | Restore provider prompt caching through the public alias and verify real cache usage | Resolve reported zero cache usage in real translations | completed |
