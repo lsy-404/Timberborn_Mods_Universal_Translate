@@ -7,6 +7,7 @@ try:
         data = json.load(f)
 
     print(f"**Model:** `{data.get('model', 'unknown')}`")
+    print(f"**Session ID:** `{data.get('session_id', 'unknown')}`")
     print(f"**Reasoning effort:** `{data.get('reasoning_effort', 'unknown')}`")
     print(f"**Total Requests:** {data.get('request_count', 0):,}")
     print(f"**Success Rate:** {data.get('success_rate', 0):.1f}%")
@@ -27,6 +28,7 @@ try:
     print("### 💵 Key Usage Delta")
     cost = data.get("key_usage_delta_usd")
     print(f"**${cost:.4f} USD**" if cost is not None else "**Unavailable**")
+    print("Snapshot may include request reservations until server reconciliation completes.")
     print("")
 
     if not data.get('cost_tracking_complete', False):
