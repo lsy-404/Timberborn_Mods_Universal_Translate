@@ -41,7 +41,8 @@ max_threads_per_file = 2
 
 # Cost control settings
 # Key usage threshold in USD. New requests stop when the threshold is reached.
-# Concurrent requests can exceed the threshold. Set to 0 to disable it.
+# Usage refreshes every 120 seconds; spending and in-flight requests can exceed the threshold.
+# Set to 0 to disable it.
 max_cost_per_run = 10.0
 
 # Cost warning threshold in USD. A warning will be logged if exceeded.

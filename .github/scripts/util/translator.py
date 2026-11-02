@@ -28,7 +28,7 @@ from translation_prompt import (
 MAX_RETRY_AFTER_SECONDS = 30
 
 
-def _retry_after_seconds(response):
+def _retry_after_seconds(response, clamp=True):
     value = getattr(response, 'headers', {}).get('Retry-After')
     if value is None:
         return None
@@ -42,7 +42,9 @@ def _retry_after_seconds(response):
             delay = (retry_at - datetime.now(timezone.utc)).total_seconds()
         except (TypeError, ValueError, OverflowError):
             return None
-    if delay < 0:
+    if not math.isfinite(delay) or delay < 0:
+        return None
+    if delay > MAX_RETRY_AFTER_SECONDS and not clamp:
         return None
     return min(delay, MAX_RETRY_AFTER_SECONDS)
 
@@ -51,6 +53,7 @@ class TranslatorLLM:
     """Localization with rate limiting and budget accounting."""
 
     MAX_ATTEMPTS = 2
+    USAGE_REFRESH_INTERVAL_SECONDS = 120
 
     def __init__(
         self,
@@ -83,6 +86,9 @@ class TranslatorLLM:
         self._quota_per_unit = None
         self._baseline_usage = None
         self._last_usage = None
+        self._last_usage_refresh = None
+        self._finalized_request_count = None
+        self._final_attempted_request_count = None
         self._last_read_in_flight = False
         self._accounting_failed = False
         parts = urlsplit(api_url)
@@ -125,11 +131,20 @@ class TranslatorLLM:
                 delay = self.rate_limit_seconds - (current_time - self.request_history[0]) + 0.1
             time.sleep(max(0.05, delay))
 
+    def _get_usage_response(self, url, **kwargs):
+        response = requests.get(url, **kwargs)
+        if response.status_code == 429:
+            delay = _retry_after_seconds(response, clamp=False)
+            if delay is not None:
+                time.sleep(delay)
+                response = requests.get(url, **kwargs)
+        response.raise_for_status()
+        return response
+
     def _read_usage(self):
-        response = requests.get(
+        response = self._get_usage_response(
             self._gateway_origin + '/api/usage/token/',
             headers={'Authorization': f'Bearer {self.api_token}'}, timeout=(10, 30))
-        response.raise_for_status()
         payload = response.json()
         value = payload['data']['total_used']
         if payload.get('code') is not True or payload['data'].get('object') != 'token_usage' or type(value) is not int or value < 0:
@@ -140,8 +155,7 @@ class TranslatorLLM:
         with self._cost_lock:
             try:
                 if self._quota_per_unit is None:
-                    response = requests.get(self._gateway_origin + '/api/status', timeout=(10, 30))
-                    response.raise_for_status()
+                    response = self._get_usage_response(self._gateway_origin + '/api/status', timeout=(10, 30))
                     payload = response.json()
                     unit = payload['data']['quota_per_unit']
                     if payload.get('success') is not True or isinstance(unit, bool) or not isinstance(unit, (int, float)) or not math.isfinite(unit) or unit <= 0:
@@ -155,6 +169,7 @@ class TranslatorLLM:
                 self._last_usage = current
                 self._last_read_in_flight = self._in_flight_requests > 0
                 self.total_cost = (current - self._baseline_usage) / self._quota_per_unit
+                self._last_usage_refresh = time.monotonic()
                 return True
             except (requests.RequestException, KeyError, TypeError, ValueError, OverflowError) as error:
                 self.logger.error('Gateway usage unavailable: %s', str(error).replace(self.api_token, '[redacted]'))
@@ -163,10 +178,13 @@ class TranslatorLLM:
 
     def _reserve_cost(self, messages):
         with self._cost_lock:
-            if self._accounting_failed or not self._refresh_usage() or (self.max_cost > 0 and self.total_cost >= self.max_cost):
+            refresh_due = (self._last_usage_refresh is None or
+                           time.monotonic() - self._last_usage_refresh >= self.USAGE_REFRESH_INTERVAL_SECONDS)
+            if self._accounting_failed or (refresh_due and not self._refresh_usage()) or (self.max_cost > 0 and self.total_cost >= self.max_cost):
                 self.logger.warning('Translation paused: budget threshold or incomplete usage accounting')
                 return None
             self._in_flight_requests += 1
+            self._finalized_request_count = None
             return 0.0
 
     @classmethod
@@ -341,7 +359,6 @@ class TranslatorLLM:
                 if request_uncertain:
                     self._accounting_failed = True
                     self.unknown_cost_requests += 1
-                self._refresh_usage()
                 self._in_flight_requests -= 1
                 if metrics is not None:
                     for key, value in metrics.items():
@@ -354,8 +371,11 @@ class TranslatorLLM:
 
     def get_cost_summary_dict(self) -> dict:
         with self._cost_lock:
-            if self.request_count and not self._in_flight_requests:
-                self._refresh_usage(final=True)
+            if (self.request_count and not self._in_flight_requests
+                    and self._final_attempted_request_count != self.request_count):
+                self._final_attempted_request_count = self.request_count
+                if self._refresh_usage(final=True):
+                    self._finalized_request_count = self.request_count
             return {
                 'model': self.model,
                 'returned_models': sorted(self.returned_models),
@@ -372,7 +392,8 @@ class TranslatorLLM:
                 'cache_hit_rate': self.total_tokens['cached'] / max(1, self.total_tokens['input']),
                 'key_usage_delta_usd': None if self._baseline_usage is None and self._accounting_failed else self.total_cost,
                 'unknown_cost_requests': self.unknown_cost_requests,
-                'cost_tracking_complete': not self._accounting_failed and self._in_flight_requests == 0,
+                'cost_tracking_complete': (not self._accounting_failed and self._in_flight_requests == 0
+                                           and (self.request_count == 0 or self._finalized_request_count == self.request_count)),
                 'cost_basis': 'gateway_key_usage_delta',
             }
 

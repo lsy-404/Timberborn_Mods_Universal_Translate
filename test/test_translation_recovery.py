@@ -186,6 +186,7 @@ class TranslationRecoveryTests(unittest.TestCase):
         client = self.translator(max_cost=0.0007)
         def respond(*args, **kwargs):
             self.gateway_usage = 700
+            client._last_usage_refresh -= client.USAGE_REFRESH_INTERVAL_SECONDS
             return completion('值')
         self.post.side_effect = respond
         self.assertIsNone(self.translate(client))
@@ -198,6 +199,7 @@ class TranslationRecoveryTests(unittest.TestCase):
         client = self.translator(max_cost=1)
         self.assertTrue(client._refresh_usage())
         self.gateway_usage = 1000000
+        client._last_usage_refresh -= client.USAGE_REFRESH_INTERVAL_SECONDS
         self.assertIsNone(self.translate(client))
         self.post.assert_not_called()
         report = client.get_cost_summary_dict()
@@ -209,6 +211,7 @@ class TranslationRecoveryTests(unittest.TestCase):
         client = self.translator(max_cost=1)
         self.assertEqual(self.translate(client), '值 {0}')
         self.gateway_usage = 1000000
+        client._last_usage_refresh -= client.USAGE_REFRESH_INTERVAL_SECONDS
         self.assertIsNone(self.translate(client, 'Another pending entry'))
         self.assertEqual(self.post.call_count, 2)
         report = client.get_cost_summary_dict()
@@ -339,6 +342,7 @@ class TranslationRecoveryTests(unittest.TestCase):
         client = self.translator(max_cost=1)
         self.assertTrue(client._refresh_usage())
         self.gateway_usage = 1000000
+        client._last_usage_refresh -= client.USAGE_REFRESH_INTERVAL_SECONDS
         with tempfile.TemporaryDirectory() as directory:
             with patch.object(translate_mods, 'TranslatorLLM', return_value=client):
                 with self.assertRaises(SystemExit) as result:
