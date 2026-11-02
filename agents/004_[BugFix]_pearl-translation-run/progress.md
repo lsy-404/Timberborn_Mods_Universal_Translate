@@ -19,3 +19,5 @@
 - PR 43 merged at 8cc1b8296dcc743d42fb4df77be7c49e7f96b214 after checks. Run 41367172120 authenticated/read usage correctly, then its first completion was rejected before admission at zero cost; temporary test policies restored.
 - Independent gateway probes used unique diagnostic admissions only; accepted controls were normally settled zero with providerUsage null, no provider calls and no remaining source reservation. Exact actual fixture standard text-parts control admitted successfully.
 - Integrated d9a81cd producer-side removal of the private caching marker and actual POST structure regression. Full prompt content/order, glossary, formatting checks and normal text arrays are retained; 86 focused assertions pass.
+
+- PR44 passed offline contracts41368372211 and merged normally as49a01ef. Real bounded run41368466875 exercised actual pearl inference but stopped on usage-query429 after9POSTs/8valid translations. Downloaded its logs/sample artifact, restored temporary policies1793580043243595579, and delegated shared low-frequency accounting plus read-only rate-limit/settlement diagnosis.
