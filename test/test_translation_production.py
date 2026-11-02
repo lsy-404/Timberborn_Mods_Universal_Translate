@@ -23,7 +23,7 @@ from translation_prompt import protected_format_issues, restore_source_line_brea
 
 def response(text='动力输出：{0} hp\n储存 150 hph。', finish='stop', reasoning=0):
     return Mock(status_code=200, json=Mock(return_value={
-        'model': 'claude-haiku-5-5',
+        'model': 'pearl',
         'choices': [{'message': {'content': text}, 'finish_reason': finish}],
         'usage': {'prompt_tokens': 2000, 'completion_tokens': 100,
                   'prompt_tokens_details': {
@@ -43,6 +43,16 @@ class ProductionTranslationTests(unittest.TestCase):
         translate_mods.LANGUAGE_NAMES = cls.config['languages']['locale_names']
         (ROOT / 'test/results').mkdir(exist_ok=True)
 
+    def setUp(self):
+        def get(url, **kwargs):
+            data = {'quota_per_unit': 1000000000} if url.endswith('/api/status') else {'total_used': 0}
+            response = Mock()
+            response.json.return_value = {'success': True, 'data': data}
+            return response
+        patcher = patch('translator.requests.get', side_effect=get)
+        patcher.start()
+        self.addCleanup(patcher.stop)
+
     def translator(self, **options):
         return TranslatorLLM(api_token='test-token', rate_limit='', **options)
 
@@ -53,7 +63,7 @@ class ProductionTranslationTests(unittest.TestCase):
         )
 
     def test_production_defaults_and_context_bounds_for_every_language(self):
-        self.assertEqual(self.config['llm']['model'], 'claude-haiku-5-5')
+        self.assertEqual(self.config['llm']['model'], 'pearl')
         self.assertEqual(self.config['llm']['max_output_tokens'], 1024)
         encoding = tiktoken.get_encoding('o200k_base')
         for language in self.config['languages']['supported']:
@@ -86,7 +96,7 @@ class ProductionTranslationTests(unittest.TestCase):
         system, user = self.prompts()
         self.assertIsNotNone(translator.translate(json.loads(user)['source_text'], 'zhCN', system, user))
         body = post.call_args.kwargs['json']
-        self.assertEqual(body['model'], 'claude-haiku-5-5')
+        self.assertEqual(body['model'], 'pearl')
         self.assertEqual(body['max_tokens'], 1024)
         self.assertNotIn('reasoning_effort', body)
         self.assertNotIn('service_tier', body)
@@ -97,8 +107,6 @@ class ProductionTranslationTests(unittest.TestCase):
         self.assertEqual(report['cache_write_tokens'], 300)
         self.assertEqual(report['cache_write_5m_tokens'], 300)
         self.assertEqual(report['cache_write_1h_tokens'], 0)
-        self.assertAlmostEqual(report['estimated_cost_usd'], 0.0001495)
-        self.assertEqual(report['reserved_cost_usd'], 0)
 
     @patch('translator.requests.post')
     def test_truncated_generation_is_billed_and_rejected(self, post):
@@ -109,14 +117,13 @@ class ProductionTranslationTests(unittest.TestCase):
         report = translator.get_cost_summary_dict()
         self.assertEqual(report['success_count'], 0)
         self.assertEqual(report['fail_count'], 1)
-        self.assertAlmostEqual(report['estimated_cost_usd'], 0.0001495)
 
     @patch('translator.requests.post')
-    def test_reasoning_output_is_billed_and_rejected(self, post):
+    def test_reasoning_output_is_accounted_for(self, post):
         post.return_value = response(reasoning=5)
         translator = self.translator()
         system, user = self.prompts()
-        self.assertIsNone(translator.translate(json.loads(user)['source_text'], 'zhCN', system, user))
+        self.assertIsNotNone(translator.translate(json.loads(user)['source_text'], 'zhCN', system, user))
         self.assertEqual(translator.get_cost_summary_dict()['reasoning_tokens'], 5)
 
     @patch('translator.requests.post')
@@ -132,40 +139,6 @@ class ProductionTranslationTests(unittest.TestCase):
         report = translator.get_cost_summary_dict()
         self.assertFalse(report['cost_tracking_complete'])
         self.assertEqual(report['unknown_cost_requests'], 1)
-        self.assertGreater(report['estimated_cost_usd'], 0)
-        self.assertEqual(report['reserved_cost_usd'], 0)
-
-    @patch('translator.requests.post')
-    def test_budget_failure_does_not_persist_source_as_translation(self, post):
-        translator = self.translator(max_cost=0.000001)
-        system, user = self.prompts()
-        self.assertIsNone(translator.translate(json.loads(user)['source_text'], 'zhCN', system, user))
-        post.assert_not_called()
-
-    @patch('translator.requests.post')
-    def test_in_flight_requests_reserve_the_budget(self, post):
-        entered, release = threading.Event(), threading.Event()
-        def blocked(*args, **kwargs):
-            entered.set()
-            if not release.wait(5):
-                raise RuntimeError('test request was not released')
-            return response()
-        post.side_effect = blocked
-        translator = self.translator(max_cost=0.0035)
-        translator._initial_request_completed = True
-        system, user = self.prompts()
-        source = json.loads(user)['source_text']
-        with ThreadPoolExecutor(max_workers=2) as pool:
-            first = pool.submit(translator.translate, source, 'zhCN', system, user)
-            try:
-                self.assertTrue(entered.wait(5))
-                second = pool.submit(translator.translate, source, 'zhCN', system, user)
-                self.assertIsNone(second.result(timeout=5))
-                self.assertLessEqual(translator.get_cost_summary_dict()['reserved_cost_usd'], 0.008)
-            finally:
-                release.set()
-            self.assertIsNotNone(first.result(timeout=5))
-        post.assert_called_once()
 
     @patch('translator.requests.post')
     def test_overlong_source_is_not_silently_truncated(self, post):
@@ -184,7 +157,6 @@ class ProductionTranslationTests(unittest.TestCase):
         report = translator.get_cost_summary_dict()
         self.assertEqual(report['fail_count'], 2)
         self.assertEqual(report['unresolved_translation_count'], 1)
-        self.assertAlmostEqual(report['estimated_cost_usd'], 0.000299)
 
     @patch('translator.requests.post')
     def test_newline_representation_is_restored_before_validation(self, post):
@@ -242,26 +214,6 @@ class ProductionTranslationTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             TranslatorLLM.usage_metrics(payload)
 
-    def test_cache_creation_ttl_and_long_context_rates(self):
-        usage = {
-            'prompt_tokens': 100_001, 'completion_tokens': 100,
-            'prompt_tokens_details': {
-                'cached_tokens': 10, 'cache_write_tokens': 10,
-                'cache_creation_token_details': {
-                    'ephemeral_5m_input_tokens': 2, 'ephemeral_1h_input_tokens': 8,
-                },
-            },
-        }
-        metrics, cost = TranslatorLLM.usage_metrics(usage)
-        self.assertEqual(metrics['ordinary'], 99_981)
-        self.assertEqual(metrics['write_5m'], 2)
-        self.assertEqual(metrics['write_1h'], 8)
-        self.assertAlmostEqual(cost, 0.05025025)
-        del usage['prompt_tokens_details']['cache_creation_token_details']['ephemeral_1h_input_tokens']
-        metrics, partial_details_cost = TranslatorLLM.usage_metrics(usage)
-        self.assertEqual(metrics['write_1h'], 8)
-        self.assertAlmostEqual(partial_details_cost, cost)
-
     @patch('translator.requests.post')
     def test_concurrent_settlement_leaves_no_budget_reservation(self, post):
         post.return_value = response()
@@ -273,8 +225,6 @@ class ProductionTranslationTests(unittest.TestCase):
         self.assertTrue(all(output is not None for output in outputs))
         report = translator.get_cost_summary_dict()
         self.assertEqual(report['request_count'], 37)
-        self.assertEqual(report['reserved_cost_usd'], 0)
-        self.assertAlmostEqual(report['estimated_cost_usd'], 37 * 0.0001495)
 
     @patch('translator.requests.post')
     def test_boundary_line_breaks_are_preserved(self, post):

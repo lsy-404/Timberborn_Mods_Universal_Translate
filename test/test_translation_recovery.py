@@ -18,7 +18,7 @@ from translator import TranslatorLLM
 
 def completion(text='值 {0}'):
     return Mock(status_code=200, json=Mock(return_value={
-        'model': 'claude-haiku-5-5',
+        'model': 'pearl',
         'choices': [{'message': {'content': text}, 'finish_reason': 'stop'}],
         'usage': {'prompt_tokens': 2000, 'completion_tokens': 100,
                   'prompt_tokens_details': {
@@ -36,9 +36,17 @@ class TranslationRecoveryTests(unittest.TestCase):
         post = patch('translator.requests.post')
         self.post = post.start()
         self.addCleanup(post.stop)
+        get = patch('translator.requests.get', side_effect=self.gateway_get)
+        get.start()
+        self.addCleanup(get.stop)
+        self.gateway_usage = 0
         sleep = patch('translator.time.sleep')
         self.sleep = sleep.start()
         self.addCleanup(sleep.stop)
+
+    def gateway_get(self, url, **kwargs):
+        data = {'quota_per_unit': 1000000} if url.endswith('/api/status') else {'total_used': self.gateway_usage}
+        return Mock(json=Mock(return_value={'success': True, 'data': data}))
 
     def translator(self, **options):
         return TranslatorLLM(api_token='synthetic-test-token', rate_limit='', **options)
@@ -74,8 +82,7 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertEqual(report['success_count'], 1)
         self.assertEqual(report['recovered_fail_count'], 1)
         self.assertEqual(report['unresolved_translation_count'], 0)
-        self.assertAlmostEqual(report['estimated_cost_usd'], 0.000299)
-        self.assertEqual(report['reserved_cost_usd'], 0)
+        self.assertEqual(report['key_usage_delta_usd'], 0)
         first = self.post.call_args_list[0].kwargs['json']['messages']
         second = self.post.call_args_list[1].kwargs['json']['messages']
         self.assertEqual(second[:2], first)
@@ -90,34 +97,18 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertEqual(self.post.call_count, 2)
         self.assertEqual(report['recovered_fail_count'], 1)
         self.assertEqual(report['unresolved_translation_count'], 0)
-        self.assertAlmostEqual(report['estimated_cost_usd'], 0.000299)
+        self.assertEqual(report['key_usage_delta_usd'], 0)
 
-    def test_503_recovery_is_rate_limited_and_keeps_accounting_complete(self):
-        self.post.side_effect = [Mock(status_code=503, text='synthetic server error'), completion()]
-        client = self.translator()
-        with patch.object(client, '_check_rate_limit') as limit:
-            self.assertEqual(self.translate(client), '值 {0}')
-        self.assertEqual(limit.call_count, 2)
-        report = client.get_cost_summary_dict()
-        self.assertEqual(report['request_count'], 2)
-        self.assertEqual(report['fail_count'], 1)
-        self.assertEqual(report['recovered_fail_count'], 1)
-        self.assertEqual(report['unresolved_translation_count'], 0)
-        self.assertTrue(report['cost_tracking_complete'])
-        self.assertAlmostEqual(report['estimated_cost_usd'], 0.0001495)
-        self.sleep.assert_called_once()
-
-    def test_persistent_503_stops_after_one_retry(self):
+    def test_503_stops_without_retry_when_charge_is_uncertain(self):
         self.post.return_value = Mock(status_code=503, text='synthetic server error')
         client = self.translator()
         self.assertIsNone(self.translate(client))
-        self.assertEqual(self.post.call_count, 2)
+        self.post.assert_called_once()
         report = client.get_cost_summary_dict()
-        self.assertEqual(report['fail_count'], 2)
-        self.assertEqual(report['recovered_fail_count'], 0)
+        self.assertEqual(report['fail_count'], 1)
         self.assertEqual(report['unresolved_translation_count'], 1)
-        self.assertEqual(report['estimated_cost_usd'], 0)
-        self.assertEqual(report['reserved_cost_usd'], 0)
+        self.assertEqual(report['unknown_cost_requests'], 1)
+        self.assertFalse(report['cost_tracking_complete'])
 
     def test_authentication_and_permission_errors_are_not_retried(self):
         for status in (401, 403, 429):
@@ -141,7 +132,7 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertEqual(report['unknown_cost_requests'], 1)
         self.assertEqual(report['unresolved_translation_count'], 2)
         self.assertFalse(report['cost_tracking_complete'])
-        self.assertGreater(report['estimated_cost_usd'], 0)
+        self.assertEqual(report['key_usage_delta_usd'], 0)
 
     def test_unknown_usage_on_retry_stops_further_requests(self):
         payload = completion().json()
@@ -156,7 +147,7 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertEqual(report['unresolved_translation_count'], 2)
         self.assertEqual(report['recovered_fail_count'], 0)
         self.assertFalse(report['cost_tracking_complete'])
-        self.assertGreater(report['estimated_cost_usd'], 0.0001495)
+        self.assertEqual(report['key_usage_delta_usd'], 0)
 
     def test_concurrent_recoveries_keep_budget_and_counters_consistent(self):
         client = self.translator(max_cost=0.01)
@@ -173,7 +164,7 @@ class TranslationRecoveryTests(unittest.TestCase):
             if first:
                 first_attempts.wait(timeout=5)
             report = client.get_cost_summary_dict()
-            self.assertLessEqual(report['estimated_cost_usd'] + report['reserved_cost_usd'], 0.01)
+            self.assertLessEqual(report['key_usage_delta_usd'], 0.01)
             return completion('值' if first else '值 {0}')
 
         self.post.side_effect = respond
@@ -185,36 +176,35 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertEqual(report['fail_count'], 2)
         self.assertEqual(report['recovered_fail_count'], 2)
         self.assertEqual(report['unresolved_translation_count'], 0)
-        self.assertEqual(report['reserved_cost_usd'], 0)
-        self.assertAlmostEqual(report['estimated_cost_usd'], 0.000598)
+        self.assertEqual(report['key_usage_delta_usd'], 0)
 
     def test_retry_respects_existing_run_budget(self):
-        self.post.return_value = completion('值')
         client = self.translator(max_cost=0.0007)
+        def respond(*args, **kwargs):
+            self.gateway_usage = 700
+            return completion('值')
+        self.post.side_effect = respond
         self.assertIsNone(self.translate(client))
         self.post.assert_called_once()
         report = client.get_cost_summary_dict()
-        self.assertLessEqual(report['estimated_cost_usd'], 0.00425)
-        self.assertEqual(report['reserved_cost_usd'], 0)
+        self.assertAlmostEqual(report['key_usage_delta_usd'], 0.0007)
         self.assertEqual(report['unresolved_translation_count'], 1)
 
     def test_exhausted_budget_skip_is_recorded_without_an_api_call(self):
         client = self.translator(max_cost=1)
-        # Earlier entries in the same run have already consumed the budget.
-        client.total_cost = 1
+        self.assertTrue(client._refresh_usage())
+        self.gateway_usage = 1000000
         self.assertIsNone(self.translate(client))
         self.post.assert_not_called()
         report = client.get_cost_summary_dict()
         self.assertEqual(report['unresolved_translation_count'], 1)
-        self.assertEqual(report['estimated_cost_usd'], 1)
-        self.assertEqual(report['reserved_cost_usd'], 0)
+        self.assertEqual(report['key_usage_delta_usd'], 1)
 
     def test_budget_skip_after_recovered_attempt_remains_unresolved(self):
         self.post.side_effect = [completion('值'), completion()]
         client = self.translator(max_cost=1)
         self.assertEqual(self.translate(client), '值 {0}')
-        # Other parallel entries then consume the rest of the run budget.
-        client.total_cost = 1
+        self.gateway_usage = 1000000
         self.assertIsNone(self.translate(client, 'Another pending entry'))
         self.assertEqual(self.post.call_count, 2)
         report = client.get_cost_summary_dict()
@@ -343,7 +333,8 @@ class TranslationRecoveryTests(unittest.TestCase):
 
     def test_cli_fails_for_work_skipped_after_budget_exhaustion(self):
         client = self.translator(max_cost=1)
-        client.total_cost = 1
+        self.assertTrue(client._refresh_usage())
+        self.gateway_usage = 1000000
         with tempfile.TemporaryDirectory() as directory:
             with patch.object(translate_mods, 'TranslatorLLM', return_value=client):
                 with self.assertRaises(SystemExit) as result:

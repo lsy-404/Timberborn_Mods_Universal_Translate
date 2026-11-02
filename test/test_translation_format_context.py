@@ -22,7 +22,7 @@ from translator import TranslatorLLM
 
 def completion(text):
     return Mock(status_code=200, json=Mock(return_value={
-        'model': 'claude-haiku-5-5',
+        'model': 'pearl',
         'choices': [{'message': {'content': text}, 'finish_reason': 'stop'}],
         'usage': {'prompt_tokens': 2000, 'completion_tokens': 100,
                   'prompt_tokens_details': {
@@ -36,6 +36,16 @@ def completion(text):
 
 
 class SourceFormatContextTests(unittest.TestCase):
+    def setUp(self):
+        def get(url, **kwargs):
+            data = {'quota_per_unit': 1000000000} if url.endswith('/api/status') else {'total_used': 0}
+            response = Mock()
+            response.json.return_value = {'success': True, 'data': data}
+            return response
+        usage = patch('translator.requests.get', side_effect=get)
+        usage.start()
+        self.addCleanup(usage.stop)
+
     @classmethod
     def setUpClass(cls):
         cls.cases = json.loads((ROOT / 'test/translation_format_context_samples.json').read_text())['cases']

@@ -1651,7 +1651,7 @@ def main():
         
         translator = TranslatorLLM(
             api_token=api_token,
-            model=llm_config.get("model", "claude-haiku-5-5"),
+            model=llm_config.get("model", "pearl"),
             api_url=llm_config.get("api_url", "https://llm.leisiyu.dev/v1/chat/completions"),
             min_length=llm_config.get("min_length", 1),
             max_length=llm_config.get("max_length", 5000),

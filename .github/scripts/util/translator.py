@@ -12,6 +12,8 @@ import time
 import json
 import logging
 import threading
+import math
+from urllib.parse import urlsplit
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 import requests
@@ -46,21 +48,14 @@ def _retry_after_seconds(response):
 
 
 class TranslatorLLM:
-    """Haiku localization with rate limiting and budget accounting."""
+    """Localization with rate limiting and budget accounting."""
 
-    PRICES_PER_MILLION = {
-        'input': 0.10, 'cached': 0.01, 'write_5m': 0.125, 'write_1h': 0.20, 'output': 0.50,
-        'long_context_threshold': 100_000,
-        'long_context_input': 0.50, 'long_context_cached': 0.05,
-        'long_context_write_5m': 0.625, 'long_context_write_1h': 1.0,
-        'long_context_output': 2.50,
-    }
     MAX_ATTEMPTS = 2
 
     def __init__(
         self,
         api_token: str,
-        model: str = "claude-haiku-5-5",
+        model: str = "pearl",
         api_url: str = "https://llm.leisiyu.dev/v1/chat/completions",
         min_length: int = 1,
         max_length: int = 5000,
@@ -69,8 +64,6 @@ class TranslatorLLM:
         max_cost: float = 0.0,
         cost_warning_threshold: float = 1.0,
     ):
-        if model != 'claude-haiku-5-5':
-            raise ValueError('Production localization requires claude-haiku-5-5')
         if type(max_output_tokens) is not int or max_output_tokens < 1 or max_output_tokens > 1024:
             raise ValueError('max_output_tokens must be an integer from 1 to 1024')
         self.api_token = api_token
@@ -86,12 +79,18 @@ class TranslatorLLM:
         self._initial_request_completed = False
         self.logger = logging.getLogger(self.__class__.__name__)
         self._parse_rate_limit()
-        self._cost_lock = threading.Lock()
+        self._cost_lock = threading.RLock()
+        self._quota_per_unit = None
+        self._baseline_usage = None
+        self._last_usage = None
+        self._last_read_in_flight = False
+        self._accounting_failed = False
+        parts = urlsplit(api_url)
+        self._gateway_origin = f"{parts.scheme}://{parts.netloc}"
         self.total_tokens = dict.fromkeys((
             "input", "ordinary", "cached", "write", "write_5m", "write_1h", "output", "reasoning", "total"
         ), 0)
         self.total_cost = 0.0
-        self.reserved_cost = 0.0
         self._in_flight_requests = 0
         self.request_count = 0
         self.success_count = 0
@@ -126,21 +125,49 @@ class TranslatorLLM:
                 delay = self.rate_limit_seconds - (current_time - self.request_history[0]) + 0.1
             time.sleep(max(0.05, delay))
 
-    def _reserve_cost(self, messages):
-        # UTF-8 bytes bound the text token count without an extra runtime dependency.
-        input_bound = len(json.dumps(messages, ensure_ascii=False).encode('utf-8')) + 128
-        prices = self.PRICES_PER_MILLION
-        is_long_context = input_bound > prices['long_context_threshold']
-        input_rate = prices['long_context_write_1h'] if is_long_context else prices['write_1h']
-        output_rate = prices['long_context_output'] if is_long_context else prices['output']
-        maximum = (input_bound * input_rate + self.max_output_tokens * output_rate) / 1e6
+    def _read_usage(self):
+        response = requests.get(
+            self._gateway_origin + '/api/usage/token/',
+            headers={'Authorization': f'Bearer {self.api_token}'}, timeout=(10, 30))
+        response.raise_for_status()
+        payload = response.json()
+        value = payload['data']['total_used']
+        if payload.get('success') is not True or type(value) is not int or value < 0:
+            raise ValueError('Invalid gateway usage')
+        return value
+
+    def _refresh_usage(self, final=False):
         with self._cost_lock:
-            if self.unknown_cost_requests or (self.max_cost > 0 and self.total_cost + self.reserved_cost + maximum > self.max_cost):
-                self.logger.warning("Translation paused: insufficient budget or incomplete usage accounting")
+            try:
+                if self._quota_per_unit is None:
+                    response = requests.get(self._gateway_origin + '/api/status', timeout=(10, 30))
+                    response.raise_for_status()
+                    payload = response.json()
+                    unit = payload['data']['quota_per_unit']
+                    if payload.get('success') is not True or isinstance(unit, bool) or not isinstance(unit, (int, float)) or not math.isfinite(unit) or unit <= 0:
+                        raise ValueError('Invalid gateway quota unit')
+                    self._quota_per_unit = unit
+                current = self._read_usage()
+                if self._baseline_usage is None:
+                    self._baseline_usage = current
+                if current < self._baseline_usage or (self._last_usage is not None and current < self._last_usage and (not self._last_read_in_flight and not self._in_flight_requests)):
+                    raise ValueError('Gateway usage decreased unexpectedly')
+                self._last_usage = current
+                self._last_read_in_flight = self._in_flight_requests > 0
+                self.total_cost = (current - self._baseline_usage) / self._quota_per_unit
+                return True
+            except (requests.RequestException, KeyError, TypeError, ValueError, OverflowError) as error:
+                self.logger.error('Gateway usage unavailable: %s', str(error).replace(self.api_token, '[redacted]'))
+                self._accounting_failed = True
+                return False
+
+    def _reserve_cost(self, messages):
+        with self._cost_lock:
+            if self._accounting_failed or not self._refresh_usage() or (self.max_cost > 0 and self.total_cost >= self.max_cost):
+                self.logger.warning('Translation paused: budget threshold or incomplete usage accounting')
                 return None
-            self.reserved_cost += maximum
             self._in_flight_requests += 1
-        return maximum
+            return 0.0
 
     @classmethod
     def usage_metrics(cls, usage):
@@ -172,10 +199,12 @@ class TranslatorLLM:
                 write_1h += write_total - known_breakdown
         cached = details.get('cached_tokens', 0)
         cached = 0 if cached is None else cached
+        reasoning = completion_details.get('reasoning_tokens')
+        reasoning = 0 if reasoning is None else reasoning
         metrics = {
             'input': usage['prompt_tokens'], 'output': usage['completion_tokens'],
             'cached': cached, 'write': write_total, 'write_5m': write_5m, 'write_1h': write_1h,
-            'reasoning': completion_details.get('reasoning_tokens', 0),
+            'reasoning': reasoning,
         }
         if any(type(value) is not int or value < 0 for value in metrics.values()):
             raise ValueError('Invalid token usage')
@@ -184,22 +213,7 @@ class TranslatorLLM:
                 or metrics['write'] != metrics['write_5m'] + metrics['write_1h']):
             raise ValueError('Inconsistent token usage')
         metrics['total'] = metrics['input'] + metrics['output']
-        prices = cls.PRICES_PER_MILLION
-        input_rate = prices['input']
-        cached_rate = prices['cached']
-        write_5m_rate = prices['write_5m']
-        write_1h_rate = prices['write_1h']
-        output_rate = prices['output']
-        if metrics['input'] > prices['long_context_threshold']:
-            input_rate = prices['long_context_input']
-            cached_rate = prices['long_context_cached']
-            write_5m_rate = prices['long_context_write_5m']
-            write_1h_rate = prices['long_context_write_1h']
-            output_rate = prices['long_context_output']
-        cost = (metrics['ordinary'] * input_rate + metrics['cached'] * cached_rate
-                + metrics['write_5m'] * write_5m_rate + metrics['write_1h'] * write_1h_rate
-                + metrics['output'] * output_rate) / 1e6
-        return metrics, cost
+        return metrics, None
 
     def translate(self, text: str, target_language: str, system_prompt: List[dict], user_prompt: str,
                   preserve_line_entries: bool = False) -> Optional[str]:
@@ -272,8 +286,8 @@ class TranslatorLLM:
         if reservation is None:
             return None, None
         data = {'model': self.model, 'max_tokens': self.max_output_tokens, 'messages': messages}
-        actual_cost = None
         metrics = None
+        request_uncertain = False
         succeeded = False
         with self._cost_lock:
             self.request_count += 1
@@ -284,20 +298,20 @@ class TranslatorLLM:
                 json=data, timeout=(10, 120),
             )
             if response.status_code != 200:
-                actual_cost = 0.0
+                request_uncertain = True
                 self.logger.error(f'Translation failed: HTTP {response.status_code}: {response.text.replace(self.api_token, "[redacted]")}')
                 retry_after = _retry_after_seconds(response) if response.status_code == 429 else None
                 retry = (f'HTTP 429;{retry_after}' if retry_after is not None else
                          f'HTTP {response.status_code}' if response.status_code in (500, 502, 503, 504) else None)
                 return None, retry
             payload = response.json()
-            metrics, actual_cost = self.usage_metrics(payload['usage'])
-            returned_model = payload.get('model', self.model)
+            metrics, _ = self.usage_metrics(payload['usage'])
+            returned_model = payload['model']
             with self._cost_lock:
                 self.returned_models.add(returned_model)
             choice = payload['choices'][0]
             finish_reason = choice.get('finish_reason', 'stop')
-            if not returned_model.startswith(self.model) or metrics['reasoning'] != 0 or finish_reason != 'stop':
+            if returned_model != self.model or finish_reason != 'stop':
                 self.logger.error(f'Rejected completion: model={returned_model}, reasoning={metrics["reasoning"]}, finish={finish_reason}')
                 return None, None
             translated = choice['message']['content']
@@ -319,29 +333,29 @@ class TranslatorLLM:
             succeeded = True
             return translated, None
         except (requests.RequestException, KeyError, IndexError, TypeError, ValueError) as error:
+            request_uncertain = True
             self.logger.error(f'Translation request failed: {str(error).replace(self.api_token, "[redacted]")}')
             return None, None
         finally:
             with self._cost_lock:
+                if request_uncertain:
+                    self._accounting_failed = True
+                    self.unknown_cost_requests += 1
+                self._refresh_usage()
                 self._in_flight_requests -= 1
-                self.reserved_cost = max(0.0, self.reserved_cost - reservation) if self._in_flight_requests else 0.0
-                self.total_cost += reservation if actual_cost is None else actual_cost
-                self.unknown_cost_requests += actual_cost is None
                 if metrics is not None:
                     for key, value in metrics.items():
                         self.total_tokens[key] += value
                 self.success_count += succeeded
                 self.fail_count += not succeeded
                 if not self._warning_shown and self.total_cost > self.cost_warning_threshold:
-                    self.logger.warning(f'Cost warning: current ${self.total_cost:.6f} exceeds ${self.cost_warning_threshold:.2f}')
+                    self.logger.warning('Usage threshold reached: current key usage delta $%.6f', self.total_cost)
                     self._warning_shown = True
-                if actual_cost is None:
-                    self.logger.error('Usage accounting incomplete; reserved the maximum cost and stopped new requests')
-            if metrics is not None:
-                self.logger.info(f'Token usage: input={metrics["input"]}, cached={metrics["cached"]}, write={metrics["write"]}, output={metrics["output"]}, reasoning={metrics["reasoning"]}, cost=${actual_cost:.8f}')
 
     def get_cost_summary_dict(self) -> dict:
         with self._cost_lock:
+            if self.request_count and not self._in_flight_requests:
+                self._refresh_usage(final=True)
             return {
                 'model': self.model,
                 'returned_models': sorted(self.returned_models),
@@ -356,9 +370,10 @@ class TranslatorLLM:
                 'output_tokens': self.total_tokens['output'], 'reasoning_tokens': self.total_tokens['reasoning'],
                 'total_tokens': self.total_tokens['total'],
                 'cache_hit_rate': self.total_tokens['cached'] / max(1, self.total_tokens['input']),
-                'estimated_cost_usd': self.total_cost, 'reserved_cost_usd': self.reserved_cost,
+                'key_usage_delta_usd': None if self._baseline_usage is None and self._accounting_failed else self.total_cost,
                 'unknown_cost_requests': self.unknown_cost_requests,
-                'cost_tracking_complete': self.unknown_cost_requests == 0,
+                'cost_tracking_complete': not self._accounting_failed and self._in_flight_requests == 0,
+                'cost_basis': 'gateway_key_usage_delta',
             }
 
     def get_cost_summary(self) -> str:
@@ -366,7 +381,7 @@ class TranslatorLLM:
 
     def check_cost_limit(self) -> bool:
         with self._cost_lock:
-            return not self.unknown_cost_requests and (self.max_cost <= 0 or self.total_cost + self.reserved_cost < self.max_cost)
+            return not self._accounting_failed and (self.max_cost <= 0 or self.total_cost < self.max_cost)
 
     def should_translate(self, text: str) -> bool:
         return bool(text and text.strip()) and self.check_cost_limit()

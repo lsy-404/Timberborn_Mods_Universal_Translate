@@ -40,8 +40,8 @@ max_threads = 2
 max_threads_per_file = 2
 
 # Cost control settings
-# Maximum cost per run in USD. Translation will stop if this limit is reached.
-# Set to 0 to disable cost limiting.
+# Key usage threshold in USD. New requests stop when the threshold is reached.
+# Concurrent requests can exceed the threshold. Set to 0 to disable it.
 max_cost_per_run = 10.0
 
 # Cost warning threshold in USD. A warning will be logged if exceeded.
@@ -49,7 +49,7 @@ cost_warning_threshold = 5.0
 
 [llm]
 # LLM model to use for translation
-model = "claude-haiku-5-5"
+model = "pearl"
 
 # API endpoint (OpenAI-compatible)
 api_url = "https://llm.leisiyu.dev/v1/chat/completions"

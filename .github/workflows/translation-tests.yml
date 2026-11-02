@@ -26,4 +26,7 @@ jobs:
       - name: Install existing test dependencies
         run: pip install -r .github/scripts/requirements.txt tiktoken==0.14.0
       - name: Run offline translation and artifact contracts
-        run: python -m unittest discover -s test -p 'test_translation*.py' -v
+        run: |
+          python -m unittest discover -s test -p 'test_translation*.py' -v
+          python -m unittest discover -s test -p 'test_translator_gateway.py' -v
+          python -m unittest discover -s test -p 'test_gateway_accounting.py' -v
