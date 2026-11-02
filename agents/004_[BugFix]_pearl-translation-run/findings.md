@@ -1,0 +1,8 @@
+# Findings
+
+- Current TMUT is Timberborn_Mods_Universal_Translate, with production translation in GitHub Actions. Older memory concerned a separate Timberborn_Tools scheduled updater; that historical deployment was not treated as the current target. Both repository paths and current workflow runs were verified.
+- IRIS workspace inventory contains neither repository; file-based audit workflow applies. Local primary contains unrelated untracked gitsync-location.txt, which is preserved.
+- Latest failed Auto Translate Mods run is 41314812783 (2026-11-01 14:10 UTC). October 30/31 also show gateway source-control 403; October 29 instead reports unsupported text input. Precise current access must be checked with the newly authorized pearl key scope.
+
+- Key usage reads use the existing inference-key read-only endpoint. The separate user quota-query permission does not suppress the key counter. Final verification will independently reconcile native/controller settlement; a counter can temporarily include precharges and other requests sharing the key.
+- Protected main plus main-only automations secrets prevents live verification from the task branch; CI delivery must use the current repository rules, not assumptions from an older deployment.
