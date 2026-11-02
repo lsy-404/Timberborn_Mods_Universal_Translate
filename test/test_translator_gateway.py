@@ -6,6 +6,7 @@ import tomllib
 import unittest
 from concurrent.futures import ThreadPoolExecutor
 from types import SimpleNamespace
+from uuid import UUID
 from unittest.mock import Mock, patch
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -58,6 +59,30 @@ class GatewayTranslationTests(unittest.TestCase):
         self.assertEqual(payload["model"], "pearl")
         self.assertEqual(payload["max_tokens"], 1024)
         self.assertEqual(translator.get_cost_summary_dict()['key_usage_delta_usd'], 0)
+
+    @patch("translator.time.sleep")
+    @patch("translator.requests.post")
+    def test_job_session_is_shared_by_workers_and_retries(self, post, sleep):
+        response = lambda content: SimpleNamespace(status_code=200, json=lambda: {
+            "model": "pearl", "choices": [{"message": {"content": content}}],
+            "usage": {"prompt_tokens": 12, "completion_tokens": 2},
+        })
+        post.side_effect = [response(""), response("translated"), response("translated"), response("translated")]
+        translator = TranslatorLLM("test-token", rate_limit="")
+        other_job = TranslatorLLM("test-token", rate_limit="")
+        self.assertNotEqual(translator.session_id, other_job.session_id)
+        self.assertEqual(str(UUID(translator.session_id)), translator.session_id)
+        self.assertEqual(translator.translate("warmup", "frFR", [], "warmup"), "translated")
+        with ThreadPoolExecutor(max_workers=2) as pool:
+            results = list(pool.map(
+                lambda pair: translator.translate(pair[0], pair[1], [], pair[0]),
+                [("file one", "frFR"), ("file two", "deDE")],
+            ))
+        self.assertEqual(results, ["translated", "translated"])
+        self.assertEqual(post.call_count, 4)
+        self.assertEqual({call.kwargs['headers']['session-id'] for call in post.call_args_list},
+                         {translator.session_id})
+        self.assertEqual(translator.get_cost_summary_dict()['session_id'], translator.session_id)
 
     @patch("translator.requests.post")
     def test_large_context_uses_gateway_counter(self, post):

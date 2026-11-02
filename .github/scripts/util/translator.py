@@ -13,6 +13,7 @@ import json
 import logging
 import threading
 import math
+from uuid import uuid4
 from urllib.parse import urlsplit
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
@@ -70,6 +71,7 @@ class TranslatorLLM:
         if type(max_output_tokens) is not int or max_output_tokens < 1 or max_output_tokens > 1024:
             raise ValueError('max_output_tokens must be an integer from 1 to 1024')
         self.api_token = api_token
+        self.session_id = str(uuid4())
         self.model = model
         self.api_url = api_url
         self.min_length = min_length
@@ -303,7 +305,8 @@ class TranslatorLLM:
         reservation = self._reserve_cost(messages)
         if reservation is None:
             return None, None
-        data = {'model': self.model, 'max_tokens': self.max_output_tokens, 'messages': messages}
+        data = {'model': self.model, 'max_tokens': self.max_output_tokens, 'messages': messages,
+                'prompt_cache_options': {'mode': 'explicit'}}
         metrics = None
         request_uncertain = False
         succeeded = False
@@ -312,7 +315,8 @@ class TranslatorLLM:
         try:
             response = requests.post(
                 self.api_url,
-                headers={'Content-Type': 'application/json', 'Authorization': f'Bearer {self.api_token}'},
+                headers={'Content-Type': 'application/json', 'Authorization': f'Bearer {self.api_token}',
+                         'session-id': self.session_id},
                 json=data, timeout=(10, 120),
             )
             if response.status_code != 200:
@@ -377,7 +381,7 @@ class TranslatorLLM:
                 if self._refresh_usage(final=True):
                     self._finalized_request_count = self.request_count
             return {
-                'model': self.model,
+                'model': self.model, 'session_id': self.session_id,
                 'returned_models': sorted(self.returned_models),
                 'request_count': self.request_count, 'success_count': self.success_count, 'fail_count': self.fail_count,
                 'recovered_fail_count': self.recovered_fail_count,

@@ -817,6 +817,7 @@ def build_translation_prompt(
     """Keep reusable references separate from entry-specific source and context."""
     parts = system_prompt_parts(target_language, LANGUAGE_NAMES.get(target_language, target_language))
     system = [{'type': 'text', 'text': part} for part in parts]
+    system[-1]['prompt_cache_breakpoint'] = {'mode': 'explicit'}
     context = {'mod': mod_name, 'key': key, 'field_hint': prompt,
                'specific_note': specific_prompt, 'glossary_references': glossary_hints or []}
     preserve_line_entries = key == 'Beaver.NamePool'
