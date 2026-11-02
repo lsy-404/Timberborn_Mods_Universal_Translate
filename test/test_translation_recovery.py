@@ -58,6 +58,42 @@ class TranslationRecoveryTests(unittest.TestCase):
     def translate(self, client, source='Value {0}'):
         return client.translate(source, 'zhCN', [], json.dumps({'source_text': source}))
 
+    def test_missing_entity_retries_with_specific_feedback(self):
+        self.post.side_effect = [completion('펌프'), completion('나무꼬리 펌프')]
+        client = self.translator()
+        result = translate_mods.translate_entry(client, 'Label', {'raw': 'Folktails Pump'}, 'koKR', 'Test')
+        self.assertEqual(result, '나무꼬리 펌프')
+        self.assertEqual(self.post.call_count, 2)
+        feedback = self.post.call_args_list[1].kwargs['json']['messages'][-1]['content']
+        self.assertIn('Folktails -> 나무꼬리', feedback)
+        self.assertEqual(client.get_cost_summary_dict()['recovered_fail_count'], 1)
+
+    def test_repeated_missing_entity_stays_unresolved(self):
+        self.post.return_value = completion('펌프')
+        client = self.translator()
+        result = translate_mods.translate_entry(client, 'Label', {'raw': 'Folktails Pump'}, 'koKR', 'Test')
+        self.assertIsNone(result)
+        self.assertEqual(self.post.call_count, 2)
+        self.assertEqual(client.get_cost_summary_dict()['unresolved_translation_count'], 1)
+
+    def test_entity_match_respects_boundaries_and_inflected_stem(self):
+        self.post.return_value = completion('Pompa Folkogonami')
+        client = self.translator()
+        self.assertEqual(client.translate('Folktails Pump', 'plPL', [], '{}'), 'Pompa Folkogonami')
+        self.post.return_value = completion('펌프')
+        self.assertEqual(client.translate('NotFolktails Pump', 'koKR', [], '{}'), '펌프')
+        self.assertEqual(self.post.call_count, 2)
+
+    def test_preprocessed_entity_and_game_name_are_preserved(self):
+        glossary = translate_mods.merge_glossaries({'Folktails': {'zhCN': '神尾'}}, {})
+        self.post.side_effect = [completion('水泵'), completion('神尾水泵')]
+        client = self.translator()
+        result = translate_mods.translate_entry(client, 'Label', {'raw': 'Old', 'new': 'Folktails Pump'},
+                                               'zhCN', 'Test', glossary=glossary, language_priority=['zhCN'])
+        self.assertEqual(result, '神尾水泵')
+        self.post.side_effect = [completion('游戏'), completion('海狸浮生记游戏')]
+        self.assertEqual(client.translate('Timberborn game', 'zhCN', [], '{}'), '海狸浮生记游戏')
+
     def test_single_line_response_padding_needs_no_retry(self):
         self.post.return_value = completion('\r\n\t 值 {0} \n')
         client = self.translator()

@@ -19,7 +19,15 @@
         "ruRU": "Timberborn"
       },
       "provenance": "Steam localized store pages; zhCN/zhTW also data/_glossary.toml[Timberborn]",
-      "confidence": "project"
+      "confidence": "project",
+      "required_stems": {
+        "zhCN": "海狸浮生记",
+        "zhTW": "海狸浮生記",
+        "jaJP": "Timberborn",
+        "deDE": "Timberborn",
+        "frFR": "Timberborn",
+        "ruRU": "Timberborn"
+      }
     },
     {
       "source": "Folktails",
@@ -42,6 +50,15 @@
         "ptBR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=brazilian",
         "koKR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=koreana",
         "trTR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=turkish"
+      },
+      "required_stems": {
+        "zhCN": "神尾",
+        "zhTW": "神尾",
+        "jaJP": "フォークテイル",
+        "koKR": "나무꼬리",
+        "plPL": "Folkogon",
+        "ptBR": "Caudas-do-mato",
+        "trTR": "Köykuyruk"
       }
     },
     {
@@ -65,6 +82,12 @@
         "ptBR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=brazilian",
         "koKR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=koreana",
         "trTR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=turkish"
+      },
+      "required_stems": {
+        "zhCN": "铁牙",
+        "zhTW": "鐵牙",
+        "jaJP": "アイアン・ティース",
+        "koKR": "강철 이빨"
       }
     },
     {
