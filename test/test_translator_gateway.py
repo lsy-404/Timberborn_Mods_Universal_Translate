@@ -11,6 +11,8 @@ from unittest.mock import Mock, patch
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / ".github" / "scripts" / "util"))
 from translator import TranslatorLLM
+from gateway_get_stub import gateway_get_stub
+import requests
 
 
 class GatewayTranslationTests(unittest.TestCase):
@@ -19,7 +21,7 @@ class GatewayTranslationTests(unittest.TestCase):
         def gateway_get(url, **kwargs):
             data = {'quota_per_unit': 1000000} if url.endswith('/api/status') else {'total_used': self.usage}
             return Mock(json=Mock(return_value={'success': True, 'data': data}))
-        get = patch('translator.requests.get', side_effect=gateway_get)
+        get = patch('translator.requests.get', side_effect=gateway_get_stub(gateway_get, requests.get))
         get.start()
         self.addCleanup(get.stop)
 

@@ -14,6 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / '.github/scripts'))
 import translate_mods
 from translator import TranslatorLLM
+from gateway_get_stub import gateway_get_stub
+import requests
 
 
 def completion(text='值 {0}'):
@@ -36,7 +38,7 @@ class TranslationRecoveryTests(unittest.TestCase):
         post = patch('translator.requests.post')
         self.post = post.start()
         self.addCleanup(post.stop)
-        get = patch('translator.requests.get', side_effect=self.gateway_get)
+        get = patch('translator.requests.get', side_effect=gateway_get_stub(self.gateway_get, requests.get))
         get.start()
         self.addCleanup(get.stop)
         self.gateway_usage = 0

@@ -15,3 +15,5 @@
 - 核算测试 8 项通过，覆盖单位换算、失败、双并发和预占回落。旧测试仍使用已删除的固定价格字段和未 mock 的计费请求，需要同步修订。提交 5448ddd、5f68aaf。
 
 - 测试契约已更新：production 16、name pool 15、format context 16、gateway accounting 8 通过；reasoning_tokens 可为空但不接受非法类型。旧 recovery/gateway 测试由协作代理处理。提交 3b8439a、6243c77、f17a6de。
+
+- 独立冷 tokenizer 缓存时全局 GET 替身误拦截词表下载；为五个受影响 suite 改为只模拟网关 status 和 token usage，其他主机使用原始 GET。新增无需下载的字节分流回归，生产测试全新缓存实测 17 项通过；其余五组共 68 项通过。

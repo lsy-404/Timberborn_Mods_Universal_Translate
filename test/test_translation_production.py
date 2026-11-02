@@ -18,6 +18,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / '.github/scripts'))
 import translate_mods
 from translator import TranslatorLLM
+from gateway_get_stub import gateway_get_stub
+import requests
 from translation_prompt import protected_format_issues, restore_source_line_breaks, system_prompt_parts
 
 
@@ -49,7 +51,7 @@ class ProductionTranslationTests(unittest.TestCase):
             response = Mock()
             response.json.return_value = {'success': True, 'data': data}
             return response
-        patcher = patch('translator.requests.get', side_effect=get)
+        patcher = patch('translator.requests.get', side_effect=gateway_get_stub(get, requests.get))
         patcher.start()
         self.addCleanup(patcher.stop)
 
@@ -75,6 +77,20 @@ class ProductionTranslationTests(unittest.TestCase):
         for language, wording in {'plPL': 'Folkogonów', 'ptBR': 'Caudas-do-mato',
                                   'koKR': '나무꼬리', 'trTR': 'Köykuyruklar'}.items():
             self.assertIn(wording, system_prompt_parts(language, translate_mods.LANGUAGE_NAMES[language])[1])
+
+    def test_cold_tokenizer_download_uses_non_gateway_get(self):
+        import tiktoken.load
+        content = b'tokenizer fixture bytes'
+        other_response = Mock(content=content)
+        other_get = Mock(return_value=other_response)
+        gateway_get = Mock()
+        with patch('translator.requests.get', side_effect=gateway_get_stub(gateway_get, other_get)):
+            result = tiktoken.load.read_file('https://example.test/tokenizer')
+            gateway_url = TranslatorLLM(api_token='test-token')._gateway_origin + '/api/status'
+            requests.get(gateway_url)
+        self.assertEqual(result, content)
+        other_get.assert_called_once_with('https://example.test/tokenizer')
+        gateway_get.assert_called_once_with(gateway_url)
 
     def test_static_prefix_and_structured_source_boundary(self):
         first, user = self.prompts()
