@@ -15,3 +15,7 @@
 
 - PR 42 passed checks and merged at 014f4410c3a68db1eabfdb883e72c8d6132ef53c. Its bounded verify run stopped at usage validation before any completion; temporary policies were restored again.
 - Integrated a566f45 envelope correction and real-shape test fixtures; all six focused suites pass 86 assertions. No provider call is made by these checks. Preparing the corrected client for ordinary protected-branch delivery and a fresh bounded run.
+
+- PR 43 merged at 8cc1b8296dcc743d42fb4df77be7c49e7f96b214 after checks. Run 41367172120 authenticated/read usage correctly, then its first completion was rejected before admission at zero cost; temporary test policies restored.
+- Independent gateway probes used unique diagnostic admissions only; accepted controls were normally settled zero with providerUsage null, no provider calls and no remaining source reservation. Exact actual fixture standard text-parts control admitted successfully.
+- Integrated d9a81cd producer-side removal of the private caching marker and actual POST structure regression. Full prompt content/order, glossary, formatting checks and normal text arrays are retained; 86 focused assertions pass.
