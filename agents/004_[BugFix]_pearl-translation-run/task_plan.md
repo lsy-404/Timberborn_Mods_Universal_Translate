@@ -11,6 +11,6 @@
 - [x] Run focused offline behavior checks under /test and integrate isolated commits.
 
 ## Delivery and actual validation
-- [/] Recheck main protection and deliver only scoped changes.
-- [ ] Execute the existing bounded real translation verification on the new commit and verify translated TOML, accounting and workflow conclusion.
-- [ ] Resolve any concrete remaining failure and document historical run versus corrected-run status.
+- [x] Recheck main protection and deliver only scoped changes.
+- [x] Execute the existing bounded real translation verification on the new commit and verify translated TOML, accounting and workflow conclusion.
+- [x] Resolve any concrete remaining failure and document historical run versus corrected-run status.
