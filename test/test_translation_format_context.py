@@ -18,6 +18,8 @@ from translation_prompt import (
     PLACEHOLDER, TAG, protected_format_issues, protected_format_signature,
 )
 from translator import TranslatorLLM
+from gateway_get_stub import gateway_get_stub
+import requests
 
 
 def completion(text):
@@ -42,7 +44,7 @@ class SourceFormatContextTests(unittest.TestCase):
             response = Mock()
             response.json.return_value = {'success': True, 'data': data}
             return response
-        usage = patch('translator.requests.get', side_effect=get)
+        usage = patch('translator.requests.get', side_effect=gateway_get_stub(get, requests.get))
         usage.start()
         self.addCleanup(usage.stop)
 

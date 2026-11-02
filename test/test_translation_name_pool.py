@@ -14,6 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / '.github/scripts'))
 import translate_mods
 from translator import TranslatorLLM
+from gateway_get_stub import gateway_get_stub
+import requests
 import translation_prompt
 
 
@@ -41,7 +43,7 @@ class NamePoolTests(unittest.TestCase):
             response = Mock()
             response.json.return_value = {'success': True, 'data': data}
             return response
-        usage = patch('translator.requests.get', side_effect=get)
+        usage = patch('translator.requests.get', side_effect=gateway_get_stub(get, requests.get))
         usage.start()
         self.addCleanup(usage.stop)
         post = patch('translator.requests.post')
