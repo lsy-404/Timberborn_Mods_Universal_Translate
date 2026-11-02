@@ -60,6 +60,7 @@ class GatewayAccountingTests(unittest.TestCase):
         post.return_value = completion()
         client = TranslatorLLM('token', rate_limit='', max_cost=.05)
         self.assertEqual(client.translate('source', 'fr', [], 'source'), 'traduit')
+        client._last_usage_refresh -= client.USAGE_REFRESH_INTERVAL_SECONDS
         self.assertIsNone(client.translate('next', 'fr', [], 'next'))
         report = client.get_cost_summary_dict()
         self.assertAlmostEqual(report['key_usage_delta_usd'], .1)
@@ -116,7 +117,7 @@ class GatewayAccountingTests(unittest.TestCase):
     @patch('translator.requests.post')
     @patch('translator.requests.get')
     def test_two_concurrent_requests_settle_to_final_counter(self, get, post):
-        get.side_effect = self.setup_gateway([100, 100, 300, 160, 120])
+        get.side_effect = self.setup_gateway([100, 120])
         barrier = threading.Barrier(2)
         def request(*args, **kwargs):
             barrier.wait(timeout=3)
@@ -128,6 +129,50 @@ class GatewayAccountingTests(unittest.TestCase):
             results = list(pool.map(lambda text: client.translate(text, 'fr', [], text), ['one', 'two']))
         self.assertEqual(results, ['traduit', 'traduit'])
         self.assertAlmostEqual(client.get_cost_summary_dict()['key_usage_delta_usd'], .02)
+        self.assertEqual(get.call_count, 3)
+
+    @patch('translator.requests.post', return_value=completion())
+    @patch('translator.requests.get')
+    def test_final_refresh_is_cached_until_another_request(self, get, post):
+        get.side_effect = self.setup_gateway([100, 120, 130])
+        client = TranslatorLLM('token', rate_limit='')
+        self.assertEqual(client.translate('one', 'fr', [], 'one'), 'traduit')
+        self.assertAlmostEqual(client.get_cost_summary_dict()['key_usage_delta_usd'], .02)
+        self.assertAlmostEqual(client.get_cost_summary_dict()['key_usage_delta_usd'], .02)
+        self.assertEqual(get.call_count, 3)
+        self.assertEqual(client.translate('two', 'fr', [], 'two'), 'traduit')
+        self.assertAlmostEqual(client.get_cost_summary_dict()['key_usage_delta_usd'], .03)
+        self.assertEqual(get.call_count, 4)
+
+    @patch('translator.requests.post', return_value=completion())
+    @patch('translator.requests.get')
+    def test_final_read_failure_does_not_confirm_stale_snapshot(self, get, post):
+        get.side_effect = self.setup_gateway([100, ValueError('unavailable')])
+        client = TranslatorLLM('token', rate_limit='')
+        self.assertEqual(client.translate('one', 'fr', [], 'one'), 'traduit')
+        report = client.get_cost_summary_dict()
+        self.assertFalse(report['cost_tracking_complete'])
+        self.assertEqual(report['key_usage_delta_usd'], 0)
+        self.assertFalse(client.get_cost_summary_dict()['cost_tracking_complete'])
+        self.assertEqual(get.call_count, 3)
+
+    def test_usage_429_retries_only_with_short_retry_after(self):
+        import requests
+        for header, expected_calls in [('2', 2), ('1200', 1), ('NaN', 1), (None, 1)]:
+            with self.subTest(header=header):
+                limited = Mock(status_code=429, headers={} if header is None else {'Retry-After': header})
+                limited.raise_for_status.side_effect = requests.HTTPError('limited')
+                good = http({'code': True, 'data': {'object': 'token_usage', 'total_used': 1}})
+                client = TranslatorLLM('token', rate_limit='')
+                with patch('translator.requests.get', side_effect=[limited, good]) as get, patch('translator.time.sleep') as sleep:
+                    if expected_calls == 2:
+                        self.assertEqual(client._read_usage(), 1)
+                        sleep.assert_called_once_with(2)
+                    else:
+                        with self.assertRaises(requests.HTTPError):
+                            client._read_usage()
+                        sleep.assert_not_called()
+                    self.assertEqual(get.call_count, expected_calls)
 
     def test_transient_reservations_can_settle_lower(self):
         client = TranslatorLLM('token', rate_limit='')
