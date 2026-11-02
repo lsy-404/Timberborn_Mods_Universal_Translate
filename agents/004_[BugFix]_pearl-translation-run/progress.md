@@ -12,3 +12,6 @@
 
 - First verify_only run failed during standalone production contracts before the live verification step. Temporary key policies were immediately restored and verified against saved values; no paid translation requests occurred.
 - Integrated bbc50cd test-only repair: independent production suite passes 17 assertions with a fresh tokenizer cache; other five groups pass 68. Added a no-network byte-dispatch regression and kept context bounds unchanged.
+
+- PR 42 passed checks and merged at 014f4410c3a68db1eabfdb883e72c8d6132ef53c. Its bounded verify run stopped at usage validation before any completion; temporary policies were restored again.
+- Integrated a566f45 envelope correction and real-shape test fixtures; all six focused suites pass 86 assertions. No provider call is made by these checks. Preparing the corrected client for ordinary protected-branch delivery and a fresh bounded run.
