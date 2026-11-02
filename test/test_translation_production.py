@@ -105,7 +105,8 @@ class ProductionTranslationTests(unittest.TestCase):
         self.assertNotIn('current_translation', payload['context'])
         self.assertEqual(payload['source_format_contract']['placeholders'], {'{0}': 1})
         self.assertEqual(payload['source_format_contract']['line_breaks']['newline'], 1)
-        self.assertTrue(all(part['prompt_cache_breakpoint'] == {'mode': 'explicit'} for part in first))
+        self.assertEqual(first, [{'type': 'text', 'text': part} for part in
+                                 system_prompt_parts('zhCN', translate_mods.LANGUAGE_NAMES['zhCN'])])
 
     @patch('translator.requests.post')
     def test_actual_request_and_disjoint_cache_billing(self, post):
@@ -116,6 +117,12 @@ class ProductionTranslationTests(unittest.TestCase):
         body = post.call_args.kwargs['json']
         self.assertEqual(body['model'], 'pearl')
         self.assertEqual(body['max_tokens'], 1024)
+        self.assertEqual(set(body), {'model', 'max_tokens', 'messages'})
+        self.assertEqual(body['messages'], [
+            {'role': 'system', 'content': system}, {'role': 'user', 'content': user},
+        ])
+        self.assertTrue(all(set(part) == {'type', 'text'} and part['type'] == 'text'
+                            for part in body['messages'][0]['content']))
         self.assertNotIn('reasoning_effort', body)
         self.assertNotIn('service_tier', body)
         self.assertNotIn('prompt_cache_options', body)
