@@ -47,8 +47,10 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.addCleanup(sleep.stop)
 
     def gateway_get(self, url, **kwargs):
-        data = {'quota_per_unit': 1000000} if url.endswith('/api/status') else {'total_used': self.gateway_usage}
-        return Mock(json=Mock(return_value={'success': True, 'data': data}))
+        payload = ({'success': True, 'data': {'quota_per_unit': 1000000}}
+                   if url.endswith('/api/status') else
+                   {'code': True, 'data': {'object': 'token_usage', 'total_used': self.gateway_usage}})
+        return Mock(json=Mock(return_value=payload))
 
     def translator(self, **options):
         return TranslatorLLM(api_token='synthetic-test-token', rate_limit='', **options)

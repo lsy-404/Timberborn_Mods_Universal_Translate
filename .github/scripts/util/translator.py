@@ -132,7 +132,7 @@ class TranslatorLLM:
         response.raise_for_status()
         payload = response.json()
         value = payload['data']['total_used']
-        if payload.get('success') is not True or type(value) is not int or value < 0:
+        if payload.get('code') is not True or payload['data'].get('object') != 'token_usage' or type(value) is not int or value < 0:
             raise ValueError('Invalid gateway usage')
         return value
 

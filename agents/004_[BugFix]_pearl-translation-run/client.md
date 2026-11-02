@@ -17,3 +17,5 @@
 - 测试契约已更新：production 16、name pool 15、format context 16、gateway accounting 8 通过；reasoning_tokens 可为空但不接受非法类型。旧 recovery/gateway 测试由协作代理处理。提交 3b8439a、6243c77、f17a6de。
 
 - 独立冷 tokenizer 缓存时全局 GET 替身误拦截词表下载；为五个受影响 suite 改为只模拟网关 status 和 token usage，其他主机使用原始 GET。新增无需下载的字节分流回归，生产测试全新缓存实测 17 项通过；其余五组共 68 项通过。
+
+- 新验证在首次提供商请求前因用量响应封装不匹配而停止；完整控制器返回 usage 的 code=true 和 object=token_usage，status 仍为 success=true。客户端与全部测试桩已按各自契约修复，错误标记、对象及无效计数均拒绝；六组离线测试共 86 项通过。

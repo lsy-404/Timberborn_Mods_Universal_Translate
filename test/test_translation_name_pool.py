@@ -39,9 +39,11 @@ class NamePoolTests(unittest.TestCase):
 
     def setUp(self):
         def get(url, **kwargs):
-            data = {'quota_per_unit': 1000000000} if url.endswith('/api/status') else {'total_used': 0}
+            payload = ({'success': True, 'data': {'quota_per_unit': 1000000000}}
+                       if url.endswith('/api/status') else
+                       {'code': True, 'data': {'object': 'token_usage', 'total_used': 0}})
             response = Mock()
-            response.json.return_value = {'success': True, 'data': data}
+            response.json.return_value = payload
             return response
         usage = patch('translator.requests.get', side_effect=gateway_get_stub(get, requests.get))
         usage.start()

@@ -8,3 +8,5 @@
 - Protected main plus main-only automations secrets prevents live verification from the task branch; CI delivery must use the current repository rules, not assumptions from an older deployment.
 
 - The first bounded verification (41365793855) stopped before provider use: globally patched requests.get intercepted tiktoken cold-cache dependency downloads, yielding a MagicMock body instead of bytes. Combined PR discovery and warm local cache had hidden this isolation bug. Scoped gateway-only dispatch preserves real dependency reads without allowing fake gateway credentials to escape.
+
+- The second bounded run (41366541010) reached live initialization but sent zero provider requests: the key-usage endpoint returns code:true/object:token_usage, whereas status returns success:true. Initial mocks incorrectly used the status envelope for both. The complete native handler confirms integer quota units without scaling. The client now strictly implements each endpoint separately and rejects malformed flags/objects/counters.
