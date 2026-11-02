@@ -7,3 +7,5 @@
 | 002 | [Fix] uncached-warmup-concurrency |Complete the initial request warmup after the first valid response even when the provider reports no cache usage (uncached concurrency regression passed; final migrated-suite validation is recorded in task 003) | Preserve configured parallel request admission on Haiku | completed |
 | 003 | [Fix] haiku-cache-accounting |Account for Haiku cache reads and writes by TTL, and restore active gateway test coverage (81 focused offline tests passed across production, recovery, formatting, name-pool, and gateway suites) | Ensure local cost caps reflect actual Haiku usage | completed |
 | 004 | [BugFix] pearl-translation-run | Use the stable lowest-tier alias in the real translation workflow and repair failed runs | Keep provider versions server-managed and restore successful translations | completed |
+
+| 005 | [BugFix] prompt-cache-contract | Restore provider prompt caching through the public alias and verify real cache usage | Resolve reported zero cache usage in real translations | running |
