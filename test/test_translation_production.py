@@ -107,6 +107,7 @@ class ProductionTranslationTests(unittest.TestCase):
         self.assertEqual(payload['source_format_contract']['line_breaks']['newline'], 1)
         expected = [{'type': 'text', 'text': part} for part in
                     system_prompt_parts('zhCN', translate_mods.LANGUAGE_NAMES['zhCN'])]
+        expected[0]['prompt_cache_breakpoint'] = {'mode': 'explicit'}
         expected[-1]['prompt_cache_breakpoint'] = {'mode': 'explicit'}
         self.assertEqual(first, expected)
 
@@ -124,7 +125,8 @@ class ProductionTranslationTests(unittest.TestCase):
         self.assertEqual(body['messages'], [
             {'role': 'system', 'content': system}, {'role': 'user', 'content': user},
         ])
-        self.assertTrue(all(set(part) == {'type', 'text'} for part in system[:-1]))
+        self.assertEqual(system[0]['prompt_cache_breakpoint'], {'mode': 'explicit'})
+        self.assertTrue(all(set(part) == {'type', 'text'} for part in system[1:-1]))
         self.assertEqual(system[-1]['prompt_cache_breakpoint'], {'mode': 'explicit'})
         self.assertNotIn('reasoning_effort', body)
         self.assertNotIn('service_tier', body)
