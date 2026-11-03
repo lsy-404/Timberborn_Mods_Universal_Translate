@@ -1,0 +1,186 @@
+[_meta]
+name = "Water Pipes"
+
+["Building.WaterPipe.DisplayName"]
+new = "Water pipe"
+status = "normal"
+
+["Building.WaterPipe.Description"]
+new = "Connects intakes, boosters and outlets. Drag to lay a line or stack it to go up. Its inner light shows the pressure: blue = flowing down by gravity; cyan = plenty of pressure; yellow = 1-2 more levels; red = at the limit; off = no water. Badwater glows green instead of blue."
+status = "normal"
+
+["Building.WaterPipe.FlavorDescription"]
+new = "Why carry buckets when the river can walk itself?"
+status = "normal"
+
+["Building.WaterPipeIntake.DisplayName"]
+new = "Pipe intake"
+status = "normal"
+
+["Building.WaterPipeIntake.Description"]
+new = "Place it on the bank with the overhang above the water. Pipes connect to any of the spouts on its left wall and front; power comes in on the right. With power and a worker it pumps water up to 6 levels above the source water. Otherwise it works as a siphon: it can rise 2 levels and only feeds outlets lower than the source water. Select it to choose whether it moves clean water or badwater."
+status = "normal"
+
+["Building.WaterPipeIntake.FlavorDescription"]
+new = "Sip from here, pour over there."
+status = "normal"
+
+["Building.WaterPipeLargeIntake.DisplayName"]
+new = "Large pipe intake"
+status = "normal"
+
+["Building.WaterPipeLargeIntake.Description"]
+new = "Like the pipe intake, but with power and a worker it lifts water up to 12 levels above the source water and moves twice as much. Uses twice the power."
+status = "normal"
+
+["Building.WaterPipeLargeIntake.FlavorDescription"]
+new = "More muscle, more height."
+status = "normal"
+
+["Building.WaterPipeBooster.DisplayName"]
+new = "Booster pump"
+status = "normal"
+
+["Building.WaterPipeBooster.Description"]
+new = "Place it in the middle of a pipe. When powered it adds 6 levels to the pressure of the water passing through; several boosters add up. No worker needed."
+status = "normal"
+
+["Building.WaterPipeBooster.FlavorDescription"]
+new = "A little push halfway there."
+status = "normal"
+
+["Building.WaterPipeOutlet.DisplayName"]
+new = "Pipe outlet"
+status = "normal"
+
+["Building.WaterPipeOutlet.Description"]
+new = "Place it at the end of a pipe in any orientation: its mouth faces away on its own and the water pours out right in front of it."
+status = "normal"
+
+["Building.WaterPipeOutlet.FlavorDescription"]
+new = "Everything that goes in must come out."
+status = "normal"
+
+["WaterPipes.Panel.Flow"]
+new = "Flow: {0} / {1} m³/s ({2}%)"
+status = "normal"
+
+["WaterPipes.Panel.FlowUnlimited"]
+new = "Flow: {0} m³/s"
+status = "normal"
+
+["WaterPipes.Panel.FlowSaturated"]
+new = " — at maximum!"
+status = "normal"
+
+["WaterPipes.Panel.Pressure"]
+new = "Pressure: water can rise {0} more levels"
+status = "normal"
+
+["WaterPipes.Panel.PressureLimit"]
+new = "Pressure: at the limit, cannot rise further"
+status = "normal"
+
+["WaterPipes.Panel.Gravity"]
+new = "Pressure: flowing down by gravity"
+status = "normal"
+
+["WaterPipes.Panel.NoWater"]
+new = "No water"
+status = "normal"
+
+["WaterPipes.Panel.Pumping"]
+new = "Pumping: {0} m³/s"
+status = "normal"
+
+["WaterPipes.Panel.Siphon"]
+new = "Siphon (no power or no worker): {0} m³/s"
+status = "normal"
+
+["WaterPipes.Panel.Pouring"]
+new = "Pouring: {0} m³/s"
+status = "normal"
+
+["Building.WaterPipeValve.DisplayName"]
+new = "Pipe valve"
+status = "normal"
+
+["Building.WaterPipeValve.Description"]
+new = "Place it at a pipe junction. Select it to open or close each outlet: water does not pass through a closed side. The yellow plate marks the front."
+status = "normal"
+
+["Building.WaterPipeValve.FlavorDescription"]
+new = "This way yes, that way no."
+status = "normal"
+
+["WaterPipes.Valve.Title"]
+new = "Click to open or close each outlet:"
+status = "normal"
+
+["WaterPipes.Valve.NoPipes"]
+new = "Connect pipes to the valve to choose where the water goes."
+status = "normal"
+
+["WaterPipes.Valve.Open"]
+new = "open"
+status = "normal"
+
+["WaterPipes.Valve.Closed"]
+new = "closed"
+status = "normal"
+
+["WaterPipes.Valve.Side.Down"]
+new = "Front (yellow plate)"
+status = "normal"
+
+["WaterPipes.Valve.Side.Up"]
+new = "Back"
+status = "normal"
+
+["WaterPipes.Valve.Side.Left"]
+new = "Left"
+status = "normal"
+
+["WaterPipes.Valve.Side.Right"]
+new = "Right"
+status = "normal"
+
+["WaterPipes.Valve.Side.Top"]
+new = "Top"
+status = "normal"
+
+["WaterPipes.Valve.Side.Bottom"]
+new = "Bottom"
+status = "normal"
+
+["Building.WaterPipeTankInlet.DisplayName"]
+new = "Tank inlet"
+status = "normal"
+
+["Building.WaterPipeTankInlet.Description"]
+new = "Place it at the end of a pipe, next to a tank: it fills the tank with the water arriving through the pipe, no beavers carrying it. Clean water is stored as water and badwater as badwater. Every 1 m³ of water makes 1 unit, up to 12 per hour."
+status = "normal"
+
+["Building.WaterPipeTankInlet.FlavorDescription"]
+new = "Straight from the river into the barrel."
+status = "normal"
+
+["WaterPipes.Panel.FillingTank"]
+new = "Tank: {0} / {1} — filling {2} per hour (max. {3})"
+status = "normal"
+
+["WaterPipes.Panel.NoTank"]
+new = "No liquid tank next to it"
+status = "normal"
+
+["WaterPipes.Pump.Title"]
+new = "Water this intake moves:"
+status = "normal"
+
+["WaterPipes.Pump.Water"]
+new = "Clean water"
+status = "normal"
+
+["WaterPipes.Pump.Badwater"]
+new = "Badwater"
+status = "normal"

@@ -142,7 +142,7 @@ new = "Water source: {0}"
 status = "normal"
 
 ["HDBF.Panel.WaterShortage"]
-new = "Water shortage: growth {0}% (yield -{1}%)"
+new = "Water shortage: growth {0}% (growth slowed {1}%)"
 status = "normal"
 
 ["HDBF.Panel.WaterPipe"]
@@ -306,7 +306,7 @@ new = "Power port"
 status = "normal"
 
 ["HDBF.Port.Pipe"]
-new = "Pipe port"
+new = "Pipe network (auto-refill)"
 status = "normal"
 
 ["HDBF.Port.Logistics"]
@@ -374,11 +374,11 @@ new = "Entrance blocked"
 status = "normal"
 
 ["HDBF.Warning.Shutdown"]
-new = "Maintenance overdue"
+new = "Production halted"
 status = "normal"
 
 ["HDBF.Warning.AdapterFailed"]
-new = "Entrance blocked"
+new = "Compatibility adapter failed"
 status = "normal"
 
 ["HDBF.Warning.OutputFull"]
@@ -478,7 +478,7 @@ new = "The farm is not active yet."
 status = "normal"
 
 ["HDBF.Error.RefillUnavailable"]
-new = "Manual refill is not available in this build."
+new = "The manual refill source is not reachable."
 status = "normal"
 
 ["HDBF.Error.CropNotAvailable"]
@@ -542,11 +542,11 @@ new = "C is the tank coverage; growth falls below C_min and stops under a quarte
 status = "normal"
 
 ["HDBF.Tooltip.Maintenance"]
-new = "Consumes upkeep materials and resets the maintenance timer."
+new = "One click pays every overdue cycle and resets the maintenance timer."
 status = "normal"
 
 ["HDBF.Tooltip.MaintenanceShutdown"]
-new = "The farm is stalled; performing maintenance restores output."
+new = "The farm is stalled; one maintenance click pays every overdue cycle and restores output."
 status = "normal"
 
 ["HDBF.Tooltip.Power"]
@@ -562,7 +562,7 @@ new = "Requests one manual refill trip."
 status = "normal"
 
 ["HDBF.Tooltip.PipeWater"]
-new = "The pipe port supplies water automatically."
+new = "Auto-refill draws only from vanilla liquid tanks (Small/Medium/Large) connected to the pipe network; a pipe attached to the farm shell does nothing and the farm does not need to stand next to the pipes."
 status = "normal"
 
 ["HDBF.Tooltip.NoWaterSource"]
@@ -771,4 +771,104 @@ status = "normal"
 
 ["HDBF.Panel.GrowingPlantedValue"]
 new = "{0} / {1} slots"
+status = "normal"
+
+["HDBF.Panel.IdleReasonLabel"]
+new = "Status"
+status = "normal"
+
+["HDBF.IdleReason.None"]
+new = "Working"
+status = "normal"
+
+["HDBF.IdleReason.Paused"]
+new = "Paused"
+status = "normal"
+
+["HDBF.IdleReason.NoWorkers"]
+new = "No workers on duty"
+status = "normal"
+
+["HDBF.IdleReason.EntranceBlocked"]
+new = "Entrance blocked"
+status = "normal"
+
+["HDBF.IdleReason.OutputFull"]
+new = "Output inventory full"
+status = "normal"
+
+["HDBF.IdleReason.WaterShortage"]
+new = "Water shortage"
+status = "normal"
+
+["HDBF.IdleReason.MaintenanceStalled"]
+new = "Maintenance stalled"
+status = "normal"
+
+["HDBF.IdleReason.MaintenanceDue"]
+new = "Maintenance due"
+status = "normal"
+
+["HDBF.IdleReason.Fallow"]
+new = "Fallow (resting)"
+status = "normal"
+
+["HDBF.Tooltip.IdleReason"]
+new = "The first active reason the farm is not doing farm work; Working means everything is fine."
+status = "normal"
+
+["HDBF.Panel.AutoMaintenanceLabel"]
+new = "Automatic maintenance"
+status = "normal"
+
+["HDBF.Panel.AutoMaintenanceOn"]
+new = "On"
+status = "normal"
+
+["HDBF.Panel.AutoMaintenanceOff"]
+new = "Off"
+status = "normal"
+
+["HDBF.Tooltip.AutoMaintenance"]
+new = "When enabled the farm pays every overdue upkeep cycle automatically each day at the same material cost as pressing Perform maintenance."
+status = "normal"
+
+["HDBF.Panel.MaintenanceCatchUpLabel"]
+new = "Catch-up bill"
+status = "normal"
+
+["HDBF.Panel.MaintenanceCatchUpValue"]
+new = "{0} cycle(s) overdue · needs {2} ×{1}"
+status = "normal"
+
+["HDBF.Error.MaintenanceNotDue"]
+new = "Maintenance is not due yet."
+status = "normal"
+
+["HDBF.Error.RefillTankFull"]
+new = "The water tank is already full."
+status = "normal"
+
+["HDBF.Port.NoPipeTank"]
+new = "No water tank in pipe network"
+status = "normal"
+
+["HDBF.Port.NoPipeNetwork"]
+new = "No pipe network"
+status = "normal"
+
+["HDBF.Port.TankDry"]
+new = "Pipe tank empty"
+status = "normal"
+
+["HDBF.Port.AdapterUnavailable"]
+new = "Timber Pipes unavailable"
+status = "normal"
+
+["HDBF.Port.BindingFailed"]
+new = "Pipe binding failed"
+status = "normal"
+
+["HDBF.Panel.WaterPaths"]
+new = "Water refill paths: pipe network (auto) · manual refill within 12 cells · hauling water from storage"
 status = "normal"
