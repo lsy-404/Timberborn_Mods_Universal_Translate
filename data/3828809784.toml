@@ -872,3 +872,31 @@ status = "normal"
 ["HDBF.Panel.WaterPaths"]
 new = "Water refill paths: pipe network (auto) · manual refill within 12 cells · hauling water from storage"
 status = "normal"
+
+["HDBF.Port.LogisticsDetected"]
+new = "Logistics module detected (produce not handed over yet)"
+status = "normal"
+
+["HDBF.Tooltip.LogisticsPort"]
+new = "HDBF does not put its harvest onto conveyors or other logistics mods yet. Move the produce with vanilla haulers or warehouses instead."
+status = "normal"
+
+["HDBF.Action.RefillAll"]
+new = "Refill all indoor farms"
+status = "normal"
+
+["HDBF.Action.RefillAllDone"]
+new = "Refilled {0} indoor farm(s)"
+status = "normal"
+
+["HDBF.Tooltip.RefillAll"]
+new = "Refills every indoor farm once. Each farm pays its own 2 farm actions and needs a reachable water source within 12 cells."
+status = "normal"
+
+["HDBF.Port.GlobalSupply"]
+new = "Connected (settlement-wide pipe supply)"
+status = "normal"
+
+["HDBF.Error.NoFarms"]
+new = "No indoor farm to refill"
+status = "normal"

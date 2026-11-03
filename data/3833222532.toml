@@ -1,0 +1,38 @@
+[_meta]
+name = "Japanese Stone Waterworks"
+
+["StoneFloodgate.Name"]
+new = "Stone Floodgate"
+status = "normal"
+
+["StoneDoubleFloodgate.Name"]
+new = "Double Stone Floodgate"
+status = "normal"
+
+["StoneTripleFloodgate.Name"]
+new = "Triple Stone Floodgate"
+status = "normal"
+
+["StoneDam.Name"]
+new = "Stone Dam"
+status = "normal"
+
+["StoneFillValve.Name"]
+new = "Stone Fill Valve"
+status = "normal"
+
+["StoneThrottlingValve.Name"]
+new = "Stone Throttling Valve"
+status = "normal"
+
+["StoneImpermeableFloor.Name"]
+new = "Stone Impermeable Floor"
+status = "normal"
+
+["StoneContaminationBarrier.Name"]
+new = "Stone Contamination Barrier"
+status = "normal"
+
+["StoneIrrigationBarrier.Name"]
+new = "Stone Irrigation Barrier"
+status = "normal"

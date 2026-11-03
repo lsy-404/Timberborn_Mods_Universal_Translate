@@ -1,0 +1,62 @@
+[_meta]
+name = "Decoration"
+
+["Building.WoodenPlanterBox1x1.DisplayName"]
+new = "Wooden Planter Box 1×1"
+status = "normal"
+
+["Building.WoodenPlanterBox1x1.Description"]
+new = "A timber planter packed with flowers."
+status = "normal"
+
+["Building.WoodenPlanterBox1x1.FlavorDescription"]
+new = "Hand-built by the Folktails."
+status = "normal"
+
+["Building.WoodenPlanterBox1x2.DisplayName"]
+new = "Wooden Planter Box 1×2"
+status = "normal"
+
+["Building.WoodenPlanterBox1x2.Description"]
+new = "A timber planter packed with flowers."
+status = "normal"
+
+["Building.WoodenPlanterBox1x2.FlavorDescription"]
+new = "Hand-built by the Folktails."
+status = "normal"
+
+["Building.WoodenPlanterBox2x2.DisplayName"]
+new = "Wooden Planter Box 2×2"
+status = "normal"
+
+["Building.WoodenPlanterBox2x2.Description"]
+new = "A timber planter packed with flowers."
+status = "normal"
+
+["Building.WoodenPlanterBox2x2.FlavorDescription"]
+new = "Hand-built by the Folktails."
+status = "normal"
+
+["Building.HangingFlowerBed1x3.DisplayName"]
+new = "Hanging Flower Bed 1×3"
+status = "normal"
+
+["Building.HangingFlowerBed1x3.Description"]
+new = "A wooden pergola with wisteria and lanterns over an open walkway."
+status = "normal"
+
+["Building.HangingFlowerBed1x3.FlavorDescription"]
+new = "Hand-built by the Folktails."
+status = "normal"
+
+["Building.HangingFlowerBed1x4.DisplayName"]
+new = "Hanging Flower Bed 1×4"
+status = "normal"
+
+["Building.HangingFlowerBed1x4.Description"]
+new = "A wooden pergola with wisteria and lanterns over an open walkway."
+status = "normal"
+
+["Building.HangingFlowerBed1x4.FlavorDescription"]
+new = "Hand-built by the Folktails."
+status = "normal"

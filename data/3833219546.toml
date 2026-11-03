@@ -1,0 +1,42 @@
+[_meta]
+name = "Japanese Housing"
+
+["JapaneseHousing.Roof1x1.IronTeeth.Name"]
+new = "Japanese Roof1x1"
+status = "normal"
+
+["JapaneseHousing.Roof1x2.IronTeeth.Name"]
+new = "Japanese Roof1x2"
+status = "normal"
+
+["JapaneseHousing.Roof2x2.IronTeeth.Name"]
+new = "Japanese Roof2x2"
+status = "normal"
+
+["JapaneseHousing.Roof2x3.IronTeeth.Name"]
+new = "Japanese Roof2x3"
+status = "normal"
+
+["JapaneseHousing.Roof3x2.IronTeeth.Name"]
+new = "Japanese Roof3x2"
+status = "normal"
+
+["JapaneseHousing.Barrack.IronTeeth.Name"]
+new = "Japanese Barrack"
+status = "normal"
+
+["JapaneseHousing.LargeBarrack.IronTeeth.Name"]
+new = "Japanese Large Barrack"
+status = "normal"
+
+["JapaneseHousing.LargeRowhouse.IronTeeth.Name"]
+new = "Japanese Large Rowhouse"
+status = "normal"
+
+["JapaneseHousing.Rowhouse.IronTeeth.Name"]
+new = "Japanese Rowhouse"
+status = "normal"
+
+["JapaneseHousing.Roof3x3.IronTeeth.Name"]
+new = "Japanese Roof 3x3"
+status = "normal"

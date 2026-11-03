@@ -4791,6 +4791,18 @@ status = "normal"
 new = "{0} is on. BeaverBuddies has the same optimizations built in, made for multiplayer, and turned them off so they don't run twice. Before playing with others, turn off {0} in the mod manager, or the game can desync."
 status = "normal"
 
+["BeaverBuddies.Settings.MyFaction"]
+new = "My Faction"
+status = "normal"
+
+["BeaverBuddies.Settings.MyFaction.Tooltip"]
+new = "The faction you build with in someone else's game. You can also pick it in the lobby before the host starts."
+status = "normal"
+
+["BeaverBuddies.Settings.MyFaction.Host"]
+new = "Host's faction"
+status = "normal"
+
 ["BeaverBuddies.Trading.Amount"]
 raw = "Amount"
 status = "abandoned"

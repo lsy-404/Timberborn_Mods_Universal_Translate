@@ -1,0 +1,14 @@
+[_meta]
+name = "Construction Supply"
+
+["Building.ConstructionSupply.DisplayName"]
+new = "Construction Supply"
+status = "normal"
+
+["Building.ConstructionSupply.Description"]
+new = "Workers carry building materials from storage straight to construction sites. Builders only build."
+status = "normal"
+
+["Building.ConstructionSupply.FlavorDescription"]
+new = "Planks arrive before anyone asks."
+status = "normal"

@@ -678,11 +678,43 @@ new = "Fisher Flag"
 status = "normal"
 
 ["Building.FisherFlag.Description"]
-new = "Employs a fisher who catches fresh fish from the shore, where the water is clean and deep enough."
+new = "Employs a fisher who catches fresh fish from the shore, where clean water at least 0.5 m deep lies no more than 1.25 m below the bank."
 status = "normal"
 
 ["Building.FisherFlag.FlavorDescription"]
 new = "A quiet bank, a long wait and a longer story about the one that got away."
+status = "normal"
+
+["Building.ModularWarehouse.DisplayName"]
+new = "Modular Warehouse"
+status = "normal"
+
+["Building.ModularWarehouse.Description"]
+new = "Stores up to 5 goods, each in its own slot with its own warehouse settings. Each attached Warehouse Module adds a slot and storage."
+status = "normal"
+
+["Building.ModularWarehouse.FlavorDescription"]
+new = "One door, one ledger and a beaver who knows where everything is."
+status = "normal"
+
+["Building.WarehouseModule.DisplayName"]
+new = "Warehouse Module"
+status = "normal"
+
+["Building.WarehouseModule.Description"]
+new = "Adds storage and a slot to a Modular Warehouse when built beside it, on top of it, or on another attached module."
+status = "normal"
+
+["Building.WarehouseModule.FlavorDescription"]
+new = "Another floor of crates, and the ledger grows a page."
+status = "normal"
+
+["DeepFrontier.ModularWarehouse.Network"]
+new = "Modules: {0}. Capacity: {1}"
+status = "normal"
+
+["DeepFrontier.ModularWarehouse.ModuleUnattached"]
+new = "Not attached to a Modular Warehouse"
 status = "normal"
 
 ["Building.SmogScrubber.DisplayName"]
@@ -1214,7 +1246,7 @@ new = "Reactor maintenance completed during the stop."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Notification.Meltdown"]
-new = "REACTOR MELTDOWN: the Nuclear Reactor was destroyed. {0} killed, {1} irradiated."
+new = "REACTOR MELTDOWN: the Nuclear Reactor exploded, leaving a crater, and destroyed {2} structures around it. {0} killed, {1} irradiated."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Dialog.Title"]
@@ -1222,11 +1254,11 @@ new = "Reactor meltdown"
 status = "normal"
 
 ["DeepFrontier.Meltdown.Dialog.Casualties"]
-new = "The core melted down and destroyed the Nuclear Reactor. {0} were killed and {1} beavers were irradiated; irradiated beavers need 10 days of hospital care, and untreated radiation sickness is fatal."
+new = "The core melted down and exploded. It blasted a crater where the Nuclear Reactor stood and destroyed everything built within {2} tiles ({3} structures). {0} were killed and {1} beavers were irradiated; irradiated beavers need 10 days of hospital care, and untreated radiation sickness is fatal."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Dialog.Contamination"]
-new = "Radioactive water is pouring from the ruin and will keep flowing for {0} days. Soil and water within {1} tiles turn radioactive: crops there die, pumps there stop and beavers who walk in are irradiated. Clean up with Radioactive Water Recovery Pumps and ship the water off the map at a Radioactive Waste Export."
+new = "Radioactive water floods the crater and spills over its rim, and more will keep pouring out for {0} days. Soil and water within {1} tiles turn radioactive: crops there die, pumps there stop and beavers who walk in are irradiated. Clean up with Radioactive Water Recovery Pumps and ship the water off the map at a Radioactive Waste Export."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Dialog.ShowSite"]
@@ -1350,7 +1382,7 @@ new = "Without coolant, or with its radioactive waste or radioactive water full,
 status = "normal"
 
 ["DeepFrontier.Meltdown.Panel.Consequences"]
-new = "A meltdown destroys the reactor: beavers within {0} tiles die, beavers within {1} tiles are irradiated, radioactive water pours out for {2} days and soil and water within {3} tiles stay radioactive for weeks. Pausing the reactor is a safe cold shutdown."
+new = "A meltdown blows up the reactor: it blasts a crater under it and destroys everything built within {4} tiles, beavers within {0} tiles die, beavers within {1} tiles are irradiated, radioactive water floods the crater, spills over and pours out for {2} days, and soil and water within {3} tiles stay radioactive for weeks. Pausing the reactor is a safe cold shutdown."
 status = "normal"
 
 ["DeepFrontier.Meltdown.Panel.ScramButton"]
@@ -3018,7 +3050,7 @@ new = "{0} was irradiated while hauling {1} and needs hospital care."
 status = "normal"
 
 ["DeepFrontier.Radiation.Planting.Warning"]
-new = "Radiation: plants on irradiated (yellow-green) ground die immediately, including anything planted there."
+new = "Radiation: plants on irradiated (yellow-green) ground die immediately. Planters skip that ground until it is clean."
 status = "normal"
 
 ["Building.RadioactiveSpring.DisplayName"]
@@ -3490,11 +3522,11 @@ new = "Reactor Bot is out of charge"
 status = "normal"
 
 ["Status.Need.ReactorBotCoolant"]
-new = "Overheating: needs reactor coolant water or cryocoolant from storage."
+new = "Overheating: needs coolant or it leaks radiation."
 status = "normal"
 
 ["Status.Need.ReactorBotCoolant.Short"]
-new = "Reactor Bot is overheating"
+new = "Reactor Bot is overheating and will leak radiation"
 status = "normal"
 
 ["Building.ReactorChargingBay.DisplayName"]
@@ -3514,7 +3546,7 @@ new = "Reactor retrofit"
 status = "normal"
 
 ["DeepFrontier.ReactorBot.Panel.Ordinary"]
-new = "Retrofit with a reinforced bot frame and a reactor power cell to make this bot a Reactor Bot: 5 times the load, 4 times the speed and 10 times the lifespan. It charges at a Reactor Charging Bay every 6.9 days and takes reactor coolant water or cryocoolant and steel or alloy from storage."
+new = "Retrofit with a reinforced bot frame and a reactor power cell to make this bot a Reactor Bot: 5 times the load, 4 times the movement speed, 5 times the working speed and 10 times the lifespan. It charges at a Reactor Charging Bay every 6.9 days and takes reactor coolant water or cryocoolant and steel or alloy from storage."
 status = "normal"
 
 ["DeepFrontier.ReactorBot.Panel.Queued"]
@@ -3522,7 +3554,7 @@ new = "Retrofit queued: the bot fetches a reinforced bot frame and a reactor pow
 status = "normal"
 
 ["DeepFrontier.ReactorBot.Panel.Upgraded"]
-new = "Reactor Bot: 5 times the load and 4 times the speed, and it wears out 10 times slower. Charges at a Reactor Charging Bay."
+new = "Reactor Bot: 5 times the load, 4 times the movement speed and 5 times the working speed, and it wears out 10 times slower. Charges at a Reactor Charging Bay."
 status = "normal"
 
 ["DeepFrontier.ReactorBot.Panel.Unplated"]
@@ -3535,6 +3567,30 @@ status = "normal"
 
 ["DeepFrontier.ReactorBot.Panel.Cancel"]
 new = "Cancel retrofit"
+status = "normal"
+
+["DeepFrontier.WorkerType.ReactorBot"]
+new = "Reactor Bots"
+status = "normal"
+
+["DeepFrontier.WorkerType.ReactorBot.Unlock.Tooltip"]
+new = "Unlock this workplace for Reactor Bots."
+status = "normal"
+
+["DeepFrontier.WorkerType.ReactorBot.Unlock.Prompt"]
+new = "Are you sure you want to unlock this workplace for Reactor Bots? It costs {0} Science Points."
+status = "normal"
+
+["DeepFrontier.WorkerType.ReactorBot.Unlock.CantUnlock"]
+new = "Can't unlock this workplace for Reactor Bots, not enough Science Points."
+status = "normal"
+
+["DeepFrontier.ReactorBotWorkplace.NoBotWear"]
+new = "Bots do not wear out faster here."
+status = "normal"
+
+["DeepFrontier.ReactorBotWorkplace.InsteadOfSpecialists"]
+new = "Set to Reactor Bots: they work here instead of trained {0}."
 status = "normal"
 
 ["ToolGroups.DeepFrontierQuarrying"]
