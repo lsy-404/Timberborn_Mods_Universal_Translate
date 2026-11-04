@@ -1,0 +1,14 @@
+[_meta]
+name = "Beaver Carts"
+
+["Building.CartShed.DisplayName"]
+new = "Cart Shed"
+status = "normal"
+
+["Building.CartShed.Description"]
+new = "Haulers with carts. They do the same jobs as Hauling Post workers, but carry four times a normal beaver's load per trip."
+status = "normal"
+
+["Building.CartShed.FlavorDescription"]
+new = "Two wheels beat four paws."
+status = "normal"

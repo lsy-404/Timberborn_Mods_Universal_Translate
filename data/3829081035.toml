@@ -6,7 +6,7 @@ new = "Deep Drill"
 status = "normal"
 
 ["Building.DeepDrill.Description"]
-new = "Draws deep ore from Deep Ore Sources in its district until they run out. Uses up metal blocks as drill bits; stops without them. Pipes: valve set to Fill."
+new = "Processes hauled raw ore using water. Requires metal blocks and treated planks. Pipes: valve set to Fill."
 status = "normal"
 
 ["Building.DeepDrill.FlavorDescription"]
@@ -18,7 +18,7 @@ new = "Deep Mine"
 status = "normal"
 
 ["Building.DeepMine.Description"]
-new = "Mines deep ore without end. Build it over a Deep Ore Vein. Uses up steel as drill bits and concrete as shaft lining; stops without them. Pipes: valve set to Fill."
+new = "Mines deep ore without end. Build it over a Deep Ore Vein. Requires metal blocks and bricks. Pipes: valve set to Fill."
 status = "normal"
 
 ["Building.DeepMine.FlavorDescription"]
@@ -38,15 +38,15 @@ new = "The ore is useless until the surface factory learns how to tame it."
 status = "normal"
 
 ["Building.DeepOreSource.DisplayName"]
-new = "Deep Ore Source"
+new = "Deep Ore Outcrop"
 status = "normal"
 
 ["Building.DeepOreSource.Description"]
-new = "A finite deposit of deep ore. Deep Drills in the same district draw from it until it is empty."
+new = "Scavengers collect raw ore here. Slowly recovers when empty."
 status = "normal"
 
 ["Building.DeepOreSource.FlavorDescription"]
-new = "Once it is dug out, it is gone."
+new = "It seeps back, but never fast enough."
 status = "normal"
 
 ["Building.DeepOreVein.DisplayName"]
@@ -75,6 +75,30 @@ status = "normal"
 
 ["Good.DeepAlloy.PluralDisplayName"]
 new = "Deep iron"
+status = "normal"
+
+["Good.RawDeepOre.DisplayName"]
+new = "Raw deep ore"
+status = "normal"
+
+["Good.RawDeepOre.PluralDisplayName"]
+new = "Raw deep ore"
+status = "normal"
+
+["Building.ScavengerFlag.DeepFrontierDescription"]
+new = "Collects scrap metal and raw deep ore."
+status = "normal"
+
+["DeepFrontier.MineralDeposit.Recharge.Next"]
+new = "Next {0} in {1} days."
+status = "normal"
+
+["DeepFrontier.MineralDeposit.Recharge.Rule"]
+new = "When empty: {0} recovered every {1} days."
+status = "normal"
+
+["DeepFrontier.Minerals.MissingSources"]
+new = "This map is missing: {0}. Existing settlements may need a few deposits placed with developer tools; custom maps can be edited before starting. Scavenger Flags collect raw deep ore. Stone pits collect sandstone and limestone. Quarries and Deep Mines need permanent seams or veins."
 status = "normal"
 
 ["Good.Coal.DisplayName"]
@@ -2237,12 +2261,16 @@ status = "normal"
 new = "Concrete"
 status = "normal"
 
+["Recipe.RawOreEarth.DisplayName"]
+new = "Ore crushing"
+status = "normal"
+
 ["Building.SandstonePit.DisplayName"]
 new = "Sandstone Pit"
 status = "normal"
 
 ["Building.SandstonePit.Description"]
-new = "Digs sandstone from outcrops within its range until they run out. A Sandstone Quarry later gives an endless supply."
+new = "Collects sandstone from nearby outcrops."
 status = "normal"
 
 ["Building.SandstonePit.FlavorDescription"]
@@ -2254,7 +2282,7 @@ new = "Limestone Pit"
 status = "normal"
 
 ["Building.LimestonePit.Description"]
-new = "Digs limestone from outcrops within its range until they run out. A Limestone Quarry later gives an endless supply."
+new = "Collects limestone from nearby outcrops."
 status = "normal"
 
 ["Building.LimestonePit.FlavorDescription"]
@@ -2290,7 +2318,7 @@ new = "Stone Crusher"
 status = "normal"
 
 ["Building.StoneCrusher.Description"]
-new = "Grinds sandstone into dirt for the Cement Kiln to fire into bricks."
+new = "Grinds sandstone or raw deep ore into dirt."
 status = "normal"
 
 ["Building.StoneCrusher.FlavorDescription"]
@@ -2878,7 +2906,7 @@ new = "Sandstone Outcrop"
 status = "normal"
 
 ["Building.SandstoneOutcrop.Description"]
-new = "A finite sandstone deposit. A Sandstone Pit in range digs it out."
+new = "A sandstone deposit. Slowly recovers when empty."
 status = "normal"
 
 ["Building.SandstoneOutcrop.FlavorDescription"]
@@ -2890,7 +2918,7 @@ new = "Limestone Outcrop"
 status = "normal"
 
 ["Building.LimestoneOutcrop.Description"]
-new = "A finite limestone deposit. A Limestone Pit in range digs it out."
+new = "A limestone deposit. Slowly recovers when empty."
 status = "normal"
 
 ["Building.LimestoneOutcrop.FlavorDescription"]
@@ -2990,7 +3018,7 @@ new = "Radioactive Water Outfall"
 status = "normal"
 
 ["Building.RadioactiveSludgeOutfall.Description"]
-new = "Pours radioactive water out onto the map. Until it flows off the map edge, it stops pumps and irradiates beavers and the ground. Pipes: valve set to Fill."
+new = "Pours radioactive water or contaminated water out onto the map. Until it flows off the map edge, it stops pumps and irradiates beavers and the ground. Pipes: valve set to Fill."
 status = "normal"
 
 ["Building.RadioactiveSludgeOutfall.FlavorDescription"]
@@ -3022,7 +3050,7 @@ new = "Stored water is irradiated and undrinkable."
 status = "normal"
 
 ["DeepFrontier.Radiation.DeletionBlocker.HazardousStock"]
-new = "Holds radioactive waste, radioactive water or contaminated water. Empty it first: move the contents to other storage, or refine or export them."
+new = "Holds radioactive waste, radioactive water or contaminated water. Empty it first: move the contents to other storage, or pour them out, refine or export them."
 status = "normal"
 
 ["DeepFrontier.Radiation.Status.NoRadiation"]
@@ -3330,7 +3358,11 @@ new = "Specialist training"
 status = "normal"
 
 ["DeepFrontier.Workforce.School.Program"]
-new = "Teaching {0}. Adults who are not yet {0} study here in their free time; {1} hours of study make a graduate. Nobody works here; while students are inside, the school uses up the supplies of the profession it teaches."
+new = "Teaching {0}. Adults who are not yet {0} study here in their free time; {1} hours of study make a graduate. Nobody works here."
+status = "normal"
+
+["DeepFrontier.Workforce.School.Supplies"]
+new = "Supplies used per hour while students are inside: {0}."
 status = "normal"
 
 ["DeepFrontier.Workforce.School.NoProgram"]
@@ -3426,19 +3458,31 @@ new = "Not serviced: stock maintenance goods at the {0} to slow its wear."
 status = "normal"
 
 ["DeepFrontier.WorkplaceUpkeep.Panel.Title"]
-new = "Upkeep"
+new = "Operating supplies"
 status = "normal"
 
 ["DeepFrontier.WorkplaceUpkeep.Panel.GoodName"]
-new = "{0} ({1})"
+new = "{1}"
 status = "normal"
 
 ["DeepFrontier.WorkplaceUpkeep.Panel.Good"]
-new = "{0}: {1} in stock, {2} used per hour at full crew."
+new = "{0}: {1} stocked; {2}/hour at full crew."
 status = "normal"
 
 ["DeepFrontier.WorkplaceUpkeep.Panel.Note"]
-new = "Production stops while any upkeep is missing. A smaller crew uses less; the stock lasts about {0} hours at full crew."
+new = "Required to run. Stock lasts {0} hours at full crew."
+status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.TimberBracing.Name"]
+new = "Bracing"
+status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.TimberBracing.Status"]
+new = "Needs treated planks."
+status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.TimberBracing.Status.Short"]
+new = "No treated planks"
 status = "normal"
 
 ["DeepFrontier.WorkplaceUpkeep.DrillBits.Name"]
@@ -3446,23 +3490,11 @@ new = "Drill bits"
 status = "normal"
 
 ["DeepFrontier.WorkplaceUpkeep.DrillBits.Status"]
-new = "Waiting for drill bits: production has stopped until haulers bring metal blocks."
+new = "Needs metal blocks."
 status = "normal"
 
 ["DeepFrontier.WorkplaceUpkeep.DrillBits.Status.Short"]
-new = "No drill bits"
-status = "normal"
-
-["DeepFrontier.WorkplaceUpkeep.SteelDrillBits.Name"]
-new = "Drill bits"
-status = "normal"
-
-["DeepFrontier.WorkplaceUpkeep.SteelDrillBits.Status"]
-new = "Waiting for drill bits: production has stopped until haulers bring steel."
-status = "normal"
-
-["DeepFrontier.WorkplaceUpkeep.SteelDrillBits.Status.Short"]
-new = "No drill bits"
+new = "No metal blocks"
 status = "normal"
 
 ["DeepFrontier.WorkplaceUpkeep.ShaftLining.Name"]
@@ -3470,11 +3502,11 @@ new = "Shaft lining"
 status = "normal"
 
 ["DeepFrontier.WorkplaceUpkeep.ShaftLining.Status"]
-new = "Waiting for shaft lining: production has stopped until haulers bring concrete."
+new = "Needs bricks."
 status = "normal"
 
 ["DeepFrontier.WorkplaceUpkeep.ShaftLining.Status.Short"]
-new = "No shaft lining"
+new = "No bricks"
 status = "normal"
 
 ["Good.ReinforcedBotFrame.DisplayName"]
@@ -3740,6 +3772,18 @@ status = "normal"
 ["DeepFrontier.MapSetup.DevMap"]
 new = "{0} is a developer test map: Deep Frontier adds no resources and keeps its height."
 status = "normal"
+
+["DeepFrontier.WorkplaceUpkeep.SteelDrillBits.Name"]
+new = "Drill bits"
+status = "abandoned"
+
+["DeepFrontier.WorkplaceUpkeep.SteelDrillBits.Status"]
+new = "Waiting for drill bits: production has stopped until haulers bring steel."
+status = "abandoned"
+
+["DeepFrontier.WorkplaceUpkeep.SteelDrillBits.Status.Short"]
+new = "No drill bits"
+status = "abandoned"
 
 ["Recipe.SweetBerryCake.DisplayName"]
 new = "Sweet Berry Cake"

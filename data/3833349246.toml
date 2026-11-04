@@ -1,0 +1,2046 @@
+[_meta]
+name = "Vertical Farming"
+
+["VF.RemoveCropsFirst"]
+new = "Remove plants before demolishing the growing deck."
+status = "normal"
+
+["VF.ToolGroup.Main"]
+new = "Vertical Farming"
+status = "normal"
+
+["VF.ToolGroup.Terraces"]
+new = "Fixed Farm Terraces"
+status = "normal"
+
+["VF.ModularOverlap"]
+new = "This space is already part of a farm or occupied by another structure."
+status = "normal"
+
+["VF.LegacyDeckSmall.Name"]
+new = "Growing Deck — Legacy Small (12×12)"
+status = "normal"
+
+["VF.LegacyDeckSmall.Description"]
+new = "An existing deck from prototype 0.1.0. Its original dimensions and crops are preserved. New construction uses the compact deck sizes."
+status = "normal"
+
+["VF.LegacyDeckSmall.Flavor"]
+new = "The old garden still has room to grow."
+status = "normal"
+
+["VF.LegacyDeckMedium.Name"]
+new = "Growing Deck — Legacy Medium (17×17)"
+status = "normal"
+
+["VF.LegacyDeckMedium.Description"]
+new = "An existing deck from prototype 0.1.0. Its original dimensions and crops are preserved. New construction uses the compact deck sizes."
+status = "normal"
+
+["VF.LegacyDeckMedium.Flavor"]
+new = "The old garden still has room to grow."
+status = "normal"
+
+["VF.LegacyDeckLarge.Name"]
+new = "Growing Deck — Legacy Large (22×22)"
+status = "normal"
+
+["VF.LegacyDeckLarge.Description"]
+new = "An existing deck from prototype 0.1.0. Its original dimensions and crops are preserved. New construction uses the compact deck sizes."
+status = "normal"
+
+["VF.LegacyDeckLarge.Flavor"]
+new = "The old garden still has room to grow."
+status = "normal"
+
+["VF.CompactDeckSmall.Name"]
+new = "Growing Deck — Legacy Compact Small (5×5)"
+status = "normal"
+
+["VF.CompactDeckSmall.Description"]
+new = "9 planting tiles with a perimeter walkway. Total footprint 5×5, height 4. Connect water pipes to a corner at base or roof level. Requires stairs to the soil level. Stack matching decks directly above. Ordinary land crops only."
+status = "normal"
+
+["VF.CompactDeckSmall.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CompactDeckMedium.Name"]
+new = "Growing Deck — Legacy Compact Medium (7×7)"
+status = "normal"
+
+["VF.CompactDeckMedium.Description"]
+new = "25 planting tiles with a perimeter walkway. Total footprint 7×7, height 4. Connect water pipes to a corner at base or roof level. Requires stairs to the soil level. Stack matching decks directly above. Ordinary land crops only."
+status = "normal"
+
+["VF.CompactDeckMedium.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CompactDeckLarge.Name"]
+new = "Growing Deck — Legacy Compact Large (10×10)"
+status = "normal"
+
+["VF.CompactDeckLarge.Description"]
+new = "64 planting tiles with a perimeter walkway. Total footprint 10×10, height 4. Connect water pipes to a corner at base or roof level. Requires stairs to the soil level. Stack matching decks directly above. Ordinary land crops only."
+status = "normal"
+
+["VF.CompactDeckLarge.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.RaisedBaseSmall.Name"]
+new = "Growing Deck — Legacy Tall Small (5×5)"
+status = "normal"
+
+["VF.RaisedBaseSmall.Description"]
+new = "9 planting tiles, 5×5 total footprint. 5-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge."
+status = "normal"
+
+["VF.RaisedBaseSmall.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.UpperBedSmall.Name"]
+new = "Growing Deck — Legacy Tall Small (5×5)"
+status = "normal"
+
+["VF.UpperBedSmall.Description"]
+new = "9 planting tiles, 5×5 total footprint. 5-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge."
+status = "normal"
+
+["VF.UpperBedSmall.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseSmall.Name"]
+new = "Crop Farm — Small (5×5)"
+status = "normal"
+
+["VF.CropRaisedBaseSmall.Description"]
+new = "9 planting tiles, 5×5 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. The preview switches to a flush upper bed on a fully supported matching farm roof. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseSmall.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedSmall.Name"]
+new = "Crop Farm Upper Bed — Small (5×5)"
+status = "normal"
+
+["VF.CropUpperBedSmall.Description"]
+new = "9 planting tiles, 5×5 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedSmall.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseSmall.Name"]
+new = "Tree Farm — Small (5×5)"
+status = "normal"
+
+["VF.TreeRaisedBaseSmall.Description"]
+new = "9 planting tiles, 5×5 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. The preview switches to a flush upper bed on a fully supported matching farm roof. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseSmall.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedSmall.Name"]
+new = "Tree Farm Upper Bed — Small (5×5)"
+status = "normal"
+
+["VF.TreeUpperBedSmall.Description"]
+new = "9 planting tiles, 5×5 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedSmall.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.RaisedBaseMedium.Name"]
+new = "Growing Deck — Legacy Tall Medium (7×7)"
+status = "normal"
+
+["VF.RaisedBaseMedium.Description"]
+new = "25 planting tiles, 7×7 total footprint. 5-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge."
+status = "normal"
+
+["VF.RaisedBaseMedium.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.UpperBedMedium.Name"]
+new = "Growing Deck — Legacy Tall Medium (7×7)"
+status = "normal"
+
+["VF.UpperBedMedium.Description"]
+new = "25 planting tiles, 7×7 total footprint. 5-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge."
+status = "normal"
+
+["VF.UpperBedMedium.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseMedium.Name"]
+new = "Crop Farm — Medium (7×7)"
+status = "normal"
+
+["VF.CropRaisedBaseMedium.Description"]
+new = "25 planting tiles, 7×7 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. The preview switches to a flush upper bed on a fully supported matching farm roof. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseMedium.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedMedium.Name"]
+new = "Crop Farm Upper Bed — Medium (7×7)"
+status = "normal"
+
+["VF.CropUpperBedMedium.Description"]
+new = "25 planting tiles, 7×7 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedMedium.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseMedium.Name"]
+new = "Tree Farm — Medium (7×7)"
+status = "normal"
+
+["VF.TreeRaisedBaseMedium.Description"]
+new = "25 planting tiles, 7×7 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. The preview switches to a flush upper bed on a fully supported matching farm roof. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseMedium.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedMedium.Name"]
+new = "Tree Farm Upper Bed — Medium (7×7)"
+status = "normal"
+
+["VF.TreeUpperBedMedium.Description"]
+new = "25 planting tiles, 7×7 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedMedium.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.RaisedBaseLarge.Name"]
+new = "Growing Deck — Legacy Tall Large (10×10)"
+status = "normal"
+
+["VF.RaisedBaseLarge.Description"]
+new = "64 planting tiles, 10×10 total footprint. 5-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge."
+status = "normal"
+
+["VF.RaisedBaseLarge.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.UpperBedLarge.Name"]
+new = "Growing Deck — Legacy Tall Large (10×10)"
+status = "normal"
+
+["VF.UpperBedLarge.Description"]
+new = "64 planting tiles, 10×10 total footprint. 5-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge."
+status = "normal"
+
+["VF.UpperBedLarge.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseLarge.Name"]
+new = "Crop Farm — Large (10×10)"
+status = "normal"
+
+["VF.CropRaisedBaseLarge.Description"]
+new = "64 planting tiles, 10×10 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. The preview switches to a flush upper bed on a fully supported matching farm roof. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseLarge.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedLarge.Name"]
+new = "Crop Farm Upper Bed — Large (10×10)"
+status = "normal"
+
+["VF.CropUpperBedLarge.Description"]
+new = "64 planting tiles, 10×10 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedLarge.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseLarge.Name"]
+new = "Tree Farm — Large (10×10)"
+status = "normal"
+
+["VF.TreeRaisedBaseLarge.Description"]
+new = "64 planting tiles, 10×10 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. The preview switches to a flush upper bed on a fully supported matching farm roof. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseLarge.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedLarge.Name"]
+new = "Tree Farm Upper Bed — Large (10×10)"
+status = "normal"
+
+["VF.TreeUpperBedLarge.Description"]
+new = "64 planting tiles, 10×10 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedLarge.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseNarrow.Name"]
+new = "Crop Farm — Narrow (4×6)"
+status = "normal"
+
+["VF.CropRaisedBaseNarrow.Description"]
+new = "8 planting tiles, 4×6 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. The preview switches to a flush upper bed on a fully supported matching farm roof. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseNarrow.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedNarrow.Name"]
+new = "Crop Farm Upper Bed — Narrow (4×6)"
+status = "normal"
+
+["VF.CropUpperBedNarrow.Description"]
+new = "8 planting tiles, 4×6 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedNarrow.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x3.Name"]
+new = "Crop Farm Raised Base — Custom3x3 (3×3)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x3.Description"]
+new = "1 planting tiles, 3×3 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x3.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom3x3.Name"]
+new = "Crop Farm Upper Bed — Custom3x3 (3×3)"
+status = "normal"
+
+["VF.CropUpperBedCustom3x3.Description"]
+new = "1 planting tiles, 3×3 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom3x3.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x3.Name"]
+new = "Tree Farm Raised Base — Custom3x3 (3×3)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x3.Description"]
+new = "1 planting tiles, 3×3 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x3.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x3.Name"]
+new = "Tree Farm Upper Bed — Custom3x3 (3×3)"
+status = "normal"
+
+["VF.TreeUpperBedCustom3x3.Description"]
+new = "1 planting tiles, 3×3 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x3.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x4.Name"]
+new = "Crop Farm Raised Base — Custom3x4 (3×4)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x4.Description"]
+new = "2 planting tiles, 3×4 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x4.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom3x4.Name"]
+new = "Crop Farm Upper Bed — Custom3x4 (3×4)"
+status = "normal"
+
+["VF.CropUpperBedCustom3x4.Description"]
+new = "2 planting tiles, 3×4 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom3x4.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x4.Name"]
+new = "Tree Farm Raised Base — Custom3x4 (3×4)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x4.Description"]
+new = "2 planting tiles, 3×4 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x4.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x4.Name"]
+new = "Tree Farm Upper Bed — Custom3x4 (3×4)"
+status = "normal"
+
+["VF.TreeUpperBedCustom3x4.Description"]
+new = "2 planting tiles, 3×4 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x4.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x5.Name"]
+new = "Crop Farm Raised Base — Custom3x5 (3×5)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x5.Description"]
+new = "3 planting tiles, 3×5 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x5.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom3x5.Name"]
+new = "Crop Farm Upper Bed — Custom3x5 (3×5)"
+status = "normal"
+
+["VF.CropUpperBedCustom3x5.Description"]
+new = "3 planting tiles, 3×5 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom3x5.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x5.Name"]
+new = "Tree Farm Raised Base — Custom3x5 (3×5)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x5.Description"]
+new = "3 planting tiles, 3×5 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x5.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x5.Name"]
+new = "Tree Farm Upper Bed — Custom3x5 (3×5)"
+status = "normal"
+
+["VF.TreeUpperBedCustom3x5.Description"]
+new = "3 planting tiles, 3×5 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x5.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x6.Name"]
+new = "Crop Farm Raised Base — Custom3x6 (3×6)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x6.Description"]
+new = "4 planting tiles, 3×6 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x6.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom3x6.Name"]
+new = "Crop Farm Upper Bed — Custom3x6 (3×6)"
+status = "normal"
+
+["VF.CropUpperBedCustom3x6.Description"]
+new = "4 planting tiles, 3×6 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom3x6.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x6.Name"]
+new = "Tree Farm Raised Base — Custom3x6 (3×6)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x6.Description"]
+new = "4 planting tiles, 3×6 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x6.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x6.Name"]
+new = "Tree Farm Upper Bed — Custom3x6 (3×6)"
+status = "normal"
+
+["VF.TreeUpperBedCustom3x6.Description"]
+new = "4 planting tiles, 3×6 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x6.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x7.Name"]
+new = "Crop Farm Raised Base — Custom3x7 (3×7)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x7.Description"]
+new = "5 planting tiles, 3×7 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom3x7.Name"]
+new = "Crop Farm Upper Bed — Custom3x7 (3×7)"
+status = "normal"
+
+["VF.CropUpperBedCustom3x7.Description"]
+new = "5 planting tiles, 3×7 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom3x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x7.Name"]
+new = "Tree Farm Raised Base — Custom3x7 (3×7)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x7.Description"]
+new = "5 planting tiles, 3×7 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x7.Name"]
+new = "Tree Farm Upper Bed — Custom3x7 (3×7)"
+status = "normal"
+
+["VF.TreeUpperBedCustom3x7.Description"]
+new = "5 planting tiles, 3×7 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x8.Name"]
+new = "Crop Farm Raised Base — Custom3x8 (3×8)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x8.Description"]
+new = "6 planting tiles, 3×8 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom3x8.Name"]
+new = "Crop Farm Upper Bed — Custom3x8 (3×8)"
+status = "normal"
+
+["VF.CropUpperBedCustom3x8.Description"]
+new = "6 planting tiles, 3×8 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom3x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x8.Name"]
+new = "Tree Farm Raised Base — Custom3x8 (3×8)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x8.Description"]
+new = "6 planting tiles, 3×8 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x8.Name"]
+new = "Tree Farm Upper Bed — Custom3x8 (3×8)"
+status = "normal"
+
+["VF.TreeUpperBedCustom3x8.Description"]
+new = "6 planting tiles, 3×8 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x9.Name"]
+new = "Crop Farm Raised Base — Custom3x9 (3×9)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x9.Description"]
+new = "7 planting tiles, 3×9 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom3x9.Name"]
+new = "Crop Farm Upper Bed — Custom3x9 (3×9)"
+status = "normal"
+
+["VF.CropUpperBedCustom3x9.Description"]
+new = "7 planting tiles, 3×9 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom3x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x9.Name"]
+new = "Tree Farm Raised Base — Custom3x9 (3×9)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x9.Description"]
+new = "7 planting tiles, 3×9 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x9.Name"]
+new = "Tree Farm Upper Bed — Custom3x9 (3×9)"
+status = "normal"
+
+["VF.TreeUpperBedCustom3x9.Description"]
+new = "7 planting tiles, 3×9 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x10.Name"]
+new = "Crop Farm Raised Base — Custom3x10 (3×10)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x10.Description"]
+new = "8 planting tiles, 3×10 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom3x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom3x10.Name"]
+new = "Crop Farm Upper Bed — Custom3x10 (3×10)"
+status = "normal"
+
+["VF.CropUpperBedCustom3x10.Description"]
+new = "8 planting tiles, 3×10 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom3x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x10.Name"]
+new = "Tree Farm Raised Base — Custom3x10 (3×10)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x10.Description"]
+new = "8 planting tiles, 3×10 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom3x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x10.Name"]
+new = "Tree Farm Upper Bed — Custom3x10 (3×10)"
+status = "normal"
+
+["VF.TreeUpperBedCustom3x10.Description"]
+new = "8 planting tiles, 3×10 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom3x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x4.Name"]
+new = "Crop Farm Raised Base — Custom4x4 (4×4)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x4.Description"]
+new = "4 planting tiles, 4×4 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x4.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom4x4.Name"]
+new = "Crop Farm Upper Bed — Custom4x4 (4×4)"
+status = "normal"
+
+["VF.CropUpperBedCustom4x4.Description"]
+new = "4 planting tiles, 4×4 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom4x4.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x4.Name"]
+new = "Tree Farm Raised Base — Custom4x4 (4×4)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x4.Description"]
+new = "4 planting tiles, 4×4 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x4.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom4x4.Name"]
+new = "Tree Farm Upper Bed — Custom4x4 (4×4)"
+status = "normal"
+
+["VF.TreeUpperBedCustom4x4.Description"]
+new = "4 planting tiles, 4×4 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom4x4.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x5.Name"]
+new = "Crop Farm Raised Base — Custom4x5 (4×5)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x5.Description"]
+new = "6 planting tiles, 4×5 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x5.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom4x5.Name"]
+new = "Crop Farm Upper Bed — Custom4x5 (4×5)"
+status = "normal"
+
+["VF.CropUpperBedCustom4x5.Description"]
+new = "6 planting tiles, 4×5 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom4x5.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x5.Name"]
+new = "Tree Farm Raised Base — Custom4x5 (4×5)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x5.Description"]
+new = "6 planting tiles, 4×5 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x5.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom4x5.Name"]
+new = "Tree Farm Upper Bed — Custom4x5 (4×5)"
+status = "normal"
+
+["VF.TreeUpperBedCustom4x5.Description"]
+new = "6 planting tiles, 4×5 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom4x5.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x6.Name"]
+new = "Tree Farm Raised Base — Custom4x6 (4×6)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x6.Description"]
+new = "8 planting tiles, 4×6 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x6.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom4x6.Name"]
+new = "Tree Farm Upper Bed — Custom4x6 (4×6)"
+status = "normal"
+
+["VF.TreeUpperBedCustom4x6.Description"]
+new = "8 planting tiles, 4×6 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom4x6.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x7.Name"]
+new = "Crop Farm Raised Base — Custom4x7 (4×7)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x7.Description"]
+new = "10 planting tiles, 4×7 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom4x7.Name"]
+new = "Crop Farm Upper Bed — Custom4x7 (4×7)"
+status = "normal"
+
+["VF.CropUpperBedCustom4x7.Description"]
+new = "10 planting tiles, 4×7 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom4x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x7.Name"]
+new = "Tree Farm Raised Base — Custom4x7 (4×7)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x7.Description"]
+new = "10 planting tiles, 4×7 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom4x7.Name"]
+new = "Tree Farm Upper Bed — Custom4x7 (4×7)"
+status = "normal"
+
+["VF.TreeUpperBedCustom4x7.Description"]
+new = "10 planting tiles, 4×7 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom4x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x8.Name"]
+new = "Crop Farm Raised Base — Custom4x8 (4×8)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x8.Description"]
+new = "12 planting tiles, 4×8 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom4x8.Name"]
+new = "Crop Farm Upper Bed — Custom4x8 (4×8)"
+status = "normal"
+
+["VF.CropUpperBedCustom4x8.Description"]
+new = "12 planting tiles, 4×8 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom4x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x8.Name"]
+new = "Tree Farm Raised Base — Custom4x8 (4×8)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x8.Description"]
+new = "12 planting tiles, 4×8 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom4x8.Name"]
+new = "Tree Farm Upper Bed — Custom4x8 (4×8)"
+status = "normal"
+
+["VF.TreeUpperBedCustom4x8.Description"]
+new = "12 planting tiles, 4×8 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom4x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x9.Name"]
+new = "Crop Farm Raised Base — Custom4x9 (4×9)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x9.Description"]
+new = "14 planting tiles, 4×9 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom4x9.Name"]
+new = "Crop Farm Upper Bed — Custom4x9 (4×9)"
+status = "normal"
+
+["VF.CropUpperBedCustom4x9.Description"]
+new = "14 planting tiles, 4×9 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom4x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x9.Name"]
+new = "Tree Farm Raised Base — Custom4x9 (4×9)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x9.Description"]
+new = "14 planting tiles, 4×9 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom4x9.Name"]
+new = "Tree Farm Upper Bed — Custom4x9 (4×9)"
+status = "normal"
+
+["VF.TreeUpperBedCustom4x9.Description"]
+new = "14 planting tiles, 4×9 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom4x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x10.Name"]
+new = "Crop Farm Raised Base — Custom4x10 (4×10)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x10.Description"]
+new = "16 planting tiles, 4×10 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom4x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom4x10.Name"]
+new = "Crop Farm Upper Bed — Custom4x10 (4×10)"
+status = "normal"
+
+["VF.CropUpperBedCustom4x10.Description"]
+new = "16 planting tiles, 4×10 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom4x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x10.Name"]
+new = "Tree Farm Raised Base — Custom4x10 (4×10)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x10.Description"]
+new = "16 planting tiles, 4×10 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom4x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom4x10.Name"]
+new = "Tree Farm Upper Bed — Custom4x10 (4×10)"
+status = "normal"
+
+["VF.TreeUpperBedCustom4x10.Description"]
+new = "16 planting tiles, 4×10 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom4x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom5x6.Name"]
+new = "Crop Farm Raised Base — Custom5x6 (5×6)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom5x6.Description"]
+new = "12 planting tiles, 5×6 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom5x6.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom5x6.Name"]
+new = "Crop Farm Upper Bed — Custom5x6 (5×6)"
+status = "normal"
+
+["VF.CropUpperBedCustom5x6.Description"]
+new = "12 planting tiles, 5×6 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom5x6.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom5x6.Name"]
+new = "Tree Farm Raised Base — Custom5x6 (5×6)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom5x6.Description"]
+new = "12 planting tiles, 5×6 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom5x6.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom5x6.Name"]
+new = "Tree Farm Upper Bed — Custom5x6 (5×6)"
+status = "normal"
+
+["VF.TreeUpperBedCustom5x6.Description"]
+new = "12 planting tiles, 5×6 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom5x6.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom5x7.Name"]
+new = "Crop Farm Raised Base — Custom5x7 (5×7)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom5x7.Description"]
+new = "15 planting tiles, 5×7 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom5x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom5x7.Name"]
+new = "Crop Farm Upper Bed — Custom5x7 (5×7)"
+status = "normal"
+
+["VF.CropUpperBedCustom5x7.Description"]
+new = "15 planting tiles, 5×7 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom5x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom5x7.Name"]
+new = "Tree Farm Raised Base — Custom5x7 (5×7)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom5x7.Description"]
+new = "15 planting tiles, 5×7 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom5x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom5x7.Name"]
+new = "Tree Farm Upper Bed — Custom5x7 (5×7)"
+status = "normal"
+
+["VF.TreeUpperBedCustom5x7.Description"]
+new = "15 planting tiles, 5×7 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom5x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom5x8.Name"]
+new = "Crop Farm Raised Base — Custom5x8 (5×8)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom5x8.Description"]
+new = "18 planting tiles, 5×8 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom5x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom5x8.Name"]
+new = "Crop Farm Upper Bed — Custom5x8 (5×8)"
+status = "normal"
+
+["VF.CropUpperBedCustom5x8.Description"]
+new = "18 planting tiles, 5×8 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom5x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom5x8.Name"]
+new = "Tree Farm Raised Base — Custom5x8 (5×8)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom5x8.Description"]
+new = "18 planting tiles, 5×8 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom5x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom5x8.Name"]
+new = "Tree Farm Upper Bed — Custom5x8 (5×8)"
+status = "normal"
+
+["VF.TreeUpperBedCustom5x8.Description"]
+new = "18 planting tiles, 5×8 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom5x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom5x9.Name"]
+new = "Crop Farm Raised Base — Custom5x9 (5×9)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom5x9.Description"]
+new = "21 planting tiles, 5×9 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom5x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom5x9.Name"]
+new = "Crop Farm Upper Bed — Custom5x9 (5×9)"
+status = "normal"
+
+["VF.CropUpperBedCustom5x9.Description"]
+new = "21 planting tiles, 5×9 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom5x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom5x9.Name"]
+new = "Tree Farm Raised Base — Custom5x9 (5×9)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom5x9.Description"]
+new = "21 planting tiles, 5×9 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom5x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom5x9.Name"]
+new = "Tree Farm Upper Bed — Custom5x9 (5×9)"
+status = "normal"
+
+["VF.TreeUpperBedCustom5x9.Description"]
+new = "21 planting tiles, 5×9 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom5x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom5x10.Name"]
+new = "Crop Farm Raised Base — Custom5x10 (5×10)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom5x10.Description"]
+new = "24 planting tiles, 5×10 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom5x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom5x10.Name"]
+new = "Crop Farm Upper Bed — Custom5x10 (5×10)"
+status = "normal"
+
+["VF.CropUpperBedCustom5x10.Description"]
+new = "24 planting tiles, 5×10 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom5x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom5x10.Name"]
+new = "Tree Farm Raised Base — Custom5x10 (5×10)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom5x10.Description"]
+new = "24 planting tiles, 5×10 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom5x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom5x10.Name"]
+new = "Tree Farm Upper Bed — Custom5x10 (5×10)"
+status = "normal"
+
+["VF.TreeUpperBedCustom5x10.Description"]
+new = "24 planting tiles, 5×10 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom5x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom6x6.Name"]
+new = "Crop Farm Raised Base — Custom6x6 (6×6)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom6x6.Description"]
+new = "16 planting tiles, 6×6 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom6x6.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom6x6.Name"]
+new = "Crop Farm Upper Bed — Custom6x6 (6×6)"
+status = "normal"
+
+["VF.CropUpperBedCustom6x6.Description"]
+new = "16 planting tiles, 6×6 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom6x6.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom6x6.Name"]
+new = "Tree Farm Raised Base — Custom6x6 (6×6)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom6x6.Description"]
+new = "16 planting tiles, 6×6 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom6x6.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom6x6.Name"]
+new = "Tree Farm Upper Bed — Custom6x6 (6×6)"
+status = "normal"
+
+["VF.TreeUpperBedCustom6x6.Description"]
+new = "16 planting tiles, 6×6 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom6x6.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom6x7.Name"]
+new = "Crop Farm Raised Base — Custom6x7 (6×7)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom6x7.Description"]
+new = "20 planting tiles, 6×7 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom6x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom6x7.Name"]
+new = "Crop Farm Upper Bed — Custom6x7 (6×7)"
+status = "normal"
+
+["VF.CropUpperBedCustom6x7.Description"]
+new = "20 planting tiles, 6×7 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom6x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom6x7.Name"]
+new = "Tree Farm Raised Base — Custom6x7 (6×7)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom6x7.Description"]
+new = "20 planting tiles, 6×7 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom6x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom6x7.Name"]
+new = "Tree Farm Upper Bed — Custom6x7 (6×7)"
+status = "normal"
+
+["VF.TreeUpperBedCustom6x7.Description"]
+new = "20 planting tiles, 6×7 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom6x7.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom6x8.Name"]
+new = "Crop Farm Raised Base — Custom6x8 (6×8)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom6x8.Description"]
+new = "24 planting tiles, 6×8 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom6x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom6x8.Name"]
+new = "Crop Farm Upper Bed — Custom6x8 (6×8)"
+status = "normal"
+
+["VF.CropUpperBedCustom6x8.Description"]
+new = "24 planting tiles, 6×8 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom6x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom6x8.Name"]
+new = "Tree Farm Raised Base — Custom6x8 (6×8)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom6x8.Description"]
+new = "24 planting tiles, 6×8 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom6x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom6x8.Name"]
+new = "Tree Farm Upper Bed — Custom6x8 (6×8)"
+status = "normal"
+
+["VF.TreeUpperBedCustom6x8.Description"]
+new = "24 planting tiles, 6×8 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom6x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom6x9.Name"]
+new = "Crop Farm Raised Base — Custom6x9 (6×9)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom6x9.Description"]
+new = "28 planting tiles, 6×9 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom6x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom6x9.Name"]
+new = "Crop Farm Upper Bed — Custom6x9 (6×9)"
+status = "normal"
+
+["VF.CropUpperBedCustom6x9.Description"]
+new = "28 planting tiles, 6×9 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom6x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom6x9.Name"]
+new = "Tree Farm Raised Base — Custom6x9 (6×9)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom6x9.Description"]
+new = "28 planting tiles, 6×9 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom6x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom6x9.Name"]
+new = "Tree Farm Upper Bed — Custom6x9 (6×9)"
+status = "normal"
+
+["VF.TreeUpperBedCustom6x9.Description"]
+new = "28 planting tiles, 6×9 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom6x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom6x10.Name"]
+new = "Crop Farm Raised Base — Custom6x10 (6×10)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom6x10.Description"]
+new = "32 planting tiles, 6×10 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom6x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom6x10.Name"]
+new = "Crop Farm Upper Bed — Custom6x10 (6×10)"
+status = "normal"
+
+["VF.CropUpperBedCustom6x10.Description"]
+new = "32 planting tiles, 6×10 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom6x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom6x10.Name"]
+new = "Tree Farm Raised Base — Custom6x10 (6×10)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom6x10.Description"]
+new = "32 planting tiles, 6×10 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom6x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom6x10.Name"]
+new = "Tree Farm Upper Bed — Custom6x10 (6×10)"
+status = "normal"
+
+["VF.TreeUpperBedCustom6x10.Description"]
+new = "32 planting tiles, 6×10 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom6x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom7x8.Name"]
+new = "Crop Farm Raised Base — Custom7x8 (7×8)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom7x8.Description"]
+new = "30 planting tiles, 7×8 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom7x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom7x8.Name"]
+new = "Crop Farm Upper Bed — Custom7x8 (7×8)"
+status = "normal"
+
+["VF.CropUpperBedCustom7x8.Description"]
+new = "30 planting tiles, 7×8 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom7x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom7x8.Name"]
+new = "Tree Farm Raised Base — Custom7x8 (7×8)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom7x8.Description"]
+new = "30 planting tiles, 7×8 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom7x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom7x8.Name"]
+new = "Tree Farm Upper Bed — Custom7x8 (7×8)"
+status = "normal"
+
+["VF.TreeUpperBedCustom7x8.Description"]
+new = "30 planting tiles, 7×8 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom7x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom7x9.Name"]
+new = "Crop Farm Raised Base — Custom7x9 (7×9)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom7x9.Description"]
+new = "35 planting tiles, 7×9 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom7x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom7x9.Name"]
+new = "Crop Farm Upper Bed — Custom7x9 (7×9)"
+status = "normal"
+
+["VF.CropUpperBedCustom7x9.Description"]
+new = "35 planting tiles, 7×9 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom7x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom7x9.Name"]
+new = "Tree Farm Raised Base — Custom7x9 (7×9)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom7x9.Description"]
+new = "35 planting tiles, 7×9 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom7x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom7x9.Name"]
+new = "Tree Farm Upper Bed — Custom7x9 (7×9)"
+status = "normal"
+
+["VF.TreeUpperBedCustom7x9.Description"]
+new = "35 planting tiles, 7×9 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom7x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom7x10.Name"]
+new = "Crop Farm Raised Base — Custom7x10 (7×10)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom7x10.Description"]
+new = "40 planting tiles, 7×10 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom7x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom7x10.Name"]
+new = "Crop Farm Upper Bed — Custom7x10 (7×10)"
+status = "normal"
+
+["VF.CropUpperBedCustom7x10.Description"]
+new = "40 planting tiles, 7×10 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom7x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom7x10.Name"]
+new = "Tree Farm Raised Base — Custom7x10 (7×10)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom7x10.Description"]
+new = "40 planting tiles, 7×10 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom7x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom7x10.Name"]
+new = "Tree Farm Upper Bed — Custom7x10 (7×10)"
+status = "normal"
+
+["VF.TreeUpperBedCustom7x10.Description"]
+new = "40 planting tiles, 7×10 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom7x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom8x8.Name"]
+new = "Crop Farm Raised Base — Custom8x8 (8×8)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom8x8.Description"]
+new = "36 planting tiles, 8×8 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom8x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom8x8.Name"]
+new = "Crop Farm Upper Bed — Custom8x8 (8×8)"
+status = "normal"
+
+["VF.CropUpperBedCustom8x8.Description"]
+new = "36 planting tiles, 8×8 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom8x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom8x8.Name"]
+new = "Tree Farm Raised Base — Custom8x8 (8×8)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom8x8.Description"]
+new = "36 planting tiles, 8×8 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom8x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom8x8.Name"]
+new = "Tree Farm Upper Bed — Custom8x8 (8×8)"
+status = "normal"
+
+["VF.TreeUpperBedCustom8x8.Description"]
+new = "36 planting tiles, 8×8 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom8x8.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom8x9.Name"]
+new = "Crop Farm Raised Base — Custom8x9 (8×9)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom8x9.Description"]
+new = "42 planting tiles, 8×9 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom8x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom8x9.Name"]
+new = "Crop Farm Upper Bed — Custom8x9 (8×9)"
+status = "normal"
+
+["VF.CropUpperBedCustom8x9.Description"]
+new = "42 planting tiles, 8×9 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom8x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom8x9.Name"]
+new = "Tree Farm Raised Base — Custom8x9 (8×9)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom8x9.Description"]
+new = "42 planting tiles, 8×9 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom8x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom8x9.Name"]
+new = "Tree Farm Upper Bed — Custom8x9 (8×9)"
+status = "normal"
+
+["VF.TreeUpperBedCustom8x9.Description"]
+new = "42 planting tiles, 8×9 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom8x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom8x10.Name"]
+new = "Crop Farm Raised Base — Custom8x10 (8×10)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom8x10.Description"]
+new = "48 planting tiles, 8×10 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom8x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom8x10.Name"]
+new = "Crop Farm Upper Bed — Custom8x10 (8×10)"
+status = "normal"
+
+["VF.CropUpperBedCustom8x10.Description"]
+new = "48 planting tiles, 8×10 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom8x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom8x10.Name"]
+new = "Tree Farm Raised Base — Custom8x10 (8×10)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom8x10.Description"]
+new = "48 planting tiles, 8×10 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom8x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom8x10.Name"]
+new = "Tree Farm Upper Bed — Custom8x10 (8×10)"
+status = "normal"
+
+["VF.TreeUpperBedCustom8x10.Description"]
+new = "48 planting tiles, 8×10 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom8x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom9x9.Name"]
+new = "Crop Farm Raised Base — Custom9x9 (9×9)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom9x9.Description"]
+new = "49 planting tiles, 9×9 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom9x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom9x9.Name"]
+new = "Crop Farm Upper Bed — Custom9x9 (9×9)"
+status = "normal"
+
+["VF.CropUpperBedCustom9x9.Description"]
+new = "49 planting tiles, 9×9 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom9x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom9x9.Name"]
+new = "Tree Farm Raised Base — Custom9x9 (9×9)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom9x9.Description"]
+new = "49 planting tiles, 9×9 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom9x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom9x9.Name"]
+new = "Tree Farm Upper Bed — Custom9x9 (9×9)"
+status = "normal"
+
+["VF.TreeUpperBedCustom9x9.Description"]
+new = "49 planting tiles, 9×9 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom9x9.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropRaisedBaseCustom9x10.Name"]
+new = "Crop Farm Raised Base — Custom9x10 (9×10)"
+status = "normal"
+
+["VF.CropRaisedBaseCustom9x10.Description"]
+new = "56 planting tiles, 9×10 total footprint. 2-tile growing storey. Soil level is 2 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropRaisedBaseCustom9x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.CropUpperBedCustom9x10.Name"]
+new = "Crop Farm Upper Bed — Custom9x10 (9×10)"
+status = "normal"
+
+["VF.CropUpperBedCustom9x10.Description"]
+new = "56 planting tiles, 9×10 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
+
+["VF.CropUpperBedCustom9x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom9x10.Name"]
+new = "Tree Farm Raised Base — Custom9x10 (9×10)"
+status = "normal"
+
+["VF.TreeRaisedBaseCustom9x10.Description"]
+new = "56 planting tiles, 9×10 total footprint. 4-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeRaisedBaseCustom9x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.TreeUpperBedCustom9x10.Name"]
+new = "Tree Farm Upper Bed — Custom9x10 (9×10)"
+status = "normal"
+
+["VF.TreeUpperBedCustom9x10.Description"]
+new = "56 planting tiles, 9×10 total footprint. 4-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Trees and ordinary crops are allowed."
+status = "normal"
+
+["VF.TreeUpperBedCustom9x10.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.ModularCropFarm.Name"]
+new = "Modular Crop Farm"
+status = "normal"
+
+["VF.ModularCropFarm.Description"]
+new = "Drag a 3–10 tile rectangle to build a corner-supported raised farm with a walkway. Smaller or longer strips place individual modules. Use native platforms beneath extensions and connect a water pipe to any exposed side at soil or roof height. Leave a route clear for workers or connect a tubeway at soil level."
+status = "normal"
+
+["VF.ModularCropFarm.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.ModularTreeFarm.Name"]
+new = "Modular Tree Farm"
+status = "normal"
+
+["VF.ModularTreeFarm.Description"]
+new = "Drag a 3–10 tile rectangle to build a corner-supported raised farm with a walkway. Smaller or longer strips place individual modules. Use native platforms beneath extensions and connect a water pipe to any exposed side at soil or roof height. Leave a route clear for workers or connect a tubeway at soil level."
+status = "normal"
+
+["VF.ModularTreeFarm.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.PipeStraight.Name"]
+new = "Irrigation Pipe — Straight"
+status = "normal"
+
+["VF.PipeStraight.Description"]
+new = "Existing fixed-shape irrigation pipe. New construction uses adaptive Horizontal and Vertical pipes."
+status = "normal"
+
+["VF.PipeStraight.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.PipeElbow.Name"]
+new = "Irrigation Pipe — Elbow"
+status = "normal"
+
+["VF.PipeElbow.Description"]
+new = "Existing fixed-shape irrigation pipe. New construction uses adaptive Horizontal and Vertical pipes."
+status = "normal"
+
+["VF.PipeElbow.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.PipeTee.Name"]
+new = "Irrigation Pipe — Tee"
+status = "normal"
+
+["VF.PipeTee.Description"]
+new = "Existing fixed-shape irrigation pipe. New construction uses adaptive Horizontal and Vertical pipes."
+status = "normal"
+
+["VF.PipeTee.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.PipeCross.Name"]
+new = "Irrigation Pipe — Cross"
+status = "normal"
+
+["VF.PipeCross.Description"]
+new = "Existing fixed-shape irrigation pipe. New construction uses adaptive Horizontal and Vertical pipes."
+status = "normal"
+
+["VF.PipeCross.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.PipeVertical.Name"]
+new = "Irrigation Pipe — Vertical"
+status = "normal"
+
+["VF.PipeVertical.Description"]
+new = "Existing fixed-shape irrigation pipe. New construction uses adaptive Horizontal and Vertical pipes."
+status = "normal"
+
+["VF.PipeVertical.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.PipeVerticalElbow.Name"]
+new = "Irrigation Pipe — VerticalElbow"
+status = "normal"
+
+["VF.PipeVerticalElbow.Description"]
+new = "Existing fixed-shape irrigation pipe. New construction uses adaptive Horizontal and Vertical pipes."
+status = "normal"
+
+["VF.PipeVerticalElbow.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.PipeRiserJunction.Name"]
+new = "Irrigation Pipe — RiserJunction"
+status = "normal"
+
+["VF.PipeRiserJunction.Description"]
+new = "Existing fixed-shape irrigation pipe. New construction uses adaptive Horizontal and Vertical pipes."
+status = "normal"
+
+["VF.PipeRiserJunction.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.PipeHorizontal.Name"]
+new = "Irrigation Pipe — Horizontal"
+status = "normal"
+
+["VF.PipeHorizontal.Description"]
+new = "Rotation turns an isolated horizontal preview by 90 degrees on the ground plane. Connected bends and junctions adapt automatically on all six faces, regardless of rotation. Aim at an existing pipe to stack directly above it; aim at an adjacent supported tile to extend sideways. Rotation does not change height or switch between Horizontal and Vertical. Carries clean water; requires support."
+status = "normal"
+
+["VF.PipeHorizontal.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.PipeUpright.Name"]
+new = "Irrigation Pipe — Vertical"
+status = "normal"
+
+["VF.PipeUpright.Description"]
+new = "Rotation keeps this pipe upright and turns its detail panel only. Connected bends and junctions adapt automatically on all six faces, regardless of rotation. Aim at an existing pipe to stack directly above it; aim at an adjacent supported tile to extend sideways. Rotation does not change height or switch between Horizontal and Vertical. Carries clean water; requires support."
+status = "normal"
+
+["VF.PipeUpright.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.Supply.Name"]
+new = "Irrigation Supply Station"
+status = "normal"
+
+["VF.Supply.Description"]
+new = "Haulers deliver clean drinking water to this 200-water tank. Distributes up to 100 water per day through connected pipes. Does not create water. No pressure simulation or power requirement in this prototype."
+status = "normal"
+
+["VF.Supply.Flavor"]
+new = "A little soil. A lot of ambition."
+status = "normal"
+
+["VF.Lodge.Name"]
+new = "Gardeners’ Lodge"
+status = "normal"
+
+["VF.Lodge.Description"]
+new = "A six-worker farmhouse for large gardens. Uses the faction’s ordinary crops and farming behavior. Requires a connected entrance and reachable growing decks. Reach higher tiers by stairs or a connected vertical tubeway touching the farm at soil height. Trees require ordinary forestry workplaces."
+status = "normal"
+
+["VF.Lodge.Flavor"]
+new = "The harvest has moved upstairs."
+status = "normal"

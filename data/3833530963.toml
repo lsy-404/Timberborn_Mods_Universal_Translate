@@ -1,0 +1,62 @@
+[_meta]
+name = "Beaver Outhouses"
+
+["Need.Outhouse.DisplayName"]
+new = "Outhouse"
+status = "normal"
+
+["Building.Outhouse.DisplayName"]
+new = "Outhouse"
+status = "normal"
+
+["Building.Outhouse.Description"]
+new = "A small plank booth. Beavers who visit feel relieved, which adds to their wellbeing. Each visit leaves 1 compost for haulers to collect."
+status = "normal"
+
+["Building.Outhouse.FlavorDescription"]
+new = "Mind the moon."
+status = "normal"
+
+["Building.DoubleOuthouse.DisplayName"]
+new = "Double Outhouse"
+status = "normal"
+
+["Building.DoubleOuthouse.Description"]
+new = "Two booths side by side, one with a moon on the door and one with a star. Beavers who visit feel relieved, which adds to their wellbeing. Each visit leaves 1 compost for haulers to collect."
+status = "normal"
+
+["Building.DoubleOuthouse.FlavorDescription"]
+new = "No queue. Usually."
+status = "normal"
+
+["Good.Compost.DisplayName"]
+new = "Compost"
+status = "normal"
+
+["Good.Compost.PluralDisplayName"]
+new = "Compost"
+status = "normal"
+
+["Building.CompostShed.DisplayName"]
+new = "Compost Shed"
+status = "normal"
+
+["Building.CompostShed.Description"]
+new = "A roofed bin for compost from the outhouses. Choose Compost as its good. Holds 30."
+status = "normal"
+
+["Building.CompostShed.FlavorDescription"]
+new = "It all comes back to the soil."
+status = "normal"
+
+["Building.FertilizerSpreader.DisplayName"]
+new = "Fertilizer Spreader"
+status = "normal"
+
+["Building.FertilizerSpreader.Description"]
+new = "Spreads compost on growing crops and trees within 3 tiles. A plant fed every day grows 30% faster: a 3-day crop is ready in about 2.1 days, a 10-day tree in 7. Feeds up to 36 plants a day. Uses 6 compost a day; haulers bring it from a Compost Shed."
+status = "normal"
+
+["Building.FertilizerSpreader.FlavorDescription"]
+new = "Nothing goes to waste."
+status = "normal"
