@@ -25,10 +25,8 @@ protect_string_ids_file = "enUS.txt"
 extra_protect_string_ids = ["Beaver.NamePool", "MainMenu.RosettaOn", "Settings.Language.Name"]
 
 [rate_limiter]
-# Maximum requests per minute (RPM).
-# The gateway key allows 100000 tokens per minute and reserves about 16K tokens per
-# in-flight request, so sustained throughput must stay well below its 300 RPM cap.
-max_requests_per_minute = 24
+# Maximum requests per minute (RPM)
+max_requests_per_minute = 400
 
 # File-level concurrency: how many files to translate in parallel.
 # Each file processes entries sequentially, but translates all languages
