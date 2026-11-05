@@ -2,12 +2,27 @@
 name = "Vertical Farming"
 
 ["VF.RemoveCropsFirst"]
-new = "Remove plants before demolishing the growing deck."
 status = "normal"
+raw = "Remove plants before demolishing the growing deck."
+enUS = "Remove plants before demolishing the growing deck."
+zhCN = "拆除种植甲板前，请先移除植物。"
+zhTW = "拆除種植平台前，請先移除植物。"
+ruRU = "Перед сносом растущей платформы уберите растения."
+jaJP = "栽培デッキを解体する前に、植物を取り除いてください。"
+frFR = "Retirez les plantes avant de démolir la plateforme de culture."
+deDE = "Entferne die Pflanzen, bevor du das Anzuchtdeck abreißt."
+plPL = "Usuń rośliny przed rozebraniem platformy uprawowej."
+ptBR = "Remova as plantas antes de demolir a plataforma de cultivo."
+koKR = "재배 데크를 철거하기 전에 식물을 제거하세요."
+csCZ = "Před zbouráním pěstební plošiny odstraňte rostliny."
+viVN = "Hãy dọn cây trồng trước khi phá dỡ sàn trồng cây."
+trTR = "Büyütme platformunu yıkmadan önce bitkileri kaldırın."
 
 ["VF.ToolGroup.Main"]
 new = "Vertical Farming"
 status = "normal"
+enUS = "Vertical Farming"
+zhCN = "垂直农业"
 
 ["VF.ToolGroup.Terraces"]
 new = "Fixed Farm Terraces"

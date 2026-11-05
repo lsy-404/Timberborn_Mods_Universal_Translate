@@ -2,12 +2,29 @@
 name = "Decoration"
 
 ["Building.WoodenPlanterBox1x1.DisplayName"]
-new = "Wooden Planter Box 1×1"
 status = "normal"
+raw = "Wooden Planter Box 1×1"
+enUS = "Wooden Planter Box 1×1"
+zhCN = "木制花箱 1×1"
+zhTW = "木製花箱 1×1"
+ruRU = "Деревянное кашпо 1×1"
+jaJP = "木製プランター 1×1"
+frFR = "Jardinière en bois 1×1"
+deDE = "Pflanzkasten aus Holz 1×1"
+plPL = "Drewniana donica 1×1"
+ptBR = "Jardineira de madeira 1×1"
+koKR = "나무 화분 상자 1×1"
+csCZ = "Dřevěný květináč 1×1"
+viVN = "Hộp trồng cây bằng gỗ 1×1"
+trTR = "Ahşap Saksı Kutusu 1×1"
 
 ["Building.WoodenPlanterBox1x1.Description"]
 new = "A timber planter packed with flowers."
 status = "normal"
+enUS = "A timber planter packed with flowers."
+zhCN = "一个装满鲜花的木制花槽。"
+zhTW = "種滿花朵的木製花箱。"
+ruRU = "Деревянный цветочный ящик, полный цветов."
 
 ["Building.WoodenPlanterBox1x1.FlavorDescription"]
 new = "Hand-built by the Folktails."
