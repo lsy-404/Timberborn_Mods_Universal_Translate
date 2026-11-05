@@ -26,15 +26,17 @@ def body(**kw):
     base.update(kw)
     return {k: v for k, v in base.items() if v is not None}
 
+def swap(text):
+    return text.replace('<', '(').replace('>', ')')
+
+swapped = [{'type': 'text', 'text': swap(x)} for x in parts]
 variants = {
-    'A_tiny_1024': {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'user', 'content': 'Reply with ok'}]},
-    'B_tiny_64': {'model': 'pearl', 'max_tokens': 64, 'messages': [{'role': 'user', 'content': 'Reply with ok'}]},
-    'C_real_1024': body(),
-    'D_real_512': body(max_tokens=512),
-    'E_real_nocache_1024': body(prompt_cache_options=None, messages=[{'role': 'system', 'content': plain_system}, {'role': 'user', 'content': user}]),
-    'F_real_maxcompletion_1024': body(max_tokens=None, max_completion_tokens=1024),
-    'G_real_4000': body(max_tokens=4000),
-    'H_real_string_system_1024': body(prompt_cache_options=None, messages=[{'role': 'system', 'content': '\n\n'.join(parts)}, {'role': 'user', 'content': user}]),
+    'I_real_noangle': body(prompt_cache_options=None, messages=[{'role': 'system', 'content': swapped}, {'role': 'user', 'content': user}]),
+    'K_ascii_long_noangle': {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'system', 'content': 'Translate carefully. ' * 280}, {'role': 'user', 'content': 'Folktails Pump'}]},
+    'L_short_angle': {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'user', 'content': 'Reply with ok <b>x</b> <i>y</i>'}]},
+    'M_short_amp': {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'user', 'content': 'Reply with ok A & B'}]},
+    'N_short_nonascii': {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'user', 'content': 'Reply with ok 你好 世界 日本語'}]},
+    'O_long_angle': {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'system', 'content': 'Translate carefully. ' * 280 + ' <b>x</b>'}, {'role': 'user', 'content': 'Folktails Pump'}]},
 }
 for name, payload in variants.items():
     try:
