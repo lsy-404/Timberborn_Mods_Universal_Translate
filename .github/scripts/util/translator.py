@@ -298,7 +298,7 @@ class TranslatorLLM:
 
     def _request_once(self, text, target_language, system_prompt, user_prompt, feedback=None, preserve_line_entries=False):
         """Return (translation, safe retry reason) and settle this attempt alone."""
-        messages = [{'role': 'system', 'content': system_prompt}, {'role': 'user', 'content': user_prompt}]
+        messages = [{'role': 'developer', 'content': system_prompt}, {'role': 'user', 'content': user_prompt}]
         if feedback:
             messages.append({'role': 'user', 'content': feedback})
         self._check_rate_limit()

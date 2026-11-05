@@ -123,7 +123,7 @@ class ProductionTranslationTests(unittest.TestCase):
         self.assertEqual(set(body), {'model', 'max_tokens', 'messages', 'prompt_cache_options'})
         self.assertEqual(body['prompt_cache_options'], {'mode': 'explicit'})
         self.assertEqual(body['messages'], [
-            {'role': 'system', 'content': system}, {'role': 'user', 'content': user},
+            {'role': 'developer', 'content': system}, {'role': 'user', 'content': user},
         ])
         self.assertEqual(system[0]['prompt_cache_breakpoint'], {'mode': 'explicit'})
         self.assertTrue(all(set(part) == {'type', 'text'} for part in system[1:-1]))

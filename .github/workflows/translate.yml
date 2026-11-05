@@ -55,7 +55,7 @@ jobs:
         if: inputs.verify_only == true
         env:
           LLM_TOKEN: ${{ secrets.LLM_TOKEN }}
-        run: python test/probe_gateway.py
+        run: python test/verify_production_translation.py
 
       - name: Sync ingame TOML files from raw sources
         if: inputs.verify_only != true
