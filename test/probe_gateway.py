@@ -26,18 +26,15 @@ def body(**kw):
     base.update(kw)
     return {k: v for k, v in base.items() if v is not None}
 
-def swap(text):
-    return text.replace('<', '(').replace('>', ')')
+def sysmsg(n, role='system'):
+    return {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': role, 'content': 'a' * n}, {'role': 'user', 'content': 'Reply with ok'}]}
 
-swapped = [{'type': 'text', 'text': swap(x)} for x in parts]
-variants = {
-    'I_real_noangle': body(prompt_cache_options=None, messages=[{'role': 'system', 'content': swapped}, {'role': 'user', 'content': user}]),
-    'K_ascii_long_noangle': {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'system', 'content': 'Translate carefully. ' * 280}, {'role': 'user', 'content': 'Folktails Pump'}]},
-    'L_short_angle': {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'user', 'content': 'Reply with ok <b>x</b> <i>y</i>'}]},
-    'M_short_amp': {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'user', 'content': 'Reply with ok A & B'}]},
-    'N_short_nonascii': {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'user', 'content': 'Reply with ok 你好 世界 日本語'}]},
-    'O_long_angle': {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'system', 'content': 'Translate carefully. ' * 280 + ' <b>x</b>'}, {'role': 'user', 'content': 'Folktails Pump'}]},
-}
+variants = {}
+for n in (200, 500, 700, 1000, 1400, 2000, 2800, 3500, 4500):
+    variants[f'S_sys_{n}'] = sysmsg(n)
+variants['U_user_5000'] = {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'user', 'content': 'Reply with ok ' + 'a' * 5000}]}
+variants['W_sys_2000_out64'] = {'model': 'pearl', 'max_tokens': 64, 'messages': [{'role': 'system', 'content': 'a' * 2000}, {'role': 'user', 'content': 'Reply with ok'}]}
+variants['X_sys_5000_out16'] = {'model': 'pearl', 'max_tokens': 16, 'messages': [{'role': 'system', 'content': 'a' * 5000}, {'role': 'user', 'content': 'Reply with ok'}]}
 for name, payload in variants.items():
     try:
         r = requests.post(url, headers={'Content-Type': 'application/json', 'Authorization': f'Bearer {token}', 'session-id': session}, json=payload, timeout=(10, 120))
