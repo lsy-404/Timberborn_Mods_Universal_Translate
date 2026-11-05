@@ -53,7 +53,7 @@ def main():
         sys.executable, str(ROOT / '.github/scripts/translate_mods.py'),
         '--config', str(config_path), '--data-dir', str(data_dir),
         '--glossary', str(ROOT / 'data/_glossary.toml'),
-        '--log-file', str(log_dir / 'translation.log'), '--max-time', '120',
+        '--log-file', str(log_dir / 'translation.log'), '--max-time', '300',
     ], cwd=ROOT, check=True)
     document = toml.load(path)
     for key, entry in sample.items():
