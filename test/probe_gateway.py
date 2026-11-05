@@ -26,24 +26,28 @@ def body(**kw):
     base.update(kw)
     return {k: v for k, v in base.items() if v is not None}
 
-def sysmsg(n, role='system'):
-    return {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': role, 'content': 'a' * n}, {'role': 'user', 'content': 'Reply with ok'}]}
-
-variants = {}
-for n in (200, 500, 700, 1000, 1400, 2000, 2800, 3500, 4500):
-    variants[f'S_sys_{n}'] = sysmsg(n)
-variants['U_user_5000'] = {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'user', 'content': 'Reply with ok ' + 'a' * 5000}]}
-variants['W_sys_2000_out64'] = {'model': 'pearl', 'max_tokens': 64, 'messages': [{'role': 'system', 'content': 'a' * 2000}, {'role': 'user', 'content': 'Reply with ok'}]}
-variants['X_sys_5000_out16'] = {'model': 'pearl', 'max_tokens': 16, 'messages': [{'role': 'system', 'content': 'a' * 5000}, {'role': 'user', 'content': 'Reply with ok'}]}
-for name, payload in variants.items():
+big = 'a' * 3000
+variants = {
+    'P1_developer_3000': ('chat', {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'developer', 'content': big}, {'role': 'user', 'content': 'Reply with ok'}]}),
+    'P4_system_1char': ('chat', {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'system', 'content': 'a'}, {'role': 'user', 'content': 'Reply with ok'}]}),
+    'P5_responses_instr_3000': ('responses', {'model': 'pearl', 'max_output_tokens': 1024, 'instructions': big, 'input': 'Reply with ok'}),
+    'P6_responses_tiny': ('responses', {'model': 'pearl', 'max_output_tokens': 1024, 'input': 'Reply with ok'}),
+    'P7_messages_system_3000': ('messages', {'model': 'pearl', 'max_tokens': 1024, 'system': big, 'messages': [{'role': 'user', 'content': 'Reply with ok'}]}),
+    'P8_messages_tiny': ('messages', {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'user', 'content': 'Reply with ok'}]}),
+    'P9_chat_user_after_user_long': ('chat', {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'user', 'content': big}, {'role': 'user', 'content': 'Reply with ok'}]}),
+    'P10_chat_system_nomax': ('chat', {'model': 'pearl', 'messages': [{'role': 'system', 'content': 'a'}, {'role': 'user', 'content': 'Reply with ok'}]}),
+    'P11_chat_assistant_msg': ('chat', {'model': 'pearl', 'max_tokens': 1024, 'messages': [{'role': 'user', 'content': 'Say hi'}, {'role': 'assistant', 'content': 'hi'}, {'role': 'user', 'content': 'Reply with ok'}]}),
+}
+paths = {'chat': '/v1/chat/completions', 'responses': '/v1/responses', 'messages': '/v1/messages'}
+origin = url.split('/v1/')[0]
+for name, (kind, payload) in variants.items():
     try:
-        r = requests.post(url, headers={'Content-Type': 'application/json', 'Authorization': f'Bearer {token}', 'session-id': session}, json=payload, timeout=(10, 120))
+        hdr = {'Content-Type': 'application/json', 'Authorization': f'Bearer {token}', 'session-id': session}
+        if kind == 'messages':
+            hdr['anthropic-version'] = '2023-06-01'
+        r = requests.post(origin + paths[kind], headers=hdr, json=payload, timeout=(10, 120))
         text = r.text.replace(token, '[redacted]')
-        if r.status_code == 200:
-            j = r.json()
-            print(name, r.status_code, 'model=', j.get('model'), 'usage=', json.dumps(j.get('usage'))[:300], 'finish=', j['choices'][0].get('finish_reason'), flush=True)
-        else:
-            print(name, r.status_code, text[:300], flush=True)
+        print(name, r.status_code, text[:260].replace('\n', ' '), flush=True)
     except Exception as e:
         print(name, 'EXC', str(e).replace(token, '[redacted]')[:200], flush=True)
     time.sleep(2)
