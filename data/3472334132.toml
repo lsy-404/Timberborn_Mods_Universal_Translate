@@ -579,6 +579,22 @@ csCZ = "Někdy může být spodní lišta příliš dlouhá a její prvky vpravo
 viVN = "Đôi khi thanh dưới cùng quá dài và có thể che mất các thành phần ở góc dưới bên phải (chẳng hạn như Mini Map mod).\nTùy chọn này tạo thêm một khoảng trống ở phía dưới."
 trTR = "Bazen alt çubuk fazla uzun olabilir ve sağ alttaki öğeler (Mini Harita modu gibi) kapanabilir.\nBu seçenek altta biraz boşluk açar."
 
+["LV.T4UI.CollapseAll"]
+new = "Collapse all"
+status = "normal"
+
+["LV.T4UI.ExpandAll"]
+new = "Expand all"
+status = "normal"
+
+["LV.T4UI.ShowSwapManagementLocationButton"]
+new = "Show Swap Management Location button"
+status = "normal"
+
+["LV.T4UI.ShowSwapManagementLocationButtonDesc"]
+new = "Show the button to swap the location of the management panel."
+status = "normal"
+
 ["LV.T4UI.Update7_10_2"]
 raw = "This update adds collapsible groups to the management panel (F1 -> F5, like Population, Workplaces, etc.). You can also enable auto-collapse in the mod settings."
 status = "abandoned"

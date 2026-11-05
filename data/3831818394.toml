@@ -100,3 +100,19 @@ status = "normal"
 ["ScienceQueue.PausedAddToQueueOrUnlock"]
 new = "Queue paused: add to queue (Shift: unlock now)"
 status = "normal"
+
+["ScienceQueue.Bank"]
+new = "Science bank:"
+status = "normal"
+
+["ScienceQueue.Tooltip.Bank"]
+new = "Keep this many points for emergencies. Automatic unlocks do not spend them. Unlock now and Shift+click can."
+status = "normal"
+
+["ScienceQueue.Tooltip.BankAccept"]
+new = "Accept the new bank value"
+status = "normal"
+
+["ScienceQueue.Tooltip.BankReject"]
+new = "Cancel the change"
+status = "normal"

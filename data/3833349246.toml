@@ -2,8 +2,8 @@
 name = "Vertical Farming"
 
 ["VF.RemoveCropsFirst"]
-status = "normal"
 raw = "Remove plants before demolishing the growing deck."
+status = "normal"
 enUS = "Remove plants before demolishing the growing deck."
 zhCN = "拆除种植甲板前，请先移除植物。"
 zhTW = "拆除種植平台前，請先移除植物。"
@@ -19,8 +19,8 @@ viVN = "Hãy dọn cây trồng trước khi phá dỡ sàn trồng cây."
 trTR = "Büyütme platformunu yıkmadan önce bitkileri kaldırın."
 
 ["VF.ToolGroup.Main"]
-status = "normal"
 raw = "Vertical Farming"
+status = "normal"
 enUS = "Vertical Farming"
 zhCN = "垂直农业"
 zhTW = "垂直農耕"
@@ -36,8 +36,8 @@ viVN = "Nông nghiệp thẳng đứng"
 trTR = "Dikey Tarım"
 
 ["VF.ToolGroup.Terraces"]
-status = "normal"
 raw = "Fixed Farm Terraces"
+status = "normal"
 enUS = "Fixed Farm Terraces"
 zhCN = "固定式梯田农场"
 zhTW = "固定式農耕梯田"
@@ -53,8 +53,8 @@ viVN = "Ruộng bậc thang cố định"
 trTR = "Sabit Tarım Terasları"
 
 ["VF.ModularOverlap"]
-status = "normal"
 raw = "This space is already part of a farm or occupied by another structure."
+status = "normal"
 enUS = "This space is already part of a farm or occupied by another structure."
 zhCN = "此空间已属于某个农场，或已被其他建筑占用。"
 zhTW = "此空間已屬於農場，或已被其他建築占用。"
@@ -70,8 +70,8 @@ viVN = "Không gian này đã thuộc về một trang trại hoặc đang bị 
 trTR = "Bu alan zaten bir çiftliğin parçası ya da başka bir yapı tarafından işgal edilmiş."
 
 ["VF.LegacyDeckSmall.Name"]
-status = "normal"
 raw = "Growing Deck — Legacy Small (12×12)"
+status = "normal"
 enUS = "Growing Deck — Legacy Small (12×12)"
 zhCN = "种植平台 — 旧版小型（12×12）"
 zhTW = "種植平台 — 舊版小型 (12×12)"
@@ -87,8 +87,8 @@ viVN = "Sàn trồng trọt — Nhỏ kiểu cũ (12×12)"
 trTR = "Yetiştirme Platformu — Eski Küçük (12×12)"
 
 ["VF.LegacyDeckSmall.Description"]
-status = "normal"
 raw = "An existing deck from prototype 0.1.0. Its original dimensions and crops are preserved. New construction uses the compact deck sizes."
+status = "normal"
 enUS = "An existing deck from prototype 0.1.0. Its original dimensions and crops are preserved. New construction uses the compact deck sizes."
 zhCN = "原型 0.1.0 中已有的种植平台。其原始尺寸和作物均予以保留。新建建筑采用紧凑型平台尺寸。"
 zhTW = "這是原型 0.1.0 時期的既有甲板。其原始尺寸與作物均予以保留。新建築則採用緊湊型甲板尺寸。"
@@ -104,8 +104,8 @@ viVN = "Một sàn hiện có từ bản thử nghiệm 0.1.0. Kích thước v�
 trTR = "0.1.0 prototipinden kalma mevcut bir tarım platformu. Özgün boyutları ve ekinleri korunmuştur. Yeni yapılar kompakt platform boyutlarını kullanır."
 
 ["VF.LegacyDeckSmall.Flavor"]
-status = "normal"
 raw = "The old garden still has room to grow."
+status = "normal"
 enUS = "The old garden still has room to grow."
 zhCN = "这座老花园还有生长的空间。"
 zhTW = "這座老花園仍有成長的空間。"
@@ -121,8 +121,8 @@ viVN = "Khu vườn cũ vẫn còn chỗ để phát triển."
 trTR = "Eski bahçede hâlâ büyümeye yer var."
 
 ["VF.LegacyDeckMedium.Name"]
-status = "normal"
 raw = "Growing Deck — Legacy Medium (17×17)"
+status = "normal"
 enUS = "Growing Deck — Legacy Medium (17×17)"
 zhCN = "种植平台 — 旧版中型（17×17）"
 zhTW = "種植平台 — 舊版中型 (17×17)"
@@ -138,8 +138,8 @@ viVN = "Sàn trồng trọt — Cỡ trung đời cũ (17×17)"
 trTR = "Yetiştirme Platformu — Eski Orta Boy (17×17)"
 
 ["VF.LegacyDeckMedium.Description"]
-status = "normal"
 raw = "An existing deck from prototype 0.1.0. Its original dimensions and crops are preserved. New construction uses the compact deck sizes."
+status = "normal"
 enUS = "An existing deck from prototype 0.1.0. Its original dimensions and crops are preserved. New construction uses the compact deck sizes."
 zhCN = "原型 0.1.0 中已有的种植平台。原始尺寸和作物均予以保留。新建造的种植平台采用紧凑型尺寸。"
 zhTW = "原型 0.1.0 中的既有平台。保留了原始尺寸和作物。新建的平台採用精簡尺寸。"
@@ -155,8 +155,8 @@ viVN = "Một sàn hiện có từ bản thử nghiệm 0.1.0. Kích thước v�
 trTR = "0.1.0 prototipinden kalma mevcut bir platform. Özgün boyutları ve ekinleri korunmuştur. Yeni inşaatlarda kompakt platform boyutları kullanılır."
 
 ["VF.LegacyDeckMedium.Flavor"]
-status = "normal"
 raw = "The old garden still has room to grow."
+status = "normal"
 enUS = "The old garden still has room to grow."
 zhCN = "这座老花园依然有生长的余地。"
 zhTW = "這座老花園還有成長的空間。"
@@ -172,8 +172,8 @@ viVN = "Khu vườn cũ vẫn còn không gian để phát triển."
 trTR = "Eski bahçede hâlâ büyümek için yer var."
 
 ["VF.LegacyDeckLarge.Name"]
-status = "normal"
 raw = "Growing Deck — Legacy Large (22×22)"
+status = "normal"
 enUS = "Growing Deck — Legacy Large (22×22)"
 zhCN = "种植平台 — 旧版大型（22×22）"
 zhTW = "種植平台 — 舊版大型 (22×22)"
@@ -189,8 +189,8 @@ viVN = "Sàn trồng trọt — Cỡ lớn đời cũ (22×22)"
 trTR = "Yetiştirme Platformu — Eski Büyük (22×22)"
 
 ["VF.LegacyDeckLarge.Description"]
-status = "normal"
 raw = "An existing deck from prototype 0.1.0. Its original dimensions and crops are preserved. New construction uses the compact deck sizes."
+status = "normal"
 enUS = "An existing deck from prototype 0.1.0. Its original dimensions and crops are preserved. New construction uses the compact deck sizes."
 zhCN = "原型 0.1.0 中已有的平台。其原始尺寸和作物均予以保留。新建的平台采用紧凑型尺寸。"
 zhTW = "這是原型 0.1.0 中的既有平台。其原始尺寸與作物均予以保留。新建造的平台則採用精簡版尺寸。"
@@ -206,8 +206,8 @@ viVN = "Sàn hiện có từ bản thử nghiệm 0.1.0. Kích thước và cây
 trTR = "0.1.0 prototipinden kalma mevcut bir platform. Orijinal boyutları ve ekinleri korunmuştur. Yeni yapılar kompakt platform boyutlarını kullanır."
 
 ["VF.LegacyDeckLarge.Flavor"]
-status = "normal"
 raw = "The old garden still has room to grow."
+status = "normal"
 enUS = "The old garden still has room to grow."
 zhCN = "这座老花园还有生长的余地。"
 zhTW = "老花園仍有生長空間。"
@@ -223,8 +223,8 @@ viVN = "Khu vườn cũ vẫn còn chỗ để trồng thêm."
 trTR = "Eski bahçede hâlâ büyümek için yer var."
 
 ["VF.CompactDeckSmall.Name"]
-status = "normal"
 raw = "Growing Deck — Legacy Compact Small (5×5)"
+status = "normal"
 enUS = "Growing Deck — Legacy Compact Small (5×5)"
 zhCN = "种植平台 — 旧版紧凑小型（5×5）"
 zhTW = "栽培平台 — 舊版緊湊小型（5×5）"
@@ -240,8 +240,8 @@ viVN = "Sàn trồng trọt — Bản cũ nhỏ gọn (5×5)"
 trTR = "Yetiştirme Platformu — Eski Kompakt Küçük (5×5)"
 
 ["VF.CompactDeckSmall.Description"]
-status = "normal"
 raw = "9 planting tiles with a perimeter walkway. Total footprint 5×5, height 4. Connect water pipes to a corner at base or roof level. Requires stairs to the soil level. Stack matching decks directly above. Ordinary land crops only."
+status = "normal"
 enUS = "9 planting tiles with a perimeter walkway. Total footprint 5×5, height 4. Connect water pipes to a corner at base or roof level. Requires stairs to the soil level. Stack matching decks directly above. Ordinary land crops only."
 zhCN = "9 个种植地块，外围设有走道。占地 5×5，高 4。可在底部或屋顶高度将水管连接到角落。需要修建楼梯通往土壤层。可将相同的种植层直接叠放在上方。仅限普通陆地作物。"
 zhTW = "9 個種植格，四周設有走道。總占地為 5×5，高度為 4。可在底部或屋頂高度將水管接至角落。需要樓梯通往土壤層。可將相同的甲板直接疊放在上方。僅限一般陸地作物。"
@@ -257,8 +257,8 @@ viVN = "9 ô trồng cây với lối đi dọc chu vi. Diện tích chiếm ch�
 trTR = "Çevresinde yürüme yolu bulunan 9 ekim karesi. Toplam taban alanı 5×5, yüksekliği 4. Su borularını taban veya çatı seviyesindeki bir köşeye bağlayın. Toprak seviyesine ulaşmak için merdiven gerekir. Aynı tür platformları doğrudan üst üste yerleştirin. Yalnızca sıradan kara ürünleri."
 
 ["VF.CompactDeckSmall.Flavor"]
-status = "normal"
 raw = "A little soil. A lot of ambition."
+status = "normal"
 enUS = "A little soil. A lot of ambition."
 zhCN = "一小块土地，满腔雄心。"
 zhTW = "一點土壤，滿腔雄心。"
@@ -274,8 +274,8 @@ viVN = "Chút đất. Nhiều tham vọng."
 trTR = "Azıcık toprak. Kocaman hırs."
 
 ["VF.CompactDeckMedium.Name"]
-status = "normal"
 raw = "Growing Deck — Legacy Compact Medium (7×7)"
+status = "normal"
 enUS = "Growing Deck — Legacy Compact Medium (7×7)"
 zhCN = "种植平台 — 旧版紧凑型中号（7×7）"
 zhTW = "栽培平台 — 舊版緊湊中型（7×7）"
@@ -291,8 +291,8 @@ viVN = "Sàn canh tác — Bản cũ, nhỏ gọn, cỡ trung (7×7)"
 trTR = "Yetiştirme Platformu — Eski Kompakt Orta (7×7)"
 
 ["VF.CompactDeckMedium.Description"]
-status = "normal"
 raw = "25 planting tiles with a perimeter walkway. Total footprint 7×7, height 4. Connect water pipes to a corner at base or roof level. Requires stairs to the soil level. Stack matching decks directly above. Ordinary land crops only."
+status = "normal"
 enUS = "25 planting tiles with a perimeter walkway. Total footprint 7×7, height 4. Connect water pipes to a corner at base or roof level. Requires stairs to the soil level. Stack matching decks directly above. Ordinary land crops only."
 zhCN = "25个种植格，周围设有走道。总占地7×7，高4。水管可连接到底部或屋顶高度的一个角落。需要楼梯通往土壤层。可在正上方堆叠同款种植层。仅限普通陆地作物。"
 zhTW = "25 個種植格，四周設有走道。占地尺寸為 7×7，高度為 4。可在底部或屋頂高度將水管連接至角落。需要樓梯通往土壤層。相同平台可直接向上堆疊。僅可種植一般陸地作物。"
@@ -308,8 +308,8 @@ viVN = "25 ô trồng cây với lối đi bao quanh. Tổng diện tích chiế
 trTR = "Çevresinde yürüyüş yolu bulunan 25 ekim karesi. Toplam taban alanı 7×7, yüksekliği 4. Su borularını taban veya çatı seviyesindeki bir köşeye bağlayın. Toprak seviyesine ulaşmak için merdiven gerekir. Aynı türdeki katları doğrudan üst üste yerleştirin. Yalnızca normal kara ekinleri."
 
 ["VF.CompactDeckMedium.Flavor"]
-status = "normal"
 raw = "A little soil. A lot of ambition."
+status = "normal"
 enUS = "A little soil. A lot of ambition."
 zhCN = "土壤不多，雄心不小。"
 zhTW = "一小片土壤，滿腔雄心。"
@@ -325,8 +325,8 @@ viVN = "Một chút đất. Tham vọng lớn."
 trTR = "Azıcık toprak. Bolca hırs."
 
 ["VF.CompactDeckLarge.Name"]
-status = "normal"
 raw = "Growing Deck — Legacy Compact Large (10×10)"
+status = "normal"
 enUS = "Growing Deck — Legacy Compact Large (10×10)"
 zhCN = "种植平台 — 旧版紧凑型大型（10×10）"
 zhTW = "栽培平台 — 舊版緊湊大型（10×10）"
@@ -342,8 +342,8 @@ viVN = "Sàn trồng trọt — Bản cũ, cỡ lớn nhỏ gọn (10×10)"
 trTR = "Yetiştirme Platformu — Eski Kompakt Büyük (10×10)"
 
 ["VF.CompactDeckLarge.Description"]
-status = "normal"
 raw = "64 planting tiles with a perimeter walkway. Total footprint 10×10, height 4. Connect water pipes to a corner at base or roof level. Requires stairs to the soil level. Stack matching decks directly above. Ordinary land crops only."
+status = "normal"
 enUS = "64 planting tiles with a perimeter walkway. Total footprint 10×10, height 4. Connect water pipes to a corner at base or roof level. Requires stairs to the soil level. Stack matching decks directly above. Ordinary land crops only."
 zhCN = "64个种植格，外围设有步道。占地尺寸为10×10，高度为4。可在底部或屋顶高度将水管连接至角落。需要楼梯通往土壤层。可在正上方堆叠相同平台。仅限普通陆地作物。"
 zhTW = "64 個種植格，周圍設有走道。總占地 10×10，高 4。可在底部或屋頂高度將水管接至角落。需要樓梯通往土壤高度。可將相同平台直接堆疊在上方。僅限一般陸地作物。"
@@ -359,8 +359,8 @@ viVN = "64 ô trồng cây với lối đi bao quanh. Tổng diện tích chiế
 trTR = "64 ekim karesi ve çevresinde yürüyüş yolu. Toplam kapladığı alan 10×10, yüksekliği 4. Su borularını taban veya çatı seviyesindeki bir köşeye bağlayın. Toprak seviyesine ulaşmak için merdiven gerekir. Aynı türdeki katları doğrudan üst üste yerleştirin. Yalnızca sıradan kara bitkileri."
 
 ["VF.CompactDeckLarge.Flavor"]
-status = "normal"
 raw = "A little soil. A lot of ambition."
+status = "normal"
 enUS = "A little soil. A lot of ambition."
 zhCN = "土壤不多，雄心不少。"
 zhTW = "土壤不多，雄心不少。"
@@ -376,8 +376,8 @@ viVN = "Một chút đất. Cả một trời tham vọng."
 trTR = "Azıcık toprak. Bolca hırs."
 
 ["VF.RaisedBaseSmall.Name"]
-status = "normal"
 raw = "Growing Deck — Legacy Tall Small (5×5)"
+status = "normal"
 enUS = "Growing Deck — Legacy Tall Small (5×5)"
 zhCN = "种植平台 — 旧版高型小尺寸（5×5）"
 zhTW = "種植平台 — 舊版高型小型（5×5）"
@@ -409,8 +409,8 @@ viVN = "9 ô trồng, diện tích chiếm chỗ tổng cộng 5×5. Tầng tr�
 trTR = "9 dikim karesi, toplam 5×5 karelik taban alanı. 5 karelik yetiştirme katı. Toprak seviyesi tabandan 4 kare yukarıdadır ve altta kullanılabilir zemin bırakır. Suyu köşe bağlantı noktalarına bağlayın. Toprak seviyesindeki merdivenler veya bitişik bir tüp yolu, her yönden erişim sağlar; her kat için ek bir istasyona gerek yoktur. Ağaçlar için erişilebilir bir Ormancı ve Oduncu gerekir; ekinler için Çiftlik Evi veya Bahçıvanlar Locası kullanılır."
 
 ["VF.RaisedBaseSmall.Flavor"]
-status = "normal"
 raw = "A little soil. A lot of ambition."
+status = "normal"
 enUS = "A little soil. A lot of ambition."
 zhCN = "些许泥土，满怀雄心。"
 zhTW = "一點土壤，滿懷雄心。"
@@ -426,8 +426,8 @@ viVN = "Một chút đất. Nhiều tham vọng."
 trTR = "Azıcık toprak. Bolca hırs."
 
 ["VF.UpperBedSmall.Name"]
-status = "normal"
 raw = "Growing Deck — Legacy Tall Small (5×5)"
+status = "normal"
 enUS = "Growing Deck — Legacy Tall Small (5×5)"
 zhCN = "种植平台 — 旧版高型小号（5×5）"
 zhTW = "栽培平台 — 舊版高型小型（5×5）"
@@ -457,8 +457,8 @@ viVN = "9 ô trồng, diện tích chiếm chỗ tổng cộng 5×5. Tầng tr�
 trTR = "9 ekim karesi, toplam 5×5 taban alanı. 5 karelik yetiştirme katı. Uygun bir çatının üzerine doğrudan yerleştirin: toprak tabandadır; yatağın altında ayak veya boşluk yoktur. Tam istiflenebilir destek gerektirir. Suyu köşe bağlantı noktalarına bağlayın. Merdivenler veya toprak seviyesinde bitişik bir tüp yolu, herhangi bir taraftan erişim sağlar; her kat için ek bir istasyon gerekmez. Ağaçlar için erişilebilir bir ormancı ve oduncu gerekir; ekinler için bir çiftlik evi veya Bahçıvanlar Kulübesi kullanılır."
 
 ["VF.UpperBedSmall.Flavor"]
-status = "normal"
 raw = "A little soil. A lot of ambition."
+status = "normal"
 enUS = "A little soil. A lot of ambition."
 zhCN = "土壤虽少，雄心不小。"
 zhTW = "一點土壤，滿腔抱負。"
@@ -474,8 +474,8 @@ viVN = "Một chút đất. Nhiều tham vọng."
 trTR = "Biraz toprak. Bolca hırs."
 
 ["VF.CropRaisedBaseSmall.Name"]
-status = "normal"
 raw = "Crop Farm — Small (5×5)"
+status = "normal"
 enUS = "Crop Farm — Small (5×5)"
 zhCN = "小型作物农场（5×5）"
 zhTW = "作物農場 — 小型 (5×5)"
@@ -503,8 +503,8 @@ deDE = "9 Pflanzfelder, insgesamt 5×5 Grundfläche. 2 Felder hohe Anbauetage. D
 ptBR = "9 quadrados de plantio, área total de 5×5. Pavimento de cultivo com 2 quadrados de altura. O nível do solo fica 2 quadrados acima da base, deixando o terreno abaixo utilizável. Conecte a água às entradas nos cantos. Escadas ou uma tubovia encostada na altura do solo dão acesso por qualquer lado; não é necessária uma estação extra para cada nível. Árvores precisam de um silvicultor e um lenhador ao alcance; plantações usam uma Fazenda ou um Alojamento dos Jardineiros. A prévia muda para um canteiro superior nivelado com o telhado de uma fazenda correspondente totalmente sustentado. Apenas plantações comuns; árvores exigem uma Fazenda de Árvores."
 
 ["VF.CropRaisedBaseSmall.Flavor"]
-status = "normal"
 raw = "A little soil. A lot of ambition."
+status = "normal"
 enUS = "A little soil. A lot of ambition."
 zhCN = "寸土之地，雄心万丈。"
 zhTW = "一點土壤，滿腔雄心。"
@@ -520,8 +520,8 @@ viVN = "Một chút đất. Rất nhiều tham vọng."
 trTR = "Biraz toprak. Büyük hedefler."
 
 ["VF.CropUpperBedSmall.Name"]
-status = "normal"
 raw = "Crop Farm Upper Bed — Small (5×5)"
+status = "normal"
 enUS = "Crop Farm Upper Bed — Small (5×5)"
 zhCN = "作物农场上层种植床 — 小型（5×5）"
 zhTW = "作物農場上層種植床 — 小型 (5×5)"
@@ -550,8 +550,8 @@ viVN = "9 ô trồng cây, diện tích chiếm chỗ tổng cộng 5×5. Tầng
 trTR = "9 ekim karesi, toplam 5×5 taban alanı. 2 kare yüksekliğinde yetiştirme katı. Uyumlu bir çatının üzerine doğrudan yerleştirin: toprak tabandadır; yatağın altında ayak veya boşluk yoktur. Tam istiflenebilir destek gerektirir. Suyu köşe bağlantı noktalarına bağlayın. Toprak seviyesinde merdivenler veya bitişik bir tüp yolu her yönden erişim sağlar; her kat için ek bir istasyon gerekmez. Ağaçlar için erişilebilir bir ormancı ve oduncu gerekir; mahsuller için Çiftlik Evi veya Bahçıvanlar Locası kullanılır. Yalnızca sıradan mahsuller; ağaçlar için Ağaç Çiftliği gerekir."
 
 ["VF.CropUpperBedSmall.Flavor"]
-status = "normal"
 raw = "A little soil. A lot of ambition."
+status = "normal"
 enUS = "A little soil. A lot of ambition."
 zhCN = "土壤不多，雄心不小。"
 zhTW = "土壤不多，雄心不少。"
@@ -567,8 +567,8 @@ viVN = "Một chút đất. Rất nhiều tham vọng."
 trTR = "Azıcık toprak. Bolca hırs."
 
 ["VF.TreeRaisedBaseSmall.Name"]
-status = "normal"
 raw = "Tree Farm — Small (5×5)"
+status = "normal"
 enUS = "Tree Farm — Small (5×5)"
 zhCN = "树木农场 — 小型 (5×5)"
 zhTW = "樹木農場 — 小型 (5×5)"
@@ -597,8 +597,8 @@ viVN = "9 ô trồng trọt, diện tích chiếm chỗ tổng cộng 5×5. Tầ
 trTR = "9 ekim karosu, toplam 5×5 taban alanı. 4 karoluk yetiştirme katı. Toprak seviyesi tabandan 4 karo yukarıdadır ve altta kullanılabilir zemin bırakır. Köşe bağlantı noktalarına su bağlayın. Merdivenler veya toprak seviyesinde bitişik bir tüp yolu, her yönden erişim sağlar; her kat için ayrı bir istasyon gerekmez. Ağaçlar için erişebilen bir ormancı ve oduncu gerekir; ekinler için Çiftlik Evi veya Bahçıvanlar Locası kullanılır. Tam desteklenen uyumlu bir çiftlik çatısında önizleme, üst tarhı çatıyla aynı seviyeye getirir. Ağaçlar ve sıradan ekinler yetiştirilebilir."
 
 ["VF.TreeRaisedBaseSmall.Flavor"]
-status = "normal"
 raw = "A little soil. A lot of ambition."
+status = "normal"
 enUS = "A little soil. A lot of ambition."
 zhCN = "土壤不多，雄心不小。"
 zhTW = "土壤不多，野心不小。"
@@ -614,8 +614,8 @@ viVN = "Một chút đất. Tham vọng lớn."
 trTR = "Biraz toprak. Çokça hırs."
 
 ["VF.TreeUpperBedSmall.Name"]
-status = "normal"
 raw = "Tree Farm Upper Bed — Small (5×5)"
+status = "normal"
 enUS = "Tree Farm Upper Bed — Small (5×5)"
 zhCN = "树木农场上层种植床—小型（5×5）"
 zhTW = "樹木農場上層栽培床 — 小型 (5×5)"
@@ -647,8 +647,8 @@ csCZ = "9 políček k výsadbě, celkový půdorys 5×5. Pěstební patro o 4 po
 viVN = "9 ô trồng, tổng diện tích chiếm chỗ 5×5. Tầng trồng 4 ô. Đặt trực tiếp lên mái phù hợp: đất nằm ở đáy, không có chân đỡ bên dưới luống hay khoảng hở. Cần có kết cấu đỡ xếp chồng đầy đủ. Nối đường nước với các cổng ở góc. Có thể tiếp cận từ bất kỳ phía nào bằng cầu thang hoặc đường đi dạng ống liền kề ở độ cao mặt đất; không cần thêm trạm cho mỗi tầng. Cây cần có người trồng rừng và tiều phu có thể tiếp cận; cây trồng cần Nông trại hoặc Nhà nghỉ Người làm vườn. Có thể trồng cây và các loại cây trồng thông thường."
 
 ["VF.TreeUpperBedSmall.Flavor"]
-status = "normal"
 raw = "A little soil. A lot of ambition."
+status = "normal"
 enUS = "A little soil. A lot of ambition."
 zhCN = "一小片土壤，一大份雄心。"
 zhTW = "土壤不多，雄心不少。"
@@ -664,8 +664,8 @@ viVN = "Một chút đất. Tham vọng lớn lao."
 trTR = "Biraz toprak. Çokça hırs."
 
 ["VF.RaisedBaseMedium.Name"]
-status = "normal"
 raw = "Growing Deck — Legacy Tall Medium (7×7)"
+status = "normal"
 enUS = "Growing Deck — Legacy Tall Medium (7×7)"
 zhCN = "种植平台 — 旧版高型中型（7×7）"
 zhTW = "種植平台 — 舊版高型中型（7×7）"
@@ -697,8 +697,8 @@ viVN = "25 ô trồng, diện tích chiếm chỗ tổng cộng 7×7 ô. Tầng 
 trTR = "25 ekim karesi, toplam 7×7 taban alanı. 5 karelik yetiştirme katı. Toprak seviyesi tabandan 4 kare yukarıdadır; böylece altta kullanılabilir zemin kalır. Suyu köşe bağlantı noktalarına bağlayın. Toprak seviyesinde merdivenler veya bitişik bir tüp yolu her yandan erişim sağlar; her kat için ayrıca bir istasyon gerekmez. Ağaçlar için erişilebilir bir ormancı ve oduncu gerekir; ekinler için bir çiftlik veya Bahçıvan Locası kullanılır."
 
 ["VF.RaisedBaseMedium.Flavor"]
-status = "normal"
 raw = "A little soil. A lot of ambition."
+status = "normal"
 enUS = "A little soil. A lot of ambition."
 zhCN = "方寸土壤，满腔雄心。"
 zhTW = "土壤不多，雄心不少。"

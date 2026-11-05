@@ -1,0 +1,4922 @@
+[_meta]
+name = "Beaver Diary"
+
+["BeaverDiary.Settings.Personalities"]
+new = "Beaver personalities"
+status = "normal"
+
+["BeaverDiary.Settings.Personalities.Tooltip"]
+new = "Every beaver has a personality that shows in its diary now and then."
+status = "normal"
+
+["BeaverDiary.Settings.PieChart"]
+new = "Pie chart"
+status = "normal"
+
+["BeaverDiary.Settings.PieChart.Tooltip"]
+new = "Show the day as a pie chart next to the time per activity."
+status = "normal"
+
+["BeaverDiary.Settings.Debug"]
+new = "Debug files"
+status = "normal"
+
+["BeaverDiary.Settings.Debug.Tooltip"]
+new = "Write each day's diaries and the recorded activity to Documents/Timberborn/BeaverDiary."
+status = "normal"
+
+["BeaverDiary.Personality.Optimist"]
+new = "The Optimist"
+status = "normal"
+
+["BeaverDiary.Personality.Grumbler"]
+new = "The Grumbler"
+status = "normal"
+
+["BeaverDiary.Personality.Foodie"]
+new = "The Foodie"
+status = "normal"
+
+["BeaverDiary.Personality.Workaholic"]
+new = "The Workaholic"
+status = "normal"
+
+["BeaverDiary.Personality.Slacker"]
+new = "The Slacker"
+status = "normal"
+
+["BeaverDiary.Personality.Poet"]
+new = "The Poet"
+status = "normal"
+
+["BeaverDiary.Personality.Worrier"]
+new = "The Worrier"
+status = "normal"
+
+["BeaverDiary.Personality.Devout"]
+new = "The Devout"
+status = "normal"
+
+["BeaverDiary.Personality.Pessimist"]
+new = "The Pessimist"
+status = "normal"
+
+["BeaverDiary.Personality.Scientist"]
+new = "The Scientist"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Eat.1"]
+new = "I enjoyed a lovely meal of {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Eat.2"]
+new = "I had a wonderful {good} lunch at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.EatLike.1"]
+new = "I ate the most delicious {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.EatDislike.1"]
+new = "I bravely ate {good} at {place}, and smiled"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Drink.1"]
+new = "I drank refreshing {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Drink.2"]
+new = "I enjoyed a cool sip of {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Leisure.1"]
+new = "I had the best time at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Leisure.2"]
+new = "I went to {place} and loved every minute"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Pickup.1"]
+new = "I cheerfully fetched {good} from {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Pickup.2"]
+new = "I skipped over to {place} for {good}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Carry.1"]
+new = "I proudly delivered {good} to {to}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Carry.2"]
+new = "I carried {good} to {to}, humming all the way"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Carry.3"]
+new = "I brought {good} to {to}, happy to help"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Wake.1"]
+new = "I woke up smiling at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Wake.2"]
+new = "I jumped out of bed at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Walk.1"]
+new = "I strolled happily to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Walk.2"]
+new = "I walked to {place}, waving at everyone"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Walk.3"]
+new = "I took a lovely walk to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Eat.1"]
+new = "I ate {good} at {place}, again"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Eat.2"]
+new = "I had some {good} at {place}, if you can call it a meal"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.EatLike.1"]
+new = "I ate {good} at {place}. It was fine. Fine!"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.EatDislike.1"]
+new = "I forced down some {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Drink.1"]
+new = "I drank some {good} at {place}, lukewarm as usual"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Drink.2"]
+new = "I sipped {good} at {place}, grumbling"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Leisure.1"]
+new = "I went to {place}, for all the good it did"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Leisure.2"]
+new = "I tried to relax at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Pickup.1"]
+new = "I trudged to {place} for {good}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Pickup.2"]
+new = "I had to fetch {good} from {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Carry.1"]
+new = "I lugged {good} to {to}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Carry.2"]
+new = "I dragged {good} all the way to {to}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Carry.3"]
+new = "I hauled {good} to {to}, my back says hello"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Wake.1"]
+new = "I got up at {place}, unfortunately"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Wake.2"]
+new = "I crawled out of bed at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Walk.1"]
+new = "I trudged to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Walk.2"]
+new = "I stomped over to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Walk.3"]
+new = "I had to walk all the way to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Eat.1"]
+new = "I savored {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Eat.2"]
+new = "I had a {good} tasting at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.EatLike.1"]
+new = "I ate the best {good} meal ever at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.EatLike.2"]
+new = "I feasted on glorious {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.EatDislike.1"]
+new = "I suffered through some {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.EatDislike.2"]
+new = "I ate {good} at {place}. Somebody had to"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Drink.1"]
+new = "I tasted the {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Drink.2"]
+new = "I sampled the finest {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Leisure.1"]
+new = "I went to {place}, thinking about snacks"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Leisure.2"]
+new = "I relaxed at {place} and planned my next meal"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Pickup.1"]
+new = "I went to {place} to fetch {good}, and sniffed it"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Pickup.2"]
+new = "I picked up {good} at {place}. Is it edible?"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Carry.1"]
+new = "I carried {good} to {to} without taking a bite"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Carry.2"]
+new = "I delivered {good} to {to}, dreaming of dinner"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Carry.3"]
+new = "I brought {good} to {to}. Not a snack, sadly"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Wake.1"]
+new = "I woke up hungry at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Wake.2"]
+new = "I woke up at {place} thinking about breakfast"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Walk.1"]
+new = "I walked to {place}, sniffing the air"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Walk.2"]
+new = "I wandered to {place} the tasty-smelling way"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Walk.3"]
+new = "I walked to {place} with a rumbling tummy"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Eat.1"]
+new = "I wolfed down {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Eat.2"]
+new = "I refueled with {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.EatLike.1"]
+new = "I ate good {good} at {place}, fast"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.EatDislike.1"]
+new = "I swallowed {good} at {place} without tasting it"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Drink.1"]
+new = "I gulped {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Drink.2"]
+new = "I took a quick sip of {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Leisure.1"]
+new = "I was made to relax at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Leisure.2"]
+new = "I took a short, efficient break at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Pickup.1"]
+new = "I hurried to {place} for {good}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Pickup.2"]
+new = "I rushed to {place} and grabbed {good}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Carry.1"]
+new = "I sprinted {good} to {to}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Carry.2"]
+new = "I delivered {good} to {to} in record time"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Carry.3"]
+new = "I hauled {good} to {to} without a break"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Wake.1"]
+new = "I was up and ready at {place} before anyone else"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Wake.2"]
+new = "I sprang out of bed at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Walk.1"]
+new = "I marched to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Walk.2"]
+new = "I hurried to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Walk.3"]
+new = "I power-walked to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Eat.1"]
+new = "I had a long, slow lunch of {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Eat.2"]
+new = "I nibbled {good} at {place}, no rush"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.EatLike.1"]
+new = "I ate {good} at {place}, then thought about a nap"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.EatDislike.1"]
+new = "I chewed {good} at {place}. Too much chewing"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Drink.1"]
+new = "I took a long, lazy drink of {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Drink.2"]
+new = "I sipped {good} at {place}, very slowly"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Leisure.1"]
+new = "I lounged at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Leisure.2"]
+new = "I spent quality time at {place}. My favorite"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Pickup.1"]
+new = "I eventually picked up {good} from {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Pickup.2"]
+new = "I wandered to {place} and somehow ended up with {good}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Carry.1"]
+new = "I slowly carried {good} to {to}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Carry.2"]
+new = "I took {good} to {to}, the scenic way"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Carry.3"]
+new = "I moved {good} to {to}. Exhausting"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Wake.1"]
+new = "I dragged myself out of bed at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Wake.2"]
+new = "I woke up at {place}. Too early"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Walk.1"]
+new = "I strolled slowly to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Walk.2"]
+new = "I ambled over to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Walk.3"]
+new = "I meandered to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Eat.1"]
+new = "I broke bread, or rather {good}, at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Eat.2"]
+new = "At {place}, {good} and I became one"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.EatLike.1"]
+new = "I dined on sweet {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.EatDislike.1"]
+new = "I endured {good} at {place}, as one endures winter"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Drink.1"]
+new = "I drank deep of the {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Drink.2"]
+new = "I quenched my thirst with {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Leisure.1"]
+new = "I found peace at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Leisure.2"]
+new = "I let my soul rest at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Pickup.1"]
+new = "I journeyed to {place} for {good}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Pickup.2"]
+new = "I gathered {good} from {place}, as the river gathers rain"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Carry.1"]
+new = "I bore {good} to {to}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Carry.2"]
+new = "I carried {good} to {to}, like a leaf on the stream"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Carry.3"]
+new = "I brought {good} to {to}, my humble offering"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Wake.1"]
+new = "I rose with the light at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Wake.2"]
+new = "I awoke at {place}, my dreams fading"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Walk.1"]
+new = "I wandered, as the wind does, to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Walk.2"]
+new = "I made my pilgrimage to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Walk.3"]
+new = "My paws carried me to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Eat.1"]
+new = "I carefully ate {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Eat.2"]
+new = "I ate {good} at {place}, checking every bite"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.EatLike.1"]
+new = "I ate {good} at {place}, nervously happy"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.EatDislike.1"]
+new = "I ate {good} at {place}. It looked at me funny"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Drink.1"]
+new = "I sniffed the {good} at {place} before drinking it"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Drink.2"]
+new = "I drank {good} at {place}, carefully"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Leisure.1"]
+new = "I tried very hard to relax at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Leisure.2"]
+new = "I went to {place} and only worried a little"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Pickup.1"]
+new = "I nervously picked up {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Pickup.2"]
+new = "I fetched {good} from {place}, looking both ways"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Carry.1"]
+new = "I carefully carried {good} to {to}"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Carry.2"]
+new = "I carried {good} to {to}, holding on tight"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Carry.3"]
+new = "I tiptoed {good} over to {to}"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Wake.1"]
+new = "I woke up with a start at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Wake.2"]
+new = "I woke up at {place}. Everything was fine. Probably"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Walk.1"]
+new = "I hurried nervously to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Walk.2"]
+new = "I walked to {place}, looking over my shoulder"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Walk.3"]
+new = "I made it to {place} safely. Phew"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Eat.1"]
+new = "I gave thanks and ate {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Eat.2"]
+new = "I ate Capa's gift of {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.EatLike.1"]
+new = "I ate blessed {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.EatDislike.1"]
+new = "I humbly accepted {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Drink.1"]
+new = "I drank holy {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Drink.2"]
+new = "I blessed the {good} at {place} and drank"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Leisure.1"]
+new = "I rested at {place}, as Capa intended"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Leisure.2"]
+new = "I found joy at {place}, praise Capa"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Pickup.1"]
+new = "I fetched {good} from {place}, Capa willing"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Pickup.2"]
+new = "Capa led me to {place} for {good}"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Carry.1"]
+new = "I carried {good} to {to} in Capa's name"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Carry.2"]
+new = "I brought {good} to {to}, singing praises"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Carry.3"]
+new = "I delivered {good} to {to}, as Capa wills"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Wake.1"]
+new = "I woke up at {place} and said my prayers"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Wake.2"]
+new = "Capa woke me at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Walk.1"]
+new = "I walked to {place}, praying on the way"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Walk.2"]
+new = "Capa guided me to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Walk.3"]
+new = "I made a little pilgrimage to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Eat.1"]
+new = "I ate {good} at {place}, while it lasts"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Eat.2"]
+new = "I had {good} at {place}. Again"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.EatLike.1"]
+new = "I ate {good} at {place}. Too good to last"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.EatDislike.1"]
+new = "I ate {good} at {place}, as expected"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Drink.1"]
+new = "I drank {good} at {place}. I'll be thirsty again soon"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Drink.2"]
+new = "I had some {good} at {place}, for what it's worth"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Leisure.1"]
+new = "I went to {place}. It didn't help"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Leisure.2"]
+new = "I pretended to have fun at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Pickup.1"]
+new = "I dragged myself to {place} for {good}"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Pickup.2"]
+new = "I fetched {good} from {place}. More will be needed"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Carry.1"]
+new = "I carried {good} to {to}. Pointless, but fine"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Carry.2"]
+new = "I hauled {good} to {to}. There's always more"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Carry.3"]
+new = "I brought {good} to {to}, for now"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Wake.1"]
+new = "I woke up at {place}. Unfortunately"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Wake.2"]
+new = "Another day started at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Walk.1"]
+new = "I trudged to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Walk.2"]
+new = "I walked to {place}. Why bother"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Walk.3"]
+new = "I made my way to {place}, for all the good it does"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Eat.1"]
+new = "I conducted a {good} tasting at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Eat.2"]
+new = "I analyzed a sample of {good} at {place}. By eating it"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.EatLike.1"]
+new = "I confirmed {good} is delicious at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.EatDislike.1"]
+new = "I tested {good} at {place}. Results inconclusive"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Drink.1"]
+new = "I consumed a sample of {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Drink.2"]
+new = "I hydrated with {good} at {place}, for science"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Leisure.1"]
+new = "I studied relaxation at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Leisure.2"]
+new = "I ran a fun experiment at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Pickup.1"]
+new = "I collected samples of {good} from {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Pickup.2"]
+new = "I retrieved {good} from {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Carry.1"]
+new = "I transported {good} to {to}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Carry.2"]
+new = "I relocated {good} to {to}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Carry.3"]
+new = "I moved {good} to {to}, observing the clouds"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Wake.1"]
+new = "I woke up at {place} with a new theory"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Wake.2"]
+new = "I woke at {place}, mind already racing"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Walk.1"]
+new = "I proceeded to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Walk.2"]
+new = "I walked to {place}, counting my steps"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Walk.3"]
+new = "I relocated myself to {place}"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Wake.1"]
+new = "What a beautiful day!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Wake.2"]
+new = "Today is going to be great, I can feel it."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Wake.3"]
+new = "Up and at 'em!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Bed.1"]
+new = "What a lovely day it was."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Bed.2"]
+new = "Tomorrow will be even better!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Work.1"]
+new = "Every bit helps the colony!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Work.2"]
+new = "I love my job."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Work.3"]
+new = "Look at all we've done!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Work.4"]
+new = "Hard work, happy heart."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Haul.1"]
+new = "Every load makes us stronger!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Haul.2"]
+new = "Great exercise, too!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Haul.3"]
+new = "Delivering happiness, one load at a time."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Haul.4"]
+new = "My paws are getting so strong!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Haul.5"]
+new = "Someone will be so happy to get this."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Commute.1"]
+new = "Lovely walk!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Commute.2"]
+new = "I waved at everyone on the way."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Commute.3"]
+new = "The sun was shining. I think."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Commute.4"]
+new = "I whistled the whole way."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Eat.1"]
+new = "Yummy!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Eat.2"]
+new = "What a treat."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.EatLike.1"]
+new = "{good} is the best!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.EatDislike.1"]
+new = "Not my favorite, but food is food!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Drink.1"]
+new = "So refreshing!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Drink.2"]
+new = "Ahh, that hit the spot."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Leisure.1"]
+new = "Life is good."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Leisure.2"]
+new = "Best part of my day!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Heal.1"]
+new = "I'll be back on my paws in no time!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Heal.2"]
+new = "The nurses here are wonderful."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Idle.1"]
+new = "A little break never hurt anyone."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Idle.2"]
+new = "Enjoying the view."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Idle.3"]
+new = "I made a new friend. A frog."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.LongWait.1"]
+new = "Patience is a virtue!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.LongWait.2"]
+new = "I used the time to count my blessings."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Injured.1"]
+new = "Well, at least it's not my tail!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Injured.2"]
+new = "Just a scratch. Mostly."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.LostJob.1"]
+new = "New adventures await!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.LostJob.2"]
+new = "Change is good!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.NewJob.1"]
+new = "A fresh start!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.NewJob.2"]
+new = "I'm going to be so good at this."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Healed.1"]
+new = "Good as new!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Kit.1"]
+new = "Being little is the best!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Kit.2"]
+new = "When I grow up I'll build the biggest dam ever!"
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Wake.1"]
+new = "Already?"
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Wake.2"]
+new = "Five more minutes would have been nice."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Wake.3"]
+new = "Somebody snored all night."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Bed.1"]
+new = "Finally."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Bed.2"]
+new = "My pillow is lumpy."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Work.1"]
+new = "Somebody has to do it, apparently."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Work.2"]
+new = "My paws hurt."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Work.3"]
+new = "Nobody says thank you."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Work.4"]
+new = "Same as yesterday. And the day before."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Haul.1"]
+new = "Heavy. Always heavy."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Haul.2"]
+new = "My back hurts."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Haul.3"]
+new = "I'm a beaver, not a wheelbarrow."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Haul.4"]
+new = "Why is it always me?"
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Haul.5"]
+new = "Nobody else was going to do it, obviously."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Commute.1"]
+new = "My feet hurt."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Commute.2"]
+new = "Walking, walking, always walking."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Commute.3"]
+new = "Somebody stepped on my tail."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Commute.4"]
+new = "The wind was in my face. Both ways."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Eat.1"]
+new = "Could use more salt."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Eat.2"]
+new = "I've had better."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.EatLike.1"]
+new = "Fine. The {good} was fine."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.EatDislike.1"]
+new = "{good} again. Typical."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Drink.1"]
+new = "Lukewarm."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Drink.2"]
+new = "Tastes like pipe."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Leisure.1"]
+new = "The music was too loud."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Leisure.2"]
+new = "Too short, as always."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Heal.1"]
+new = "The bed squeaks."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Heal.2"]
+new = "Hospital food. Need I say more?"
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Idle.1"]
+new = "Boring."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Idle.2"]
+new = "Nothing to do. Typical."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Idle.3"]
+new = "I counted the cracks in the wall."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.LongWait.1"]
+new = "{duration}. For nothing. Typical."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.LongWait.2"]
+new = "I could have built a dam in that time."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Injured.1"]
+new = "I knew this would happen."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Injured.2"]
+new = "Why is it always me?"
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.LostJob.1"]
+new = "After everything I did for that place."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.LostJob.2"]
+new = "Didn't like it anyway."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.NewJob.1"]
+new = "Let's see how long this lasts."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.NewJob.2"]
+new = "More work. Wonderful."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Healed.1"]
+new = "About time."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Kit.1"]
+new = "The big beavers never let me help."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Kit.2"]
+new = "Bedtime is too early."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Wake.1"]
+new = "Breakfast time!"
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Wake.2"]
+new = "I dreamt of berry jam."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Wake.3"]
+new = "What's for lunch?"
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Bed.1"]
+new = "Tomorrow: more snacks."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Bed.2"]
+new = "Dreaming of dinner already."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Work.1"]
+new = "Work makes me hungry."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Work.2"]
+new = "Is it lunchtime yet?"
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Work.3"]
+new = "I could eat a whole tree."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Work.4"]
+new = "I hummed a little song about pie."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Haul.1"]
+new = "Hope it's something tasty."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Haul.2"]
+new = "I resisted taking a bite. Mostly."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Haul.3"]
+new = "It smelled like nothing. Disappointing."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Haul.4"]
+new = "Carrying makes me hungry."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Haul.5"]
+new = "If only it were cake."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Commute.1"]
+new = "I smelled food on the way."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Commute.2"]
+new = "I thought about soup the whole way."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Commute.3"]
+new = "My tummy rumbled."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Commute.4"]
+new = "I invented a new recipe on the way."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Eat.1"]
+new = "A solid meal."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Eat.2"]
+new = "Needs a little something."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Eat.3"]
+new = "I'd give it seven out of ten."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.EatLike.1"]
+new = "The {good} was divine!"
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.EatLike.2"]
+new = "{good}! My favorite!"
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.EatLike.3"]
+new = "I could eat {good} every day."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.EatDislike.1"]
+new = "{good}. Disgusting."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.EatDislike.2"]
+new = "Who keeps making {good}?"
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.EatDislike.3"]
+new = "I ate it. I'm not proud of it."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Drink.1"]
+new = "Crisp, with notes of river."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Drink.2"]
+new = "A fine vintage."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Leisure.1"]
+new = "Missing a snack bar, though."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Leisure.2"]
+new = "Nice, but I was thinking about food."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Heal.1"]
+new = "Do they serve dessert here?"
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Heal.2"]
+new = "I asked for extra pudding."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Idle.1"]
+new = "Thinking about recipes."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Idle.2"]
+new = "I should open a restaurant."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Idle.3"]
+new = "I named my favorite snacks. All of them."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.LongWait.1"]
+new = "{duration} without a snack. Torture."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.LongWait.2"]
+new = "I could have cooked a feast."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Injured.1"]
+new = "I hope they bring snacks."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Injured.2"]
+new = "Ouch. I need comfort food."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.LostJob.1"]
+new = "More time for meals, I suppose."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.LostJob.2"]
+new = "At least lunch is still lunch."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.NewJob.1"]
+new = "Do they have a lunch break?"
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.NewJob.2"]
+new = "New job, new snack spot."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Healed.1"]
+new = "Celebrating with a big meal."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Kit.1"]
+new = "I want dessert first!"
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Kit.2"]
+new = "I tried mud. Not tasty."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Wake.1"]
+new = "Late again. I'm wasting daylight."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Wake.2"]
+new = "Back to work!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Wake.3"]
+new = "Sleep is overrated."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Bed.1"]
+new = "So much left to do."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Bed.2"]
+new = "I'll sleep fast."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Work.1"]
+new = "More, more, more!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Work.2"]
+new = "Good. Now do it again."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Work.3"]
+new = "I'll stay late."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Work.4"]
+new = "This is what I live for."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Haul.1"]
+new = "One more load, then another!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Haul.2"]
+new = "Lift, carry, repeat. I love it."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Haul.3"]
+new = "No time to rest."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Haul.4"]
+new = "I didn't even break a sweat."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Haul.5"]
+new = "Next!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Commute.1"]
+new = "Walking is time not spent working."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Commute.2"]
+new = "Walked at full speed."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Commute.3"]
+new = "I planned my whole day on the way."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Commute.4"]
+new = "Left, right, left, right. Go!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Eat.1"]
+new = "Ate quickly."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Eat.2"]
+new = "Fuel for work."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.EatLike.1"]
+new = "Good {good}. Back to work."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.EatDislike.1"]
+new = "{good}. Whatever keeps me going."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Drink.1"]
+new = "Hydration break: done."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Drink.2"]
+new = "Quick sip."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Leisure.1"]
+new = "Mandatory fun."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Leisure.2"]
+new = "I'd rather be working."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Heal.1"]
+new = "Can I work from the bed?"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Heal.2"]
+new = "Every hour here is an hour lost."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Idle.1"]
+new = "Unacceptable."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Idle.2"]
+new = "Somebody give me a task!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Idle.3"]
+new = "I polished my tools. Twice."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.LongWait.1"]
+new = "{duration} of nothing. I want to speak to the manager."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.LongWait.2"]
+new = "I counted the clouds. Twice."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Injured.1"]
+new = "I can still work with one paw!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Injured.2"]
+new = "Worst. Day. Ever."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.LostJob.1"]
+new = "Devastating."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.LostJob.2"]
+new = "I'll find a new one by lunch."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.NewJob.1"]
+new = "Finally!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.NewJob.2"]
+new = "I'll be employee of the month."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Healed.1"]
+new = "Back to work, at last!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Kit.1"]
+new = "When can I start working?"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Kit.2"]
+new = "I organized my toys by size."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Wake.1"]
+new = "Ugh."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Wake.2"]
+new = "Could have slept longer."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Wake.3"]
+new = "Is it the weekend yet?"
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Bed.1"]
+new = "Best part of the day."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Bed.2"]
+new = "Ahh, my bed."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Work.1"]
+new = "I worked. Don't tell anyone."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Work.2"]
+new = "Took it slow."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Work.3"]
+new = "That was a lot of effort."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Work.4"]
+new = "I deserve a nap after that."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Haul.1"]
+new = "Took the scenic route."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Haul.2"]
+new = "I carried it. Eventually."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Haul.3"]
+new = "Heavy things should carry themselves."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Haul.4"]
+new = "I stopped to rest. Twice."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Haul.5"]
+new = "Is it nap time yet?"
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Commute.1"]
+new = "No rush."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Commute.2"]
+new = "Stopped to look at clouds."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Commute.3"]
+new = "Slow and steady."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Commute.4"]
+new = "I yawned the whole way."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Eat.1"]
+new = "Nap next."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Eat.2"]
+new = "Lunch break, my favorite break."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.EatLike.1"]
+new = "{good}, and then a nap."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.EatDislike.1"]
+new = "{good}. Too much chewing."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Drink.1"]
+new = "Took my time."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Drink.2"]
+new = "A long, slow drink."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Leisure.1"]
+new = "This is what life is about."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Leisure.2"]
+new = "Could stay here forever."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Heal.1"]
+new = "Honestly, not bad."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Heal.2"]
+new = "Bed rest is my specialty."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Idle.1"]
+new = "Living the dream."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Idle.2"]
+new = "Perfect."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Idle.3"]
+new = "I found a comfy spot."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.LongWait.1"]
+new = "{duration} of peace. Best day ever."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.LongWait.2"]
+new = "Nobody noticed. Excellent."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Injured.1"]
+new = "Time off!"
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Injured.2"]
+new = "It hurts, but I get to lie down."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.LostJob.1"]
+new = "Vacation!"
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.LostJob.2"]
+new = "Oh no. Anyway."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.NewJob.1"]
+new = "Oh no."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.NewJob.2"]
+new = "Do I have to?"
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Healed.1"]
+new = "Already? Shame."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Kit.1"]
+new = "Naps are the best."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Kit.2"]
+new = "I hid from chores."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Wake.1"]
+new = "The dawn, again, insists."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Wake.2"]
+new = "I woke to the song of the river."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Wake.3"]
+new = "Another page of my story begins."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Bed.1"]
+new = "The stars watch over us."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Bed.2"]
+new = "Sleep, sweet sleep."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Work.1"]
+new = "Toil is a quiet kind of poem."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Work.2"]
+new = "The work awaits, as it always has."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Work.3"]
+new = "My paws tell stories of labor."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Work.4"]
+new = "Sweat, the ink of honest days."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Haul.1"]
+new = "I carry the weight of the world. And logs."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Haul.2"]
+new = "From here to there, like the river."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Haul.3"]
+new = "What is a load, but a burden shared?"
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Haul.4"]
+new = "Step by step, a ballad of burden."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Haul.5"]
+new = "The path remembers every paw."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Commute.1"]
+new = "Every path is a journey."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Commute.2"]
+new = "I walked with the wind."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Commute.3"]
+new = "The road hummed beneath my paws."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Commute.4"]
+new = "I composed a haiku on the way."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Eat.1"]
+new = "A humble feast."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Eat.2"]
+new = "The earth provides."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.EatLike.1"]
+new = "Oh {good}, how you sing to me."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.EatDislike.1"]
+new = "{good}: a bitter verse."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Drink.1"]
+new = "The water remembers the mountains."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Drink.2"]
+new = "I drank the river's gift."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Leisure.1"]
+new = "A moment of beauty."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Leisure.2"]
+new = "My soul is refreshed."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Heal.1"]
+new = "Wounds, like seasons, pass."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Heal.2"]
+new = "Rest, weary body."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Idle.1"]
+new = "I watched the clouds compose themselves."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Idle.2"]
+new = "In stillness, inspiration."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Idle.3"]
+new = "I listened to the grass grow."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.LongWait.1"]
+new = "{duration} of silence. I wrote three sonnets."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.LongWait.2"]
+new = "Time flowed like a lazy river."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Injured.1"]
+new = "Alas, I am wounded!"
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Injured.2"]
+new = "Pain, the oldest teacher."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.LostJob.1"]
+new = "A door closes."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.LostJob.2"]
+new = "Farewell, my workplace."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.NewJob.1"]
+new = "A new chapter begins."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.NewJob.2"]
+new = "Destiny calls."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Healed.1"]
+new = "I rise, renewed."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Kit.1"]
+new = "The world is so big."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Kit.2"]
+new = "I made up a song about a stick."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Wake.1"]
+new = "I dreamt my tail fell off. It didn't."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Wake.2"]
+new = "I didn't sleep well. I never do."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Wake.3"]
+new = "Is it going to rain? Or not rain?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Bed.1"]
+new = "I hope tomorrow is calm."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Bed.2"]
+new = "I checked the door three times."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Work.1"]
+new = "I hope I did it right."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Work.2"]
+new = "What if I made a mistake?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Work.3"]
+new = "Careful, careful."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Work.4"]
+new = "I double-checked everything."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Haul.1"]
+new = "What if I drop it?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Haul.2"]
+new = "Don't drop it, don't drop it..."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Haul.3"]
+new = "I held on very tight."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Haul.4"]
+new = "I hope it's going to the right place."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Haul.5"]
+new = "My paws were shaking."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Commute.1"]
+new = "I didn't look down."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Commute.2"]
+new = "I counted my steps. Just in case."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Commute.3"]
+new = "Was someone following me? No. Maybe."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Commute.4"]
+new = "I made it. Phew."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Eat.1"]
+new = "I ate slowly, to make it last."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Eat.2"]
+new = "I saved some for later, just in case."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.EatLike.1"]
+new = "Love {good}. I hope I didn't eat too much."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.EatDislike.1"]
+new = "Was the {good} supposed to taste like that?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Drink.1"]
+new = "I sipped carefully."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Drink.2"]
+new = "I checked it three times. It was fine."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Leisure.1"]
+new = "Relaxing makes me nervous."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Leisure.2"]
+new = "What if I relax too much?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Heal.1"]
+new = "Is it serious?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Heal.2"]
+new = "I read the symptoms. Bad idea."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Idle.1"]
+new = "Shouldn't I be doing something?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Idle.2"]
+new = "Am I in trouble?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Idle.3"]
+new = "I bit my claws."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.LongWait.1"]
+new = "{duration} of waiting. Did I do something wrong?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.LongWait.2"]
+new = "Did they forget about me?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Injured.1"]
+new = "I knew it! I knew it!"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Injured.2"]
+new = "Is this the end?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.LostJob.1"]
+new = "What will I do now?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.LostJob.2"]
+new = "Was it something I did?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.NewJob.1"]
+new = "What if I'm bad at it?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.NewJob.2"]
+new = "So many new things to worry about."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Healed.1"]
+new = "Phew. For now."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Kit.1"]
+new = "What's under my bed?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Kit.2"]
+new = "Is the water deep?"
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Wake.1"]
+new = "Praise be to Capa for another day."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Wake.2"]
+new = "Capa woke me gently."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Wake.3"]
+new = "A blessed morning."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Bed.1"]
+new = "Capa watch over us tonight."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Bed.2"]
+new = "I gave thanks before sleeping."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Work.1"]
+new = "Work is worship."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Work.2"]
+new = "Capa sees every effort."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Work.3"]
+new = "Blessed be the work."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Work.4"]
+new = "I hummed a hymn while I worked."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Haul.1"]
+new = "Capa gives me strength."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Haul.2"]
+new = "A pilgrimage of goods."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Haul.3"]
+new = "Light is the load Capa helps carry."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Haul.4"]
+new = "I offered this load to Capa."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Haul.5"]
+new = "Praise Capa for strong arms."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Commute.1"]
+new = "Capa guided my steps."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Commute.2"]
+new = "A blessed path."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Commute.3"]
+new = "I said a little prayer on the way."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Commute.4"]
+new = "Every step, a thank you."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Eat.1"]
+new = "Thanks be to Capa for this meal."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Eat.2"]
+new = "Blessed be the harvest."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.EatLike.1"]
+new = "{good}, a gift from Capa."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.EatDislike.1"]
+new = "{good}. Capa tests us all."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Drink.1"]
+new = "Praise be to Capa for water."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Drink.2"]
+new = "Holy water."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Leisure.1"]
+new = "Capa wants us to be happy."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Leisure.2"]
+new = "A blessed rest."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Heal.1"]
+new = "Capa heals all wounds."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Heal.2"]
+new = "I prayed for a speedy recovery."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Idle.1"]
+new = "A moment for prayer."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Idle.2"]
+new = "I meditated on Capa's wisdom."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Idle.3"]
+new = "I counted my blessings. Many."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.LongWait.1"]
+new = "{duration} of waiting. Capa has a plan."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.LongWait.2"]
+new = "Patience is holy."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Injured.1"]
+new = "Capa, why?"
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Injured.2"]
+new = "A test of faith."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.LostJob.1"]
+new = "Capa has other plans for me."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.LostJob.2"]
+new = "It was Capa's will."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.NewJob.1"]
+new = "Capa provides!"
+status = "normal"
+
+["BeaverDiary.Remark.Devout.NewJob.2"]
+new = "My prayers were answered."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Healed.1"]
+new = "A miracle! Praise Capa!"
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Kit.1"]
+new = "I asked Capa for a puppy."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Kit.2"]
+new = "Capa made the river, right?"
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Wake.1"]
+new = "Another day. Here we go again."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Wake.2"]
+new = "I woke up. Unfortunately."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Wake.3"]
+new = "It'll rain on my day off. If I ever get one."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Bed.1"]
+new = "Tomorrow will be worse."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Bed.2"]
+new = "I survived. For now."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Work.1"]
+new = "It'll all be dust eventually."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Work.2"]
+new = "Pointless, but fine."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Work.3"]
+new = "Nothing lasts forever."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Work.4"]
+new = "Tomorrow it starts all over again."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Haul.1"]
+new = "There's always more."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Haul.2"]
+new = "I'll be carrying things until I die."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Haul.3"]
+new = "Nobody will even notice."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Haul.4"]
+new = "My paws will never be the same."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Haul.5"]
+new = "Why do I even try."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Commute.1"]
+new = "Uphill both ways."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Commute.2"]
+new = "Every road leads to more work."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Commute.3"]
+new = "I'll just have to walk back later."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Commute.4"]
+new = "Walking. Again."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Eat.1"]
+new = "Enjoy it while it lasts."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Eat.2"]
+new = "I'll be hungry again in no time."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.EatLike.1"]
+new = "{good}. It won't last."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.EatDislike.1"]
+new = "{good}. Things can only get worse."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Drink.1"]
+new = "I'll just be thirsty again later."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Drink.2"]
+new = "Nothing quenches the thirst of life."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Leisure.1"]
+new = "Fun ends. Everything ends."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Leisure.2"]
+new = "Back to misery soon."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Heal.1"]
+new = "I'll never be the same."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Heal.2"]
+new = "This is my life now."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Idle.1"]
+new = "Nothing matters anyway."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Idle.2"]
+new = "Waiting for the inevitable."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Idle.3"]
+new = "I sighed. Loudly."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.LongWait.1"]
+new = "{duration} of nothing. As expected."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.LongWait.2"]
+new = "I knew they'd forget about me."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Injured.1"]
+new = "Of course."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Injured.2"]
+new = "I saw it coming."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.LostJob.1"]
+new = "Saw that coming."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.LostJob.2"]
+new = "Nothing lasts."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.NewJob.1"]
+new = "I'll lose this one too."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.NewJob.2"]
+new = "Probably worse than the last."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Healed.1"]
+new = "Until next time."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Kit.1"]
+new = "Growing up sounds awful."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Kit.2"]
+new = "My stick broke."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Wake.1"]
+new = "Sleep cycle complete."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Wake.2"]
+new = "Hypothesis: today will be interesting."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Wake.3"]
+new = "Woke up with a new theory."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Bed.1"]
+new = "Tomorrow: more research."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Bed.2"]
+new = "Sleep is essential for cognition."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Work.1"]
+new = "Data collected."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Work.2"]
+new = "I took notes on my technique."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Work.3"]
+new = "Fascinating work, really."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Work.4"]
+new = "Experiment number 4,812: success."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Haul.1"]
+new = "Logs: denser than they look."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Haul.2"]
+new = "I estimated the weight. Heavy."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Haul.3"]
+new = "A fine demonstration of force and motion."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Haul.4"]
+new = "I named the load. For science."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Haul.5"]
+new = "Gravity remains undefeated."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Commute.1"]
+new = "Each step a data point."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Commute.2"]
+new = "I counted 312 steps."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Commute.3"]
+new = "I observed a fascinating beetle."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Commute.4"]
+new = "Walking: still the best way to think."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Eat.1"]
+new = "Nutrition: delicious."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Eat.2"]
+new = "Fascinating texture."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.EatLike.1"]
+new = "{good}: excellent results."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.EatDislike.1"]
+new = "{good}: further research needed."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Drink.1"]
+new = "H2O. Essential."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Drink.2"]
+new = "Still wet. Fascinating."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Leisure.1"]
+new = "Studied the effects of relaxation. Positive."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Leisure.2"]
+new = "For science."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Heal.1"]
+new = "Interesting fracture."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Heal.2"]
+new = "Documenting the recovery."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Idle.1"]
+new = "Thinking time."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Idle.2"]
+new = "I sketched a flying machine."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Idle.3"]
+new = "I pondered the nature of wood."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.LongWait.1"]
+new = "{duration} idle. I solved two theorems."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.LongWait.2"]
+new = "Hypothesis: waiting is underrated."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Injured.1"]
+new = "I should have calculated that."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Injured.2"]
+new = "Fascinating. Painful, but fascinating."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.LostJob.1"]
+new = "Unexpected result."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.LostJob.2"]
+new = "More time for research."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.NewJob.1"]
+new = "A new experiment!"
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.NewJob.2"]
+new = "Let's collect some data."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Healed.1"]
+new = "Recovery complete. As predicted."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Kit.1"]
+new = "Why is water wet?"
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Kit.2"]
+new = "I built a tiny dam. It works!"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Eat.3"]
+new = "I had a happy little meal of {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Eat.4"]
+new = "I treated myself to {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.EatLike.2"]
+new = "I ate my favorite, {good}, at {place}. What luck!"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.EatDislike.2"]
+new = "I ate {good} at {place} and found the bright side"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Drink.3"]
+new = "I had a sparkling drink of {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Drink.4"]
+new = "I toasted the day with {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Leisure.3"]
+new = "I had a wonderful time at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Leisure.4"]
+new = "I laughed a lot at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Pickup.3"]
+new = "I happily picked up {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Pickup.4"]
+new = "I went to {place} for {good}, what a nice errand"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Carry.4"]
+new = "I brought {good} to {to} with a big smile"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Carry.5"]
+new = "I took {good} to {to}, light as a feather"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Carry.6"]
+new = "I delivered {good} to {to}. Teamwork!"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Wake.3"]
+new = "I woke up at {place}, ready for anything"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Wake.4"]
+new = "I greeted the morning at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Walk.4"]
+new = "I bounced along to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Walk.5"]
+new = "I walked to {place}, enjoying the fresh air"
+status = "normal"
+
+["BeaverDiary.Retell.Optimist.Walk.6"]
+new = "I had a cheerful walk to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Eat.3"]
+new = "I chewed through some {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Eat.4"]
+new = "I ate {good} at {place}. Nobody asked what I wanted"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.EatLike.2"]
+new = "I ate {good} at {place}. Not bad. Don't tell anyone"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.EatDislike.2"]
+new = "I ate {good} at {place}, complaining the whole time"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Drink.3"]
+new = "I drank {good} at {place}. It tasted like a puddle"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Drink.4"]
+new = "I waited my turn for {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Leisure.3"]
+new = "I went to {place}. Too crowded"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Leisure.4"]
+new = "I sat at {place} and frowned"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Pickup.3"]
+new = "I picked up {good} at {place}. Again"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Pickup.4"]
+new = "I went all the way to {place} for {good}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Carry.4"]
+new = "I carried {good} to {to}. Nobody helped"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Carry.5"]
+new = "I took {good} to {to}, muttering"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Carry.6"]
+new = "I delivered {good} to {to}. Not that anyone noticed"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Wake.3"]
+new = "I woke up grumpy at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Wake.4"]
+new = "I got out of bed at {place}, the wrong side"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Walk.4"]
+new = "I grumbled my way to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Walk.5"]
+new = "I dragged my feet to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Grumbler.Walk.6"]
+new = "I walked to {place}. My feet complained too"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Eat.3"]
+new = "I enjoyed a fine plate of {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Eat.4"]
+new = "I ate {good} at {place}, taking notes on the flavor"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.EatLike.3"]
+new = "I had heavenly {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.EatLike.4"]
+new = "I ate {good} at {place} and asked for seconds"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.EatDislike.3"]
+new = "I pushed {good} around my plate at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.EatDislike.4"]
+new = "I ate {good} at {place}, holding my nose"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Drink.3"]
+new = "I swirled and sipped {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Drink.4"]
+new = "I paired {good} with my thoughts of dinner at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Leisure.3"]
+new = "I went to {place} and talked about recipes"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Leisure.4"]
+new = "I had fun at {place}, but I missed the snacks"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Pickup.3"]
+new = "I fetched {good} from {place}, wondering how it tastes"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Pickup.4"]
+new = "I collected {good} at {place}. Smelled interesting"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Carry.4"]
+new = "I carried {good} to {to}, my mouth watering"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Carry.5"]
+new = "I took {good} to {to}, thinking of pie"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Carry.6"]
+new = "I delivered {good} to {to}. Could it be cooked?"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Wake.3"]
+new = "I woke up at {place}, smelling breakfast"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Wake.4"]
+new = "I woke at {place}, licking my lips"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Walk.4"]
+new = "I walked to {place}, planning my next meal"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Walk.5"]
+new = "I followed my nose to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Foodie.Walk.6"]
+new = "I walked to {place}, hoping for snacks"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Eat.3"]
+new = "I ate {good} at {place} in two bites"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Eat.4"]
+new = "I grabbed some {good} at {place} on the run"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.EatLike.2"]
+new = "I ate my favorite {good} at {place}, quickly"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.EatDislike.2"]
+new = "I ate {good} at {place}. Fuel is fuel"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Drink.3"]
+new = "I drank {good} at {place} without stopping"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Drink.4"]
+new = "I downed {good} at {place} in one go"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Leisure.3"]
+new = "I relaxed at {place}, thinking about work"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Leisure.4"]
+new = "I spent a restless break at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Pickup.3"]
+new = "I dashed to {place} for {good}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Pickup.4"]
+new = "I picked up {good} at {place} without slowing down"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Carry.4"]
+new = "I raced {good} over to {to}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Carry.5"]
+new = "I took {good} to {to}. Done! Next!"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Carry.6"]
+new = "I delivered {good} to {to} at top speed"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Wake.3"]
+new = "I was out of bed at {place} in a flash"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Wake.4"]
+new = "I woke up at {place}, already making plans"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Walk.4"]
+new = "I rushed over to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Walk.5"]
+new = "I made a beeline for {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Workaholic.Walk.6"]
+new = "I strode to {place}, full of purpose"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Eat.3"]
+new = "I took my sweet time eating {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Eat.4"]
+new = "I made lunch at {place} last a while. {good}, by the way"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.EatLike.2"]
+new = "I ate {good} at {place} lying down"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.EatDislike.2"]
+new = "I ate half the {good} at {place}. Too much effort"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Drink.3"]
+new = "I drank {good} at {place}, then sat for a while"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Drink.4"]
+new = "I had a slow sip of {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Leisure.3"]
+new = "I relaxed at {place}. I'm a professional"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Leisure.4"]
+new = "I nearly fell asleep at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Pickup.3"]
+new = "I picked up {good} at {place}. Eventually"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Pickup.4"]
+new = "I strolled to {place} for {good}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Carry.4"]
+new = "I took my time bringing {good} to {to}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Carry.5"]
+new = "I carried {good} to {to}, yawning"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Carry.6"]
+new = "I got {good} to {to}. Somehow"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Wake.3"]
+new = "I rolled out of bed at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Wake.4"]
+new = "I woke up at {place} and wished I hadn't"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Walk.4"]
+new = "I shuffled over to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Walk.5"]
+new = "I wandered lazily to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Slacker.Walk.6"]
+new = "I drifted to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Eat.3"]
+new = "I supped on {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Eat.4"]
+new = "I shared a quiet meal of {good} with myself at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.EatLike.2"]
+new = "I tasted {good} at {place}, sweet as summer"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.EatDislike.2"]
+new = "I ate {good} at {place}, a tragedy in three bites"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Drink.3"]
+new = "I sipped {good} at {place} like morning dew"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Drink.4"]
+new = "At {place}, I drank {good} and thought of rain"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Leisure.3"]
+new = "I spent a gentle hour at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Leisure.4"]
+new = "I found a little joy at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Pickup.3"]
+new = "I went to {place}, where {good} awaited me"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Pickup.4"]
+new = "I took {good} from {place}, as autumn takes leaves"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Carry.4"]
+new = "I carried {good} to {to}, a verse in every step"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Carry.5"]
+new = "I brought {good} to {to}, as the tide brings shells"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Carry.6"]
+new = "I journeyed with {good} to {to}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Wake.3"]
+new = "I opened my eyes to a new day at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Wake.4"]
+new = "I woke at {place}, still half in a dream"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Walk.4"]
+new = "I followed the path to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Walk.5"]
+new = "I drifted like a cloud to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Poet.Walk.6"]
+new = "I walked to {place}, humming a ballad"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Eat.3"]
+new = "I ate {good} at {place}, chewing very carefully"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Eat.4"]
+new = "I ate {good} at {place}, quickly, in case it ran away"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.EatLike.2"]
+new = "I ate {good} at {place}. So good it made me nervous"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.EatDislike.2"]
+new = "I ate {good} at {place} and hoped for the best"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Drink.3"]
+new = "I drank {good} at {place}, one tiny sip at a time"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Drink.4"]
+new = "I checked the {good} at {place} twice, then drank"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Leisure.3"]
+new = "I went to {place} and almost relaxed"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Leisure.4"]
+new = "I had fun at {place}, I think"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Pickup.3"]
+new = "I picked up {good} at {place}, very carefully"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Pickup.4"]
+new = "I went to {place} for {good} and didn't trip"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Carry.4"]
+new = "I brought {good} to {to} without dropping it. Phew"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Carry.5"]
+new = "I carried {good} to {to}, slowly and safely"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Carry.6"]
+new = "I delivered {good} to {to}. I think I did it right"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Wake.3"]
+new = "I woke up at {place} and checked that I was alive"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Wake.4"]
+new = "I woke at {place} after a jumpy dream"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Walk.4"]
+new = "I walked carefully to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Walk.5"]
+new = "I tiptoed to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Worrier.Walk.6"]
+new = "I went to {place}, watching every step"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Eat.3"]
+new = "I said grace and ate {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Eat.4"]
+new = "I shared Capa's bounty of {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.EatLike.2"]
+new = "I ate {good} at {place} and thanked Capa twice"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.EatDislike.2"]
+new = "I ate {good} at {place}. Capa has a sense of humor"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Drink.3"]
+new = "I drank {good} at {place} with gratitude"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Drink.4"]
+new = "I sipped {good} at {place} and gave thanks"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Leisure.3"]
+new = "I enjoyed Capa's gift of rest at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Leisure.4"]
+new = "I spent a peaceful time at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Pickup.3"]
+new = "I gathered {good} at {place}, with thanks"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Pickup.4"]
+new = "I collected {good} at {place}, humming a hymn"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Carry.4"]
+new = "I bore {good} to {to}, a humble servant"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Carry.5"]
+new = "I carried {good} to {to} with a blessing"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Carry.6"]
+new = "I took {good} to {to}, praying the whole way"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Wake.3"]
+new = "I woke at {place} and thanked Capa for the night"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Wake.4"]
+new = "I rose at {place} with a prayer"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Walk.4"]
+new = "I walked humbly to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Walk.5"]
+new = "I went to {place}, blessing everyone I passed"
+status = "normal"
+
+["BeaverDiary.Retell.Devout.Walk.6"]
+new = "I walked to {place} in Capa's light"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Eat.3"]
+new = "I ate {good} at {place}. It won't be enough"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Eat.4"]
+new = "I had my {good} at {place}, probably the last good meal for a while"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.EatLike.2"]
+new = "I ate {good} at {place}. Enjoyed it. Suspicious"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.EatDislike.2"]
+new = "I ate {good} at {place}. Of course it was {good}"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Drink.3"]
+new = "I drank {good} at {place}. Tastes like disappointment"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Drink.4"]
+new = "I sipped {good} at {place}, expecting the worst"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Leisure.3"]
+new = "I went to {place}. It was fine. Until it ended"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Leisure.4"]
+new = "I sat at {place}, waiting for something to go wrong"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Pickup.3"]
+new = "I picked up {good} at {place}. Heavier than yesterday"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Pickup.4"]
+new = "I went to {place} for {good}. Here we go again"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Carry.4"]
+new = "I took {good} to {to}. Someone will just move it again"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Carry.5"]
+new = "I carried {good} to {to}, sighing"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Carry.6"]
+new = "I delivered {good} to {to}. Nobody will thank me"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Wake.3"]
+new = "I woke up at {place}. The bad dream was better"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Wake.4"]
+new = "I got up at {place}. Here we go"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Walk.4"]
+new = "I went to {place}. It's always further than it looks"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Walk.5"]
+new = "I plodded to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Pessimist.Walk.6"]
+new = "I walked to {place}, head down"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Eat.3"]
+new = "I ate {good} at {place} and noted the flavor"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Eat.4"]
+new = "I studied the taste of {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.EatLike.2"]
+new = "I ate {good} at {place}. Repeatable results: delicious"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.EatDislike.2"]
+new = "I ate {good} at {place}. Hypothesis: not tasty. Confirmed"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Drink.3"]
+new = "I drank {good} at {place}. Sample consumed"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Drink.4"]
+new = "I measured my thirst, then drank {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Leisure.3"]
+new = "I observed the others having fun at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Leisure.4"]
+new = "I conducted leisure research at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Pickup.3"]
+new = "I acquired {good} at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Pickup.4"]
+new = "I went to {place} to obtain {good}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Carry.4"]
+new = "I conveyed {good} to {to}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Carry.5"]
+new = "I took {good} to {to}, pondering friction"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Carry.6"]
+new = "I delivered {good} to {to}, a fine experiment in motion"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Wake.3"]
+new = "I woke at {place} and wrote down my dream"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Wake.4"]
+new = "I resumed consciousness at {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Walk.4"]
+new = "I traveled to {place}"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Walk.5"]
+new = "I walked to {place}, thinking about water"
+status = "normal"
+
+["BeaverDiary.Retell.Scientist.Walk.6"]
+new = "I headed to {place}, lost in thought"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Wake.4"]
+new = "Good morning, world!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Wake.5"]
+new = "I slept like a baby beaver."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Wake.6"]
+new = "So many good things to do today."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Bed.3"]
+new = "I'm grateful for today."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Bed.4"]
+new = "Sweet dreams, everyone!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Work.5"]
+new = "Proud of my work today."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Work.6"]
+new = "Best coworkers ever!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Work.7"]
+new = "Time flies when you're having fun."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Work.8"]
+new = "I'm getting better every day!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Haul.6"]
+new = "I love being useful!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Haul.7"]
+new = "Heavy? Nah!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Haul.8"]
+new = "Every little bit counts."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Haul.9"]
+new = "I sang a carrying song."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Haul.10"]
+new = "What a nice thing to carry!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Commute.5"]
+new = "What a lovely colony we have."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Commute.6"]
+new = "I saw a butterfly!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Commute.7"]
+new = "Fresh air does wonders."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Commute.8"]
+new = "Every step is an adventure."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Eat.3"]
+new = "Delicious, as always."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Eat.4"]
+new = "A full tummy, a happy beaver."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.EatLike.2"]
+new = "I could eat {good} forever!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.EatDislike.2"]
+new = "I'm learning to like {good}!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Drink.3"]
+new = "Water is wonderful."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Drink.4"]
+new = "Cheers!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Leisure.3"]
+new = "I needed that!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Leisure.4"]
+new = "So much fun!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Heal.3"]
+new = "Resting is nice too."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Heal.4"]
+new = "Getting better already!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Idle.4"]
+new = "A moment to smell the flowers."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Idle.5"]
+new = "I hummed a happy tune."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Idle.6"]
+new = "What a nice day for doing nothing."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.LongWait.3"]
+new = "{duration} of rest. Lovely!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.LongWait.4"]
+new = "I enjoyed the peace and quiet."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Injured.3"]
+new = "It could have been worse!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Injured.4"]
+new = "I'll heal fast, I'm sure."
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.LostJob.3"]
+new = "Something better is coming!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.LostJob.4"]
+new = "Time for a little break!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.NewJob.3"]
+new = "I'm so excited!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.NewJob.4"]
+new = "New friends to meet!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Healed.2"]
+new = "Feeling fantastic!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Kit.3"]
+new = "I love everyone!"
+status = "normal"
+
+["BeaverDiary.Remark.Optimist.Kit.4"]
+new = "Today I found a shiny pebble!"
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Wake.4"]
+new = "Too bright."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Wake.5"]
+new = "My back is stiff."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Wake.6"]
+new = "Who decided mornings were a good idea?"
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Bed.3"]
+new = "The bed is too hard."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Bed.4"]
+new = "Another day wasted."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Work.5"]
+new = "I'm not paid enough for this."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Work.6"]
+new = "Back in my day, we worked harder."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Work.7"]
+new = "My tail is sore."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Work.8"]
+new = "Everyone else gets the easy jobs."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Haul.6"]
+new = "Splinters everywhere."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Haul.7"]
+new = "Carry this, carry that."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Haul.8"]
+new = "My arms aren't what they used to be."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Haul.9"]
+new = "Who needs all this stuff anyway?"
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Haul.10"]
+new = "And not a word of thanks."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Commute.5"]
+new = "Too muddy."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Commute.6"]
+new = "Everyone walks so slowly."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Commute.7"]
+new = "I hate stairs."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Commute.8"]
+new = "Bumped into three beavers. Rude."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Eat.3"]
+new = "Too cold."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Eat.4"]
+new = "The portions keep getting smaller."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.EatLike.2"]
+new = "The {good} was edible, I'll give it that."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.EatDislike.2"]
+new = "Who even likes {good}?"
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Drink.3"]
+new = "Not cold enough."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Drink.4"]
+new = "Somebody drank right before me. Slurping."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Leisure.3"]
+new = "Overrated."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Leisure.4"]
+new = "Somebody sat in my spot."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Heal.3"]
+new = "Nobody visits."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Heal.4"]
+new = "The pillow smells funny."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Idle.4"]
+new = "Hmph."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Idle.5"]
+new = "I stood around. Thrilling."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Idle.6"]
+new = "Kids these days."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.LongWait.3"]
+new = "{duration} of standing. My knees."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.LongWait.4"]
+new = "Nobody even said hello."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Injured.3"]
+new = "Great. Just great."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Injured.4"]
+new = "Who put that there?"
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.LostJob.3"]
+new = "Their loss."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.LostJob.4"]
+new = "Nobody appreciates me."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.NewJob.3"]
+new = "I'll probably hate it."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.NewJob.4"]
+new = "Nobody asked me."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Healed.2"]
+new = "Took them long enough."
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Kit.3"]
+new = "Not fair!"
+status = "normal"
+
+["BeaverDiary.Remark.Grumbler.Kit.4"]
+new = "I don't want to."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Wake.4"]
+new = "I smell something good."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Wake.5"]
+new = "My tummy woke me up."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Wake.6"]
+new = "First thought: food."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Bed.3"]
+new = "I'll dream of dumplings."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Bed.4"]
+new = "A midnight snack would be nice."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Work.5"]
+new = "I work for snacks."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Work.6"]
+new = "Thinking about dinner keeps me going."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Work.7"]
+new = "I'd rather be cooking."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Work.8"]
+new = "Somebody's cooking somewhere. I can tell."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Haul.6"]
+new = "Not edible. Sad."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Haul.7"]
+new = "I sniffed it. Just in case."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Haul.8"]
+new = "This would be nicer if it were cookies."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Haul.9"]
+new = "Heavy lifting earns a big dinner."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Haul.10"]
+new = "I carried it and dreamt of stew."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Commute.5"]
+new = "I walked past the kitchen. On purpose."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Commute.6"]
+new = "Was that someone baking?"
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Commute.7"]
+new = "I hummed a song about stew."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Commute.8"]
+new = "Walking builds an appetite."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Eat.4"]
+new = "Not bad, not bad at all."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Eat.5"]
+new = "A bit bland, honestly."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Eat.6"]
+new = "I'd add a pinch of something."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.EatLike.4"]
+new = "Perfectly cooked {good}!"
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.EatLike.5"]
+new = "{good}, my one true love."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.EatLike.6"]
+new = "Ten out of ten, would eat {good} again."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.EatDislike.4"]
+new = "{good}? Seriously?"
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.EatDislike.5"]
+new = "I've had nightmares about {good}."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.EatDislike.6"]
+new = "Two out of ten."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Drink.3"]
+new = "Refreshing, with a hint of pebble."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Drink.4"]
+new = "Goes well with snacks."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Leisure.3"]
+new = "Fun, but it'd be better with cake."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Leisure.4"]
+new = "I shared recipes with a friend."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Heal.3"]
+new = "The food here is a crime."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Heal.4"]
+new = "I'm healing on an empty stomach."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Idle.4"]
+new = "I rated every meal I've ever had."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Idle.5"]
+new = "I dreamt up a new soup."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Idle.6"]
+new = "Snack time? Snack time."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.LongWait.3"]
+new = "{duration} of thinking about food."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.LongWait.4"]
+new = "My tummy filed a complaint."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Injured.3"]
+new = "I need a big bowl of soup."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Injured.4"]
+new = "Can I have extra rations?"
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.LostJob.3"]
+new = "I'll stress-eat about it."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.LostJob.4"]
+new = "Did they at least have good snacks? No."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.NewJob.3"]
+new = "I hope there's food nearby."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.NewJob.4"]
+new = "I'll bring snacks for everyone."
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Healed.2"]
+new = "I'm healthy and hungry!"
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Kit.3"]
+new = "Is it snack time?"
+status = "normal"
+
+["BeaverDiary.Remark.Foodie.Kit.4"]
+new = "I licked a rock. Not tasty either."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Wake.4"]
+new = "Let's get to it!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Wake.5"]
+new = "Already behind schedule."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Wake.6"]
+new = "Today, I'll do twice as much."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Bed.3"]
+new = "Can't wait for tomorrow's work."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Bed.4"]
+new = "I'll dream of working."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Work.5"]
+new = "Just one more hour."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Work.6"]
+new = "Perfect focus."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Work.7"]
+new = "Work is the best part of the day."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Work.8"]
+new = "I could do this all day. I did."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Haul.6"]
+new = "Light work!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Haul.7"]
+new = "Faster, faster!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Haul.8"]
+new = "I love a good load."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Haul.9"]
+new = "Strong paws, strong colony."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Haul.10"]
+new = "Done. What's next?"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Commute.5"]
+new = "Walking with purpose."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Commute.6"]
+new = "No dawdling."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Commute.7"]
+new = "I thought about work the whole way."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Commute.8"]
+new = "Out of my way, I'm busy!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Eat.3"]
+new = "Five-minute lunch."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Eat.4"]
+new = "Ate standing up."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.EatLike.2"]
+new = "{good}! Energy for the afternoon."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.EatDislike.2"]
+new = "Didn't taste the {good}. Didn't have time."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Drink.3"]
+new = "Done in one gulp."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Drink.4"]
+new = "Back to it!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Leisure.3"]
+new = "Fun is just work for the soul. Right?"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Leisure.4"]
+new = "Relaxed as efficiently as I could."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Heal.3"]
+new = "I miss my job."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Heal.4"]
+new = "Recovering at full speed."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Idle.4"]
+new = "My paws are itching for work."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Idle.5"]
+new = "Waiting is the worst."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Idle.6"]
+new = "I tapped my foot impatiently."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.LongWait.3"]
+new = "{duration}! I could have done so much!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.LongWait.4"]
+new = "I made a to-do list. It's long."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Injured.3"]
+new = "This is not on my schedule!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Injured.4"]
+new = "I'll be back tomorrow. Probably."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.LostJob.3"]
+new = "What am I without my job?"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.LostJob.4"]
+new = "I need work!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.NewJob.3"]
+new = "Let's go!"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.NewJob.4"]
+new = "I'll learn everything by tonight."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Healed.2"]
+new = "Finally! Where's my work?"
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Kit.3"]
+new = "I built a dam for my toys."
+status = "normal"
+
+["BeaverDiary.Remark.Workaholic.Kit.4"]
+new = "Playing is boring. Can I help?"
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Wake.4"]
+new = "Snooze."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Wake.5"]
+new = "Why is morning so early?"
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Wake.6"]
+new = "Maybe I'll be sick today."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Bed.3"]
+new = "Finally, some real rest."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Bed.4"]
+new = "I earned this. Sort of."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Work.5"]
+new = "Did the bare minimum. Nailed it."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Work.6"]
+new = "Is it over yet?"
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Work.7"]
+new = "I pretended to be busy."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Work.8"]
+new = "Work is just a long wait for lunch."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Haul.6"]
+new = "Too heavy. Everything is too heavy."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Haul.7"]
+new = "I yawned the whole way."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Haul.8"]
+new = "Can someone else do this next time?"
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Haul.9"]
+new = "My arms are tired. And my legs."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Haul.10"]
+new = "I sat on it for a bit."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Commute.5"]
+new = "I stopped to rest. Twice."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Commute.6"]
+new = "Why is everything so far?"
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Commute.7"]
+new = "I took the long way. It's prettier."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Commute.8"]
+new = "I walked. Slowly. As one does."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Eat.3"]
+new = "Ate, then lay down."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Eat.4"]
+new = "I made it last."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.EatLike.2"]
+new = "{good}. Worth getting up for."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.EatDislike.2"]
+new = "{good}. Not worth getting up for."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Drink.3"]
+new = "Took a little break by the water."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Drink.4"]
+new = "Lay down after."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Leisure.3"]
+new = "I could get used to this."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Leisure.4"]
+new = "Fell asleep a little."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Heal.3"]
+new = "No work for a while. Nice."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Heal.4"]
+new = "I'll take my time getting better."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Idle.4"]
+new = "Ahh."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Idle.5"]
+new = "Doing nothing is an art."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Idle.6"]
+new = "I watched others work. Exhausting."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.LongWait.3"]
+new = "{duration} of bliss."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.LongWait.4"]
+new = "I had a little nap standing up."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Injured.3"]
+new = "Bed rest? Don't mind if I do."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Injured.4"]
+new = "Ouch. But also: day off."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.LostJob.3"]
+new = "Free time!"
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.LostJob.4"]
+new = "I'll find another. Someday."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.NewJob.3"]
+new = "Ugh, work."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.NewJob.4"]
+new = "Hope it's an easy one."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Healed.2"]
+new = "I could use a few more days."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Kit.3"]
+new = "I don't wanna get up."
+status = "normal"
+
+["BeaverDiary.Remark.Slacker.Kit.4"]
+new = "I napped in the grass."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Wake.4"]
+new = "Morning spills over the hills."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Wake.5"]
+new = "A blank page of a day."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Wake.6"]
+new = "Dreams slip away like fish."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Bed.3"]
+new = "The day folds itself away."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Bed.4"]
+new = "Goodnight, moon. Goodnight, dam."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Work.5"]
+new = "Each task, a brushstroke."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Work.6"]
+new = "Wood and water, the old song."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Work.7"]
+new = "Labor, and a little longing."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Work.8"]
+new = "My work is my verse."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Haul.6"]
+new = "Burden and beauty, side by side."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Haul.7"]
+new = "I carried it like a secret."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Haul.8"]
+new = "Heavy is the paw that carries."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Haul.9"]
+new = "A small gift, carried far."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Haul.10"]
+new = "The weight of things, the lightness of being."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Commute.5"]
+new = "The road, a ribbon of thought."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Commute.6"]
+new = "Footsteps, like slow raindrops."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Commute.7"]
+new = "I walked, and the world walked with me."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Commute.8"]
+new = "The wind whispered something. I forgot what."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Eat.3"]
+new = "Nourishment for body and verse."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Eat.4"]
+new = "Every meal, a small celebration."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.EatLike.2"]
+new = "{good}, my muse."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.EatDislike.2"]
+new = "{good}, you break my heart."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Drink.3"]
+new = "Cool as moonlight."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Drink.4"]
+new = "The river in a cup."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Leisure.3"]
+new = "Joy, brief as a firefly."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Leisure.4"]
+new = "I wrote a verse about it."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Heal.3"]
+new = "Even broken things mend."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Heal.4"]
+new = "Pain is just another verse."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Idle.4"]
+new = "The world paused, and so did I."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Idle.5"]
+new = "I searched for a rhyme for beaver."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Idle.6"]
+new = "I watched a leaf fall. Slowly."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.LongWait.3"]
+new = "{duration} of waiting, a poem of its own."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.LongWait.4"]
+new = "Stillness has its own music."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Injured.3"]
+new = "My body, a broken lyre."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Injured.4"]
+new = "A wound, a verse, a lesson."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.LostJob.3"]
+new = "The river changes course."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.LostJob.4"]
+new = "Nothing is forever."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.NewJob.3"]
+new = "A fresh page."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.NewJob.4"]
+new = "The story takes a turn."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Healed.2"]
+new = "Like spring after winter."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Kit.3"]
+new = "The clouds look like dams."
+status = "normal"
+
+["BeaverDiary.Remark.Poet.Kit.4"]
+new = "I named a star."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Wake.4"]
+new = "What if today goes wrong?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Wake.5"]
+new = "I heard a noise last night."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Wake.6"]
+new = "I checked my teeth. All there."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Bed.3"]
+new = "What was that sound?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Bed.4"]
+new = "I hope I wake up on time."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Work.5"]
+new = "Did I forget something?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Work.6"]
+new = "I hope nobody's watching me."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Work.7"]
+new = "I was very, very careful."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Work.8"]
+new = "What if I'm doing it wrong?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Haul.6"]
+new = "I nearly tripped. Nearly."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Haul.7"]
+new = "Is it too heavy? It felt heavy."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Haul.8"]
+new = "I hope it doesn't break."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Haul.9"]
+new = "Careful... careful..."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Haul.10"]
+new = "Did I pick up the right thing?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Commute.5"]
+new = "I didn't look at the water."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Commute.6"]
+new = "I stayed far from the edge."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Commute.7"]
+new = "I heard a splash. Probably a fish."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Commute.8"]
+new = "I walked fast. Just in case."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Eat.3"]
+new = "I chewed thirty times."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Eat.4"]
+new = "Was that the last one? I hope not."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.EatLike.2"]
+new = "I love {good}. What if I get tired of it?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.EatDislike.2"]
+new = "{good} makes my tummy nervous."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Drink.3"]
+new = "I sniffed it first."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Drink.4"]
+new = "Did I drink enough? Too much?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Leisure.3"]
+new = "I kept looking over my shoulder."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Leisure.4"]
+new = "Should I be working?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Heal.3"]
+new = "Will it leave a scar?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Heal.4"]
+new = "I asked the nurse ten questions."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Idle.4"]
+new = "Is everyone else busy? Am I lazy?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Idle.5"]
+new = "I worried about worrying."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Idle.6"]
+new = "I fidgeted."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.LongWait.3"]
+new = "{duration}. Is something wrong with me?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.LongWait.4"]
+new = "I paced back and forth."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Injured.3"]
+new = "Oh no, oh no, oh no."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Injured.4"]
+new = "Will I be all right?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.LostJob.3"]
+new = "What did I do?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.LostJob.4"]
+new = "Will I ever work again?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.NewJob.3"]
+new = "What if they don't like me?"
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.NewJob.4"]
+new = "I'm so nervous."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Healed.2"]
+new = "I'll be extra careful from now on."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Kit.3"]
+new = "I don't like the dark."
+status = "normal"
+
+["BeaverDiary.Remark.Worrier.Kit.4"]
+new = "What if I never grow up?"
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Wake.4"]
+new = "Thank you, Capa, for my bed."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Wake.5"]
+new = "A new day, a new blessing."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Wake.6"]
+new = "I greeted Capa first thing."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Bed.3"]
+new = "Thank you for today, Capa."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Bed.4"]
+new = "I rest in Capa's care."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Work.5"]
+new = "Capa blesses busy paws."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Work.6"]
+new = "Honest work, honest heart."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Work.7"]
+new = "I work for the glory of Capa."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Work.8"]
+new = "Every task is sacred."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Haul.6"]
+new = "I carry it gladly."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Haul.7"]
+new = "Capa carries me as I carry this."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Haul.8"]
+new = "A humble task, a holy task."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Haul.9"]
+new = "I prayed it would arrive safely. It did."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Haul.10"]
+new = "Service is the highest calling."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Commute.5"]
+new = "I blessed every building I passed."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Commute.6"]
+new = "Capa walks beside me."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Commute.7"]
+new = "I saw Capa's beauty everywhere."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Commute.8"]
+new = "A walk is a prayer with feet."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Eat.3"]
+new = "Capa provides."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Eat.4"]
+new = "I shared a thought of thanks."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.EatLike.2"]
+new = "{good}! Capa knows my heart."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.EatDislike.2"]
+new = "Even {good} is a blessing. Somehow."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Drink.3"]
+new = "Water is life, praise Capa."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Drink.4"]
+new = "I gave thanks for every drop."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Leisure.3"]
+new = "Joy is a form of prayer."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Leisure.4"]
+new = "Rest, as Capa commands."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Heal.3"]
+new = "Capa is with me."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Heal.4"]
+new = "Healing is Capa's work."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Idle.4"]
+new = "Stillness brings me closer to Capa."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Idle.5"]
+new = "I said a little prayer."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Idle.6"]
+new = "I listened for Capa's voice."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.LongWait.3"]
+new = "{duration} in prayer."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.LongWait.4"]
+new = "Capa's timing is perfect."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Injured.3"]
+new = "Capa will heal me."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Injured.4"]
+new = "I forgive whatever did this."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.LostJob.3"]
+new = "Capa will show me the way."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.LostJob.4"]
+new = "Every ending is a beginning."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.NewJob.3"]
+new = "Blessed be this new work."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.NewJob.4"]
+new = "I'll serve with all my heart."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Healed.2"]
+new = "Capa has made me whole."
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Kit.3"]
+new = "I prayed for a big stick. I got one!"
+status = "normal"
+
+["BeaverDiary.Remark.Devout.Kit.4"]
+new = "Does Capa have a tail?"
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Wake.4"]
+new = "Should have stayed in bed."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Wake.5"]
+new = "Same as yesterday, probably worse."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Wake.6"]
+new = "Nothing good ever happens in the morning."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Bed.3"]
+new = "At least sleep is free."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Bed.4"]
+new = "One more day closer to the end."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Work.5"]
+new = "Nobody will remember this."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Work.6"]
+new = "It'll need redoing anyway."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Work.7"]
+new = "Work. Sleep. Repeat. Forever."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Work.8"]
+new = "What's the point?"
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Haul.6"]
+new = "Carry it here, carry it there. Endless."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Haul.7"]
+new = "It'll just end up somewhere else."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Haul.8"]
+new = "My back will never recover."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Haul.9"]
+new = "The work never ends."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Haul.10"]
+new = "Heavy, like my heart."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Commute.5"]
+new = "The path is long, like life."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Commute.6"]
+new = "It'll probably rain."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Commute.7"]
+new = "Nobody waved back."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Commute.8"]
+new = "Every step closer to more work."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Eat.3"]
+new = "Tasted like yesterday."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Eat.4"]
+new = "Food is just a delay."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.EatLike.2"]
+new = "I like {good}. So it'll be gone soon."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.EatDislike.2"]
+new = "{good}. My life in a meal."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Drink.3"]
+new = "Wet. Like my mood."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Drink.4"]
+new = "Tasted of nothing. Like everything."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Leisure.3"]
+new = "It's never as fun as it looks."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Leisure.4"]
+new = "Fun is just sadness taking a break."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Heal.3"]
+new = "I'll get hurt again anyway."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Heal.4"]
+new = "It'll never heal right."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Idle.4"]
+new = "Why bother."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Idle.5"]
+new = "I stared into the distance."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Idle.6"]
+new = "Everyone's busy but me. Typical."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.LongWait.3"]
+new = "{duration}. Of course."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.LongWait.4"]
+new = "This is what my life has become."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Injured.3"]
+new = "Things only get worse."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Injured.4"]
+new = "Just my luck."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.LostJob.3"]
+new = "I knew it wouldn't last."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.LostJob.4"]
+new = "Good things never stay."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.NewJob.3"]
+new = "Can't wait to be disappointed."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.NewJob.4"]
+new = "Here we go again."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Healed.2"]
+new = "Healed, for now. Something else will happen."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Kit.3"]
+new = "Nobody plays with me."
+status = "normal"
+
+["BeaverDiary.Remark.Pessimist.Kit.4"]
+new = "I'll never be big."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Wake.4"]
+new = "Morning. Coffee would be a fine invention."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Wake.5"]
+new = "I dreamt of equations."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Wake.6"]
+new = "Today's experiment: being awake."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Bed.3"]
+new = "Recording today's observations."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Bed.4"]
+new = "Brain needs to defragment."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Work.5"]
+new = "I'm developing a theory of work."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Work.6"]
+new = "Results: work was done."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Work.7"]
+new = "I wrote a paper on it. In my head."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Work.8"]
+new = "Practice makes data."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Haul.6"]
+new = "Weight is just gravity being clingy."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Haul.7"]
+new = "I studied the balance of the load."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Haul.8"]
+new = "Interesting texture on this one."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Haul.9"]
+new = "An object in motion: me."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Haul.10"]
+new = "I wonder what it's made of."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Commute.5"]
+new = "I measured the wind. Windy."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Commute.6"]
+new = "Studied the clouds. Cumulus."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Commute.7"]
+new = "I had a brilliant idea. Then I forgot it."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Commute.8"]
+new = "Fascinating rocks on the way."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Eat.3"]
+new = "Sample consumed."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Eat.4"]
+new = "Hypothesis: food is good. Confirmed."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.EatLike.2"]
+new = "{good}: a remarkable compound."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.EatDislike.2"]
+new = "{good}: unpleasant, scientifically speaking."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Drink.3"]
+new = "Remarkable molecule, water."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Drink.4"]
+new = "Hydration complete."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Leisure.3"]
+new = "Fun: an understudied phenomenon."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Leisure.4"]
+new = "Observed happiness. Mine."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Heal.3"]
+new = "A fascinating case. Mine."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Heal.4"]
+new = "Recovery in progress. Taking notes."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Idle.4"]
+new = "I invented a better wheel. In theory."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Idle.5"]
+new = "Calculated the meaning of life. Not 42."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Idle.6"]
+new = "Observed an ant. Brilliant engineer."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.LongWait.3"]
+new = "{duration}. Plenty of thinking time."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.LongWait.4"]
+new = "I designed a perpetual motion dam. In my head."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Injured.3"]
+new = "Lesson learned: ouch."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Injured.4"]
+new = "New data on pain. Unwanted."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.LostJob.3"]
+new = "Variable removed."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.LostJob.4"]
+new = "Interesting. Not ideal."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.NewJob.3"]
+new = "New variables to study."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.NewJob.4"]
+new = "Fresh field of research."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Healed.2"]
+new = "Healing works. Fascinating."
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Kit.3"]
+new = "Why do sticks float?"
+status = "normal"
+
+["BeaverDiary.Remark.Scientist.Kit.4"]
+new = "I counted to a hundred!"
+status = "normal"

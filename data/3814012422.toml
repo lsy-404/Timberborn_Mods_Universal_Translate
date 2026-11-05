@@ -10842,6 +10842,86 @@ status = "normal"
 new = "Too few hands left to sail."
 status = "normal"
 
+["TimberEmpires.Bonus.FightStrength"]
+new = "Fight strength"
+status = "normal"
+
+["TimberEmpires.Bonus.Defense"]
+new = "Defense"
+status = "normal"
+
+["TimberEmpires.Bonus.FightStrength.Tooltip"]
+new = "How much harder it hits. Wellbeing makes a soldier hit harder the way it makes a worker faster."
+status = "normal"
+
+["TimberEmpires.Bonus.Defense.Tooltip"]
+new = "How much less damage it takes from shots."
+status = "normal"
+
+["TimberEmpires.Bonus.Wellbeing"]
+new = "Wellbeing"
+status = "normal"
+
+["TimberEmpires.Combat.WeaponTooltip"]
+new = "Strength {0}. Wears as it fights: worn down, it hits at {1} until it gets a new one."
+status = "normal"
+
+["TimberEmpires.Combat.ShieldTooltip"]
+new = "Defense {0} against shots while it lasts. Wears as it takes them."
+status = "normal"
+
+["TimberEmpires.Combat.UpkeepTooltip"]
+new = "Used up as it heals or converts."
+status = "normal"
+
+["TimberEmpires.Combat.VeterancyTooltip"]
+new = "Strength {0}, defense {1}. Kills: {2}."
+status = "normal"
+
+["TimberEmpires.Combat.CourageTooltip"]
+new = "Strength {0}, defense {1}, from the wall decorations around it."
+status = "normal"
+
+["TimberEmpires.Combat.Point"]
+new = "Each point is 10%."
+status = "normal"
+
+["TimberEmpires.Cart.Slots"]
+new = "Goods: {0}/{1}"
+status = "normal"
+
+["TimberEmpires.Cart.Total"]
+new = "Set to load: {0}/{1}"
+status = "normal"
+
+["TimberEmpires.Cart.Add"]
+new = "Add a good"
+status = "normal"
+
+["TimberEmpires.Cart.Loads"]
+new = "Cargo"
+status = "normal"
+
+["TimberEmpires.Cart.Keep"]
+new = "Keep aboard"
+status = "normal"
+
+["TimberEmpires.Cart.Load"]
+new = "Load"
+status = "normal"
+
+["TimberEmpires.Cart.Unload"]
+new = "Unload"
+status = "normal"
+
+["TimberEmpires.Cart.Aboard"]
+new = "Aboard"
+status = "normal"
+
+["TimberEmpires.Cart.Auto"]
+new = "Nothing picked: it takes some of every supply the yard has."
+status = "normal"
+
 ["TimberEmpires.SeaRock3x3.DisplayName"]
 raw = "Sea Rock 3x3"
 status = "abandoned"

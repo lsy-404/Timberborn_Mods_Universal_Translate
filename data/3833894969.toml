@@ -1,0 +1,162 @@
+[_meta]
+name = "Pathworks"
+
+["Pathworks.Group"]
+new = "Pathworks"
+status = "normal"
+
+["Pathworks.Path.Description"]
+new = "A decorative path. Same movement speed and building cost as a regular path."
+status = "normal"
+
+["Pathworks.Cobblestone.Name"]
+new = "Cobblestone path"
+status = "normal"
+
+["Pathworks.Cobblestone.Flavor"]
+new = "Small rounded stones for an old-town street."
+status = "normal"
+
+["Pathworks.Slate.Name"]
+new = "Slate path"
+status = "normal"
+
+["Pathworks.Slate.Flavor"]
+new = "Cool blue-grey slabs with a clean finish."
+status = "normal"
+
+["Pathworks.Sandstone.Name"]
+new = "Sandstone path"
+status = "normal"
+
+["Pathworks.Sandstone.Flavor"]
+new = "Warm honey-colored stones brighten the settlement."
+status = "normal"
+
+["Pathworks.MossyStone.Name"]
+new = "Mossy stone path"
+status = "normal"
+
+["Pathworks.MossyStone.Flavor"]
+new = "Weathered stones with green moss between them."
+status = "normal"
+
+["Pathworks.Flagstone.Name"]
+new = "Flagstone path"
+status = "normal"
+
+["Pathworks.Flagstone.Flavor"]
+new = "Broad irregular stones laid by patient paws."
+status = "normal"
+
+["Pathworks.DarkGravel.Name"]
+new = "Dark gravel path"
+status = "normal"
+
+["Pathworks.DarkGravel.Flavor"]
+new = "Fine charcoal gravel for a rugged walkway."
+status = "normal"
+
+["Pathworks.LightGravel.Name"]
+new = "Light gravel path"
+status = "normal"
+
+["Pathworks.LightGravel.Flavor"]
+new = "Pale limestone gravel for a garden trail."
+status = "normal"
+
+["Pathworks.ClayBrick.Name"]
+new = "Clay brick path"
+status = "normal"
+
+["Pathworks.ClayBrick.Flavor"]
+new = "Classic russet brickwork in staggered rows."
+status = "normal"
+
+["Pathworks.RedBrick.Name"]
+new = "Herringbone brick path"
+status = "normal"
+
+["Pathworks.RedBrick.Flavor"]
+new = "Warm red bricks arranged in a zigzag pattern."
+status = "normal"
+
+["Pathworks.CreamBrick.Name"]
+new = "Cream brick path"
+status = "normal"
+
+["Pathworks.CreamBrick.Flavor"]
+new = "Light buff bricks for a softer street palette."
+status = "normal"
+
+["Pathworks.DecorativeTile.Name"]
+new = "Decorative tile path"
+status = "normal"
+
+["Pathworks.DecorativeTile.Flavor"]
+new = "Teal and ivory tiles with geometric patterns."
+status = "normal"
+
+["Pathworks.PondMosaic.Name"]
+new = "Pond mosaic path"
+status = "normal"
+
+["Pathworks.PondMosaic.Flavor"]
+new = "A garden mosaic in sage and pond-green hues."
+status = "normal"
+
+["Pathworks.Boardwalk.Name"]
+new = "Timber boardwalk"
+status = "normal"
+
+["Pathworks.Boardwalk.Flavor"]
+new = "Weathered timber for busy waterside walks."
+status = "normal"
+
+["Pathworks.Cedar.Name"]
+new = "Cedar plank path"
+status = "normal"
+
+["Pathworks.Cedar.Flavor"]
+new = "Warm cinnamon-colored cedar boards."
+status = "normal"
+
+["Pathworks.DarkOak.Name"]
+new = "Dark oak path"
+status = "normal"
+
+["Pathworks.DarkOak.Flavor"]
+new = "Rich brown planks with softly worn grain."
+status = "normal"
+
+["Pathworks.IvoryTimber.Name"]
+new = "Ivory timber path"
+status = "normal"
+
+["Pathworks.IvoryTimber.Flavor"]
+new = "Painted boards with a gently weathered finish."
+status = "normal"
+
+["Pathworks.SageTimber.Name"]
+new = "Sage timber path"
+status = "normal"
+
+["Pathworks.SageTimber.Flavor"]
+new = "Green-painted boards for leafy neighborhoods."
+status = "normal"
+
+["Pathworks.IndustrialMetal.Name"]
+new = "Industrial metal path"
+status = "normal"
+
+["Pathworks.IndustrialMetal.Flavor"]
+new = "Dark steel tread plate for the industrial quarter."
+status = "normal"
+
+["Pathworks.BrushedMetal.Name"]
+new = "Brushed metal path"
+status = "normal"
+
+["Pathworks.BrushedMetal.Flavor"]
+new = "Pale zinc panels with restrained rivet details."
+status = "normal"

@@ -1,0 +1,62 @@
+[_meta]
+name = "Will It Last?"
+
+["WillItLast.Water"]
+new = "Water"
+status = "normal"
+
+["WillItLast.Food"]
+new = "Food"
+status = "normal"
+
+["WillItLast.Enough"]
+new = "Enough for the bad season"
+status = "normal"
+
+["WillItLast.RunsOut"]
+new = "Runs out during the bad season"
+status = "normal"
+
+["WillItLast.MayRunOut"]
+new = "May run out if the bad season runs long"
+status = "normal"
+
+["WillItLast.RunsOutInDays"]
+new = "Runs out in {0} days"
+status = "normal"
+
+["WillItLast.Out"]
+new = "Out now!"
+status = "normal"
+
+["WillItLast.TooltipStock"]
+new = "Stored: {0} / {1}"
+status = "normal"
+
+["WillItLast.TooltipRatesMeasured"]
+new = "Produced {0}/day, used {1}/day"
+status = "normal"
+
+["WillItLast.TooltipRatesEstimated"]
+new = "Used ~{0}/day by {1} beavers (estimated)"
+status = "normal"
+
+["WillItLast.TooltipAtSeasonStart"]
+new = "At least ~{0} left when the bad season starts"
+status = "normal"
+
+["WillItLast.TooltipSeasonLeft"]
+new = "Bad season: {0} days left"
+status = "normal"
+
+["WillItLast.TooltipHousingFull"]
+new = "If housing fills up ({0} beavers): {1}"
+status = "normal"
+
+["WillItLast.TooltipGrowthContinues"]
+new = "If growth continues ({0} beavers by season end): {1}"
+status = "normal"
+
+["WillItLast.TooltipClick"]
+new = "Click to show or hide the forecast panel"
+status = "normal"
