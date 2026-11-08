@@ -204,3 +204,47 @@ koKR = "오염된 비버는 입원할 수 없습니다. 의사와 해독제가 �
 csCZ = "Kontaminovaní bobři nejsou přijímáni: potřebují lékaře a protijed"
 viVN = "Không tiếp nhận hải ly bị nhiễm độc: cần có bác sĩ và thuốc giải độc"
 trTR = "Kirlenmiş kunduzlar kabul edilmez: doktor ve panzehir gerekir"
+
+["Hospital.Injury.NoPower"]
+new = "An injury heals in ~{0} days, like a medical bed: no power"
+status = "normal"
+
+["Building.Hospital.IronTeeth.DisplayName"]
+new = "Hospital"
+status = "normal"
+
+["Building.Hospital.IronTeeth.Description"]
+new = "A tower with 16 glass flasks and 3 doctors, driven by a shaft (80 power). Without power or doctors it heals like a medical bed (an injury in 7 days). With 3 doctors an injury heals in 5 days, with healing extract in 2. Doctors with extract cure badwater contamination using 1 extract per beaver."
+status = "normal"
+
+["Building.Hospital.IronTeeth.FlavorDescription"]
+new = "\"If the pump hums, you are getting better.\""
+status = "normal"
+
+["Good.HealingExtract.DisplayName"]
+new = "Healing extract"
+status = "normal"
+
+["Good.HealingExtract.PluralDisplayName"]
+new = "Healing extract"
+status = "normal"
+
+["Hospital.Doctors.IronTeeth"]
+new = "Doctors: {0} of {1}, {2} in the staff room"
+status = "normal"
+
+["Hospital.Injury.WithMedicine.IronTeeth"]
+new = "An injury heals in ~{0} days (with healing extract)"
+status = "normal"
+
+["Hospital.Injury.WithoutMedicine.IronTeeth"]
+new = "An injury heals in ~{0} days (no healing extract)"
+status = "normal"
+
+["Hospital.Contamination.IronTeeth"]
+new = "Contamination is cured in ~{0} days ({1} extract per beaver)"
+status = "normal"
+
+["Hospital.Contamination.Off.IronTeeth"]
+new = "Contaminated beavers are not admitted: needs power, a doctor and extract"
+status = "normal"

@@ -1,0 +1,278 @@
+[_meta]
+name = "The Post Office"
+
+["LV.TPO.GroupName"]
+new = "Post Office"
+status = "normal"
+
+["LV.TPO.DispatchPostName"]
+new = "Dispatch Post"
+status = "normal"
+
+["LV.TPO.DispatchPostDesc"]
+new = "Sends goods from this district into shared storage."
+status = "normal"
+
+["LV.TPO.DispatchPostFlavor"]
+new = "'Seal it tight. No chewing until it reaches the other side.'"
+status = "normal"
+
+["LV.TPO.ParcelOfficeName"]
+new = "Parcel Office"
+status = "normal"
+
+["LV.TPO.ParcelOfficeDesc"]
+new = "Brings goods out of shared storage for this district."
+status = "normal"
+
+["LV.TPO.ParcelOfficeFlavor"]
+new = "It's like Christmas every day. The crates keep coming."
+status = "normal"
+
+["LV.TPO.HoldingLodgeName"]
+new = "Holding Lodge"
+status = "normal"
+
+["LV.TPO.HoldingLodgeDesc"]
+new = "Adds shared storage while it is connected to a district. No workers."
+status = "normal"
+
+["LV.TPO.HoldingLodgeFlavor"]
+new = "Goods sleep here until a district calls them home."
+status = "normal"
+
+[Name_PostOfficeSenderFragment]
+new = "Dispatch Post"
+status = "normal"
+
+[Name_PostOfficeReceiverFragment]
+new = "Parcel Office"
+status = "normal"
+
+[Name_PostOfficeInventoryFragment]
+new = "Post Office Storage"
+status = "normal"
+
+["LV.TPO.EmptyStorage"]
+new = "Nothing stored."
+status = "normal"
+
+["LV.TPO.StoredWeight"]
+new = "{0} kg"
+status = "normal"
+
+["LV.TPO.StoredHere"]
+new = "{0} / {1} kg"
+status = "normal"
+
+[Name_PostOfficeGlobalInventoryFragment]
+new = "Post Office Global Storage"
+status = "normal"
+
+["LV.TPO.GlobalWeight"]
+new = "{0} / {1} kg"
+status = "normal"
+
+["LV.TPO.GlobalWithReserved"]
+new = "{0} / {1} kg ({2} kg reserved)"
+status = "normal"
+
+["LV.TPO.GlobalEmpty"]
+new = "Nothing stored."
+status = "normal"
+
+["LV.TPO.GlobalItems"]
+new = "Items"
+status = "normal"
+
+["LV.TPO.GlobalIncoming"]
+new = "Reserved (incoming)"
+status = "normal"
+
+["LV.TPO.AddManual"]
+new = "Add manual order"
+status = "normal"
+
+["LV.TPO.AutoOrder"]
+new = "Auto order"
+status = "normal"
+
+["LV.TPO.ConfigureAuto"]
+new = "Configure auto order"
+status = "normal"
+
+["LV.TPO.ManualOrder"]
+new = "Manual order"
+status = "normal"
+
+["LV.TPO.SenderAuto"]
+new = "Auto send"
+status = "normal"
+
+["LV.TPO.InventoryRules"]
+new = "Inventory Rules"
+status = "normal"
+
+["LV.TPO.SenderAutoHelp"]
+new = "Queues the next parcel when shared stock falls below the target by the margin, so haulers can fill it while a send is underway."
+status = "normal"
+
+["LV.TPO.ReceiverAutoHelp"]
+new = "Queues one parcel when stock here falls below the amount by the margin, and refills toward that amount."
+status = "normal"
+
+["LV.TPO.ReceiverAuto"]
+new = "Keep in this building"
+status = "normal"
+
+["LV.TPO.Add"]
+new = "Add"
+status = "normal"
+
+["LV.TPO.Confirm"]
+new = "Confirm"
+status = "normal"
+
+["LV.TPO.Remove"]
+new = "Remove"
+status = "normal"
+
+["LV.TPO.Cancel"]
+new = "Cancel"
+status = "normal"
+
+["LV.TPO.UncheckAutoToCancel"]
+new = "Uncheck Auto order to cancel this order."
+status = "normal"
+
+["LV.TPO.Target"]
+new = "Target"
+status = "normal"
+
+["LV.TPO.Margin"]
+new = "Margin"
+status = "normal"
+
+["LV.TPO.Good"]
+new = "Good"
+status = "normal"
+
+["LV.TPO.Amount"]
+new = "Amount"
+status = "normal"
+
+["LV.TPO.TotalWeight"]
+new = "Total weight: {0} kg"
+status = "normal"
+
+["LV.TPO.ParcelsToAdd"]
+new = "Parcels to add: {0}"
+status = "normal"
+
+["LV.TPO.ParcelLimit"]
+new = "{0} kg limit per parcel"
+status = "normal"
+
+["LV.TPO.UnitWeight"]
+new = "{0}kg ×"
+status = "normal"
+
+["LV.TPO.LineWeight"]
+new = "= {0}kg"
+status = "normal"
+
+["LV.TPO.AddedGoods"]
+new = "Added goods"
+status = "normal"
+
+["LV.TPO.KeepWeight"]
+new = "{0} / {1} kg"
+status = "normal"
+
+["LV.TPO.TooHeavy"]
+new = "That list is heavier than this building can keep."
+status = "normal"
+
+["LV.TPO.NoParcels"]
+new = "No parcels."
+status = "normal"
+
+["LV.TPO.AutoTag"]
+new = "Auto"
+status = "normal"
+
+["LV.TPO.Working"]
+new = "Working"
+status = "normal"
+
+["LV.TPO.StatusNothing"]
+new = "No orders."
+status = "normal"
+
+["LV.TPO.StatusNothingShort"]
+new = "Nothing to do"
+status = "normal"
+
+["LV.TPO.StatusStorage"]
+new = "No room for the current order."
+status = "normal"
+
+["LV.TPO.StatusStorageShort"]
+new = "No storage"
+status = "normal"
+
+["LV.TPO.WaitingStock"]
+new = "Waiting for goods"
+status = "normal"
+
+["LV.TPO.WaitingWeight"]
+new = "Waiting for shared weight"
+status = "normal"
+
+["LV.TPO.ActiveOrder"]
+new = "Active Order"
+status = "normal"
+
+["LV.TPO.CurrentQueue"]
+new = "Current Queue"
+status = "normal"
+
+["LV.TPO.ParcelNumber"]
+new = "Parcel {0}:"
+status = "normal"
+
+["LV.TPO.GatheringGoods"]
+new = "Gathering goods"
+status = "normal"
+
+["LV.TPO.NoSpace"]
+new = "No space"
+status = "normal"
+
+["LV.TPO.SendHours"]
+new = "{0} / {1} h"
+status = "normal"
+
+["LV.TPO.CancelActiveConfirm"]
+new = "Cancel the active order? Goods already taken out will be dropped."
+status = "normal"
+
+["LV.TPO.CancelReceiveConfirm"]
+new = "Cancel the active order?"
+status = "normal"
+
+["LV.TPO.RemoveParcelConfirm"]
+new = "Remove this parcel from the queue?"
+status = "normal"
+
+["LV.TPO.WaitingGlobal"]
+new = "Waiting for global goods"
+status = "normal"
+
+["LV.TPO.WaitingSpace"]
+new = "Waiting for room"
+status = "normal"
+
+["LV.TPO.GlobalSpace"]
+new = "● <YellowHighlight>Global Post Office Capacity:</YellowHighlight> {0:+0} kg."
+status = "normal"

@@ -18,6 +18,10 @@ csCZ = "Všechny vrstvy"
 viVN = "Tất cả các lớp"
 trTR = "Tüm katmanlar"
 
+["BetterMapEditor.PickHeight"]
+new = "Pick brush height"
+status = "normal"
+
 ["BetterMapEditor.VariableRuins"]
 raw = "Variable ruins"
 status = "normal"

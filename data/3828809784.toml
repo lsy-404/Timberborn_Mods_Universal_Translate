@@ -2,8 +2,8 @@
 name = "High-Density Box Farm — 3x3x1 Indoor Stackable Farm"
 
 ["HDBF.Building.BoxFarm.Basic.Name"]
-status = "normal"
 raw = "High-Density Box Farm (Basic)"
+status = "normal"
 enUS = "High-Density Box Farm (Basic)"
 zhCN = "高密度箱式农场（基础）"
 zhTW = "高密度箱式農場（基礎型）"
@@ -19,8 +19,8 @@ viVN = "Nông trại hộp mật độ cao (Cơ bản)"
 trTR = "Yüksek Yoğunluklu Kutu Çiftliği (Temel)"
 
 ["HDBF.Building.BoxFarm.Intermediate.Name"]
-status = "normal"
 raw = "High-Density Box Farm (Intermediate)"
+status = "normal"
 enUS = "High-Density Box Farm (Intermediate)"
 zhCN = "高密度箱式农场（中级）"
 zhTW = "高密度箱式農場（中級）"
@@ -36,8 +36,8 @@ viVN = "Nông trại hộp mật độ cao (Trung cấp)"
 trTR = "Yüksek Yoğunluklu Kutu Çiftliği (Orta Seviye)"
 
 ["HDBF.Building.BoxFarm.Advanced.Name"]
-status = "normal"
 raw = "High-Density Box Farm (Advanced)"
+status = "normal"
 enUS = "High-Density Box Farm (Advanced)"
 zhCN = "高密度箱式农场（高级）"
 zhTW = "高密度箱式農場（進階）"
@@ -53,8 +53,8 @@ viVN = "Trang trại dạng hộp mật độ cao (Nâng cao)"
 trTR = "Yüksek Yoğunluklu Kutu Çiftliği (Gelişmiş)"
 
 ["HDBF.Building.BoxFarm.Top.Name"]
-status = "normal"
 raw = "High-Density Box Farm (Top)"
+status = "normal"
 enUS = "High-Density Box Farm (Top)"
 zhCN = "高密度箱式农场（顶部）"
 zhTW = "高密度箱式農場（頂層）"
@@ -70,8 +70,8 @@ viVN = "Nông trại hộp mật độ cao (Trên)"
 trTR = "Yüksek Yoğunluklu Kutu Çiftliği (Üst)"
 
 ["HDBF.Building.BoxFarm.Basic.Description"]
-status = "normal"
 raw = "A timber box farm: two farmers tend 60 indoor slots with hand-fed water."
+status = "normal"
 enUS = "A timber box farm: two farmers tend 60 indoor slots with hand-fed water."
 zhCN = "木制箱式农场：两名农夫照料 60 个室内种植位，水由人工供给。"
 zhTW = "木箱農場：兩名農夫照料 60 個室內種植格，並由人手供水。"
@@ -87,8 +87,8 @@ viVN = "Trang trại hộp gỗ: hai nông dân chăm sóc 60 ô trồng trong n
 trTR = "Ahşap kutu çiftliği: iki çiftçi, elle su verilen 60 kapalı ekim yuvasının bakımını yapar."
 
 ["HDBF.Building.BoxFarm.Intermediate.Description"]
-status = "normal"
 raw = "A plank-frame greenhouse: four farmers tend 150 indoor slots with periodic plank upkeep."
+status = "normal"
 enUS = "A plank-frame greenhouse: four farmers tend 150 indoor slots with periodic plank upkeep."
 zhCN = "木板框架温室：4名农夫照料150个室内种植位，需定期用木板维护。"
 zhTW = "木板框架溫室：四名農夫照料 150 個室內種植格，並需定期以木板維護。"
@@ -104,8 +104,8 @@ viVN = "Nhà kính khung ván: bốn nông dân chăm sóc 150 ô trồng trong 
 trTR = "Tahta çerçeveli bir sera: dört çiftçi 150 kapalı alan yuvasıyla ilgilenir; periyodik tahta bakımı gerektirir."
 
 ["HDBF.Building.BoxFarm.Advanced.Description"]
-status = "normal"
 raw = "A metal-and-glass greenhouse: eight farmers tend 300 indoor slots with metal upkeep."
+status = "normal"
 enUS = "A metal-and-glass greenhouse: eight farmers tend 300 indoor slots with metal upkeep."
 zhCN = "金属与玻璃建造的温室：8名农夫照料300个室内种植位，维护需要金属。"
 zhTW = "金屬與玻璃溫室：8 名農夫照料 300 個室內種植格，維護時需要金屬。"
@@ -121,8 +121,8 @@ viVN = "Nhà kính bằng kim loại và kính: tám nông dân chăm sóc 300 �
 trTR = "Metal ve camdan bir sera: sekiz çiftçi, metal bakım maliyetiyle 300 kapalı alan ekim yuvasını işler."
 
 ["HDBF.Building.BoxFarm.Top.Description"]
-status = "normal"
 raw = "An industrial farm complex: 16 farmers and 600 indoor slots with grid power and metal upkeep."
+status = "normal"
 enUS = "An industrial farm complex: 16 farmers and 600 indoor slots with grid power and metal upkeep."
 zhCN = "一座工业化农场综合体：可容纳 16 名农夫，提供 600 个室内种植槽位，需要能量网供电并消耗金属维护。"
 zhTW = "工業農場綜合設施：可容納 16 名農夫與 600 個室內種植格，需連接動能網供能並消耗金屬維護。"
@@ -138,8 +138,8 @@ viVN = "Một tổ hợp nông trại công nghiệp: 16 nông dân, 600 chỗ t
 trTR = "Endüstriyel bir çiftlik kompleksi: 16 çiftçi, 600 iç mekân yuvası, mekanik güç şebekesi ve metal bakım gereksinimi."
 
 ["HDBF.Panel.Tier"]
-status = "normal"
 raw = "Tier: {0}"
+status = "normal"
 enUS = "Tier: {0}"
 zhCN = "层级：{0}"
 zhTW = "層級：{0}"
@@ -155,8 +155,8 @@ viVN = "Cấp: {0}"
 trTR = "Kademe: {0}"
 
 ["HDBF.Panel.Faction"]
-status = "normal"
 raw = "Faction: {0}"
+status = "normal"
 enUS = "Faction: {0}"
 zhCN = "阵营：{0}"
 zhTW = "陣營：{0}"
@@ -172,8 +172,8 @@ viVN = "Phe phái: {0}"
 trTR = "Fraksiyon: {0}"
 
 ["HDBF.Panel.Workers"]
-status = "normal"
 raw = "Workers {0}/{1}"
+status = "normal"
 enUS = "Workers {0}/{1}"
 zhCN = "工人 {0}/{1}"
 zhTW = "工人 {0}/{1}"
@@ -189,8 +189,8 @@ viVN = "Công nhân {0}/{1}"
 trTR = "İşçiler {0}/{1}"
 
 ["HDBF.Panel.Mode"]
-status = "normal"
 raw = "Mode"
+status = "normal"
 enUS = "Mode"
 zhCN = "模式"
 zhTW = "模式"
@@ -206,8 +206,8 @@ viVN = "Chế độ"
 trTR = "Mod"
 
 ["HDBF.Panel.ModeTransition"]
-status = "normal"
 raw = "Mode changing; output is reduced today."
+status = "normal"
 enUS = "Mode changing; output is reduced today."
 zhCN = "模式切换中；今日产出降低。"
 zhTW = "模式切換中；今日產量降低。"
@@ -223,8 +223,8 @@ viVN = "Đang chuyển chế độ; sản lượng hôm nay giảm."
 trTR = "Mod değiştiriliyor; bugün üretim azaltılıyor."
 
 ["HDBF.Panel.TierBasic"]
-status = "normal"
 raw = "Basic"
+status = "normal"
 enUS = "Basic"
 zhCN = "基础"
 zhTW = "基本款"
@@ -240,8 +240,8 @@ viVN = "Cơ bản"
 trTR = "Temel"
 
 ["HDBF.Panel.TierIntermediate"]
-status = "normal"
 raw = "Intermediate"
+status = "normal"
 enUS = "Intermediate"
 zhCN = "中级"
 zhTW = "中階"
@@ -257,8 +257,8 @@ viVN = "Trung cấp"
 trTR = "Orta Seviye"
 
 ["HDBF.Panel.TierAdvanced"]
-status = "normal"
 raw = "Advanced"
+status = "normal"
 enUS = "Advanced"
 zhCN = "高级"
 zhTW = "進階"
@@ -274,8 +274,8 @@ viVN = "Nâng cao"
 trTR = "Gelişmiş"
 
 ["HDBF.Panel.TierTop"]
-status = "normal"
 raw = "Top"
+status = "normal"
 enUS = "Top"
 zhCN = "顶部"
 zhTW = "頂層"
@@ -291,8 +291,8 @@ viVN = "Tầng trên cùng"
 trTR = "Üst"
 
 ["HDBF.Panel.FactionFolktails"]
-status = "normal"
 raw = "Folktails"
+status = "normal"
 enUS = "Folktails"
 zhCN = "神尾"
 zhTW = "神尾"
@@ -308,8 +308,8 @@ viVN = "Đuôi Lá"
 trTR = "Köykuyruklar"
 
 ["HDBF.Panel.FactionIronTeeth"]
-status = "normal"
 raw = "IronTeeth"
+status = "normal"
 enUS = "Iron Teeth"
 zhCN = "铁牙"
 zhTW = "鐵牙"
@@ -325,8 +325,8 @@ viVN = "Nanh Sắt"
 trTR = "Demir Dişler"
 
 ["HDBF.Panel.SectionSlots"]
-status = "normal"
 raw = "Slots"
+status = "normal"
 enUS = "Slots"
 zhCN = "槽位"
 zhTW = "欄位"
@@ -342,8 +342,8 @@ viVN = "Ô chỗ trồng"
 trTR = "Yuvalar"
 
 ["HDBF.Panel.SectionWater"]
-status = "normal"
 raw = "Water"
+status = "normal"
 enUS = "Water"
 zhCN = "水"
 zhTW = "水"
@@ -359,8 +359,8 @@ viVN = "Nước"
 trTR = "Su"
 
 ["HDBF.Panel.SectionMaintenance"]
-status = "normal"
 raw = "Maintenance"
+status = "normal"
 enUS = "Maintenance"
 zhCN = "维护"
 zhTW = "維護"
@@ -851,7 +851,7 @@ new = "Requests one manual refill trip."
 status = "normal"
 
 ["HDBF.Tooltip.PipeWater"]
-new = "Auto-refill draws only from vanilla liquid tanks (Small/Medium/Large) connected to the pipe network; a pipe attached to the farm shell does nothing and the farm does not need to stand next to the pipes."
+new = "Auto-refill draws only from real pipe water: a Timber Pipes water pipe attached to the farm shell or vanilla liquid tanks (Small/Medium/Large) connected to the pipe network. The pipes must carry clean Water."
 status = "normal"
 
 ["HDBF.Tooltip.NoWaterSource"]

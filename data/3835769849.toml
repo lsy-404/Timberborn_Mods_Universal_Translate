@@ -1,0 +1,18 @@
+[_meta]
+name = "Dam Buttresses"
+
+["JapaneseButtress.Description"]
+new = "Decorative stone buttress. Stack Base, Middle and Top with matching rotation. Does not block water."
+status = "normal"
+
+["JapaneseButtressBase.Name"]
+new = "Japanese Stone Buttress — Base"
+status = "normal"
+
+["JapaneseButtressMiddle.Name"]
+new = "Japanese Stone Buttress — Middle"
+status = "normal"
+
+["JapaneseButtressTop.Name"]
+new = "Japanese Stone Buttress — Top"
+status = "normal"

@@ -187,3 +187,27 @@ koKR = "현재: {0}"
 csCZ = "Aktuálně: {0}"
 viVN = "Hiện tại: {0}"
 trTR = "Mevcut: {0}"
+
+["LV.GI.Dev.Filter"]
+new = "Filter"
+status = "normal"
+
+["LV.GI.Dev.NonZero"]
+new = "Non-zero only"
+status = "normal"
+
+["LV.GI.Dev.Sort"]
+new = "Sort"
+status = "normal"
+
+["LV.GI.Dev.SortAlpha"]
+new = "Alphabetically"
+status = "normal"
+
+["LV.GI.Dev.SortAmount"]
+new = "By amount"
+status = "normal"
+
+["LV.GI.Dev.SortOrder"]
+new = "Order"
+status = "normal"

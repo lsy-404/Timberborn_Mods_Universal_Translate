@@ -2,8 +2,8 @@
 name = "Will It Last?"
 
 ["WillItLast.Water"]
-status = "normal"
 raw = "Water"
+status = "normal"
 enUS = "Water"
 zhCN = "水"
 zhTW = "水"
@@ -19,8 +19,8 @@ viVN = "Nước"
 trTR = "Su"
 
 ["WillItLast.Food"]
-status = "normal"
 raw = "Food"
+status = "normal"
 enUS = "Food"
 zhCN = "食物"
 zhTW = "食物"
@@ -36,8 +36,8 @@ viVN = "Thức ăn"
 trTR = "Yiyecek"
 
 ["WillItLast.Enough"]
-status = "normal"
 raw = "Enough for the bad season"
+status = "normal"
 enUS = "Enough for the bad season"
 zhCN = "足够撑过旱季"
 zhTW = "足以度過旱季"
@@ -53,8 +53,8 @@ viVN = "Đủ dùng cho mùa hạn"
 trTR = "Kötü mevsim için yeterli"
 
 ["WillItLast.RunsOut"]
-status = "normal"
 raw = "Runs out during the bad season"
+status = "normal"
 enUS = "Runs out during the bad season"
 zhCN = "会在旱季耗尽"
 zhTW = "會在旱季期間耗盡"
@@ -70,8 +70,8 @@ viVN = "Sẽ hết trong mùa hạn"
 trTR = "Zorlu mevsimde tükenir"
 
 ["WillItLast.MayRunOut"]
-status = "normal"
 raw = "May run out if the bad season runs long"
+status = "normal"
 enUS = "May run out if the bad season lasts too long"
 zhCN = "如果恶季持续太久，可能会耗尽"
 zhTW = "若旱季持續太久，可能會耗盡"
@@ -87,8 +87,8 @@ viVN = "Có thể cạn nếu mùa khô kéo dài"
 trTR = "Kurak dönem uzun sürerse tükenebilir"
 
 ["WillItLast.RunsOutInDays"]
-status = "normal"
 raw = "Runs out in {0} days"
+status = "normal"
 enUS = "Runs out in {0} days"
 zhCN = "将在 {0} 天后耗尽"
 zhTW = "還有 {0} 天耗盡"
@@ -104,8 +104,8 @@ viVN = "Sẽ cạn sau {0} ngày"
 trTR = "{0} gün içinde tükeniyor"
 
 ["WillItLast.Out"]
-status = "normal"
 raw = "Out now!"
+status = "normal"
 enUS = "Out now!"
 zhCN = "现已推出！"
 zhTW = "現已推出！"
@@ -121,8 +121,8 @@ viVN = "Đã phát hành!"
 trTR = "Şimdi yayında!"
 
 ["WillItLast.TooltipStock"]
-status = "normal"
 raw = "Stored: {0} / {1}"
+status = "normal"
 enUS = "Stored: {0} / {1}"
 zhCN = "已存储：{0} / {1}"
 zhTW = "儲存量：{0} / {1}"
@@ -138,8 +138,8 @@ viVN = "Đã lưu: {0} / {1}"
 trTR = "Depolanan: {0} / {1}"
 
 ["WillItLast.TooltipRatesMeasured"]
-status = "normal"
 raw = "Produced {0}/day, used {1}/day"
+status = "normal"
 enUS = "Produced {0}/day, used {1}/day"
 zhCN = "产量 {0}/天，消耗 {1}/天"
 zhTW = "每日產出 {0}，每日消耗 {1}"
@@ -155,8 +155,8 @@ viVN = "Sản xuất {0}/ngày, tiêu thụ {1}/ngày"
 trTR = "Günlük üretim {0}, günlük kullanım {1}"
 
 ["WillItLast.TooltipRatesEstimated"]
-status = "normal"
 raw = "Used ~{0}/day by {1} beavers (estimated)"
+status = "normal"
 enUS = "Used ~{0}/day by {1} beavers (estimated)"
 zhCN = "由 {1} 只海狸每天消耗约 {0}（估算）"
 zhTW = "每日由 {1} 隻海狸使用約 {0}（估算）"
@@ -172,8 +172,8 @@ viVN = "Được {1} hải ly sử dụng ~{0}/ngày (ước tính)"
 trTR = "Günde {1} kunduz tarafından ~{0} kullanılır (tahmini)"
 
 ["WillItLast.TooltipAtSeasonStart"]
-status = "normal"
 raw = "At least ~{0} left when the bad season starts"
+status = "normal"
 enUS = "At least ~{0} left when the bad season starts"
 zhCN = "恶劣季节开始时至少剩余约{0}"
 zhTW = "惡劣季節開始時至少剩餘 ~{0}"
@@ -189,8 +189,8 @@ viVN = "Còn ít nhất ~{0} khi mùa khô hạn bắt đầu"
 trTR = "Kötü mevsim başladığında en az ~{0} kalır"
 
 ["WillItLast.TooltipSeasonLeft"]
-status = "normal"
 raw = "Bad season: {0} days left"
+status = "normal"
 enUS = "Bad season: {0} days left"
 zhCN = "恶劣季节：还剩 {0} 天"
 zhTW = "壞季節：還剩 {0} 天"
@@ -206,8 +206,8 @@ viVN = "Mùa xấu: còn {0} ngày"
 trTR = "Kötü mevsimin bitmesine {0} gün kaldı"
 
 ["WillItLast.TooltipHousingFull"]
-status = "normal"
 raw = "If housing fills up ({0} beavers): {1}"
+status = "normal"
 enUS = "If housing fills up ({0} beavers): {1}"
 zhCN = "如果住房住满（{0} 名海狸）：{1}"
 zhTW = "如果住房住滿（{0} 隻海狸）：{1}"
@@ -223,8 +223,8 @@ viVN = "Nếu chỗ ở đã đầy ({0} hải ly): {1}"
 trTR = "Barınma yerleri dolarsa ({0} kunduz): {1}"
 
 ["WillItLast.TooltipGrowthContinues"]
-status = "normal"
 raw = "If growth continues ({0} beavers by season end): {1}"
+status = "normal"
 enUS = "If growth continues ({0} beavers by season end): {1}"
 zhCN = "如果增长持续（季末将有 {0} 只海狸）：{1}"
 zhTW = "若增長持續（季末將有 {0} 隻海狸）：{1}"
@@ -240,8 +240,8 @@ viVN = "Nếu tăng trưởng tiếp tục ({0} hải ly vào cuối mùa): {1}"
 trTR = "Büyüme devam ederse (sezon sonunda {0} kunduz): {1}"
 
 ["WillItLast.TooltipClick"]
-status = "normal"
 raw = "Click to show or hide the forecast panel"
+status = "normal"
 enUS = "Click to show or hide the forecast panel"
 zhCN = "点击显示或隐藏预报面板"
 zhTW = "點擊以顯示或隱藏預報面板"

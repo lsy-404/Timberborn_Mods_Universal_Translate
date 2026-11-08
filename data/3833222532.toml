@@ -1,38 +1,46 @@
 [_meta]
 name = "Japanese Stone Waterworks"
 
+["JapaneseSettlement.Root"]
+new = "Japanese Settlement"
+status = "normal"
+
+["JapaneseSettlement.stone"]
+new = "Japanese Stonework"
+status = "normal"
+
 ["StoneFloodgate.Name"]
 new = "Stone Floodgate"
-status = "normal"
+status = "abandoned"
 
 ["StoneDoubleFloodgate.Name"]
 new = "Double Stone Floodgate"
-status = "normal"
+status = "abandoned"
 
 ["StoneTripleFloodgate.Name"]
 new = "Triple Stone Floodgate"
-status = "normal"
+status = "abandoned"
 
 ["StoneDam.Name"]
 new = "Stone Dam"
-status = "normal"
+status = "abandoned"
 
 ["StoneFillValve.Name"]
 new = "Stone Fill Valve"
-status = "normal"
+status = "abandoned"
 
 ["StoneThrottlingValve.Name"]
 new = "Stone Throttling Valve"
-status = "normal"
+status = "abandoned"
 
 ["StoneImpermeableFloor.Name"]
 new = "Stone Impermeable Floor"
-status = "normal"
+status = "abandoned"
 
 ["StoneContaminationBarrier.Name"]
 new = "Stone Contamination Barrier"
-status = "normal"
+status = "abandoned"
 
 ["StoneIrrigationBarrier.Name"]
 new = "Stone Irrigation Barrier"
-status = "normal"
+status = "abandoned"

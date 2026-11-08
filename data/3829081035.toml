@@ -438,7 +438,7 @@ new = "Fish Hatchery"
 status = "normal"
 
 ["Building.FishHatchery.Description"]
-new = "Breeds juvenile fish from fresh fish. Build it over a river: its pens need clean water and stop if they dry out or turn to badwater. Pipes: valve set to Fill."
+new = "Raises juvenile fish using algae and water. Its pens need clean river water beneath them. Pipes: valve set to Fill."
 status = "normal"
 
 ["Building.FishHatchery.FlavorDescription"]
@@ -510,7 +510,7 @@ new = "Hospital"
 status = "normal"
 
 ["Building.Hospital.Description"]
-new = "Treats injuries, chipped teeth, badwater contamination and radiation sickness day and night. Staffed and supplied, it gives nearby beavers up to +2 wellbeing. Pipes: valve set to Fill."
+new = "Treats injuries and chipped teeth; medicine treats contamination and radiation. Fully staffed, decontaminates twice as fast as a pod. Nearby beavers gain up to +2 wellbeing. Pipes: valve set to Fill."
 status = "normal"
 
 ["Building.Hospital.FlavorDescription"]
@@ -582,7 +582,7 @@ new = "Uranium Processing Plant"
 status = "normal"
 
 ["Building.UraniumProcessingPlant.Description"]
-new = "Turns uranium ore into enriched fuel and reactor power cells, and reprocesses spent fuel. Its fuel leaves radioactive waste. Pipes: valve set to Fill."
+new = "Makes yellowcake from uranium ore or recovered radioactive water, enriches fuel and makes reactor power cells. Enrichment leaves radioactive waste. Pipes: valve set to Fill."
 status = "normal"
 
 ["Building.UraniumProcessingPlant.FlavorDescription"]
@@ -714,7 +714,7 @@ new = "Modular Warehouse"
 status = "normal"
 
 ["Building.ModularWarehouse.Description"]
-new = "Stores up to 5 goods, each in its own slot with its own warehouse settings. Each attached Warehouse Module adds a slot and storage."
+new = "Stores 5 different goods with separate warehouse settings. Attached Warehouse Modules increase the shared storage capacity."
 status = "normal"
 
 ["Building.ModularWarehouse.FlavorDescription"]
@@ -726,7 +726,7 @@ new = "Warehouse Module"
 status = "normal"
 
 ["Building.WarehouseModule.Description"]
-new = "Adds storage and a slot to a Modular Warehouse when built beside it, on top of it, or on another attached module."
+new = "Adds storage to a Modular Warehouse when built beside it, on top of it, or on another attached module."
 status = "normal"
 
 ["Building.WarehouseModule.FlavorDescription"]
@@ -806,7 +806,7 @@ new = "Radioactive Waste Vault"
 status = "normal"
 
 ["Building.RadioactiveWasteVault.Description"]
-new = "Stores radioactive waste. Keep it below full: a full vault leaks radioactive water and irradiates the ground around it."
+new = "Shielded storage for radioactive waste or radioactive water. Select one good. A vault full of waste casks leaks radioactive water into the ground."
 status = "normal"
 
 ["Building.RadioactiveWasteVault.FlavorDescription"]
@@ -851,6 +851,10 @@ status = "normal"
 
 ["Recipe.FuelReprocessing.DisplayName"]
 new = "Enriched fuel from radioactive waste"
+status = "normal"
+
+["Recipe.RecoveredYellowcake.DisplayName"]
+new = "Yellowcake from radioactive water"
 status = "normal"
 
 ["Recipe.ContaminatedWaterRefining.DisplayName"]
@@ -910,11 +914,11 @@ new = "Closed: a patient is starving or dehydrated and the food or water stock i
 status = "normal"
 
 ["DeepFrontier.Hospital.Panel.NoSupplies"]
-new = "Waiting for medicine, water and extract"
+new = "Waiting for water or extract"
 status = "normal"
 
 ["DeepFrontier.Hospital.Panel.Treating"]
-new = "Patients stay until cured of injury, chipped teeth, badwater contamination and radiation sickness. Treatment speed: {0}% (set by its staffing)"
+new = "Treatment speed: {0}% of full staffing. Medicine is used only for contamination and radiation."
 status = "normal"
 
 ["DeepFrontier.Hospital.Panel.AreaActive"]
@@ -939,6 +943,14 @@ status = "normal"
 
 ["DeepFrontier.Hospital.Status.MealsOut.Short"]
 new = "No patient meals"
+status = "normal"
+
+["DeepFrontier.Hospital.Status.Medicine"]
+new = "Medicine needed for contamination and radiation treatment. Other care continues."
+status = "normal"
+
+["DeepFrontier.Hospital.Status.Medicine.Short"]
+new = "Needs medicine"
 status = "normal"
 
 ["DeepFrontier.Need.FineDining"]
@@ -3030,7 +3042,7 @@ new = "Radioactive Water Recovery Pump"
 status = "normal"
 
 ["Building.RadioactiveSludgeRecoveryPump.Description"]
-new = "Draws radioactivity out of rivers and lakes into barrels of radioactive water for export. The middle of its back edge must stand over water. Pipes: valve set to Extract."
+new = "Recovers radioactive water for yellowcake production or disposal. Store it in a Radioactive Waste Vault. Its rear intake must stand over water. Pipes: valve set to Extract."
 status = "normal"
 
 ["Building.RadioactiveSludgeRecoveryPump.FlavorDescription"]
@@ -3426,7 +3438,7 @@ new = "Reactor bot"
 status = "normal"
 
 ["Building.BotAssembler.DeepFrontierDescription"]
-new = "Assembles bots from a chassis, four limbs and a head. Reactor bots take a reinforced bot frame and a reactor power cell instead of the chassis."
+new = "Assembles ordinary or Reactor Bots. Warning: Reactor Bots leak radioactive water into the ground after prolonged coolant loss or exhausted steel plating."
 status = "normal"
 
 ["DeepFrontier.BotUpkeep.Panel.Title"]
@@ -3578,7 +3590,7 @@ new = "Reactor retrofit"
 status = "normal"
 
 ["DeepFrontier.ReactorBot.Panel.Ordinary"]
-new = "Retrofit with a reinforced bot frame and a reactor power cell to make this bot a Reactor Bot: 5 times the load, 4 times the movement speed, 5 times the working speed and 10 times the lifespan. It charges at a Reactor Charging Bay every 6.9 days and takes reactor coolant water or cryocoolant and steel or alloy from storage."
+new = "Retrofit with a reinforced bot frame and a reactor power cell to make this bot a Reactor Bot: 5 times the load, 4 times the movement speed, 5 times the working speed and 10 times the lifespan. It charges at a Reactor Charging Bay every 6.9 days and takes reactor coolant water or cryocoolant and steel or alloy from storage. Warning: leaks radioactive water into the ground after more than 6 hours without coolant or 24 hours without plating."
 status = "normal"
 
 ["DeepFrontier.ReactorBot.Panel.Queued"]
@@ -3586,11 +3598,11 @@ new = "Retrofit queued: the bot fetches a reinforced bot frame and a reactor pow
 status = "normal"
 
 ["DeepFrontier.ReactorBot.Panel.Upgraded"]
-new = "Reactor Bot: 5 times the load, 4 times the movement speed and 5 times the working speed, and it wears out 10 times slower. Charges at a Reactor Charging Bay."
+new = "Reactor Bot: 5 times the load, 4 times the movement speed and 5 times the working speed, and it wears out 10 times slower. Charges at a Reactor Charging Bay. Warning: leaks radioactive water into the ground after more than 6 hours without coolant or 24 hours without plating."
 status = "normal"
 
 ["DeepFrontier.ReactorBot.Panel.Unplated"]
-new = "No plating: wearing out 5 times faster until it takes steel or alloy from storage."
+new = "No plating: wears out 5 times faster and leaks radioactive water after 24 hours without plating. Supply steel or alloy."
 status = "normal"
 
 ["DeepFrontier.ReactorBot.Panel.Queue"]
@@ -3615,10 +3627,6 @@ status = "normal"
 
 ["DeepFrontier.WorkerType.ReactorBot.Unlock.CantUnlock"]
 new = "Can't unlock this workplace for Reactor Bots, not enough Science Points."
-status = "normal"
-
-["DeepFrontier.ReactorBotWorkplace.NoBotWear"]
-new = "Bots do not wear out faster here."
 status = "normal"
 
 ["DeepFrontier.ReactorBotWorkplace.InsteadOfSpecialists"]
@@ -3772,6 +3780,10 @@ status = "normal"
 ["DeepFrontier.MapSetup.DevMap"]
 new = "{0} is a developer test map: Deep Frontier adds no resources and keeps its height."
 status = "normal"
+
+["DeepFrontier.ReactorBotWorkplace.NoBotWear"]
+new = "Bots do not wear out faster here."
+status = "abandoned"
 
 ["DeepFrontier.WorkplaceUpkeep.SteelDrillBits.Name"]
 new = "Drill bits"

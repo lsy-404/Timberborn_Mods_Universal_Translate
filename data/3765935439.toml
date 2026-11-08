@@ -103,6 +103,10 @@ csCZ = "Směr 2"
 viVN = "Hướng 2"
 trTR = "Yön 2"
 
+["Tobbert.TrackOneWay.Mode.Both"]
+new = "Two-way (signalled)"
+status = "normal"
+
 ["Tobbert.TrackOneWay.Chain.Off"]
 raw = "Signal: standard"
 status = "normal"
@@ -2364,6 +2368,10 @@ csCZ = "Nouzové zastavení"
 viVN = "Ngừng khẩn cấp"
 trTR = "Acil durdurma"
 
+["Tobbert.Train.DriverView.Tooltip"]
+new = "Driver's view (Esc to leave, {0} to switch sides)"
+status = "normal"
+
 ["Tobbert.Train.EmergencyStop.Requested"]
 raw = "Emergency stop — requested"
 status = "normal"
@@ -2602,6 +2610,18 @@ csCZ = "OKAMŽITĚ ⚡"
 viVN = "NGAY LẬP TỨC ⚡"
 trTR = "ANLIK ⚡"
 
+["Tobbert.TrackPathTool.Signals.On"]
+new = "Signals"
+status = "normal"
+
+["Tobbert.TrackPathTool.Signals.Off"]
+new = "No signals"
+status = "normal"
+
+["Tobbert.TrackPathTool.SignalConflict"]
+new = "Wrong way: the existing track is signalled one-way against this line"
+status = "normal"
+
 ["Tobbert.TrackPathTool.Drawing.Title"]
 raw = "✎ Drawing"
 status = "normal"
@@ -2737,6 +2757,18 @@ koKR = "빈 공간에서 오른쪽 클릭: 종료  •  <b>Enter</b>: 건설"
 csCZ = "Klikněte pravým tlačítkem myši na prázdné místo: ukončit  •  <b>Enter</b>: stavět"
 viVN = "Nhấp chuột phải vào vùng trống: thoát  •  <b>Enter</b>: xây dựng"
 trTR = "Boş alana sağ tıklayın: çıkış  •  <b>Enter</b>: inşa et"
+
+["Tobbert.TrackPathTool.TooFar"]
+new = "Too far: place an intermediate point"
+status = "normal"
+
+["Tobbert.TrackPathTool.TooComplex"]
+new = "Route too complex: place an intermediate point"
+status = "normal"
+
+["Tobbert.TrackPathTool.Searching"]
+new = "Searching…"
+status = "normal"
 
 ["Tobbert.Train.Alert.Hungry"]
 raw = "Hungry conductor"
@@ -2907,6 +2939,14 @@ koKR = "열차 탭"
 csCZ = "Karta vlaků"
 viVN = "Tab Tàu hỏa"
 trTR = "Trenler sekmesi"
+
+["Tobbert.ChooChoo.KeyBinding.PathToolSignals"]
+new = "Path tool: toggle signals"
+status = "normal"
+
+["Tobbert.ChooChoo.KeyBinding.DriverViewSide"]
+new = "Driver's view: switch sides"
+status = "normal"
 
 ["Tobbert.SwingFloodgate.DisplayName"]
 raw = "Hinge Gate"
@@ -3181,8 +3221,8 @@ viVN = "Đang chờ"
 trTR = "Bekliyor"
 
 ["Tobbert.TrackHill1x3.DisplayName"]
-status = "normal"
 raw = "Long Slope Track 1x3"
+status = "normal"
 enUS = "Long Slope Track 1x3"
 zhCN = "长坡轨道 1x3"
 zhTW = "長坡軌道 1x3"
@@ -3198,8 +3238,8 @@ viVN = "Đường ray dốc dài 1x3"
 trTR = "Uzun Eğimli Ray 1x3"
 
 ["Tobbert.TrackHill1x3.Description"]
-status = "normal"
 raw = "A longer, gentler slope: trains climb one level over three tiles."
+status = "normal"
 enUS = "A longer, gentler slope: trains climb one level over three tiles."
 zhCN = "坡度更缓、长度更长：列车经过三格爬升一层。"
 zhTW = "較長、坡度較緩的坡道：列車行駛三格可爬升一層。"
@@ -3215,8 +3255,8 @@ viVN = "Đường dốc dài hơn, thoải hơn: tàu leo lên một tầng tron
 trTR = "Daha uzun, daha az dik bir eğim: trenler üç karo boyunca bir seviye yükselir."
 
 ["Tobbert.TrackHill1x3.FlavorDescription"]
-status = "normal"
 raw = "Slow and steady wins the climb."
+status = "normal"
 enUS = "Slow and steady wins the climb."
 zhCN = "慢而稳，才能登上坡顶。"
 zhTW = "慢慢來、穩穩爬，才能爬得更高。"
@@ -3232,8 +3272,8 @@ viVN = "Chậm mà chắc sẽ lên tới đỉnh."
 trTR = "Yokuşu yavaş ve istikrarlı çıkan kazanır."
 
 ["Tobbert.TrackHillCorner2x2.DisplayName"]
-status = "normal"
 raw = "Curved Slope Track 2x2"
+status = "normal"
 enUS = "Curved Slope Track 2x2"
 zhCN = "弯曲坡道轨道 2x2"
 zhTW = "彎曲斜坡軌道 2x2"
@@ -3249,8 +3289,8 @@ viVN = "Đường ray dốc cong 2x2"
 trTR = "Kavisli Yokuş Rayı 2x2"
 
 ["Tobbert.TrackHillCorner2x2.Description"]
-status = "normal"
 raw = "A slope that turns as it climbs."
+status = "normal"
 enUS = "A slope that turns as it climbs."
 zhCN = "一段边爬升边转弯的坡道。"
 zhTW = "一段爬升時轉彎的斜坡。"
@@ -3266,8 +3306,8 @@ viVN = "Một đoạn dốc rẽ khi đi lên."
 trTR = "Yükselirken dönüş yapan bir eğim."
 
 ["Tobbert.TrackHillCorner2x2.FlavorDescription"]
-status = "normal"
 raw = "Up and around."
+status = "normal"
 enUS = "Up and around."
 zhCN = "向上绕行。"
 zhTW = "向上繞行。"
@@ -3283,8 +3323,8 @@ viVN = "Lên cao rồi vòng quanh."
 trTR = "Yukarı ve etrafından."
 
 ["Tobbert.TrackHillCorner3x3.DisplayName"]
-status = "normal"
 raw = "Wide Curved Slope Track 3x3"
+status = "normal"
 enUS = "Wide Curved Slope Track 3x3"
 zhCN = "宽幅弯曲坡道轨道 3x3"
 zhTW = "寬型曲線斜坡軌道 3x3"
@@ -3300,8 +3340,8 @@ viVN = "Đường ray dốc cong rộng 3x3"
 trTR = "Geniş Kavisli Yokuş Rayı 3x3"
 
 ["Tobbert.TrackHillCorner3x3.Description"]
-status = "normal"
 raw = "A wide slope that turns as it climbs. Its gentle curve lets trains keep a higher speed."
+status = "normal"
 enUS = "A wide slope that turns as it climbs. Its gentle curve lets trains maintain a higher speed."
 zhCN = "一段宽阔的爬坡弯道。平缓的弧线让列车能够保持较高速度。"
 zhTW = "寬闊的爬坡彎道，隨著高度上升而轉彎。平緩的弧度讓列車能保持較高速度。"
@@ -3317,8 +3357,8 @@ viVN = "Một đoạn dốc rộng uốn cong khi lên cao. Đường cong tho�
 trTR = "Tırmanırken kıvrılan geniş bir eğim. Yumuşak kıvrımı trenlerin daha yüksek hızlarını korumasını sağlar."
 
 ["Tobbert.TrackHillCorner3x3.FlavorDescription"]
-status = "normal"
 raw = "The scenic route up."
+status = "normal"
 enUS = "The scenic route up."
 zhCN = "风景优美的上山路线。"
 zhTW = "上坡的觀景路線。"
@@ -3334,8 +3374,8 @@ viVN = "Đường lên ngắm cảnh."
 trTR = "Yukarı çıkan manzaralı yol."
 
 ["Tobbert.TrackSCurve2x3.DisplayName"]
-status = "normal"
 raw = "S-Curve Train Track 2x3"
+status = "normal"
 enUS = "S-Curve Train Track 2x3"
 zhCN = "S形铁路轨道 2x3"
 zhTW = "S 型彎道火車軌道 2x3"
@@ -3351,8 +3391,8 @@ viVN = "Đường ray tàu hỏa cong chữ S 2x3"
 trTR = "S Eğrisi Tren Rayı 2x3"
 
 ["Tobbert.TrackSCurve2x3.Description"]
-status = "normal"
 raw = "Shifts a track sideways by one tile, without a switch."
+status = "normal"
 enUS = "Shifts a track sideways by one tile, without a switch."
 zhCN = "使轨道横向偏移一格，无需道岔。"
 zhTW = "讓軌道向側邊偏移一格，不含轉轍器。"
@@ -3368,8 +3408,8 @@ viVN = "Dịch đường ray sang ngang một ô mà không cần ghi chuyển h
 trTR = "Bir ray hattını makas olmadan bir karo yana kaydırır."
 
 ["Tobbert.TrackSCurve2x3.FlavorDescription"]
-status = "normal"
 raw = "A little to the left, please."
+status = "normal"
 enUS = "A little to the left, please."
 zhCN = "请往左一点。"
 zhTW = "請往左邊一點點。"
@@ -3385,8 +3425,8 @@ viVN = "Dịch sang trái một chút, làm ơn."
 trTR = "Biraz sola, lütfen."
 
 ["ChooChoo.Superposition.OverSignal"]
-status = "normal"
 raw = "A track cannot be laid over a signal."
+status = "normal"
 enUS = "A track cannot be laid over a signal."
 zhCN = "不能在信号灯上铺设轨道。"
 zhTW = "軌道不能鋪設在號誌上。"
@@ -3402,8 +3442,8 @@ viVN = "Không thể đặt đường ray chồng lên tín hiệu."
 trTR = "Bir sinyalin üzerine ray döşenemez."
 
 ["ChooChoo.Superposition.DuplicateArc"]
-status = "normal"
 raw = "This track already exists here."
+status = "normal"
 enUS = "This track already exists here."
 zhCN = "此处已存在这段轨道。"
 zhTW = "這裡已經有這條軌道了。"
@@ -3419,8 +3459,8 @@ viVN = "Đường ray này đã tồn tại ở đây."
 trTR = "Bu ray burada zaten mevcut."
 
 ["ChooChoo.Superposition.NoSignalWhenStacked"]
-status = "normal"
 raw = "Another track shares this tile: a signal is not possible here. All tracks on a tile form a single section, and a signal must separate two."
+status = "normal"
 enUS = "Another track shares this tile, so a signal cannot be placed here. All tracks on a tile form a single section, and a signal must separate two sections."
 zhCN = "此格与另一条轨道共用：此处无法设置信号。一个格子上的所有轨道都构成同一个区段，而信号必须将两个区段分隔开。"
 zhTW = "另一條軌道也佔用了這個格子，因此無法在此設置信號。格子上的所有軌道都會構成同一個區段，而信號必須分隔兩個區段。"
@@ -3436,8 +3476,8 @@ viVN = "Một đường ray khác cùng nằm trên ô này: không thể đặt
 trTR = "Bu karoyu başka bir ray da paylaşıyor: buraya sinyal yerleştirilemez. Bir karodaki tüm raylar tek bir bölüm oluşturur ve sinyal iki bölümü ayırmalıdır."
 
 ["ChooChoo.Superposition.ConversionNotice"]
-status = "normal"
 raw = "<b>Welcome to Choo!Choo! 2.0!</b>\n\n\"Give me a straight and a curve, and I shall connect the world.\" —Ol' Kazko\n\nTwo tracks can now share the same tile. Lay a curve on a straight, and you have built a switch. No more rigid crossings: it's up to you to invent your own junctions.\n\nWhen your save loaded, your old switches were rebuilt with these new pieces. Your signals stayed put and work just as before. The trains didn't notice a thing."
+status = "normal"
 enUS = "<b>Welcome to Choo!Choo! 2.0!</b>\n\n\"Give me a straight and a curve, and I shall connect the world.\" —Ol' Kazko\n\nTwo tracks can now share the same tile. Lay a curve on a straight, and you have built a switch. No more rigid crossings: it's up to you to invent your own junctions.\n\nWhen your save loaded, your old switches were rebuilt with these new pieces. Your signals stayed put and work just as before. The trains didn't notice a thing."
 zhCN = "<b>欢迎来到《Choo!Choo! 2.0》！</b>\n\n“给我一段直轨和一段弯轨，我就能连通世界。”——老卡兹科\n\n现在，两条轨道可以共用同一格。在直轨上铺设弯轨，就能建成一个道岔。不再受死板的交叉轨道限制：由你来设计自己的道岔吧。\n\n载入存档时，旧道岔已用这些新轨道重新建造。信号灯保持原位，运作方式也和以前一样。火车完全没察觉到任何变化。"
 zhTW = "<b>歡迎來到 Choo!Choo! 2.0！</b>\n\n「給我一段直軌和一段彎軌，我就能連接整個世界。」——老 Kazko\n\n現在兩條軌道可以共用同一格了。把彎軌疊在直軌上，就能建成轉轍器。不再受制於固定的交叉路口：由你發揮創意，設計自己的交會點。\n\n載入存檔時，舊有的轉轍器已用這些新零件重新建造。訊號燈仍在原位，運作方式也和以前一樣。火車完全沒察覺任何變化。"
@@ -3451,6 +3491,30 @@ koKR = "<b>Choo!Choo! 2.0에 오신 것을 환영합니다!</b>\n\n\"직선 하�
 csCZ = "<b>Vítejte v Choo!Choo! 2.0!</b>\n\n„Dejte mi rovinku a zatáčku a já propojím svět.“ —Ol' Kazko\n\nDvě koleje teď mohou sdílet stejné políčko. Položte oblouk na rovný úsek a vytvoříte výhybku. Už žádná strnulá křížení: teď je na vás, abyste vymysleli vlastní železniční uzly.\n\nPři načtení uložené hry byly vaše staré výhybky přestavěny pomocí těchto nových dílů. Návěstidla zůstala na svém místě a fungují stejně jako dřív. Vlaky si ničeho nevšimly."
 viVN = "<b>Chào mừng đến với Choo!Choo! 2.0!</b>\n\n\"Cho ta một đoạn thẳng và một đoạn cong, ta sẽ nối liền thế giới.\" —Lão Kazko\n\nGiờ đây, hai đường ray có thể dùng chung một ô. Đặt một đoạn cong lên một đoạn thẳng, và bạn đã tạo ra một ghi. Không còn những giao cắt cứng nhắc: giờ đây bạn có thể tự do sáng tạo các nút giao của riêng mình.\n\nKhi bản lưu của bạn được tải, các ghi cũ đã được xây dựng lại bằng những mảnh ghép mới này. Các tín hiệu vẫn ở nguyên chỗ cũ và hoạt động như trước. Những đoàn tàu chẳng hề nhận ra điều gì."
 trTR = "<b>Choo!Choo! 2.0'a hoş geldiniz!</b>\n\n“Bana bir düz, bir de kavis verin; dünyayı birbirine bağlayayım.” —Ol' Kazko\n\nArtık iki ray aynı kareyi paylaşabiliyor. Düz rayın üzerine kavisli ray döşeyin, bir makas yapmış olursunuz. Artık katı kavşaklar yok: Kendi kavşaklarınızı tasarlamak size kalmış.\n\nKayıt dosyanız yüklendiğinde eski makaslarınız bu yeni parçalarla yeniden oluşturuldu. Sinyalleriniz yerlerinde kaldı ve eskisi gibi çalışıyor. Trenler hiçbir şey fark etmedi."
+
+["Tobbert.TrainElevatorLanding.DisplayName"]
+new = "Train Elevator Landing"
+status = "normal"
+
+["Tobbert.TrainElevatorLanding.Description"]
+new = "One level of the train elevator. Stack landings and place a winch on top of the stack."
+status = "normal"
+
+["Tobbert.TrainElevatorLanding.FlavorDescription"]
+new = "Next stop: a little higher."
+status = "normal"
+
+["Tobbert.TrainElevatorWinch.DisplayName"]
+new = "Train Elevator Winch"
+status = "normal"
+
+["Tobbert.TrainElevatorWinch.Description"]
+new = "The machinery of the train elevator, placed on top of the stack of landings to complete the elevator."
+status = "normal"
+
+["Tobbert.TrainElevatorWinch.FlavorDescription"]
+new = "Ding-ding!"
+status = "normal"
 
 ["Tobbert.TrackLineTool.Prompt"]
 raw = "Drag to lay a line of one-way track. Turn once to add a junction. Press R or Shift+R to cycle the junction piece (corner / T / crossing)."

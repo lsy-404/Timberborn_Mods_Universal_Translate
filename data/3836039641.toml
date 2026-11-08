@@ -1,0 +1,254 @@
+[_meta]
+name = "Steam Engine Expansion"
+
+["Building.SEE.SteamBoiler.Small.T1.DisplayName"]
+new = "Small Steam Engine Mk.I"
+status = "normal"
+
+["Building.SEE.SteamBoiler.Medium.T1.DisplayName"]
+new = "Medium Steam Engine Mk.I"
+status = "normal"
+
+["Building.SEE.SteamBoiler.Large.T1.DisplayName"]
+new = "Large Steam Engine Mk.I"
+status = "normal"
+
+["Building.SEE.SteamBoiler.Small.T2.DisplayName"]
+new = "Small Steam Engine Mk.II"
+status = "normal"
+
+["Building.SEE.SteamBoiler.Medium.T2.DisplayName"]
+new = "Medium Steam Engine Mk.II"
+status = "normal"
+
+["Building.SEE.SteamBoiler.Large.T2.DisplayName"]
+new = "Large Steam Engine Mk.II"
+status = "normal"
+
+["Building.SEE.SteamBoiler.Small.T3.DisplayName"]
+new = "Small Steam Engine Mk.III"
+status = "normal"
+
+["Building.SEE.SteamBoiler.Medium.T3.DisplayName"]
+new = "Medium Steam Engine Mk.III"
+status = "normal"
+
+["Building.SEE.SteamBoiler.Large.T3.DisplayName"]
+new = "Large Steam Engine Mk.III"
+status = "normal"
+
+["Building.SEE.SteamBoiler.Small.T4.DisplayName"]
+new = "Small Steam Engine Mk.IV"
+status = "normal"
+
+["Building.SEE.SteamBoiler.Medium.T4.DisplayName"]
+new = "Medium Steam Engine Mk.IV"
+status = "normal"
+
+["Building.SEE.SteamBoiler.Large.T4.DisplayName"]
+new = "Large Steam Engine Mk.IV"
+status = "normal"
+
+["Building.SEE.SteamBoiler.Description"]
+new = "Consumes fuel and water to produce power. Requires periodic maintenance."
+status = "normal"
+
+["Building.SEE.SteamBoiler.Flavor.T1"]
+new = "A humble boiler that asks for a little wood and a little water."
+status = "normal"
+
+["Building.SEE.SteamBoiler.Flavor.T2"]
+new = "Pressure, timber and brass—now with a gauge."
+status = "normal"
+
+["Building.SEE.SteamBoiler.Flavor.T3"]
+new = "Cast iron rumbles; rivets hold the promise of power."
+status = "normal"
+
+["Building.SEE.SteamBoiler.Flavor.T4"]
+new = "Precision in every valve, and a price in every turn."
+status = "normal"
+
+["Status.SEE.Running"]
+new = "Running"
+status = "normal"
+
+["Status.SEE.Idle"]
+new = "Idle (no demand)"
+status = "normal"
+
+["Status.SEE.Paused"]
+new = "Paused"
+status = "normal"
+
+["Status.SEE.NoFuel"]
+new = "No fuel"
+status = "normal"
+
+["Status.SEE.NoWater"]
+new = "No water"
+status = "normal"
+
+["Status.SEE.NeedsMaintenance"]
+new = "Needs maintenance"
+status = "normal"
+
+["Status.SEE.Critical"]
+new = "Condition critical: output ×0.40"
+status = "normal"
+
+["Status.SEE.Worn"]
+new = "Worn: output ×0.85"
+status = "normal"
+
+["Status.SEE.MaintenanceDue"]
+new = "Maintenance due: output ×0.93"
+status = "normal"
+
+["Status.SEE.Maintaining"]
+new = "Maintaining ({0} left)"
+status = "normal"
+
+["Status.SEE.MissingMaintenanceMaterials"]
+new = "Missing maintenance materials"
+status = "normal"
+
+["Status.SEE.NoAccessForMaintenance"]
+new = "No access for maintenance"
+status = "normal"
+
+["Status.SEE.LowFuel"]
+new = "Fuel low ({0} h left)"
+status = "normal"
+
+["Status.SEE.LowWater"]
+new = "Water low ({0} h left)"
+status = "normal"
+
+["Status.SEE.PipeSupply"]
+new = "Water supplied by pipes"
+status = "normal"
+
+["Status.SEE.BeltSupply"]
+new = "Fuel supplied by conveyor"
+status = "normal"
+
+["Status.SEE.BeltNoPower"]
+new = "Conveyor has no power"
+status = "normal"
+
+["Status.SEE.PipeContaminated"]
+new = "Pipe network contaminated"
+status = "normal"
+
+["Status.SEE.WaterMode.Tank"]
+new = "Water supply: tank (pipes)"
+status = "normal"
+
+["Status.SEE.WaterMode.Valve"]
+new = "Water supply: valve"
+status = "normal"
+
+["Status.SEE.WaterMode.Hauler"]
+new = "Water supply: haulers"
+status = "normal"
+
+["Status.SEE.WaterMode.Auto"]
+new = "Water supply: auto"
+status = "normal"
+
+["UI.SEE.Panel.Power"]
+new = "Power"
+status = "normal"
+
+["UI.SEE.Panel.Network"]
+new = "Network power supply / demand: {0} / {1}"
+status = "normal"
+
+["UI.SEE.Panel.Output"]
+new = "Output: {0} / {1} hp"
+status = "normal"
+
+["UI.SEE.Panel.Fuel"]
+new = "Fuel"
+status = "normal"
+
+["UI.SEE.Panel.Water"]
+new = "Water"
+status = "normal"
+
+["UI.SEE.Panel.Condition"]
+new = "Condition: {0} / 100"
+status = "normal"
+
+["UI.SEE.Panel.NextMaintenance"]
+new = "Next maintenance in {0} days"
+status = "normal"
+
+["UI.SEE.Panel.Materials"]
+new = "Maintenance materials: {0}"
+status = "normal"
+
+["UI.SEE.Panel.WaterSupplyMode"]
+new = "Water supply mode"
+status = "normal"
+
+["UI.SEE.Action.Pause"]
+new = "Pause"
+status = "normal"
+
+["UI.SEE.Action.Resume"]
+new = "Resume"
+status = "normal"
+
+["UI.SEE.Action.MaintainNow"]
+new = "Maintain now"
+status = "normal"
+
+["UI.SEE.Action.AutoMaintenance"]
+new = "Auto maintenance"
+status = "normal"
+
+["UI.SEE.Error.MaterialsMissing"]
+new = "Cannot maintain: {0} missing"
+status = "normal"
+
+["UI.SEE.Error.BeltNoPower"]
+new = "Conveyor network has no power"
+status = "normal"
+
+["UI.SEE.Panel.WaterBeaverEquivalent"]
+new = "Water use: ≈{0} beavers' drinking water per day"
+status = "normal"
+
+["UI.SEE.Panel.Efficiency"]
+new = "Network efficiency: {0}%"
+status = "normal"
+
+["UI.SEE.Panel.MaterialsDetail"]
+new = "Maintenance materials: {0} (missing {1})"
+status = "normal"
+
+["UI.SEE.Panel.MaterialEntry"]
+new = "{0}: {1}/{2}"
+status = "normal"
+
+["UI.SEE.Panel.NextMaintenanceDay"]
+new = "Next maintenance: day {0}"
+status = "normal"
+
+["UI.SEE.Hint.FixNoFuel"]
+new = "Refill fuel (logs or planks) or connect a conveyor."
+status = "normal"
+
+["UI.SEE.Hint.FixNoWater"]
+new = "Fill the water tank or connect a pipe."
+status = "normal"
+
+["UI.SEE.Hint.FixNeedsMaintenance"]
+new = "Run maintenance: keep the required materials in the district."
+status = "normal"
+
+["UI.SEE.WaterModeUnavailable"]
+new = "Selected water mode unavailable: {0}"
+status = "normal"

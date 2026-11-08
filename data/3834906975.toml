@@ -1,0 +1,42 @@
+[_meta]
+name = "Birth Control"
+
+["LV.BC.Enabled"]
+new = "Enable Birth Control"
+status = "normal"
+
+["LV.BC.EnabledDesc"]
+new = "When enabled, natural births are prevented in districts without free beds, accounting for homeless beavers.  No effect for Iron Teeth Breeding Pods."
+status = "normal"
+
+["LV.BC.Announce"]
+new = "Announce prevented births"
+status = "normal"
+
+["LV.BC.AnnounceDesc"]
+new = "Announce when a birth is prevented in the main message window. At most one message per district per day."
+status = "normal"
+
+["LV.BC.Tolerance"]
+new = "Homeless tolerance"
+status = "normal"
+
+["LV.BC.ToleranceDesc"]
+new = "Allow births with this many extra homeless beavers.  May offset early game impacts."
+status = "normal"
+
+["LV.BC.DistrictMinimum"]
+new = "District population minimum"
+status = "normal"
+
+["LV.BC.DistrictMinimumDesc"]
+new = "Never prevent births in districts with fewer beavers than this. 0 (default) means always check."
+status = "normal"
+
+["LV.BC.GlobalMinimum"]
+new = "Global population minimum"
+status = "normal"
+
+["LV.BC.GlobalMinimumDesc"]
+new = "Never prevent births anywhere while the total beaver population is below this. 0 (default) means always check."
+status = "normal"

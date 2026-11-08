@@ -2,8 +2,8 @@
 name = "Construction Supply"
 
 ["Building.ConstructionSupply.DisplayName"]
-status = "normal"
 raw = "Construction Supply"
+status = "normal"
 enUS = "Construction Supply"
 zhCN = "建造补给"
 zhTW = "建築補給"
@@ -19,8 +19,8 @@ viVN = "Vật liệu xây dựng"
 trTR = "İnşaat Malzemesi Tedariki"
 
 ["Building.ConstructionSupply.Description"]
-status = "normal"
 raw = "Workers carry building materials from storage straight to construction sites. Builders only build."
+status = "normal"
 enUS = "Workers carry building materials from storage straight to construction sites. Builders only build."
 zhCN = "工人会直接将建筑材料从仓库运送到施工现场。建筑工只负责建造。"
 zhTW = "工人會將建築材料從倉庫直接運送到施工地點。建築工只負責建造。"
@@ -36,8 +36,8 @@ viVN = "Công nhân vận chuyển vật liệu xây dựng từ kho thẳng đ�
 trTR = "İşçiler inşaat malzemelerini depodan doğrudan inşaat sahalarına taşır. İnşaatçılar yalnızca inşaat yapar."
 
 ["Building.ConstructionSupply.FlavorDescription"]
-status = "normal"
 raw = "Planks arrive before anyone asks."
+status = "normal"
 enUS = "Planks arrive before anyone asks."
 zhCN = "木板总会在人们开口索要之前就送到。"
 zhTW = "還沒有人開口，木板就送到了。"

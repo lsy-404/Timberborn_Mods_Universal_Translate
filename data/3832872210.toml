@@ -1,9 +1,69 @@
 [_meta]
-name = "Decoration"
+name = "Folktails Village Decor"
+
+["Building.LogBench.DisplayName"]
+new = "Log Bench"
+status = "normal"
+
+["Building.LogBench.Description"]
+new = "A banded log on two stump legs, on a patch of grass. Two beavers can sit and rest here."
+status = "normal"
+
+["Building.LogBench.FlavorDescription"]
+new = "Barked, banded, built to last."
+status = "normal"
+
+["Building.PlankBench.DisplayName"]
+new = "Plank Bench"
+status = "normal"
+
+["Building.PlankBench.Description"]
+new = "A plank bench with a backrest and armrests, on a patch of grass. Two beavers can sit and rest here."
+status = "normal"
+
+["Building.PlankBench.FlavorDescription"]
+new = "The good bench."
+status = "normal"
+
+["Building.StumpStools.DisplayName"]
+new = "Stump Stools"
+status = "normal"
+
+["Building.StumpStools.Description"]
+new = "Three tree stumps of different heights, on a patch of grass. Three beavers can sit and rest here."
+status = "normal"
+
+["Building.StumpStools.FlavorDescription"]
+new = "Waste not, sit lots."
+status = "normal"
+
+["Building.PicnicTable.DisplayName"]
+new = "Picnic Table"
+status = "normal"
+
+["Building.PicnicTable.Description"]
+new = "A plank table with a bench on each side, set with a basket and a mug, on a patch of grass. Four beavers can sit and rest here."
+status = "normal"
+
+["Building.PicnicTable.FlavorDescription"]
+new = "Lunch is better outside."
+status = "normal"
+
+["Building.RopeSwing.DisplayName"]
+new = "Rope Swing"
+status = "normal"
+
+["Building.RopeSwing.Description"]
+new = "A plank seat on two ropes under a wooden A-frame, on a patch of grass. One beaver can sit and rest here."
+status = "normal"
+
+["Building.RopeSwing.FlavorDescription"]
+new = "Higher!"
+status = "normal"
 
 ["Building.WoodenPlanterBox1x1.DisplayName"]
 raw = "Wooden Planter Box 1×1"
-status = "normal"
+status = "abandoned"
 enUS = "Wooden Planter Box 1×1"
 zhCN = "木制花箱 1×1"
 zhTW = "木製花箱 1×1"
@@ -20,7 +80,7 @@ trTR = "Ahşap Saksı Kutusu 1×1"
 
 ["Building.WoodenPlanterBox1x1.Description"]
 raw = "A timber planter packed with flowers."
-status = "normal"
+status = "abandoned"
 enUS = "A wooden planter packed with flowers."
 zhCN = "一个摆满鲜花的木制花箱。"
 zhTW = "一個種滿鮮花的木製花盆。"
@@ -37,7 +97,7 @@ trTR = "Çiçeklerle dolu ahşap bir saksı."
 
 ["Building.WoodenPlanterBox1x1.FlavorDescription"]
 raw = "Hand-built by the Folktails."
-status = "normal"
+status = "abandoned"
 enUS = "Hand-built by the Folktails."
 zhCN = "神尾亲手制作。"
 zhTW = "由神尾親手打造。"
@@ -54,7 +114,7 @@ trTR = "Köykuyruklar tarafından el yapımı."
 
 ["Building.WoodenPlanterBox1x2.DisplayName"]
 raw = "Wooden Planter Box 1×2"
-status = "normal"
+status = "abandoned"
 enUS = "Wooden Planter Box 1×2"
 zhCN = "木制花箱 1×2"
 zhTW = "木製花箱 1×2"
@@ -71,7 +131,7 @@ trTR = "Ahşap Saksı 1×2"
 
 ["Building.WoodenPlanterBox1x2.Description"]
 raw = "A timber planter packed with flowers."
-status = "normal"
+status = "abandoned"
 enUS = "A timber planter packed with flowers."
 zhCN = "一个种满鲜花的木制花箱。"
 zhTW = "擺滿鮮花的木製花箱。"
@@ -88,7 +148,7 @@ trTR = "Çiçeklerle dolu ahşap bir saksı."
 
 ["Building.WoodenPlanterBox1x2.FlavorDescription"]
 raw = "Hand-built by the Folktails."
-status = "normal"
+status = "abandoned"
 enUS = "Hand-built by the Folktails."
 zhCN = "神尾亲手建造。"
 zhTW = "由神尾親手建造。"
@@ -105,7 +165,7 @@ trTR = "Köykuyruklar tarafından el yapımı."
 
 ["Building.WoodenPlanterBox2x2.DisplayName"]
 raw = "Wooden Planter Box 2×2"
-status = "normal"
+status = "abandoned"
 enUS = "Wooden Planter Box 2×2"
 zhCN = "木制花箱 2×2"
 zhTW = "木製花箱 2×2"
@@ -122,7 +182,7 @@ trTR = "Ahşap Saksı Kutusu 2×2"
 
 ["Building.WoodenPlanterBox2x2.Description"]
 raw = "A timber planter packed with flowers."
-status = "normal"
+status = "abandoned"
 enUS = "A timber planter packed with flowers."
 zhCN = "一个种满鲜花的木制花箱。"
 zhTW = "一個種滿花朵的木製花盆。"
@@ -139,7 +199,7 @@ trTR = "Çiçeklerle dolu ahşap bir saksı."
 
 ["Building.WoodenPlanterBox2x2.FlavorDescription"]
 raw = "Hand-built by the Folktails."
-status = "normal"
+status = "abandoned"
 enUS = "Hand-built by the Folktails."
 zhCN = "神尾亲手制作。"
 zhTW = "由神尾親手打造。"
@@ -156,7 +216,7 @@ trTR = "Köykuyruklar tarafından elle yapılmış."
 
 ["Building.HangingFlowerBed1x3.DisplayName"]
 raw = "Hanging Flower Bed 1×3"
-status = "normal"
+status = "abandoned"
 enUS = "Hanging Flower Bed 1×3"
 zhCN = "悬挂式花坛 1×3"
 zhTW = "吊掛花壇 1×3"
@@ -173,7 +233,7 @@ trTR = "Asılı Çiçeklik 1×3"
 
 ["Building.HangingFlowerBed1x3.Description"]
 raw = "A wooden pergola with wisteria and lanterns over an open walkway."
-status = "normal"
+status = "abandoned"
 enUS = "A wooden pergola with wisteria and lanterns over an open walkway."
 zhCN = "一座覆盖着紫藤、挂有灯笼的木制凉棚，架在开放式步道上方。"
 zhTW = "架設於開放式步道上方、覆有紫藤並掛著燈籠的木製涼棚。"
@@ -190,7 +250,7 @@ trTR = "Açık bir yürüme yolunun üzerinde mor salkımlar ve fenerlerle süsl
 
 ["Building.HangingFlowerBed1x3.FlavorDescription"]
 raw = "Hand-built by the Folktails."
-status = "normal"
+status = "abandoned"
 enUS = "Hand-built by the Folktails."
 zhCN = "神尾手工建造。"
 zhTW = "由神尾親手打造。"
@@ -207,7 +267,7 @@ trTR = "Köykuyruklar tarafından elle yapılmış."
 
 ["Building.HangingFlowerBed1x4.DisplayName"]
 raw = "Hanging Flower Bed 1×4"
-status = "normal"
+status = "abandoned"
 enUS = "Hanging Flower Bed 1×4"
 zhCN = "悬挂花坛 1×4"
 zhTW = "懸掛花床 1×4"
@@ -224,7 +284,7 @@ trTR = "Asılı Çiçeklik 1×4"
 
 ["Building.HangingFlowerBed1x4.Description"]
 raw = "A wooden pergola with wisteria and lanterns over an open walkway."
-status = "normal"
+status = "abandoned"
 enUS = "A wooden pergola with wisteria and lanterns over an open walkway."
 zhCN = "架在开放式步道上方的木制凉棚，缠绕着紫藤并挂有灯笼。"
 zhTW = "開放式步道上方的木製棚架，攀滿紫藤並掛有燈籠。"
@@ -241,7 +301,7 @@ trTR = "Açık bir yürüyüş yolunun üzerinde, salkım sarmaşıkları ve fen
 
 ["Building.HangingFlowerBed1x4.FlavorDescription"]
 raw = "Hand-built by the Folktails."
-status = "normal"
+status = "abandoned"
 enUS = "Hand-built by the Folktails."
 zhCN = "由神尾亲手建造。"
 zhTW = "由神尾親手打造。"

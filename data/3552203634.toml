@@ -3299,6 +3299,22 @@ csCZ = "Vpravo"
 viVN = "Phải"
 trTR = "Sağ"
 
+["UI.Cube"]
+new = "Cubic"
+status = "normal"
+
+["UI.Sphere"]
+new = "Spherical"
+status = "normal"
+
+["UI.Tall"]
+new = "Tall"
+status = "normal"
+
+["UI.Cone"]
+new = "Conical"
+status = "normal"
+
 ["Building.Airlock.Description"]
 raw = "Allows beavers to pass through while blocking off water."
 status = "abandoned"

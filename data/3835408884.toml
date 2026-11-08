@@ -1,0 +1,78 @@
+[_meta]
+name = "Caravans"
+
+["Building.CaravanPost.DisplayName"]
+new = "Caravan Post"
+status = "normal"
+
+["Building.CaravanPost.Description"]
+new = "Send goods beyond the map in exchange for science or useful supplies. Choose a trade to prepare a caravan; a worker will load it before it sets off. Trips take time, and some caravans never make it back. Connect the post to the map edge with a road."
+status = "normal"
+
+["Building.CaravanPost.FlavorDescription"]
+new = "\"Whatever you can spare, someone beyond the horizon wants.\""
+status = "normal"
+
+["Caravans.Status.NoRoute"]
+new = "Needs a road to the map edge"
+status = "normal"
+
+["Caravans.Status.AllOnTheRoad"]
+new = "All caravans are out trading"
+status = "normal"
+
+["Caravans.Notification.Departed"]
+new = "A caravan has set off. It should be back in about {0} hours."
+status = "normal"
+
+["Caravans.Notification.Returned"]
+new = "A caravan is back with its trade."
+status = "normal"
+
+["Caravans.Notification.Lost"]
+new = "A caravan didn't make it back."
+status = "normal"
+
+["Caravans.Panel.NoTrade"]
+new = "Choose a trade to see the details."
+status = "normal"
+
+["Caravans.Panel.Loading"]
+new = "Loading: {0:0.#} work hours"
+status = "normal"
+
+["Caravans.Panel.Trip"]
+new = "Trip: about {0:0} hours. Chance of loss: {1:0}%"
+status = "normal"
+
+["Caravans.Panel.Reward"]
+new = "On return: {0}"
+status = "normal"
+
+["Caravans.Panel.ScienceReward"]
+new = "{0} science points"
+status = "normal"
+
+["Caravans.Panel.Away"]
+new = "Caravans away: {0}/{1}"
+status = "normal"
+
+["Caravans.Panel.Returns"]
+new = "  Back in {0:0.#} hours"
+status = "normal"
+
+["Recipe.CaravanPlankScience.DisplayName"]
+new = "Trade planks for science"
+status = "normal"
+
+["Recipe.CaravanMetalScience.DisplayName"]
+new = "Trade metal blocks for science"
+status = "normal"
+
+["Recipe.CaravanPlankGears.DisplayName"]
+new = "Trade planks for gears"
+status = "normal"
+
+["Recipe.CaravanGearMetal.DisplayName"]
+new = "Trade gears for metal blocks"
+status = "normal"

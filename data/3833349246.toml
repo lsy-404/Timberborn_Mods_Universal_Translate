@@ -52,6 +52,10 @@ csCZ = "Pevné zemědělské terasy"
 viVN = "Ruộng bậc thang cố định"
 trTR = "Sabit Tarım Terasları"
 
+["VF.MatchingRoof"]
+new = "Every upper-bed tile needs a matching farm roof underneath."
+status = "normal"
+
 ["VF.ModularOverlap"]
 raw = "This space is already part of a farm or occupied by another structure."
 status = "normal"
@@ -393,8 +397,8 @@ viVN = "Sàn trồng trọt — Cao, nhỏ đời cũ (5×5)"
 trTR = "Yetiştirme Platformu — Eski Yüksek Küçük (5×5)"
 
 ["VF.RaisedBaseSmall.Description"]
-status = "normal"
 raw = "9 planting tiles, 5×5 total footprint. 5-tile growing storey. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge."
+status = "normal"
 enUS = "9 planting tiles, 5×5 total footprint. 5-tile growing story. Soil level is 4 tiles above the base, leaving usable ground below. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge."
 zhCN = "9块种植地块，占地总计5×5格。种植层高5格。土壤层比底座高4格，下方仍有可用地面。在角落接口接入水源。在土壤层高度设置楼梯或连接相邻的管道通道，即可从任意一侧进入；每层无需额外设置站点。树木需要可到达的林务员和伐木工；作物则由农舍或园丁小屋照料。"
 zhTW = "9 個種植格，總占地 5×5 格。種植樓層高 5 格。土壤高度比底座高 4 格，下方仍留有可用地面。將水接至角落接口。在土壤高度設置樓梯，或讓管道通道與其相連，即可從任一側進入；每一層不必另外設置站點。樹木需要可到達的林務員和伐木工；作物則使用農舍或園丁小屋。"
@@ -542,8 +546,8 @@ viVN = "Nông trại trồng trọt tầng trên — Nhỏ (5×5)"
 trTR = "Üst Mahsul Çiftliği Yatağı — Küçük (5×5)"
 
 ["VF.CropUpperBedSmall.Description"]
-status = "normal"
 raw = "9 planting tiles, 5×5 total footprint. 2-tile growing storey. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
+status = "normal"
 enUS = "9 planting tiles, 5×5 total footprint. 2-tile growing story. Place directly on a matching roof: soil is at the base, with no under-bed legs or gap. Requires full stackable support. Connect water to corner ports. Stairs or a touching tubeway at soil height provide access on any side; no extra station is needed for each tier. Trees need a reachable forester and lumberjack; crops use a farmhouse or Gardeners’ Lodge. Ordinary crops only; trees require a Tree Farm."
 zhCN = "9个种植格，占地共5×5。种植层高2格。直接放在匹配的屋顶上：土壤位于底部，床下没有支腿或空隙。需要完整的可堆叠支撑。将水连接到角落接口。在土壤高度处，楼梯或相连的管道通道可从任意一侧提供通行；每一层都不需要额外的站点。树木需要可到达的林务员和伐木工；作物则需要农场或园丁小屋。仅限普通作物；树木需要树木农场。"
 zhTW = "9 格種植地，總佔地 5×5 格。種植層高 2 格。直接放在相符的屋頂上：土壤位於底部，下方沒有床腳或空隙。需要完整的可堆疊支撐。將水連接至角落接口。樓梯或在土壤高度相接的 tubeway 可從任一側通行；每一層都不需要額外的工作站。樹木需要可到達的林務員和伐木工；作物則使用農場或園丁小屋。僅限一般作物；樹木需要樹木農場。"
@@ -728,8 +732,8 @@ viVN = "Một ít đất. Rất nhiều tham vọng."
 trTR = "Azıcık toprak. Büyük hayaller."
 
 ["VF.UpperBedMedium.Name"]
-status = "normal"
 raw = "Growing Deck — Legacy Tall Medium (7×7)"
+status = "normal"
 enUS = "Growing Deck — Legacy Tall Medium (7×7)"
 zhCN = "种植平台 — 旧版高型中型（7×7）"
 zhTW = "栽培平台 — 舊版高型中型（7×7）"
@@ -758,8 +762,8 @@ koKR = "재배 타일 25개, 전체 설치 면적 7×7타일. 재배층 높이 5
 viVN = "25 ô trồng, tổng diện tích chiếm chỗ 7×7. Tầng trồng cao 5 ô. Đặt trực tiếp trên mái phù hợp: đất nằm ở đáy, không có chân bên dưới luống hay khoảng trống. Cần được đỡ hoàn toàn bằng các cấu trúc có thể xếp chồng. Nối nước vào các cổng ở góc. Cầu thang hoặc một Tubeway tiếp giáp ở độ cao ngang mặt đất cho phép tiếp cận từ bất kỳ phía nào; không cần thêm trạm cho mỗi tầng. Cây gỗ cần có người trồng rừng và thợ đốn gỗ có thể tiếp cận; cây trồng cần trang trại hoặc Nhà nghỉ Người làm vườn."
 
 ["VF.UpperBedMedium.Flavor"]
-status = "normal"
 raw = "A little soil. A lot of ambition."
+status = "normal"
 enUS = "A little soil. A lot of ambition."
 zhCN = "少许土壤，满腔抱负。"
 zhTW = "土壤不多，雄心不小。"
@@ -775,8 +779,8 @@ viVN = "Một chút đất. Nhiều tham vọng."
 trTR = "Azıcık toprak. Bolca hırs."
 
 ["VF.CropRaisedBaseMedium.Name"]
-status = "normal"
 raw = "Crop Farm — Medium (7×7)"
+status = "normal"
 enUS = "Crop Farm — Medium (7×7)"
 zhCN = "作物农场 — 中型（7×7）"
 zhTW = "作物農場 — 中型（7×7）"
@@ -806,8 +810,8 @@ viVN = "25 ô trồng, chiếm diện tích tổng thể 7×7. Tầng trồng ca
 trTR = "25 ekim karesi, toplam 7×7 karelik taban alanı. 2 kare yüksekliğinde yetiştirme katı. Toprak seviyesi tabandan 2 kare yukarıdadır; altındaki zemin kullanılabilir. Suyu köşe bağlantılarına bağlayın. Merdivenler veya toprak seviyesinde bitişik bir tüp yolu, her yönden erişim sağlar; her kat için ek bir istasyon gerekmez. Ağaçlar için erişilebilir bir Ormancı ve Oduncu gerekir; ekinlerde Çiftlik Evi veya Bahçıvan Locası kullanılır. Tam desteklenen uygun bir çiftlik çatısında önizleme, çatıyla aynı seviyedeki üst yatağa geçer. Yalnızca sıradan ekinler; ağaçlar için Ağaç Çiftliği gerekir."
 
 ["VF.CropRaisedBaseMedium.Flavor"]
-status = "normal"
 raw = "A little soil. A lot of ambition."
+status = "normal"
 enUS = "A little soil. A lot of ambition."
 zhCN = "寸土虽少，雄心不小。"
 zhTW = "土壤不多，雄心不少。"
@@ -823,8 +827,8 @@ viVN = "Một chút đất. Tham vọng lớn."
 trTR = "Azıcık toprak. Bolca hırs."
 
 ["VF.CropUpperBedMedium.Name"]
-status = "normal"
 raw = "Crop Farm Upper Bed — Medium (7×7)"
+status = "normal"
 enUS = "Crop Farm Upper Bed — Medium (7×7)"
 zhCN = "作物农场上层种植床 — 中型（7×7）"
 zhTW = "作物農場上層種植床 — 中型（7×7）"
@@ -855,8 +859,8 @@ viVN = "25 ô trồng, diện tích chiếm chỗ tổng cộng 7×7. Tầng tr�
 trTR = "25 dikim karesi, toplam 7×7 alan. 2 karelik yetiştirme katı. Uyumlu bir çatının üzerine doğrudan yerleştirin: toprak tabandadır; yatağın altında ayak veya boşluk yoktur. Tam istiflenebilir destek gerektirir. Su bağlantısını köşe girişlerine bağlayın. Toprak seviyesindeki merdivenler veya bitişik bir tüp yolu her yönden erişim sağlar; her kat için ek bir istasyon gerekmez. Ağaçlar için erişilebilir bir Ormancı ve Oduncu gerekir; ürünler için Çiftlik veya Bahçıvan Kulübesi kullanılır. Yalnızca sıradan ürünler yetiştirilebilir; ağaçlar için Ağaç Çiftliği gerekir."
 
 ["VF.CropUpperBedMedium.Flavor"]
-status = "normal"
 raw = "A little soil. A lot of ambition."
+status = "normal"
 enUS = "A little soil. A lot of ambition."
 zhCN = "一点土壤，满腔雄心。"
 zhTW = "少許土壤，滿懷雄心。"
@@ -872,8 +876,8 @@ viVN = "Một chút đất. Tham vọng lớn lao."
 trTR = "Biraz toprak. Çokça hırs."
 
 ["VF.TreeRaisedBaseMedium.Name"]
-status = "normal"
 raw = "Tree Farm — Medium (7×7)"
+status = "normal"
 enUS = "Tree Farm — Medium (7×7)"
 zhCN = "树木农场——中型（7×7）"
 zhTW = "樹木農場 — 中型 (7×7)"
@@ -903,8 +907,8 @@ viVN = "25 ô trồng, kích thước tổng thể 7×7 ô. Tầng trồng trọ
 trTR = "25 dikim karesi, toplam 7×7 taban alanı. 4 karelik yetiştirme katı. Toprak seviyesi tabandan 4 kare yukarıdadır; böylece altta kullanılabilir zemin kalır. Suyu köşe bağlantı noktalarına bağlayın. Merdivenler veya toprak seviyesinde bitişik bir tüp yolu, her yönden erişim sağlar; her kat için ek bir istasyon gerekmez. Ağaçlar için erişilebilir bir Ormancı ve Oduncu gerekir; ekinler Çiftlik Evi veya Bahçıvanlar Locası kullanır. Tam desteklenen uyumlu bir çiftlik çatısında önizleme, üst yatağı çatıyla aynı seviyeye getirir. Ağaçlara ve sıradan ekinlere izin verilir."
 
 ["VF.TreeRaisedBaseMedium.Flavor"]
-status = "normal"
 raw = "A little soil. A lot of ambition."
+status = "normal"
 enUS = "A little soil. A lot of ambition."
 zhCN = "土壤不多，雄心不小。"
 zhTW = "土壤不多，雄心不少。"
@@ -920,8 +924,8 @@ viVN = "Chút đất thôi. Tham vọng thì nhiều."
 trTR = "Azıcık toprak. Bolca hırs."
 
 ["VF.TreeUpperBedMedium.Name"]
-status = "normal"
 raw = "Tree Farm Upper Bed — Medium (7×7)"
+status = "normal"
 enUS = "Tree Farm Upper Bed — Medium (7×7)"
 zhCN = "树木农场上层种植床 — 中型（7×7）"
 zhTW = "樹木農場上層栽植床 — 中型（7×7）"

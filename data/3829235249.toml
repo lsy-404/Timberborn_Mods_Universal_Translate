@@ -2,8 +2,8 @@
 name = "MoMo Walkable Floodgates 可行走水闸"
 
 ["Building.MoMoWalkableFloodgate.DisplayName"]
-status = "normal"
 raw = "Walkable Floodgate"
+status = "normal"
 enUS = "Walkable Floodgate"
 zhCN = "可通行水闸"
 zhTW = "可行走水閘"
@@ -19,8 +19,8 @@ viVN = "Cửa cống có thể đi bộ qua"
 trTR = "Üzerinde Yürünebilir Taşkın Kapısı"
 
 ["Building.MoMoWalkableFloodgate.Description"]
-status = "normal"
 raw = "A stackable floodgate beavers can walk on. Stacks on other blocks; walkable on every level."
+status = "normal"
 enUS = "A stackable floodgate that beavers can walk on. Stacks on other blocks; beavers can walk on every level."
 zhCN = "可堆叠的水闸，海狸可以在上面行走。可叠放在其他方块上；每一层都可行走。"
 zhTW = "可堆疊的水閘，海狸可以在上面行走。可堆疊於其他方塊上；每一層都可行走。"
@@ -36,8 +36,8 @@ viVN = "Cửa phai có thể xếp chồng mà hải ly đi lại được. Xế
 trTR = "Üst üste yerleştirilebilen, kunduzların üzerinde yürüyebildiği bir savak. Diğer blokların üzerine istiflenir; her seviyesinde yürünebilir."
 
 ["Building.MoMoWalkableFloodgate.FlavorDescription"]
-status = "normal"
 raw = "Ol' kazko never foresaw that a beaver would like to stroll along the whole dam..."
+status = "normal"
 enUS = "Ol' Kazko never foresaw that a beaver would like to stroll along the whole dam..."
 zhCN = "老卡兹科从没料到海狸会喜欢沿着整座堤坝散步……"
 zhTW = "老 kazko 從沒料到，竟會有海狸想沿著整座水壩散步……"
@@ -53,8 +53,8 @@ viVN = "Lão Kazko chưa bao giờ ngờ rằng một chú hải ly lại thích
 trTR = "İhtiyar Kazko, bir kunduzun barajın tamamı boyunca gezinmek isteyeceğini hiç öngörmemişti..."
 
 ["Building.MoMoWalkableDoubleFloodgate.DisplayName"]
-status = "normal"
 raw = "Walkable Double Floodgate"
+status = "normal"
 enUS = "Walkable Double Floodgate"
 zhCN = "可行走双重水闸"
 zhTW = "可行走雙水閘"
@@ -70,8 +70,8 @@ viVN = "Cửa cống đôi có thể đi lại"
 trTR = "Yürünebilir Çift Su Kapısı"
 
 ["Building.MoMoWalkableDoubleFloodgate.Description"]
-status = "normal"
 raw = "A stackable floodgate beavers can walk on. Stacks on other blocks; walkable on every level."
+status = "normal"
 enUS = "A stackable floodgate beavers can walk on. Stacks on other blocks; walkable on every level."
 zhCN = "可堆叠的水闸，海狸可以在上面行走。可堆叠在其他方块上；每一层都可行走。"
 zhTW = "可堆疊的水閘，海狸可以在上面行走。可堆疊在其他方塊上；每一層都可行走。"
@@ -87,8 +87,8 @@ viVN = "Cửa ngăn lũ có thể xếp chồng mà hải ly có thể đi trên
 trTR = "Üzerinde kunduzların yürüyebildiği, üst üste konabilen bir su kapağı. Diğer blokların üzerine konabilir; her seviyesinde yürünebilir."
 
 ["Building.MoMoWalkableDoubleFloodgate.FlavorDescription"]
-status = "normal"
 raw = "Ol' kazko never foresaw that a beaver would like to stroll along the whole dam..."
+status = "normal"
 enUS = "Ol' Kazko never foresaw that a beaver would like to stroll along the whole dam..."
 zhCN = "老卡兹科从没料到，海狸竟然会想沿着整条堤坝散步……"
 zhTW = "老卡茲科從沒料到海狸會想沿著整座水壩散步……"
@@ -104,8 +104,8 @@ viVN = "Lão Kazko chưa bao giờ ngờ rằng một chú hải ly lại thích
 trTR = "İhtiyar Kazko, bir kunduzun barajın tamamı boyunca gezinmek isteyeceğini hiç aklından geçirmemişti..."
 
 ["Building.MoMoWalkableTripleFloodgate.DisplayName"]
-status = "normal"
 raw = "Walkable Triple Floodgate"
+status = "normal"
 enUS = "Walkable Triple Floodgate"
 zhCN = "可通行三连水闸"
 zhTW = "可行走三重水閘"
@@ -121,8 +121,8 @@ viVN = "Cửa chắn lũ bộ ba có thể đi lại"
 trTR = "Yürünebilir Üçlü Taşkın Kapısı"
 
 ["Building.MoMoWalkableTripleFloodgate.Description"]
-status = "normal"
 raw = "A stackable floodgate beavers can walk on. Stacks on other blocks; walkable on every level."
+status = "normal"
 enUS = "A stackable floodgate that beavers can walk on. It stacks on other blocks and is walkable at every level."
 zhCN = "可堆叠的水闸，海狸可以在上面行走。可堆叠在其他方块上；每一层都可行走。"
 zhTW = "可堆疊的水閘，海狸可以在上面行走。可堆疊在其他方塊上；每一層都可行走。"
@@ -138,8 +138,8 @@ viVN = "Cửa van có thể xếp chồng và hải ly có thể đi trên. Có 
 trTR = "Kunduzların üzerinde yürüyebildiği, üst üste yerleştirilebilir bir savak kapısı. Diğer blokların üzerine istiflenir; her seviyesinde yürünebilir."
 
 ["Building.MoMoWalkableTripleFloodgate.FlavorDescription"]
-status = "normal"
 raw = "Ol' kazko never foresaw that a beaver would like to stroll along the whole dam..."
+status = "normal"
 enUS = "Ol' Kazko never foresaw that a beaver would like to stroll along the whole dam..."
 zhCN = "老 kazko 从未料到，海狸竟会喜欢沿着整条堤坝散步……"
 zhTW = "老 kazko 從沒料到海狸會想沿著整座水壩散步……"
@@ -155,8 +155,8 @@ viVN = "Lão Kazko chưa bao giờ ngờ rằng một chú hải ly lại thích
 trTR = "İhtiyar Kazko, bir kunduzun barajın baştan başa üzerinde gezinmek isteyeceğini hiç öngörmemişti..."
 
 ["Building.MoMoWalkableFloodgateWhite.DisplayName"]
-status = "normal"
 raw = "Whitewashed Walkable Floodgate"
+status = "normal"
 enUS = "Whitewashed Walkable Floodgate"
 zhCN = "刷白可行走水闸"
 zhTW = "粉刷成白色的可行走水閘"
@@ -172,8 +172,8 @@ viVN = "Cửa phai đi được, quét vôi trắng"
 trTR = "Badanalı Üzerinde Yürünebilir Su Kapağı"
 
 ["Building.MoMoWalkableFloodgateWhite.Description"]
-status = "normal"
 raw = "A stackable floodgate beavers can walk on. Whitewashed look. Walkable on every level."
+status = "normal"
 enUS = "A stackable floodgate that beavers can walk on. Whitewashed look. Walkable on every level."
 zhCN = "可堆叠的水闸，海狸可以在上面行走。白灰粉刷外观。每一层都可行走。"
 zhTW = "可堆疊、海狸可在上方行走的水閘。白色粉刷外觀。每一層皆可行走。"
@@ -189,8 +189,8 @@ viVN = "Cửa van có thể xếp chồng, hải ly có thể đi trên đó. Ki
 trTR = "Kunduzların üzerinde yürüyebildiği, üst üste yerleştirilebilir bir savak kapısı. Beyaz badanalı görünüm. Her seviyesinde yürünebilir."
 
 ["Building.MoMoWalkableFloodgateWhite.FlavorDescription"]
-status = "normal"
 raw = "Ol' kazko never foresaw that a beaver would like to stroll along the whole dam..."
+status = "normal"
 enUS = "Ol' Kazko never foresaw that a beaver would like to stroll along the whole dam..."
 zhCN = "老卡兹科从没料到，海狸竟然会想沿着整座堤坝散步..."
 zhTW = "老卡茲科從沒料到海狸會想沿著整座水壩散步……"
@@ -206,8 +206,8 @@ viVN = "Lão Kazko chẳng bao giờ ngờ rằng một chú hải ly lại thí
 trTR = "Yaşlı Kazko, bir kunduzun barajın tamamı boyunca gezinmek isteyeceğini hiç öngörmemişti..."
 
 ["Building.MoMoWalkableDoubleFloodgateWhite.DisplayName"]
-status = "normal"
 raw = "Whitewashed Walkable Double Floodgate"
+status = "normal"
 enUS = "Whitewashed Walkable Double Floodgate"
 zhCN = "白漆可行走双水闸"
 zhTW = "白漆可行走雙重水閘"
@@ -223,8 +223,8 @@ viVN = "Cửa chắn nước đôi có lối đi, quét vôi trắng"
 trTR = "Badanalı Yürünebilir Çift Su Kapağı"
 
 ["Building.MoMoWalkableDoubleFloodgateWhite.Description"]
-status = "normal"
 raw = "A stackable floodgate beavers can walk on. Whitewashed look. Walkable on every level."
+status = "normal"
 enUS = "A stackable floodgate that beavers can walk on. Whitewashed look. Walkable on every level."
 zhCN = "可堆叠的水闸，海狸可以在上面行走。白色粉刷外观。每一层都可供行走。"
 zhTW = "可堆疊式水閘，海狸可以在上方行走。白色粉刷外觀。每一層都可行走。"
@@ -240,8 +240,8 @@ viVN = "Cửa chắn lũ có thể xếp chồng, để hải ly đi lại trên
 trTR = "Kunduzların üzerinde yürüyebileceği, üst üste yerleştirilebilir bir su kapısı. Badanalı görünüm. Her seviyesinde yürünebilir."
 
 ["Building.MoMoWalkableDoubleFloodgateWhite.FlavorDescription"]
-status = "normal"
 raw = "Ol' kazko never foresaw that a beaver would like to stroll along the whole dam..."
+status = "normal"
 enUS = "Ol' Kazko never foresaw that a beaver would like to stroll along the whole dam..."
 zhCN = "老 Kazko 从没料到海狸会喜欢沿着整条堤坝散步……"
 zhTW = "老 Kazko 從沒料到，海狸竟然會喜歡沿著整座水壩散步……"
@@ -257,8 +257,8 @@ viVN = "Ol' kazko chưa từng ngờ rằng một chú hải ly lại thích đi
 trTR = "İhtiyar Kazko, bir kunduzun barajın baştan sona boyunca gezinmek isteyeceğini hiç öngörememişti..."
 
 ["Building.MoMoWalkableTripleFloodgateWhite.DisplayName"]
-status = "normal"
 raw = "Whitewashed Walkable Triple Floodgate"
+status = "normal"
 enUS = "Whitewashed Walkable Triple Floodgate"
 zhCN = "粉刷白色的可行走三联水闸"
 zhTW = "白漆可行走三重水閘"
@@ -274,8 +274,8 @@ viVN = "Cửa chắn lũ ba khoang có lối đi, quét vôi trắng"
 trTR = "Beyaz Badanalı Yürünebilir Üçlü Savak Kapısı"
 
 ["Building.MoMoWalkableTripleFloodgateWhite.Description"]
-status = "normal"
 raw = "A stackable floodgate beavers can walk on. Whitewashed look. Walkable on every level."
+status = "normal"
 enUS = "A stackable floodgate beavers can walk on. Whitewashed look. Walkable on every level."
 zhCN = "可堆叠的水闸，海狸可以在上面行走。白色粉刷外观。每一层都可通行。"
 zhTW = "可堆疊且海狸可行走的水閘。白灰粉刷外觀。每一層皆可行走。"
@@ -291,8 +291,8 @@ viVN = "Cửa xả lũ có thể xếp chồng, nơi hải ly có thể đi lạ
 trTR = "Kunduzların üzerinde yürüyebildiği, üst üste yerleştirilebilir bir su kapısı. Beyaz badanalı görünüm. Her seviyesinde yürünebilir."
 
 ["Building.MoMoWalkableTripleFloodgateWhite.FlavorDescription"]
-status = "normal"
 raw = "Ol' kazko never foresaw that a beaver would like to stroll along the whole dam..."
+status = "normal"
 enUS = "Ol' kazko never foresaw that a beaver would like to stroll along the whole dam..."
 zhCN = "老 kazko 从没料到，海狸竟会喜欢沿着整条堤坝散步……"
 zhTW = "老 Kazko 從沒料到，海狸竟然會想沿著整座水壩散步……"

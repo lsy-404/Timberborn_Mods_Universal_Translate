@@ -1,0 +1,30 @@
+[_meta]
+name = "Japanese Decorations"
+
+["JapaneseSettlement.Root"]
+new = "Japanese Settlement"
+status = "normal"
+
+["JapaneseSettlement.decorations"]
+new = "Japanese Decorations"
+status = "normal"
+
+["JapaneseSettlement.Decoration.WoodFence"]
+new = "Japanese Residential Wall"
+status = "normal"
+
+["JapaneseSettlement.Decoration.Bench"]
+new = "Japanese Wooden Bench"
+status = "normal"
+
+["JapaneseSettlement.Decoration.Bell"]
+new = "Japanese Timber Bell"
+status = "normal"
+
+["JapaneseSettlement.Decoration.DecorativeClock"]
+new = "Japanese Concrete Clock"
+status = "normal"
+
+["JapaneseSettlement.Decoration.Brazier"]
+new = "Japanese Stone Lantern"
+status = "normal"
