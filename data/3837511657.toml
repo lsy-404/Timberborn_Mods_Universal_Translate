@@ -1,0 +1,146 @@
+[_meta]
+name = "LeveeWorks"
+
+["LeveeWorks.StackedLogs.Boardwalk.Name"]
+new = "Stacked logs — Boardwalk"
+status = "normal"
+
+["LeveeWorks.StackedLogs.Boardwalk.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.StackedLogs.Cedar.Name"]
+new = "Stacked logs — Cedar"
+status = "normal"
+
+["LeveeWorks.StackedLogs.Cedar.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.StackedLogs.DarkOak.Name"]
+new = "Stacked logs — DarkOak"
+status = "normal"
+
+["LeveeWorks.StackedLogs.DarkOak.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.StackedLogs.IvoryTimber.Name"]
+new = "Stacked logs — IvoryTimber"
+status = "normal"
+
+["LeveeWorks.StackedLogs.IvoryTimber.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.StackedLogs.SageTimber.Name"]
+new = "Stacked logs — SageTimber"
+status = "normal"
+
+["LeveeWorks.StackedLogs.SageTimber.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.PlankWall.Boardwalk.Name"]
+new = "Plank retaining wall — Boardwalk"
+status = "normal"
+
+["LeveeWorks.PlankWall.Boardwalk.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.PlankWall.Cedar.Name"]
+new = "Plank retaining wall — Cedar"
+status = "normal"
+
+["LeveeWorks.PlankWall.Cedar.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.PlankWall.DarkOak.Name"]
+new = "Plank retaining wall — DarkOak"
+status = "normal"
+
+["LeveeWorks.PlankWall.DarkOak.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.PlankWall.IvoryTimber.Name"]
+new = "Plank retaining wall — IvoryTimber"
+status = "normal"
+
+["LeveeWorks.PlankWall.IvoryTimber.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.PlankWall.SageTimber.Name"]
+new = "Plank retaining wall — SageTimber"
+status = "normal"
+
+["LeveeWorks.PlankWall.SageTimber.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.MasonryWall.Cobblestone.Name"]
+new = "Masonry wall — Cobblestone"
+status = "normal"
+
+["LeveeWorks.MasonryWall.Cobblestone.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.MasonryWall.Slate.Name"]
+new = "Masonry wall — Slate"
+status = "normal"
+
+["LeveeWorks.MasonryWall.Slate.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.MasonryWall.Sandstone.Name"]
+new = "Masonry wall — Sandstone"
+status = "normal"
+
+["LeveeWorks.MasonryWall.Sandstone.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.MasonryWall.MossyStone.Name"]
+new = "Masonry wall — MossyStone"
+status = "normal"
+
+["LeveeWorks.MasonryWall.MossyStone.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.MasonryWall.RedBrick.Name"]
+new = "Masonry wall — RedBrick"
+status = "normal"
+
+["LeveeWorks.MasonryWall.RedBrick.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.MasonryWall.CreamBrick.Name"]
+new = "Masonry wall — CreamBrick"
+status = "normal"
+
+["LeveeWorks.MasonryWall.CreamBrick.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.ReinforcedWall.IndustrialMetal.Name"]
+new = "Reinforced wall — IndustrialMetal"
+status = "normal"
+
+["LeveeWorks.ReinforcedWall.IndustrialMetal.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["LeveeWorks.ReinforcedWall.BrushedMetal.Name"]
+new = "Reinforced wall — BrushedMetal"
+status = "normal"
+
+["LeveeWorks.ReinforcedWall.BrushedMetal.Description"]
+new = "Solid one-level water barrier with vanilla levee stacking and moisture rules. The amber placement line marks its full blocking height. Matching Works finish; appearance does not change water behaviour."
+status = "normal"

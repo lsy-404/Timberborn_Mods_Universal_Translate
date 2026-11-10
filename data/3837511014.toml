@@ -1,0 +1,650 @@
+[_meta]
+name = "DecoWorks"
+
+["DecoWorks.Description"]
+new = "Cosmetic decoration. Place beside a path on ground or a platform; no wellbeing bonus."
+status = "normal"
+
+["DecoWorks.Arch.Description"]
+new = "Three tiles wide. Both outer posts require support; the center tile is clear for a separate path. No wellbeing bonus."
+status = "normal"
+
+["DecoWorks.Bench.Description"]
+new = "A resting place for two beavers. Connect the front entrance to a path."
+status = "normal"
+
+["DecoWorks.Market.Description"]
+new = "Decorative market display. Does not employ beavers, produce goods or provide storage."
+status = "normal"
+
+["DecoWorks.Edging.Description"]
+new = "Low connecting border. Place on its own ground or platform tiles beside a path; matching finishes join automatically."
+status = "normal"
+
+["DecoWorks.Props.Description"]
+new = "Decorative prop only; no storage, fishing or district-management function."
+status = "normal"
+
+["DecoWorks.DecoLighting.LanternPost.Boardwalk.Name"]
+new = "Lantern post — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoLighting.LanternPost.Cedar.Name"]
+new = "Lantern post — Cedar"
+status = "normal"
+
+["DecoWorks.DecoLighting.LanternPost.DarkOak.Name"]
+new = "Lantern post — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoLighting.LanternPost.IvoryTimber.Name"]
+new = "Lantern post — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoLighting.LanternPost.SageTimber.Name"]
+new = "Lantern post — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoLighting.LanternPost.IndustrialMetal.Name"]
+new = "Lantern post — Industrial metal"
+status = "normal"
+
+["DecoWorks.DecoLighting.LanternPost.BrushedMetal.Name"]
+new = "Lantern post — Brushed metal"
+status = "normal"
+
+["DecoWorks.DecoPlanters.LogTrough.Boardwalk.Name"]
+new = "Log-trough planter — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoPlanters.LogTrough.Cedar.Name"]
+new = "Log-trough planter — Cedar"
+status = "normal"
+
+["DecoWorks.DecoPlanters.LogTrough.DarkOak.Name"]
+new = "Log-trough planter — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoPlanters.LogTrough.IvoryTimber.Name"]
+new = "Log-trough planter — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoPlanters.LogTrough.SageTimber.Name"]
+new = "Log-trough planter — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoPlanters.LogTrough.IndustrialMetal.Name"]
+new = "Log-trough planter — Industrial metal"
+status = "normal"
+
+["DecoWorks.DecoPlanters.LogTrough.BrushedMetal.Name"]
+new = "Log-trough planter — Brushed metal"
+status = "normal"
+
+["DecoWorks.DecoPlanters.BarrelPlanter.Boardwalk.Name"]
+new = "Barrel planter — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoPlanters.BarrelPlanter.Cedar.Name"]
+new = "Barrel planter — Cedar"
+status = "normal"
+
+["DecoWorks.DecoPlanters.BarrelPlanter.DarkOak.Name"]
+new = "Barrel planter — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoPlanters.BarrelPlanter.IvoryTimber.Name"]
+new = "Barrel planter — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoPlanters.BarrelPlanter.SageTimber.Name"]
+new = "Barrel planter — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoPlanters.BarrelPlanter.IndustrialMetal.Name"]
+new = "Barrel planter — Industrial metal"
+status = "normal"
+
+["DecoWorks.DecoPlanters.BarrelPlanter.BrushedMetal.Name"]
+new = "Barrel planter — Brushed metal"
+status = "normal"
+
+["DecoWorks.DecoSeating.Bench.Boardwalk.Name"]
+new = "Bench — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoSeating.Bench.Cedar.Name"]
+new = "Bench — Cedar"
+status = "normal"
+
+["DecoWorks.DecoSeating.Bench.DarkOak.Name"]
+new = "Bench — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoSeating.Bench.IvoryTimber.Name"]
+new = "Bench — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoSeating.Bench.SageTimber.Name"]
+new = "Bench — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoSeating.Bench.IndustrialMetal.Name"]
+new = "Bench — Industrial metal"
+status = "normal"
+
+["DecoWorks.DecoSeating.Bench.BrushedMetal.Name"]
+new = "Bench — Brushed metal"
+status = "normal"
+
+["DecoWorks.DecoSigns.DirectionSign.Boardwalk.Name"]
+new = "Directional signpost — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoSigns.DirectionSign.Cedar.Name"]
+new = "Directional signpost — Cedar"
+status = "normal"
+
+["DecoWorks.DecoSigns.DirectionSign.DarkOak.Name"]
+new = "Directional signpost — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoSigns.DirectionSign.IvoryTimber.Name"]
+new = "Directional signpost — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoSigns.DirectionSign.SageTimber.Name"]
+new = "Directional signpost — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoSigns.DirectionSign.IndustrialMetal.Name"]
+new = "Directional signpost — Industrial metal"
+status = "normal"
+
+["DecoWorks.DecoSigns.DirectionSign.BrushedMetal.Name"]
+new = "Directional signpost — Brushed metal"
+status = "normal"
+
+["DecoWorks.DecoRailings.RopeFence.Boardwalk.Name"]
+new = "Rope fence — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoRailings.RopeFence.Cedar.Name"]
+new = "Rope fence — Cedar"
+status = "normal"
+
+["DecoWorks.DecoRailings.RopeFence.DarkOak.Name"]
+new = "Rope fence — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoRailings.RopeFence.IvoryTimber.Name"]
+new = "Rope fence — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoRailings.RopeFence.SageTimber.Name"]
+new = "Rope fence — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoRailings.TimberRailing.Boardwalk.Name"]
+new = "Timber railing — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoRailings.TimberRailing.Cedar.Name"]
+new = "Timber railing — Cedar"
+status = "normal"
+
+["DecoWorks.DecoRailings.TimberRailing.DarkOak.Name"]
+new = "Timber railing — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoRailings.TimberRailing.IvoryTimber.Name"]
+new = "Timber railing — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoRailings.TimberRailing.SageTimber.Name"]
+new = "Timber railing — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoRailings.MetalRailing.IndustrialMetal.Name"]
+new = "Metal railing — Industrial metal"
+status = "normal"
+
+["DecoWorks.DecoRailings.MetalRailing.BrushedMetal.Name"]
+new = "Metal railing — Brushed metal"
+status = "normal"
+
+["DecoWorks.DecoEntrances.EntranceArch.Boardwalk.Name"]
+new = "Rustic log gateway — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoEntrances.EntranceArch.Cedar.Name"]
+new = "Rustic log gateway — Cedar"
+status = "normal"
+
+["DecoWorks.DecoEntrances.EntranceArch.DarkOak.Name"]
+new = "Rustic log gateway — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoEntrances.EntranceArch.IvoryTimber.Name"]
+new = "Rustic log gateway — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoEntrances.EntranceArch.SageTimber.Name"]
+new = "Rustic log gateway — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoEntrances.EntranceArch.IndustrialMetal.Name"]
+new = "Rustic log gateway — Industrial metal"
+status = "normal"
+
+["DecoWorks.DecoEntrances.EntranceArch.BrushedMetal.Name"]
+new = "Rustic log gateway — Brushed metal"
+status = "normal"
+
+["DecoWorks.DecoEntrances.GardenArch.Boardwalk.Name"]
+new = "Garden trellis — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoEntrances.GardenArch.Cedar.Name"]
+new = "Garden trellis — Cedar"
+status = "normal"
+
+["DecoWorks.DecoEntrances.GardenArch.DarkOak.Name"]
+new = "Garden trellis — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoEntrances.GardenArch.IvoryTimber.Name"]
+new = "Garden trellis — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoEntrances.GardenArch.SageTimber.Name"]
+new = "Garden trellis — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoEntrances.CoveredArch.Boardwalk.Name"]
+new = "Roofed timber gateway — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoEntrances.CoveredArch.Cedar.Name"]
+new = "Roofed timber gateway — Cedar"
+status = "normal"
+
+["DecoWorks.DecoEntrances.CoveredArch.DarkOak.Name"]
+new = "Roofed timber gateway — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoEntrances.CoveredArch.IvoryTimber.Name"]
+new = "Roofed timber gateway — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoEntrances.CoveredArch.SageTimber.Name"]
+new = "Roofed timber gateway — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoEntrances.MetalArch.IndustrialMetal.Name"]
+new = "Riveted metal arch — Industrial metal"
+status = "normal"
+
+["DecoWorks.DecoEntrances.MetalArch.BrushedMetal.Name"]
+new = "Riveted metal arch — Brushed metal"
+status = "normal"
+
+["DecoWorks.DecoWaterside.MooringPost.Boardwalk.Name"]
+new = "Mooring post — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoWaterside.MooringPost.Cedar.Name"]
+new = "Mooring post — Cedar"
+status = "normal"
+
+["DecoWorks.DecoWaterside.MooringPost.DarkOak.Name"]
+new = "Mooring post — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoWaterside.MooringPost.IvoryTimber.Name"]
+new = "Mooring post — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoWaterside.MooringPost.SageTimber.Name"]
+new = "Mooring post — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoWaterside.MooringPost.IndustrialMetal.Name"]
+new = "Mooring post — Industrial metal"
+status = "normal"
+
+["DecoWorks.DecoWaterside.MooringPost.BrushedMetal.Name"]
+new = "Mooring post — Brushed metal"
+status = "normal"
+
+["DecoWorks.DecoEdging.TimberEdging.Boardwalk.Name"]
+new = "Timber edging — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoEdging.TimberEdging.Cedar.Name"]
+new = "Timber edging — Cedar"
+status = "normal"
+
+["DecoWorks.DecoEdging.TimberEdging.DarkOak.Name"]
+new = "Timber edging — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoEdging.TimberEdging.IvoryTimber.Name"]
+new = "Timber edging — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoEdging.TimberEdging.SageTimber.Name"]
+new = "Timber edging — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoEdging.StoneEdging.Cobblestone.Name"]
+new = "Stone edging — Cobblestone"
+status = "normal"
+
+["DecoWorks.DecoEdging.StoneEdging.Slate.Name"]
+new = "Stone edging — Slate"
+status = "normal"
+
+["DecoWorks.DecoEdging.StoneEdging.Sandstone.Name"]
+new = "Stone edging — Sandstone"
+status = "normal"
+
+["DecoWorks.DecoEdging.MetalEdging.IndustrialMetal.Name"]
+new = "Metal edging — Industrial metal"
+status = "normal"
+
+["DecoWorks.DecoEdging.MetalEdging.BrushedMetal.Name"]
+new = "Metal edging — Brushed metal"
+status = "normal"
+
+["DecoWorks.DecoPlanters.FlowerBox.Boardwalk.Name"]
+new = "Flower box — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoPlanters.FlowerBox.Cedar.Name"]
+new = "Flower box — Cedar"
+status = "normal"
+
+["DecoWorks.DecoPlanters.FlowerBox.DarkOak.Name"]
+new = "Flower box — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoPlanters.FlowerBox.IvoryTimber.Name"]
+new = "Flower box — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoPlanters.FlowerBox.SageTimber.Name"]
+new = "Flower box — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoPlanters.FlowerBox.IndustrialMetal.Name"]
+new = "Flower box — Industrial metal"
+status = "normal"
+
+["DecoWorks.DecoPlanters.FlowerBox.BrushedMetal.Name"]
+new = "Flower box — Brushed metal"
+status = "normal"
+
+["DecoWorks.DecoMarket.ProduceStall.Boardwalk.Name"]
+new = "Produce stall — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoMarket.ProduceStall.Cedar.Name"]
+new = "Produce stall — Cedar"
+status = "normal"
+
+["DecoWorks.DecoMarket.ProduceStall.DarkOak.Name"]
+new = "Produce stall — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoMarket.ProduceStall.IvoryTimber.Name"]
+new = "Produce stall — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoMarket.ProduceStall.SageTimber.Name"]
+new = "Produce stall — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoMarket.ToolStall.Boardwalk.Name"]
+new = "Tool stall — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoMarket.ToolStall.Cedar.Name"]
+new = "Tool stall — Cedar"
+status = "normal"
+
+["DecoWorks.DecoMarket.ToolStall.DarkOak.Name"]
+new = "Tool stall — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoMarket.ToolStall.IvoryTimber.Name"]
+new = "Tool stall — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoMarket.ToolStall.SageTimber.Name"]
+new = "Tool stall — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoMarket.BasketStall.Boardwalk.Name"]
+new = "Basket stall — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoMarket.BasketStall.Cedar.Name"]
+new = "Basket stall — Cedar"
+status = "normal"
+
+["DecoWorks.DecoMarket.BasketStall.DarkOak.Name"]
+new = "Basket stall — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoMarket.BasketStall.IvoryTimber.Name"]
+new = "Basket stall — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoMarket.BasketStall.SageTimber.Name"]
+new = "Basket stall — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoWaterside.RopeCoils.Boardwalk.Name"]
+new = "Coiled ropes — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoWaterside.RopeCoils.Cedar.Name"]
+new = "Coiled ropes — Cedar"
+status = "normal"
+
+["DecoWorks.DecoWaterside.RopeCoils.DarkOak.Name"]
+new = "Coiled ropes — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoWaterside.RopeCoils.IvoryTimber.Name"]
+new = "Coiled ropes — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoWaterside.RopeCoils.SageTimber.Name"]
+new = "Coiled ropes — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoWaterside.CrateStack.Boardwalk.Name"]
+new = "Stacked crates — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoWaterside.CrateStack.Cedar.Name"]
+new = "Stacked crates — Cedar"
+status = "normal"
+
+["DecoWorks.DecoWaterside.CrateStack.DarkOak.Name"]
+new = "Stacked crates — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoWaterside.CrateStack.IvoryTimber.Name"]
+new = "Stacked crates — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoWaterside.CrateStack.SageTimber.Name"]
+new = "Stacked crates — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoWaterside.FishingBaskets.Boardwalk.Name"]
+new = "Fishing baskets — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoWaterside.FishingBaskets.Cedar.Name"]
+new = "Fishing baskets — Cedar"
+status = "normal"
+
+["DecoWorks.DecoWaterside.FishingBaskets.DarkOak.Name"]
+new = "Fishing baskets — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoWaterside.FishingBaskets.IvoryTimber.Name"]
+new = "Fishing baskets — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoWaterside.FishingBaskets.SageTimber.Name"]
+new = "Fishing baskets — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoSigns.DistrictMarker.Boardwalk.Name"]
+new = "District marker — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoSigns.DistrictMarker.Cedar.Name"]
+new = "District marker — Cedar"
+status = "normal"
+
+["DecoWorks.DecoSigns.DistrictMarker.DarkOak.Name"]
+new = "District marker — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoSigns.DistrictMarker.IvoryTimber.Name"]
+new = "District marker — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoSigns.DistrictMarker.SageTimber.Name"]
+new = "District marker — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoSigns.BeaverSign.Boardwalk.Name"]
+new = "Beaver sign — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoSigns.BeaverSign.Cedar.Name"]
+new = "Beaver sign — Cedar"
+status = "normal"
+
+["DecoWorks.DecoSigns.BeaverSign.DarkOak.Name"]
+new = "Beaver sign — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoSigns.BeaverSign.IvoryTimber.Name"]
+new = "Beaver sign — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoSigns.BeaverSign.SageTimber.Name"]
+new = "Beaver sign — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoFinishing.CornerRail.Boardwalk.Name"]
+new = "Corner railing — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoFinishing.CornerRail.Cedar.Name"]
+new = "Corner railing — Cedar"
+status = "normal"
+
+["DecoWorks.DecoFinishing.CornerRail.DarkOak.Name"]
+new = "Corner railing — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoFinishing.CornerRail.IvoryTimber.Name"]
+new = "Corner railing — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoFinishing.CornerRail.SageTimber.Name"]
+new = "Corner railing — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoFinishing.CornerRail.IndustrialMetal.Name"]
+new = "Corner railing — Industrial metal"
+status = "normal"
+
+["DecoWorks.DecoFinishing.CornerRail.BrushedMetal.Name"]
+new = "Corner railing — Brushed metal"
+status = "normal"
+
+["DecoWorks.DecoFinishing.LandingRail.Boardwalk.Name"]
+new = "Landing railing — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoFinishing.LandingRail.Cedar.Name"]
+new = "Landing railing — Cedar"
+status = "normal"
+
+["DecoWorks.DecoFinishing.LandingRail.DarkOak.Name"]
+new = "Landing railing — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoFinishing.LandingRail.IvoryTimber.Name"]
+new = "Landing railing — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoFinishing.LandingRail.SageTimber.Name"]
+new = "Landing railing — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoFinishing.LandingRail.IndustrialMetal.Name"]
+new = "Landing railing — Industrial metal"
+status = "normal"
+
+["DecoWorks.DecoFinishing.LandingRail.BrushedMetal.Name"]
+new = "Landing railing — Brushed metal"
+status = "normal"
+
+["DecoWorks.DecoFinishing.EndPost.Boardwalk.Name"]
+new = "Railing end post — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoFinishing.EndPost.Cedar.Name"]
+new = "Railing end post — Cedar"
+status = "normal"
+
+["DecoWorks.DecoFinishing.EndPost.DarkOak.Name"]
+new = "Railing end post — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoFinishing.EndPost.IvoryTimber.Name"]
+new = "Railing end post — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoFinishing.EndPost.SageTimber.Name"]
+new = "Railing end post — Sage timber"
+status = "normal"
+
+["DecoWorks.DecoFinishing.EndPost.IndustrialMetal.Name"]
+new = "Railing end post — Industrial metal"
+status = "normal"
+
+["DecoWorks.DecoFinishing.EndPost.BrushedMetal.Name"]
+new = "Railing end post — Brushed metal"
+status = "normal"
+
+["DecoWorks.DecoFinishing.SmallSign.Boardwalk.Name"]
+new = "Small path sign — Boardwalk"
+status = "normal"
+
+["DecoWorks.DecoFinishing.SmallSign.Cedar.Name"]
+new = "Small path sign — Cedar"
+status = "normal"
+
+["DecoWorks.DecoFinishing.SmallSign.DarkOak.Name"]
+new = "Small path sign — Dark oak"
+status = "normal"
+
+["DecoWorks.DecoFinishing.SmallSign.IvoryTimber.Name"]
+new = "Small path sign — Ivory timber"
+status = "normal"
+
+["DecoWorks.DecoFinishing.SmallSign.SageTimber.Name"]
+new = "Small path sign — Sage timber"
+status = "normal"

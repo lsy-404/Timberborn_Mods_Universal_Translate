@@ -1,0 +1,162 @@
+[_meta]
+name = "Ultimate Planting Tools (UPT)"
+
+["UltimatePlantingTools.MixedForest.Title"]
+new = "Mixed forest"
+status = "normal"
+
+["UltimatePlantingTools.MixedForest.Description"]
+new = "Plants a mix of trees and bushes, shared out by the weights in the panel."
+status = "normal"
+
+["UltimatePlantingTools.MixedCrops.Title"]
+new = "Mixed crops"
+status = "normal"
+
+["UltimatePlantingTools.MixedCrops.Description"]
+new = "Plants a mix of crops, shared out by the weights in the panel."
+status = "normal"
+
+["UltimatePlantingTools.MixedAquatic.Title"]
+new = "Mixed aquatic crops"
+status = "normal"
+
+["UltimatePlantingTools.MixedAquatic.Description"]
+new = "Plants a mix of aquatic crops, shared out by the weights in the panel."
+status = "normal"
+
+["UltimatePlantingTools.PatternForest.Title"]
+new = "Forest in lines"
+status = "normal"
+
+["UltimatePlantingTools.PatternForest.Description"]
+new = "Plants trees and bushes in parallel lines, each species as many lines per cycle as set in the panel, spread apart, repeating. The lines start where you first click."
+status = "normal"
+
+["UltimatePlantingTools.PatternCrops.Title"]
+new = "Crops in lines"
+status = "normal"
+
+["UltimatePlantingTools.PatternCrops.Description"]
+new = "Plants crops in parallel lines, each species as many lines per cycle as set in the panel, spread apart, repeating. The lines start where you first click."
+status = "normal"
+
+["UltimatePlantingTools.PatternAquatic.Title"]
+new = "Aquatic crops in lines"
+status = "normal"
+
+["UltimatePlantingTools.PatternAquatic.Description"]
+new = "Plants aquatic crops in parallel lines, each species as many lines per cycle as set in the panel, spread apart, repeating. The lines start where you first click."
+status = "normal"
+
+["UltimatePlantingTools.Copy.Title"]
+new = "Copy planting"
+status = "normal"
+
+["UltimatePlantingTools.Copy.Description"]
+new = "First drag over plants to copy them, then drag to plant copies. Lines the line tools could plant are continued; anything else is repeated, empty tiles included. Copies start where you first click."
+status = "normal"
+
+["UltimatePlantingTools.Copy.Picking"]
+new = "Drag over plants to copy them."
+status = "normal"
+
+["UltimatePlantingTools.Copy.CopiedPattern"]
+new = "Copied lines. Drag to plant them."
+status = "normal"
+
+["UltimatePlantingTools.Copy.CopiedTiles"]
+new = "Copied an area of {0} by {1}. Drag to plant copies of it."
+status = "normal"
+
+["UltimatePlantingTools.Copy.Again"]
+new = "Copy another area"
+status = "normal"
+
+["UltimatePlantingTools.SpeciesCutting.Title"]
+new = "Cut by species"
+status = "normal"
+
+["UltimatePlantingTools.SpeciesCutting.Description"]
+new = "Marks the trees of the species ticked in the panel for cutting, and can unmark the others."
+status = "normal"
+
+["UltimatePlantingTools.MarkSelected"]
+new = "Mark selected species for cutting"
+status = "normal"
+
+["UltimatePlantingTools.UnmarkOthers"]
+new = "Unmark species that are not selected"
+status = "normal"
+
+["UltimatePlantingTools.MarkDead"]
+new = "Mark all dead trees for cutting"
+status = "normal"
+
+["UltimatePlantingTools.Species"]
+new = "Species"
+status = "normal"
+
+["UltimatePlantingTools.Mode.FullyRandom"]
+new = "Fully random"
+status = "normal"
+
+["UltimatePlantingTools.Mode.Balanced"]
+new = "Balanced"
+status = "normal"
+
+["UltimatePlantingTools.Mode.Regular"]
+new = "Regular"
+status = "normal"
+
+["UltimatePlantingTools.Direction.XAxis"]
+new = "Lines along x"
+status = "normal"
+
+["UltimatePlantingTools.Direction.YAxis"]
+new = "Lines along y"
+status = "normal"
+
+["UltimatePlantingTools.Direction.Diagonal"]
+new = "Diagonal lines (x = y)"
+status = "normal"
+
+["UltimatePlantingTools.Direction.AntiDiagonal"]
+new = "Diagonal lines (x = -y)"
+status = "normal"
+
+["UltimatePlantingTools.Weights"]
+new = "Weights"
+status = "normal"
+
+["UltimatePlantingTools.Widths"]
+new = "Line counts"
+status = "normal"
+
+["UltimatePlantingTools.ReplaceExisting"]
+new = "Replace existing plants"
+status = "normal"
+
+["UltimatePlantingTools.MarkForRemoval"]
+new = "Mark existing plants for removal"
+status = "normal"
+
+["UltimatePlantingTools.RemoveFromCutting"]
+new = "Remove selection from cutting"
+status = "normal"
+
+["UltimatePlantingTools.Settings.TranslucentGhosts"]
+new = "Use translucent planting ghosts"
+status = "normal"
+
+["UltimatePlantingTools.Settings.TranslucentGhostsTooltip"]
+new = "Planting orders' ghosts are drawn see-through, with solid leaf outlines, so whatever stands on the tile shows through."
+status = "normal"
+
+["UltimatePlantingTools.Settings.OpaqueGhostsOnEmptyTiles"]
+new = "Use opaque planting ghosts on empty tiles"
+status = "normal"
+
+["UltimatePlantingTools.Settings.OpaqueGhostsOnEmptyTilesTooltip"]
+new = "Ghosts of planting orders on empty tiles keep the game's own look; only those over another plant are see-through."
+status = "normal"

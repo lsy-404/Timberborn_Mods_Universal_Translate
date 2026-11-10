@@ -1,5 +1,5 @@
 [_meta]
-name = "Time in Map Editor"
+name = "Time in Map Editor (TiME)"
 
 ["TimeInMapEditor.Cycle"]
 raw = "Cycle"

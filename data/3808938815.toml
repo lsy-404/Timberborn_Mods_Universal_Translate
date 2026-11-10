@@ -1,5 +1,5 @@
 [_meta]
-name = "UI Tweaks"
+name = "UI Tweaks (UIT)"
 
 ["UITweaks.Need.Value"]
 raw = "Value: {0} out of {1}"

@@ -2,8 +2,8 @@
 name = "The Post Office"
 
 ["LV.TPO.GroupName"]
-status = "normal"
 raw = "Post Office"
+status = "normal"
 enUS = "Post Office"
 zhCN = "邮局"
 zhTW = "郵局"
@@ -19,8 +19,8 @@ viVN = "Bưu điện"
 trTR = "Postane"
 
 ["LV.TPO.DispatchPostName"]
-status = "normal"
 raw = "Dispatch Post"
+status = "normal"
 enUS = "Dispatch Post"
 zhCN = "派遣站"
 zhTW = "郵件派送站"
@@ -36,8 +36,8 @@ viVN = "Bưu cục điều phối"
 trTR = "Gönderi Noktası"
 
 ["LV.TPO.DispatchPostDesc"]
-status = "normal"
 raw = "Sends goods from this district into shared storage."
+status = "normal"
 enUS = "Sends goods from this district into shared storage."
 zhCN = "将货物从此区运送到共享仓库。"
 zhTW = "將此區的貨物送入共用儲存空間。"
@@ -53,8 +53,8 @@ viVN = "Chuyển hàng hóa từ khu vực này vào kho dùng chung."
 trTR = "Bu bölgeden ortak depoya mal gönderir."
 
 ["LV.TPO.DispatchPostFlavor"]
-status = "normal"
 raw = "'Seal it tight. No chewing until it reaches the other side.'"
+status = "normal"
 enUS = "'Seal it tight. No chewing until it reaches the other side.'"
 zhCN = "“把它封严实。送到另一边之前不许啃。”"
 zhTW = "「封緊一點。送到另一邊之前不准啃。」"
@@ -70,8 +70,8 @@ viVN = "'Niêm phong cho thật kín. Không được nhai cho đến khi nó t�
 trTR = "'Sıkıca kapat. Karşı tarafa ulaşana kadar kemirmek yok.'"
 
 ["LV.TPO.ParcelOfficeName"]
-status = "normal"
 raw = "Parcel Office"
+status = "normal"
 enUS = "Parcel Office"
 zhCN = "包裹邮局"
 zhTW = "包裹郵局"
@@ -87,8 +87,8 @@ viVN = "Văn phòng Bưu kiện"
 trTR = "Kargo Ofisi"
 
 ["LV.TPO.ParcelOfficeDesc"]
-status = "normal"
 raw = "Brings goods out of shared storage for this district."
+status = "normal"
 enUS = "Brings goods out of shared storage for this district."
 zhCN = "为该区从共享仓储中取出货物。"
 zhTW = "為此區從共用倉庫中取出貨物。"
@@ -104,8 +104,8 @@ viVN = "Đưa hàng hóa từ kho dùng chung ra cho khu này."
 trTR = "Bu bölge için ortak depodan eşya getirir."
 
 ["LV.TPO.ParcelOfficeFlavor"]
-status = "normal"
 raw = "It's like Christmas every day. The crates keep coming."
+status = "normal"
 enUS = "It's like Christmas every day. The crates keep coming."
 zhCN = "每天都像过圣诞节一样。箱子源源不断地送来。"
 zhTW = "每天都像在過聖誕節。貨箱源源不絕地送來。"
@@ -121,8 +121,8 @@ viVN = "Cứ như Giáng sinh mỗi ngày. Thùng hàng cứ liên tục đượ
 trTR = "Her gün Noel gibi. Kasalar gelmeye devam ediyor."
 
 ["LV.TPO.HoldingLodgeName"]
-status = "normal"
 raw = "Holding Lodge"
+status = "normal"
 enUS = "Holding Lodge"
 zhCN = "暂存小屋"
 zhTW = "暫留小屋"
@@ -138,8 +138,8 @@ viVN = "Nhà lưu trú"
 trTR = "Bekletme Kulübesi"
 
 ["LV.TPO.HoldingLodgeDesc"]
-status = "normal"
 raw = "Adds shared storage while it is connected to a district. No workers."
+status = "normal"
 enUS = "Adds shared storage while connected to a district. No workers."
 zhCN = "连接到区时会增加共享存储空间。无需工人。"
 zhTW = "連接至區域時，會增加共用儲存空間。無需工人。"
@@ -155,8 +155,8 @@ viVN = "Bổ sung kho dùng chung khi được kết nối với một khu. Khô
 trTR = "Bir bölgeye bağlıyken ortak depolama alanı sağlar. İşçi yok."
 
 ["LV.TPO.HoldingLodgeFlavor"]
-status = "normal"
 raw = "Goods sleep here until a district calls them home."
+status = "normal"
 enUS = "Goods sleep here until a district calls them home."
 zhCN = "货物在这里安睡，直到某个区召唤它们回家。"
 zhTW = "貨物在這裡安睡，直到某個區域呼喚它們回家。"
@@ -172,8 +172,8 @@ viVN = "Hàng hóa ngủ yên ở đây cho đến khi một khu gọi chúng v�
 trTR = "Mallar, bir bölge onları yuvalarına çağırana dek burada uyur."
 
 [Name_PostOfficeSenderFragment]
-status = "normal"
 raw = "Dispatch Post"
+status = "normal"
 enUS = "Dispatch Post"
 zhCN = "邮件派送站"
 zhTW = "郵件寄送站"
@@ -189,8 +189,8 @@ viVN = "Trạm gửi thư"
 trTR = "Gönderi İstasyonu"
 
 [Name_PostOfficeReceiverFragment]
-status = "normal"
 raw = "Parcel Office"
+status = "normal"
 enUS = "Parcel Office"
 zhCN = "包裹收发处"
 zhTW = "包裹郵局"
@@ -206,8 +206,8 @@ viVN = "Bưu cục bưu kiện"
 trTR = "Paket Ofisi"
 
 [Name_PostOfficeInventoryFragment]
-status = "normal"
 raw = "Post Office Storage"
+status = "normal"
 enUS = "Post Office Storage"
 zhCN = "邮局储存仓库"
 zhTW = "郵局儲存空間"
@@ -223,8 +223,8 @@ viVN = "Kho Bưu điện"
 trTR = "Postane Deposu"
 
 ["LV.TPO.EmptyStorage"]
-status = "normal"
 raw = "Nothing stored."
+status = "normal"
 enUS = "Nothing stored."
 zhCN = "未存储任何物品。"
 zhTW = "沒有儲存任何物品。"
@@ -240,8 +240,8 @@ viVN = "Không có gì được lưu trữ."
 trTR = "Depolanan hiçbir şey yok."
 
 ["LV.TPO.StoredWeight"]
-status = "normal"
 raw = "{0} kg"
+status = "normal"
 enUS = "{0} kg"
 zhCN = "{0} kg"
 zhTW = "{0} kg"
@@ -257,8 +257,8 @@ viVN = "{0} kg"
 trTR = "{0} kg"
 
 ["LV.TPO.StoredHere"]
-status = "normal"
 raw = "{0} / {1} kg"
+status = "normal"
 enUS = "{0} / {1} kg"
 zhCN = "{0} / {1} 千克"
 zhTW = "{0} / {1} 公斤"
@@ -274,8 +274,8 @@ viVN = "{0} / {1} kg"
 trTR = "{0} / {1} kg"
 
 [Name_PostOfficeGlobalInventoryFragment]
-status = "normal"
 raw = "Post Office Global Storage"
+status = "normal"
 enUS = "Post Office Global Storage"
 zhCN = "邮局全局储存"
 zhTW = "郵局全域儲存"
@@ -291,8 +291,8 @@ viVN = "Kho lưu trữ toàn cục của Bưu điện"
 trTR = "Postane Genel Deposu"
 
 ["LV.TPO.GlobalWeight"]
-status = "normal"
 raw = "{0} / {1} kg"
+status = "normal"
 enUS = "{0} / {1} kg"
 zhCN = "{0} / {1} 千克"
 zhTW = "{0} / {1} 公斤"
@@ -308,8 +308,8 @@ viVN = "{0} / {1} kg"
 trTR = "{0} / {1} kg"
 
 ["LV.TPO.GlobalWithReserved"]
-status = "normal"
 raw = "{0} / {1} kg ({2} kg reserved)"
+status = "normal"
 enUS = "{0} / {1} kg ({2} kg reserved)"
 zhCN = "{0} / {1} kg（已预留 {2} kg）"
 zhTW = "{0} / {1} kg（已保留 {2} kg）"
@@ -325,8 +325,8 @@ viVN = "{0} / {1} kg ({2} kg được dành riêng)"
 trTR = "{0} / {1} kg ({2} kg ayrılmış)"
 
 ["LV.TPO.GlobalEmpty"]
-status = "normal"
 raw = "Nothing stored."
+status = "normal"
 enUS = "Nothing stored."
 zhCN = "未存储任何物品。"
 zhTW = "沒有儲存任何物品。"
@@ -342,8 +342,8 @@ viVN = "Không có gì được lưu trữ."
 trTR = "Depolanan bir şey yok."
 
 ["LV.TPO.GlobalItems"]
-status = "normal"
 raw = "Items"
+status = "normal"
 enUS = "Items"
 zhCN = "物品"
 zhTW = "物品"
@@ -359,8 +359,8 @@ viVN = "Vật phẩm"
 trTR = "Eşyalar"
 
 ["LV.TPO.GlobalIncoming"]
-status = "normal"
 raw = "Reserved (incoming)"
+status = "normal"
 enUS = "Reserved (incoming)"
 zhCN = "已预留（收件）"
 zhTW = "已預留（送入）"
@@ -376,8 +376,8 @@ viVN = "Dành riêng (thư đến)"
 trTR = "Ayrılmış (gelen)"
 
 ["LV.TPO.AddManual"]
-status = "normal"
 raw = "Add manual order"
+status = "normal"
 enUS = "Add manual order"
 zhCN = "添加手动指令"
 zhTW = "新增手動指令"
@@ -393,8 +393,8 @@ viVN = "Thêm đơn hàng thủ công"
 trTR = "Elle sipariş ekle"
 
 ["LV.TPO.AutoOrder"]
-status = "normal"
 raw = "Auto order"
+status = "normal"
 enUS = "Auto order"
 zhCN = "自动排序"
 zhTW = "自動訂購"
@@ -410,8 +410,8 @@ viVN = "Đơn hàng tự động"
 trTR = "Otomatik sipariş"
 
 ["LV.TPO.ConfigureAuto"]
-status = "normal"
 raw = "Configure auto order"
+status = "normal"
 enUS = "Configure automatic ordering"
 zhCN = "配置自动订单"
 zhTW = "設定自動訂購"
@@ -427,8 +427,8 @@ viVN = "Cấu hình đơn hàng tự động"
 trTR = "Otomatik siparişi yapılandır"
 
 ["LV.TPO.ManualOrder"]
-status = "normal"
 raw = "Manual order"
+status = "normal"
 enUS = "Manual order"
 zhCN = "手动指令"
 zhTW = "手動指令"
@@ -444,8 +444,8 @@ viVN = "Lệnh thủ công"
 trTR = "Elle verilen emir"
 
 ["LV.TPO.SenderAuto"]
-status = "normal"
 raw = "Auto send"
+status = "normal"
 enUS = "Auto-send"
 zhCN = "自动发送"
 zhTW = "自動寄送"
@@ -461,8 +461,8 @@ viVN = "Tự động gửi"
 trTR = "Otomatik gönderim"
 
 ["LV.TPO.InventoryRules"]
-status = "normal"
 raw = "Inventory Rules"
+status = "normal"
 enUS = "Inventory Rules"
 zhCN = "库存规则"
 zhTW = "庫存規則"
@@ -478,8 +478,8 @@ viVN = "Quy tắc kho đồ"
 trTR = "Envanter Kuralları"
 
 ["LV.TPO.SenderAutoHelp"]
-status = "normal"
 raw = "Queues the next parcel when shared stock falls below the target by the margin, so haulers can fill it while a send is underway."
+status = "normal"
 enUS = "Queues the next parcel when shared stock falls below the target by the margin, so haulers can fill it while a send is underway."
 zhCN = "当共享库存低于目标值达到设定幅度时，排入下一份包裹，以便搬运工能在发送过程中将其装满。"
 zhTW = "當共享庫存低於目標值達到差額時，便會排入下一個包裹，讓搬運工能在寄送進行期間將其裝滿。"
@@ -495,8 +495,8 @@ viVN = "Khi lượng hàng tồn chung thấp hơn mục tiêu một khoảng b�
 trTR = "Ortak stok hedefin marj kadar altına düştüğünde, gönderim devam ederken taşıyıcıların doldurabilmesi için sonraki paketi sıraya alır."
 
 ["LV.TPO.ReceiverAutoHelp"]
-status = "normal"
 raw = "Queues one parcel when stock here falls below the amount by the margin, and refills toward that amount."
+status = "normal"
 enUS = "Queues one parcel when stock here falls below the amount by the margin, then refills toward that amount."
 zhCN = "当此处库存低于目标数量减去余量时，会排入一个包裹，并朝该数量补货。"
 zhTW = "當此處庫存低於該數量減去差額時，排入一件包裹，並朝該數量補貨。"
@@ -512,8 +512,8 @@ viVN = "Xếp một kiện hàng vào hàng chờ khi lượng hàng ở đây t
 trTR = "Buradaki stok hedef miktarın belirlenen fark kadar altına düştüğünde bir paketi sıraya alır ve stoku hedef miktara doğru tamamlar."
 
 ["LV.TPO.ReceiverAuto"]
-status = "normal"
 raw = "Keep in this building"
+status = "normal"
 enUS = "Keep in this building"
 zhCN = "留在这栋建筑内"
 zhTW = "存放於此建築物內"
@@ -529,8 +529,8 @@ viVN = "Giữ trong tòa nhà này"
 trTR = "Bu binada tut"
 
 ["LV.TPO.Add"]
-status = "normal"
 raw = "Add"
+status = "normal"
 enUS = "Add"
 zhCN = "添加"
 zhTW = "新增"
@@ -546,8 +546,8 @@ viVN = "Thêm"
 trTR = "Ekle"
 
 ["LV.TPO.Confirm"]
-status = "normal"
 raw = "Confirm"
+status = "normal"
 enUS = "Confirm"
 zhCN = "确认"
 zhTW = "確認"

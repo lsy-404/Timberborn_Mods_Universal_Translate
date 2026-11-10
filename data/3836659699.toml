@@ -1,0 +1,22 @@
+[_meta]
+name = "Projeto Gênese"
+
+["Genese.Mode.DisplayName"]
+new = "Project Genesis"
+status = "normal"
+
+["Genese.Mode.Description"]
+new = "Fixed challenge settings on any map. One adult, no food, a permanent zero-input breeding pod. No old-age deaths. The first beaver death or a blocked mandatory birth ends the run."
+status = "normal"
+
+["Genese.Pod.DisplayName"]
+new = "Genesis Breeding Pod"
+status = "normal"
+
+["Genese.Pod.Description"]
+new = "Permanent breeding pod, always running, no water or berries required."
+status = "normal"
+
+["Genese.Pod.Flavor"]
+new = "Where it all begins."
+status = "normal"

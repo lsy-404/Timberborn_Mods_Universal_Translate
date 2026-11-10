@@ -1,5 +1,5 @@
 [_meta]
-name = "Beaver Outhouses"
+name = "Beaver Outhouses & Bathhouse"
 
 ["Need.Outhouse.DisplayName"]
 new = "Outhouse"
@@ -59,4 +59,20 @@ status = "normal"
 
 ["Building.FertilizerSpreader.FlavorDescription"]
 new = "Nothing goes to waste."
+status = "normal"
+
+["Need.Bathhouse.DisplayName"]
+new = "Bathhouse"
+status = "normal"
+
+["Building.BathhouseSauna.DisplayName"]
+new = "Bathhouse & Sauna"
+status = "normal"
+
+["Building.BathhouseSauna.Description"]
+new = "A hot tub and a sauna under one roof for up to 8 beavers. A visit fills the Sauna, Wet Fur and Bathhouse needs. Burns 0.3 logs an hour."
+status = "normal"
+
+["Building.BathhouseSauna.FlavorDescription"]
+new = "Scrub the tail. Steam the whiskers."
 status = "normal"

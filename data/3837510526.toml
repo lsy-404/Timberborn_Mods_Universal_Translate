@@ -1,0 +1,2438 @@
+[_meta]
+name = "BridgeWorks"
+
+["Bridgeworks.Description"]
+new = "A decorative bridge with standard suspension-bridge walking connections."
+status = "normal"
+
+["Bridgeworks.Supported.Description"]
+new = "Deck is one level above the base. Connect paths or stairs at deck height. Ground or platforms must support the marked legs or abutments."
+status = "normal"
+
+["Bridgeworks.Covered.Description"]
+new = "A roofed timber bridge. Reserves two levels for the deck, posts and roof."
+status = "normal"
+
+["Bridgeworks.Suspension.Cobblestone.1.Name"]
+new = "Cobblestone suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.Cobblestone.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Cobblestone.2.Name"]
+new = "Cobblestone suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.Cobblestone.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Cobblestone.3.Name"]
+new = "Cobblestone suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.Cobblestone.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Cobblestone.4.Name"]
+new = "Cobblestone suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.Cobblestone.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Cobblestone.5.Name"]
+new = "Cobblestone suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.Cobblestone.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Cobblestone.6.Name"]
+new = "Cobblestone suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.Cobblestone.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Slate.1.Name"]
+new = "Slate suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.Slate.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Slate.2.Name"]
+new = "Slate suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.Slate.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Slate.3.Name"]
+new = "Slate suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.Slate.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Slate.4.Name"]
+new = "Slate suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.Slate.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Slate.5.Name"]
+new = "Slate suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.Slate.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Slate.6.Name"]
+new = "Slate suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.Slate.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Sandstone.1.Name"]
+new = "Sandstone suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.Sandstone.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Sandstone.2.Name"]
+new = "Sandstone suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.Sandstone.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Sandstone.3.Name"]
+new = "Sandstone suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.Sandstone.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Sandstone.4.Name"]
+new = "Sandstone suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.Sandstone.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Sandstone.5.Name"]
+new = "Sandstone suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.Sandstone.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Sandstone.6.Name"]
+new = "Sandstone suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.Sandstone.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.MossyStone.1.Name"]
+new = "Mossy stone suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.MossyStone.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.MossyStone.2.Name"]
+new = "Mossy stone suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.MossyStone.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.MossyStone.3.Name"]
+new = "Mossy stone suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.MossyStone.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.MossyStone.4.Name"]
+new = "Mossy stone suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.MossyStone.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.MossyStone.5.Name"]
+new = "Mossy stone suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.MossyStone.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.MossyStone.6.Name"]
+new = "Mossy stone suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.MossyStone.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Flagstone.1.Name"]
+new = "Flagstone suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.Flagstone.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Flagstone.2.Name"]
+new = "Flagstone suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.Flagstone.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Flagstone.3.Name"]
+new = "Flagstone suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.Flagstone.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Flagstone.4.Name"]
+new = "Flagstone suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.Flagstone.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Flagstone.5.Name"]
+new = "Flagstone suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.Flagstone.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Flagstone.6.Name"]
+new = "Flagstone suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.Flagstone.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DarkGravel.1.Name"]
+new = "Dark gravel suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.DarkGravel.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DarkGravel.2.Name"]
+new = "Dark gravel suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.DarkGravel.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DarkGravel.3.Name"]
+new = "Dark gravel suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.DarkGravel.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DarkGravel.4.Name"]
+new = "Dark gravel suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.DarkGravel.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DarkGravel.5.Name"]
+new = "Dark gravel suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.DarkGravel.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DarkGravel.6.Name"]
+new = "Dark gravel suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.DarkGravel.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.LightGravel.1.Name"]
+new = "Light gravel suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.LightGravel.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.LightGravel.2.Name"]
+new = "Light gravel suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.LightGravel.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.LightGravel.3.Name"]
+new = "Light gravel suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.LightGravel.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.LightGravel.4.Name"]
+new = "Light gravel suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.LightGravel.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.LightGravel.5.Name"]
+new = "Light gravel suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.LightGravel.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.LightGravel.6.Name"]
+new = "Light gravel suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.LightGravel.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.ClayBrick.1.Name"]
+new = "Clay brick suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.ClayBrick.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.ClayBrick.2.Name"]
+new = "Clay brick suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.ClayBrick.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.ClayBrick.3.Name"]
+new = "Clay brick suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.ClayBrick.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.ClayBrick.4.Name"]
+new = "Clay brick suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.ClayBrick.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.ClayBrick.5.Name"]
+new = "Clay brick suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.ClayBrick.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.ClayBrick.6.Name"]
+new = "Clay brick suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.ClayBrick.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.RedBrick.1.Name"]
+new = "Herringbone brick suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.RedBrick.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.RedBrick.2.Name"]
+new = "Herringbone brick suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.RedBrick.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.RedBrick.3.Name"]
+new = "Herringbone brick suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.RedBrick.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.RedBrick.4.Name"]
+new = "Herringbone brick suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.RedBrick.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.RedBrick.5.Name"]
+new = "Herringbone brick suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.RedBrick.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.RedBrick.6.Name"]
+new = "Herringbone brick suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.RedBrick.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.CreamBrick.1.Name"]
+new = "Cream brick suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.CreamBrick.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.CreamBrick.2.Name"]
+new = "Cream brick suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.CreamBrick.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.CreamBrick.3.Name"]
+new = "Cream brick suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.CreamBrick.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.CreamBrick.4.Name"]
+new = "Cream brick suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.CreamBrick.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.CreamBrick.5.Name"]
+new = "Cream brick suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.CreamBrick.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.CreamBrick.6.Name"]
+new = "Cream brick suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.CreamBrick.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DecorativeTile.1.Name"]
+new = "Decorative tile suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.DecorativeTile.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DecorativeTile.2.Name"]
+new = "Decorative tile suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.DecorativeTile.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DecorativeTile.3.Name"]
+new = "Decorative tile suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.DecorativeTile.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DecorativeTile.4.Name"]
+new = "Decorative tile suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.DecorativeTile.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DecorativeTile.5.Name"]
+new = "Decorative tile suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.DecorativeTile.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DecorativeTile.6.Name"]
+new = "Decorative tile suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.DecorativeTile.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.PondMosaic.1.Name"]
+new = "Pond mosaic suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.PondMosaic.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.PondMosaic.2.Name"]
+new = "Pond mosaic suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.PondMosaic.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.PondMosaic.3.Name"]
+new = "Pond mosaic suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.PondMosaic.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.PondMosaic.4.Name"]
+new = "Pond mosaic suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.PondMosaic.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.PondMosaic.5.Name"]
+new = "Pond mosaic suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.PondMosaic.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.PondMosaic.6.Name"]
+new = "Pond mosaic suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.PondMosaic.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Boardwalk.1.Name"]
+new = "Boardwalk suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.Boardwalk.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Boardwalk.2.Name"]
+new = "Boardwalk suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.Boardwalk.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Boardwalk.3.Name"]
+new = "Boardwalk suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.Boardwalk.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Boardwalk.4.Name"]
+new = "Boardwalk suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.Boardwalk.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Boardwalk.5.Name"]
+new = "Boardwalk suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.Boardwalk.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Boardwalk.6.Name"]
+new = "Boardwalk suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.Boardwalk.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Cedar.1.Name"]
+new = "Cedar suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.Cedar.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Cedar.2.Name"]
+new = "Cedar suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.Cedar.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Cedar.3.Name"]
+new = "Cedar suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.Cedar.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Cedar.4.Name"]
+new = "Cedar suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.Cedar.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Cedar.5.Name"]
+new = "Cedar suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.Cedar.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.Cedar.6.Name"]
+new = "Cedar suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.Cedar.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DarkOak.1.Name"]
+new = "Dark oak suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.DarkOak.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DarkOak.2.Name"]
+new = "Dark oak suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.DarkOak.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DarkOak.3.Name"]
+new = "Dark oak suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.DarkOak.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DarkOak.4.Name"]
+new = "Dark oak suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.DarkOak.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DarkOak.5.Name"]
+new = "Dark oak suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.DarkOak.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.DarkOak.6.Name"]
+new = "Dark oak suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.DarkOak.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.IvoryTimber.1.Name"]
+new = "Ivory timber suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.IvoryTimber.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.IvoryTimber.2.Name"]
+new = "Ivory timber suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.IvoryTimber.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.IvoryTimber.3.Name"]
+new = "Ivory timber suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.IvoryTimber.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.IvoryTimber.4.Name"]
+new = "Ivory timber suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.IvoryTimber.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.IvoryTimber.5.Name"]
+new = "Ivory timber suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.IvoryTimber.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.IvoryTimber.6.Name"]
+new = "Ivory timber suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.IvoryTimber.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.SageTimber.1.Name"]
+new = "Sage timber suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.SageTimber.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.SageTimber.2.Name"]
+new = "Sage timber suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.SageTimber.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.SageTimber.3.Name"]
+new = "Sage timber suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.SageTimber.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.SageTimber.4.Name"]
+new = "Sage timber suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.SageTimber.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.SageTimber.5.Name"]
+new = "Sage timber suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.SageTimber.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.SageTimber.6.Name"]
+new = "Sage timber suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.SageTimber.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.IndustrialMetal.1.Name"]
+new = "Industrial metal suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.IndustrialMetal.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.IndustrialMetal.2.Name"]
+new = "Industrial metal suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.IndustrialMetal.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.IndustrialMetal.3.Name"]
+new = "Industrial metal suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.IndustrialMetal.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.IndustrialMetal.4.Name"]
+new = "Industrial metal suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.IndustrialMetal.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.IndustrialMetal.5.Name"]
+new = "Industrial metal suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.IndustrialMetal.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.IndustrialMetal.6.Name"]
+new = "Industrial metal suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.IndustrialMetal.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.BrushedMetal.1.Name"]
+new = "Brushed metal suspension bridge (1)"
+status = "normal"
+
+["Bridgeworks.Suspension.BrushedMetal.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.BrushedMetal.2.Name"]
+new = "Brushed metal suspension bridge (2)"
+status = "normal"
+
+["Bridgeworks.Suspension.BrushedMetal.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.BrushedMetal.3.Name"]
+new = "Brushed metal suspension bridge (3)"
+status = "normal"
+
+["Bridgeworks.Suspension.BrushedMetal.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.BrushedMetal.4.Name"]
+new = "Brushed metal suspension bridge (4)"
+status = "normal"
+
+["Bridgeworks.Suspension.BrushedMetal.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.BrushedMetal.5.Name"]
+new = "Brushed metal suspension bridge (5)"
+status = "normal"
+
+["Bridgeworks.Suspension.BrushedMetal.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Suspension.BrushedMetal.6.Name"]
+new = "Brushed metal suspension bridge (6)"
+status = "normal"
+
+["Bridgeworks.Suspension.BrushedMetal.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.Boardwalk.1.Name"]
+new = "Boardwalk timber truss bridge (1)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.Boardwalk.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.Boardwalk.2.Name"]
+new = "Boardwalk timber truss bridge (2)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.Boardwalk.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.Boardwalk.3.Name"]
+new = "Boardwalk timber truss bridge (3)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.Boardwalk.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.Boardwalk.4.Name"]
+new = "Boardwalk timber truss bridge (4)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.Boardwalk.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.Boardwalk.5.Name"]
+new = "Boardwalk timber truss bridge (5)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.Boardwalk.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.Boardwalk.6.Name"]
+new = "Boardwalk timber truss bridge (6)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.Boardwalk.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.Cedar.1.Name"]
+new = "Cedar timber truss bridge (1)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.Cedar.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.Cedar.2.Name"]
+new = "Cedar timber truss bridge (2)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.Cedar.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.Cedar.3.Name"]
+new = "Cedar timber truss bridge (3)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.Cedar.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.Cedar.4.Name"]
+new = "Cedar timber truss bridge (4)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.Cedar.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.Cedar.5.Name"]
+new = "Cedar timber truss bridge (5)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.Cedar.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.Cedar.6.Name"]
+new = "Cedar timber truss bridge (6)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.Cedar.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.DarkOak.1.Name"]
+new = "Dark oak timber truss bridge (1)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.DarkOak.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.DarkOak.2.Name"]
+new = "Dark oak timber truss bridge (2)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.DarkOak.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.DarkOak.3.Name"]
+new = "Dark oak timber truss bridge (3)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.DarkOak.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.DarkOak.4.Name"]
+new = "Dark oak timber truss bridge (4)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.DarkOak.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.DarkOak.5.Name"]
+new = "Dark oak timber truss bridge (5)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.DarkOak.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.DarkOak.6.Name"]
+new = "Dark oak timber truss bridge (6)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.DarkOak.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.IvoryTimber.1.Name"]
+new = "Ivory timber timber truss bridge (1)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.IvoryTimber.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.IvoryTimber.2.Name"]
+new = "Ivory timber timber truss bridge (2)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.IvoryTimber.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.IvoryTimber.3.Name"]
+new = "Ivory timber timber truss bridge (3)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.IvoryTimber.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.IvoryTimber.4.Name"]
+new = "Ivory timber timber truss bridge (4)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.IvoryTimber.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.IvoryTimber.5.Name"]
+new = "Ivory timber timber truss bridge (5)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.IvoryTimber.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.IvoryTimber.6.Name"]
+new = "Ivory timber timber truss bridge (6)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.IvoryTimber.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.SageTimber.1.Name"]
+new = "Sage timber timber truss bridge (1)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.SageTimber.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.SageTimber.2.Name"]
+new = "Sage timber timber truss bridge (2)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.SageTimber.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.SageTimber.3.Name"]
+new = "Sage timber timber truss bridge (3)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.SageTimber.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.SageTimber.4.Name"]
+new = "Sage timber timber truss bridge (4)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.SageTimber.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.SageTimber.5.Name"]
+new = "Sage timber timber truss bridge (5)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.SageTimber.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTruss.SageTimber.6.Name"]
+new = "Sage timber timber truss bridge (6)"
+status = "normal"
+
+["Bridgeworks.TimberTruss.SageTimber.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MetalTruss.IndustrialMetal.1.Name"]
+new = "Industrial metal metal truss bridge (1)"
+status = "normal"
+
+["Bridgeworks.MetalTruss.IndustrialMetal.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MetalTruss.IndustrialMetal.2.Name"]
+new = "Industrial metal metal truss bridge (2)"
+status = "normal"
+
+["Bridgeworks.MetalTruss.IndustrialMetal.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MetalTruss.IndustrialMetal.3.Name"]
+new = "Industrial metal metal truss bridge (3)"
+status = "normal"
+
+["Bridgeworks.MetalTruss.IndustrialMetal.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MetalTruss.IndustrialMetal.4.Name"]
+new = "Industrial metal metal truss bridge (4)"
+status = "normal"
+
+["Bridgeworks.MetalTruss.IndustrialMetal.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MetalTruss.IndustrialMetal.5.Name"]
+new = "Industrial metal metal truss bridge (5)"
+status = "normal"
+
+["Bridgeworks.MetalTruss.IndustrialMetal.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MetalTruss.IndustrialMetal.6.Name"]
+new = "Industrial metal metal truss bridge (6)"
+status = "normal"
+
+["Bridgeworks.MetalTruss.IndustrialMetal.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MetalTruss.BrushedMetal.1.Name"]
+new = "Brushed metal metal truss bridge (1)"
+status = "normal"
+
+["Bridgeworks.MetalTruss.BrushedMetal.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MetalTruss.BrushedMetal.2.Name"]
+new = "Brushed metal metal truss bridge (2)"
+status = "normal"
+
+["Bridgeworks.MetalTruss.BrushedMetal.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MetalTruss.BrushedMetal.3.Name"]
+new = "Brushed metal metal truss bridge (3)"
+status = "normal"
+
+["Bridgeworks.MetalTruss.BrushedMetal.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MetalTruss.BrushedMetal.4.Name"]
+new = "Brushed metal metal truss bridge (4)"
+status = "normal"
+
+["Bridgeworks.MetalTruss.BrushedMetal.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MetalTruss.BrushedMetal.5.Name"]
+new = "Brushed metal metal truss bridge (5)"
+status = "normal"
+
+["Bridgeworks.MetalTruss.BrushedMetal.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MetalTruss.BrushedMetal.6.Name"]
+new = "Brushed metal metal truss bridge (6)"
+status = "normal"
+
+["Bridgeworks.MetalTruss.BrushedMetal.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RusticBeam.Boardwalk.1.Name"]
+new = "Boardwalk rustic beam bridge (1)"
+status = "normal"
+
+["Bridgeworks.RusticBeam.Boardwalk.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RusticBeam.Boardwalk.2.Name"]
+new = "Boardwalk rustic beam bridge (2)"
+status = "normal"
+
+["Bridgeworks.RusticBeam.Boardwalk.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RusticBeam.Boardwalk.3.Name"]
+new = "Boardwalk rustic beam bridge (3)"
+status = "normal"
+
+["Bridgeworks.RusticBeam.Boardwalk.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RusticBeam.Cedar.1.Name"]
+new = "Cedar rustic beam bridge (1)"
+status = "normal"
+
+["Bridgeworks.RusticBeam.Cedar.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RusticBeam.Cedar.2.Name"]
+new = "Cedar rustic beam bridge (2)"
+status = "normal"
+
+["Bridgeworks.RusticBeam.Cedar.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RusticBeam.Cedar.3.Name"]
+new = "Cedar rustic beam bridge (3)"
+status = "normal"
+
+["Bridgeworks.RusticBeam.Cedar.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RusticBeam.DarkOak.1.Name"]
+new = "Dark oak rustic beam bridge (1)"
+status = "normal"
+
+["Bridgeworks.RusticBeam.DarkOak.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RusticBeam.DarkOak.2.Name"]
+new = "Dark oak rustic beam bridge (2)"
+status = "normal"
+
+["Bridgeworks.RusticBeam.DarkOak.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RusticBeam.DarkOak.3.Name"]
+new = "Dark oak rustic beam bridge (3)"
+status = "normal"
+
+["Bridgeworks.RusticBeam.DarkOak.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RusticBeam.IvoryTimber.1.Name"]
+new = "Ivory timber rustic beam bridge (1)"
+status = "normal"
+
+["Bridgeworks.RusticBeam.IvoryTimber.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RusticBeam.IvoryTimber.2.Name"]
+new = "Ivory timber rustic beam bridge (2)"
+status = "normal"
+
+["Bridgeworks.RusticBeam.IvoryTimber.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RusticBeam.IvoryTimber.3.Name"]
+new = "Ivory timber rustic beam bridge (3)"
+status = "normal"
+
+["Bridgeworks.RusticBeam.IvoryTimber.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RusticBeam.SageTimber.1.Name"]
+new = "Sage timber rustic beam bridge (1)"
+status = "normal"
+
+["Bridgeworks.RusticBeam.SageTimber.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RusticBeam.SageTimber.2.Name"]
+new = "Sage timber rustic beam bridge (2)"
+status = "normal"
+
+["Bridgeworks.RusticBeam.SageTimber.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RusticBeam.SageTimber.3.Name"]
+new = "Sage timber rustic beam bridge (3)"
+status = "normal"
+
+["Bridgeworks.RusticBeam.SageTimber.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Boardwalk.1.Name"]
+new = "Boardwalk timber trestle bridge (1)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Boardwalk.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Boardwalk.2.Name"]
+new = "Boardwalk timber trestle bridge (2)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Boardwalk.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Boardwalk.3.Name"]
+new = "Boardwalk timber trestle bridge (3)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Boardwalk.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Boardwalk.4.Name"]
+new = "Boardwalk timber trestle bridge (4)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Boardwalk.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Boardwalk.5.Name"]
+new = "Boardwalk timber trestle bridge (5)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Boardwalk.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Boardwalk.6.Name"]
+new = "Boardwalk timber trestle bridge (6)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Boardwalk.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Cedar.1.Name"]
+new = "Cedar timber trestle bridge (1)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Cedar.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Cedar.2.Name"]
+new = "Cedar timber trestle bridge (2)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Cedar.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Cedar.3.Name"]
+new = "Cedar timber trestle bridge (3)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Cedar.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Cedar.4.Name"]
+new = "Cedar timber trestle bridge (4)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Cedar.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Cedar.5.Name"]
+new = "Cedar timber trestle bridge (5)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Cedar.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Cedar.6.Name"]
+new = "Cedar timber trestle bridge (6)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.Cedar.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.DarkOak.1.Name"]
+new = "Dark oak timber trestle bridge (1)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.DarkOak.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.DarkOak.2.Name"]
+new = "Dark oak timber trestle bridge (2)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.DarkOak.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.DarkOak.3.Name"]
+new = "Dark oak timber trestle bridge (3)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.DarkOak.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.DarkOak.4.Name"]
+new = "Dark oak timber trestle bridge (4)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.DarkOak.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.DarkOak.5.Name"]
+new = "Dark oak timber trestle bridge (5)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.DarkOak.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.DarkOak.6.Name"]
+new = "Dark oak timber trestle bridge (6)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.DarkOak.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.IvoryTimber.1.Name"]
+new = "Ivory timber timber trestle bridge (1)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.IvoryTimber.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.IvoryTimber.2.Name"]
+new = "Ivory timber timber trestle bridge (2)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.IvoryTimber.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.IvoryTimber.3.Name"]
+new = "Ivory timber timber trestle bridge (3)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.IvoryTimber.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.IvoryTimber.4.Name"]
+new = "Ivory timber timber trestle bridge (4)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.IvoryTimber.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.IvoryTimber.5.Name"]
+new = "Ivory timber timber trestle bridge (5)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.IvoryTimber.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.IvoryTimber.6.Name"]
+new = "Ivory timber timber trestle bridge (6)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.IvoryTimber.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.SageTimber.1.Name"]
+new = "Sage timber timber trestle bridge (1)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.SageTimber.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.SageTimber.2.Name"]
+new = "Sage timber timber trestle bridge (2)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.SageTimber.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.SageTimber.3.Name"]
+new = "Sage timber timber trestle bridge (3)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.SageTimber.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.SageTimber.4.Name"]
+new = "Sage timber timber trestle bridge (4)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.SageTimber.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.SageTimber.5.Name"]
+new = "Sage timber timber trestle bridge (5)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.SageTimber.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.TimberTrestle.SageTimber.6.Name"]
+new = "Sage timber timber trestle bridge (6)"
+status = "normal"
+
+["Bridgeworks.TimberTrestle.SageTimber.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.Boardwalk.1.Name"]
+new = "Boardwalk covered bridge (1)"
+status = "normal"
+
+["Bridgeworks.Covered.Boardwalk.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.Boardwalk.2.Name"]
+new = "Boardwalk covered bridge (2)"
+status = "normal"
+
+["Bridgeworks.Covered.Boardwalk.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.Boardwalk.3.Name"]
+new = "Boardwalk covered bridge (3)"
+status = "normal"
+
+["Bridgeworks.Covered.Boardwalk.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.Boardwalk.4.Name"]
+new = "Boardwalk covered bridge (4)"
+status = "normal"
+
+["Bridgeworks.Covered.Boardwalk.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.Boardwalk.5.Name"]
+new = "Boardwalk covered bridge (5)"
+status = "normal"
+
+["Bridgeworks.Covered.Boardwalk.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.Boardwalk.6.Name"]
+new = "Boardwalk covered bridge (6)"
+status = "normal"
+
+["Bridgeworks.Covered.Boardwalk.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.Cedar.1.Name"]
+new = "Cedar covered bridge (1)"
+status = "normal"
+
+["Bridgeworks.Covered.Cedar.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.Cedar.2.Name"]
+new = "Cedar covered bridge (2)"
+status = "normal"
+
+["Bridgeworks.Covered.Cedar.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.Cedar.3.Name"]
+new = "Cedar covered bridge (3)"
+status = "normal"
+
+["Bridgeworks.Covered.Cedar.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.Cedar.4.Name"]
+new = "Cedar covered bridge (4)"
+status = "normal"
+
+["Bridgeworks.Covered.Cedar.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.Cedar.5.Name"]
+new = "Cedar covered bridge (5)"
+status = "normal"
+
+["Bridgeworks.Covered.Cedar.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.Cedar.6.Name"]
+new = "Cedar covered bridge (6)"
+status = "normal"
+
+["Bridgeworks.Covered.Cedar.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.DarkOak.1.Name"]
+new = "Dark oak covered bridge (1)"
+status = "normal"
+
+["Bridgeworks.Covered.DarkOak.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.DarkOak.2.Name"]
+new = "Dark oak covered bridge (2)"
+status = "normal"
+
+["Bridgeworks.Covered.DarkOak.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.DarkOak.3.Name"]
+new = "Dark oak covered bridge (3)"
+status = "normal"
+
+["Bridgeworks.Covered.DarkOak.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.DarkOak.4.Name"]
+new = "Dark oak covered bridge (4)"
+status = "normal"
+
+["Bridgeworks.Covered.DarkOak.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.DarkOak.5.Name"]
+new = "Dark oak covered bridge (5)"
+status = "normal"
+
+["Bridgeworks.Covered.DarkOak.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.DarkOak.6.Name"]
+new = "Dark oak covered bridge (6)"
+status = "normal"
+
+["Bridgeworks.Covered.DarkOak.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.IvoryTimber.1.Name"]
+new = "Ivory timber covered bridge (1)"
+status = "normal"
+
+["Bridgeworks.Covered.IvoryTimber.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.IvoryTimber.2.Name"]
+new = "Ivory timber covered bridge (2)"
+status = "normal"
+
+["Bridgeworks.Covered.IvoryTimber.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.IvoryTimber.3.Name"]
+new = "Ivory timber covered bridge (3)"
+status = "normal"
+
+["Bridgeworks.Covered.IvoryTimber.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.IvoryTimber.4.Name"]
+new = "Ivory timber covered bridge (4)"
+status = "normal"
+
+["Bridgeworks.Covered.IvoryTimber.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.IvoryTimber.5.Name"]
+new = "Ivory timber covered bridge (5)"
+status = "normal"
+
+["Bridgeworks.Covered.IvoryTimber.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.IvoryTimber.6.Name"]
+new = "Ivory timber covered bridge (6)"
+status = "normal"
+
+["Bridgeworks.Covered.IvoryTimber.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.SageTimber.1.Name"]
+new = "Sage timber covered bridge (1)"
+status = "normal"
+
+["Bridgeworks.Covered.SageTimber.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.SageTimber.2.Name"]
+new = "Sage timber covered bridge (2)"
+status = "normal"
+
+["Bridgeworks.Covered.SageTimber.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.SageTimber.3.Name"]
+new = "Sage timber covered bridge (3)"
+status = "normal"
+
+["Bridgeworks.Covered.SageTimber.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.SageTimber.4.Name"]
+new = "Sage timber covered bridge (4)"
+status = "normal"
+
+["Bridgeworks.Covered.SageTimber.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.SageTimber.5.Name"]
+new = "Sage timber covered bridge (5)"
+status = "normal"
+
+["Bridgeworks.Covered.SageTimber.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.Covered.SageTimber.6.Name"]
+new = "Sage timber covered bridge (6)"
+status = "normal"
+
+["Bridgeworks.Covered.SageTimber.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Cobblestone.1.Name"]
+new = "Cobblestone masonry arch bridge (1)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Cobblestone.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Cobblestone.2.Name"]
+new = "Cobblestone masonry arch bridge (2)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Cobblestone.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Cobblestone.3.Name"]
+new = "Cobblestone masonry arch bridge (3)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Cobblestone.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Cobblestone.4.Name"]
+new = "Cobblestone masonry arch bridge (4)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Cobblestone.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Cobblestone.5.Name"]
+new = "Cobblestone masonry arch bridge (5)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Cobblestone.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Cobblestone.6.Name"]
+new = "Cobblestone masonry arch bridge (6)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Cobblestone.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Slate.1.Name"]
+new = "Slate masonry arch bridge (1)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Slate.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Slate.2.Name"]
+new = "Slate masonry arch bridge (2)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Slate.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Slate.3.Name"]
+new = "Slate masonry arch bridge (3)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Slate.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Slate.4.Name"]
+new = "Slate masonry arch bridge (4)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Slate.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Slate.5.Name"]
+new = "Slate masonry arch bridge (5)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Slate.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Slate.6.Name"]
+new = "Slate masonry arch bridge (6)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Slate.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Sandstone.1.Name"]
+new = "Sandstone masonry arch bridge (1)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Sandstone.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Sandstone.2.Name"]
+new = "Sandstone masonry arch bridge (2)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Sandstone.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Sandstone.3.Name"]
+new = "Sandstone masonry arch bridge (3)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Sandstone.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Sandstone.4.Name"]
+new = "Sandstone masonry arch bridge (4)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Sandstone.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Sandstone.5.Name"]
+new = "Sandstone masonry arch bridge (5)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Sandstone.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Sandstone.6.Name"]
+new = "Sandstone masonry arch bridge (6)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Sandstone.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.MossyStone.1.Name"]
+new = "Mossy stone masonry arch bridge (1)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.MossyStone.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.MossyStone.2.Name"]
+new = "Mossy stone masonry arch bridge (2)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.MossyStone.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.MossyStone.3.Name"]
+new = "Mossy stone masonry arch bridge (3)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.MossyStone.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.MossyStone.4.Name"]
+new = "Mossy stone masonry arch bridge (4)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.MossyStone.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.MossyStone.5.Name"]
+new = "Mossy stone masonry arch bridge (5)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.MossyStone.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.MossyStone.6.Name"]
+new = "Mossy stone masonry arch bridge (6)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.MossyStone.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Flagstone.1.Name"]
+new = "Flagstone masonry arch bridge (1)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Flagstone.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Flagstone.2.Name"]
+new = "Flagstone masonry arch bridge (2)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Flagstone.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Flagstone.3.Name"]
+new = "Flagstone masonry arch bridge (3)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Flagstone.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Flagstone.4.Name"]
+new = "Flagstone masonry arch bridge (4)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Flagstone.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Flagstone.5.Name"]
+new = "Flagstone masonry arch bridge (5)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Flagstone.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.Flagstone.6.Name"]
+new = "Flagstone masonry arch bridge (6)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.Flagstone.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.ClayBrick.1.Name"]
+new = "Clay brick masonry arch bridge (1)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.ClayBrick.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.ClayBrick.2.Name"]
+new = "Clay brick masonry arch bridge (2)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.ClayBrick.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.ClayBrick.3.Name"]
+new = "Clay brick masonry arch bridge (3)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.ClayBrick.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.ClayBrick.4.Name"]
+new = "Clay brick masonry arch bridge (4)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.ClayBrick.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.ClayBrick.5.Name"]
+new = "Clay brick masonry arch bridge (5)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.ClayBrick.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.ClayBrick.6.Name"]
+new = "Clay brick masonry arch bridge (6)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.ClayBrick.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.CreamBrick.1.Name"]
+new = "Cream brick masonry arch bridge (1)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.CreamBrick.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.CreamBrick.2.Name"]
+new = "Cream brick masonry arch bridge (2)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.CreamBrick.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.CreamBrick.3.Name"]
+new = "Cream brick masonry arch bridge (3)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.CreamBrick.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.CreamBrick.4.Name"]
+new = "Cream brick masonry arch bridge (4)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.CreamBrick.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.CreamBrick.5.Name"]
+new = "Cream brick masonry arch bridge (5)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.CreamBrick.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.MasonryArch.CreamBrick.6.Name"]
+new = "Cream brick masonry arch bridge (6)"
+status = "normal"
+
+["Bridgeworks.MasonryArch.CreamBrick.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Boardwalk.1.Name"]
+new = "Boardwalk rope footbridge bridge (1)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Boardwalk.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Boardwalk.2.Name"]
+new = "Boardwalk rope footbridge bridge (2)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Boardwalk.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Boardwalk.3.Name"]
+new = "Boardwalk rope footbridge bridge (3)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Boardwalk.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Boardwalk.4.Name"]
+new = "Boardwalk rope footbridge bridge (4)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Boardwalk.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Boardwalk.5.Name"]
+new = "Boardwalk rope footbridge bridge (5)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Boardwalk.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Boardwalk.6.Name"]
+new = "Boardwalk rope footbridge bridge (6)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Boardwalk.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Cedar.1.Name"]
+new = "Cedar rope footbridge bridge (1)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Cedar.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Cedar.2.Name"]
+new = "Cedar rope footbridge bridge (2)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Cedar.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Cedar.3.Name"]
+new = "Cedar rope footbridge bridge (3)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Cedar.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Cedar.4.Name"]
+new = "Cedar rope footbridge bridge (4)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Cedar.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Cedar.5.Name"]
+new = "Cedar rope footbridge bridge (5)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Cedar.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Cedar.6.Name"]
+new = "Cedar rope footbridge bridge (6)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.Cedar.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.DarkOak.1.Name"]
+new = "Dark oak rope footbridge bridge (1)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.DarkOak.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.DarkOak.2.Name"]
+new = "Dark oak rope footbridge bridge (2)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.DarkOak.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.DarkOak.3.Name"]
+new = "Dark oak rope footbridge bridge (3)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.DarkOak.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.DarkOak.4.Name"]
+new = "Dark oak rope footbridge bridge (4)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.DarkOak.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.DarkOak.5.Name"]
+new = "Dark oak rope footbridge bridge (5)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.DarkOak.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.DarkOak.6.Name"]
+new = "Dark oak rope footbridge bridge (6)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.DarkOak.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.IvoryTimber.1.Name"]
+new = "Ivory timber rope footbridge bridge (1)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.IvoryTimber.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.IvoryTimber.2.Name"]
+new = "Ivory timber rope footbridge bridge (2)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.IvoryTimber.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.IvoryTimber.3.Name"]
+new = "Ivory timber rope footbridge bridge (3)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.IvoryTimber.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.IvoryTimber.4.Name"]
+new = "Ivory timber rope footbridge bridge (4)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.IvoryTimber.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.IvoryTimber.5.Name"]
+new = "Ivory timber rope footbridge bridge (5)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.IvoryTimber.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.IvoryTimber.6.Name"]
+new = "Ivory timber rope footbridge bridge (6)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.IvoryTimber.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.SageTimber.1.Name"]
+new = "Sage timber rope footbridge bridge (1)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.SageTimber.1.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.SageTimber.2.Name"]
+new = "Sage timber rope footbridge bridge (2)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.SageTimber.2.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.SageTimber.3.Name"]
+new = "Sage timber rope footbridge bridge (3)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.SageTimber.3.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.SageTimber.4.Name"]
+new = "Sage timber rope footbridge bridge (4)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.SageTimber.4.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.SageTimber.5.Name"]
+new = "Sage timber rope footbridge bridge (5)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.SageTimber.5.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.SageTimber.6.Name"]
+new = "Sage timber rope footbridge bridge (6)"
+status = "normal"
+
+["Bridgeworks.RopeFootbridge.SageTimber.6.Flavor"]
+new = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"

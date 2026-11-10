@@ -1,5 +1,5 @@
 [_meta]
-name = "Performance Plus"
+name = "Performance Plus (P+)"
 
 ["PerformancePlus.Settings.AllowMinorChanges"]
 new = "Allow minor gameplay changes"
@@ -26,7 +26,7 @@ new = "The frame rate kept while the setting above is on, from 10 to 120 frames 
 status = "normal"
 
 ["PerformancePlus.Settings.DistantAnimations"]
-new = "Animate distant models less often"
+new = "Discard unimportant animations"
 status = "normal"
 
 ["PerformancePlus.Settings.DistantAnimations.Tooltip"]

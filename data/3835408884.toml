@@ -6,7 +6,7 @@ new = "Caravan Post"
 status = "normal"
 
 ["Building.CaravanPost.Description"]
-new = "Send goods beyond the map in exchange for science or useful supplies. Choose a trade to prepare a caravan; a worker will load it before it sets off. Trips take time, and some caravans never make it back. Connect the post to the map edge with a road."
+new = "Send a caravan beyond the map to trade goods for science or useful supplies."
 status = "normal"
 
 ["Building.CaravanPost.FlavorDescription"]
@@ -66,7 +66,7 @@ new = "Trade planks for science"
 status = "normal"
 
 ["Recipe.CaravanMetalScience.DisplayName"]
-new = "Trade metal blocks for science"
+new = "Trade scrap metal for science"
 status = "normal"
 
 ["Recipe.CaravanPlankGears.DisplayName"]

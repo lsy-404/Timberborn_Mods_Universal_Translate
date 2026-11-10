@@ -6,9 +6,33 @@ new = "Cart Shed"
 status = "normal"
 
 ["Building.CartShed.Description"]
-new = "Haulers with carts. They do the same jobs as Hauling Post workers, but carry four times a normal beaver's load per trip."
+new = "Replaced by the Cart & Wagon Yard; kept so placed ones keep working. Haulers with carts carry four times a normal beaver's load per trip."
 status = "normal"
 
 ["Building.CartShed.FlavorDescription"]
 new = "Two wheels beat four paws."
+status = "normal"
+
+["Building.WagonYard.DisplayName"]
+new = "Wagon Yard"
+status = "normal"
+
+["Building.WagonYard.Description"]
+new = "Replaced by the Cart & Wagon Yard; kept so placed ones keep working. Haulers with four-wheel wagons carry eight times a normal beaver's load, dropping it at several workshops on the way."
+status = "normal"
+
+["Building.WagonYard.FlavorDescription"]
+new = "Two wheels good, four wheels better."
+status = "normal"
+
+["Building.CartWagonYard.DisplayName"]
+new = "Cart & Wagon Yard"
+status = "normal"
+
+["Building.CartWagonYard.Description"]
+new = "Up to 12 haulers. Each trip they pick a vehicle: the four-wheel wagon for loads over four beaver loads, deliveries to several workshops or trips over 30 tiles (up to eight beaver loads); otherwise the hand cart, 20% faster."
+status = "normal"
+
+["Building.CartWagonYard.FlavorDescription"]
+new = "The right wheels for the job."
 status = "normal"

@@ -1,0 +1,238 @@
+[_meta]
+name = "StairWorks"
+
+["StairWorks.Straight.Description"]
+new = "Climbs one level in a straight line. Uses vanilla stair movement and support rules."
+status = "normal"
+
+["StairWorks.Turn.Description"]
+new = "Climbs one level while turning 90 degrees. Can be flipped like vanilla spiral stairs."
+status = "normal"
+
+["StairWorks.ClassicStairs.Cobblestone.Name"]
+new = "Classic stairs - Cobblestone"
+status = "normal"
+
+["StairWorks.ClassicStairs.Slate.Name"]
+new = "Classic stairs - Slate"
+status = "normal"
+
+["StairWorks.ClassicStairs.Sandstone.Name"]
+new = "Classic stairs - Sandstone"
+status = "normal"
+
+["StairWorks.ClassicStairs.MossyStone.Name"]
+new = "Classic stairs - MossyStone"
+status = "normal"
+
+["StairWorks.ClassicStairs.Flagstone.Name"]
+new = "Classic stairs - Flagstone"
+status = "normal"
+
+["StairWorks.ClassicStairs.DarkGravel.Name"]
+new = "Classic stairs - DarkGravel"
+status = "normal"
+
+["StairWorks.ClassicStairs.LightGravel.Name"]
+new = "Classic stairs - LightGravel"
+status = "normal"
+
+["StairWorks.ClassicStairs.ClayBrick.Name"]
+new = "Classic stairs - ClayBrick"
+status = "normal"
+
+["StairWorks.ClassicStairs.RedBrick.Name"]
+new = "Classic stairs - RedBrick"
+status = "normal"
+
+["StairWorks.ClassicStairs.CreamBrick.Name"]
+new = "Classic stairs - CreamBrick"
+status = "normal"
+
+["StairWorks.ClassicStairs.DecorativeTile.Name"]
+new = "Classic stairs - DecorativeTile"
+status = "normal"
+
+["StairWorks.ClassicStairs.PondMosaic.Name"]
+new = "Classic stairs - PondMosaic"
+status = "normal"
+
+["StairWorks.ClassicStairs.Boardwalk.Name"]
+new = "Classic stairs - Boardwalk"
+status = "normal"
+
+["StairWorks.ClassicStairs.Cedar.Name"]
+new = "Classic stairs - Cedar"
+status = "normal"
+
+["StairWorks.ClassicStairs.DarkOak.Name"]
+new = "Classic stairs - DarkOak"
+status = "normal"
+
+["StairWorks.ClassicStairs.IvoryTimber.Name"]
+new = "Classic stairs - IvoryTimber"
+status = "normal"
+
+["StairWorks.ClassicStairs.SageTimber.Name"]
+new = "Classic stairs - SageTimber"
+status = "normal"
+
+["StairWorks.ClassicStairs.IndustrialMetal.Name"]
+new = "Classic stairs - IndustrialMetal"
+status = "normal"
+
+["StairWorks.ClassicStairs.BrushedMetal.Name"]
+new = "Classic stairs - BrushedMetal"
+status = "normal"
+
+["StairWorks.SpiralStairs.Cobblestone.Name"]
+new = "Turning stairs - Cobblestone"
+status = "normal"
+
+["StairWorks.SpiralStairs.Slate.Name"]
+new = "Turning stairs - Slate"
+status = "normal"
+
+["StairWorks.SpiralStairs.Sandstone.Name"]
+new = "Turning stairs - Sandstone"
+status = "normal"
+
+["StairWorks.SpiralStairs.MossyStone.Name"]
+new = "Turning stairs - MossyStone"
+status = "normal"
+
+["StairWorks.SpiralStairs.Flagstone.Name"]
+new = "Turning stairs - Flagstone"
+status = "normal"
+
+["StairWorks.SpiralStairs.DarkGravel.Name"]
+new = "Turning stairs - DarkGravel"
+status = "normal"
+
+["StairWorks.SpiralStairs.LightGravel.Name"]
+new = "Turning stairs - LightGravel"
+status = "normal"
+
+["StairWorks.SpiralStairs.ClayBrick.Name"]
+new = "Turning stairs - ClayBrick"
+status = "normal"
+
+["StairWorks.SpiralStairs.RedBrick.Name"]
+new = "Turning stairs - RedBrick"
+status = "normal"
+
+["StairWorks.SpiralStairs.CreamBrick.Name"]
+new = "Turning stairs - CreamBrick"
+status = "normal"
+
+["StairWorks.SpiralStairs.DecorativeTile.Name"]
+new = "Turning stairs - DecorativeTile"
+status = "normal"
+
+["StairWorks.SpiralStairs.PondMosaic.Name"]
+new = "Turning stairs - PondMosaic"
+status = "normal"
+
+["StairWorks.SpiralStairs.Boardwalk.Name"]
+new = "Turning stairs - Boardwalk"
+status = "normal"
+
+["StairWorks.SpiralStairs.Cedar.Name"]
+new = "Turning stairs - Cedar"
+status = "normal"
+
+["StairWorks.SpiralStairs.DarkOak.Name"]
+new = "Turning stairs - DarkOak"
+status = "normal"
+
+["StairWorks.SpiralStairs.IvoryTimber.Name"]
+new = "Turning stairs - IvoryTimber"
+status = "normal"
+
+["StairWorks.SpiralStairs.SageTimber.Name"]
+new = "Turning stairs - SageTimber"
+status = "normal"
+
+["StairWorks.SpiralStairs.IndustrialMetal.Name"]
+new = "Turning stairs - IndustrialMetal"
+status = "normal"
+
+["StairWorks.SpiralStairs.BrushedMetal.Name"]
+new = "Turning stairs - BrushedMetal"
+status = "normal"
+
+["StairWorks.TimberStairs.Boardwalk.Name"]
+new = "Timber rail stairs - Boardwalk"
+status = "normal"
+
+["StairWorks.TimberStairs.Cedar.Name"]
+new = "Timber rail stairs - Cedar"
+status = "normal"
+
+["StairWorks.TimberStairs.DarkOak.Name"]
+new = "Timber rail stairs - DarkOak"
+status = "normal"
+
+["StairWorks.TimberStairs.IvoryTimber.Name"]
+new = "Timber rail stairs - IvoryTimber"
+status = "normal"
+
+["StairWorks.TimberStairs.SageTimber.Name"]
+new = "Timber rail stairs - SageTimber"
+status = "normal"
+
+["StairWorks.RopeStairs.Boardwalk.Name"]
+new = "Rope rail stairs - Boardwalk"
+status = "normal"
+
+["StairWorks.RopeStairs.Cedar.Name"]
+new = "Rope rail stairs - Cedar"
+status = "normal"
+
+["StairWorks.RopeStairs.DarkOak.Name"]
+new = "Rope rail stairs - DarkOak"
+status = "normal"
+
+["StairWorks.RopeStairs.IvoryTimber.Name"]
+new = "Rope rail stairs - IvoryTimber"
+status = "normal"
+
+["StairWorks.RopeStairs.SageTimber.Name"]
+new = "Rope rail stairs - SageTimber"
+status = "normal"
+
+["StairWorks.MasonryStairs.Cobblestone.Name"]
+new = "Masonry stairs - Cobblestone"
+status = "normal"
+
+["StairWorks.MasonryStairs.Slate.Name"]
+new = "Masonry stairs - Slate"
+status = "normal"
+
+["StairWorks.MasonryStairs.Sandstone.Name"]
+new = "Masonry stairs - Sandstone"
+status = "normal"
+
+["StairWorks.MasonryStairs.MossyStone.Name"]
+new = "Masonry stairs - MossyStone"
+status = "normal"
+
+["StairWorks.MasonryStairs.Flagstone.Name"]
+new = "Masonry stairs - Flagstone"
+status = "normal"
+
+["StairWorks.MasonryStairs.ClayBrick.Name"]
+new = "Masonry stairs - ClayBrick"
+status = "normal"
+
+["StairWorks.MasonryStairs.CreamBrick.Name"]
+new = "Masonry stairs - CreamBrick"
+status = "normal"
+
+["StairWorks.MetalStairs.IndustrialMetal.Name"]
+new = "Metal rail stairs - IndustrialMetal"
+status = "normal"
+
+["StairWorks.MetalStairs.BrushedMetal.Name"]
+new = "Metal rail stairs - BrushedMetal"
+status = "normal"

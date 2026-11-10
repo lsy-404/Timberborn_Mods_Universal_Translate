@@ -1,0 +1,98 @@
+[_meta]
+name = "Pausable Recipes"
+
+["PausableRecipes.Fragment.Title"]
+new = "Cycle pausing"
+status = "normal"
+
+["PausableRecipes.Summary.Finishing"]
+new = "Pausing - {0}"
+status = "normal"
+
+["PausableRecipes.Summary.WaitingForNext"]
+new = "Pausing after next"
+status = "normal"
+
+["PausableRecipes.Summary.FinishingAutomation"]
+new = "Automation off - {0}"
+status = "normal"
+
+["PausableRecipes.Summary.Paused"]
+new = "Paused"
+status = "normal"
+
+["PausableRecipes.FinishBeforePausing"]
+new = "Automation waits for current {0}"
+status = "normal"
+
+["PausableRecipes.FinishBeforePausing.Tooltip"]
+new = "When this building's automation input turns off, it finishes the {0} in progress before pausing. Off: automation pauses it straight away, as in the base game."
+status = "normal"
+
+["PausableRecipes.AlertWhenPaused"]
+new = "Raise alert when paused"
+status = "normal"
+
+["PausableRecipes.PauseAfterCycle"]
+new = "Pause after this {0}"
+status = "normal"
+
+["PausableRecipes.PauseAfterNextCycle"]
+new = "Pause after next {0}"
+status = "normal"
+
+["PausableRecipes.Cancel"]
+new = "Cancel"
+status = "normal"
+
+["PausableRecipes.Resume"]
+new = "Resume"
+status = "normal"
+
+["PausableRecipes.State.Finishing"]
+new = "Pausing after current {0} - {1}"
+status = "normal"
+
+["PausableRecipes.State.WaitingForNext"]
+new = "Pausing after next {0}"
+status = "normal"
+
+["PausableRecipes.State.FinishingAutomation"]
+new = "Automation off - pausing after current {0} - {1}"
+status = "normal"
+
+["PausableRecipes.State.Paused"]
+new = "Paused after finishing {0}"
+status = "normal"
+
+["PausableRecipes.Noun.Recipe"]
+new = "recipe"
+status = "normal"
+
+["PausableRecipes.Noun.Newborn"]
+new = "newborn"
+status = "normal"
+
+["PausableRecipes.Noun.Supply"]
+new = "supply"
+status = "normal"
+
+["PausableRecipes.Status.Finishing"]
+new = "Will pause after the current cycle"
+status = "normal"
+
+["PausableRecipes.Status.Paused"]
+new = "Paused after finishing its cycle"
+status = "normal"
+
+["PausableRecipes.Alert.Paused"]
+new = "Paused after finishing cycle"
+status = "normal"
+
+["PausableRecipes.PauseWholeBuilding"]
+new = "Pause whole building when paused"
+status = "normal"
+
+["PausableRecipes.PauseWholeBuilding.Tooltip"]
+new = "Off: pausing here only stops production. Residents stay housed and workers stay assigned. On: the whole building is paused like the normal pause button, so workers are released and residents move out. The normal pause button and automation always pause the whole building."
+status = "normal"

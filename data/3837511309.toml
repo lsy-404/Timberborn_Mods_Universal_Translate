@@ -1,0 +1,226 @@
+[_meta]
+name = "ElevatorWorks"
+
+["ElevatorWorks.Shaft.Boardwalk.Name"]
+new = "Shaft - Boardwalk"
+status = "normal"
+
+["ElevatorWorks.Shaft.Boardwalk.Description"]
+new = "Stack above a door shaft or another shaft. Alternate plain and door sections at chosen floors, then cap with a pulley house."
+status = "normal"
+
+["ElevatorWorks.Shaft.Cedar.Name"]
+new = "Shaft - Cedar"
+status = "normal"
+
+["ElevatorWorks.Shaft.Cedar.Description"]
+new = "Stack above a door shaft or another shaft. Alternate plain and door sections at chosen floors, then cap with a pulley house."
+status = "normal"
+
+["ElevatorWorks.Shaft.DarkOak.Name"]
+new = "Shaft - DarkOak"
+status = "normal"
+
+["ElevatorWorks.Shaft.DarkOak.Description"]
+new = "Stack above a door shaft or another shaft. Alternate plain and door sections at chosen floors, then cap with a pulley house."
+status = "normal"
+
+["ElevatorWorks.Shaft.IvoryTimber.Name"]
+new = "Shaft - IvoryTimber"
+status = "normal"
+
+["ElevatorWorks.Shaft.IvoryTimber.Description"]
+new = "Stack above a door shaft or another shaft. Alternate plain and door sections at chosen floors, then cap with a pulley house."
+status = "normal"
+
+["ElevatorWorks.Shaft.SageTimber.Name"]
+new = "Shaft - SageTimber"
+status = "normal"
+
+["ElevatorWorks.Shaft.SageTimber.Description"]
+new = "Stack above a door shaft or another shaft. Alternate plain and door sections at chosen floors, then cap with a pulley house."
+status = "normal"
+
+["ElevatorWorks.Shaft.IndustrialMetal.Name"]
+new = "Shaft - IndustrialMetal"
+status = "normal"
+
+["ElevatorWorks.Shaft.IndustrialMetal.Description"]
+new = "Stack above a door shaft or another shaft. Alternate plain and door sections at chosen floors, then cap with a pulley house."
+status = "normal"
+
+["ElevatorWorks.Shaft.BrushedMetal.Name"]
+new = "Shaft - BrushedMetal"
+status = "normal"
+
+["ElevatorWorks.Shaft.BrushedMetal.Description"]
+new = "Stack above a door shaft or another shaft. Alternate plain and door sections at chosen floors, then cap with a pulley house."
+status = "normal"
+
+["ElevatorWorks.DoorShaft.Boardwalk.Name"]
+new = "Door shaft - Boardwalk"
+status = "normal"
+
+["ElevatorWorks.DoorShaft.Boardwalk.Description"]
+new = "Stackable shaft with an integrated sliding gate. Connect a path at the front. Alternate door and plain shaft sections, then cap with a pulley house. Requires at least two door floors."
+status = "normal"
+
+["ElevatorWorks.DoorShaft.Cedar.Name"]
+new = "Door shaft - Cedar"
+status = "normal"
+
+["ElevatorWorks.DoorShaft.Cedar.Description"]
+new = "Stackable shaft with an integrated sliding gate. Connect a path at the front. Alternate door and plain shaft sections, then cap with a pulley house. Requires at least two door floors."
+status = "normal"
+
+["ElevatorWorks.DoorShaft.DarkOak.Name"]
+new = "Door shaft - DarkOak"
+status = "normal"
+
+["ElevatorWorks.DoorShaft.DarkOak.Description"]
+new = "Stackable shaft with an integrated sliding gate. Connect a path at the front. Alternate door and plain shaft sections, then cap with a pulley house. Requires at least two door floors."
+status = "normal"
+
+["ElevatorWorks.DoorShaft.IvoryTimber.Name"]
+new = "Door shaft - IvoryTimber"
+status = "normal"
+
+["ElevatorWorks.DoorShaft.IvoryTimber.Description"]
+new = "Stackable shaft with an integrated sliding gate. Connect a path at the front. Alternate door and plain shaft sections, then cap with a pulley house. Requires at least two door floors."
+status = "normal"
+
+["ElevatorWorks.DoorShaft.SageTimber.Name"]
+new = "Door shaft - SageTimber"
+status = "normal"
+
+["ElevatorWorks.DoorShaft.SageTimber.Description"]
+new = "Stackable shaft with an integrated sliding gate. Connect a path at the front. Alternate door and plain shaft sections, then cap with a pulley house. Requires at least two door floors."
+status = "normal"
+
+["ElevatorWorks.DoorShaft.IndustrialMetal.Name"]
+new = "Door shaft - IndustrialMetal"
+status = "normal"
+
+["ElevatorWorks.DoorShaft.IndustrialMetal.Description"]
+new = "Stackable shaft with an integrated sliding gate. Connect a path at the front. Alternate door and plain shaft sections, then cap with a pulley house. Requires at least two door floors."
+status = "normal"
+
+["ElevatorWorks.DoorShaft.BrushedMetal.Name"]
+new = "Door shaft - BrushedMetal"
+status = "normal"
+
+["ElevatorWorks.DoorShaft.BrushedMetal.Description"]
+new = "Stackable shaft with an integrated sliding gate. Connect a path at the front. Alternate door and plain shaft sections, then cap with a pulley house. Requires at least two door floors."
+status = "normal"
+
+["ElevatorWorks.ManualHouse.Boardwalk.Name"]
+new = "Worker pulley house - Boardwalk"
+status = "normal"
+
+["ElevatorWorks.ManualHouse.Boardwalk.Description"]
+new = "One beaver or bot operator. Capacity 2; target 2x walking speed; maximum 6 levels of travel. Operator needs an external path to this top workplace."
+status = "normal"
+
+["ElevatorWorks.ManualHouse.Cedar.Name"]
+new = "Worker pulley house - Cedar"
+status = "normal"
+
+["ElevatorWorks.ManualHouse.Cedar.Description"]
+new = "One beaver or bot operator. Capacity 2; target 2x walking speed; maximum 6 levels of travel. Operator needs an external path to this top workplace."
+status = "normal"
+
+["ElevatorWorks.ManualHouse.DarkOak.Name"]
+new = "Worker pulley house - DarkOak"
+status = "normal"
+
+["ElevatorWorks.ManualHouse.DarkOak.Description"]
+new = "One beaver or bot operator. Capacity 2; target 2x walking speed; maximum 6 levels of travel. Operator needs an external path to this top workplace."
+status = "normal"
+
+["ElevatorWorks.ManualHouse.IvoryTimber.Name"]
+new = "Worker pulley house - IvoryTimber"
+status = "normal"
+
+["ElevatorWorks.ManualHouse.IvoryTimber.Description"]
+new = "One beaver or bot operator. Capacity 2; target 2x walking speed; maximum 6 levels of travel. Operator needs an external path to this top workplace."
+status = "normal"
+
+["ElevatorWorks.ManualHouse.SageTimber.Name"]
+new = "Worker pulley house - SageTimber"
+status = "normal"
+
+["ElevatorWorks.ManualHouse.SageTimber.Description"]
+new = "One beaver or bot operator. Capacity 2; target 2x walking speed; maximum 6 levels of travel. Operator needs an external path to this top workplace."
+status = "normal"
+
+["ElevatorWorks.PoweredHouse.Boardwalk.Name"]
+new = "Powered pulley house - Boardwalk"
+status = "normal"
+
+["ElevatorWorks.PoweredHouse.Boardwalk.Description"]
+new = "Connect colony power here. Capacity 4; target 4x walking speed; maximum 24 levels of travel. Draws 50 power plus 10 per shaft section."
+status = "normal"
+
+["ElevatorWorks.PoweredHouse.Cedar.Name"]
+new = "Powered pulley house - Cedar"
+status = "normal"
+
+["ElevatorWorks.PoweredHouse.Cedar.Description"]
+new = "Connect colony power here. Capacity 4; target 4x walking speed; maximum 24 levels of travel. Draws 50 power plus 10 per shaft section."
+status = "normal"
+
+["ElevatorWorks.PoweredHouse.DarkOak.Name"]
+new = "Powered pulley house - DarkOak"
+status = "normal"
+
+["ElevatorWorks.PoweredHouse.DarkOak.Description"]
+new = "Connect colony power here. Capacity 4; target 4x walking speed; maximum 24 levels of travel. Draws 50 power plus 10 per shaft section."
+status = "normal"
+
+["ElevatorWorks.PoweredHouse.IvoryTimber.Name"]
+new = "Powered pulley house - IvoryTimber"
+status = "normal"
+
+["ElevatorWorks.PoweredHouse.IvoryTimber.Description"]
+new = "Connect colony power here. Capacity 4; target 4x walking speed; maximum 24 levels of travel. Draws 50 power plus 10 per shaft section."
+status = "normal"
+
+["ElevatorWorks.PoweredHouse.SageTimber.Name"]
+new = "Powered pulley house - SageTimber"
+status = "normal"
+
+["ElevatorWorks.PoweredHouse.SageTimber.Description"]
+new = "Connect colony power here. Capacity 4; target 4x walking speed; maximum 24 levels of travel. Draws 50 power plus 10 per shaft section."
+status = "normal"
+
+["ElevatorWorks.PoweredHouse.IndustrialMetal.Name"]
+new = "Powered pulley house - IndustrialMetal"
+status = "normal"
+
+["ElevatorWorks.PoweredHouse.IndustrialMetal.Description"]
+new = "Connect colony power here. Capacity 4; target 4x walking speed; maximum 24 levels of travel. Draws 50 power plus 10 per shaft section."
+status = "normal"
+
+["ElevatorWorks.PoweredHouse.BrushedMetal.Name"]
+new = "Powered pulley house - BrushedMetal"
+status = "normal"
+
+["ElevatorWorks.PoweredHouse.BrushedMetal.Description"]
+new = "Connect colony power here. Capacity 4; target 4x walking speed; maximum 24 levels of travel. Draws 50 power plus 10 per shaft section."
+status = "normal"
+
+["ElevatorWorks.Entrance.Cedar.Name"]
+new = "Legacy timber floor entrance"
+status = "normal"
+
+["ElevatorWorks.Entrance.Cedar.Description"]
+new = "Connect a path in front; the shaft must be directly behind. Add at least two entrances on different floors. Requires ground or platform support."
+status = "normal"
+
+["ElevatorWorks.Entrance.IndustrialMetal.Name"]
+new = "Legacy reinforced floor entrance"
+status = "normal"
+
+["ElevatorWorks.Entrance.IndustrialMetal.Description"]
+new = "Connect a path in front; the shaft must be directly behind. Add at least two entrances on different floors. Requires ground or platform support."
+status = "normal"

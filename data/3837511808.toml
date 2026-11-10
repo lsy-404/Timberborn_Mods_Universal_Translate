@@ -1,0 +1,434 @@
+[_meta]
+name = "PlatformWorks"
+
+["PlatformWorks.ClassicTimber.Boardwalk.1.Name"]
+new = "Classic timber — Boardwalk — 1 level"
+status = "normal"
+
+["PlatformWorks.ClassicTimber.Boardwalk.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.ClassicTimber.Boardwalk.2.Name"]
+new = "Classic timber — Boardwalk — 2 levels"
+status = "normal"
+
+["PlatformWorks.ClassicTimber.Boardwalk.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.ClassicTimber.Boardwalk.3.Name"]
+new = "Classic timber — Boardwalk — 3 levels"
+status = "normal"
+
+["PlatformWorks.ClassicTimber.Boardwalk.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.ClassicTimber.Cedar.1.Name"]
+new = "Classic timber — Cedar — 1 level"
+status = "normal"
+
+["PlatformWorks.ClassicTimber.Cedar.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.ClassicTimber.Cedar.2.Name"]
+new = "Classic timber — Cedar — 2 levels"
+status = "normal"
+
+["PlatformWorks.ClassicTimber.Cedar.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.ClassicTimber.Cedar.3.Name"]
+new = "Classic timber — Cedar — 3 levels"
+status = "normal"
+
+["PlatformWorks.ClassicTimber.Cedar.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.ClassicTimber.DarkOak.1.Name"]
+new = "Classic timber — DarkOak — 1 level"
+status = "normal"
+
+["PlatformWorks.ClassicTimber.DarkOak.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.ClassicTimber.DarkOak.2.Name"]
+new = "Classic timber — DarkOak — 2 levels"
+status = "normal"
+
+["PlatformWorks.ClassicTimber.DarkOak.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.ClassicTimber.DarkOak.3.Name"]
+new = "Classic timber — DarkOak — 3 levels"
+status = "normal"
+
+["PlatformWorks.ClassicTimber.DarkOak.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.ClassicTimber.IvoryTimber.1.Name"]
+new = "Classic timber — IvoryTimber — 1 level"
+status = "normal"
+
+["PlatformWorks.ClassicTimber.IvoryTimber.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.ClassicTimber.IvoryTimber.2.Name"]
+new = "Classic timber — IvoryTimber — 2 levels"
+status = "normal"
+
+["PlatformWorks.ClassicTimber.IvoryTimber.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.ClassicTimber.IvoryTimber.3.Name"]
+new = "Classic timber — IvoryTimber — 3 levels"
+status = "normal"
+
+["PlatformWorks.ClassicTimber.IvoryTimber.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.ClassicTimber.SageTimber.1.Name"]
+new = "Classic timber — SageTimber — 1 level"
+status = "normal"
+
+["PlatformWorks.ClassicTimber.SageTimber.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.ClassicTimber.SageTimber.2.Name"]
+new = "Classic timber — SageTimber — 2 levels"
+status = "normal"
+
+["PlatformWorks.ClassicTimber.SageTimber.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.ClassicTimber.SageTimber.3.Name"]
+new = "Classic timber — SageTimber — 3 levels"
+status = "normal"
+
+["PlatformWorks.ClassicTimber.SageTimber.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.TrestleTimber.Boardwalk.1.Name"]
+new = "Timber trestle — Boardwalk — 1 level"
+status = "normal"
+
+["PlatformWorks.TrestleTimber.Boardwalk.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.TrestleTimber.Boardwalk.2.Name"]
+new = "Timber trestle — Boardwalk — 2 levels"
+status = "normal"
+
+["PlatformWorks.TrestleTimber.Boardwalk.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.TrestleTimber.Boardwalk.3.Name"]
+new = "Timber trestle — Boardwalk — 3 levels"
+status = "normal"
+
+["PlatformWorks.TrestleTimber.Boardwalk.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.TrestleTimber.Cedar.1.Name"]
+new = "Timber trestle — Cedar — 1 level"
+status = "normal"
+
+["PlatformWorks.TrestleTimber.Cedar.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.TrestleTimber.Cedar.2.Name"]
+new = "Timber trestle — Cedar — 2 levels"
+status = "normal"
+
+["PlatformWorks.TrestleTimber.Cedar.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.TrestleTimber.Cedar.3.Name"]
+new = "Timber trestle — Cedar — 3 levels"
+status = "normal"
+
+["PlatformWorks.TrestleTimber.Cedar.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.TrestleTimber.DarkOak.1.Name"]
+new = "Timber trestle — DarkOak — 1 level"
+status = "normal"
+
+["PlatformWorks.TrestleTimber.DarkOak.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.TrestleTimber.DarkOak.2.Name"]
+new = "Timber trestle — DarkOak — 2 levels"
+status = "normal"
+
+["PlatformWorks.TrestleTimber.DarkOak.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.TrestleTimber.DarkOak.3.Name"]
+new = "Timber trestle — DarkOak — 3 levels"
+status = "normal"
+
+["PlatformWorks.TrestleTimber.DarkOak.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.TrestleTimber.IvoryTimber.1.Name"]
+new = "Timber trestle — IvoryTimber — 1 level"
+status = "normal"
+
+["PlatformWorks.TrestleTimber.IvoryTimber.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.TrestleTimber.IvoryTimber.2.Name"]
+new = "Timber trestle — IvoryTimber — 2 levels"
+status = "normal"
+
+["PlatformWorks.TrestleTimber.IvoryTimber.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.TrestleTimber.IvoryTimber.3.Name"]
+new = "Timber trestle — IvoryTimber — 3 levels"
+status = "normal"
+
+["PlatformWorks.TrestleTimber.IvoryTimber.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.TrestleTimber.SageTimber.1.Name"]
+new = "Timber trestle — SageTimber — 1 level"
+status = "normal"
+
+["PlatformWorks.TrestleTimber.SageTimber.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.TrestleTimber.SageTimber.2.Name"]
+new = "Timber trestle — SageTimber — 2 levels"
+status = "normal"
+
+["PlatformWorks.TrestleTimber.SageTimber.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.TrestleTimber.SageTimber.3.Name"]
+new = "Timber trestle — SageTimber — 3 levels"
+status = "normal"
+
+["PlatformWorks.TrestleTimber.SageTimber.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Cobblestone.1.Name"]
+new = "Masonry piers — Cobblestone — 1 level"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Cobblestone.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Cobblestone.2.Name"]
+new = "Masonry piers — Cobblestone — 2 levels"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Cobblestone.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Cobblestone.3.Name"]
+new = "Masonry piers — Cobblestone — 3 levels"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Cobblestone.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Slate.1.Name"]
+new = "Masonry piers — Slate — 1 level"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Slate.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Slate.2.Name"]
+new = "Masonry piers — Slate — 2 levels"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Slate.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Slate.3.Name"]
+new = "Masonry piers — Slate — 3 levels"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Slate.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Sandstone.1.Name"]
+new = "Masonry piers — Sandstone — 1 level"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Sandstone.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Sandstone.2.Name"]
+new = "Masonry piers — Sandstone — 2 levels"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Sandstone.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Sandstone.3.Name"]
+new = "Masonry piers — Sandstone — 3 levels"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.Sandstone.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.MossyStone.1.Name"]
+new = "Masonry piers — MossyStone — 1 level"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.MossyStone.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.MossyStone.2.Name"]
+new = "Masonry piers — MossyStone — 2 levels"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.MossyStone.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.MossyStone.3.Name"]
+new = "Masonry piers — MossyStone — 3 levels"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.MossyStone.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.RedBrick.1.Name"]
+new = "Masonry piers — RedBrick — 1 level"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.RedBrick.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.RedBrick.2.Name"]
+new = "Masonry piers — RedBrick — 2 levels"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.RedBrick.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.RedBrick.3.Name"]
+new = "Masonry piers — RedBrick — 3 levels"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.RedBrick.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.CreamBrick.1.Name"]
+new = "Masonry piers — CreamBrick — 1 level"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.CreamBrick.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.CreamBrick.2.Name"]
+new = "Masonry piers — CreamBrick — 2 levels"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.CreamBrick.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MasonryPiers.CreamBrick.3.Name"]
+new = "Masonry piers — CreamBrick — 3 levels"
+status = "normal"
+
+["PlatformWorks.MasonryPiers.CreamBrick.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MetalFrame.IndustrialMetal.1.Name"]
+new = "Metal frame — IndustrialMetal — 1 level"
+status = "normal"
+
+["PlatformWorks.MetalFrame.IndustrialMetal.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MetalFrame.IndustrialMetal.2.Name"]
+new = "Metal frame — IndustrialMetal — 2 levels"
+status = "normal"
+
+["PlatformWorks.MetalFrame.IndustrialMetal.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MetalFrame.IndustrialMetal.3.Name"]
+new = "Metal frame — IndustrialMetal — 3 levels"
+status = "normal"
+
+["PlatformWorks.MetalFrame.IndustrialMetal.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MetalFrame.BrushedMetal.1.Name"]
+new = "Metal frame — BrushedMetal — 1 level"
+status = "normal"
+
+["PlatformWorks.MetalFrame.BrushedMetal.1.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MetalFrame.BrushedMetal.2.Name"]
+new = "Metal frame — BrushedMetal — 2 levels"
+status = "normal"
+
+["PlatformWorks.MetalFrame.BrushedMetal.2.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"
+
+["PlatformWorks.MetalFrame.BrushedMetal.3.Name"]
+new = "Metal frame — BrushedMetal — 3 levels"
+status = "normal"
+
+["PlatformWorks.MetalFrame.BrushedMetal.3.Description"]
+new = "Vanilla platform support and pass-through rules. Supports paths and buildings above; open below. Matching Works finish."
+status = "normal"

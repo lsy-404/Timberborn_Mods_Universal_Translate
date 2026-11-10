@@ -1,0 +1,146 @@
+[_meta]
+name = "DamWorks"
+
+["DamWorks.TimberCrib.Boardwalk.Name"]
+new = "Timber crib dam — Boardwalk"
+status = "normal"
+
+["DamWorks.TimberCrib.Boardwalk.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.TimberCrib.Cedar.Name"]
+new = "Timber crib dam — Cedar"
+status = "normal"
+
+["DamWorks.TimberCrib.Cedar.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.TimberCrib.DarkOak.Name"]
+new = "Timber crib dam — DarkOak"
+status = "normal"
+
+["DamWorks.TimberCrib.DarkOak.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.TimberCrib.IvoryTimber.Name"]
+new = "Timber crib dam — IvoryTimber"
+status = "normal"
+
+["DamWorks.TimberCrib.IvoryTimber.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.TimberCrib.SageTimber.Name"]
+new = "Timber crib dam — SageTimber"
+status = "normal"
+
+["DamWorks.TimberCrib.SageTimber.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.PlankSpillway.Boardwalk.Name"]
+new = "Plank spillway — Boardwalk"
+status = "normal"
+
+["DamWorks.PlankSpillway.Boardwalk.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.PlankSpillway.Cedar.Name"]
+new = "Plank spillway — Cedar"
+status = "normal"
+
+["DamWorks.PlankSpillway.Cedar.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.PlankSpillway.DarkOak.Name"]
+new = "Plank spillway — DarkOak"
+status = "normal"
+
+["DamWorks.PlankSpillway.DarkOak.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.PlankSpillway.IvoryTimber.Name"]
+new = "Plank spillway — IvoryTimber"
+status = "normal"
+
+["DamWorks.PlankSpillway.IvoryTimber.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.PlankSpillway.SageTimber.Name"]
+new = "Plank spillway — SageTimber"
+status = "normal"
+
+["DamWorks.PlankSpillway.SageTimber.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.MasonryDam.Cobblestone.Name"]
+new = "Masonry dam — Cobblestone"
+status = "normal"
+
+["DamWorks.MasonryDam.Cobblestone.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.MasonryDam.Slate.Name"]
+new = "Masonry dam — Slate"
+status = "normal"
+
+["DamWorks.MasonryDam.Slate.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.MasonryDam.Sandstone.Name"]
+new = "Masonry dam — Sandstone"
+status = "normal"
+
+["DamWorks.MasonryDam.Sandstone.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.MasonryDam.MossyStone.Name"]
+new = "Masonry dam — MossyStone"
+status = "normal"
+
+["DamWorks.MasonryDam.MossyStone.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.MasonryDam.RedBrick.Name"]
+new = "Masonry dam — RedBrick"
+status = "normal"
+
+["DamWorks.MasonryDam.RedBrick.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.MasonryDam.CreamBrick.Name"]
+new = "Masonry dam — CreamBrick"
+status = "normal"
+
+["DamWorks.MasonryDam.CreamBrick.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.ReinforcedDam.IndustrialMetal.Name"]
+new = "Reinforced dam — IndustrialMetal"
+status = "normal"
+
+["DamWorks.ReinforcedDam.IndustrialMetal.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"
+
+["DamWorks.ReinforcedDam.BrushedMetal.Name"]
+new = "Reinforced dam — BrushedMetal"
+status = "normal"
+
+["DamWorks.ReinforcedDam.BrushedMetal.Description"]
+new = "Vanilla dam: water spills over the 0.65-level barrier below the top walkway. The cyan placement line marks the overflow level. Matching Works finish; appearance does not change water behaviour."
+status = "normal"

@@ -1,0 +1,10 @@
+[_meta]
+name = "Demolition Plus"
+
+["ice_cracked.DemolitionPlus.Title"]
+new = "Remove resources instantly"
+status = "normal"
+
+["ice_cracked.DemolitionPlus.Description"]
+new = "Removes trees, bushes, crops, dead plants and thorns at once, without waiting for a beaver. Click one, or drag over an area. Nothing is harvested."
+status = "normal"

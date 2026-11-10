@@ -1,0 +1,102 @@
+[_meta]
+name = "LadderWorks"
+
+["LadderWorks.Freestanding.Description"]
+new = "One-level ladder. Stack on ground, platforms or another supported section. Connect a supported path or aligned entrance at either level. Half normal travel speed. Movement prototype."
+status = "normal"
+
+["LadderWorks.Attached.Description"]
+new = "One-level ladder anchored over the top edge of a wall or platform. The bracket tile requires solid support below. Four-way lower and upper landings. Half normal travel speed. Movement prototype."
+status = "normal"
+
+["LadderWorks.WallMounted.Description"]
+new = "One-level ladder bolted to a completed building wall directly behind it. Aim at a completed building side; brackets face it automatically. Drag vertically for up to 25 sections. Each section needs a wall; top connects to paths or building entrances."
+status = "normal"
+
+["LadderWorks.WallMounted.RequiresWall"]
+new = "Rotate brackets toward a completed building wall behind this section."
+status = "normal"
+
+["LadderWorks.Freestanding.Boardwalk.Name"]
+new = "Freestanding ladder - Boardwalk"
+status = "normal"
+
+["LadderWorks.Freestanding.Cedar.Name"]
+new = "Freestanding ladder - Cedar"
+status = "normal"
+
+["LadderWorks.Freestanding.DarkOak.Name"]
+new = "Freestanding ladder - DarkOak"
+status = "normal"
+
+["LadderWorks.Freestanding.IvoryTimber.Name"]
+new = "Freestanding ladder - IvoryTimber"
+status = "normal"
+
+["LadderWorks.Freestanding.SageTimber.Name"]
+new = "Freestanding ladder - SageTimber"
+status = "normal"
+
+["LadderWorks.Freestanding.IndustrialMetal.Name"]
+new = "Freestanding ladder - IndustrialMetal"
+status = "normal"
+
+["LadderWorks.Freestanding.BrushedMetal.Name"]
+new = "Freestanding ladder - BrushedMetal"
+status = "normal"
+
+["LadderWorks.Attached.Boardwalk.Name"]
+new = "Top-edge ladder - Boardwalk"
+status = "normal"
+
+["LadderWorks.Attached.Cedar.Name"]
+new = "Top-edge ladder - Cedar"
+status = "normal"
+
+["LadderWorks.Attached.DarkOak.Name"]
+new = "Top-edge ladder - DarkOak"
+status = "normal"
+
+["LadderWorks.Attached.IvoryTimber.Name"]
+new = "Top-edge ladder - IvoryTimber"
+status = "normal"
+
+["LadderWorks.Attached.SageTimber.Name"]
+new = "Top-edge ladder - SageTimber"
+status = "normal"
+
+["LadderWorks.Attached.IndustrialMetal.Name"]
+new = "Top-edge ladder - IndustrialMetal"
+status = "normal"
+
+["LadderWorks.Attached.BrushedMetal.Name"]
+new = "Top-edge ladder - BrushedMetal"
+status = "normal"
+
+["LadderWorks.WallMounted.Boardwalk.Name"]
+new = "Wall-mounted ladder - Boardwalk"
+status = "normal"
+
+["LadderWorks.WallMounted.Cedar.Name"]
+new = "Wall-mounted ladder - Cedar"
+status = "normal"
+
+["LadderWorks.WallMounted.DarkOak.Name"]
+new = "Wall-mounted ladder - DarkOak"
+status = "normal"
+
+["LadderWorks.WallMounted.IvoryTimber.Name"]
+new = "Wall-mounted ladder - IvoryTimber"
+status = "normal"
+
+["LadderWorks.WallMounted.SageTimber.Name"]
+new = "Wall-mounted ladder - SageTimber"
+status = "normal"
+
+["LadderWorks.WallMounted.IndustrialMetal.Name"]
+new = "Wall-mounted ladder - IndustrialMetal"
+status = "normal"
+
+["LadderWorks.WallMounted.BrushedMetal.Name"]
+new = "Wall-mounted ladder - BrushedMetal"
+status = "normal"
