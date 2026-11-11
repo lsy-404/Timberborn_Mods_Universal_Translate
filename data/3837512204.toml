@@ -2,8 +2,8 @@
 name = "TimberWorks Complete"
 
 ["Bridgeworks.Description"]
-status = "normal"
 raw = "A decorative bridge with standard suspension-bridge walking connections."
+status = "normal"
 enUS = "A decorative bridge with standard suspension-bridge walking connections."
 zhCN = "装饰性桥梁，采用标准的悬索桥步行连接。"
 zhTW = "具有標準懸索橋行人通道連接方式的裝飾橋樑。"
@@ -19,8 +19,8 @@ viVN = "Cầu trang trí với các lối đi bộ kết nối như cầu treo t
 trTR = "Standart asma köprülerdeki yaya bağlantılarına sahip dekoratif bir köprü."
 
 ["Bridgeworks.Supported.Description"]
-status = "normal"
 raw = "Deck is one level above the base. Connect paths or stairs at deck height. Ground or platforms must support the marked legs or abutments."
+status = "normal"
 enUS = "Deck is one level above the base. Connect paths or stairs at deck height. Ground or platforms must support the marked legs or abutments."
 zhCN = "桥面比基座高一层。请在桥面高度连接道路或楼梯。标记的支腿或桥台必须由地面或平台支撑。"
 zhTW = "橋面比基座高一層。請在橋面高度連接道路或樓梯。地面或平台必須支撐標示的支柱或橋台。"
@@ -36,8 +36,8 @@ viVN = "Mặt cầu cao hơn phần đế một tầng. Nối đường đi ho�
 trTR = "Taban tabanının bir seviye üzerindedir. Yolları veya merdivenleri taban yüksekliğine bağlayın. Zemin veya platformlar, işaretli ayakları ya da payandaları desteklemelidir."
 
 ["Bridgeworks.Covered.Description"]
-status = "normal"
 raw = "A roofed timber bridge. Reserves two levels for the deck, posts and roof."
+status = "normal"
 enUS = "A roofed timber bridge. Reserves two levels for the deck, posts, and roof."
 zhCN = "带顶的木桥。桥面、立柱和屋顶需要预留两层空间。"
 zhTW = "有頂木橋。為橋面、支柱和屋頂預留兩個高度層。"

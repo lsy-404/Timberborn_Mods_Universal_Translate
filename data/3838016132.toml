@@ -1,0 +1,186 @@
+[_meta]
+name = "Glass"
+
+["Building.GlassBlock.DisplayName"]
+new = "Glass Block"
+status = "normal"
+
+["Building.GlassBlock.Description"]
+new = "Works exactly like a levee: holds back water, can be stacked and walked on. Mostly see-through."
+status = "normal"
+
+["Building.GlassBlock.FlavorDescription"]
+new = "The fish are watching."
+status = "normal"
+
+["Glass.Settings.Opacity"]
+new = "Glass opacity (%)"
+status = "normal"
+
+["Glass.Settings.Opacity.Tooltip"]
+new = "How strongly the glass tint covers what is behind it. 0 is clear, 100 is solid tint."
+status = "normal"
+
+["Glass.Settings.Reflectivity"]
+new = "Reflectivity (%)"
+status = "normal"
+
+["Glass.Settings.Reflectivity.Tooltip"]
+new = "How shiny and mirror-like the glass is."
+status = "normal"
+
+["Glass.Settings.GlassColor"]
+new = "Glass tint"
+status = "normal"
+
+["Glass.Settings.ShowFrame"]
+new = "Show frame"
+status = "normal"
+
+["Glass.Settings.FrameColor"]
+new = "Frame color"
+status = "normal"
+
+["Glass.Settings.FrameOpacity"]
+new = "Frame opacity (%)"
+status = "normal"
+
+["Glass.Settings.Frost"]
+new = "Frost (%)"
+status = "normal"
+
+["Glass.Settings.Frost.Tooltip"]
+new = "Milky haze over the glass. Separate from opacity: frosted glass can still be bright and light-colored."
+status = "normal"
+
+["Glass.Settings.FrameWidth"]
+new = "Frame width (% of block)"
+status = "normal"
+
+["Glass.Settings.FrameWidth.Tooltip"]
+new = "Width of the white border along the outer edges of the glass."
+status = "normal"
+
+["Glass.Panel.Header"]
+new = "Glass look"
+status = "normal"
+
+["Glass.Panel.Custom"]
+new = "Custom look"
+status = "normal"
+
+["Glass.Panel.WholeSection"]
+new = "Apply to whole section"
+status = "normal"
+
+["Glass.Panel.ClearArea"]
+new = "Clear"
+status = "normal"
+
+["Glass.Panel.AreaCount"]
+new = "Editing {0} selected blocks"
+status = "normal"
+
+["Glass.AreaTool.Title"]
+new = "Select glass"
+status = "normal"
+
+["Glass.Panel.SelectArea"]
+new = "Select area..."
+status = "normal"
+
+["Glass.AreaTool.Description"]
+new = "Drag over glass blocks to edit their look together. Press R to switch between Horizontal (one level), Vertical (a wall: drag sideways and up/down) and Both (a box: drag from one corner block to the opposite one). Right-click or Esc to cancel."
+status = "normal"
+
+["Glass.AreaTool.Mode.Horizontal"]
+new = "Glass selection: Horizontal (only the level you start on)"
+status = "normal"
+
+["Glass.AreaTool.Mode.Vertical"]
+new = "Glass selection: Vertical (drag along a wall, and up or down to choose the height)"
+status = "normal"
+
+["Glass.AreaTool.Mode.Both"]
+new = "Glass selection: Both (drag from one corner block to the opposite corner block, at any height)"
+status = "normal"
+
+["Glass.Settings.Glow"]
+new = "Glow (%)"
+status = "normal"
+
+["Glass.Settings.Glow.Tooltip"]
+new = "Makes the glass give off light in its tint color, like a lamp. Most visible at night."
+status = "normal"
+
+["Glass.Settings.LightSurroundings"]
+new = "Light up surroundings"
+status = "normal"
+
+["Glass.Settings.LightSurroundings.Tooltip"]
+new = "Glowing glass casts light on the ground, buildings and beavers around it. Walls and terrain block the light. Turn off if it costs too much performance."
+status = "normal"
+
+["Glass.Settings.LightRange"]
+new = "Light range (blocks)"
+status = "normal"
+
+["Glass.Settings.LightRange.Tooltip"]
+new = "How many blocks the light from glowing glass reaches. 0 = glass glows but doesn't light anything."
+status = "normal"
+
+["Glass.Panel.Section.Glass"]
+new = "Glass"
+status = "normal"
+
+["Glass.Panel.Section.Glow"]
+new = "Glow & light"
+status = "normal"
+
+["Glass.Panel.Section.Frame"]
+new = "Frame"
+status = "normal"
+
+["Glass.Settings.WaterBrightness"]
+new = "Brightness (%)"
+status = "normal"
+
+["Glass.Settings.WaterBrightness.Tooltip"]
+new = "Brightness of the water seen through glass. 100 is the game's water."
+status = "normal"
+
+["Glass.Settings.WaterTint"]
+new = "Tint"
+status = "normal"
+
+["Glass.Settings.WaterTint.Tooltip"]
+new = "Color the water seen through glass is multiplied by. White keeps the game's water color."
+status = "normal"
+
+["Glass.Settings.WaterSaturation"]
+new = "Saturation (%)"
+status = "normal"
+
+["Glass.Settings.WaterSaturation.Tooltip"]
+new = "How vivid the water seen through glass is. 100 is the game's water, higher is more colorful, 0 is grey."
+status = "normal"
+
+["Glass.Settings.WaterDepth"]
+new = "Depth darkening (%)"
+status = "normal"
+
+["Glass.Settings.WaterDepth.Tooltip"]
+new = "How quickly water seen through glass darkens further below its surface. 100 is the game's ground water, 0 keeps it even all the way down."
+status = "normal"
+
+["Glass.Settings.WaterGradient"]
+new = "Green tint (%)"
+status = "normal"
+
+["Glass.Settings.WaterGradient.Tooltip"]
+new = "How much of the game's depth gradient texture colors the tank water. It tints the water green; 0 keeps the game's plain teal-to-blue."
+status = "normal"
+
+["Glass.Settings.Section.Water"]
+new = "Tank water"
+status = "normal"

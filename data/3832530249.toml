@@ -18,7 +18,7 @@ new = "Pipe intake"
 status = "normal"
 
 ["Building.WaterPipeIntake.Description"]
-new = "Place it on the bank with the overhang above the water. Pipes connect to any of the spouts on its left wall and front; power comes in on the right. With power and a worker it pumps water up to 6 levels above the source water. Otherwise it works as a siphon: it can rise 2 levels and only feeds outlets lower than the source water. Select it to choose whether it moves clean water or badwater."
+new = "Place it on the bank with the overhang above the water. Pipes connect to any of the spouts on its left wall and front; power comes in on the right or from a shaft below it. With power and a worker it pumps water up to 6 levels above the source water. Otherwise it works as a siphon: it can rise 2 levels and only feeds outlets lower than the source water. Select it to choose whether it moves clean water or badwater."
 status = "normal"
 
 ["Building.WaterPipeIntake.FlavorDescription"]

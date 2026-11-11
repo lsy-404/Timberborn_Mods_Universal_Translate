@@ -36,3 +36,15 @@ status = "normal"
 ["Building.CartWagonYard.FlavorDescription"]
 new = "The right wheels for the job."
 status = "normal"
+
+["Building.CartShedIronTeeth.DisplayName"]
+new = "Cart Shed"
+status = "normal"
+
+["Building.CartShedIronTeeth.Description"]
+new = "Up to 5 haulers push hand carts and carry four times a normal beaver's load per trip. Bots carry the load without a cart."
+status = "normal"
+
+["Building.CartShedIronTeeth.FlavorDescription"]
+new = "Two wheels beat four paws."
+status = "normal"
