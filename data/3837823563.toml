@@ -1,26 +1,38 @@
 [_meta]
-name = "Cargo Zipline"
+name = "Cargo Zipline & Tubeway"
+
+["Building.CargoTubeStation.DisplayName"]
+new = "Cargo Tube Station"
+status = "normal"
+
+["Building.CargoTubeStation.Description"]
+new = "Join tubeways to its left, right or back, or from below. Haulers on long trips drop goods here (boxes, logs, liquids) and capsules carry up to 50 at a time through the tubes to the cargo station nearest their goal, where haulers take them on. Both stations must touch the same tube line. No power needed."
+status = "normal"
+
+["Building.CargoTubeStation.FlavorDescription"]
+new = "Fifty logs. One tube. No paws."
+status = "normal"
 
 ["Building.CargoStation.DisplayName"]
 new = "Cargo Station"
-status = "normal"
+status = "abandoned"
 
 ["Building.CargoStation.Description"]
 new = "Link it to other stations and pylons, up to four cables in any direction. Haulers on long trips drop goods here (boxes, logs, liquids) and crates carry them to the station nearest their goal, where haulers take them on. No power needed. Beavers cannot ride the cable."
-status = "normal"
+status = "abandoned"
 
 ["Building.CargoStation.FlavorDescription"]
 new = "Goods ride. Beavers walk."
-status = "normal"
+status = "abandoned"
 
 ["Building.CargoPylon.DisplayName"]
 new = "Cargo Pylon"
-status = "normal"
+status = "abandoned"
 
 ["Building.CargoPylon.Description"]
 new = "Carries the cargo cable, up to 30 tiles to the next tower."
-status = "normal"
+status = "abandoned"
 
 ["Building.CargoPylon.FlavorDescription"]
 new = "Holds the line."
-status = "normal"
+status = "abandoned"

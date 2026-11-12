@@ -1,0 +1,78 @@
+[_meta]
+name = "Smart Beavers (Mądre Bobry)"
+
+["MadreBobry.Header"]
+new = "Smart Beavers"
+status = "normal"
+
+["MadreBobry.NearestWork"]
+new = "Take the nearest job"
+status = "normal"
+
+["MadreBobry.NearestWork.Tooltip"]
+new = "Builders pick the construction site, demolition and recovered stack closest to themselves instead of the oldest one on the list. Construction priorities work as before."
+status = "normal"
+
+["MadreBobry.HaulDistanceWeight"]
+new = "Haulers: distance importance (%)"
+status = "normal"
+
+["MadreBobry.HaulDistanceWeight.Tooltip"]
+new = "A haul job at a building 60 or more tiles away from the hauler loses this many percentage points of urgency (proportionally less when closer). 0 = vanilla, only urgency counts. Haul priority always wins."
+status = "normal"
+
+["MadreBobry.IdleHaulersHelp"]
+new = "Idle haulers help builders"
+status = "normal"
+
+["MadreBobry.IdleHaulersHelp.Tooltip"]
+new = "A hauler with no haul job carries materials to construction sites and moves recovered stacks to storage instead of waiting at the hauling post. Haulers don't build."
+status = "normal"
+
+["MadreBobry.HomesNearWork"]
+new = "Live closer to work"
+status = "normal"
+
+["MadreBobry.HomesNearWork.Tooltip"]
+new = "A free slot in a home goes to the beaver working closest to it. Once per game hour (daytime) working beavers move to free slots closer to work or swap homes if that shortens the home-to-work distance by at least 8 tiles."
+status = "normal"
+
+["MadreBobry.JobsNearHome"]
+new = "Assign jobs closer to home"
+status = "normal"
+
+["MadreBobry.JobsNearHome.Tooltip"]
+new = "A vacant job goes to the unemployed beaver living closest instead of a random one."
+status = "normal"
+
+["MadreBobry.UseNearbyStacks"]
+new = "Take materials from nearby recovered stacks"
+status = "normal"
+
+["MadreBobry.UseNearbyStacks.Tooltip"]
+new = "Builders take planks, logs etc. from a demolition stack if it lies closer to the construction site than the nearest warehouse."
+status = "normal"
+
+["MadreBobry.StackRadius"]
+new = "Stack search radius (tiles)"
+status = "normal"
+
+["MadreBobry.StackRadius.Tooltip"]
+new = "How far from the construction site (straight line) a recovered stack may lie."
+status = "normal"
+
+["MadreBobry.FinishConstruction"]
+new = "Finish almost completed constructions"
+status = "normal"
+
+["MadreBobry.FinishConstruction.Tooltip"]
+new = "Builders don't leave a construction site when little work remains. Exception: a need in critical state (hunger, thirst)."
+status = "normal"
+
+["MadreBobry.FinishThreshold"]
+new = "Finish if at most this much work remains (game minutes)"
+status = "normal"
+
+["MadreBobry.FinishThreshold.Tooltip"]
+new = "How much of this beaver's work time may remain for it to stay and finish."
+status = "normal"
