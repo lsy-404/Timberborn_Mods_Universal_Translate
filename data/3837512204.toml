@@ -325,8 +325,8 @@ viVN = "Một phần của bộ sưu tập Công trình Đường đi. Được 
 trTR = "Pathworks koleksiyonunun bir parçası. Sabırlı patiler tarafından inşa edildi."
 
 ["Bridgeworks.Suspension.Slate.3.Name"]
-status = "normal"
 raw = "Slate suspension bridge (3)"
+status = "normal"
 enUS = "Slate Suspension Bridge (3)"
 zhCN = "板岩悬索桥 (3)"
 zhTW = "板岩吊橋 (3)"
@@ -342,8 +342,8 @@ viVN = "Cầu treo bằng đá phiến (3)"
 trTR = "Arduvaz asma köprü (3)"
 
 ["Bridgeworks.Suspension.Slate.3.Flavor"]
-status = "normal"
 raw = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
 enUS = "Part of the Pathworks collection. Built by patient paws."
 zhCN = "属于路径工坊系列。由耐心的爪子建造。"
 zhTW = "道路工坊系列的一部分。由耐心的爪子建造。"
@@ -359,8 +359,8 @@ viVN = "Một phần của bộ sưu tập Pathworks. Được dựng nên bởi
 trTR = "Yol İşleri koleksiyonunun bir parçası. Sabırlı patiler tarafından inşa edildi."
 
 ["Bridgeworks.Suspension.Slate.4.Name"]
-status = "normal"
 raw = "Slate suspension bridge (4)"
+status = "normal"
 enUS = "Slate suspension bridge (4)"
 zhCN = "板岩悬索桥（4）"
 zhTW = "板岩吊橋（4）"
@@ -376,8 +376,8 @@ viVN = "Cầu treo bằng đá phiến (4)"
 trTR = "Arduvaz Asma Köprü (4)"
 
 ["Bridgeworks.Suspension.Slate.4.Flavor"]
-status = "normal"
 raw = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
 enUS = "Part of the Pathworks collection. Built by patient paws."
 zhCN = "Pathworks 系列的一部分。由耐心的爪子建造。"
 zhTW = "道路工坊系列的一部分。由耐心的爪子打造。"
@@ -393,8 +393,8 @@ viVN = "Một phần của bộ sưu tập Pathworks. Được xây dựng bởi
 trTR = "Yol Yapıları koleksiyonunun bir parçası. Sabırlı patiler tarafından inşa edildi."
 
 ["Bridgeworks.Suspension.Slate.5.Name"]
-status = "normal"
 raw = "Slate suspension bridge (5)"
+status = "normal"
 enUS = "Slate suspension bridge (5)"
 zhCN = "板岩悬索桥（5）"
 zhTW = "板岩吊橋 (5)"
@@ -410,8 +410,8 @@ viVN = "Cầu treo đá phiến (5)"
 trTR = "Arduvaz Asma Köprüsü (5)"
 
 ["Bridgeworks.Suspension.Slate.5.Flavor"]
-status = "normal"
 raw = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
 enUS = "Part of the Pathworks collection. Built by patient paws."
 zhCN = "路径工坊系列的一部分。由耐心的爪子建造。"
 zhTW = "路徑工坊系列之一。由耐心的爪子打造。"

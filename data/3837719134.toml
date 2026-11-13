@@ -1,6 +1,54 @@
 [_meta]
 name = "灵溪宗 · 修仙海狸 (Spiritveil Clan)"
 
+["Bot.DisplayName.Spiritveil.Iron"]
+new = "Iron Golem {0}"
+status = "normal"
+
+["Bot.DisplayName.Spiritveil.Wood"]
+new = "Wood Golem {0}"
+status = "normal"
+
+["Status.Bot.DeadShort"]
+new = "Golem destroyed"
+status = "normal"
+
+["Status.Need.Biofuel.Short"]
+new = "Golem out of spirit fuel"
+status = "normal"
+
+["Status.Need.Power.Short"]
+new = "Golem out of spirit energy"
+status = "normal"
+
+["Work.BotOnly"]
+new = "<YellowHighlight>Golems only:</YellowHighlight> no beaver can work in this building."
+status = "normal"
+
+["Building.ChargingStation.Description"]
+new = "A place where golems come to recharge."
+status = "normal"
+
+["Building.ChargingStation.DisplayName"]
+new = "Spirit Charging Nexus"
+status = "normal"
+
+["Building.ChargingStation.FlavorDescription"]
+new = "Do not use with non-Iron-Golem equipment."
+status = "normal"
+
+["Building.ControlTower.Description"]
+new = "A tall structure that broadcasts a control signal, boosting the golems around it."
+status = "normal"
+
+["Building.ControlTower.DisplayName"]
+new = "Golem Command Spire"
+status = "normal"
+
+["Building.ControlTower.FlavorDescription"]
+new = "A golem must obey the beavers - unless there are no beavers left."
+status = "normal"
+
 ["Bot.IronGolem.TemplateName"]
 new = "Iron Golem"
 status = "normal"
@@ -10,43 +58,31 @@ new = "Wood Golem"
 status = "normal"
 
 ["Building.Spiritveil.AquaticFarmhouse.Description"]
-new = "Water Farmhouse An on-water farmstead that grows spirit grain and herbs without claiming dry land."
+new = "An on-water farmstead that grows spirit grain and spirit herbs without taking up a single tile of dry land."
 status = "normal"
 
 ["Building.Spiritveil.AquaticFarmhouse.DisplayName"]
-new = "Water Farmhouse"
+new = "Waterborne Farmhouse"
 status = "normal"
 
 ["Building.Spiritveil.AquaticFarmhouse.FlavorDescription"]
-new = "Every beam of Aquatic Farmhouse was set with a quiet mind."
+new = "Planted on still water, harvested by steady hands."
 status = "normal"
 
 ["Building.Spiritveil.AquiferDrill.Description"]
-new = "Aquifer Drill Drills into the deep water table to raise buried spirit springs when surface water runs dry."
+new = "Bores down into the deep aquifer to raise a buried spirit spring - a steady nerve when the surface runs dry."
 status = "normal"
 
 ["Building.Spiritveil.AquiferDrill.DisplayName"]
-new = "Aquifer Drill"
+new = "Spirit Spring Drill"
 status = "normal"
 
 ["Building.Spiritveil.AquiferDrill.FlavorDescription"]
-new = "Every beam of Aquifer Drill was set with a quiet mind."
-status = "normal"
-
-["Building.Spiritveil.AquiferDrillIron.Description"]
-new = "AquiferDrillIron The golem-grade aquifer drill; wood golems keep it boring day and night."
-status = "normal"
-
-["Building.Spiritveil.AquiferDrillIron.DisplayName"]
-new = "AquiferDrillIron"
-status = "normal"
-
-["Building.Spiritveil.AquiferDrillIron.FlavorDescription"]
-new = "The stream keeps its song; Aquifer Drill Iron stays green."
+new = "The deeper it bites, the sweeter the water."
 status = "normal"
 
 ["Building.Spiritveil.ArtifactWorkshop.Description"]
-new = "Artifact Workshop is a pill furnace or artefact room where the elixir fire never goes out."
+new = "Part pill furnace, part workshop: the elixir fire never goes out and the smell of cinnabar never quite leaves."
 status = "normal"
 
 ["Building.Spiritveil.ArtifactWorkshop.DisplayName"]
@@ -54,59 +90,47 @@ new = "Artifact Workshop"
 status = "normal"
 
 ["Building.Spiritveil.ArtifactWorkshop.FlavorDescription"]
-new = "Every beam of Artifact Workshop was set with a quiet mind."
+new = "The furnace is never cold, and never quiet."
 status = "normal"
 
 ["Building.Spiritveil.AscensionCave.Description"]
-new = "Ascension Cave The ascension cave where beavers strive for the great vehicle; the ascension herb guards the dao as success hangs by a thread."
+new = "A secluded retreat. Meditate inside to slowly bank Mahayana progress. Reaching Mahayana still takes 720 hours in the Thunder Pool (300 hp) and a Mahayana Elixir."
 status = "normal"
 
 ["Building.Spiritveil.AscensionCave.DisplayName"]
-new = "Ascension Cave"
+new = "Mahayana Cave"
 status = "normal"
 
 ["Building.Spiritveil.AscensionCave.FlavorDescription"]
-new = "Clouds rise above Ascension Cave, and qi follows."
-status = "normal"
-
-["Building.Spiritveil.AwakeningStone.Description"]
-new = "Awakening Stone is a rune-carved formation that gathers the mountain's qi and shields the gate."
-status = "normal"
-
-["Building.Spiritveil.AwakeningStone.DisplayName"]
-new = "Awakening Stone"
-status = "normal"
-
-["Building.Spiritveil.AwakeningStone.FlavorDescription"]
-new = "Clouds rise above Awakening Stone, and qi follows."
+new = "Clouds gather at the cave mouth, and the qi follows them in."
 status = "normal"
 
 ["Building.Spiritveil.BadwaterDome.Description"]
-new = "Badwater Dome A dome capping the badwater source, containing the miasma and shielding nearby waterworks."
+new = "Caps a badwater source, holding the miasma inside and keeping the waterways around it clean."
 status = "normal"
 
 ["Building.Spiritveil.BadwaterDome.DisplayName"]
-new = "Badwater Dome"
+new = "Badwater Ward"
 status = "normal"
 
 ["Building.Spiritveil.BadwaterDome.FlavorDescription"]
-new = "Where beavers pass, Badwater Dome shines."
+new = "What is sealed below stays below."
 status = "normal"
 
 ["Building.Spiritveil.BadwaterPump.Description"]
-new = "Xianye Pump Pumps xianye from the tainted aquifer; golems only, for the foul vapor harms mortals."
+new = "Draws immortal fluid out of the tainted aquifer. Golems only - the vapour poisons any mortal beaver who lingers."
 status = "normal"
 
 ["Building.Spiritveil.BadwaterPump.DisplayName"]
-new = "Xianye Pump"
+new = "Immortal Fluid Pump"
 status = "normal"
 
 ["Building.Spiritveil.BadwaterPump.FlavorDescription"]
-new = "Clouds rise above Badwater Pump, and qi follows."
+new = "No mortal beaver lingers here for long."
 status = "normal"
 
 ["Building.Spiritveil.BadwaterRig.Description"]
-new = "Badwater Rig A deep rig tapping the badwater seam, likewise worked only by golems."
+new = "A deep rig sunk into the badwater seam to tap immortal fluid. Worked by golems alone."
 status = "normal"
 
 ["Building.Spiritveil.BadwaterRig.DisplayName"]
@@ -114,11 +138,11 @@ new = "Badwater Rig"
 status = "normal"
 
 ["Building.Spiritveil.BadwaterRig.FlavorDescription"]
-new = "The stream keeps its song; Badwater Rig stays green."
+new = "The derrick creaks all night, and nobody comes to listen."
 status = "normal"
 
 ["Building.Spiritveil.Bakery.Description"]
-new = "Spirit Kitchen The clan kitchen: bakes spirit bread, brews spirit tea and wine, and feeds the whole sect."
+new = "The sect kitchen. Bakes spirit grain flour into cakes and brews spirit tea and spirit wine for the disciples."
 status = "normal"
 
 ["Building.Spiritveil.Bakery.DisplayName"]
@@ -126,107 +150,107 @@ new = "Spirit Kitchen"
 status = "normal"
 
 ["Building.Spiritveil.Bakery.FlavorDescription"]
-new = "A peaceful day at the gate, and Bakery rests."
+new = "Smoke from the kitchen is the first sign of a living sect."
 status = "normal"
 
 ["Building.Spiritveil.Barrack.Description"]
-new = "Spiritveil Residence A humble shared dormitory - a mat and a lamp for beavers newly admitted to the sect."
+new = "Plain shared lodgings - a straw mat and a lamp apiece for beavers newly admitted to the sect."
 status = "normal"
 
 ["Building.Spiritveil.Barrack.DisplayName"]
-new = "Spiritveil Residence"
+new = "Spiritveil Quarters"
 status = "normal"
 
 ["Building.Spiritveil.Barrack.FlavorDescription"]
-new = "Every beam of Barrack was set with a quiet mind."
+new = "A mat, a lamp and a roof. It is enough to begin with."
 status = "normal"
 
 ["Building.Spiritveil.BeaverStatue.Description"]
-new = "Beaver Statue is a cultivation site of the Lingxi Clan, gathering qi so beavers can advance through the realms."
+new = "A cultivation site of the clan. It gathers qi and leaves the body and mind of anyone who rests here at ease."
 status = "normal"
 
 ["Building.Spiritveil.BeaverStatue.DisplayName"]
-new = "Beaver Statue"
+new = "Spirit Beaver Statue"
 status = "normal"
 
 ["Building.Spiritveil.BeaverStatue.FlavorDescription"]
-new = "Every beam of Beaver Statue was set with a quiet mind."
+new = "Carved in the likeness of the first beaver to ascend."
 status = "normal"
 
 ["Building.Spiritveil.Beehive.Description"]
-new = "Beehive Houses spirit bees whose honey is a prized ingredient for elixirs and guests alike."
+new = "Home to spirit bees. Their honey is prized both in elixirs and at the guest table."
 status = "normal"
 
 ["Building.Spiritveil.Beehive.DisplayName"]
-new = "Beehive"
+new = "Spirit Beehive"
 status = "normal"
 
 ["Building.Spiritveil.Beehive.FlavorDescription"]
-new = "Moonlight on Beehive; the elixir fire still burns."
+new = "The bees work harder than any disciple."
 status = "normal"
 
 ["Building.Spiritveil.Bench.Description"]
-new = "Bench A bench by the stream for rest or meditation; one sits down and forgets the hours."
+new = "A bench by the stream for resting or meditating. Sit long enough and you lose track of the hour."
 status = "normal"
 
 ["Building.Spiritveil.Bench.DisplayName"]
-new = "Bench"
+new = "Meditation Bench"
 status = "normal"
 
 ["Building.Spiritveil.Bench.FlavorDescription"]
-new = "Clouds rise above Bench, and qi follows."
+new = "The stream does all the talking."
 status = "normal"
 
 ["Building.Spiritveil.BrazierOfBonding.Description"]
-new = "Brazier Of Bonding A bonding brazier where two beavers sit and burn incense, deepening both affection and dao."
+new = "Two beavers sit here and burn incense together, warming friendship and dao heart at once. Meditate inside to slowly bank Qi Refining progress."
 status = "normal"
 
 ["Building.Spiritveil.BrazierOfBonding.DisplayName"]
-new = "Brazier Of Bonding"
+new = "Brazier of Bonding"
 status = "normal"
 
 ["Building.Spiritveil.BrazierOfBonding.FlavorDescription"]
-new = "Where beavers pass, Brazier Of Bonding shines."
+new = "Incense shared outlasts the smoke."
 status = "normal"
 
 ["Building.Spiritveil.BuildersHut.Description"]
-new = "Builders Hut The builders lodge: craftsmen rest here and stage materials before any new hall breaks ground."
+new = "The builders' lodge. Craftsmen rest here and stage their materials before a new hall breaks ground."
 status = "normal"
 
 ["Building.Spiritveil.BuildersHut.DisplayName"]
-new = "Builders Hut"
+new = "Builders Lodge"
 status = "normal"
 
 ["Building.Spiritveil.BuildersHut.FlavorDescription"]
-new = "A peaceful day at the gate, and Builders Hut rests."
+new = "Every hall in the sect started as a pile of planks in this yard."
 status = "normal"
 
 ["Building.Spiritveil.BulletinPole.Description"]
-new = "Bulletin Pole A notice pole for sect announcements and duty rosters - the mountain gate at a glance."
+new = "A notice pole for sect announcements and duty rosters - the whole gate's news in one place."
 status = "normal"
 
 ["Building.Spiritveil.BulletinPole.DisplayName"]
-new = "Bulletin Pole"
+new = "Notice Pole"
 status = "normal"
 
 ["Building.Spiritveil.BulletinPole.FlavorDescription"]
-new = "Moonlight on Bulletin Pole; the elixir fire still burns."
+new = "Read it once, and the day's work is settled."
 status = "normal"
 
 ["Building.Spiritveil.Campfire.Description"]
-new = "Dao Discussion Platform The dao-discussion fire; trading insights by the flames quietly grows one's understanding."
+new = "A fire for trading insights. Talking through the dao by the flames quietly sharpens everyone's understanding."
 status = "normal"
 
 ["Building.Spiritveil.Campfire.DisplayName"]
-new = "Dao Discussion Platform"
+new = "Dao Circle"
 status = "normal"
 
 ["Building.Spiritveil.Campfire.FlavorDescription"]
-new = "Every beam of Campfire was set with a quiet mind."
+new = "The loudest place in the sect, and the most useful."
 status = "normal"
 
 ["Building.Spiritveil.Carousel.Description"]
-new = "Moonview Terrace A moon-gazing wheel; beavers tread and gaze, resting body and mind in idleness."
+new = "A moon-gazing wheel. Beavers tread it slowly, resting body and mind in idleness."
 status = "normal"
 
 ["Building.Spiritveil.Carousel.DisplayName"]
@@ -234,107 +258,71 @@ new = "Moonview Terrace"
 status = "normal"
 
 ["Building.Spiritveil.Carousel.FlavorDescription"]
-new = "Where beavers pass, Carousel shines."
+new = "Round and round, and the moon keeps pace."
 status = "normal"
 
 ["Building.Spiritveil.Centrifuge.Description"]
-new = "Centrifuge A spirit-liquor centrifuge spinning impurities out of tainted fluid, run tirelessly by golems."
+new = "Spins the impurities out of tainted fluid. Golems keep it running day and night."
 status = "normal"
 
 ["Building.Spiritveil.Centrifuge.DisplayName"]
-new = "Centrifuge"
+new = "Spirit Centrifuge"
 status = "normal"
 
 ["Building.Spiritveil.Centrifuge.FlavorDescription"]
-new = "The stream keeps its song; Centrifuge stays green."
-status = "normal"
-
-["Building.Spiritveil.CentrifugeIron.Description"]
-new = "CentrifugeIron The reinforced iron centrifuge; refines faster to supply the high-tier alchemy rooms."
-status = "normal"
-
-["Building.Spiritveil.CentrifugeIron.DisplayName"]
-new = "CentrifugeIron"
-status = "normal"
-
-["Building.Spiritveil.CentrifugeIron.FlavorDescription"]
-new = "Where beavers pass, Centrifuge Iron shines."
+new = "Round and round, until the water forgets it was ever dirty."
 status = "normal"
 
 ["Building.Spiritveil.Chronometer.Description"]
-new = "Chronometer A spirit sundial and water clock that keep the whole sect on the same schedule."
+new = "A sundial and water clock in one, keeping the whole sect on the same schedule."
 status = "normal"
 
 ["Building.Spiritveil.Chronometer.DisplayName"]
-new = "Chronometer"
+new = "Spirit Sundial"
 status = "normal"
 
 ["Building.Spiritveil.Chronometer.FlavorDescription"]
-new = "The stream keeps its song; Chronometer stays green."
+new = "When the shadow moves, the sect moves with it."
 status = "normal"
 
 ["Building.Spiritveil.Clutch.Description"]
-new = "Clutch The power clutch that couples or cuts each workshop from the drive - one lever moves the mountain."
+new = "Couples or cuts each workshop from the drive. One lever moves the whole mountain."
 status = "normal"
 
 ["Building.Spiritveil.Clutch.DisplayName"]
-new = "Clutch"
+new = "Spirit Clutch"
 status = "normal"
 
 ["Building.Spiritveil.Clutch.FlavorDescription"]
-new = "Moonlight on Clutch; the elixir fire still burns."
+new = "One pull, and half the workshops fall silent."
 status = "normal"
 
 ["Building.Spiritveil.CompactMechanicalPump.Description"]
-new = "Compact Mechanical Pump A compact pump for trickling water into scattered plots and small lodges."
+new = "A small pump that trickles water into scattered plots and outlying huts."
 status = "normal"
 
 ["Building.Spiritveil.CompactMechanicalPump.DisplayName"]
-new = "Compact Mechanical Pump"
+new = "Compact Spirit Pump"
 status = "normal"
 
 ["Building.Spiritveil.CompactMechanicalPump.FlavorDescription"]
-new = "Moonlight on Compact Mechanical Pump; the elixir fire still burns."
-status = "normal"
-
-["Building.Spiritveil.CompactMechanicalPumpIron.Description"]
-new = "CompactMechanicalPumpIron The iron compact pump; even a lone golem can push water into the fields."
-status = "normal"
-
-["Building.Spiritveil.CompactMechanicalPumpIron.DisplayName"]
-new = "CompactMechanicalPumpIron"
-status = "normal"
-
-["Building.Spiritveil.CompactMechanicalPumpIron.FlavorDescription"]
-new = "Clouds rise above Compact Mechanical Pump Iron, and qi follows."
+new = "Small enough to overlook, stubborn enough to keep the fields green."
 status = "normal"
 
 ["Building.Spiritveil.ContaminationSensor.Description"]
-new = "Contamination Sensor A taint-sensing stone that flashes the moment water discolors - the sentinel of the waterway."
+new = "A sensing stone that lights up the moment the water discolours. The sentry of the waterways."
 status = "normal"
 
 ["Building.Spiritveil.ContaminationSensor.DisplayName"]
-new = "Contamination Sensor"
+new = "Taint Sensor"
 status = "normal"
 
 ["Building.Spiritveil.ContaminationSensor.FlavorDescription"]
-new = "Every beam of Contamination Sensor was set with a quiet mind."
-status = "normal"
-
-["Building.Spiritveil.ContemplationSpot.Description"]
-new = "Meditation Spot A meditation spot where beavers sit, breathe, and slowly gather insight."
-status = "normal"
-
-["Building.Spiritveil.ContemplationSpot.DisplayName"]
-new = "Meditation Spot"
-status = "normal"
-
-["Building.Spiritveil.ContemplationSpot.FlavorDescription"]
-new = "Moonlight on Contemplation Spot; the elixir fire still burns."
+new = "It never sleeps, and it never blinks."
 status = "normal"
 
 ["Building.Spiritveil.Dam.Description"]
-new = "Spirit Dam A spirit-gathering dam pooling the stream - water, and a whole dry season, held in reserve."
+new = "Holds the stream back into a pool - storing water, and with it a whole dry season's peace of mind."
 status = "normal"
 
 ["Building.Spiritveil.Dam.DisplayName"]
@@ -342,71 +330,47 @@ new = "Spirit Dam"
 status = "normal"
 
 ["Building.Spiritveil.Dam.FlavorDescription"]
-new = "Where beavers pass, Dam shines."
-status = "normal"
-
-["Building.Spiritveil.DanceHall.Description"]
-new = "Clearmind Hall The purification hall; dance and music wash away distracting thoughts."
-status = "normal"
-
-["Building.Spiritveil.DanceHall.DisplayName"]
-new = "Clearmind Hall"
-status = "normal"
-
-["Building.Spiritveil.DanceHall.FlavorDescription"]
-new = "Clouds rise above Dance Hall, and qi follows."
+new = "A full reservoir is patience you can drink."
 status = "normal"
 
 ["Building.Spiritveil.DepthSensor.Description"]
-new = "Depth Sensor A depth gauge sounding the pool, guarding against running dry or overflowing."
+new = "Sounds the depth of the pool, warning against both running dry and overflowing."
 status = "normal"
 
 ["Building.Spiritveil.DepthSensor.DisplayName"]
-new = "Depth Sensor"
+new = "Depth Gauge"
 status = "normal"
 
 ["Building.Spiritveil.DepthSensor.FlavorDescription"]
-new = "Moonlight on Depth Sensor; the elixir fire still burns."
+new = "It measures what the eye cannot reach."
 status = "normal"
 
 ["Building.Spiritveil.Detonator.Description"]
-new = "Detonator The rune core that commands blast formations - one word and the rock gives way."
+new = "The rune core that commands the blast charges. One word, and the rock gives way."
 status = "normal"
 
 ["Building.Spiritveil.Detonator.DisplayName"]
-new = "Detonator"
+new = "Thunder Rune Core"
 status = "normal"
 
 ["Building.Spiritveil.Detonator.FlavorDescription"]
-new = "Clouds rise above Detonator, and qi follows."
+new = "Say the word, and the mountain listens."
 status = "normal"
 
 ["Building.Spiritveil.Discharge.Description"]
-new = "Discharge A spirit-water outlet returning spent water to the stream to keep the circuit flowing."
+new = "Returns spent water to the stream and keeps the circuit flowing."
 status = "normal"
 
 ["Building.Spiritveil.Discharge.DisplayName"]
-new = "Discharge"
+new = "Spirit Outlet"
 status = "normal"
 
 ["Building.Spiritveil.Discharge.FlavorDescription"]
-new = "The stream keeps its song; Discharge stays green."
-status = "normal"
-
-["Building.Spiritveil.DischargeIron.Description"]
-new = "DischargeIron The reinforced iron outlet; golem-tended, it handles flood-scale discharge with ease."
-status = "normal"
-
-["Building.Spiritveil.DischargeIron.DisplayName"]
-new = "DischargeIron"
-status = "normal"
-
-["Building.Spiritveil.DischargeIron.FlavorDescription"]
-new = "The stream keeps its song; Discharge Iron stays green."
+new = "What the sect no longer needs, the river takes back."
 status = "normal"
 
 ["Building.Spiritveil.DistrictCenter.Description"]
-new = "Sect Hall The sect hall - council, artefact offerings and scripture archives; the heart and face of the clan."
+new = "The sect hall. Council business, artifact offerings and the scripture archive all happen here - the heart and the face of the clan."
 status = "normal"
 
 ["Building.Spiritveil.DistrictCenter.DisplayName"]
@@ -414,11 +378,11 @@ new = "Sect Hall"
 status = "normal"
 
 ["Building.Spiritveil.DistrictCenter.FlavorDescription"]
-new = "The stream keeps its song; District Center stays green."
+new = "Its roof is the first thing a visitor sees, and the last thing they forget."
 status = "normal"
 
 ["Building.Spiritveil.DoubleFloodgate.Description"]
-new = "Double Spirit Gate A twin-plate floodgate for finer water control, ready for both drought and deluge."
+new = "A twin-plate gate for finer water control, ready for drought and deluge alike."
 status = "normal"
 
 ["Building.Spiritveil.DoubleFloodgate.DisplayName"]
@@ -426,23 +390,23 @@ new = "Double Spirit Gate"
 status = "normal"
 
 ["Building.Spiritveil.DoubleFloodgate.FlavorDescription"]
-new = "Moonlight on Double Floodgate; the elixir fire still burns."
+new = "Two plates, twice the patience."
 status = "normal"
 
 ["Building.Spiritveil.DoubleLodge.Description"]
-new = "Qingfeng Residence A breezy two-family lodge, cool and airy - the best place to sleep on a summer night."
+new = "A breezy two-family lodge, cool and airy - the best bunk in the sect on a summer night."
 status = "normal"
 
 ["Building.Spiritveil.DoubleLodge.DisplayName"]
-new = "Qingfeng Residence"
+new = "Clearwind Residence"
 status = "normal"
 
 ["Building.Spiritveil.DoubleLodge.FlavorDescription"]
-new = "Clouds rise above Double Lodge, and qi follows."
+new = "The wind does the sweeping here."
 status = "normal"
 
 ["Building.Spiritveil.EarthRecultivator.Description"]
-new = "Spirit Restorer A sect treasure that mends the spirit veins. Once built, all breakthroughs from Mortal to Great Ascendant have doubled success; the Immortal tribulation and ascension are unaffected."
+new = "A sect treasure that mends the spirit veins. Once built, the base success rate of all five breakthroughs - the final tribulation included - is doubled, and stacks with pills, offerings and aura bonuses."
 status = "normal"
 
 ["Building.Spiritveil.EarthRecultivator.DisplayName"]
@@ -450,11 +414,11 @@ new = "Spirit Restorer"
 status = "normal"
 
 ["Building.Spiritveil.EarthRecultivator.FlavorDescription"]
-new = "Veins restored, breakthroughs come twice as easy."
+new = "Mend the veins, and the mountain breathes again."
 status = "normal"
 
 ["Building.Spiritveil.EarthRepopulator.Description"]
-new = "Ascension Altar The sect's one and only wonder. An Immortal must fill the ascension bar here to ascend; success launches the sky-boat and wins the game for the whole clan."
+new = "The sect's only wonder. Haul 1500 Immortal Planks, 1500 Immortal Wood and 1500 Immortal Gears into the Altar's own inventory - district stock does not count - staff all four golem-only jobs and keep an Immortal Emperor in the clan, then press Activate. It never ascends on its own."
 status = "normal"
 
 ["Building.Spiritveil.EarthRepopulator.DisplayName"]
@@ -462,23 +426,23 @@ new = "Ascension Altar"
 status = "normal"
 
 ["Building.Spiritveil.EarthRepopulator.FlavorDescription"]
-new = "One boat to the heavens, the whole clan ascends."
+new = "One boat to the heavens, and the whole clan goes with it."
 status = "normal"
 
 ["Building.Spiritveil.EfficientFarmHouse.Description"]
-new = "Farmhouse A high-yield spirit-grain farm that out-produces the common farmhouse."
+new = "A hard-working spirit grain farm that out-produces the common farmhouse."
 status = "normal"
 
 ["Building.Spiritveil.EfficientFarmHouse.DisplayName"]
-new = "Farmhouse"
+new = "Spirit Farmhouse"
 status = "normal"
 
 ["Building.Spiritveil.EfficientFarmHouse.FlavorDescription"]
-new = "The stream keeps its song; Efficient Farm House stays green."
+new = "Every furrow counted, every ear accounted for."
 status = "normal"
 
 ["Building.Spiritveil.FarmerMonument.Description"]
-new = "Farmer Monument A monument to generations of farmer-cultivators, inspiring the diligent who follow."
+new = "Honours generations of farmer-cultivators and urges those who follow to keep at it. Meditate inside to slowly bank Qi Refining progress."
 status = "normal"
 
 ["Building.Spiritveil.FarmerMonument.DisplayName"]
@@ -486,11 +450,11 @@ new = "Farmer Monument"
 status = "normal"
 
 ["Building.Spiritveil.FarmerMonument.FlavorDescription"]
-new = "Where beavers pass, Farmer Monument shines."
+new = "The stone remembers who worked the soil."
 status = "normal"
 
 ["Building.Spiritveil.FermentationHouse.Description"]
-new = "Fermentation House Where cassava, mushrooms and soy are sealed in jars - the front hall of brewing and alchemy."
+new = "Cassava, mushrooms and soy sealed in jars to steep - the front hall of brewing and alchemy."
 status = "normal"
 
 ["Building.Spiritveil.FermentationHouse.DisplayName"]
@@ -498,11 +462,11 @@ new = "Fermentation House"
 status = "normal"
 
 ["Building.Spiritveil.FermentationHouse.FlavorDescription"]
-new = "Where beavers pass, Fermentation House shines."
+new = "The jars bubble quietly, and the whole yard smells of patience."
 status = "normal"
 
 ["Building.Spiritveil.Fermenter.Description"]
-new = "Elixir Chamber The alchemy room: brews foundation and breakthrough pills, plus the sect's daily rations."
+new = "Brews Foundation Pills and Breakthrough Pills, along with the healing, qi and longevity elixirs. Pills are drawn from stock automatically and never count as food."
 status = "normal"
 
 ["Building.Spiritveil.Fermenter.DisplayName"]
@@ -510,23 +474,23 @@ new = "Elixir Chamber"
 status = "normal"
 
 ["Building.Spiritveil.Fermenter.FlavorDescription"]
-new = "A peaceful day at the gate, and Fermenter rests."
+new = "The elixir fire has not gone out in a hundred years."
 status = "normal"
 
 ["Building.Spiritveil.FireworkLauncher.Description"]
-new = "Firework Launcher A launch pad for spirit fireworks - a reason to celebrate, and a fine view besides."
+new = "A launch pad for spirit fireworks - a reason to celebrate, and a fine view besides."
 status = "normal"
 
 ["Building.Spiritveil.FireworkLauncher.DisplayName"]
-new = "Firework Launcher"
+new = "Firework Terrace"
 status = "normal"
 
 ["Building.Spiritveil.FireworkLauncher.FlavorDescription"]
-new = "Where beavers pass, Firework Launcher shines."
+new = "For one night, the whole gate glows."
 status = "normal"
 
 ["Building.Spiritveil.Floodgate.Description"]
-new = "Spirit Gate A single-plate gate that raises or lowers to master the water at a lift of the arm."
+new = "A single-plate gate. Raise or lower it, and the water does as it is told."
 status = "normal"
 
 ["Building.Spiritveil.Floodgate.DisplayName"]
@@ -534,23 +498,23 @@ new = "Spirit Gate"
 status = "normal"
 
 ["Building.Spiritveil.Floodgate.FlavorDescription"]
-new = "Clouds rise above Floodgate, and qi follows."
+new = "The river's mood, decided by one beaver's arm."
 status = "normal"
 
 ["Building.Spiritveil.FlowSensor.Description"]
-new = "Flow Sensor A flow gauge measuring canal speed, telling at a glance where water stalls or thins."
+new = "Reads the speed of the canal, showing at a glance where the water stalls or thins."
 status = "normal"
 
 ["Building.Spiritveil.FlowSensor.DisplayName"]
-new = "Flow Sensor"
+new = "Flow Gauge"
 status = "normal"
 
 ["Building.Spiritveil.FlowSensor.FlavorDescription"]
-new = "Where beavers pass, Flow Sensor shines."
+new = "Where the water hesitates, it tells you."
 status = "normal"
 
 ["Building.Spiritveil.Forester.Description"]
-new = "Spirit Orchard An orchard raising spirit trees and herbs - the living wellspring of timber and elixir materials."
+new = "An orchard raising spirit trees and spirit herbs - the living source of timber and elixir materials."
 status = "normal"
 
 ["Building.Spiritveil.Forester.DisplayName"]
@@ -558,11 +522,11 @@ new = "Spirit Orchard"
 status = "normal"
 
 ["Building.Spiritveil.Forester.FlavorDescription"]
-new = "Where beavers pass, Forester shines."
+new = "Plant now; the sect will thank you in sixty years."
 status = "normal"
 
 ["Building.Spiritveil.FoundationCave.Description"]
-new = "Foundation Cave The foundation cave where beavers lay their dao base; with a foundation pill and days of seclusion, cultivation truly begins."
+new = "A secluded retreat. Meditate inside to slowly bank Foundation progress. Advancing still takes 100 hours in the Discipline Hall and a Foundation Pill."
 status = "normal"
 
 ["Building.Spiritveil.FoundationCave.DisplayName"]
@@ -570,11 +534,11 @@ new = "Foundation Cave"
 status = "normal"
 
 ["Building.Spiritveil.FoundationCave.FlavorDescription"]
-new = "The stream keeps its song; Foundation Cave stays green."
+new = "The door closes, and the world stops asking anything of you."
 status = "normal"
 
 ["Building.Spiritveil.FountainOfJoy.Description"]
-new = "Spirit Spring A joy-bringing spring that bubbles up clear; drink and be carefree, the clan's mascot."
+new = "Living water rises in the basin; drink, and the day's troubles wash off. Meditate beside it to slowly bank Foundation progress."
 status = "normal"
 
 ["Building.Spiritveil.FountainOfJoy.DisplayName"]
@@ -582,23 +546,23 @@ new = "Spirit Spring"
 status = "normal"
 
 ["Building.Spiritveil.FountainOfJoy.FlavorDescription"]
-new = "A peaceful day at the gate, and Fountain Of Joy rests."
+new = "In water it sings all day. Left dry, it stays silent."
 status = "normal"
 
 ["Building.Spiritveil.GeothermalEngine.Description"]
-new = "Geothermal Engine A geothermal engine drawing earth-heat to turn the works - no wind, no water, steady and sure."
+new = "Draws earth-heat to turn the works. No wind, no water - steady and sure."
 status = "normal"
 
 ["Building.Spiritveil.GeothermalEngine.DisplayName"]
-new = "Geothermal Engine"
+new = "Earthvein Engine"
 status = "normal"
 
 ["Building.Spiritveil.GeothermalEngine.FlavorDescription"]
-new = "Every beam of Geothermal Engine was set with a quiet mind."
+new = "The mountain's own warmth, put to work."
 status = "normal"
 
 ["Building.Spiritveil.GoldenCoreCave.Description"]
-new = "Golden Core Cave The golden-core cave where beavers form their core in seclusion; elixirs and herbs indispensable."
+new = "A secluded retreat. Meditate inside to slowly bank Golden Core progress. Advancing still takes 240 hours at the Meditation Seat and a Golden Core Elixir."
 status = "normal"
 
 ["Building.Spiritveil.GoldenCoreCave.DisplayName"]
@@ -606,11 +570,11 @@ new = "Golden Core Cave"
 status = "normal"
 
 ["Building.Spiritveil.GoldenCoreCave.FlavorDescription"]
-new = "Every beam of Golden Core Cave was set with a quiet mind."
+new = "Deep in the rock, the only light is your own."
 status = "normal"
 
 ["Building.Spiritveil.GolemFactory.Description"]
-new = "Golem Foundry The golem factory, modeled on the vanilla bot assembler. Switch recipes to forge wood golems from parts, spirit wood and spirit water, or iron golems from parts, spirit iron, xianye and immortal gears."
+new = "Modelled on the golem assembler. Switch recipes to forge Wood Golems from golem parts, spirit wood and spirit fluid, or Iron Golems from parts, spirit iron, immortal fluid and immortal gears."
 status = "normal"
 
 ["Building.Spiritveil.GolemFactory.DisplayName"]
@@ -622,11 +586,11 @@ new = "The gears turn, the spirit takes hold, and a golem draws its first breath
 status = "normal"
 
 ["Building.Spiritveil.GolemForge.Description"]
-new = "Spirit Timber Workshop The spirit-timber workshop where mortals saw spirit wood into treated planks - the root of early timber work."
+new = "Where mortal beavers saw spirit wood into treated planks - the root of all early timber work."
 status = "normal"
 
 ["Building.Spiritveil.GolemForge.DisplayName"]
-new = "Spirit Timber Workshop"
+new = "Spirit Wood Workshop"
 status = "normal"
 
 ["Building.Spiritveil.GolemForge.FlavorDescription"]
@@ -634,7 +598,7 @@ new = "Every board laid down is a foundation of the sect."
 status = "normal"
 
 ["Building.Spiritveil.IronGolemForge.Description"]
-new = "Artifact Forge The artefact forge, the immortal-grade upgrade of the workshop. Golems forge spirit swords, shields and talismans for offerings and for the ascension platform and guardian array."
+new = "The immortal-grade upgrade of the artifact workshop. Golems forge spirit swords, shields and talismans for offerings, for the Ascension Altar and for the Sect Array."
 status = "normal"
 
 ["Building.Spiritveil.IronGolemForge.DisplayName"]
@@ -642,7 +606,7 @@ new = "Artifact Forge"
 status = "normal"
 
 ["Building.Spiritveil.IronGolemForge.FlavorDescription"]
-new = "The forge glows; spirit artifacts take shape."
+new = "The forge glows, and spirit artifacts take shape."
 status = "normal"
 
 ["Recipe.Bot.Spiritveil.Wood.DisplayName"]
@@ -654,7 +618,7 @@ new = "Forge Iron Golem"
 status = "normal"
 
 ["Building.Spiritveil.GolemPartFactory.Description"]
-new = "Golem Part Factory The golem parts factory: mortals forge bot torsos, limbs and heads, plus metal blocks - the start of the whole golem chain."
+new = "Mortal beavers forge golem torsos, limbs and heads here, and cast metal blocks on the side - the start of the whole golem chain."
 status = "normal"
 
 ["Building.Spiritveil.GolemPartFactory.DisplayName"]
@@ -662,11 +626,11 @@ new = "Golem Part Factory"
 status = "normal"
 
 ["Building.Spiritveil.GolemPartFactory.FlavorDescription"]
-new = "Moonlight on Golem Part Factory; the elixir fire still burns."
+new = "Legs, arms, a head. The rest is spirit."
 status = "normal"
 
 ["Building.Spiritveil.GravityBattery.Description"]
-new = "Gravity Battery A gravity battery storing the force of falling weights to carry the works through calm, windless spells."
+new = "Stores the pull of falling weights, carrying the works through calm and windless spells."
 status = "normal"
 
 ["Building.Spiritveil.GravityBattery.DisplayName"]
@@ -674,95 +638,95 @@ new = "Gravity Battery"
 status = "normal"
 
 ["Building.Spiritveil.GravityBattery.FlavorDescription"]
-new = "Moonlight on Gravity Battery; the elixir fire still burns."
+new = "What goes up pays for itself on the way down."
 status = "normal"
 
 ["Building.Spiritveil.Grill.Description"]
-new = "Grill A roasting grill for potatoes, chestnuts and cattail - simple hearth-fire comfort."
+new = "A roasting grill for potatoes, chestnuts and cattail - simple hearth-fire comfort."
 status = "normal"
 
 ["Building.Spiritveil.Grill.DisplayName"]
-new = "Grill"
+new = "Spirit Grill"
 status = "normal"
 
 ["Building.Spiritveil.Grill.FlavorDescription"]
-new = "Clouds rise above Grill, and qi follows."
+new = "Nothing profound about it. Just hot food and warm hands."
 status = "normal"
 
 ["Building.Spiritveil.Gristmill.Description"]
-new = "Gristmill The grain mill grinding wheat and cattail into flour for the kitchen's daily bread."
+new = "Grinds spirit grain and cattail into fine flour for the kitchen's daily bread."
 status = "normal"
 
 ["Building.Spiritveil.Gristmill.DisplayName"]
-new = "Gristmill"
+new = "Spirit Grain Mill"
 status = "normal"
 
 ["Building.Spiritveil.Gristmill.FlavorDescription"]
-new = "The stream keeps its song; Gristmill stays green."
+new = "Flour on the floor, bread on the table."
 status = "normal"
 
 ["Building.Spiritveil.HallOfAbundance.Description"]
-new = "Hall Of Abundance The hall of abundance; rich incense nourishes the clan and attracts wandering spirit energy."
+new = "Thick incense draws qi in from every direction. Meditate inside to slowly bank Foundation progress."
 status = "normal"
 
 ["Building.Spiritveil.HallOfAbundance.DisplayName"]
-new = "Hall Of Abundance"
+new = "Hall of Abundance"
 status = "normal"
 
 ["Building.Spiritveil.HallOfAbundance.FlavorDescription"]
-new = "Clouds rise above Hall Of Abundance, and qi follows."
+new = "The incense never thins, and neither does the welcome."
 status = "normal"
 
 ["Building.Spiritveil.Hammock.Description"]
-new = "Hammock A cloud hammock slung between two trees - beavers sway away a hard day's fatigue."
+new = "A hammock slung between two trees. Sway a while, and a hard day's fatigue drains away."
 status = "normal"
 
 ["Building.Spiritveil.Hammock.DisplayName"]
-new = "Hammock"
+new = "Cloud Hammock"
 status = "normal"
 
 ["Building.Spiritveil.Hammock.FlavorDescription"]
-new = "The stream keeps its song; Hammock stays green."
+new = "Half an hour here beats a night in a bed."
 status = "normal"
 
 ["Building.Spiritveil.Hedge.Description"]
-new = "Hedge A spirit hedge, a low wall fencing the yard and lending the gate a touch of elegance."
+new = "A low woven wall that fences the yard, keeps out wanderers and lends the gate a little elegance."
 status = "normal"
 
 ["Building.Spiritveil.Hedge.DisplayName"]
-new = "Hedge"
+new = "Spirit Hedge"
 status = "normal"
 
 ["Building.Spiritveil.Hedge.FlavorDescription"]
-new = "Where beavers pass, Hedge shines."
+new = "Low enough to talk over, high enough to mean it."
 status = "normal"
 
 ["Building.Spiritveil.HttpAdapter.Description"]
-new = "Http Adapter A spirit-signal adapter linking distant messages into the sect formation - the gate's link outside."
+new = "A spirit-signal node that ties distant messages into the sect formation - the gate's link to the outside."
 status = "normal"
 
 ["Building.Spiritveil.HttpAdapter.DisplayName"]
-new = "Http Adapter"
+new = "Signal Node"
 status = "normal"
 
 ["Building.Spiritveil.HttpAdapter.FlavorDescription"]
-new = "Clouds rise above Http Adapter, and qi follows."
+new = "Distance means nothing to a well-cut talisman."
 status = "normal"
 
 ["Building.Spiritveil.HttpLever.Description"]
-new = "Http Lever A signal lever switching adapter channels - routing spirit messages at a pull."
+new = "A signal lever that switches the node's channels, rerouting spirit messages with a single pull."
 status = "normal"
 
 ["Building.Spiritveil.HttpLever.DisplayName"]
-new = "Http Lever"
+new = "Signal Lever"
 status = "normal"
 
 ["Building.Spiritveil.HttpLever.FlavorDescription"]
-new = "Clouds rise above Http Lever, and qi follows."
+new = "Pull, and the message finds another road."
 status = "normal"
 
 ["Building.Spiritveil.HydroponicGarden.Description"]
-new = "Hydroponic Garden A hydroponic bed growing mushrooms and algae in clean water - sparing land, saving the day."
+new = "Grows mushrooms and algae in clean water - no soil needed, and no land wasted."
 status = "normal"
 
 ["Building.Spiritveil.HydroponicGarden.DisplayName"]
@@ -770,11 +734,11 @@ new = "Hydroponic Garden"
 status = "normal"
 
 ["Building.Spiritveil.HydroponicGarden.FlavorDescription"]
-new = "A peaceful day at the gate, and Hydroponic Garden rests."
+new = "Fed on water alone, and grateful for it."
 status = "normal"
 
 ["Building.Spiritveil.ImmortalGearWorkshop.Description"]
-new = "Immortal Gear Workshop The immortal-gear works where golems carve gold-rimmed gears - vital for immortal halls and iron golems."
+new = "Golems carve gold-rimmed gears from immortal wood - vital parts for immortal-tier buildings and for Iron Golems."
 status = "normal"
 
 ["Building.Spiritveil.ImmortalGearWorkshop.DisplayName"]
@@ -782,203 +746,191 @@ new = "Immortal Gear Workshop"
 status = "normal"
 
 ["Building.Spiritveil.ImmortalGearWorkshop.FlavorDescription"]
-new = "A peaceful day at the gate, and Immortal Gear Workshop rests."
+new = "A rim of gold, and the gear stops being ordinary."
 status = "normal"
 
 ["Building.Spiritveil.ImpermeablePowerShaft.Description"]
-new = "Impermeable Power Shaft A waterproof drive shaft carrying power across channels without leaking."
+new = "A sealed drive shaft that carries power across a channel without leaking a drop."
 status = "normal"
 
 ["Building.Spiritveil.ImpermeablePowerShaft.DisplayName"]
-new = "Impermeable Power Shaft"
+new = "Waterproof Drive Shaft"
 status = "normal"
 
 ["Building.Spiritveil.ImpermeablePowerShaft.FlavorDescription"]
-new = "Every beam of Impermeable Power Shaft was set with a quiet mind."
+new = "It crosses the river without ever touching it."
 status = "normal"
 
 ["Building.Spiritveil.Indicator.Description"]
-new = "Indicator An indicator board showing water levels and stocks at a glance, so nothing relies on memory."
+new = "A little board showing water levels and stocks at a glance, so nothing has to be carried in your head."
 status = "normal"
 
 ["Building.Spiritveil.Indicator.DisplayName"]
-new = "Indicator"
+new = "Indicator Board"
 status = "normal"
 
 ["Building.Spiritveil.Indicator.FlavorDescription"]
-new = "Clouds rise above Indicator, and qi follows."
+new = "Written down is half remembered."
 status = "normal"
 
 ["Building.Spiritveil.Inventor.Description"]
-new = "Inventor The study hall where mortals ponder mechanisms and principles, gaining a little insight each sitting."
+new = "A study hall where mortal beavers ponder mechanisms and principles, gaining a little insight with every sitting."
 status = "normal"
 
 ["Building.Spiritveil.Inventor.DisplayName"]
-new = "Inventor"
+new = "Insight Hall"
 status = "normal"
 
 ["Building.Spiritveil.Inventor.FlavorDescription"]
-new = "Clouds rise above Inventor, and qi follows."
-status = "normal"
-
-["Building.Spiritveil.InventorIron.Description"]
-new = "InventorIron The iron study hall, a golem-only place of learning; tireless deduction yields insight faster."
-status = "normal"
-
-["Building.Spiritveil.InventorIron.DisplayName"]
-new = "InventorIron"
-status = "normal"
-
-["Building.Spiritveil.InventorIron.FlavorDescription"]
-new = "Clouds rise above Inventor Iron, and qi follows."
+new = "One cup of tea, one small enlightenment."
 status = "normal"
 
 ["Building.Spiritveil.Lantern.Description"]
-new = "Lantern A spirit lantern lighting the path home at night, adding a little immortal charm."
+new = "A spirit lantern that lights the path home at night, and lends the sect a touch of the otherworldly."
 status = "normal"
 
 ["Building.Spiritveil.Lantern.DisplayName"]
-new = "Lantern"
+new = "Spirit Lantern"
 status = "normal"
 
 ["Building.Spiritveil.Lantern.FlavorDescription"]
-new = "Moonlight on Lantern; the elixir fire still burns."
+new = "Someone is still awake, and waiting."
 status = "normal"
 
 ["Building.Spiritveil.LargeBarrack.Description"]
-new = "Enlightenment Abode The spacious immortal residence, quiet and partitioned for senior cultivators to rest."
+new = "A spacious immortal residence, partitioned for quiet - where senior disciples rest and cultivate."
 status = "normal"
 
 ["Building.Spiritveil.LargeBarrack.DisplayName"]
-new = "Enlightenment Abode"
+new = "Enlightened Abode"
 status = "normal"
 
 ["Building.Spiritveil.LargeBarrack.FlavorDescription"]
-new = "A peaceful day at the gate, and Large Barrack rests."
+new = "Room to think is the rarest luxury in a sect."
 status = "normal"
 
 ["Building.Spiritveil.LargePile.Description"]
-new = "Large Spirit Timber Hall A great timber loft stacked with spirit wood - the store behind a whole season of building."
+new = "A great loft stacked with spirit wood - enough lumber to carry a whole building season."
 status = "normal"
 
 ["Building.Spiritveil.LargePile.DisplayName"]
-new = "Large Spirit Timber Hall"
+new = "Large Spirit Loft"
 status = "normal"
 
 ["Building.Spiritveil.LargePile.FlavorDescription"]
-new = "Where beavers pass, Large Pile shines."
+new = "Count the stacks, and you can read the sect's ambition."
 status = "normal"
 
 ["Building.Spiritveil.LargeTank.Description"]
-new = "Large Spirit Liquid Tank A large spirit-liquor tank holding a whole pool to carry the clan through the long dry spell."
+new = "A great vessel holding a whole pool of spirit fluid, enough to carry the clan through a long dry spell."
 status = "normal"
 
 ["Building.Spiritveil.LargeTank.DisplayName"]
-new = "Large Spirit Liquid Tank"
+new = "Large Spirit Fluid Tank"
 status = "normal"
 
 ["Building.Spiritveil.LargeTank.FlavorDescription"]
-new = "Moonlight on Large Tank; the elixir fire still burns."
+new = "A full tank is a quiet kind of courage."
 status = "normal"
 
 ["Building.Spiritveil.LargeWarehouse.Description"]
-new = "Large Treasure Pavilion A great treasure vault of high walls stocking every supply - the clan's strategic granary."
+new = "A tall, walled vault stocking every kind of supply - the clan's strategic granary."
 status = "normal"
 
 ["Building.Spiritveil.LargeWarehouse.DisplayName"]
-new = "Large Treasure Pavilion"
+new = "Great Treasure Vault"
 status = "normal"
 
 ["Building.Spiritveil.LargeWarehouse.FlavorDescription"]
-new = "Every beam of Large Warehouse was set with a quiet mind."
+new = "Walls this thick are not for show."
 status = "normal"
 
 ["Building.Spiritveil.LargeWaterPump.Description"]
-new = "Large Water Pump A large intake pump raising sheets of clean water - the anchor of the sect's supply."
+new = "A large intake pump that lifts sheets of clean water - the anchor of the sect's supply."
 status = "normal"
 
 ["Building.Spiritveil.LargeWaterPump.DisplayName"]
-new = "Large Water Pump"
+new = "Great Spirit Pump"
 status = "normal"
 
 ["Building.Spiritveil.LargeWaterPump.FlavorDescription"]
-new = "Clouds rise above Large Water Pump, and qi follows."
+new = "When it stops, everyone notices."
 status = "normal"
 
 ["Building.Spiritveil.LargeWindTurbine.Description"]
-new = "Large Wind Turbine A great wind turbine, tall mast and long blades catching mountain wind to power whole rows of workshops."
+new = "A tall mast and long blades catching the mountain wind, powering whole rows of workshops."
 status = "normal"
 
 ["Building.Spiritveil.LargeWindTurbine.DisplayName"]
-new = "Large Wind Turbine"
+new = "Great Wind Turbine"
 status = "normal"
 
 ["Building.Spiritveil.LargeWindTurbine.FlavorDescription"]
-new = "The stream keeps its song; Large Wind Turbine stays green."
+new = "It turns whether or not anyone is watching."
 status = "normal"
 
 ["Building.Spiritveil.Lever.Description"]
-new = "Lever The power lever, a hand switch; one press and the heavy mechanism turns."
+new = "A hand switch for the machinery. One press, and the heavy works begin to turn."
 status = "normal"
 
 ["Building.Spiritveil.Lever.DisplayName"]
-new = "Lever"
+new = "Spirit Lever"
 status = "normal"
 
 ["Building.Spiritveil.Lever.FlavorDescription"]
-new = "Clouds rise above Lever, and qi follows."
+new = "The simplest part in the sect, and the one everything else waits on."
 status = "normal"
 
 ["Building.Spiritveil.MechanicalPump.Description"]
-new = "Mechanical Pump A mechanical pump lifting water by gearwork, saving half a day over scooping by hand."
+new = "Lifts water by gearwork instead of muscle, saving half a day over scooping it by hand."
 status = "normal"
 
 ["Building.Spiritveil.MechanicalPump.DisplayName"]
-new = "Mechanical Pump"
+new = "Mechanical Spirit Pump"
 status = "normal"
 
 ["Building.Spiritveil.MechanicalPump.FlavorDescription"]
-new = "Moonlight on Mechanical Pump; the elixir fire still burns."
+new = "Better the gears sweat than the beavers."
 status = "normal"
 
 ["Building.Spiritveil.MediumTank.Description"]
-new = "Medium Spirit Liquid Tank A medium spirit-liquor tank, just right for a workshop block's circulatory water."
+new = "A medium tank, just the right size to keep one workshop block circulating."
 status = "normal"
 
 ["Building.Spiritveil.MediumTank.DisplayName"]
-new = "Medium Spirit Liquid Tank"
+new = "Medium Spirit Fluid Tank"
 status = "normal"
 
 ["Building.Spiritveil.MediumTank.FlavorDescription"]
-new = "Clouds rise above Medium Tank, and qi follows."
+new = "Not too much, not too little - exactly enough."
 status = "normal"
 
 ["Building.Spiritveil.MediumWarehouse.Description"]
-new = "Medium Treasure Pavilion A medium vault stacking dozens of goods - the backbone of zoned storage."
+new = "A medium vault that stacks dozens of goods - the backbone of zoned storage."
 status = "normal"
 
 ["Building.Spiritveil.MediumWarehouse.DisplayName"]
-new = "Medium Treasure Pavilion"
+new = "Medium Treasure Vault"
 status = "normal"
 
 ["Building.Spiritveil.MediumWarehouse.FlavorDescription"]
-new = "Where beavers pass, Medium Warehouse shines."
+new = "Everything in its own corner."
 status = "normal"
 
 ["Building.Spiritveil.Memory.Description"]
-new = "Memory A memory stone that keeps recipes and notes for beavers, saving the walk back to check."
+new = "A memory stone that keeps recipes and old notes for the beavers, so nobody has to walk back and check."
 status = "normal"
 
 ["Building.Spiritveil.Memory.DisplayName"]
-new = "Memory"
+new = "Memory Stone"
 status = "normal"
 
 ["Building.Spiritveil.Memory.FlavorDescription"]
-new = "Moonlight on Memory; the elixir fire still burns."
+new = "It forgets nothing, and complains about nothing."
 status = "normal"
 
 ["Building.Spiritveil.MiniLodge.Description"]
-new = "Cloudrest Hut A thatched micro-lodge - a rain shelter for beavers newly arrived."
+new = "A thatched hut of grass and timber - a roof over the head of every newcomer."
 status = "normal"
 
 ["Building.Spiritveil.MiniLodge.DisplayName"]
@@ -986,71 +938,71 @@ new = "Cloudrest Hut"
 status = "normal"
 
 ["Building.Spiritveil.MiniLodge.FlavorDescription"]
-new = "Moonlight on Mini Lodge; the elixir fire still burns."
+new = "Small, but it keeps the rain off."
 status = "normal"
 
 ["Building.Spiritveil.Observatory.Description"]
-new = "Observatory The star observatory reading the heavens to set seasons and time both farming and cultivation."
+new = "Reads the heavens to fix the seasons, timing both the planting and the cultivation."
 status = "normal"
 
 ["Building.Spiritveil.Observatory.DisplayName"]
-new = "Observatory"
+new = "Star Terrace"
 status = "normal"
 
 ["Building.Spiritveil.Observatory.FlavorDescription"]
-new = "Moonlight on Observatory; the elixir fire still burns."
+new = "The stars keep better time than any clock."
 status = "normal"
 
 ["Building.Spiritveil.PaperMill.Description"]
-new = "Paper Mill The paper mill pulping spirit wood into sheets for the scripture press."
+new = "Pulps spirit wood into sheets, ready for the scripture press."
 status = "normal"
 
 ["Building.Spiritveil.PaperMill.DisplayName"]
-new = "Paper Mill"
+new = "Spirit Paper Mill"
 status = "normal"
 
 ["Building.Spiritveil.PaperMill.FlavorDescription"]
-new = "A peaceful day at the gate, and Paper Mill rests."
+new = "Wood becomes paper, and paper becomes the dao."
 status = "normal"
 
 ["Building.Spiritveil.PillWorkshop.Description"]
-new = "Pill Workshop The apothecary, brewing the golden-core and ascension elixirs - the final furnace before seclusion."
+new = "The apothecary, brewing the Golden Core and Mahayana elixirs - the last furnace before seclusion."
 status = "normal"
 
 ["Building.Spiritveil.PillWorkshop.DisplayName"]
-new = "Pill Workshop"
+new = "Herb Pavilion"
 status = "normal"
 
 ["Building.Spiritveil.PillWorkshop.FlavorDescription"]
-new = "Every beam of Pill Workshop was set with a quiet mind."
+new = "The final furnace, and the most delicate."
 status = "normal"
 
 ["Building.Spiritveil.PoleBanner.Description"]
-new = "Pole Banner A banner pole flying the sect standard, snapping in the wind to mark the home gate."
+new = "A banner pole flying the sect standard, snapping in the wind so the way home is never in doubt."
 status = "normal"
 
 ["Building.Spiritveil.PoleBanner.DisplayName"]
-new = "Pole Banner"
+new = "Sect Banner Pole"
 status = "normal"
 
 ["Building.Spiritveil.PoleBanner.FlavorDescription"]
-new = "Where beavers pass, Pole Banner shines."
+new = "See the banner, and you are almost home."
 status = "normal"
 
 ["Building.Spiritveil.PopulationCounter.Description"]
-new = "Population Counter A population board, one mark per head - the clan's numbers told at a glance."
+new = "One mark for every head in the clan - the numbers told at a glance."
 status = "normal"
 
 ["Building.Spiritveil.PopulationCounter.DisplayName"]
-new = "Population Counter"
+new = "Population Board"
 status = "normal"
 
 ["Building.Spiritveil.PopulationCounter.FlavorDescription"]
-new = "The stream keeps its song; Population Counter stays green."
+new = "Every mark is a beaver with work to do."
 status = "normal"
 
 ["Building.Spiritveil.PowerMeter.Description"]
-new = "Power Meter A power meter; the needle shows at once whether drive is spare or strained."
+new = "The needle swings, and you know at once whether the drive is spare or strained."
 status = "normal"
 
 ["Building.Spiritveil.PowerMeter.DisplayName"]
@@ -1058,95 +1010,95 @@ new = "Power Meter"
 status = "normal"
 
 ["Building.Spiritveil.PowerMeter.FlavorDescription"]
-new = "Every beam of Power Meter was set with a quiet mind."
+new = "Watch the needle, not the machinery."
 status = "normal"
 
 ["Building.Spiritveil.PowerShaft.Description"]
-new = "Power Shaft A drive shaft carrying power across a workshop floor - one turning, many working."
+new = "Carries power across a workshop floor - one shaft turning, many benches working."
 status = "normal"
 
 ["Building.Spiritveil.PowerShaft.DisplayName"]
-new = "Power Shaft"
+new = "Drive Shaft"
 status = "normal"
 
 ["Building.Spiritveil.PowerShaft.FlavorDescription"]
-new = "The stream keeps its song; Power Shaft stays green."
+new = "Power shared is power multiplied."
 status = "normal"
 
 ["Building.Spiritveil.PrintingPress.Description"]
-new = "Printing Press The scripture press carving dao texts into books and stamping travel talismans, spreading the clan's learning."
+new = "Carves the dao texts into books and stamps travel talismans, spreading the clan's learning."
 status = "normal"
 
 ["Building.Spiritveil.PrintingPress.DisplayName"]
-new = "Printing Press"
+new = "Scripture Press"
 status = "normal"
 
 ["Building.Spiritveil.PrintingPress.FlavorDescription"]
-new = "A peaceful day at the gate, and Printing Press rests."
+new = "Ink on paper outlives any single disciple."
 status = "normal"
 
 ["Building.Spiritveil.Refinery.Description"]
-new = "Refinery The spirit-liquor refinery where golems refine tainted water into mild xianye and yield biofuels - the hub of immortal materials."
+new = "Beaver or golem can work it. Refines tainted water into mild immortal fluid and turns out spirit fuels - the hub of immortal-tier materials."
 status = "normal"
 
 ["Building.Spiritveil.Refinery.DisplayName"]
-new = "Refinery"
+new = "Spirit Refinery"
 status = "normal"
 
 ["Building.Spiritveil.Refinery.FlavorDescription"]
-new = "A peaceful day at the gate, and Refinery rests."
+new = "Foul water in, and something precious out."
 status = "normal"
 
 ["Building.Spiritveil.Relay.Description"]
-new = "Relay A signal talisman receiving spirit messages and passing them on, weaving the gate's nodes into a net."
+new = "Catches a spirit message and passes it on, weaving the gate's nodes into a single net."
 status = "normal"
 
 ["Building.Spiritveil.Relay.DisplayName"]
-new = "Relay"
+new = "Message Talisman"
 status = "normal"
 
 ["Building.Spiritveil.Relay.FlavorDescription"]
-new = "Clouds rise above Relay, and qi follows."
+new = "One talisman hands the word to the next."
 status = "normal"
 
 ["Building.Spiritveil.ResourceCounter.Description"]
-new = "Resource Counter A stock board hung to show what is on hand - what is short, and what to fetch."
+new = "A board hung where everyone can see it: what is on hand, what is short, and what to fetch next."
 status = "normal"
 
 ["Building.Spiritveil.ResourceCounter.DisplayName"]
-new = "Resource Counter"
+new = "Stock Board"
 status = "normal"
 
 ["Building.Spiritveil.ResourceCounter.FlavorDescription"]
-new = "Moonlight on Resource Counter; the elixir fire still burns."
+new = "Guessing is for people without a board."
 status = "normal"
 
 ["Building.Spiritveil.Scarecrow.Description"]
-new = "Scarecrow A field guardian effigy scaring birds and beasts off the spirit crops."
+new = "A guardian effigy that scares off birds and beasts and keeps the season's harvest safe."
 status = "normal"
 
 ["Building.Spiritveil.Scarecrow.DisplayName"]
-new = "Scarecrow"
+new = "Field Guardian"
 status = "normal"
 
 ["Building.Spiritveil.Scarecrow.FlavorDescription"]
-new = "Moonlight on Scarecrow; the elixir fire still burns."
+new = "It never moves, and the crows never learn."
 status = "normal"
 
 ["Building.Spiritveil.ScienceCounter.Description"]
-new = "Science Counter An insight board recording the clan's cultivation progress - who advances, and how fast."
+new = "Records the clan's cultivation progress - who is advancing, and how fast."
 status = "normal"
 
 ["Building.Spiritveil.ScienceCounter.DisplayName"]
-new = "Science Counter"
+new = "Insight Board"
 status = "normal"
 
 ["Building.Spiritveil.ScienceCounter.FlavorDescription"]
-new = "The stream keeps its song; Science Counter stays green."
+new = "Progress carved in wood cannot be argued with."
 status = "normal"
 
 ["Building.Spiritveil.ScriptureHall.Description"]
-new = "Scripture Hall The scripture hall, shelves of dao texts to read, aiding insight and realm, and lifting the immortal stage."
+new = "Shelf after shelf of dao texts. Once built: +5 percentage points to every breakthrough and +1% cultivation speed map-wide (counts once). Meditate inside to slowly bank Golden Core progress."
 status = "normal"
 
 ["Building.Spiritveil.ScriptureHall.DisplayName"]
@@ -1154,71 +1106,71 @@ new = "Scripture Hall"
 status = "normal"
 
 ["Building.Spiritveil.ScriptureHall.FlavorDescription"]
-new = "Clouds rise above Scripture Hall, and qi follows."
+new = "Ten thousand volumes, and every one of them read at least twice."
 status = "normal"
 
 ["Building.Spiritveil.SectArray.Description"]
-new = "Sect Array The guardian formation, rune-carved and shielding the whole gate while gently nourishing every realm."
+new = "A rune-carved formation shielding the whole gate. Once built: +5 percentage points to every breakthrough and +1% cultivation speed map-wide (the same building counts only once)."
 status = "normal"
 
 ["Building.Spiritveil.SectArray.DisplayName"]
-new = "Sect Array"
+new = "Sect Guardian Array"
 status = "normal"
 
 ["Building.Spiritveil.SectArray.FlavorDescription"]
-new = "Every beam of Sect Array was set with a quiet mind."
+new = "The mountain itself stands guard."
 status = "normal"
 
 ["Building.Spiritveil.Shrub.Description"]
-new = "Shrub A spirit shrub, a low clump of mystical greenery brightening the courtyard."
+new = "A low clump of mystical greenery to brighten the courtyard."
 status = "normal"
 
 ["Building.Spiritveil.Shrub.DisplayName"]
-new = "Shrub"
+new = "Spirit Shrub"
 status = "normal"
 
 ["Building.Spiritveil.Shrub.FlavorDescription"]
-new = "Clouds rise above Shrub, and qi follows."
+new = "Small, green, and stubbornly alive."
 status = "normal"
 
 ["Building.Spiritveil.SmallPile.Description"]
-new = "Small Spirit Timber Hall A small timber loft, a few spirit logs stacked within easy reach."
+new = "A few spirit logs stacked within easy reach of the work."
 status = "normal"
 
 ["Building.Spiritveil.SmallPile.DisplayName"]
-new = "Small Spirit Timber Hall"
+new = "Small Spirit Loft"
 status = "normal"
 
 ["Building.Spiritveil.SmallPile.FlavorDescription"]
-new = "Clouds rise above Small Pile, and qi follows."
+new = "Close to the work, close to hand."
 status = "normal"
 
 ["Building.Spiritveil.SmallTank.Description"]
-new = "Small Spirit Liquid Tank A small spirit-liquor jar holding a little reserve for the nearby plots."
+new = "A small jar holding a little spirit fluid, for emergencies in the nearby plots."
 status = "normal"
 
 ["Building.Spiritveil.SmallTank.DisplayName"]
-new = "Small Spirit Liquid Tank"
+new = "Small Spirit Fluid Tank"
 status = "normal"
 
 ["Building.Spiritveil.SmallTank.FlavorDescription"]
-new = "Where beavers pass, Small Tank shines."
+new = "A little saved is a crisis avoided."
 status = "normal"
 
 ["Building.Spiritveil.SmallWarehouse.Description"]
-new = "Small Treasure Pavilion A small vault of a few shelves, keeping odds and ends close at hand."
+new = "A few shelves of odds and ends, kept close so nobody has to walk for them."
 status = "normal"
 
 ["Building.Spiritveil.SmallWarehouse.DisplayName"]
-new = "Small Treasure Pavilion"
+new = "Small Treasure Vault"
 status = "normal"
 
 ["Building.Spiritveil.SmallWarehouse.FlavorDescription"]
-new = "Every beam of Small Warehouse was set with a quiet mind."
+new = "Not a vault - a pocket."
 status = "normal"
 
 ["Building.Spiritveil.Smelter.Description"]
-new = "Metal Smelter The metal smelter where golems refine scrap into metal blocks and spirit iron - the basis of swords, shields and iron golems."
+new = "Golems refine scrap into metal blocks and spirit iron - the groundwork for swords, shields and Iron Golems."
 status = "normal"
 
 ["Building.Spiritveil.Smelter.DisplayName"]
@@ -1226,23 +1178,23 @@ new = "Metal Smelter"
 status = "normal"
 
 ["Building.Spiritveil.Smelter.FlavorDescription"]
-new = "A peaceful day at the gate, and Smelter rests."
+new = "Scrap in, and something with an edge comes out."
 status = "normal"
 
 ["Building.Spiritveil.Speaker.Description"]
-new = "Speaker A sounding horn carrying the word across the gate - assembly, timekeeping and orders."
+new = "A sounding horn that carries a word across the gate - assembly, timekeeping and orders."
 status = "normal"
 
 ["Building.Spiritveil.Speaker.DisplayName"]
-new = "Speaker"
+new = "Sermon Horn"
 status = "normal"
 
 ["Building.Spiritveil.Speaker.FlavorDescription"]
-new = "Every beam of Speaker was set with a quiet mind."
+new = "One call, and the whole sect hears it."
 status = "normal"
 
 ["Building.Spiritveil.SpiritGearWorkshop.Description"]
-new = "Spirit Gear Workshop The spirit-gear works carving runed gears from spirit wood - essential for spirit halls and wood golems."
+new = "Carves runed gears from spirit wood - essential parts for spirit-tier buildings and Wood Golems."
 status = "normal"
 
 ["Building.Spiritveil.SpiritGearWorkshop.DisplayName"]
@@ -1250,11 +1202,11 @@ new = "Spirit Gear Workshop"
 status = "normal"
 
 ["Building.Spiritveil.SpiritGearWorkshop.FlavorDescription"]
-new = "Clouds rise above Spirit Gear Workshop, and qi follows."
+new = "Every tooth cut by hand, every groove cut with intent."
 status = "normal"
 
 ["Building.Spiritveil.SquareBanner.Description"]
-new = "Square Banner A square banner hung in the plaza, most striking on festival days."
+new = "A square banner hung in the plaza, at its most striking on festival days."
 status = "normal"
 
 ["Building.Spiritveil.SquareBanner.DisplayName"]
@@ -1262,11 +1214,11 @@ new = "Square Banner"
 status = "normal"
 
 ["Building.Spiritveil.SquareBanner.FlavorDescription"]
-new = "Clouds rise above Square Banner, and qi follows."
+new = "On ordinary days it is cloth. On festival days it is the sect itself."
 status = "normal"
 
 ["Building.Spiritveil.StreamGauge.Description"]
-new = "Stream Gauge A stream gauge pinned at the water's edge to read rise and fall."
+new = "Pinned at the water's edge, reading the stream's rise and fall."
 status = "normal"
 
 ["Building.Spiritveil.StreamGauge.DisplayName"]
@@ -1274,23 +1226,23 @@ new = "Stream Gauge"
 status = "normal"
 
 ["Building.Spiritveil.StreamGauge.FlavorDescription"]
-new = "Moonlight on Stream Gauge; the elixir fire still burns."
+new = "The water writes, and the gauge remembers."
 status = "normal"
 
 ["Building.Spiritveil.Timer.Description"]
-new = "Timer A water clock counting the hours by dripping sand - timing seclusion and shifts."
+new = "Counts the hours grain by grain, timing seclusion and shifts alike."
 status = "normal"
 
 ["Building.Spiritveil.Timer.DisplayName"]
-new = "Timer"
+new = "Water Clock"
 status = "normal"
 
 ["Building.Spiritveil.Timer.FlavorDescription"]
-new = "The stream keeps its song; Timer stays green."
+new = "Every grain of sand is a moment you cannot get back."
 status = "normal"
 
 ["Building.Spiritveil.TributeToIngenuity.Description"]
-new = "Spirit Vein Stele The spirit-vein stele honoring generations of clan ingenuity, raised by collective effort; when it stands, the veins flourish."
+new = "Honours the clan's generations of craft; raise the stele, and the spirit veins flourish. Meditate inside to slowly bank Golden Core progress."
 status = "normal"
 
 ["Building.Spiritveil.TributeToIngenuity.DisplayName"]
@@ -1298,11 +1250,11 @@ new = "Spirit Vein Stele"
 status = "normal"
 
 ["Building.Spiritveil.TributeToIngenuity.FlavorDescription"]
-new = "Clouds rise above Tribute To Ingenuity, and qi follows."
+new = "The stone keeps what the hands have taught."
 status = "normal"
 
 ["Building.Spiritveil.TripleFloodgate.Description"]
-new = "Triple Spirit Gate A triple-plate floodgate, three layers of defense so no flood breaches the gate."
+new = "A triple-plate gate, three lines of defence so no flood reaches the gate."
 status = "normal"
 
 ["Building.Spiritveil.TripleFloodgate.DisplayName"]
@@ -1310,35 +1262,35 @@ new = "Triple Spirit Gate"
 status = "normal"
 
 ["Building.Spiritveil.TripleFloodgate.FlavorDescription"]
-new = "The stream keeps its song; Triple Floodgate stays green."
+new = "Three chances to say no to the river."
 status = "normal"
 
 ["Building.Spiritveil.UndergroundPile.Description"]
-new = "Underground Spirit Timber Hall An underground timber vault storing wood below ground, sheltered from rain and sun."
+new = "Stores timber below ground, sheltered from rain and sun - though you must dig it out to use it."
 status = "normal"
 
 ["Building.Spiritveil.UndergroundPile.DisplayName"]
-new = "Underground Spirit Timber Hall"
+new = "Sunken Spirit Loft"
 status = "normal"
 
 ["Building.Spiritveil.UndergroundPile.FlavorDescription"]
-new = "Moonlight on Underground Pile; the elixir fire still burns."
+new = "Cool, dry, and out of the weather's reach."
 status = "normal"
 
 ["Building.Spiritveil.VerticalPowerShaft.Description"]
-new = "Vertical Power Shaft A vertical drive shaft lifting power upward, linking multi-story works as one."
+new = "Lifts power straight up, linking multi-storey works into one."
 status = "normal"
 
 ["Building.Spiritveil.VerticalPowerShaft.DisplayName"]
-new = "Vertical Power Shaft"
+new = "Vertical Drive Shaft"
 status = "normal"
 
 ["Building.Spiritveil.VerticalPowerShaft.FlavorDescription"]
-new = "A peaceful day at the gate, and Vertical Power Shaft rests."
+new = "Power climbs as easily as water falls."
 status = "normal"
 
 ["Building.Spiritveil.WaterPump.Description"]
-new = "Spirit Pump The water pump drawing clean water from river and stream - the first breath of the whole sect."
+new = "Draws clean water from river and stream - the sect's first breath."
 status = "normal"
 
 ["Building.Spiritveil.WaterPump.DisplayName"]
@@ -1346,95 +1298,95 @@ new = "Spirit Pump"
 status = "normal"
 
 ["Building.Spiritveil.WaterPump.FlavorDescription"]
-new = "Moonlight on Water Pump; the elixir fire still burns."
+new = "Without it, nothing else in the sect happens."
 status = "normal"
 
 ["Building.Spiritveil.WaterWheel.Description"]
-new = "Water Wheel A waterwheel turned by the current, grinding out steady power without a single coal."
+new = "Turned by the current, grinding out steady power without burning a single coal."
 status = "normal"
 
 ["Building.Spiritveil.WaterWheel.DisplayName"]
-new = "Water Wheel"
+new = "Spirit Waterwheel"
 status = "normal"
 
 ["Building.Spiritveil.WaterWheel.FlavorDescription"]
-new = "Clouds rise above Water Wheel, and qi follows."
+new = "The river works, and asks for nothing."
 status = "normal"
 
 ["Building.Spiritveil.Weathervane.Description"]
-new = "Weathervane A weather vane whose turning fin tells the wind direction, guiding both sky-reading and turbines."
+new = "A vane whose turning fin shows the wind's direction, guiding both sky-reading and turbines."
 status = "normal"
 
 ["Building.Spiritveil.Weathervane.DisplayName"]
-new = "Weathervane"
+new = "Wind Vane"
 status = "normal"
 
 ["Building.Spiritveil.Weathervane.FlavorDescription"]
-new = "Where beavers pass, Weathervane shines."
+new = "Ask it which way the day will go."
 status = "normal"
 
 ["Building.Spiritveil.WindTurbine.Description"]
-new = "Wind Turbine A wind turbine, three long blades turning mountain wind into the works' spirit power."
+new = "Three long blades turning mountain wind into spirit power for the workshops."
 status = "normal"
 
 ["Building.Spiritveil.WindTurbine.DisplayName"]
-new = "Wind Turbine"
+new = "Spirit Wind Turbine"
 status = "normal"
 
 ["Building.Spiritveil.WindTurbine.FlavorDescription"]
-new = "Where beavers pass, Wind Turbine shines."
+new = "It takes the mountain's breath and gives back work."
 status = "normal"
 
 ["Building.Spiritveil.WoodFence.Description"]
-new = "Wood Fence A timber fence fencing a small yard - plain, but it holds its ground."
+new = "A timber fence around a small yard - plain, but it holds its ground."
 status = "normal"
 
 ["Building.Spiritveil.WoodFence.DisplayName"]
-new = "Wood Fence"
+new = "Spirit Wood Fence"
 status = "normal"
 
 ["Building.Spiritveil.WoodFence.FlavorDescription"]
-new = "The stream keeps its song; Wood Fence stays green."
+new = "Nothing fancy. It keeps what it should."
 status = "normal"
 
 ["Building.Spiritveil.WoodGearWorkshop.Description"]
-new = "Wooden Gear Workshop The common-gear works whittling plain gears from boards - the source of bot parts."
+new = "Whittles plain gears from ordinary boards - the source of golem parts."
 status = "normal"
 
 ["Building.Spiritveil.WoodGearWorkshop.DisplayName"]
-new = "Wooden Gear Workshop"
+new = "Plain Gear Workshop"
 status = "normal"
 
 ["Building.Spiritveil.WoodGearWorkshop.FlavorDescription"]
-new = "The stream keeps its song; Wood Gear Workshop stays green."
+new = "Plain gears, honest work."
 status = "normal"
 
 ["Building.Spiritveil.WoodWorkshop.Description"]
-new = "Wood Workshop The spirit-timber workshop where golems saw spirit and immortal wood into planks - the timber source for immortal halls."
+new = "Golems saw spirit and immortal wood into planks - the timber source for every immortal hall."
 status = "normal"
 
 ["Building.Spiritveil.WoodWorkshop.DisplayName"]
-new = "Wood Workshop"
+new = "Immortal Wood Workshop"
 status = "normal"
 
 ["Building.Spiritveil.WoodWorkshop.FlavorDescription"]
-new = "A peaceful day at the gate, and Wood Workshop rests."
+new = "Every immortal hall begins as a stack of boards."
 status = "normal"
 
 ["Building.Spiritveil.ZiplineBeam.Description"]
-new = "Zipline Beam A zipline crossbeam anchoring the cable over a valley, letting beavers glide across the gap."
+new = "A crossbeam anchoring the cable over a valley, letting beavers glide across the gap."
 status = "normal"
 
 ["Building.Spiritveil.ZiplineBeam.DisplayName"]
-new = "Zipline Beam"
+new = "Zipline Crossbeam"
 status = "normal"
 
 ["Building.Spiritveil.ZiplineBeam.FlavorDescription"]
-new = "A peaceful day at the gate, and Zipline Beam rests."
+new = "A short walk becomes a long flight."
 status = "normal"
 
 ["Building.Spiritveil.ZiplinePylon.Description"]
-new = "Zipline Pylon A zipline pylon bracing both cable ends, taming deep and distant ravines."
+new = "Braces both ends of the cable, taming the deepest ravines."
 status = "normal"
 
 ["Building.Spiritveil.ZiplinePylon.DisplayName"]
@@ -1442,11 +1394,11 @@ new = "Zipline Pylon"
 status = "normal"
 
 ["Building.Spiritveil.ZiplinePylon.FlavorDescription"]
-new = "A peaceful day at the gate, and Zipline Pylon rests."
+new = "Two posts, and the ravine stops mattering."
 status = "normal"
 
 ["Building.Spiritveil.ZiplineStation.Description"]
-new = "Zipline Station A zipline station where beavers hook on, glide and unload - the stop for cross-valley travel."
+new = "Where beavers hook on, glide and unload - the stop for cross-valley travel."
 status = "normal"
 
 ["Building.Spiritveil.ZiplineStation.DisplayName"]
@@ -1454,23 +1406,23 @@ new = "Zipline Station"
 status = "normal"
 
 ["Building.Spiritveil.ZiplineStation.FlavorDescription"]
-new = "Moonlight on Zipline Station; the elixir fire still burns."
+new = "Hook on, let go, and trust the cable."
 status = "normal"
 
 ["Faction.Spiritveil.Description"]
-new = "A water-loving cultivator faction."
+new = "A cultivation sect that draws its power from water and tends the spirit veins beneath the land."
 status = "normal"
 
 ["Faction.Spiritveil.DisplayName"]
-new = "Lingxi"
+new = "Spiritveil"
 status = "normal"
 
 ["Faction.Spiritveil.GameOver.Flavor"]
-new = "The river remembers."
+new = "The river remembers everything."
 status = "normal"
 
 ["Faction.Spiritveil.GameOver.Message"]
-new = "The Spiritveil Clan has faded away."
+new = "The Spiritveil Clan has fallen."
 status = "normal"
 
 ["Faction.Spiritveil.WonderCompletionFlavor"]
@@ -1478,11 +1430,11 @@ new = "The Spiritveil Clan has ascended."
 status = "normal"
 
 ["Faction.Spiritveil.WonderCompletionMessage"]
-new = "Spiritveil wonder completed"
+new = "Spiritveil wonder complete"
 status = "normal"
 
 ["Good.AscensionHerb.Description"]
-new = "A rare elixir, required to break through to Mahayana at the Mahayana Cave."
+new = "A rare elixir; required to break through to Mahayana at the Thunder Pool."
 status = "normal"
 
 ["Good.AscensionHerb.DisplayName"]
@@ -1490,7 +1442,7 @@ new = "Mahayana Elixir"
 status = "normal"
 
 ["Good.AscensionHerb.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "The purple vapour stays hidden in the flask until the lid comes off."
 status = "normal"
 
 ["Good.AscensionHerb.PluralDisplayName"]
@@ -1506,31 +1458,15 @@ new = "Breakthrough Pill"
 status = "normal"
 
 ["Good.BreakthroughPill.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "Pill in hand, and the heart steadies."
 status = "normal"
 
 ["Good.BreakthroughPill.PluralDisplayName"]
 new = "Breakthrough Pill"
 status = "normal"
 
-["Good.CleansingPill.Description"]
-new = "An old purifying recipe long gone flat. Tastes bitter now; disciples eat it as a filling ration."
-status = "normal"
-
-["Good.CleansingPill.DisplayName"]
-new = "Calm Ration"
-status = "normal"
-
-["Good.CleansingPill.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
-status = "normal"
-
-["Good.CleansingPill.PluralDisplayName"]
-new = "Calm Ration"
-status = "normal"
-
 ["Good.FoundationPill.Description"]
-new = "The essential ritual offering used when sealing the Foundation Cave breakthrough."
+new = "The ritual offering required to seal the breakthrough into Foundation."
 status = "normal"
 
 ["Good.FoundationPill.DisplayName"]
@@ -1538,7 +1474,7 @@ new = "Foundation Pill"
 status = "normal"
 
 ["Good.FoundationPill.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "One step out, and there is no turning back."
 status = "normal"
 
 ["Good.FoundationPill.PluralDisplayName"]
@@ -1546,7 +1482,7 @@ new = "Foundation Pill"
 status = "normal"
 
 ["Good.GoldenCoreHerb.Description"]
-new = "A refined elixir, required to form the Golden Core at the Golden Core Cave."
+new = "A refined elixir; required to form the Golden Core at the Golden Core Cave."
 status = "normal"
 
 ["Good.GoldenCoreHerb.DisplayName"]
@@ -1554,7 +1490,7 @@ new = "Golden Core Elixir"
 status = "normal"
 
 ["Good.GoldenCoreHerb.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "The vapour gathers into threads, and gold shows through."
 status = "normal"
 
 ["Good.GoldenCoreHerb.PluralDisplayName"]
@@ -1562,23 +1498,23 @@ new = "Golden Core Elixir"
 status = "normal"
 
 ["Good.HealingPill.Description"]
-new = "An old healing recipe whose power has faded. Now handed out as a ration - more filling than a grain cake."
+new = "Taken automatically when a beaver is injured; speeds recovery for 3 days without a medical bed."
 status = "normal"
 
 ["Good.HealingPill.DisplayName"]
-new = "Grain Ration"
+new = "Healing Pill"
 status = "normal"
 
 ["Good.HealingPill.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "Kept in the clan's stores, handed out the moment someone is hurt."
 status = "normal"
 
 ["Good.HealingPill.PluralDisplayName"]
-new = "Grain Ration"
+new = "Healing Pill"
 status = "normal"
 
 ["Good.ImmortalGear.Description"]
-new = "Gold-rimmed gear carved from immortal wood. Essential for immortal-grade buildings and iron golem assembly."
+new = "A gold-rimmed gear carved from immortal wood. Essential for immortal-tier buildings and for Iron Golem assembly."
 status = "normal"
 
 ["Good.ImmortalGear.DisplayName"]
@@ -1586,7 +1522,7 @@ new = "Immortal Gear"
 status = "normal"
 
 ["Good.ImmortalGear.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "One turn of the gold rim, and everything feels different."
 status = "normal"
 
 ["Good.ImmortalGear.PluralDisplayName"]
@@ -1594,7 +1530,7 @@ new = "Immortal Gear"
 status = "normal"
 
 ["Good.ImmortalPlank.Description"]
-new = "Planks sawn from immortal wood; the main material of immortal-grade buildings."
+new = "Planks sawn from immortal wood; the main material of immortal-tier buildings."
 status = "normal"
 
 ["Good.ImmortalPlank.DisplayName"]
@@ -1602,7 +1538,7 @@ new = "Immortal Plank"
 status = "normal"
 
 ["Good.ImmortalPlank.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "The surface shines, and the growth rings are gone."
 status = "normal"
 
 ["Good.ImmortalPlank.PluralDisplayName"]
@@ -1610,7 +1546,7 @@ new = "Immortal Plank"
 status = "normal"
 
 ["Good.ImmortalWood.Description"]
-new = "Higher-tier immortal timber, used in immortal buildings and immortal gears."
+new = "A higher tier of immortal timber, used in immortal buildings and immortal gears."
 status = "normal"
 
 ["Good.ImmortalWood.DisplayName"]
@@ -1618,7 +1554,7 @@ new = "Immortal Wood"
 status = "normal"
 
 ["Good.ImmortalWood.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "One tree a century, and hard to come by."
 status = "normal"
 
 ["Good.ImmortalWood.PluralDisplayName"]
@@ -1626,31 +1562,31 @@ new = "Immortal Wood"
 status = "normal"
 
 ["Good.LongevityPill.Description"]
-new = "An old life-extending recipe, now no different from any common ration. Filling, but it grants no longevity."
+new = "Each beaver takes one in their lifetime; permanently adds 50 days to their lifespan."
 status = "normal"
 
 ["Good.LongevityPill.DisplayName"]
-new = "Pine Ration"
+new = "Longevity Pill"
 status = "normal"
 
 ["Good.LongevityPill.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "Taken once in a lifetime, and the lifetime is longer for it."
 status = "normal"
 
 ["Good.LongevityPill.PluralDisplayName"]
-new = "Pine Ration"
+new = "Longevity Pill"
 status = "normal"
 
 ["Good.MildXianye.Description"]
-new = "A gentle fluid cultivated from succulents; used in higher elixirs and refining."
+new = "A gentle fluid cultivated from succulents; used in higher elixirs and in refining."
 status = "normal"
 
 ["Good.MildXianye.DisplayName"]
-new = "Mild Xian Fluid"
+new = "Mild Immortal Fluid"
 status = "normal"
 
 ["Good.MildXianye.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "One drop in the water, and the whole pool clears."
 status = "normal"
 
 ["Good.MildXianye.PluralDisplayName"]
@@ -1658,23 +1594,23 @@ new = "Mild Xian Fluid"
 status = "normal"
 
 ["Good.QiPill.Description"]
-new = "An old qi-nourishing recipe, now only a faint grain aroma. Eaten as a ration; no longer affects cultivation."
+new = "Taken at each stage breakthrough; adds 5 percentage points to the success chance."
 status = "normal"
 
 ["Good.QiPill.DisplayName"]
-new = "Qi Ration"
+new = "Qi Pill"
 status = "normal"
 
 ["Good.QiPill.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "One pill, one breath, one more chance at the next stage."
 status = "normal"
 
 ["Good.QiPill.PluralDisplayName"]
-new = "Qi Ration"
+new = "Qi Pill"
 status = "normal"
 
 ["Good.SpiritBread.Description"]
-new = "A cake of spirit grain. The staple food of the Spiritveil sect, eaten directly to ease hunger."
+new = "A cake of spirit grain, eaten directly to ease hunger - the staple food of the sect."
 status = "normal"
 
 ["Good.SpiritBread.DisplayName"]
@@ -1682,7 +1618,7 @@ new = "Spirit Grain Cake"
 status = "normal"
 
 ["Good.SpiritBread.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "One bite, and it still tastes of the mountain."
 status = "normal"
 
 ["Good.SpiritBread.PluralDisplayName"]
@@ -1690,7 +1626,7 @@ new = "Spirit Grain Cake"
 status = "normal"
 
 ["Good.SpiritGear.Description"]
-new = "Spirit-patterned gear; essential for spirit-grade buildings and wooden golem assembly."
+new = "A gear of spirit wood with runes cut into it. Essential for spirit-tier buildings and for Wood Golem assembly."
 status = "normal"
 
 ["Good.SpiritGear.DisplayName"]
@@ -1698,7 +1634,7 @@ new = "Spirit Gear"
 status = "normal"
 
 ["Good.SpiritGear.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "There is spirit between the teeth; it turns without a sound."
 status = "normal"
 
 ["Good.SpiritGear.PluralDisplayName"]
@@ -1706,7 +1642,7 @@ new = "Spirit Gear"
 status = "normal"
 
 ["Good.SpiritGrain.Description"]
-new = "Spirit grain with green-gold ears. Ground into flour for grain cakes and used by the spirit kitchen."
+new = "Green-gold ears of spirit grain. Ground into flour for grain cakes and used by the spirit kitchen."
 status = "normal"
 
 ["Good.SpiritGrain.DisplayName"]
@@ -1714,7 +1650,7 @@ new = "Spirit Grain"
 status = "normal"
 
 ["Good.SpiritGrain.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "One green-gold ear, one season of food."
 status = "normal"
 
 ["Good.SpiritGrain.PluralDisplayName"]
@@ -1730,7 +1666,7 @@ new = "Spirit Herb"
 status = "normal"
 
 ["Good.SpiritHerb.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "A small leaf, and it can pull you out of real trouble."
 status = "normal"
 
 ["Good.SpiritHerb.PluralDisplayName"]
@@ -1738,7 +1674,7 @@ new = "Spirit Herb"
 status = "normal"
 
 ["Good.SpiritIron.Description"]
-new = "A dark metal smelted from spirit ore, needed for immortal buildings and iron golems."
+new = "A dark metal smelted from spirit ore; needed for immortal buildings and Iron Golems."
 status = "normal"
 
 ["Good.SpiritIron.DisplayName"]
@@ -1746,7 +1682,7 @@ new = "Spirit Iron"
 status = "normal"
 
 ["Good.SpiritIron.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "Cold and heavy - it steadies whatever it holds."
 status = "normal"
 
 ["Good.SpiritIron.PluralDisplayName"]
@@ -1754,7 +1690,7 @@ new = "Spirit Iron"
 status = "normal"
 
 ["Good.SpiritShield.Description"]
-new = "Offer at the Sect Hall for greater carrying capacity across the sect; also a material for the Sect Array."
+new = "Offer it at the Sect Hall to raise carrying capacity across the clan; also a material for the Sect Array."
 status = "normal"
 
 ["Good.SpiritShield.DisplayName"]
@@ -1762,7 +1698,7 @@ new = "Spirit Shield"
 status = "normal"
 
 ["Good.SpiritShield.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "You have to hold your ground before you can advance."
 status = "normal"
 
 ["Good.SpiritShield.PluralDisplayName"]
@@ -1770,7 +1706,7 @@ new = "Spirit Shield"
 status = "normal"
 
 ["Good.SpiritSword.Description"]
-new = "Offer at the Sect Hall for faster work across the sect; also builds the Ascension Platform and Sect Array."
+new = "Offer it at the Sect Hall for faster work across the clan; also builds the Ascension Altar and the Sect Array."
 status = "normal"
 
 ["Good.SpiritSword.DisplayName"]
@@ -1778,7 +1714,7 @@ new = "Spirit Sword"
 status = "normal"
 
 ["Good.SpiritSword.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "Even sheathed, it guards the mountain."
 status = "normal"
 
 ["Good.SpiritSword.PluralDisplayName"]
@@ -1786,7 +1722,7 @@ new = "Spirit Sword"
 status = "normal"
 
 ["Good.SpiritTalisman.Description"]
-new = "Offer at the Sect Hall to raise breakthrough and ascension chances; also a high-tier building material."
+new = "Offer it at the Sect Hall to raise breakthrough success by 5 percentage points; also a high-tier building material."
 status = "normal"
 
 ["Good.SpiritTalisman.DisplayName"]
@@ -1794,7 +1730,7 @@ new = "Spirit Talisman"
 status = "normal"
 
 ["Good.SpiritTalisman.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "One stroke of cinnabar, and the season itself lends a hand."
 status = "normal"
 
 ["Good.SpiritTalisman.PluralDisplayName"]
@@ -1802,7 +1738,7 @@ new = "Spirit Talisman"
 status = "normal"
 
 ["Good.SpiritTea.Description"]
-new = "A smooth spirit fluid; quenches thirst, adds a little cultivation insight, and is used in elixirs."
+new = "A smooth spirit fluid; quenches thirst, lends a little cultivation insight, and is used in elixirs."
 status = "normal"
 
 ["Good.SpiritTea.DisplayName"]
@@ -1810,7 +1746,7 @@ new = "Spirit Tea"
 status = "normal"
 
 ["Good.SpiritTea.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "One cup down, and stray thoughts retreat an inch."
 status = "normal"
 
 ["Good.SpiritTea.PluralDisplayName"]
@@ -1818,7 +1754,7 @@ new = "Spirit Tea"
 status = "normal"
 
 ["Good.SpiritWine.Description"]
-new = "A rich spirit fluid; quenches thirst, aids retreat insight, and is used in elixirs."
+new = "A full-bodied spirit fluid; quenches thirst, deepens seclusion insight, and is used in elixirs."
 status = "normal"
 
 ["Good.SpiritWine.DisplayName"]
@@ -1826,7 +1762,7 @@ new = "Spirit Wine"
 status = "normal"
 
 ["Good.SpiritWine.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "Break the seal, and the whole room smells of medicine."
 status = "normal"
 
 ["Good.SpiritWine.PluralDisplayName"]
@@ -1834,7 +1770,7 @@ new = "Spirit Wine"
 status = "normal"
 
 ["Good.SpiritWood.Description"]
-new = "Spirit trees mature in sixty years; the raw material for spirit buildings and spirit gears."
+new = "Spirit trees take sixty years to mature; the raw material for spirit buildings and spirit gears."
 status = "normal"
 
 ["Good.SpiritWood.DisplayName"]
@@ -1842,7 +1778,7 @@ new = "Spirit Wood"
 status = "normal"
 
 ["Good.SpiritWood.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "Grain in the wood, and spirit in the grain."
 status = "normal"
 
 ["Good.SpiritWood.PluralDisplayName"]
@@ -1850,11 +1786,11 @@ new = "Spirit Wood"
 status = "normal"
 
 ["NaturalResource.HydroponicHerb.DisplayName"]
-new = "Hydroponic Herb"
+new = "Hydroponic Spirit Herb"
 status = "normal"
 
 ["NaturalResource.HydroponicHerb.FlavorDescription"]
-new = "Hydroponic Herb of the Spiritveil Clan."
+new = "Spirit herb cultivated in clean water by the Spiritveil Clan."
 status = "normal"
 
 ["NaturalResource.SpiritGrain.DisplayName"]
@@ -1862,7 +1798,7 @@ new = "Spirit Grain"
 status = "normal"
 
 ["NaturalResource.SpiritGrain.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "Sixty days of patience, and one green-gold harvest."
 status = "normal"
 
 ["NaturalResource.SpiritHerb.DisplayName"]
@@ -1870,7 +1806,7 @@ new = "Spirit Herb"
 status = "normal"
 
 ["NaturalResource.SpiritHerb.FlavorDescription"]
-new = "Made and used by the Spiritveil Clan."
+new = "Picked with the dew still on it."
 status = "normal"
 
 ["NaturalResource.SpiritTree.DisplayName"]
@@ -1878,11 +1814,11 @@ new = "Spirit Tree"
 status = "normal"
 
 ["NaturalResource.SpiritTree.FlavorDescription"]
-new = "A spirit tree of the Spiritveil Clan."
+new = "A spirit tree of the Spiritveil Clan; sixty years to maturity."
 status = "normal"
 
 ["Need.AscensionProgress.DisplayName"]
-new = "Ascension"
+new = "Golden Core"
 status = "normal"
 
 ["Need.AwakeningProgress.DisplayName"]
@@ -1893,36 +1829,24 @@ status = "normal"
 new = "Cultivation Insight"
 status = "normal"
 
-["Need.CultivationProgressBot.DisplayName"]
-new = "Bot Cultivation Insight"
-status = "normal"
-
 ["Need.CultivationStage.DisplayName"]
 new = "Cultivation Stage"
 status = "normal"
 
-["Need.FlightProgress.DisplayName"]
-new = "Ascension Flight"
-status = "normal"
-
 ["Need.FoundationProgress.DisplayName"]
-new = "Foundation"
-status = "normal"
-
-["Need.GoldenCoreProgress.DisplayName"]
-new = "Golden Core"
-status = "normal"
-
-["Need.ImmortalProgress.DisplayName"]
-new = "Immortal Emperor"
-status = "normal"
-
-["Need.QiProgress.DisplayName"]
 new = "Qi Refining"
 status = "normal"
 
+["Need.GoldenCoreProgress.DisplayName"]
+new = "Foundation"
+status = "normal"
+
+["Need.ImmortalProgress.DisplayName"]
+new = "Mahayana"
+status = "normal"
+
 ["Need.StageAscensionBeaver.DisplayName"]
-new = "Ascension"
+new = "Mahayana"
 status = "normal"
 
 ["Need.StageFoundationBeaver.DisplayName"]
@@ -1946,11 +1870,11 @@ new = "Qi Refining"
 status = "normal"
 
 ["Work.IronGolemOnly"]
-new = "Iron Golem only"
+new = "Wood / Iron Golems only"
 status = "normal"
 
 ["Work.WoodGolemOnly"]
-new = "Wood Golem only"
+new = "Wood / Iron Golems only"
 status = "normal"
 
 ["WorkerType.IronGolem.DisplayName"]
@@ -1962,5 +1886,245 @@ new = "Wood Golem"
 status = "normal"
 
 ["Building.EfficientMine.Description"]
-new = "Spirit Iron Mine: deep scrap seam heavy with badwater. Only golems may work here."
+new = "Spirit Iron Mine: a deep scrap seam heavy with badwater. Only golems can work it."
 status = "normal"
+
+["Building.Spiritveil.DanceHall.DisplayName"]
+new = "Discipline Hall"
+status = "normal"
+
+["Building.Spiritveil.DanceHall.Description"]
+new = "The disciples' meditation hall. A hundred hours of stillness earns Foundation Establishment; twenty can sit at once."
+status = "normal"
+
+["Building.Spiritveil.DanceHall.FlavorDescription"]
+new = "Inside, the only sound is breathing."
+status = "normal"
+
+["Building.Spiritveil.ContemplationSpot.DisplayName"]
+new = "Meditation Seat"
+status = "normal"
+
+["Building.Spiritveil.ContemplationSpot.Description"]
+new = "A Foundation disciple sits in silence for 240 hours to form a Golden Core."
+status = "normal"
+
+["Building.Spiritveil.ContemplationSpot.FlavorDescription"]
+new = "One seat, one core."
+status = "normal"
+
+["Building.Spiritveil.ThunderPool.DisplayName"]
+new = "Thunder Pool"
+status = "normal"
+
+["Building.Spiritveil.ThunderPool.Description"]
+new = "A Golden Core disciple sits while mechanical arms draw lightning through them: 720 hours to reach Mahayana. Needs 300 hp."
+status = "normal"
+
+["Building.Spiritveil.ThunderPool.FlavorDescription"]
+new = "The thunder never stops."
+status = "normal"
+
+["Building.Spiritveil.ImmortalChamber.DisplayName"]
+new = "Mahayana Hall"
+status = "normal"
+
+["Building.Spiritveil.ImmortalChamber.Description"]
+new = "A dedicated retreat, five tiles square. 2400 hours of closed-door cultivation to attain Immortal Emperor. Needs 1500 hp."
+status = "normal"
+
+["Building.Spiritveil.ImmortalChamber.FlavorDescription"]
+new = "2400 hours behind a closed door."
+status = "normal"
+
+["Building.Spiritveil.AwakeningStone.DisplayName"]
+new = "Awakening Stone"
+status = "normal"
+
+["Building.Spiritveil.AwakeningStone.Description"]
+new = "A mortal sits before the stone for one hour and awakens into Qi Refining."
+status = "normal"
+
+["Building.Spiritveil.AwakeningStone.FlavorDescription"]
+new = "The runes wait for the one they were cut for."
+status = "normal"
+
+["Good.WheatFlour.DisplayName"]
+new = "Spirit Grain Flour"
+status = "normal"
+
+["Good.WheatFlour.PluralDisplayName"]
+new = "Spirit Grain Flour"
+status = "normal"
+
+["Good.BotChassis.DisplayName"]
+new = "Golem Chassis"
+status = "normal"
+
+["Good.BotChassis.PluralDisplayName"]
+new = "Golem Chassis"
+status = "normal"
+
+["Good.BotLimb.DisplayName"]
+new = "Golem Limb"
+status = "normal"
+
+["Good.BotLimb.PluralDisplayName"]
+new = "Golem Limbs"
+status = "normal"
+
+["Good.BotHead.DisplayName"]
+new = "Golem Head"
+status = "normal"
+
+["Good.BotHead.PluralDisplayName"]
+new = "Golem Heads"
+status = "normal"
+
+["Good.Biofuel.DisplayName"]
+new = "Spirit Fuel"
+status = "normal"
+
+["Good.Biofuel.PluralDisplayName"]
+new = "Spirit Fuel"
+status = "normal"
+
+["Good.PunchCard.DisplayName"]
+new = "Spirit Nexus Card"
+status = "normal"
+
+["Good.PunchCard.PluralDisplayName"]
+new = "Spirit Nexus Cards"
+status = "normal"
+
+["Good.Catalyst.DisplayName"]
+new = "Spirit Catalyst"
+status = "normal"
+
+["Good.Catalyst.PluralDisplayName"]
+new = "Spirit Catalyst"
+status = "normal"
+
+["Good.Grease.DisplayName"]
+new = "Golem Lubricant"
+status = "normal"
+
+["Good.Grease.PluralDisplayName"]
+new = "Golem Lubricant"
+status = "normal"
+
+["Need.Power.DisplayName"]
+new = "Spirit Energy"
+status = "normal"
+
+["Status.Need.Power"]
+new = "Out of spirit energy."
+status = "normal"
+
+["Building.Spiritveil.DirtExcavator.DisplayName"]
+new = "Golem Dirt Extractor"
+status = "normal"
+
+["Building.Spiritveil.DirtExcavator.Description"]
+new = "Golem-driven, continuously extracting dirt for terrain work and the mud pit."
+status = "normal"
+
+["Building.Spiritveil.DirtExcavator.FlavorDescription"]
+new = "Golems dig, and the spirit soil rises."
+status = "normal"
+
+["Good.Dirt.DisplayName"]
+new = "Dirt"
+status = "normal"
+
+["Good.Dirt.PluralDisplayName"]
+new = "Dirt"
+status = "normal"
+
+["Building.Spiritveil.AquiferDrillIron.Description"]
+new = "AquiferDrillIron The golem-grade aquifer drill; wood golems keep it boring day and night."
+status = "abandoned"
+
+["Building.Spiritveil.AquiferDrillIron.DisplayName"]
+new = "AquiferDrillIron"
+status = "abandoned"
+
+["Building.Spiritveil.AquiferDrillIron.FlavorDescription"]
+new = "The stream keeps its song; Aquifer Drill Iron stays green."
+status = "abandoned"
+
+["Building.Spiritveil.CentrifugeIron.Description"]
+new = "CentrifugeIron The reinforced iron centrifuge; refines faster to supply the high-tier alchemy rooms."
+status = "abandoned"
+
+["Building.Spiritveil.CentrifugeIron.DisplayName"]
+new = "CentrifugeIron"
+status = "abandoned"
+
+["Building.Spiritveil.CentrifugeIron.FlavorDescription"]
+new = "Where beavers pass, Centrifuge Iron shines."
+status = "abandoned"
+
+["Building.Spiritveil.CompactMechanicalPumpIron.Description"]
+new = "CompactMechanicalPumpIron The iron compact pump; even a lone golem can push water into the fields."
+status = "abandoned"
+
+["Building.Spiritveil.CompactMechanicalPumpIron.DisplayName"]
+new = "CompactMechanicalPumpIron"
+status = "abandoned"
+
+["Building.Spiritveil.CompactMechanicalPumpIron.FlavorDescription"]
+new = "Clouds rise above Compact Mechanical Pump Iron, and qi follows."
+status = "abandoned"
+
+["Building.Spiritveil.DischargeIron.Description"]
+new = "DischargeIron The reinforced iron outlet; golem-tended, it handles flood-scale discharge with ease."
+status = "abandoned"
+
+["Building.Spiritveil.DischargeIron.DisplayName"]
+new = "DischargeIron"
+status = "abandoned"
+
+["Building.Spiritveil.DischargeIron.FlavorDescription"]
+new = "The stream keeps its song; Discharge Iron stays green."
+status = "abandoned"
+
+["Building.Spiritveil.InventorIron.Description"]
+new = "InventorIron The iron study hall, a golem-only place of learning; tireless deduction yields insight faster."
+status = "abandoned"
+
+["Building.Spiritveil.InventorIron.DisplayName"]
+new = "InventorIron"
+status = "abandoned"
+
+["Building.Spiritveil.InventorIron.FlavorDescription"]
+new = "Clouds rise above Inventor Iron, and qi follows."
+status = "abandoned"
+
+["Good.CleansingPill.Description"]
+new = "An old purifying recipe long gone flat. Tastes bitter now; disciples eat it as a filling ration."
+status = "abandoned"
+
+["Good.CleansingPill.DisplayName"]
+new = "Calm Ration"
+status = "abandoned"
+
+["Good.CleansingPill.FlavorDescription"]
+new = "Made and used by the Spiritveil Clan."
+status = "abandoned"
+
+["Good.CleansingPill.PluralDisplayName"]
+new = "Calm Ration"
+status = "abandoned"
+
+["Need.CultivationProgressBot.DisplayName"]
+new = "Bot Cultivation Insight"
+status = "abandoned"
+
+["Need.FlightProgress.DisplayName"]
+new = "Ascension Flight"
+status = "abandoned"
+
+["Need.QiProgress.DisplayName"]
+new = "Qi Refining"
+status = "abandoned"

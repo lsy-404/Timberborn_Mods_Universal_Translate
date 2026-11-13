@@ -1,0 +1,14 @@
+[_meta]
+name = "Moddable Alternative Building Style"
+
+["LV.MABS.BuildingStyle"]
+new = "Building Style"
+status = "normal"
+
+["LV.MABS.Original"]
+new = "Original"
+status = "normal"
+
+[Name_AlternativeBuildingStyleFragment]
+new = "[DO_NOT_COLLAPSE]"
+status = "normal"

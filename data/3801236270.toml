@@ -1,0 +1,70 @@
+[_meta]
+name = "Workplace Priority Manager"
+
+["WorkplacePriorityManager.OpenWorkplacesTooltip"]
+new = "Open this building category in the Workplaces tab"
+status = "normal"
+
+["WorkplacePriorityManager.PriorityLockTooltip"]
+new = "Lock or unlock this building category against global priority changes"
+status = "normal"
+
+["WorkplacePriorityManager.ClearPriorityLocksTooltip"]
+new = "Remove all priority locks"
+status = "normal"
+
+["WorkplacePriorityManager.ClearPriorityLocksQuestion"]
+new = "Are you sure you want to remove all priority locks?"
+status = "normal"
+
+["WorkplacePriorityManager.ClearPriorityLocksConfirm"]
+new = "Remove locks"
+status = "normal"
+
+["WorkplacePriorityManager.FavoriteCategoryTooltip"]
+new = "Pin or unpin this building category"
+status = "normal"
+
+["WorkplacePriorityManager.CategoryListToggleTooltip"]
+new = "Hide or show individual buildings"
+status = "normal"
+
+["WorkplacePriorityManager.PauseResumeTooltip"]
+new = "Pause or resume buildings in {0}"
+status = "normal"
+
+["WorkplacePriorityManager.SetBeaversTooltip"]
+new = "Set beavers as workers for {0}"
+status = "normal"
+
+["WorkplacePriorityManager.SetBotsTooltip"]
+new = "Set bots as workers for {0}"
+status = "normal"
+
+["WorkplacePriorityManager.SetVeryLowPriorityTooltip"]
+new = "Set very low priority for {0}"
+status = "normal"
+
+["WorkplacePriorityManager.SetLowPriorityTooltip"]
+new = "Set low priority for {0}"
+status = "normal"
+
+["WorkplacePriorityManager.SetNormalPriorityTooltip"]
+new = "Set normal priority for {0}"
+status = "normal"
+
+["WorkplacePriorityManager.SetHighPriorityTooltip"]
+new = "Set high priority for {0}"
+status = "normal"
+
+["WorkplacePriorityManager.SetVeryHighPriorityTooltip"]
+new = "Set very high priority for {0}"
+status = "normal"
+
+["WorkplacePriorityManager.CurrentViewScope"]
+new = "the current view"
+status = "normal"
+
+["WorkplacePriorityManager.CategoryScope"]
+new = "this category"
+status = "normal"
