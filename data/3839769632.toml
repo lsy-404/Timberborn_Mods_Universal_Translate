@@ -1,0 +1,14 @@
+[_meta]
+name = "Beaver Bell Statue"
+
+["LV.BeaverBellStatue.DisplayName"]
+new = "Beaver Bell Statue"
+status = "normal"
+
+["LV.BeaverBellStatue.Description"]
+new = "A statue of a hard-working beaver."
+status = "normal"
+
+["LV.BeaverBellStatue.FlavorDescription"]
+new = "We did it, Reddit!"
+status = "normal"

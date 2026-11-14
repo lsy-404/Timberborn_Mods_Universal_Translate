@@ -69,6 +69,10 @@ status = "normal"
 new = "Precision in every valve, and a price in every turn."
 status = "normal"
 
+["UI.SEE.ToolGroup.SteamEngines"]
+new = "Steam Engines"
+status = "normal"
+
 ["Status.SEE.Running"]
 new = "Running"
 status = "normal"

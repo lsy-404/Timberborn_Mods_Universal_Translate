@@ -1,0 +1,18 @@
+[_meta]
+name = "Mais Saves Automáticos"
+
+["MaisAutosaves.Count"]
+new = "Autosaves to keep"
+status = "normal"
+
+["MaisAutosaves.CountDesc"]
+new = "How many autosaves are kept per settlement. Older ones are deleted. Game default: 3."
+status = "normal"
+
+["MaisAutosaves.Minutes"]
+new = "Minutes between autosaves"
+status = "normal"
+
+["MaisAutosaves.MinutesDesc"]
+new = "How often the game saves automatically, in real-time minutes. Takes effect from the next autosave. Game default: 10."
+status = "normal"

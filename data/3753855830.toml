@@ -18,42 +18,17 @@ csCZ = "Chybějící materiály"
 viVN = "Thiếu Vật Liệu"
 trTR = "Kaynaklar Eksik"
 
-["AcademicsTodoList.FilterAll"]
-raw = "All"
+["AcademicsTodoList.ScopeFollow"]
+new = "Follow selection"
 status = "normal"
-enUS = "All"
-zhCN = "所有"
-zhTW = "全部"
-ruRU = "Все"
-jaJP = "すべて"
-frFR = "Tout"
-deDE = "Alle"
-plPL = "Wszystko"
-ptBR = "Todos"
-koKR = "모두"
-csCZ = "Vše"
-viVN = "Tất cả"
-trTR = "Tümü"
 
-["AcademicsTodoList.FilterDistrict"]
-raw = "District"
+["AcademicsTodoList.ScopeMap"]
+new = "Whole map"
 status = "normal"
-enUS = "District"
-zhCN = "区域"
-zhTW = "區域"
-ruRU = "Район"
-jaJP = "地区"
-frFR = "District"
-deDE = "Bezirk"
-plPL = "Dystrykt"
-ptBR = "Distrito"
-koKR = "구역"
-csCZ = "Okres"
-viVN = "Khu vực"
-trTR = "Bölge"
 
 ["AcademicsTodoList.NothingMissing"]
 raw = "No materials are missing. Every construction site is fully stocked."
+new = "Nothing missing"
 status = "normal"
 enUS = "No materials are missing. Every construction site is fully stocked."
 zhCN = "没有缺少材料。每个建筑工地的物资都已完全备齐。"
@@ -85,3 +60,69 @@ koKR = "물품을 클릭하면 막대에 고정됩니다. 다시 클릭하면 �
 csCZ = "Kliknutím na zboží ho připnete na lištu. Dalším kliknutím se vrátíte k největšímu nedostatku."
 viVN = "Nhấp vào một hàng hóa để giữ nó trên thanh. Nhấp lại để quay về tình trạng thiếu hụt lớn nhất."
 trTR = "Çubuğa sabitlemek için bir ürüne tıklayın. En büyük kıtlığa geri dönmek için tekrar tıklayın."
+
+["AcademicsTodoList.ResizeHint"]
+new = "Drag to resize the panel."
+status = "normal"
+
+["AcademicsTodoList.Settings.Info"]
+new = "Missing is what is not yet delivered to the sites. The building panel counts it the same way. Paused buildings are left out. Blocked or hard-to-reach sites still count. Click a good to keep it on the bar. Click the good again to track the biggest shortage. The dropdown picks Follow selection, Whole map, or one district. Have and need come from the same scope. The widget changes to the alarm color when stock drops below the alarm threshold of the needed amount."
+status = "normal"
+
+["AcademicsTodoList.Settings.AlarmThreshold"]
+new = "Alarm threshold"
+status = "normal"
+
+["AcademicsTodoList.Settings.AlarmThreshold.Tooltip"]
+new = "Percent of the needed amount. The alarm fires when stock drops below it. Zero turns the alarm off."
+status = "normal"
+
+["AcademicsTodoList.Settings.AlarmColor"]
+new = "Alarm color"
+status = "normal"
+
+["AcademicsTodoList.Settings.AlarmColor.Tooltip"]
+new = "The widget uses this color when a good is critical. The critical numbers use a lighter shade of it."
+status = "normal"
+
+["AcademicsTodoList.Settings.UiScale"]
+new = "UI scale"
+status = "normal"
+
+["AcademicsTodoList.Settings.UiScale.Tooltip"]
+new = "Scales the widget and the panel in percent."
+status = "normal"
+
+["AcademicsTodoList.FilterAll"]
+raw = "All"
+status = "abandoned"
+enUS = "All"
+zhCN = "所有"
+zhTW = "全部"
+ruRU = "Все"
+jaJP = "すべて"
+frFR = "Tout"
+deDE = "Alle"
+plPL = "Wszystko"
+ptBR = "Todos"
+koKR = "모두"
+csCZ = "Vše"
+viVN = "Tất cả"
+trTR = "Tümü"
+
+["AcademicsTodoList.FilterDistrict"]
+raw = "District"
+status = "abandoned"
+enUS = "District"
+zhCN = "区域"
+zhTW = "區域"
+ruRU = "Район"
+jaJP = "地区"
+frFR = "District"
+deDE = "Bezirk"
+plPL = "Dystrykt"
+ptBR = "Distrito"
+koKR = "구역"
+csCZ = "Okres"
+viVN = "Khu vực"
+trTR = "Bölge"

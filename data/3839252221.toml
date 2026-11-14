@@ -1,0 +1,578 @@
+[_meta]
+name = "TwitchBorn"
+
+["Eurymachus.TwitchBorn.Settings.ResetAll"]
+new = "Reset all TwitchBorn settings"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Header"]
+new = "TwitchBorn"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.MaxActiveOverlays"]
+new = "Max active messages"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.MaxMessageLength"]
+new = "Max message length"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.WrapLineLength"]
+new = "Wrap line length"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.BubbleFontSize"]
+new = "Overlay font size"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.NameplateVisibilityDistance"]
+new = "Nameplate visibility distance"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.MessageVisibilityDistance"]
+new = "Message visibility distance"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.MessageDurationSeconds"]
+new = "Message duration seconds"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.OverlayHeightOffset"]
+new = "Overlay height offset"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.EnableDebugKeys"]
+new = "Enable debug numpad keys"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Debug.Claimed"]
+new = "I have been claimed!"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Debug.Hello"]
+new = "Hello from TwitchBorn!"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.EnableTwitchIntegration"]
+new = "Enable Twitch integration"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.TwitchChannel"]
+new = "Twitch channel"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.TwitchChannelTooltip"]
+new = "The Twitch channel for claims and colony messages.\nEnter the channel name rather than its full URL."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.EnableTwitchIntegrationTooltip"]
+new = "Let viewers interact with your colony through chat\nin the Twitch channel below."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.TwitchAuthorization"]
+new = "Twitch bot connection"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.TwitchIntegrationSection"]
+new = "Twitch integration"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.PlatformIntegrationHeader"]
+new = "Twitch Integration"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.OverlayHeader"]
+new = "Overlay"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.MessageFilteringHeader"]
+new = "Message Filtering"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.DebugHeader"]
+new = "Debug"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.BotConnection"]
+new = "Bot connection"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.BotConnectionTooltip"]
+new = "Replies to viewers in the Twitch channel above.\nUse your broadcaster account or a separate bot account.\nSaved connection tokens are encrypted on this device."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.Connect"]
+new = "Connect"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.Waiting"]
+new = "Waiting..."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.Connected"]
+new = "Connected"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.Disconnect"]
+new = "Disconnect"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.OpenAuthorizationPage"]
+new = "Open authorization page"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.AuthorizeHelper"]
+new = "Authorize the Twitch bot account."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.RequestingHelper"]
+new = "Requesting Twitch authorization."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.WaitingHelper"]
+new = "Waiting for Twitch authorization. Return here when finished."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.ConnectTooltip"]
+new = "Authorize the Twitch bot account."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.WaitingTooltip"]
+new = "Waiting for Twitch authorization to complete."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.ConnectedTooltip"]
+new = "Connected as {0}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.ConnectedToChannelTooltip"]
+new = "Connected as {0}.\nChannel: {1}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.ConnectedGenericTooltip"]
+new = "Twitch bot account is connected."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.DisconnectTooltip"]
+new = "Disconnect the Twitch bot account."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.CancelAuthorizationTooltip"]
+new = "Authorization is still pending. Click to cancel."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.NoConnectionTooltip"]
+new = "No Twitch bot is currently connected."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.OpenAuthorizationPageTooltip"]
+new = "Open the Twitch authorization page again."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.ChannelRequired"]
+new = "Enter a Twitch channel login to enable chat integration."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.ConnectedChannelRequired"]
+new = "Bot connected. Enter a Twitch channel login to join chat."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.ConnectedMissingChannelTooltip"]
+new = "Bot account is connected.\nEnter a Twitch channel above."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.ChannelValidating"]
+new = "Checking Twitch channel {0}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.ChannelNotFound"]
+new = "Twitch channel {0} was not found."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.ChannelValidationFailed"]
+new = "Could not validate Twitch channel {0}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.ConnectedChannelValidatingTooltip"]
+new = "Bot account is connected.\nChecking channel: {0}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.ConnectedChannelNotFoundTooltip"]
+new = "Bot account is connected.\nChannel not found: {0}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Auth.ConnectedChannelValidationFailedTooltip"]
+new = "Bot account is connected.\nCould not validate channel: {0}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.TwitchTriggersHeader"]
+new = "Twitch Triggers"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.ClaimBeaverTriggerText"]
+new = "Claim beaver trigger"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.ClaimBeaverTriggerTextTooltip"]
+new = "Chat command or Channel Point reward title used to claim a\nbeaver.\nDefault command usage: !claim"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.ClaimBeaverIsChannelPointReward"]
+new = "Claim uses Channel Point"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.ClaimBeaverIsChannelPointRewardTooltip"]
+new = "Use the trigger text as a Channel Point reward title\ninstead of a Twitch chat command."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.BeaverStatusTriggerText"]
+new = "Beaver status trigger"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.BeaverStatusTriggerTextTooltip"]
+new = "Chat command or Channel Point reward title used to check a\nclaimed beaver.\nDefault command usage: !beaver"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.BeaverStatusIsChannelPointReward"]
+new = "Status uses Channel Point"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.BeaverStatusIsChannelPointRewardTooltip"]
+new = "Use the trigger text as a Channel Point reward title\ninstead of a Twitch chat command."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.BeaverRenameTriggerText"]
+new = "Beaver rename trigger"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.BeaverRenameTriggerTextTooltip"]
+new = "Chat command or Channel Point reward title for renaming.\nDefault command usage: !rename Dam Builder"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.BeaverRenameIsChannelPointReward"]
+new = "Rename uses Channel Point"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.BeaverRenameIsChannelPointRewardTooltip"]
+new = "Use the trigger text as a Channel Point reward title\ninstead of a Twitch chat command."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.IgnoreUnhandledCommands"]
+new = "Ignore \"!\""
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.IgnoreUnhandledCommandsTooltip"]
+new = "Hide chat messages starting with ! unless they match\na TwitchBorn command. Other bot commands will not\nappear as beaver speech."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.BlacklistedTerms"]
+new = "Blacklisted words"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.BlacklistedTermsTooltip"]
+new = "Comma-separated words or phrases to replace with\n[blocked] in viewer names and messages.\nHyperlinks are always replaced with [link]."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Overlay.ClaimedBy"]
+new = "Claimed by {0}!"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Overlay.RenamedTo"]
+new = "Renamed to {0}!"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.Claimed"]
+new = "{0} claimed a beaver. {1}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.AlreadyClaimed"]
+new = "{0} you have already claimed a beaver. {1}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.Queued"]
+new = "{0} no free beaver yet — you're now in the beaver queue."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.AlreadyQueued"]
+new = "{0} you're already in the beaver queue."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.InvalidViewer"]
+new = "{0} I could not identify your Twitch user."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.NoAvailableBeaver"]
+new = "{0} no free beaver is available right now."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.AssignedFromQueue"]
+new = "{0} claimed a beaver from the queue. {1}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.Status"]
+new = "{0} {1}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.Renamed"]
+new = "{0} renamed your beaver. {1}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.NoClaimedBeaver"]
+new = "{0} you have not claimed a beaver yet."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.InvalidRequestedName"]
+new = "{0} please provide a valid beaver name."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.BeaverStatus"]
+new = "Your beaver {0} is {1}"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.BeaverStatusWithAge"]
+new = "Your beaver {0} is age {2} and {1}"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.UnknownBeaverName"]
+new = "your beaver"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.UnknownBeaverStatus"]
+new = "currently unknown"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Overlay.OwnedBy"]
+new = "Owned by {0}"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.ClaimingHeader"]
+new = "Claiming"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.AllowBotClaims"]
+new = "Allow bot claims"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.AllowBotClaimsTooltip"]
+new = "Allow viewers to claim bots as well as beavers. When\ndisabled only beavers can be claimed."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.MaxActiveOverlaysTooltip"]
+new = "Maximum number of beaver speech bubbles shown at the same\ntime."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.MaxMessageLengthTooltip"]
+new = "Maximum Twitch message length shown in a beaver speech\nbubble."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.WrapLineLengthTooltip"]
+new = "Approximate character count before speech bubble text\nwraps to a new line."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.BubbleFontSizeTooltip"]
+new = "Text size used by beaver nameplates and speech bubbles."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.NameplateVisibilityDistanceTooltip"]
+new = "Camera distance at which claimed beaver nameplates remain\nvisible while idle."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.MessageVisibilityDistanceTooltip"]
+new = "Camera distance at which beaver speech bubbles are visible\nafter a message."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.MessageDurationSecondsTooltip"]
+new = "How long beaver speech bubbles remain visible after a\nmessage."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.OverlayHeightOffsetTooltip"]
+new = "Vertical offset above the beaver used for nameplates and\nspeech bubbles."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Notification.RenameRejected"]
+new = "Claimed beavers keep their viewer names. Owned by {0}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.AlwaysDisplayNameplates"]
+new = "Always display nameplates"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.AlwaysDisplayNameplatesTooltip"]
+new = "When enabled claimed beaver nameplates remain visible\nwhile idle based on the nameplate visibility distance."
+status = "normal"
+
+["KeyBinding.ShowTwitchBornNameplates"]
+new = "Show TwitchBorn nameplates"
+status = "normal"
+
+["Eurymachus.TwitchBorn.KeyBinding.Group"]
+new = "TwitchBorn"
+status = "normal"
+
+["Eurymachus.TwitchBorn.KeyBinding.ShowNameplates"]
+new = "Show TwitchBorn nameplates"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.NameplateShadowEnabled"]
+new = "Show nameplate shadows"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.NameplateShadowEnabledTooltip"]
+new = "Add drop shadow to nameplate text and allow viewers to\nchange this shadow"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.ViewerNameColourTriggerText"]
+new = "Change beaver colour trigger"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.ViewerNameColourTriggerTextTooltip"]
+new = "Command or Channel Point reward title for name colour.\nDefault command usage: !color #00FF00\nTo remove the colour: !color off"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.ViewerNameColourIsChannelPointReward"]
+new = "Name colour uses Channel Point"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.ViewerNameColourIsChannelPointRewardTooltip"]
+new = "Use the trigger text as a Channel Point reward title\ninstead of a Twitch chat command."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.ViewerNameShadowTriggerText"]
+new = "Set nameplate shadow trigger"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.ViewerNameShadowTriggerTextTooltip"]
+new = "Command or Channel Point reward title for name shadow.\nDefault command usage: !shadow #00000080\nAccepts #RRGGBB or #RRGGBBAA. To remove: !shadow off"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.ViewerNameShadowIsChannelPointReward"]
+new = "Name shadow uses Channel Point"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.ViewerNameShadowIsChannelPointRewardTooltip"]
+new = "Use the trigger text as a Channel Point reward title\ninstead of a Twitch chat command."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.ViewerNameColourUpdated"]
+new = "{0} name colour set to {1}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.ViewerNameColourCleared"]
+new = "{0} name colour cleared."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.ViewerNameShadowUpdated"]
+new = "{0} name shadow set to {1}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.ViewerNameShadowCleared"]
+new = "{0} name shadow cleared."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.InvalidRequestedColour"]
+new = "{0} use #RRGGBB for colour or #RRGGBBAA for shadow."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.AutoClaimOnDeath"]
+new = "Auto claim on death"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.AutoClaimOnDeathTooltip"]
+new = "Automatically assign a new available beaver when a\nviewer's claimed beaver dies. If none are free the viewer\nis queued."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.NotifyViewerOnGrowUp"]
+new = "Notify viewer on grow up"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.NotifyViewerOnGrowUpTooltip"]
+new = "Send a Twitch message when a claimed kit grows up.\nThe viewer keeps their claim on the adult beaver."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.NotifyViewerOnDeath"]
+new = "Notify viewer on death"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.NotifyViewerOnDeathTooltip"]
+new = "Send a Twitch chat message when a viewer's claimed beaver\ndies."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.KeepAssignedNameAcrossClaims"]
+new = "Keep assigned name across claims"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.KeepAssignedNameAcrossClaimsTooltip"]
+new = "Reuse the viewer's last assigned beaver name when they\nclaim a replacement beaver."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.PreviousClaimDied"]
+new = "{0} your beaver {1} died. Use {2} to claim a new beaver."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.PreviousClaimDiedWithReason"]
+new = "{0} your beaver {1} Use {2} to claim a new beaver."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.ReclaimedAfterDeath"]
+new = "{0} your beaver {1} died. You claimed a new beaver named {2}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.ReclaimedAfterDeathWithReason"]
+new = "{0} your beaver {1} You claimed a new beaver named {2}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.AlreadyQueuedAfterDeath"]
+new = "{0} your beaver {1} died and you are already in the claim queue."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.AlreadyQueuedAfterDeathWithReason"]
+new = "{0} your beaver {1} {2} You are already in the claim queue."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.GrownUp"]
+new = "{0} your beaver {1} grew up."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.Died"]
+new = "{0} your beaver {1} died."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.DiedWithReason"]
+new = "{0} your beaver {1} {2}"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.AutoReclaimedAfterDeath"]
+new = "{0} your beaver {1} died. You automatically claimed a new beaver named {2}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.AutoReclaimedAfterDeathWithReason"]
+new = "{0} your beaver {1} You automatically claimed a new beaver named {2}."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.QueuedAfterDeath"]
+new = "{0} your beaver {1} died and no free beaver is available. You are back in the claim queue."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Twitch.Reply.QueuedAfterDeathWithReason"]
+new = "{0} your beaver {1} {2} No free beaver is available. You are back in the claim queue."
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Tab.General"]
+new = "General"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Tab.Integration"]
+new = "Integration"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Tab.Overlays"]
+new = "Overlays"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.Tab.Debug"]
+new = "Debug"
+status = "normal"
+
+["Eurymachus.TwitchBorn.Settings.TwitchTriggersTooltip"]
+new = "Separate command aliases with commas.\nExample: !alias1,!alias2\nAliases apply to chat commands only."
+status = "normal"
