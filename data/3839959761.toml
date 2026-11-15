@@ -1,0 +1,34 @@
+[_meta]
+name = "Japanese Farmhouse"
+
+["Building.JapaneseFarmhouse.DisplayName"]
+new = "Japanese Farmhouse"
+status = "normal"
+
+["Building.JapaneseFarmhouse.Description"]
+new = "Farmers plant and harvest crops in the area around the building. Works exactly like the Farmhouse."
+status = "normal"
+
+["Building.JapaneseFarmhouse.FlavorDescription"]
+new = "Tiles up top, rice in the loft, mud on every doorstep."
+status = "normal"
+
+["Building.JapaneseEfficientFarmhouse.DisplayName"]
+new = "Japanese Efficient Farmhouse"
+status = "normal"
+
+["Building.JapaneseEfficientFarmhouse.Description"]
+new = "Farmers plant and harvest crops in the area around the building. Up to 4 farmers who work 50% faster than at a Farmhouse, or 75% faster while it gets 100 hp of power through its side or back shafts. Power is optional."
+status = "normal"
+
+["Building.JapaneseEfficientFarmhouse.FlavorDescription"]
+new = "The gearbox does not plant anything. The farmers insist it helps."
+status = "normal"
+
+["Building.JapaneseFarmhouse.Folktails.Description"]
+new = "Farmers plant and harvest field crops (carrots, wheat, potatoes, sunflowers) in the area around the building. A smaller 2-farmer farmhouse; aquatic crops still need the Aquatic Farmhouse."
+status = "normal"
+
+["Building.JapaneseEfficientFarmhouse.Folktails.Description"]
+new = "Farmers plant and harvest field crops (carrots, wheat, potatoes, sunflowers) in the area around the building. Up to 4 farmers who work 50% faster, or 75% faster while it gets 100 hp of power through its side or back shafts. Power is optional. Aquatic crops still need the Aquatic Farmhouse."
+status = "normal"

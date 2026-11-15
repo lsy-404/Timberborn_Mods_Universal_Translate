@@ -1,0 +1,34 @@
+[_meta]
+name = "集雾器 / Fog Collector"
+
+["Building.FogTower.FogTowerSmall.DisplayName"]
+new = "Small Fog Collector"
+status = "normal"
+
+["Building.FogTower.FogTowerSmall.Description"]
+new = "A custom timber base and basin below and a diamond timber frame with cloth above, leaning slightly backwards. Yields 1 water per hour, holds up to 15, and needs no worker. Only works at night in temperate weather; stops in droughts and badtides, and works faster the higher it is built and the stronger the wind."
+status = "normal"
+
+["Building.FogTower.FogTowerSmall.FlavorDescription"]
+new = "Where the mist is thick the cloth sings."
+status = "normal"
+
+["FogTower.Recipe.Small.DisplayName"]
+new = "Condensing Mist"
+status = "normal"
+
+["Building.FogTower.FogTowerLarge.DisplayName"]
+new = "Large Fog Collector"
+status = "normal"
+
+["Building.FogTower.FogTowerLarge.Description"]
+new = "The whole tower, bucket and base included, is scaled uniformly two times (x2), with the diamond net NOT rotated (same facing and lean as the small one). It fits a 2 x 2 footprint exactly, with the tower centred and no overhang onto neighbouring ground. Cloth stretched across. Yields 3 water per hour, holds up to 50, and needs no worker. Only works at night in temperate weather; stops in droughts and badtides, and works faster the higher it is built and the stronger the wind."
+status = "normal"
+
+["Building.FogTower.FogTowerLarge.FlavorDescription"]
+new = "Twice the tower, exactly 2 tiles wide."
+status = "normal"
+
+["FogTower.Recipe.Large.DisplayName"]
+new = "Condensing Deep Mist"
+status = "normal"

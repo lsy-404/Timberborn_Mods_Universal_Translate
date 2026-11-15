@@ -1,0 +1,2690 @@
+[_meta]
+name = "RoofWorks"
+
+["RoofWorks.GableSmall.Boardwalk.1.Name"]
+new = "Small pitched roof — Boardwalk"
+status = "normal"
+
+["RoofWorks.GableSmall.Boardwalk.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.GableSmall.Cedar.1.Name"]
+new = "Small pitched roof — Cedar"
+status = "normal"
+
+["RoofWorks.GableSmall.Cedar.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.GableSmall.DarkOak.1.Name"]
+new = "Small pitched roof — DarkOak"
+status = "normal"
+
+["RoofWorks.GableSmall.DarkOak.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.GableSmall.IvoryTimber.1.Name"]
+new = "Small pitched roof — IvoryTimber"
+status = "normal"
+
+["RoofWorks.GableSmall.IvoryTimber.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.GableSmall.SageTimber.1.Name"]
+new = "Small pitched roof — SageTimber"
+status = "normal"
+
+["RoofWorks.GableSmall.SageTimber.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.GableSmall.IndustrialMetal.1.Name"]
+new = "Small pitched roof — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.GableSmall.IndustrialMetal.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.GableSmall.BrushedMetal.1.Name"]
+new = "Small pitched roof — BrushedMetal"
+status = "normal"
+
+["RoofWorks.GableSmall.BrushedMetal.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.GableWide.Boardwalk.1.Name"]
+new = "Wide pitched roof — Boardwalk"
+status = "normal"
+
+["RoofWorks.GableWide.Boardwalk.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.GableWide.Cedar.1.Name"]
+new = "Wide pitched roof — Cedar"
+status = "normal"
+
+["RoofWorks.GableWide.Cedar.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.GableWide.DarkOak.1.Name"]
+new = "Wide pitched roof — DarkOak"
+status = "normal"
+
+["RoofWorks.GableWide.DarkOak.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.GableWide.IvoryTimber.1.Name"]
+new = "Wide pitched roof — IvoryTimber"
+status = "normal"
+
+["RoofWorks.GableWide.IvoryTimber.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.GableWide.SageTimber.1.Name"]
+new = "Wide pitched roof — SageTimber"
+status = "normal"
+
+["RoofWorks.GableWide.SageTimber.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.GableWide.IndustrialMetal.1.Name"]
+new = "Wide pitched roof — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.GableWide.IndustrialMetal.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.GableWide.BrushedMetal.1.Name"]
+new = "Wide pitched roof — BrushedMetal"
+status = "normal"
+
+["RoofWorks.GableWide.BrushedMetal.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.LeanTo.Boardwalk.1.Name"]
+new = "Lean-to roof — Boardwalk"
+status = "normal"
+
+["RoofWorks.LeanTo.Boardwalk.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.LeanTo.Cedar.1.Name"]
+new = "Lean-to roof — Cedar"
+status = "normal"
+
+["RoofWorks.LeanTo.Cedar.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.LeanTo.DarkOak.1.Name"]
+new = "Lean-to roof — DarkOak"
+status = "normal"
+
+["RoofWorks.LeanTo.DarkOak.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.LeanTo.IvoryTimber.1.Name"]
+new = "Lean-to roof — IvoryTimber"
+status = "normal"
+
+["RoofWorks.LeanTo.IvoryTimber.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.LeanTo.SageTimber.1.Name"]
+new = "Lean-to roof — SageTimber"
+status = "normal"
+
+["RoofWorks.LeanTo.SageTimber.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.LeanTo.IndustrialMetal.1.Name"]
+new = "Lean-to roof — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.LeanTo.IndustrialMetal.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.LeanTo.BrushedMetal.1.Name"]
+new = "Lean-to roof — BrushedMetal"
+status = "normal"
+
+["RoofWorks.LeanTo.BrushedMetal.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.Canopy.Boardwalk.3.Name"]
+new = "Covered walkway — Boardwalk"
+status = "normal"
+
+["RoofWorks.Canopy.Boardwalk.3.Description"]
+new = "Three-tile-wide supported canopy. Outer posts require support; the center remains open for a separately placed path."
+status = "normal"
+
+["RoofWorks.Canopy.Cedar.3.Name"]
+new = "Covered walkway — Cedar"
+status = "normal"
+
+["RoofWorks.Canopy.Cedar.3.Description"]
+new = "Three-tile-wide supported canopy. Outer posts require support; the center remains open for a separately placed path."
+status = "normal"
+
+["RoofWorks.Canopy.DarkOak.3.Name"]
+new = "Covered walkway — DarkOak"
+status = "normal"
+
+["RoofWorks.Canopy.DarkOak.3.Description"]
+new = "Three-tile-wide supported canopy. Outer posts require support; the center remains open for a separately placed path."
+status = "normal"
+
+["RoofWorks.Canopy.IvoryTimber.3.Name"]
+new = "Covered walkway — IvoryTimber"
+status = "normal"
+
+["RoofWorks.Canopy.IvoryTimber.3.Description"]
+new = "Three-tile-wide supported canopy. Outer posts require support; the center remains open for a separately placed path."
+status = "normal"
+
+["RoofWorks.Canopy.SageTimber.3.Name"]
+new = "Covered walkway — SageTimber"
+status = "normal"
+
+["RoofWorks.Canopy.SageTimber.3.Description"]
+new = "Three-tile-wide supported canopy. Outer posts require support; the center remains open for a separately placed path."
+status = "normal"
+
+["RoofWorks.Canopy.IndustrialMetal.3.Name"]
+new = "Covered walkway — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.Canopy.IndustrialMetal.3.Description"]
+new = "Three-tile-wide supported canopy. Outer posts require support; the center remains open for a separately placed path."
+status = "normal"
+
+["RoofWorks.Canopy.BrushedMetal.3.Name"]
+new = "Covered walkway — BrushedMetal"
+status = "normal"
+
+["RoofWorks.Canopy.BrushedMetal.3.Description"]
+new = "Three-tile-wide supported canopy. Outer posts require support; the center remains open for a separately placed path."
+status = "normal"
+
+["RoofWorks.Industrial.Boardwalk.1.Name"]
+new = "Workshop metal roof — Boardwalk"
+status = "normal"
+
+["RoofWorks.Industrial.Boardwalk.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.Industrial.Cedar.1.Name"]
+new = "Workshop metal roof — Cedar"
+status = "normal"
+
+["RoofWorks.Industrial.Cedar.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.Industrial.DarkOak.1.Name"]
+new = "Workshop metal roof — DarkOak"
+status = "normal"
+
+["RoofWorks.Industrial.DarkOak.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.Industrial.IvoryTimber.1.Name"]
+new = "Workshop metal roof — IvoryTimber"
+status = "normal"
+
+["RoofWorks.Industrial.IvoryTimber.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.Industrial.SageTimber.1.Name"]
+new = "Workshop metal roof — SageTimber"
+status = "normal"
+
+["RoofWorks.Industrial.SageTimber.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.Industrial.IndustrialMetal.1.Name"]
+new = "Workshop metal roof — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.Industrial.IndustrialMetal.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.Industrial.BrushedMetal.1.Name"]
+new = "Workshop metal roof — BrushedMetal"
+status = "normal"
+
+["RoofWorks.Industrial.BrushedMetal.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.BarkRoof.Boardwalk.1.Name"]
+new = "Bark-and-log roof — Boardwalk"
+status = "normal"
+
+["RoofWorks.BarkRoof.Boardwalk.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.BarkRoof.Cedar.1.Name"]
+new = "Bark-and-log roof — Cedar"
+status = "normal"
+
+["RoofWorks.BarkRoof.Cedar.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.BarkRoof.DarkOak.1.Name"]
+new = "Bark-and-log roof — DarkOak"
+status = "normal"
+
+["RoofWorks.BarkRoof.DarkOak.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.BarkRoof.IvoryTimber.1.Name"]
+new = "Bark-and-log roof — IvoryTimber"
+status = "normal"
+
+["RoofWorks.BarkRoof.IvoryTimber.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.BarkRoof.SageTimber.1.Name"]
+new = "Bark-and-log roof — SageTimber"
+status = "normal"
+
+["RoofWorks.BarkRoof.SageTimber.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.BarkRoof.IndustrialMetal.1.Name"]
+new = "Bark-and-log roof — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.BarkRoof.IndustrialMetal.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.BarkRoof.BrushedMetal.1.Name"]
+new = "Bark-and-log roof — BrushedMetal"
+status = "normal"
+
+["RoofWorks.BarkRoof.BrushedMetal.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.ReedRoof.Boardwalk.1.Name"]
+new = "Reed-thatched roof — Boardwalk"
+status = "normal"
+
+["RoofWorks.ReedRoof.Boardwalk.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.ReedRoof.Cedar.1.Name"]
+new = "Reed-thatched roof — Cedar"
+status = "normal"
+
+["RoofWorks.ReedRoof.Cedar.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.ReedRoof.DarkOak.1.Name"]
+new = "Reed-thatched roof — DarkOak"
+status = "normal"
+
+["RoofWorks.ReedRoof.DarkOak.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.ReedRoof.IvoryTimber.1.Name"]
+new = "Reed-thatched roof — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ReedRoof.IvoryTimber.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.ReedRoof.SageTimber.1.Name"]
+new = "Reed-thatched roof — SageTimber"
+status = "normal"
+
+["RoofWorks.ReedRoof.SageTimber.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.ReedRoof.IndustrialMetal.1.Name"]
+new = "Reed-thatched roof — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ReedRoof.IndustrialMetal.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.ReedRoof.BrushedMetal.1.Name"]
+new = "Reed-thatched roof — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ReedRoof.BrushedMetal.1.Description"]
+new = "Native roof decoration. Place on supported building or platform tops."
+status = "normal"
+
+["RoofWorks.GardenCanopy.Boardwalk.3.Name"]
+new = "Garden canopy — Boardwalk"
+status = "normal"
+
+["RoofWorks.GardenCanopy.Boardwalk.3.Description"]
+new = "Three-tile-wide supported canopy. Outer posts require support; the center remains open for a separately placed path."
+status = "normal"
+
+["RoofWorks.GardenCanopy.Cedar.3.Name"]
+new = "Garden canopy — Cedar"
+status = "normal"
+
+["RoofWorks.GardenCanopy.Cedar.3.Description"]
+new = "Three-tile-wide supported canopy. Outer posts require support; the center remains open for a separately placed path."
+status = "normal"
+
+["RoofWorks.GardenCanopy.DarkOak.3.Name"]
+new = "Garden canopy — DarkOak"
+status = "normal"
+
+["RoofWorks.GardenCanopy.DarkOak.3.Description"]
+new = "Three-tile-wide supported canopy. Outer posts require support; the center remains open for a separately placed path."
+status = "normal"
+
+["RoofWorks.GardenCanopy.IvoryTimber.3.Name"]
+new = "Garden canopy — IvoryTimber"
+status = "normal"
+
+["RoofWorks.GardenCanopy.IvoryTimber.3.Description"]
+new = "Three-tile-wide supported canopy. Outer posts require support; the center remains open for a separately placed path."
+status = "normal"
+
+["RoofWorks.GardenCanopy.SageTimber.3.Name"]
+new = "Garden canopy — SageTimber"
+status = "normal"
+
+["RoofWorks.GardenCanopy.SageTimber.3.Description"]
+new = "Three-tile-wide supported canopy. Outer posts require support; the center remains open for a separately placed path."
+status = "normal"
+
+["RoofWorks.GardenCanopy.IndustrialMetal.3.Name"]
+new = "Garden canopy — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.GardenCanopy.IndustrialMetal.3.Description"]
+new = "Three-tile-wide supported canopy. Outer posts require support; the center remains open for a separately placed path."
+status = "normal"
+
+["RoofWorks.GardenCanopy.BrushedMetal.3.Name"]
+new = "Garden canopy — BrushedMetal"
+status = "normal"
+
+["RoofWorks.GardenCanopy.BrushedMetal.3.Description"]
+new = "Three-tile-wide supported canopy. Outer posts require support; the center remains open for a separately placed path."
+status = "normal"
+
+["RoofWorks.ModularShingleEnd.Boardwalk.1.Name"]
+new = "Shingle end — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularShingleEnd.Boardwalk.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleEnd.Cedar.1.Name"]
+new = "Shingle end — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularShingleEnd.Cedar.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleEnd.DarkOak.1.Name"]
+new = "Shingle end — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularShingleEnd.DarkOak.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleEnd.IvoryTimber.1.Name"]
+new = "Shingle end — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleEnd.IvoryTimber.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleEnd.SageTimber.1.Name"]
+new = "Shingle end — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleEnd.SageTimber.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleEnd.IndustrialMetal.1.Name"]
+new = "Shingle end — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleEnd.IndustrialMetal.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleEnd.BrushedMetal.1.Name"]
+new = "Shingle end — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleEnd.BrushedMetal.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleMiddle.Boardwalk.1.Name"]
+new = "Shingle middle — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularShingleMiddle.Boardwalk.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleMiddle.Cedar.1.Name"]
+new = "Shingle middle — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularShingleMiddle.Cedar.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleMiddle.DarkOak.1.Name"]
+new = "Shingle middle — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularShingleMiddle.DarkOak.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleMiddle.IvoryTimber.1.Name"]
+new = "Shingle middle — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleMiddle.IvoryTimber.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleMiddle.SageTimber.1.Name"]
+new = "Shingle middle — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleMiddle.SageTimber.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleMiddle.IndustrialMetal.1.Name"]
+new = "Shingle middle — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleMiddle.IndustrialMetal.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleMiddle.BrushedMetal.1.Name"]
+new = "Shingle middle — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleMiddle.BrushedMetal.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCorner.Boardwalk.1.Name"]
+new = "Shingle corner — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularShingleCorner.Boardwalk.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCorner.Cedar.1.Name"]
+new = "Shingle corner — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularShingleCorner.Cedar.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCorner.DarkOak.1.Name"]
+new = "Shingle corner — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularShingleCorner.DarkOak.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCorner.IvoryTimber.1.Name"]
+new = "Shingle corner — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleCorner.IvoryTimber.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCorner.SageTimber.1.Name"]
+new = "Shingle corner — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleCorner.SageTimber.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCorner.IndustrialMetal.1.Name"]
+new = "Shingle corner — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleCorner.IndustrialMetal.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCorner.BrushedMetal.1.Name"]
+new = "Shingle corner — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleCorner.BrushedMetal.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleTee.Boardwalk.1.Name"]
+new = "Shingle tee — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularShingleTee.Boardwalk.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleTee.Cedar.1.Name"]
+new = "Shingle tee — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularShingleTee.Cedar.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleTee.DarkOak.1.Name"]
+new = "Shingle tee — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularShingleTee.DarkOak.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleTee.IvoryTimber.1.Name"]
+new = "Shingle tee — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleTee.IvoryTimber.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleTee.SageTimber.1.Name"]
+new = "Shingle tee — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleTee.SageTimber.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleTee.IndustrialMetal.1.Name"]
+new = "Shingle tee — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleTee.IndustrialMetal.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleTee.BrushedMetal.1.Name"]
+new = "Shingle tee — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleTee.BrushedMetal.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCross.Boardwalk.1.Name"]
+new = "Shingle cross — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularShingleCross.Boardwalk.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCross.Cedar.1.Name"]
+new = "Shingle cross — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularShingleCross.Cedar.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCross.DarkOak.1.Name"]
+new = "Shingle cross — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularShingleCross.DarkOak.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCross.IvoryTimber.1.Name"]
+new = "Shingle cross — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleCross.IvoryTimber.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCross.SageTimber.1.Name"]
+new = "Shingle cross — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleCross.SageTimber.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCross.IndustrialMetal.1.Name"]
+new = "Shingle cross — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleCross.IndustrialMetal.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCross.BrushedMetal.1.Name"]
+new = "Shingle cross — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleCross.BrushedMetal.1.Description"]
+new = "Modular shingle roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleEndWide.Boardwalk.1.Name"]
+new = "Shingle end — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularShingleEndWide.Boardwalk.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleEndWide.Cedar.1.Name"]
+new = "Shingle end — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularShingleEndWide.Cedar.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleEndWide.DarkOak.1.Name"]
+new = "Shingle end — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularShingleEndWide.DarkOak.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleEndWide.IvoryTimber.1.Name"]
+new = "Shingle end — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleEndWide.IvoryTimber.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleEndWide.SageTimber.1.Name"]
+new = "Shingle end — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleEndWide.SageTimber.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleEndWide.IndustrialMetal.1.Name"]
+new = "Shingle end — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleEndWide.IndustrialMetal.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleEndWide.BrushedMetal.1.Name"]
+new = "Shingle end — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleEndWide.BrushedMetal.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleMiddleWide.Boardwalk.1.Name"]
+new = "Shingle middle — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularShingleMiddleWide.Boardwalk.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleMiddleWide.Cedar.1.Name"]
+new = "Shingle middle — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularShingleMiddleWide.Cedar.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleMiddleWide.DarkOak.1.Name"]
+new = "Shingle middle — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularShingleMiddleWide.DarkOak.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleMiddleWide.IvoryTimber.1.Name"]
+new = "Shingle middle — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleMiddleWide.IvoryTimber.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleMiddleWide.SageTimber.1.Name"]
+new = "Shingle middle — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleMiddleWide.SageTimber.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleMiddleWide.IndustrialMetal.1.Name"]
+new = "Shingle middle — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleMiddleWide.IndustrialMetal.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleMiddleWide.BrushedMetal.1.Name"]
+new = "Shingle middle — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleMiddleWide.BrushedMetal.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCornerWide.Boardwalk.1.Name"]
+new = "Shingle corner — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularShingleCornerWide.Boardwalk.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCornerWide.Cedar.1.Name"]
+new = "Shingle corner — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularShingleCornerWide.Cedar.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCornerWide.DarkOak.1.Name"]
+new = "Shingle corner — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularShingleCornerWide.DarkOak.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCornerWide.IvoryTimber.1.Name"]
+new = "Shingle corner — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleCornerWide.IvoryTimber.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCornerWide.SageTimber.1.Name"]
+new = "Shingle corner — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleCornerWide.SageTimber.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCornerWide.IndustrialMetal.1.Name"]
+new = "Shingle corner — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleCornerWide.IndustrialMetal.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCornerWide.BrushedMetal.1.Name"]
+new = "Shingle corner — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleCornerWide.BrushedMetal.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleTeeWide.Boardwalk.1.Name"]
+new = "Shingle tee — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularShingleTeeWide.Boardwalk.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleTeeWide.Cedar.1.Name"]
+new = "Shingle tee — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularShingleTeeWide.Cedar.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleTeeWide.DarkOak.1.Name"]
+new = "Shingle tee — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularShingleTeeWide.DarkOak.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleTeeWide.IvoryTimber.1.Name"]
+new = "Shingle tee — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleTeeWide.IvoryTimber.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleTeeWide.SageTimber.1.Name"]
+new = "Shingle tee — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleTeeWide.SageTimber.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleTeeWide.IndustrialMetal.1.Name"]
+new = "Shingle tee — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleTeeWide.IndustrialMetal.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleTeeWide.BrushedMetal.1.Name"]
+new = "Shingle tee — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleTeeWide.BrushedMetal.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCrossWide.Boardwalk.1.Name"]
+new = "Shingle cross — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularShingleCrossWide.Boardwalk.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCrossWide.Cedar.1.Name"]
+new = "Shingle cross — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularShingleCrossWide.Cedar.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCrossWide.DarkOak.1.Name"]
+new = "Shingle cross — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularShingleCrossWide.DarkOak.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCrossWide.IvoryTimber.1.Name"]
+new = "Shingle cross — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleCrossWide.IvoryTimber.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCrossWide.SageTimber.1.Name"]
+new = "Shingle cross — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularShingleCrossWide.SageTimber.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCrossWide.IndustrialMetal.1.Name"]
+new = "Shingle cross — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleCrossWide.IndustrialMetal.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularShingleCrossWide.BrushedMetal.1.Name"]
+new = "Shingle cross — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularShingleCrossWide.BrushedMetal.1.Description"]
+new = "Modular shingle roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkEnd.Boardwalk.1.Name"]
+new = "Bark end — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularBarkEnd.Boardwalk.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkEnd.Cedar.1.Name"]
+new = "Bark end — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularBarkEnd.Cedar.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkEnd.DarkOak.1.Name"]
+new = "Bark end — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularBarkEnd.DarkOak.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkEnd.IvoryTimber.1.Name"]
+new = "Bark end — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkEnd.IvoryTimber.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkEnd.SageTimber.1.Name"]
+new = "Bark end — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkEnd.SageTimber.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkEnd.IndustrialMetal.1.Name"]
+new = "Bark end — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkEnd.IndustrialMetal.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkEnd.BrushedMetal.1.Name"]
+new = "Bark end — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkEnd.BrushedMetal.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkMiddle.Boardwalk.1.Name"]
+new = "Bark middle — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularBarkMiddle.Boardwalk.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkMiddle.Cedar.1.Name"]
+new = "Bark middle — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularBarkMiddle.Cedar.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkMiddle.DarkOak.1.Name"]
+new = "Bark middle — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularBarkMiddle.DarkOak.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkMiddle.IvoryTimber.1.Name"]
+new = "Bark middle — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkMiddle.IvoryTimber.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkMiddle.SageTimber.1.Name"]
+new = "Bark middle — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkMiddle.SageTimber.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkMiddle.IndustrialMetal.1.Name"]
+new = "Bark middle — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkMiddle.IndustrialMetal.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkMiddle.BrushedMetal.1.Name"]
+new = "Bark middle — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkMiddle.BrushedMetal.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCorner.Boardwalk.1.Name"]
+new = "Bark corner — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularBarkCorner.Boardwalk.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCorner.Cedar.1.Name"]
+new = "Bark corner — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularBarkCorner.Cedar.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCorner.DarkOak.1.Name"]
+new = "Bark corner — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularBarkCorner.DarkOak.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCorner.IvoryTimber.1.Name"]
+new = "Bark corner — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkCorner.IvoryTimber.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCorner.SageTimber.1.Name"]
+new = "Bark corner — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkCorner.SageTimber.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCorner.IndustrialMetal.1.Name"]
+new = "Bark corner — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkCorner.IndustrialMetal.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCorner.BrushedMetal.1.Name"]
+new = "Bark corner — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkCorner.BrushedMetal.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkTee.Boardwalk.1.Name"]
+new = "Bark tee — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularBarkTee.Boardwalk.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkTee.Cedar.1.Name"]
+new = "Bark tee — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularBarkTee.Cedar.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkTee.DarkOak.1.Name"]
+new = "Bark tee — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularBarkTee.DarkOak.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkTee.IvoryTimber.1.Name"]
+new = "Bark tee — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkTee.IvoryTimber.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkTee.SageTimber.1.Name"]
+new = "Bark tee — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkTee.SageTimber.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkTee.IndustrialMetal.1.Name"]
+new = "Bark tee — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkTee.IndustrialMetal.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkTee.BrushedMetal.1.Name"]
+new = "Bark tee — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkTee.BrushedMetal.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCross.Boardwalk.1.Name"]
+new = "Bark cross — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularBarkCross.Boardwalk.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCross.Cedar.1.Name"]
+new = "Bark cross — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularBarkCross.Cedar.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCross.DarkOak.1.Name"]
+new = "Bark cross — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularBarkCross.DarkOak.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCross.IvoryTimber.1.Name"]
+new = "Bark cross — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkCross.IvoryTimber.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCross.SageTimber.1.Name"]
+new = "Bark cross — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkCross.SageTimber.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCross.IndustrialMetal.1.Name"]
+new = "Bark cross — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkCross.IndustrialMetal.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCross.BrushedMetal.1.Name"]
+new = "Bark cross — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkCross.BrushedMetal.1.Description"]
+new = "Modular bark roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkEndWide.Boardwalk.1.Name"]
+new = "Bark end — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularBarkEndWide.Boardwalk.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkEndWide.Cedar.1.Name"]
+new = "Bark end — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularBarkEndWide.Cedar.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkEndWide.DarkOak.1.Name"]
+new = "Bark end — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularBarkEndWide.DarkOak.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkEndWide.IvoryTimber.1.Name"]
+new = "Bark end — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkEndWide.IvoryTimber.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkEndWide.SageTimber.1.Name"]
+new = "Bark end — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkEndWide.SageTimber.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkEndWide.IndustrialMetal.1.Name"]
+new = "Bark end — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkEndWide.IndustrialMetal.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkEndWide.BrushedMetal.1.Name"]
+new = "Bark end — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkEndWide.BrushedMetal.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkMiddleWide.Boardwalk.1.Name"]
+new = "Bark middle — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularBarkMiddleWide.Boardwalk.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkMiddleWide.Cedar.1.Name"]
+new = "Bark middle — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularBarkMiddleWide.Cedar.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkMiddleWide.DarkOak.1.Name"]
+new = "Bark middle — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularBarkMiddleWide.DarkOak.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkMiddleWide.IvoryTimber.1.Name"]
+new = "Bark middle — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkMiddleWide.IvoryTimber.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkMiddleWide.SageTimber.1.Name"]
+new = "Bark middle — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkMiddleWide.SageTimber.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkMiddleWide.IndustrialMetal.1.Name"]
+new = "Bark middle — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkMiddleWide.IndustrialMetal.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkMiddleWide.BrushedMetal.1.Name"]
+new = "Bark middle — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkMiddleWide.BrushedMetal.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCornerWide.Boardwalk.1.Name"]
+new = "Bark corner — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularBarkCornerWide.Boardwalk.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCornerWide.Cedar.1.Name"]
+new = "Bark corner — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularBarkCornerWide.Cedar.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCornerWide.DarkOak.1.Name"]
+new = "Bark corner — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularBarkCornerWide.DarkOak.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCornerWide.IvoryTimber.1.Name"]
+new = "Bark corner — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkCornerWide.IvoryTimber.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCornerWide.SageTimber.1.Name"]
+new = "Bark corner — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkCornerWide.SageTimber.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCornerWide.IndustrialMetal.1.Name"]
+new = "Bark corner — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkCornerWide.IndustrialMetal.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCornerWide.BrushedMetal.1.Name"]
+new = "Bark corner — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkCornerWide.BrushedMetal.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkTeeWide.Boardwalk.1.Name"]
+new = "Bark tee — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularBarkTeeWide.Boardwalk.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkTeeWide.Cedar.1.Name"]
+new = "Bark tee — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularBarkTeeWide.Cedar.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkTeeWide.DarkOak.1.Name"]
+new = "Bark tee — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularBarkTeeWide.DarkOak.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkTeeWide.IvoryTimber.1.Name"]
+new = "Bark tee — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkTeeWide.IvoryTimber.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkTeeWide.SageTimber.1.Name"]
+new = "Bark tee — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkTeeWide.SageTimber.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkTeeWide.IndustrialMetal.1.Name"]
+new = "Bark tee — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkTeeWide.IndustrialMetal.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkTeeWide.BrushedMetal.1.Name"]
+new = "Bark tee — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkTeeWide.BrushedMetal.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCrossWide.Boardwalk.1.Name"]
+new = "Bark cross — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularBarkCrossWide.Boardwalk.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCrossWide.Cedar.1.Name"]
+new = "Bark cross — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularBarkCrossWide.Cedar.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCrossWide.DarkOak.1.Name"]
+new = "Bark cross — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularBarkCrossWide.DarkOak.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCrossWide.IvoryTimber.1.Name"]
+new = "Bark cross — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkCrossWide.IvoryTimber.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCrossWide.SageTimber.1.Name"]
+new = "Bark cross — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularBarkCrossWide.SageTimber.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCrossWide.IndustrialMetal.1.Name"]
+new = "Bark cross — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkCrossWide.IndustrialMetal.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularBarkCrossWide.BrushedMetal.1.Name"]
+new = "Bark cross — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularBarkCrossWide.BrushedMetal.1.Description"]
+new = "Modular bark roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchEnd.Boardwalk.1.Name"]
+new = "Thatch end — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularThatchEnd.Boardwalk.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchEnd.Cedar.1.Name"]
+new = "Thatch end — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularThatchEnd.Cedar.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchEnd.DarkOak.1.Name"]
+new = "Thatch end — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularThatchEnd.DarkOak.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchEnd.IvoryTimber.1.Name"]
+new = "Thatch end — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchEnd.IvoryTimber.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchEnd.SageTimber.1.Name"]
+new = "Thatch end — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchEnd.SageTimber.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchEnd.IndustrialMetal.1.Name"]
+new = "Thatch end — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchEnd.IndustrialMetal.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchEnd.BrushedMetal.1.Name"]
+new = "Thatch end — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchEnd.BrushedMetal.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchMiddle.Boardwalk.1.Name"]
+new = "Thatch middle — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularThatchMiddle.Boardwalk.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchMiddle.Cedar.1.Name"]
+new = "Thatch middle — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularThatchMiddle.Cedar.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchMiddle.DarkOak.1.Name"]
+new = "Thatch middle — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularThatchMiddle.DarkOak.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchMiddle.IvoryTimber.1.Name"]
+new = "Thatch middle — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchMiddle.IvoryTimber.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchMiddle.SageTimber.1.Name"]
+new = "Thatch middle — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchMiddle.SageTimber.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchMiddle.IndustrialMetal.1.Name"]
+new = "Thatch middle — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchMiddle.IndustrialMetal.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchMiddle.BrushedMetal.1.Name"]
+new = "Thatch middle — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchMiddle.BrushedMetal.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCorner.Boardwalk.1.Name"]
+new = "Thatch corner — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularThatchCorner.Boardwalk.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCorner.Cedar.1.Name"]
+new = "Thatch corner — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularThatchCorner.Cedar.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCorner.DarkOak.1.Name"]
+new = "Thatch corner — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularThatchCorner.DarkOak.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCorner.IvoryTimber.1.Name"]
+new = "Thatch corner — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchCorner.IvoryTimber.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCorner.SageTimber.1.Name"]
+new = "Thatch corner — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchCorner.SageTimber.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCorner.IndustrialMetal.1.Name"]
+new = "Thatch corner — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchCorner.IndustrialMetal.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCorner.BrushedMetal.1.Name"]
+new = "Thatch corner — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchCorner.BrushedMetal.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchTee.Boardwalk.1.Name"]
+new = "Thatch tee — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularThatchTee.Boardwalk.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchTee.Cedar.1.Name"]
+new = "Thatch tee — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularThatchTee.Cedar.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchTee.DarkOak.1.Name"]
+new = "Thatch tee — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularThatchTee.DarkOak.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchTee.IvoryTimber.1.Name"]
+new = "Thatch tee — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchTee.IvoryTimber.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchTee.SageTimber.1.Name"]
+new = "Thatch tee — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchTee.SageTimber.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchTee.IndustrialMetal.1.Name"]
+new = "Thatch tee — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchTee.IndustrialMetal.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchTee.BrushedMetal.1.Name"]
+new = "Thatch tee — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchTee.BrushedMetal.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCross.Boardwalk.1.Name"]
+new = "Thatch cross — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularThatchCross.Boardwalk.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCross.Cedar.1.Name"]
+new = "Thatch cross — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularThatchCross.Cedar.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCross.DarkOak.1.Name"]
+new = "Thatch cross — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularThatchCross.DarkOak.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCross.IvoryTimber.1.Name"]
+new = "Thatch cross — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchCross.IvoryTimber.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCross.SageTimber.1.Name"]
+new = "Thatch cross — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchCross.SageTimber.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCross.IndustrialMetal.1.Name"]
+new = "Thatch cross — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchCross.IndustrialMetal.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCross.BrushedMetal.1.Name"]
+new = "Thatch cross — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchCross.BrushedMetal.1.Description"]
+new = "Modular thatch roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchEndWide.Boardwalk.1.Name"]
+new = "Thatch end — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularThatchEndWide.Boardwalk.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchEndWide.Cedar.1.Name"]
+new = "Thatch end — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularThatchEndWide.Cedar.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchEndWide.DarkOak.1.Name"]
+new = "Thatch end — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularThatchEndWide.DarkOak.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchEndWide.IvoryTimber.1.Name"]
+new = "Thatch end — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchEndWide.IvoryTimber.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchEndWide.SageTimber.1.Name"]
+new = "Thatch end — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchEndWide.SageTimber.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchEndWide.IndustrialMetal.1.Name"]
+new = "Thatch end — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchEndWide.IndustrialMetal.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchEndWide.BrushedMetal.1.Name"]
+new = "Thatch end — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchEndWide.BrushedMetal.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchMiddleWide.Boardwalk.1.Name"]
+new = "Thatch middle — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularThatchMiddleWide.Boardwalk.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchMiddleWide.Cedar.1.Name"]
+new = "Thatch middle — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularThatchMiddleWide.Cedar.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchMiddleWide.DarkOak.1.Name"]
+new = "Thatch middle — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularThatchMiddleWide.DarkOak.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchMiddleWide.IvoryTimber.1.Name"]
+new = "Thatch middle — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchMiddleWide.IvoryTimber.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchMiddleWide.SageTimber.1.Name"]
+new = "Thatch middle — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchMiddleWide.SageTimber.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchMiddleWide.IndustrialMetal.1.Name"]
+new = "Thatch middle — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchMiddleWide.IndustrialMetal.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchMiddleWide.BrushedMetal.1.Name"]
+new = "Thatch middle — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchMiddleWide.BrushedMetal.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCornerWide.Boardwalk.1.Name"]
+new = "Thatch corner — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularThatchCornerWide.Boardwalk.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCornerWide.Cedar.1.Name"]
+new = "Thatch corner — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularThatchCornerWide.Cedar.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCornerWide.DarkOak.1.Name"]
+new = "Thatch corner — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularThatchCornerWide.DarkOak.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCornerWide.IvoryTimber.1.Name"]
+new = "Thatch corner — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchCornerWide.IvoryTimber.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCornerWide.SageTimber.1.Name"]
+new = "Thatch corner — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchCornerWide.SageTimber.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCornerWide.IndustrialMetal.1.Name"]
+new = "Thatch corner — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchCornerWide.IndustrialMetal.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCornerWide.BrushedMetal.1.Name"]
+new = "Thatch corner — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchCornerWide.BrushedMetal.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchTeeWide.Boardwalk.1.Name"]
+new = "Thatch tee — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularThatchTeeWide.Boardwalk.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchTeeWide.Cedar.1.Name"]
+new = "Thatch tee — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularThatchTeeWide.Cedar.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchTeeWide.DarkOak.1.Name"]
+new = "Thatch tee — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularThatchTeeWide.DarkOak.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchTeeWide.IvoryTimber.1.Name"]
+new = "Thatch tee — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchTeeWide.IvoryTimber.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchTeeWide.SageTimber.1.Name"]
+new = "Thatch tee — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchTeeWide.SageTimber.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchTeeWide.IndustrialMetal.1.Name"]
+new = "Thatch tee — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchTeeWide.IndustrialMetal.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchTeeWide.BrushedMetal.1.Name"]
+new = "Thatch tee — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchTeeWide.BrushedMetal.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCrossWide.Boardwalk.1.Name"]
+new = "Thatch cross — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularThatchCrossWide.Boardwalk.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCrossWide.Cedar.1.Name"]
+new = "Thatch cross — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularThatchCrossWide.Cedar.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCrossWide.DarkOak.1.Name"]
+new = "Thatch cross — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularThatchCrossWide.DarkOak.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCrossWide.IvoryTimber.1.Name"]
+new = "Thatch cross — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchCrossWide.IvoryTimber.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCrossWide.SageTimber.1.Name"]
+new = "Thatch cross — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularThatchCrossWide.SageTimber.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCrossWide.IndustrialMetal.1.Name"]
+new = "Thatch cross — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchCrossWide.IndustrialMetal.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularThatchCrossWide.BrushedMetal.1.Name"]
+new = "Thatch cross — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularThatchCrossWide.BrushedMetal.1.Description"]
+new = "Modular thatch roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalEnd.Boardwalk.1.Name"]
+new = "Metal end — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularMetalEnd.Boardwalk.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalEnd.Cedar.1.Name"]
+new = "Metal end — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularMetalEnd.Cedar.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalEnd.DarkOak.1.Name"]
+new = "Metal end — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularMetalEnd.DarkOak.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalEnd.IvoryTimber.1.Name"]
+new = "Metal end — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalEnd.IvoryTimber.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalEnd.SageTimber.1.Name"]
+new = "Metal end — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalEnd.SageTimber.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalEnd.IndustrialMetal.1.Name"]
+new = "Metal end — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalEnd.IndustrialMetal.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalEnd.BrushedMetal.1.Name"]
+new = "Metal end — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalEnd.BrushedMetal.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalMiddle.Boardwalk.1.Name"]
+new = "Metal middle — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularMetalMiddle.Boardwalk.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalMiddle.Cedar.1.Name"]
+new = "Metal middle — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularMetalMiddle.Cedar.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalMiddle.DarkOak.1.Name"]
+new = "Metal middle — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularMetalMiddle.DarkOak.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalMiddle.IvoryTimber.1.Name"]
+new = "Metal middle — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalMiddle.IvoryTimber.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalMiddle.SageTimber.1.Name"]
+new = "Metal middle — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalMiddle.SageTimber.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalMiddle.IndustrialMetal.1.Name"]
+new = "Metal middle — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalMiddle.IndustrialMetal.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalMiddle.BrushedMetal.1.Name"]
+new = "Metal middle — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalMiddle.BrushedMetal.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCorner.Boardwalk.1.Name"]
+new = "Metal corner — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularMetalCorner.Boardwalk.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCorner.Cedar.1.Name"]
+new = "Metal corner — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularMetalCorner.Cedar.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCorner.DarkOak.1.Name"]
+new = "Metal corner — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularMetalCorner.DarkOak.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCorner.IvoryTimber.1.Name"]
+new = "Metal corner — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalCorner.IvoryTimber.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCorner.SageTimber.1.Name"]
+new = "Metal corner — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalCorner.SageTimber.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCorner.IndustrialMetal.1.Name"]
+new = "Metal corner — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalCorner.IndustrialMetal.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCorner.BrushedMetal.1.Name"]
+new = "Metal corner — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalCorner.BrushedMetal.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalTee.Boardwalk.1.Name"]
+new = "Metal tee — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularMetalTee.Boardwalk.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalTee.Cedar.1.Name"]
+new = "Metal tee — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularMetalTee.Cedar.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalTee.DarkOak.1.Name"]
+new = "Metal tee — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularMetalTee.DarkOak.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalTee.IvoryTimber.1.Name"]
+new = "Metal tee — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalTee.IvoryTimber.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalTee.SageTimber.1.Name"]
+new = "Metal tee — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalTee.SageTimber.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalTee.IndustrialMetal.1.Name"]
+new = "Metal tee — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalTee.IndustrialMetal.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalTee.BrushedMetal.1.Name"]
+new = "Metal tee — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalTee.BrushedMetal.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCross.Boardwalk.1.Name"]
+new = "Metal cross — 1x1 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularMetalCross.Boardwalk.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCross.Cedar.1.Name"]
+new = "Metal cross — 1x1 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularMetalCross.Cedar.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCross.DarkOak.1.Name"]
+new = "Metal cross — 1x1 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularMetalCross.DarkOak.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCross.IvoryTimber.1.Name"]
+new = "Metal cross — 1x1 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalCross.IvoryTimber.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCross.SageTimber.1.Name"]
+new = "Metal cross — 1x1 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalCross.SageTimber.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCross.IndustrialMetal.1.Name"]
+new = "Metal cross — 1x1 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalCross.IndustrialMetal.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCross.BrushedMetal.1.Name"]
+new = "Metal cross — 1x1 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalCross.BrushedMetal.1.Description"]
+new = "Modular metal roof, 1x1. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalEndWide.Boardwalk.1.Name"]
+new = "Metal end — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularMetalEndWide.Boardwalk.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalEndWide.Cedar.1.Name"]
+new = "Metal end — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularMetalEndWide.Cedar.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalEndWide.DarkOak.1.Name"]
+new = "Metal end — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularMetalEndWide.DarkOak.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalEndWide.IvoryTimber.1.Name"]
+new = "Metal end — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalEndWide.IvoryTimber.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalEndWide.SageTimber.1.Name"]
+new = "Metal end — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalEndWide.SageTimber.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalEndWide.IndustrialMetal.1.Name"]
+new = "Metal end — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalEndWide.IndustrialMetal.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalEndWide.BrushedMetal.1.Name"]
+new = "Metal end — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalEndWide.BrushedMetal.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalMiddleWide.Boardwalk.1.Name"]
+new = "Metal middle — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularMetalMiddleWide.Boardwalk.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalMiddleWide.Cedar.1.Name"]
+new = "Metal middle — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularMetalMiddleWide.Cedar.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalMiddleWide.DarkOak.1.Name"]
+new = "Metal middle — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularMetalMiddleWide.DarkOak.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalMiddleWide.IvoryTimber.1.Name"]
+new = "Metal middle — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalMiddleWide.IvoryTimber.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalMiddleWide.SageTimber.1.Name"]
+new = "Metal middle — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalMiddleWide.SageTimber.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalMiddleWide.IndustrialMetal.1.Name"]
+new = "Metal middle — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalMiddleWide.IndustrialMetal.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalMiddleWide.BrushedMetal.1.Name"]
+new = "Metal middle — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalMiddleWide.BrushedMetal.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCornerWide.Boardwalk.1.Name"]
+new = "Metal corner — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularMetalCornerWide.Boardwalk.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCornerWide.Cedar.1.Name"]
+new = "Metal corner — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularMetalCornerWide.Cedar.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCornerWide.DarkOak.1.Name"]
+new = "Metal corner — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularMetalCornerWide.DarkOak.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCornerWide.IvoryTimber.1.Name"]
+new = "Metal corner — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalCornerWide.IvoryTimber.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCornerWide.SageTimber.1.Name"]
+new = "Metal corner — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalCornerWide.SageTimber.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCornerWide.IndustrialMetal.1.Name"]
+new = "Metal corner — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalCornerWide.IndustrialMetal.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCornerWide.BrushedMetal.1.Name"]
+new = "Metal corner — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalCornerWide.BrushedMetal.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalTeeWide.Boardwalk.1.Name"]
+new = "Metal tee — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularMetalTeeWide.Boardwalk.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalTeeWide.Cedar.1.Name"]
+new = "Metal tee — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularMetalTeeWide.Cedar.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalTeeWide.DarkOak.1.Name"]
+new = "Metal tee — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularMetalTeeWide.DarkOak.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalTeeWide.IvoryTimber.1.Name"]
+new = "Metal tee — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalTeeWide.IvoryTimber.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalTeeWide.SageTimber.1.Name"]
+new = "Metal tee — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalTeeWide.SageTimber.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalTeeWide.IndustrialMetal.1.Name"]
+new = "Metal tee — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalTeeWide.IndustrialMetal.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalTeeWide.BrushedMetal.1.Name"]
+new = "Metal tee — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalTeeWide.BrushedMetal.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCrossWide.Boardwalk.1.Name"]
+new = "Metal cross — 2x2 — Boardwalk"
+status = "normal"
+
+["RoofWorks.ModularMetalCrossWide.Boardwalk.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCrossWide.Cedar.1.Name"]
+new = "Metal cross — 2x2 — Cedar"
+status = "normal"
+
+["RoofWorks.ModularMetalCrossWide.Cedar.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCrossWide.DarkOak.1.Name"]
+new = "Metal cross — 2x2 — DarkOak"
+status = "normal"
+
+["RoofWorks.ModularMetalCrossWide.DarkOak.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCrossWide.IvoryTimber.1.Name"]
+new = "Metal cross — 2x2 — IvoryTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalCrossWide.IvoryTimber.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCrossWide.SageTimber.1.Name"]
+new = "Metal cross — 2x2 — SageTimber"
+status = "normal"
+
+["RoofWorks.ModularMetalCrossWide.SageTimber.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCrossWide.IndustrialMetal.1.Name"]
+new = "Metal cross — 2x2 — IndustrialMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalCrossWide.IndustrialMetal.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"
+
+["RoofWorks.ModularMetalCrossWide.BrushedMetal.1.Name"]
+new = "Metal cross — 2x2 — BrushedMetal"
+status = "normal"
+
+["RoofWorks.ModularMetalCrossWide.BrushedMetal.1.Description"]
+new = "Modular metal roof, 2x2. Rotate to align the ridge with adjoining sections of the same size and material. Select ends, middles, corners or junctions manually. Requires support beneath every tile."
+status = "normal"

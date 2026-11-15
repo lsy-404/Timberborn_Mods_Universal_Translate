@@ -1,0 +1,254 @@
+[_meta]
+name = "Survival Brief"
+
+["Jove.SurvivalBrief.Duration.Days"]
+new = "{0}d"
+status = "normal"
+
+["Jove.SurvivalBrief.Duration.Hours"]
+new = "{0}h"
+status = "normal"
+
+["Jove.SurvivalBrief.Duration.Minutes"]
+new = "{0}m"
+status = "normal"
+
+["Jove.SurvivalBrief.Duration.DaysHours"]
+new = "{0}d {1}h"
+status = "normal"
+
+["Jove.SurvivalBrief.DroughtIn"]
+new = "Drought in {0}"
+status = "normal"
+
+["Jove.SurvivalBrief.BadtideIn"]
+new = "Badtide in {0}"
+status = "normal"
+
+["Jove.SurvivalBrief.DroughtLeft"]
+new = "Drought left {0}"
+status = "normal"
+
+["Jove.SurvivalBrief.BadtideLeft"]
+new = "Badtide left {0}"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.Header"]
+new = "Consumption"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.NoBeavers"]
+new = "No beavers yet"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.Pop"]
+new = "{0} beavers ({1} adults / {2} children)"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.Needs"]
+new = "Per beaver per day: food {0} pts · water {1} pts"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.Food"]
+new = "Food"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.Water"]
+new = "Water"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.Buildings"]
+new = "Building use"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.None"]
+new = "none"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.Row"]
+new = "{0}/beaver/day · {1}/day · {2} days left"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.RowBuilding"]
+new = "{0} x{1} ({2} working)"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.RowBuildingAmount"]
+new = "{0} {1}/day"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.TooltipSupplyHead"]
+new = "{0}"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.TooltipSupplyBody"]
+new = "{0} buildings · {1}/day · stock {2}"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.TooltipBuilding"]
+new = "{0}"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.TooltipBuildingBody"]
+new = "{0} buildings · {1} working"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.TooltipBuildingOutput"]
+new = "{0}/day · stock {1}"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.Construction"]
+new = "Construction"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.RowConstruction"]
+new = "{0} {1} · {2} sites"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.TooltipConstruction"]
+new = "{0}: {1} still needed across {2} sites"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.FoodSummary"]
+new = "{0}/day total · all stock lasts {1} days"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.RowStock"]
+new = "{0} · alone lasts {1} days"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.TooltipFoodOnly"]
+new = "lasts {0} days"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.CompactEmpty"]
+new = "no beavers"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.Hint"]
+new = "Click for details"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.Close"]
+new = "close"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.DetailTitle"]
+new = "Consumption details"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.Compact"]
+new = "food {0}d · water {1}d"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.PopShort"]
+new = "beavers ({0} adults · {1} children)"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.ColName"]
+new = "Name"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.ColStock"]
+new = "Stock"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.ColPerDay"]
+new = "Per day"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.ColDays"]
+new = "Lasts"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.Sites"]
+new = "{0} sites"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.Missing"]
+new = "{0} missing"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.BuildingCount"]
+new = "x{0} ({1} working)"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.BarText"]
+new = "{0} buildings · {1}/day · stock {2}"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.DaysChip"]
+new = "{0} d"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.PerDayChip"]
+new = "{0}/day"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.BuildingSection"]
+new = "Buildings"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.BuildingSummary"]
+new = "{0} under construction · {1} producing"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.Brief"]
+new = "Overview"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.HazardDrought"]
+new = "Drought in"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.HazardBadtide"]
+new = "Badtide in"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.HazardDroughtNow"]
+new = "Drought"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.HazardBadtideNow"]
+new = "Badtide"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.HazardBar"]
+new = "{0} days left"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.HazardRemain"]
+new = "{0} left"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.TooltipBriefSupply"]
+new = "{0} buildings · {1}/day · stock {2}"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.TooltipBriefSupplyDays"]
+new = "use {0}/day · lasts {1} days"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.TooltipBriefBuildings"]
+new = "{0} buildings · {1} working"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.TooltipBriefSites"]
+new = "{0} under construction · {1} kinds"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.StockBar"]
+new = "{0} in stock · {1} / day"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.SupplyBar"]
+new = "{0} sites · {1} in stock · {2} / day"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.BuildingBar"]
+new = "{0} producing · {1} sites"
+status = "normal"
+
+["Jove.SurvivalBrief.Con.BuildingDetailBar"]
+new = "{0} built · {1} working · stock {2}"
+status = "normal"

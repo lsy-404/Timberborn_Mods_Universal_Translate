@@ -1,0 +1,50 @@
+[_meta]
+name = "Japanese Waterworks"
+
+["Building.JapaneseDeepWaterPump.DisplayName"]
+new = "Japanese Deep Water Pump"
+status = "normal"
+
+["Building.JapaneseDeepWaterPump.Description"]
+new = "Pumps and filters water for beavers to drink. Badwater contamination slows down its pumping speed. Pumps as fast as a Deep Water Pump."
+status = "normal"
+
+["Building.JapaneseDeepWaterPump.FlavorDescription"]
+new = "A plaster pump house, a jetty, and a flywheel that never quite stops dripping."
+status = "normal"
+
+["Building.JapaneseEfficientDeepWaterPump.DisplayName"]
+new = "Japanese Efficient Deep Water Pump"
+status = "normal"
+
+["Building.JapaneseEfficientDeepWaterPump.Description"]
+new = "Pumps and filters water for beavers to drink. Badwater contamination slows down its pumping speed. Twin cylinders pump 5 water every 0.33 hours, or 10 while shafts on its sides or underneath deliver 100 hp of power. Power is optional."
+status = "normal"
+
+["Building.JapaneseEfficientDeepWaterPump.FlavorDescription"]
+new = "Two cylinders, one air vessel, and a roof vent for when the engineers argue."
+status = "normal"
+
+["Building.JapaneseWaterPump.DisplayName"]
+new = "Japanese Water Pump"
+status = "normal"
+
+["Building.JapaneseWaterPump.Description"]
+new = "Pumps and filters water for beavers to drink. Badwater contamination slows down its pumping speed. Pumps as fast as a Water Pump."
+status = "normal"
+
+["Building.JapaneseWaterPump.FlavorDescription"]
+new = "A plaster pump house, a jetty, and a flywheel that never quite stops dripping."
+status = "normal"
+
+["Building.JapaneseEfficientWaterPump.DisplayName"]
+new = "Japanese Efficient Water Pump"
+status = "normal"
+
+["Building.JapaneseEfficientWaterPump.Description"]
+new = "Pumps and filters water for beavers to drink. Badwater contamination slows down its pumping speed. Twin cylinders pump 5 water every 0.33 hours, or 10 while shafts on its sides or underneath deliver 100 hp of power. Power is optional."
+status = "normal"
+
+["Building.JapaneseEfficientWaterPump.FlavorDescription"]
+new = "Two cylinders, one air vessel, and a roof vent for when the engineers argue."
+status = "normal"

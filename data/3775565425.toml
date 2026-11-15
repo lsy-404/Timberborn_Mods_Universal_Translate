@@ -190,6 +190,7 @@ trTR = "Ormancı ekim grubuna eklenen her şeyi yakalar"
 
 ["MoleCadre.AquaFarmer.Folktails.Name"]
 raw = "Aquatic Farmer- Folktails"
+new = "Aquatic Farmer - Folktails"
 status = "normal"
 enUS = "Aquatic Farmer - Folktails"
 zhCN = "水生农夫 - 民间故事"
@@ -292,6 +293,7 @@ trTR = "Aquatik Çiftçi - Donlu Bıyıklar"
 
 ["MoleCadre.Farmer.Folktails.Name"]
 raw = "Farmer- Folktails"
+new = "Farmer - Folktails"
 status = "normal"
 enUS = "Farmer - Folktails"
 zhCN = "农民 - 民间故事"
@@ -392,8 +394,37 @@ csCZ = "Farmář - Mrazivé vousy"
 viVN = "Nông dân - Râu Băng"
 trTR = "Çiftçi - Buzlu Bıyıklar"
 
+["MoleCadre.FarmerAid.Name"]
+new = "Farmer Aid"
+status = "normal"
+
+["MoleCadre.FarmerAid.Folktails.Name"]
+new = "Farmer Aid - Folktails"
+status = "normal"
+
+["MoleCadre.FarmerAid.IronTeeth.Name"]
+new = "Farmer Aid - IronTeeth"
+status = "normal"
+
+["MoleCadre.FarmerAid.Whitepaws.Name"]
+new = "Farmer Aid - Whitepaws"
+status = "normal"
+
+["MoleCadre.FarmerAid.LeafCoats.Name"]
+new = "Farmer Aid - LeafCoats"
+status = "normal"
+
+["MoleCadre.FarmerAid.Emberpelts.Name"]
+new = "Farmer Aid - Emberpelts"
+status = "normal"
+
+["MoleCadre.FarmerAid.FrostyWhiskers.Name"]
+new = "Farmer Aid - Frosty Whiskers"
+status = "normal"
+
 ["MoleCadre.Forester.Folktails.Name"]
 raw = "Forester- Folktails"
+new = "Forester - Folktails"
 status = "normal"
 enUS = "Forester - Folktails"
 zhCN = "林务员 - 民间传说"
@@ -496,6 +527,7 @@ trTR = "Ormancı - Buzlu Bıyıklar"
 
 ["MoleCadre.Builder.AquaFarmer.Folktails.Name"]
 raw = "Builder Aquatic Farmer- Folktails"
+new = "Builder Aquatic Farmer - Folktails"
 status = "normal"
 enUS = "Builder Aquatic Farmer - Folktails"
 zhCN = "“建筑者水产农场-民间传说”"
@@ -598,6 +630,7 @@ trTR = "Yapıcı Su Çiftçisi - Buz Soğuk Bıyıklar"
 
 ["MoleCadre.Builder.Farmer.Folktails.Name"]
 raw = "Builder Farmer- Folktails"
+new = "Builder Farmer - Folktails"
 status = "normal"
 enUS = "Builder Farmer - Folktails"
 zhCN = "建筑者农民-民俗故事"
@@ -700,6 +733,7 @@ trTR = "Yapıcı Çiftçi - Buzlu Bıyıklar"
 
 ["MoleCadre.Builder.Forester.Folktails.Name"]
 raw = "Builder Forester- Folktails"
+new = "Builder Forester - Folktails"
 status = "normal"
 enUS = "Builder Forester - Folktails"
 zhCN = "建造者林务员 - 民间故事"
@@ -802,6 +836,7 @@ trTR = "İnşaatçı Ormancı - Donmuş Bıyıklar"
 
 ["MoleCadre.Bulk.AquaFarmer.Folktails.Name"]
 raw = "Bulk Aquatic Farmer- Folktails"
+new = "Bulk Aquatic Farmer - Folktails"
 status = "normal"
 enUS = "Bulk Aquatic Farmer - Folktails"
 zhCN = "批量水生农民 - 民俗"
@@ -904,6 +939,7 @@ trTR = "Toplu Su Ürünleri Çiftçisi - Buzlu Bıyıklar"
 
 ["MoleCadre.Bulk.Farmer.Folktails.Name"]
 raw = "Bulk Farmer- Folktails"
+new = "Bulk Farmer - Folktails"
 status = "normal"
 enUS = "Bulk Farmer - Folktails"
 zhCN = "大宗农民-民间故事"
@@ -1006,6 +1042,7 @@ trTR = "Toplu Çiftçi - Donmuş Bıyıklar"
 
 ["MoleCadre.Bulk.Forester.Folktails.Name"]
 raw = "Bulk Forester- Folktails"
+new = "Bulk Forester - Folktails"
 status = "normal"
 enUS = "Bulk Forester - Folktails"
 zhCN = "大规模森林工作者 - 民间故事"
@@ -1108,6 +1145,7 @@ trTR = "Toplu Orman Yetiştiricisi - Buzul Bıyıklar"
 
 ["MoleCadre.Careful.AquaFarmer.Folktails.Name"]
 raw = "Careful Aquatic Farmer- Folktails"
+new = "Careful Aquatic Farmer - Folktails"
 status = "normal"
 enUS = "Careful Aquatic Farmer - Folktails"
 zhCN = "细心的水产农民 - 民间故事"
@@ -1210,6 +1248,7 @@ trTR = "Dikkatli Su Çiftçisi - Buzlu Bıyıklar"
 
 ["MoleCadre.Careful.Farmer.Folktails.Name"]
 raw = "Careful Farmer- Folktails"
+new = "Careful Farmer - Folktails"
 status = "normal"
 enUS = "Careful Farmer - Folktails"
 zhCN = "谨慎农民 - 民间故事"
@@ -1312,6 +1351,7 @@ trTR = "Dikkatli Çiftçi - Buzlu Bıyıklar"
 
 ["MoleCadre.Careful.Forester.Folktails.Name"]
 raw = "Careful Forester- Folktails"
+new = "Careful Forester - Folktails"
 status = "normal"
 enUS = "Careful Forester - Folktails"
 zhCN = "细心的伐木工 - 民间故事"
@@ -1414,6 +1454,7 @@ trTR = "Dikkatli Ormancı - Buzul Bıyıklar"
 
 ["MoleCadre.Snow.AquaFarmer.Folktails.Name"]
 raw = "Snow Aquatic Farmer- Folktails"
+new = "Snow Aquatic Farmer - Folktails"
 status = "normal"
 enUS = "Snow Aquatic Farmer - Folktails"
 zhCN = "雪水农夫- 民间传说"
@@ -1550,6 +1591,7 @@ trTR = "Kar yağıyor! O kürekleri hemen kap!"
 
 ["MoleCadre.Snow.Farmer.Folktails.Name"]
 raw = "Snow Farmer- Folktails"
+new = "Snow Farmer - Folktails"
 status = "normal"
 enUS = "Snow Farmer - Folktails"
 zhCN = "雪农 - 民间传说"
@@ -1652,6 +1694,7 @@ trTR = "Karla Çalışan - Buzlu Bıyıklar"
 
 ["MoleCadre.Snow.Forester.Folktails.Name"]
 raw = "Snow Forester- Folktails"
+new = "Snow Forester - Folktails"
 status = "normal"
 enUS = "Snow Forester - Folktails"
 zhCN = "雪林伐木工 - 民间传说"
@@ -1754,6 +1797,7 @@ trTR = "Karla Orman İşçisi - Buzlu Bıyıklar"
 
 ["MoleCadre.Hauler.AquaFarmer.Folktails.Name"]
 raw = "Hauler Aquatic Farmer- Folktails"
+new = "Hauler Aquatic Farmer - Folktails"
 status = "normal"
 enUS = "Hauler Aquatic Farmer - Folktails"
 zhCN = "水上农夫 - 民间传说"
@@ -1856,6 +1900,7 @@ trTR = "Su Taşıyıcı Çiftçi - Buzlu Sigaralar"
 
 ["MoleCadre.Hauler.Farmer.Folktails.Name"]
 raw = "Hauler Farmer- Folktails"
+new = "Hauler Farmer - Folktails"
 status = "normal"
 enUS = "Hauler Farmer - Folktails"
 zhCN = "运输者农夫 - 民间故事"
@@ -1958,6 +2003,7 @@ trTR = "Yükleyici Çiftçi - Buzlu Bıyıklar"
 
 ["MoleCadre.Hauler.Forester.Folktails.Name"]
 raw = "Hauler Forester- Folktails"
+new = "Hauler Forester - Folktails"
 status = "normal"
 enUS = "Hauler Forester - Folktails"
 zhCN = "搬运工伐木工 - 民间故事"
@@ -2060,6 +2106,7 @@ trTR = "Taşıyıcı Ormancı - Donmuş Bıyıklar"
 
 ["MoleCadre.Hidden.AquaFarmer.Folktails.Name"]
 raw = "No Aquatic Farmer- Folktails"
+new = "No Aquatic Farmer - Folktails"
 status = "normal"
 enUS = "No Aquatic Farmer - Folktails"
 zhCN = "无水域农民-民间故事"
@@ -2162,6 +2209,7 @@ trTR = "Su Tarımcısı Yok - Buzlu Bıyıklar"
 
 ["MoleCadre.Hidden.Farmer.Folktails.Name"]
 raw = "No Farmer- Folktails"
+new = "No Farmer - Folktails"
 status = "normal"
 enUS = "No Farmer- Folktails"
 zhCN = "无农夫 - 民间故事"
@@ -2264,6 +2312,7 @@ trTR = "Çiftçi Yok - Buzlu Bıyıklar"
 
 ["MoleCadre.Hidden.Forester.Folktails.Name"]
 raw = "No Forester- Folktails"
+new = "No Forester - Folktails"
 status = "normal"
 enUS = "No Forester - Folktails"
 zhCN = "没有树木砍伐者-民间故事"

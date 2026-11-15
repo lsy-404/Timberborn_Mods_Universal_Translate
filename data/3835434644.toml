@@ -1,0 +1,170 @@
+[_meta]
+name = "Mechanical Water Pump"
+
+["Building.MWP.Pump.Basic.DisplayName"]
+new = "Mechanical Drinking Water Pump Mk I"
+status = "normal"
+
+["Building.MWP.Pump.Intermediate.DisplayName"]
+new = "Mechanical Drinking Water Pump Mk II"
+status = "normal"
+
+["Building.MWP.Pump.Advanced.DisplayName"]
+new = "Mechanical Drinking Water Pump Mk III"
+status = "normal"
+
+["Building.MWP.Pump.Top.DisplayName"]
+new = "Mechanical Drinking Water Pump Mk IV"
+status = "normal"
+
+["Building.MWP.Pump.Basic.Description"]
+new = "Draws and filters drinking water using mechanical power. No workers needed."
+status = "normal"
+
+["Building.MWP.Pump.Intermediate.Description"]
+new = "Twin-cylinder mechanical drinking water pump with a larger tank and deeper intake."
+status = "normal"
+
+["Building.MWP.Pump.Advanced.Description"]
+new = "An advanced mechanical drinking water pump with deeper intake and higher output."
+status = "normal"
+
+["Building.MWP.Pump.Top.Description"]
+new = "The top-tier mechanical drinking water pump for large colonies."
+status = "normal"
+
+["Building.MWP.Pump.Flavor"]
+new = "\"Finally - no beaver has to crank the pump anymore.\""
+status = "normal"
+
+["Status.MWP.NoPower"]
+new = "No power - connect a windmill or water wheel"
+status = "normal"
+
+["Status.MWP.LowPower"]
+new = "Low power: {0}%"
+status = "normal"
+
+["Status.MWP.NoWater"]
+new = "No water to pump"
+status = "normal"
+
+["UI.MWP.HintNoWater"]
+new = "No water is reaching the intake - make sure the intake pipe is submerged."
+status = "normal"
+
+["Status.MWP.StorageFull"]
+new = "Internal tank full"
+status = "normal"
+
+["Status.MWP.NoAccess"]
+new = "No path for haulers"
+status = "normal"
+
+["Status.MWP.Producing"]
+new = "Producing: {0} water/hour"
+status = "normal"
+
+["Status.MWP.Paused"]
+new = "Paused"
+status = "normal"
+
+["Status.MWP.PipeDirect"]
+new = "Direct pipe connection available"
+status = "normal"
+
+["Status.MWP.PipeValve"]
+new = "Pipes: extract with a valve"
+status = "normal"
+
+["Status.MWP.PipeUnavailable"]
+new = "Direct pipe unavailable - using basic mode"
+status = "normal"
+
+["Status.MWP.PowerDemand"]
+new = "Power demand: {0} hp"
+status = "normal"
+
+["Status.MWP.PowerSupply"]
+new = "Current power: {0}%"
+status = "normal"
+
+["Status.MWP.WaterQuality"]
+new = "Water quality: {0}%"
+status = "normal"
+
+["Status.MWP.MaintenanceDue"]
+new = "Maintenance due: {0}%"
+status = "normal"
+
+["Status.MWP.Critical"]
+new = "Critical wear: {0}%"
+status = "normal"
+
+["Status.MWP.NeedsMaintenance"]
+new = "Needs maintenance - stopped"
+status = "normal"
+
+["Status.MWP.Maintaining"]
+new = "Maintaining: {0}%"
+status = "normal"
+
+["Status.MWP.MissingMaintenanceMaterials"]
+new = "Missing maintenance materials"
+status = "normal"
+
+["Status.MWP.NoAccessForMaintenance"]
+new = "Maintenance materials cannot be delivered (no path)"
+status = "normal"
+
+["UI.MWP.Condition"]
+new = "Condition: {0}%"
+status = "normal"
+
+["UI.MWP.MaintenanceIn"]
+new = "Next maintenance: {0} days"
+status = "normal"
+
+["UI.MWP.MaintenanceMaterials"]
+new = "Requires: {0}"
+status = "normal"
+
+["UI.MWP.MaintainNow"]
+new = "Maintain now"
+status = "normal"
+
+["UI.MWP.AutoMaintenance"]
+new = "Auto maintenance"
+status = "normal"
+
+["UI.MWP.Inventory"]
+new = "Inventory: {0}/{1}"
+status = "normal"
+
+["UI.MWP.MaxDepth"]
+new = "Intake depth: {0} blocks"
+status = "normal"
+
+["UI.MWP.WaterRate"]
+new = "Output: {0} water/hour"
+status = "normal"
+
+["UI.MWP.Pause"]
+new = "Pause"
+status = "normal"
+
+["UI.MWP.Resume"]
+new = "Resume"
+status = "normal"
+
+["Tooltip.MWP.PipeCompat"]
+new = "Requires Timber Pipes for valve extraction"
+status = "normal"
+
+["Tooltip.MWP.WaterRate"]
+new = "Rated rate; affected by power and water quality"
+status = "normal"
+
+["MWP.Flavor.Citation"]
+new = "\"Water flows downhill - but drinking water must go up.\""
+status = "normal"

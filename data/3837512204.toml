@@ -631,8 +631,8 @@ viVN = "Một phần của bộ sưu tập Công trình Đường đi. Được 
 trTR = "Yol İşleri koleksiyonunun bir parçası. Sabırlı patiler tarafından inşa edildi."
 
 ["Bridgeworks.Suspension.Sandstone.6.Name"]
-status = "normal"
 raw = "Sandstone suspension bridge (6)"
+status = "normal"
 enUS = "Sandstone suspension bridge (6)"
 zhCN = "砂岩悬索桥（6）"
 zhTW = "砂岩吊橋（6）"
@@ -648,8 +648,8 @@ viVN = "Cầu treo bằng sa thạch (6)"
 trTR = "Kumtaşı asma köprü (6)"
 
 ["Bridgeworks.Suspension.Sandstone.6.Flavor"]
-status = "normal"
 raw = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
 enUS = "Part of the Pathworks collection. Built by patient paws."
 zhCN = "道路工程系列的一部分。由耐心的爪子建造而成。"
 zhTW = "Pathworks 系列的一部分。由耐心的爪子建造而成。"
@@ -665,8 +665,8 @@ viVN = "Một phần của bộ sưu tập Công trình Đường đi. Được 
 trTR = "Yol Yapıları koleksiyonunun bir parçası. Sabırlı patiler tarafından inşa edildi."
 
 ["Bridgeworks.Suspension.MossyStone.1.Name"]
-status = "normal"
 raw = "Mossy stone suspension bridge (1)"
+status = "normal"
 enUS = "Mossy stone suspension bridge (1)"
 zhCN = "苔藓石悬索桥（1）"
 zhTW = "苔石懸索橋（1）"
@@ -682,8 +682,8 @@ viVN = "Cầu treo bằng đá phủ rêu (1)"
 trTR = "Yosunlu taş asma köprü (1)"
 
 ["Bridgeworks.Suspension.MossyStone.1.Flavor"]
-status = "normal"
 raw = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
 enUS = "Part of the Pathworks collection. Built by patient paws."
 zhCN = "Pathworks 系列的一部分。由耐心的爪子建造。"
 zhTW = "屬於「路徑工坊」系列。由耐心的爪爪打造而成。"
@@ -699,8 +699,8 @@ viVN = "Một phần của bộ sưu tập Pathworks. Được xây dựng bởi
 trTR = "Yol İşleri koleksiyonunun bir parçası. Sabırlı patiler tarafından inşa edildi."
 
 ["Bridgeworks.Suspension.MossyStone.2.Name"]
-status = "normal"
 raw = "Mossy stone suspension bridge (2)"
+status = "normal"
 enUS = "Mossy stone suspension bridge (2)"
 zhCN = "苔石悬索桥 (2)"
 zhTW = "青苔石懸索橋 (2)"
@@ -716,8 +716,8 @@ viVN = "Cầu treo đá phủ rêu (2)"
 trTR = "Yosunlu taş asma köprü (2)"
 
 ["Bridgeworks.Suspension.MossyStone.2.Flavor"]
-status = "normal"
 raw = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
 enUS = "Part of the Pathworks collection. Built by patient paws."
 zhCN = "路径工坊系列的一部分。由耐心的爪子建成。"
 zhTW = "路徑工坊系列的一部分。由耐心的爪子打造。"
@@ -733,8 +733,8 @@ viVN = "Một phần của bộ sưu tập Pathworks. Được xây nên bởi n
 trTR = "Yol İşleri koleksiyonunun bir parçası. Sabırlı patilerce inşa edildi."
 
 ["Bridgeworks.Suspension.MossyStone.3.Name"]
-status = "normal"
 raw = "Mossy stone suspension bridge (3)"
+status = "normal"
 enUS = "Mossy stone suspension bridge (3)"
 zhCN = "苔石悬索桥（3）"
 zhTW = "青苔石製懸索橋 (3)"
@@ -750,8 +750,8 @@ viVN = "Cầu treo đá phủ rêu (3)"
 trTR = "Yosunlu taş asma köprü (3)"
 
 ["Bridgeworks.Suspension.MossyStone.3.Flavor"]
-status = "normal"
 raw = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
 enUS = "Part of the Pathworks collection. Built by patient paws."
 zhCN = "道路工程系列的一部分。由耐心的爪子建成。"
 zhTW = "路徑工程系列的一部分。由耐心的爪子打造。"
@@ -767,8 +767,8 @@ viVN = "Một phần của bộ sưu tập Pathworks. Được những bàn châ
 trTR = "Yol İşleri koleksiyonunun bir parçası. Sabırlı patiler tarafından inşa edildi."
 
 ["Bridgeworks.Suspension.MossyStone.4.Name"]
-status = "normal"
 raw = "Mossy stone suspension bridge (4)"
+status = "normal"
 enUS = "Mossy stone suspension bridge (4)"
 zhCN = "苔藓石悬索桥（4）"
 zhTW = "覆苔石造吊橋（4）"
@@ -784,8 +784,8 @@ viVN = "Cầu treo đá phủ rêu (4)"
 trTR = "Yosunlu taş asma köprü (4)"
 
 ["Bridgeworks.Suspension.MossyStone.4.Flavor"]
-status = "normal"
 raw = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
 enUS = "Part of the Pathworks collection. Built by patient paws."
 zhCN = "路径工程系列的一部分。由耐心的爪子建造而成。"
 zhTW = "屬於路徑工坊系列。由耐心的爪子建造。"
@@ -801,8 +801,8 @@ viVN = "Một phần của bộ sưu tập Pathworks. Được xây dựng bởi
 trTR = "Yol İşleri koleksiyonunun bir parçası. Sabırlı patiler tarafından inşa edildi."
 
 ["Bridgeworks.Suspension.MossyStone.5.Name"]
-status = "normal"
 raw = "Mossy stone suspension bridge (5)"
+status = "normal"
 enUS = "Mossy stone suspension bridge (5)"
 zhCN = "覆苔石质悬索桥 (5)"
 zhTW = "苔石吊橋（5）"
@@ -818,8 +818,8 @@ viVN = "Cầu treo đá phủ rêu (5)"
 trTR = "Yosunlu taş asma köprü (5)"
 
 ["Bridgeworks.Suspension.MossyStone.5.Flavor"]
-status = "normal"
 raw = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
 enUS = "Part of the Pathworks collection. Built by patient paws."
 zhCN = "路径工程系列的一部分。由耐心的爪子建造。"
 zhTW = "屬於路徑工坊系列。由耐心的爪子打造而成。"
@@ -835,8 +835,8 @@ viVN = "Thuộc bộ sưu tập Pathworks. Được xây dựng bởi những b�
 trTR = "Yol İşleri koleksiyonunun bir parçası. Sabırlı patiler tarafından inşa edildi."
 
 ["Bridgeworks.Suspension.MossyStone.6.Name"]
-status = "normal"
 raw = "Mossy stone suspension bridge (6)"
+status = "normal"
 enUS = "Mossy stone suspension bridge (6)"
 zhCN = "苔藓石悬索桥（6）"
 zhTW = "覆滿青苔的石造吊橋 (6)"
@@ -852,8 +852,8 @@ viVN = "Cầu treo đá phủ rêu (6)"
 trTR = "Yosunlu taş asma köprü (6)"
 
 ["Bridgeworks.Suspension.MossyStone.6.Flavor"]
-status = "normal"
 raw = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
 enUS = "Part of the Pathworks collection. Built by patient paws."
 zhCN = "路径工程系列的一部分。由耐心的爪子建造。"
 zhTW = "Pathworks 系列的一部分。由耐心的爪子打造。"
@@ -869,8 +869,8 @@ viVN = "Một phần của bộ sưu tập Pathworks. Được xây nên bởi n
 trTR = "Yol İşleri koleksiyonunun bir parçası. Sabırlı patiler tarafından inşa edildi."
 
 ["Bridgeworks.Suspension.Flagstone.1.Name"]
-status = "normal"
 raw = "Flagstone suspension bridge (1)"
+status = "normal"
 enUS = "Flagstone Suspension Bridge (1)"
 zhCN = "石板悬索桥（1）"
 zhTW = "石板懸索橋（1）"
@@ -886,8 +886,8 @@ viVN = "Cầu treo lát đá (1)"
 trTR = "Yassı Taş Asma Köprü (1)"
 
 ["Bridgeworks.Suspension.Flagstone.1.Flavor"]
-status = "normal"
 raw = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
 enUS = "Part of the Pathworks collection. Built by patient paws."
 zhCN = "路径工程系列的一部分。由耐心的爪子建成。"
 zhTW = "道路工坊系列的一員。由耐心的爪爪打造。"
@@ -903,8 +903,8 @@ viVN = "Một phần của bộ sưu tập Công trình Đường đi. Được 
 trTR = "Yol İşleri koleksiyonunun bir parçası. Sabırlı patiler tarafından inşa edildi."
 
 ["Bridgeworks.Suspension.Flagstone.2.Name"]
-status = "normal"
 raw = "Flagstone suspension bridge (2)"
+status = "normal"
 enUS = "Flagstone suspension bridge (2)"
 zhCN = "石板悬索桥（2）"
 zhTW = "石板懸索橋 (2)"
@@ -920,8 +920,8 @@ viVN = "Cầu treo lát đá (2)"
 trTR = "Döşeme Taşlı Asma Köprü (2)"
 
 ["Bridgeworks.Suspension.Flagstone.2.Flavor"]
-status = "normal"
 raw = "Part of the Pathworks collection. Built by patient paws."
+status = "normal"
 enUS = "Part of the Pathworks collection. Built by patient paws."
 zhCN = "道路工程系列的一部分。由耐心的爪子建成。"
 zhTW = "路徑工坊系列的一部分。由耐心的爪子打造。"
@@ -937,8 +937,8 @@ viVN = "Một phần của bộ sưu tập Pathworks. Được dựng nên bởi
 trTR = "Yol İşleri koleksiyonunun bir parçası. Sabırlı patiler tarafından inşa edildi."
 
 ["Bridgeworks.Suspension.Flagstone.3.Name"]
-status = "normal"
 raw = "Flagstone suspension bridge (3)"
+status = "normal"
 enUS = "Flagstone suspension bridge (3)"
 zhCN = "石板悬索桥（3）"
 zhTW = "石板吊橋（3）"

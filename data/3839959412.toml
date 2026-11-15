@@ -1,0 +1,38 @@
+[_meta]
+name = "Japanese Industrial"
+
+["Building.JapaneseSteamEngineI.DisplayName"]
+new = "Japanese Steam Engine I"
+status = "normal"
+
+["Building.JapaneseSteamEngineI.Description"]
+new = "Burns fuel to create power. A timber-framed Meiji-style engine house: 600 hp, with 1.5x the fuel use of a Steam Engine."
+status = "normal"
+
+["Building.JapaneseSteamEngineI.FlavorDescription"]
+new = "Tile roof, plaster walls, and a flywheel you can hear from three dams away."
+status = "normal"
+
+["Building.JapaneseSteamEngineII.DisplayName"]
+new = "Japanese Steam Engine II"
+status = "normal"
+
+["Building.JapaneseSteamEngineII.Description"]
+new = "Burns fuel to create power. A taller Meiji engine house with a clerestory roof: 900 hp, with 2.25x the fuel use of a Steam Engine."
+status = "normal"
+
+["Building.JapaneseSteamEngineII.FlavorDescription"]
+new = "The raised roof lets the steam out and the light in. Mostly the steam."
+status = "normal"
+
+["Building.JapaneseSteamEngineIII.DisplayName"]
+new = "Japanese Steam Engine III"
+status = "normal"
+
+["Building.JapaneseSteamEngineIII.Description"]
+new = "Burns fuel to create power. A two-storey Meiji powerhouse with twin cylinders: 1200 hp, with 3x the fuel use of a Steam Engine."
+status = "normal"
+
+["Building.JapaneseSteamEngineIII.FlavorDescription"]
+new = "The upper floor is for the engineers. The engineers mostly listen to the engine."
+status = "normal"

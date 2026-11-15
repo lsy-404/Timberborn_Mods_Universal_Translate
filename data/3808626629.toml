@@ -1,5 +1,5 @@
 [_meta]
-name = "Alternative Weather System"
+name = "Alternative Weather System (AWS)"
 
 ["AlternativeWeatherSystem.PanelTitle"]
 raw = "Weather"
@@ -394,40 +394,6 @@ csCZ = "Cyklus {0}, sezóna {1}"
 viVN = "Chu kỳ {0}, mùa {1}"
 trTR = "Döngü {0}, mevsim {1}"
 
-["AlternativeWeatherSystem.Building.WeatherSensor.Name"]
-raw = "Weather Sensor"
-status = "normal"
-enUS = "Weather Sensor"
-zhCN = "天气传感器"
-zhTW = "氣象感測器"
-ruRU = "Датчик погоды"
-jaJP = "気象センサー"
-frFR = "Capteur météo"
-deDE = "Wettersensor"
-plPL = "Czujnik pogody"
-ptBR = "Sensor meteorológico"
-koKR = "기상 센서"
-csCZ = "Senzor počasí"
-viVN = "Cảm biến thời tiết"
-trTR = "Hava Durumu Sensörü"
-
-["AlternativeWeatherSystem.Building.WeatherSensor.Description"]
-raw = "Sends a signal while the weather you choose is running, and can send it early so the gates are already open when that weather arrives."
-status = "normal"
-enUS = "Sends a signal while the weather you choose is active, and can send it early so the gates are already open when that weather arrives."
-zhCN = "在你选择的天气期间发送信号，也可以提前发送信号，以便该天气到来时闸门已经开启。"
-zhTW = "在你選擇的天氣期間傳送訊號，也可以提前傳送，讓閘門在該天氣到來時已經開啟。"
-ruRU = "Подаёт сигнал во время выбранного вами погодного явления и может подать его заранее, чтобы ворота уже были открыты к его началу."
-jaJP = "選択した天候の間、信号を送ります。また、その天候が始まる前に信号を送って、天候が到来したときにゲートがすでに開いているようにすることもできます。"
-frFR = "Envoie un signal pendant la météo choisie et peut l’envoyer à l’avance afin que les vannes soient déjà ouvertes lorsque cette météo arrive."
-deDE = "Sendet ein Signal, solange das ausgewählte Wetter anhält, und kann es frühzeitig senden, damit die Tore bereits geöffnet sind, wenn dieses Wetter einsetzt."
-plPL = "Wysyła sygnał, gdy trwa wybrana przez ciebie pogoda, i może wysłać go wcześniej, aby śluzy były już otwarte, gdy ta pogoda nadejdzie."
-ptBR = "Envia um sinal enquanto o clima escolhido está ocorrendo e pode enviá-lo antecipadamente para que as comportas já estejam abertas quando esse clima chegar."
-koKR = "선택한 날씨가 지속되는 동안 신호를 보내며, 해당 날씨가 시작되기 전에 미리 신호를 보내 그 날씨가 도래했을 때 수문이 이미 열려 있게 할 수 있습니다."
-csCZ = "Odesílá signál, když nastane zvolené počasí, a může ho odeslat předčasně, aby už byly brány otevřené, až toto počasí nastane."
-viVN = "Gửi tín hiệu khi kiểu thời tiết bạn chọn đang diễn ra và có thể gửi tín hiệu sớm để các cổng đã mở sẵn khi kiểu thời tiết đó đến."
-trTR = "Seçtiğiniz hava durumu devam ederken sinyal gönderir ve bu hava durumu geldiğinde kapılar zaten açık olsun diye sinyali önceden gönderebilir."
-
 ["AlternativeWeatherSystem.Matrix.Title"]
 raw = "Transitions"
 status = "normal"
@@ -512,6 +478,18 @@ koKR = "실행 중 ↓ / 다음 →"
 csCZ = "běží ↓ / další →"
 viVN = "đang chạy ↓ / tiếp theo →"
 trTR = "çalışma ↓ / sonraki →"
+
+["AlternativeWeatherSystem.Matrix.Incoming"]
+new = "× all into it"
+status = "normal"
+
+["AlternativeWeatherSystem.Matrix.IncomingCell"]
+new = "Every transition into {0} is multiplied by this"
+status = "normal"
+
+["AlternativeWeatherSystem.Matrix.IncomingExplanation"]
+new = "Each column's weights are all multiplied by the factor at its top."
+status = "normal"
 
 ["AlternativeWeatherSystem.OwnParameters.Title"]
 raw = "Weather-specific settings"
@@ -1005,3 +983,89 @@ koKR = "가져오기"
 csCZ = "Importovat"
 viVN = "Nhập khẩu"
 trTR = "İçe Aktar"
+
+["AlternativeWeatherSystem.Weather.CorrosiveHeatwave"]
+new = "Corrosive Heatwave"
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.CorrosiveHeatwave.Flavour"]
+new = "All water is contaminated, and badtide drains activated. Everything that's not wet burns. You thought heatwave was bad? Funny."
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Badflood"]
+new = "Badflood"
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Badflood.Flavour"]
+new = "Every source overflows with contaminated water. You disliked them with clean water, how about now?"
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Inundation"]
+new = "Inundation"
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Inundation.FlavourAllSources"]
+new = "Water stops draining off. You dislike evaporation? How about now?"
+status = "normal"
+
+["AlternativeWeatherSystem.Weather.Inundation.Flavour"]
+new = "Water stops draining off, badwater sources deactivate. You dislike evaporation? How about now?"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.EdgesClosed"]
+new = "Water stays on the map"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.HeightEvaporation"]
+new = "Evaporation rises with height"
+status = "normal"
+
+["AlternativeWeatherSystem.Parameter.EvaporationFactor"]
+new = "Evaporation factor"
+status = "normal"
+
+["AlternativeWeatherSystem.Midgame.Button"]
+new = "Weather settings"
+status = "normal"
+
+["AlternativeWeatherSystem.Midgame.Note"]
+new = "Changes take effect from the next cycle, or from the one after it if its first weather has already been announced."
+status = "normal"
+
+["AlternativeWeatherSystem.Midgame.Applied"]
+new = "The new weather settings decide the weather from cycle {0} on."
+status = "normal"
+
+["AlternativeWeatherSystem.Building.WeatherSensor.Name"]
+raw = "Weather Sensor"
+status = "abandoned"
+enUS = "Weather Sensor"
+zhCN = "天气传感器"
+zhTW = "氣象感測器"
+ruRU = "Датчик погоды"
+jaJP = "気象センサー"
+frFR = "Capteur météo"
+deDE = "Wettersensor"
+plPL = "Czujnik pogody"
+ptBR = "Sensor meteorológico"
+koKR = "기상 센서"
+csCZ = "Senzor počasí"
+viVN = "Cảm biến thời tiết"
+trTR = "Hava Durumu Sensörü"
+
+["AlternativeWeatherSystem.Building.WeatherSensor.Description"]
+raw = "Sends a signal while the weather you choose is running, and can send it early so the gates are already open when that weather arrives."
+status = "abandoned"
+enUS = "Sends a signal while the weather you choose is active, and can send it early so the gates are already open when that weather arrives."
+zhCN = "在你选择的天气期间发送信号，也可以提前发送信号，以便该天气到来时闸门已经开启。"
+zhTW = "在你選擇的天氣期間傳送訊號，也可以提前傳送，讓閘門在該天氣到來時已經開啟。"
+ruRU = "Подаёт сигнал во время выбранного вами погодного явления и может подать его заранее, чтобы ворота уже были открыты к его началу."
+jaJP = "選択した天候の間、信号を送ります。また、その天候が始まる前に信号を送って、天候が到来したときにゲートがすでに開いているようにすることもできます。"
+frFR = "Envoie un signal pendant la météo choisie et peut l’envoyer à l’avance afin que les vannes soient déjà ouvertes lorsque cette météo arrive."
+deDE = "Sendet ein Signal, solange das ausgewählte Wetter anhält, und kann es frühzeitig senden, damit die Tore bereits geöffnet sind, wenn dieses Wetter einsetzt."
+plPL = "Wysyła sygnał, gdy trwa wybrana przez ciebie pogoda, i może wysłać go wcześniej, aby śluzy były już otwarte, gdy ta pogoda nadejdzie."
+ptBR = "Envia um sinal enquanto o clima escolhido está ocorrendo e pode enviá-lo antecipadamente para que as comportas já estejam abertas quando esse clima chegar."
+koKR = "선택한 날씨가 지속되는 동안 신호를 보내며, 해당 날씨가 시작되기 전에 미리 신호를 보내 그 날씨가 도래했을 때 수문이 이미 열려 있게 할 수 있습니다."
+csCZ = "Odesílá signál, když nastane zvolené počasí, a může ho odeslat předčasně, aby už byly brány otevřené, až toto počasí nastane."
+viVN = "Gửi tín hiệu khi kiểu thời tiết bạn chọn đang diễn ra và có thể gửi tín hiệu sớm để các cổng đã mở sẵn khi kiểu thời tiết đó đến."
+trTR = "Seçtiğiniz hava durumu devam ederken sinyal gönderir ve bu hava durumu geldiğinde kapılar zaten açık olsun diye sinyali önceden gönderebilir."

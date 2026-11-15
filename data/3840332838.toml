@@ -1,0 +1,10 @@
+[_meta]
+name = "Visual Terrain Block"
+
+["Building.VisualTerrainBlock.DisplayName"]
+new = "Floating Terrain Block"
+status = "normal"
+
+["Building.VisualTerrainBlock.Description"]
+new = "Looks exactly like a terrain block but needs no support underneath - stack it out of a cliff face or hang it in the air."
+status = "normal"

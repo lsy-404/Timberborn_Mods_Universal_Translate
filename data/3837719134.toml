@@ -1313,6 +1313,18 @@ status = "normal"
 new = "The river works, and asks for nothing."
 status = "normal"
 
+["Building.Spiritveil.WeatherStation.Description"]
+new = "Weather Pavilion: scans the sky and the river, warning the sect of storms and badwater surges before they arrive."
+status = "normal"
+
+["Building.Spiritveil.WeatherStation.DisplayName"]
+new = "Weather Pavilion"
+status = "normal"
+
+["Building.Spiritveil.WeatherStation.FlavorDescription"]
+new = "Wind starts where the duckweed stirs; the pavilion sees it first."
+status = "normal"
+
 ["Building.Spiritveil.Weathervane.Description"]
 new = "A vane whose turning fin shows the wind's direction, guiding both sky-reading and turbines."
 status = "normal"
@@ -1657,20 +1669,20 @@ status = "normal"
 new = "Spirit Grain"
 status = "normal"
 
-["Good.SpiritHerb.Description"]
-new = "Dew-tipped herb leaves; a common ingredient in elixirs and spirit fluids."
+["Good.Dandelion.Description"]
+new = "Dew-tipped herb leaves, a common ingredient in elixirs and spirit fluids."
 status = "normal"
 
-["Good.SpiritHerb.DisplayName"]
+["Good.Dandelion.DisplayName"]
 new = "Spirit Herb"
 status = "normal"
 
-["Good.SpiritHerb.FlavorDescription"]
+["Good.Dandelion.FlavorDescription"]
 new = "A small leaf, and it can pull you out of real trouble."
 status = "normal"
 
-["Good.SpiritHerb.PluralDisplayName"]
-new = "Spirit Herb"
+["Good.Dandelion.PluralDisplayName"]
+new = "Spirit Herbs"
 status = "normal"
 
 ["Good.SpiritIron.Description"]
@@ -2040,6 +2052,22 @@ status = "normal"
 ["Good.Dirt.PluralDisplayName"]
 new = "Dirt"
 status = "normal"
+
+["Good.SpiritHerb.Description"]
+new = "Dew-tipped herb leaves; a common ingredient in elixirs and spirit fluids."
+status = "abandoned"
+
+["Good.SpiritHerb.DisplayName"]
+new = "Spirit Herb"
+status = "abandoned"
+
+["Good.SpiritHerb.FlavorDescription"]
+new = "A small leaf, and it can pull you out of real trouble."
+status = "abandoned"
+
+["Good.SpiritHerb.PluralDisplayName"]
+new = "Spirit Herb"
+status = "abandoned"
 
 ["Building.Spiritveil.AquiferDrillIron.Description"]
 new = "AquiferDrillIron The golem-grade aquifer drill; wood golems keep it boring day and night."

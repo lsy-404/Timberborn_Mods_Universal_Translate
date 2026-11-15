@@ -1,0 +1,450 @@
+[_meta]
+name = "DockWorks"
+
+["DockWorks.StraightPier.Boardwalk.1.Name"]
+new = "Straight pier — Boardwalk — 1 levels"
+status = "normal"
+
+["DockWorks.StraightPier.Boardwalk.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.StraightPier.Cedar.1.Name"]
+new = "Straight pier — Cedar — 1 levels"
+status = "normal"
+
+["DockWorks.StraightPier.Cedar.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.StraightPier.DarkOak.1.Name"]
+new = "Straight pier — DarkOak — 1 levels"
+status = "normal"
+
+["DockWorks.StraightPier.DarkOak.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.StraightPier.IvoryTimber.1.Name"]
+new = "Straight pier — IvoryTimber — 1 levels"
+status = "normal"
+
+["DockWorks.StraightPier.IvoryTimber.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.StraightPier.SageTimber.1.Name"]
+new = "Straight pier — SageTimber — 1 levels"
+status = "normal"
+
+["DockWorks.StraightPier.SageTimber.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.StraightPier.IndustrialMetal.1.Name"]
+new = "Straight pier — IndustrialMetal — 1 levels"
+status = "normal"
+
+["DockWorks.StraightPier.IndustrialMetal.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.StraightPier.BrushedMetal.1.Name"]
+new = "Straight pier — BrushedMetal — 1 levels"
+status = "normal"
+
+["DockWorks.StraightPier.BrushedMetal.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.StraightPier.Boardwalk.2.Name"]
+new = "Straight pier — Boardwalk — 2 levels"
+status = "normal"
+
+["DockWorks.StraightPier.Boardwalk.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.StraightPier.Cedar.2.Name"]
+new = "Straight pier — Cedar — 2 levels"
+status = "normal"
+
+["DockWorks.StraightPier.Cedar.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.StraightPier.DarkOak.2.Name"]
+new = "Straight pier — DarkOak — 2 levels"
+status = "normal"
+
+["DockWorks.StraightPier.DarkOak.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.StraightPier.IvoryTimber.2.Name"]
+new = "Straight pier — IvoryTimber — 2 levels"
+status = "normal"
+
+["DockWorks.StraightPier.IvoryTimber.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.StraightPier.SageTimber.2.Name"]
+new = "Straight pier — SageTimber — 2 levels"
+status = "normal"
+
+["DockWorks.StraightPier.SageTimber.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.StraightPier.IndustrialMetal.2.Name"]
+new = "Straight pier — IndustrialMetal — 2 levels"
+status = "normal"
+
+["DockWorks.StraightPier.IndustrialMetal.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.StraightPier.BrushedMetal.2.Name"]
+new = "Straight pier — BrushedMetal — 2 levels"
+status = "normal"
+
+["DockWorks.StraightPier.BrushedMetal.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.CornerPier.Boardwalk.1.Name"]
+new = "Corner pier — Boardwalk — 1 levels"
+status = "normal"
+
+["DockWorks.CornerPier.Boardwalk.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.CornerPier.Cedar.1.Name"]
+new = "Corner pier — Cedar — 1 levels"
+status = "normal"
+
+["DockWorks.CornerPier.Cedar.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.CornerPier.DarkOak.1.Name"]
+new = "Corner pier — DarkOak — 1 levels"
+status = "normal"
+
+["DockWorks.CornerPier.DarkOak.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.CornerPier.IvoryTimber.1.Name"]
+new = "Corner pier — IvoryTimber — 1 levels"
+status = "normal"
+
+["DockWorks.CornerPier.IvoryTimber.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.CornerPier.SageTimber.1.Name"]
+new = "Corner pier — SageTimber — 1 levels"
+status = "normal"
+
+["DockWorks.CornerPier.SageTimber.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.CornerPier.IndustrialMetal.1.Name"]
+new = "Corner pier — IndustrialMetal — 1 levels"
+status = "normal"
+
+["DockWorks.CornerPier.IndustrialMetal.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.CornerPier.BrushedMetal.1.Name"]
+new = "Corner pier — BrushedMetal — 1 levels"
+status = "normal"
+
+["DockWorks.CornerPier.BrushedMetal.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.CornerPier.Boardwalk.2.Name"]
+new = "Corner pier — Boardwalk — 2 levels"
+status = "normal"
+
+["DockWorks.CornerPier.Boardwalk.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.CornerPier.Cedar.2.Name"]
+new = "Corner pier — Cedar — 2 levels"
+status = "normal"
+
+["DockWorks.CornerPier.Cedar.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.CornerPier.DarkOak.2.Name"]
+new = "Corner pier — DarkOak — 2 levels"
+status = "normal"
+
+["DockWorks.CornerPier.DarkOak.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.CornerPier.IvoryTimber.2.Name"]
+new = "Corner pier — IvoryTimber — 2 levels"
+status = "normal"
+
+["DockWorks.CornerPier.IvoryTimber.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.CornerPier.SageTimber.2.Name"]
+new = "Corner pier — SageTimber — 2 levels"
+status = "normal"
+
+["DockWorks.CornerPier.SageTimber.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.CornerPier.IndustrialMetal.2.Name"]
+new = "Corner pier — IndustrialMetal — 2 levels"
+status = "normal"
+
+["DockWorks.CornerPier.IndustrialMetal.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.CornerPier.BrushedMetal.2.Name"]
+new = "Corner pier — BrushedMetal — 2 levels"
+status = "normal"
+
+["DockWorks.CornerPier.BrushedMetal.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.LoadingDeck.Boardwalk.1.Name"]
+new = "Loading deck — Boardwalk — 1 levels"
+status = "normal"
+
+["DockWorks.LoadingDeck.Boardwalk.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.LoadingDeck.Cedar.1.Name"]
+new = "Loading deck — Cedar — 1 levels"
+status = "normal"
+
+["DockWorks.LoadingDeck.Cedar.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.LoadingDeck.DarkOak.1.Name"]
+new = "Loading deck — DarkOak — 1 levels"
+status = "normal"
+
+["DockWorks.LoadingDeck.DarkOak.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.LoadingDeck.IvoryTimber.1.Name"]
+new = "Loading deck — IvoryTimber — 1 levels"
+status = "normal"
+
+["DockWorks.LoadingDeck.IvoryTimber.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.LoadingDeck.SageTimber.1.Name"]
+new = "Loading deck — SageTimber — 1 levels"
+status = "normal"
+
+["DockWorks.LoadingDeck.SageTimber.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.LoadingDeck.IndustrialMetal.1.Name"]
+new = "Loading deck — IndustrialMetal — 1 levels"
+status = "normal"
+
+["DockWorks.LoadingDeck.IndustrialMetal.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.LoadingDeck.BrushedMetal.1.Name"]
+new = "Loading deck — BrushedMetal — 1 levels"
+status = "normal"
+
+["DockWorks.LoadingDeck.BrushedMetal.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.LoadingDeck.Boardwalk.2.Name"]
+new = "Loading deck — Boardwalk — 2 levels"
+status = "normal"
+
+["DockWorks.LoadingDeck.Boardwalk.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.LoadingDeck.Cedar.2.Name"]
+new = "Loading deck — Cedar — 2 levels"
+status = "normal"
+
+["DockWorks.LoadingDeck.Cedar.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.LoadingDeck.DarkOak.2.Name"]
+new = "Loading deck — DarkOak — 2 levels"
+status = "normal"
+
+["DockWorks.LoadingDeck.DarkOak.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.LoadingDeck.IvoryTimber.2.Name"]
+new = "Loading deck — IvoryTimber — 2 levels"
+status = "normal"
+
+["DockWorks.LoadingDeck.IvoryTimber.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.LoadingDeck.SageTimber.2.Name"]
+new = "Loading deck — SageTimber — 2 levels"
+status = "normal"
+
+["DockWorks.LoadingDeck.SageTimber.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.LoadingDeck.IndustrialMetal.2.Name"]
+new = "Loading deck — IndustrialMetal — 2 levels"
+status = "normal"
+
+["DockWorks.LoadingDeck.IndustrialMetal.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.LoadingDeck.BrushedMetal.2.Name"]
+new = "Loading deck — BrushedMetal — 2 levels"
+status = "normal"
+
+["DockWorks.LoadingDeck.BrushedMetal.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.RopePier.Boardwalk.1.Name"]
+new = "Rope-edged pier — Boardwalk — 1 levels"
+status = "normal"
+
+["DockWorks.RopePier.Boardwalk.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.RopePier.Cedar.1.Name"]
+new = "Rope-edged pier — Cedar — 1 levels"
+status = "normal"
+
+["DockWorks.RopePier.Cedar.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.RopePier.DarkOak.1.Name"]
+new = "Rope-edged pier — DarkOak — 1 levels"
+status = "normal"
+
+["DockWorks.RopePier.DarkOak.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.RopePier.IvoryTimber.1.Name"]
+new = "Rope-edged pier — IvoryTimber — 1 levels"
+status = "normal"
+
+["DockWorks.RopePier.IvoryTimber.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.RopePier.SageTimber.1.Name"]
+new = "Rope-edged pier — SageTimber — 1 levels"
+status = "normal"
+
+["DockWorks.RopePier.SageTimber.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.RopePier.IndustrialMetal.1.Name"]
+new = "Rope-edged pier — IndustrialMetal — 1 levels"
+status = "normal"
+
+["DockWorks.RopePier.IndustrialMetal.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.RopePier.BrushedMetal.1.Name"]
+new = "Rope-edged pier — BrushedMetal — 1 levels"
+status = "normal"
+
+["DockWorks.RopePier.BrushedMetal.1.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.RopePier.Boardwalk.2.Name"]
+new = "Rope-edged pier — Boardwalk — 2 levels"
+status = "normal"
+
+["DockWorks.RopePier.Boardwalk.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.RopePier.Cedar.2.Name"]
+new = "Rope-edged pier — Cedar — 2 levels"
+status = "normal"
+
+["DockWorks.RopePier.Cedar.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.RopePier.DarkOak.2.Name"]
+new = "Rope-edged pier — DarkOak — 2 levels"
+status = "normal"
+
+["DockWorks.RopePier.DarkOak.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.RopePier.IvoryTimber.2.Name"]
+new = "Rope-edged pier — IvoryTimber — 2 levels"
+status = "normal"
+
+["DockWorks.RopePier.IvoryTimber.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.RopePier.SageTimber.2.Name"]
+new = "Rope-edged pier — SageTimber — 2 levels"
+status = "normal"
+
+["DockWorks.RopePier.SageTimber.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.RopePier.IndustrialMetal.2.Name"]
+new = "Rope-edged pier — IndustrialMetal — 2 levels"
+status = "normal"
+
+["DockWorks.RopePier.IndustrialMetal.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
+
+["DockWorks.RopePier.BrushedMetal.2.Name"]
+new = "Rope-edged pier — BrushedMetal — 2 levels"
+status = "normal"
+
+["DockWorks.RopePier.BrushedMetal.2.Description"]
+new = "Native platform support. Add a path on top for walking access. Fixed pier, not a floating structure; no boat or cargo handling."
+status = "normal"
