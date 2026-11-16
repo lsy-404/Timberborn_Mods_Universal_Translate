@@ -35,7 +35,7 @@ class GatewayTranslationTests(unittest.TestCase):
         self.assertEqual(config["llm"]["api_url"], "https://llm.leisiyu.dev/v1/chat/completions")
         self.assertEqual(config["llm"]["max_output_tokens"], 1024)
         self.assertEqual(config["rate_limiter"]["max_requests_per_minute"], 450)
-        self.assertEqual(config["rate_limiter"]["max_threads"], 1)
+        self.assertEqual(config["rate_limiter"]["max_threads"], 2)
         self.assertEqual(config["rate_limiter"]["max_threads_per_file"], 8)
         workflow = (ROOT / ".github" / "workflows" / "translate.yml").read_text(encoding="utf-8")
         self.assertIn("group: tmut-translation", workflow)

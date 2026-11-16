@@ -41,7 +41,7 @@ max_requests_per_minute = 450
 # Each file processes entries sequentially, but translates all languages
 # within an entry in parallel (up to max_threads_per_file).
 # This model prevents over-parallelization and reduces rate-limit pressure.
-max_threads = 1
+max_threads = 2
 
 # Maximum language-level threads per entry.
 # Within each entry, all target languages are translated in parallel.
