@@ -70,11 +70,19 @@ We do **not** require signatures for commits.
 - These files contain the actual translation content
 - See [DATA_STRUCTURE.md](DATA_STRUCTURE.md) for all format and structure details
 
-### Global Glossary
+### Global Glossary (recommended)
 
 - The global glossary is located at `data/_glossary.toml`
 - It is used for **common terms shared across multiple mods**
 - Please follow the rules described in [DATA_STRUCTURE.md](DATA_STRUCTURE.md)
+
+Contributing to the glossary is the way we recommend most. Automatic translation applies the glossary to every mod, so when a native speaker adds a term and its details in their language, almost all mods get accurate translations for it, with far less work than proofreading entries one by one.
+
+```toml
+["Folktails"]
+zhCN = "神尾"
+zhTW = "神尾"
+```
 
 ---
 
