@@ -15,6 +15,11 @@ try:
     print(f"**Failed Attempts:** {data.get('fail_count', 0):,}")
     print(f"**Recovered Attempts:** {data.get('recovered_fail_count', 0):,}")
     print(f"**Unresolved Translations:** {data.get('unresolved_translation_count', data.get('fail_count', 0)):,}")
+    if data.get('gateway_quota_exhausted'):
+        print("**Stopped early:** gateway quota exhausted; untranslated entries stay pending for the next run")
+    rejections = data.get('rate_limit_rejections') or {}
+    if rejections:
+        print("**HTTP 429 by reason:** " + ", ".join(f"`{reason}` × {count:,}" for reason, count in rejections.items()))
     print("")
     print("### Token Usage")
     print(f"- Input tokens:  {data.get('input_tokens', 0):,}")

@@ -13,6 +13,8 @@ import json
 import logging
 import threading
 import math
+import re
+from collections import Counter
 from uuid import uuid4
 from urllib.parse import urlsplit
 from datetime import datetime, timezone
@@ -28,6 +30,12 @@ from translation_prompt import (
 
 MAX_RETRY_AFTER_SECONDS = 30
 GATEWAY_BUSY_RETRY_SECONDS = 5
+GATEWAY_REJECTION = re.compile(r'control request rejected: 429 \(([a-z_]+)\)')
+# Rejections that last until the allowance cycle moves on, so retrying within a run cannot succeed
+QUOTA_REJECTIONS = frozenset({
+    'budget_exceeded', 'allowance_denied', 'source_funding_denied', 'native_aggregate_budget_exceeded',
+})
+QUOTA_EXHAUSTED = 'quota_exhausted'
 
 
 def _retry_after_seconds(response, clamp=True):
@@ -94,6 +102,8 @@ class TranslatorLLM:
         self._final_attempted_request_count = None
         self._last_read_in_flight = False
         self._accounting_failed = False
+        self._quota_exhausted = False
+        self.rejections = Counter()
         parts = urlsplit(api_url)
         self._gateway_origin = f"{parts.scheme}://{parts.netloc}"
         self._endpoint_host = parts.hostname
@@ -107,6 +117,7 @@ class TranslatorLLM:
         self.fail_count = 0
         self.recovered_fail_count = 0
         self.unresolved_translation_count = 0
+        self.quota_deferred_count = 0
         self.unknown_cost_requests = 0
         self.returned_models = set()
         self.max_cost = max_cost
@@ -245,7 +256,10 @@ class TranslatorLLM:
             return text
         if not self.should_translate(text):
             with self._cost_lock:
-                self.unresolved_translation_count += 1
+                if self._quota_exhausted:
+                    self.quota_deferred_count += 1
+                else:
+                    self.unresolved_translation_count += 1
             return None
         if len(text) < self.min_length:
             return text
@@ -272,6 +286,10 @@ class TranslatorLLM:
                 with self._cost_lock:
                     self.recovered_fail_count += attempt
                 return translated
+            if retry_reason == QUOTA_EXHAUSTED:
+                with self._cost_lock:
+                    self.quota_deferred_count += 1
+                return None
             if (attempt + 1 == self.MAX_ATTEMPTS or retry_reason is None
                     or not self.check_cost_limit()):
                 break
@@ -303,6 +321,8 @@ class TranslatorLLM:
         messages = [{'role': 'system', 'content': system_prompt}, {'role': 'user', 'content': user_prompt}]
         if feedback:
             messages.append({'role': 'user', 'content': feedback})
+        if self._quota_exhausted:
+            return None, QUOTA_EXHAUSTED
         self._check_rate_limit()
         reservation = self._reserve_cost(messages)
         if reservation is None:
@@ -328,7 +348,20 @@ class TranslatorLLM:
             if response.status_code != 200:
                 # The gateway settles 429 and 5xx itself; the key usage counter stays authoritative
                 request_uncertain = response.status_code not in (429, 500, 502, 503, 504)
-                self.logger.error(f'Translation failed: HTTP {response.status_code}: {response.text.replace(self.api_token, "[redacted]")}')
+                if response.status_code == 429:
+                    rejection = GATEWAY_REJECTION.search(response.text)
+                    rejection = rejection.group(1) if rejection else 'unspecified'
+                    with self._cost_lock:
+                        self.rejections[rejection] += 1
+                        first_quota_rejection = rejection in QUOTA_REJECTIONS and not self._quota_exhausted
+                        self._quota_exhausted = self._quota_exhausted or rejection in QUOTA_REJECTIONS
+                    if first_quota_rejection:
+                        self.logger.warning('Gateway quota exhausted (%s); remaining entries are deferred', rejection)
+                    if rejection in QUOTA_REJECTIONS:
+                        return None, QUOTA_EXHAUSTED
+                    self.logger.error(f'Translation failed: HTTP 429 ({rejection}): {response.text.replace(self.api_token, "[redacted]")}')
+                else:
+                    self.logger.error(f'Translation failed: HTTP {response.status_code}: {response.text.replace(self.api_token, "[redacted]")}')
                 retry_after = None
                 if response.status_code == 429:
                     retry_after = _retry_after_seconds(response)
@@ -404,6 +437,9 @@ class TranslatorLLM:
                 'request_count': self.request_count, 'success_count': self.success_count, 'fail_count': self.fail_count,
                 'recovered_fail_count': self.recovered_fail_count,
                 'unresolved_translation_count': self.unresolved_translation_count,
+                'quota_deferred_count': self.quota_deferred_count,
+                'gateway_quota_exhausted': self._quota_exhausted,
+                'rate_limit_rejections': dict(sorted(self.rejections.items())),
                 'success_rate': self.success_count / max(1, self.request_count) * 100,
                 'input_tokens': self.total_tokens['input'], 'ordinary_input_tokens': self.total_tokens['ordinary'],
                 'cached_tokens': self.total_tokens['cached'], 'cache_write_tokens': self.total_tokens['write'],
@@ -422,9 +458,14 @@ class TranslatorLLM:
     def get_cost_summary(self) -> str:
         return '\nTRANSLATION COST SUMMARY\n' + json.dumps(self.get_cost_summary_dict(), indent=2)
 
+    @property
+    def quota_exhausted(self) -> bool:
+        return self._quota_exhausted
+
     def check_cost_limit(self) -> bool:
         with self._cost_lock:
-            return not self._accounting_failed and (self.max_cost <= 0 or self.total_cost < self.max_cost)
+            return (not self._accounting_failed and not self._quota_exhausted
+                    and (self.max_cost <= 0 or self.total_cost < self.max_cost))
 
     def should_translate(self, text: str) -> bool:
         return bool(text and text.strip()) and self.check_cost_limit()

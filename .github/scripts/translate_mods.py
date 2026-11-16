@@ -1449,6 +1449,11 @@ def process_all_files(
             }
             
             for future in as_completed(futures):
+                if future.cancelled():
+                    continue
+                if translator.quota_exhausted is True:
+                    for f in futures:
+                        f.cancel()
                 # Check timeout before processing result
                 if max_time and (time.time() - start_time) >= max_time:
                     logger.warning(f"Time limit of {max_time} seconds reached. Stopping processing of new files.")
@@ -1469,6 +1474,8 @@ def process_all_files(
         # Single file at a time: process sequentially at file level but use language-level parallelism
         logger.info("Processing files sequentially (language-level parallelism active)")
         for toml_file in toml_files:
+            if translator.quota_exhausted is True:
+                break
             # Check timeout before processing each file
             if max_time and (time.time() - start_time) >= max_time:
                 logger.warning(f"Time limit of {max_time} seconds reached. Stopping processing of new files.")
@@ -1696,6 +1703,8 @@ def main():
         except Exception as e:
             logger.error(f"Failed to write cost report: {e}")
         
+        if cost_data["gateway_quota_exhausted"]:
+            logger.warning("Gateway quota exhausted; untranslated entries stay pending for the next run")
         if cost_data["unresolved_translation_count"] or not cost_data["cost_tracking_complete"]:
             raise RuntimeError("Translation requests failed; pending entries and partial progress have been preserved")
         logger.info("All done!")
