@@ -2,7 +2,7 @@
 [languages]
 # Supported languages for translation
 # Format: language_code (e.g., "enUS", "zhCN", "zhTW", etc.)
-supported = ["enUS", "zhCN", "zhTW", "ruRU", "jaJP", "frFR", "deDE", "plPL", "ptBR", "koKR", "csCZ", "viVN", "trTR"]
+supported = ["enUS", "zhCN", "zhTW", "ruRU", "jaJP", "frFR", "deDE", "plPL", "ptBR", "koKR", "trTR", "esES", "itIT", "ukUA", "thTH", "csCZ", "viVN"]
 game_supported = ["zhCN", "jaJP", "zhTW", "enUS", "frFR", "deDE", "esES", "plPL", "ptBR", "ruRU", "itIT", "koKR", "ukUA", "thTH", "trTR"]
 
 [languages.locale_names]
@@ -19,6 +19,10 @@ koKR = "Korean"
 csCZ = "Czech"
 viVN = "Vietnamese"
 trTR = "Turkish"
+esES = "Spanish"
+itIT = "Italian"
+ukUA = "Ukrainian"
+thTH = "Thai"
 
 [build]
 protect_string_ids_file = "enUS.txt"
@@ -36,7 +40,6 @@ max_threads = 1
 
 # Maximum language-level threads per entry.
 # Within each entry, all target languages are translated in parallel.
-# With 12 target languages, setting this to 12 means all languages translate at once.
 max_threads_per_file = 8
 
 # Cost control settings

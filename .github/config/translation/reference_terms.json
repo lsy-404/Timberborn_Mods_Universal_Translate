@@ -41,7 +41,11 @@
         "plPL": "Folkogonów",
         "ptBR": "Caudas-do-mato",
         "koKR": "나무꼬리",
-        "trTR": "Köykuyruklar"
+        "trTR": "Köykuyruklar",
+        "esES": "Bucólicos",
+        "itIT": "Codalesta",
+        "ukUA": "Хвостонародці",
+        "thTH": "หางไม้"
       },
       "provenance": "Steam localized store pages; zhCN/zhTW also data/_glossary.toml[Folktails]",
       "confidence": "verified",
@@ -49,7 +53,11 @@
         "plPL": "https://store.steampowered.com/api/appdetails?appids=1062090&l=polish",
         "ptBR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=brazilian",
         "koKR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=koreana",
-        "trTR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=turkish"
+        "trTR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=turkish",
+        "esES": "https://store.steampowered.com/api/appdetails?appids=1062090&l=spanish",
+        "itIT": "https://store.steampowered.com/api/appdetails?appids=1062090&l=italian",
+        "ukUA": "https://store.steampowered.com/api/appdetails?appids=1062090&l=ukrainian",
+        "thTH": "https://store.steampowered.com/api/appdetails?appids=1062090&l=thai"
       },
       "required_stems": {
         "zhCN": "神尾",
@@ -58,7 +66,11 @@
         "koKR": "나무꼬리",
         "plPL": "Folkogon",
         "ptBR": "Caudas-do-mato",
-        "trTR": "Köykuyruk"
+        "trTR": "Köykuyruk",
+        "esES": "Bucólic",
+        "itIT": "Codalesta",
+        "ukUA": "Хвостонарод",
+        "thTH": "หางไม้"
       }
     },
     {
@@ -73,7 +85,11 @@
         "plPL": "Żelazozębnych",
         "ptBR": "Dentes de Ferro",
         "koKR": "강철 이빨",
-        "trTR": "Demir Dişler"
+        "trTR": "Demir Dişler",
+        "esES": "Dienteférreos",
+        "itIT": "Denti di Ferro",
+        "ukUA": "Залізнозубі",
+        "thTH": "เขี้ยวเหล็ก"
       },
       "provenance": "Steam localized store pages; zhCN/zhTW also data/_glossary.toml[IronTeeth]",
       "confidence": "verified",
@@ -81,13 +97,18 @@
         "plPL": "https://store.steampowered.com/api/appdetails?appids=1062090&l=polish",
         "ptBR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=brazilian",
         "koKR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=koreana",
-        "trTR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=turkish"
+        "trTR": "https://store.steampowered.com/api/appdetails?appids=1062090&l=turkish",
+        "esES": "https://store.steampowered.com/api/appdetails?appids=1062090&l=spanish",
+        "itIT": "https://store.steampowered.com/api/appdetails?appids=1062090&l=italian",
+        "ukUA": "https://store.steampowered.com/api/appdetails?appids=1062090&l=ukrainian",
+        "thTH": "https://store.steampowered.com/api/appdetails?appids=1062090&l=thai"
       },
       "required_stems": {
         "zhCN": "铁牙",
         "zhTW": "鐵牙",
         "jaJP": "アイアン・ティース",
-        "koKR": "강철 이빨"
+        "koKR": "강철 이빨",
+        "thTH": "เขี้ยวเหล็ก"
       }
     },
     {
