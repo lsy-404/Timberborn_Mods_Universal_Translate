@@ -97,13 +97,15 @@ class GatewayTranslationTests(unittest.TestCase):
         self.assertEqual(translator.translate("source", "frFR", "system", "user"), "translated")
         self.assertAlmostEqual(translator.get_cost_summary_dict()['key_usage_delta_usd'], 0.001234)
 
+    @patch("translator.time.sleep")
     @patch("translator.requests.post")
-    def test_429_does_not_retry_when_charge_is_uncertain(self, post):
+    def test_429_waits_for_retry_after_and_retries_once(self, post, sleep):
         post.return_value = SimpleNamespace(status_code=429, headers={"Retry-After": "60"}, text="limited")
         translator = TranslatorLLM("test-token", rate_limit="")
         self.assertIsNone(translator.translate("source", "frFR", "system", "user"))
-        post.assert_called_once()
-        self.assertFalse(translator.get_cost_summary_dict()['cost_tracking_complete'])
+        self.assertEqual(post.call_count, 2)
+        sleep.assert_called_once_with(30.0)
+        self.assertTrue(translator.get_cost_summary_dict()['cost_tracking_complete'])
 
     def test_output_limit_must_be_positive(self):
         for value in (0, -1, True, 1.5):

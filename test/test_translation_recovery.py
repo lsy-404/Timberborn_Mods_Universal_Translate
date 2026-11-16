@@ -139,16 +139,16 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertEqual(report['unresolved_translation_count'], 0)
         self.assertEqual(report['key_usage_delta_usd'], 0)
 
-    def test_503_stops_without_retry_when_charge_is_uncertain(self):
+    def test_503_gets_one_retry_and_keeps_accounting_complete(self):
         self.post.return_value = Mock(status_code=503, text='synthetic server error')
         client = self.translator()
         self.assertIsNone(self.translate(client))
-        self.post.assert_called_once()
+        self.assertEqual(self.post.call_count, 2)
         report = client.get_cost_summary_dict()
-        self.assertEqual(report['fail_count'], 1)
+        self.assertEqual(report['fail_count'], 2)
         self.assertEqual(report['unresolved_translation_count'], 1)
-        self.assertEqual(report['unknown_cost_requests'], 1)
-        self.assertFalse(report['cost_tracking_complete'])
+        self.assertEqual(report['unknown_cost_requests'], 0)
+        self.assertTrue(report['cost_tracking_complete'])
 
     def test_authentication_and_permission_errors_are_not_retried(self):
         for status in (401, 403, 429):

@@ -326,7 +326,8 @@ class TranslatorLLM:
                 self.logger.warning('Gateway storage busy before admission (HTTP 403)')
                 return None, f'HTTP 403;{GATEWAY_BUSY_RETRY_SECONDS}'
             if response.status_code != 200:
-                request_uncertain = True
+                # The gateway settles 429 and 5xx itself; the key usage counter stays authoritative
+                request_uncertain = response.status_code not in (429, 500, 502, 503, 504)
                 self.logger.error(f'Translation failed: HTTP {response.status_code}: {response.text.replace(self.api_token, "[redacted]")}')
                 retry_after = _retry_after_seconds(response) if response.status_code == 429 else None
                 retry = (f'HTTP 429;{retry_after}' if retry_after is not None else
