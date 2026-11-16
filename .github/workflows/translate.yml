@@ -343,10 +343,6 @@ jobs:
             echo "## Translation Summary"
             echo "Status: $TRANSLATION_STATUS"
             if [ -f "$LOG_FILE" ]; then
-              echo "### Recent Log Entries"
-              echo '```'
-              tail -n 20 "$LOG_FILE"
-              echo '```'
               echo "Full logs and verification outputs are available in the run artifacts."
             else
               echo "Translation log not found."

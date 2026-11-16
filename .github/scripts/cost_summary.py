@@ -8,7 +8,8 @@ try:
 
     print(f"**Model:** `{data.get('model', 'unknown')}`")
     print(f"**Session ID:** `{data.get('session_id', 'unknown')}`")
-    print(f"**Reasoning effort:** `{data.get('reasoning_effort', 'unknown')}`")
+    print(f"**Endpoint:** `{data.get('endpoint', 'unknown')}`")
+    print(f"**Reasoning effort:** `{data.get('reasoning_effort', 'unknown')}` (the request sets none)")
     print(f"**Total Requests:** {data.get('request_count', 0):,}")
     print(f"**Success Rate:** {data.get('success_rate', 0):.1f}%")
     print(f"**Failed Attempts:** {data.get('fail_count', 0):,}")
@@ -31,8 +32,6 @@ try:
     print("Snapshot may include request reservations until server reconciliation completes.")
     print("")
 
-    if not data.get('cost_tracking_complete', False):
-        print("⚠️ Usage accounting is incomplete; the reported delta is unconfirmed.")
     if cost is not None and cost > 1.0:
         print("⚠️ **Warning:** Cost exceeds $1.00 - consider reviewing translation settings")
 except Exception as e:

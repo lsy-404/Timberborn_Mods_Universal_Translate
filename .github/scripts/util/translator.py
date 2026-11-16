@@ -96,6 +96,7 @@ class TranslatorLLM:
         self._accounting_failed = False
         parts = urlsplit(api_url)
         self._gateway_origin = f"{parts.scheme}://{parts.netloc}"
+        self._endpoint_host = parts.hostname
         self.total_tokens = dict.fromkeys((
             "input", "ordinary", "cached", "write", "write_5m", "write_1h", "output", "reasoning", "total"
         ), 0)
@@ -393,6 +394,7 @@ class TranslatorLLM:
                     self._finalized_request_count = self.request_count
             return {
                 'model': self.model, 'session_id': self.session_id,
+                'endpoint': self._endpoint_host, 'reasoning_effort': 'provider default',
                 'returned_models': sorted(self.returned_models),
                 'request_count': self.request_count, 'success_count': self.success_count, 'fail_count': self.fail_count,
                 'recovered_fail_count': self.recovered_fail_count,
