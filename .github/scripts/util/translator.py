@@ -27,6 +27,7 @@ from translation_prompt import (
 
 
 MAX_RETRY_AFTER_SECONDS = 30
+GATEWAY_BUSY_RETRY_SECONDS = 5
 
 
 def _retry_after_seconds(response, clamp=True):
@@ -275,7 +276,7 @@ class TranslatorLLM:
                 break
             self.logger.warning('Retrying translation after %s (attempt %s/%s)',
                                 retry_reason, attempt + 2, self.MAX_ATTEMPTS)
-            if retry_reason.startswith('HTTP 429;'):
+            if retry_reason.startswith('HTTP ') and ';' in retry_reason:
                 time.sleep(float(retry_reason.split(';', 1)[1]))
                 continue
             if not retry_reason.startswith('HTTP '):
@@ -319,6 +320,10 @@ class TranslatorLLM:
                          'session-id': self.session_id},
                 json=data, timeout=(10, 120),
             )
+            if response.status_code == 403 and 'database is locked' in response.text:
+                # Rejected before admission, so no upstream request was made or charged
+                self.logger.warning('Gateway storage busy before admission (HTTP 403)')
+                return None, f'HTTP 403;{GATEWAY_BUSY_RETRY_SECONDS}'
             if response.status_code != 200:
                 request_uncertain = True
                 self.logger.error(f'Translation failed: HTTP {response.status_code}: {response.text.replace(self.api_token, "[redacted]")}')
