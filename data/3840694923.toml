@@ -1,0 +1,46 @@
+[_meta]
+name = "公约 / Decrees"
+
+["CouncilHall.Panel.Title"]
+new = "Decrees"
+status = "normal"
+
+["CouncilHall.Panel.Hint"]
+new = "Click the district center to enact decrees"
+status = "normal"
+
+["CouncilHall.Panel.NeedHall"]
+new = "Select the District Center to enact decrees."
+status = "normal"
+
+["CouncilHall.Panel.NoHallSelected"]
+new = "Click the District Center to enact decrees"
+status = "normal"
+
+["CouncilHall.State.On"]
+new = "● ACTIVE"
+status = "normal"
+
+["CouncilHall.State.Off"]
+new = "OFF"
+status = "normal"
+
+["CouncilHall.Tag.Wellbeing"]
+new = "Wellbeing"
+status = "normal"
+
+["CouncilHall.Panel.Total"]
+new = "Total: Wellbeing"
+status = "normal"
+
+["CouncilHall.Hint.Multi"]
+new = "can be active together;"
+status = "normal"
+
+["CouncilHall.Hint.Exclusive"]
+new = "have conflict restrictions — hover for details."
+status = "normal"
+
+["CouncilHall.Hint.NoExclusive"]
+new = "No restrictions."
+status = "normal"
