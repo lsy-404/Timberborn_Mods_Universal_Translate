@@ -25,6 +25,7 @@ caES = "Una cabana amb una forma diferent."
 beBY = "Жыллё іншай формы."
 roRO = "O cabană cu o formă diferită."
 huHU = "Más formájú szállás."
+arSA = "مسكن بتصميم مختلف."
 
 ["Building.IrregularLodge1.DisplayName"]
 raw = "Irregular Lodge 1"
@@ -50,6 +51,7 @@ caES = "Refugi irregular 1"
 beBY = "Нерэгулярная хатка 1"
 roRO = "Cabană neregulată 1"
 huHU = "Szabálytalan kunyhó 1"
+arSA = "كوخ غير منتظم 1"
 
 ["Building.IrregularLodge2.Description"]
 raw = "A differently shaped lodge."
@@ -75,6 +77,7 @@ caES = "Una cabana amb una forma diferent."
 beBY = "Жыллё незвычайнай формы."
 roRO = "O cabană cu o formă diferită."
 huHU = "Más alakú kunyhó."
+arSA = "نُزُلٌ ذو شكل مختلف."
 
 ["Building.IrregularLodge2.DisplayName"]
 raw = "Irregular Lodge 2"
@@ -100,6 +103,7 @@ caES = "Refugi irregular 2"
 beBY = "Хатка няправільнай формы 2"
 roRO = "Cabană neregulată 2"
 huHU = "Szabálytalan kunyhó 2"
+arSA = "النُّزُل غير المنتظم 2"
 
 ["Building.IrregularLodge3.Description"]
 raw = "An L-shaped lodge."
@@ -125,6 +129,7 @@ caES = "Una cabana en forma de L."
 beBY = "Г-вобразная хатка."
 roRO = "O cabană în formă de L."
 huHU = "L alakú kunyhó."
+arSA = "مسكن على شكل حرف L."
 
 ["Building.IrregularLodge3.DisplayName"]
 raw = "L-shaped lodge"
@@ -150,3 +155,4 @@ caES = "Cabana en forma de L"
 beBY = "Г-вобразная хатка"
 roRO = "adăpost în formă de L"
 huHU = "L alakú lakóház"
+arSA = "مسكن على شكل حرف L"

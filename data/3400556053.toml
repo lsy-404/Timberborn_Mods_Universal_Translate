@@ -25,6 +25,7 @@ caES = "Intensitat del vent"
 beBY = "Сіла ветру"
 roRO = "Intensitatea vântului"
 huHU = "Szél erőssége"
+arSA = "قوة الرياح"
 
 ["CW.WindStrengthDesc"]
 raw = "The constant wind strength, from 0% to 100%."
@@ -50,3 +51,4 @@ caES = "La intensitat constant del vent, del 0% al 100%."
 beBY = "Пастаянная сіла ветру ад 0% да 100%."
 roRO = "Intensitatea constantă a vântului, de la 0% la 100%."
 huHU = "Az állandó szél erőssége 0%-tól 100%-ig."
+arSA = "شدة الرياح الثابتة، من 0% إلى 100%."

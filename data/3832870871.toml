@@ -25,6 +25,7 @@ caES = "Subministrament per a la construcció"
 beBY = "Забеспячэнне будаўніцтва"
 roRO = "Aprovizionare pentru construcții"
 huHU = "Építőanyag-ellátás"
+arSA = "إمدادات البناء"
 
 ["Building.ConstructionSupply.Description"]
 raw = "Workers carry building materials from storage straight to construction sites. Builders only build."
@@ -50,6 +51,7 @@ caES = "Els treballadors porten materials de construcció des dels magatzems dir
 beBY = "Рабочыя пераносяць будаўнічыя матэрыялы са складоў непасрэдна на будаўнічыя пляцоўкі. Будаўнікі толькі будуюць."
 roRO = "Lucrătorii transportă materialele de construcție din depozit direct la șantiere. Constructorii doar construiesc."
 huHU = "A munkások egyenesen a raktárból viszik az építőanyagokat az építési helyszínekre. Az építők csak építenek."
+arSA = "ينقل العمال مواد البناء من المخازن مباشرةً إلى مواقع البناء. يقتصر عمل البنّائين على البناء."
 
 ["Building.ConstructionSupply.FlavorDescription"]
 raw = "Planks arrive before anyone asks."
@@ -75,3 +77,4 @@ caES = "Els taulons arriben abans que ningú els demani."
 beBY = "Дошкі прыбываюць яшчэ да таго, як іх папросяць."
 roRO = "Scândurile sosesc înainte să le ceară cineva."
 huHU = "A deszkák még azelőtt megérkeznek, hogy bárki kérné őket."
+arSA = "تصل الألواح قبل أن يطلبها أحد."

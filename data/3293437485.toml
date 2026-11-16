@@ -25,6 +25,7 @@ caES = "Eixos"
 beBY = "Валы"
 roRO = "Arbori"
 huHU = "Tengelyek"
+arSA = "أعمدة نقل الحركة"
 
 ["Knatte.Subgroup_MGPower.DisplayName"]
 raw = "Power Generators"
@@ -50,6 +51,7 @@ caES = "Generadors d'energia"
 beBY = "Генератары энергіі"
 roRO = "Generatoare de energie mecanică"
 huHU = "Áramtermelők"
+arSA = "مولدات الطاقة الميكانيكية"
 
 ["Knatte.Subgroup_MGPiles.DisplayName"]
 raw = "Piles"
@@ -75,6 +77,7 @@ caES = "Piles"
 beBY = "Кучы"
 roRO = "Grămezi"
 huHU = "Halmazok"
+arSA = "أكوام"
 
 ["Knatte.Subgroup_MGWarehouses.DisplayName"]
 raw = "Warehouses"
@@ -100,6 +103,7 @@ caES = "Magatzems"
 beBY = "Склады"
 roRO = "Depozite"
 huHU = "Raktárak"
+arSA = "المستودعات"
 
 ["Knatte.Subgroup_MGTanks.DisplayName"]
 raw = "Tanks"
@@ -125,6 +129,7 @@ caES = "Dipòsits"
 beBY = "Рэзервуары"
 roRO = "Rezervoare"
 huHU = "Tartályok"
+arSA = "الخزانات"
 
 ["Knatte.Subgroup_MGAqueduct.DisplayName"]
 raw = "Aqueducts"
@@ -150,6 +155,7 @@ caES = "Aqüeductes"
 beBY = "Акведукі"
 roRO = "Apeducte"
 huHU = "Vízvezetékek"
+arSA = "قنوات مائية"
 
 ["Knatte.Subgroup_MGFloodgates.DisplayName"]
 raw = "Floodgates"
@@ -175,6 +181,7 @@ caES = "Comportes"
 beBY = "Шлюзы"
 roRO = "Stăvilare"
 huHU = "Zsilipek"
+arSA = "بوابات الفيضان"
 
 ["Knatte.Subgroup_MGAqueduct_Floors.DisplayName"]
 raw = "Aqueduct Floors"
@@ -200,6 +207,7 @@ caES = "Sòls d’aqüeducte"
 beBY = "Падлогі акведука"
 roRO = "Podele de apeduct"
 huHU = "Akvaduktpadlók"
+arSA = "أرضيات القنوات المائية"
 
 ["Knatte.Subgroup_MGDynamite.DisplayName"]
 raw = "Dynamites"
@@ -225,6 +233,7 @@ caES = "Dinamites"
 beBY = "Дынаміты"
 roRO = "Dinamite"
 huHU = "Dinamitok"
+arSA = "الديناميت"
 
 ["Knatte.Subgroup_MGRoofs.DisplayName"]
 raw = "Roofs"
@@ -250,6 +259,7 @@ caES = "Teulades"
 beBY = "Дахі"
 roRO = "Acoperișuri"
 huHU = "Tetők"
+arSA = "الأسقف"
 
 ["Knatte.Subgroup_MGLevees.DisplayName"]
 raw = "Levees"
@@ -275,6 +285,7 @@ caES = "Dics"
 beBY = "Дамбы"
 roRO = "Diguri"
 huHU = "Gátak"
+arSA = "السدود الترابية"
 
 ["Knatte.Subgroup_MGPipe.DisplayName"]
 raw = "Pipes"
@@ -300,6 +311,7 @@ caES = "Canonades"
 beBY = "Трубы"
 roRO = "Conducte"
 huHU = "Csövek"
+arSA = "أنابيب"
 
 ["Knatte.Subgroup_MGMetalPlatform.DisplayName"]
 raw = "Metal Platforms"
@@ -325,6 +337,7 @@ caES = "Plataformes metàl·liques"
 beBY = "Металічныя платформы"
 roRO = "Platforme metalice"
 huHU = "Fémplatformok"
+arSA = "منصات معدنية"
 
 ["Knatte.Subgroup_MGMetalOverhang.DisplayName"]
 raw = "Metal Overhangs"
@@ -350,6 +363,7 @@ caES = "Voladissos metàl·lics"
 beBY = "Металічныя навісі"
 roRO = "Console metalice în consolă"
 huHU = "Fém túlnyúlások"
+arSA = "البروزات المعدنية"
 
 ["Knatte.Subgroup_MGBigMetalPillar.DisplayName"]
 raw = "Big Metal Pillars"
@@ -375,6 +389,7 @@ caES = "Grans pilars metàl·lics"
 beBY = "Вялікія металічныя слупы"
 roRO = "Stâlpi mari de metal"
 huHU = "Nagy fémpillérek"
+arSA = "أعمدة معدنية كبيرة"
 
 ["Knatte.Subgroup_MGOverhangs.DisplayName"]
 raw = "Overhangs"
@@ -400,6 +415,7 @@ caES = "Voladissos"
 beBY = "Выступы"
 roRO = "Surplombe"
 huHU = "Túlnyúlások"
+arSA = "النتوءات السقفية"
 
 ["Knatte.Subgroup_MGZiplines.DisplayName"]
 raw = "Ziplines"
@@ -425,6 +441,7 @@ caES = "Tirolines"
 beBY = "Зіплайны"
 roRO = "Tiroliene"
 huHU = "Siklókötelek"
+arSA = "خطوط الانزلاق"
 
 ["Knatte.Subgroup_MGArchs.DisplayName"]
 raw = "Archs"
@@ -450,6 +467,7 @@ caES = "Arcs"
 beBY = "Аркі"
 roRO = "Arce"
 huHU = "Boltívek"
+arSA = "الأقواس"
 
 ["Knatte.Subgroup_MGTubeways.DisplayName"]
 raw = "Tubeways"
@@ -475,6 +493,7 @@ caES = "Conductes"
 beBY = "Трубапраходы"
 roRO = "Căi tubulare"
 huHU = "Csőutak"
+arSA = "الممرات الأنبوبية"
 
 ["Knatte.Subgroup_MGBridges.DisplayName"]
 raw = "Suspension Bridges"
@@ -500,6 +519,7 @@ caES = "Ponts penjants"
 beBY = "Падвесныя масты"
 roRO = "Poduri suspendate"
 huHU = "Függőhidak"
+arSA = "الجسور المعلّقة"
 
 ["Knatte.Subgroup_MGPillars.DisplayName"]
 raw = "Pillars"
@@ -525,6 +545,7 @@ caES = "Pilars"
 beBY = "Слупы"
 roRO = "Stâlpi"
 huHU = "Pillérek"
+arSA = "الأعمدة"
 
 ["Knatte.Subgroup_MGPlatforms.DisplayName"]
 raw = "Platforms"
@@ -550,6 +571,7 @@ caES = "Plataformes"
 beBY = "Платформы"
 roRO = "Platforme"
 huHU = "Platformok"
+arSA = "المنصات"
 
 ["Knatte.Subgroup_MGStaircase.DisplayName"]
 raw = "Staircases"
@@ -575,6 +597,7 @@ caES = "Escales"
 beBY = "Лесвіцы"
 roRO = "Scări de acces"
 huHU = "Lépcsők"
+arSA = "السلالم"
 
 ["Knatte.Subgroup_MGSluices.DisplayName"]
 raw = "Sluices"
@@ -600,6 +623,7 @@ caES = "Comportes"
 beBY = "Шлюзы"
 roRO = "Stăvilare"
 huHU = "Zsilipek"
+arSA = "بوابات التصريف"
 
 ["Knatte.Subgroup_MGFlywheels.DisplayName"]
 raw = "Flywheels"
@@ -625,3 +649,4 @@ caES = "Volants d'inèrcia"
 beBY = "Махавікі"
 roRO = "Volante"
 huHU = "Lendkerekek"
+arSA = "دواليب الموازنة"

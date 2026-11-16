@@ -25,6 +25,7 @@ caES = "Probabilitat de: {0}"
 beBY = "Верагоднасць: {0}"
 roRO = "Șansă de: {0}"
 huHU = "Esélye: {0}"
+arSA = "احتمال حدوث: {0}"
 
 ["Grauschweif.Seasons.TooltipHeader"]
 raw = "<b>{0}</b> (year {1} day {2})"
@@ -50,6 +51,7 @@ caES = "<b>{0}</b> (any {1}, dia {2})"
 beBY = "<b>{0}</b> (год {1}, дзень {2})"
 roRO = "<b>{0}</b> (anul {1}, ziua {2})"
 huHU = "<b>{0}</b> ({1}. év {2}. nap)"
+arSA = "<b>{0}</b> (السنة {1}، اليوم {2})"
 
 ["Grauschweif.Seasons.TooltipNextSeason"]
 raw = "Next season in {0} days."
@@ -75,6 +77,7 @@ caES = "La temporada següent, d’aquí a {0} dies."
 beBY = "Наступны сезон праз {0} дн."
 roRO = "Următorul anotimp începe în {0} zile."
 huHU = "Következő évszak {0} nap múlva."
+arSA = "الموسم التالي بعد {0} أيام."
 
 ["Grauschweif.Seasons.Effect.PlantEffectsHeader"]
 raw = "<u>Plants</u>"
@@ -100,6 +103,7 @@ caES = "<u>Plantes</u>"
 beBY = "<u>Расліны</u>"
 roRO = "<u>Plante</u>"
 huHU = "<u>Növények</u>"
+arSA = "<u>النباتات</u>"
 
 ["Grauschweif.Seasons.Effect.Plant.GrowthBoost"]
 raw = "Growth time <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
@@ -125,6 +129,7 @@ caES = "Temps de creixement <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 beBY = "Час росту <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 roRO = "Timp de creștere <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 huHU = "Növekedési idő <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
+arSA = "وقت النمو <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 
 ["Grauschweif.Seasons.Effect.Plant.GrowthSlowdown"]
 raw = "Growth time <RedHighlight>+{0:0.#}%▲</RedHighlight>"
@@ -150,6 +155,7 @@ caES = "Temps de creixement <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 beBY = "Час росту <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 roRO = "Timp de creștere <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 huHU = "Növekedési idő <RedHighlight>+{0:0.#}%▲</RedHighlight>"
+arSA = "مدة النمو <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 
 ["Grauschweif.Seasons.Effect.Plant.DryingSlowdown"]
 raw = "Dry resistance <GreenHighlight>+{0:0.#}%▲</GreenHighlight>"
@@ -175,6 +181,7 @@ caES = "Resistència a l'assecament <GreenHighlight>+{0:0.#}%▲</GreenHighlight
 beBY = "Устойлівасць да высыхання <GreenHighlight>+{0:0.#}%▲</GreenHighlight>"
 roRO = "Rezistență la uscare <GreenHighlight>+{0:0.#}%▲</GreenHighlight>"
 huHU = "Szárazságtűrés <GreenHighlight>+{0:0.#}%▲</GreenHighlight>"
+arSA = "مقاومة الجفاف <GreenHighlight>+{0:0.#}%▲</GreenHighlight>"
 
 ["Grauschweif.Seasons.Effect.Plant.DryingBoost"]
 raw = "Dry resistance <RedHighlight>-{0:0.#}%▼</RedHighlight>"
@@ -200,6 +207,7 @@ caES = "Resistència a la sequedat <RedHighlight>-{0:0.#}%▼</RedHighlight>"
 beBY = "Устойлівасць да высыхання <RedHighlight>-{0:0.#}%▼</RedHighlight>"
 roRO = "Rezistență la uscare <RedHighlight>-{0:0.#}%▼</RedHighlight>"
 huHU = "Szárazságtűrés <RedHighlight>-{0:0.#}%▼</RedHighlight>"
+arSA = "مقاومة الجفاف <RedHighlight>-{0:0.#}%▼</RedHighlight>"
 
 ["Grauschweif.Seasons.Effect.Plant.YieldBoost"]
 raw = "Yield growth <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
@@ -225,6 +233,7 @@ caES = "Creixement del rendiment <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 beBY = "Рост ураджайнасці <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 roRO = "Creșterea recoltei <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 huHU = "Terméshozam növekedése <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
+arSA = "نمو المحصول <GreenHighlight>-{0:0.#}%▼</GreenHighlight>"
 
 ["Grauschweif.Seasons.Effect.Plant.YieldSlowdown"]
 raw = "Yield growth <RedHighlight>+{0:0.#}%▲</RedHighlight>"
@@ -250,6 +259,7 @@ caES = "Creixement del rendiment <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 beBY = "Прырост ураджайнасці <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 roRO = "Creșterea recoltei <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 huHU = "Terméshozam-növekedés <RedHighlight>+{0:0.#}%▲</RedHighlight>"
+arSA = "نمو الإنتاجية <RedHighlight>+{0:0.#}%▲</RedHighlight>"
 
 ["Grauschweif.Seasons.Effect.WaterSourceEffectsHeader"]
 raw = "<u>Water</u>"
@@ -275,6 +285,7 @@ caES = "<u>Aigua</u>"
 beBY = "<u>Вада</u>"
 roRO = "<u>Apă</u>"
 huHU = "<u>Víz</u>"
+arSA = "<u>الماء</u>"
 
 ["Grauschweif.Seasons.Effect.WaterSourceStrengthBoost"]
 raw = "Strength up <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
@@ -300,6 +311,7 @@ caES = "Augment de la força <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
 beBY = "Павелічэнне сілы <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
 roRO = "Intensitate crescută <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
 huHU = "Erősség növelése <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
+arSA = "زيادة القوة <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
 
 ["Grauschweif.Seasons.Effect.WaterSourceStrengthSlowdown"]
 raw = "Strength down <RedHighlight>{0:0.#}%▼</RedHighlight>"
@@ -325,6 +337,7 @@ caES = "Disminució de la força <RedHighlight>{0:0.#}%▼</RedHighlight>"
 beBY = "Зніжэнне сілы <RedHighlight>{0:0.#}%▼</RedHighlight>"
 roRO = "Intensitatea apei scade <RedHighlight>{0:0.#}%▼</RedHighlight>"
 huHU = "Erősségcsökkenés <RedHighlight>{0:0.#}%▼</RedHighlight>"
+arSA = "انخفاض القوة <RedHighlight>{0:0.#}%▼</RedHighlight>"
 
 ["Grauschweif.Seasons.Effect.WaterSourceContaminationBoost"]
 raw = "Contamination up <RedHighlight>{0:0.#}%▲</RedHighlight>"
@@ -350,6 +363,7 @@ caES = "Contaminació +<RedHighlight>{0:0.#}%▲</RedHighlight>"
 beBY = "Рост забруджвання <RedHighlight>{0:0.#}%▲</RedHighlight>"
 roRO = "Contaminare în creștere <RedHighlight>{0:0.#}%▲</RedHighlight>"
 huHU = "Szennyezettség növekedése <RedHighlight>{0:0.#}%▲</RedHighlight>"
+arSA = "زيادة التلوث <RedHighlight>{0:0.#}%▲</RedHighlight>"
 
 ["Grauschweif.Seasons.Effect.WaterSourceContaminationSlowdown"]
 raw = "Contamination down <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
@@ -375,6 +389,7 @@ caES = "Contaminació reduïda <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
 beBY = "Забруджванне зніжаецца на <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
 roRO = "Reducerea contaminării <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
 huHU = "Szennyezettség csökkenése <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
+arSA = "انخفاض التلوث <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
 
 ["Grauschweif.Seasons.Effect.NeedEffectsHeader"]
 raw = "<u>Needs</u>"
@@ -400,6 +415,7 @@ caES = "<u>Necessitats</u>"
 beBY = "<u>Патрэбы</u>"
 roRO = "<u>Nevoi</u>"
 huHU = "<u>Szükségletek</u>"
+arSA = "<u>الاحتياجات</u>"
 
 ["Grauschweif.Seasons.Effect.NeedChangeBoost"]
 raw = "{1} down <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
@@ -425,6 +441,7 @@ caES = "{1} a la baixa <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
 beBY = "{1} ніжэй на <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
 roRO = "{1} în scădere cu <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
 huHU = "{1} csökken <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
+arSA = "{1} أقل بنسبة <GreenHighlight>{0:0.#}%▼</GreenHighlight>"
 
 ["Grauschweif.Seasons.Effect.NeedChangeSlowdown"]
 raw = "{1} up <RedHighlight>{0:0.#}%▲</RedHighlight>"
@@ -450,6 +467,7 @@ caES = "Augment de {1} <RedHighlight>{0:0.#}%▲</RedHighlight>"
 beBY = "{1} павялічана на <RedHighlight>{0:0.#}%▲</RedHighlight>"
 roRO = "{1} crește cu <RedHighlight>{0:0.#}%▲</RedHighlight>"
 huHU = "{1} növekedése <RedHighlight>{0:0.#}%▲</RedHighlight>"
+arSA = "{1} يرتفع <RedHighlight>{0:0.#}%▲</RedHighlight>"
 
 ["Grauschweif.Seasons.Effect.BonusEffectsHeader"]
 raw = "<u>Boni</u>"
@@ -475,6 +493,7 @@ caES = "<u>Bonificacions</u>"
 beBY = "<u>Бонусы</u>"
 roRO = "<u>Bonusuri</u>"
 huHU = "<u>Bónuszok</u>"
+arSA = "<u>المكافآت</u>"
 
 ["Grauschweif.Seasons.Effect.BonusChangeBoost"]
 raw = "{1} up <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
@@ -500,6 +519,7 @@ caES = "{1} augmenta <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
 beBY = "{1} павялічана на <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
 roRO = "{1} crește cu <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
 huHU = "{1} növekedése <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
+arSA = "{1} أعلى بـ <GreenHighlight>{0:0.#}%▲</GreenHighlight>"
 
 ["Grauschweif.Seasons.Effect.BonusChangeSlowdown"]
 raw = "{1} down <RedHighlight>{0:0.#}%▼</RedHighlight>"
@@ -525,6 +545,7 @@ caES = "{1} menys <RedHighlight>{0:0.#}%▼</RedHighlight>"
 beBY = "{1} ніжэй на <RedHighlight>{0:0.#}%▼</RedHighlight>"
 roRO = "{1} în scădere <RedHighlight>{0:0.#}%▼</RedHighlight>"
 huHU = "{1} csökkenése <RedHighlight>{0:0.#}%▼</RedHighlight>"
+arSA = "انخفض {1} بنسبة <RedHighlight>{0:0.#}%▼</RedHighlight>"
 
 ["Grauschweif.Seasons.Effect.SoilMoistureEffectsHeader"]
 raw = "Moisture"
@@ -550,6 +571,7 @@ caES = "Humitat"
 beBY = "Вільготнасць"
 roRO = "Umiditate"
 huHU = "Nedvesség"
+arSA = "الرطوبة"
 
 ["Grauschweif.Seasons.Effect.SoilMoistureBoost"]
 raw = "Wet soil <GreenHighlight>+{0:0.#}%▼</GreenHighlight>"
@@ -575,6 +597,7 @@ caES = "Sòl humit <GreenHighlight>+{0:0.#}%▼</GreenHighlight>"
 beBY = "Вільготная глеба <GreenHighlight>+{0:0.#}%▼</GreenHighlight>"
 roRO = "Sol umed <GreenHighlight>+{0:0.#}%▼</GreenHighlight>"
 huHU = "Nedves talaj <GreenHighlight>+{0:0.#}%▼</GreenHighlight>"
+arSA = "رطوبة التربة <GreenHighlight>+{0:0.#}%▼</GreenHighlight>"
 
 ["Grauschweif.Seasons.Effect.SoilMoistureSlowdown"]
 raw = "Dry soil <RedHighlight>-{0:0.#}%▼</RedHighlight>"
@@ -600,6 +623,7 @@ caES = "Sòl sec <RedHighlight>-{0:0.#}%▼</RedHighlight>"
 beBY = "Сухая глеба <RedHighlight>-{0:0.#}%▼</RedHighlight>"
 roRO = "Sol uscat <RedHighlight>-{0:0.#}%▼</RedHighlight>"
 huHU = "Száraz talaj <RedHighlight>-{0:0.#}%▼</RedHighlight>"
+arSA = "جفاف التربة <RedHighlight>-{0:0.#}%▼</RedHighlight>"
 
 ["Grauschweif.Seasons.Effect.WindMoistureEffectsHeader"]
 raw = "Wind"
@@ -625,6 +649,7 @@ caES = "Vent"
 beBY = "Вецер"
 roRO = "Vânt"
 huHU = "Szél"
+arSA = "الرياح"
 
 ["Grauschweif.Seasons.Effect.WindBoost"]
 raw = "Stronger wind (+{0:0.#})"
@@ -650,6 +675,7 @@ caES = "Vent més fort (+{0:0.#})"
 beBY = "Мацнейшы вецер (+{0:0.#})"
 roRO = "Vânt mai puternic (+{0:0.#})"
 huHU = "Erősebb szél (+{0:0.#})"
+arSA = "رياح أقوى (+{0:0.#})"
 
 ["Grauschweif.Seasons.Effect.WindSlowdown"]
 raw = "Weaker wind (-{0:0.#})"
@@ -675,6 +701,7 @@ caES = "Vent més feble (-{0:0.#})"
 beBY = "Слабейшы вецер (-{0:0.#})"
 roRO = "Vânt mai slab (-{0:0.#})"
 huHU = "Gyengébb szél (-{0:0.#})"
+arSA = "رياح أضعف (-{0:0.#})"
 
 ["Grauschweif.Season.Weather.Badtide.Autumn"]
 raw = "Badtide"
@@ -700,6 +727,7 @@ caES = "Marea tòxica"
 beBY = "Таксічны прыліў"
 roRO = "Maree toxică"
 huHU = "Mérgező árhullám"
+arSA = "المدّ السام"
 
 ["Grauschweif.Season.Weather.Badtide.Spring"]
 raw = "Badtide"
@@ -725,6 +753,7 @@ caES = "Marea tòxica"
 beBY = "Прыліў забруджанай вады"
 roRO = "Mareea toxică"
 huHU = "Rosszvíz-áradás"
+arSA = "المدّ السام"
 
 ["Grauschweif.Season.Weather.Badtide.Summer"]
 raw = "Badtide"
@@ -750,6 +779,7 @@ caES = "Marea tòxica"
 beBY = "Таксічны прыліў"
 roRO = "Maree toxică"
 huHU = "Rosszvízár"
+arSA = "مدّ المياه الملوثة"
 
 ["Grauschweif.Season.Weather.Badtide.Winter"]
 raw = "Badtide"
@@ -775,6 +805,7 @@ caES = "Marea tòxica"
 beBY = "Таксічны прыліў"
 roRO = "Maree toxică"
 huHU = "Rosszvízár"
+arSA = "المدّ الملوّث"
 
 ["Grauschweif.Season.Weather.Drought.Autumn"]
 raw = "Drought"
@@ -800,6 +831,7 @@ caES = "Sequera"
 beBY = "Засуха"
 roRO = "Secetă"
 huHU = "Aszály"
+arSA = "جفاف"
 
 ["Grauschweif.Season.Weather.Drought.Spring"]
 raw = "Drought"
@@ -825,6 +857,7 @@ caES = "Sequera"
 beBY = "Засуха"
 roRO = "Secetă"
 huHU = "Aszály"
+arSA = "جفاف"
 
 ["Grauschweif.Season.Weather.Drought.Summer"]
 raw = "Drought"
@@ -850,6 +883,7 @@ caES = "Sequera"
 beBY = "Засуха"
 roRO = "Secetă"
 huHU = "Aszály"
+arSA = "الجفاف"
 
 ["Grauschweif.Season.Weather.Drought.Winter"]
 raw = "Drought"
@@ -875,6 +909,7 @@ caES = "Sequera"
 beBY = "Засуха"
 roRO = "Secetă"
 huHU = "Aszály"
+arSA = "الجفاف"
 
 ["Grauschweif.Season.Weather.Monsoon.Autumn"]
 raw = "Monsoon"
@@ -900,6 +935,7 @@ caES = "MonsóWinvalid"
 beBY = "Мусон"
 roRO = "Muson"
 huHU = "Monszun"
+arSA = "الرياح الموسمية"
 
 ["Grauschweif.Season.Weather.Monsoon.Summer"]
 raw = "Monsoon"
@@ -925,6 +961,7 @@ caES = "Monsó català"
 beBY = "Мусон"
 roRO = "Muson"
 huHU = "Monszun"
+arSA = "الرياح الموسمية"
 
 ["Grauschweif.Season.Weather.Monsoon.Winter"]
 raw = "Monsoon"
@@ -950,6 +987,7 @@ caES = "Monsóเติมเงินไทยฟรี"
 beBY = "Мусон"
 roRO = "Muson"
 huHU = "Monszun"
+arSA = "الرياح الموسمية"
 
 ["Grauschweif.Season.Weather.Rain.Autumn"]
 raw = "Rain"
@@ -975,6 +1013,7 @@ caES = "Pluja"
 beBY = "Дождж"
 roRO = "Ploaie"
 huHU = "Eső"
+arSA = "مطر"
 
 ["Grauschweif.Season.Weather.Rain.Spring"]
 raw = "Rain"
@@ -1000,6 +1039,7 @@ caES = "Pluja"
 beBY = "Дождж"
 roRO = "Ploaie"
 huHU = "Eső"
+arSA = "مطر"
 
 ["Grauschweif.Season.Weather.ShortTemperate.Summer"]
 raw = "Short Temperate"
@@ -1025,6 +1065,7 @@ caES = "Temperat curt"
 beBY = "Кароткае ўмеранае"
 roRO = "Scurtă, temperată"
 huHU = "Rövid, mérsékelt"
+arSA = "اعتدال قصير"
 
 ["Grauschweif.Season.Weather.Snow.Winter"]
 raw = "Snow"
@@ -1050,6 +1091,7 @@ caES = "Neu"
 beBY = "Снег"
 roRO = "Zăpadă"
 huHU = "Hó"
+arSA = "الثلج"
 
 ["Grauschweif.Season.Weather.SurprisinglyRefreshing.Autumn"]
 raw = "Surprisingly Refreshing"
@@ -1075,6 +1117,7 @@ caES = "Sorprenentment refrescant"
 beBY = "Нечакана асвяжальна"
 roRO = "Surprinzător de răcoritoare"
 huHU = "Meglepően üdítő"
+arSA = "منعش على نحو مفاجئ"
 
 ["Grauschweif.Season.Weather.SurprisinglyRefreshing.Spring"]
 raw = "Surprisingly Refreshing"
@@ -1100,6 +1143,7 @@ caES = "Sorprenentment refrescant"
 beBY = "Нечакана асвяжальна"
 roRO = "Surprinzător de revigorant"
 huHU = "Meglepően üdítő"
+arSA = "منعش على نحوٍ مفاجئ"
 
 ["Grauschweif.Season.Weather.Temperate.Autumn"]
 raw = "Temperate"
@@ -1125,6 +1169,7 @@ caES = "Temperat"
 beBY = "Умераны"
 roRO = "Temperat"
 huHU = "Mérsékelt éghajlatú"
+arSA = "معتدل"
 
 ["Grauschweif.Season.Weather.Temperate.Spring"]
 raw = "Temperate"
@@ -1150,6 +1195,7 @@ caES = "Temperat"
 beBY = "Умераны"
 roRO = "Temperat"
 huHU = "Mérsékelt"
+arSA = "معتدل"
 
 ["Grauschweif.Season.Weather.Temperate.Summer"]
 raw = "Temperate"
@@ -1175,6 +1221,7 @@ caES = "Temperat"
 beBY = "Умераны"
 roRO = "Temperat"
 huHU = "Mérsékelt"
+arSA = "معتدل"
 
 ["Grauschweif.Season.Weather.Temperate.Winter"]
 raw = "Temperate"
@@ -1200,3 +1247,4 @@ caES = "Temperat"
 beBY = "Умераны"
 roRO = "Temperat"
 huHU = "Mérsékelt"
+arSA = "معتدل"
