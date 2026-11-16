@@ -16,6 +16,8 @@ import sys
 import logging
 from pathlib import Path
 
+from util.display_text import display_text
+
 
 def setup_logger():
     """Setup logger with console and file handlers"""
@@ -201,9 +203,9 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
                                         empty_count += 1
                                         logger.info(f"Empty ingame translation for key '{translation_key}' in '{lang_code}' ({file_name})")
                                     else:
-                                        processed_text = translation_text
+                                        processed_text = display_text(translation_text, lang_code)
                                         if translation_text.startswith(' '):
-                                            processed_text = f'"{translation_text}"'
+                                            processed_text = f'"{processed_text}"'
                                         writer.writerow([translation_key, processed_text, "-"])
                         if empty_count > 0:
                             logger.info(f"Skipped {empty_count} empty ingame entries for {lang_code} in {file_name}")
@@ -279,9 +281,9 @@ def convert_toml_to_csv(data_dir, mod_dir, config_path=".github/config/config.to
                                     logger.info(f"Empty translation for key '{translation_key}' in language '{lang_code}' (file: {file_name})")
                                 else:
                                     # 如果文本以空格开头，为其添加双引号以防止游戏忽略前导空格
-                                    processed_text = translation_text
+                                    processed_text = display_text(translation_text, lang_code)
                                     if translation_text.startswith(' '):
-                                        processed_text = f'"{translation_text}"'
+                                        processed_text = f'"{processed_text}"'
                                         logger.info(f"Added quotes to preserve leading space for key '{translation_key}' in language '{lang_code}' (file: {file_name})")
                                     
                                     writer.writerow([translation_key, processed_text, "-"])

@@ -24,7 +24,9 @@ Thanks to the API credits bundled with the ChatGPT and Claude subscriptions. My 
 ## Supported languages
 
 - All 15 official game languages: English, Simplified Chinese, Traditional Chinese, Japanese, Korean, Russian, Ukrainian, German, French, Spanish, Italian, Polish, Brazilian Portuguese, Turkish, Thai
-- 6 languages the game does not ship, with the base game translated too: Czech, Vietnamese, Catalan, Belarusian, Romanian, Hungarian
+- 7 languages the game does not ship, with the base game translated too: Czech, Vietnamese, Catalan, Belarusian, Romanian, Hungarian, Arabic
+
+The game has no right-to-left layout, so Arabic is shipped pre-shaped and left-aligned; long lines that the game wraps read bottom-up.
 
 Mods that only translate other content (language packs and translation packs) are recognised and left alone.
 

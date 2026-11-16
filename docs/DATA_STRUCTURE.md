@@ -137,6 +137,7 @@ Languages the game does not ship. For these the base game text is translated as 
 - `beBY`: Belarusian
 - `roRO`: Romanian
 - `huHU`: Hungarian
+- `arSA`: Arabic (stored in normal reading order; the build converts it to joined, visually ordered text because the game cannot)
 
 ### Example: Complete Mod File
 
