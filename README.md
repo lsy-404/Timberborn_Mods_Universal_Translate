@@ -15,6 +15,12 @@
 
 - [Download From Mod.io](https://mod.io/g/timberborn/m/mods-universal-translate)
 
+## Project status
+
+This project is in automated maintenance. I rarely play Timberborn these days, but I still set aside part of my own API quota to keep the translations up to date, so that mods stay accessible to everyone.
+
+Thanks to the API credits bundled with the ChatGPT and Claude subscriptions. My API gateway routes each translation request to Luna or Haiku automatically, depending on usage.
+
 ## Join us
 
 ```
