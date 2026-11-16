@@ -137,7 +137,6 @@ Languages the game does not ship. For these the base game text is translated as 
 - `beBY`: Belarusian
 - `roRO`: Romanian
 - `huHU`: Hungarian
-- `zhHK`: Cantonese (Hong Kong)
 
 ### Example: Complete Mod File
 

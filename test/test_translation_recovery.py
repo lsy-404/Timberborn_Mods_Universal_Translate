@@ -151,7 +151,7 @@ class TranslationRecoveryTests(unittest.TestCase):
         self.assertTrue(report['cost_tracking_complete'])
 
     def test_authentication_and_permission_errors_are_not_retried(self):
-        for status in (401, 403, 429):
+        for status in (401, 403):
             with self.subTest(status=status):
                 self.post.reset_mock()
                 self.post.return_value = Mock(status_code=status, text='synthetic rejection')

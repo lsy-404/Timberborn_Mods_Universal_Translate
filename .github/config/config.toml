@@ -2,7 +2,7 @@
 [languages]
 # Supported languages for translation
 # Format: language_code (e.g., "enUS", "zhCN", "zhTW", etc.)
-supported = ["enUS", "zhCN", "zhTW", "ruRU", "jaJP", "frFR", "deDE", "plPL", "ptBR", "koKR", "trTR", "esES", "itIT", "ukUA", "thTH", "csCZ", "viVN", "caES", "beBY", "roRO", "huHU", "zhHK"]
+supported = ["enUS", "zhCN", "zhTW", "ruRU", "jaJP", "frFR", "deDE", "plPL", "ptBR", "koKR", "trTR", "esES", "itIT", "ukUA", "thTH", "csCZ", "viVN", "caES", "beBY", "roRO", "huHU"]
 game_supported = ["zhCN", "jaJP", "zhTW", "enUS", "frFR", "deDE", "esES", "plPL", "ptBR", "ruRU", "itIT", "koKR", "ukUA", "thTH", "trTR"]
 
 [languages.locale_names]
@@ -27,7 +27,6 @@ caES = "Catalan"
 beBY = "Belarusian"
 roRO = "Romanian"
 huHU = "Hungarian"
-zhHK = "Cantonese (Hong Kong, written in Traditional Chinese characters)"
 
 [build]
 protect_string_ids_file = "enUS.txt"
@@ -35,7 +34,7 @@ extra_protect_string_ids = ["Beaver.NamePool", "MainMenu.RosettaOn", "Settings.L
 
 [rate_limiter]
 # Maximum requests per minute (RPM)
-max_requests_per_minute = 400
+max_requests_per_minute = 450
 
 # File-level concurrency: how many files to translate in parallel.
 # Each file processes entries sequentially, but translates all languages
@@ -45,7 +44,7 @@ max_threads = 1
 
 # Maximum language-level threads per entry.
 # Within each entry, all target languages are translated in parallel.
-max_threads_per_file = 8
+max_threads_per_file = 16
 
 # Cost control settings
 # Key usage threshold in USD. New requests stop when the threshold is reached.

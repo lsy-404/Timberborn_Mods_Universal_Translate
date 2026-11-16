@@ -329,7 +329,11 @@ class TranslatorLLM:
                 # The gateway settles 429 and 5xx itself; the key usage counter stays authoritative
                 request_uncertain = response.status_code not in (429, 500, 502, 503, 504)
                 self.logger.error(f'Translation failed: HTTP {response.status_code}: {response.text.replace(self.api_token, "[redacted]")}')
-                retry_after = _retry_after_seconds(response) if response.status_code == 429 else None
+                retry_after = None
+                if response.status_code == 429:
+                    retry_after = _retry_after_seconds(response)
+                    if retry_after is None:
+                        retry_after = GATEWAY_BUSY_RETRY_SECONDS
                 retry = (f'HTTP 429;{retry_after}' if retry_after is not None else
                          f'HTTP {response.status_code}' if response.status_code in (500, 502, 503, 504) else None)
                 return None, retry
