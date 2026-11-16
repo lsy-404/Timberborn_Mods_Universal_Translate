@@ -21,6 +21,13 @@ This project is in automated maintenance. I rarely play Timberborn these days, b
 
 Thanks to the API credits bundled with the ChatGPT and Claude subscriptions. My API gateway routes each translation request to Luna or Haiku automatically, depending on usage.
 
+## Supported languages
+
+- All 15 official game languages: English, Simplified Chinese, Traditional Chinese, Japanese, Korean, Russian, Ukrainian, German, French, Spanish, Italian, Polish, Brazilian Portuguese, Turkish, Thai
+- 7 languages the game does not ship, with the base game translated too: Czech, Vietnamese, Catalan, Belarusian, Romanian, Hungarian, Cantonese (Hong Kong)
+
+Mods that only translate other content (language packs and translation packs) are recognised and left alone.
+
 ## Join us
 
 ```

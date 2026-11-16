@@ -121,8 +121,8 @@ class NamePoolTests(unittest.TestCase):
         self.assertEqual(report['request_count'], len(sources))
         self.assertEqual(report['unresolved_translation_count'], 0)
 
-    def test_real_pending_pool_is_split_without_changing_the_source(self):
-        source = toml.load(ROOT / 'data/3723851280.toml')['Beaver.NamePool']['raw']
+    def test_oversized_pool_is_split_without_changing_the_source(self):
+        source = '\n'.join(f'Name {index}' for index in range(900))
         self.assertGreater(len(source), 5000)
         self.post.side_effect = lambda *args, **kwargs: completion(
             json.loads(kwargs['json']['messages'][1]['content'])['source_text'])

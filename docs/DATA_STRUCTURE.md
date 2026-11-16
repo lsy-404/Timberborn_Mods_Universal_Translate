@@ -109,6 +109,10 @@ Hint: Most of time, you only need change prompt and translations.
 
 ### Supported Languages
 
+The authoritative list is `[languages].supported` in `.github/config/config.toml`.
+
+Official game languages:
+
 - `enUS`: English (US)
 - `zhCN`: Chinese (Simplified)
 - `zhTW`: Chinese (Traditional)
@@ -119,6 +123,21 @@ Hint: Most of time, you only need change prompt and translations.
 - `plPL`: Polish
 - `ptBR`: Portuguese (Brazil)
 - `koKR`: Korean
+- `trTR`: Turkish
+- `esES`: Spanish
+- `itIT`: Italian
+- `ukUA`: Ukrainian
+- `thTH`: Thai
+
+Languages the game does not ship. For these the base game text is translated as well (`data/_ingame*.toml`):
+
+- `csCZ`: Czech
+- `viVN`: Vietnamese
+- `caES`: Catalan
+- `beBY`: Belarusian
+- `roRO`: Romanian
+- `huHU`: Hungarian
+- `zhHK`: Cantonese (Hong Kong)
 
 ### Example: Complete Mod File
 

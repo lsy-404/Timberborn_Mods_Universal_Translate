@@ -2,7 +2,7 @@
 [languages]
 # Supported languages for translation
 # Format: language_code (e.g., "enUS", "zhCN", "zhTW", etc.)
-supported = ["enUS", "zhCN", "zhTW", "ruRU", "jaJP", "frFR", "deDE", "plPL", "ptBR", "koKR", "trTR", "esES", "itIT", "ukUA", "thTH", "csCZ", "viVN"]
+supported = ["enUS", "zhCN", "zhTW", "ruRU", "jaJP", "frFR", "deDE", "plPL", "ptBR", "koKR", "trTR", "esES", "itIT", "ukUA", "thTH", "csCZ", "viVN", "caES", "beBY", "roRO", "huHU", "zhHK"]
 game_supported = ["zhCN", "jaJP", "zhTW", "enUS", "frFR", "deDE", "esES", "plPL", "ptBR", "ruRU", "itIT", "koKR", "ukUA", "thTH", "trTR"]
 
 [languages.locale_names]
@@ -23,6 +23,11 @@ esES = "Spanish"
 itIT = "Italian"
 ukUA = "Ukrainian"
 thTH = "Thai"
+caES = "Catalan"
+beBY = "Belarusian"
+roRO = "Romanian"
+huHU = "Hungarian"
+zhHK = "Cantonese (Hong Kong, written in Traditional Chinese characters)"
 
 [build]
 protect_string_ids_file = "enUS.txt"
