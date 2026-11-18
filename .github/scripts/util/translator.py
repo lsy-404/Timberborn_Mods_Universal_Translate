@@ -36,6 +36,7 @@ QUOTA_REJECTIONS = frozenset({
     'budget_exceeded', 'allowance_denied', 'source_funding_denied', 'native_aggregate_budget_exceeded',
 })
 QUOTA_EXHAUSTED = 'quota_exhausted'
+CONNECTION_LOST = 'HTTP connection lost'
 
 
 def _retry_after_seconds(response, clamp=True):
@@ -331,16 +332,23 @@ class TranslatorLLM:
                 'prompt_cache_options': {'mode': 'explicit'}}
         metrics = None
         request_uncertain = False
+        connection_lost = False
         succeeded = False
         with self._cost_lock:
             self.request_count += 1
         try:
-            response = requests.post(
-                self.api_url,
-                headers={'Content-Type': 'application/json', 'Authorization': f'Bearer {self.api_token}',
-                         'session-id': self.session_id},
-                json=data, timeout=(10, 120),
-            )
+            try:
+                response = requests.post(
+                    self.api_url,
+                    headers={'Content-Type': 'application/json', 'Authorization': f'Bearer {self.api_token}',
+                             'session-id': self.session_id},
+                    json=data, timeout=(10, 120),
+                )
+            except requests.RequestException as error:
+                # The gateway settles whatever it started; the key usage counter stays authoritative
+                connection_lost = True
+                self.logger.error(f'Translation request failed: {str(error).replace(self.api_token, "[redacted]")}')
+                return None, CONNECTION_LOST
             if response.status_code == 403 and 'database is locked' in response.text:
                 # Rejected before admission, so no upstream request was made or charged
                 self.logger.warning('Gateway storage busy before admission (HTTP 403)')
@@ -412,7 +420,7 @@ class TranslatorLLM:
             with self._cost_lock:
                 if request_uncertain:
                     self._accounting_failed = True
-                    self.unknown_cost_requests += 1
+                self.unknown_cost_requests += request_uncertain or connection_lost
                 self._in_flight_requests -= 1
                 if metrics is not None:
                     for key, value in metrics.items():

@@ -89,14 +89,17 @@ class GatewayAccountingTests(unittest.TestCase):
 
     @patch('translator.requests.post')
     @patch('translator.requests.get')
-    def test_request_failure_is_unconfirmed(self, get, post):
+    def test_lost_connection_is_retried_without_stopping_the_run(self, get, post):
         import requests
         get.side_effect = self.setup_gateway([100, 100, 100])
-        post.side_effect = requests.Timeout('timeout')
+        post.side_effect = [requests.Timeout('timeout'), completion()]
         client = TranslatorLLM('token', rate_limit='')
-        self.assertIsNone(client.translate('source', 'fr', [], 'source'))
-        self.assertFalse(client.get_cost_summary_dict()['cost_tracking_complete'])
-        self.assertFalse(client.check_cost_limit())
+        with patch('translator.time.sleep'):
+            self.assertEqual(client.translate('source', 'fr', [], 'source'), 'traduit')
+        report = client.get_cost_summary_dict()
+        self.assertEqual(report['unknown_cost_requests'], 1)
+        self.assertTrue(report['cost_tracking_complete'])
+        self.assertTrue(client.check_cost_limit())
 
     def test_counter_decrease_outside_inflight_is_rejected(self):
         client = TranslatorLLM('token', rate_limit='')
