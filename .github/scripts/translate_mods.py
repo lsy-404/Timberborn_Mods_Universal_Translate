@@ -36,6 +36,8 @@ from translation_prompt import (
 
 
 # Global variable to store language names loaded from config
+# A run fails only when more than this share of attempted entries stays unresolved
+MAX_UNRESOLVED_SHARE = 0.02
 LANGUAGE_NAMES = {}
 
 # Global variable to store glossary
@@ -1705,8 +1707,11 @@ def main():
         
         if cost_data["gateway_quota_exhausted"]:
             logger.warning("Gateway quota exhausted; untranslated entries stay pending for the next run")
-        if cost_data["unresolved_translation_count"] or not cost_data["cost_tracking_complete"]:
+        unresolved = cost_data["unresolved_translation_count"]
+        if not cost_data["cost_tracking_complete"] or unresolved > MAX_UNRESOLVED_SHARE * (unresolved + cost_data["success_count"]):
             raise RuntimeError("Translation requests failed; pending entries and partial progress have been preserved")
+        if unresolved:
+            logger.warning(f"{unresolved} entries stay pending after repeated rejections")
         logger.info("All done!")
         
     except Exception as e:

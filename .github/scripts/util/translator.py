@@ -37,6 +37,7 @@ QUOTA_REJECTIONS = frozenset({
 })
 QUOTA_EXHAUSTED = 'quota_exhausted'
 CONNECTION_LOST = 'HTTP connection lost'
+OUTPUT_TRUNCATED = 'output truncated'
 
 
 def _retry_after_seconds(response, clamp=True):
@@ -299,7 +300,7 @@ class TranslatorLLM:
             if retry_reason.startswith('HTTP ') and ';' in retry_reason:
                 time.sleep(float(retry_reason.split(';', 1)[1]))
                 continue
-            if not retry_reason.startswith('HTTP '):
+            if not retry_reason.startswith('HTTP ') and retry_reason != OUTPUT_TRUNCATED:
                 feedback = (
                     f'The previous response failed validation: {retry_reason}. '
                     'Translate the same source_text again. Return only the complete localized string. '
@@ -387,7 +388,7 @@ class TranslatorLLM:
             finish_reason = choice.get('finish_reason', 'stop')
             if returned_model != self.model or finish_reason != 'stop':
                 self.logger.error(f'Rejected completion: model={returned_model}, reasoning={metrics["reasoning"]}, finish={finish_reason}')
-                return None, None
+                return None, OUTPUT_TRUNCATED if returned_model == self.model and finish_reason == 'length' else None
             translated = choice['message']['content']
             if not isinstance(translated, str) or not translated.strip():
                 self.logger.error('Rejected empty or malformed completion')
@@ -402,7 +403,9 @@ class TranslatorLLM:
             translated = restore_source_line_breaks(text, translated)
             issues = protected_format_issues(text, translated, preserve_line_entries)
             if issues:
-                self.logger.error(f'Rejected protected formatting changes: {issues}')
+                self.logger.error(
+                    'Rejected protected formatting changes: %s (line breaks %s -> %s)', issues,
+                    *(list(protected_format_signature(value)['line_breaks'].values()) for value in (text, translated)))
                 return None, ', '.join(issues)
             missing = missing_required_terms(text, translated, target_language)
             if missing:

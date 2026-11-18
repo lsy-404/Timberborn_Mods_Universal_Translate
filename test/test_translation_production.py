@@ -142,10 +142,11 @@ class ProductionTranslationTests(unittest.TestCase):
         post.return_value = response(finish='length')
         translator = self.translator()
         system, user = self.prompts()
-        self.assertIsNone(translator.translate(json.loads(user)['source_text'], 'zhCN', system, user))
+        with patch('translator.time.sleep'):
+            self.assertIsNone(translator.translate(json.loads(user)['source_text'], 'zhCN', system, user))
         report = translator.get_cost_summary_dict()
         self.assertEqual(report['success_count'], 0)
-        self.assertEqual(report['fail_count'], 1)
+        self.assertEqual(report['fail_count'], 2)
 
     @patch('translator.requests.post')
     def test_reasoning_output_is_accounted_for(self, post):
