@@ -329,7 +329,7 @@ jobs:
         if: always()
         run: |
           {
-            echo "## Translation Cost Report"
+            echo "## Translation Report"
             python3 .github/scripts/cost_summary.py
           } >> "$GITHUB_STEP_SUMMARY"
 
