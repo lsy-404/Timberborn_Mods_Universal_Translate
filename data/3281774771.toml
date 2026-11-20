@@ -152,6 +152,7 @@ thTH = "\"และ<i>นั่นแหละ</i>คือเหตุผลท
 csCZ = "\"A <i>to</i> je důvod, proč potřebujeme vzdělání.\" —Vědecký bobr"
 viVN = "\"Và <i>đó</i> là lý do chúng ta cần giáo dục\"\n—Một nhà khoa học hải ly"
 caES = "\"I aquesta <i>és</i> la raó per la qual necessitem educació\"\n—Un castor científic"
+beBY = "«І <i>менавіта таму</i> нам патрэбна адукацыя»\n—Бабёр-навуковец"
 roRO = "\"Și <i>asta</i> este motivul pentru care avem nevoie de educație\"\n—Un castor savant"
 huHU = "\"És <i>ezért</i> van szükségünk oktatásra\" \n—Egy tudós hód"
 arSA = "\"وهذا بالضبط ما يُثبت أننا بحاجة إلى التعليم\" \"<i>ذلك</i>\n—قندس عالِم"
@@ -283,6 +284,7 @@ viVN = "Một nền tảng tệ hại, một sự xấu hổ cho loài hải ly.
 caES = "Una pobra excusa de plataforma, una vergonya per a tots els castors.\n<color=green>Més variants disponibles amb el mod \"More groups\" </color>"
 beBY = "Нікчэмная пляцоўка, ганьба для бабрыннага роду.\n<color=green>Больш варыянтаў даступна з модам \"More groups\" </color>"
 roRO = "O scuză jalnică de platformă, o rușine pentru neamul castorilor.\n<color=green>Mai multe variante sunt disponibile cu modul „More groups” </color>"
+huHU = "Egy platformnak is csak jóindulattal nevezhető, szégyen a hódnépre.\n<color=green>További változatok érhetők el a \"More groups\" moddal </color>"
 arSA = "أداة منصة بائسة ومخزية، عار على جنس القنادس.\n<color=green>توجد متغيرات أكثر متاحة مع مود \"More groups\" </color>"
 
 ["Lapantouflemagic.Crappyplatform.FlavorDescription"]

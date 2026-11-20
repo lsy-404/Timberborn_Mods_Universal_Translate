@@ -122,10 +122,13 @@ trTR = "İnsanlardan alınan bir banyo kılavuzunun ismiyle ilham alınmıştır
 esES = "Inspirado en el nombre recuperado de un \\manual de baño de hooman\\\". Aparentemente, las explosiones eran parte de la higiene adecuada."
 itIT = "Ispirato dal nome recuperato da un \\manuale del bagno\\\" di hooman. Pare che le esplosioni fossero parte della corretta igiene.\""
 ukUA = "Назву натхнено ім'ям, відновленим із «посібника з ванної кімнати» для хуманів. Схоже, вибухи були частиною належної гігієни."
+thTH = "ได้แรงบันดาลใจจากชื่อที่กู้คืนมาจาก \\คู่มือห้องน้ำของมนุษย์\\\" เห็นได้ชัดว่าการระเบิดเป็นส่วนหนึ่งของสุขอนามัยที่เหมาะสม\""
 csCZ = "Inspirováno názvem převzatým z manuálu pro lidské toalety. Zřejmě výbuchy byly součástí správné hygieny."
 viVN = "Lấy cảm hứng từ cái tên được tìm thấy trong một hướng dẫn sử dụng nhà vệ sinh của con người. Rõ ràng, những vụ nổ là một phần của vệ sinh đúng cách."
+caES = "Inspirat en el nom trobat en un manual de \\bany humà\\\". Pel que sembla, les explosions formaven part d'una higiene adequada.\""
 beBY = "Натхнёна назвай, знойдзенай у падручніку для hooman \\bathroom manual\\\". Відаць, выбухі былі часткай належнай гігіены.\""
 roRO = "Inspirat de numele recuperat dintr-un \\manual de baie\\\" al unui hooman. Aparent, exploziile făceau parte din igiena corectă.\""
+huHU = "Egy hooman \\fürdőszobai kézikönyvből\\\" előkerült név ihlette. Úgy tűnik, a robbanások a megfelelő higiénia részei voltak.\\\""
 arSA = "مستوحى من الاسم المستعاد من \\\"دليل الحمّام\\\" لدى البشر. يبدو أن الانفجارات كانت جزءًا من النظافة السليمة.\""
 
 ["LV.BBb.DirtyBathBomb.GoodName"]
