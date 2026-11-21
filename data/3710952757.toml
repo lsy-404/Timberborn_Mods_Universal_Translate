@@ -256,6 +256,7 @@ thTH = "เปิดใช้การจัดเก็บของ Distro ส�
 csCZ = "Zda je výchozí nastavení Distro úložiště povoleno pro tyto."
 viVN = "Cho biết liệu kho phân phối có được kích hoạt mặc định cho những thứ này hay không."
 caES = "Si l'emmagatzematge de Distro està activat per defecte per a aquests."
+beBY = "Ці сховішчы Distro уключаны па змаўчанні?"
 roRO = "Dacă stocarea Distro este activată implicit pentru acestea."
 huHU = "Az, hogy a Distro tárolás alapértelmezetten engedélyezve van-e ezeknél."
 arSA = "هل تُفعَّل تخزينات الموزِّع افتراضيًا لهذه المباني؟"
