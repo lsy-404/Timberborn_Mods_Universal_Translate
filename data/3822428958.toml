@@ -330,6 +330,7 @@ trTR = "Stok koruması (?)"
 esES = "Guardia de existencias (?)"
 itIT = "Guardia della scorta (?)"
 ukUA = "Охоронець складу (?)"
+thTH = "เฝ้าระวังสต็อก (?)"
 csCZ = "Ochrana zásob (?)"
 viVN = "Bảo vệ tồn kho (?)"
 caES = "Guardià de estoc (?)"
@@ -647,6 +648,7 @@ viVN = "Một số công việc sửa chữa không thể bắt đầu: khu đ�
 caES = "Algunes reparacions no es poden iniciar: al districte falten béns. Consulta «Esperant béns» en aquest edifici."
 beBY = "Некаторыя рамонты немагчыма пачаць: у раёне не хапае тавараў. Глядзіце «Чаканне тавараў» на гэтым будынку."
 roRO = "Unele reparații nu pot începe: districtul nu are suficiente bunuri. Consultați „Se așteaptă bunuri” de pe această clădire."
+huHU = "Néhány javítás nem kezdődhet el: a körzetben nincs elegendő áru. Lásd ennél az épületnél az „Árukra vár” jelzést."
 arSA = "بعض عمليات الإصلاح لا يمكن أن تبدأ: المنطقة تعاني نقصاً في السلع. راجع \"في انتظار السلع\" على هذا المبنى."
 
 ["Status.RepairManager.NoGoods.Short"]
@@ -900,6 +902,7 @@ trTR = "Yeni haritaların zorluk seviyesi.\\nHer harita, başladığı zorluk se
 esES = "El dificultad para mapas nuevos.\\nCada mapa conserva la dificultad con la que se inició,\\npor lo que cambiar esto no afectará a los mapas que ya tienes.\\nAuto sigue la elección de dificultad del propio juego.\\nPersonalizada usa los ajustes de Categorías, Velocidad y tiempo, Producción de las máquinas\\ny Edificios pausados que aparecen abajo."
 itIT = "La difficoltà per le nuove mappe.\\nOgni mappa mantiene la difficoltà con cui è stata avviata,\\nquindi modificare questa impostazione non influirà sulle mappe che hai già.\\nAuto segue la scelta di difficoltà del gioco stesso.\\nPersonalizzato utilizza le impostazioni Categorie, Velocità e tempi, Produzione delle macchine\\ne Edifici in pausa qui sotto."
 ukUA = "Складність для нових мап.\\nКожна мапа зберігає складність, з якою була розпочата,\\nтож зміна цього налаштування не вплине на мапи, які у вас уже є.\\nAuto дотримується вибору складності, встановленого в самій грі.\\nCustom використовує наведені нижче налаштування: Categories, Speed & Timing, Machine Output\\nта Paused Buildings."
+thTH = "ระดับความยากสำหรับแผนที่ใหม่.\\nแผนที่แต่ละแผนที่จะคงระดับความยากที่เริ่มต้นไว้\\nดังนั้นการเปลี่ยนค่านี้จะไม่มีผลกับแผนที่ที่คุณมีอยู่แล้ว\\nอัตโนมัติจะใช้ตัวเลือกระดับความยากของเกม\\nกำหนดเองจะใช้การตั้งค่า หมวดหมู่, ความเร็วและเวลา, ผลผลิตเครื่องจักร\\nและอาคารที่หยุดชั่วคราวด้านล่าง"
 csCZ = "Obtížnost nových map.\\nKaždá mapa si zachovává obtížnost, se kterou začínala,\\ntakže změna tohoto nastavení neovlivní mapy, které už máte.\\nAutomaticky použije obtížnost zvolenou samotnou hrou.\\nVlastní nastavení používá níže uvedené volby Kategorie, Rychlost a načasování, Výstup strojů\\na Pozastavené budovy."
 viVN = "Độ khó cho các bản đồ mới.\\nMỗi bản đồ giữ nguyên độ khó lúc bắt đầu,\\nnên thay đổi tùy chọn này sẽ không ảnh hưởng đến các bản đồ bạn đã có.\\nTự động dùng lựa chọn độ khó của trò chơi.\\nTùy chỉnh dùng các cài đặt Danh mục, Tốc độ & Thời gian, Sản lượng máy\\nvà Công trình tạm dừng bên dưới."
 caES = "La dificultat per als mapes nous.\\nCada mapa manté la dificultat amb què va començar,\\nper tant, canviar-ho no afectarà els mapes que ja tens.\\nAutomàtic segueix l'elecció de dificultat del mateix joc.\\nPersonalitzat utilitza els ajustos de Categories, Velocitat i temporització, Producció de les màquines\\ni Edificis en pausa que hi ha a sota."

@@ -1883,6 +1883,7 @@ viVN = "Lò than"
 caES = "Braser"
 beBY = "Жаравальня"
 roRO = "Brazier"
+huHU = "Parázsló"
 arSA = "مِجْمَرَة"
 
 ["Building.Brazier.FlavorDescription"]
@@ -3094,6 +3095,7 @@ caES = "Dinamita"
 beBY = "Дынаміт"
 roRO = "Dinamită"
 huHU = "Dinamit"
+arSA = "ديناميت"
 
 ["Building.Dynamite.ExplosionDepth"]
 raw = "Explosion depth: {0}"
@@ -6114,6 +6116,7 @@ viVN = "Nền tảng"
 caES = "Plataforma"
 beBY = "Платформа"
 roRO = "Platformă"
+huHU = "Platform"
 arSA = "منصة"
 
 ["Building.Platform.FlavorDescription"]
@@ -17398,6 +17401,7 @@ csCZ = "\"Chutná jako papír, křupe jako odplavené dřevo.\" - Poznámka: Nen
 viVN = "Có vị như giấy, giòn như gỗ trôi."
 caES = "Té gust de paper, cruixeix com fusta flotant."
 beBY = "Смакуе як папера, хрумсціць як плаўнік."
+roRO = "Are gust a gust de hârtie, trosnește ca lemnul plutitor."
 huHU = "Papírízű, mint a sodródó fa, úgy ropog."
 arSA = "يطعم كالورق، ويطقطق كالخشب الطافي."
 
@@ -22971,6 +22975,7 @@ viVN = "d"
 caES = "d"
 beBY = "д"
 roRO = "d"
+huHU = "d"
 arSA = "ي"
 
 ["Unit.Degree.NumberAndUnit"]

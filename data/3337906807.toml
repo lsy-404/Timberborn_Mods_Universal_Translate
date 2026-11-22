@@ -770,10 +770,16 @@ ptBR = "Especifica se os azulejos devem ter uma aparência verde brilhante (bem 
 koKR = "타일이 반짝이는 초록색(잘 수분이 공급된 상태)으로 보일지 여부를 지정합니다. 그렇지 않으면, 관개 타워가 기본 수분 수준만 제공하므로 재고 논리는 이를 '거의 수분이 공급되지 않음'으로 표시합니다."
 trTR = "Dökme seviyelerini belirler; eğer daha iyi nemlendirilmiş görünmesi gerekiyorsa, dökme seviyeleri 'zorla nemlendirilmiş' olarak gösterilir çünkü sulama kuleleri sadece temel nem seviyesini sağlar."
 esES = "Especifica si las casillas deben verse de un verde brillante (bien humedecidas).\nDe lo contrario, la lógica estándar las mostrará como \"apenas humedecidas\", ya que las torres de riego solo proporcionan el nivel base de humedad."
+itIT = "Specifica se le caselle devono apparire di un verde brillante (ben idratate). Altrimenti, la logica predefinita\nle mostrerà come «appena idratate», poiché le torri di irrigazione forniscono solo il livello base di umidità."
 ukUA = "Визначає, чи мають плитки виглядати яскравo-зеленими (добре зволоженими). Інакше стандартна логіка\nпоказуватиме їх як «ледь зволожені», оскільки іригаційні башти дають лише базовий рівень вологи."
 thTH = "ระบุว่าพื้นกระเบื้องควรแสดงเป็นสีเขียวเงาวาว (ความชุ่มชื้นดี) หรือไม่\nหากไม่ระบุ ระบบเดิมของเกมจะแสดงว่า \"ความชุ่มชื้นน้อยมาก\" เพราะหอส่งน้ำให้ความชุ่มชื้นได้เพียงระดับพื้นฐานเท่านั้น"
 csCZ = "Určuje, zda by měly dlaždice vypadat leskle zeleně (dobře zvlhčené). Jinak je standardní logika zobrazí jako 'téměř zvlhčené', protože zavlažovací věže poskytují pouze základní úroveň vlhkosti."
 viVN = "Xác định xem các ô lát có nên trông bóng xanh (được làm ẩm tốt). Ngược lại, logic mặc định\nsẽ hiển thị chúng là 'gần như không được làm ẩm' do các tháp tưới chỉ cung cấp mức ẩm cơ sở."
+caES = "Indica si les caselles han de tenir un aspecte verd lluent (ben humitejades). En cas contrari, la lògica predeterminada\nles mostrarà com a «amb prou feines humitejades», ja que les torres de reg només proporcionen el nivell d'humitat bàsic."
+beBY = "Вызначае, ці павінны клеткі выглядаць бліскуча-зялёнымі (добра ўвільготненымі). Інакш стандартная логіка\nбудзе паказваць іх як «ледзь увільготненыя», бо ірыгацыйныя вежы забяспечваюць толькі базавы ўзровень вільготнасці."
+roRO = "Specifică dacă dalele ar trebui să aibă un aspect verde lucios (bine umezite). Altfel, logica standard\nle va afișa ca „abia umezite”, deoarece turnurile de irigare oferă doar nivelul de bază al umidității."
+huHU = "Meghatározza, hogy a mezők fényes zöldnek (jól nedvesítettnek) tűnjenek-e. Ellenkező esetben az alapértelmezett logika\n„alig nedvesítettként” jeleníti meg őket, mivel az öntözőtornyok csak az alapvető nedvességszintet biztosítják."
+arSA = "يحدد ما إذا كان ينبغي أن تبدو البلاطات خضراء لامعة (مرطبة جيدًا). وإلا، فسيعرضها المنطق الافتراضي\nعلى أنها «مرطبة بالكاد» لأن أبراج الري تمنحها مستوى الرطوبة الأساسي فقط."
 
 ["IgorZ.TimberCommons.Settings.WaterBuildingsSection"]
 raw = "Water buildings"

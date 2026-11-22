@@ -311,6 +311,7 @@ caES = "Scrap Coper"
 beBY = "Скрап-копер"
 roRO = "Scrap Coper"
 huHU = "Scrap Coperek"
+arSA = "خردة النحاس"
 
 ["Good.Coper.DisplayName"]
 raw = "Coper"
