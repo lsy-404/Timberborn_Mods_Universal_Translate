@@ -311,6 +311,7 @@ caES = "Pin"
 beBY = "Пін"
 roRO = "Pin"
 huHU = "Pin"
+arSA = "دبوس"
 
 [DuplicableName_PinComponent]
 raw = "Pin"

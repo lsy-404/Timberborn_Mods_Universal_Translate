@@ -1845,6 +1845,7 @@ caES = "Doble desbordament\nMur de l'aqüeducte"
 beBY = "Падвойны зрух\nСцяна акведука"
 roRO = "Perete dublu decalat\nApeduct"
 huHU = "Dupla eltolású\nVízvezeték fal"
+arSA = "إزاحة مزدوجة \nجدار قناة مائية"
 
 ["Knatte.Aqueduct_Wall4.Description"]
 raw = "Block water from enter the same block as wall"
