@@ -41,6 +41,7 @@ raw = "Please help us make the game better by sharing data on how you play Timbe
 status = "normal"
 csCZ = "Pomozte nám zlepšit hru tím, že budete sdílet data o tom, jak hrajete Timberborn.\n\nPokud souhlasíte, budeme automaticky sbírat informace související s hraním během vašich herních seancí.\n\nMůžete jít do nastavení ve hře, abyste odvolali svůj souhlas a smazali svá data kdykoli. Pro více informací viz náš <link><u>zásady ochrany osobních údajů</u></link>.\n\nDěkujeme!"
 viVN = "Vui lòng giúp chúng tôi làm cho trò chơi tốt hơn bằng cách chia sẻ dữ liệu về cách bạn chơi Timberborn.\n\nNếu bạn đồng ý, chúng tôi sẽ tự động thu thập thông tin liên quan đến việc chơi trong suốt các phiên chơi của bạn.\n\nBạn có thể vào cài đặt trong trò chơi để rút lại sự đồng ý và xóa dữ liệu của bạn bất cứ lúc nào. Để biết thêm thông tin, hãy xem <link><u>chính sách bảo mật</u></link>.\n\nCảm ơn bạn!"
+beBY = "Калі ласка, дапамажыце нам зрабіць гульню лепшай, падзяліўшыся данымі пра тое, як вы гуляеце ў Timberborn.\r\n\r\nКалі вы згодныя, мы будзем аўтаматычна збіраць інфармацыю, звязаную з гульнявым працэсам, падчас вашых гульнявых сеансаў.\r\n\r\nВы можаце ў любы час адклікаць сваю згоду і выдаліць свае даныя ў наладах гульні. Больш падрабязную інфармацыю глядзіце ў нашай <link><u>палітыцы прыватнасці</u></link>.\r\n\r\nДзякуй!"
 roRO = "Vă rugăm să ne ajutați să îmbunătățim jocul, împărtășind date despre felul în care jucați Timberborn.\r\n\r\nDacă sunteți de acord, vom colecta automat informații legate de joc în timpul sesiunilor de joc.\r\n\r\nVă puteți retrage consimțământul și șterge datele oricând din setările jocului. Pentru mai multe informații, consultați <link><u>politica de confidențialitate</u></link>.\r\n\r\nVă mulțumim!"
 huHU = "Kérjük, segíts jobbá tenni a játékot azzal, hogy megosztod velünk, hogyan játszol a Timberbornnal.\r\n\r\nHa beleegyezel, automatikusan gyűjtünk játékmenettel kapcsolatos adatokat a játékalkalmaid során.\r\n\r\nA beleegyezésedet bármikor visszavonhatod, és törölheted az adataidat a játékon belüli beállításokban. További információért olvasd el az <link><u>adatvédelmi szabályzatunkat</u></link>.\r\n\r\nKöszönjük!"
 
@@ -11026,6 +11027,7 @@ status = "normal"
 prompt = "Welcome text that is shown to players of the experimental versions of the game."
 csCZ = "Tato verze Timberbornu vám dává přístup k prototypovým, nedokončeným funkcím. Je tedy také mnohem pravděpodobnější, že bude obsahovat závažné chyby. Jste opravdu odvážná bobřík.\n\nExperimentální úložiště jsou ukládána odděleně od hlavní hry. Aktualizace mohou narušit kompatibilitu uložených her.\n\nV tomto experimentálním režimu <RedHighlight>mnohé části hry nejsou přeloženy a zobrazují se v angličtině</RedHighlight>, bez ohledu na váš výběr jazyka. To nám umožňuje přidávat nový obsah a provádět rychlé změny, aniž bychom museli čekat na časově náročné překlady.\n\nDůrazně doporučujeme, abyste se připojili k našemu oficiálnímu serveru Discord a zúčastnili se diskuse o novém obsahu."
 viVN = "Phiên bản Timberborn này cho bạn quyền truy cập vào các tính năng nguyên mẫu, chưa hoàn thiện. Vì vậy, nó cũng có khả năng gặp lỗi nghiêm trọng. Bạn thực sự là một chú hải ly dũng cảm.\n\nCác bản lưu ở chế độ Experimental được lưu riêng biệt với trò chơi chính. Các bản cập nhật có khả năng làm hỏng tính tương thích của các bản lưu.\n\nTrong chế độ thử nghiệm này <RedHighlight>nhiều phần của trò chơi chưa được dịch và được hiển thị bằng tiếng Anh</RedHighlight>, bất kể lựa chọn ngôn ngữ của bạn. Điều này cho phép chúng tôi thêm nội dung mới và thực hiện các thay đổi nhanh chóng mà không phải chờ đợi các bản dịch tốn thời gian.\n\nChúng tôi rất khuyến khích bạn tham gia máy chủ Discord chính thức của chúng tôi và tham gia vào cuộc thảo luận về nội dung mới."
+beBY = "Гэтая версія Timberborn дае вам доступ да прататыпных, незавершаных функцый. Таму ў ёй значна часцей могуць сустракацца сур'ёзныя памылкі. Вы і сапраўды адважны бабёр.\r\n\r\nЗахаванні з эксперыментальнага рэжыму захоўваюцца асобна ад асноўнай гульні. Абнаўленні, верагодна, парушаць сумяшчальнасць захаванняў.\r\n\r\nУ гэтым эксперыментальным рэжыме <RedHighlight>многія часткі гульні не перакладзеныя і паказваюцца па-англійску</RedHighlight> незалежна ад абранай мовы. Гэта дазваляе нам дадаваць новы кантэнт і хутка ўносіць змены, не чакаючы працяглых перакладаў.\r\n\r\nМы настойліва раім далучыцца да нашага афіцыйнага сервера Discord і ўдзельнічаць у абмеркаванні новага кантэнту."
 
 ["Explosions.BlownInExplosionMessage"]
 raw = "{0} was blown up."
@@ -11045,6 +11047,7 @@ status = "normal"
 prompt = "Description of a beaver faction"
 csCZ = "Pohodoví, ale pracovití, Folktails jsou zkušení farmáři.\nRespektují přírodu a ta je odměňuje hojností úrody.\nJejich motto: <i>Pohoda, jídlo a pevné dřevo.</i>"
 viVN = "Dễ tính nhưng chăm chỉ, Folktails là những nông dân lão luyện. Họ tôn trọng thiên nhiên và thiên nhiên đáp lại bằng những vụ mùa bội thu. Khẩu hiệu của họ: <i>Sự thoải mái, thức ăn và gỗ chắc chắn.</i>"
+beBY = "Нязмушаныя, але працавітыя, Фолктэйлы — выдатныя земляробы. Яны паважаюць прыроду, і яна ўзнагароджвае іх шчодрымі дарамі.\r\nІх дэвіз: <i>Утульнасць, ежа і моцная драўніна.</i>"
 roRO = "Relaxați, dar harnici, Folktails sunt fermieri experți. Respectă natura, iar aceasta îi răsplătește cu recolte bogate.\r\nMotto-ul lor: <i>Confort, hrană și lemn rezistent.</i>"
 huHU = "Könnyed természetűek, de szorgalmasak: a Folktails tagjai kiváló földművesek. Tisztelik a természetet, amely bőséges terméssel jutalmazza őket.\r\nJelszavuk: <i>Kényelem, élelem és masszív fa.</i>"
 arSA = "الفولكتيلز ودودون لكنهم مجتهدون، وهم مزارعون خبراء. يحترمون الطبيعة، وهي تكافئهم بخيرات وفيرة.\r\nشعارهم: <i>الراحة والطعام والخشب المتين.</i>"
@@ -14730,6 +14733,8 @@ csCZ = "Tato kombinace kláves je již přiřazena k:\n\n{0}\n\nChcete ji přest
 viVN = "Tổ hợp phím này đã được gán cho: \n\n{0}\n\nBạn có muốn tiếp tục gán nó không?"
 caES = "Aquesta combinació de tecles ja està assignada a: \r\n\r\n{0}\r\n\r\nLa vols assignar igualment?"
 beBY = "Гэта спалучэнне клавіш ужо прызначана для: \r\n\r\n{0}\r\n\r\nУсё роўна прызначыць яго?"
+roRO = "Această combinație de taste este deja atribuită pentru: \r\n\r\n{0}\r\n\r\nDoriți să o atribuiți oricum?"
+huHU = "Ez a billentyűkombináció már hozzá van rendelve ehhez:\r\n\r\n{0}\r\n\r\nEnnek ellenére hozzá szeretnéd rendelni?"
 arSA = "تم تعيين مجموعة المفاتيح هذه بالفعل إلى: \r\n\r\n{0}\r\n\r\nهل تريد تعيينها على أي حال؟"
 
 ["KeyBindingBox.PrimaryBinding"]
@@ -15001,6 +15006,7 @@ prompt = "Shown when there are issues with loading map - warning player about po
 csCZ = "To je pravděpodobně způsobeno chybějícími mody nebo novější verzí hry.\n\nMůžete pokračovat v hraní, ale vaše mapa může být neúplná."
 viVN = "Điều này có thể do thiếu các mod hoặc phiên bản trò chơi mới hơn.\n\nBạn có thể tiếp tục chơi, nhưng bản đồ của bạn có thể chưa hoàn chỉnh."
 caES = "Probablement això es deu a mods que falten o a una versió més nova del joc.\r\n\r\nPots continuar jugant, però és possible que el mapa estigui incomplet."
+roRO = "Este probabil cauzat de moduri lipsă sau de o versiune mai nouă a jocului.\r\n\r\nPuteți continua să jucați, dar este posibil ca harta să fie incompletă."
 huHU = "Ezt valószínűleg modok hiánya vagy a játék újabb verziója okozza.\r\n\r\nFolytathatod a játékot, de a térképed hiányos lehet."
 
 ["LoadingIssue.PrefabNotFoundIssue"]
@@ -15048,6 +15054,7 @@ viVN = "• Đối tượng bản đồ tương tác mới\n• Tự động hó
 caES = "• Nous objectes interactius del mapa\r\n• Automatització: sensors, relés, temporitzadors i més\r\n• Nous mapes: Oasi, Pressió, Desbordament\r\n• Escales de cargol, porta, embragatge, pancartes\r\n• Millores al procés de creació de mods\r\n• Renovació visual, ajustos del tutorial, eina de duplicació\r\n• Assoliments de Steam"
 beBY = "• Новыя інтэрактыўныя аб’екты на мапе\r\n• Аўтаматызацыя: датчыкі, рэле, таймеры і іншае\r\n• Новыя мапы: Аазіс, Ціск, Разліў\r\n• Вінтавыя лесвіцы, вароты, счапленне, банеры\r\n• Палепшаны працэс стварэння модаў\r\n• Абноўлены візуальны стыль, змены ў навучанні, інструмент дублявання\r\n• Дасягненні Steam"
 roRO = "• Obiecte interactive noi pentru hărți\r\n• Automatizare: senzori, relee, temporizatoare și altele\r\n• Hărți noi: Oază, Presiune, Revărsare\r\n• Scări spiralate, poartă, ambreiaj, bannere\r\n• Flux de lucru pentru modding îmbunătățit\r\n• Reîmprospătare vizuală, ajustări ale tutorialului, instrument de duplicare\r\n• Realizări Steam"
+huHU = "• Új interaktív térképelemek\r\n• Automatizálás: érzékelők, relék, időzítők és még sok más\r\n• Új pályák: Oázis, Nyomás, Kiömlés\r\n• Csigalépcső, kapu, kuplung, zászlók\r\n• Továbbfejlesztett modkészítési folyamat\r\n• Vizuális megújulás, finomított oktatóanyag, másolóeszköz\r\n• Steam-eredmények"
 arSA = "• عناصر تفاعلية جديدة على الخرائط\r\n• الأتمتة: مستشعرات، مرحّلات، مؤقّتات، والمزيد\r\n• خرائط جديدة: الواحة، الضغط، الانسكاب\r\n• سلالم حلزونية، بوابة، قابض، رايات\r\n• تحسين خط أنابيب التعديل\r\n• تحسينات بصرية، تعديلات على البرنامج التعليمي، أداة التكرار\r\n• إنجازات Steam"
 
 ["MainMenu.UpdateInfoHeader"]
@@ -15092,6 +15099,7 @@ status = "normal"
 prompt = "Text shown in the update info panel with the latest update summary. Sensor, Relay, Timer, Spiral Stairs, Gate, Banner and duplication naming must be consistent with the usage of those terms in the rest of the game."
 csCZ = "• Interaktivní mapové objekty\n• Automatizace: Senzory, Relé, Časovače a další\n• Nové mapy: Oasis, Pressure, Spillage\n• Šroubovité schodiště, Brána, Spojka, Prapory\n• Vylepšený pipeline pro modování\n• Vizuální přepracování, úpravy tutoriálu, nástroj pro duplikaci"
 viVN = "• Đối tượng bản đồ tương tác mới\n• Tự động hóa: Cảm biến, Rơ-le, Bộ hẹn giờ và nhiều thứ khác\n• Bản đồ mới: Oasis, Pressure, Spillage\n• Cầu thang xoắn ốc, Cổng, Lý hợp, Biểu ngữ\n• Quy trình modding được nâng cấp\n• Đồ họa được cải tiến, chỉnh sửa hướng dẫn, công cụ sao chép"
+caES = "• Nous objectes interactius del mapa\r\n• Automatització: sensors, relés, temporitzadors i més\r\n• Mapes nous: Oasi, Pressió, Vessament\r\n• Escales de cargol, porta, embragatge, bàners\r\n• Procés de creació de mods millorat\r\n• Renovació visual, ajustos al tutorial, eina de duplicació"
 beBY = "• Новыя інтэрактыўныя аб’екты карты\r\n• Аўтаматызацыя: датчыкі, рэле, таймеры і многае іншае\r\n• Новыя карты: Аазіс, Ціск, Разліў\r\n• Вінтавыя лесвіцы, вароты, муфта, сцягі\r\n• Палепшаны працэс стварэння модаў\r\n• Абноўлены візуальны стыль, змены ў навучанні, інструмент дублявання"
 roRO = "• Obiecte interactive noi pe hartă\r\n• Automatizare: senzori, relee, temporizatoare și altele\r\n• Hărți noi: Oază, Presiune, Deversare\r\n• Scări în spirală, poartă, ambreiaj, bannere\r\n• Flux de lucru pentru modding îmbunătățit\r\n• Reîmprospătare vizuală, ajustări ale tutorialului, instrument de duplicare"
 huHU = "• Új interaktív térképelemek\r\n• Automatizálás: érzékelők, relék, időzítők és egyebek\r\n• Új térképek: Oázis, Nyomás, Kiömlés\r\n• Csigalépcsők, kapu, tengelykapcsoló, zászlók\r\n• Továbbfejlesztett modkészítési folyamat\r\n• Vizuális átalakítás, finomítások az oktatóanyagban, másolóeszköz"
@@ -16876,6 +16884,8 @@ status = "normal"
 prompt = "Message shown when a mod is created successfully. {0} is a path to the mod folder. Do not remove <link><b> tags."
 csCZ = "Váš mod byl vytvořen v tomto adresáři:\n<link><b>{0}</b></link>\n\nRestartujte hru, aby byl načten mod."
 viVN = "Mod của bạn đã được tạo trong thư mục này:\n<link><b>{0}</b></link>\n\nHãy khởi động lại trò chơi để nạp nó."
+caES = "El teu mod s'ha creat en aquesta carpeta:\r\n<link><b>{0}</b></link>\r\n\r\nReinicia el joc per carregar-lo."
+huHU = "A modod ebben a mappában jött létre:\r\n<link><b>{0}</b></link>\r\n\r\nIndítsd újra a játékot a betöltéséhez."
 arSA = "تم إنشاء تعديلك في هذا المجلد:\r\n<link><b>{0}</b></link>\r\n\r\nأعد تشغيل اللعبة لتحميله."
 
 ["Modding.ModManagerHeader"]
@@ -19029,6 +19039,7 @@ prompt = "{0} is the save version (e.g. 0.1.15.1), {1} is the game version (in t
 csCZ = "Verze uloženého souboru ({0}) není kompatibilní se současnou verzí ({1}). Načtení uloženého souboru může způsobit pády a vážné problémy ve hře. Důrazně doporučujeme začít novou hru, abyste si plně užili nové funkce.  \n\nOpravdu chcete načíst uložený soubor?"
 viVN = "Phiên bản lưu ({0}) không tương thích với phiên bản hiện tại ({1}). Việc tải nó có thể gây treo và các vấn đề làm hỏng trò chơi. Chúng tôi khuyến nghị mạnh mẽ bắt đầu một trò chơi mới để tận hưởng đầy đủ các tính năng mới.\n\nBạn có chắc chắn muốn tải nó không?"
 caES = "La versió de la partida desada ({0}) no és compatible amb la versió actual ({1}). Carregar-la pot fer que el joc es tanqui inesperadament i causar problemes que impedeixin jugar. Recomanem fermament començar una partida nova per gaudir plenament de les noves funcions.  \r\n\r\nSegur que vols carregar-la?"
+beBY = "Версія захавання ({0}) несумяшчальная з бягучай версіяй ({1}). Яе загрузка можа выклікаць збоі і праблемы, якія парушаць працу гульні. Мы настойліва рэкамендуем пачаць новую гульню, каб у поўнай меры атрымаць асалоду ад новых магчымасцей.  \r\n\r\nВы ўпэўненыя, што хочаце загрузіць яе?"
 huHU = "A mentés verziója ({0}) nem kompatibilis a jelenlegi verzióval ({1}). Betöltése összeomlásokat és a játékot ellehetetlenítő problémákat okozhat. Nyomatékosan javasoljuk, hogy kezdj új játékot, hogy teljes mértékben élvezhesd az új funkciókat.  \r\n\r\nBiztosan be szeretnéd tölteni?"
 
 ["Saving.Settlements"]
@@ -22073,6 +22084,7 @@ status = "normal"
 prompt = "Badtide refers to Weather.Badtide"
 csCZ = "Vaše osídlení zvládlo svou první badtide.\n\nJako sucha jsou badtides součástí sezónního cyklu.\n\nBudoucí badtides nebudou tak shovívavé, takže buďte na pozoru."
 viVN = "Khu định cư của bạn đã trải qua đợt triều dữ đầu tiên.\n                                \nGiống như hạn hán, đợt triều dữ là một phần của chu kỳ theo mùa. \n                                \nCác đợt triều dữ trong tương lai sẽ không dễ tha thứ như vậy, vì vậy hãy tỉnh táo."
+caES = "El teu assentament ha superat la seva primera marea tòxica.\r\n                               \r\nCom les sequeres, les marees tòxiques formen part del cicle estacional. \r\n                               \r\nLes futures marees tòxiques no seran tan indulgents, així que estigues alerta."
 beBY = "Вашае паселішча перажыло свой першы бэдтайд.\r\n                               \r\nЯк і засухі, бэдтайды — частка сезоннага цыклу. \r\n                               \r\nНаступныя бэдтайды не будуць такімі паблажлівымі, таму будзьце напагатове."
 roRO = "Așezarea voastră a trecut cu bine de prima maree toxică.\r\n                               \r\nLa fel ca secetele, mareele toxice fac parte din ciclul anotimpurilor. \r\n                               \r\nUrmătoarele maree toxice nu vor fi la fel de îngăduitoare, așa că fiți vigilenți."
 huHU = "Településed átvészelte az első rosszvízáradatot.\r\n                               \r\nA szárazságokhoz hasonlóan a rosszvízáradatok is az évszakok körforgásának részei. \r\n                               \r\nA jövőbeli rosszvízáradatok nem lesznek ilyen kegyesek, úgyhogy maradj résen."
@@ -22345,6 +22357,8 @@ prompt = "Dam refers to Building.Dam.DisplayName"
 csCZ = "Ukládání vody do nádrží udržuje vaše bobry hydratované, ale dlouhodobé přežití závisí na zkrocení toku vody.\n\nVybudujte řadu přehrad přes nejbližší řeku, od břehu k břehu, a sledujte, co se stane."
 viVN = "Lưu nước trong các bể chứa nước giúp hải ly của bạn luôn được cấp nước đầy đủ, nhưng sự sống còn lâu dài phụ thuộc vào việc kiểm soát dòng nước.\n                        \nXây một hàng đập qua con sông gần nhất, từ bờ này sang bờ kia, và xem điều gì sẽ xảy ra."
 caES = "Emmagatzemar aigua en dipòsits manté els castors hidratats, però la supervivència a llarg termini depèn de dominar el flux de l’aigua.\r\n                        \r\nConstrueix una línia de preses a través del riu més proper, de riba a riba, i observa què passa."
+roRO = "Depozitarea apei în rezervoare îi menține hidratați pe castorii tăi, dar supraviețuirea pe termen lung depinde de îmblânzirea cursului apei.\r\n                        \r\nConstruiește un șir de baraje de-a lungul celui mai apropiat râu, de la un mal la celălalt, și observă ce se întâmplă."
+huHU = "A víz tartályokban való tárolása gondoskodik róla, hogy a hódjaid ne szomjazzanak, de a hosszú távú túlélés a víz áramlásának megzabolázásától függ.\r\n                        \r\nÉpíts gátakból egy sort a legközelebbi folyón, parttól partig, és figyeld meg, mi történik."
 arSA = "يُبقي تخزين الماء في الخزانات قنادسك مرتوية، لكن بقاءها على المدى الطويل يعتمد على ترويض تدفق المياه.\r\n                        \r\nابنِ صفًا من السدود عبر أقرب نهر، من ضفة إلى الضفة المقابلة، وراقب ما يحدث."
 
 ["Tutorial.DecreaseWorkplacePriority"]
@@ -22401,6 +22415,7 @@ viVN = "Chúc mừng! Khu định cư của bạn đã vượt qua trận hạn 
 caES = "Enhorabona! El teu assentament ha sobreviscut a la seva primera sequera.\r\n                               \r\nLes sequeres formen part del cicle estacional. Tornaran i s’allargaran amb el temps."
 roRO = "Felicitări! Așezarea ta a supraviețuit primei secete.\r\n                               \r\nSecetele fac parte din ciclul anotimpurilor. Vor reveni și vor deveni mai lungi în timp."
 huHU = "Gratulálunk! A településed túlélte az első aszályát.\r\n                               \r\nAz aszályok az évszakok ciklusának részei. Visszatérnek, és idővel egyre hosszabbak lesznek."
+arSA = "تهانينا! لقد صمدت مستوطنتك أمام أول جفاف لها.\r\n                               \r\nالجفاف جزء من الدورة الموسمية. سيعود مجددًا ويستمر لفترات أطول بمرور الوقت."
 
 ["Tutorial.Forestry"]
 raw = "Forestry"
@@ -22431,6 +22446,8 @@ prompt = "Plant Trees and Bushes is the same as ToolGroups.ForestryPlanting, Bir
 csCZ = "Použijte nástroj Zasadit stromy a keře k vysazení několika bříz. Rostou rychle, což z nich dělá dobrou volbu pro začínající osadu.\n\nPodobně jako plodiny, i stromy rostou jen na zavlažovaných, zelených plochách.\n\nNezapomeňte označit plochy určené k pokácení."
 viVN = "Sử dụng công cụ Trồng cây và bụi cây để trồng vài cây bạch dương. Chúng phát triển nhanh chóng, khiến chúng là một lựa chọn tốt cho một khu định cư non trẻ.\n\nTương tự như cây trồng, cây mọc chỉ trên những khu vực được tưới nước, xanh tươi.\n\nNhớ đánh dấu các khu vực trồng để chặt."
 beBY = "Выкарыстайце інструмент «Пасадзіць дрэвы і кусты», каб пасадзіць некалькі бяроз. Яны хутка растуць, таму добра падыходзяць для маладога паселішча.\r\n                                          \r\nЯк і сельскагаспадарчыя культуры, дрэвы растуць толькі на арашаемых зялёных участках.\r\n                                          \r\nНе забудзьцеся пазначыць месцы пасадкі для высечкі."
+roRO = "Folosește instrumentul de plantare a copacilor și arbuștilor pentru a planta câțiva mesteceni. Cresc repede, fiind o alegere bună într-o așezare abia înființată.\r\n                                          \r\nLa fel ca plantele de cultură, copacii cresc doar în zonele verzi irigate.\r\n                                          \r\nNu uita să marchezi zonele de plantare pentru tăiere."
+huHU = "A Fák és bokrok ültetése eszközzel ültess néhány nyírfát. Gyorsan nőnek, ezért jó választásnak számítanak egy még fiatal településen.\r\n                                          \r\nA növényekhez hasonlóan a fák is csak öntözött, zöld területeken nőnek.\r\n                                          \r\nNe felejtsd el kivágásra kijelölni az ültetési területeket."
 
 ["Tutorial.HaulersAndWorkforce"]
 raw = "Haulers and workforce"
@@ -22460,6 +22477,8 @@ status = "normal"
 csCZ = "Některá pracoviště, jako Hauling Posts, ve výchozím nastavení neobsazují všechna svá pracovní místa.\nMůžete změnit počet požadovaných pracovníků v panelu budovy.\n\nTaké můžete řídit obsazení budov pomocí priorit pracovišť. Například Hauling Post lze obvykle nastavit na nižší prioritu pracoviště.\n\nZkusme to teď."
 viVN = "Một số nơi làm việc, chẳng hạn như Cột Vận Chuyển, không lấp đầy tất cả các vị trí công nhân của chúng theo mặc định. Bạn có thể thay đổi số lượng công nhân mong muốn trong bảng điều khiển của một tòa nhà.\n\nNgoài ra, bạn có thể kiểm soát cách các tòa nhà được tuyển dụng nhân sự bằng cách thiết lập ưu tiên cho nơi làm việc. Ví dụ, Cột Vận Chuyển thường có thể được đặt ở mức ưu tiên nơi làm việc thấp hơn.\n\nHãy thử nó ngay bây giờ."
 caES = "Alguns llocs de treball, com ara els Posts de transport, no omplen per defecte totes les places de treballador. Pots canviar el nombre de treballadors desitjat al panell d'un edifici.\r\n                                              \r\nA més, pots controlar la dotació de personal dels edificis mitjançant les prioritats dels llocs de treball. Per exemple, normalment es pot establir una prioritat més baixa per al Post de transport.\r\n                                              \r\nProvem-ho ara."
+huHU = "Néhány munkahely, például a Hordárállomások, alapértelmezés szerint nem töltik be az összes dolgozói helyet. Az épület paneljén módosíthatod a kívánt dolgozók számát.\r\n                                              \r\nA munkahelyi prioritásokkal azt is szabályozhatod, hogyan legyenek beosztva a dolgozók az épületekbe. Például a Hordárállomás általában alacsonyabb munkahelyi prioritásra állítható.\r\n                                              \r\nPróbáljuk ki most."
+arSA = "بعض أماكن العمل، مثل مراكز النقل، لا تملأ جميع خانات العمال فيها افتراضيًا. يمكنك تغيير عدد العمال المطلوبين في لوحة المبنى.\r\n                                              \r\nيمكنك أيضًا التحكم في عدد العمال في المباني باستخدام أولويات أماكن العمل. فمثلًا، يمكن عادةً ضبط مركز النقل على أولوية أقل لمكان العمل.\r\n                                              \r\nلنجرب ذلك الآن."
 
 ["Tutorial.HaulersAndWorkforce.PauseHaulingPost"]
 raw = "You can pause buildings and construction sites. This gives you more control over the beavers' actions.\r\n                                               \r\nFor example, paused workplaces are vacated automatically and workers re-assign themselves to other available workplaces.\r\n                                               \r\nSelect the Hauling Post and pause it by clicking the button in its panel."
@@ -22467,7 +22486,10 @@ status = "normal"
 prompt = "Hauling Post refers to Building.HaulingPost.DisplayName"
 csCZ = "Můžete pozastavit budovy a staveniště. Tím získáte větší kontrolu nad činnostmi bobrů.\n\nNapříklad pozastavená pracoviště jsou automaticky uvolněna a pracovníci se sami přeřadí na jiná dostupná pracoviště.\n\nVyberte Nákladovou stanici a pozastavte ji kliknutím na tlačítko v jejím panelu."
 viVN = "Bạn có thể tạm dừng các công trình và công trường. Điều này cho bạn nhiều kiểm soát hơn đối với hành động của những chú hải ly.\n\nVí dụ, các nơi làm việc bị tạm dừng sẽ tự động được bỏ trống và công nhân sẽ tự phân công lại cho các nơi làm việc có sẵn khác.\n\nChọn Trạm Chở Hàng và tạm dừng nó bằng cách nhấp vào nút trong bảng điều khiển của nó."
+caES = "Pots posar en pausa els edificis i les obres en construcció. Això et dona més control sobre les accions dels castors.\r\n                                               \r\nPer exemple, els llocs de treball en pausa es buiden automàticament i els treballadors es reassignen a altres llocs de treball disponibles.\r\n                                               \r\nSelecciona el Punt de transport i posa'l en pausa fent clic al botó del seu panell."
+beBY = "Вы можаце прыпыняць працу будынкаў і будаўнічых пляцовак. Гэта дасць вам большы кантроль над дзеяннямі баброў.\r\n                                               \r\nНапрыклад, на прыпыненых працоўных месцах аўтаматычна вызваляюцца вакансіі, а работнікі самі пераходзяць на іншыя даступныя працоўныя месцы.\r\n                                               \r\nВыберыце Пункт грузчыкаў і прыпыніце яго, націснуўшы кнопку ў яго панэлі."
 roRO = "Poți pune pe pauză clădirile și șantierele. Astfel ai mai mult control asupra acțiunilor castorilor.\r\n                                               \r\nDe exemplu, locurile de muncă puse pe pauză se golesc automat, iar muncitorii se repartizează singuri la alte locuri de muncă disponibile.\r\n                                               \r\nSelectează Postul de transport și pune-l pe pauză făcând clic pe butonul din panoul său."
+huHU = "Az épületeket és az építési helyszíneket szüneteltetheted. Így jobban irányíthatod a hódok tevékenységét.\r\n                                               \r\nA szüneteltetett munkahelyekről például automatikusan távoznak a dolgozók, akik más, elérhető munkahelyekre osztják be magukat.\r\n                                               \r\nVálaszd ki a Hordárállomást, majd szüneteltesd a paneljén található gombra kattintva."
 
 ["Tutorial.Housing"]
 raw = "Housing"
@@ -22509,6 +22531,8 @@ raw = "Welcome to Timberborn! This tutorial will help you set your paw in the wa
 status = "normal"
 csCZ = "Vítejte v Timberbornu! Tento návod vám pomůže usadit se v pustině a přežít první dny.\n\nNaučíte se, jak používat nástroje potřebné k vybudování prosperující komunity bobrů.\n\nJak budete postupovat na dalších krocích, tipy se objeví zde."
 viVN = "Chào mừng bạn đến Timberborn!\nHướng dẫn này sẽ giúp bạn đặt chân vào vùng hoang vắng và sống sót qua những ngày đầu.\n\nBạn sẽ học cách sử dụng các công cụ cần thiết để xây dựng một cộng đồng hải ly thịnh vượng.\n\nKhi bạn tiến bộ qua các bước tiếp theo, các mẹo sẽ xuất hiện ở đây."
+caES = "Benvinguts a Timberborn! Aquest tutorial t’ajudarà a fer peu als erms i a sobreviure els primers dies.\r\n                                   \r\nAprendràs a fer servir les eines necessàries per construir una comunitat de castors pròspera.\r\n                                   \r\nA mesura que avancis pels passos següents, els consells apareixeran aquí."
+huHU = "Üdvözöl a Timberborn! Ez az oktatóanyag segít megvetned a lábad a pusztaságban, és túlélned az első napokat.\r\n                                   \r\nMegtanulod használni a virágzó hódközösség felépítéséhez szükséges eszközöket.\r\n                                   \r\nAhogy végigmész a következő lépéseken, itt jelennek majd meg a tippek."
 
 ["Tutorial.LayerTool.ChangeUsingMouse"]
 raw = "You can control the visible layer without clicking the buttons with customizable key bindings.\r\n                                     \r\nMany other actions have key bindings as well. You can find them in tooltips or in the Settings menu."
@@ -22516,6 +22540,7 @@ status = "normal"
 prompt = "Keybindings refers to Menu.KeyBindings"
 csCZ = "Můžete ovládat viditelnou vrstvu bez kliknutí na tlačítka pomocí přizpůsobitelných klávesových zkratek.\n\nMnoho dalších akcí má také klávesové zkratky. Najdete je v nápovědách (tooltipy) nebo v nabídce Nastavení."
 viVN = "Bạn có thể điều khiển lớp hiển thị mà không cần nhấp chuột vào các nút với thiết lập phím tắt tùy chỉnh.\n\nNhiều hành động khác cũng có phím tắt. Bạn có thể tìm chúng trong chú thích công cụ hoặc trong menu Cài đặt."
+caES = "Pots controlar la capa visible sense prémer els botons mitjançant assignacions de tecles personalitzables.\r\n                                     \r\nMoltes altres accions també tenen assignacions de tecles. Les trobaràs als consells d’eina o al menú Configuració."
 roRO = "Poți controla stratul vizibil fără să apeși butoanele, folosind asocieri de taste personalizabile.\r\n                                     \r\nMulte alte acțiuni au, de asemenea, asocieri de taste. Le poți găsi în sfaturile contextuale sau în meniul Setări."
 huHU = "A látható réteget a gombokra kattintás nélkül is válthatod testre szabható billentyű-hozzárendelésekkel.\r\n                                     \r\nSok más művelethez is tartozik billentyű-hozzárendelés. Ezeket az eszköztippekben vagy a Beállítások menüben találod."
 arSA = "يمكنك التحكم في الطبقة المرئية دون النقر على الأزرار، باستخدام روابط مفاتيح قابلة للتخصيص.\r\n                                     \r\nترتبط إجراءات أخرى كثيرة بمفاتيح أيضًا. يمكنك العثور عليها في التلميحات أو في قائمة الإعدادات."
@@ -22525,6 +22550,7 @@ raw = "As your settlement grows vertically, working beneath buildings and terrai
 status = "normal"
 csCZ = "Jak vaše osada roste vzhůru, práce pod budovami a terénem může být obtížná.\n\nNástroj Vrstva pomáhá tím, že skryje vše nad vybranou vrstvou.\n\nZměňme viditelnou vrstvu kliknutím na zvýrazněná tlačítka."
 viVN = "Khi khu định cư của bạn ngày càng phát triển theo chiều thẳng đứng, làm việc dưới các tòa nhà và địa hình có thể trở nên khó khăn.\n\nCông cụ Layer giúp làm điều đó bằng cách ẩn mọi thứ phía trên lớp được chọn.\n\nHãy thay đổi lớp hiển thị bằng cách nhấp vào các nút được làm nổi bật."
+caES = "A mesura que el teu assentament creix en vertical, pot resultar difícil treballar sota els edificis i el terreny.\r\n                                  \r\nL’eina de capes t’ajuda amagant tot el que hi ha per sobre de la capa seleccionada.\r\n                                  \r\nCanviem la capa visible fent clic als botons ressaltats."
 
 ["Tutorial.LayerTool.Decrease"]
 raw = "Lower visible layer to 0"
@@ -22624,6 +22650,8 @@ status = "normal"
 prompt = "The Tip is optional if there's no special name for beaver children in your language. If that's the case, remove this part."
 csCZ = "Bobři se nepřipouštějí k rozmnožování, dokud nejsou k dispozici volná místa pro bydlení. Folktails potřebují dvě dospělé osoby a prázdné místo pro to, aby se kouzlo mohlo stát."
 viVN = "Hải lý chỉ sinh sản khi có chỗ ở trống. Folktails cần hai người lớn và một chỗ trống để phép thuật diễn ra."
+caES = "Els castors no es reprodueixen si no hi ha places d’allotjament buides disponibles. Els Folktails necessiten dos adults i una plaça buida perquè es produeixi la màgia.\r\n                                              \r\nConsell: Les cries de castor s’anomenen cadells."
+beBY = "Бабры не размнажаюцца, калі няма свабодных месцаў у жыллі. Фолктэйлз патрэбны двое дарослых і свабоднае месца, каб здарылася магія.\r\n                                              \r\nПарада: Дзіцянят баброў называюць бабранятамі."
 arSA = "لا تتكاثر القنادس إلا إذا توفرت خانات سكنية شاغرة. وتحتاج الفولكتيلز إلى بالغين اثنين وخانة شاغرة كي يحدث السحر.\r\n                                              \r\nمعلومة: تُسمّى صغار القنادس «كِتس»."
 
 ["Tutorial.PauseBuilding"]
@@ -22674,7 +22702,9 @@ status = "normal"
 prompt = "Water Wheel is the same as Building.WaterWheel.DisplayName"
 csCZ = "Pokročilejší budovy vyžadují energii, a bobři mají rádi, když jejich energie pochází z řeky.\n                                    \nUmístěte Vodní kolo do proudící vody podél břehu řeky."
 viVN = "Các công trình tiên tiến hơn cần điện năng, và các hà ly thích nguồn điện của chúng đến từ dòng sông.\n                                    \nĐặt Water Wheel trong nước chảy dọc theo bờ sông."
+caES = "Els edificis més avançats necessiten energia, i als castors els agrada que provingui del riu.\r\n                                    \r\nCol·loca una roda hidràulica en aigua corrent al llarg de la riba del riu."
 beBY = "Больш прасунутыя будынкі патрабуюць энергіі, і бабры любяць, каб энергія паступала ад ракі.\r\n                                    \r\nРазмясціце вадзяное кола ў плыні вады ўздоўж берага ракі."
+roRO = "Clădirile mai avansate necesită energie, iar castorilor le place ca energia lor să provină din râu.\r\n                                    \r\nAmplasează o Roată de apă în apa curgătoare de-a lungul malului râului."
 huHU = "A fejlettebb épületeknek energiára van szükségük, a hódok pedig szeretik, ha az energiát a folyó adja.\r\n                                    \r\nHelyezz el egy vízikereket a folyópart mentén, az áramló vízbe."
 arSA = "تتطلب المباني الأكثر تطورًا الطاقة، وتفضّل القنادس أن تأتي طاقتهم من النهر.\r\n                                    \r\nضع عجلة مائية في مياه جارية على ضفة النهر."
 
@@ -22733,6 +22763,7 @@ prompt = "Inventor is the same as Building.Inventor.DisplayName, Science Points 
 csCZ = "Bobři jsou inženýry živočišného světa. Je čas proměnit jejich lumberpunkové nápady ve skutečnost.\nPostavte Vynálezce, abyste získali vědecké body."
 viVN = "Hải ly là những kỹ sư của thế giới động vật. Đã đến lúc biến những ý tưởng lumberpunk của chúng thành hiện thực.\n                            Xây dựng một Inventor để tạo ra Science Points."
 beBY = "Бабры — інжынеры жывёльнага свету. Час увасобіць іхнія лесапанкаўскія ідэі ў жыццё.\r\n                           \r\nПабудуйце Вынаходніка, каб атрымліваць ачкі навукі."
+roRO = "Castorii sunt inginerii lumii animale. E timpul să transformăm ideile lor lumberpunk în realitate.\r\n                           \r\nConstruiește un Inventator pentru a produce Puncte de știință."
 
 ["Tutorial.Science.SciencePoints"]
 raw = "For now, let the Inventor work.\r\n                                \r\nOnce you accumulate enough Science Points, we'll spend them to unlock more advanced buildings."
@@ -22740,6 +22771,7 @@ status = "normal"
 prompt = "Inventor is the same as Building.Inventor.DisplayName, Science Points is the same as Science.SciencePoints"
 csCZ = "Zatím nech Vynálezce pracuje.\n\nJakmile nasbíráte dostatek vědeckých bodů, utratíme je za odemknutí pokročilejších budov."
 viVN = "Hiện tại, hãy để Inventor làm việc.\n                                \nKhi bạn tích lũy đủ Science Points, chúng tôi sẽ tiêu chúng để mở khóa các công trình phức tạp hơn."
+caES = "De moment, deixem que l'Inventor treballi.\r\n                                \r\nQuan acumuleu prou punts de ciència, els farem servir per desbloquejar edificis més avançats."
 roRO = "Deocamdată, lasă Inventatorul să lucreze.\r\n                                \r\nDupă ce acumulezi suficiente Puncte de știință, le vom folosi pentru a debloca clădiri mai avansate."
 huHU = "Egyelőre hagyjuk dolgozni a Feltalálót.\r\n                                \r\nHa elegendő tudománypontot gyűjtünk össze, elköltjük őket, hogy fejlettebb épületeket oldjunk fel."
 arSA = "في الوقت الحالي، دع المخترع يعمل.\r\n                                \r\nعندما تجمع نقاط علوم كافية، سننفقها لفتح مبانٍ أكثر تقدمًا."
@@ -22819,6 +22851,7 @@ csCZ = "Nakonec si připravme sklad pro Bobule. Měli bychom se také připravit
 viVN = "Cuối cùng, hãy chuẩn bị một kho lưu trữ cho quả mọng. Chúng ta cũng nên chuẩn bị cho vụ thu hoạch cà rốt sắp tới.\n\nThức ăn, cũng như nhiều mặt hàng đóng hộp khác, được lưu trữ trong các kho."
 caES = "Finalment, preparem una mica d'espai d'emmagatzematge per a les baies. També ens hauríem de preparar per a la propera collita de pastanagues.\r\n                             \r\nEls aliments, com molts altres productes en caixes, s'emmagatzemen en magatzems."
 beBY = "Нарэшце, падрыхтуем месца для захоўвання ягад. Таксама варта падрыхтавацца да хуткага збору ўраджаю морквы.\r\n                             \r\nЕжа, як і многія іншыя тавары ў скрынях, захоўваецца на складах."
+roRO = "În sfârșit, să pregătim ceva spațiu de depozitare pentru Fructe de pădure. Ar trebui să ne pregătim și pentru recolta de Morcov care se apropie.\r\n                             \r\nAlimentele, la fel ca multe alte bunuri ambalate în cutii, sunt depozitate în depozite."
 huHU = "Végül készítsünk elő egy kis raktárhelyet a bogyóknak. Az előttünk álló sárgarépa-betakarításra is fel kell készülnünk.\r\n                             \r\nAz élelmiszert – sok más ládás áruhoz hasonlóan – raktárakban tároljuk."
 arSA = "أخيرًا، لنُجهّز بعض أماكن التخزين للتوت. وينبغي لنا أيضًا الاستعداد لمحصول الجزر القادم.\r\n                             \r\nالطعام، مثل كثير من السلع الأخرى المعبأة في صناديق، يُخزَّن في المستودعات."
 
@@ -22863,6 +22896,7 @@ status = "normal"
 prompt = "Lodges refers to Building.Lodge.DisplayName, Rooftop Terrace refers to Building.RooftopTerrace.DisplayName"
 csCZ = "Na poušti je důležité optimalizovat využití prostoru. Bobři to dělají tím, že svá města budují vertikálně.\n\nNěkteré budovy, například Lodges, mají ploché střechy, které mohou nést jiné konstrukce.\n\nPostavme nyní střešní terasu. Možná bude potřeba použít schody, abyste ji spojili se čtvrtí."
 viVN = "Trong sa mạc hoang vắng, việc tối ưu hóa không gian là rất quan trọng. Hải ly thực hiện điều đó bằng cách xây dựng thành phố của chúng theo chiều dọc.\n\nMột số tòa nhà, như Lodges, có mái bằng có thể chịu được các công trình khác.\n\nHãy xây dựng Rooftop Terrace ngay bây giờ. Bạn có thể cần sử dụng Cầu thang để kết nối nó với khu vực."
+caES = "A les terres ermes, és important optimitzar l’ús de l’espai. Els castors ho fan fent créixer les seves ciutats en vertical.\r\n                                                   \r\nAlguns edificis, com ara les cabanes, tenen teulades planes que poden sostenir altres estructures.\r\n                                                   \r\nConstruïm ara una terrassa al terrat. Potser hauràs d’utilitzar escales per connectar-la amb el districte."
 arSA = "في الأراضي القاحلة، من المهم الاستفادة المثلى من المساحة. تحقق القنادس ذلك ببناء مدنها عموديًا.\r\n                                                   \r\nبعض المباني، مثل النُزُل، لها أسطح مستوية يمكن أن تدعم منشآت أخرى.\r\n                                                   \r\nلنبنِ شرفة السطح الآن. قد تحتاج إلى استخدام السلالم لربطها بالحيّ."
 
 ["Tutorial.WaterAndFood"]
@@ -22882,6 +22916,8 @@ status = "normal"
 prompt = "Farmhouse is the same as in Building.Farmhouse.DisplayName"
 csCZ = "V dlouhodobém horizontu potřebujeme něco výživnějšího. Postavte Farmhouse, abyste mohli pěstovat a sklízet plodiny.\n\nPodobně jako prapory, má Farmhouse omezený dosah.\n\nTip: Pokud máte málo dělníků, můžete pozastavit některé budovy. Chcete-li tak učinit, vyberte budovu a klikněte na tlačítko Pozastavit."
 viVN = "Về lâu dài, chúng ta cần thứ gì đó bổ dưỡng hơn. Xây một Farmhouse để trồng và thu hoạch cây trồng.\n\nGiống như cờ hiệu, Farmhouse có phạm vi giới hạn.\n\nGợi ý: Nếu bạn đang thiếu lao động, bạn có thể tạm dừng một số công trình. Để làm điều đó, hãy chọn một công trình và nhấn nút tạm dừng."
+roRO = "Pe termen lung, avem nevoie de ceva mai hrănitor. Construiește o fermă pentru a planta și recolta culturi.\r\n                                 \r\nLa fel ca steagurile, o fermă are o rază de acțiune limitată.\r\n                                 \r\nSfat: Dacă duci lipsă de muncitori, poți pune pe pauză unele clădiri. Pentru asta, selectează o clădire și apasă butonul de pauză."
+huHU = "Hosszú távon táplálóbb élelemre lesz szükségünk. Építs egy farmházat, hogy növényeket ültess és takaríts be.\r\n                                 \r\nA zászlókhoz hasonlóan a farmháznak is korlátozott a hatótávolsága.\r\n                                 \r\nTipp: Ha kevés a munkásod, szüneteltethetsz néhány épületet. Ehhez válassz ki egy épületet, majd kattints a szüneteltetés gombra."
 arSA = "على المدى البعيد، نحتاج إلى غذاء أكثر قيمة غذائية. ابنِ مزرعة لزراعة المحاصيل وحصادها.\r\n                                 \r\nمثل الرايات، نطاق المزرعة محدود.\r\n                                 \r\nنصيحة: إذا كنت تعاني نقصًا في العمال، يمكنك إيقاف بعض المباني مؤقتًا. للقيام بذلك، حدّد مبنى وانقر زر الإيقاف المؤقت."
 
 ["Tutorial.WaterAndFood.Gatherer"]
@@ -22890,6 +22926,7 @@ status = "normal"
 prompt = "Berries is the same as Good.Berries.PluralDisplayName, Gatherer Flag is the same as Building.GathererFlag.DisplayName, Blueberry Bushes refers to NaturalResource.Blueberry.DisplayName"
 csCZ = "Kromě vody potřebují bobři i jídlo.\n\nSběrači automaticky sbírají Bobule v dosahu vlajky sběrače. Můžete vidět dosah při umísťování vlajky.\n\nPostavte vlajku sběrače poblíž borůvkových keřů."
 viVN = "Ngoài nước, hải ly cũng cần thức ăn.\n\nNhững người hái sẽ tự động thu thập quả mọng trong phạm vi của Cờ Hái. Bạn có thể nhìn thấy phạm vi khi đặt cờ.\n\nXây một Cờ Hái gần một số bụi việt quất."
+caES = "A més d'aigua, els castors necessiten menjar.\r\n                                \r\nEls recol·lectors recullen automàticament baies dins del radi de la bandera de recol·lecció. Pots veure'n el radi quan col·loques la bandera.\r\n                                \r\nConstrueix una bandera de recol·lecció a prop d'uns arbustos de nabius."
 roRO = "Pe lângă apă, castorii au nevoie de hrană.\r\n                                \r\nCulegătorii adună automat fructe de pădure din raza Steagului de culegător. Poți vedea raza când plasezi steagul.\r\n                                \r\nConstruiește un Steag de culegător lângă niște tufe de afine."
 huHU = "A víz mellett a hódoknak élelemre is szükségük van.\r\n                                \r\nA gyűjtők automatikusan összegyűjtik a bogyókat a Gyűjtőzászló hatótávolságán belül. A zászló elhelyezésekor láthatod a hatótávolságát.\r\n                                \r\nÉpíts egy Gyűjtőzászlót néhány áfonyabokor közelébe."
 
@@ -22900,6 +22937,7 @@ prompt = "Plant Crops is the same as in ToolGroups.FieldsPlanting, Carrot is the
 csCZ = "Farmáři nezačnou pracovat, dokud jim neřeknete, co a kam zasít.\n\nPoužijte nástroj pro sázení plodin, abyste označili pole mrkve.\n\nPlodiny musí být zasazeny na zavlažované, zelené půdě. Jinak se rostliny vyschnou a nakonec uhynou."
 viVN = "Người nông dân sẽ không bắt đầu làm việc cho đến khi bạn cho họ biết phải trồng cái gì và ở đâu.\n\nSử dụng công cụ Plant Crops để chỉ định một cánh đồng cà rốt.\n\nCác loại cây trồng phải được trồng trên đất được tưới nước và xanh tươi. Nếu không, cây trồng sẽ khô héo và cuối cùng chết."
 roRO = "Fermierii nu încep să lucreze până nu le spui ce și unde să planteze.\r\n                                   \r\nFolosește instrumentul Plantare culturi pentru a desemna un câmp de morcovi.\r\n                                   \r\nCulturile trebuie plantate pe teren irigat și verde. Altfel, plantele se vor usca și, în cele din urmă, vor muri."
+huHU = "A gazdák csak akkor kezdenek dolgozni, ha megmondod nekik, mit és hová ültessenek.\r\n                                   \r\nA Növények ültetése eszközzel jelölj ki egy sárgarépaföldet.\r\n                                   \r\nA növényeket öntözött, zöld földbe kell ültetni. Ellenkező esetben kiszáradnak, és végül elpusztulnak."
 
 ["Tutorial.WaterAndFood.WaterPump"]
 raw = "Beavers need water to survive.\r\n                                 \r\nBuild a Water Pump to ensure continuous access to drinking water. Remember to connect the Pump to the District Center."
@@ -22909,6 +22947,7 @@ csCZ = "Bobři potřebují vodu k přežití.\n\nPostavte Water Pump, abyste zaj
 viVN = "Hải ly cần nước để tồn tại.\n\nXây dựng Máy bơm nước để đảm bảo có nước uống liên tục. Nhớ kết nối Máy bơm nước với Trung tâm khu vực."
 beBY = "Бабрам патрэбна вада, каб выжыць.\r\n                                 \r\nПабудуйце вадзяную помпу, каб забяспечыць пастаянны доступ да пітной вады. Не забудзьцеся злучыць помпу з цэнтрам раёна."
 roRO = "Castorii au nevoie de apă pentru a supraviețui.\r\n                                 \r\nConstruiește o pompă de apă pentru a asigura accesul continuu la apă potabilă. Nu uita să conectezi pompa la Centrul districtual."
+arSA = "تحتاج القنادس إلى الماء للبقاء على قيد الحياة.\r\n                                 \r\nابنِ مضخة مياه لضمان توفر مياه الشرب باستمرار. تذكّر توصيل المضخة بمركز المنطقة."
 
 ["Tutorial.Wellbeing"]
 raw = "Well-being"
@@ -22975,6 +23014,7 @@ csCZ = "Pamatujte, že bobři potřebují volný čas na jídlo, pití, spaní a
 viVN = "Hãy nhớ rằng hải ly cần có thời gian rảnh để ăn, uống, ngủ và tận hưởng các điểm tham quan của khu định cư.\n\nĐể tối đa hóa năng suất, bạn cần cân bằng phúc lợi của người lao động và thời gian làm việc của họ.\n\nHiện tại, hãy quay lại với thời gian làm việc mặc định."
 caES = "Recorda que els castors necessiten temps lliure per menjar, beure, dormir i gaudir dels atractius de l'assentament.\r\n                                    \r\nPer maximitzar la productivitat, cal equilibrar el benestar dels treballadors i les seves hores de feina.\r\n                                    \r\nDe moment, tornem a l'horari de treball predeterminat."
 beBY = "Памятайце, што бабрам патрэбны вольны час, каб есці, піць, спаць і карыстацца забаўкамі паселішча.\r\n                                    \r\nКаб максімальна павысіць прадукцыйнасць, трэба збалансаваць дабрабыт работнікаў і працягласць іх працоўнага дня.\r\n                                    \r\nПакуль што вернемся да стандартных працоўных гадзін."
+roRO = "Nu uita că castorii au nevoie de timp liber pentru a mânca, a bea, a dormi și a se bucura de atracțiile așezării.\r\n                                    \r\nPentru a maximiza productivitatea, trebuie să echilibrezi bunăstarea lucrătorilor cu programul lor de lucru.\r\n                                    \r\nDeocamdată, să revenim la programul de lucru implicit."
 huHU = "Ne feledd, hogy a hódoknak szabadidőre van szükségük ahhoz, hogy egyenek, igyanak, aludjanak és élvezzék a település látványosságait.\r\n                                    \r\nA termelékenység maximalizálásához egyensúlyt kell teremtened a dolgozók jólléte és munkaideje között.\r\n                                    \r\nEgyelőre állítsuk vissza az alapértelmezett munkaidőt."
 
 ["Tutorial.Wellbeing.Shrub"]
@@ -22993,7 +23033,9 @@ status = "normal"
 prompt = "Well-being is the same as Wellbeing.DisplayName"
 csCZ = "Pro bobry je důležitá celá společnost. V levém horním rohu obrazovky můžete vidět průměrnou hodnotu Wellbeing vaší kolonie.\n                                    \nKlikněte na něj, abyste viděli splnění všech možných potřeb. Existuje mnoho způsobů, jak život na pustině učinit snesitelnějším."
 viVN = "Đối với hải ly, toàn bộ xã hội mới là điều quan trọng.\nBạn có thể xem Wellbeing trung bình của khu định cư ở góc trên bên trái màn hình.\n\nNhấp vào nó để xem mức độ đáp ứng của mọi nhu cầu có thể.\nCó nhiều cách để cuộc sống ở vùng hoang tàn trở nên dễ chịu hơn."
+caES = "Per als castors, el que compta és tota la societat. Pots veure el benestar mitjà del teu assentament a la cantonada superior esquerra de la pantalla.\r\n                                   \r\nFes-hi clic per veure la satisfacció de totes les necessitats possibles. Hi ha moltes maneres de fer la vida a les terres ermes més suportable."
 beBY = "Для баброў важнае ўсё грамадства. Сярэдні ўзровень дабрабыту вашага паселішча можна ўбачыць у левым верхнім куце экрана.\r\n                                   \r\nНацісніце на яго, каб убачыць задаволенасць усіх магчымых патрэб. Ёсць шмат спосабаў зрабіць жыццё на пустцы больш цярпімым."
+roRO = "Pentru castori, contează întreaga societate. Poți vedea bunăstarea medie a așezării tale în colțul din stânga sus al ecranului.\r\n                                   \r\nDă clic pe ea pentru a vedea gradul de satisfacere a tuturor nevoilor posibile. Există multe moduri de a face viața în pustietate mai suportabilă."
 arSA = "بالنسبة للقنادس، المجتمع بأكمله هو المهم. يمكنك رؤية متوسط الرفاهية في مستعمرتك في الزاوية العلوية اليسرى من الشاشة.\r\n                                   \r\nانقر عليه للاطلاع على تلبية جميع الاحتياجات الممكنة. هناك طرق كثيرة لجعل الحياة في الأراضي القاحلة أكثر احتمالًا."
 
 ["Tutorial.Wood"]
@@ -23023,6 +23065,8 @@ prompt = "Flags referers to Lumberjack Flag as in Building.LumberjackFlag.Displa
 csCZ = "Vlajky dřevorubců se nebudou stavět, pokud nebudou v dosahu budov distriktu.\n\nVyberte Centrum distriktu a zobrazte jeho dosah budov. Lze jej prodloužit propojením cest k vchodu Distriktního centra."
 viVN = "Các cờ người đốn gỗ sẽ không được xây dựng cho đến khi chúng nằm trong phạm vi xây dựng của quận.\n\nChọn Trung tâm quận để xem phạm vi xây dựng của nó. Bạn có thể mở rộng nó bằng cách kết nối các đường đi tới lối vào của Trung tâm quận."
 caES = "Les banderes de llenyataire no es construiran si no són dins del radi de construcció del districte.\r\n                                 \r\nSelecciona el Centre del districte per veure'n el radi de construcció. Pots ampliar-lo connectant camins a l'entrada del Centre del districte."
+roRO = "Steagurile nu vor fi construite decât dacă se află în raza de construcție a districtului.\r\n                                 \r\nSelectați Centrul districtului pentru a-i vedea raza de construcție. O puteți extinde conectând drumuri la intrarea Centrului districtului."
+huHU = "A favágózászlók nem épülnek meg, hacsak nincsenek a körzet építési hatótávolságán belül.\r\n                                 \r\nVálaszd ki a Körzetközpontot, hogy lásd az építési hatótávolságát. Az útvonalaknak a Körzetközpont bejáratához való csatlakoztatásával kiterjesztheted."
 
 ["Tutorial.Wood.MarkTrees"]
 raw = "Lumberjacks only cut trees in areas that you mark for cutting.\r\n                         \r\nThe trees must be within a Lumberjack Flag's range. Select a flag to see its range.\r\n                         \r\nUse the Mark Tree Cutting Area tool now. Hold the mouse button to select multiple tiles at once."
@@ -23031,6 +23075,7 @@ prompt = "Lumberjacks refers to workers working in Building.LumberjackFlag.Displ
 csCZ = "Dřevorubci kácí stromy pouze v oblastech, které označíte pro kácení.\n                         \nStromy musí být v dosahu vlajky Dřevorubci. Vyberte vlajku, abyste viděli její dosah.\n                         \nPoužijte nástroj pro označení oblasti kácení stromů nyní. Držte tlačítko myši pro výběr více dlaždic najednou."
 viVN = "Công nhân đốn gỗ chỉ chặt cây ở những khu vực bạn đánh dấu để chặt cây.\n\nNhững cây phải nằm trong phạm vi của Cờ Công nhân đốn gỗ. Chọn một cờ để xem phạm vi của nó.\n\nSử dụng công cụ Đánh dấu Khu vực Chặt Cây ngay bây giờ. Giữ nút chuột để chọn nhiều ô cùng lúc."
 caES = "Els llenyataires només tallen arbres a les zones que marques per talar.\r\n                         \r\nEls arbres han de trobar-se dins l’abast d’una bandera de llenyataire. Selecciona una bandera per veure’n l’abast.\r\n                         \r\nFes servir ara l’eina de marcatge de zones de tala d’arbres. Mantén premut el botó del ratolí per seleccionar diverses caselles alhora."
+beBY = "Лесарубы ссякаюць дрэвы толькі ў зонах, якія вы пазначылі для высечкі.\r\n                         \r\nДрэвы павінны знаходзіцца ў зоне дзеяння сцяга лесаруба. Выберыце сцяг, каб убачыць зону яго дзеяння.\r\n                         \r\nЦяпер скарыстайцеся інструментам «Пазначыць зону высечкі дрэў». Утрымлівайце кнопку мышы, каб выбраць некалькі клетак адразу."
 roRO = "Tăietorii de lemne taie copaci doar în zonele pe care le marchezi pentru tăiere.\r\n                         \r\nCopacii trebuie să se afle în raza unui Steag al tăietorilor de lemne. Selectează un steag pentru a-i vedea raza.\r\n                         \r\nFolosește acum instrumentul de marcare a zonei de tăiere a copacilor. Ține apăsat butonul mouse-ului pentru a selecta mai multe dale simultan."
 huHU = "A favágók csak azokon a területeken vágják ki a fákat, amelyeket kivágásra jelölsz.\r\n                         \r\nA fáknak a Favágózászló hatótávolságán belül kell lenniük. Válassz ki egy zászlót a hatótávolságának megtekintéséhez.\r\n                         \r\nMost használd a fakivágási terület kijelölése eszközt. Tartsd lenyomva az egérgombot több mező egyidejű kijelöléséhez."
 
@@ -23041,7 +23086,9 @@ prompt = "Logs is same as Good.Log.PluralDisplayName, Lumberjack Flag is the sam
 csCZ = "Každá bobří osada potřebuje dříví, a hodně ho. Pouze dřevorubci kácí stromy. \n                                \nPostavte vlajky dřevorubů vedle blízkých stromů."
 viVN = "Mỗi khu định cư của hải ly đều cần gỗ, và rất nhiều gỗ. Chỉ thợ đốn gỗ mới đốn cây.\n\nĐặt Cờ đốn gỗ cạnh những cây gần đó."
 caES = "Cada assentament de castors necessita troncs, i molts. Només els llenyataires talen arbres. \r\n                                \r\nConstrueix banderes de llenyataire al costat dels arbres propers."
+beBY = "Кожнаму паселішчу баброў патрэбныя бярвенні, і шмат іх. Толькі лесарубы сякуць дрэвы. \r\n                                \r\nБудуйце пасты лесарубаў побач з дрэвамі."
 roRO = "Fiecare așezare de castori are nevoie de bușteni, și de mulți. \r\n                                \r\nConstruiește steaguri de tăietor de lemne lângă copacii din apropiere."
+huHU = "Minden hódtelepülésnek rönkökre van szüksége, méghozzá sokra. Csak a favágók vághatnak ki fákat. \r\n                                \r\nÉpíts favágózászlókat a közeli fák mellé."
 arSA = "تحتاج كل مستوطنة للقنادس إلى جذوع الأشجار، والكثير منها. وحدهم قاطعو الأشجار يقطعون الأشجار. \r\n                                \r\nابنِ أعلام قاطعي الأشجار بجوار الأشجار القريبة."
 
 ["Tutorial.WorkingHours"]
