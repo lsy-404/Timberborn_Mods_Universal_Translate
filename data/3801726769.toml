@@ -1712,6 +1712,7 @@ thTH = "● <YellowHighlight>ให้ความสูงยก:</YellowHighli
 csCZ = "● <YellowHighlight>Poskytuje výtlačnou výšku:</YellowHighlight> {0:0.0}m"
 viVN = "● <YellowHighlight>Cung cấp độ nâng cột nước:</YellowHighlight> {0:0.0}m"
 caES = "● <YellowHighlight>Proporciona elevació:</YellowHighlight> {0:0.0}m"
+beBY = "● <YellowHighlight>Забяспечвае напор:</YellowHighlight> {0:0.0}m"
 roRO = "● <YellowHighlight>Oferă înălțime de ridicare:</YellowHighlight> {0:0.0}m"
 huHU = "● <YellowHighlight>Emelési magasság biztosítása:</YellowHighlight> {0:0.0}m"
 arSA = "● <YellowHighlight>يوفر ارتفاع الرفع:</YellowHighlight> {0:0.0}m"
